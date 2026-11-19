@@ -1,6 +1,6 @@
-const CACHE = "xcde-guide-v5-20261119";
+const CACHE = "xcde-guide-v6-20261119b";
 const CORE = [
-  "./", "./index.html", "./manifest.webmanifest", "./data/official-names.js",
+  "./", "./index.html", "./manifest.webmanifest", "./data/official-names.js", "./edit-mode.js",
   "./data/route-data.js", "./data/world-data.js", "./data/build-data.js", "./data/workshop-data.js", "./data/route-bindings-data.js", "./data/quest-schedule-data.js",
   "./data/world-route-anchors-early.js", "./data/world-route-anchors-mid.js", "./data/world-route-anchors-late.js",
   // Needed to complete the game away from a connection. Monsterpedia (2.4 MB) and the
