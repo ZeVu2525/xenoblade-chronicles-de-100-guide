@@ -15,18 +15,18 @@ const QUEST_SCHEDULE_DATA = {
   "schedules": [
     {
       "questId": "quest-colony-9-mementos-of-a-lost-son-9e0dd266",
-      "questName": "Mementos of a Lost Son",
-      "area": "Colony 9",
+      "questName": "息子の形見",
+      "area": "コロニー9",
       "requirements": "Access to Tephra Cave",
       "details": "Requires: Access to Tephra Cave — Find Chery's Son's Armor (Tephra Cave), Gun (Bionis' Leg, south of Daksha Shrine), and Knife (Satorl Marsh, Shining Pond).",
       "givers": [
         {
           "residentId": "resident-cheryl-187037",
-          "name": "Cheryl",
+          "name": "ツィリル",
           "kind": "npc",
           "locations": [
             {
-              "location": "Commercial District (Northeast)",
+              "location": "商業区 (Northeast)",
               "time": "06:00–15:00"
             }
           ]
@@ -35,18 +35,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-the-key-to-a-long-life-c651adfb",
-      "questName": "The Key to a Long Life",
-      "area": "Colony 9",
+      "questName": "元気の秘訣",
+      "area": "コロニー9",
       "requirements": "None",
       "details": "Requires: None — Collect 2 lots of Medicinal Brog Oil from Cute Brogs in Colony 9.\nReturn to Dionysis.",
       "givers": [
         {
           "residentId": "resident-dionysis-3a2b10",
-          "name": "Dionysis",
+          "name": "ディオニージス",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Residential District)",
+              "location": "コロニー9 (居住区)",
               "time": "06:00–13:00"
             }
           ]
@@ -55,18 +55,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-a-curry-conundrum-8e3c9bc6",
-      "questName": "A Curry Conundrum",
-      "area": "Colony 9",
+      "questName": "人気カレー屋のピンチ",
+      "area": "コロニー9",
       "requirements": "Colony 9 area ☆1½",
       "details": "Requires: Colony 9 area ☆1½ — Collect 5 Dance Apples from Colony 9.",
       "givers": [
         {
           "residentId": "resident-giorgio-2411ba",
-          "name": "Giorgio",
+          "name": "コパム",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Commercial District)",
+              "location": "コロニー9 (商業区)",
               "time": "06:00–18:00"
             }
           ]
@@ -75,18 +75,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-biscuits-for-a-grandson-152ef976",
-      "questName": "Biscuits for a Grandson",
-      "area": "Colony 9",
+      "questName": "孫へのクッキー",
+      "area": "コロニー9",
       "requirements": "None",
       "details": "Requires: None — Take Marcia's Biscuits to Jiroque.\nReturn to Marcia.",
       "givers": [
         {
           "residentId": "resident-marcia-f35d99",
-          "name": "Marcia",
+          "name": "マーシャ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Commercial District)",
+              "location": "コロニー9 (商業区)",
               "time": "09:00–18:00"
             }
           ]
@@ -95,18 +95,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-birthday-shoes-af6b8430",
-      "questName": "Birthday Shoes",
-      "area": "Colony 9",
+      "questName": "親バカの靴",
+      "area": "コロニー9",
       "requirements": "Mechonis Core cleared\r\nquests Education-Crazy Suzanna as well as A Young Captain's Trust or A Young Captain's Revival\r\nColony 9 area ☆4¼",
       "details": "Requires: Mechonis Core cleared\r\nquests Education-Crazy Suzanna as well as A Young Captain's Trust or A Young Captain's Revival\r\nColony 9 area ☆4¼ — Collect 2 Azure Flamii Wings from Opulent Flamii in Colony 9.\nReturn to Kantz.",
       "givers": [
         {
           "residentId": "resident-kantz-4bfa25",
-          "name": "Kantz",
+          "name": "カンタン",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Military District)",
+              "location": "コロニー9 (軍事区)",
               "time": "06:00–15:00"
             }
           ]
@@ -115,18 +115,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-education-minded-suzanna-e284a74b",
-      "questName": "Education-Minded Suzanna",
-      "area": "Colony 9",
+      "questName": "教育熱心なスザンナ",
+      "area": "コロニー9",
       "requirements": "Moritz registered on the Colony 9 area Affinity Chart",
       "details": "Requires: Moritz registered on the Colony 9 area Affinity Chart — Collect 2 lots of Black Nectar from Skeeters in Tephra Cave.\nReturn to Suzanna.",
       "givers": [
         {
           "residentId": "resident-suzanna-f629f1",
-          "name": "Suzanna",
+          "name": "スザンナ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Residential District)",
+              "location": "コロニー9 (居住区)",
               "time": "06:00–15:00"
             }
           ]
@@ -135,18 +135,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-education-crazy-suzanna-6464b6d4",
-      "questName": "Education-Crazy Suzanna",
-      "area": "Colony 9",
+      "questName": "教育過剰なスザンナ",
+      "area": "コロニー9",
       "requirements": "Education-Minded Suzanna\r\nColony 9 area ☆2½",
       "details": "Requires: Education-Minded Suzanna\r\nColony 9 area ☆2½ — Collect 2 pieces of Heavy Bunniv Iron from Bunnivs in Tephra Cave.\nReturn to Suzanna.",
       "givers": [
         {
           "residentId": "resident-suzanna-f629f1",
-          "name": "Suzanna",
+          "name": "スザンナ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Residential District)",
+              "location": "コロニー9 (居住区)",
               "time": "06:00–15:00"
             }
           ]
@@ -155,18 +155,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-flattened-flowers-c57c1577",
-      "questName": "Flattened Flowers",
-      "area": "Colony 9",
+      "questName": "舞い散った花",
+      "area": "コロニー9",
       "requirements": "Access to Tephra Cave",
       "details": "Requires: Access to Tephra Cave — Collect 5 Dawn Hydrangeas from Colony 9.\nReturn to Françoise",
       "givers": [
         {
           "residentId": "resident-francoise-4582b2",
-          "name": "Françoise",
+          "name": "フランソワ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Residential District)",
+              "location": "コロニー9 (居住区)",
               "time": "06:00–15:00"
             }
           ]
@@ -175,18 +175,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-lonely-niranira-4a391273",
-      "questName": "Lonely Niranira",
-      "area": "Colony 9",
+      "questName": "孤独なニルニー",
+      "area": "コロニー9",
       "requirements": "None",
       "details": "Requires: None — Give Niranira's Letter to Lukas.\nReturn to Niranira",
       "givers": [
         {
           "residentId": "resident-niranira-d97335",
-          "name": "Niranira",
+          "name": "ニルニー",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Residential District)",
+              "location": "コロニー9 (居住区)",
               "time": "06:00–15:00"
             }
           ]
@@ -195,18 +195,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-the-broken-watch-ad2a0f8a",
-      "questName": "The Broken Watch",
-      "area": "Colony 9",
+      "questName": "機械オンチの腕時計",
+      "area": "コロニー9",
       "requirements": "Shulk as party leader",
       "details": "Requires: Shulk as party leader — Mend the watch in Shulk's Lab.\nCollect 3 Blue Chains from Colony 9.\nReturn to the Lab and mend the watch.\nReturn to Désirée",
       "givers": [
         {
           "residentId": "resident-desiree-83bb32",
-          "name": "Désirée",
+          "name": "デジレーン",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Commercial District)",
+              "location": "コロニー9 (商業区)",
               "time": "18:00–03:00"
             }
           ]
@@ -215,18 +215,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-the-old-soldier-s-test-b8753421",
-      "questName": "The Old Soldier's Test",
-      "area": "Colony 9",
+      "questName": "老兵ヤーンの試練",
+      "area": "コロニー9",
       "requirements": "Melia met in Makna Forest\r\nDionysis and Cheryl registered\r\nJan – Minnie affinity link (☆3)\r\n\"He's too old\" told to Dionysis",
       "details": "Requires: Melia met in Makna Forest\r\nDionysis and Cheryl registered\r\nJan – Minnie affinity link (☆3)\r\n\"He's too old\" told to Dionysis — Defeat LV34 Elder Gragus near the Nopon Arch in Makna Forest.\nReturn to Jan.",
       "givers": [
         {
           "residentId": "resident-jan-efed36",
-          "name": "Jan",
+          "name": "ヤーン",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Military District)",
+              "location": "コロニー9 (軍事区)",
               "time": "06:00–18:00"
             }
           ]
@@ -235,18 +235,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-romantic-notions-of-a-girl-66b7b8cf",
-      "questName": "Romantic Notions of a Girl",
-      "area": "Colony 9",
+      "questName": "恋愛成就・女性編",
+      "area": "コロニー9",
       "requirements": "Access to Tephra Cave\r\nErik registered in the Affinity Chart\r\nColony 9 area ☆2",
       "details": "Requires: Access to Tephra Cave\r\nErik registered in the Affinity Chart\r\nColony 9 area ☆2 — Obtain the Tephra Drop.\nReturn to Monica.",
       "givers": [
         {
           "residentId": "resident-monica-c67a6b",
-          "name": "Monica",
+          "name": "モニカ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Military District)",
+              "location": "コロニー9 (軍事区)",
               "time": "18:00–06:00"
             }
           ]
@@ -255,18 +255,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-romantic-notions-of-a-boy-a4c3d34c",
-      "questName": "Romantic Notions of a Boy",
-      "area": "Colony 9",
+      "questName": "恋愛成就・男性編",
+      "area": "コロニー9",
       "requirements": "Access to Tephra Cave\r\nRomantic Notions of a Girl accepted\r\nColony 9 area ☆2",
       "details": "Requires: Access to Tephra Cave\r\nRomantic Notions of a Girl accepted\r\nColony 9 area ☆2 — Obtain the Tephra Drop.\nReturn to Andreas.",
       "givers": [
         {
           "residentId": "resident-andreas-60d795",
-          "name": "Andreas",
+          "name": "アードルフ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Military District)",
+              "location": "コロニー9 (軍事区)",
               "time": "18:00–06:00"
             }
           ]
@@ -275,18 +275,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-an-impoverished-critic-8c1a542b",
-      "questName": "An Impoverished Critic",
-      "area": "Colony 9",
+      "questName": "貧乏評論家の悩み",
+      "area": "コロニー9",
       "requirements": "Sylviane registered in the Colony 9 area Affinity Chart\r\nafter the Mechon raid",
       "details": "Requires: Sylviane registered in the Colony 9 area Affinity Chart\r\nafter the Mechon raid — Meet King Squeeze and object to his harsh collection methods.\nInvestigate what King Squeeze and Sylviane are up to, or tell Leopold the facts.",
       "givers": [
         {
           "residentId": "resident-leopold-5c579e",
-          "name": "Leopold",
+          "name": "レモーレオン",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Commercial District)",
+              "location": "コロニー9 (商業区)",
               "time": "18:00–06:00"
             }
           ]
@@ -295,18 +295,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-financial-planning-1b77dae6",
-      "questName": "Financial Planning",
-      "area": "Colony 9",
+      "questName": "高利貸しの企み",
+      "area": "コロニー9",
       "requirements": "Access to Tephra Cave\r\nAn Impoverished Critic accepted",
       "details": "Requires: Access to Tephra Cave\r\nAn Impoverished Critic accepted — A Route\nTalk to Leopold\nCollect 5 lots of Caterpile Poison from Caterpiles in Tephra Cave.\nTalk with King Squeeze and slip some Caterpile Poison into his Pocket.\nReturn to Leopold.\n\nB Route\nTalk to Sylviane\nLook for the evidence that Sylviane disposed at the Central Plaza\nShow King Squeeze the Top-Secret Orders.",
       "givers": [
         {
           "residentId": "resident-king-squeeze-ba8a39",
-          "name": "King Squeeze",
+          "name": "キング・スクイズ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Commercial District)",
+              "location": "コロニー9 (商業区)",
               "time": "21:00–03:00"
             }
           ]
@@ -315,18 +315,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-overworked-and-underpaid-771d15a5",
-      "questName": "Overworked and Underpaid",
-      "area": "Colony 9",
+      "questName": "働きすぎコパム",
+      "area": "コロニー9",
       "requirements": "Access to Tephra Cave\r\nA Curry Conundrum\r\nColony 9 area ☆2",
       "details": "Requires: Access to Tephra Cave\r\nA Curry Conundrum\r\nColony 9 area ☆2 — A Route\nConvince Giorgio.\nCollect 3 Fresh Armu Milk from Armus in Colony 9.\nReturn to Giorgio.\n\nB Route\nConsult a Relative.\nCollect 3 pieces of Insanity Mint in Tephra Cave.\nReturn to Paola.\nTell Giorgio about the lie.",
       "givers": [
         {
           "residentId": "resident-giorgio-2411ba",
-          "name": "Giorgio",
+          "name": "コパム",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Commercial District)",
+              "location": "コロニー9 (商業区)",
               "time": "06:00–18:00"
             }
           ]
@@ -335,18 +335,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-pestering-paola-5e0aabdb",
-      "questName": "Pestering Paola",
-      "area": "Colony 9",
+      "questName": "グッド・パオラ",
+      "area": "コロニー9",
       "requirements": "After escorting Juju to the Refugee Camp\r\nSharla joined the party\r\nOverworked and Underpaid route A completed\r\nColony 9 area ☆3",
       "details": "Requires: After escorting Juju to the Refugee Camp\r\nSharla joined the party\r\nOverworked and Underpaid route A completed\r\nColony 9 area ☆3 — Talk with Paola. \nBeat the LV13 Fiendish Bunnit on the hill by Cliff Lake near Colony 9.\r\nReturn to Paola.\r\nReturn to Giorgio.",
       "givers": [
         {
           "residentId": "resident-giorgio-2411ba",
-          "name": "Giorgio",
+          "name": "コパム",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Commercial District)",
+              "location": "コロニー9 (商業区)",
               "time": "06:00–18:00"
             }
           ]
@@ -355,18 +355,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-out-of-luck-giorgio-1a923a16",
-      "questName": "Out-of-Luck Giorgio",
-      "area": "Colony 9",
+      "questName": "スランプ・コパム",
+      "area": "コロニー9",
       "requirements": "After escorting Juju to the Refugee Camp\r\nSharla joined the party\r\nOverworked and Underpaid route B completed\r\nColony 9 area ☆3",
       "details": "Requires: After escorting Juju to the Refugee Camp\r\nSharla joined the party\r\nOverworked and Underpaid route B completed\r\nColony 9 area ☆3 — Collect 5 Piranhax Roe.\r\nReturn to Giorgio.\nCollect 3 Juicy Broccoli.\r\nReturn to Giorgio.",
       "givers": [
         {
           "residentId": "resident-giorgio-2411ba",
-          "name": "Giorgio",
+          "name": "コパム",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Commercial District)",
+              "location": "コロニー9 (商業区)",
               "time": "06:00–18:00"
             }
           ]
@@ -375,18 +375,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-paola-and-narine-18d94380",
-      "questName": "Paola and Narine",
-      "area": "Colony 9",
+      "questName": "パオラとネリネ",
+      "area": "コロニー9",
       "requirements": "Access to Tephra Cave\r\nPaola registered in the Colony 9 area Affinity Chart\r\nShulk in the lead",
       "details": "Requires: Access to Tephra Cave\r\nPaola registered in the Colony 9 area Affinity Chart\r\nShulk in the lead — Raise the affinity between Shulk and Reyn to a good degree and then talk to Narine.\nRaise the affinity between Shulk and Reyn considerably more, and then talk to Paola.\nRaise the affinity between two female party members considerably and then talk to Paola.\nReturn to Narine.",
       "givers": [
         {
           "residentId": "resident-narine-ce29eb",
-          "name": "Narine",
+          "name": "ネリネ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Tranquil Square)",
+              "location": "コロニー9 (居住区 憩いの広場)",
               "time": "09:00–15:00"
             }
           ]
@@ -395,18 +395,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-the-plan-preparation-7b66a63b",
-      "questName": "The Plan - Preparation",
-      "area": "Colony 9",
+      "questName": "野望・準備編",
+      "area": "コロニー9",
       "requirements": "Access to Tephra Cave",
       "details": "Requires: Access to Tephra Cave — Collect 2 Croaking Brog Bags from Singing Brogs in Tephra Cave.\nReturn to Sesame.\nTalk to Betty.\nReturn to Sesame.",
       "givers": [
         {
           "residentId": "resident-sesame-4a371f",
-          "name": "Sesame",
+          "name": "ソルトセサミ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Commercial District)",
+              "location": "コロニー9 (商業区)",
               "time": "18:00–03:00"
             }
           ]
@@ -415,18 +415,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-the-plan-the-night-before-48265829",
-      "questName": "The Plan - The Night Before",
-      "area": "Colony 9",
+      "questName": "野望・前夜編",
+      "area": "コロニー9",
       "requirements": "Access to Tephra Cave\r\nThe Plan - Preparation\r\nColony 9 area ☆2",
       "details": "Requires: Access to Tephra Cave\r\nThe Plan - Preparation\r\nColony 9 area ☆2 — Collect 2 Iron Krabble Shells From Colony Krabbles in Colony 9.\nReturn to Sesame.\nTalk to Kenny Rohan.\nReturn to Sesame.",
       "givers": [
         {
           "residentId": "resident-sesame-4a371f",
-          "name": "Sesame",
+          "name": "ソルトセサミ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Commercial District)",
+              "location": "コロニー9 (商業区)",
               "time": "18:00–03:00"
             }
           ]
@@ -435,18 +435,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-the-plan-execution-1e25ac5f",
-      "questName": "The Plan - Execution",
-      "area": "Colony 9",
+      "questName": "野望・実行編",
+      "area": "コロニー9",
       "requirements": "Access to Tephra Cave\r\nThe Plan - The Night Before\r\nColony 9 area ☆3",
       "details": "Requires: Access to Tephra Cave\r\nThe Plan - The Night Before\r\nColony 9 area ☆3 — Defeat LV18 Dark Murakmor near Colony 9's Anti-Air Battery 3.\nReturn to Sesame.\nInvestigate the street lights at the entrance to the Commercial District.\nPrevent Sesame's devious plan, whatever it is!",
       "givers": [
         {
           "residentId": "resident-sesame-4a371f",
-          "name": "Sesame",
+          "name": "ソルトセサミ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Commercial District)",
+              "location": "コロニー9 (商業区)",
               "time": "18:00–03:00"
             }
           ]
@@ -455,18 +455,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-a-young-captain-s-request-d47cc184",
-      "questName": "A Young Captain's Request",
-      "area": "Colony 9",
+      "questName": "小娘隊長の依頼",
+      "area": "コロニー9",
       "requirements": "Colony 9 area ☆1¼",
       "details": "Requires: Colony 9 area ☆1¼ — Find Miller somewhere in the Commercial District.\nReturn to Emmy Leater.",
       "givers": [
         {
           "residentId": "resident-emmy-leater-db5ddf",
-          "name": "Emmy Leater",
+          "name": "エミ・リータ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Military District)",
+              "location": "コロニー9 (軍事区)",
               "time": "06:00–18:00"
             }
           ]
@@ -475,18 +475,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-a-young-captain-s-suffering-7b367e25",
-      "questName": "A Young Captain's Suffering",
-      "area": "Colony 9",
+      "questName": "小娘隊長の苦難",
+      "area": "コロニー9",
       "requirements": "Raoul registered on the Affinity Chart\r\nA Young Captain's Request\r\naccess to Tephra Cave\r\nColony 9 area ☆1½",
       "details": "Requires: Raoul registered on the Affinity Chart\r\nA Young Captain's Request\r\naccess to Tephra Cave\r\nColony 9 area ☆1½ — Defeat 5 Wing Vangs in Tephra Cave.\nReturn to Emmy Leater.",
       "givers": [
         {
           "residentId": "resident-emmy-leater-db5ddf",
-          "name": "Emmy Leater",
+          "name": "エミ・リータ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Military District)",
+              "location": "コロニー9 (軍事区)",
               "time": "06:00–18:00"
             }
           ]
@@ -495,18 +495,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-a-young-captain-s-rise-084c78f8",
-      "questName": "A Young Captain's Rise",
-      "area": "Colony 9",
+      "questName": "小娘隊長の栄進",
+      "area": "コロニー9",
       "requirements": "Access to Tephra Cave\r\nA Young Captain's Suffering\r\nColony 9 area ☆2.",
       "details": "Requires: Access to Tephra Cave\r\nA Young Captain's Suffering\r\nColony 9 area ☆2. — Defeat either the unknown monster at the Spring of Grief or Vilia Lake in Tephra Cave.\nReturn to Emmy Leater.",
       "givers": [
         {
           "residentId": "resident-emmy-leater-db5ddf",
-          "name": "Emmy Leater",
+          "name": "エミ・リータ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Military District)",
+              "location": "コロニー9 (軍事区)",
               "time": "06:00–18:00"
             }
           ]
@@ -515,18 +515,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-a-young-captain-s-challenge-3b6e8a3c",
-      "questName": "A Young Captain's Challenge",
-      "area": "Colony 9",
+      "questName": "小娘隊長の挑戦",
+      "area": "コロニー9",
       "requirements": "Makna Forest reached\r\nKantz registered on the Affinity Chart\r\nA Young Captain's Rise\r\nColony 9 area ☆3",
       "details": "Requires: Makna Forest reached\r\nKantz registered on the Affinity Chart\r\nA Young Captain's Rise\r\nColony 9 area ☆3 — Route A\nTalk to the Nopon Merchant at Sororal Statues in Satorl Marsh.\nCollect 4 pieces of Bunnia Scent Wood.\nReturn to the Nopon Merchant to receive the Nopon Claymore.\nReturn to Emmy Leater.\n\nRoute B\nFind a Corbo Shield.\nReturn to Emmy Leater",
       "givers": [
         {
           "residentId": "resident-emmy-leater-db5ddf",
-          "name": "Emmy Leater",
+          "name": "エミ・リータ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Military District)",
+              "location": "コロニー9 (軍事区)",
               "time": "06:00–18:00"
             }
           ]
@@ -535,18 +535,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-a-young-captain-s-trust-a927076c",
-      "questName": "A Young Captain's Trust",
-      "area": "Colony 9",
+      "questName": "小娘隊長の信頼",
+      "area": "コロニー9",
       "requirements": "Mechonis Core cleared\r\nA Young Captain's Challenge (B route) completed\r\nColony 9 area ☆4\r\nShulk in the lead",
       "details": "Requires: Mechonis Core cleared\r\nA Young Captain's Challenge (B route) completed\r\nColony 9 area ☆4\r\nShulk in the lead — Find Emmy Leater and give her the letter.",
       "givers": [
         {
           "residentId": "resident-miller-744943",
-          "name": "Miller",
+          "name": "ミラー",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Military District)",
+              "location": "コロニー9 (軍事区)",
               "time": "06:00–18:00"
             }
           ]
@@ -555,18 +555,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-a-young-captain-s-revival-6417f76a",
-      "questName": "A Young Captain's Revival",
-      "area": "Colony 9",
+      "questName": "小娘隊長の復活",
+      "area": "コロニー9",
       "requirements": "Mechonis Core cleared\r\nA Young Captain's Challenge (A route) completed\r\nColony 9 area ☆4\r\nShulk in the lead",
       "details": "Requires: Mechonis Core cleared\r\nA Young Captain's Challenge (A route) completed\r\nColony 9 area ☆4\r\nShulk in the lead — Collect 4 Poisonous Gourds from Satorl Marsh.\nListen to Emmy Leater's side of the story.\nListen to Kantz's side of the story.\nListen to the results of Raoul's investigation of the poison-tipped sword.\nReturn to Miller.",
       "givers": [
         {
           "residentId": "resident-miller-744943",
-          "name": "Miller",
+          "name": "ミラー",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Military District)",
+              "location": "コロニー9 (軍事区)",
               "time": "06:00–18:00"
             }
           ]
@@ -575,18 +575,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-pride-and-courage-87817643",
-      "questName": "Pride and Courage",
-      "area": "Colony 9",
+      "questName": "勇気とプライド",
+      "area": "コロニー9",
       "requirements": "Moritz registered on the Affinity Chart\r\nLonely Niranira\r\nColony 9 area ☆2",
       "details": "Requires: Moritz registered on the Affinity Chart\r\nLonely Niranira\r\nColony 9 area ☆2 — Go and bring back Niranira who has gone to Hazzai Cape in Colony 9.\nReturn to Lukas.\nTalk to Moritz.\nReturn to Lukas.",
       "givers": [
         {
           "residentId": "resident-lukas-c46c12",
-          "name": "Lukas",
+          "name": "グレフ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Residential District)",
+              "location": "コロニー9 (居住区)",
               "time": "09:00–15:00"
             }
           ]
@@ -595,18 +595,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-friendship-tokens-f32a6115",
-      "questName": "Friendship Tokens",
-      "area": "Colony 9",
+      "questName": "友情の三種の神器",
+      "area": "コロニー9",
       "requirements": "Mechonis Core cleared\r\nPride and Courage\r\nColony 9 area ☆4¼\r\nReyn in the lead",
       "details": "Requires: Mechonis Core cleared\r\nPride and Courage\r\nColony 9 area ☆4¼\r\nReyn in the lead — Collect 4 Arachno Sickles from Arachnos in Tephra Cave.\nCollect 4 Lizard Moon Jewels from Lizards in Tephra Cave.\nCollect 4 Bunniv Clubs from Bunnivs in Tephra Cave.\nReturn to Moritz.",
       "givers": [
         {
           "residentId": "resident-moritz-54fd92",
-          "name": "Moritz",
+          "name": "フリッツ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Residential District)",
+              "location": "コロニー9 (居住区)",
               "time": "09:00–15:00"
             }
           ]
@@ -615,18 +615,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-a-big-brother-s-fight-ccc402f4",
-      "questName": "A Big Brother's Fight",
-      "area": "Colony 9",
+      "questName": "兄弟ゲンカ・アニキ編",
+      "area": "コロニー9",
       "requirements": "Riki joined the party\nAn Errand for the Heropon\nBiscuits for a Grandson\nColony 9 area ☆2½",
       "details": "Requires: Riki joined the party\nAn Errand for the Heropon\nBiscuits for a Grandson\nColony 9 area ☆2½ — Collect a Red Pollen Orb from a location relating to the Nopon.\nReturn to Zukazu.",
       "givers": [
         {
           "residentId": "resident-zukazu-19b50b",
-          "name": "Zukazu",
+          "name": "カズロー",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Residential District)",
+              "location": "コロニー9 (居住区)",
               "time": "21:00–06:00"
             }
           ]
@@ -635,18 +635,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-a-little-brother-s-fight-c5e7ea1a",
-      "questName": "A Little Brother's Fight",
-      "area": "Colony 9",
+      "questName": "兄弟ゲンカ・オトウト編",
+      "area": "コロニー9",
       "requirements": "Riki joined the party\nAn Errand for the Heropon\nA Big Brother's Fight accepted\nColony 9 area ☆2½",
       "details": "Requires: Riki joined the party\nAn Errand for the Heropon\nA Big Brother's Fight accepted\nColony 9 area ☆2½ — Collect a Red Pollen Orb from a location relating to the Nopon.\nReturn to Jiroque.",
       "givers": [
         {
           "residentId": "resident-jiroque-99e86c",
-          "name": "Jiroque",
+          "name": "ジローク",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Residential District)",
+              "location": "コロニー9 (居住区)",
               "time": "18:00–03:00"
             }
           ]
@@ -655,18 +655,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-a-place-to-come-home-to-7c040452",
-      "questName": "A Place to Come Home to",
-      "area": "Colony 9",
+      "questName": "帰るべき場所",
+      "area": "コロニー9",
       "requirements": "A Big Brother's Fight\r\nColony 9 area ☆3½",
       "details": "Requires: A Big Brother's Fight\r\nColony 9 area ☆3½ — Collect 3 Quality Antol Jaws from Clinger Antols in Colony 9.\nCollect 4 Black Irises in Makna Forest.\nCollect 2 Forget-You-Nots in Satorl Marsh.",
       "givers": [
         {
           "residentId": "resident-jiroque-99e86c",
-          "name": "Jiroque",
+          "name": "ジローク",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Residential District)",
+              "location": "コロニー9 (居住区)",
               "time": "18:00–03:00"
             }
           ]
@@ -676,17 +676,17 @@ const QUEST_SCHEDULE_DATA = {
     {
       "questId": "quest-colony-9-thawing-relationships-ae729363",
       "questName": "Thawing Relationships",
-      "area": "Colony 9",
+      "area": "コロニー9",
       "requirements": "In the course to the Makna Forest's final event\r\nA Little Brother's Fight\r\nColony 9 area ☆3½",
       "details": "Requires: In the course to the Makna Forest's final event\r\nA Little Brother's Fight\r\nColony 9 area ☆3½ — Collect 3 lots of Maternal Armu Milk from Plain Armu in Colony 9.\nTalk to Marcia.\nReturn the Old Ring to Marcia.\nReturn to Zukazu.",
       "givers": [
         {
           "residentId": "resident-zukazu-19b50b",
-          "name": "Zukazu",
+          "name": "カズロー",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Residential District)",
+              "location": "コロニー9 (居住区)",
               "time": "21:00–06:00"
             }
           ]
@@ -695,18 +695,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-rocco-s-heartful-request-123cd707",
-      "questName": "Rocco's Heartful Request",
-      "area": "Colony 9",
+      "questName": "ロコの切実な願い",
+      "area": "コロニー9",
       "requirements": "Sonia registered on the Affinity Chart\r\nColony 9 area ☆1½",
       "details": "Requires: Sonia registered on the Affinity Chart\r\nColony 9 area ☆1½ — Find someone who can mend the keepsake.\nGive Dean the Broken Pendant.\nReturn to Rocco.",
       "givers": [
         {
           "residentId": "resident-rocco-916320",
-          "name": "Rocco",
+          "name": "ロコ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Commercial District)",
+              "location": "コロニー9 (商業区)",
               "time": "09:00–18:00"
             }
           ]
@@ -715,18 +715,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-dean-s-shady-request-d2e3cc6a",
-      "questName": "Dean's Shady Request",
-      "area": "Colony 9",
+      "questName": "ディーンの邪な願い",
+      "area": "コロニー9",
       "requirements": "Liliana registered on the Affinity Chart\r\nRocco's Heartful Request\r\nColony 9 area ☆2",
       "details": "Requires: Liliana registered on the Affinity Chart\r\nRocco's Heartful Request\r\nColony 9 area ☆2 — Talk to Sonia.\nCollect 2 Shin Geckos in Tephra Cave.\nTalk to Sonia.\nReturn to Dean.",
       "givers": [
         {
           "residentId": "resident-dean-0e21b2",
-          "name": "Dean",
+          "name": "ディーン",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Military District)",
+              "location": "コロニー9 (軍事区)",
               "time": "06:00–15:00"
             }
           ]
@@ -735,18 +735,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-liliana-s-sincere-request-a992ff79",
-      "questName": "Liliana's Sincere Request",
-      "area": "Colony 9",
+      "questName": "リルカの真剣な願い",
+      "area": "コロニー9",
       "requirements": "Dean's Shady Request\r\nColony 9 area ☆2½",
       "details": "Requires: Dean's Shady Request\r\nColony 9 area ☆2½ — Collect something precious from the back of the cave at Agora Shore in Colony 9.\nGive Sonia the Message in a Bottle.\nReturn to Liliana.",
       "givers": [
         {
           "residentId": "resident-liliana-20150a",
-          "name": "Liliana",
+          "name": "リルカ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Commercial District)",
+              "location": "コロニー9 (商業区)",
               "time": "09:00–18:00"
             }
           ]
@@ -755,18 +755,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-jackson-s-awakening-e3cd8a4d",
-      "questName": "Jackson's Awakening",
-      "area": "Colony 9",
+      "questName": "ジャクソンの覚醒",
+      "area": "コロニー9",
       "requirements": "Dorothy registered on the Affinity Chart\r\nSharla joined the party\r\nColony 9 area ☆3",
       "details": "Requires: Dorothy registered on the Affinity Chart\r\nSharla joined the party\r\nColony 9 area ☆3 — Look for someone who will take Jackson on as an apprentice.\nRoute A\nTalk to Kenny Rohan.\nDefeat 5 Tephra Lizards near Vilia Lake in Tephra Cave.\nReturn to Kenny Rohan.\nReturn to Jackson.\nRoute B\nTalk to Giorgio.\nDefeat 5 Tephra Lizards near Vilia Lake in Tephra Cave.\nReturn to Giorgio.\nReturn to Jackson.",
       "givers": [
         {
           "residentId": "resident-jackson-f1ed15",
-          "name": "Jackson",
+          "name": "ジャクソン",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Residential District)",
+              "location": "コロニー9 (居住区)",
               "time": "06:00–18:00"
             }
           ]
@@ -776,17 +776,17 @@ const QUEST_SCHEDULE_DATA = {
     {
       "questId": "quest-colony-9-jackson-the-cook-f3ac6d5d",
       "questName": "Jackson The Cook",
-      "area": "Colony 9",
+      "area": "コロニー9",
       "requirements": "Jackson's Awakening (B route) completed\r\nColony 9 area ☆3½\r\nSharla joined the party",
       "details": "Requires: Jackson's Awakening (B route) completed\r\nColony 9 area ☆3½\r\nSharla joined the party — Collect 5 lots of Raw Piranhax Meat from Colony Piranhax in Colony 9.\nReturn to Jackson.",
       "givers": [
         {
           "residentId": "resident-jackson-f1ed15",
-          "name": "Jackson",
+          "name": "ジャクソン",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Residential District)",
+              "location": "コロニー9 (居住区)",
               "time": "06:00–18:00"
             }
           ]
@@ -796,17 +796,17 @@ const QUEST_SCHEDULE_DATA = {
     {
       "questId": "quest-colony-9-jackson-the-poet-d40f10a7",
       "questName": "Jackson The Poet",
-      "area": "Colony 9",
+      "area": "コロニー9",
       "requirements": "Jackson's Awakening (A route) completed\r\nColony 9 area ☆3½\r\nSharla joined the party",
       "details": "Requires: Jackson's Awakening (A route) completed\r\nColony 9 area ☆3½\r\nSharla joined the party — Defeat the Dim Wisp near Kneecap Hill in Tephra Cave.\nReturn to Jackson.",
       "givers": [
         {
           "residentId": "resident-jackson-f1ed15",
-          "name": "Jackson",
+          "name": "ジャクソン",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Residential District)",
+              "location": "コロニー9 (居住区)",
               "time": "06:00–18:00"
             }
           ]
@@ -815,18 +815,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-desiree-s-future-f8d99dfa",
-      "questName": "Désirée's Future",
-      "area": "Colony 9",
+      "questName": "デジレーンの将来",
+      "area": "コロニー9",
       "requirements": "Satorl Marsh reached\r\nJackson's Awakening\r\nColony 9 area ☆4½\r\nShulk in the lead",
       "details": "Requires: Satorl Marsh reached\r\nJackson's Awakening\r\nColony 9 area ☆4½\r\nShulk in the lead — Listen to Désirée's long story.\nRoute A\nDésirée will become a soldier.\nRoute B\nDésirée will become a sculptor",
       "givers": [
         {
           "residentId": "resident-desiree-83bb32",
-          "name": "Désirée",
+          "name": "デジレーン",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Commercial District)",
+              "location": "コロニー9 (商業区)",
               "time": "18:00–03:00"
             }
           ]
@@ -835,18 +835,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-betty-s-gift-2ae61ede",
-      "questName": "Betty's Gift",
-      "area": "Colony 9",
+      "questName": "ベッティの贈り物",
+      "area": "コロニー9",
       "requirements": "Satorl Marsh reached\r\nDésirée's Future (A route) completed\r\nBetty mentioned Désirée's new career\r\nColony 9 area ☆5",
       "details": "Requires: Satorl Marsh reached\r\nDésirée's Future (A route) completed\r\nBetty mentioned Désirée's new career\r\nColony 9 area ☆5 — Collect 2 Lucky Skeeter Wings from Chordy Skeeters in Colony 9.\nCollect 2 Vang Hair Clips from Shadow Vangs in Colony 9.\nCollect 4 Razor Teasels at Eryth Sea.\nReturn to Betty.",
       "givers": [
         {
           "residentId": "resident-betty-b908f3",
-          "name": "Betty",
+          "name": "ベッティ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Residential District)",
+              "location": "コロニー9 (居住区)",
               "time": "06:00–15:00"
             }
           ]
@@ -855,18 +855,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-desiree-s-apology-c68a7721",
-      "questName": "Désirée's Apology",
-      "area": "Colony 9",
+      "questName": "デジレーンの謝罪",
+      "area": "コロニー9",
       "requirements": "Satorl Marsh reached\r\nDésirée's Future (B route) completed\r\nColony 9 area ☆5",
       "details": "Requires: Satorl Marsh reached\r\nDésirée's Future (B route) completed\r\nColony 9 area ☆5 — Collect 2 Krabble Artwork from Krabbles in Colony 9.\nCollect 2 Laughing Brog Bags from Brogs at Colony 9.\nCollect 4 Night Lilies at Eryth Sea.\nReturn to Désirée.",
       "givers": [
         {
           "residentId": "resident-desiree-83bb32",
-          "name": "Désirée",
+          "name": "デジレーン",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Commercial District)",
+              "location": "コロニー9 (商業区)",
               "time": "21:00–03:00"
             }
           ]
@@ -875,18 +875,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-the-elite-captain-s-anguish-aa6b3314",
-      "questName": "The Elite Captain's Anguish",
-      "area": "Colony 9",
+      "questName": "エリート小隊長の苦悩",
+      "area": "コロニー9",
       "requirements": "Mechonis Core cleared\r\nA Young Captain's Trust\r\nor A Young Captain's Revival\r\nColony 9 area ☆4",
       "details": "Requires: Mechonis Core cleared\r\nA Young Captain's Trust\r\nor A Young Captain's Revival\r\nColony 9 area ☆4 — Meet with Minnie and see what she is like.\nMeet with Dorothy and see what she is like.\nReturn to Raoul.\nRoute A: Minnie is chosen.\nRoute B: Dorothy is chosen.",
       "givers": [
         {
           "residentId": "resident-raoul-fce85c",
-          "name": "Raoul",
+          "name": "ルヒオル",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Military District)",
+              "location": "コロニー9 (軍事区)",
               "time": "06:00–18:00"
             }
           ]
@@ -895,18 +895,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-getting-to-know-minnie-cbdfe5a0",
-      "questName": "Getting to Know Minnie",
-      "area": "Colony 9",
+      "questName": "メイニーを知る",
+      "area": "コロニー9",
       "requirements": "Mechonis Core cleared\r\nThe Elite Captain's Anguish accepted",
       "details": "Requires: Mechonis Core cleared\r\nThe Elite Captain's Anguish accepted — Defeat 5 LV73 Vicious Rhanas near the Residential District of Colony 9.\nReturn to Minnie.",
       "givers": [
         {
           "residentId": "resident-minnie-22d669",
-          "name": "Minnie",
+          "name": "メイニー",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Residential District)",
+              "location": "コロニー9 (居住区)",
               "time": "18:00–06:00"
             }
           ]
@@ -915,18 +915,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-getting-to-know-dorothy-32854a9f",
-      "questName": "Getting to Know Dorothy",
-      "area": "Colony 9",
+      "questName": "ドロテアを知る",
+      "area": "コロニー9",
       "requirements": "Mechonis Core cleared\r\nThe Elite Captain's Anguish accepted",
       "details": "Requires: Mechonis Core cleared\r\nThe Elite Captain's Anguish accepted — Collect 5 Heart Peaches in Alcamoth.\nReturn to Dorothy.",
       "givers": [
         {
           "residentId": "resident-dorothy-d7a9d0",
-          "name": "Dorothy",
+          "name": "ドロテア",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Commercial District)",
+              "location": "コロニー9 (商業区)",
               "time": "06:00–18:00"
             }
           ]
@@ -935,18 +935,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-a-mysterious-light-a13112c1",
-      "questName": "A Mysterious Light",
-      "area": "Colony 9",
+      "questName": "謎の光の真相",
+      "area": "コロニー9",
       "requirements": "Colony 6 area reached\r\nColony 9 area ☆3",
       "details": "Requires: Colony 6 area reached\r\nColony 9 area ☆3 — Collect information from Colony residents.\n\nRoute A:\nTalk to Arnaut.\nTalk to Narine.\nTalk to Arnaut again.\nReport to Kenny Rohan.\n\nRoute B:\nTalk to Suzanna.\r\nTalk to Françoise.\r\nTalk to Dionysis.\r\nReport to Kenny Rohan.",
       "givers": [
         {
           "residentId": "resident-kenny-rohan-8f1379",
-          "name": "Kenny Rohan",
+          "name": "ケニ・ルヒン",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9",
+              "location": "コロニー9",
               "time": "21:00–15:00"
             }
           ]
@@ -955,18 +955,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-out-like-a-light-40f7eb9a",
-      "questName": "Out Like a Light?",
-      "area": "Colony 9",
+      "questName": "謎の光の行方",
+      "area": "コロニー9",
       "requirements": "",
       "details": "Route A\nThrow the Ether Cylinder into the lake.\nReport to Kenny Rohan.\n\nRoute B\nRepair the lamp.\nCollect 2 Krabble Fixed Parts from Junk Krabbles in the Ether Mine.\nReport to Arnaut.\nReport to Kenny Rohan.",
       "givers": [
         {
           "residentId": "resident-kenny-rohan-8f1379",
-          "name": "Kenny Rohan",
+          "name": "ケニ・ルヒン",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9",
+              "location": "コロニー9",
               "time": "21:00–15:00"
             }
           ]
@@ -975,18 +975,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-the-lost-pendant-169815c1",
-      "questName": "The Lost Pendant",
-      "area": "Colony 9",
+      "questName": "なくしたペンダント",
+      "area": "コロニー9",
       "requirements": "Access to Tephra Cave\r\nMissing in Action",
       "details": "Requires: Access to Tephra Cave\r\nMissing in Action — Look for the Lost Pendant near Vilia Lake in Tephra Cave.\nReturn to the Defence Force Soldier near the Cylinder Hanger in Colony 9.",
       "givers": [
         {
           "residentId": "resident-a-defence-force-soldier-cd0c67",
-          "name": "A Defence Force Soldier",
+          "name": "A 防衛隊員",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Cylinder Hangar)",
+              "location": "コロニー9 (シリンダー格納庫)",
               "time": "Anytime"
             }
           ]
@@ -995,18 +995,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-monster-quest-1-part-1-f38055d1",
-      "questName": "Monster Quest 1 - Part 1",
-      "area": "Colony 9",
+      "questName": "討伐クエスト1その1",
+      "area": "コロニー9",
       "requirements": "None",
       "details": "Requires: None — Defeat 2 Ridge Antols in Colony 9.",
       "givers": [
         {
           "residentId": "resident-a-defence-force-soldier-cd0c67",
-          "name": "A Defence Force Soldier",
+          "name": "A 防衛隊員",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Military District)",
+              "location": "コロニー9 (軍事区)",
               "time": "18:00–06:00"
             }
           ]
@@ -1015,18 +1015,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-monster-quest-1-part-2-2034c1d5",
-      "questName": "Monster Quest 1 - Part 2",
-      "area": "Colony 9",
+      "questName": "討伐クエスト1その2",
+      "area": "コロニー9",
       "requirements": "None",
       "details": "Requires: None — Defeat 1 Cute Brog in Colony 9.",
       "givers": [
         {
           "residentId": "resident-a-defence-force-soldier-cd0c67",
-          "name": "A Defence Force Soldier",
+          "name": "A 防衛隊員",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Military District)",
+              "location": "コロニー9 (軍事区)",
               "time": "18:00–06:00"
             }
           ]
@@ -1035,18 +1035,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-monster-quest-1-part-3-79f5dabb",
-      "questName": "Monster Quest 1 - Part 3",
-      "area": "Colony 9",
+      "questName": "討伐クエスト1その3",
+      "area": "コロニー9",
       "requirements": "None",
       "details": "Requires: None — Defeat 3 Colony Krabbles in Colony 9.",
       "givers": [
         {
           "residentId": "resident-a-defence-force-soldier-cd0c67",
-          "name": "A Defence Force Soldier",
+          "name": "A 防衛隊員",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Military District)",
+              "location": "コロニー9 (軍事区)",
               "time": "18:00–06:00"
             }
           ]
@@ -1055,18 +1055,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-monster-quest-2-part-1-c127e9f5",
-      "questName": "Monster Quest 2 - Part 1",
-      "area": "Colony 9",
+      "questName": "討伐クエスト2その1",
+      "area": "コロニー9",
       "requirements": "None",
       "details": "Requires: None — Defeat 2 Lake Flamiis in Colony 9.",
       "givers": [
         {
           "residentId": "resident-a-defence-force-soldier-cd0c67",
-          "name": "A Defence Force Soldier",
+          "name": "A 防衛隊員",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Military District)",
+              "location": "コロニー9 (軍事区)",
               "time": "06:00–18:00"
             }
           ]
@@ -1075,18 +1075,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-monster-quest-2-part-2-582d4f43",
-      "questName": "Monster Quest 2 - Part 2",
-      "area": "Colony 9",
+      "questName": "討伐クエスト2その2",
+      "area": "コロニー9",
       "requirements": "None",
       "details": "Requires: None — Defeat 1 Baby Armu in Colony 9.",
       "givers": [
         {
           "residentId": "resident-a-defence-force-soldier-cd0c67",
-          "name": "A Defence Force Soldier",
+          "name": "A 防衛隊員",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Military District)",
+              "location": "コロニー9 (軍事区)",
               "time": "06:00–18:00"
             }
           ]
@@ -1095,18 +1095,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-monster-quest-2-part-3-9acaa1fc",
-      "questName": "Monster Quest 2 - Part 3",
-      "area": "Colony 9",
+      "questName": "討伐クエスト2その3",
+      "area": "コロニー9",
       "requirements": "None",
       "details": "Requires: None — Defeat 2 Stone Krabbles in Colony 9.",
       "givers": [
         {
           "residentId": "resident-a-defence-force-soldier-cd0c67",
-          "name": "A Defence Force Soldier",
+          "name": "A 防衛隊員",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Military District)",
+              "location": "コロニー9 (軍事区)",
               "time": "06:00–18:00"
             }
           ]
@@ -1115,18 +1115,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-monster-quest-3-part-1-b44280ef",
-      "questName": "Monster Quest 3 - Part 1",
-      "area": "Colony 9",
+      "questName": "討伐クエスト3その1",
+      "area": "コロニー9",
       "requirements": "None",
       "details": "Requires: None — Defeat 2 Hand Bunnits in Colony 9.",
       "givers": [
         {
           "residentId": "resident-a-homs-resident-dee5a6",
-          "name": "A Homs Resident",
+          "name": "A ホムス Resident",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Commercial District)",
+              "location": "コロニー9 (商業区)",
               "time": "06:00–18:00"
             }
           ]
@@ -1135,18 +1135,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-monster-quest-3-part-2-745dc67c",
-      "questName": "Monster Quest 3 - Part 2",
-      "area": "Colony 9",
+      "questName": "討伐クエスト3その2",
+      "area": "コロニー9",
       "requirements": "None",
       "details": "Requires: None — Defeat 3 Beach Krabbles in Colony 9.",
       "givers": [
         {
           "residentId": "resident-a-homs-resident-dee5a6",
-          "name": "A Homs Resident",
+          "name": "A ホムス Resident",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Commercial District)",
+              "location": "コロニー9 (商業区)",
               "time": "06:00–18:00"
             }
           ]
@@ -1155,18 +1155,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-monster-quest-3-part-3-f024097e",
-      "questName": "Monster Quest 3 - Part 3",
-      "area": "Colony 9",
+      "questName": "討伐クエスト3その3",
+      "area": "コロニー9",
       "requirements": "None",
       "details": "Requires: None — Defeat 2 Wood Bunnits in Colony 9.",
       "givers": [
         {
           "residentId": "resident-a-homs-resident-dee5a6",
-          "name": "A Homs Resident",
+          "name": "A ホムス Resident",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Commercial District)",
+              "location": "コロニー9 (商業区)",
               "time": "06:00–18:00"
             }
           ]
@@ -1175,18 +1175,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-monster-quest-3-part-4-c40931db",
-      "questName": "Monster Quest 3 - Part 4",
-      "area": "Colony 9",
+      "questName": "討伐クエスト3その4",
+      "area": "コロニー9",
       "requirements": "None",
       "details": "Requires: None — Defeat 3 Light Skeeters in Colony 9.",
       "givers": [
         {
           "residentId": "resident-a-homs-resident-dee5a6",
-          "name": "A Homs Resident",
+          "name": "A ホムス Resident",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Commercial District)",
+              "location": "コロニー9 (商業区)",
               "time": "06:00–18:00"
             }
           ]
@@ -1195,18 +1195,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-monster-quest-4-part-1-7e04c2e5",
-      "questName": "Monster Quest 4 - Part 1",
-      "area": "Colony 9",
+      "questName": "討伐クエスト4その1",
+      "area": "コロニー9",
       "requirements": "None",
       "details": "Requires: None — Defeat 1 Willow Bunniv in Tephra Cave.",
       "givers": [
         {
           "residentId": "resident-a-defence-force-soldier-cd0c67",
-          "name": "A Defence Force Soldier",
+          "name": "A 防衛隊員",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Tephra Cave)",
+              "location": "コロニー9 (テフラ洞窟)",
               "time": "Anytime"
             }
           ]
@@ -1215,18 +1215,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-monster-quest-4-part-2-bfc86df5",
-      "questName": "Monster Quest 4 - Part 2",
-      "area": "Colony 9",
+      "questName": "討伐クエスト4その2",
+      "area": "コロニー9",
       "requirements": "None",
       "details": "Requires: None — Defeat 2 Singing Brogs in Tephra Cave.",
       "givers": [
         {
           "residentId": "resident-a-defence-force-soldier-cd0c67",
-          "name": "A Defence Force Soldier",
+          "name": "A 防衛隊員",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Tephra Cave)",
+              "location": "コロニー9 (テフラ洞窟)",
               "time": "Anytime"
             }
           ]
@@ -1235,18 +1235,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-monster-quest-4-part-3-fc3fd237",
-      "questName": "Monster Quest 4 - Part 3",
-      "area": "Colony 9",
+      "questName": "討伐クエスト4その3",
+      "area": "コロニー9",
       "requirements": "None",
       "details": "Requires: None — Defeat 5 Mell Lizards in Tephra Cave.",
       "givers": [
         {
           "residentId": "resident-a-defence-force-soldier-cd0c67",
-          "name": "A Defence Force Soldier",
+          "name": "A 防衛隊員",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Tephra Cave)",
+              "location": "コロニー9 (テフラ洞窟)",
               "time": "Anytime"
             }
           ]
@@ -1255,18 +1255,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-challenge-1-c25ea720",
-      "questName": "Challenge 1",
-      "area": "Colony 9",
+      "questName": "強敵を求めて1",
+      "area": "コロニー9",
       "requirements": "None",
       "details": "Requires: None — Defeat LV6 Evil Rhangrot near Tephra Hill in Colony 9.",
       "givers": [
         {
           "residentId": "resident-a-defence-force-soldier-cd0c67",
-          "name": "A Defence Force Soldier",
+          "name": "A 防衛隊員",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Military District)",
+              "location": "コロニー9 (軍事区)",
               "time": "06:00–18:00"
             }
           ]
@@ -1275,18 +1275,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-challenge-2-68e6e077",
-      "questName": "Challenge 2",
-      "area": "Colony 9",
+      "questName": "強敵を求めて2",
+      "area": "コロニー9",
       "requirements": "None",
       "details": "Requires: None — Defeat LV5 Verdant Bluchal near Anti-Air Battery 1 in Colony 9.",
       "givers": [
         {
           "residentId": "resident-a-homs-resident-dee5a6",
-          "name": "A Homs Resident",
+          "name": "A ホムス Resident",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Commercial District)",
+              "location": "コロニー9 (商業区)",
               "time": "06:00–18:00"
             }
           ]
@@ -1295,18 +1295,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-challenge-3-3414296e",
-      "questName": "Challenge 3",
-      "area": "Colony 9",
+      "questName": "強敵を求めて3",
+      "area": "コロニー9",
       "requirements": "None",
       "details": "Requires: None — Defeat LV6 Lake Magdalena near Outlook Park in Colony 9.",
       "givers": [
         {
           "residentId": "resident-a-defence-force-soldier-cd0c67",
-          "name": "A Defence Force Soldier",
+          "name": "A 防衛隊員",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Military District)",
+              "location": "コロニー9 (軍事区)",
               "time": "18:00–06:00"
             }
           ]
@@ -1315,18 +1315,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-challenge-4-970afab1",
-      "questName": "Challenge 4",
-      "area": "Colony 9",
+      "questName": "強敵を求めて4",
+      "area": "コロニー9",
       "requirements": "Reyn met at the Weapon Dev. Lab",
       "details": "Requires: Reyn met at the Weapon Dev. Lab — Defeat LV9 Wallslide Gwynry at the Mag Mell Ruins in Tephra Cave.",
       "givers": [
         {
           "residentId": "resident-a-nopon-resident-725d35",
-          "name": "A Nopon Resident",
+          "name": "A ノポン Resident",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Commercial District)",
+              "location": "コロニー9 (商業区)",
               "time": "06:00–18:00"
             }
           ]
@@ -1336,17 +1336,17 @@ const QUEST_SCHEDULE_DATA = {
     {
       "questId": "quest-colony-9-material-quest-1-05fb0f7f",
       "questName": "Material Quest 1",
-      "area": "Colony 9",
+      "area": "コロニー9",
       "requirements": "None",
       "details": "Requires: None — Collect 2 Small Shells from Colony 9.",
       "givers": [
         {
           "residentId": "resident-a-nopon-resident-725d35",
-          "name": "A Nopon Resident",
+          "name": "A ノポン Resident",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Military District)",
+              "location": "コロニー9 (軍事区)",
               "time": "06:00–18:00"
             }
           ]
@@ -1356,17 +1356,17 @@ const QUEST_SCHEDULE_DATA = {
     {
       "questId": "quest-colony-9-material-quest-2-2039aacb",
       "questName": "Material Quest 2",
-      "area": "Colony 9",
+      "area": "コロニー9",
       "requirements": "None",
       "details": "Requires: None — Collect 1 Small Scale in Colony 9.",
       "givers": [
         {
           "residentId": "resident-a-homs-resident-dee5a6",
-          "name": "A Homs Resident",
+          "name": "A ホムス Resident",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Commercial District)",
+              "location": "コロニー9 (商業区)",
               "time": "18:00–06:00"
             }
           ]
@@ -1375,18 +1375,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-material-quest-3-7d90f769",
-      "questName": "Material Quest 3",
-      "area": "Colony 9",
+      "questName": "素材クエスト3",
+      "area": "コロニー9",
       "requirements": "None",
       "details": "Requires: None — Collect 2 Vang Teeth in Colony 9.",
       "givers": [
         {
           "residentId": "resident-a-homs-resident-dee5a6",
-          "name": "A Homs Resident",
+          "name": "A ホムス Resident",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Commercial District)",
+              "location": "コロニー9 (商業区)",
               "time": "06:00–18:00"
             }
           ]
@@ -1395,18 +1395,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-material-quest-4-0fbb5951",
-      "questName": "Material Quest 4",
-      "area": "Colony 9",
+      "questName": "素材クエスト4",
+      "area": "コロニー9",
       "requirements": "None",
       "details": "Requires: None — Collect 1 Yolkless Flamii Egg in Colony 9.",
       "givers": [
         {
           "residentId": "resident-a-homs-resident-dee5a6",
-          "name": "A Homs Resident",
+          "name": "A ホムス Resident",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Residential District)",
+              "location": "コロニー9 (居住区)",
               "time": "18:00–06:00"
             }
           ]
@@ -1416,17 +1416,17 @@ const QUEST_SCHEDULE_DATA = {
     {
       "questId": "quest-colony-9-collection-quest-1-ca37f51c",
       "questName": "Collection Quest 1",
-      "area": "Colony 9",
+      "area": "コロニー9",
       "requirements": "None",
       "details": "Requires: None — Collect 2 Rabbit Diodes in Colony 9.",
       "givers": [
         {
           "residentId": "resident-a-homs-resident-dee5a6",
-          "name": "A Homs Resident",
+          "name": "A ホムス Resident",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Commercial District)",
+              "location": "コロニー9 (商業区)",
               "time": "06:00–18:00"
             }
           ]
@@ -1436,17 +1436,17 @@ const QUEST_SCHEDULE_DATA = {
     {
       "questId": "quest-colony-9-collection-quest-2-594fbfbc",
       "questName": "Collection Quest 2",
-      "area": "Colony 9",
+      "area": "コロニー9",
       "requirements": "None",
       "details": "Requires: None — Collect 1 portion of Plate Snow in Colony 9.",
       "givers": [
         {
           "residentId": "resident-a-homs-resident-dee5a6",
-          "name": "A Homs Resident",
+          "name": "A ホムス Resident",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Commercial District)",
+              "location": "コロニー9 (商業区)",
               "time": "18:00–06:00"
             }
           ]
@@ -1455,18 +1455,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-collection-quest-3-9f754ffc",
-      "questName": "Collection Quest 3",
-      "area": "Colony 9",
+      "questName": "収集クエスト3",
+      "area": "コロニー9",
       "requirements": "None",
       "details": "Requires: None — Collect 2 Rainbow Zirconias in Colony 9.",
       "givers": [
         {
           "residentId": "resident-a-homs-resident-dee5a6",
-          "name": "A Homs Resident",
+          "name": "A ホムス Resident",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Residential District)",
+              "location": "コロニー9 (居住区)",
               "time": "06:00–18:00"
             }
           ]
@@ -1475,18 +1475,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-collection-quest-4-e429e3c0",
-      "questName": "Collection Quest 4",
-      "area": "Colony 9",
+      "questName": "収集クエスト4",
+      "area": "コロニー9",
       "requirements": "None",
       "details": "Requires: None — Collect 1 Giant Hornet in Colony 9.",
       "givers": [
         {
           "residentId": "resident-a-homs-resident-dee5a6",
-          "name": "A Homs Resident",
+          "name": "A ホムス Resident",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Residential District)",
+              "location": "コロニー9 (居住区)",
               "time": "06:00–18:00"
             }
           ]
@@ -1495,18 +1495,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-search-quest-1-9f9562a0",
-      "questName": "Search Quest 1",
-      "area": "Colony 9",
+      "questName": "おさがしクエスト1",
+      "area": "コロニー9",
       "requirements": "None",
       "details": "Requires: None — Find the Wedding Ring in Colony 9.",
       "givers": [
         {
           "residentId": "resident-a-homs-resident-dee5a6",
-          "name": "A Homs Resident",
+          "name": "A ホムス Resident",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Central Plaza)",
+              "location": "コロニー9 (Central Plaza)",
               "time": "18:00–06:00"
             }
           ]
@@ -1515,18 +1515,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-search-quest-2-c385b730",
-      "questName": "Search Quest 2",
-      "area": "Colony 9",
+      "questName": "おさがしクエスト2",
+      "area": "コロニー9",
       "requirements": "None",
       "details": "Requires: None — Find the Blue Glass Bead in Colony 9.",
       "givers": [
         {
           "residentId": "resident-a-nopon-resident-725d35",
-          "name": "A Nopon Resident",
+          "name": "A ノポン Resident",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Residential District)",
+              "location": "コロニー9 (居住区)",
               "time": "06:00–18:00"
             }
           ]
@@ -1535,18 +1535,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-search-quest-3-d78f7bfe",
-      "questName": "Search Quest 3",
-      "area": "Colony 9",
+      "questName": "おさがしクエスト3",
+      "area": "コロニー9",
       "requirements": "None",
       "details": "Requires: None — Find the Key in Colony 9.",
       "givers": [
         {
           "residentId": "resident-a-homs-resident-dee5a6",
-          "name": "A Homs Resident",
+          "name": "A ホムス Resident",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Commercial District)",
+              "location": "コロニー9 (商業区)",
               "time": "06:00–18:00"
             }
           ]
@@ -1555,18 +1555,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-search-quest-4-49ffabf9",
-      "questName": "Search Quest 4",
-      "area": "Colony 9",
+      "questName": "おさがしクエスト4",
+      "area": "コロニー9",
       "requirements": "None",
       "details": "Requires: None — Find the Spanner in Colony 9.",
       "givers": [
         {
           "residentId": "resident-a-homs-resident-dee5a6",
-          "name": "A Homs Resident",
+          "name": "A ホムス Resident",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Residential District)",
+              "location": "コロニー9 (居住区)",
               "time": "18:00–06:00"
             }
           ]
@@ -1575,18 +1575,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-a-token-of-friendship-51042185",
-      "questName": "A Token of Friendship",
-      "area": "Colony 9",
+      "questName": "友人思い",
+      "area": "コロニー9",
       "requirements": "Mechonis Core cleared\r\nShulk in the lead inspecting the area when a prompt appears",
       "details": "Requires: Mechonis Core cleared\r\nShulk in the lead inspecting the area when a prompt appears — Collect 3 Gogol Horns.\nCollect 3 Thick Rhana Hides.\nCollect 3 Aged Chilkin Hairs.\nReturn to the Weapon Development Lab.",
       "givers": [
         {
           "residentId": "resident-shulk-56aa3b",
-          "name": "Shulk",
+          "name": "シュルク",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Weapon Development Lab)",
+              "location": "コロニー9 (Weapon Development Lab)",
               "time": "Anytime"
             }
           ]
@@ -1595,18 +1595,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-the-gem-man-s-invention-1f9126a2",
-      "questName": "The Gem Man's Invention",
-      "area": "Colony 9",
+      "questName": "ジェム爺の発明",
+      "area": "コロニー9",
       "requirements": "Access to Colony 6 Reconstruction",
       "details": "Requires: Access to Colony 6 Reconstruction — Reconstruct Colony 6 to level 1 and receive an Ultra Small Reactor.\nReturn to the Gem Man.",
       "givers": [
         {
           "residentId": "resident-gem-man-3d1ece",
-          "name": "Gem Man",
+          "name": "ジェム爺",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 9 (Gem Man's Stall)",
+              "location": "コロニー9 (ジェム爺の露天商)",
               "time": "Anytime"
             }
           ]
@@ -1615,18 +1615,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-9-delivering-food-ff6d1a95",
-      "questName": "Delivering Food",
-      "area": "Colony 9",
+      "questName": "お弁当を届ける",
+      "area": "コロニー9",
       "requirements": "None",
       "details": "Requires: None — Find Shulk and give him the food.",
       "givers": [
         {
           "residentId": "resident-story-quest-09cfce",
-          "name": "Story Quest",
+          "name": "ストーリークエスト",
           "kind": "automatic",
           "locations": [
             {
-              "location": "Colony 9 (Dunban's House)",
+              "location": "コロニー9 (ダンバン邸)",
               "time": "Automatic"
             }
           ]
@@ -1635,18 +1635,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-tephra-cave-missing-in-action-780cfec2",
-      "questName": "Missing in Action",
-      "area": "Tephra Cave",
+      "questName": "単独行動の兵士",
+      "area": "テフラ洞窟",
       "requirements": "After the Mechon attack in Colony 9",
       "details": "Requires: After the Mechon attack in Colony 9 — \"Speak to the Defence Force soldier near the Cylinder Hangar.\"",
       "givers": [
         {
           "residentId": "resident-defence-force-soldier-c23f1e",
-          "name": "Defence Force Soldier",
+          "name": "防衛隊員",
           "kind": "npc",
           "locations": [
             {
-              "location": "Tephra Cave (Warehouse 2)",
+              "location": "テフラ洞窟 (第2左舷倉庫)",
               "time": "Anytime"
             }
           ]
@@ -1655,18 +1655,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-tephra-cave-arachno-silk-fundraising-8f3f671d",
-      "questName": "Arachno Silk Fundraising",
-      "area": "Tephra Cave",
+      "questName": "蜘蛛の繭は金になる？",
+      "area": "テフラ洞窟",
       "requirements": "After the Mechon attack in Colony 9\r\nArachno Silk Fundraising",
       "details": "Requires: After the Mechon attack in Colony 9\r\nArachno Silk Fundraising — \"Collect 3 pieces of Arachno Silk from Worker Arachno in Tephra Cave.\"",
       "givers": [
         {
           "residentId": "resident-defence-force-soldier-c23f1e",
-          "name": "Defence Force Soldier",
+          "name": "防衛隊員",
           "kind": "npc",
           "locations": [
             {
-              "location": "Tephra Cave (Warehouse 2)",
+              "location": "テフラ洞窟 (第2左舷倉庫)",
               "time": "Anytime"
             }
           ]
@@ -1675,18 +1675,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-tephra-cave-a-thank-you-93db0f47",
-      "questName": "A Thank You",
-      "area": "Tephra Cave",
+      "questName": "これまでのお礼",
+      "area": "テフラ洞窟",
       "requirements": "After the Mechon attack in Colony 9\r\nArachno Silk Fundraising",
       "details": "Requires: After the Mechon attack in Colony 9\r\nArachno Silk Fundraising — \"Exit Tephra Cave and check the area immediately on the left.\"",
       "givers": [
         {
           "residentId": "resident-defence-force-soldier-c23f1e",
-          "name": "Defence Force Soldier",
+          "name": "防衛隊員",
           "kind": "npc",
           "locations": [
             {
-              "location": "Tephra Cave (Warehouse 2)",
+              "location": "テフラ洞窟 (第2左舷倉庫)",
               "time": "Anytime"
             }
           ]
@@ -1695,18 +1695,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-tephra-cave-clearing-obstructions-68256ada",
-      "questName": "Clearing Obstructions",
-      "area": "Tephra Cave",
+      "questName": "進路妨害",
+      "area": "テフラ洞窟",
       "requirements": "Vilia Lake reached",
       "details": "Requires: Vilia Lake reached — \"Defeat 2 Devoted Arachno near Vilia Lake in Tephra Cave.\"\r\n\"Defeat 4 Resolute Arachno near Vilia Lake in Tephra Cave.\"\r\n\"Defeat 3 Zealous Arachno near Vilia Lake in Tephra Cave.\"",
       "givers": [
         {
           "residentId": "resident-defence-force-soldier-c23f1e",
-          "name": "Defence Force Soldier",
+          "name": "防衛隊員",
           "kind": "npc",
           "locations": [
             {
-              "location": "Tephra Cave (Warehouse 2)",
+              "location": "テフラ洞窟 (第2左舷倉庫)",
               "time": "Anytime"
             }
           ]
@@ -1715,18 +1715,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-tephra-cave-the-book-of-bafalgar-7d37bca5",
-      "questName": "The Book of Bafalgar",
-      "area": "Tephra Cave",
+      "questName": "バルファルガの書",
+      "area": "テフラ洞窟",
       "requirements": "Mechonis Core cleared",
       "details": "Requires: Mechonis Core cleared — \"Find the Starlight Book near Vilia Lake in Tephra Cave.\"",
       "givers": [
         {
           "residentId": "resident-shura-6ea5c8",
-          "name": "Shura",
+          "name": "シューラ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Tephra Cave (Bafalgar Tomb)",
+              "location": "テフラ洞窟 (バルファルガ墓地)",
               "time": "Anytime"
             }
           ]
@@ -1735,18 +1735,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-tephra-cave-the-blood-of-bafalgar-5cb0e4ee",
-      "questName": "The Blood of Bafalgar",
-      "area": "Tephra Cave",
+      "questName": "バルファルガの血",
+      "area": "テフラ洞窟",
       "requirements": "Mechonis Core cleared\nThe Book of Bafalgar",
       "details": "Requires: Mechonis Core cleared\nThe Book of Bafalgar — \"Defeat Dazzling Tolosnia near the Heavenly Window and collect the White Spider Heart.\"\r\nDazzling Tolosnia is level 97, and can be found at the dead-end southwest of Heavenly Window\r\n\"Offer up the White Spider Heart at the Bafalgar Tomb altar.\"\r\n\"Return to Shura.\"",
       "givers": [
         {
           "residentId": "resident-shura-6ea5c8",
-          "name": "Shura",
+          "name": "シューラ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Tephra Cave (Bafalgar Tomb)",
+              "location": "テフラ洞窟 (バルファルガ墓地)",
               "time": "Anytime"
             }
           ]
@@ -1755,18 +1755,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-tephra-cave-the-path-of-bafalgar-2a536900",
-      "questName": "The Path of Bafalgar",
-      "area": "Tephra Cave",
+      "questName": "バルファルガの道",
+      "area": "テフラ洞窟",
       "requirements": "Mechonis Core cleared\nThe Blood of Bafalgar",
       "details": "Requires: Mechonis Core cleared\nThe Blood of Bafalgar — \"Enter and search the Prayer Room in Bafalgar Tomb.\"\n\"Return to Shura.\"\n\"Collect the Sacrificial Tablet from near the Path of Absolution in Tephra Cave.\"\n\"Return to Shura.\"",
       "givers": [
         {
           "residentId": "resident-shura-6ea5c8",
-          "name": "Shura",
+          "name": "シューラ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Tephra Cave (Bafalgar Tomb)",
+              "location": "テフラ洞窟 (バルファルガ墓地)",
               "time": "Anytime"
             }
           ]
@@ -1775,18 +1775,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-tephra-cave-the-coffin-of-bafalgar-f9784e3f",
-      "questName": "The Coffin of Bafalgar",
-      "area": "Tephra Cave",
+      "questName": "バルファルガの棺",
+      "area": "テフラ洞窟",
       "requirements": "Mechonis Core cleared\nThe Path of Bafalgar",
       "details": "Requires: Mechonis Core cleared\nThe Path of Bafalgar — \"Find the hint in the Soothsayer's Crypt in Tephra Cave.\"\r\nThe Moonlight Book appears at night, near the illuminated tomb, inside the Soothsayer's Crypt found by looking for the wall near the stairway.\r\n\"Return to Shura.\"",
       "givers": [
         {
           "residentId": "resident-shura-6ea5c8",
-          "name": "Shura",
+          "name": "シューラ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Tephra Cave (Bafalgar Tomb)",
+              "location": "テフラ洞窟 (バルファルガ墓地)",
               "time": "Anytime"
             }
           ]
@@ -1795,18 +1795,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-tephra-cave-the-gratitude-of-bafalgar-2eb5451e",
-      "questName": "The Gratitude of Bafalgar",
-      "area": "Tephra Cave",
+      "questName": "バルファルガの礼",
+      "area": "テフラ洞窟",
       "requirements": "Mechonis Core cleared\nThe Coffin of Bafalgar",
       "details": "Requires: Mechonis Core cleared\nThe Coffin of Bafalgar — \"Speak to Shura in the Colony 9 Commercial District.\"\r\nHint: At 18:00 Shura leaves a house in the northeast corner of the Commercial District. She arrives at Giorgio's Curry Shop slightly before 19:00 and remains there until 3am. She then returns to the same house, arriving slightly before 04:00.",
       "givers": [
         {
           "residentId": "resident-shura-6ea5c8",
-          "name": "Shura",
+          "name": "シューラ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Tephra Cave (Bafalgar Tomb)",
+              "location": "テフラ洞窟 (バルファルガ墓地)",
               "time": "Anytime"
             }
           ]
@@ -1816,17 +1816,17 @@ const QUEST_SCHEDULE_DATA = {
     {
       "questId": "quest-tephra-cave-collection-quest-1-632d5906",
       "questName": "Collection Quest 1",
-      "area": "Tephra Cave",
+      "area": "テフラ洞窟",
       "requirements": "After the Mechon attack in Colony 9",
       "details": "Requires: After the Mechon attack in Colony 9 — \"Collect 2 Kneecap Rocks in Tephra Cave.\"",
       "givers": [
         {
           "residentId": "resident-defence-force-soldier-c23f1e",
-          "name": "Defence Force Soldier",
+          "name": "防衛隊員",
           "kind": "npc",
           "locations": [
             {
-              "location": "Tephra Cave (Escape Pod Bay)",
+              "location": "テフラ洞窟 (脱出ポッド室)",
               "time": "Anytime"
             }
           ]
@@ -1836,17 +1836,17 @@ const QUEST_SCHEDULE_DATA = {
     {
       "questId": "quest-tephra-cave-collection-quest-2-0b312bff",
       "questName": "Collection Quest 2",
-      "area": "Tephra Cave",
+      "area": "テフラ洞窟",
       "requirements": "After the Mechon attack in Colony 9",
       "details": "Requires: After the Mechon attack in Colony 9 — \"Collect 2 Bright Figs in Tephra Cave.\"",
       "givers": [
         {
           "residentId": "resident-defence-force-soldier-c23f1e",
-          "name": "Defence Force Soldier",
+          "name": "防衛隊員",
           "kind": "npc",
           "locations": [
             {
-              "location": "Tephra Cave (Escape Pod Bay)",
+              "location": "テフラ洞窟 (脱出ポッド室)",
               "time": "Anytime"
             }
           ]
@@ -1856,17 +1856,17 @@ const QUEST_SCHEDULE_DATA = {
     {
       "questId": "quest-tephra-cave-material-quest-1-01afcb45",
       "questName": "Material Quest 1",
-      "area": "Tephra Cave",
+      "area": "テフラ洞窟",
       "requirements": "After the Mechon attack in Colony 9",
       "details": "Requires: After the Mechon attack in Colony 9 — \"Collect 3 Broken Pincers from Krabbles in Tephra Cave.\"",
       "givers": [
         {
           "residentId": "resident-defence-force-soldier-c23f1e",
-          "name": "Defence Force Soldier",
+          "name": "防衛隊員",
           "kind": "npc",
           "locations": [
             {
-              "location": "Tephra Cave (Escape Pod Bay)",
+              "location": "テフラ洞窟 (脱出ポッド室)",
               "time": "Anytime"
             }
           ]
@@ -1876,17 +1876,17 @@ const QUEST_SCHEDULE_DATA = {
     {
       "questId": "quest-tephra-cave-material-quest-2-d6b30bb6",
       "questName": "Material Quest 2",
-      "area": "Tephra Cave",
+      "area": "テフラ洞窟",
       "requirements": "After the Mechon attack in Colony 9",
       "details": "Requires: After the Mechon attack in Colony 9 — \"Collect 1 lot of Brog Smelling Salts from a Noble Brog or a Lurker Brog in Tephra Cave.\"",
       "givers": [
         {
           "residentId": "resident-defence-force-soldier-c23f1e",
-          "name": "Defence Force Soldier",
+          "name": "防衛隊員",
           "kind": "npc",
           "locations": [
             {
-              "location": "Tephra Cave (Escape Pod Bay)",
+              "location": "テフラ洞窟 (脱出ポッド室)",
               "time": "Anytime"
             }
           ]
@@ -1895,18 +1895,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-bionis-leg-emergency-treatment-c86776e7",
-      "questName": "Emergency Treatment",
-      "area": "Bionis' Leg",
+      "questName": "薬の時間",
+      "area": "巨神脚",
       "requirements": "Bionis' Leg area reached\nGorman registered on the Colony 6 area Affinity Chart",
       "details": "Requires: Bionis' Leg area reached\nGorman registered on the Colony 6 area Affinity Chart — Collect 5 lots of Glowing Wisp Fluid from Wisps on the Bionis' Leg.\nReturn to Olga",
       "givers": [
         {
           "residentId": "resident-olga-dd2ed1",
-          "name": "Olga",
+          "name": "オルガ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Bionis' Leg (Refugee Camp)",
+              "location": "巨神脚 (脱出艇キャンプ)",
               "time": "06:00–15:00"
             }
           ]
@@ -1915,18 +1915,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-bionis-leg-being-a-good-grandfather-9ef961fb",
-      "questName": "Being a Good Grandfather",
-      "area": "Bionis' Leg",
+      "questName": "祖父の心孫知らず",
+      "area": "巨神脚",
       "requirements": "Bionis' Leg area reached\r\nNikita registered on the Colony 6 area Affinity Chart",
       "details": "Requires: Bionis' Leg area reached\r\nNikita registered on the Colony 6 area Affinity Chart — Collect 3 Sticky Web Fibre from Arachno on the Bionis' Leg.\nReturn to Satata.\nGive the toy to Kiroki.\nReturn to Satata.",
       "givers": [
         {
           "residentId": "resident-satata-f496e5",
-          "name": "Satata",
+          "name": "タツ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Bionis' Leg (Refugee Camp)",
+              "location": "巨神脚 (脱出艇キャンプ)",
               "time": "06:00–15:00"
             }
           ]
@@ -1935,18 +1935,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-bionis-leg-a-thoughtful-idea-047b88f8",
-      "questName": "A Thoughtful Idea",
-      "area": "Bionis' Leg",
+      "questName": "君に贈る物語",
+      "area": "巨神脚",
       "requirements": "Bionis' Leg area reached",
       "details": "Requires: Bionis' Leg area reached — Speak to Ewan.\nCollect 3 pieces of Ponio Neck Meat from Field Ponios in Bionis' Leg.\nSpeak to Ewan.\nReturn to Matryona.",
       "givers": [
         {
           "residentId": "resident-matryona-63a25c",
-          "name": "Matryona",
+          "name": "マトリョーナ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Bionis' Leg (Refugee Camp)",
+              "location": "巨神脚 (脱出艇キャンプ)",
               "time": "09:00–18:00"
             }
           ]
@@ -1955,18 +1955,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-bionis-leg-a-dash-of-colour-4f52f280",
-      "questName": "A Dash of Colour",
-      "area": "Bionis' Leg",
+      "questName": "君へ贈る物語",
+      "area": "巨神脚",
       "requirements": "Bionis' Leg area reached\r\nA Thoughtful Idea",
       "details": "Requires: Bionis' Leg area reached\r\nA Thoughtful Idea — Collect 4 Sour Gooseberries in Bionis' Leg.\nReport back to Ewan.\r\nGive the paints to Matryona.\r\nReturn to Ewan.",
       "givers": [
         {
           "residentId": "resident-ewan-8956b4",
-          "name": "Ewan",
+          "name": "イワン",
           "kind": "npc",
           "locations": [
             {
-              "location": "Bionis' Leg (Refugee Camp)",
+              "location": "巨神脚 (脱出艇キャンプ)",
               "time": "06:00–18:00"
             }
           ]
@@ -1975,18 +1975,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-bionis-leg-imaginations-tempered-f8dcc7a5",
-      "questName": "Imaginations Tempered",
-      "area": "Bionis' Leg",
+      "questName": "君が贈る物語",
+      "area": "巨神脚",
       "requirements": "Bionis' Leg area reached\r\nA Dash of Colour",
       "details": "Requires: Bionis' Leg area reached\r\nA Dash of Colour — Collect 1 Lake Drop from near Raguel Lake on the Bionis' Leg.\nReturn to Matryona.\nGive the picture book to Pama.",
       "givers": [
         {
           "residentId": "resident-matryona-63a25c",
-          "name": "Matryona",
+          "name": "マトリョーナ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Bionis' Leg (Refugee Camp)",
+              "location": "巨神脚 (脱出艇キャンプ)",
               "time": "09:00–18:00"
             }
           ]
@@ -1995,18 +1995,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-bionis-leg-spirits-raised-166ef63c",
-      "questName": "Spirits Raised",
-      "area": "Bionis' Leg",
+      "questName": "君の贈る物語",
+      "area": "巨神脚",
       "requirements": "Bionis' Leg area reached\r\nImaginations Tempered accepted",
       "details": "Requires: Bionis' Leg area reached\r\nImaginations Tempered accepted — Collect a Medicinal Herb from near Tranquil Grotto on the Bionis' Leg.\nSpeak to Arda.\nReturn to Matryona.\nGive the picture book to Pama.",
       "givers": [
         {
           "residentId": "resident-arda-21f914",
-          "name": "Arda",
+          "name": "アーダ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Bionis' Leg (Refugee Camp)",
+              "location": "巨神脚 (脱出艇キャンプ)",
               "time": "Anytime"
             }
           ]
@@ -2015,18 +2015,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-bionis-leg-thieving-monsters-479bb2e8",
-      "questName": "Thieving Monsters",
-      "area": "Bionis' Leg",
+      "questName": "泥棒モンスター",
+      "area": "巨神脚",
       "requirements": "Bionis' Leg area reached",
       "details": "Requires: Bionis' Leg area reached — Collect the Clothes from the Tirkin Headquarters on the Bionis' Leg.\nReturn to Gorman.",
       "givers": [
         {
           "residentId": "resident-gorman-e87fc2",
-          "name": "Gorman",
+          "name": "ゲールマン",
           "kind": "npc",
           "locations": [
             {
-              "location": "Bionis' Leg (Refugee Camp)",
+              "location": "巨神脚 (脱出艇キャンプ)",
               "time": "21:00–06:00"
             }
           ]
@@ -2035,18 +2035,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-bionis-leg-the-greedy-monster-7511fe50",
-      "questName": "The Greedy Monster",
-      "area": "Bionis' Leg",
+      "questName": "大食いモンスター",
+      "area": "巨神脚",
       "requirements": "Bionis' Leg area reached\r\nBeing a Good Grandfather\r\nColony 6 area ☆1¼",
       "details": "Requires: Bionis' Leg area reached\r\nBeing a Good Grandfather\r\nColony 6 area ☆1¼ — Defeat the LV16 Abnormal Brog near Raguel Lake on the Bionis' Leg.\nReturn to Satata.",
       "givers": [
         {
           "residentId": "resident-satata-f496e5",
-          "name": "Satata",
+          "name": "タツ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Bionis' Leg (Refugee Camp)",
+              "location": "巨神脚 (脱出艇キャンプ)",
               "time": "06:00–15:00"
             }
           ]
@@ -2055,18 +2055,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-bionis-leg-save-the-girl-10b6a5e4",
-      "questName": "Save the Girl!",
-      "area": "Bionis' Leg",
+      "questName": "女性を助けろ！",
+      "area": "巨神脚",
       "requirements": "Sharla joined the party",
       "details": "Requires: Sharla joined the party — Defeat the 4 Ferocious Volff near the waterfall on Gaur Plain.\nSpeak to the girl.",
       "givers": [
         {
           "residentId": "resident-surprise-quest-86bd80",
-          "name": "Surprise Quest",
+          "name": "サブライズクエスト",
           "kind": "automatic",
           "locations": [
             {
-              "location": "Bionis' Leg (near waterfall in southeast Gaur Plain)",
+              "location": "巨神脚 (near waterfall in southeast ガウル平原)",
               "time": "Automatic"
             }
           ]
@@ -2075,18 +2075,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-bionis-leg-earnest-s-fibs-98917f25",
-      "questName": "Earnest's Fibs",
-      "area": "Bionis' Leg",
+      "questName": "ウソつきオーネスト",
+      "area": "巨神脚",
       "requirements": "Bionis' Leg area reached",
       "details": "Requires: Bionis' Leg area reached — Search the area around the ether deposit.\nReturn to Earnest.",
       "givers": [
         {
           "residentId": "resident-earnest-fbd959",
-          "name": "Earnest",
+          "name": "オーネスト",
           "kind": "npc",
           "locations": [
             {
-              "location": "Bionis' Leg (Refugee Camp)",
+              "location": "巨神脚 (脱出艇キャンプ)",
               "time": "Anytime"
             }
           ]
@@ -2095,18 +2095,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-bionis-leg-earnest-s-mischief-195b7daf",
-      "questName": "Earnest's Mischief",
-      "area": "Bionis' Leg",
+      "questName": "ひとでなしオーネスト",
+      "area": "巨神脚",
       "requirements": "Bionis' Leg area reached\r\nEarnest's Fibs\r\nColony 6 area ☆1¼",
       "details": "Requires: Bionis' Leg area reached\r\nEarnest's Fibs\r\nColony 6 area ☆1¼ — Search the area around the ether deposit.\nReturn to Earnest.",
       "givers": [
         {
           "residentId": "resident-earnest-fbd959",
-          "name": "Earnest",
+          "name": "オーネスト",
           "kind": "npc",
           "locations": [
             {
-              "location": "Bionis' Leg (Refugee Camp)",
+              "location": "巨神脚 (脱出艇キャンプ)",
               "time": "Anytime"
             }
           ]
@@ -2115,18 +2115,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-bionis-leg-earnest-s-solitude-44cfd7fc",
-      "questName": "Earnest's Solitude",
-      "area": "Bionis' Leg",
+      "questName": "こどくのオーネスト",
+      "area": "巨神脚",
       "requirements": "Bionis' Leg area reached\r\nEarnest's Mischief\r\nColony 6 area ☆1½",
       "details": "Requires: Bionis' Leg area reached\r\nEarnest's Mischief\r\nColony 6 area ☆1½ — Place the flowers on the grave.\nDefeat the Arrogant Tirkin to the north of Kasharpa Waterfall on the Bionis' Leg.\nReturn to Earnest",
       "givers": [
         {
           "residentId": "resident-earnest-fbd959",
-          "name": "Earnest",
+          "name": "オーネスト",
           "kind": "npc",
           "locations": [
             {
-              "location": "Bionis' Leg (Refugee Camp)",
+              "location": "巨神脚 (脱出艇キャンプ)",
               "time": "Anytime"
             }
           ]
@@ -2135,18 +2135,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-bionis-leg-the-lost-nopon-8c4e3176",
-      "questName": "The Lost Nopon",
-      "area": "Bionis' Leg",
+      "questName": "方向音痴迷惑ノポン",
+      "area": "巨神脚",
       "requirements": "Bionis' Leg area reached",
       "details": "Requires: Bionis' Leg area reached — Find Batubatu.\nReturn to Gerugu",
       "givers": [
         {
           "residentId": "resident-gerugu-13c91b",
-          "name": "Gerugu",
+          "name": "グレリー",
           "kind": "npc",
           "locations": [
             {
-              "location": "Bionis' Leg (Traveller's Rest)",
+              "location": "巨神脚 (旅人の休息跡地)",
               "time": "Anytime"
             }
           ]
@@ -2155,18 +2155,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-bionis-leg-with-much-gratitude-07093bc2",
-      "questName": "With Much Gratitude",
-      "area": "Bionis' Leg",
+      "questName": "最上級の感謝",
+      "area": "巨神脚",
       "requirements": "Bionis' Leg area reached\r\nThe Lost Nopon\r\nColony 6 area ☆1¼",
       "details": "Requires: Bionis' Leg area reached\r\nThe Lost Nopon\r\nColony 6 area ☆1¼ — Collect a Tokilos' Egg near Zax Guidepost in Bionis' Leg.\nCollect a Pandora Mushroom from Windy Cave on the Bionis' Leg.\nReturn to Batubatu",
       "givers": [
         {
           "residentId": "resident-batubatu-817546",
-          "name": "Batubatu",
+          "name": "バルド",
           "kind": "npc",
           "locations": [
             {
-              "location": "Bionis' Leg (Traveller's Rest)",
+              "location": "巨神脚 (旅人の休息跡地)",
               "time": "Anytime"
             }
           ]
@@ -2176,17 +2176,17 @@ const QUEST_SCHEDULE_DATA = {
     {
       "questId": "quest-bionis-leg-with-even-more-gratitude-895d1dd0",
       "questName": "WIth Even More Gratitude",
-      "area": "Bionis' Leg",
+      "area": "巨神脚",
       "requirements": "Bionis' Leg area reached\r\nWith Much Gratitude\r\nColony 6 area ☆1½",
       "details": "Requires: Bionis' Leg area reached\r\nWith Much Gratitude\r\nColony 6 area ☆1½ — Locate Batubatu on a high place east of Zax Guidepost on the Bionis' Leg.\nHead to the top of the large waterfall on the Bionis' Leg and collect the Ether Wisdom.\nReturn to Batubatu.",
       "givers": [
         {
           "residentId": "resident-gerugu-13c91b",
-          "name": "Gerugu",
+          "name": "グレリー",
           "kind": "npc",
           "locations": [
             {
-              "location": "Bionis' Leg (Traveller's Rest)",
+              "location": "巨神脚 (旅人の休息跡地)",
               "time": "Anytime"
             }
           ]
@@ -2195,18 +2195,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-bionis-leg-legend-of-mythical-empress-516757f5",
-      "questName": "Legend of Mythical Empress",
-      "area": "Bionis' Leg",
+      "questName": "真・伝説のエンプレス",
+      "area": "巨神脚",
       "requirements": "Makna Forest reached\nWith Even More Gratitude\nIt Definitely Exist!\nPachipa and Pipiki affinity link green\nColony 6 area ☆3½",
       "details": "Requires: Makna Forest reached\nWith Even More Gratitude\nIt Definitely Exist!\nPachipa and Pipiki affinity link green\nColony 6 area ☆3½ — Defeat the Mythical Empress near Zax Guidepost on the Bionis' Leg.\nReturn to Gerugu.",
       "givers": [
         {
           "residentId": "resident-gerugu-13c91b",
-          "name": "Gerugu",
+          "name": "グレリー",
           "kind": "npc",
           "locations": [
             {
-              "location": "Bionis' Leg (Traveller's Rest)",
+              "location": "巨神脚 (旅人の休息跡地)",
               "time": "Anytime"
             }
           ]
@@ -2215,18 +2215,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-bionis-leg-a-flower-for-a-rose-41910338",
-      "questName": "A Flower for a Rose",
-      "area": "Bionis' Leg",
+      "questName": "高嶺の花への花",
+      "area": "巨神脚",
       "requirements": "Mechonis Core cleared\r\nSecuring Provisions",
       "details": "Requires: Mechonis Core cleared\r\nSecuring Provisions — Collect 1 Ancient Lily near Bafalgar Tomb in Tephra Cave.\nReturn to Dulland.",
       "givers": [
         {
           "residentId": "resident-dulland-ce9c3d",
-          "name": "Dulland",
+          "name": "デュランド",
           "kind": "npc",
           "locations": [
             {
-              "location": "Bionis' Leg (Refugee Camp)",
+              "location": "巨神脚 (脱出艇キャンプ)",
               "time": "Anytime"
             }
           ]
@@ -2235,18 +2235,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-bionis-leg-battling-brutes-adab749b",
-      "questName": "Battling Brutes",
-      "area": "Bionis' Leg",
+      "questName": "ぶつかり合うふたつ",
+      "area": "巨神脚",
       "requirements": "Mechonis Core cleared\r\nA Flower for a Rose\r\nFiora in the lead",
       "details": "Requires: Mechonis Core cleared\r\nA Flower for a Rose\r\nFiora in the lead — Defeat LV98 Reckless Zanden at the Arachno Queen's Nest in Tephra Cave.\nDefeat LV98 Firework Geldesia at the Arachno Queen's Nest in Tephra Cave.\nReturn to Dulland.",
       "givers": [
         {
           "residentId": "resident-dulland-ce9c3d",
-          "name": "Dulland",
+          "name": "デュランド",
           "kind": "npc",
           "locations": [
             {
-              "location": "Bionis' Leg (Refugee Camp)",
+              "location": "巨神脚 (脱出艇キャンプ)",
               "time": "Anytime"
             }
           ]
@@ -2255,18 +2255,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-bionis-leg-supplies-for-satorl-d827c5dd",
-      "questName": "Supplies for Satorl",
-      "area": "Bionis' Leg",
+      "questName": "ザトールへの物資",
+      "area": "巨神脚",
       "requirements": "Mechonis Core cleared\r\nSecuring Provisions",
       "details": "Requires: Mechonis Core cleared\r\nSecuring Provisions — Give goods to Scarlen in Satorl Marsh.",
       "givers": [
         {
           "residentId": "resident-elior-428bf5",
-          "name": "Elior",
+          "name": "エイン",
           "kind": "npc",
           "locations": [
             {
-              "location": "Bionis' Leg (Refugee Camp)",
+              "location": "巨神脚 (脱出艇キャンプ)",
               "time": "18:00–06:00"
             }
           ]
@@ -2275,18 +2275,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-bionis-leg-monster-quest-1-part-1-efd76bed",
-      "questName": "Monster Quest 1 - Part 1",
-      "area": "Bionis' Leg",
+      "questName": "討伐クエスト1その1",
+      "area": "巨神脚",
       "requirements": "Bionis' Leg area reached",
       "details": "Requires: Bionis' Leg area reached — Defeat 2 Leg Ardun on the Bionis' Leg.",
       "givers": [
         {
           "residentId": "resident-a-homs-traveller-33b55b",
-          "name": "A Homs Traveller",
+          "name": "A ホムス旅人",
           "kind": "npc",
           "locations": [
             {
-              "location": "Bionis' Leg (Ragrinar Canyon Path)",
+              "location": "巨神脚 (ラグリナ渓谷道)",
               "time": "Anytime"
             }
           ]
@@ -2295,18 +2295,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-bionis-leg-monster-quest-1-part-2-3298bba8",
-      "questName": "Monster Quest 1 - Part 2",
-      "area": "Bionis' Leg",
+      "questName": "討伐クエスト1その2",
+      "area": "巨神脚",
       "requirements": "Bionis' Leg area reached",
       "details": "Requires: Bionis' Leg area reached — Defeat 3 Maker Bunnits on the Bionis' Leg.",
       "givers": [
         {
           "residentId": "resident-a-homs-traveller-33b55b",
-          "name": "A Homs Traveller",
+          "name": "A ホムス旅人",
           "kind": "npc",
           "locations": [
             {
-              "location": "Bionis' Leg (Ragrinar Canyon Path)",
+              "location": "巨神脚 (ラグリナ渓谷道)",
               "time": "Anytime"
             }
           ]
@@ -2315,18 +2315,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-bionis-leg-monster-quest-1-part-3-0fc37c7f",
-      "questName": "Monster Quest 1 - Part 3",
-      "area": "Bionis' Leg",
+      "questName": "討伐クエスト1その3",
+      "area": "巨神脚",
       "requirements": "Bionis' Leg area reached",
       "details": "Requires: Bionis' Leg area reached — Defeat 5 Field Ponios on the Bionis' Leg.",
       "givers": [
         {
           "residentId": "resident-a-homs-traveller-33b55b",
-          "name": "A Homs Traveller",
+          "name": "A ホムス旅人",
           "kind": "npc",
           "locations": [
             {
-              "location": "Bionis' Leg (Ragrinar Canyon Path)",
+              "location": "巨神脚 (ラグリナ渓谷道)",
               "time": "Anytime"
             }
           ]
@@ -2335,18 +2335,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-bionis-leg-monster-quest-1-part-4-f12cb694",
-      "questName": "Monster Quest 1 - Part 4",
-      "area": "Bionis' Leg",
+      "questName": "討伐クエスト1その4",
+      "area": "巨神脚",
       "requirements": "Bionis' Leg area reached",
       "details": "Requires: Bionis' Leg area reached — Defeat 3 Leg Volff on the Bionis' Leg.",
       "givers": [
         {
           "residentId": "resident-a-homs-traveller-33b55b",
-          "name": "A Homs Traveller",
+          "name": "A ホムス旅人",
           "kind": "npc",
           "locations": [
             {
-              "location": "Bionis' Leg (Ragrinar Canyon Path)",
+              "location": "巨神脚 (ラグリナ渓谷道)",
               "time": "Anytime"
             }
           ]
@@ -2356,17 +2356,17 @@ const QUEST_SCHEDULE_DATA = {
     {
       "questId": "quest-bionis-leg-monster-quest-2-5f029d15",
       "questName": "Monster Quest 2",
-      "area": "Bionis' Leg",
+      "area": "巨神脚",
       "requirements": "Bionis' Leg area reached",
       "details": "Requires: Bionis' Leg area reached — Defeat 2 Basin Antols on the Bionis' Leg.",
       "givers": [
         {
           "residentId": "resident-a-homs-camp-resident-0c0d41",
-          "name": "A Homs Camp Resident",
+          "name": "A ホムス Camp Resident",
           "kind": "npc",
           "locations": [
             {
-              "location": "Bionis' Leg (Refugee Camp)",
+              "location": "巨神脚 (脱出艇キャンプ)",
               "time": "06:00–18:00"
             }
           ]
@@ -2375,18 +2375,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-bionis-leg-monster-quest-3-part-1-720142e6",
-      "questName": "Monster Quest 3 - Part 1",
-      "area": "Bionis' Leg",
+      "questName": "討伐クエスト3その1",
+      "area": "巨神脚",
       "requirements": "Bionis' Leg area reached",
       "details": "Requires: Bionis' Leg area reached — Defeat 5 Mechon M64 on the Bionis' Leg.",
       "givers": [
         {
           "residentId": "resident-a-homs-camp-resident-0c0d41",
-          "name": "A Homs Camp Resident",
+          "name": "A ホムス Camp Resident",
           "kind": "npc",
           "locations": [
             {
-              "location": "Bionis' Leg (Refugee Camp)",
+              "location": "巨神脚 (脱出艇キャンプ)",
               "time": "18:00–06:00"
             }
           ]
@@ -2395,18 +2395,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-bionis-leg-monster-quest-3-part-2-35e3059c",
-      "questName": "Monster Quest 3 - Part 2",
-      "area": "Bionis' Leg",
+      "questName": "討伐クエスト3その2",
+      "area": "巨神脚",
       "requirements": "Bionis' Leg area reached",
       "details": "Requires: Bionis' Leg area reached — Defeat 2 Brave Tirkins on the Bionis' Leg.",
       "givers": [
         {
           "residentId": "resident-a-homs-camp-resident-0c0d41",
-          "name": "A Homs Camp Resident",
+          "name": "A ホムス Camp Resident",
           "kind": "npc",
           "locations": [
             {
-              "location": "Bionis' Leg (Refugee Camp)",
+              "location": "巨神脚 (脱出艇キャンプ)",
               "time": "18:00–06:00"
             }
           ]
@@ -2415,18 +2415,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-bionis-leg-challenge-1-part-1-cc0488db",
-      "questName": "Challenge 1 - Part 1",
-      "area": "Bionis' Leg",
+      "questName": "強敵を求めて1その1",
+      "area": "巨神脚",
       "requirements": "Bionis' Leg area reached",
       "details": "Requires: Bionis' Leg area reached — Defeat LV17 White Eduardo at Raguel Lake on the Bionis' Leg.",
       "givers": [
         {
           "residentId": "resident-a-homs-camp-resident-0c0d41",
-          "name": "A Homs Camp Resident",
+          "name": "A ホムス Camp Resident",
           "kind": "npc",
           "locations": [
             {
-              "location": "Bionis' Leg (Refugee Camp)",
+              "location": "巨神脚 (脱出艇キャンプ)",
               "time": "Anytime"
             }
           ]
@@ -2435,18 +2435,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-bionis-leg-challenge-1-part-2-46f42b16",
-      "questName": "Challenge 1 - Part 2",
-      "area": "Bionis' Leg",
+      "questName": "強敵を求めて1その2",
+      "area": "巨神脚",
       "requirements": "Bionis' Leg area reached",
       "details": "Requires: Bionis' Leg area reached — Defeat LV16 Violent Andante from Sky Stage on the Bionis' Leg.",
       "givers": [
         {
           "residentId": "resident-a-homs-camp-resident-0c0d41",
-          "name": "A Homs Camp Resident",
+          "name": "A ホムス Camp Resident",
           "kind": "npc",
           "locations": [
             {
-              "location": "Bionis' Leg (Refugee Camp)",
+              "location": "巨神脚 (脱出艇キャンプ)",
               "time": "Anytime"
             }
           ]
@@ -2455,18 +2455,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-bionis-leg-challenge-2-part-1-4c3375a6",
-      "questName": "Challenge 2 - Part 1",
-      "area": "Bionis' Leg",
+      "questName": "強敵を求めて2その1",
+      "area": "巨神脚",
       "requirements": "Bionis' Leg area reached",
       "details": "Requires: Bionis' Leg area reached — Defeat LV15 Trainer Harmelon near the north part of Spiral Valley on the Bionis' Leg upper level.",
       "givers": [
         {
           "residentId": "resident-a-nopon-camp-resident-37e646",
-          "name": "A Nopon Camp Resident",
+          "name": "A ノポンキャンプ Resident",
           "kind": "npc",
           "locations": [
             {
-              "location": "Bionis' Leg (Refugee Camp)",
+              "location": "巨神脚 (脱出艇キャンプ)",
               "time": "06:00–18:00"
             }
           ]
@@ -2475,18 +2475,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-bionis-leg-challenge-2-part-2-63a30fec",
-      "questName": "Challenge 2 - Part 2",
-      "area": "Bionis' Leg",
+      "questName": "強敵を求めて2その2",
+      "area": "巨神脚",
       "requirements": "Bionis' Leg area reached",
       "details": "Requires: Bionis' Leg area reached — Defeat Vagrant Alfead in the Tirkin Headquarters on the Bionis' Leg.",
       "givers": [
         {
           "residentId": "resident-a-nopon-camp-resident-37e646",
-          "name": "A Nopon Camp Resident",
+          "name": "A ノポンキャンプ Resident",
           "kind": "npc",
           "locations": [
             {
-              "location": "Bionis' Leg (Refugee Camp)",
+              "location": "巨神脚 (脱出艇キャンプ)",
               "time": "06:00–18:00"
             }
           ]
@@ -2496,17 +2496,17 @@ const QUEST_SCHEDULE_DATA = {
     {
       "questId": "quest-bionis-leg-material-quest-1-e12496c0",
       "questName": "Material Quest 1",
-      "area": "Bionis' Leg",
+      "area": "巨神脚",
       "requirements": "Bionis' Leg area reached",
       "details": "Requires: Bionis' Leg area reached — Collect 2 lots of Brog Leg Meat from Brogs on the Bionis' Leg.\nCollect 2 Fertile Flamii Eggs from Flamii on the Bionis' Leg.",
       "givers": [
         {
           "residentId": "resident-a-homs-camp-resident-0c0d41",
-          "name": "A Homs Camp Resident",
+          "name": "A ホムス Camp Resident",
           "kind": "npc",
           "locations": [
             {
-              "location": "Bionis' Leg (Refugee Camp)",
+              "location": "巨神脚 (脱出艇キャンプ)",
               "time": "18:00–06:00"
             }
           ]
@@ -2516,17 +2516,17 @@ const QUEST_SCHEDULE_DATA = {
     {
       "questId": "quest-bionis-leg-material-quest-2-f6f0759b",
       "questName": "Material Quest 2",
-      "area": "Bionis' Leg",
+      "area": "巨神脚",
       "requirements": "Bionis' Leg area reached",
       "details": "Requires: Bionis' Leg area reached — Collect 2 Tirkin Crests from spear-carrying Tirkins on the Bionis' Leg\nCollect 2 Tirkin Tail Feathers from bow-carrying Tirkins on the Bionis' Leg.",
       "givers": [
         {
           "residentId": "resident-a-homs-camp-resident-0c0d41",
-          "name": "A Homs Camp Resident",
+          "name": "A ホムス Camp Resident",
           "kind": "npc",
           "locations": [
             {
-              "location": "Bionis' Leg (Refugee Camp)",
+              "location": "巨神脚 (脱出艇キャンプ)",
               "time": "18:00–06:00"
             }
           ]
@@ -2535,18 +2535,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-bionis-leg-material-quest-3-883c8e81",
-      "questName": "Material Quest 3",
-      "area": "Bionis' Leg",
+      "questName": "素材クエスト3",
+      "area": "巨神脚",
       "requirements": "Bionis' Leg area reached",
       "details": "Requires: Bionis' Leg area reached — Collect 1 Bunnit Sapling from a Slugger Bunnit on the Bionis' Leg.",
       "givers": [
         {
           "residentId": "resident-a-homs-camp-resident-0c0d41",
-          "name": "A Homs Camp Resident",
+          "name": "A ホムス Camp Resident",
           "kind": "npc",
           "locations": [
             {
-              "location": "Bionis' Leg (Refugee Camp)",
+              "location": "巨神脚 (脱出艇キャンプ)",
               "time": "18:00–06:00"
             }
           ]
@@ -2555,18 +2555,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-bionis-leg-material-quest-4-c2eeb333",
-      "questName": "Material Quest 4",
-      "area": "Bionis' Leg",
+      "questName": "素材クエスト4",
+      "area": "巨神脚",
       "requirements": "Bionis' Leg area reached",
       "details": "Requires: Bionis' Leg area reached — Collect 3 Vang Third Molars from Vangs on the Bionis' Leg.",
       "givers": [
         {
           "residentId": "resident-a-homs-camp-resident-0c0d41",
-          "name": "A Homs Camp Resident",
+          "name": "A ホムス Camp Resident",
           "kind": "npc",
           "locations": [
             {
-              "location": "Bionis' Leg (Refugee Camp)",
+              "location": "巨神脚 (脱出艇キャンプ)",
               "time": "18:00–06:00"
             }
           ]
@@ -2576,17 +2576,17 @@ const QUEST_SCHEDULE_DATA = {
     {
       "questId": "quest-bionis-leg-collection-quest-1-b069e9eb",
       "questName": "Collection Quest 1",
-      "area": "Bionis' Leg",
+      "area": "巨神脚",
       "requirements": "Bionis' Leg area reached",
       "details": "Requires: Bionis' Leg area reached — Collect 2 Clear Almonds from Tephra Cave.",
       "givers": [
         {
           "residentId": "resident-a-homs-camp-resident-0c0d41",
-          "name": "A Homs Camp Resident",
+          "name": "A ホムス Camp Resident",
           "kind": "npc",
           "locations": [
             {
-              "location": "Bionis' Leg (Refugee Camp)",
+              "location": "巨神脚 (脱出艇キャンプ)",
               "time": "18:00–06:00"
             }
           ]
@@ -2596,17 +2596,17 @@ const QUEST_SCHEDULE_DATA = {
     {
       "questId": "quest-bionis-leg-collection-quest-2-b9c21a0f",
       "questName": "Collection Quest 2",
-      "area": "Bionis' Leg",
+      "area": "巨神脚",
       "requirements": "Bionis' Leg area reached",
       "details": "Requires: Bionis' Leg area reached — Collect 3 Moth Crawlers on the Bionis' Leg.",
       "givers": [
         {
           "residentId": "resident-a-homs-camp-resident-0c0d41",
-          "name": "A Homs Camp Resident",
+          "name": "A ホムス Camp Resident",
           "kind": "npc",
           "locations": [
             {
-              "location": "Bionis' Leg (Refugee Camp)",
+              "location": "巨神脚 (脱出艇キャンプ)",
               "time": "06:00–18:00"
             }
           ]
@@ -2615,18 +2615,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-bionis-leg-search-quest-1-a3fd7be5",
-      "questName": "Search Quest 1",
-      "area": "Bionis' Leg",
+      "questName": "おさがしクエスト1",
+      "area": "巨神脚",
       "requirements": "Bionis' Leg area reached",
       "details": "Requires: Bionis' Leg area reached — Collect the Bird Necklace from near Raguel Bridge on the Bionis' Leg.",
       "givers": [
         {
           "residentId": "resident-a-homs-camp-resident-0c0d41",
-          "name": "A Homs Camp Resident",
+          "name": "A ホムス Camp Resident",
           "kind": "npc",
           "locations": [
             {
-              "location": "Bionis' Leg (Refugee Camp)",
+              "location": "巨神脚 (脱出艇キャンプ)",
               "time": "06:00–18:00"
             }
           ]
@@ -2635,18 +2635,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-bionis-leg-search-quest-2-16812a0a",
-      "questName": "Search Quest 2",
-      "area": "Bionis' Leg",
+      "questName": "おさがしクエスト2",
+      "area": "巨神脚",
       "requirements": "Bionis' Leg area reached",
       "details": "Requires: Bionis' Leg area reached — Collect the Torn Paper from Gaur Plain on the Bionis' Leg.",
       "givers": [
         {
           "residentId": "resident-a-homs-camp-resident-0c0d41",
-          "name": "A Homs Camp Resident",
+          "name": "A ホムス Camp Resident",
           "kind": "npc",
           "locations": [
             {
-              "location": "Bionis' Leg (Refugee Camp)",
+              "location": "巨神脚 (脱出艇キャンプ)",
               "time": "18:00–06:00"
             }
           ]
@@ -2655,18 +2655,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-the-road-home-43a85355",
-      "questName": "The Road Home",
-      "area": "Colony 6",
+      "questName": "懐かしの我が街へ",
+      "area": "コロニー6",
       "requirements": "Sororal Statues in Satorl Marsh reached",
       "details": "Requires: Sororal Statues in Satorl Marsh reached — Defeat the monsters on Raguel Bridge on the Bionis' Leg to ensure the refugees' safe passage.\nDefeat the additional monsters that appeared to make Raguel Bridge safe once more.\nReport back to Juju in the Refugee Camp on the Bionis' Leg.",
       "givers": [
         {
           "residentId": "resident-otharon-c94eaa",
-          "name": "Otharon",
+          "name": "オダマ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Main Entrance)",
+              "location": "コロニー6 (Main Entrance)",
               "time": "Anytime"
             }
           ]
@@ -2675,18 +2675,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-to-colony-6-d46af1a9",
-      "questName": "To Colony 6!",
-      "area": "Colony 6",
+      "questName": "いざ、コロニー6へ",
+      "area": "コロニー6",
       "requirements": "After Otharon has left for Alcamoth\r\nThe Road Home not completed",
       "details": "Requires: After Otharon has left for Alcamoth\r\nThe Road Home not completed — Defeat the monsters on Raguel Bridge on the Bionis' Leg to ensure the refugees' safe passage.\nDefeat the additional monsters that appeared to make Raguel Bridge safe once more.\nReport back to Juju in the Refugee Camp on the Bionis' Leg.",
       "givers": [
         {
           "residentId": "resident-dulland-ce9c3d",
-          "name": "Dulland",
+          "name": "デュランド",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Main Entrance)",
+              "location": "コロニー6 (Main Entrance)",
               "time": "Anytime"
             }
           ]
@@ -2695,18 +2695,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-cook-off-counter-attack-d7f535df",
-      "questName": "Cook-Off Counter Attack!",
-      "area": "Colony 6",
+      "questName": "料理対決・反撃！",
+      "area": "コロニー6",
       "requirements": "Hoko and Talonyth invited to Colony 6",
       "details": "Requires: Hoko and Talonyth invited to Colony 6 — Collect 3 lots of Thick Armu Milk from Armus on the Bionis' Leg.\nCollect 3 White Brog Livers from Brogs in Satorl Marsh.\nCollect 3 Juicy Wild Meat from Stella Eks at Eryth Sea.\nReport back to Hoko.",
       "givers": [
         {
           "residentId": "resident-hoko-f72001",
-          "name": "Hoko",
+          "name": "ホコ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Reconstruction HQ)",
+              "location": "コロニー6 (コロニー6 復興本部)",
               "time": "09:00–18:00"
             }
           ]
@@ -2715,18 +2715,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-cook-off-comeback-ebbd64de",
-      "questName": "Cook-Off Comeback?",
-      "area": "Colony 6",
+      "questName": "料理対決・逆転？",
+      "area": "コロニー6",
       "requirements": "Eryth Sea reached\r\nCook-Off Counter Attack!\r\nPokapoka and Ma'crish invited to Colony 6\r\nColony 6 area ☆1½",
       "details": "Requires: Eryth Sea reached\r\nCook-Off Counter Attack!\r\nPokapoka and Ma'crish invited to Colony 6\r\nColony 6 area ☆1½ — Collect 4 Charcoal Legs from the Ether Mine.\r\nCollect 4 Honey Rhubarbs from Makna Forest.\r\nCollect 4 Tropical Radishes from Eryth Sea.\r\nReport back to Hoko.",
       "givers": [
         {
           "residentId": "resident-hoko-f72001",
-          "name": "Hoko",
+          "name": "ホコ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Reconstruction HQ)",
+              "location": "コロニー6 (コロニー6 復興本部)",
               "time": "09:00–18:00"
             }
           ]
@@ -2735,18 +2735,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-cook-off-final-blow-2fed8c3a",
-      "questName": "Cook-Off Final Blow?!",
-      "area": "Colony 6",
+      "questName": "料理対決・再逆転？",
+      "area": "コロニー6",
       "requirements": "Eryth Sea reached\r\nCook-Off Comeback?\r\nColony 6 area ☆2",
       "details": "Requires: Eryth Sea reached\r\nCook-Off Comeback?\r\nColony 6 area ☆2 — Collect a Sky Frying Pan from near Sky Stage on the Bionis' Leg.\nReturn to Talonyth.\nCollect the Nature's Stove from near the Eks Watering Hole in Makna Forest.\nReturn to Talonyth",
       "givers": [
         {
           "residentId": "resident-talonyth-311864",
-          "name": "Talonyth",
+          "name": "タテドナス",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Reconstruction HQ)",
+              "location": "コロニー6 (コロニー6 復興本部)",
               "time": "06:00–18:00"
             }
           ]
@@ -2755,18 +2755,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-cook-off-showdown-2644f7b8",
-      "questName": "Cook-Off Showdown!",
-      "area": "Colony 6",
+      "questName": "料理対決・決着！",
+      "area": "コロニー6",
       "requirements": "Access to Valak Mountain\r\nMissing Lodger\r\nCook-Off Final Blow?!\r\nColony 6 area ☆2½\r\nReyn in the lead",
       "details": "Requires: Access to Valak Mountain\r\nMissing Lodger\r\nCook-Off Final Blow?!\r\nColony 6 area ☆2½\r\nReyn in the lead — Speak to Hoko.\nCollect 2 Soya Paste Shells from Entma Kings on Valak Mountain.\nReport back to Hoko.\nReport back to Ma'crish.",
       "givers": [
         {
           "residentId": "resident-ma-crish-4f8f45",
-          "name": "Ma'crish",
+          "name": "ミュキシリア",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Reconstruction HQ)",
+              "location": "コロニー6 (コロニー6 復興本部)",
               "time": "06:00–18:00"
             }
           ]
@@ -2775,18 +2775,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-a-delectable-delicacy-10788c5b",
-      "questName": "A Delectable Delicacy",
-      "area": "Colony 6",
+      "questName": "珍味を求めて",
+      "area": "コロニー6",
       "requirements": "Eryth Sea reached\r\nPokapoka invited to Colony 6\r\nCook-Off Comeback?\r\nColony 6 area ☆2",
       "details": "Requires: Eryth Sea reached\r\nPokapoka invited to Colony 6\r\nCook-Off Comeback?\r\nColony 6 area ☆2 — Collect 3 Bunnia Hams from Ether Bunnia in Satorl Marsh.\nReport back to Pokapoka.",
       "givers": [
         {
           "residentId": "resident-pokapoka-b97edc",
-          "name": "Pokapoka",
+          "name": "ポカポカ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Reconstruction HQ)",
+              "location": "コロニー6 (コロニー6 復興本部)",
               "time": "06:00–15:00"
             }
           ]
@@ -2795,18 +2795,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-a-tantalising-treat-d8f30b24",
-      "questName": "A Tantalising Treat",
-      "area": "Colony 6",
+      "questName": "続・珍味を求めて",
+      "area": "コロニー6",
       "requirements": "Cook-Off Final Blow?!\r\nA Delectable Delicacy\r\naccess to Valak Mountain\r\nColony 6 area ☆2½",
       "details": "Requires: Cook-Off Final Blow?!\r\nA Delectable Delicacy\r\naccess to Valak Mountain\r\nColony 6 area ☆2½ — Collect 3 Pagul Cold Pies from Sparas Paguls on Valak Mountain.\nReport back to Pokapoka.",
       "givers": [
         {
           "residentId": "resident-pokapoka-b97edc",
-          "name": "Pokapoka",
+          "name": "ポカポカ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Reconstruction HQ)",
+              "location": "コロニー6 (コロニー6 復興本部)",
               "time": "06:00–15:00"
             }
           ]
@@ -2815,18 +2815,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-missing-lodger-1cc378a0",
-      "questName": "Missing Lodger",
-      "area": "Colony 6",
+      "questName": "行方不明の同居人",
+      "area": "コロニー6",
       "requirements": "Eryth Sea reached\r\nMa'crish invited to Colony 6\r\nHousing and Special at level 2",
       "details": "Requires: Eryth Sea reached\r\nMa'crish invited to Colony 6\r\nHousing and Special at level 2 — Locate the missing Nopo'rikh\nReturn to Ma'crish.",
       "givers": [
         {
           "residentId": "resident-ma-crish-4f8f45",
-          "name": "Ma'crish",
+          "name": "ミュキシリア",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Reconstruction HQ)",
+              "location": "コロニー6 (コロニー6 復興本部)",
               "time": "06:00–18:00"
             }
           ]
@@ -2835,18 +2835,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-looking-for-freedom-59d82962",
-      "questName": "Looking for Freedom",
-      "area": "Colony 6",
+      "questName": "自由を求めて",
+      "area": "コロニー6",
       "requirements": "Eryth Sea reached\r\nMissing Lodger\r\nColony 6 area ☆2",
       "details": "Requires: Eryth Sea reached\r\nMissing Lodger\r\nColony 6 area ☆2 — Route A\nCollect Smelly Perfume from the Poison Swamp in Satorl Marsh.\nReturn to Nopo'rikh.\n\nRoute B\nSpeak to Ma'crish.\nCollect Pure Perfume from Great Makna Falls in Makna Forest.\nSpeak to Nopo'rikh.\nReturn to Ma'crish.",
       "givers": [
         {
           "residentId": "resident-nopo-rikh-cd95d5",
-          "name": "Nopo'rikh",
+          "name": "ノポリック",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Reconstruction HQ)",
+              "location": "コロニー6 (コロニー6 復興本部)",
               "time": "Anytime"
             }
           ]
@@ -2855,18 +2855,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-cursed-berryjammy-f9c86edc",
-      "questName": "Cursed Berryjammy",
-      "area": "Colony 6",
+      "questName": "呪われたストロジャム",
+      "area": "コロニー6",
       "requirements": "Access to Valak Mountain\r\nMefimefi and Berryjammy have been invited to Colony 6",
       "details": "Requires: Access to Valak Mountain\r\nMefimefi and Berryjammy have been invited to Colony 6 — Speak to Mefimefi.\nCollect Statue Fragment.\nReturn to Mefimefi.\nSpeak with Norara.",
       "givers": [
         {
           "residentId": "resident-norara-c193c9",
-          "name": "Norara",
+          "name": "ノラ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Reconstruction HQ)",
+              "location": "コロニー6 (コロニー6 復興本部)",
               "time": "06:00–18:00"
             }
           ]
@@ -2875,18 +2875,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-weak-berryjammy-bf34044f",
-      "questName": "Weak Berryjammy",
-      "area": "Colony 6",
+      "questName": "病弱なストロジャム",
+      "area": "コロニー6",
       "requirements": "Access to Valak Mountain\r\nPerrine invited to Colony 6\r\nBerryjammy invited to Colony 6",
       "details": "Requires: Access to Valak Mountain\r\nPerrine invited to Colony 6\r\nBerryjammy invited to Colony 6 — Collect 4 Thick Nectars from Leg Skeeters on Bionis' Leg.\nCollect 4 Juicy Grapes from Makna Forest.\nReturn to Norara.",
       "givers": [
         {
           "residentId": "resident-norara-c193c9",
-          "name": "Norara",
+          "name": "ノラ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Reconstruction HQ)",
+              "location": "コロニー6 (コロニー6 復興本部)",
               "time": "06:00–18:00"
             }
           ]
@@ -2895,18 +2895,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-obstinate-berryjammy-cecc54f5",
-      "questName": "Obstinate Berryjammy",
-      "area": "Colony 6",
+      "questName": "意地っ張りストロジャム",
+      "area": "コロニー6",
       "requirements": "Access to Valak Mountain\r\nWeak Berryjammy or Cursed Berryjammy\r\nColony 6 area ☆2",
       "details": "Requires: Access to Valak Mountain\r\nWeak Berryjammy or Cursed Berryjammy\r\nColony 6 area ☆2 — Convince Berryjammy.\nReturn to Norara.",
       "givers": [
         {
           "residentId": "resident-norara-c193c9",
-          "name": "Norara",
+          "name": "ノラ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Reconstruction HQ)",
+              "location": "コロニー6 (コロニー6 復興本部)",
               "time": "06:00–18:00"
             }
           ]
@@ -2915,18 +2915,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-unstoppable-berryjammy-790ce0cc",
-      "questName": "Unstoppable Berryjammy",
-      "area": "Colony 6",
+      "questName": "止まらないストロジャム",
+      "area": "コロニー6",
       "requirements": "Access to Valak Mountain\r\nObstinate Berryjammy\r\nChemist's Reopening\r\nColony 6 area ☆3",
       "details": "Requires: Access to Valak Mountain\r\nObstinate Berryjammy\r\nChemist's Reopening\r\nColony 6 area ☆3 — Either discuss Berryjammy's condition with Norara or give her some of Olga's medicine.\nRoute A: Talk to Norara\nCollect 3 lots of Caterpile Vinegar from Satorl Caterpiles in Satorl Marsh.\nReturn to Norara.\n\n\nRoute B: Talk to Olga\nReturn to Berryjammy.",
       "givers": [
         {
           "residentId": "resident-berryjammy-ca4c7f",
-          "name": "Berryjammy",
+          "name": "ストロジャム",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Reconstruction HQ)",
+              "location": "コロニー6 (コロニー6 復興本部)",
               "time": "18:00–03:00"
             }
           ]
@@ -2936,17 +2936,17 @@ const QUEST_SCHEDULE_DATA = {
     {
       "questId": "quest-colony-6-miss-sweetness-showdown-berryjammy-058f80d0",
       "questName": "Miss Sweetness Showdown (Berryjammy)",
-      "area": "Colony 6",
+      "area": "コロニー6",
       "requirements": "Access to Valak Mountain\r\nAffinity between Ma'crish and Berryjammy says \"Competing\" (red)\r\nUnstoppable Berryjammy completed\r\nCook-Off Showdown!\r\nColony 6 area ☆3½",
       "details": "Requires: Access to Valak Mountain\r\nAffinity between Ma'crish and Berryjammy says \"Competing\" (red)\r\nUnstoppable Berryjammy completed\r\nCook-Off Showdown!\r\nColony 6 area ☆3½ — Talk to Berryjammy to begin the quest.\nThe Most Transparent Thing\nReturn to Berryjammy.",
       "givers": [
         {
           "residentId": "resident-berryjammy-ca4c7f",
-          "name": "Berryjammy",
+          "name": "ストロジャム",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Reconstruction HQ)",
+              "location": "コロニー6 (コロニー6 復興本部)",
               "time": "18:00–03:00"
             }
           ]
@@ -2956,17 +2956,17 @@ const QUEST_SCHEDULE_DATA = {
     {
       "questId": "quest-colony-6-miss-sweetness-showdown-ma-crish-91417867",
       "questName": "Miss Sweetness Showdown (Ma'crish)",
-      "area": "Colony 6",
+      "area": "コロニー6",
       "requirements": "Access to Valak Mountain\r\nAffinity between Ma'crish and Berryjammy says \"Competing\" (red)\r\nUnstoppable Berryjammy completed\r\nCook-Off Showdown!\r\nColony 6 area ☆3½",
       "details": "Requires: Access to Valak Mountain\r\nAffinity between Ma'crish and Berryjammy says \"Competing\" (red)\r\nUnstoppable Berryjammy completed\r\nCook-Off Showdown!\r\nColony 6 area ☆3½ — Collect the world's most transparent thing.\nReturn to Ma'crish.",
       "givers": [
         {
           "residentId": "resident-ma-crish-4f8f45",
-          "name": "Ma'crish",
+          "name": "ミュキシリア",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Reconstruction HQ)",
+              "location": "コロニー6 (コロニー6 復興本部)",
               "time": "06:00–18:00"
             }
           ]
@@ -2975,18 +2975,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-the-most-transparent-thing-8d36938d",
-      "questName": "The Most Transparent Thing",
-      "area": "Colony 6",
+      "questName": "世界で一番透明なもの",
+      "area": "コロニー6",
       "requirements": "Access to Valak Mountain\r\nMiss Sweetness Showdown with Berryjammy or Miss Sweetness Showdown with Ma'crish quest accepted",
       "details": "Requires: Access to Valak Mountain\r\nMiss Sweetness Showdown with Berryjammy or Miss Sweetness Showdown with Ma'crish quest accepted — Speak to Lalapa.\nSpeak with Dakuku.\nCollect a Pure Ice Flower from near Url Crevasse on Valak Mountain.",
       "givers": [
         {
           "residentId": "resident-miss-sweetness-26d3d6",
-          "name": "Miss Sweetness",
+          "name": "コロニー6のお嬢様",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Reconstruction HQ)",
+              "location": "コロニー6 (コロニー6 復興本部)",
               "time": "Automatic"
             }
           ]
@@ -2996,17 +2996,17 @@ const QUEST_SCHEDULE_DATA = {
     {
       "questId": "quest-colony-6-miss-sweetness-gratitude-berryjammy-150bef51",
       "questName": "Miss Sweetness' Gratitude (Berryjammy)",
-      "area": "Colony 6",
+      "area": "コロニー6",
       "requirements": "Access to Valak Mountain\r\nMiss Sweetness Showdown\r\nColony 6 area ☆4",
       "details": "Requires: Access to Valak Mountain\r\nMiss Sweetness Showdown\r\nColony 6 area ☆4 — Listen to her demands.\nReturn to Berryjammy.",
       "givers": [
         {
           "residentId": "resident-berryjammy-ca4c7f",
-          "name": "Berryjammy",
+          "name": "ストロジャム",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Reconstruction HQ)",
+              "location": "コロニー6 (コロニー6 復興本部)",
               "time": "18:00–03:00"
             }
           ]
@@ -3016,17 +3016,17 @@ const QUEST_SCHEDULE_DATA = {
     {
       "questId": "quest-colony-6-miss-sweetness-gratitude-ma-crish-a716ddce",
       "questName": "Miss Sweetness' Gratitude (Ma'crish)",
-      "area": "Colony 6",
+      "area": "コロニー6",
       "requirements": "Access to Valak Mountain\r\nMiss Sweetness Showdown\r\nColony 6 area ☆4",
       "details": "Requires: Access to Valak Mountain\r\nMiss Sweetness Showdown\r\nColony 6 area ☆4 — Listen to her demands.\nReturn to Ma'crish.",
       "givers": [
         {
           "residentId": "resident-ma-crish-4f8f45",
-          "name": "Ma'crish",
+          "name": "ミュキシリア",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Reconstruction HQ)",
+              "location": "コロニー6 (コロニー6 復興本部)",
               "time": "06:00–18:00"
             }
           ]
@@ -3035,18 +3035,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-a-final-sweet-favour-048942ec",
-      "questName": "A Final Sweet Favour",
-      "area": "Colony 6",
+      "questName": "お嬢様のワガママ",
+      "area": "コロニー6",
       "requirements": "Access to Valak Mountain\r\nMiss Sweetness' Gratitude with Berryjammy or Miss Sweetness' Gratitude with Ma'crish quest accepted",
       "details": "Requires: Access to Valak Mountain\r\nMiss Sweetness' Gratitude with Berryjammy or Miss Sweetness' Gratitude with Ma'crish quest accepted — Talk to Lalapa in Frontier Village.\nCollect Fresh Algora Sap from the Sap Cave in Makna Forest. (Only at dawn, 5:00 - 6:00).\nTalk to Lalapa in Frontier Village.\nCollect a Mysterious Droplet from near Lacus Swamp in Satorl Marsh.",
       "givers": [
         {
           "residentId": "resident-miss-sweetness-26d3d6",
-          "name": "Miss Sweetness",
+          "name": "コロニー6のお嬢様",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Reconstruction HQ)",
+              "location": "コロニー6 (コロニー6 復興本部)",
               "time": "Automatic"
             }
           ]
@@ -3055,18 +3055,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-in-pursuit-of-love-3558d618",
-      "questName": "In Pursuit of Love",
-      "area": "Colony 6",
+      "questName": "恋人探し",
+      "area": "コロニー6",
       "requirements": "Miqol met in the Hidden Machina Village\r\nRosemary invited to Colony 6\r\nColony 6 area ☆1½",
       "details": "Requires: Miqol met in the Hidden Machina Village\r\nRosemary invited to Colony 6\r\nColony 6 area ☆1½ — Find a timid Homs man. (Nic)\nFind a rough-and-ready Homs man. (Peppino)\nFind a composed High Entia. (Yura)\nFind a Nopon food connoisseur. (Pokapoka)\nReturn to Rosemary.",
       "givers": [
         {
           "residentId": "resident-rosemary-f92b42",
-          "name": "Rosemary",
+          "name": "ローズウェスト",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Main Entrance)",
+              "location": "コロニー6 (Main Entrance)",
               "time": "18:00–06:00"
             }
           ]
@@ -3075,18 +3075,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-the-melody-of-happiness-2c8efc23",
-      "questName": "The Melody of Happiness",
-      "area": "Colony 6",
+      "questName": "興奮の中年",
+      "area": "コロニー6",
       "requirements": "Central Factory reached\r\nIn Pursuit of Love\r\nColony 6 area ☆2½",
       "details": "Requires: Central Factory reached\r\nIn Pursuit of Love\r\nColony 6 area ☆2½ — Collect 2 Eks Iron Hearts from Makna Eks in Makna Forest.\nReturn to Nic.\nGive the Music Box to Rosemary.\nReturn to Nic.",
       "givers": [
         {
           "residentId": "resident-nic-854c34",
-          "name": "Nic",
+          "name": "ヌーク",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Reconstruction HQ)",
+              "location": "コロニー6 (コロニー6 復興本部)",
               "time": "18:00–06:00"
             }
           ]
@@ -3095,18 +3095,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-dream-of-a-poet-18b0ab33",
-      "questName": "Dream of a Poet",
-      "area": "Colony 6",
+      "questName": "夢中の詩人",
+      "area": "コロニー6",
       "requirements": "Central Factory reached\r\nIn Pursuit of Love\r\nColony 6 area ☆2½",
       "details": "Requires: Central Factory reached\r\nIn Pursuit of Love\r\nColony 6 area ☆2½ — Collect the Swan Pendant from the High Entia Tomb.\nReturn to Yura.\nGive the Swan Pendant to Rosemary.\nReturn to Yura.",
       "givers": [
         {
           "residentId": "resident-yura-6ade8b",
-          "name": "Yura",
+          "name": "ユーリィ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Reconstruction HQ)",
+              "location": "コロニー6 (コロニー6 復興本部)",
               "time": "06:00–18:00"
             }
           ]
@@ -3116,17 +3116,17 @@ const QUEST_SCHEDULE_DATA = {
     {
       "questId": "quest-colony-6-family-secrets-zel-argentis-7b51e99a",
       "questName": "Family Secrets (Zel Argentis)",
-      "area": "Colony 6",
+      "area": "コロニー6",
       "requirements": "Mechonis Core cleared\r\nOleksiy invited to Colony 6\r\nColony 6 area ☆3½",
       "details": "Requires: Mechonis Core cleared\r\nOleksiy invited to Colony 6\r\nColony 6 area ☆3½ — Have a chat with Don Argentis.\nReturn to Zel Argentis.",
       "givers": [
         {
           "residentId": "resident-zel-argentis-9bfb49",
-          "name": "Zel Argentis",
+          "name": "ゼル・シルバー",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Reconstruction HQ)",
+              "location": "コロニー6 (コロニー6 復興本部)",
               "time": "15:00–03:00"
             }
           ]
@@ -3136,17 +3136,17 @@ const QUEST_SCHEDULE_DATA = {
     {
       "questId": "quest-colony-6-family-secrets-en-argentis-4268080f",
       "questName": "Family Secrets (En Argentis)",
-      "area": "Colony 6",
+      "area": "コロニー6",
       "requirements": "Peppino invited to Colony 6\r\nColony 6 area ☆3½",
       "details": "Requires: Peppino invited to Colony 6\r\nColony 6 area ☆3½ — Have a chat with Don Argentis.\nReturn to En Argentis.",
       "givers": [
         {
           "residentId": "resident-en-argentis-55885b",
-          "name": "En Argentis",
+          "name": "エン・シルバー",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Reconstruction HQ)",
+              "location": "コロニー6 (コロニー6 復興本部)",
               "time": "15:00–03:00"
             }
           ]
@@ -3156,17 +3156,17 @@ const QUEST_SCHEDULE_DATA = {
     {
       "questId": "quest-colony-6-betrothal-test-zel-argentis-3fbc2130",
       "questName": "Betrothal Test (Zel Argentis)",
-      "area": "Colony 6",
+      "area": "コロニー6",
       "requirements": "Mechonis Core cleared\r\nFamily Secrets involving Zel Argentis completed\r\nColony 6 area ☆4",
       "details": "Requires: Mechonis Core cleared\r\nFamily Secrets involving Zel Argentis completed\r\nColony 6 area ☆4 — Collect 5 Scratched Jewels from Perna Eluca at Eryth Sea.\nCollect 2 Lucky Chilkin Rings from Chilkins on Valak Mountain.\nHand the items to Oleksiy.",
       "givers": [
         {
           "residentId": "resident-oleksiy-833393",
-          "name": "Oleksiy",
+          "name": "オルクホング",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Reconstruction HQ)",
+              "location": "コロニー6 (コロニー6 復興本部)",
               "time": "15:00–03:00"
             }
           ]
@@ -3176,17 +3176,17 @@ const QUEST_SCHEDULE_DATA = {
     {
       "questId": "quest-colony-6-betrothal-test-en-argentis-184f7886",
       "questName": "Betrothal Test (En Argentis)",
-      "area": "Colony 6",
+      "area": "コロニー6",
       "requirements": "Family Secrets involving En Argentis completed\r\nColony 6 area ☆4",
       "details": "Requires: Family Secrets involving En Argentis completed\r\nColony 6 area ☆4 — Collect 2 Slobos Ice Rocks from Slobos on Valak Mountain.\nCollect 2 Wisp Bliss Rings from Wisps on Fallen Arm.\nHand the items to Peppino.",
       "givers": [
         {
           "residentId": "resident-peppino-e26a91",
-          "name": "Peppino",
+          "name": "パピィ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Reconstruction HQ)",
+              "location": "コロニー6 (コロニー6 復興本部)",
               "time": "15:00–03:00"
             }
           ]
@@ -3196,17 +3196,17 @@ const QUEST_SCHEDULE_DATA = {
     {
       "questId": "quest-colony-6-stopping-the-elopement-zel-argentis-ed304437",
       "questName": "Stopping the Elopement (Zel Argentis)",
-      "area": "Colony 6",
+      "area": "コロニー6",
       "requirements": "Mechonis Core cleared\r\nBetrothal Test involving Zel Argentis completed\r\nColony 6 area ☆4½",
       "details": "Requires: Mechonis Core cleared\r\nBetrothal Test involving Zel Argentis completed\r\nColony 6 area ☆4½ — Search the Satorl Marsh area for the couple.\nPersuade Oleksiy.\nReturn to Don Argentis.",
       "givers": [
         {
           "residentId": "resident-don-argentis-c0bfbc",
-          "name": "Don Argentis",
+          "name": "ドン・シルバー",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Reconstruction HQ)",
+              "location": "コロニー6 (コロニー6 復興本部)",
               "time": "06:00–18:00"
             }
           ]
@@ -3216,17 +3216,17 @@ const QUEST_SCHEDULE_DATA = {
     {
       "questId": "quest-colony-6-stopping-the-elopement-en-argentis-79415ed3",
       "questName": "Stopping the Elopement (En Argentis)",
-      "area": "Colony 6",
+      "area": "コロニー6",
       "requirements": "Betrothal Test involving En Argentis completed\r\nColony 6 area ☆4½",
       "details": "Requires: Betrothal Test involving En Argentis completed\r\nColony 6 area ☆4½ — Search the Tephra Cave area for the couple.\nReturn to Don Argentis.",
       "givers": [
         {
           "residentId": "resident-don-argentis-c0bfbc",
-          "name": "Don Argentis",
+          "name": "ドン・シルバー",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Reconstruction HQ)",
+              "location": "コロニー6 (コロニー6 復興本部)",
               "time": "06:00–18:00"
             }
           ]
@@ -3235,18 +3235,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-a-butler-s-concerns-cb513ea0",
-      "questName": "A Butler's Concerns",
-      "area": "Colony 6",
+      "questName": "執事の悩み",
+      "area": "コロニー6",
       "requirements": "Central Factory reached\r\nGowago and Yura invited to Colony 6",
       "details": "Requires: Central Factory reached\r\nGowago and Yura invited to Colony 6 — Hand the Poetry Anthology to Yura.\nReturn to Gowago.",
       "givers": [
         {
           "residentId": "resident-gowago-db4bf3",
-          "name": "Gowago",
+          "name": "ゴワゴワー",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Reconstruction HQ)",
+              "location": "コロニー6 (コロニー6 復興本部)",
               "time": "06:00–18:00"
             }
           ]
@@ -3255,18 +3255,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-a-maid-s-concerns-b6bb3445",
-      "questName": "A Maid's Concerns",
-      "area": "Colony 6",
+      "questName": "使用人の悩み",
+      "area": "コロニー6",
       "requirements": "Central Factory reached\r\nMinana and Yura invited to Colony 6",
       "details": "Requires: Central Factory reached\r\nMinana and Yura invited to Colony 6 — Search for a cultured individual. (Yura)\nCollect 5 Hell Raspberries from Prison Island.\nReturn to Yura.\nReturn to Minana.",
       "givers": [
         {
           "residentId": "resident-minana-9f1f07",
-          "name": "Minana",
+          "name": "ミンカ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Reconstruction HQ)",
+              "location": "コロニー6 (コロニー6 復興本部)",
               "time": "06:00–18:00"
             }
           ]
@@ -3275,18 +3275,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-lifespan-of-a-machina-09aa34f4",
-      "questName": "Lifespan of a Machina",
-      "area": "Colony 6",
+      "questName": "老人マシーナの寿命",
+      "area": "コロニー6",
       "requirements": "Mechonis Core cleared\r\nNeonik invited to Colony 6\r\nColony 6 area ☆2½",
       "details": "Requires: Mechonis Core cleared\r\nNeonik invited to Colony 6\r\nColony 6 area ☆2½ — Find something to revitalize Neonik.\nReturn to Neonik.",
       "givers": [
         {
           "residentId": "resident-neonik-0e7abe",
-          "name": "Neonik",
+          "name": "ナオナミ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Reconstruction HQ)",
+              "location": "コロニー6 (コロニー6 復興本部)",
               "time": "06:00–18:00"
             }
           ]
@@ -3295,18 +3295,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-a-poet-s-concerns-921160ad",
-      "questName": "A Poet's Concerns",
-      "area": "Colony 6",
+      "questName": "詩人の悩み",
+      "area": "コロニー6",
       "requirements": "Mechonis Core cleared\r\nLifespan of a Machina\r\nColony 6 area ☆3½",
       "details": "Requires: Mechonis Core cleared\r\nLifespan of a Machina\r\nColony 6 area ☆3½ — Talk to Neonik.\nCollect a Tobogan Wing from Hovering Reef 9 at Eryth Sea.\nHand the Tobogan Wing to Neonik.\nReturn to Yura.",
       "givers": [
         {
           "residentId": "resident-yura-6ade8b",
-          "name": "Yura",
+          "name": "ユーリィ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Reconstruction HQ)",
+              "location": "コロニー6 (コロニー6 復興本部)",
               "time": "06:00–18:00"
             }
           ]
@@ -3315,18 +3315,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-delivering-the-undeliverable-2f715acd",
-      "questName": "Delivering the Undeliverable",
-      "area": "Colony 6",
+      "questName": "困った何でも屋",
+      "area": "コロニー6",
       "requirements": "Mechonis Core cleared\r\nBerryjammy invited to Colony 6\r\nColony 6 area ☆2",
       "details": "Requires: Mechonis Core cleared\r\nBerryjammy invited to Colony 6\r\nColony 6 area ☆2 — Take the delivery to a person whose name ends in 'n'.\nReturn to Shilx.\nMake the delivery on behalf of Shilx to a 16-year-old girl.\nReturn to Shilx.",
       "givers": [
         {
           "residentId": "resident-shilx-0f5055",
-          "name": "Shilx",
+          "name": "シータクロス",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Main Entrance)",
+              "location": "コロニー6 (Main Entrance)",
               "time": "03:00–21:00"
             }
           ]
@@ -3335,18 +3335,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-finding-the-unfindable-06180801",
-      "questName": "Finding the Unfindable",
-      "area": "Colony 6",
+      "questName": "困り果てた何でも屋",
+      "area": "コロニー6",
       "requirements": "Mechonis Core cleared\r\nDelivering the Undeliverable\r\nColony 6 area ☆2½",
       "details": "Requires: Mechonis Core cleared\r\nDelivering the Undeliverable\r\nColony 6 area ☆2½ — Collect 2 Energy Aubergines from somewhere.\nReturn to Shilx.",
       "givers": [
         {
           "residentId": "resident-shilx-0f5055",
-          "name": "Shilx",
+          "name": "シータクロス",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Main Entrance)",
+              "location": "コロニー6 (Main Entrance)",
               "time": "03:00–21:00"
             }
           ]
@@ -3355,18 +3355,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-odd-smoke-investigation-6258b1ec",
-      "questName": "Odd Smoke - Investigation",
-      "area": "Colony 6",
+      "questName": "怪しい煙・調査編",
+      "area": "コロニー6",
       "requirements": "Miqol met in the Hidden Machina Village\r\nJer'ell invited to Colony 6",
       "details": "Requires: Miqol met in the Hidden Machina Village\r\nJer'ell invited to Colony 6 — Speak to the owner of the house where the smoke is coming from.\nReport back to Arda.",
       "givers": [
         {
           "residentId": "resident-arda-21f914",
-          "name": "Arda",
+          "name": "アーダ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Reconstruction HQ)",
+              "location": "コロニー6 (コロニー6 復興本部)",
               "time": "06:00–15:00"
             }
           ]
@@ -3375,18 +3375,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-odd-smoke-resolution-7936d29a",
-      "questName": "Odd Smoke - Resolution",
-      "area": "Colony 6",
+      "questName": "怪しい煙・解決編",
+      "area": "コロニー6",
       "requirements": "Miqol met in the Hidden Machina Village\r\nOdd Smoke - Investigation\r\nPerrine or Mefimefi invited to Colony 6\r\nColony 6 area ☆2",
       "details": "Requires: Miqol met in the Hidden Machina Village\r\nOdd Smoke - Investigation\r\nPerrine or Mefimefi invited to Colony 6\r\nColony 6 area ☆2 — Nab 3x Dated Plug from M35 Prototype on Digit 5 Beach, Fallen Arm, day.\nNab 3x Dated Crank from Scout Unit Prototype on Digit 5 Beach, Fallen Arm, day.\nReturn to Jer'ell.",
       "givers": [
         {
           "residentId": "resident-jer-ell-09f559",
-          "name": "Jer'ell",
+          "name": "ジェリコン",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Reconstruction HQ)",
+              "location": "コロニー6 (コロニー6 復興本部)",
               "time": "18:00–06:00"
             }
           ]
@@ -3395,18 +3395,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-homs-determination-ed9307cf",
-      "questName": "Homs Determination",
-      "area": "Colony 6",
+      "questName": "ホムスの意地",
+      "area": "コロニー6",
       "requirements": "Mechonis Core cleared\r\nOdd Smoke - Resolution\r\nColony 6 area ☆3",
       "details": "Requires: Mechonis Core cleared\r\nOdd Smoke - Resolution\r\nColony 6 area ☆3 — Defeat 8 Sloth Gogols on the Bionis' Leg.\nDefeat Territorial Rotbart on Gaur Plain on the Bionis' Leg.\nReturn to Perrine.",
       "givers": [
         {
           "residentId": "resident-perrine-6efc87",
-          "name": "Perrine",
+          "name": "パイラル",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Reconstruction HQ)",
+              "location": "コロニー6 (コロニー6 復興本部)",
               "time": "18:00–06:00"
             }
           ]
@@ -3415,18 +3415,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-nopon-determination-7b2342da",
-      "questName": "Nopon Determination",
-      "area": "Colony 6",
+      "questName": "ノポンの意地",
+      "area": "コロニー6",
       "requirements": "Miqol met in the Hidden Machina Village\r\nOdd Smoke - Resolution\r\nColony 6 area ☆3",
       "details": "Requires: Miqol met in the Hidden Machina Village\r\nOdd Smoke - Resolution\r\nColony 6 area ☆3 — Collect 5 Spicy Papayas from the Fallen Arm.\nCollect 2 Broom Icicles from Valak Mountain.\nCollect 3 Igna Stone Pots from Ignas in Satorl Marsh.\nReturn to Mefimefi.",
       "givers": [
         {
           "residentId": "resident-mefimefi-b91f0c",
-          "name": "Mefimefi",
+          "name": "メフィメフィ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Reconstruction HQ)",
+              "location": "コロニー6 (コロニー6 復興本部)",
               "time": "18:00–06:00"
             }
           ]
@@ -3435,18 +3435,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-a-gutsy-trader-105be93d",
-      "questName": "A Gutsy Trader",
-      "area": "Colony 6",
+      "questName": "商売人根性",
+      "area": "コロニー6",
       "requirements": "Makna Forest reached\r\nWerner invited to Colony 6\r\nCommerce Lv2\r\nNature Lv2.",
       "details": "Requires: Makna Forest reached\r\nWerner invited to Colony 6\r\nCommerce Lv2\r\nNature Lv2. — Collect 6 Flier Wings from the Fliers in Colony 6.\nCollect 7 Flier Straws from Fliers on the Bionis' Leg.\nReturn to Werner.",
       "givers": [
         {
           "residentId": "resident-werner-1662e6",
-          "name": "Werner",
+          "name": "ヴェルナー",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Reconstruction HQ)",
+              "location": "コロニー6 (コロニー6 復興本部)",
               "time": "03:00–15:00"
             }
           ]
@@ -3455,18 +3455,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-a-dauntless-trader-6792b74a",
-      "questName": "A Dauntless Trader",
-      "area": "Colony 6",
+      "questName": "商売人ド根性",
+      "area": "コロニー6",
       "requirements": "Mechonis Core cleared\r\nA Gutsy Trader\r\nNopo'rikh registered\r\nColony 6 area ☆3½",
       "details": "Requires: Mechonis Core cleared\r\nA Gutsy Trader\r\nNopo'rikh registered\r\nColony 6 area ☆3½ — Consult Nopon residents in Colony 6 about how to bring back the butterflies\n\nRoute A: Talk to Nopo'rikh.\nCollect 10 Death Lychee on Prison Island.\nReturn to Nopo'rikh.\n\nRoute B: Talk to Norara\nCollect 5 Mystic Dahlias from Alcamoth\nReturn to Norara\n\n\nReturn to Werner",
       "givers": [
         {
           "residentId": "resident-werner-1662e6",
-          "name": "Werner",
+          "name": "ヴェルナー",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Reconstruction HQ)",
+              "location": "コロニー6 (コロニー6 復興本部)",
               "time": "03:00–15:00"
             }
           ]
@@ -3475,18 +3475,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-nic-s-training-30b7f956",
-      "questName": "Nic's Training",
-      "area": "Colony 6",
+      "questName": "ヌーク・半人前計画",
+      "area": "コロニー6",
       "requirements": "Central Factory reached\r\nNic invited to Colony 6\r\nLooking for Freedom.",
       "details": "Requires: Central Factory reached\r\nNic invited to Colony 6\r\nLooking for Freedom. — Defeat Canyon Valencia near Raguel Bridge on the Bionis' Leg. (Only during clear weather.)\nReturn to Nopo'rikh.\nDefeat 10 Tempest Vangs on the Bionis' Leg.\nReturn to Nopo'rikh.",
       "givers": [
         {
           "residentId": "resident-nopo-rikh-cd95d5",
-          "name": "Nopo'rikh",
+          "name": "ノポリック",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Reconstruction HQ) ·  (lodger) · Anytime (free)",
+              "location": "コロニー6 (コロニー6 復興本部) ·  (lodger) · Anytime (free)",
               "time": "03:00–15:00"
             }
           ]
@@ -3495,18 +3495,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-nic-s-final-test-36762c6f",
-      "questName": "Nic's Final Test",
-      "area": "Colony 6",
+      "questName": "ヌーク・一人前計画",
+      "area": "コロニー6",
       "requirements": "Central Factory reached\r\nNic's Training\r\nColony 6 area ☆4",
       "details": "Requires: Central Factory reached\r\nNic's Training\r\nColony 6 area ☆4 — Defeat Indomitable Daulton near the Soter Ruins in Satorl Marsh.\nReturn to Nopo'rikh.\nDefeat 10 Grove Quadwings from Satorl Marsh.\nReturn to Nopo'rikh.",
       "givers": [
         {
           "residentId": "resident-nopo-rikh-cd95d5",
-          "name": "Nopo'rikh",
+          "name": "ノポリック",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Reconstruction HQ) ·  (lodger) · Anytime (free)",
+              "location": "コロニー6 (コロニー6 復興本部) ·  (lodger) · Anytime (free)",
               "time": "03:00–15:00"
             }
           ]
@@ -3515,18 +3515,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-what-is-love-7158159e",
-      "questName": "What is Love?!",
-      "area": "Colony 6",
+      "questName": "恋愛を教えてやる！",
+      "area": "コロニー6",
       "requirements": "Colony 6 Reconstruction started\r\nImaginations Tempered not completed\r\nMatryona registered in the Colony 6 area Affinity Chart",
       "details": "Requires: Colony 6 Reconstruction started\r\nImaginations Tempered not completed\r\nMatryona registered in the Colony 6 area Affinity Chart — Speak to an old Nopon inventor. (Satata)\nSpeak to a Homs lady who understands medicine. (Olga)\nSpeak to a stubborn old Homs man. (Gorman)\nSpeak to a haughty young Homs girl. (Anna)\nReport back to Ewan.",
       "givers": [
         {
           "residentId": "resident-ewan-8956b4",
-          "name": "Ewan",
+          "name": "イワン",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Reconstruction HQ)",
+              "location": "コロニー6 (コロニー6 復興本部)",
               "time": "18:00–06:00"
             }
           ]
@@ -3535,18 +3535,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-what-is-courage-625cad86",
-      "questName": "What is Courage?!",
-      "area": "Colony 6",
+      "questName": "勇気を教えてやる！",
+      "area": "コロニー6",
       "requirements": "Colony 6 Reconstruction started\r\nWhat is Love?!\r\nColony 6 area ☆1¼",
       "details": "Requires: Colony 6 Reconstruction started\r\nWhat is Love?!\r\nColony 6 area ☆1¼ — Head in the direction of the Ether Mine or Satorl Marsh and protect Ewan from harm.\nSpeak to Ewan.",
       "givers": [
         {
           "residentId": "resident-ewan-8956b4",
-          "name": "Ewan",
+          "name": "イワン",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Reconstruction HQ)",
+              "location": "コロニー6 (コロニー6 復興本部)",
               "time": "18:00–06:00"
             }
           ]
@@ -3555,18 +3555,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-matryona-s-answer-4b22e1a0",
-      "questName": "Matryona's Answer",
-      "area": "Colony 6",
+      "questName": "マトリョーナの返答",
+      "area": "コロニー6",
       "requirements": "Colony 6 Reconstruction started\r\nWhat is Courage?!\r\nColony 6 area ☆2",
       "details": "Requires: Colony 6 Reconstruction started\r\nWhat is Courage?!\r\nColony 6 area ☆2 — Collect a Lake Drop on the Bionis' Leg or a Nasty Weed in Satorl Marsh.\nHand item to Matryona.\nHand the portrait to Ewan.\nReturn to Matryona.",
       "givers": [
         {
           "residentId": "resident-matryona-63a25c",
-          "name": "Matryona",
+          "name": "マトリョーナ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Reconstruction HQ)",
+              "location": "コロニー6 (コロニー6 復興本部)",
               "time": "21:00–06:00"
             }
           ]
@@ -3575,18 +3575,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-a-selfish-girl-s-mistake-dce1b813",
-      "questName": "A Selfish Girl's Mistake",
-      "area": "Colony 6",
+      "questName": "わがまま娘ゆえの過ち",
+      "area": "コロニー6",
       "requirements": "Colony 6 Reconstruction started\r\nColony 6 area ☆1½",
       "details": "Requires: Colony 6 Reconstruction started\r\nColony 6 area ☆1½ — Find Nikita.\nFind Kiroki.\nReport back to Anna.",
       "givers": [
         {
           "residentId": "resident-anna-0dc3c1",
-          "name": "Anna",
+          "name": "アンナ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Reconstruction HQ)",
+              "location": "コロニー6 (コロニー6 復興本部)",
               "time": "09:00–18:00"
             }
           ]
@@ -3595,18 +3595,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-chemist-s-reopening-dab0f646",
-      "questName": "Chemist's Reopening",
-      "area": "Colony 6",
+      "questName": "薬屋業再開",
+      "area": "コロニー6",
       "requirements": "Colony 6 (Reconstruction HQ)\r\n18:00 - 03:00",
       "details": "Requires: Colony 6 (Reconstruction HQ)\r\n18:00 - 03:00 — Collect a Chewy Radish from Colony 9.\nCollect 2 Red Durians on the Bionis' Leg.\nCollect a Sirius Anemone in Colony 6.\nReport back to Olga.",
       "givers": [
         {
           "residentId": "resident-olga-dd2ed1",
-          "name": "Olga",
+          "name": "オルガ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 Reconstruction triggered",
+              "location": "コロニー6 Reconstruction triggered",
               "time": "Anytime"
             }
           ]
@@ -3615,18 +3615,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-satata-s-younger-brother-3ae727eb",
-      "questName": "Satata's Younger Brother",
-      "area": "Colony 6",
+      "questName": "タツの弟",
+      "area": "コロニー6",
       "requirements": "Colony 6 Reconstruction started",
       "details": "Requires: Colony 6 Reconstruction started — Collect the Mushroom Cap from the Mining Base in the Ether Mine.\nReturn to Satata.",
       "givers": [
         {
           "residentId": "resident-satata-f496e5",
-          "name": "Satata",
+          "name": "タツ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Reconstruction HQ)",
+              "location": "コロニー6 (コロニー6 復興本部)",
               "time": "06:00–15:00"
             }
           ]
@@ -3635,18 +3635,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-rest-in-peace-91907f78",
-      "questName": "Rest in Peace",
-      "area": "Colony 6",
+      "questName": "安らかに眠れ",
+      "area": "コロニー6",
       "requirements": "Colony 6 Reconstruction started\r\nSatata's Younger Brother\r\nColony 6 area ☆1½",
       "details": "Requires: Colony 6 Reconstruction started\r\nSatata's Younger Brother\r\nColony 6 area ☆1½ — Cast the Mushroom Cap from where a panoramic view of Great Makna Falls can be seen.\nReturn to Satata.",
       "givers": [
         {
           "residentId": "resident-satata-f496e5",
-          "name": "Satata",
+          "name": "タツ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Reconstruction HQ)",
+              "location": "コロニー6 (コロニー6 復興本部)",
               "time": "06:00–15:00"
             }
           ]
@@ -3655,18 +3655,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-for-the-restoration-d8293354",
-      "questName": "For the Restoration",
-      "area": "Colony 6",
+      "questName": "安全な復興のために",
+      "area": "コロニー6",
       "requirements": "Colony 6 Reconstruction started",
       "details": "Requires: Colony 6 Reconstruction started — Collect the Divine Rock from the top of Spiral Valley on the Bionis' Leg.\nReturn to Gorman.",
       "givers": [
         {
           "residentId": "resident-gorman-e87fc2",
-          "name": "Gorman",
+          "name": "ゲールマン",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Reconstruction HQ)",
+              "location": "コロニー6 (コロニー6 復興本部)",
               "time": "18:00–06:00"
             }
           ]
@@ -3675,18 +3675,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-making-a-new-path-046fa2a2",
-      "questName": "Making a New Path",
-      "area": "Colony 6",
+      "questName": "迂回ルートを作れ",
+      "area": "コロニー6",
       "requirements": "Colony 6 Reconstruction started\r\nFor the Restoration accepted",
       "details": "Requires: Colony 6 Reconstruction started\r\nFor the Restoration accepted — Collect 3 sticks of Dynamite from the Ether Mine.\nReport back to Gorman.",
       "givers": [
         {
           "residentId": "resident-gorman-e87fc2",
-          "name": "Gorman",
+          "name": "ゲールマン",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Reconstruction HQ)",
+              "location": "コロニー6 (コロニー6 復興本部)",
               "time": "18:00–06:00"
             }
           ]
@@ -3695,18 +3695,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-securing-provisions-fd07b5ad",
-      "questName": "Securing Provisions",
-      "area": "Colony 6",
+      "questName": "食糧確保",
+      "area": "コロニー6",
       "requirements": "Mechonis Core cleared",
       "details": "Requires: Mechonis Core cleared — Collect the Trader's Spare Key from near the Trader's Stopover in Tephra Cave.\nCollect the Emergency Rations from the Emergency Warehouse in Tephra Cave.\nReport back to Dulland near the Refugee Camp on the Bionis' Leg.",
       "givers": [
         {
           "residentId": "resident-dulland-ce9c3d",
-          "name": "Dulland",
+          "name": "デュランド",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Reconstruction HQ)",
+              "location": "コロニー6 (コロニー6 復興本部)",
               "time": "Anytime"
             }
           ]
@@ -3715,18 +3715,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-proof-of-status-3cfe2284",
-      "questName": "Proof of Status",
-      "area": "Colony 6",
+      "questName": "ノポン商会の証",
+      "area": "コロニー6",
       "requirements": "Colony 6 area reached",
       "details": "Requires: Colony 6 area reached — Find a Nopon Coin in the area of Colony 6's Splintered Path.\nReturn to Daza.",
       "givers": [
         {
           "residentId": "resident-daza-79057d",
-          "name": "Daza",
+          "name": "ガザ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Watchpoint Junction or Hope Farm Shop)",
+              "location": "コロニー6 (物見の三叉路 or 希望の農場 Shop)",
               "time": "Anytime"
             }
           ]
@@ -3735,18 +3735,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-safety-first-338ec3cf",
-      "questName": "Safety First",
-      "area": "Colony 6",
+      "questName": "安全の確保",
+      "area": "コロニー6",
       "requirements": "Colony 6 area reached\r\nProof of Status",
       "details": "Requires: Colony 6 area reached\r\nProof of Status — Defeat 4 Yellow Antols in Colony 6.\nDefeat 6 Soft Hoxes in Colony 6.\nDefeat 3 Water Upas in Colony 6. (Only during rain or a thunderstorm.)\nReturn to Daza",
       "givers": [
         {
           "residentId": "resident-daza-79057d",
-          "name": "Daza",
+          "name": "ガザ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Watchpoint Junction or Hope Farm Shop)",
+              "location": "コロニー6 (物見の三叉路 or 希望の農場 Shop)",
               "time": "Anytime"
             }
           ]
@@ -3755,18 +3755,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-secret-mission-55008d00",
-      "questName": "Secret Mission",
-      "area": "Colony 6",
+      "questName": "極秘の任務",
+      "area": "コロニー6",
       "requirements": "Colony 6 area reached\r\nSafety First",
       "details": "Requires: Colony 6 area reached\r\nSafety First — Take Daza's Letter to Gerugu who is on the Bionis' Leg.\nReturn to Daza.",
       "givers": [
         {
           "residentId": "resident-daza-79057d",
-          "name": "Daza",
+          "name": "ガザ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Watchpoint Junction or Hope Farm Shop)",
+              "location": "コロニー6 (物見の三叉路 or 希望の農場 Shop)",
               "time": "Anytime"
             }
           ]
@@ -3775,18 +3775,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-replica-monado-1-e5e0c114",
-      "questName": "Replica Monado 1",
-      "area": "Colony 6",
+      "questName": "モナドレプリカ1",
+      "area": "コロニー6",
       "requirements": "Arrived at the Interior Landing Site (Bionis' Interior)\nReplica Monado 1 accepted",
       "details": "Requires: Arrived at the Interior Landing Site (Bionis' Interior)\nReplica Monado 1 accepted — Collect 1 Lucky Fang from a Feris in Satorl Marsh.\nCollect 1 piece of Caterpile Silk from a Caterpile somewhere on Bionis.\nCollect 1 Ardun Elder Beard from an Ardun somewhere on Bionis.\nReturn to Vanea.",
       "givers": [
         {
           "residentId": "resident-vanea-bb4a84",
-          "name": "Vanea",
+          "name": "ヴァネア",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Junks)",
+              "location": "コロニー6 (ジャンクス)",
               "time": "Anytime"
             }
           ]
@@ -3795,18 +3795,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-replica-monado-2-3e9a357b",
-      "questName": "Replica Monado 2",
-      "area": "Colony 6",
+      "questName": "モナドレプリカ2",
+      "area": "コロニー6",
       "requirements": "Arrived at the Interior Landing Site (Bionis' Interior)\nReplica Monado 1 accepted",
       "details": "Requires: Arrived at the Interior Landing Site (Bionis' Interior)\nReplica Monado 1 accepted — Collect 1 Ocean Elixir of Life from a Lexos in Colony 6.\nCollect 1 Immortal Moss from a Torta somewhere on Bionis.\nCollect 1 Quadwing Treasure from a Quadwing somewhere on Bionis.\nReturn to Vanea.",
       "givers": [
         {
           "residentId": "resident-vanea-bb4a84",
-          "name": "Vanea",
+          "name": "ヴァネア",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Junks)",
+              "location": "コロニー6 (ジャンクス)",
               "time": "Anytime"
             }
           ]
@@ -3815,18 +3815,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-replica-monado-3-f7b5ae68",
-      "questName": "Replica Monado 3",
-      "area": "Colony 6",
+      "questName": "モナドレプリカ3",
+      "area": "コロニー6",
       "requirements": "Arrived at the Interior Landing Site (Bionis' Interior)\nReplica Monado 1 accepted",
       "details": "Requires: Arrived at the Interior Landing Site (Bionis' Interior)\nReplica Monado 1 accepted — Collect 1 Glacier Element from a Nebula in Satorl Marsh.\nCollect 1 Wisp Sun Bead from a Wisp somewhere on Bionis.\nCollect 1 Hox Daylight Spur from a Hox somewhere on Bionis.\nReturn to Vanea.",
       "givers": [
         {
           "residentId": "resident-vanea-bb4a84",
-          "name": "Vanea",
+          "name": "ヴァネア",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Junks)",
+              "location": "コロニー6 (ジャンクス)",
               "time": "Anytime"
             }
           ]
@@ -3835,18 +3835,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-replica-monado-4-4e108091",
-      "questName": "Replica Monado 4",
-      "area": "Colony 6",
+      "questName": "モナドレプリカ4",
+      "area": "コロニー6",
       "requirements": "Arrived at the Interior Landing Site (Bionis' Interior)\nReplica Monado 1 accepted",
       "details": "Requires: Arrived at the Interior Landing Site (Bionis' Interior)\nReplica Monado 1 accepted — Collect 1 Demonic Everflame from a Dragon somewhere on Bionis.\nCollect 1 Mammut Horn from a Mammut somewhere on Bionis.\nCollect 1 Tirkin Elder Medal from a Tirkin somewhere on Bionis.\nReturn to Vanea.",
       "givers": [
         {
           "residentId": "resident-vanea-bb4a84",
-          "name": "Vanea",
+          "name": "ヴァネア",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Junks)",
+              "location": "コロニー6 (ジャンクス)",
               "time": "Anytime"
             }
           ]
@@ -3855,18 +3855,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-replica-monado-5-b5d22848",
-      "questName": "Replica Monado 5",
-      "area": "Colony 6",
+      "questName": "モナドレプリカ5",
+      "area": "コロニー6",
       "requirements": "Arrived at the Interior Landing Site (Bionis' Interior)\nReplica Monado 1 accepted",
       "details": "Requires: Arrived at the Interior Landing Site (Bionis' Interior)\nReplica Monado 1 accepted — Collect 1 Yellow Slobos Rock from a Slobos on Valak Mountain.\nCollect 1 Tokilos King Egg from a Tokilos somewhere on Bionis.\nCollect 1 Diamond Brog Eye from a Brog somewhere on Bionis.\nReturn to Vanea.",
       "givers": [
         {
           "residentId": "resident-vanea-bb4a84",
-          "name": "Vanea",
+          "name": "ヴァネア",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6 (Junks)",
+              "location": "コロニー6 (ジャンクス)",
               "time": "Anytime"
             }
           ]
@@ -3875,18 +3875,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-melancholy-tyrea-6bf5fc18",
-      "questName": "Melancholy Tyrea",
-      "area": "Colony 6",
+      "questName": "憂愁のタルコ",
+      "area": "コロニー6",
       "requirements": "Mechonis Core cleared",
       "details": "Requires: Mechonis Core cleared — Carry Tyrea to Junks for medical treatment.\nLook for a mysterious Telethia in the same spot as a past Telethia battle in Makna Forest.\nDefeat the Mysterious Telethia at Lakeside in Makna Forest.\nThe mysterious Telethia turned out to be Yumea. Put an end to First Consort Yumea's suffering.",
       "givers": [
         {
           "residentId": "resident-surprise-quest-86bd80",
-          "name": "Surprise Quest",
+          "name": "サブライズクエスト",
           "kind": "automatic",
           "locations": [
             {
-              "location": "Colony 6 (Watchpoint Junction)",
+              "location": "コロニー6 (物見の三叉路)",
               "time": "Automatic"
             }
           ]
@@ -3895,18 +3895,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-defend-colony-6-mechon-d6a1151e",
-      "questName": "Defend Colony 6 - Mechon",
-      "area": "Colony 6",
+      "questName": "コロニー6を守れ・機",
+      "area": "コロニー6",
       "requirements": "Makna Forest reached\r\nColony 6 Reconstruction 15%",
       "details": "Requires: Makna Forest reached\r\nColony 6 Reconstruction 15% — Defeat 3 Mechon M64 Armour+ units in the area of the Ether Planter at the Pod Depot.",
       "givers": [
         {
           "residentId": "resident-colony-6-residents-9fc617",
-          "name": "Colony 6 Residents",
+          "name": "コロニー6住民一同",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6",
+              "location": "コロニー6",
               "time": "Automatic"
             }
           ]
@@ -3915,18 +3915,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-defend-colony-6-reptile-8bf5033f",
-      "questName": "Defend Colony 6 - Reptile",
-      "area": "Colony 6",
+      "questName": "コロニー6を守れ・火",
+      "area": "コロニー6",
       "requirements": "Eryth Sea reached\r\nDefend Colony 6 - Mechon\r\nreconstruction at 35%",
       "details": "Requires: Eryth Sea reached\r\nDefend Colony 6 - Mechon\r\nreconstruction at 35% — Defeat 5 Fiery Ignas in the area of the Ether Planter at the Freight Road.",
       "givers": [
         {
           "residentId": "resident-colony-6-residents-9fc617",
-          "name": "Colony 6 Residents",
+          "name": "コロニー6住民一同",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6",
+              "location": "コロニー6",
               "time": "Automatic"
             }
           ]
@@ -3935,18 +3935,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-defend-colony-6-elite-08a1af13",
-      "questName": "Defend Colony 6 - Elite",
-      "area": "Colony 6",
+      "questName": "コロニー6を守れ・超",
+      "area": "コロニー6",
       "requirements": "Miqol met in the Hidden Machina Village\r\nDefend Colony 6 - Reptile\r\nreconstruction at 55%",
       "details": "Requires: Miqol met in the Hidden Machina Village\r\nDefend Colony 6 - Reptile\r\nreconstruction at 55% — Defeat the M71 Fire Support near the Ether Planter at the Freight Elevator.",
       "givers": [
         {
           "residentId": "resident-colony-6-residents-9fc617",
-          "name": "Colony 6 Residents",
+          "name": "コロニー6住民一同",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6",
+              "location": "コロニー6",
               "time": "Automatic"
             }
           ]
@@ -3955,18 +3955,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-defend-colony-6-ancient-badfebc6",
-      "questName": "Defend Colony 6 - Ancient",
-      "area": "Colony 6",
+      "questName": "コロニー6を守れ・鳥",
+      "area": "コロニー6",
       "requirements": "Mechonis Core cleared\r\nDefend Colony 6 - Elite\r\nreconstruction at 65%",
       "details": "Requires: Mechonis Core cleared\r\nDefend Colony 6 - Elite\r\nreconstruction at 65% — Defeat 2 Ancient Rhogulia near the ether planter on Splintered Path.",
       "givers": [
         {
           "residentId": "resident-colony-6-residents-9fc617",
-          "name": "Colony 6 Residents",
+          "name": "コロニー6住民一同",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6",
+              "location": "コロニー6",
               "time": "Automatic"
             }
           ]
@@ -3975,18 +3975,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-colony-6-defend-colony-6-demon-efce2fdd",
-      "questName": "Defend Colony 6 - Demon",
-      "area": "Colony 6",
+      "questName": "コロニー6を守れ・魔",
+      "area": "コロニー6",
       "requirements": "Mechonis Core cleared\r\nDefend Colony 6 - Ancient\r\nreconstruction at 95%",
       "details": "Requires: Mechonis Core cleared\r\nDefend Colony 6 - Ancient\r\nreconstruction at 95% — Defeat Demon King Dragonia in the area of the Ether Planter at Hope Farm",
       "givers": [
         {
           "residentId": "resident-colony-6-residents-9fc617",
-          "name": "Colony 6 Residents",
+          "name": "コロニー6住民一同",
           "kind": "npc",
           "locations": [
             {
-              "location": "Colony 6",
+              "location": "コロニー6",
               "time": "Automatic"
             }
           ]
@@ -3995,18 +3995,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-satorl-marsh-preventing-starvation-0354bc6e",
-      "questName": "Preventing Starvation",
-      "area": "Satorl Marsh",
+      "questName": "ガシをソシ",
+      "area": "燐光の地ザトール",
       "requirements": "Satorl Marsh area reached",
       "details": "Requires: Satorl Marsh area reached — Collect 2 Twin Flamii Eggs from Flamii in Satorl Marsh.\nCollect 5 Lemon Stones in Satorl Marsh.\nReturn to Zazadan.",
       "givers": [
         {
           "residentId": "resident-zazadan-59490e",
-          "name": "Zazadan",
+          "name": "ザザダン",
           "kind": "npc",
           "locations": [
             {
-              "location": "Satorl Marsh (Nopon Refuge)",
+              "location": "燐光の地ザトール (ノポンの隠れ家)",
               "time": "Anytime"
             }
           ]
@@ -4015,18 +4015,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-satorl-marsh-zazadan-in-danger-b897de90",
-      "questName": "Zazadan in Danger",
-      "area": "Satorl Marsh",
+      "questName": "まだまだブッソウ",
+      "area": "燐光の地ザトール",
       "requirements": "Satorl Marsh area reached\r\nPreventing Starvation",
       "details": "Requires: Satorl Marsh area reached\r\nPreventing Starvation — Defeat 8 Ogre Bunnias in Satorl Marsh.\nReport to Zazadan.",
       "givers": [
         {
           "residentId": "resident-zazadan-59490e",
-          "name": "Zazadan",
+          "name": "ザザダン",
           "kind": "npc",
           "locations": [
             {
-              "location": "Satorl Marsh (Nopon Refuge)",
+              "location": "燐光の地ザトール (ノポンの隠れ家)",
               "time": "Anytime"
             }
           ]
@@ -4035,18 +4035,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-satorl-marsh-zazadan-still-in-danger-14950435",
-      "questName": "Zazadan Still in Danger",
-      "area": "Satorl Marsh",
+      "questName": "まだブッソウ",
+      "area": "燐光の地ザトール",
       "requirements": "Satorl Marsh area reached\r\nZazadan in Danger",
       "details": "Requires: Satorl Marsh area reached\r\nZazadan in Danger — Defeat Sunlight Schvaik in the area of Barren Moor in Satorl Marsh. (Only at daytime).\nReport to Zazadan.",
       "givers": [
         {
           "residentId": "resident-zazadan-59490e",
-          "name": "Zazadan",
+          "name": "ザザダン",
           "kind": "npc",
           "locations": [
             {
-              "location": "Satorl Marsh (Nopon Refuge)",
+              "location": "燐光の地ザトール (ノポンの隠れ家)",
               "time": "Anytime"
             }
           ]
@@ -4055,18 +4055,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-satorl-marsh-it-s-all-in-the-mind-ad0a4211",
-      "questName": "It's All in the Mind",
-      "area": "Satorl Marsh",
+      "questName": "ヤマイはキから",
+      "area": "燐光の地ザトール",
       "requirements": "Satorl Marsh area reached\r\nZazadan Still in Danger",
       "details": "Requires: Satorl Marsh area reached\r\nZazadan Still in Danger — Collect some Nopon Potion in the area of Lacus Swamp in Satorl Marsh.\nReturn to Zazadan.",
       "givers": [
         {
           "residentId": "resident-zazadan-59490e",
-          "name": "Zazadan",
+          "name": "ザザダン",
           "kind": "npc",
           "locations": [
             {
-              "location": "Satorl Marsh (Nopon Refuge)",
+              "location": "燐光の地ザトール (ノポンの隠れ家)",
               "time": "Anytime"
             }
           ]
@@ -4075,18 +4075,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-satorl-marsh-a-mysterious-delicacy-dc8f2b4d",
-      "questName": "A Mysterious Delicacy",
-      "area": "Satorl Marsh",
+      "questName": "ナゾのチンミ",
+      "area": "燐光の地ザトール",
       "requirements": "Satorl Marsh area reached\r\nIt's All in the Mind",
       "details": "Requires: Satorl Marsh area reached\r\nIt's All in the Mind — Investigate Dark Swamp's Shining Pond in Satorl Marsh.\nReturn to Zazadan.",
       "givers": [
         {
           "residentId": "resident-zazadan-59490e",
-          "name": "Zazadan",
+          "name": "ザザダン",
           "kind": "npc",
           "locations": [
             {
-              "location": "Satorl Marsh (Nopon Refuge)",
+              "location": "燐光の地ザトール (ノポンの隠れ家)",
               "time": "Anytime"
             }
           ]
@@ -4095,18 +4095,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-satorl-marsh-a-gift-39824024",
-      "questName": "A Gift?",
-      "area": "Satorl Marsh",
+      "questName": "オクリモノ？",
+      "area": "燐光の地ザトール",
       "requirements": "Satorl Marsh area reached\r\nA Mysterious Delicacy",
       "details": "Requires: Satorl Marsh area reached\r\nA Mysterious Delicacy — Speak to a male Nopon called Dedeba.",
       "givers": [
         {
           "residentId": "resident-zazadan-59490e",
-          "name": "Zazadan",
+          "name": "ザザダン",
           "kind": "npc",
           "locations": [
             {
-              "location": "Satorl Marsh (Nopon Refuge)",
+              "location": "燐光の地ザトール (ノポンの隠れ家)",
               "time": "Anytime"
             }
           ]
@@ -4115,18 +4115,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-satorl-marsh-gather-information-6d08db06",
-      "questName": "Gather Information",
-      "area": "Satorl Marsh",
+      "questName": "情報を得ろ",
+      "area": "燐光の地ザトール",
       "requirements": "Eryth Sea reached\r\nAdviser Hunt accepted",
       "details": "Requires: Eryth Sea reached\r\nAdviser Hunt accepted — Interrogate Zazadan who is in the Nopon Refuge of Satorl Marsh.",
       "givers": [
         {
           "residentId": "resident-surprise-quest-86bd80",
-          "name": "Surprise Quest",
+          "name": "サブライズクエスト",
           "kind": "automatic",
           "locations": [
             {
-              "location": "Satorl Marsh (Nopon Refuge)",
+              "location": "燐光の地ザトール (ノポンの隠れ家)",
               "time": "Automatic"
             }
           ]
@@ -4135,18 +4135,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-satorl-marsh-kacha-s-kidnapping-52ffe137",
-      "questName": "Kacha's Kidnapping",
-      "area": "Satorl Marsh",
+      "questName": "さらわれたカチャ",
+      "area": "燐光の地ザトール",
       "requirements": "Satorl Marsh area reached",
       "details": "Requires: Satorl Marsh area reached — Save Kacha who is in Exile Fortress in Satorl Marsh.\nReturn to Bokoko.",
       "givers": [
         {
           "residentId": "resident-bokoko-f62e98",
-          "name": "Bokoko",
+          "name": "ゴド",
           "kind": "npc",
           "locations": [
             {
-              "location": "Satorl Marsh (Nopon Merchant Camp)",
+              "location": "燐光の地ザトール (ノポン商会キャンプ)",
               "time": "Anytime"
             }
           ]
@@ -4155,18 +4155,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-satorl-marsh-the-giants-key-73f6238d",
-      "questName": "The Giants' Key",
-      "area": "Satorl Marsh",
+      "questName": "巨人族のタカラ",
+      "area": "燐光の地ザトール",
       "requirements": "Satorl Marsh area reached\r\nKacha's Kidnapping",
       "details": "Requires: Satorl Marsh area reached\r\nKacha's Kidnapping — Defeat 5 Deluded Ignas on the high plateau of Dark Swamp in Satorl Marsh.\nDig up the Giants' Key on the plateau above Dark Swamp in Satorl Marsh.\nInvestigate the altar on the roof of Exile Fortress in Satorl Marsh.\nReturn to Kacha.",
       "givers": [
         {
           "residentId": "resident-kacha-7c4c13",
-          "name": "Kacha",
+          "name": "カチャ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Satorl Marsh (Nopon Merchant Camp)",
+              "location": "燐光の地ザトール (ノポン商会キャンプ)",
               "time": "Anytime"
             }
           ]
@@ -4175,18 +4175,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-satorl-marsh-the-giants-treasure-4456a56e",
-      "questName": "The Giants' Treasure",
-      "area": "Satorl Marsh",
+      "questName": "ついに巨人族のタカラ",
+      "area": "燐光の地ザトール",
       "requirements": "Satorl Marsh area reached\r\nThe Giants' Key",
       "details": "Requires: Satorl Marsh area reached\r\nThe Giants' Key — Collect the Giants' Mirror in the area of Daksha Shrine on the Bionis' Leg northeast of Viliera Hill.Offer the Giants' Mirror on the altar on the roof of Exile Fortress.Return to Kacha.",
       "givers": [
         {
           "residentId": "resident-kacha-7c4c13",
-          "name": "Kacha",
+          "name": "カチャ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Satorl Marsh (Nopon Merchant Camp)",
+              "location": "燐光の地ザトール (ノポン商会キャンプ)",
               "time": "Anytime"
             }
           ]
@@ -4195,18 +4195,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-satorl-marsh-making-camp-371241f9",
-      "questName": "Making Camp",
-      "area": "Satorl Marsh",
+      "questName": "野営の準備",
+      "area": "燐光の地ザトール",
       "requirements": "Satorl Marsh area reached\r\nKacha's Kidnapping",
       "details": "Requires: Satorl Marsh area reached\r\nKacha's Kidnapping — Collect 4 Glowing Upa Seeds from Upas in Satorl Marsh.\nCollect 3 Fancy Volff Hides from Volffs in Satorl Marsh.\nCollect 4 Feather Leaves in Satorl Marsh.\nCollect 3 Wool Rocks in Satorl Marsh.\nReturn to Bokoko.",
       "givers": [
         {
           "residentId": "resident-bokoko-f62e98",
-          "name": "Bokoko",
+          "name": "ゴド",
           "kind": "npc",
           "locations": [
             {
-              "location": "Satorl Marsh (Nopon Merchant Camp)",
+              "location": "燐光の地ザトール (ノポン商会キャンプ)",
               "time": "Anytime"
             }
           ]
@@ -4215,18 +4215,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-satorl-marsh-monster-quest-1-d2d45dde",
-      "questName": "Monster Quest 1",
-      "area": "Satorl Marsh",
+      "questName": "討伐クエストその1",
+      "area": "燐光の地ザトール",
       "requirements": "Satorl Marsh area reached",
       "details": "Requires: Satorl Marsh area reached — Defeat 2 Detox Brogs in Satorl Marsh.",
       "givers": [
         {
           "residentId": "resident-a-nopon-merchant-57182c",
-          "name": "A Nopon Merchant",
+          "name": "A ノポン商会",
           "kind": "npc",
           "locations": [
             {
-              "location": "Satorl Marsh (Nopon Merchant Camp)",
+              "location": "燐光の地ザトール (ノポン商会キャンプ)",
               "time": "Anytime"
             }
           ]
@@ -4236,17 +4236,17 @@ const QUEST_SCHEDULE_DATA = {
     {
       "questId": "quest-satorl-marsh-monster-quest-2-a146d173",
       "questName": "Monster Quest 2",
-      "area": "Satorl Marsh",
+      "area": "燐光の地ザトール",
       "requirements": "Satorl Marsh area reached",
       "details": "Requires: Satorl Marsh area reached — Defeat 3 Coppice Quadwings in Satorl Marsh.",
       "givers": [
         {
           "residentId": "resident-a-nopon-merchant-57182c",
-          "name": "A Nopon Merchant",
+          "name": "A ノポン商会",
           "kind": "npc",
           "locations": [
             {
-              "location": "Satorl Marsh (Nopon Merchant Camp)",
+              "location": "燐光の地ザトール (ノポン商会キャンプ)",
               "time": "Anytime"
             }
           ]
@@ -4255,18 +4255,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-satorl-marsh-monster-quest-3-57249d50",
-      "questName": "Monster Quest 3",
-      "area": "Satorl Marsh",
+      "questName": "討伐クエストその3",
+      "area": "燐光の地ザトール",
       "requirements": "Satorl Marsh area reached",
       "details": "Requires: Satorl Marsh area reached — Defeat 2 Mist Rhoguls in Satorl Marsh",
       "givers": [
         {
           "residentId": "resident-a-nopon-merchant-57182c",
-          "name": "A Nopon Merchant",
+          "name": "A ノポン商会",
           "kind": "npc",
           "locations": [
             {
-              "location": "Satorl Marsh (Nopon Merchant Camp)",
+              "location": "燐光の地ザトール (ノポン商会キャンプ)",
               "time": "Anytime"
             }
           ]
@@ -4275,18 +4275,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-satorl-marsh-monster-quest-4-ccb0a9ec",
-      "questName": "Monster Quest 4",
-      "area": "Satorl Marsh",
+      "questName": "討伐クエストその4",
+      "area": "燐光の地ザトール",
       "requirements": "Satorl Marsh area reached",
       "details": "Requires: Satorl Marsh area reached — Defeat 1 Officer Volff in Satorl Marsh.",
       "givers": [
         {
           "residentId": "resident-a-nopon-merchant-57182c",
-          "name": "A Nopon Merchant",
+          "name": "A ノポン商会",
           "kind": "npc",
           "locations": [
             {
-              "location": "Satorl Marsh (Nopon Merchant Camp)",
+              "location": "燐光の地ザトール (ノポン商会キャンプ)",
               "time": "Anytime"
             }
           ]
@@ -4295,18 +4295,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-satorl-marsh-challenge-123635e9",
-      "questName": "Challenge",
-      "area": "Satorl Marsh",
+      "questName": "強敵を求めて",
+      "area": "燐光の地ザトール",
       "requirements": "Mechonis Core cleared",
       "details": "Requires: Mechonis Core cleared — Defeat LV83 Veteran Yozel at Silent Obelisk in Satorl Marsh\nReport to the male High Entia near the Sororal Statues.",
       "givers": [
         {
           "residentId": "resident-high-entia-refugee-5b3f24",
-          "name": "High Entia Refugee",
+          "name": "ハイエンター避難民",
           "kind": "npc",
           "locations": [
             {
-              "location": "Satorl Marsh (Sororal Statues)",
+              "location": "燐光の地ザトール (岩窟の姉妹像)",
               "time": "06:00–18:00"
             }
           ]
@@ -4315,18 +4315,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-satorl-marsh-for-a-friend-65689534",
-      "questName": "For a Friend",
-      "area": "Satorl Marsh",
+      "questName": "友人のために",
+      "area": "燐光の地ザトール",
       "requirements": "Mechonis Core cleared",
       "details": "Requires: Mechonis Core cleared — Talk to Scarlen in Satorl Marsh.\nTalk to Kaleka in Frontier Village.\nTalk to Atael in Frontier Village.\nReturn to Rozeal.",
       "givers": [
         {
           "residentId": "resident-rozeal-dcaaf6",
-          "name": "Rozeal",
+          "name": "ローザ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Satorl Marsh (Sororal Statues)",
+              "location": "燐光の地ザトール (岩窟の姉妹像)",
               "time": "06:00–18:00"
             }
           ]
@@ -4335,18 +4335,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-satorl-marsh-a-merciful-end-0ddf39e6",
-      "questName": "A Merciful End",
-      "area": "Satorl Marsh",
+      "questName": "友人を楽にしてあげて",
+      "area": "燐光の地ザトール",
       "requirements": "Mechonis Core cleared\r\nFor a Friend",
       "details": "Requires: Mechonis Core cleared\r\nFor a Friend — Defeat LV88 Telethia Galvin in Revelation Hall at Alcamoth.\nReport to Rozeal.",
       "givers": [
         {
           "residentId": "resident-rozeal-dcaaf6",
-          "name": "Rozeal",
+          "name": "ローザ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Satorl Marsh (Sororal Statues)",
+              "location": "燐光の地ザトール (岩窟の姉妹像)",
               "time": "06:00–18:00"
             }
           ]
@@ -4355,18 +4355,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-satorl-marsh-a-release-from-duty-b8f09fc5",
-      "questName": "A Release from Duty",
-      "area": "Satorl Marsh",
+      "questName": "かつての仲間達を",
+      "area": "燐光の地ザトール",
       "requirements": "Mechonis Core cleared\r\nA Merciful End.",
       "details": "Requires: Mechonis Core cleared\r\nA Merciful End. — Defeat Telethia Lecrough in the area of the Great Hall in Alcamoth.\nDefeat Telethia Galdo in the area of the Imperial Villa in Alcamoth.\nDefeat Telethia Kaelin in the area of the Sky Terrace in Alcamoth\nDefeat Telethia Donnis in the area of the Audience Chamber in Alcamoth.\nReturn to Rozeal.",
       "givers": [
         {
           "residentId": "resident-rozeal-dcaaf6",
-          "name": "Rozeal",
+          "name": "ローザ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Satorl Marsh (Sororal Statues)",
+              "location": "燐光の地ザトール (岩窟の姉妹像)",
               "time": "06:00–18:00"
             }
           ]
@@ -4375,18 +4375,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-satorl-marsh-the-imperial-ceremony-ca0ffe39",
-      "questName": "The Imperial Ceremony",
-      "area": "Satorl Marsh",
+      "questName": "皇族の儀",
+      "area": "燐光の地ザトール",
       "requirements": "Mechonis Core cleared",
       "details": "Requires: Mechonis Core cleared — Collect the Radiants from all around the world in order to perform the ceremony.\nOffer the Radiants to the engravings at the Sororal Statues in Satorl Marsh.\nDefeat LV86 Radiant Pterix at the Sororal Statues in Satorl Marsh.",
       "givers": [
         {
           "residentId": "resident-scarlen-2208cc",
-          "name": "Scarlen",
+          "name": "セガール",
           "kind": "npc",
           "locations": [
             {
-              "location": "Satorl Marsh (Oath Sanctuary) · Anything",
+              "location": "燐光の地ザトール (宣誓の聖所) · Anything",
               "time": "Anytime"
             }
           ]
@@ -4395,18 +4395,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-satorl-marsh-imperial-ceremony-offerings-bf7ddd7f",
-      "questName": "Imperial Ceremony Offerings",
-      "area": "Satorl Marsh",
+      "questName": "皇族の儀の準備",
+      "area": "燐光の地ザトール",
       "requirements": "Mechonis Core cleared\r\nThe Imperial Ceremony accepted",
       "details": "Requires: Mechonis Core cleared\r\nThe Imperial Ceremony accepted — Collect the Mist Radiant from the area of Basin Cave in Satorl Marsh.\nCollect the Ocean Radiant from the area of Central Seal Island at Eryth Sea.\nCollect the Imperial Radiant from the area of the Ceremony Hall in the High Entia Tomb.\nCollect the Snow Radiant from the area of the Sealed Tower at Valak Mountain.",
       "givers": [
         {
           "residentId": "resident-scarlen-2208cc",
-          "name": "Scarlen",
+          "name": "セガール",
           "kind": "npc",
           "locations": [
             {
-              "location": "Satorl Marsh (Oath Sanctuary) · Anything",
+              "location": "燐光の地ザトール (宣誓の聖所) · Anything",
               "time": "Anytime"
             }
           ]
@@ -4415,18 +4415,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-satorl-marsh-the-ancient-ceremony-0559117c",
-      "questName": "The Ancient Ceremony",
-      "area": "Satorl Marsh",
+      "questName": "古代の儀式",
+      "area": "燐光の地ザトール",
       "requirements": "Sororal Statues reached",
       "details": "Requires: Sororal Statues reached — Complete preparations for the ceremony.\nPresent the offerings to the Adulthood Emblem to complete the Coming-of-Age Ceremony.\nDefeat the LV28 Satorl Guardian.",
       "givers": [
         {
           "residentId": "resident-nopon-merchant-ab5c95",
-          "name": "Nopon Merchant",
+          "name": "ノポン商会",
           "kind": "npc",
           "locations": [
             {
-              "location": "(Story Quest) · Satorl Marsh (Sororal Statues)",
+              "location": "(ストーリークエスト) · 燐光の地ザトール (岩窟の姉妹像)",
               "time": "Anytime"
             }
           ]
@@ -4435,18 +4435,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-satorl-marsh-ancient-ceremony-offerings-6ccb2479",
-      "questName": "Ancient Ceremony Offerings",
-      "area": "Satorl Marsh",
+      "questName": "儀式の準備",
+      "area": "燐光の地ザトール",
       "requirements": "Sororal Statues reached\r\nThe Ancient Ceremony accepted",
       "details": "Requires: Sororal Statues reached\r\nThe Ancient Ceremony accepted — Offering in Igna Territory. Collect the Blue Radiant.\nOffering at the Altar of Fate. Collect the Rainbow Radiant.\nOffering at Dark Swamp. Collect the Dull Radiant.\nOffering at Basin Cave. Collect the White Radiant.",
       "givers": [
         {
           "residentId": "resident-nopon-merchant-ab5c95",
-          "name": "Nopon Merchant",
+          "name": "ノポン商会",
           "kind": "npc",
           "locations": [
             {
-              "location": "(Story Quest) · Satorl Marsh (Sororal Statues)",
+              "location": "(ストーリークエスト) · 燐光の地ザトール (岩窟の姉妹像)",
               "time": "Anytime"
             }
           ]
@@ -4455,18 +4455,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-makna-forest-legend-of-the-sage-c39bf375",
-      "questName": "Legend of the Sage",
-      "area": "Makna Forest",
+      "questName": "センニンの伝説",
+      "area": "マクナ原生林",
       "requirements": "Eryth Sea reached\r\nMeeting the Nopon Sage",
       "details": "Requires: Eryth Sea reached\r\nMeeting the Nopon Sage — \"Talk to Pipiki in Frontier Village.\" Central Plaza from 06:00 to 15:00.\n\"Return to the Nopon Sage.\"\n\"Talk to Pachipa in Frontier Village.\" Archaeology Centre from 9:00 to 15:00.\n\"Return to the Nopon Sage.\"",
       "givers": [
         {
           "residentId": "resident-nopon-sage-7d583c",
-          "name": "Nopon Sage",
+          "name": "ノポン・センニン",
           "kind": "npc",
           "locations": [
             {
-              "location": "Makna Forest (Divine Sanctuary) · Time",
+              "location": "マクナ原生林 (神呼びの聖域) · Time",
               "time": "12:00–15:00"
             }
           ]
@@ -4475,18 +4475,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-makna-forest-challenge-of-the-sage-3223b9dc",
-      "questName": "Challenge of the Sage",
-      "area": "Makna Forest",
+      "questName": "センニンの試練",
+      "area": "マクナ原生林",
       "requirements": "Eryth Sea reached\nLegend of the Sage",
       "details": "Requires: Eryth Sea reached\nLegend of the Sage — \"Go to the Seahorse Islet in Makna Forest and collect the Proof of Courage.\"\r\nHint: From the river underneath Bridge One, Bridge Two, and Bridge Three, the direction of the stream must be followed, which will eventually lead to the location.\r\n\"Return to the Nopon Sage.\"",
       "givers": [
         {
           "residentId": "resident-nopon-sage-7d583c",
-          "name": "Nopon Sage",
+          "name": "ノポン・センニン",
           "kind": "npc",
           "locations": [
             {
-              "location": "Makna Forest (Divine Sanctuary) · Time",
+              "location": "マクナ原生林 (神呼びの聖域) · Time",
               "time": "12:00–15:00"
             }
           ]
@@ -4495,18 +4495,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-makna-forest-final-challenge-of-the-sage-3d8ee72d",
-      "questName": "Final Challenge of the Sage",
-      "area": "Makna Forest",
+      "questName": "センニンの最終試練",
+      "area": "マクナ原生林",
       "requirements": "Mechonis Core cleared\r\nChallenge of the Sage\r\nCentral Bionis ☆3½\r\nRiki in the lead",
       "details": "Requires: Mechonis Core cleared\r\nChallenge of the Sage\r\nCentral Bionis ☆3½\r\nRiki in the lead — \"Go to Great Makna Falls in Makna Forest and defeat LV96 Unreliable Rezno. (Only during daytime.)\"\r\nHint: The little island is located west of the Divine Sanctuary.\r\n\"Return to the Nopon Sage.\"",
       "givers": [
         {
           "residentId": "resident-nopon-sage-7d583c",
-          "name": "Nopon Sage",
+          "name": "ノポン・センニン",
           "kind": "npc",
           "locations": [
             {
-              "location": "Makna Forest (Divine Sanctuary) · Time",
+              "location": "マクナ原生林 (神呼びの聖域) · Time",
               "time": "12:00–15:00"
             }
           ]
@@ -4515,18 +4515,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-makna-forest-bridge-repair-dd1b988b",
-      "questName": "Bridge Repair",
-      "area": "Makna Forest",
+      "questName": "橋の修復",
+      "area": "マクナ原生林",
       "requirements": "Access to Pod Landing Site in order to reach Valak Mountain",
       "details": "Requires: Access to Pod Landing Site in order to reach Valak Mountain — \"Collect 5 Hode Planks from Hodes in Makna Forest.\" LV30 Scout Hodes or level 31 Hyle Hodes at Abyss Basin, Hode Lair, Precipice Bridge, etc.Trade with Lupa (☆3) at Frontier Village\n\"Collect 3 Rhogul Axe Crests from Mist Rhoguls in Satorl Marsh.\"\nMist Rhogul found in several areas during the day at Dark Swamp, Barren Moor, etc.\n\n\"Return to the Nopon in charge of bridge repair.\"",
       "givers": [
         {
           "residentId": "resident-nopon-researcher-90a170",
-          "name": "Nopon Researcher",
+          "name": "ノポン調査隊",
           "kind": "npc",
           "locations": [
             {
-              "location": "Makna Forest (Pod Landing Site)",
+              "location": "マクナ原生林 (ポッド発着場)",
               "time": "Anytime"
             }
           ]
@@ -4535,18 +4535,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-makna-forest-monster-quest-1-9082c265",
-      "questName": "Monster Quest 1",
-      "area": "Makna Forest",
+      "questName": "討伐クエストその1",
+      "area": "マクナ原生林",
       "requirements": "Makna Forest area reached",
       "details": "Requires: Makna Forest area reached — \"Defeat 5 Jungle Quadwings in Makna Forest.\"\r\nHint: ~LV29. Locations: Area below Agni Tablet, south of Waypoint Beacon, east of Nopon Arch",
       "givers": [
         {
           "residentId": "resident-a-nopon-merchant-57182c",
-          "name": "A Nopon Merchant",
+          "name": "A ノポン商会",
           "kind": "npc",
           "locations": [
             {
-              "location": "Makna Forest (Agni Tablet)",
+              "location": "マクナ原生林 (アギニの碑)",
               "time": "Anytime"
             }
           ]
@@ -4556,17 +4556,17 @@ const QUEST_SCHEDULE_DATA = {
     {
       "questId": "quest-makna-forest-monster-quest-2-fa0c16cc",
       "questName": "Monster Quest 2",
-      "area": "Makna Forest",
+      "area": "マクナ原生林",
       "requirements": "Makna Forest area reached",
       "details": "Requires: Makna Forest area reached — \"Defeat 2 Makna Feris in Makna Forest.\"\r\nHint: Level 31. Locations: Near Waypoint Beacon, Sparkling Pool, etc.",
       "givers": [
         {
           "residentId": "resident-a-nopon-merchant-57182c",
-          "name": "A Nopon Merchant",
+          "name": "A ノポン商会",
           "kind": "npc",
           "locations": [
             {
-              "location": "Makna Forest (Agni Tablet)",
+              "location": "マクナ原生林 (アギニの碑)",
               "time": "Anytime"
             }
           ]
@@ -4575,18 +4575,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-makna-forest-monster-quest-3-7b73cb3f",
-      "questName": "Monster Quest 3",
-      "area": "Makna Forest",
+      "questName": "討伐クエストその3",
+      "area": "マクナ原生林",
       "requirements": "Makna Forest area reached",
       "details": "Requires: Makna Forest area reached — \"Defeat 2 Makna Ansels in Makna Forest.\"\r\nHint: Level 33. Locations: Eks Watering Hole, etc.",
       "givers": [
         {
           "residentId": "resident-a-nopon-merchant-57182c",
-          "name": "A Nopon Merchant",
+          "name": "A ノポン商会",
           "kind": "npc",
           "locations": [
             {
-              "location": "Makna Forest (Agni Tablet)",
+              "location": "マクナ原生林 (アギニの碑)",
               "time": "Anytime"
             }
           ]
@@ -4595,18 +4595,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-makna-forest-monster-quest-4-5f56b842",
-      "questName": "Monster Quest 4",
-      "area": "Makna Forest",
+      "questName": "討伐クエストその4",
+      "area": "マクナ原生林",
       "requirements": "Makna Forest area reached",
       "details": "Requires: Makna Forest area reached — \"Defeat 3 Makna Eks in Makna Forest.\"\r\nHint: Level 33. Locations: Eks Watering Hole, etc.",
       "givers": [
         {
           "residentId": "resident-a-nopon-merchant-57182c",
-          "name": "A Nopon Merchant",
+          "name": "A ノポン商会",
           "kind": "npc",
           "locations": [
             {
-              "location": "Makna Forest (Agni Tablet)",
+              "location": "マクナ原生林 (アギニの碑)",
               "time": "Anytime"
             }
           ]
@@ -4615,18 +4615,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-makna-forest-challenge-7ec939fe",
-      "questName": "Challenge",
-      "area": "Makna Forest",
+      "questName": "強敵を求めて",
+      "area": "マクナ原生林",
       "requirements": "Frontier Village reached",
       "details": "Requires: Frontier Village reached — \"Defeat Shimmering Forte near the Eks Watering Hole in Makna Forest. (On a hot day.)\"\r\nHint: Southeast of Eks Watering Hole. Forte is level 33 and has a counter damage spike.",
       "givers": [
         {
           "residentId": "resident-a-nopon-merchant-57182c",
-          "name": "A Nopon Merchant",
+          "name": "A ノポン商会",
           "kind": "npc",
           "locations": [
             {
-              "location": "Makna Forest (Agni Tablet)",
+              "location": "マクナ原生林 (アギニの碑)",
               "time": "Anytime"
             }
           ]
@@ -4635,18 +4635,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-makna-forest-mystery-girl-rescue-96776777",
-      "questName": "Mystery Girl Rescue",
-      "area": "Makna Forest",
+      "questName": "謎の少女を救え",
+      "area": "マクナ原生林",
       "requirements": "Makna Forest area reached",
       "details": "Requires: Makna Forest area reached — \"Collect some Water Ether Crystals.\"",
       "givers": [
         {
           "residentId": "resident-story-quest-09cfce",
-          "name": "Story Quest",
+          "name": "ストーリークエスト",
           "kind": "automatic",
           "locations": [
             {
-              "location": "Makna Forest (Contaminated Area) Automatic",
+              "location": "マクナ原生林 (汚された地) Automatic",
               "time": "Automatic"
             }
           ]
@@ -4655,18 +4655,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-leku-s-food-crisis-55789eb3",
-      "questName": "Leku's Food Crisis",
-      "area": "Frontier Village",
+      "questName": "レク一家の食料危機",
+      "area": "サイハテ村",
       "requirements": "Frontier Village area reached\r\nKilaki registered on the Central Bionis Affinity Chart",
       "details": "Requires: Frontier Village area reached\r\nKilaki registered on the Central Bionis Affinity Chart — Grab 10 Peachy Leg Joints from Deinoses in Makna Forest.\nGo see Leku.",
       "givers": [
         {
           "residentId": "resident-leku-636b3f",
-          "name": "Leku",
+          "name": "レク",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Archaeology Level)",
+              "location": "サイハテ村 (6Ｆ 遺跡研究板)",
               "time": "06:00–18:00"
             }
           ]
@@ -4675,18 +4675,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-hunt-for-a-patron-3cc74323",
-      "questName": "Hunt for a Patron",
-      "area": "Frontier Village",
+      "questName": "パトロンを探せ",
+      "area": "サイハテ村",
       "requirements": "Frontier Village area reached\r\nLeku's Food Crisis\r\nCentral Bionis ☆1½",
       "details": "Requires: Frontier Village area reached\r\nLeku's Food Crisis\r\nCentral Bionis ☆1½ — Have a chinwag with Lupa (cleverest Nopon) in village.\nHave a chinwag with Modamo (strongest Nopon) in village.\nHave a chinwag with Pepa (cutest Nopon) in village.\nGo see Leku.",
       "givers": [
         {
           "residentId": "resident-leku-636b3f",
-          "name": "Leku",
+          "name": "レク",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Archaeology Level)",
+              "location": "サイハテ村 (6Ｆ 遺跡研究板)",
               "time": "06:00–18:00"
             }
           ]
@@ -4695,18 +4695,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-heropon-s-spirit-2e5ef224",
-      "questName": "Heropon's Spirit",
-      "area": "Frontier Village",
+      "questName": "勇者の心意気",
+      "area": "サイハテ村",
       "requirements": "Frontier Village area reached\r\nHunt for a Patron\r\nCentral Bionis ☆1½",
       "details": "Requires: Frontier Village area reached\r\nHunt for a Patron\r\nCentral Bionis ☆1½ — Grab 2 Tasty Ansel Wings from Makna Ansels in Makna Forest.\nGo see Kilaki.",
       "givers": [
         {
           "residentId": "resident-kilaki-a69bfa",
-          "name": "Kilaki",
+          "name": "キカ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Archaeology Level)",
+              "location": "サイハテ村 (6Ｆ 遺跡研究板)",
               "time": "06:00–15:00"
             }
           ]
@@ -4715,18 +4715,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-beat-kilaki-to-it-0fb18436",
-      "questName": "Beat Kilaki to it!",
-      "area": "Frontier Village",
+      "questName": "キカより先回り！",
+      "area": "サイハテ村",
       "requirements": "Frontier Village area reached\r\nHeropon's Spirit\r\nCentral Bionis ☆2",
       "details": "Requires: Frontier Village area reached\r\nHeropon's Spirit\r\nCentral Bionis ☆2 — Bash LV35 Obsessive Galgaron in the area of the Hode Lair in Makna Forest.\nGo see Leku.",
       "givers": [
         {
           "residentId": "resident-leku-636b3f",
-          "name": "Leku",
+          "name": "レク",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Archaeology Level)",
+              "location": "サイハテ村 (6Ｆ 遺跡研究板)",
               "time": "06:00–18:00"
             }
           ]
@@ -4735,18 +4735,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-lousy-lizards-6e01eb1c",
-      "questName": "Lousy Lizards",
-      "area": "Frontier Village",
+      "questName": "苦手なトカゲ",
+      "area": "サイハテ村",
       "requirements": "Riki joined the party\r\nBeat Kilaki to it!\r\nCentral Bionis ☆2½",
       "details": "Requires: Riki joined the party\r\nBeat Kilaki to it!\r\nCentral Bionis ☆2½ — Bash 5 Inferno Deinoses in Makna Forest.\nBash 5 Plasma Deinoses in Makna Forest.\nGo see Modamo.",
       "givers": [
         {
           "residentId": "resident-modamo-c28f44",
-          "name": "Modamo",
+          "name": "モダニィ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Archaeology Level)",
+              "location": "サイハテ村 (6Ｆ 遺跡研究板)",
               "time": "18:00–06:00"
             }
           ]
@@ -4755,18 +4755,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-popularity-premonition-4a21e195",
-      "questName": "Popularity Premonition",
-      "area": "Frontier Village",
+      "questName": "モテ期到来の予感",
+      "area": "サイハテ村",
       "requirements": "Frontier Village area reached\r\nBeat Kilaki to it!\r\nCentral Bionis ☆2½",
       "details": "Requires: Frontier Village area reached\r\nBeat Kilaki to it!\r\nCentral Bionis ☆2½ — Chat with Pepa or Lupa. They both seem to have a thing for Leku!",
       "givers": [
         {
           "residentId": "resident-leku-636b3f",
-          "name": "Leku",
+          "name": "レク",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Archaeology Level)",
+              "location": "サイハテ村 (6Ｆ 遺跡研究板)",
               "time": "06:00–18:00"
             }
           ]
@@ -4775,18 +4775,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-making-a-mixer-38489cac",
-      "questName": "Making a Mixer",
-      "area": "Frontier Village",
+      "questName": "ミキサー製作",
+      "area": "サイハテ村",
       "requirements": "Frontier Village area reached\r\nPepa registered on the Central Bionis Affinity Chart\r\nShulk in the lead.",
       "details": "Requires: Frontier Village area reached\r\nPepa registered on the Central Bionis Affinity Chart\r\nShulk in the lead. — Grab materials for a mixer.\nBuild a mixer in the Weapon Development Lab in Colony 9.\nGo see Rono.",
       "givers": [
         {
           "residentId": "resident-rono-a6a463",
-          "name": "Rono",
+          "name": "ロン",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Pollen Works)",
+              "location": "サイハテ村 (花粉工場)",
               "time": "18:00–06:00"
             }
           ]
@@ -4795,18 +4795,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-materials-for-a-mixer-2f8bc8e5",
-      "questName": "Materials for a Mixer",
-      "area": "Frontier Village",
+      "questName": "ミキサーの材料集め",
+      "area": "サイハテ村",
       "requirements": "Frontier Village area reached\r\nMaking a Mixer accepted",
       "details": "Requires: Frontier Village area reached\r\nMaking a Mixer accepted — Grab 2 Generic Shafts from Mechon M64 units on the Bionis' Leg.\nGrab 2 Generic Blades from Mechon M53 units on the Bionis' Leg.",
       "givers": [
         {
           "residentId": "resident-rono-a6a463",
-          "name": "Rono",
+          "name": "ロン",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Pollen Works)",
+              "location": "サイハテ村 (花粉工場)",
               "time": "18:00–06:00"
             }
           ]
@@ -4815,18 +4815,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-decoration-makeover-98a2b266",
-      "questName": "Decoration Makeover",
-      "area": "Frontier Village",
+      "questName": "かわいいお部屋に大変身",
+      "area": "サイハテ村",
       "requirements": "Riki joined the party",
       "details": "Requires: Riki joined the party — Grab 6 Enigma Lotuses in Makna Forest.\nGrab 4 Happy Rabbits in Tephra Cave.\nGrab 3 Love Cranes in the Ether Mine.\nGo see Pepa.",
       "givers": [
         {
           "residentId": "resident-pepa-77925c",
-          "name": "Pepa",
+          "name": "ピップ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Chief's Residence)",
+              "location": "サイハテ村 (村長の家)",
               "time": "06:00–15:00"
             }
           ]
@@ -4835,18 +4835,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-hunt-for-bug-loving-friend-7022223e",
-      "questName": "Hunt for Bug-Loving Friend",
-      "area": "Frontier Village",
+      "questName": "虫好き仲間を求めて",
+      "area": "サイハテ村",
       "requirements": "Frontier Village area reached\r\nDeki registered on the Central Bionis Affinity Chart",
       "details": "Requires: Frontier Village area reached\r\nDeki registered on the Central Bionis Affinity Chart — Find a Nopon that likes bugs.\nGrab 3 Shield Bugs in Makna Forest.\nGo see Ababa.\nGo see Kokora.",
       "givers": [
         {
           "residentId": "resident-kokora-9067e8",
-          "name": "Kokora",
+          "name": "キララ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Nopon Tower)",
+              "location": "サイハテ村 (ノポンタワー)",
               "time": "06:00–18:00"
             }
           ]
@@ -4855,18 +4855,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-a-worried-bug-lover-35141cf1",
-      "questName": "A Worried Bug-Lover",
-      "area": "Frontier Village",
+      "questName": "虫好きじいさんの悩み",
+      "area": "サイハテ村",
       "requirements": "Frontier Village area reached\r\nHunt for Bug-Loving Friend\r\nCentral Bionis ☆1½",
       "details": "Requires: Frontier Village area reached\r\nHunt for Bug-Loving Friend\r\nCentral Bionis ☆1½ — Grab 2 lots of Green Eluca Juice from Makna Elucas in Makna Forest.\nHave Ababa drink it and see what he thinks.\nGo see Deki.",
       "givers": [
         {
           "residentId": "resident-deki-e62aa5",
-          "name": "Deki",
+          "name": "デク",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Nopon Tower)",
+              "location": "サイハテ村 (ノポンタワー)",
               "time": "09:00–18:00"
             }
           ]
@@ -4875,18 +4875,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-a-tormented-bug-lover-4472415b",
-      "questName": "A Tormented Bug-Lover",
-      "area": "Frontier Village",
+      "questName": "虫好きじいさんの苦悩",
+      "area": "サイハテ村",
       "requirements": "Eryth Sea reached\nA Worried Bug-Lover\nCentral Bionis ☆2",
       "details": "Requires: Eryth Sea reached\nA Worried Bug-Lover\nCentral Bionis ☆2 — Grab 5 lots of Bitter Wisp Fluid from Colony Wisps in Colony 6.\nHave Ababa drink it and see what he thinks.\nGo see Deki.",
       "givers": [
         {
           "residentId": "resident-deki-e62aa5",
-          "name": "Deki",
+          "name": "デク",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Nopon Tower)",
+              "location": "サイハテ村 (ノポンタワー)",
               "time": "09:00–18:00"
             }
           ]
@@ -4895,18 +4895,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-mushy-mushrooms-4b40ec39",
-      "questName": "Mushy Mushrooms",
-      "area": "Frontier Village",
+      "questName": "やわらかキノコ",
+      "area": "サイハテ村",
       "requirements": "Frontier Village area reached",
       "details": "Requires: Frontier Village area reached — Grab 8 Kelp Mushrooms in Makna Forest.\nGo see Kofuko.",
       "givers": [
         {
           "residentId": "resident-kofuko-3cdd17",
-          "name": "Kofuko",
+          "name": "フゴフゴ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Central Plaza)",
+              "location": "サイハテ村 (Central Plaza)",
               "time": "21:00–06:00"
             }
           ]
@@ -4915,18 +4915,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-medical-advancements-d38e6c42",
-      "questName": "Medical Advancements",
-      "area": "Frontier Village",
+      "questName": "治療装置を開発！",
+      "area": "サイハテ村",
       "requirements": "Access to Valak Mountain\r\nYusa registered on the Affinity Chart\r\nMushy Mushrooms\r\nLet's Make Fillings! not completed\r\nCentral Bionis ☆2",
       "details": "Requires: Access to Valak Mountain\r\nYusa registered on the Affinity Chart\r\nMushy Mushrooms\r\nLet's Make Fillings! not completed\r\nCentral Bionis ☆2 — Collect 2 Ories Horns from Ories on Valak Mountain.\nReturn to Medi.",
       "givers": [
         {
           "residentId": "resident-medi-ab35a8",
-          "name": "Medi",
+          "name": "メディ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Kyn Shopping Street)",
+              "location": "サイハテ村 (2Ｆ カイナ商店通り)",
               "time": "21:00–03:00"
             }
           ]
@@ -4935,18 +4935,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-let-s-make-fillings-e0331e56",
-      "questName": "Let's Make Fillings!",
-      "area": "Frontier Village",
+      "questName": "入れ歯を作る！",
+      "area": "サイハテ村",
       "requirements": "Access to Valak Mountain\r\nMedi registered on the Affinity Chart\r\nMushy Mushrooms\r\nMedical Advancements not completed\r\nCentral Bionis ☆2",
       "details": "Requires: Access to Valak Mountain\r\nMedi registered on the Affinity Chart\r\nMushy Mushrooms\r\nMedical Advancements not completed\r\nCentral Bionis ☆2 — Grab 4 Vang Milk Teeth from Vangs in Satorl Marsh.\nGo see Yusa.",
       "givers": [
         {
           "residentId": "resident-yusa-d38815",
-          "name": "Yusa",
+          "name": "ユシ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Underground Store)",
+              "location": "サイハテ村 (B1F 地下貯蔵庫)",
               "time": "06:00–15:00"
             }
           ]
@@ -4955,18 +4955,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-world-s-strongest-flavour-bbfbbf9c",
-      "questName": "World's Strongest Flavour",
-      "area": "Frontier Village",
+      "questName": "世界一濃い口の料理",
+      "area": "サイハテ村",
       "requirements": "Access to Valak Mountain\nMedical Advancements\nCentral Bionis ☆4",
       "details": "Requires: Access to Valak Mountain\nMedical Advancements\nCentral Bionis ☆4 — Grab 2 Crimson Citruses in Frontier Village.\nGrab 2 Ruby Mangosteens on Valak Mountain.\nGrab 2 lots of Bloody Brog Sweat from Makna Brogs in Makna Forest.\nGrab 2 lots of Frozen Aries Meat from Aries on Valak Mountain.\nGo see Kofuko.",
       "givers": [
         {
           "residentId": "resident-kofuko-3cdd17",
-          "name": "Kofuko",
+          "name": "フゴフゴ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Central Plaza)",
+              "location": "サイハテ村 (Central Plaza)",
               "time": "21:00–06:00"
             }
           ]
@@ -4975,18 +4975,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-reversed-tastes-491b62ae",
-      "questName": "Reversed Tastes",
-      "area": "Frontier Village",
+      "questName": "あべこべグルメ",
+      "area": "サイハテ村",
       "requirements": "Access to Valak Mountain\r\nLet's Make Fillings!\r\nCentral Bionis ☆4",
       "details": "Requires: Access to Valak Mountain\r\nLet's Make Fillings!\r\nCentral Bionis ☆4 — Grab 3 lots of Dense Ansel Meat from Eryth Ansels at Eryth Sea.\nGrab 3 Moramora Meat Pies from Moramora in Valak Mountain.\nGrab 4 Shin Newts in Tephra Cave.\nGrab 3 Hard Lotuses on Bionis' Leg.\nGo see Kofuko.",
       "givers": [
         {
           "residentId": "resident-kofuko-3cdd17",
-          "name": "Kofuko",
+          "name": "フゴフゴ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Central Plaza)",
+              "location": "サイハテ村 (Central Plaza)",
               "time": "21:00–06:00"
             }
           ]
@@ -4995,18 +4995,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-sweet-seduction-39ca6157",
-      "questName": "Sweet Seduction",
-      "area": "Frontier Village",
+      "questName": "あま〜い誘惑",
+      "area": "サイハテ村",
       "requirements": "Riki joined the party\r\nKofuko registered on the Affinity Chart\r\nFixing Time Mushrooms\r\nCentral Bionis ☆2",
       "details": "Requires: Riki joined the party\r\nKofuko registered on the Affinity Chart\r\nFixing Time Mushrooms\r\nCentral Bionis ☆2 — Talk to Kofuko.\nInvestigate the source of the sweet smell.\nGo see Migaga.",
       "givers": [
         {
           "residentId": "resident-migaga-39d2fe",
-          "name": "Migaga",
+          "name": "ミガミガ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Sacred Altar)",
+              "location": "サイハテ村 (御神体の祭壇)",
               "time": "06:00–18:00"
             }
           ]
@@ -5016,17 +5016,17 @@ const QUEST_SCHEDULE_DATA = {
     {
       "questId": "quest-frontier-village-ingredients-for-a-brew-99e4433b",
       "questName": "Ingredients For A Brew",
-      "area": "Frontier Village",
+      "area": "サイハテ村",
       "requirements": "Riki joined the party\r\nSweet Seduction accepted\r\nFixing Time Mushrooms\r\nCentral Bionis ☆2",
       "details": "Requires: Riki joined the party\r\nSweet Seduction accepted\r\nFixing Time Mushrooms\r\nCentral Bionis ☆2 — Grab 4 Walnut Grapes on the Bionis' Leg or grab 2 Bitter Kiwis in Makna Forest.\nReport to Kofuko.",
       "givers": [
         {
           "residentId": "resident-kofuko-3cdd17",
-          "name": "Kofuko",
+          "name": "フゴフゴ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Central Plaza)",
+              "location": "サイハテ村 (Central Plaza)",
               "time": "21:00–06:00"
             }
           ]
@@ -5035,18 +5035,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-healing-the-healer-87cebe81",
-      "questName": "Healing the Healer",
-      "area": "Frontier Village",
+      "questName": "医者の不養生",
+      "area": "サイハテ村",
       "requirements": "Access to Valak Mountain\r\nMedical Advancements\r\nor Let's Make Fillings!\r\nCentral Bionis ☆3",
       "details": "Requires: Access to Valak Mountain\r\nMedical Advancements\r\nor Let's Make Fillings!\r\nCentral Bionis ☆3 — Chat to Medi.\nChat to Yusa.\nPlace flowers on the Bionis' Leg.\nGo see Yusa.\nGo see Npa",
       "givers": [
         {
           "residentId": "resident-npa-de9318",
-          "name": "Npa",
+          "name": "ンパ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village · (Underground Store)",
+              "location": "サイハテ村 · (B1F 地下貯蔵庫)",
               "time": "06:00–18:00"
             }
           ]
@@ -5055,18 +5055,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-legendary-nopon-charm-e6f64f8f",
-      "questName": "Legendary Nopon Charm",
-      "area": "Frontier Village",
+      "questName": "ノポン伝統のおまじない",
+      "area": "サイハテ村",
       "requirements": "Access to Valak Mountain\r\nMedical Advancements\r\nor Let's Make Fillings!\r\nHealing the Healer accepted\r\nCentral Bionis ☆3",
       "details": "Requires: Access to Valak Mountain\r\nMedical Advancements\r\nor Let's Make Fillings!\r\nHealing the Healer accepted\r\nCentral Bionis ☆3 — Offer up a flower at an altar near Kasharpa Falls on the Bionis' Leg.\nOffer up a flower at the altar in Tranquil Grotto on the Bionis' Leg.\nOffer up a flower on the altar at Viliera Hill on the Bionis' Leg.\nOffer up a flower at the altar in the southern part of Gaur Plain on the Bionis' Leg.",
       "givers": [
         {
           "residentId": "resident-npa-de9318",
-          "name": "Npa",
+          "name": "ンパ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village · (Sacred Altar)",
+              "location": "サイハテ村 · (御神体の祭壇)",
               "time": "Automatic"
             }
           ]
@@ -5075,18 +5075,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-mislabelling-problem-8c276339",
-      "questName": "Mislabelling Problem",
-      "area": "Frontier Village",
+      "questName": "不正表示問題",
+      "area": "サイハテ村",
       "requirements": "Access to Valak Mountain\r\nHealing the Healer\r\nCentral Bionis ☆3",
       "details": "Requires: Access to Valak Mountain\r\nHealing the Healer\r\nCentral Bionis ☆3 — Talk to Puko who supplies the medicine.\nDefeat LV34 Abominable Hiln in the area of Showdown Cliff at Eryth Sea.\nCollect High Entia Medicine.\nReturn to Puko.\nTalk to Medi.",
       "givers": [
         {
           "residentId": "resident-medi-ab35a8",
-          "name": "Medi",
+          "name": "メディ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Kyn Shopping Street)",
+              "location": "サイハテ村 (2Ｆ カイナ商店通り)",
               "time": "21:00–03:00"
             }
           ]
@@ -5095,18 +5095,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-getting-bigger-f8926db1",
-      "questName": "Getting Bigger!",
-      "area": "Frontier Village",
+      "questName": "おっきくな〜れ",
+      "area": "サイハテ村",
       "requirements": "Access to Valak Mountain\r\nMislabelling Problem\r\nAdidi registered on the Affinity Chart\r\nCentral Bionis ☆3½\r\nRiki in the lead",
       "details": "Requires: Access to Valak Mountain\r\nMislabelling Problem\r\nAdidi registered on the Affinity Chart\r\nCentral Bionis ☆3½\r\nRiki in the lead — Chat to Adidi.\nGrab 5 pieces of Ekidno Jaw Gristle from Ekidno at Eryth Sea.\nChat to Puko.\nMake the jump a success.",
       "givers": [
         {
           "residentId": "resident-dabidabi-66e65a",
-          "name": "Dabidabi",
+          "name": "ダビダビ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Chief's Residence)",
+              "location": "サイハテ村 (村長の家)",
               "time": "18:00–03:00"
             }
           ]
@@ -5115,18 +5115,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-who-is-bigger-bd626a51",
-      "questName": "Who is Bigger?",
-      "area": "Frontier Village",
+      "questName": "どっちを大きく？",
+      "area": "サイハテ村",
       "requirements": "Access to Valak Mountain\r\nGetting Bigger! accepted\r\nCentral Bionis ☆3½",
       "details": "Requires: Access to Valak Mountain\r\nGetting Bigger! accepted\r\nCentral Bionis ☆3½ — Give the Enlarging Seaweed to Adidi or Dabidabi.\nChat to Dabidabi.",
       "givers": [
         {
           "residentId": "resident-dabidabi-66e65a",
-          "name": "Dabidabi",
+          "name": "ダビダビ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Mysterious Sanctuary)",
+              "location": "サイハテ村 (8Ｆ 神秘の聖域)",
               "time": "18:00–03:00"
             }
           ]
@@ -5135,18 +5135,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-strange-noises-from-below-8b1a3855",
-      "questName": "Strange Noises from Below",
-      "area": "Frontier Village",
+      "questName": "地下からの不気味な声",
+      "area": "サイハテ村",
       "requirements": "Riki joined the party\r\nAn Errand for the Heropon",
       "details": "Requires: Riki joined the party\r\nAn Errand for the Heropon — Seek out what is behind the strange voice.\nGrab 3 Hode Camouflages from Hodes in Makna Forest.\nGive the Hode Camouflages to Tati.\nReturn to Pipiki.",
       "givers": [
         {
           "residentId": "resident-pipiki-6d8974",
-          "name": "Pipiki",
+          "name": "ピケ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Central Plaza)",
+              "location": "サイハテ村 (Central Plaza)",
               "time": "06:00–18:00"
             }
           ]
@@ -5155,18 +5155,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-musical-genius-2f8caef8",
-      "questName": "Musical Genius",
-      "area": "Frontier Village",
+      "questName": "音楽は偉大",
+      "area": "サイハテ村",
       "requirements": "Riki joined the party\r\nStrange Noises from Below\r\nCentral Bionis ☆1½",
       "details": "Requires: Riki joined the party\r\nStrange Noises from Below\r\nCentral Bionis ☆1½ — Grab 4 things with Humming in the name.\nGrab 4 things with Rumble in the name.\nGo see Tati.",
       "givers": [
         {
           "residentId": "resident-tati-0c2a24",
-          "name": "Tati",
+          "name": "タティ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Nopon Kitchen)",
+              "location": "サイハテ村 (ノポンの台所)",
               "time": "18:00–06:00"
             }
           ]
@@ -5175,18 +5175,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-things-that-hum-f767b940",
-      "questName": "Things that Hum",
-      "area": "Frontier Village",
+      "questName": "ハミング・コレクション",
+      "area": "サイハテ村",
       "requirements": "Riki joined the party\r\nStrange Noises from Below\r\nMusical Genius accepted\r\nCentral Bionis ☆1½",
       "details": "Requires: Riki joined the party\r\nStrange Noises from Below\r\nMusical Genius accepted\r\nCentral Bionis ☆1½ — Grab 2 Humming Plums on the Bionis' Leg.\nGrab 2 Humming Cabbages in Satorl Marsh.\nGrab 2 Humming Cats in Satorl Marsh.\nGrab 2 Humming Nettles in Makna Forest.",
       "givers": [
         {
           "residentId": "resident-tati-0c2a24",
-          "name": "Tati",
+          "name": "タティ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Nopon Kitchen)",
+              "location": "サイハテ村 (ノポンの台所)",
               "time": "18:00–06:00"
             }
           ]
@@ -5195,18 +5195,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-things-that-rumble-9eb8cc36",
-      "questName": "Things that Rumble",
-      "area": "Frontier Village",
+      "questName": "ボップン・コレクション",
+      "area": "サイハテ村",
       "requirements": "Riki joined the party\r\nStrange Noises from Below\r\nMusical Genius accepted\r\nCentral Bionis ☆1½",
       "details": "Requires: Riki joined the party\r\nStrange Noises from Below\r\nMusical Genius accepted\r\nCentral Bionis ☆1½ — Grab 2 Rumble Stoneflies in Tephra Cave.\nGrab 2 Rumble Coals in the Ether Mine.\nGrab 2 Rumble Parts in Satorl Marsh.\nGrab 2 Rumble Boxes in Frontier Village.",
       "givers": [
         {
           "residentId": "resident-tati-0c2a24",
-          "name": "Tati",
+          "name": "タティ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Nopon Kitchen)",
+              "location": "サイハテ村 (ノポンの台所)",
               "time": "18:00–06:00"
             }
           ]
@@ -5215,18 +5215,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-disinsectization-9f1dd2f2",
-      "questName": "Disinsectization",
-      "area": "Frontier Village",
+      "questName": "害虫駆除",
+      "area": "サイハテ村",
       "requirements": "Frontier Village area reached\r\nCherri registered on the Affinity Chart\r\nCentral Bionis ☆1½",
       "details": "Requires: Frontier Village area reached\r\nCherri registered on the Affinity Chart\r\nCentral Bionis ☆1½ — Defeat 5 Makna Elucas in Yellow Flower Grove in Makna Forest.\nGo see Cherri.\nReturn to Rasha.",
       "givers": [
         {
           "residentId": "resident-rasha-ad194b",
-          "name": "Rasha",
+          "name": "ラシャ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Sacred Altar)",
+              "location": "サイハテ村 (御神体の祭壇)",
               "time": "06:00–18:00"
             }
           ]
@@ -5235,18 +5235,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-avenge-a-mamapon-s-death-afae25ff",
-      "questName": "Avenge a Mamapon's Death",
-      "area": "Frontier Village",
+      "questName": "母の死を越えて",
+      "area": "サイハテ村",
       "requirements": "Eryth Sea reached\r\nDisinsectization\r\nSecret Innovation\r\nCentral Bionis ☆4\r\nSharla in the lead",
       "details": "Requires: Eryth Sea reached\r\nDisinsectization\r\nSecret Innovation\r\nCentral Bionis ☆4\r\nSharla in the lead — Defeat Pillager Hode in the area of the Ether Crystal Deposit at Eryth Sea.\nReturn to Rasha.\nGive the Cloth Shred to Cherri.\nReturn to Rasha.",
       "givers": [
         {
           "residentId": "resident-rasha-ad194b",
-          "name": "Rasha",
+          "name": "ラシャ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Central Plaza)",
+              "location": "サイハテ村 (Central Plaza)",
               "time": "06:00–18:00"
             }
           ]
@@ -5256,17 +5256,17 @@ const QUEST_SCHEDULE_DATA = {
     {
       "questId": "quest-frontier-village-dadapon-in-trouble-d0011fed",
       "questName": "Dadapon in Trouble",
-      "area": "Frontier Village",
+      "area": "サイハテ村",
       "requirements": "Frontier Village area reached\r\nPachipa and Gerugu affinity link: Orange\r\nCentral Bionis ☆2",
       "details": "Requires: Frontier Village area reached\r\nPachipa and Gerugu affinity link: Orange\r\nCentral Bionis ☆2 — Bash 2 Mount Tortas on the Bionis' Leg.\nReturn to Pachipa.",
       "givers": [
         {
           "residentId": "resident-pachipa-f4c914",
-          "name": "Pachipa",
+          "name": "パチカ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Archaeology Centre)",
+              "location": "サイハテ村 (遺跡研究本部)",
               "time": "09:00–15:00"
             }
           ]
@@ -5275,18 +5275,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-it-definitely-exist-86e39ec6",
-      "questName": "It Definitely Exist!",
-      "area": "Frontier Village",
+      "questName": "ゼッタイいる！",
+      "area": "サイハテ村",
       "requirements": "Frontier Village area reached\r\nPipiki and Pachipa affinity link:Yellow\r\nKuriku registered on the Affinity Chart\r\nDadapon in Trouble\r\nCentral Bionis ☆2½",
       "details": "Requires: Frontier Village area reached\r\nPipiki and Pachipa affinity link:Yellow\r\nKuriku registered on the Affinity Chart\r\nDadapon in Trouble\r\nCentral Bionis ☆2½ — Ask Gerugu where the Mythical Empress lives.\nCollect evidence at Zax Guidepost on the Bionis' Leg proving that the Mythical Empress exists.\nGo see Pachipa.",
       "givers": [
         {
           "residentId": "resident-pachipa-f4c914",
-          "name": "Pachipa",
+          "name": "パチカ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Archaeology Centre)",
+              "location": "サイハテ村 (遺跡研究本部)",
               "time": "09:00–15:00"
             }
           ]
@@ -5296,17 +5296,17 @@ const QUEST_SCHEDULE_DATA = {
     {
       "questId": "quest-frontier-village-even-in-the-chief-s-absence-17151b06",
       "questName": "Even in the Chief's Absence",
-      "area": "Frontier Village",
+      "area": "サイハテ村",
       "requirements": "Met Miqol in the Hidden Machina Village\nLalapa and Miko affinity link: yellow",
       "details": "Requires: Met Miqol in the Hidden Machina Village\nLalapa and Miko affinity link: yellow — Chat to Pelupelu.\nGet advice from Miko.\nGrab 5 portions of Piranhax Belly Meat from Makna Piranhaxes in Makna Forest.\nChat to Pelupelu and show him the Piranhax Belly Meat.\nGo see Miko.",
       "givers": [
         {
           "residentId": "resident-miko-1791c4",
-          "name": "Miko",
+          "name": "ミコ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Prophecy Hut)",
+              "location": "サイハテ村 (お告げの間)",
               "time": "06:00–03:00"
             }
           ]
@@ -5315,18 +5315,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-bored-pelupelu-4ba04657",
-      "questName": "Bored Pelupelu",
-      "area": "Frontier Village",
+      "questName": "おしゃべりペルペル",
+      "area": "サイハテ村",
       "requirements": "Met Miqol in Hidden Machina Village\r\nEven In the Chief's Absence\r\nCentral Bionis ☆2",
       "details": "Requires: Met Miqol in Hidden Machina Village\r\nEven In the Chief's Absence\r\nCentral Bionis ☆2 — Chat to Pelupelu in the early afternoon.\nChat to Pelupelu between 3pm and 6pm.\r\nChat to Pelupelu between 6pm and 9pm.\r\nChat to Pelupelu between 9pm and midnight.",
       "givers": [
         {
           "residentId": "resident-pelupelu-0398e6",
-          "name": "Pelupelu",
+          "name": "ペルペル",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Prophecy Hut)",
+              "location": "サイハテ村 (お告げの間)",
               "time": "06:00–03:00"
             }
           ]
@@ -5336,17 +5336,17 @@ const QUEST_SCHEDULE_DATA = {
     {
       "questId": "quest-frontier-village-a-gift-for-miko-b85d65c9",
       "questName": "A Gift for Miko",
-      "area": "Frontier Village",
+      "area": "サイハテ村",
       "requirements": "Met Miqol in Hidden Machina Village\r\nBored Pelupelu\r\nCentral Bionis ☆3",
       "details": "Requires: Met Miqol in Hidden Machina Village\r\nBored Pelupelu\r\nCentral Bionis ☆3 — Grab 5 Wisp Glow Sticks from Bunker Wisps in Colony 6.\nGrab 3 Ansel Fish Pies from Ansels on Valak Mountain.\nGrab 5 Wet Rats on Valak Mountain.\nGo see Pelupelu.",
       "givers": [
         {
           "residentId": "resident-pelupelu-0398e6",
-          "name": "Pelupelu",
+          "name": "ペルペル",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Prophecy Hut)",
+              "location": "サイハテ村 (お告げの間)",
               "time": "06:00–03:00"
             }
           ]
@@ -5355,18 +5355,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-giant-attack-3e870524",
-      "questName": "Giant Attack!",
-      "area": "Frontier Village",
+      "questName": "巨人の襲撃！",
+      "area": "サイハテ村",
       "requirements": "Access to Valak Mountain\r\nBridge Repair",
       "details": "Requires: Access to Valak Mountain\r\nBridge Repair — Bash 3 Ashy Orlugas in the area of Nopon Arch in Makna Forest.\nGo see Lalapa",
       "givers": [
         {
           "residentId": "resident-lalapa-366b9e",
-          "name": "Lalapa",
+          "name": "ラパン",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Chief's Residence)",
+              "location": "サイハテ村 (村長の家)",
               "time": "06:00–18:00"
             }
           ]
@@ -5375,18 +5375,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-kind-lupa-s-grampypon-a5eab65a",
-      "questName": "Kind Lupa's Grampypon",
-      "area": "Frontier Village",
+      "questName": "たまには孫らしく",
+      "area": "サイハテ村",
       "requirements": "Frontier Village area reached\r\nCentral Bionis ☆2",
       "details": "Requires: Frontier Village area reached\r\nCentral Bionis ☆2 — Grab materials for a Secret Nopon Elixir.\nGo see Lupa at the Archaeology Centre.\nDeliver the Secret Nopon Elixir to Satata.\nGo see Lupa.",
       "givers": [
         {
           "residentId": "resident-lupa-714d56",
-          "name": "Lupa",
+          "name": "ルパ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Archaeology Centre)",
+              "location": "サイハテ村 (遺跡研究本部)",
               "time": "18:00–03:00"
             }
           ]
@@ -5396,17 +5396,17 @@ const QUEST_SCHEDULE_DATA = {
     {
       "questId": "quest-frontier-village-secret-elixer-ingredients-9b5e9e4c",
       "questName": "Secret Elixer Ingredients",
-      "area": "Frontier Village",
+      "area": "サイハテ村",
       "requirements": "Frontier Village area reached\r\nKind Lupa's Grampypon accepted\r\nCentral Bionis ☆2",
       "details": "Requires: Frontier Village area reached\r\nKind Lupa's Grampypon accepted\r\nCentral Bionis ☆2 — Grab 5 Hades Beetles in Makna Forest.\nGrab 3 All-Seeing Eyes from Jungle Quadwings in Makna Forest.\nGrab 2 lots of Potent Brog Poison from Poison Brogs in Satorl Marsh.",
       "givers": [
         {
           "residentId": "resident-lupa-714d56",
-          "name": "Lupa",
+          "name": "ルパ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Archaeology Centre)",
+              "location": "サイハテ村 (遺跡研究本部)",
               "time": "18:00–03:00"
             }
           ]
@@ -5415,18 +5415,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-mystery-of-makna-ruins-1-6696c5a5",
-      "questName": "Mystery of Makna Ruins 1",
-      "area": "Frontier Village",
+      "questName": "マクナ遺跡の謎1",
+      "area": "サイハテ村",
       "requirements": "Access to Pod Landing Site\r\nKind Lupa's Grampypon\r\nCentral Bionis ☆2",
       "details": "Requires: Access to Pod Landing Site\r\nKind Lupa's Grampypon\r\nCentral Bionis ☆2 — Grab 3 Ancient Documents from various locations in Makna Forest.\nGo see Lupa.",
       "givers": [
         {
           "residentId": "resident-lupa-714d56",
-          "name": "Lupa",
+          "name": "ルパ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Archaeology Centre)",
+              "location": "サイハテ村 (遺跡研究本部)",
               "time": "18:00–03:00"
             }
           ]
@@ -5435,18 +5435,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-mystery-of-makna-ruins-2-e51dd72d",
-      "questName": "Mystery of Makna Ruins 2",
-      "area": "Frontier Village",
+      "questName": "マクナ遺跡の謎2",
+      "area": "サイハテ村",
       "requirements": "Access to Pod Landing Site\r\nMystery of Makna Ruins 1\r\nCentral Bionis ☆2",
       "details": "Requires: Access to Pod Landing Site\r\nMystery of Makna Ruins 1\r\nCentral Bionis ☆2 — Recite the prayer in front of King Agni's Tomb.\nInvestigate the inside of King Agni's Tomb.\nGo see Lupa.",
       "givers": [
         {
           "residentId": "resident-lupa-714d56",
-          "name": "Lupa",
+          "name": "ルパ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Archaeology Centre)",
+              "location": "サイハテ村 (遺跡研究本部)",
               "time": "18:00–03:00"
             }
           ]
@@ -5455,18 +5455,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-mystery-of-makna-ruins-3-087e7238",
-      "questName": "Mystery of Makna Ruins 3",
-      "area": "Frontier Village",
+      "questName": "マクナ遺跡の謎3",
+      "area": "サイハテ村",
       "requirements": "Access to Pod Landing Site\r\nMystery of Makna Ruins 2\r\nCentral Bionis ☆3",
       "details": "Requires: Access to Pod Landing Site\r\nMystery of Makna Ruins 2\r\nCentral Bionis ☆3 — Grab 3 lots of Aqueous Andos Oil from Flavel Andos at Eryth Sea\n\"Grab 3 lots of Algora Sap from Sap Cave in Makna Forest.\nGo see Lupa.",
       "givers": [
         {
           "residentId": "resident-lupa-714d56",
-          "name": "Lupa",
+          "name": "ルパ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Archaeology Centre)",
+              "location": "サイハテ村 (遺跡研究本部)",
               "time": "18:00–03:00"
             }
           ]
@@ -5475,18 +5475,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-mystery-of-makna-ruins-4-b8c1296f",
-      "questName": "Mystery of Makna Ruins 4",
-      "area": "Frontier Village",
+      "questName": "マクナ遺跡の謎4",
+      "area": "サイハテ村",
       "requirements": "Access to Pod Landing Site\r\nMystery of Makna Ruins 3\r\nCentral Bionis ☆3",
       "details": "Requires: Access to Pod Landing Site\r\nMystery of Makna Ruins 3\r\nCentral Bionis ☆3 — Use the Lubricant Oil on the coffin.\nInvestigate the depths of the tomb.\nGo see Lupa.",
       "givers": [
         {
           "residentId": "resident-lupa-714d56",
-          "name": "Lupa",
+          "name": "ルパ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Archaeology Centre)",
+              "location": "サイハテ村 (遺跡研究本部)",
               "time": "18:00–03:00"
             }
           ]
@@ -5495,18 +5495,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-honouring-the-nopon-sage-3b8a2f5a",
-      "questName": "Honouring the Nopon Sage",
-      "area": "Frontier Village",
+      "questName": "センニンのお供え",
+      "area": "サイハテ村",
       "requirements": "Eryth Sea reached\r\nStrange Noises from Below",
       "details": "Requires: Eryth Sea reached\r\nStrange Noises from Below — Grab 3 lots of Juicy Laia Fish from Chloro Laias at Eryth Sea.\nGrab 4 Benign Crickets in Makna Forest.\nGrab 4 Soft Sea Cucumbers in Makna Forest.\nGo see Pipiki.",
       "givers": [
         {
           "residentId": "resident-pipiki-6d8974",
-          "name": "Pipiki",
+          "name": "ピケ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Central Plaza)",
+              "location": "サイハテ村 (Central Plaza)",
               "time": "06:00–18:00"
             }
           ]
@@ -5515,18 +5515,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-meeting-the-nopon-sage-b62920c3",
-      "questName": "Meeting the Nopon Sage",
-      "area": "Frontier Village",
+      "questName": "センニンに出会う",
+      "area": "サイハテ村",
       "requirements": "Eryth Sea reached\r\nHonouring the Nopon Sage",
       "details": "Requires: Eryth Sea reached\r\nHonouring the Nopon Sage — Make the offering where you can see the rainbow of Great Makna Falls.\nChat to the Nopon Sage.\nGo see Pipiki.",
       "givers": [
         {
           "residentId": "resident-pipiki-6d8974",
-          "name": "Pipiki",
+          "name": "ピケ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Central Plaza)",
+              "location": "サイハテ村 (Central Plaza)",
               "time": "06:00–18:00"
             }
           ]
@@ -5535,18 +5535,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-fixing-time-mushrooms-8654c073",
-      "questName": "Fixing Time Mushrooms",
-      "area": "Frontier Village",
+      "questName": "キノコ時計の修理",
+      "area": "サイハテ村",
       "requirements": "An Errand for the Heropon story quest accepted",
       "details": "Requires: An Errand for the Heropon story quest accepted — Feed compost to the Time Mushroom on the 1st floor.\nFeed compost to the Time Mushroom on the 4th floor.\nFeed compost to the Time Mushroom on the 7th floor.\nGo see Migaga.",
       "givers": [
         {
           "residentId": "resident-migaga-39d2fe",
-          "name": "Migaga",
+          "name": "ミガミガ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Sacred Altar)",
+              "location": "サイハテ村 (御神体の祭壇)",
               "time": "06:00–18:00"
             }
           ]
@@ -5555,18 +5555,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-restoring-the-capital-0d26078f",
-      "questName": "Restoring the Capital",
-      "area": "Frontier Village",
+      "questName": "皇都を復興するために",
+      "area": "サイハテ村",
       "requirements": "Mechonis Core cleared",
       "details": "Requires: Mechonis Core cleared — Bash 5 Aora Telethia in Alcamoth.\nGo see Nelo.",
       "givers": [
         {
           "residentId": "resident-nelo-ec4ee3",
-          "name": "Nelo",
+          "name": "ネロ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Nopon Tower)",
+              "location": "サイハテ村 (ノポンタワー)",
               "time": "18:00–06:00"
             }
           ]
@@ -5575,18 +5575,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-restoring-the-capital-2-bccc53cb",
-      "questName": "Restoring the Capital 2",
-      "area": "Frontier Village",
+      "questName": "皇都を復興するために2",
+      "area": "サイハテ村",
       "requirements": "Mechonis Core cleared\r\nRestoring the Capital",
       "details": "Requires: Mechonis Core cleared\r\nRestoring the Capital — Grab 5 Refined Part Ms from cool Mechon flying around the Fallen Arm.\nGrab 5 New Cylinders from automated defence devices in the High Entia Tomb.\nGo see Nelo.",
       "givers": [
         {
           "residentId": "resident-nelo-ec4ee3",
-          "name": "Nelo",
+          "name": "ネロ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Nopon Tower)",
+              "location": "サイハテ村 (ノポンタワー)",
               "time": "18:00–06:00"
             }
           ]
@@ -5595,18 +5595,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-broken-ether-furnace-7f3e3db3",
-      "questName": "Broken Ether Furnace",
-      "area": "Frontier Village",
+      "questName": "壊れたエーテル炉",
+      "area": "サイハテ村",
       "requirements": "Mechonis Core cleared\r\nRestoring the Capital and Vidian Rescue Mission in Alcamoth triggered",
       "details": "Requires: Mechonis Core cleared\r\nRestoring the Capital and Vidian Rescue Mission in Alcamoth triggered — Collect 10 Refined Part Ls from Mechon in Fallen Arm.\nCollect 2 pieces of Frost Glass in Valak Mountain.\nReturn to Kaleka.",
       "givers": [
         {
           "residentId": "resident-kaleka-023300",
-          "name": "Kaleka",
+          "name": "ガルバ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Nopon Tower)",
+              "location": "サイハテ村 (ノポンタワー)",
               "time": "18:00–06:00"
             }
           ]
@@ -5615,18 +5615,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-broken-ether-furnace-2-3f6c744d",
-      "questName": "Broken Ether Furnace 2",
-      "area": "Frontier Village",
+      "questName": "壊れたエーテル炉2",
+      "area": "サイハテ村",
       "requirements": "Mechonis Core cleared\r\nBroken Ether Furnace",
       "details": "Requires: Mechonis Core cleared\r\nBroken Ether Furnace — Mend the Ether Furnace Controls in Alcamoth.\nDefeat Primordial Telethia in front of the Ether Furnace Controls in Alcamoth.\nReturn to Kaleka.",
       "givers": [
         {
           "residentId": "resident-kaleka-023300",
-          "name": "Kaleka",
+          "name": "ガルバ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Nopon Tower)",
+              "location": "サイハテ村 (ノポンタワー)",
               "time": "18:00–06:00"
             }
           ]
@@ -5635,18 +5635,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-a-memento-of-daddy-10b93298",
-      "questName": "A Memento of Daddy",
-      "area": "Frontier Village",
+      "questName": "お父さんの形見を",
+      "area": "サイハテ村",
       "requirements": "Mechonis Core cleared\r\nCian registered on the Central Bionis Affinity Chart",
       "details": "Requires: Mechonis Core cleared\r\nCian registered on the Central Bionis Affinity Chart — Collect something precious that has been buried near the Fountain of Hope in Alcamoth.\nDefeat Telethia Vol'aren near the Fountain of Hope in Alcamoth.\nReturn to Atael.",
       "givers": [
         {
           "residentId": "resident-atael-42360a",
-          "name": "Atael",
+          "name": "アテル",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Reservoir)",
+              "location": "サイハテ村 (貯水池)",
               "time": "06:00–18:00"
             }
           ]
@@ -5655,18 +5655,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-pollen-orb-ingredients-833496ce",
-      "questName": "Pollen Orb Ingredients",
-      "area": "Frontier Village",
+      "questName": "花粉玉の材料調達",
+      "area": "サイハテ村",
       "requirements": "Frontier Village area reached\r\nCentral Bionis ☆1½",
       "details": "Requires: Frontier Village area reached\r\nCentral Bionis ☆1½ — Grab 5 lots of Yellow Pollen at Yellow Flower Grove in Makna Forest.\nGo see Dobadoba.",
       "givers": [
         {
           "residentId": "resident-dobadoba-97e19d",
-          "name": "Dobadoba",
+          "name": "ドバガス",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Pollen Orb Storehouse)",
+              "location": "サイハテ村 (花粉玉倉庫)",
               "time": "03:00–21:00"
             }
           ]
@@ -5675,18 +5675,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-secret-ingredient-hunt-658b9ff1",
-      "questName": "Secret Ingredient Hunt",
-      "area": "Frontier Village",
+      "questName": "ヒミツの材料集め",
+      "area": "サイハテ村",
       "requirements": "Frontier Village area reached\r\nPollen Orb Ingredients\r\nGadada registered on the Affinity Chart then spoken to\r\nCentral Bionis ☆1½",
       "details": "Requires: Frontier Village area reached\r\nPollen Orb Ingredients\r\nGadada registered on the Affinity Chart then spoken to\r\nCentral Bionis ☆1½ — Grab a Monster Egg in the area of Twisted Tree Gate in Makna Forest.\nGive the Monster Egg to Gadada.\nGo see Bana.",
       "givers": [
         {
           "residentId": "resident-bana-fea6ca",
-          "name": "Bana",
+          "name": "バーン",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Central Plaza)",
+              "location": "サイハテ村 (Central Plaza)",
               "time": "18:00–06:00"
             }
           ]
@@ -5695,18 +5695,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-secret-innovation-5cf8ce52",
-      "questName": "Secret Innovation",
-      "area": "Frontier Village",
+      "questName": "ヒミツの技術革新",
+      "area": "サイハテ村",
       "requirements": "Frontier Village area reached\r\nPollen Orb Ingredients\r\nCherri registered on the Affinity Chart then spoken to\r\nCentral Bionis ☆1½",
       "details": "Requires: Frontier Village area reached\r\nPollen Orb Ingredients\r\nCherri registered on the Affinity Chart then spoken to\r\nCentral Bionis ☆1½ — Collect Filtered Water from near Sparkling Pool in Makna Forest. (From dawn to dusk.)\nGive the Filtered Water to Cherri.\nReturn to Rasha.",
       "givers": [
         {
           "residentId": "resident-rasha-ad194b",
-          "name": "Rasha",
+          "name": "ラシャ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Central Plaza)",
+              "location": "サイハテ村 (Central Plaza)",
               "time": "06:00–18:00"
             }
           ]
@@ -5715,18 +5715,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-the-master-s-successor-64e36cf7",
-      "questName": "The Master's Successor",
-      "area": "Frontier Village",
+      "questName": "跡継ぎ問題",
+      "area": "サイハテ村",
       "requirements": "Frontier Village area reached\r\nSecret Ingredient Hunt\r\nSecret Innovation\r\nCentral Bionis ☆2",
       "details": "Requires: Frontier Village area reached\r\nSecret Ingredient Hunt\r\nSecret Innovation\r\nCentral Bionis ☆2 — Chat to Gadada about his passions.\nGo see Dobadoba.\nChat to Cherri about her passions.\nGo see Dobadoba.",
       "givers": [
         {
           "residentId": "resident-dobadoba-97e19d",
-          "name": "Dobadoba",
+          "name": "ドバガス",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Pollen Orb Storehouse)",
+              "location": "サイハテ村 (花粉玉倉庫)",
               "time": "03:00–21:00"
             }
           ]
@@ -5735,18 +5735,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-dangerous-ambition-0c01efad",
-      "questName": "Dangerous Ambition",
-      "area": "Frontier Village",
+      "questName": "危険な野望",
+      "area": "サイハテ村",
       "requirements": "Alcamoth reached\r\nThe Master's Successor\r\nCentral Bionis ☆2½",
       "details": "Requires: Alcamoth reached\r\nThe Master's Successor\r\nCentral Bionis ☆2½ — Chat to Nopon who friends with Gadada. (Bana)\nLook for Gadada in Makna Forest.\nGo see Cherri.",
       "givers": [
         {
           "residentId": "resident-cherri-f6c8ca",
-          "name": "Cherri",
+          "name": "チリ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Pollen Orb Storehouse)",
+              "location": "サイハテ村 (花粉玉倉庫)",
               "time": "06:00–18:00"
             }
           ]
@@ -5755,18 +5755,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-find-the-kingpin-03df88e7",
-      "questName": "Find the Kingpin",
-      "area": "Frontier Village",
+      "questName": "黒幕を探せ",
+      "area": "サイハテ村",
       "requirements": "Alcamoth reached\r\nDangerous Ambition\r\nCentral Bionis ☆2½",
       "details": "Requires: Alcamoth reached\r\nDangerous Ambition\r\nCentral Bionis ☆2½ — Chat to Bana.\nChat to Gadada about Nopon Merchants.\nObtain proof from the Nopon Merchants.\nGo see Gadada.",
       "givers": [
         {
           "residentId": "resident-gadada-d1a124",
-          "name": "Gadada",
+          "name": "ガルダ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Pollen Works)",
+              "location": "サイハテ村 (花粉工場)",
               "time": "06:00–18:00"
             }
           ]
@@ -5775,18 +5775,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-adviser-hunt-05dfd2de",
-      "questName": "Adviser Hunt",
-      "area": "Frontier Village",
+      "questName": "参謀を追い詰めろ",
+      "area": "サイハテ村",
       "requirements": "Alcamoth reached\r\nFind the Kingpin\r\nA Gift?\r\nCentral Bionis ☆2½",
       "details": "Requires: Alcamoth reached\r\nFind the Kingpin\r\nA Gift?\r\nCentral Bionis ☆2½ — Go to Dedeba's home.\nTell Gadada that Dedeba is not at home.\nFind a suspicious Nopon in Satorl Marsh.\nQuestion the suspicious Nopon.\nReturn to Gadada.",
       "givers": [
         {
           "residentId": "resident-gadada-d1a124",
-          "name": "Gadada",
+          "name": "ガルダ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Pollen Works)",
+              "location": "サイハテ村 (花粉工場)",
               "time": "06:00–18:00"
             }
           ]
@@ -5795,18 +5795,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-evidence-collection-3691c3f0",
-      "questName": "Evidence Collection",
-      "area": "Frontier Village",
+      "questName": "証拠集め",
+      "area": "サイハテ村",
       "requirements": "Alcamoth reached\r\nAdviser Hunt\r\nCentral Bionis ☆2½",
       "details": "Requires: Alcamoth reached\r\nAdviser Hunt\r\nCentral Bionis ☆2½ — Collect all of the pieces of Dedeba's Evidence scattered across Frontier Village.\nGo see Gadada.",
       "givers": [
         {
           "residentId": "resident-gadada-d1a124",
-          "name": "Gadada",
+          "name": "ガルダ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Pollen Works)",
+              "location": "サイハテ村 (花粉工場)",
               "time": "06:00–18:00"
             }
           ]
@@ -5815,18 +5815,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-destroying-the-city-trade-fc96181c",
-      "questName": "Destroying the City Trade",
-      "area": "Frontier Village",
+      "questName": "皇都での取引を潰せ",
+      "area": "サイハテ村",
       "requirements": "Alcamoth reached\r\nEvidence Collection\r\nCentral Bionis ☆2½",
       "details": "Requires: Alcamoth reached\r\nEvidence Collection\r\nCentral Bionis ☆2½ — Look for the location of the Secret Club in Alcamoth.\nFind a Secret Club Card.\nEnter the Secret Club.\nShow Dedeba the evidence.\nGo see Gadada.",
       "givers": [
         {
           "residentId": "resident-gadada-d1a124",
-          "name": "Gadada",
+          "name": "ガルダ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Pollen Works)",
+              "location": "サイハテ村 (花粉工場)",
               "time": "06:00–18:00"
             }
           ]
@@ -5835,18 +5835,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-bana-the-betrayer-a6210543",
-      "questName": "Bana the Betrayer",
-      "area": "Frontier Village",
+      "questName": "裏切りのバーン",
+      "area": "サイハテ村",
       "requirements": "Mechonis Core cleared\r\nDestroying the City Trade\r\nCentral Bionis ☆2½",
       "details": "Requires: Mechonis Core cleared\r\nDestroying the City Trade\r\nCentral Bionis ☆2½ — Chat to Bana at Apex Lake in Frontier Village at night.\nBash Bana the Betrayer.\nGo see Gadada.",
       "givers": [
         {
           "residentId": "resident-gadada-d1a124",
-          "name": "Gadada",
+          "name": "ガルダ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Pollen Works)",
+              "location": "サイハテ村 (花粉工場)",
               "time": "06:00–18:00"
             }
           ]
@@ -5855,18 +5855,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-presents-for-priceless-pupils-1bdeca37",
-      "questName": "Presents for Priceless Pupils",
-      "area": "Frontier Village",
+      "questName": "大事な弟子",
+      "area": "サイハテ村",
       "requirements": "Mechonis Core cleared\r\nSafer Energy or Distilling Active Ingredients\r\nCentral Bionis ☆4½",
       "details": "Requires: Mechonis Core cleared\r\nSafer Energy or Distilling Active Ingredients\r\nCentral Bionis ☆4½ — Grab 2 Fallen Objects from near Anti-Air Battery 2 in Colony 9.\nGo see Dobadoba.\nGive one to Gadada.\nGive the other one to Cherri.\nGo see Dobadoba.",
       "givers": [
         {
           "residentId": "resident-dobadoba-97e19d",
-          "name": "Dobadoba",
+          "name": "ドバガス",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier VIllage (Pollen Orb Storehouse)",
+              "location": "Frontier VIllage (花粉玉倉庫)",
               "time": "06:00–18:00"
             }
           ]
@@ -5875,18 +5875,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-safer-energy-47efa787",
-      "questName": "Safer Energy",
-      "area": "Frontier Village",
+      "questName": "安全なエネルギーに",
+      "area": "サイハテ村",
       "requirements": "Mechonis Core cleared\r\nThe Master's Successor completed with A route\r\nBana the Betrayer\r\nCentral Bionis ☆2½",
       "details": "Requires: Mechonis Core cleared\r\nThe Master's Successor completed with A route\r\nBana the Betrayer\r\nCentral Bionis ☆2½ — Get the Research Data from a Nopon Researcher.\nGo see Gadada.",
       "givers": [
         {
           "residentId": "resident-gadada-d1a124",
-          "name": "Gadada",
+          "name": "ガルダ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Pollen Works)",
+              "location": "サイハテ村 (花粉工場)",
               "time": "06:00–18:00"
             }
           ]
@@ -5895,18 +5895,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-distilling-active-ingredients-2d475228",
-      "questName": "Distilling Active Ingredients",
-      "area": "Frontier Village",
+      "questName": "有効成分を抽出する",
+      "area": "サイハテ村",
       "requirements": "Mechonis Core cleared\r\nThe Master's Successor completed with B route\r\nBana the Betrayer\r\nCentral Bionis ☆2½",
       "details": "Requires: Mechonis Core cleared\r\nThe Master's Successor completed with B route\r\nBana the Betrayer\r\nCentral Bionis ☆2½ — Get the information from a Nopon in Colony 6.\nGo see Cherri.",
       "givers": [
         {
           "residentId": "resident-cherri-f6c8ca",
-          "name": "Cherri",
+          "name": "チリ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier VIllage (Pollen Orb Storehouse)",
+              "location": "Frontier VIllage (花粉玉倉庫)",
               "time": "06:00–18:00"
             }
           ]
@@ -5915,18 +5915,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-monster-quest-1-part-1-9f37ca9e",
-      "questName": "Monster Quest 1 - Part 1",
-      "area": "Frontier Village",
+      "questName": "討伐クエスト1その1",
+      "area": "サイハテ村",
       "requirements": "Frontier Village area reached",
       "details": "Requires: Frontier Village area reached — Bash 3 Itmos Upas from near the Eks Watering Hole in Makna Forest.",
       "givers": [
         {
           "residentId": "resident-nopon-villager-2ff994",
-          "name": "Nopon Villager",
+          "name": "サイハテ村住人",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Nopon Tower)",
+              "location": "サイハテ村 (ノポンタワー)",
               "time": "18:00–06:00"
             }
           ]
@@ -5935,18 +5935,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-monster-quest-1-part-2-e1b85e60",
-      "questName": "Monster Quest 1 - Part 2",
-      "area": "Frontier Village",
+      "questName": "討伐クエスト1その2",
+      "area": "サイハテ村",
       "requirements": "Frontier Village area reached",
       "details": "Requires: Frontier Village area reached — Bash 2 Wahpol Sardi near the Eks Watering Hole in Makna Forest.",
       "givers": [
         {
           "residentId": "resident-nopon-villager-2ff994",
-          "name": "Nopon Villager",
+          "name": "サイハテ村住人",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Nopon Tower)",
+              "location": "サイハテ村 (ノポンタワー)",
               "time": "18:00–06:00"
             }
           ]
@@ -5955,18 +5955,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-monster-quest-1-part-3-95e4df97",
-      "questName": "Monster Quest 1 - Part 3",
-      "area": "Frontier Village",
+      "questName": "討伐クエスト1その3",
+      "area": "サイハテ村",
       "requirements": "Frontier Village area reached",
       "details": "Requires: Frontier Village area reached — Bash 1 Venaes Nebula near the Eks Watering Hole in Makna Forest.",
       "givers": [
         {
           "residentId": "resident-nopon-villager-2ff994",
-          "name": "Nopon Villager",
+          "name": "サイハテ村住人",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Nopon Tower)",
+              "location": "サイハテ村 (ノポンタワー)",
               "time": "18:00–06:00"
             }
           ]
@@ -5975,18 +5975,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-monster-quest-2-part-1-3ba4cd30",
-      "questName": "Monster Quest 2 - Part 1",
-      "area": "Frontier Village",
+      "questName": "討伐クエスト2その1",
+      "area": "サイハテ村",
       "requirements": "Frontier Village area reached",
       "details": "Requires: Frontier Village area reached — Bash 3 Terra Orlugas near the entrance to Frontier Village in Makna Forest.",
       "givers": [
         {
           "residentId": "resident-nopon-villager-2ff994",
-          "name": "Nopon Villager",
+          "name": "サイハテ村住人",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Central Plaza)",
+              "location": "サイハテ村 (Central Plaza)",
               "time": "06:00–18:00"
             }
           ]
@@ -5995,18 +5995,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-monster-quest-2-part-2-012bf20d",
-      "questName": "Monster Quest 2 - Part 2",
-      "area": "Frontier Village",
+      "questName": "討伐クエスト2その2",
+      "area": "サイハテ村",
       "requirements": "Frontier Village area reached",
       "details": "Requires: Frontier Village area reached — Bash 2 Ammos Orlugas near Precipice Bridge in Makna Forest.",
       "givers": [
         {
           "residentId": "resident-nopon-villager-2ff994",
-          "name": "Nopon Villager",
+          "name": "サイハテ村住人",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Central Plaza)",
+              "location": "サイハテ村 (Central Plaza)",
               "time": "06:00–18:00"
             }
           ]
@@ -6015,18 +6015,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-monster-quest-2-part-3-304a192f",
-      "questName": "Monster Quest 2 - Part 3",
-      "area": "Frontier Village",
+      "questName": "討伐クエスト2その3",
+      "area": "サイハテ村",
       "requirements": "Frontier Village area reached",
       "details": "Requires: Frontier Village area reached — Bash 3 Arena Orlugas near Precipice Bridge in Makna Forest.",
       "givers": [
         {
           "residentId": "resident-nopon-villager-2ff994",
-          "name": "Nopon Villager",
+          "name": "サイハテ村住人",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Central Plaza)",
+              "location": "サイハテ村 (Central Plaza)",
               "time": "06:00–18:00"
             }
           ]
@@ -6035,18 +6035,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-challenge-1-904ff9bc",
-      "questName": "Challenge 1",
-      "area": "Frontier Village",
+      "questName": "強敵を求めて1",
+      "area": "サイハテ村",
       "requirements": "Frontier Village area reached",
       "details": "Requires: Frontier Village area reached — Bash Agile Albatro near Bridge Three in Makna Forest.",
       "givers": [
         {
           "residentId": "resident-nopon-villager-2ff994",
-          "name": "Nopon Villager",
+          "name": "サイハテ村住人",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Reservoir)",
+              "location": "サイハテ村 (貯水池)",
               "time": "06:00–18:00"
             }
           ]
@@ -6055,18 +6055,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-challenge-2-e229b41e",
-      "questName": "Challenge 2",
-      "area": "Frontier Village",
+      "questName": "強敵を求めて2",
+      "area": "サイハテ村",
       "requirements": "Frontier Village area reached",
       "details": "Requires: Frontier Village area reached — Bash Breezy Zolos near Windmill Pavilion in Makna Forest.",
       "givers": [
         {
           "residentId": "resident-nopon-villager-2ff994",
-          "name": "Nopon Villager",
+          "name": "サイハテ村住人",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Kyn Shopping Street)",
+              "location": "サイハテ村 (2Ｆ カイナ商店通り)",
               "time": "06:00–18:00"
             }
           ]
@@ -6075,18 +6075,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-challenge-3-47955942",
-      "questName": "Challenge 3",
-      "area": "Frontier Village",
+      "questName": "強敵を求めて3",
+      "area": "サイハテ村",
       "requirements": "Frontier Village area reached",
       "details": "Requires: Frontier Village area reached — Bash Lazy Bluco at Yellow Flower Grove in Makna Forest. (Only at night.)",
       "givers": [
         {
           "residentId": "resident-nopon-villager-2ff994",
-          "name": "Nopon Villager",
+          "name": "サイハテ村住人",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Archaeology Centre)",
+              "location": "サイハテ村 (遺跡研究本部)",
               "time": "18:00–06:00"
             }
           ]
@@ -6096,17 +6096,17 @@ const QUEST_SCHEDULE_DATA = {
     {
       "questId": "quest-frontier-village-material-quest-1-169c688b",
       "questName": "Material Quest 1",
-      "area": "Frontier Village",
+      "area": "サイハテ村",
       "requirements": "Frontier Village area reached",
       "details": "Requires: Frontier Village area reached — Grab 2 Magic Stones from Deinoses in Makna Forest.",
       "givers": [
         {
           "residentId": "resident-nopon-villager-2ff994",
-          "name": "Nopon Villager",
+          "name": "サイハテ村住人",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Nopon Tower)",
+              "location": "サイハテ村 (ノポンタワー)",
               "time": "06:00–18:00"
             }
           ]
@@ -6116,17 +6116,17 @@ const QUEST_SCHEDULE_DATA = {
     {
       "questId": "quest-frontier-village-material-quest-2-09be6d68",
       "questName": "Material Quest 2",
-      "area": "Frontier Village",
+      "area": "サイハテ村",
       "requirements": "Frontier Village area reached",
       "details": "Requires: Frontier Village area reached — Grab 5 Fancy Orluga Masks from Orlugas in Makna Forest.",
       "givers": [
         {
           "residentId": "resident-nopon-villager-2ff994",
-          "name": "Nopon Villager",
+          "name": "サイハテ村住人",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Sacred Altar)",
+              "location": "サイハテ村 (御神体の祭壇)",
               "time": "18:00–06:00"
             }
           ]
@@ -6135,18 +6135,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-material-quest-3-d97541fa",
-      "questName": "Material Quest 3",
-      "area": "Frontier Village",
+      "questName": "素材クエスト3",
+      "area": "サイハテ村",
       "requirements": "Access to Valak Mountain",
       "details": "Requires: Access to Valak Mountain — Grab 5 Apis Gold Nuggets from Apis on Valak Mountain.",
       "givers": [
         {
           "residentId": "resident-nopon-villager-2ff994",
-          "name": "Nopon Villager",
+          "name": "サイハテ村住人",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Archaeology Centre)",
+              "location": "サイハテ村 (遺跡研究本部)",
               "time": "06:00–18:00"
             }
           ]
@@ -6155,18 +6155,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-material-quest-4-db4b8d85",
-      "questName": "Material Quest 4",
-      "area": "Frontier Village",
+      "questName": "素材クエスト4",
+      "area": "サイハテ村",
       "requirements": "Frontier Village area reached",
       "details": "Requires: Frontier Village area reached — Grab 3 Upa Embers from Upa in Makna Forest.",
       "givers": [
         {
           "residentId": "resident-nopon-villager-2ff994",
-          "name": "Nopon Villager",
+          "name": "サイハテ村住人",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Prophecy Hut)",
+              "location": "サイハテ村 (お告げの間)",
               "time": "18:00–06:00"
             }
           ]
@@ -6176,17 +6176,17 @@ const QUEST_SCHEDULE_DATA = {
     {
       "questId": "quest-frontier-village-collection-quest-1-4990e4ce",
       "questName": "Collection Quest 1",
-      "area": "Frontier Village",
+      "area": "サイハテ村",
       "requirements": "Frontier Village area reached",
       "details": "Requires: Frontier Village area reached — Grab 2 Cool Potatoes in Colony 9.",
       "givers": [
         {
           "residentId": "resident-nopon-villager-2ff994",
-          "name": "Nopon Villager",
+          "name": "サイハテ村住人",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Kyn Shopping Street)",
+              "location": "サイハテ村 (2Ｆ カイナ商店通り)",
               "time": "18:00–06:00"
             }
           ]
@@ -6196,17 +6196,17 @@ const QUEST_SCHEDULE_DATA = {
     {
       "questId": "quest-frontier-village-collection-quest-2-3792d5e9",
       "questName": "Collection Quest 2",
-      "area": "Frontier Village",
+      "area": "サイハテ村",
       "requirements": "Frontier Village area reached",
       "details": "Requires: Frontier Village area reached — Collect 2 Pure Cherries in Makna Forest.",
       "givers": [
         {
           "residentId": "resident-nopon-villager-2ff994",
-          "name": "Nopon Villager",
+          "name": "サイハテ村住人",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Nopon Tower)",
+              "location": "サイハテ村 (ノポンタワー)",
               "time": "06:00–18:00"
             }
           ]
@@ -6215,18 +6215,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-collection-quest-3-5e220c4c",
-      "questName": "Collection Quest 3",
-      "area": "Frontier Village",
+      "questName": "収集クエスト3",
+      "area": "サイハテ村",
       "requirements": "Frontier Village area reached",
       "details": "Requires: Frontier Village area reached — Grab 4 Ash Foxes in Makna Forest.",
       "givers": [
         {
           "residentId": "resident-nopon-villager-2ff994",
-          "name": "Nopon Villager",
+          "name": "サイハテ村住人",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Chief's Residence)",
+              "location": "サイハテ村 (村長の家)",
               "time": "18:00–06:00"
             }
           ]
@@ -6235,18 +6235,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-collection-quest-4-31c4a887",
-      "questName": "Collection Quest 4",
-      "area": "Frontier Village",
+      "questName": "収集クエスト4",
+      "area": "サイハテ村",
       "requirements": "Frontier Village area reached",
       "details": "Requires: Frontier Village area reached — Grab 5 Venemous Lizards in Makna Forest.",
       "givers": [
         {
           "residentId": "resident-nopon-villager-2ff994",
-          "name": "Nopon Villager",
+          "name": "サイハテ村住人",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Apex Lake)",
+              "location": "サイハテ村 (9Ｆ てっぺんの湖)",
               "time": "06:00–18:00"
             }
           ]
@@ -6255,18 +6255,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-search-quest-1-a29b0ccd",
-      "questName": "Search Quest 1",
-      "area": "Frontier Village",
+      "questName": "おさがしクエスト1",
+      "area": "サイハテ村",
       "requirements": "Frontier Village area reached",
       "details": "Requires: Frontier Village area reached — Find the Flower Bracelet in Frontier Village.",
       "givers": [
         {
           "residentId": "resident-nopon-villager-2ff994",
-          "name": "Nopon Villager",
+          "name": "サイハテ村住人",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village · (Middle Housing Level)",
+              "location": "サイハテ村 · (4Ｆ 中層住宅板)",
               "time": "06:00–18:00"
             }
           ]
@@ -6275,18 +6275,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-search-quest-2-3d2c17e1",
-      "questName": "Search Quest 2",
-      "area": "Frontier Village",
+      "questName": "おさがしクエスト2",
+      "area": "サイハテ村",
       "requirements": "Frontier Village area reached",
       "details": "Requires: Frontier Village area reached — Find the Deinos Hook in Frontier Village.",
       "givers": [
         {
           "residentId": "resident-nopon-villager-2ff994",
-          "name": "Nopon Villager",
+          "name": "サイハテ村住人",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Archaeology Level)",
+              "location": "サイハテ村 (6Ｆ 遺跡研究板)",
               "time": "18:00–06:00"
             }
           ]
@@ -6295,18 +6295,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-search-quest-3-ba91015f",
-      "questName": "Search Quest 3",
-      "area": "Frontier Village",
+      "questName": "おさがしクエスト3",
+      "area": "サイハテ村",
       "requirements": "Frontier Village area reached",
       "details": "Requires: Frontier Village area reached — Find the Shiny Ball in Frontier Village.",
       "givers": [
         {
           "residentId": "resident-nopon-villager-2ff994",
-          "name": "Nopon Villager",
+          "name": "サイハテ村住人",
           "kind": "npc",
           "locations": [
             {
-              "location": "Frontier Village (Underground Store)",
+              "location": "サイハテ村 (B1F 地下貯蔵庫)",
               "time": "18:00–06:00"
             }
           ]
@@ -6315,18 +6315,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-frontier-village-an-errand-for-the-heropon-0207461b",
-      "questName": "An Errand for the Heropon",
-      "area": "Frontier Village",
+      "questName": "勇者のお使い",
+      "area": "サイハテ村",
       "requirements": "Frontier Village area reached",
       "details": "Requires: Frontier Village area reached — Collect Riki's weapon from the Weapon Shop.\nCollect Riki's armour from the Armour Shop.",
       "givers": [
         {
           "residentId": "resident-story-quest-09cfce",
-          "name": "Story Quest",
+          "name": "ストーリークエスト",
           "kind": "automatic",
           "locations": [
             {
-              "location": "Frontier Village",
+              "location": "サイハテ村",
               "time": "Automatic"
             }
           ]
@@ -6335,18 +6335,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-eryth-sea-trouble-at-the-plant-09ca325d",
-      "questName": "Trouble at the Plant",
-      "area": "Eryth Sea",
+      "questName": "孤立無援のプラント",
+      "area": "エルト海",
       "requirements": "Eryth Sea area reached",
       "details": "Requires: Eryth Sea area reached — Teach the head of the Hodes a lesson.\nUse the Turbine Access Panel in the Ether Plant at Eryth Sea to fix the plant.\nReturn to Jarack.",
       "givers": [
         {
           "residentId": "resident-jarack-bb03b3",
-          "name": "Jarack",
+          "name": "ジャック",
           "kind": "npc",
           "locations": [
             {
-              "location": "Eryth Sea (Ether Plant)",
+              "location": "エルト海 (エーテルプラント)",
               "time": "Anytime"
             }
           ]
@@ -6355,18 +6355,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-eryth-sea-punish-the-hodes-5ab7916f",
-      "questName": "Punish the Hodes",
-      "area": "Eryth Sea",
+      "questName": "フーディを成敗せよ",
+      "area": "エルト海",
       "requirements": "Eryth Sea area reached\r\nTrouble at the Plant accepted",
       "details": "Requires: Eryth Sea area reached\r\nTrouble at the Plant accepted — Defeat Funeral Gozra at the Hode Refuge in Eryth Sea.",
       "givers": [
         {
           "residentId": "resident-jarack-bb03b3",
-          "name": "Jarack",
+          "name": "ジャック",
           "kind": "npc",
           "locations": [
             {
-              "location": "Eryth Sea (Ether Plant)",
+              "location": "エルト海 (エーテルプラント)",
               "time": "Anytime"
             }
           ]
@@ -6375,18 +6375,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-eryth-sea-mend-the-plant-d48b53ff",
-      "questName": "Mend the Plant",
-      "area": "Eryth Sea",
+      "questName": "プラントを修理せよ",
+      "area": "エルト海",
       "requirements": "Eryth Sea area reached\r\nTrouble at the Plant accepted",
       "details": "Requires: Eryth Sea area reached\r\nTrouble at the Plant accepted — Collect 3 pieces of Luxury Hode Wood from Hodes at Eryth Sea.\nReturn to Jarack.\nUse the Turbine Access Panel in the Ether Plant at Eryth Sea to fix the plant.\nReturn to Jarack.",
       "givers": [
         {
           "residentId": "resident-jarack-bb03b3",
-          "name": "Jarack",
+          "name": "ジャック",
           "kind": "npc",
           "locations": [
             {
-              "location": "Eryth Sea (Ether Plant)",
+              "location": "エルト海 (エーテルプラント)",
               "time": "Anytime"
             }
           ]
@@ -6395,18 +6395,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-eryth-sea-hode-attack-59c50864",
-      "questName": "Hode Attack",
-      "area": "Eryth Sea",
+      "questName": "フーディを撃退せよ",
+      "area": "エルト海",
       "requirements": "Eryth Sea area reached\r\nTrouble at the Plant.",
       "details": "Requires: Eryth Sea area reached\r\nTrouble at the Plant. — Defeat 2 Confusion Ekidnos at Eryth Sea.\nReturn to Jarack.",
       "givers": [
         {
           "residentId": "resident-jarack-bb03b3",
-          "name": "Jarack",
+          "name": "ジャック",
           "kind": "npc",
           "locations": [
             {
-              "location": "Eryth Sea (Ether Plant)",
+              "location": "エルト海 (エーテルプラント)",
               "time": "Anytime"
             }
           ]
@@ -6415,18 +6415,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-eryth-sea-trouble-at-the-lighthouse-de94d51f",
-      "questName": "Trouble at the Lighthouse",
-      "area": "Eryth Sea",
+      "questName": "焦心苦慮の灯台",
+      "area": "エルト海",
       "requirements": "Eryth Sea area reached\r\nHode Attack\r\nMelia in the lead",
       "details": "Requires: Eryth Sea area reached\r\nHode Attack\r\nMelia in the lead — \"Defeat 3 Decay Ekidnos near Syrath Lighthouse at Eryth Sea. (Only at night.)\nReturn to Shalen",
       "givers": [
         {
           "residentId": "resident-shalen-82aae4",
-          "name": "Shalen",
+          "name": "シェレン",
           "kind": "npc",
           "locations": [
             {
-              "location": "Eryth Sea (Syrath Lighthouse)",
+              "location": "エルト海 (シウェラート灯台)",
               "time": "Anytime"
             }
           ]
@@ -6435,18 +6435,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-eryth-sea-investigating-satorl-968ac172",
-      "questName": "Investigating Satorl",
-      "area": "Eryth Sea",
+      "questName": "ザトールの調査",
+      "area": "エルト海",
       "requirements": "Mechonis Core cleared\r\nTalia's Research not completed\r\nThe Missing Boy accepted",
       "details": "Requires: Mechonis Core cleared\r\nTalia's Research not completed\r\nThe Missing Boy accepted — Defeat Dogmatic Gogol near the Place of Judgement in Satorl Marsh\nTalk to Talia who is at the Place of Judgement in Satorl Marsh.\nTalk to Talia who is on the Ether Plant at Eryth Sea.",
       "givers": [
         {
           "residentId": "resident-miriall-ffb0f7",
-          "name": "Miriall",
+          "name": "ミリア",
           "kind": "npc",
           "locations": [
             {
-              "location": "Eryth Sea (Ether Plant)",
+              "location": "エルト海 (エーテルプラント)",
               "time": "18:00–06:00"
             }
           ]
@@ -6455,18 +6455,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-eryth-sea-ancient-high-entia-mystery-03d27957",
-      "questName": "Ancient High Entia Mystery",
-      "area": "Eryth Sea",
+      "questName": "古代ハイエンターの謎",
+      "area": "エルト海",
       "requirements": "Mechonis Core cleared\r\nTalia's Research or Investigating Satorl\r\nUpper Bionis ☆2½\r\nMelia in the lead",
       "details": "Requires: Mechonis Core cleared\r\nTalia's Research or Investigating Satorl\r\nUpper Bionis ☆2½\r\nMelia in the lead — Investigate the War God statue at La Luz Church in Valak Mountain.\nTalk to Talia.",
       "givers": [
         {
           "residentId": "resident-talia-169cdf",
-          "name": "Talia",
+          "name": "タリア",
           "kind": "npc",
           "locations": [
             {
-              "location": "Eryth Sea (Ether Plant)",
+              "location": "エルト海 (エーテルプラント)",
               "time": "18:00–06:00"
             }
           ]
@@ -6475,18 +6475,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-eryth-sea-the-missing-boy-35f1e4eb",
-      "questName": "The Missing Boy",
-      "area": "Eryth Sea",
+      "questName": "離れた手をもう一度",
+      "area": "エルト海",
       "requirements": "Mechonis Core cleared",
       "details": "Requires: Mechonis Core cleared — Talk to Teelan.\nReturn to Miriall.",
       "givers": [
         {
           "residentId": "resident-miriall-ffb0f7",
-          "name": "Miriall",
+          "name": "ミリア",
           "kind": "npc",
           "locations": [
             {
-              "location": "Eryth Sea (Ether Plant)",
+              "location": "エルト海 (エーテルプラント)",
               "time": "18:00–06:00"
             }
           ]
@@ -6495,18 +6495,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-eryth-sea-the-only-thing-i-can-do-b6c15ab2",
-      "questName": "The Only Thing I Can Do",
-      "area": "Eryth Sea",
+      "questName": "私に出来る唯一のこと",
+      "area": "エルト海",
       "requirements": "Mechonis Core cleared\r\nVidian Rescue Mission\r\nBelieving Again not completed\r\nUpper Bionis ☆1½",
       "details": "Requires: Mechonis Core cleared\r\nVidian Rescue Mission\r\nBelieving Again not completed\r\nUpper Bionis ☆1½ — Defeat 10 Arel Telethia in Alcamoth.\nDefeat Telethia Arielle near the Fountain of Eternity in Alcamoth.\nDefeat Telethia Lesunia near Melfica Road in Alcamoth.\nReturn to Vidian.",
       "givers": [
         {
           "residentId": "resident-vidian-0d06e6",
-          "name": "Vidian",
+          "name": "ビビアン",
           "kind": "npc",
           "locations": [
             {
-              "location": "Eryth Sea (Ether Plant)",
+              "location": "エルト海 (エーテルプラント)",
               "time": "06:00–18:00"
             }
           ]
@@ -6515,18 +6515,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-eryth-sea-i-will-never-forget-you-697f1d2e",
-      "questName": "I Will Never Forget You",
-      "area": "Eryth Sea",
+      "questName": "あなたを忘れない",
+      "area": "エルト海",
       "requirements": "Mechonis Core cleared\r\nVidian Rescue Mission\r\nBelieving Again\r\nUpper Bionis ☆1½",
       "details": "Requires: Mechonis Core cleared\r\nVidian Rescue Mission\r\nBelieving Again\r\nUpper Bionis ☆1½ — Defeat 10 Arel Telethia in Alcamoth.\nDefeat Telethia Arielle near the Fountain of Eternity in Alcamoth.\nDefeat Telethia Lesunia near Melfica Road in Alcamoth.\nReturn to Vidian.",
       "givers": [
         {
           "residentId": "resident-vidian-0d06e6",
-          "name": "Vidian",
+          "name": "ビビアン",
           "kind": "npc",
           "locations": [
             {
-              "location": "Eryth Sea (Ether Plant)",
+              "location": "エルト海 (エーテルプラント)",
               "time": "06:00–18:00"
             }
           ]
@@ -6535,18 +6535,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-eryth-sea-secret-research-24cff589",
-      "questName": "Secret Research",
-      "area": "Eryth Sea",
+      "questName": "秘密の研究所",
+      "area": "エルト海",
       "requirements": "Mechonis Core cleared\r\nThe Missing Boy",
       "details": "Requires: Mechonis Core cleared\r\nThe Missing Boy — Collect the Telethia Research from the Telethia Laboratory in the High Entia Tomb.\nReturn to Teelan.",
       "givers": [
         {
           "residentId": "resident-teelan-577556",
-          "name": "Teelan",
+          "name": "テト",
           "kind": "npc",
           "locations": [
             {
-              "location": "Eryth Sea (Ether Plant)",
+              "location": "エルト海 (エーテルプラント)",
               "time": "06:00–18:00"
             }
           ]
@@ -6555,18 +6555,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-eryth-sea-monster-quest-1-94fd67d5",
-      "questName": "Monster Quest 1",
-      "area": "Eryth Sea",
+      "questName": "討伐クエストその1",
+      "area": "エルト海",
       "requirements": "Eryth Sea area reached",
       "details": "Requires: Eryth Sea area reached — Defeat 5 Palti Kromars at Eryth Sea.",
       "givers": [
         {
           "residentId": "resident-lighthouse-keeper-0706ee",
-          "name": "Lighthouse Keeper",
+          "name": "ハイエンター灯台守",
           "kind": "npc",
           "locations": [
             {
-              "location": "Eryth Sea (Syrath Lighthouse)",
+              "location": "エルト海 (シウェラート灯台)",
               "time": "Anytime"
             }
           ]
@@ -6576,17 +6576,17 @@ const QUEST_SCHEDULE_DATA = {
     {
       "questId": "quest-eryth-sea-monster-quest-2-028f026d",
       "questName": "Monster Quest 2",
-      "area": "Eryth Sea",
+      "area": "エルト海",
       "requirements": "Eryth Sea area reached",
       "details": "Requires: Eryth Sea area reached — Defeat 5 Maleza Kromars at Eryth Sea.",
       "givers": [
         {
           "residentId": "resident-lighthouse-keeper-0706ee",
-          "name": "Lighthouse Keeper",
+          "name": "ハイエンター灯台守",
           "kind": "npc",
           "locations": [
             {
-              "location": "Eryth Sea (Syrath Lighthouse)",
+              "location": "エルト海 (シウェラート灯台)",
               "time": "Anytime"
             }
           ]
@@ -6595,18 +6595,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-eryth-sea-challenge-bb182f57",
-      "questName": "Challenge",
-      "area": "Eryth Sea",
+      "questName": "強敵を求めて",
+      "area": "エルト海",
       "requirements": "Eryth Sea area reached",
       "details": "Requires: Eryth Sea area reached — Defeat Flabbergasted Jerome in the area of Hovering Reef 5 in the Eryth Sea.",
       "givers": [
         {
           "residentId": "resident-lighthouse-keeper-0706ee",
-          "name": "Lighthouse Keeper",
+          "name": "ハイエンター灯台守",
           "kind": "npc",
           "locations": [
             {
-              "location": "Eryth Sea (Syrath Lighthouse)",
+              "location": "エルト海 (シウェラート灯台)",
               "time": "Anytime"
             }
           ]
@@ -6615,18 +6615,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-eryth-sea-collect-quest-1-44e9abc0",
-      "questName": "Collect Quest 1",
-      "area": "Eryth Sea",
+      "questName": "収集クエストその1",
+      "area": "エルト海",
       "requirements": "Eryth Sea area reached",
       "details": "Requires: Eryth Sea area reached — Collect 3 Hiln Coin Purses from Eryth Hilns in Eryth Sea.\nCollect 5 Doomsday Poppies from Eryth Sea.",
       "givers": [
         {
           "residentId": "resident-alcamoth-citizen-c9bd73",
-          "name": "Alcamoth Citizen",
+          "name": "アカモート住人",
           "kind": "npc",
           "locations": [
             {
-              "location": "Eryth Sea (Syrath Lighthouse)",
+              "location": "エルト海 (シウェラート灯台)",
               "time": "Anytime"
             }
           ]
@@ -6635,18 +6635,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-eryth-sea-collect-quest-2-48357cd4",
-      "questName": "Collect Quest 2",
-      "area": "Eryth Sea",
+      "questName": "収集クエストその2",
+      "area": "エルト海",
       "requirements": "Eryth Sea area reached",
       "details": "Requires: Eryth Sea area reached — Collect 3 Andos Antennae from Andos in the High Entia Tomb.\nCollect 3 Old Dragon Spines from Racti Lexos at Eryth Sea.\nCollect 3 spears of Pink Asparagus at Eryth Sea.",
       "givers": [
         {
           "residentId": "resident-alcamoth-citizen-c9bd73",
-          "name": "Alcamoth Citizen",
+          "name": "アカモート住人",
           "kind": "npc",
           "locations": [
             {
-              "location": "Eryth Sea (Syrath Lighthouse)",
+              "location": "エルト海 (シウェラート灯台)",
               "time": "Anytime"
             }
           ]
@@ -6655,18 +6655,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-eryth-sea-save-the-worker-f2ef1b0c",
-      "questName": "Save the Worker",
-      "area": "Eryth Sea",
+      "questName": "作業員を救助せよ",
+      "area": "エルト海",
       "requirements": "Alcamoth reached.",
       "details": "Requires: Alcamoth reached. — Go to Hovering Reef 4 where Syrath Lighthouse is situated and ask where the worker is.\nGo from the back of Syrath Lighthouse to the Ether Crystal Deposit.\nHelp the worker that is being attacked by Kromars.\nTalk to the worker.",
       "givers": [
         {
           "residentId": "resident-story-quest-09cfce",
-          "name": "Story Quest",
+          "name": "ストーリークエスト",
           "kind": "automatic",
           "locations": [
             {
-              "location": "Alcamoth (Whitewing Palace)",
+              "location": "皇都アカモート (白翼宮)",
               "time": "Automatic"
             }
           ]
@@ -6675,18 +6675,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-eryth-sea-path-to-prison-island-48dacbcc",
-      "questName": "Path to Prison Island",
-      "area": "Eryth Sea",
+      "questName": "監獄島への道",
+      "area": "エルト海",
       "requirements": "In the course to Prison Island",
       "details": "Requires: In the course to Prison Island — Open the sister gates Khatorl and Soltnar.\nUnlock the seal that has appeared to be able to reach Prison Island.",
       "givers": [
         {
           "residentId": "resident-story-quest-09cfce",
-          "name": "Story Quest",
+          "name": "ストーリークエスト",
           "kind": "automatic",
           "locations": [
             {
-              "location": "Eryth Sea",
+              "location": "エルト海",
               "time": "Automatic"
             }
           ]
@@ -6695,18 +6695,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-eryth-sea-sister-seals-c9046416",
-      "questName": "Sister Seals",
-      "area": "Eryth Sea",
+      "questName": "封印の姉妹門",
+      "area": "エルト海",
       "requirements": "In the course to Prison Island\r\nPath to Prison Island accepted",
       "details": "Requires: In the course to Prison Island\r\nPath to Prison Island accepted — Release the seal on Khatorl Seal Island.\nRelease the seal on Soltnar Seal Island.",
       "givers": [
         {
           "residentId": "resident-story-quest-09cfce",
-          "name": "Story Quest",
+          "name": "ストーリークエスト",
           "kind": "automatic",
           "locations": [
             {
-              "location": "Eryth Sea",
+              "location": "エルト海",
               "time": "Automatic"
             }
           ]
@@ -6715,18 +6715,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-the-deciphering-machine-e8f9b65c",
-      "questName": "The Deciphering Machine",
-      "area": "Alcamoth",
+      "questName": "文献解読装置",
+      "area": "皇都アカモート",
       "requirements": "Alcamoth area reached",
       "details": "Requires: Alcamoth area reached — Collect 6 pieces of Sturdy Armour from Flavel Andos at Eryth Sea.\r\n\"Return to Ruthan.",
       "givers": [
         {
           "residentId": "resident-ruthan-a6555a",
-          "name": "Ruthan",
+          "name": "ルス",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Imperial Palance)",
+              "location": "皇都アカモート (Imperial Palance)",
               "time": "18:00–06:00"
             }
           ]
@@ -6735,18 +6735,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-a-necessary-upgrade-c20d8fb2",
-      "questName": "A Necessary Upgrade",
-      "area": "Alcamoth",
+      "questName": "文献解読装置改良",
+      "area": "皇都アカモート",
       "requirements": "In the course to the High Entia Tomb\r\nThe Deciphering Machine\r\nUpper Bionis ☆1¼",
       "details": "Requires: In the course to the High Entia Tomb\r\nThe Deciphering Machine\r\nUpper Bionis ☆1¼ — Collect 5 Green Diodes in the High Entia Tomb.\r\nCollect 3 Astas Remote Units from Hover Astas in the High Entia Tomb.\r\nReturn to Naroth.",
       "givers": [
         {
           "residentId": "resident-naroth-3c5d4d",
-          "name": "Naroth",
+          "name": "ナトリ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Imperial Palace)",
+              "location": "皇都アカモート (皇宮)",
               "time": "06:00–18:00"
             }
           ]
@@ -6755,18 +6755,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-talia-s-research-d77fade7",
-      "questName": "Talia's Research",
-      "area": "Alcamoth",
+      "questName": "タリアの研究",
+      "area": "皇都アカモート",
       "requirements": "In the course to the High Entia Tomb\r\nA Necessary Upgrade\r\nUpper Bionis ☆2",
       "details": "Requires: In the course to the High Entia Tomb\r\nA Necessary Upgrade\r\nUpper Bionis ☆2 — Defeat Dogmatic Gogol at the Place of Judgement in Satorl Marsh.\nTalk to Talia.",
       "givers": [
         {
           "residentId": "resident-talia-169cdf",
-          "name": "Talia",
+          "name": "タリア",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Imperial Palace)",
+              "location": "皇都アカモート (皇宮)",
               "time": "18:00–06:00"
             }
           ]
@@ -6775,18 +6775,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-bring-back-my-son-70c7c6b8",
-      "questName": "Bring Back My Son!",
-      "area": "Alcamoth",
+      "questName": "息子を連れ戻して！",
+      "area": "皇都アカモート",
       "requirements": "Alcamoth area reached\r\nMir'leiz registered",
       "details": "Requires: Alcamoth area reached\r\nMir'leiz registered — Find Mir'leiz at Eryth Sea.\nReturn to Merisa.",
       "givers": [
         {
           "residentId": "resident-merisa-0e0fac",
-          "name": "Merisa",
+          "name": "メリッサ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Imperial Palace)",
+              "location": "皇都アカモート (皇宮)",
               "time": "06:00–18:00"
             }
           ]
@@ -6795,18 +6795,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-teaching-materials-d0bb83b2",
-      "questName": "Teaching Materials",
-      "area": "Alcamoth",
+      "questName": "教材の材料を集めて！",
+      "area": "皇都アカモート",
       "requirements": "Alcamoth area reached\r\nBring Back My Son!",
       "details": "Requires: Alcamoth area reached\r\nBring Back My Son! — Talk to Caul.\nCollect 3 lots of Murky Eluca Water from Perna Elucas at Eryth Sea.\r\nThey can also be obtained through overtrade with Kurralth or Jarack.\nTalk to Caul.\nReturn to Mir'leiz.",
       "givers": [
         {
           "residentId": "resident-mir-leiz-dec45b",
-          "name": "Mir'leiz",
+          "name": "ミラリース",
           "kind": "npc",
           "locations": [
             {
-              "location": "\"Alcamoth (Imperial Palace) · \"",
+              "location": "\\\"皇都アカモート (皇宮) · \\\"",
               "time": "06:00–18:00"
             }
           ]
@@ -6815,18 +6815,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-brave-actions-af207184",
-      "questName": "Brave Actions",
-      "area": "Alcamoth",
+      "questName": "勇気ある行動",
+      "area": "皇都アカモート",
       "requirements": "Alcamoth area reached\r\nA Friend in Need\r\nTeaching Materials\r\nUpper Bionis ☆1½",
       "details": "Requires: Alcamoth area reached\r\nA Friend in Need\r\nTeaching Materials\r\nUpper Bionis ☆1½ — Talk to Lecrough.\r\nHe will activate Protect the Capital!\r\nDefeat 2 Buono Nebulae at Eryth Sea.\r\nTalk with Lecrough.\r\nReturn to Mir'leiz",
       "givers": [
         {
           "residentId": "resident-mir-leiz-dec45b",
-          "name": "Mir'leiz",
+          "name": "ミラリース",
           "kind": "npc",
           "locations": [
             {
-              "location": "\"Alcamoth (Imperial Palace) · \"",
+              "location": "\\\"皇都アカモート (皇宮) · \\\"",
               "time": "06:00–18:00"
             }
           ]
@@ -6835,18 +6835,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-protect-the-capital-2ca874b2",
-      "questName": "Protect the Capital!",
-      "area": "Alcamoth",
+      "questName": "皇都の安全を守れ！",
+      "area": "皇都アカモート",
       "requirements": "Alcamoth area reached\r\nBrave Actions accepted",
       "details": "Requires: Alcamoth area reached\r\nBrave Actions accepted — Defeat 2 Bono Nebulae at Eryth Sea.",
       "givers": [
         {
           "residentId": "resident-lecrough-853b3b",
-          "name": "Lecrough",
+          "name": "ロクロ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Great Hall)",
+              "location": "皇都アカモート (大広間)",
               "time": "06:00–18:00"
             }
           ]
@@ -6855,18 +6855,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-how-do-they-feel-6057e1e2",
-      "questName": "How Do They Feel?",
-      "area": "Alcamoth",
+      "questName": "気持ちを知りたい",
+      "area": "皇都アカモート",
       "requirements": "Alcamoth area reached",
       "details": "Requires: Alcamoth area reached — Talk to Ricoth.\nTalk to Rozeal.\nReturn to Scarlen.",
       "givers": [
         {
           "residentId": "resident-scarlen-2208cc",
-          "name": "Scarlen",
+          "name": "セガール",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Main Entrance)",
+              "location": "皇都アカモート (Main Entrance)",
               "time": "18:00–06:00"
             }
           ]
@@ -6875,18 +6875,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-how-do-i-feel-c40184df",
-      "questName": "How Do I Feel?",
-      "area": "Alcamoth",
+      "questName": "自分の本心を知りたい",
+      "area": "皇都アカモート",
       "requirements": "Alcamoth area reached\r\nHow Do They Feel?",
       "details": "Requires: Alcamoth area reached\r\nHow Do They Feel? — Talk to Rozeal (Route A) or Ricoth (Route B).\nReturn to Scarlen.",
       "givers": [
         {
           "residentId": "resident-scarlen-2208cc",
-          "name": "Scarlen",
+          "name": "セガール",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Main Entrance)",
+              "location": "皇都アカモート (Main Entrance)",
               "time": "18:00–06:00"
             }
           ]
@@ -6895,18 +6895,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-i-love-you-no-matter-what-e78badae",
-      "questName": "I Love You No Matter What",
-      "area": "Alcamoth",
+      "questName": "何があっても君を愛す",
+      "area": "皇都アカモート",
       "requirements": "Alcamoth area reached\r\nHow Do I Feel? A route completed",
       "details": "Requires: Alcamoth area reached\r\nHow Do I Feel? A route completed — Take Scarlen's letter to Ricoth.\nReturn to Scarlen.",
       "givers": [
         {
           "residentId": "resident-scarlen-2208cc",
-          "name": "Scarlen",
+          "name": "セガール",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Main Entrance)",
+              "location": "皇都アカモート (Main Entrance)",
               "time": "18:00–06:00"
             }
           ]
@@ -6915,18 +6915,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-together-forever-b4a3ce0a",
-      "questName": "Together Forever",
-      "area": "Alcamoth",
+      "questName": "いつまでも君と一緒に",
+      "area": "皇都アカモート",
       "requirements": "Alcamoth area reached\r\nHow Do I Feel? B route completed",
       "details": "Requires: Alcamoth area reached\r\nHow Do I Feel? B route completed — Talk to Rozeal.\nTalk to Scarlen.",
       "givers": [
         {
           "residentId": "resident-scarlen-2208cc",
-          "name": "Scarlen",
+          "name": "セガール",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Main Entrance)",
+              "location": "皇都アカモート (Main Entrance)",
               "time": "18:00–06:00"
             }
           ]
@@ -6935,18 +6935,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-a-friend-in-need-c9b3b741",
-      "questName": "A Friend in Need",
-      "area": "Alcamoth",
+      "questName": "親友のために",
+      "area": "皇都アカモート",
       "requirements": "Alcamoth area reached\r\nGalvin registered on the Affinity Chart and spoken to",
       "details": "Requires: Alcamoth area reached\r\nGalvin registered on the Affinity Chart and spoken to — Defeat 6 Eryth Hilns at Eryth Sea.\nReturn to Lecrough",
       "givers": [
         {
           "residentId": "resident-lecrough-853b3b",
-          "name": "Lecrough",
+          "name": "ロクロ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Great Hall)",
+              "location": "皇都アカモート (大広間)",
               "time": "06:00–18:00"
             }
           ]
@@ -6955,18 +6955,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-preparing-for-adventure-b544ce81",
-      "questName": "Preparing for Adventure",
-      "area": "Alcamoth",
+      "questName": "大冒険の準備",
+      "area": "皇都アカモート",
       "requirements": "Alcamoth area reached\r\nKurralth registered on the Affinity Chart and spoken to",
       "details": "Requires: Alcamoth area reached\r\nKurralth registered on the Affinity Chart and spoken to — Collect the Kasharpa Water.\nCollect the Makna Water.\nCollect the Statue Water.\nReturn to Zain",
       "givers": [
         {
           "residentId": "resident-zain-f6a8bc",
-          "name": "Zain",
+          "name": "ゼイン",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Fountain of Eternity)",
+              "location": "皇都アカモート (永遠の噴水)",
               "time": "06:00–18:00"
             }
           ]
@@ -6975,18 +6975,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-preparing-for-adventure-2-6bb08adb",
-      "questName": "Preparing for Adventure 2",
-      "area": "Alcamoth",
+      "questName": "続・大冒険の準備",
+      "area": "皇都アカモート",
       "requirements": "Alcamoth area reached\r\nPreparing for Adventure\r\nUpper Bionis ☆1¼",
       "details": "Requires: Alcamoth area reached\r\nPreparing for Adventure\r\nUpper Bionis ☆1¼ — Find the Chalk Container on Anu Shore at Eryth Sea.\nReturn to Kurralth.",
       "givers": [
         {
           "residentId": "resident-zain-f6a8bc",
-          "name": "Zain",
+          "name": "ゼイン",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Fountain of Eternity)",
+              "location": "皇都アカモート (永遠の噴水)",
               "time": "06:00–18:00"
             }
           ]
@@ -6995,18 +6995,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-preparing-for-adventure-3-c3600c9e",
-      "questName": "Preparing for Adventure 3",
-      "area": "Alcamoth",
+      "questName": "続々・大冒険の準備",
+      "area": "皇都アカモート",
       "requirements": "Alcamoth area reached\r\nPreparing for Adventure 2\r\nUpper Bionis ☆1½",
       "details": "Requires: Alcamoth area reached\r\nPreparing for Adventure 2\r\nUpper Bionis ☆1½ — Collect Orthlus' Liver on Agora Shore in Colony 9.\nReturn to Zain.",
       "givers": [
         {
           "residentId": "resident-zain-f6a8bc",
-          "name": "Zain",
+          "name": "ゼイン",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Fountain of Eternity)",
+              "location": "皇都アカモート (永遠の噴水)",
               "time": "06:00–18:00"
             }
           ]
@@ -7015,18 +7015,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-adventureres-in-peril-4a2d710a",
-      "questName": "Adventurers in Peril",
-      "area": "Alcamoth",
+      "questName": "冒険者達の遭難",
+      "area": "皇都アカモート",
       "requirements": "Valak Mountain reached\r\nPreparing for Adventure 3\r\nUpper Bionis ☆2½",
       "details": "Requires: Valak Mountain reached\r\nPreparing for Adventure 3\r\nUpper Bionis ☆2½ — Find Zain near Three Sage Summit on Valak Mountain.\nFind Kurralth near Three Sage Summit on Valak Mountain\nReturn to Miriall",
       "givers": [
         {
           "residentId": "resident-miriall-ffb0f7",
-          "name": "Miriall",
+          "name": "ミリア",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Imperial Palace)",
+              "location": "皇都アカモート (皇宮)",
               "time": "06:00–18:00"
             }
           ]
@@ -7035,18 +7035,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-building-bridges-7492aa71",
-      "questName": "Building Bridges",
-      "area": "Alcamoth",
+      "questName": "他種族嫌いを治して",
+      "area": "皇都アカモート",
       "requirements": "Alcamoth area reached\r\nVidian registered on the Affinity Chart",
       "details": "Requires: Alcamoth area reached\r\nVidian registered on the Affinity Chart — Talk to Lesunia. (As Melia.)\nCollect 2 pieces of Marine Marble at the Eryth Sea.\nTalk to Lesunia again.\nReturn to Arielle.",
       "givers": [
         {
           "residentId": "resident-arielle-5ecda2",
-          "name": "Arielle",
+          "name": "アリエッタ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Fountain of Eternity)",
+              "location": "皇都アカモート (永遠の噴水)",
               "time": "18:00–06:00"
             }
           ]
@@ -7055,18 +7055,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-believing-again-66f7b260",
-      "questName": "Believing Again",
-      "area": "Alcamoth",
+      "questName": "もう一度、信じる心を",
+      "area": "皇都アカモート",
       "requirements": "Valak Mountain reached\r\nBuilding Bridges\r\nUpper Bionis ☆1½",
       "details": "Requires: Valak Mountain reached\r\nBuilding Bridges\r\nUpper Bionis ☆1½ — Collect Morning Dew Ice from Befalgar Pedestal on Valak Mountain at 05:00 AM (dawn).\nTalk to Vidian.\r\nTalk to Lesunia.\r\nReturn to Vidian.",
       "givers": [
         {
           "residentId": "resident-vidian-0d06e6",
-          "name": "Vidian",
+          "name": "ビビアン",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Imperial Palace)",
+              "location": "皇都アカモート (皇宮)",
               "time": "06:00–18:00"
             }
           ]
@@ -7075,18 +7075,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-starlight-seeker-cae55fa5",
-      "questName": "Starlight Seeker",
-      "area": "Alcamoth",
+      "questName": "輝きをその小さな手に",
+      "area": "皇都アカモート",
       "requirements": "Alcamoth area reached\r\nPreparing for Adventure 3\r\nMiriall registered on the Affinity Chart\r\nUpper Bionis ☆1½",
       "details": "Requires: Alcamoth area reached\r\nPreparing for Adventure 3\r\nMiriall registered on the Affinity Chart\r\nUpper Bionis ☆1½ — Talk to Miriall.\r\nGet 2 Silver Eks Plate from Stella Eks at Eryth Sea.\r\nTalk to Miriall.\r\nReturn to Elior.",
       "givers": [
         {
           "residentId": "resident-elior-428bf5",
-          "name": "Elior",
+          "name": "エイン",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Fountain of Eternity)",
+              "location": "皇都アカモート (永遠の噴水)",
               "time": "06:00–18:00"
             }
           ]
@@ -7095,18 +7095,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-starlight-gazer-8dad45d5",
-      "questName": "Starlight Gazer",
-      "area": "Alcamoth",
+      "questName": "更なる輝きをその手に",
+      "area": "皇都アカモート",
       "requirements": "In the course to the High Entia Tomb\r\nStarlight Seeker\r\nUpper Bionis ☆2½",
       "details": "Requires: In the course to the High Entia Tomb\r\nStarlight Seeker\r\nUpper Bionis ☆2½ — Talk to Kaleka.\r\nFind an Attachment Part in the Second Treasury of the High Entia Tomb.\r\nGive the Attachment Part to Kaleka.\r\nReturn to Elior.",
       "givers": [
         {
           "residentId": "resident-elior-428bf5",
-          "name": "Elior",
+          "name": "エイン",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Fountain of Eternity)",
+              "location": "皇都アカモート (永遠の噴水)",
               "time": "06:00–18:00"
             }
           ]
@@ -7115,18 +7115,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-back-pain-1e322f2c",
-      "questName": "Back Pain",
-      "area": "Alcamoth",
+      "questName": "腰痛持ちは大変だ！",
+      "area": "皇都アカモート",
       "requirements": "Whitewing Palace reached\r\nLar'shen registered on the Affinity Chart and spoken to",
       "details": "Requires: Whitewing Palace reached\r\nLar'shen registered on the Affinity Chart and spoken to — Defeat 6 Archer Hodes in Eryth Sea.\nReturn to Galdo",
       "givers": [
         {
           "residentId": "resident-galdo-b92141",
-          "name": "Galdo",
+          "name": "ガーダ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Great Hall)",
+              "location": "皇都アカモート (大広間)",
               "time": "18:00–06:00"
             }
           ]
@@ -7135,18 +7135,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-looking-for-gold-bugs-42de6fc4",
-      "questName": "Looking for Gold Bugs",
-      "area": "Alcamoth",
+      "questName": "金色の虫を求めて",
+      "area": "皇都アカモート",
       "requirements": "Alcamoth area reached",
       "details": "Requires: Alcamoth area reached — Collect 9 Gold Caterpillars from Tephra Cave.\r\nReturn to Teelan.",
       "givers": [
         {
           "residentId": "resident-teelan-577556",
-          "name": "Teelan",
+          "name": "テト",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Imperial Palace)",
+              "location": "皇都アカモート (皇宮)",
               "time": "06:00–15:00"
             }
           ]
@@ -7155,18 +7155,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-losing-the-taste-for-alcohol-a3b54ab3",
-      "questName": "Losing the Taste for Alcohol",
-      "area": "Alcamoth",
+      "questName": "お酒に強くなりたい",
+      "area": "皇都アカモート",
       "requirements": "Alcamoth area reached",
       "details": "Requires: Alcamoth area reached — Collect 2 lots of Feris Blood from Feris in Makna Forest.\nCollect 5 Pagul Hot Pots from Cruz Paguls at Eryth Sea.\nReturn to Nelo.",
       "givers": [
         {
           "residentId": "resident-nelo-ec4ee3",
-          "name": "Nelo",
+          "name": "ネロ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Fountain of Hope)",
+              "location": "皇都アカモート (希望の噴水)",
               "time": "18:00–06:00"
             }
           ]
@@ -7175,18 +7175,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-looking-for-a-lost-son-28159068",
-      "questName": "Looking for a Lost Son",
-      "area": "Alcamoth",
+      "questName": "迷子の息子を捜して",
+      "area": "皇都アカモート",
       "requirements": "Alcamoth area reached",
       "details": "Requires: Alcamoth area reached — Find Atael.\nReturn to Vol'aren.",
       "givers": [
         {
           "residentId": "resident-vol-aren-42c37a",
-          "name": "Vol'aren",
+          "name": "ボラリオ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Fountain of Hope)",
+              "location": "皇都アカモート (希望の噴水)",
               "time": "06:00–18:00"
             }
           ]
@@ -7195,18 +7195,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-looking-for-a-lost-daughter-73bb1d26",
-      "questName": "Looking for a Lost Daughter",
-      "area": "Alcamoth",
+      "questName": "迷子の娘を捜して",
+      "area": "皇都アカモート",
       "requirements": "Alcamoth area reached\r\nLooking for a Lost Son",
       "details": "Requires: Alcamoth area reached\r\nLooking for a Lost Son — Find Cian.\nReturn to Vol'aren.",
       "givers": [
         {
           "residentId": "resident-vol-aren-42c37a",
-          "name": "Vol'aren",
+          "name": "ボラリオ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Fountain of Hope)",
+              "location": "皇都アカモート (希望の噴水)",
               "time": "06:00–18:00"
             }
           ]
@@ -7215,18 +7215,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-going-out-to-play-844b5d0e",
-      "questName": "Going Out to Play",
-      "area": "Alcamoth",
+      "questName": "息子が外で遊べる様に",
+      "area": "皇都アカモート",
       "requirements": "Alcamoth area reached",
       "details": "Requires: Alcamoth area reached — Talk to Baroba.\r\nCollect 5 Ether Roses from Satorl Marsh.\r\nReturn to Baroba.\r\nTalk to Popipo.",
       "givers": [
         {
           "residentId": "resident-popipo-63612a",
-          "name": "Popipo",
+          "name": "ポピエ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Main Entrance)",
+              "location": "皇都アカモート (Main Entrance)",
               "time": "06:00–18:00"
             }
           ]
@@ -7235,18 +7235,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-getting-a-member-s-card-a4a6253e",
-      "questName": "Getting a Member's Card",
-      "area": "Alcamoth",
+      "questName": "会員証を手に入れろ",
+      "area": "皇都アカモート",
       "requirements": "Alcamoth area reached\r\nDestroying the City Trade accepted",
       "details": "Requires: Alcamoth area reached\r\nDestroying the City Trade accepted — Find Nelo who has a Secret Club Card.\r\nCollect 3 Rufus Control Units from Orluga Rufus in the High Entia Tomb.\r\nGive the Rufus Control Devices to Nelo.",
       "givers": [
         {
           "residentId": "resident-surprise-quest-86bd80",
-          "name": "Surprise Quest",
+          "name": "サブライズクエスト",
           "kind": "automatic",
           "locations": [
             {
-              "location": "Alcamoth",
+              "location": "皇都アカモート",
               "time": "Automatic"
             }
           ]
@@ -7255,18 +7255,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-vidian-rescue-mission-70909031",
-      "questName": "Vidian Rescue Mission",
-      "area": "Alcamoth",
+      "questName": "ビビアン救出作戦",
+      "area": "皇都アカモート",
       "requirements": "Mechonis Core cleared\r\nRestoring the Capital objective completed",
       "details": "Requires: Mechonis Core cleared\r\nRestoring the Capital objective completed — Find someone who can use the Ether Furnace Controls and ask how to fix them.\nFix the Ether Furnace Controls so that the transporters will work.\nTalk to Vidian in Whitewing Palace.",
       "givers": [
         {
           "residentId": "resident-surprise-quest-86bd80",
-          "name": "Surprise Quest",
+          "name": "サブライズクエスト",
           "kind": "automatic",
           "locations": [
             {
-              "location": "Alcamoth",
+              "location": "皇都アカモート",
               "time": "Automatic"
             }
           ]
@@ -7275,18 +7275,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-monster-quest-1-part-1-42171b4c",
-      "questName": "Monster Quest 1 - Part 1",
-      "area": "Alcamoth",
+      "questName": "討伐クエスト1その1",
+      "area": "皇都アカモート",
       "requirements": "Alcamoth area reached",
       "details": "Requires: Alcamoth area reached — Defeat 5 Cruz Paguls at Eryth Sea.",
       "givers": [
         {
           "residentId": "resident-alcamoth-citizen-c9bd73",
-          "name": "Alcamoth Citizen",
+          "name": "アカモート住人",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Imperial Palace)",
+              "location": "皇都アカモート (皇宮)",
               "time": "06:00–18:00"
             }
           ]
@@ -7295,18 +7295,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-monster-quest-1-part-2-f95eda7f",
-      "questName": "Monster Quest 1 - Part 2",
-      "area": "Alcamoth",
+      "questName": "討伐クエスト1その2",
+      "area": "皇都アカモート",
       "requirements": "Alcamoth area reached",
       "details": "Requires: Alcamoth area reached — Defeat 3 Eryth Ansels at Eryth Sea.",
       "givers": [
         {
           "residentId": "resident-alcamoth-citizen-c9bd73",
-          "name": "Alcamoth Citizen",
+          "name": "アカモート住人",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Imperial Palace)",
+              "location": "皇都アカモート (皇宮)",
               "time": "06:00–18:00"
             }
           ]
@@ -7315,18 +7315,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-monster-quest-1-part-3-abdb2831",
-      "questName": "Monster Quest 1 - Part 3",
-      "area": "Alcamoth",
+      "questName": "討伐クエスト1その3",
+      "area": "皇都アカモート",
       "requirements": "Alcamoth area reached",
       "details": "Requires: Alcamoth area reached — Defeat 2 Ciconia Ekidnos at Eryth Sea.",
       "givers": [
         {
           "residentId": "resident-alcamoth-citizen-c9bd73",
-          "name": "Alcamoth Citizen",
+          "name": "アカモート住人",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Imperial Palace)",
+              "location": "皇都アカモート (皇宮)",
               "time": "06:00–18:00"
             }
           ]
@@ -7335,18 +7335,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-monster-quest-2-part-1-e38b167a",
-      "questName": "Monster Quest 2 - Part 1",
-      "area": "Alcamoth",
+      "questName": "討伐クエスト2その1",
+      "area": "皇都アカモート",
       "requirements": "Alcamoth area reached",
       "details": "Requires: Alcamoth area reached — Defeat 3 Chloro Laias at Eryth Sea.",
       "givers": [
         {
           "residentId": "resident-alcamoth-imperial-guard-c0b246",
-          "name": "Alcamoth Imperial Guard",
+          "name": "アカモート衛士",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Imperial Palace)",
+              "location": "皇都アカモート (皇宮)",
               "time": "18:00–06:00"
             }
           ]
@@ -7355,18 +7355,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-monster-quest-2-part-2-ee3c08bd",
-      "questName": "Monster Quest 2 - Part 2",
-      "area": "Alcamoth",
+      "questName": "討伐クエスト2その2",
+      "area": "皇都アカモート",
       "requirements": "Alcamoth area reached",
       "details": "Requires: Alcamoth area reached — Defeat 5 Stella Eks at Eryth Sea.",
       "givers": [
         {
           "residentId": "resident-alcamoth-imperial-guard-c0b246",
-          "name": "Alcamoth Imperial Guard",
+          "name": "アカモート衛士",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Imperial Palace)",
+              "location": "皇都アカモート (皇宮)",
               "time": "18:00–06:00"
             }
           ]
@@ -7375,18 +7375,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-monster-quest-2-part-3-dd9dd723",
-      "questName": "Monster Quest 2 - Part 3",
-      "area": "Alcamoth",
+      "questName": "討伐クエスト2その3",
+      "area": "皇都アカモート",
       "requirements": "Alcamoth area reached",
       "details": "Requires: Alcamoth area reached — Defeat 1 Racti Lexos at Eryth Sea.",
       "givers": [
         {
           "residentId": "resident-alcamoth-imperial-guard-c0b246",
-          "name": "Alcamoth Imperial Guard",
+          "name": "アカモート衛士",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Imperial Palace)",
+              "location": "皇都アカモート (皇宮)",
               "time": "18:00–06:00"
             }
           ]
@@ -7395,18 +7395,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-monster-quest-3-part-1-4f7a4e60",
-      "questName": "Monster Quest 3 - Part 1",
-      "area": "Alcamoth",
+      "questName": "討伐クエスト3その1",
+      "area": "皇都アカモート",
       "requirements": "Alcamoth area reached",
       "details": "Requires: Alcamoth area reached — Defeat 5 Unine Hodes at Eryth Sea.",
       "givers": [
         {
           "residentId": "resident-alcamoth-citizen-c9bd73",
-          "name": "Alcamoth Citizen",
+          "name": "アカモート住人",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Melfica Road)",
+              "location": "皇都アカモート (メルフィカ通り)",
               "time": "06:00–18:00"
             }
           ]
@@ -7415,18 +7415,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-monster-quest-3-part-2-5acdd6dd",
-      "questName": "Monster Quest 3 - Part 2",
-      "area": "Alcamoth",
+      "questName": "討伐クエスト3その2",
+      "area": "皇都アカモート",
       "requirements": "Alcamoth area reached",
       "details": "Requires: Alcamoth area reached — Defeat 2 Tocos Orluga at Eryth Sea.",
       "givers": [
         {
           "residentId": "resident-alcamoth-citizen-c9bd73",
-          "name": "Alcamoth Citizen",
+          "name": "アカモート住人",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Melfica Road)",
+              "location": "皇都アカモート (メルフィカ通り)",
               "time": "06:00–18:00"
             }
           ]
@@ -7435,18 +7435,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-monster-quest-3-part-3-1fad9148",
-      "questName": "Monster Quest 3 - Part 3",
-      "area": "Alcamoth",
+      "questName": "討伐クエスト3その3",
+      "area": "皇都アカモート",
       "requirements": "Alcamoth area reached",
       "details": "Requires: Alcamoth area reached — Defeat 1 Pelargos Ekidno at Eryth Sea.",
       "givers": [
         {
           "residentId": "resident-alcamoth-citizen-c9bd73",
-          "name": "Alcamoth Citizen",
+          "name": "アカモート住人",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Melfica Road)",
+              "location": "皇都アカモート (メルフィカ通り)",
               "time": "06:00–18:00"
             }
           ]
@@ -7455,18 +7455,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-monster-quest-4-part-1-08dad316",
-      "questName": "Monster Quest 4 - Part 1",
-      "area": "Alcamoth",
+      "questName": "討伐クエスト4その1",
+      "area": "皇都アカモート",
       "requirements": "Alcamoth area reached",
       "details": "Requires: Alcamoth area reached — Defeat 3 Somati Kromars at Eryth Sea.",
       "givers": [
         {
           "residentId": "resident-alcamoth-imperial-guard-c0b246",
-          "name": "Alcamoth Imperial Guard",
+          "name": "アカモート衛士",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Ascension Hall)",
+              "location": "皇都アカモート (聖天翔の間)",
               "time": "18:00–06:00"
             }
           ]
@@ -7475,18 +7475,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-monster-quest-4-part-2-24615c68",
-      "questName": "Monster Quest 4 - Part 2",
-      "area": "Alcamoth",
+      "questName": "討伐クエスト4その2",
+      "area": "皇都アカモート",
       "requirements": "Alcamoth area reached",
       "details": "Requires: Alcamoth area reached — Defeat 4 Tussock Kromars at Eryth Sea.",
       "givers": [
         {
           "residentId": "resident-alcamoth-imperial-guard-c0b246",
-          "name": "Alcamoth Imperial Guard",
+          "name": "アカモート衛士",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Ascension Hall)",
+              "location": "皇都アカモート (聖天翔の間)",
               "time": "18:00–06:00"
             }
           ]
@@ -7495,18 +7495,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-monster-quest-4-part-3-2c4d90c6",
-      "questName": "Monster Quest 4 - Part 3",
-      "area": "Alcamoth",
+      "questName": "討伐クエスト4その3",
+      "area": "皇都アカモート",
       "requirements": "Alcamoth area reached",
       "details": "Requires: Alcamoth area reached — Defeat 5 Otol Kromars at Eryth Sea.",
       "givers": [
         {
           "residentId": "resident-alcamoth-imperial-guard-c0b246",
-          "name": "Alcamoth Imperial Guard",
+          "name": "アカモート衛士",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Ascension Hall)",
+              "location": "皇都アカモート (聖天翔の間)",
               "time": "18:00–06:00"
             }
           ]
@@ -7515,18 +7515,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-challenge-1-4a226e64",
-      "questName": "Challenge 1",
-      "area": "Alcamoth",
+      "questName": "強敵を求めて1",
+      "area": "皇都アカモート",
       "requirements": "Alcamoth area reached",
       "details": "Requires: Alcamoth area reached — Defeat Proper Bandaz in the area of Secluded Island at Eryth Sea. (Only during shooting stars.)",
       "givers": [
         {
           "residentId": "resident-alcamoth-citizen-c9bd73",
-          "name": "Alcamoth Citizen",
+          "name": "アカモート住人",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Fountain of Hope)",
+              "location": "皇都アカモート (希望の噴水)",
               "time": "18:00–06:00"
             }
           ]
@@ -7535,18 +7535,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-challenge-2-b349a7b0",
-      "questName": "Challenge 2",
-      "area": "Alcamoth",
+      "questName": "強敵を求めて2",
+      "area": "皇都アカモート",
       "requirements": "Alcamoth area reached",
       "details": "Requires: Alcamoth area reached — Defeat Tempestuous Edegia on Hovering Reef 10 at Eryth Sea. (Only at night.)",
       "givers": [
         {
           "residentId": "resident-alcamoth-citizen-c9bd73",
-          "name": "Alcamoth Citizen",
+          "name": "アカモート住人",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Fountain of Eternity)",
+              "location": "皇都アカモート (永遠の噴水)",
               "time": "18:00–06:00"
             }
           ]
@@ -7555,18 +7555,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-challenge-3-4f62e955",
-      "questName": "Challenge 3",
-      "area": "Alcamoth",
+      "questName": "強敵を求めて3",
+      "area": "皇都アカモート",
       "requirements": "Alcamoth area reached",
       "details": "Requires: Alcamoth area reached — Defeat Peeling Kircheis on Hovering Reef 7 at Eryth Sea.",
       "givers": [
         {
           "residentId": "resident-alcamoth-imperial-guard-c0b246",
-          "name": "Alcamoth Imperial Guard",
+          "name": "アカモート衛士",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Ascension Hall)",
+              "location": "皇都アカモート (聖天翔の間)",
               "time": "06:00–18:00"
             }
           ]
@@ -7575,18 +7575,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-challenge-4-25825bda",
-      "questName": "Challenge 4",
-      "area": "Alcamoth",
+      "questName": "強敵を求めて4",
+      "area": "皇都アカモート",
       "requirements": "Alcamoth area reached",
       "details": "Requires: Alcamoth area reached — Defeat Lightspeed Sonid in the area of Anu Shore at Eryth Sea.",
       "givers": [
         {
           "residentId": "resident-alcamoth-citizen-c9bd73",
-          "name": "Alcamoth Citizen",
+          "name": "アカモート住人",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Fountain of Eternity)",
+              "location": "皇都アカモート (永遠の噴水)",
               "time": "06:00–18:00"
             }
           ]
@@ -7596,17 +7596,17 @@ const QUEST_SCHEDULE_DATA = {
     {
       "questId": "quest-alcamoth-material-quest-1-86612ce4",
       "questName": "Material Quest 1",
-      "area": "Alcamoth",
+      "area": "皇都アカモート",
       "requirements": "Alcamoth area reached",
       "details": "Requires: Alcamoth area reached — Collect 2 Glossy Grady Fans from Lunar Gradys at Eryth Sea.",
       "givers": [
         {
           "residentId": "resident-alcamoth-citizen-c9bd73",
-          "name": "Alcamoth Citizen",
+          "name": "アカモート住人",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Main Entrance)",
+              "location": "皇都アカモート (Main Entrance)",
               "time": "06:00–18:00"
             }
           ]
@@ -7616,17 +7616,17 @@ const QUEST_SCHEDULE_DATA = {
     {
       "questId": "quest-alcamoth-material-quest-2-b2c2468f",
       "questName": "Material Quest 2",
-      "area": "Alcamoth",
+      "area": "皇都アカモート",
       "requirements": "Alcamoth area reached",
       "details": "Requires: Alcamoth area reached — Collect 5 Orluga Grass Skirts from Orluga in Makna Forest.",
       "givers": [
         {
           "residentId": "resident-alcamoth-citizen-c9bd73",
-          "name": "Alcamoth Citizen",
+          "name": "アカモート住人",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Imperial Palace)",
+              "location": "皇都アカモート (皇宮)",
               "time": "06:00–18:00"
             }
           ]
@@ -7635,18 +7635,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-material-quest-3-98019c8a",
-      "questName": "Material Quest 3",
-      "area": "Alcamoth",
+      "questName": "素材クエスト3",
+      "area": "皇都アカモート",
       "requirements": "Alcamoth area reached",
       "details": "Requires: Alcamoth area reached — Collect 3 Orluga Slacks from Orlugas at Eryth Sea.",
       "givers": [
         {
           "residentId": "resident-alcamoth-imperial-guard-c0b246",
-          "name": "Alcamoth Imperial Guard",
+          "name": "アカモート衛士",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Main Entrance)",
+              "location": "皇都アカモート (Main Entrance)",
               "time": "06:00–18:00"
             }
           ]
@@ -7655,18 +7655,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-material-quest-4-2ca3d813",
-      "questName": "Material Quest 4",
-      "area": "Alcamoth",
+      "questName": "素材クエスト4",
+      "area": "皇都アカモート",
       "requirements": "Alcamoth area reached",
       "details": "Requires: Alcamoth area reached — Collect 2 Lexos Beards from Racti Lexos at Eryth Sea.",
       "givers": [
         {
           "residentId": "resident-alcamoth-citizen-c9bd73",
-          "name": "Alcamoth Citizen",
+          "name": "アカモート住人",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Imperial Palace)",
+              "location": "皇都アカモート (皇宮)",
               "time": "06:00–18:00"
             }
           ]
@@ -7676,17 +7676,17 @@ const QUEST_SCHEDULE_DATA = {
     {
       "questId": "quest-alcamoth-collection-quest-1-ff40dabd",
       "questName": "Collection Quest 1",
-      "area": "Alcamoth",
+      "area": "皇都アカモート",
       "requirements": "Alcamoth area reached",
       "details": "Requires: Alcamoth area reached — Collect 3 lots of Gold Burdock at Eryth Sea.",
       "givers": [
         {
           "residentId": "resident-alcamoth-citizen-c9bd73",
-          "name": "Alcamoth Citizen",
+          "name": "アカモート住人",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Melfica Road)",
+              "location": "皇都アカモート (メルフィカ通り)",
               "time": "06:00–18:00"
             }
           ]
@@ -7696,17 +7696,17 @@ const QUEST_SCHEDULE_DATA = {
     {
       "questId": "quest-alcamoth-collection-quest-2-b67f2781",
       "questName": "Collection Quest 2",
-      "area": "Alcamoth",
+      "area": "皇都アカモート",
       "requirements": "Alcamoth area reached",
       "details": "Requires: Alcamoth area reached — Collect 2 White Tails at Eryth Sea.",
       "givers": [
         {
           "residentId": "resident-alcamoth-citizen-c9bd73",
-          "name": "Alcamoth Citizen",
+          "name": "アカモート住人",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Main Entrance)",
+              "location": "皇都アカモート (Main Entrance)",
               "time": "06:00–18:00"
             }
           ]
@@ -7715,18 +7715,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-collection-quest-3-51469a9f",
-      "questName": "Collection Quest 3",
-      "area": "Alcamoth",
+      "questName": "収集クエスト3",
+      "area": "皇都アカモート",
       "requirements": "Alcamoth area reached",
       "details": "Requires: Alcamoth area reached — Collect 5 Stardrops in Alcamoth.",
       "givers": [
         {
           "residentId": "resident-alcamoth-citizen-c9bd73",
-          "name": "Alcamoth Citizen",
+          "name": "アカモート住人",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Fountain of Hope)",
+              "location": "皇都アカモート (希望の噴水)",
               "time": "06:00–18:00"
             }
           ]
@@ -7735,18 +7735,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-collection-quest-4-6e8970dc",
-      "questName": "Collection Quest 4",
-      "area": "Alcamoth",
+      "questName": "収集クエスト4",
+      "area": "皇都アカモート",
       "requirements": "Alcamoth area reached",
       "details": "Requires: Alcamoth area reached — Collect 2 Spiral Lamps in the High Entia Tomb.",
       "givers": [
         {
           "residentId": "resident-alcamoth-citizen-c9bd73",
-          "name": "Alcamoth Citizen",
+          "name": "アカモート住人",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Melfica Road)",
+              "location": "皇都アカモート (メルフィカ通り)",
               "time": "18:00–06:00"
             }
           ]
@@ -7755,18 +7755,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-search-quest-1-226d3221",
-      "questName": "Search Quest 1",
-      "area": "Alcamoth",
+      "questName": "おさがしクエスト1",
+      "area": "皇都アカモート",
       "requirements": "Alcamoth area reached",
       "details": "Requires: Alcamoth area reached — Find the Mother's Necklace on the second level of Alcamoth.",
       "givers": [
         {
           "residentId": "resident-alcamoth-citizen-c9bd73",
-          "name": "Alcamoth Citizen",
+          "name": "アカモート住人",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Fountain of Hope)",
+              "location": "皇都アカモート (希望の噴水)",
               "time": "18:00–06:00"
             }
           ]
@@ -7775,18 +7775,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-search-quest-2-8a73ee94",
-      "questName": "Search Quest 2",
-      "area": "Alcamoth",
+      "questName": "おさがしクエスト2",
+      "area": "皇都アカモート",
       "requirements": "Alcamoth area reached",
       "details": "Requires: Alcamoth area reached — Find a Silver Ring somewhere in Alcamoth.",
       "givers": [
         {
           "residentId": "resident-alcamoth-citizen-c9bd73",
-          "name": "Alcamoth Citizen",
+          "name": "アカモート住人",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Fountain of Hope)",
+              "location": "皇都アカモート (希望の噴水)",
               "time": "18:00–06:00"
             }
           ]
@@ -7795,18 +7795,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-search-quest-3-b05095e9",
-      "questName": "Search Quest 3",
-      "area": "Alcamoth",
+      "questName": "おさがしクエスト3",
+      "area": "皇都アカモート",
       "requirements": "Alcamoth area reached",
       "details": "Requires: Alcamoth area reached — Find the Merchant's Gift somewhere on the lower level of Alcamoth.",
       "givers": [
         {
           "residentId": "resident-alcamoth-citizen-c9bd73",
-          "name": "Alcamoth Citizen",
+          "name": "アカモート住人",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Fountain of Eternity)",
+              "location": "皇都アカモート (永遠の噴水)",
               "time": "06:00–18:00"
             }
           ]
@@ -7815,18 +7815,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-alcamoth-search-quest-4-23055241",
-      "questName": "Search Quest 4",
-      "area": "Alcamoth",
+      "questName": "おさがしクエスト4",
+      "area": "皇都アカモート",
       "requirements": "Alcamoth area reached",
       "details": "Requires: Alcamoth area reached — Find the Health Amulet on the lower level of Alcamoth.",
       "givers": [
         {
           "residentId": "resident-alcamoth-citizen-c9bd73",
-          "name": "Alcamoth Citizen",
+          "name": "アカモート住人",
           "kind": "npc",
           "locations": [
             {
-              "location": "Alcamoth (Fountain of Hope)",
+              "location": "皇都アカモート (希望の噴水)",
               "time": "18:00–06:00"
             }
           ]
@@ -7835,18 +7835,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-valak-mountain-chilkins-and-antols-1b62b6c9",
-      "questName": "Chilkins and Antols",
-      "area": "Valak Mountain",
+      "questName": "チルキンかアントルか",
+      "area": "ヴァラク雪山",
       "requirements": "Valak Mountain area reached",
       "details": "Requires: Valak Mountain area reached — Defeat 5 Poleaxe Chilkins on Valak Mountain.\nDefeat 5 Ent Antols on Valak Mountain.\nReturn to the researcher.",
       "givers": [
         {
           "residentId": "resident-a-nopon-researcher-04e99e",
-          "name": "A Nopon Researcher",
+          "name": "A ノポン調査隊",
           "kind": "npc",
           "locations": [
             {
-              "location": "Valak Mountain (Nopon Camp)",
+              "location": "ヴァラク雪山 (ノポンキャンプ)",
               "time": "Anytime"
             }
           ]
@@ -7855,18 +7855,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-valak-mountain-valak-mountain-research-5103e920",
-      "questName": "Valak Mountain Research",
-      "area": "Valak Mountain",
+      "questName": "ヴァラク雪山展望調査",
+      "area": "ヴァラク雪山",
       "requirements": "Valak Mountain area reached\r\nChilkins and Antols",
       "details": "Requires: Valak Mountain area reached\r\nChilkins and Antols — Take in the scenery from Befalgar Pedestal on Valak Mountain.\r\nTake in the scenery from Kana Peak on Valak Mountain.\r\nReturn to the researcher.",
       "givers": [
         {
           "residentId": "resident-a-nopon-researcher-04e99e",
-          "name": "A Nopon Researcher",
+          "name": "A ノポン調査隊",
           "kind": "npc",
           "locations": [
             {
-              "location": "Valak Mountain (Nopon Camp)",
+              "location": "ヴァラク雪山 (ノポンキャンプ)",
               "time": "Anytime"
             }
           ]
@@ -7875,18 +7875,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-valak-mountain-the-freezing-nopon-5be11969",
-      "questName": "The Freezing Nopon",
-      "area": "Valak Mountain",
+      "questName": "ブルブルノポン",
+      "area": "ヴァラク雪山",
       "requirements": "Valak Mountain area reached",
       "details": "Requires: Valak Mountain area reached — Collect 3 Hox Flints from Porcu Hoxes on Valak Mountain.\r\nCollect 2 Antol Fire Pouches from Ent Antols on Valak Mountain.\r\nCollect 1 Feris Aged Ale from a Noto Feris on Valak Mountain.\r\nReturn to the collapsed Nopon",
       "givers": [
         {
           "residentId": "resident-a-nopon-researcher-04e99e",
-          "name": "A Nopon Researcher",
+          "name": "A ノポン調査隊",
           "kind": "npc",
           "locations": [
             {
-              "location": "Valak Mountain (Hollow Bone)",
+              "location": "ヴァラク雪山 (巨神の環状骨)",
               "time": "Anytime"
             }
           ]
@@ -7895,18 +7895,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-valak-mountain-bad-timing-b1b67242",
-      "questName": "Bad Timing",
-      "area": "Valak Mountain",
+      "questName": "バッドタイミング",
+      "area": "ヴァラク雪山",
       "requirements": "Valak Mountain area reached\r\nThe Magma Rock",
       "details": "Requires: Valak Mountain area reached\r\nThe Magma Rock — Defeat 4 Cunning Chilkins on Valak Mountain.\nReturn to the kidnapped nopon.",
       "givers": [
         {
           "residentId": "resident-a-nopon-researcher-04e99e",
-          "name": "A Nopon Researcher",
+          "name": "A ノポン調査隊",
           "kind": "npc",
           "locations": [
             {
-              "location": "Valak Mountain (Great Glacier)",
+              "location": "ヴァラク雪山 (大氷河地帯)",
               "time": "Anytime"
             }
           ]
@@ -7915,18 +7915,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-valak-mountain-chilkin-changes-bee3a218",
-      "questName": "Chilkin Changes",
-      "area": "Valak Mountain",
+      "questName": "チルキン族の変化",
+      "area": "ヴァラク雪山",
       "requirements": "Valak Mountain area reached\r\nBad Timing",
       "details": "Requires: Valak Mountain area reached\r\nBad Timing — Investigate the Chilkin Lair in Bagnar Snowfield on Valak Mountain.\nReturn to Dakuku",
       "givers": [
         {
           "residentId": "resident-dakuku-eeac86",
-          "name": "Dakuku",
+          "name": "ダルク",
           "kind": "npc",
           "locations": [
             {
-              "location": "Valak Mountain (Nopon Camp)",
+              "location": "ヴァラク雪山 (ノポンキャンプ)",
               "time": "Anytime"
             }
           ]
@@ -7935,18 +7935,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-valak-mountain-the-balance-of-power-29a46cce",
-      "questName": "The Balance of Power",
-      "area": "Valak Mountain",
+      "questName": "パワーバランス",
+      "area": "ヴァラク雪山",
       "requirements": "Valak Mountain area reached\r\nChilkin Changes\r\nDunban in the lead",
       "details": "Requires: Valak Mountain area reached\r\nChilkin Changes\r\nDunban in the lead — Defeat Barbaric Sitri.\r\nDefeat Banquet Vassago.\r\nReturn to Dakuku.",
       "givers": [
         {
           "residentId": "resident-dakuku-eeac86",
-          "name": "Dakuku",
+          "name": "ダルク",
           "kind": "npc",
           "locations": [
             {
-              "location": "Valak Mountain (Nopon Camp)",
+              "location": "ヴァラク雪山 (ノポンキャンプ)",
               "time": "Anytime"
             }
           ]
@@ -7955,18 +7955,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-valak-mountain-the-missing-partner-1c795354",
-      "questName": "The Missing Partner",
-      "area": "Valak Mountain",
+      "questName": "帰ってこない相棒",
+      "area": "ヴァラク雪山",
       "requirements": "Mechonis Core cleared\r\nAdventurers in Peril not completed",
       "details": "Requires: Mechonis Core cleared\r\nAdventurers in Peril not completed — Talk to Zain who is somewhere on Three Sage Summit at Valak Mountain.\nReturn to Kurralth.",
       "givers": [
         {
           "residentId": "resident-kurralth-b347ae",
-          "name": "Kurralth",
+          "name": "クラル",
           "kind": "npc",
           "locations": [
             {
-              "location": "Valak Mountain (Harict Chapel)",
+              "location": "ヴァラク雪山 (ハリクト礼拝堂)",
               "time": "Anytime"
             }
           ]
@@ -7975,18 +7975,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-valak-mountain-the-final-giants-ruins-1534830f",
-      "questName": "The Final Giants' Ruins",
-      "area": "Valak Mountain",
+      "questName": "巨人族最後の遺跡",
+      "area": "ヴァラク雪山",
       "requirements": "Mechonis Core cleared\r\nThe Missing Partner or Adventurers in Peril",
       "details": "Requires: Mechonis Core cleared\r\nThe Missing Partner or Adventurers in Peril — Collect 3 Giants' Treasures from all around the world.\r\nGo to the Giants' ruins at Three Sage Summit on Valak Mountain.",
       "givers": [
         {
           "residentId": "resident-zain-f6a8bc",
-          "name": "Zain",
+          "name": "ゼイン",
           "kind": "npc",
           "locations": [
             {
-              "location": "Valak Mountain (Harict Chapel)",
+              "location": "ヴァラク雪山 (ハリクト礼拝堂)",
               "time": "Anytime"
             }
           ]
@@ -7995,18 +7995,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-valak-mountain-the-giants-treasures-9a24d5b0",
-      "questName": "The Giants' Treasures",
-      "area": "Valak Mountain",
+      "questName": "巨人族三種の神器",
+      "area": "ヴァラク雪山",
       "requirements": "Mechonis Core cleared\r\nThe Final Giants' Ruins accepted",
       "details": "Requires: Mechonis Core cleared\r\nThe Final Giants' Ruins accepted — Collect the Truth of the Giants.\r\nCollect the Daring of the Giants.\r\nCollect the Heart of the Giants.",
       "givers": [
         {
           "residentId": "resident-zain-f6a8bc",
-          "name": "Zain",
+          "name": "ゼイン",
           "kind": "npc",
           "locations": [
             {
-              "location": "Valak Mountain (Harict Chapel)",
+              "location": "ヴァラク雪山 (ハリクト礼拝堂)",
               "time": "Anytime"
             }
           ]
@@ -8015,18 +8015,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-valak-mountain-monster-quest-1-c8c37227",
-      "questName": "Monster Quest 1",
-      "area": "Valak Mountain",
+      "questName": "討伐クエストその1",
+      "area": "ヴァラク雪山",
       "requirements": "Valak Mountain area reached",
       "details": "Requires: Valak Mountain area reached — Defeat 2 Monta Moramoras on Valak Mountain.",
       "givers": [
         {
           "residentId": "resident-a-nopon-researcher-04e99e",
-          "name": "A Nopon Researcher",
+          "name": "A ノポン調査隊",
           "kind": "npc",
           "locations": [
             {
-              "location": "Valak Mountain (Zokhed Pass)",
+              "location": "ヴァラク雪山 (ゾックヘッド峠)",
               "time": "Anytime"
             }
           ]
@@ -8036,17 +8036,17 @@ const QUEST_SCHEDULE_DATA = {
     {
       "questId": "quest-valak-mountain-monster-quest-2-4447734f",
       "questName": "Monster Quest 2",
-      "area": "Valak Mountain",
+      "area": "ヴァラク雪山",
       "requirements": "Valak Mountain area reached",
       "details": "Requires: Valak Mountain area reached — Defeat 5 Sparas Paguls on Valak Mountain.",
       "givers": [
         {
           "residentId": "resident-a-nopon-researcher-04e99e",
-          "name": "A Nopon Researcher",
+          "name": "A ノポン調査隊",
           "kind": "npc",
           "locations": [
             {
-              "location": "Valak Mountain (Zokhed Pass)",
+              "location": "ヴァラク雪山 (ゾックヘッド峠)",
               "time": "Anytime"
             }
           ]
@@ -8055,18 +8055,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-valak-mountain-monster-quest-3-6c2b7de9",
-      "questName": "Monster Quest 3",
-      "area": "Valak Mountain",
+      "questName": "討伐クエストその3",
+      "area": "ヴァラク雪山",
       "requirements": "Valak Mountain area reached",
       "details": "Requires: Valak Mountain area reached — Defeat 3 Bow Chilkins.",
       "givers": [
         {
           "residentId": "resident-a-nopon-researcher-04e99e",
-          "name": "A Nopon Researcher",
+          "name": "A ノポン調査隊",
           "kind": "npc",
           "locations": [
             {
-              "location": "Valak Mountain (Zokhed Pass)",
+              "location": "ヴァラク雪山 (ゾックヘッド峠)",
               "time": "Anytime"
             }
           ]
@@ -8075,18 +8075,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-valak-mountain-monster-quest-4-4dc843a9",
-      "questName": "Monster Quest 4",
-      "area": "Valak Mountain",
+      "questName": "討伐クエストその4",
+      "area": "ヴァラク雪山",
       "requirements": "Valak Mountain area reached",
       "details": "Requires: Valak Mountain area reached — Defeat 1 Sesna Lexos on Valak Mountain.",
       "givers": [
         {
           "residentId": "resident-a-nopon-researcher-04e99e",
-          "name": "A Nopon Researcher",
+          "name": "A ノポン調査隊",
           "kind": "npc",
           "locations": [
             {
-              "location": "Valak Mountain (Zokhed Pass)",
+              "location": "ヴァラク雪山 (ゾックヘッド峠)",
               "time": "Anytime"
             }
           ]
@@ -8095,18 +8095,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-valak-mountain-the-magma-rock-be7e2048",
-      "questName": "The Magma Rock",
-      "area": "Valak Mountain",
+      "questName": "ヴァラクの熱い石",
+      "area": "ヴァラク雪山",
       "requirements": "Automatic",
       "details": "Requires: Automatic — Collect a Magma Rock from a cave near a geyser.\r\nUse the Magma Rock to melt the ice covering the door.",
       "givers": [
         {
           "residentId": "resident-story-quest-09cfce",
-          "name": "Story Quest",
+          "name": "ストーリークエスト",
           "kind": "automatic",
           "locations": [
             {
-              "location": "Valak Mountain (Sealed Tower)",
+              "location": "ヴァラク雪山 (封印の塔)",
               "time": "Automatic"
             }
           ]
@@ -8122,11 +8122,11 @@ const QUEST_SCHEDULE_DATA = {
       "givers": [
         {
           "residentId": "resident-surprise-quest-86bd80",
-          "name": "Surprise Quest",
+          "name": "サブライズクエスト",
           "kind": "automatic",
           "locations": [
             {
-              "location": "Sword Valley (Dolgan Outpost)",
+              "location": "大剣の渓谷 (ドルガン監視砦)",
               "time": "Automatic"
             }
           ]
@@ -8142,11 +8142,11 @@ const QUEST_SCHEDULE_DATA = {
       "givers": [
         {
           "residentId": "resident-surprise-quest-86bd80",
-          "name": "Surprise Quest",
+          "name": "サブライズクエスト",
           "kind": "automatic",
           "locations": [
             {
-              "location": "Sword Valley (Enalda Control Base)",
+              "location": "大剣の渓谷 (エナルダ管理基地)",
               "time": "Automatic"
             }
           ]
@@ -8162,11 +8162,11 @@ const QUEST_SCHEDULE_DATA = {
       "givers": [
         {
           "residentId": "resident-surprise-quest-86bd80",
-          "name": "Surprise Quest",
+          "name": "サブライズクエスト",
           "kind": "automatic",
           "locations": [
             {
-              "location": "Sword Valley (3rd Gate)",
+              "location": "大剣の渓谷 (第3ゲート)",
               "time": "Automatic"
             }
           ]
@@ -8182,11 +8182,11 @@ const QUEST_SCHEDULE_DATA = {
       "givers": [
         {
           "residentId": "resident-surprise-quest-86bd80",
-          "name": "Surprise Quest",
+          "name": "サブライズクエスト",
           "kind": "automatic",
           "locations": [
             {
-              "location": "Sword Valley (Radio Tower)",
+              "location": "大剣の渓谷 (電波塔)",
               "time": "Automatic"
             }
           ]
@@ -8202,11 +8202,11 @@ const QUEST_SCHEDULE_DATA = {
       "givers": [
         {
           "residentId": "resident-story-quest-09cfce",
-          "name": "Story Quest",
+          "name": "ストーリークエスト",
           "kind": "automatic",
           "locations": [
             {
-              "location": "Galahad Fortress (Main Maintenance Bay)",
+              "location": "ガラハド要塞 (中央整備室)",
               "time": "Automatic"
             }
           ]
@@ -8222,11 +8222,11 @@ const QUEST_SCHEDULE_DATA = {
       "givers": [
         {
           "residentId": "resident-story-quest-09cfce",
-          "name": "Story Quest",
+          "name": "ストーリークエスト",
           "kind": "automatic",
           "locations": [
             {
-              "location": "Galahad Fortress (Main Control Room)",
+              "location": "ガラハド要塞 (エーテル溶鉱炉管制室)",
               "time": "Automatic"
             }
           ]
@@ -8242,11 +8242,11 @@ const QUEST_SCHEDULE_DATA = {
       "givers": [
         {
           "residentId": "resident-story-quest-09cfce",
-          "name": "Story Quest",
+          "name": "ストーリークエスト",
           "kind": "automatic",
           "locations": [
             {
-              "location": "Galahad Fortress (Main Control Room)",
+              "location": "ガラハド要塞 (エーテル溶鉱炉管制室)",
               "time": "Automatic"
             }
           ]
@@ -8262,11 +8262,11 @@ const QUEST_SCHEDULE_DATA = {
       "givers": [
         {
           "residentId": "resident-story-quest-09cfce",
-          "name": "Story Quest",
+          "name": "ストーリークエスト",
           "kind": "automatic",
           "locations": [
             {
-              "location": "Galahad Fortress (Face Maintenance Bay)",
+              "location": "ガラハド要塞 (Face Maintenance Bay)",
               "time": "Automatic"
             }
           ]
@@ -8282,11 +8282,11 @@ const QUEST_SCHEDULE_DATA = {
       "givers": [
         {
           "residentId": "resident-story-quest-09cfce",
-          "name": "Story Quest",
+          "name": "ストーリークエスト",
           "kind": "automatic",
           "locations": [
             {
-              "location": "Prison Island (Behemoth Nest)",
+              "location": "監獄島 (ベヒモスの巣)",
               "time": "Automatic"
             }
           ]
@@ -8302,11 +8302,11 @@ const QUEST_SCHEDULE_DATA = {
       "givers": [
         {
           "residentId": "resident-story-quest-09cfce",
-          "name": "Story Quest",
+          "name": "ストーリークエスト",
           "kind": "automatic",
           "locations": [
             {
-              "location": "Prison Island (Corridor of Silence)",
+              "location": "監獄島 (静寂の回廊)",
               "time": "Automatic"
             }
           ]
@@ -8315,18 +8315,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-fallen-arm-save-the-machina-6988cd50",
-      "questName": "Save the Machina!",
-      "area": "Fallen Arm",
+      "questName": "同胞を救え！",
+      "area": "落ちた腕",
       "requirements": "Hidden Machina Village reached",
       "details": "Requires: Hidden Machina Village reached — Collect 5 lots of Krabble Back Moss from Oros Krabbles on the Fallen Arm\nReturn to Voltak.",
       "givers": [
         {
           "residentId": "resident-voltak-f7f032",
-          "name": "Voltak",
+          "name": "ヴォルテック",
           "kind": "npc",
           "locations": [
             {
-              "location": "Fallen Arm (Junks)",
+              "location": "落ちた腕 (ジャンクス)",
               "time": "Anytime"
             }
           ]
@@ -8335,18 +8335,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-fallen-arm-eliminate-the-threat-67ffcc4b",
-      "questName": "Eliminate the Threat",
-      "area": "Fallen Arm",
+      "questName": "同胞のために出来ること",
+      "area": "落ちた腕",
       "requirements": "Save the Machina!\r\nHidden Village ☆1½",
       "details": "Requires: Save the Machina!\r\nHidden Village ☆1½ — Destroy the Broken Mechon in the area of Digit 1 Crevasse\nReturn to Voltak.",
       "givers": [
         {
           "residentId": "resident-voltak-f7f032",
-          "name": "Voltak",
+          "name": "ヴォルテック",
           "kind": "npc",
           "locations": [
             {
-              "location": "Fallen Arm (Junks)",
+              "location": "落ちた腕 (ジャンクス)",
               "time": "Anytime"
             }
           ]
@@ -8355,18 +8355,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-fallen-arm-mysterious-noises-309a4964",
-      "questName": "Mysterious Noises",
-      "area": "Fallen Arm",
+      "questName": "水汲みの不安",
+      "area": "落ちた腕",
       "requirements": "Hidden Machina Village reached",
       "details": "Requires: Hidden Machina Village reached — Investigate the Silver Wreckage on Wreckage Beach on the Fallen Arm.\nReturn to Prox",
       "givers": [
         {
           "residentId": "resident-prox-6ae2d8",
-          "name": "Prox",
+          "name": "プリモ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Fallen Arm (Ether Light)",
+              "location": "落ちた腕 (Ether Light)",
               "time": "18:00–06:00"
             }
           ]
@@ -8375,18 +8375,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-fallen-arm-protect-the-village-5ab3ee62",
-      "questName": "Protect the Village",
-      "area": "Fallen Arm",
+      "questName": "里の無事を確保して",
+      "area": "落ちた腕",
       "requirements": "Hidden Machina Village reached\r\nHidden Village ☆1¼",
       "details": "Requires: Hidden Machina Village reached\r\nHidden Village ☆1¼ — Defeat 3 M85 Meteor Artillery units on the Fallen Arm.\nReturn to Eleqa",
       "givers": [
         {
           "residentId": "resident-eleqa-a8d5f8",
-          "name": "Eleqa",
+          "name": "エレナ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Fallen Arm (Hidden Machina Village)",
+              "location": "落ちた腕 (マシーナの隠れ里)",
               "time": "06:00–18:00"
             }
           ]
@@ -8395,18 +8395,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-fallen-arm-stop-the-mechon-rampage-f7d7d644",
-      "questName": "Stop the Mechon Rampage!",
-      "area": "Fallen Arm",
+      "questName": "機神兵大量討伐！",
+      "area": "落ちた腕",
       "requirements": "Hidden Machina Village reached\r\nProtect the Village\r\nHidden Village ☆1½",
       "details": "Requires: Hidden Machina Village reached\r\nProtect the Village\r\nHidden Village ☆1½ — Defeat 10 M56 Prototypes on the Fallen Arm.\nReturn to Eleqa",
       "givers": [
         {
           "residentId": "resident-eleqa-a8d5f8",
-          "name": "Eleqa",
+          "name": "エレナ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Fallen Arm (Hidden Machina Village)",
+              "location": "落ちた腕 (マシーナの隠れ里)",
               "time": "06:00–18:00"
             }
           ]
@@ -8415,18 +8415,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-fallen-arm-stunted-growth-2d12d5d5",
-      "questName": "Stunted Growth",
-      "area": "Fallen Arm",
+      "questName": "成長するために！",
+      "area": "落ちた腕",
       "requirements": "After the attack on Colony 6\nVronik registered to the Affinity Chart\nHidden Village ☆3½\nDunban in the lead",
       "details": "Requires: After the attack on Colony 6\nVronik registered to the Affinity Chart\nHidden Village ☆3½\nDunban in the lead — Collect a Transmission Bypass\nCollect an Exhaust Pump\nCollect a Mini Reactor\nReturn to Orkatix",
       "givers": [
         {
           "residentId": "resident-orkatix-ac0908",
-          "name": "Orkatix",
+          "name": "オルフェス",
           "kind": "npc",
           "locations": [
             {
-              "location": "Fallen Arm (Junks)",
+              "location": "落ちた腕 (ジャンクス)",
               "time": "Anytime"
             }
           ]
@@ -8436,17 +8436,17 @@ const QUEST_SCHEDULE_DATA = {
     {
       "questId": "quest-fallen-arm-transmission-bypass-d501f868",
       "questName": "Transmission Bypass",
-      "area": "Fallen Arm",
+      "area": "落ちた腕",
       "requirements": "After the attack on Colony 6\nVronik registered to the Affinity Chart\nHidden Village ☆4\nStunted Growth accepted",
       "details": "Requires: After the attack on Colony 6\nVronik registered to the Affinity Chart\nHidden Village ☆4\nStunted Growth accepted — Collect a Transmission Bypass from the Offensive Strike Unit.",
       "givers": [
         {
           "residentId": "resident-orkatix-ac0908",
-          "name": "Orkatix",
+          "name": "オルフェス",
           "kind": "npc",
           "locations": [
             {
-              "location": "Fallen Arm (Junks)",
+              "location": "落ちた腕 (ジャンクス)",
               "time": "Anytime"
             }
           ]
@@ -8455,18 +8455,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-fallen-arm-the-exhaust-pump-5a59d384",
-      "questName": "The Exhaust Pump",
-      "area": "Fallen Arm",
+      "questName": "空気排出ポンプ入手",
+      "area": "落ちた腕",
       "requirements": "After the attack on Colony 6\nVronik registered to the Affinity Chart\nHidden Village ☆4\nStunted Growth accepted",
       "details": "Requires: After the attack on Colony 6\nVronik registered to the Affinity Chart\nHidden Village ☆4\nStunted Growth accepted — Collect an Exhaust Pump from the Offensive Hover Unit",
       "givers": [
         {
           "residentId": "resident-orkatix-ac0908",
-          "name": "Orkatix",
+          "name": "オルフェス",
           "kind": "npc",
           "locations": [
             {
-              "location": "Fallen Arm (Junks)",
+              "location": "落ちた腕 (ジャンクス)",
               "time": "Anytime"
             }
           ]
@@ -8475,18 +8475,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-fallen-arm-the-mini-reactor-98a23b5e",
-      "questName": "The Mini Reactor",
-      "area": "Fallen Arm",
+      "questName": "高性能小型動力炉入手",
+      "area": "落ちた腕",
       "requirements": "After the attack on Colony 6\nVronik registered to the Affinity Chart\nHidden Village ☆4\nStunted Growth accepted",
       "details": "Requires: After the attack on Colony 6\nVronik registered to the Affinity Chart\nHidden Village ☆4\nStunted Growth accepted — Collect a Mini Reactor from the Experimental M86.",
       "givers": [
         {
           "residentId": "resident-orkatix-ac0908",
-          "name": "Orkatix",
+          "name": "オルフェス",
           "kind": "npc",
           "locations": [
             {
-              "location": "Fallen Arm (Junks)",
+              "location": "落ちた腕 (ジャンクス)",
               "time": "Anytime"
             }
           ]
@@ -8495,18 +8495,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-fallen-arm-the-history-of-mechonis-a92d0c19",
-      "questName": "The History of Mechonis",
-      "area": "Fallen Arm",
+      "questName": "機神界の歴史",
+      "area": "落ちた腕",
       "requirements": "Access to Mechonis Field",
       "details": "Requires: Access to Mechonis Field — Collect 4 Memory 925 Pieces from Mechonis Field\nReturn to Zilex",
       "givers": [
         {
           "residentId": "resident-zilex-72782e",
-          "name": "Zilex",
+          "name": "リレット",
           "kind": "npc",
           "locations": [
             {
-              "location": "Fallen Arm (Junks)",
+              "location": "落ちた腕 (ジャンクス)",
               "time": "Anytime"
             }
           ]
@@ -8515,18 +8515,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-fallen-arm-the-history-of-the-capital-b1ab126c",
-      "questName": "The History of the Capital",
-      "area": "Fallen Arm",
+      "questName": "帝都の歴史",
+      "area": "落ちた腕",
       "requirements": "Agniratha reached\r\nThe History of Mechonis",
       "details": "Requires: Agniratha reached\r\nThe History of Mechonis — Collect Memory 903 in the Judicial District of Agniratha.\nReturn to Zilex",
       "givers": [
         {
           "residentId": "resident-zilex-72782e",
-          "name": "Zilex",
+          "name": "リレット",
           "kind": "npc",
           "locations": [
             {
-              "location": "Fallen Arm (Junks)",
+              "location": "落ちた腕 (ジャンクス)",
               "time": "Anytime"
             }
           ]
@@ -8535,18 +8535,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-fallen-arm-i-want-to-be-a-homs-adb96842",
-      "questName": "I Want to be a Homs!",
-      "area": "Fallen Arm",
+      "questName": "ホムスになりたい！",
+      "area": "落ちた腕",
       "requirements": "Hidden Machina Village reached\r\nNatalia registered on the Affinity Chart",
       "details": "Requires: Hidden Machina Village reached\r\nNatalia registered on the Affinity Chart — Collect 2 Silver Lexos Hearts from Lexos in Valak Mountain.\nCollect 3 Pretty Flamii Legs from Kukukoro Flamii on the Fallen Arm.\nCollect 3 Poisonous Corals on the Fallen Arm.\nReturn to Rakzet.",
       "givers": [
         {
           "residentId": "resident-rakzet-b08906",
-          "name": "Rakzet",
+          "name": "レイ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Fallen Arm (Junks)",
+              "location": "落ちた腕 (ジャンクス)",
               "time": "00:00–21:00"
             }
           ]
@@ -8555,18 +8555,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-fallen-arm-powerless-277f33af",
-      "questName": "Powerless",
-      "area": "Fallen Arm",
+      "questName": "無力",
+      "area": "落ちた腕",
       "requirements": "I Want to be a Homs!\r\nHidden Village ☆1½",
       "details": "Requires: I Want to be a Homs!\r\nHidden Village ☆1½ — Defeat 4 M35 Prototypes on the Fallen Arm.\nDefeat 4 Aura Antols on the Fallen Arm.\nDefeat 4 Lampo Ponios on the Fallen Arm.\nDefeat 4 Prado Upas on the Fallen Arm.\nReturn to Rakzet.",
       "givers": [
         {
           "residentId": "resident-rakzet-b08906",
-          "name": "Rakzet",
+          "name": "レイ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Fallen Arm (Junks)",
+              "location": "落ちた腕 (ジャンクス)",
               "time": "00:00–21:00"
             }
           ]
@@ -8576,17 +8576,17 @@ const QUEST_SCHEDULE_DATA = {
     {
       "questId": "quest-fallen-arm-power-up-d74de4a5",
       "questName": "Power up!",
-      "area": "Fallen Arm",
+      "area": "落ちた腕",
       "requirements": "Powerless\r\nHidden Village ☆2",
       "details": "Requires: Powerless\r\nHidden Village ☆2 — Collect 5 Silver Antol Fibres that are very rarely dropped by Antols on the Fallen Arm.\nReturn to Rakzet.",
       "givers": [
         {
           "residentId": "resident-rakzet-b08906",
-          "name": "Rakzet",
+          "name": "レイ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Fallen Arm (Junks)",
+              "location": "落ちた腕 (ジャンクス)",
               "time": "00:00–21:00"
             }
           ]
@@ -8595,18 +8595,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-fallen-arm-fixing-a-broken-door-df5fc0a3",
-      "questName": "Fixing a Broken Door",
-      "area": "Fallen Arm",
+      "questName": "壊れたドアの修理",
+      "area": "落ちた腕",
       "requirements": "Hidden Machina Village reached\r\nEleqa registered on the Affinity Chart",
       "details": "Requires: Hidden Machina Village reached\r\nEleqa registered on the Affinity Chart — Collect 5 Digital Filaments on the Fallen Arm.\nCollect 2 Dated Frames from the M56 Prototypes on the Fallen Arm.\nReturn to Rizaka",
       "givers": [
         {
           "residentId": "resident-rizaka-cec598",
-          "name": "Rizaka",
+          "name": "レアナ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Fallen Arm (Hidden Machina Village)",
+              "location": "落ちた腕 (マシーナの隠れ里)",
               "time": "06:00–15:00"
             }
           ]
@@ -8615,18 +8615,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-fallen-arm-the-wilted-flower-3b17d5f3",
-      "questName": "The Wilted Flower",
-      "area": "Fallen Arm",
+      "questName": "花が枯れちゃう",
+      "area": "落ちた腕",
       "requirements": "Hidden Machina Village reached\r\nVronik registered on the Affinity Chart\r\nFixing a Broken Door\r\nHidden Village ☆1½",
       "details": "Requires: Hidden Machina Village reached\r\nVronik registered on the Affinity Chart\r\nFixing a Broken Door\r\nHidden Village ☆1½ — Collect some Pure Water from Zakt Spring on the Fallen Arm.\nReturn to Rizaka.\nCollect 5 lots of Electric Upa Tears from Prado Upas on the Fallen Arm.\nReturn to Rizaka.",
       "givers": [
         {
           "residentId": "resident-rizaka-cec598",
-          "name": "Rizaka",
+          "name": "レアナ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Fallen Arm (Hidden Machina Village)",
+              "location": "落ちた腕 (マシーナの隠れ里)",
               "time": "06:00–15:00"
             }
           ]
@@ -8635,18 +8635,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-fallen-arm-the-oath-sword-ed4e9dff",
-      "questName": "The Oath Sword",
-      "area": "Fallen Arm",
+      "questName": "約束の剣",
+      "area": "落ちた腕",
       "requirements": "Mechonis Field reached\r\nThe Wilted Flower\r\nHidden Village ☆2\r\nFiora in the lead",
       "details": "Requires: Mechonis Field reached\r\nThe Wilted Flower\r\nHidden Village ☆2\r\nFiora in the lead — Find the Oath Sword in the area of the Power Pipe Ruins on the Fallen Arm.\nReturn to Karlos.",
       "givers": [
         {
           "residentId": "resident-karlos-e247c8",
-          "name": "Karlos",
+          "name": "カラル",
           "kind": "npc",
           "locations": [
             {
-              "location": "Fallen Arm (Hidden Machina Village)",
+              "location": "落ちた腕 (マシーナの隠れ里)",
               "time": "18:00–06:00"
             }
           ]
@@ -8655,18 +8655,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-fallen-arm-scheduled-inspection-c2eb28c6",
-      "questName": "Scheduled Inspection",
-      "area": "Fallen Arm",
+      "questName": "十年に一度の定期検査",
+      "area": "落ちた腕",
       "requirements": "The Wilted Flower\r\nHidden Village ☆2½",
       "details": "Requires: The Wilted Flower\r\nHidden Village ☆2½ — Go to the Ether Exhaust System and eliminate any problems in the area.\nReturn to Xekit.",
       "givers": [
         {
           "residentId": "resident-xekit-da4796",
-          "name": "Xekit",
+          "name": "ジェキ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Fallen Arm (Ether Light)",
+              "location": "落ちた腕 (Ether Light)",
               "time": "18:00–06:00"
             }
           ]
@@ -8675,18 +8675,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-fallen-arm-a-tough-battle-0a4cdb5f",
-      "questName": "A Tough Battle",
-      "area": "Fallen Arm",
+      "questName": "厳しい戦い",
+      "area": "落ちた腕",
       "requirements": "Hidden Machina Village reached\r\nHidden Village ☆2",
       "details": "Requires: Hidden Machina Village reached\r\nHidden Village ☆2 — Defeat 4 Offensive Seeker Units on the Fallen Arm.\r\nDefeat 5 Caelum Volff on the Fallen Arm.\r\nDefeat 2 Lelepago Pterix on the Fallen Arm.\r\nReturn to Kazat.",
       "givers": [
         {
           "residentId": "resident-kazat-747d84",
-          "name": "Kazat",
+          "name": "カイルス",
           "kind": "npc",
           "locations": [
             {
-              "location": "Fallen Arm (Hidden Machina Village)",
+              "location": "落ちた腕 (マシーナの隠れ里)",
               "time": "06:00–18:00"
             }
           ]
@@ -8695,18 +8695,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-fallen-arm-a-weapon-just-for-me-b6c6d086",
-      "questName": "A Weapon Just For Me",
-      "area": "Fallen Arm",
+      "questName": "手に馴染む武器を",
+      "area": "落ちた腕",
       "requirements": "Access to Mechonis Field\r\nMending Memories\r\nA Tough Battle\r\nHidden Village ☆3",
       "details": "Requires: Access to Mechonis Field\r\nMending Memories\r\nA Tough Battle\r\nHidden Village ☆3 — Collect 2 Reinforced Thrusters from M91/DOGMA Mechon in Mechonis Field.\r\nCollect 3 Advanced Frames from M53/THANK Mechon units in the Central Factory.\r\nReturn to Kazat.",
       "givers": [
         {
           "residentId": "resident-kazat-747d84",
-          "name": "Kazat",
+          "name": "カイルス",
           "kind": "npc",
           "locations": [
             {
-              "location": "Fallen Arm (Hidden Machina Village)",
+              "location": "落ちた腕 (マシーナの隠れ里)",
               "time": "06:00–18:00"
             }
           ]
@@ -8715,18 +8715,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-fallen-arm-therapy-a4f80c53",
-      "questName": "Therapy",
-      "area": "Fallen Arm",
+      "questName": "セラピー",
+      "area": "落ちた腕",
       "requirements": "Stop the Mechon Rampage!\r\nHidden Village ☆2\r\nEleqa and Eiz affinity link yellow.",
       "details": "Requires: Stop the Mechon Rampage!\r\nHidden Village ☆2\r\nEleqa and Eiz affinity link yellow. — Speak with Eiz. A Lot.\nReturn to Eleqa",
       "givers": [
         {
           "residentId": "resident-eleqa-a8d5f8",
-          "name": "Eleqa",
+          "name": "エレナ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Fallen Arm (Hidden Machina Village)",
+              "location": "落ちた腕 (マシーナの隠れ里)",
               "time": "06:00–18:00"
             }
           ]
@@ -8735,18 +8735,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-fallen-arm-mending-memories-b698e5dc",
-      "questName": "Mending Memories",
-      "area": "Fallen Arm",
+      "questName": "壊れた思い出の修復",
+      "area": "落ちた腕",
       "requirements": "Access to Mechonis Field\r\nHidden Village ☆1½",
       "details": "Requires: Access to Mechonis Field\r\nHidden Village ☆1½ — Ask Mixik's father, Kazat, about the necessary materials, and collect them.\nResolution - Father is triggered and must be completed\nAsk Mixik's mother, Qofaria, about the necessary materials, and collect them.\nResolution - Mother is triggered and must be completed\nReturn to Mixik.",
       "givers": [
         {
           "residentId": "resident-mixik-9ccc53",
-          "name": "Mixik",
+          "name": "ミニス",
           "kind": "npc",
           "locations": [
             {
-              "location": "Fallen Arm (Junks)",
+              "location": "落ちた腕 (ジャンクス)",
               "time": "21:00–03:00"
             }
           ]
@@ -8755,18 +8755,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-fallen-arm-resolution-father-dfeb23c7",
-      "questName": "Resolution - Father",
-      "area": "Fallen Arm",
+      "questName": "問題解決・パパ編",
+      "area": "落ちた腕",
       "requirements": "Access to Mechonis Field\r\nMending Memories accepted\r\nHidden Village ☆1½",
       "details": "Requires: Access to Mechonis Field\r\nMending Memories accepted\r\nHidden Village ☆1½ — Collect 2 Flier Bloom Scales from Happiness Fliers on the Fallen Arm.",
       "givers": [
         {
           "residentId": "resident-kazat-747d84",
-          "name": "Kazat",
+          "name": "カイルス",
           "kind": "npc",
           "locations": [
             {
-              "location": "Fallen Arm (Hidden Machina Village)",
+              "location": "落ちた腕 (マシーナの隠れ里)",
               "time": "06:00–18:00"
             }
           ]
@@ -8775,18 +8775,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-fallen-arm-resolution-mother-42b28709",
-      "questName": "Resolution - Mother",
-      "area": "Fallen Arm",
+      "questName": "問題解決・ママ編",
+      "area": "落ちた腕",
       "requirements": "Access to Mechonis Field\r\nMending Memories accepted\r\nHidden Village ☆1½",
       "details": "Requires: Access to Mechonis Field\r\nMending Memories accepted\r\nHidden Village ☆1½ — Collect 3 pieces of Bronze Wood from Mechonis Field.",
       "givers": [
         {
           "residentId": "resident-qofaria-ef72e5",
-          "name": "Qofaria",
+          "name": "ユーフォリア",
           "kind": "npc",
           "locations": [
             {
-              "location": "Fallen Arm (Hidden Machina Village)",
+              "location": "落ちた腕 (マシーナの隠れ里)",
               "time": "06:00–18:00"
             }
           ]
@@ -8795,18 +8795,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-fallen-arm-food-delivery-3a437fca",
-      "questName": "Food Delivery",
-      "area": "Fallen Arm",
+      "questName": "食料配達",
+      "area": "落ちた腕",
       "requirements": "Hidden Machina Village reached",
       "details": "Requires: Hidden Machina Village reached — Speak to Theo.\nReturn to Natalia.",
       "givers": [
         {
           "residentId": "resident-natalia-938710",
-          "name": "Natalia",
+          "name": "ナターリャ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Fallen Arm (Junks)",
+              "location": "落ちた腕 (ジャンクス)",
               "time": "18:00–06:00"
             }
           ]
@@ -8816,17 +8816,17 @@ const QUEST_SCHEDULE_DATA = {
     {
       "questId": "quest-fallen-arm-for-my-loved-one-5e79610a",
       "questName": "For my Loved One...",
-      "area": "Fallen Arm",
+      "area": "落ちた腕",
       "requirements": "Hidden Machina Village reached\r\nFood Delivery accepted and Theo spoken to",
       "details": "Requires: Hidden Machina Village reached\r\nFood Delivery accepted and Theo spoken to — Collect a Tear of the Sky from Distant Fingertip on the Fallen Arm. (Only during a thunderstorm.)\nReturn to Zarkort.",
       "givers": [
         {
           "residentId": "resident-zarkort-84a6ab",
-          "name": "Zarkort",
+          "name": "カルボラ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Fallen Arm (Digit 2)",
+              "location": "落ちた腕 (機神の人差し指)",
               "time": "Anytime"
             }
           ]
@@ -8835,18 +8835,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-fallen-arm-to-my-loved-one-3c9d0b86",
-      "questName": "To My Loved One...",
-      "area": "Fallen Arm",
+      "questName": "愛するヒトへ",
+      "area": "落ちた腕",
       "requirements": "Hidden Machina Village reached\r\nFor My Loved One...",
       "details": "Requires: Hidden Machina Village reached\r\nFor My Loved One... — Take the Tear of the Sky to Bozatrox.",
       "givers": [
         {
           "residentId": "resident-zarkort-84a6ab",
-          "name": "Zarkort",
+          "name": "カルボラ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Fallen Arm (Digit 2)",
+              "location": "落ちた腕 (機神の人差し指)",
               "time": "Anytime"
             }
           ]
@@ -8855,18 +8855,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-fallen-arm-reunion-with-fiora-b00e4e65",
-      "questName": "Reunion with Fiora",
-      "area": "Fallen Arm",
+      "questName": "フィオルンとの再会",
+      "area": "落ちた腕",
       "requirements": "Fallen Arm area reached",
       "details": "Requires: Fallen Arm area reached — Investigate the beach and get some water for Fiora.",
       "givers": [
         {
           "residentId": "resident-story-quest-09cfce",
-          "name": "Story Quest",
+          "name": "ストーリークエスト",
           "kind": "automatic",
           "locations": [
             {
-              "location": "Fallen Arm",
+              "location": "落ちた腕",
               "time": "Automatic"
             }
           ]
@@ -8875,18 +8875,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-fallen-arm-we-made-it-4429533c",
-      "questName": "We Made It",
-      "area": "Fallen Arm",
+      "questName": "仲間は生きている",
+      "area": "落ちた腕",
       "requirements": "Fallen Arm area reached\r\nReunion with Fiora",
       "details": "Requires: Fallen Arm area reached\r\nReunion with Fiora — Find your friends.\nFind the rest of your friends.",
       "givers": [
         {
           "residentId": "resident-story-quest-09cfce",
-          "name": "Story Quest",
+          "name": "ストーリークエスト",
           "kind": "automatic",
           "locations": [
             {
-              "location": "Fallen Arm",
+              "location": "落ちた腕",
               "time": "Automatic"
             }
           ]
@@ -8895,18 +8895,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-fallen-arm-fiora-s-treatment-203a0705",
-      "questName": "Fiora's Treatment",
-      "area": "Fallen Arm",
+      "questName": "フィオルンの治療",
+      "area": "落ちた腕",
       "requirements": "Miqol met in the Hidden Machina Village",
       "details": "Requires: Miqol met in the Hidden Machina Village — Find a Piezoelectric Unit amongst the Mechon wreckage on Digit 5 Beach of the Fallen Arm.",
       "givers": [
         {
           "residentId": "resident-linada-story-quest-f1225d",
-          "name": "Linada (Story Quest)",
+          "name": "リナーダ (ストーリークエスト)",
           "kind": "npc",
           "locations": [
             {
-              "location": "Fallen Arm",
+              "location": "落ちた腕",
               "time": "Anytime"
             }
           ]
@@ -8915,18 +8915,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-mechonis-field-best-boots-349f0765",
-      "questName": "Best Boots",
-      "area": "Mechonis Field",
+      "questName": "愛のブーツ",
+      "area": "機神界フィールド",
       "requirements": "Mechonis Field area reached\r\nFor My Loved One...\r\nTo My Loved One...",
       "details": "Requires: Mechonis Field area reached\r\nFor My Loved One...\r\nTo My Loved One... — \"Collect 2 Reinforced Jets from Mechon carrying swords and shields in Mechonis Field.\"\nThey are a rare drop from Offensive/HONEYs and Offensive/SCOUTs.\n\"Collect 2 Reinforced Plungers from large bipedal Mechon in Mechonis Field.\"\nThey can be obtained from M84/GRUNTs.\n\"Return to Bozatrox.\"",
       "givers": [
         {
           "residentId": "resident-bozatrox-5269a6",
-          "name": "Bozatrox",
+          "name": "ボゼローネ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Mechonis Field (Machina Refuge)",
+              "location": "機神界フィールド (マシーナの隠れ家)",
               "time": "Anytime"
             }
           ]
@@ -8936,17 +8936,17 @@ const QUEST_SCHEDULE_DATA = {
     {
       "questId": "quest-mechonis-field-monster-quest-mechonis-field-eac3d06b",
       "questName": "Monster Quest (Mechonis Field)",
-      "area": "Mechonis Field",
+      "area": "機神界フィールド",
       "requirements": "Mechonis Field area reached",
       "details": "Requires: Mechonis Field area reached — \"Defeat 3 M66/TRICK Mechon in Mechonis Field.\"",
       "givers": [
         {
           "residentId": "resident-a-garrisoned-troop-machina-3bde52",
-          "name": "A Garrisoned Troop Machina",
+          "name": "A マシーナ駐留隊 マシーナ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Mechonis Field (Machina Refuge)",
+              "location": "機神界フィールド (マシーナの隠れ家)",
               "time": "Anytime"
             }
           ]
@@ -8956,17 +8956,17 @@ const QUEST_SCHEDULE_DATA = {
     {
       "questId": "quest-mechonis-field-challenge-quest-1-mechonis-field-4cf669b1",
       "questName": "Challenge Quest 1 (Mechonis Field)",
-      "area": "Mechonis Field",
+      "area": "機神界フィールド",
       "requirements": "Mechonis Field area reached",
       "details": "Requires: Mechonis Field area reached — \"Defeat Revolutionary Bifrons near Power Supply Area 1 in Mechonis Field.\"",
       "givers": [
         {
           "residentId": "resident-a-garrisoned-troop-machina-3bde52",
-          "name": "A Garrisoned Troop Machina",
+          "name": "A マシーナ駐留隊 マシーナ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Mechonis Field (Machina Refuge)",
+              "location": "機神界フィールド (マシーナの隠れ家)",
               "time": "Anytime"
             }
           ]
@@ -8976,17 +8976,17 @@ const QUEST_SCHEDULE_DATA = {
     {
       "questId": "quest-mechonis-field-challenge-quest-2-mechonis-field-85c5b30a",
       "questName": "Challenge Quest 2 (Mechonis Field)",
-      "area": "Mechonis Field",
+      "area": "機神界フィールド",
       "requirements": "Mechonis Field area reached",
       "details": "Requires: Mechonis Field area reached — \"Defeat Infernal Crocell near Power Supply Area 2 in Mechonis Field.\"",
       "givers": [
         {
           "residentId": "resident-a-garrisoned-troop-machina-3bde52",
-          "name": "A Garrisoned Troop Machina",
+          "name": "A マシーナ駐留隊 マシーナ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Mechonis Field (Machina Refuge)",
+              "location": "機神界フィールド (マシーナの隠れ家)",
               "time": "Anytime"
             }
           ]
@@ -8995,18 +8995,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-mechonis-field-aiming-for-the-top-dc2d2e44",
-      "questName": "Aiming for the Top",
-      "area": "Mechonis Field",
+      "questName": "上層を目指せ",
+      "area": "機神界フィールド",
       "requirements": "Mechonis Field area reached",
       "details": "Requires: Mechonis Field area reached — \"Use the GF Master Power Panel to start the 2nd Lift.\"",
       "givers": [
         {
           "residentId": "resident-story-quest-09cfce",
-          "name": "Story Quest",
+          "name": "ストーリークエスト",
           "kind": "automatic",
           "locations": [
             {
-              "location": "Mechonis Field (2nd Lift - GF)",
+              "location": "機神界フィールド (第2リフト 1Ｆ)",
               "time": "Automatic"
             }
           ]
@@ -9015,18 +9015,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-mechonis-field-get-the-3rd-lift-moving-73bf4423",
-      "questName": "Get the 3rd Lift Moving",
-      "area": "Mechonis Field",
+      "questName": "第3リフトを起動しろ",
+      "area": "機神界フィールド",
       "requirements": "Mechonis Field area reached\r\nAiming for the Top",
       "details": "Requires: Mechonis Field area reached\r\nAiming for the Top — \"Use the 1F Master Power Panel to get the Cylinder Activation Panel on the floor working.\"\r\n\"Use the Cylinder Activation Panel to get the cylinder working.\"\r\n\"Use the 3rd Lift Activation Panel in the 3rd Lift Engine Room to connect the power plug.\"",
       "givers": [
         {
           "residentId": "resident-story-quest-09cfce",
-          "name": "Story Quest",
+          "name": "ストーリークエスト",
           "kind": "automatic",
           "locations": [
             {
-              "location": "Mechonis Field (2nd Lift - 1F)",
+              "location": "機神界フィールド (第2リフト 2Ｆ)",
               "time": "Automatic"
             }
           ]
@@ -9035,18 +9035,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-mechonis-field-opening-the-bulkhead-2e419184",
-      "questName": "Opening the Bulkhead",
-      "area": "Mechonis Field",
+      "questName": "大隔壁を開放せよ",
+      "area": "機神界フィールド",
       "requirements": "Mechonis Field area reached\r\nGet the 3rd Lift Moving",
       "details": "Requires: Mechonis Field area reached\r\nGet the 3rd Lift Moving — \"Use the 3F Master Power Panel to get the Bulkhead Control Panel working.\"\r\n\"Use the Bulkhead Control Panel to release the Bulkhead.\"",
       "givers": [
         {
           "residentId": "resident-story-quest-09cfce",
-          "name": "Story Quest",
+          "name": "ストーリークエスト",
           "kind": "automatic",
           "locations": [
             {
-              "location": "Mechonis Field (3rd Lift - 3F)",
+              "location": "機神界フィールド (第3リフト 4Ｆ)",
               "time": "Automatic"
             }
           ]
@@ -9055,18 +9055,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-mechonis-field-the-high-velocity-lift-7e8ecd3d",
-      "questName": "The High-Velocity Lift",
-      "area": "Mechonis Field",
+      "questName": "高速リフトを起動せよ",
+      "area": "機神界フィールド",
       "requirements": "Mechonis Field area reached\r\nOpening the Bulkhead",
       "details": "Requires: Mechonis Field area reached\r\nOpening the Bulkhead — \"Provide power to the High-Velocity Lift Panel.\"\r\n\"Use the High-Velocity Lift Panel to connect the power plug.\"",
       "givers": [
         {
           "residentId": "resident-story-quest-09cfce",
-          "name": "Story Quest",
+          "name": "ストーリークエスト",
           "kind": "automatic",
           "locations": [
             {
-              "location": "Mechonis Field (Upper Bulkhead Bridge)",
+              "location": "機神界フィールド (機神大隔壁上部連絡橋)",
               "time": "Automatic"
             }
           ]
@@ -9075,18 +9075,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-mechonis-field-need-power-514fff96",
-      "questName": "Need Power!",
-      "area": "Mechonis Field",
+      "questName": "電源を供給せよ",
+      "area": "機神界フィールド",
       "requirements": "Mechonis Field area reached\r\nOpening the Bulkhead\r\nThe High-Velocity Lift accepted",
       "details": "Requires: Mechonis Field area reached\r\nOpening the Bulkhead\r\nThe High-Velocity Lift accepted — \"Use the 1st Power Supply Panel in Power Supply Area 1 to supply power to the lift panel.\"\r\n\"Use the 2nd Power Supply Panel in Power Supply Area 2 to supply power to the lift panel.\"",
       "givers": [
         {
           "residentId": "resident-story-quest-09cfce",
-          "name": "Story Quest",
+          "name": "ストーリークエスト",
           "kind": "automatic",
           "locations": [
             {
-              "location": "Mechonis Field (Upper Bulkhead Bridge)",
+              "location": "機神界フィールド (機神大隔壁上部連絡橋)",
               "time": "Automatic"
             }
           ]
@@ -9095,18 +9095,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-central-factory-eliminate-the-backup-69778f1d",
-      "questName": "Eliminate the Backup!",
-      "area": "Central Factory",
+      "questName": "待機部隊を叩け！",
+      "area": "中央工廠",
       "requirements": "Central Factory area reached",
       "details": "Requires: Central Factory area reached — \"Defeat Beautiful Vagul in the Storage Depot.\"",
       "givers": [
         {
           "residentId": "resident-surprise-quest-86bd80",
-          "name": "Surprise Quest",
+          "name": "サブライズクエスト",
           "kind": "automatic",
           "locations": [
             {
-              "location": "Central Factory (Storage Depot)",
+              "location": "中央工廠 (資材置き場)",
               "time": "Automatic"
             }
           ]
@@ -9115,18 +9115,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-central-factory-daring-assault-4f1db107",
-      "questName": "Daring Assault",
-      "area": "Central Factory",
+      "questName": "強行突破！",
+      "area": "中央工廠",
       "requirements": "Central Factory area reached",
       "details": "Requires: Central Factory area reached — \"Defeat the M96 Crisis Unit in the Mechon Factory.\"\r\n\"Defeat 2 Crisis Response Units in the Mechon Factory.\"",
       "givers": [
         {
           "residentId": "resident-surprise-quest-86bd80",
-          "name": "Surprise Quest",
+          "name": "サブライズクエスト",
           "kind": "automatic",
           "locations": [
             {
-              "location": "Central Factory (Mechon Factory)",
+              "location": "中央工廠 (機神兵生産工場)",
               "time": "Automatic"
             }
           ]
@@ -9135,18 +9135,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-central-factory-roof-battle-146cab6c",
-      "questName": "Roof Battle",
-      "area": "Central Factory",
+      "questName": "屋上の決戦！",
+      "area": "中央工廠",
       "requirements": "Central Factory area reached",
       "details": "Requires: Central Factory area reached — \"Defeat Venerable Focalor on the Training Ground Roof.\"",
       "givers": [
         {
           "residentId": "resident-surprise-quest-86bd80",
-          "name": "Surprise Quest",
+          "name": "サブライズクエスト",
           "kind": "automatic",
           "locations": [
             {
-              "location": "Central Factory (Training Ground Roof)",
+              "location": "中央工廠 (演習場屋上)",
               "time": "Automatic"
             }
           ]
@@ -9155,18 +9155,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-central-factory-new-weapon-for-fiora-8c533ae1",
-      "questName": "New Weapon for Fiora",
-      "area": "Central Factory",
+      "questName": "フィオルンの新武器",
+      "area": "中央工廠",
       "requirements": "Ventilation Conduit reached",
       "details": "Requires: Ventilation Conduit reached — \"Use the Weapon Creation Machine in the Control Tower of the Central Factory on the GF.\"",
       "givers": [
         {
           "residentId": "resident-junks-staff-92a612",
-          "name": "Junks Staff",
+          "name": "ジャンクス・スタッフ",
           "kind": "npc",
           "locations": [
             {
-              "location": "Central Factory (Ventilation Conduit)",
+              "location": "中央工廠 (送風機内ジャンクス前)",
               "time": "Anytime"
             }
           ]
@@ -9175,18 +9175,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-central-factory-to-the-central-tower-8f337a65",
-      "questName": "To the Central Tower",
-      "area": "Central Factory",
+      "questName": "中央塔を目指せ",
+      "area": "中央工廠",
       "requirements": "Central Factory area reached",
       "details": "Requires: Central Factory area reached — \"Go to Maintenance Entrance 1.\"",
       "givers": [
         {
           "residentId": "resident-story-quest-09cfce",
-          "name": "Story Quest",
+          "name": "ストーリークエスト",
           "kind": "automatic",
           "locations": [
             {
-              "location": "Central Factory (Central Gate)",
+              "location": "中央工廠 (機神港中央ゲート)",
               "time": "Automatic"
             }
           ]
@@ -9195,18 +9195,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-central-factory-maintenance-wing-escape-4eed6fe9",
-      "questName": "Maintenance Wing Escape",
-      "area": "Central Factory",
+      "questName": "整備棟を抜けろ",
+      "area": "中央工廠",
       "requirements": "Central Factory area reached\r\nTo the Central Tower",
       "details": "Requires: Central Factory area reached\r\nTo the Central Tower — \"Use the Barrier Control Panel to release the electrical barrier.\"",
       "givers": [
         {
           "residentId": "resident-story-quest-09cfce",
-          "name": "Story Quest",
+          "name": "ストーリークエスト",
           "kind": "automatic",
           "locations": [
             {
-              "location": "Central Factory (Maintenance Wing)",
+              "location": "中央工廠 (機神兵整備棟)",
               "time": "Automatic"
             }
           ]
@@ -9215,18 +9215,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-central-factory-find-a-path-to-the-top-ee4f7c11",
-      "questName": "Find a Path to the Top",
-      "area": "Central Factory",
+      "questName": "上層への道を探せ",
+      "area": "中央工廠",
       "requirements": "Central Factory area reached\r\nMaintenance Wing Escape",
       "details": "Requires: Central Factory area reached\r\nMaintenance Wing Escape — \"Find a way to infiltrate the Mechon Factory.\"\n\"Collect materials for the bomb.\nMaterials for a Bomb is triggered and must be completed first.\n\"Use the Weapon Creation Panel in the Maintenance Wing to make a bomb.\"\n\"Use the bomb to blast open the vent.\"",
       "givers": [
         {
           "residentId": "resident-story-quest-09cfce",
-          "name": "Story Quest",
+          "name": "ストーリークエスト",
           "kind": "automatic",
           "locations": [
             {
-              "location": "Central Factory (Central Warehouse Lift)",
+              "location": "中央工廠 (中央倉庫リフト)",
               "time": "Automatic"
             }
           ]
@@ -9235,18 +9235,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-central-factory-materials-for-a-bomb-b65dfdde",
-      "questName": "Materials for a Bomb",
-      "area": "Central Factory",
+      "questName": "爆弾の材料を集めろ",
+      "area": "中央工廠",
       "requirements": "Central Factory area reached\r\nMaintenance Wing Escape\r\nFind a Path to the Top accepted",
       "details": "Requires: Central Factory area reached\r\nMaintenance Wing Escape\r\nFind a Path to the Top accepted — \"Collect an Electrical Fuse from the M88 Watchtower guarding the Main Factory Gate.\"\r\n\"Collect an Ether Explosive from the M97 Commander in the Large Mechon Store.\"\r\n\"Collect a Timer from a flying Mechon in the central container storeroom.\"",
       "givers": [
         {
           "residentId": "resident-story-quest-09cfce",
-          "name": "Story Quest",
+          "name": "ストーリークエスト",
           "kind": "automatic",
           "locations": [
             {
-              "location": "Central Factory (Factory Vent)",
+              "location": "中央工廠 (生産工場通風孔)",
               "time": "Automatic"
             }
           ]
@@ -9255,18 +9255,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-central-factory-the-central-tower-barrier-500279fe",
-      "questName": "The Central Tower Barrier",
-      "area": "Central Factory",
+      "questName": "中央塔の障壁",
+      "area": "中央工廠",
       "requirements": "Central Factory area reached\r\nFind a Path to the Top\r\nMaterials for a Bomb",
       "details": "Requires: Central Factory area reached\r\nFind a Path to the Top\r\nMaterials for a Bomb — \"Turn off the electrical barrier.\"\r\n\"Reach the peak of the tower.\"",
       "givers": [
         {
           "residentId": "resident-story-quest-09cfce",
-          "name": "Story Quest",
+          "name": "ストーリークエスト",
           "kind": "automatic",
           "locations": [
             {
-              "location": "Central Factory (Tower Boarding Gate)",
+              "location": "中央工廠 (中央塔搭乗口)",
               "time": "Automatic"
             }
           ]
@@ -9275,18 +9275,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-agniratha-civil-protection-1-1-ebee732b",
-      "questName": "Civil Protection 1 - 1",
-      "area": "Agniratha",
+      "questName": "治安維持1その1",
+      "area": "帝都アグニラータ",
       "requirements": "Agniratha area reached",
       "details": "Requires: Agniratha area reached — Defeat 5 M67/HASTE Mechon in Agniratha.",
       "givers": [
         {
           "residentId": "resident-civil-protection-terminal-b8bac8",
-          "name": "Civil Protection Terminal",
+          "name": "ターミナル：治安維持",
           "kind": "npc",
           "locations": [
             {
-              "location": "Anytime · Agniratha (Central Tower)",
+              "location": "Anytime · 帝都アグニラータ (帝都中枢タワー)",
               "time": "Anytime"
             }
           ]
@@ -9295,18 +9295,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-agniratha-civil-protection-1-2-f572883d",
-      "questName": "Civil Protection 1 - 2",
-      "area": "Agniratha",
+      "questName": "治安維持1その2",
+      "area": "帝都アグニラータ",
       "requirements": "Agniratha area reached",
       "details": "Requires: Agniratha area reached — Defeat 6 M36/SACRE Mechon in Agniratha.",
       "givers": [
         {
           "residentId": "resident-civil-protection-terminal-b8bac8",
-          "name": "Civil Protection Terminal",
+          "name": "ターミナル：治安維持",
           "kind": "npc",
           "locations": [
             {
-              "location": "Anytime · Agniratha (Central Tower)",
+              "location": "Anytime · 帝都アグニラータ (帝都中枢タワー)",
               "time": "Anytime"
             }
           ]
@@ -9315,18 +9315,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-agniratha-civil-protection-1-3-21fd2dda",
-      "questName": "Civil Protection 1 - 3",
-      "area": "Agniratha",
+      "questName": "治安維持1その3",
+      "area": "帝都アグニラータ",
       "requirements": "Agniratha area reached",
       "details": "Requires: Agniratha area reached — Defeat 3 Offensive/BRAVE Mechon in Agniratha.",
       "givers": [
         {
           "residentId": "resident-civil-protection-terminal-b8bac8",
-          "name": "Civil Protection Terminal",
+          "name": "ターミナル：治安維持",
           "kind": "npc",
           "locations": [
             {
-              "location": "Anytime · Agniratha (Central Tower)",
+              "location": "Anytime · 帝都アグニラータ (帝都中枢タワー)",
               "time": "Anytime"
             }
           ]
@@ -9335,18 +9335,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-agniratha-civil-protection-2-1-d971bfe2",
-      "questName": "Civil Protection 2 - 1",
-      "area": "Agniratha",
+      "questName": "治安維持2その1",
+      "area": "帝都アグニラータ",
       "requirements": "Agniratha area reached",
       "details": "Requires: Agniratha area reached — Defeat 6 M55/DREAD Mechon in Agniratha.",
       "givers": [
         {
           "residentId": "resident-civil-protection-terminal-b8bac8",
-          "name": "Civil Protection Terminal",
+          "name": "ターミナル：治安維持",
           "kind": "npc",
           "locations": [
             {
-              "location": "Anytime · Agniratha (Central Tower)",
+              "location": "Anytime · 帝都アグニラータ (帝都中枢タワー)",
               "time": "Anytime"
             }
           ]
@@ -9355,18 +9355,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-agniratha-civil-protection-2-2-3e6ae032",
-      "questName": "Civil Protection 2 - 2",
-      "area": "Agniratha",
+      "questName": "治安維持2その2",
+      "area": "帝都アグニラータ",
       "requirements": "Agniratha area reached",
       "details": "Requires: Agniratha area reached — Defeat 4 M67/RADAR Mechon in Agniratha.",
       "givers": [
         {
           "residentId": "resident-civil-protection-terminal-b8bac8",
-          "name": "Civil Protection Terminal",
+          "name": "ターミナル：治安維持",
           "kind": "npc",
           "locations": [
             {
-              "location": "Anytime · Agniratha (Central Tower)",
+              "location": "Anytime · 帝都アグニラータ (帝都中枢タワー)",
               "time": "Anytime"
             }
           ]
@@ -9375,18 +9375,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-agniratha-civil-protection-2-3-8ba84a67",
-      "questName": "Civil Protection 2 - 3",
-      "area": "Agniratha",
+      "questName": "治安維持2その3",
+      "area": "帝都アグニラータ",
       "requirements": "Agniratha area reached",
       "details": "Requires: Agniratha area reached — Defeat 4 M87/GRAND Mechon in Agniratha.",
       "givers": [
         {
           "residentId": "resident-civil-protection-terminal-b8bac8",
-          "name": "Civil Protection Terminal",
+          "name": "ターミナル：治安維持",
           "kind": "npc",
           "locations": [
             {
-              "location": "Anytime · Agniratha (Central Tower)",
+              "location": "Anytime · 帝都アグニラータ (帝都中枢タワー)",
               "time": "Anytime"
             }
           ]
@@ -9395,18 +9395,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-agniratha-military-status-1-1-b90b5037",
-      "questName": "Military Status 1 - 1",
-      "area": "Agniratha",
+      "questName": "兵力均衡1その1",
+      "area": "帝都アグニラータ",
       "requirements": "Agniratha area reached",
       "details": "Requires: Agniratha area reached — Defeat Vagabond Allocer in the area of Helas Pillar in Agniratha.",
       "givers": [
         {
           "residentId": "resident-military-status-terminal-505ed1",
-          "name": "Military Status Terminal",
+          "name": "ターミナル：兵力均衡",
           "kind": "npc",
           "locations": [
             {
-              "location": "Anytime · Agniratha (Central Tower)",
+              "location": "Anytime · 帝都アグニラータ (帝都中枢タワー)",
               "time": "Anytime"
             }
           ]
@@ -9415,18 +9415,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-agniratha-military-status-1-2-2bf37cdf",
-      "questName": "Military Status 1 - 2",
-      "area": "Agniratha",
+      "questName": "兵力均衡1その2",
+      "area": "帝都アグニラータ",
       "requirements": "Agniratha area reached",
       "details": "Requires: Agniratha area reached — Defeat Wise Gremory in the area of Zedonia Plaza in Agniratha.",
       "givers": [
         {
           "residentId": "resident-military-status-terminal-505ed1",
-          "name": "Military Status Terminal",
+          "name": "ターミナル：兵力均衡",
           "kind": "npc",
           "locations": [
             {
-              "location": "Anytime · Agniratha (Central Tower)",
+              "location": "Anytime · 帝都アグニラータ (帝都中枢タワー)",
               "time": "Anytime"
             }
           ]
@@ -9435,18 +9435,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-agniratha-military-status-2-1-7939a579",
-      "questName": "Military Status 2 - 1",
-      "area": "Agniratha",
+      "questName": "兵力均衡2その1",
+      "area": "帝都アグニラータ",
       "requirements": "Agniratha area reached",
       "details": "Requires: Agniratha area reached — Defeat Meditative Varla in the area of Zedonia Plaza in Agniratha.",
       "givers": [
         {
           "residentId": "resident-military-status-terminal-505ed1",
-          "name": "Military Status Terminal",
+          "name": "ターミナル：兵力均衡",
           "kind": "npc",
           "locations": [
             {
-              "location": "Anytime · Agniratha (Central Tower)",
+              "location": "Anytime · 帝都アグニラータ (帝都中枢タワー)",
               "time": "Anytime"
             }
           ]
@@ -9455,18 +9455,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-agniratha-military-status-2-2-e9fdc7b6",
-      "questName": "Military Status 2 - 2",
-      "area": "Agniratha",
+      "questName": "兵力均衡2その2",
+      "area": "帝都アグニラータ",
       "requirements": "Agniratha area reached",
       "details": "Requires: Agniratha area reached — Defeat Wrathful Orobas in the area of Dios Pillar in Agniratha.",
       "givers": [
         {
           "residentId": "resident-military-status-terminal-505ed1",
-          "name": "Military Status Terminal",
+          "name": "ターミナル：兵力均衡",
           "kind": "npc",
           "locations": [
             {
-              "location": "Anytime · Agniratha (Central Tower)",
+              "location": "Anytime · 帝都アグニラータ (帝都中枢タワー)",
               "time": "Anytime"
             }
           ]
@@ -9475,18 +9475,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-agniratha-agniratha-beautification-1-6713e319",
-      "questName": "Agniratha Beautification 1",
-      "area": "Agniratha",
+      "questName": "アグニラータ美化その1",
+      "area": "帝都アグニラータ",
       "requirements": "Agniratha area reached",
       "details": "Requires: Agniratha area reached — Collect 4 New Part S's from small Mechon in Agniratha \nCollect 5 Fairy Tale Diodes in Agniratha.",
       "givers": [
         {
           "residentId": "resident-city-planning-terminal-8c6c05",
-          "name": "City Planning Terminal",
+          "name": "ターミナル：都市計画",
           "kind": "npc",
           "locations": [
             {
-              "location": "Anytime · Agniratha (Central Tower)",
+              "location": "Anytime · 帝都アグニラータ (帝都中枢タワー)",
               "time": "Anytime"
             }
           ]
@@ -9495,18 +9495,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-agniratha-agniratha-beautification-2-0897fb93",
-      "questName": "Agniratha Beautification 2",
-      "area": "Agniratha",
+      "questName": "アグニラータ美化その2",
+      "area": "帝都アグニラータ",
       "requirements": "Agniratha area reached",
       "details": "Requires: Agniratha area reached — Collect 3 New Part Ls from large Mechon in Agniratha.\nCollect 6 Grape Springs in Agniratha.",
       "givers": [
         {
           "residentId": "resident-city-planning-terminal-8c6c05",
-          "name": "City Planning Terminal",
+          "name": "ターミナル：都市計画",
           "kind": "npc",
           "locations": [
             {
-              "location": "Anytime · Agniratha (Central Tower)",
+              "location": "Anytime · 帝都アグニラータ (帝都中枢タワー)",
               "time": "Anytime"
             }
           ]
@@ -9515,18 +9515,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-agniratha-telethia-investigation-1-68bb3d59",
-      "questName": "Telethia Investigation 1",
-      "area": "Agniratha",
+      "questName": "テレシア調査その1",
+      "area": "帝都アグニラータ",
       "requirements": "Agniratha area reached",
       "details": "Requires: Agniratha area reached — Investigate the small Telethia around Helas Pillar in Agniratha\nInvestigate the small Telethia around Dios Pillar in Agniratha\nInvestigate the small Telethia around the Effigy of Meyneth in Agniratha\nInvestigate the small Telethia around Calcos Pillar in Agniratha",
       "givers": [
         {
           "residentId": "resident-strategic-intel-terminal-ce7777",
-          "name": "Strategic Intel Terminal",
+          "name": "ターミナル：情報戦略",
           "kind": "npc",
           "locations": [
             {
-              "location": "Anytime · Agniratha (Central Tower)",
+              "location": "Anytime · 帝都アグニラータ (帝都中枢タワー)",
               "time": "Anytime"
             }
           ]
@@ -9535,18 +9535,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-agniratha-telethia-investigation-2-1d09e743",
-      "questName": "Telethia Investigation 2",
-      "area": "Agniratha",
+      "questName": "テレシア調査その2",
+      "area": "帝都アグニラータ",
       "requirements": "Agniratha area reached\r\nTelethia Investigation 1",
       "details": "Requires: Agniratha area reached\r\nTelethia Investigation 1 — Investigate the large Telethia in the Residential District 1 of Agniratha\nInvestigate the large Telethia around Helas Pillar in Agniratha\nInvestigate the large Telethia on Telethia Bridge in Agniratha\nInvestigate the large Telethia in the Judicial District of Agniratha",
       "givers": [
         {
           "residentId": "resident-strategic-intel-terminal-ce7777",
-          "name": "Strategic Intel Terminal",
+          "name": "ターミナル：情報戦略",
           "kind": "npc",
           "locations": [
             {
-              "location": "Anytime · Agniratha (Central Tower)",
+              "location": "Anytime · 帝都アグニラータ (帝都中枢タワー)",
               "time": "Anytime"
             }
           ]
@@ -9555,18 +9555,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-agniratha-shrine-transport-793d97cb",
-      "questName": "Shrine Transport",
-      "area": "Agniratha",
+      "questName": "神殿への転送装置",
+      "area": "帝都アグニラータ",
       "requirements": "",
       "details": "Use the verification devices on the four pillars to unlock the transporter\nActivate the transport at the Data Centre at the top of the Central Tower\nGo to the transporter that will take you to the Meyneth Shrine",
       "givers": [
         {
           "residentId": "resident-story-quest-09cfce",
-          "name": "Story Quest",
+          "name": "ストーリークエスト",
           "kind": "automatic",
           "locations": [
             {
-              "location": "Agniratha",
+              "location": "帝都アグニラータ",
               "time": "Automatic"
             }
           ]
@@ -9575,18 +9575,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-agniratha-pillar-verification-devices-19c243b2",
-      "questName": "Pillar Verification Devices",
-      "area": "Agniratha",
+      "questName": "四柱の認証装置",
+      "area": "帝都アグニラータ",
       "requirements": "",
       "details": "\"Use the Verification Device on Calcos Pillar.\"\r\n\"Use the Verification Device on Helas Pillar.\"\r\n\"Use the Verification Device on Dios Pillar.\"\r\n\"Use the Verification Device on Cleas Pillar.\"",
       "givers": [
         {
           "residentId": "resident-story-quest-09cfce",
-          "name": "Story Quest",
+          "name": "ストーリークエスト",
           "kind": "automatic",
           "locations": [
             {
-              "location": "Agniratha",
+              "location": "帝都アグニラータ",
               "time": "Automatic"
             }
           ]
@@ -9595,18 +9595,18 @@ const QUEST_SCHEDULE_DATA = {
     },
     {
       "questId": "quest-agniratha-save-bionis-45732bab",
-      "questName": "Save Bionis",
-      "area": "Agniratha",
+      "questName": "巨神界の崩壊を止める",
+      "area": "帝都アグニラータ",
       "requirements": "Mechonis Core reached",
       "details": "Requires: Mechonis Core reached — Defeat 3 Energy Devices around Yaldabaoth.",
       "givers": [
         {
           "residentId": "resident-story-quest-09cfce",
-          "name": "Story Quest",
+          "name": "ストーリークエスト",
           "kind": "automatic",
           "locations": [
             {
-              "location": "Agniratha",
+              "location": "帝都アグニラータ",
               "time": "Automatic"
             }
           ]

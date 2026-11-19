@@ -652,7 +652,7 @@ html[data-theme="xenoblade"] .tabs button.on .game-icon{filter:drop-shadow(0 2px
   .chh{padding:15px 14px;flex-wrap:wrap}
   .cht{font-size:18px}
   .chs{display:none}
-  .chl{width:100%;margin-left:25px;justify-content:space-between}
+  .chl{width:100%;margin-left:0;padding-left:25px;justify-content:space-between}
   .chnote{padding:0 14px 16px 39px;font-size:15.5px}
   .ihead{display:block}.imeta{justify-content:flex-start;max-width:none;margin-top:6px}
   .it{padding:15px 13px;gap:12px}.it label{font-size:16px}
@@ -1842,13 +1842,13 @@ function requiredLeader(item){
   // must not create a misleading badge on the current step.
   const text = plainText(item.t || "");
   const patterns = [
-    ["MELIA", /(?:melia.{0,60}(?:must lead|leading|accepts|turns in|party leader)|control\s+melia)/i],
-    ["DUNBAN", /(?:dunban.{0,60}(?:must lead|leading|accepts|turns in|party leader)|control\s+dunban)/i],
-    ["REYN", /(?:reyn.{0,60}(?:must lead|leading|accepts|turns in|party leader)|control\s+reyn)/i],
-    ["SHARLA", /(?:sharla.{0,60}(?:must lead|leading|accepts|turns in|party leader)|control\s+sharla)/i],
-    ["RIKI", /(?:riki.{0,60}(?:must lead|leading|accepts|turns in|party leader)|control\s+riki)/i],
-    ["FIORA", /(?:fiora.{0,60}(?:must lead|leading|accepts|turns in|party leader)|control\s+fiora)/i],
-    ["SHULK", /(?:shulk.{0,60}(?:must lead|must be leading|leading|accepts|turns in|party leader)|control\s+shulk)/i]
+    ["メリア", /(?:メリア.{0,40}(?:リーダー|受注|報告|操作)|リーダー.{0,20}メリア|操作.{0,20}メリア)/],
+    ["ダンバン", /(?:ダンバン.{0,40}(?:リーダー|受注|報告)|リーダー.{0,20}ダンバン)/],
+    ["ライン", /(?:ライン.{0,40}(?:リーダー|受注|報告)|リーダー.{0,20}ライン)/],
+    ["カルナ", /(?:カルナ.{0,40}(?:リーダー|受注|報告)|リーダー.{0,20}カルナ)/],
+    ["リキ", /(?:リキ.{0,40}(?:リーダー|受注|報告)|リーダー.{0,20}リキ)/],
+    ["フィオルン", /(?:フィオルン.{0,40}(?:リーダー|受注|報告)|リーダー.{0,20}フィオルン)/],
+    ["シュルク", /(?:シュルク.{0,40}(?:リーダー|受注|報告)|リーダー.{0,20}シュルク)/]
   ];
   return patterns.filter(([, pattern]) => pattern.test(text)).map(([name]) => name).join(" → ");
 }
@@ -1875,15 +1875,17 @@ function questScheduleText(questId){
   return schedule ? schedule.givers.flatMap(giver => [giver.name, ...giver.locations.flatMap(slot => [slot.location, slot.time])]).join(" ") : "";
 }
 function questMatchKey(value){
-  return plainText(value).normalize("NFKD").replace(/[\u0300-\u036f]/g, "").toLocaleLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+  return plainText(value).normalize("NFKD").replace(/[\u0300-\u036f]/g, "").toLocaleLowerCase().replace(/[^\p{L}\p{N}]+/gu, " ").trim();
 }
-function questNameMatchKeys(name){
+function questNameMatchKeys(name, id){
   const corrected = String(name || "").replace(/\bAdventureres\b/gi, "Adventurers");
-  return [...new Set([corrected, corrected.replace(/\s*\([^)]*\)\s*$/, "")].map(questMatchKey).filter(Boolean))];
+  const keys = [corrected, corrected.replace(/\s*\([^)]*\)\s*$/, "")];
+  if (id) keys.push(String(id).replace(/^quest-/, "").replace(/-[0-9a-f]{8}$/i, "").replace(/-/g, " ").replace(/\bAdventureres\b/gi, "Adventurers"));
+  return [...new Set(keys.map(questMatchKey).filter(Boolean))];
 }
-function routeTitleMatchesQuest(title, questName){
+function routeTitleMatchesQuest(title, questName, id){
   const titleKey = questMatchKey(title);
-  return questNameMatchKeys(questName).some(nameKey => titleKey.includes(nameKey));
+  return questNameMatchKeys(questName, id).some(nameKey => nameKey && (titleKey.includes(nameKey) || nameKey.endsWith(` ${titleKey}`)));
 }
 function renderQuestSchedules(questIds, compact = false){
   const schedules = [...new Set(questIds || [])].map(questSchedule).filter(Boolean);
@@ -1907,7 +1909,7 @@ function routeQuestScheduleIds(item){
     .filter(binding => binding.targetType === "quest" && binding.routeItemId === item.id && binding.handling === "exact")
     .filter(binding => {
       const schedule = questSchedule(binding.targetId);
-      return schedule && routeTitleMatchesQuest(title, schedule.questName);
+      return schedule && routeTitleMatchesQuest(title, schedule.questName, schedule.questId);
     })
     .forEach(binding => ids.push(binding.targetId));
   return [...new Set(ids)];
@@ -1920,8 +1922,15 @@ function routeSubcheckHint(item, step){
     rawLabelKey.replace(/^(?:complete|collect|accept|turn in|defeat|speak to)\s+/, "")
   ].filter(Boolean))];
   let matches = QUEST_SCHEDULE_DATA.schedules.map(schedule => {
-    const matchedLength = Math.max(0, ...questNameMatchKeys(schedule.questName).map(nameKey =>
-      labelKeys.some(labelKey => labelKey === nameKey || labelKey.startsWith(`${nameKey} `)) ? nameKey.length : 0
+    const matchedLength = Math.max(0, ...questNameMatchKeys(schedule.questName, schedule.questId).map(nameKey =>
+      labelKeys.some(labelKey => {
+        const words = nameKey.split(" ");
+        const tailHit = words.some((_, index) => {
+          const tail = words.slice(index).join(" ");
+          return tail.length >= 8 && (labelKey === tail || labelKey.startsWith(`${tail} `));
+        });
+        return labelKey === nameKey || labelKey.startsWith(`${nameKey} `) || nameKey.endsWith(` ${labelKey}`) || tailHit;
+      }) ? nameKey.length : 0
     ));
     return { schedule, matchedLength };
   }).filter(match => match.matchedLength > 0);
@@ -3214,7 +3223,7 @@ questEl.addEventListener("click", event => {
 // manufacture coordinates: it displays only verified game maps plus their
 // canonical named discovery entries.
 let atlasArea = "", atlasFocus = null, atlasSearch = null;
-function atlasKey(value){return String(value||"").normalize("NFKD").toLowerCase().replace(/&/g," and ").replace(/['’]/g,"").replace(/\([^)]*\)\s*$/g,"").replace(/[^a-z0-9]+/g," ").trim();}
+function atlasKey(value){return String(value||"").normalize("NFKD").toLowerCase().replace(/&/g," and ").replace(/['’]/g,"").replace(/\([^)]*\)\s*$/g,"").replace(/[^\p{L}\p{N}]+/gu," ").trim();}
 function worldRecord(worldId){
   if(!worldReady)return null;
   for(const area of WORLD_DATA.areas){const entry=area.entries.find(candidate=>candidate.id===worldId);if(entry)return{area,entry};}

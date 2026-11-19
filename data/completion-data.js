@@ -657,7 +657,7 @@ const COMPLETION_DATA = {
             },
             {
               "id": "quest-colony-9-delivering-food-ff6d1a95",
-              "name": "Delivering Food",
+              "name": "お弁当を届ける",
               "meta": "Story Quest · Colony 9 (Dunban's House)\r\nAutomatic",
               "details": "Requires: None — Find Shulk and give him the food.",
               "branch": false,
@@ -1797,7 +1797,7 @@ const COMPLETION_DATA = {
             },
             {
               "id": "quest-satorl-marsh-the-ancient-ceremony-0559117c",
-              "name": "The Ancient Ceremony",
+              "name": "古代の儀式",
               "meta": "Nopon Merchant\r\n(Story Quest) · Satorl Marsh (Sororal Statues)\nAnytime",
               "details": "Requires: Sororal Statues reached — Complete preparations for the ceremony.\nPresent the offerings to the Adulthood Emblem to complete the Coming-of-Age Ceremony.\nDefeat the LV28 Satorl Guardian.",
               "branch": false,
@@ -1805,7 +1805,7 @@ const COMPLETION_DATA = {
             },
             {
               "id": "quest-satorl-marsh-ancient-ceremony-offerings-6ccb2479",
-              "name": "Ancient Ceremony Offerings",
+              "name": "儀式の準備",
               "meta": "Nopon Merchant\r\n(Story Quest) · Satorl Marsh (Sororal Statues)\nAnytime",
               "details": "Requires: Sororal Statues reached\r\nThe Ancient Ceremony accepted — Offering in Igna Territory. Collect the Blue Radiant.\nOffering at the Altar of Fate. Collect the Rainbow Radiant.\nOffering at Dark Swamp. Collect the Dull Radiant.\nOffering at Basin Cave. Collect the White Radiant.",
               "branch": false,
@@ -1890,7 +1890,7 @@ const COMPLETION_DATA = {
             },
             {
               "id": "quest-makna-forest-mystery-girl-rescue-96776777",
-              "name": "Mystery Girl Rescue",
+              "name": "謎の少女を救え",
               "meta": "Story Quest · Makna Forest (Contaminated Area) Automatic",
               "details": "Requires: Makna Forest area reached — \"Collect some Water Ether Crystals.\"",
               "branch": false,
@@ -2567,7 +2567,7 @@ const COMPLETION_DATA = {
             },
             {
               "id": "quest-frontier-village-an-errand-for-the-heropon-0207461b",
-              "name": "An Errand for the Heropon",
+              "name": "勇者のお使い",
               "meta": "Story Quest · Frontier Village\nAutomatic",
               "details": "Requires: Frontier Village area reached — Collect Riki's weapon from the Weapon Shop.\nCollect Riki's armour from the Armour Shop.",
               "branch": false,
@@ -2708,7 +2708,7 @@ const COMPLETION_DATA = {
             },
             {
               "id": "quest-eryth-sea-save-the-worker-f2ef1b0c",
-              "name": "Save the Worker",
+              "name": "作業員を救助せよ",
               "meta": "Story Quest · Alcamoth (Whitewing Palace)\nAutomatic",
               "details": "Requires: Alcamoth reached. — Go to Hovering Reef 4 where Syrath Lighthouse is situated and ask where the worker is.\nGo from the back of Syrath Lighthouse to the Ether Crystal Deposit.\nHelp the worker that is being attacked by Kromars.\nTalk to the worker.",
               "branch": false,
@@ -2716,7 +2716,7 @@ const COMPLETION_DATA = {
             },
             {
               "id": "quest-eryth-sea-path-to-prison-island-48dacbcc",
-              "name": "Path to Prison Island",
+              "name": "監獄島への道",
               "meta": "Story Quest · Eryth Sea\r\nAutomatic",
               "details": "Requires: In the course to Prison Island — Open the sister gates Khatorl and Soltnar.\nUnlock the seal that has appeared to be able to reach Prison Island.",
               "branch": false,
@@ -2724,7 +2724,7 @@ const COMPLETION_DATA = {
             },
             {
               "id": "quest-eryth-sea-sister-seals-c9046416",
-              "name": "Sister Seals",
+              "name": "封印の姉妹門",
               "meta": "Story Quest · Eryth Sea\r\nAutomatic",
               "details": "Requires: In the course to Prison Island\r\nPath to Prison Island accepted — Release the seal on Khatorl Seal Island.\nRelease the seal on Soltnar Seal Island.",
               "branch": false,
@@ -3294,7 +3294,7 @@ const COMPLETION_DATA = {
             },
             {
               "id": "quest-valak-mountain-the-magma-rock-be7e2048",
-              "name": "The Magma Rock",
+              "name": "ヴァラクの熱い石",
               "meta": "Story Quest · Valak Mountain (Sealed Tower)",
               "details": "Requires: Automatic — Collect a Magma Rock from a cave near a geyser.\r\nUse the Magma Rock to melt the ice covering the door.",
               "branch": false,
@@ -3608,7 +3608,7 @@ const COMPLETION_DATA = {
             },
             {
               "id": "quest-fallen-arm-reunion-with-fiora-b00e4e65",
-              "name": "Reunion with Fiora",
+              "name": "フィオルンとの再会",
               "meta": "Story Quest · Automatic",
               "details": "Requires: Fallen Arm area reached — Investigate the beach and get some water for Fiora.",
               "branch": false,
@@ -3616,7 +3616,7 @@ const COMPLETION_DATA = {
             },
             {
               "id": "quest-fallen-arm-we-made-it-4429533c",
-              "name": "We Made It",
+              "name": "仲間は生きている",
               "meta": "Story Quest · Automatic",
               "details": "Requires: Fallen Arm area reached\r\nReunion with Fiora — Find your friends.\nFind the rest of your friends.",
               "branch": false,
@@ -3624,7 +3624,7 @@ const COMPLETION_DATA = {
             },
             {
               "id": "quest-fallen-arm-fiora-s-treatment-203a0705",
-              "name": "Fiora's Treatment",
+              "name": "フィオルンの治療",
               "meta": "Linada (Story Quest) · Automatic",
               "details": "Requires: Miqol met in the Hidden Machina Village — Find a Piezoelectric Unit amongst the Mechon wreckage on Digit 5 Beach of the Fallen Arm.",
               "branch": false,
@@ -3669,7 +3669,7 @@ const COMPLETION_DATA = {
             },
             {
               "id": "quest-mechonis-field-aiming-for-the-top-dc2d2e44",
-              "name": "Aiming for the Top",
+              "name": "上層を目指せ",
               "meta": "Story Quest · Mechonis Field (2nd Lift - GF)\r\nAutomatic",
               "details": "Requires: Mechonis Field area reached — \"Use the GF Master Power Panel to start the 2nd Lift.\"",
               "branch": false,
@@ -3677,7 +3677,7 @@ const COMPLETION_DATA = {
             },
             {
               "id": "quest-mechonis-field-get-the-3rd-lift-moving-73bf4423",
-              "name": "Get the 3rd Lift Moving",
+              "name": "第3リフトを起動しろ",
               "meta": "Story Quest · Mechonis Field (2nd Lift - 1F)\nAutomatic",
               "details": "Requires: Mechonis Field area reached\r\nAiming for the Top — \"Use the 1F Master Power Panel to get the Cylinder Activation Panel on the floor working.\"\r\n\"Use the Cylinder Activation Panel to get the cylinder working.\"\r\n\"Use the 3rd Lift Activation Panel in the 3rd Lift Engine Room to connect the power plug.\"",
               "branch": false,
@@ -3685,7 +3685,7 @@ const COMPLETION_DATA = {
             },
             {
               "id": "quest-mechonis-field-opening-the-bulkhead-2e419184",
-              "name": "Opening the Bulkhead",
+              "name": "大隔壁を開放せよ",
               "meta": "Story Quest · Mechonis Field (3rd Lift - 3F)\nAutomatic",
               "details": "Requires: Mechonis Field area reached\r\nGet the 3rd Lift Moving — \"Use the 3F Master Power Panel to get the Bulkhead Control Panel working.\"\r\n\"Use the Bulkhead Control Panel to release the Bulkhead.\"",
               "branch": false,
@@ -3693,7 +3693,7 @@ const COMPLETION_DATA = {
             },
             {
               "id": "quest-mechonis-field-the-high-velocity-lift-7e8ecd3d",
-              "name": "The High-Velocity Lift",
+              "name": "高速リフトを起動せよ",
               "meta": "Story Quest · Mechonis Field (Upper Bulkhead Bridge)\nAutomatic",
               "details": "Requires: Mechonis Field area reached\r\nOpening the Bulkhead — \"Provide power to the High-Velocity Lift Panel.\"\r\n\"Use the High-Velocity Lift Panel to connect the power plug.\"",
               "branch": false,
@@ -3701,7 +3701,7 @@ const COMPLETION_DATA = {
             },
             {
               "id": "quest-mechonis-field-need-power-514fff96",
-              "name": "Need Power!",
+              "name": "電源を供給せよ",
               "meta": "Story Quest · Mechonis Field (Upper Bulkhead Bridge)\nAutomatic",
               "details": "Requires: Mechonis Field area reached\r\nOpening the Bulkhead\r\nThe High-Velocity Lift accepted — \"Use the 1st Power Supply Panel in Power Supply Area 1 to supply power to the lift panel.\"\r\n\"Use the 2nd Power Supply Panel in Power Supply Area 2 to supply power to the lift panel.\"",
               "branch": false,
@@ -3746,7 +3746,7 @@ const COMPLETION_DATA = {
             },
             {
               "id": "quest-central-factory-to-the-central-tower-8f337a65",
-              "name": "To the Central Tower",
+              "name": "中央塔を目指せ",
               "meta": "Story Quest · Central Factory (Central Gate)",
               "details": "Requires: Central Factory area reached — \"Go to Maintenance Entrance 1.\"",
               "branch": false,
@@ -3754,7 +3754,7 @@ const COMPLETION_DATA = {
             },
             {
               "id": "quest-central-factory-maintenance-wing-escape-4eed6fe9",
-              "name": "Maintenance Wing Escape",
+              "name": "整備棟を抜けろ",
               "meta": "Story Quest · Central Factory (Maintenance Wing)",
               "details": "Requires: Central Factory area reached\r\nTo the Central Tower — \"Use the Barrier Control Panel to release the electrical barrier.\"",
               "branch": false,
@@ -3762,7 +3762,7 @@ const COMPLETION_DATA = {
             },
             {
               "id": "quest-central-factory-find-a-path-to-the-top-ee4f7c11",
-              "name": "Find a Path to the Top",
+              "name": "上層への道を探せ",
               "meta": "Story Quest · Central Factory (Central Warehouse Lift)",
               "details": "Requires: Central Factory area reached\r\nMaintenance Wing Escape — \"Find a way to infiltrate the Mechon Factory.\"\n\"Collect materials for the bomb.\nMaterials for a Bomb is triggered and must be completed first.\n\"Use the Weapon Creation Panel in the Maintenance Wing to make a bomb.\"\n\"Use the bomb to blast open the vent.\"",
               "branch": false,
@@ -3770,7 +3770,7 @@ const COMPLETION_DATA = {
             },
             {
               "id": "quest-central-factory-materials-for-a-bomb-b65dfdde",
-              "name": "Materials for a Bomb",
+              "name": "爆弾の材料を集めろ",
               "meta": "Story Quest · Central Factory (Factory Vent)",
               "details": "Requires: Central Factory area reached\r\nMaintenance Wing Escape\r\nFind a Path to the Top accepted — \"Collect an Electrical Fuse from the M88 Watchtower guarding the Main Factory Gate.\"\r\n\"Collect an Ether Explosive from the M97 Commander in the Large Mechon Store.\"\r\n\"Collect a Timer from a flying Mechon in the central container storeroom.\"",
               "branch": false,
@@ -3778,7 +3778,7 @@ const COMPLETION_DATA = {
             },
             {
               "id": "quest-central-factory-the-central-tower-barrier-500279fe",
-              "name": "The Central Tower Barrier",
+              "name": "中央塔の障壁",
               "meta": "Story Quest · Central Factory (Tower Boarding Gate)",
               "details": "Requires: Central Factory area reached\r\nFind a Path to the Top\r\nMaterials for a Bomb — \"Turn off the electrical barrier.\"\r\n\"Reach the peak of the tower.\"",
               "branch": false,
@@ -3903,7 +3903,7 @@ const COMPLETION_DATA = {
             },
             {
               "id": "quest-agniratha-shrine-transport-793d97cb",
-              "name": "Shrine Transport",
+              "name": "神殿への転送装置",
               "meta": "Story Quest · Automatic",
               "details": "Use the verification devices on the four pillars to unlock the transporter\nActivate the transport at the Data Centre at the top of the Central Tower\nGo to the transporter that will take you to the Meyneth Shrine",
               "branch": false,
@@ -3911,7 +3911,7 @@ const COMPLETION_DATA = {
             },
             {
               "id": "quest-agniratha-pillar-verification-devices-19c243b2",
-              "name": "Pillar Verification Devices",
+              "name": "四柱の認証装置",
               "meta": "Story Quest · Automatic",
               "details": "\"Use the Verification Device on Calcos Pillar.\"\r\n\"Use the Verification Device on Helas Pillar.\"\r\n\"Use the Verification Device on Dios Pillar.\"\r\n\"Use the Verification Device on Cleas Pillar.\"",
               "branch": false,
@@ -3919,7 +3919,7 @@ const COMPLETION_DATA = {
             },
             {
               "id": "quest-agniratha-save-bionis-45732bab",
-              "name": "Save Bionis",
+              "name": "巨神界の崩壊を止める",
               "meta": "Story Quest · Automatic",
               "details": "Requires: Mechonis Core reached — Defeat 3 Energy Devices around Yaldabaoth.",
               "branch": false,

@@ -12,7 +12,7 @@ const MONSTERPEDIA_DATA = {
   "entries": [
     {
       "id": "monster-base-abnormal-brog-31a67f8f",
-      "name": "Abnormal Brog",
+      "name": "悪食のグロッグ",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "16",
@@ -89,7 +89,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-abnormal-clone-barg-73306b1c",
-      "name": "Abnormal Clone Barg",
+      "name": "悪食のクロンボーク",
       "game": "base",
       "category": "Unique Monster",
       "level": "77",
@@ -201,7 +201,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-abominable-hiln-3b3ea788",
-      "name": "Abominable Hiln",
+      "name": "重犯のヒルン",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "34",
@@ -273,7 +273,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-acid-upa-df2512c1",
-      "name": "Acid Upa",
+      "name": "アシッド・ウーパー",
       "game": "base",
       "category": "Normal Enemy",
       "level": "22-23",
@@ -405,7 +405,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-active-impulso-5a2cf27d",
-      "name": "Active Impulso",
+      "name": "能動のインプルソ",
       "game": "base",
       "category": "Unique Monster",
       "level": "72",
@@ -487,7 +487,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-admiral-arachno-5281ba26",
-      "name": "Admiral Arachno",
+      "name": "アドミラル・スパイド",
       "game": "base",
       "category": "Normal Enemy",
       "level": "73",
@@ -629,7 +629,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-affluent-beleth-6f04d711",
-      "name": "Affluent Beleth",
+      "name": "宝幸のベレト",
       "game": "base",
       "category": "Unique Monster",
       "level": "57",
@@ -751,7 +751,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-aged-leraje-d9922798",
-      "name": "Aged Leraje",
+      "name": "早老のレラジェ",
       "game": "base",
       "category": "Unique Monster",
       "level": "56",
@@ -873,7 +873,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-ageless-moabit-f23ba2ca",
-      "name": "Ageless Moabit",
+      "name": "不老のモアビート",
       "game": "base",
       "category": "Unique Monster",
       "level": "75",
@@ -980,7 +980,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-aggressive-cornelius-1319560d",
-      "name": "Aggressive Cornelius",
+      "name": "衝撃のレオポルド",
       "game": "base",
       "category": "Unique Monster",
       "level": "28",
@@ -1112,7 +1112,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-agile-albatro-419bf22f",
-      "name": "Agile Albatro",
+      "name": "流麗のアルバトロ",
       "game": "base",
       "category": "Unique Monster",
       "level": "33",
@@ -1224,7 +1224,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-agile-barbatos-eb420e62",
-      "name": "Agile Barbatos",
+      "name": "秀麗のバルバトス",
       "game": "base",
       "category": "Unique Monster",
       "level": "47",
@@ -1331,7 +1331,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-air-vang-1cef2f85",
-      "name": "Air Vang",
+      "name": "エアー・ヴァンプ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "6",
@@ -1458,7 +1458,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-amber-fischer-3709be53",
-      "name": "Amber Fischer",
+      "name": "琥珀のフィッシャー",
       "game": "base",
       "category": "Unique Monster",
       "level": "27",
@@ -1585,7 +1585,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-ammos-orluga-c607b8ef",
-      "name": "Ammos Orluga",
+      "name": "アンモス・オルガ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "32-34",
@@ -1692,7 +1692,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-amorous-arca-4eddd80b",
-      "name": "Amorous Arca",
+      "name": "艶笑のアールカ",
       "game": "base",
       "category": "Unique Monster",
       "level": "57",
@@ -1819,7 +1819,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-ancient-daedala-60a4dc41",
-      "name": "Ancient Daedala",
+      "name": "太古のデイダラ",
       "game": "base",
       "category": "Unique Monster (Superboss)",
       "level": "105",
@@ -1973,7 +1973,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-ancient-rhogulia-73835ce1",
-      "name": "Ancient Rhogulia",
+      "name": "太古鳥ロゴリア",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "63-64",
@@ -2050,7 +2050,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-aora-telethia-fcd8d86a",
-      "name": "Aora Telethia",
+      "name": "アオロ・テレシア",
       "game": "base",
       "category": "Normal Enemy",
       "level": "88",
@@ -2293,7 +2293,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-aqua-nebula-47bf22ce",
-      "name": "Aqua Nebula",
+      "name": "アクア・ネブラ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "17",
@@ -2627,7 +2627,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-arachno-queen-8dd408e5",
-      "name": "Arachno Queen",
+      "name": "スパイド・クイーン",
       "game": "base",
       "category": "Boss",
       "level": "12",
@@ -2658,7 +2658,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-archer-hode-ead75598",
-      "name": "Archer Hode",
+      "name": "テヒト・フーディ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "34",
@@ -2887,7 +2887,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-arel-telethia-54c8f59d",
-      "name": "Arel Telethia",
+      "name": "アレル・テレシア",
       "game": "base",
       "category": "Normal Enemy",
       "level": "86-87",
@@ -3089,7 +3089,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-arena-orluga-83b784b4",
-      "name": "Arena Orluga",
+      "name": "アレーナ・オルガ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "34",
@@ -3303,7 +3303,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-armoured-rockwell-bdfd6836",
-      "name": "Armoured Rockwell",
+      "name": "甲殻のロックウェル",
       "game": "base",
       "category": "Unique Monster",
       "level": "82",
@@ -3425,7 +3425,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-arrogant-tirkin-8b6ca449",
-      "name": "Arrogant Tirkin",
+      "name": "増長のターキン",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "19",
@@ -3502,7 +3502,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-asara-telethia-4d96695a",
-      "name": "Asara Telethia",
+      "name": "アサラ・テレシア",
       "game": "base",
       "category": "Normal Enemy",
       "level": "89",
@@ -3819,7 +3819,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-asha-telethia-0f698bcc",
-      "name": "Asha Telethia",
+      "name": "アーシャ・テレシア",
       "game": "base",
       "category": "Normal Enemy",
       "level": "68",
@@ -3921,7 +3921,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-ashy-orluga-33d8dd60",
-      "name": "Ashy Orluga",
+      "name": "灰汚れオルガ",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "38-41",
@@ -3998,7 +3998,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-assault-flamii-92d6be8f",
-      "name": "Assault Flamii",
+      "name": "急襲のフラミー",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "17",
@@ -4070,7 +4070,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-atmos-flier-ef1dd16f",
-      "name": "Atmos Flier",
+      "name": "アトモス・フライア",
       "game": "base",
       "category": "Normal Enemy",
       "level": "25",
@@ -4197,7 +4197,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-atomis-ansel-f2dc5594",
-      "name": "Atomis Ansel",
+      "name": "アトミス・アンセル",
       "game": "base",
       "category": "Normal Enemy",
       "level": "45-46",
@@ -4309,7 +4309,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-atomizek-ansel-09b6c908",
-      "name": "Atomizek Ansel",
+      "name": "アトミゼク・アンセル",
       "game": "base",
       "category": "Normal Enemy",
       "level": "46",
@@ -4411,7 +4411,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-aura-antol-ab46fe83",
-      "name": "Aura Antol",
+      "name": "アウラ・アントル",
       "game": "base",
       "category": "Normal Enemy",
       "level": "53",
@@ -4518,7 +4518,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-avalanche-abaasy-3fc98be5",
-      "name": "Avalanche Abaasy",
+      "name": "雪檻のアバーシ",
       "game": "base",
       "category": "Unique Monster (Superboss)",
       "level": "120",
@@ -4600,7 +4600,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-azul-andos-ff11648c",
-      "name": "Azul Andos",
+      "name": "アスール・アンドス",
       "game": "base",
       "category": "Normal Enemy",
       "level": "35",
@@ -4727,7 +4727,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-babel-deinos-ba975010",
-      "name": "Babel Deinos",
+      "name": "ベルベール・ディノス",
       "game": "base",
       "category": "Normal Enemy",
       "level": "75",
@@ -4839,7 +4839,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-babeli-barg-d9ebd96d",
-      "name": "Babeli Barg",
+      "name": "バベリ・ボーク",
       "game": "base",
       "category": "Normal Enemy",
       "level": "74-76",
@@ -4951,7 +4951,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-baby-armu-a1306433",
-      "name": "Baby Armu",
+      "name": "ベビー・アルマ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "8-10",
@@ -5210,7 +5210,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-baelzeb-gogol-6553ffb1",
-      "name": "Baelzeb Gogol",
+      "name": "ベルゼブ・ゴゴール",
       "game": "base",
       "category": "Normal Enemy",
       "level": "81-84",
@@ -5347,7 +5347,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-bagrus-nebula-d64894fa",
-      "name": "Bagrus Nebula",
+      "name": "バグルス・ネブラ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "96",
@@ -5484,7 +5484,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-balanced-palamedes-84a14c1e",
-      "name": "Balanced Palamedes",
+      "name": "天秤のパロミデス",
       "game": "base",
       "category": "Unique Monster",
       "level": "62",
@@ -5611,7 +5611,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-banquet-vassago-99925d64",
-      "name": "Banquet Vassago",
+      "name": "宴楽のウァサゴ",
       "game": "base",
       "category": "Quest Exclusive Unique Monster",
       "level": "48",
@@ -5728,7 +5728,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-barbaric-sitri-ec0816b4",
-      "name": "Barbaric Sitri",
+      "name": "蛮行のシトリー",
       "game": "base",
       "category": "Unique Monster",
       "level": "47",
@@ -5870,7 +5870,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-barbaro-igna-3c2f9acd",
-      "name": "Barbaro Igna",
+      "name": "バルバロ・イグーナ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "27",
@@ -6002,7 +6002,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-basin-antol-8d24f253",
-      "name": "Basin Antol",
+      "name": "ベイスン・アントル",
       "game": "base",
       "category": "Normal Enemy",
       "level": "15-16",
@@ -6119,7 +6119,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-beach-krabble-1018dc04",
-      "name": "Beach Krabble",
+      "name": "ビーチ・クライブ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "1-5",
@@ -6231,7 +6231,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-beautiful-vagul-25148963",
-      "name": "Beautiful Vagul",
+      "name": "梅花のヴァグール",
       "game": "base",
       "category": "Unique Monster",
       "level": "60",
@@ -6348,7 +6348,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-benevolent-aim-95ebefbb",
-      "name": "Benevolent Aim",
+      "name": "博愛のアイム",
       "game": "base",
       "category": "Unique Monster",
       "level": "51",
@@ -6487,7 +6487,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-big-brog-9d0ec79a",
-      "name": "Big Brog",
+      "name": "ビッグ・グロッグ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "18",
@@ -6604,7 +6604,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-bizarre-ragoel-dad47484",
-      "name": "Bizarre Ragoel",
+      "name": "猟奇のラゴエル",
       "game": "base",
       "category": "Unique Monster",
       "level": "88",
@@ -6741,7 +6741,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-black-flamii-42ce4095",
-      "name": "Black Flamii",
+      "name": "ブルック・フラミー",
       "game": "base",
       "category": "Normal Enemy",
       "level": "12",
@@ -6853,7 +6853,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-black-smoke-hox-a2263916",
-      "name": "Black Smoke Hox",
+      "name": "黒煙のホッグス",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "30",
@@ -6925,7 +6925,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-blizzard-belgazas-92124e32",
-      "name": "Blizzard Belgazas",
+      "name": "豪雪のベルガザス",
       "game": "base",
       "category": "Unique Monster (Superboss)",
       "level": "114",
@@ -7017,7 +7017,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-bois-hode-8d6a8ae0",
-      "name": "Bois Hode",
+      "name": "ボワ・フーディ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "29",
@@ -7124,7 +7124,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-bono-nebula-3c4aa4a4",
-      "name": "Bono Nebula",
+      "name": "ボーノ・ネブラ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "35",
@@ -7256,7 +7256,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-bonterra-pod-97cdfdcc",
-      "name": "Bonterra Pod",
+      "name": "ボンテラ・ポッド",
       "game": "base",
       "category": "Normal Enemy",
       "level": "42",
@@ -7368,7 +7368,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-bosque-hode-2005d82b",
-      "name": "Bosque Hode",
+      "name": "ボスケ・フーディ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "30",
@@ -7475,7 +7475,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-bow-chilkin-77fc9414",
-      "name": "Bow Chilkin",
+      "name": "ボウ・チルキン",
       "game": "base",
       "category": "Normal Enemy",
       "level": "39-42",
@@ -7587,7 +7587,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-brabilam-vang-cf5c1eed",
-      "name": "Brabilam Vang",
+      "name": "ブラビラム・ヴァンプ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "88-92",
@@ -7846,7 +7846,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-breezy-zolos-4dc82962",
-      "name": "Breezy Zolos",
+      "name": "春風のゾルホス",
       "game": "base",
       "category": "Unique Monster",
       "level": "37",
@@ -7963,7 +7963,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-bright-wisp-11744f1a",
-      "name": "Bright Wisp",
+      "name": "濃密のランプス",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "53",
@@ -8035,7 +8035,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-broken-mechon-38cf4f23",
-      "name": "Broken Mechon",
+      "name": "補修中機神兵",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "58",
@@ -8102,7 +8102,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-brutal-gravar-cd4103a5",
-      "name": "Brutal Gravar",
+      "name": "残虐のグラーヴァ",
       "game": "base",
       "category": "Unique Monster",
       "level": "46",
@@ -8244,7 +8244,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-buio-vang-1a967a88",
-      "name": "Buio Vang",
+      "name": "ブーイオ・ヴァンプ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "40-42",
@@ -8386,7 +8386,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-bulganon-nebula-3595f6b4",
-      "name": "Bulganon Nebula",
+      "name": "ブルガノン・ネブラ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "85",
@@ -8528,7 +8528,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-bunker-wisp-8fcace4b",
-      "name": "Bunker Wisp",
+      "name": "トーチカ・ランプス",
       "game": "base",
       "category": "Normal Enemy",
       "level": "26",
@@ -8655,7 +8655,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-buono-nebula-96f137d7",
-      "name": "Buono Nebula",
+      "name": "ブオーノ・ネブラ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "33",
@@ -8787,7 +8787,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-caelum-volff-e69f28d4",
-      "name": "Caelum Volff",
+      "name": "カエルム・ヴォルフ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "54",
@@ -8909,7 +8909,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-calm-anzabi-3930f78e",
-      "name": "Calm Anzabi",
+      "name": "安寧のアンザビ",
       "game": "base",
       "category": "Unique Monster",
       "level": "38",
@@ -9041,7 +9041,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-canyon-valencia-dcfb10d2",
-      "name": "Canyon Valencia",
+      "name": "渓谷のバレンシア",
       "game": "base",
       "category": "Unique Monster",
       "level": "78",
@@ -9168,7 +9168,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-captain-arachno-26df82ad",
-      "name": "Captain Arachno",
+      "name": "コマンダー・スパイド",
       "game": "base",
       "category": "Story Exclusive Enemy",
       "level": "9",
@@ -9199,7 +9199,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-carbon-tude-b0e107f6",
-      "name": "Carbon Tude",
+      "name": "カルボン・トゥード",
       "game": "base",
       "category": "Normal Enemy",
       "level": "88-89",
@@ -9336,7 +9336,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-caris-nebula-82fa0b7d",
-      "name": "Caris Nebula",
+      "name": "カーリス・ネブラ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "36",
@@ -9478,7 +9478,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-caura-balgas-e3a95dce",
-      "name": "Caura Balgas",
+      "name": "カウラ・バルカス",
       "game": "base",
       "category": "Normal Enemy",
       "level": "77",
@@ -9595,7 +9595,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-cautious-balteid-ea667247",
-      "name": "Cautious Balteid",
+      "name": "慎重なバルトエイト",
       "game": "base",
       "category": "Unique Monster",
       "level": "26",
@@ -9854,7 +9854,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-cellar-bugworm-0aac1427",
-      "name": "Cellar Bugworm",
+      "name": "穴蔵のバグワム",
       "game": "base",
       "category": "Unique Monster",
       "level": "10",
@@ -9971,7 +9971,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-chimai-selua-5b3f9476",
-      "name": "Chimai Selua",
+      "name": "チマイ・セルラ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "75",
@@ -10043,7 +10043,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-chloro-laia-2da1db0d",
-      "name": "Chloro Laia",
+      "name": "クローロ・ライア",
       "game": "base",
       "category": "Normal Enemy",
       "level": "34",
@@ -10170,7 +10170,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-chordy-skeeter-a0822068",
-      "name": "Chordy Skeeter",
+      "name": "コーディ・スキート",
       "game": "base",
       "category": "Normal Enemy",
       "level": "34-35",
@@ -10282,7 +10282,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-ciconia-ekidno-67967437",
-      "name": "Ciconia Ekidno",
+      "name": "キコニア・エキドナ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "38-40",
@@ -10399,7 +10399,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-clamorous-dablon-6e071072",
-      "name": "Clamorous Dablon",
+      "name": "雷鳴のダブロン",
       "game": "base",
       "category": "Unique Monster",
       "level": "92",
@@ -10546,7 +10546,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-clandestine-apety-42e18f00",
-      "name": "Clandestine Apety",
+      "name": "秘奥のアペティ",
       "game": "base",
       "category": "Unique Monster",
       "level": "74",
@@ -10638,7 +10638,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-clap-bunniv-b836d8d2",
-      "name": "Clap Bunniv",
+      "name": "クラップ・バニーヴ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "3-4",
@@ -10756,7 +10756,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-clifftop-bayern-159d63b9",
-      "name": "Clifftop Bayern",
+      "name": "崖上のバイエルン",
       "game": "base",
       "category": "Unique Monster",
       "level": "32",
@@ -10858,7 +10858,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-clima-flier-ebd0f015",
-      "name": "Clima Flier",
+      "name": "クリマ・フライア",
       "game": "base",
       "category": "Normal Enemy",
       "level": "17",
@@ -10975,7 +10975,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-clinger-antol-82115b41",
-      "name": "Clinger Antol",
+      "name": "キリング・アントル",
       "game": "base",
       "category": "Normal Enemy",
       "level": "35-38",
@@ -11087,7 +11087,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-clowd-flier-722d8c3d",
-      "name": "Clowd Flier",
+      "name": "クラウド・フライア",
       "game": "base",
       "category": "Normal Enemy",
       "level": "14",
@@ -11184,7 +11184,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-cold-ageshu-f7a52181",
-      "name": "Cold Ageshu",
+      "name": "白眼のアーケシュ",
       "game": "base",
       "category": "Unique Monster",
       "level": "77",
@@ -11291,7 +11291,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-colony-flier-60d17f5a",
-      "name": "Colony Flier",
+      "name": "コロニー・フライア",
       "game": "base",
       "category": "Normal Enemy",
       "level": "16",
@@ -11582,7 +11582,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-colony-lizard-cfc1feb0",
-      "name": "Colony Lizard",
+      "name": "コロニー・リザド",
       "game": "base",
       "category": "Normal Enemy",
       "level": "19-21",
@@ -11709,7 +11709,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-colony-piranhax-edaba371",
-      "name": "Colony Piranhax",
+      "name": "コロニー・サモン",
       "game": "base",
       "category": "Normal Enemy",
       "level": "5-8",
@@ -11831,7 +11831,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-colony-upa-21c85741",
-      "name": "Colony Upa",
+      "name": "コロニー・ウーパー",
       "game": "base",
       "category": "Normal Enemy",
       "level": "19-21",
@@ -11958,7 +11958,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-colony-wisp-1a2273b0",
-      "name": "Colony Wisp",
+      "name": "コロニー・ランプス",
       "game": "base",
       "category": "Normal Enemy",
       "level": "18",
@@ -12080,7 +12080,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-commander-oracion-ace20951",
-      "name": "Commander Oracion",
+      "name": "将星のオラシオン",
       "game": "base",
       "category": "Unique Monster",
       "level": "61",
@@ -12356,7 +12356,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-conflagrant-raxeal-0fa31eff",
-      "name": "Conflagrant Raxeal",
+      "name": "炎獄のレクシール",
       "game": "base",
       "category": "Quest Exclusive Unique Monster",
       "level": "45",
@@ -12428,7 +12428,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-confusion-ekidno-f1a7e67d",
-      "name": "Confusion Ekidno",
+      "name": "雑然のエキドナ",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "37",
@@ -12490,7 +12490,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-coppice-quadwing-f8b9f81d",
-      "name": "Coppice Quadwing",
+      "name": "コピス・クロード",
       "game": "base",
       "category": "Normal Enemy",
       "level": "23-24",
@@ -12617,7 +12617,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-corladio-apis-ab4e6b96",
-      "name": "Corladio Apis",
+      "name": "コラティオ・アピス",
       "game": "base",
       "category": "Normal Enemy",
       "level": "42",
@@ -12729,7 +12729,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-corriente-krabble-7c639219",
-      "name": "Corriente Krabble",
+      "name": "コリエンテ・クライブ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "53",
@@ -12943,7 +12943,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-craft-bunnit-38448d08",
-      "name": "Craft Bunnit",
+      "name": "クラフト・バニット",
       "game": "base",
       "category": "Normal Enemy",
       "level": "11",
@@ -13050,7 +13050,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-cratere-nebula-0c31390a",
-      "name": "Cratere Nebula",
+      "name": "クラテーレ・ネブラ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "77",
@@ -13157,7 +13157,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-crisis-response-unit-e2803d1c",
-      "name": "Crisis Response Unit",
+      "name": "緊急防衛型強襲式",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "60",
@@ -13234,7 +13234,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-crista-apis-c6aa4790",
-      "name": "Crista Apis",
+      "name": "クリスタ・アピス",
       "game": "base",
       "category": "Normal Enemy",
       "level": "42",
@@ -13346,7 +13346,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-cruz-pagul-4f71f301",
-      "name": "Cruz Pagul",
+      "name": "クルス・パグール",
       "game": "base",
       "category": "Normal Enemy",
       "level": "33",
@@ -13473,7 +13473,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-cumulus-danaemos-e9c10dce",
-      "name": "Cumulus Danaemos",
+      "name": "積雲のダネイモス",
       "game": "base",
       "category": "Unique Monster",
       "level": "41",
@@ -13590,7 +13590,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-cunning-chilkin-8ac47b3f",
-      "name": "Cunning Chilkin",
+      "name": "悪辣なチルキン",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "42-44",
@@ -13662,7 +13662,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-cute-brog-ead175ed",
-      "name": "Cute Brog",
+      "name": "キュート・グロッグ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "5-6",
@@ -13784,7 +13784,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-cute-caterpile-c24dc11b",
-      "name": "Cute Caterpile",
+      "name": "キュート・キャピル",
       "game": "base",
       "category": "Normal Enemy",
       "level": "4",
@@ -13906,7 +13906,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-daksha-pod-b015c5c5",
-      "name": "Daksha Pod",
+      "name": "ダクシャ・ポッド",
       "game": "base",
       "category": "Normal Enemy",
       "level": "11",
@@ -14023,7 +14023,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-dark-hox-5b29cfbf",
-      "name": "Dark Hox",
+      "name": "アートルム・ホッグス",
       "game": "base",
       "category": "Normal Enemy",
       "level": "74-76",
@@ -14165,7 +14165,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-dark-king-barbarus-7b318c01",
-      "name": "Dark King Barbarus",
+      "name": "冥王のバルバルス",
       "game": "base",
       "category": "Unique Monster",
       "level": "77",
@@ -14247,7 +14247,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-dark-kisling-6ef3cd9e",
-      "name": "Dark Kisling",
+      "name": "暗闇のキスリング",
       "game": "base",
       "category": "Unique Monster",
       "level": "20",
@@ -14369,7 +14369,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-dark-murakmor-1e3b2847",
-      "name": "Dark Murakmor",
+      "name": "常闇のムラクモ",
       "game": "base",
       "category": "Unique Monster",
       "level": "18",
@@ -14451,7 +14451,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-daughter-armu-c1fe159f",
-      "name": "Daughter Armu",
+      "name": "ドーター・アルマ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "10",
@@ -14563,7 +14563,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-daughter-empress-f66068b8",
-      "name": "Daughter Empress",
+      "name": "ドーター・エンプレス",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "30",
@@ -14640,7 +14640,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-dazzling-tolosnia-a60c5c1d",
-      "name": "Dazzling Tolosnia",
+      "name": "閃光のトロスニア",
       "game": "base",
       "category": "Quest Exclusive Unique Monster",
       "level": "97",
@@ -14782,7 +14782,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-deadly-medorlo-fb9d8d9e",
-      "name": "Deadly Medorlo",
+      "name": "終焉のメデオウロ",
       "game": "base",
       "category": "Unique Monster",
       "level": "93",
@@ -14909,7 +14909,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-decay-ekidno-7cdbde5d",
-      "name": "Decay Ekidno",
+      "name": "崩壊のエキドナ",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "39-41",
@@ -14971,7 +14971,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-defective-ipos-f26c6dc6",
-      "name": "Defective Ipos",
+      "name": "老朽のイポス",
       "game": "base",
       "category": "Unique Monster",
       "level": "50",
@@ -15083,7 +15083,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-defensive-guard-unit-e537b2d2",
-      "name": "Defensive Guard Unit",
+      "name": "防衛式親衛機",
       "game": "base",
       "category": "Story Exclusive Enemy",
       "level": "53",
@@ -15114,7 +15114,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-defensive-kromar-1d24e2c7",
-      "name": "Defensive Kromar",
+      "name": "守勢のスピカル",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "36",
@@ -15186,7 +15186,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-defensive-guard-5913a6fe",
-      "name": "Defensive/GUARD",
+      "name": "防衛式・ＧＵＡＲＤ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "58-62",
@@ -15599,7 +15599,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-deified-queen-1f3f55d6",
-      "name": "Deified Queen",
+      "name": "鎮守のクイーン",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "32",
@@ -15656,7 +15656,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-deinos-sauros-fc3f20e7",
-      "name": "Deinos Sauros",
+      "name": "ディノル・サウラー",
       "game": "base",
       "category": "Normal Enemy",
       "level": "98",
@@ -15793,7 +15793,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-deluded-igna-7a884e67",
-      "name": "Deluded Igna",
+      "name": "妄執のイグーナ",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "24-25",
@@ -15865,7 +15865,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-demon-king-dragonia-ce9af181",
-      "name": "Demon King Dragonia",
+      "name": "悪魔王ドラゴニア",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "99",
@@ -15942,7 +15942,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-demon-pavlovsk-b8236d4a",
-      "name": "Demon Pavlovsk",
+      "name": "魔界獣パヴロフスク",
       "game": "base",
       "category": "Boss",
       "level": "78",
@@ -16116,7 +16116,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-despotic-arsene-28eb0aa9",
-      "name": "Despotic Arsene",
+      "name": "暴帝のアルセーヌ",
       "game": "base",
       "category": "Unique Monster (Superboss)",
       "level": "108",
@@ -16198,7 +16198,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-destroyer-salvacion-9c640d47",
-      "name": "Destroyer Salvacion",
+      "name": "隠滅のサルバシオン",
       "game": "base",
       "category": "Unique Monster",
       "level": "59",
@@ -16335,7 +16335,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-destructive-bors-5aa56764",
-      "name": "Destructive Bors",
+      "name": "修羅のボールス",
       "game": "base",
       "category": "Unique Monster",
       "level": "64",
@@ -16594,7 +16594,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-devoted-arachno-294ec62c",
-      "name": "Devoted Arachno",
+      "name": "執心のスパイド",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "9",
@@ -16666,7 +16666,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-dim-wisp-88b50b5b",
-      "name": "Dim Wisp",
+      "name": "陰光のランプス",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "24",
@@ -16728,7 +16728,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-director-arachno-fd9fe675",
-      "name": "Director Arachno",
+      "name": "ディレク・スパイド",
       "game": "base",
       "category": "Normal Enemy",
       "level": "9-10",
@@ -16902,7 +16902,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-dogmatic-gogol-000e186a",
-      "name": "Dogmatic Gogol",
+      "name": "戒律のゴゴール",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "35",
@@ -16959,7 +16959,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-doom-hox-58b8b91f",
-      "name": "Doom Hox",
+      "name": "ドゥーム・ホッグス",
       "game": "base",
       "category": "Normal Enemy",
       "level": "24",
@@ -17086,7 +17086,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-dorsiar-lizard-5e556610",
-      "name": "Dorsiar Lizard",
+      "name": "ドルシエ・リザド",
       "game": "base",
       "category": "Normal Enemy",
       "level": "91-92",
@@ -17228,7 +17228,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-dragon-king-alcar-69ffba6a",
-      "name": "Dragon King Alcar",
+      "name": "竜王アルカトラズ",
       "game": "base",
       "category": "Quest Exclusive Boss",
       "level": "79",
@@ -17259,7 +17259,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-drakos-telethia-76d6e7b6",
-      "name": "Drakos Telethia",
+      "name": "ドラコス・テレシア",
       "game": "base",
       "category": "Normal Enemy",
       "level": "74",
@@ -17341,7 +17341,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-drifter-jutard-5f40056b",
-      "name": "Drifter Jutard",
+      "name": "迷走のシュタード",
       "game": "base",
       "category": "Unique Monster",
       "level": "25",
@@ -17468,7 +17468,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-drunk-vang-c99e4b87",
-      "name": "Drunk Vang",
+      "name": "ドランク・ヴァンプ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "18-20",
@@ -17722,7 +17722,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-easy-hox-5f652f5e",
-      "name": "Easy Hox",
+      "name": "イージー・ホッグス",
       "game": "base",
       "category": "Normal Enemy",
       "level": "14",
@@ -17834,7 +17834,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-eater-caterpile-233cc0ce",
-      "name": "Eater Caterpile",
+      "name": "イート・キャピル",
       "game": "base",
       "category": "Normal Enemy",
       "level": "6",
@@ -17987,7 +17987,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-elder-gragus-bc9ce121",
-      "name": "Elder Gragus",
+      "name": "老兄のグラグース",
       "game": "base",
       "category": "Unique Monster",
       "level": "34",
@@ -18129,7 +18129,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-elegant-marin-25e92d13",
-      "name": "Elegant Marin",
+      "name": "優美なマーリン",
       "game": "base",
       "category": "Unique Monster",
       "level": "29",
@@ -18251,7 +18251,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-emeraude-nebula-adca93b5",
-      "name": "Emeraude Nebula",
+      "name": "エムロード・ネブラ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "40",
@@ -18348,7 +18348,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-enchanting-grune-2b0a751a",
-      "name": "Enchanting Grune",
+      "name": "魅惑のグリューネ",
       "game": "base",
       "category": "Unique Monster",
       "level": "13",
@@ -18475,7 +18475,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-energy-device-d3e213bf",
-      "name": "Energy Device",
+      "name": "エネルギー装置",
       "game": "base",
       "category": "Story Exclusive Enemy",
       "level": "70",
@@ -18507,7 +18507,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-ent-antol-46bc7756",
-      "name": "Ent Antol",
+      "name": "エント・アントル",
       "game": "base",
       "category": "Normal Enemy",
       "level": "39-41",
@@ -18619,7 +18619,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-entma-king-79d23007",
-      "name": "Entma King",
+      "name": "エントマ・キング",
       "game": "base",
       "category": "Normal Enemy",
       "level": "45-47",
@@ -18888,7 +18888,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-envy-sardi-19bfdbc0",
-      "name": "Envy Sardi",
+      "name": "エンヴィ・サーディ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "77",
@@ -19015,7 +19015,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-eques-skyray-e8118581",
-      "name": "Eques Skyray",
+      "name": "エクエス・アンノウン",
       "game": "base",
       "category": "Normal Enemy",
       "level": "41",
@@ -19254,7 +19254,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-eryth-ansel-02834905",
-      "name": "Eryth Ansel",
+      "name": "エルト・アンセル",
       "game": "base",
       "category": "Normal Enemy",
       "level": "36",
@@ -19386,7 +19386,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-eryth-hiln-f454a97f",
-      "name": "Eryth Hiln",
+      "name": "エルト・ヒルン",
       "game": "base",
       "category": "Normal Enemy",
       "level": "33",
@@ -19513,7 +19513,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-eryth-rhana-46b65ab0",
-      "name": "Eryth Rhana",
+      "name": "エルト・ラーナ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "87",
@@ -19650,7 +19650,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-eternal-palsadia-7d3478af",
-      "name": "Eternal Palsadia",
+      "name": "永劫のパレスアテナ",
       "game": "base",
       "category": "Unique Monster",
       "level": "91",
@@ -19782,7 +19782,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-ether-bunnia-373f28e9",
-      "name": "Ether Bunnia",
+      "name": "エーテル・バニア",
       "game": "base",
       "category": "Normal Enemy",
       "level": "26",
@@ -19914,7 +19914,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-ether-igna-764c4edd",
-      "name": "Ether Igna",
+      "name": "エーテル・イグーナ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "20-25",
@@ -20046,7 +20046,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-evil-bathin-d3d5cc1d",
-      "name": "Evil Bathin",
+      "name": "悪魔のバティン",
       "game": "base",
       "category": "Unique Monster",
       "level": "54",
@@ -20158,7 +20158,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-evil-rhangrot-adef951c",
-      "name": "Evil Rhangrot",
+      "name": "横道のラングロット",
       "game": "base",
       "category": "Unique Monster",
       "level": "6",
@@ -20280,7 +20280,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-experienced-tristan-f5f5d461",
-      "name": "Experienced Tristan",
+      "name": "老巧のトリスタン",
       "game": "base",
       "category": "Unique Monster",
       "level": "64",
@@ -20392,7 +20392,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-experimental-m86-2afeaa61",
-      "name": "Experimental M86",
+      "name": "新型動力の八六式",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "75",
@@ -20459,7 +20459,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-exposure-wolfol-bfafbe02",
-      "name": "Exposure Wolfol",
+      "name": "露光のウォレフォル",
       "game": "base",
       "category": "Unique Monster",
       "level": "97",
@@ -20591,7 +20591,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-exterminator-clock-6f622681",
-      "name": "Exterminator/CLOCK",
+      "name": "駆逐式・ＣＬＯＣＫ",
       "game": "base",
       "category": "Story Exclusive Enemy",
       "level": "70",
@@ -20622,7 +20622,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-exterminator-ember-b54fae10",
-      "name": "Exterminator/EMBER",
+      "name": "駆逐式・ＥＭＢＥＲ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "65-66",
@@ -20790,7 +20790,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-fair-piranhax-1fd862d8",
-      "name": "Fair Piranhax",
+      "name": "フェア・サモン",
       "game": "base",
       "category": "Normal Enemy",
       "level": "54",
@@ -20892,7 +20892,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-faithful-lancelot-d4c3f95f",
-      "name": "Faithful Lancelot",
+      "name": "信仰のランスロット",
       "game": "base",
       "category": "Unique Monster",
       "level": "59",
@@ -21004,7 +21004,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-falsel-bunniv-8a1ef832",
-      "name": "Falsel Bunniv",
+      "name": "ファルセル・バニーヴ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "91-93",
@@ -21146,7 +21146,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-fascia-bunniv-229a58c8",
-      "name": "Fascia Bunniv",
+      "name": "ファシア・バニーヴ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "92-94",
@@ -21288,7 +21288,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-fate-labolas-107958af",
-      "name": "Fate Labolas",
+      "name": "運命のラボラス",
       "game": "base",
       "category": "Unique Monster",
       "level": "51",
@@ -21395,7 +21395,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-feltl-eks-917657e1",
-      "name": "Feltl Eks",
+      "name": "フェルトル・エクス",
       "game": "base",
       "category": "Normal Enemy",
       "level": "98",
@@ -21527,7 +21527,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-femuny-wisp-c3c436c1",
-      "name": "Femuny Wisp",
+      "name": "フェムニー・ランプス",
       "game": "base",
       "category": "Normal Enemy",
       "level": "90",
@@ -21669,7 +21669,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-ferocious-volff-ef4d5ea9",
-      "name": "Ferocious Volff",
+      "name": "猛撃のヴォルフ",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "12",
@@ -21741,7 +21741,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-field-altrich-95728542",
-      "name": "Field Altrich",
+      "name": "中原のオルトリッチ",
       "game": "base",
       "category": "Unique Monster",
       "level": "76",
@@ -21783,7 +21783,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-field-ponio-2dcf2cb8",
-      "name": "Field Ponio",
+      "name": "フィールド・ポニオ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "12-14",
@@ -21900,7 +21900,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-fiendish-auburn-27171d7c",
-      "name": "Fiendish Auburn",
+      "name": "鬼王のオーバーン",
       "game": "base",
       "category": "Unique Monster",
       "level": "78",
@@ -22017,7 +22017,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-fiendish-bunnit-b5cadb01",
-      "name": "Fiendish Bunnit",
+      "name": "悪逆のバニット",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "13",
@@ -22089,7 +22089,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-fierce-vang-335a6b8a",
-      "name": "Fierce Vang",
+      "name": "猛攻のヴァンプ",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "14",
@@ -22161,7 +22161,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-fiery-igna-1fe592ba",
-      "name": "Fiery Igna",
+      "name": "火勢のイグーナ",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "37",
@@ -22238,7 +22238,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-fighter-igna-51e386ac",
-      "name": "Fighter Igna",
+      "name": "ファイター・イグーナ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "24-27",
@@ -22370,7 +22370,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-final-marcus-f6f24e04",
-      "name": "Final Marcus",
+      "name": "終世のマークス",
       "game": "base",
       "category": "Unique Monster (Superboss)",
       "level": "100",
@@ -22462,7 +22462,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-fine-flier-747f68ee",
-      "name": "Fine Flier",
+      "name": "ファイン・フライア",
       "game": "base",
       "category": "Normal Enemy",
       "level": "12",
@@ -22559,7 +22559,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-firework-geldesia-d971ca79",
-      "name": "Firework Geldesia",
+      "name": "火花のゲルデシア",
       "game": "base",
       "category": "Quest Exclusive Unique Monster",
       "level": "98",
@@ -22701,7 +22701,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-fiume-nebula-fd567765",
-      "name": "Fiume Nebula",
+      "name": "フィウーメ・ネブラ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "74",
@@ -22808,7 +22808,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-flabbergasted-jerome-80ee6387",
-      "name": "Flabbergasted Jerome",
+      "name": "霹靂のジローネ",
       "game": "base",
       "category": "Unique Monster",
       "level": "38",
@@ -22940,7 +22940,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-flailing-bracken-0537bcb7",
-      "name": "Flailing Bracken",
+      "name": "暴飲のブラッケン",
       "game": "base",
       "category": "Unique Monster",
       "level": "73",
@@ -23082,7 +23082,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-flamme-antol-abf15a81",
-      "name": "Flamme Antol",
+      "name": "フラーム・アントル",
       "game": "base",
       "category": "Normal Enemy",
       "level": "22",
@@ -23209,7 +23209,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-flash-wisp-f06717e7",
-      "name": "Flash Wisp",
+      "name": "フラッシュ・ランプス",
       "game": "base",
       "category": "Normal Enemy",
       "level": "14",
@@ -23306,7 +23306,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-flavel-andos-66ff995a",
-      "name": "Flavel Andos",
+      "name": "フラーベル・アンドス",
       "game": "base",
       "category": "Normal Enemy",
       "level": "34",
@@ -23433,7 +23433,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-flutes-kromar-053cda47",
-      "name": "Flutes Kromar",
+      "name": "フルテス・スピカル",
       "game": "base",
       "category": "Normal Enemy",
       "level": "37",
@@ -23560,7 +23560,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-fool-sardi-a58f2d59",
-      "name": "Fool Sardi",
+      "name": "フウル・サーディ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "35",
@@ -23697,7 +23697,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-fork-chilkin-24fd5c92",
-      "name": "Fork Chilkin",
+      "name": "ホク・チルキン",
       "game": "base",
       "category": "Normal Enemy",
       "level": "44",
@@ -23814,7 +23814,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-frenzied-bana-764dcc0f",
-      "name": "Frenzied Bana",
+      "name": "逆上のバーン",
       "game": "base",
       "category": "Quest Exclusive Unique Monster",
       "level": "78",
@@ -23916,7 +23916,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-frost-nebula-8e8edd6b",
-      "name": "Frost Nebula",
+      "name": "フロスト・ネブラ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "80-82",
@@ -24053,7 +24053,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-fuchsia-chilkin-16fcd928",
-      "name": "Fuchsia Chilkin",
+      "name": "ホクシア・チルキン",
       "game": "base",
       "category": "Normal Enemy",
       "level": "43",
@@ -24170,7 +24170,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-funeral-gozra-88aeff1c",
-      "name": "Funeral Gozra",
+      "name": "葬送のゴズラ",
       "game": "base",
       "category": "Unique Monster",
       "level": "42",
@@ -24302,7 +24302,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-furious-jozan-7bb42e3f",
-      "name": "Furious Jozan",
+      "name": "憤怒のジョーザン",
       "game": "base",
       "category": "Unique Monster",
       "level": "96",
@@ -24587,7 +24587,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-gentle-mother-armu-9ba114e7",
-      "name": "Gentle Mother Armu",
+      "name": "温厚なビックマム",
       "game": "base",
       "category": "Unique Monster",
       "level": "37",
@@ -24704,7 +24704,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-gentle-rodriguez-ed19f4bb",
-      "name": "Gentle Rodriguez",
+      "name": "柔軟なロドリゲス",
       "game": "base",
       "category": "Unique Monster",
       "level": "40",
@@ -24831,7 +24831,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-ghostly-mahatos-2e4f0be4",
-      "name": "Ghostly Mahatos",
+      "name": "鬼道のマハトス",
       "game": "base",
       "category": "Unique Monster",
       "level": "76",
@@ -24913,7 +24913,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-gigas-telethia-46a03313",
-      "name": "Gigas Telethia",
+      "name": "ギガース・テレシア",
       "game": "base",
       "category": "Normal Enemy",
       "level": "75",
@@ -25107,7 +25107,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-glacier-acon-057e6b2c",
-      "name": "Glacier Acon",
+      "name": "氷河のエイコーン",
       "game": "base",
       "category": "Unique Monster",
       "level": "52",
@@ -25219,7 +25219,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-gloria-slobos-8270c6bc",
-      "name": "Gloria Slobos",
+      "name": "グローリア・ソロボス",
       "game": "base",
       "category": "Normal Enemy",
       "level": "99",
@@ -25351,7 +25351,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-glorious-buer-753da8e6",
-      "name": "Glorious Buer",
+      "name": "壮美のブエル",
       "game": "base",
       "category": "Unique Monster",
       "level": "45",
@@ -25468,7 +25468,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-glorious-jurom-66bd53e3",
-      "name": "Glorious Jurom",
+      "name": "爛漫のシュロム",
       "game": "base",
       "category": "Unique Monster",
       "level": "55",
@@ -25585,7 +25585,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-glory-slobos-225293ab",
-      "name": "Glory Slobos",
+      "name": "グローリー・ソロボス",
       "game": "base",
       "category": "Normal Enemy",
       "level": "97",
@@ -25717,7 +25717,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-gluttonous-eugen-9c5312b4",
-      "name": "Gluttonous Eugen",
+      "name": "暴食のオイゲン",
       "game": "base",
       "category": "Unique Monster",
       "level": "11",
@@ -25844,7 +25844,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-gluttony-gogol-a6c430f2",
-      "name": "Gluttony Gogol",
+      "name": "グラード・ゴゴール",
       "game": "base",
       "category": "Normal Enemy",
       "level": "78",
@@ -26002,7 +26002,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-goldi-kromar-90ea0816",
-      "name": "Goldi Kromar",
+      "name": "ゴルティ・スピカル",
       "game": "base",
       "category": "Normal Enemy",
       "level": "86",
@@ -26134,7 +26134,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-graceful-holand-46cf0a88",
-      "name": "Graceful Holand",
+      "name": "幽玄のホーランド",
       "game": "base",
       "category": "Unique Monster",
       "level": "19",
@@ -26256,7 +26256,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-gracile-nebula-27882b01",
-      "name": "Gracile Nebula",
+      "name": "グラチーレ・ネブラ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "76",
@@ -26363,7 +26363,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-greed-gogol-c6d55ecc",
-      "name": "Greed Gogol",
+      "name": "グリッド・ゴゴール",
       "game": "base",
       "category": "Normal Enemy",
       "level": "75-77",
@@ -26490,7 +26490,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-greedy-arachno-a94d0d0a",
-      "name": "Greedy Arachno",
+      "name": "強欲のスパイド",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "9",
@@ -26562,7 +26562,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-green-feris-916fdc87",
-      "name": "Green Feris",
+      "name": "グリーヌ・フェリス",
       "game": "base",
       "category": "Normal Enemy",
       "level": "79-85",
@@ -26699,7 +26699,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-grom-nebula-fe96115f",
-      "name": "Grom Nebula",
+      "name": "グローム・ネブラ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "20",
@@ -26821,7 +26821,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-grove-quadwing-5cece6bf",
-      "name": "Grove Quadwing",
+      "name": "グローヴ・クロード",
       "game": "base",
       "category": "Normal Enemy",
       "level": "81-82",
@@ -26958,7 +26958,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-guard-entia-1acfa3c4",
-      "name": "Guard Entia",
+      "name": "ガーディ・エンター",
       "game": "base",
       "category": "Story Exclusive Enemy",
       "level": "33",
@@ -26989,7 +26989,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-guard-igna-27ed9f2d",
-      "name": "Guard Igna",
+      "name": "ガーディ・イグーナ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "28",
@@ -27457,7 +27457,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-hanz-pod-37218c95",
-      "name": "Hanz Pod",
+      "name": "ハンズ・ポッド",
       "game": "base",
       "category": "Normal Enemy",
       "level": "90",
@@ -27599,7 +27599,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-happiness-flier-838f0b75",
-      "name": "Happiness Flier",
+      "name": "ハピネス・フライア",
       "game": "base",
       "category": "Normal Enemy",
       "level": "52-54",
@@ -27833,7 +27833,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-hasal-apis-e9b50d84",
-      "name": "Hasal Apis",
+      "name": "ハサル・アピス",
       "game": "base",
       "category": "Normal Enemy",
       "level": "30",
@@ -28067,7 +28067,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-hidden-gamigin-2b5071d2",
-      "name": "Hidden Gamigin",
+      "name": "隠蔽のガミジン",
       "game": "base",
       "category": "Unique Monster",
       "level": "49",
@@ -28179,7 +28179,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-hista-aries-a099fe72",
-      "name": "Hista Aries",
+      "name": "ハイスタ・アリエス",
       "game": "base",
       "category": "Normal Enemy",
       "level": "44",
@@ -28525,7 +28525,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-hungry-volff-97976f37",
-      "name": "Hungry Volff",
+      "name": "餓狼のヴォルフ",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "33",
@@ -28602,7 +28602,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-hyle-hode-e96bba37",
-      "name": "Hyle Hode",
+      "name": "ヒューレ・フーディ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "31-33",
@@ -28714,7 +28714,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-illustrious-golteus-bc256ae3",
-      "name": "Illustrious Golteus",
+      "name": "大空のゴルテウス",
       "game": "base",
       "category": "Unique Monster",
       "level": "98",
@@ -28978,7 +28978,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-impenetrable-redrob-fb7eb91d",
-      "name": "Impenetrable Redrob",
+      "name": "鉄壁のレッドロブ",
       "game": "base",
       "category": "Unique Monster",
       "level": "38",
@@ -29090,7 +29090,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-indomitable-daulton-5cb93b32",
-      "name": "Indomitable Daulton",
+      "name": "不屈のドールトン",
       "game": "base",
       "category": "Unique Monster",
       "level": "85",
@@ -29227,7 +29227,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-infernal-crocell-0b9e5cdb",
-      "name": "Infernal Crocell",
+      "name": "地獄のクロケル",
       "game": "base",
       "category": "Unique Monster",
       "level": "58",
@@ -29344,7 +29344,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-inferno-deinos-38ffdbdf",
-      "name": "Inferno Deinos",
+      "name": "カロル・ディノス",
       "game": "base",
       "category": "Normal Enemy",
       "level": "31-35",
@@ -29456,7 +29456,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-inferno-heinrich-489d9353",
-      "name": "Inferno Heinrich",
+      "name": "炎帝のハインリヒ",
       "game": "base",
       "category": "Unique Monster",
       "level": "76",
@@ -29563,7 +29563,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-inja-telethia-cc285ce2",
-      "name": "Inja Telethia",
+      "name": "インジャ・テレシア",
       "game": "base",
       "category": "Story Exclusive Enemy",
       "level": "68",
@@ -29594,7 +29594,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-invited-slobos-c9f1ca7b",
-      "name": "Invited Slobos",
+      "name": "招来のソロボス",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "99",
@@ -29671,7 +29671,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-iron-bunniv-3acc3c98",
-      "name": "Iron Bunniv",
+      "name": "アイアン・バニーヴ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "7",
@@ -29788,7 +29788,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-itinerant-dorothea-4aa3eb7c",
-      "name": "Itinerant Dorothea",
+      "name": "借宿のドロテーア",
       "game": "base",
       "category": "Unique Monster",
       "level": "6",
@@ -29915,7 +29915,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-itmos-upa-54012b21",
-      "name": "Itmos Upa",
+      "name": "イトムス・ウーパー",
       "game": "base",
       "category": "Normal Enemy",
       "level": "30",
@@ -30027,7 +30027,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-jada-arachno-83e34879",
-      "name": "Jada Arachno",
+      "name": "ジャダ・スパイド",
       "game": "base",
       "category": "Normal Enemy",
       "level": "87-90",
@@ -30169,7 +30169,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-jadals-arachno-fd1e870a",
-      "name": "Jadals Arachno",
+      "name": "ジャダルス・スパイド",
       "game": "base",
       "category": "Normal Enemy",
       "level": "89-95",
@@ -30459,7 +30459,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-jelly-selua-c1f506a9",
-      "name": "Jelly Selua",
+      "name": "ジェリー・セルラ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "72-73",
@@ -30653,7 +30653,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-judicious-bunnitzol-58826ca5",
-      "name": "Judicious Bunnitzol",
+      "name": "宣告のバニードズル",
       "game": "base",
       "category": "Unique Monster",
       "level": "94",
@@ -30795,7 +30795,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-jungle-quadwing-a2a45ce5",
-      "name": "Jungle Quadwing",
+      "name": "ジャンゴ・クロード",
       "game": "base",
       "category": "Normal Enemy",
       "level": "29",
@@ -30907,7 +30907,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-junk-bunnit-22e9cdd4",
-      "name": "Junk Bunnit",
+      "name": "ジャンク・バニット",
       "game": "base",
       "category": "Normal Enemy",
       "level": "6-9",
@@ -31029,7 +31029,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-junk-krabble-e79d6a64",
-      "name": "Junk Krabble",
+      "name": "ジャンク・クライブ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "20",
@@ -31151,7 +31151,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-kamikaze-bune-12915d19",
-      "name": "Kamikaze Bune",
+      "name": "神風のブネ",
       "game": "base",
       "category": "Unique Monster",
       "level": "53",
@@ -31278,7 +31278,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-klanis-apis-7d69d39a",
-      "name": "Klanis Apis",
+      "name": "クラニス・アピス",
       "game": "base",
       "category": "Normal Enemy",
       "level": "28",
@@ -31492,7 +31492,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-korlba-pterix-e3ed9663",
-      "name": "Korlba Pterix",
+      "name": "コルーバ・プテルス",
       "game": "base",
       "category": "Normal Enemy",
       "level": "97",
@@ -31629,7 +31629,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-krawla-slobos-e59e3819",
-      "name": "Krawla Slobos",
+      "name": "クロウラ・ソロボス",
       "game": "base",
       "category": "Normal Enemy",
       "level": "47",
@@ -31736,7 +31736,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-krawli-slobos-a69f3390",
-      "name": "Krawli Slobos",
+      "name": "クロウリ・ソロボス",
       "game": "base",
       "category": "Normal Enemy",
       "level": "46",
@@ -31843,7 +31843,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-kukukoro-flamii-100e7b46",
-      "name": "Kukukoro Flamii",
+      "name": "ククコロ・フラミー",
       "game": "base",
       "category": "Normal Enemy",
       "level": "53",
@@ -31945,7 +31945,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-kurian-hode-b0e4fffd",
-      "name": "Kurian Hode",
+      "name": "クリアン・フーディ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "35",
@@ -32062,7 +32062,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-kyel-lexos-5c329c12",
-      "name": "Kyel Lexos",
+      "name": "ヒュエル・レクソス",
       "game": "base",
       "category": "Normal Enemy",
       "level": "70-72",
@@ -32204,7 +32204,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-lacus-flamii-f9eef212",
-      "name": "Lacus Flamii",
+      "name": "ラクス・フラミー",
       "game": "base",
       "category": "Normal Enemy",
       "level": "24",
@@ -32341,7 +32341,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-laeklit-mammut-09abe90d",
-      "name": "Laeklit Mammut",
+      "name": "ラケリト・マム−ト",
       "game": "base",
       "category": "Normal Enemy",
       "level": "96",
@@ -32478,7 +32478,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-lahar-flamii-b438100b",
-      "name": "Lahar Flamii",
+      "name": "ラハール・フラミー",
       "game": "base",
       "category": "Normal Enemy",
       "level": "73",
@@ -32620,7 +32620,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-lake-flamii-50e6a3ca",
-      "name": "Lake Flamii",
+      "name": "レイク・フラミー",
       "game": "base",
       "category": "Normal Enemy",
       "level": "6-8",
@@ -32747,7 +32747,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-lake-magdalena-be526a43",
-      "name": "Lake Magdalena",
+      "name": "湖面のマグダレーナ",
       "game": "base",
       "category": "Unique Monster",
       "level": "6",
@@ -32869,7 +32869,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-lakebed-orthlus-cb8b8d04",
-      "name": "Lakebed Orthlus",
+      "name": "湖底のオフレス",
       "game": "base",
       "category": "Quest Exclusive Unique Monster",
       "level": "40",
@@ -32996,7 +32996,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-lampo-ponio-49d0daa1",
-      "name": "Lampo Ponio",
+      "name": "ランポ・ポニオ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "54",
@@ -33215,7 +33215,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-largo-selua-1aef0a86",
-      "name": "Largo Selua",
+      "name": "ラールゴ・セルラ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "72-73",
@@ -33282,7 +33282,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-last-rhogul-fa2d5f04",
-      "name": "Last Rhogul",
+      "name": "ラスト・ローグル",
       "game": "base",
       "category": "Normal Enemy",
       "level": "76",
@@ -33409,7 +33409,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-latio-apis-ae196c6b",
-      "name": "Latio Apis",
+      "name": "ラティオ・アピス",
       "game": "base",
       "category": "Normal Enemy",
       "level": "41",
@@ -33521,7 +33521,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-lazy-bluco-386febc2",
-      "name": "Lazy Bluco",
+      "name": "怠惰のブルーコ",
       "game": "base",
       "category": "Unique Monster",
       "level": "34",
@@ -33628,7 +33628,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-lazy-hox-db12cc7c",
-      "name": "Lazy Hox",
+      "name": "怠惰のホッグス",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "34",
@@ -33705,7 +33705,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-leader-volff-f93e9a4f",
-      "name": "Leader Volff",
+      "name": "リーダー・ヴォルフ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "17",
@@ -33817,7 +33817,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-leg-antol-68792f13",
-      "name": "Leg Antol",
+      "name": "レッグ・アントル",
       "game": "base",
       "category": "Normal Enemy",
       "level": "13",
@@ -33934,7 +33934,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-leg-arachno-d456a4a1",
-      "name": "Leg Arachno",
+      "name": "レッグ・スパイド",
       "game": "base",
       "category": "Normal Enemy",
       "level": "16-18",
@@ -34046,7 +34046,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-leg-ardun-b1be7bd5",
-      "name": "Leg Ardun",
+      "name": "レッグ・アルドン",
       "game": "base",
       "category": "Normal Enemy",
       "level": "12",
@@ -34158,7 +34158,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-leg-armu-4e30b5e4",
-      "name": "Leg Armu",
+      "name": "レッグ・アルマ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "12-13",
@@ -34270,7 +34270,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-leg-lizard-97f863ad",
-      "name": "Leg Lizard",
+      "name": "レッグ・リザド",
       "game": "base",
       "category": "Normal Enemy",
       "level": "16-18",
@@ -34382,7 +34382,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-leg-piranhax-03fb6342",
-      "name": "Leg Piranhax",
+      "name": "レッグ・サモン",
       "game": "base",
       "category": "Normal Enemy",
       "level": "13",
@@ -34499,7 +34499,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-leg-skeeter-4f10fa73",
-      "name": "Leg Skeeter",
+      "name": "レッグ・スキート",
       "game": "base",
       "category": "Normal Enemy",
       "level": "10",
@@ -34601,7 +34601,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-leg-tokilos-a02f7604",
-      "name": "Leg Tokilos",
+      "name": "レッグ・トキロス",
       "game": "base",
       "category": "Normal Enemy",
       "level": "79",
@@ -34728,7 +34728,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-leg-volff-a12b6c8f",
-      "name": "Leg Volff",
+      "name": "レッグ・ヴォルフ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "13",
@@ -34840,7 +34840,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-lelepago-pterix-1a44984d",
-      "name": "Lelepago Pterix",
+      "name": "レレパゴ・プテルス",
       "game": "base",
       "category": "Normal Enemy",
       "level": "55",
@@ -34962,7 +34962,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-leone-telethia-719c6716",
-      "name": "Leone Telethia",
+      "name": "レオーネ・テレシア",
       "game": "base",
       "category": "Boss",
       "level": "36",
@@ -34993,7 +34993,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-licorne-telethia-2042f21d",
-      "name": "Licorne Telethia",
+      "name": "リコルヌ・テレシア",
       "game": "base",
       "category": "Normal Enemy",
       "level": "73",
@@ -35197,7 +35197,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-light-wisp-c61319c0",
-      "name": "Light Wisp",
+      "name": "ライト・ランプス",
       "game": "base",
       "category": "Normal Enemy",
       "level": "13",
@@ -35294,7 +35294,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-lightning-ronove-4d068f05",
-      "name": "Lightning Ronove",
+      "name": "稲妻のロノウェ",
       "game": "base",
       "category": "Unique Monster",
       "level": "55",
@@ -35401,7 +35401,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-lightspeed-sonid-0451b656",
-      "name": "Lightspeed Sonid",
+      "name": "光速のソニード",
       "game": "base",
       "category": "Unique Monster",
       "level": "44",
@@ -35625,7 +35625,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-little-skeeter-2a1327c2",
-      "name": "Little Skeeter",
+      "name": "リトル・スキート",
       "game": "base",
       "category": "Normal Enemy",
       "level": "1-3",
@@ -35742,7 +35742,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-little-vang-2f785728",
-      "name": "Little Vang",
+      "name": "リトル・ヴァンプ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "4-6",
@@ -35864,7 +35864,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-lograt-kromar-ef50d3f6",
-      "name": "Lograt Kromar",
+      "name": "ロゴラト・スピカル",
       "game": "base",
       "category": "Normal Enemy",
       "level": "86",
@@ -36103,7 +36103,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-lubum-antol-65faca99",
-      "name": "Lubum Antol",
+      "name": "ルブーム・アントル",
       "game": "base",
       "category": "Normal Enemy",
       "level": "24",
@@ -36230,7 +36230,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-lunar-grady-36b86f24",
-      "name": "Lunar Grady",
+      "name": "ルーナ・グラディ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "32",
@@ -36357,7 +36357,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-lupus-feris-91cf2729",
-      "name": "Lupus Feris",
+      "name": "ルプス・フェリス",
       "game": "base",
       "category": "Normal Enemy",
       "level": "34",
@@ -36464,7 +36464,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-lurker-brog-9f8aa8c8",
-      "name": "Lurker Brog",
+      "name": "闇隠れグロッグ",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "11",
@@ -36541,7 +36541,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-lurker-krabble-c663d12b",
-      "name": "Lurker Krabble",
+      "name": "闇隠れクライブ",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "10",
@@ -36618,7 +36618,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m32-scout-unit-23ce3feb",
-      "name": "M32 Scout Unit",
+      "name": "三二式・偵察型",
       "game": "base",
       "category": "Normal Enemy",
       "level": "15",
@@ -36735,7 +36735,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m32-transport-unit-a29a2e26",
-      "name": "M32 Transport Unit",
+      "name": "三二式・運搬型",
       "game": "base",
       "category": "Normal Enemy",
       "level": "19-21",
@@ -36858,7 +36858,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m34-honey-bee-unit-d63c8f91",
-      "name": "M34 Honey Bee Unit",
+      "name": "三四式蜜蜂型",
       "game": "base",
       "category": "Normal Enemy",
       "level": "46",
@@ -36965,7 +36965,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m34-hornet-unit-ea4b3a69",
-      "name": "M34 Hornet Unit",
+      "name": "三四式宿木蜂型",
       "game": "base",
       "category": "Normal Enemy",
       "level": "51",
@@ -37077,7 +37077,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m35-prototype-75d33d19",
-      "name": "M35 Prototype",
+      "name": "三五式・ＰＲＯＴＯ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "54",
@@ -37179,7 +37179,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m35-wasp-unit-50fe31a8",
-      "name": "M35 Wasp Unit",
+      "name": "三五式足長蜂型",
       "game": "base",
       "category": "Normal Enemy",
       "level": "48-50",
@@ -37291,7 +37291,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m35-woodpecker-unit-070a768f",
-      "name": "M35 Woodpecker Unit",
+      "name": "三五式啄木鳥型",
       "game": "base",
       "category": "Normal Enemy",
       "level": "48",
@@ -37398,7 +37398,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m36-fairy-624b6eaa",
-      "name": "M36/FAIRY",
+      "name": "三六式・ＦＡＩＲＹ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "58-61",
@@ -37515,7 +37515,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m36-robin-4d77308e",
-      "name": "M36/ROBIN",
+      "name": "三六式・ＲＯＢＩＮ",
       "game": "base",
       "category": "Story Exclusive Enemy",
       "level": "64",
@@ -37546,7 +37546,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m36-sacre-a0d6362d",
-      "name": "M36/SACRE",
+      "name": "三六式・ＳＡＣＲＥ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "64",
@@ -37663,7 +37663,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m37-worker-bee-unit-3befb1eb",
-      "name": "M37 Worker Bee Unit",
+      "name": "三七式熊蜂型",
       "game": "base",
       "category": "Normal Enemy",
       "level": "55",
@@ -37765,7 +37765,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m37-cobra-65b6d92f",
-      "name": "M37/COBRA",
+      "name": "三七式・ＣＯＢＲＡ",
       "game": "base",
       "category": "Story Exclusive Enemy",
       "level": "64",
@@ -37796,7 +37796,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m37-eager-9765be3b",
-      "name": "M37/EAGER",
+      "name": "三七式・ＥＡＧＥＲ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "62",
@@ -37913,7 +37913,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m37-witch-87260e7a",
-      "name": "M37/WITCH",
+      "name": "三七式・ＷＩＴＣＨ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "55",
@@ -38020,7 +38020,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m37-zebra-83225e53",
-      "name": "M37/ZEBRA",
+      "name": "三七式・ＺＥＢＲＡ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "54",
@@ -38127,7 +38127,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m38-essay-23e71024",
-      "name": "M38/ESSAY",
+      "name": "三八式・ＥＳＳＡＹ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "57-58",
@@ -38244,7 +38244,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m42-scout-unit-edfeed98",
-      "name": "M42 Scout Unit",
+      "name": "四二式・偵察型",
       "game": "base",
       "category": "Normal Enemy",
       "level": "13",
@@ -38451,7 +38451,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m44-angry-b6182846",
-      "name": "M44/ANGRY",
+      "name": "四四式・ＡＮＧＲＹ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "57",
@@ -38711,7 +38711,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m46-covert-killer-50d796e1",
-      "name": "M46 Covert Killer",
+      "name": "四六式玄人型・偵",
       "game": "base",
       "category": "Normal Enemy",
       "level": "46",
@@ -38823,7 +38823,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m48-sentry-unit-f1d980e1",
-      "name": "M48 Sentry Unit",
+      "name": "四八式守要塞型",
       "game": "base",
       "category": "Normal Enemy",
       "level": "49-52",
@@ -38930,7 +38930,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m53-thank-485703d6",
-      "name": "M53/THANK",
+      "name": "五三式・ＴＨＡＮＫ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "60",
@@ -39047,7 +39047,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m54-armoured-unit-5fb6c88e",
-      "name": "M54 Armoured Unit",
+      "name": "五四式良装機型",
       "game": "base",
       "category": "Normal Enemy",
       "level": "47",
@@ -39154,7 +39154,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m54-attack-unit-437ee660",
-      "name": "M54 Attack Unit",
+      "name": "五四式鋼攻型",
       "game": "base",
       "category": "Normal Enemy",
       "level": "49",
@@ -39261,7 +39261,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m54-slayer-unit-f21bcaf4",
-      "name": "M54 Slayer Unit",
+      "name": "五四式月斬型",
       "game": "base",
       "category": "Story Exclusive Enemy",
       "level": "50",
@@ -39292,7 +39292,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m55-dread-0ba62a15",
-      "name": "M55/DREAD",
+      "name": "五五式・ＤＲＥＡＤ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "62",
@@ -39404,7 +39404,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m55-grace-84f79330",
-      "name": "M55/GRACE",
+      "name": "五五式・ＧＲＡＣＥ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "55",
@@ -39521,7 +39521,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m56-prototype-3c5cf4f4",
-      "name": "M56 Prototype",
+      "name": "五六式・ＰＲＯＴＯ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "54",
@@ -39633,7 +39633,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m56-union-b3465c26",
-      "name": "M56/UNION",
+      "name": "五六式・ＵＮＩＯＮ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "62",
@@ -39745,7 +39745,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m57-beast-de157a4c",
-      "name": "M57/BEAST",
+      "name": "五七式・ＢＥＡＳＴ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "55-57",
@@ -39862,7 +39862,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m57-faith-563ed8f7",
-      "name": "M57/FAITH",
+      "name": "五七式・ＦＡＩＴＨ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "56",
@@ -39979,7 +39979,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m58-tactical-unit-d0dcef19",
-      "name": "M58 Tactical Unit",
+      "name": "五八式僧兵型",
       "game": "base",
       "category": "Normal Enemy",
       "level": "50",
@@ -40091,7 +40091,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m59-captain-bc538707",
-      "name": "M59 Captain",
+      "name": "五九式部隊長型",
       "game": "base",
       "category": "Normal Enemy",
       "level": "53",
@@ -40203,7 +40203,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m63-destruction-unit-390a67e7",
-      "name": "M63 Destruction Unit",
+      "name": "六三式破壊型",
       "game": "base",
       "category": "Normal Enemy",
       "level": "50",
@@ -40315,7 +40315,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m63-harvester-unit-3f3ef5ac",
-      "name": "M63 Harvester Unit",
+      "name": "六三式人食改型",
       "game": "base",
       "category": "Normal Enemy",
       "level": "49",
@@ -40427,7 +40427,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m63x-android-unit-e1c32ba6",
-      "name": "M63X Android Unit",
+      "name": "六三式改良人型",
       "game": "base",
       "category": "Normal Enemy",
       "level": "48",
@@ -40539,7 +40539,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m65-hunter-unit-a22b1048",
-      "name": "M65 Hunter Unit",
+      "name": "六五式掃討型",
       "game": "base",
       "category": "Normal Enemy",
       "level": "52",
@@ -40651,7 +40651,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m66-production-unit-9531c402",
-      "name": "M66 Production Unit",
+      "name": "六六式錬兵型",
       "game": "base",
       "category": "Normal Enemy",
       "level": "51",
@@ -40763,7 +40763,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m66-supply-unit-0b98dbcf",
-      "name": "M66 Supply Unit",
+      "name": "六六式補給型",
       "game": "base",
       "category": "Normal Enemy",
       "level": "49-51",
@@ -41033,7 +41033,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m67-haste-52cedf06",
-      "name": "M67/HASTE",
+      "name": "六七式・ＨＡＳＴＥ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "63",
@@ -41155,7 +41155,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m67-radar-2aef3446",
-      "name": "M67/RADAR",
+      "name": "六七式・ＲＡＤＡＲ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "63-65",
@@ -41277,7 +41277,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m67-realm-f7cf92fd",
-      "name": "M67/REALM",
+      "name": "六七式・ＲＥＡＬＭ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "63",
@@ -41399,7 +41399,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m67-sonar-a13c0ab5",
-      "name": "M67/SONAR",
+      "name": "六七式・ＳＯＮＡＲ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "59-61",
@@ -41511,7 +41511,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m68-construction-unit-7848b302",
-      "name": "M68 Construction Unit",
+      "name": "六八式工作重視型",
       "game": "base",
       "category": "Normal Enemy",
       "level": "53",
@@ -41623,7 +41623,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m68-chord-375526d6",
-      "name": "M68/CHORD",
+      "name": "六八式・ＣＨＯＲＤ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "58",
@@ -41750,7 +41750,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m68-march-52f4c5b4",
-      "name": "M68/MARCH",
+      "name": "六八式・ＭＡＲＣＨ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "56-59",
@@ -41862,7 +41862,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m68-miser-e9633550",
-      "name": "M68/MISER",
+      "name": "六八式・ＭＩＳＥＲ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "63",
@@ -41984,7 +41984,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m68-trout-705d8005",
-      "name": "M68/TROUT",
+      "name": "六八式・ＴＲＯＵＴ",
       "game": "base",
       "category": "Story Exclusive Enemy",
       "level": "65",
@@ -42015,7 +42015,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m71-fire-support-0b51b4a6",
-      "name": "M71 Fire Support",
+      "name": "超火力七一式機神兵",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "50",
@@ -42092,7 +42092,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m71-flexible-unit-586c65cb",
-      "name": "M71 Flexible Unit",
+      "name": "七一式柔軟改型",
       "game": "base",
       "category": "Normal Enemy",
       "level": "49-50",
@@ -42214,7 +42214,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m76-moist-86ebbbad",
-      "name": "M76/MOIST",
+      "name": "七六式・ＭＯＩＳＴ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "58",
@@ -42351,7 +42351,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m82-melee-unit-09bb2ae8",
-      "name": "M82 Melee Unit",
+      "name": "八二式白兵大型",
       "game": "base",
       "category": "Normal Enemy",
       "level": "50",
@@ -42458,7 +42458,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m82x-melee-unit-1e3d8a21",
-      "name": "M82X Melee Unit",
+      "name": "八二式白兵大型改",
       "game": "base",
       "category": "Normal Enemy",
       "level": "50-52",
@@ -42565,7 +42565,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m83-predator-unit-ccc640bc",
-      "name": "M83 Predator Unit",
+      "name": "八三式捕食型",
       "game": "base",
       "category": "Story Exclusive Enemy",
       "level": "51",
@@ -42596,7 +42596,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m84-grunt-d96e317f",
-      "name": "M84/GRUNT",
+      "name": "八四式・ＧＲＵＮＴ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "56-58",
@@ -42713,7 +42713,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m85-infantry-unit-5736b834",
-      "name": "M85 Infantry Unit",
+      "name": "八五式正規兵型",
       "game": "base",
       "category": "Normal Enemy",
       "level": "54",
@@ -42830,7 +42830,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m85-meteor-artillery-d4cbd707",
-      "name": "M85 Meteor Artillery",
+      "name": "八五式流星筒型",
       "game": "base",
       "category": "Normal Enemy",
       "level": "57",
@@ -42942,7 +42942,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m85-sergeant-583724cf",
-      "name": "M85 Sergeant",
+      "name": "八五式小隊長型",
       "game": "base",
       "category": "Normal Enemy",
       "level": "55",
@@ -43059,7 +43059,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m87-prototype-8f18420d",
-      "name": "M87 Prototype",
+      "name": "八七式・ＰＲＯＴＯ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "55",
@@ -43171,7 +43171,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m87-grand-19a16d57",
-      "name": "M87/GRAND",
+      "name": "八七式・ＧＲＡＮＤ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "63-66",
@@ -43298,7 +43298,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m87-tapir-5110110a",
-      "name": "M87/TAPIR",
+      "name": "八七式・ＴＡＰＩＲ",
       "game": "base",
       "category": "Story Exclusive Enemy",
       "level": "66",
@@ -43329,7 +43329,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m88-watchtower-3a652853",
-      "name": "M88 Watchtower",
+      "name": "八八式監視塔機",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "62",
@@ -43406,7 +43406,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m88-rapid-9f89f337",
-      "name": "M88/RAPID",
+      "name": "八八式・ＲＡＰＩＤ",
       "game": "base",
       "category": "Story Exclusive Enemy",
       "level": "64",
@@ -43437,7 +43437,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m88-worst-f9429323",
-      "name": "M88/WORST",
+      "name": "八八式・ＷＯＲＳＴ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "59",
@@ -43559,7 +43559,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m91-dogma-73885e6d",
-      "name": "M91/DOGMA",
+      "name": "九一式・ＤＯＧＭＡ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "58",
@@ -43681,7 +43681,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m94-guard-unit-47cda0da",
-      "name": "M94 Guard Unit",
+      "name": "九四式親衛機",
       "game": "base",
       "category": "Story Exclusive Enemy",
       "level": "54",
@@ -43712,7 +43712,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m96-crisis-unit-47605145",
-      "name": "M96 Crisis Unit",
+      "name": "緊急防衛型九六式",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "61",
@@ -43784,7 +43784,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m96-awake-f89913ef",
-      "name": "M96/AWAKE",
+      "name": "九六式・ＡＷＡＫＥ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "63",
@@ -43901,7 +43901,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m97-commander-76e64da3",
-      "name": "M97 Commander",
+      "name": "九七式部隊長機",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "64",
@@ -43973,7 +43973,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m97-cycle-34b5a6e6",
-      "name": "M97/CYCLE",
+      "name": "九七式・ＣＹＣＬＥ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "66",
@@ -44095,7 +44095,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m97-eagle-e4de855f",
-      "name": "M97/EAGLE",
+      "name": "九七式・ＥＡＧＬＥ",
       "game": "base",
       "category": "Story Exclusive Enemy",
       "level": "67",
@@ -44126,7 +44126,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m104-fortress-unit-43bb5acb",
-      "name": "M104 Fortress Unit",
+      "name": "百四式要塞型",
       "game": "base",
       "category": "Normal Enemy",
       "level": "52-55",
@@ -44263,7 +44263,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-m108-spade-01eb06e1",
-      "name": "M108/SPADE",
+      "name": "百八式・ＳＰＡＤＥ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "65",
@@ -44527,7 +44527,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-magestic-mordred-2aa687ab",
-      "name": "Magestic Mordred",
+      "name": "王城のモルドレッド",
       "game": "base",
       "category": "Unique Monster",
       "level": "70",
@@ -44664,7 +44664,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-magnificent-digalus-d0e31620",
-      "name": "Magnificent Digalus",
+      "name": "豪獣のディガリウス",
       "game": "base",
       "category": "Unique Monster",
       "level": "99",
@@ -44801,7 +44801,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-magnis-ardun-d44ea236",
-      "name": "Magnis Ardun",
+      "name": "マグニス・アルドン",
       "game": "base",
       "category": "Normal Enemy",
       "level": "77",
@@ -44943,7 +44943,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-majestic-clone-barg-4a7887b9",
-      "name": "Majestic Clone Barg",
+      "name": "威風のクロンボーク",
       "game": "base",
       "category": "Unique Monster",
       "level": "77",
@@ -45055,7 +45055,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-maker-bunnit-175317b3",
-      "name": "Maker Bunnit",
+      "name": "メイカー・バニット",
       "game": "base",
       "category": "Normal Enemy",
       "level": "13",
@@ -45162,7 +45162,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-makna-ansel-0977a28e",
-      "name": "Makna Ansel",
+      "name": "マクナ・アンセル",
       "game": "base",
       "category": "Normal Enemy",
       "level": "32-34",
@@ -45279,7 +45279,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-makna-antol-9a365047",
-      "name": "Makna Antol",
+      "name": "マクナ・アントル",
       "game": "base",
       "category": "Normal Enemy",
       "level": "40-43",
@@ -45421,7 +45421,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-makna-brog-a00cff92",
-      "name": "Makna Brog",
+      "name": "マクナ・グロッグ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "33",
@@ -45538,7 +45538,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-makna-eks-782b0a09",
-      "name": "Makna Eks",
+      "name": "マクナ・エクス",
       "game": "base",
       "category": "Normal Enemy",
       "level": "33",
@@ -45655,7 +45655,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-makna-eluca-b6f6d42d",
-      "name": "Makna Eluca",
+      "name": "マクナ・エルーカ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "28",
@@ -45762,7 +45762,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-makna-feris-09220720",
-      "name": "Makna Feris",
+      "name": "マクナ・フェリス",
       "game": "base",
       "category": "Normal Enemy",
       "level": "31",
@@ -45869,7 +45869,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-makna-piranhax-668f639c",
-      "name": "Makna Piranhax",
+      "name": "マクナ・サモン",
       "game": "base",
       "category": "Normal Enemy",
       "level": "30",
@@ -45986,7 +45986,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-maleza-kromar-3ee32723",
-      "name": "Maleza Kromar",
+      "name": "マレッサ・スピカル",
       "game": "base",
       "category": "Normal Enemy",
       "level": "36",
@@ -46108,7 +46108,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-marble-krabble-c187e017",
-      "name": "Marble Krabble",
+      "name": "マーブル・クライブ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "7-12",
@@ -46235,7 +46235,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-marmor-apis-4617c31f",
-      "name": "Marmor Apis",
+      "name": "マルモル・アピス",
       "game": "base",
       "category": "Normal Enemy",
       "level": "40",
@@ -46789,7 +46789,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-master-obart-24b15fd1",
-      "name": "Master Obart",
+      "name": "マスター・ホバート",
       "game": "base",
       "category": "Quest Exclusive Boss",
       "level": "78",
@@ -46820,7 +46820,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-masterful-gigapur-987e9b32",
-      "name": "Masterful Gigapur",
+      "name": "紫電のギガスパル",
       "game": "base",
       "category": "Unique Monster",
       "level": "77",
@@ -47054,7 +47054,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-mechon-m31-3950ff82",
-      "name": "Mechon M31",
+      "name": "三一式機神兵",
       "game": "base",
       "category": "Story Exclusive Enemy",
       "level": "4-5",
@@ -47171,7 +47171,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-mechon-m32-049be19f",
-      "name": "Mechon M32",
+      "name": "三二式機神兵",
       "game": "base",
       "category": "Normal Enemy",
       "level": "15",
@@ -47288,7 +47288,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-mechon-m32x-cb67f19f",
-      "name": "Mechon M32X",
+      "name": "三二式機神兵・改",
       "game": "base",
       "category": "Normal Enemy",
       "level": "18-21",
@@ -47410,7 +47410,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-mechon-m42-6a096fe3",
-      "name": "Mechon M42",
+      "name": "四二式機神兵",
       "game": "base",
       "category": "Story Exclusive Enemy",
       "level": "5",
@@ -47441,7 +47441,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-mechon-m46x-05e92b1b",
-      "name": "Mechon M46X",
+      "name": "四六式機神兵・改",
       "game": "base",
       "category": "Normal Enemy",
       "level": "55",
@@ -47543,7 +47543,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-mechon-m51-061c3fc2",
-      "name": "Mechon M51",
+      "name": "五一式機神兵",
       "game": "base",
       "category": "Story Exclusive Enemy",
       "level": "5",
@@ -47574,7 +47574,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-mechon-m53x-d22f648a",
-      "name": "Mechon M53X",
+      "name": "五三式機神兵・改",
       "game": "base",
       "category": "Normal Enemy",
       "level": "15",
@@ -47781,7 +47781,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-mechon-m55-ad84c160",
-      "name": "Mechon M55",
+      "name": "五五式機神兵",
       "game": "base",
       "category": "Normal Enemy",
       "level": "19-22",
@@ -47908,7 +47908,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-mechon-m63-0eb8e28e",
-      "name": "Mechon M63",
+      "name": "六三式機神兵",
       "game": "base",
       "category": "Story Exclusive Enemy",
       "level": "20",
@@ -48025,7 +48025,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-mechon-m64-e0d24aec",
-      "name": "Mechon M64",
+      "name": "六四式機神兵",
       "game": "base",
       "category": "Normal Enemy",
       "level": "16",
@@ -48142,7 +48142,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-mechon-m64-armour-8ae89651",
-      "name": "Mechon M64 Armour+",
+      "name": "新装甲六四式機神兵",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "32",
@@ -48219,7 +48219,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-mechon-m64x-92853145",
-      "name": "Mechon M64X",
+      "name": "六四式機神兵・改",
       "game": "base",
       "category": "Normal Enemy",
       "level": "20-23",
@@ -48351,7 +48351,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-mechon-m67-7d6ffc45",
-      "name": "Mechon M67",
+      "name": "六七式機神兵",
       "game": "base",
       "category": "Normal Enemy",
       "level": "20-23",
@@ -48483,7 +48483,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-mechon-m69-3dbf61e6",
-      "name": "Mechon M69",
+      "name": "六九式機神兵",
       "game": "base",
       "category": "Story Exclusive Enemy",
       "level": "24",
@@ -48600,7 +48600,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-mechon-m69x-a9f58fc3",
-      "name": "Mechon M69X",
+      "name": "六九式機神兵・改",
       "game": "base",
       "category": "Story Exclusive Enemy",
       "level": "23",
@@ -48631,7 +48631,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-mechon-m71-78e8a255",
-      "name": "Mechon M71",
+      "name": "七一式機神兵",
       "game": "base",
       "category": "Boss",
       "level": "18",
@@ -48662,7 +48662,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-mechon-m72-e88bc872",
-      "name": "Mechon M72",
+      "name": "七二式機神兵",
       "game": "base",
       "category": "Story Exclusive Enemy",
       "level": "20",
@@ -48779,7 +48779,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-mechon-m78-flex-adc9a8e6",
-      "name": "Mechon M78 Flex+",
+      "name": "七八式機神兵・柔",
       "game": "base",
       "category": "Normal Enemy",
       "level": "47",
@@ -48886,7 +48886,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-mechon-m82-66c1cf96",
-      "name": "Mechon M82",
+      "name": "八二式機神兵",
       "game": "base",
       "category": "Story Exclusive Enemy",
       "level": "6-8",
@@ -49124,7 +49124,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-mechon-m84-7ef869c4",
-      "name": "Mechon M84",
+      "name": "八四式機神兵",
       "game": "base",
       "category": "Story Exclusive Enemy",
       "level": "23-24",
@@ -49251,7 +49251,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-mechon-tentacle-77b2e0c8",
-      "name": "Mechon Tentacle",
+      "name": "機神兵触手",
       "game": "base",
       "category": "Story Exclusive Enemy",
       "level": "15",
@@ -49282,7 +49282,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-meditative-varla-e717d902",
-      "name": "Meditative Varla",
+      "name": "瞑想のウァプラ",
       "game": "base",
       "category": "Unique Monster",
       "level": "65",
@@ -49409,7 +49409,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-medium-skeeter-0b10f61b",
-      "name": "Medium Skeeter",
+      "name": "ミドル・スキート",
       "game": "base",
       "category": "Normal Enemy",
       "level": "8",
@@ -49526,7 +49526,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-mell-lizard-ef18ab73",
-      "name": "Mell Lizard",
+      "name": "メルド・リザド",
       "game": "base",
       "category": "Normal Enemy",
       "level": "5",
@@ -49653,7 +49653,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-mellow-sardi-a53c9e9b",
-      "name": "Mellow Sardi",
+      "name": "メロウ・サーディ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "15",
@@ -49801,7 +49801,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-mild-florence-22572768",
-      "name": "Mild Florence",
+      "name": "暖冬のフロレンス",
       "game": "base",
       "category": "Unique Monster",
       "level": "58",
@@ -49918,7 +49918,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-mining-patrichev-239865db",
-      "name": "Mining Patrichev",
+      "name": "採掘のパトリチェフ",
       "game": "base",
       "category": "Unique Monster",
       "level": "8",
@@ -50035,7 +50035,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-mischievious-naberius-f1c6c6ce",
-      "name": "Mischievious Naberius",
+      "name": "悪戯のナベリウス",
       "game": "base",
       "category": "Unique Monster",
       "level": "57",
@@ -50172,7 +50172,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-mist-rhogul-1d409e20",
-      "name": "Mist Rhogul",
+      "name": "ミスト・ローグル",
       "game": "base",
       "category": "Normal Enemy",
       "level": "25",
@@ -50309,7 +50309,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-mistol-igna-800406f7",
-      "name": "Mistol Igna",
+      "name": "ミスール・イグーナ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "26",
@@ -50441,7 +50441,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-monta-moramora-323f6175",
-      "name": "Monta Moramora",
+      "name": "モンタ・モラモラ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "43",
@@ -50548,7 +50548,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-moonlight-paimon-ef0ee4fd",
-      "name": "Moonlight Paimon",
+      "name": "月光のパイモン",
       "game": "base",
       "category": "Unique Monster",
       "level": "46",
@@ -50655,7 +50655,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-morule-hox-ec2d7cf1",
-      "name": "Morule Hox",
+      "name": "モルーレ・ホッグス",
       "game": "base",
       "category": "Normal Enemy",
       "level": "23",
@@ -50782,7 +50782,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-mount-torta-e4af1d43",
-      "name": "Mount Torta",
+      "name": "マウント・トーター",
       "game": "base",
       "category": "Normal Enemy",
       "level": "32",
@@ -50971,7 +50971,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-musical-vanflare-c7f6cf24",
-      "name": "Musical Vanflare",
+      "name": "三弦のヴァンフレア",
       "game": "base",
       "category": "Unique Monster",
       "level": "93",
@@ -51113,7 +51113,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-mysterious-barnaby-794fe3be",
-      "name": "Mysterious Barnaby",
+      "name": "面妖なバーナビー",
       "game": "base",
       "category": "Unique Monster",
       "level": "75",
@@ -51286,7 +51286,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-mysterious-telethia-8c8759c2",
-      "name": "Mysterious Telethia",
+      "name": "謎のテレシア",
       "game": "base",
       "category": "Quest Exclusive Boss",
       "level": "80",
@@ -51317,7 +51317,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-mystical-klesida-ca63e02f",
-      "name": "Mystical Klesida",
+      "name": "宝仙のクレーシタ",
       "game": "base",
       "category": "Unique Monster",
       "level": "72",
@@ -51394,7 +51394,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-mythical-empress-d85411f0",
-      "name": "Mythical Empress",
+      "name": "伝説のエンプレス",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "35",
@@ -51471,7 +51471,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-napping-volfen-86e5dff4",
-      "name": "Napping Volfen",
+      "name": "午睡のウルフェン",
       "game": "base",
       "category": "Unique Monster",
       "level": "17",
@@ -51924,7 +51924,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-niece-ponio-96353613",
-      "name": "Niece Ponio",
+      "name": "ニース・ポニオ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "12",
@@ -52041,7 +52041,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-night-cardamon-deb03b12",
-      "name": "Night Cardamon",
+      "name": "闇夜のカルダモン",
       "game": "base",
       "category": "Unique Monster",
       "level": "18",
@@ -52138,7 +52138,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-night-wisp-021fa4c5",
-      "name": "Night Wisp",
+      "name": "ナイト・ランプス",
       "game": "base",
       "category": "Normal Enemy",
       "level": "10-15",
@@ -52235,7 +52235,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-noble-brog-fb1f6ce7",
-      "name": "Noble Brog",
+      "name": "ノーブル・グロッグ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "12",
@@ -52362,7 +52362,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-north-star-gusion-0d33e981",
-      "name": "North Star Gusion",
+      "name": "七星のグシオン",
       "game": "base",
       "category": "Unique Monster",
       "level": "50",
@@ -52504,7 +52504,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-noto-feris-47f55f00",
-      "name": "Noto Feris",
+      "name": "ノト・フェリス",
       "game": "base",
       "category": "Normal Enemy",
       "level": "44",
@@ -52646,7 +52646,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-oasis-flamii-e47d6e1a",
-      "name": "Oasis Flamii",
+      "name": "オアシス・フラミー",
       "game": "base",
       "category": "Normal Enemy",
       "level": "17",
@@ -52758,7 +52758,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-obart-obart-82222ce8",
-      "name": "Obart Obart",
+      "name": "ホバート・ホバート",
       "game": "base",
       "category": "Normal Enemy",
       "level": "76",
@@ -52870,7 +52870,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-obelis-obart-9673da5c",
-      "name": "Obelis Obart",
+      "name": "オベリス・ホバート",
       "game": "base",
       "category": "Boss",
       "level": "75",
@@ -52901,7 +52901,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-obsessive-galgaron-2ef006fc",
-      "name": "Obsessive Galgaron",
+      "name": "執念のガルガロン",
       "game": "base",
       "category": "Unique Monster",
       "level": "35",
@@ -53008,7 +53008,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-offensive-hover-unit-07eea6cd",
-      "name": "Offensive Hover Unit",
+      "name": "浮遊ユニット強襲式",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "72",
@@ -53085,7 +53085,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-offensive-mechon-plus-72cd7e31",
-      "name": "Offensive Mechon Plus",
+      "name": "強襲式機神兵・攻",
       "game": "base",
       "category": "Normal Enemy",
       "level": "49",
@@ -53212,7 +53212,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-offensive-scout-37dc4259",
-      "name": "Offensive Scout",
+      "name": "強襲式偵察長機",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "62",
@@ -53289,7 +53289,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-offensive-scout-unit-75c11873",
-      "name": "Offensive Scout Unit",
+      "name": "強襲式監視型",
       "game": "base",
       "category": "Normal Enemy",
       "level": "54",
@@ -53406,7 +53406,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-offensive-security-unit-f57b9bc2",
-      "name": "Offensive Security Unit",
+      "name": "強襲式堅牢型",
       "game": "base",
       "category": "Story Exclusive Enemy",
       "level": "52",
@@ -53528,7 +53528,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-offensive-seeker-unit-34252400",
-      "name": "Offensive Seeker Unit",
+      "name": "強襲式索敵型",
       "game": "base",
       "category": "Story Exclusive Enemy",
       "level": "52",
@@ -53650,7 +53650,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-offensive-strike-unit-99047c05",
-      "name": "Offensive Strike Unit",
+      "name": "強化ユニット強襲式",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "72",
@@ -53727,7 +53727,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-offensive-brave-dd4cd7e1",
-      "name": "Offensive/BRAVE",
+      "name": "強襲式・ＢＲＡＶＥ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "64",
@@ -53854,7 +53854,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-offensive-diary-e59dd7dd",
-      "name": "Offensive/DIARY",
+      "name": "強襲式・ＤＩＡＲＹ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "59-61",
@@ -53981,7 +53981,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-offensive-found-b47dc329",
-      "name": "Offensive/FOUND",
+      "name": "強襲式・ＦＯＵＮＤ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "58",
@@ -54261,7 +54261,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-offensive-lyric-cb160fe3",
-      "name": "Offensive/LYRIC",
+      "name": "強襲式・ＬＹＲＩＣ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "58",
@@ -54388,7 +54388,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-offensive-motor-dec4b6d5",
-      "name": "Offensive/MOTOR",
+      "name": "強襲式・ＭＯＴＯＲ",
       "game": "base",
       "category": "Story Exclusive Enemy",
       "level": "68",
@@ -54572,7 +54572,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-officer-arachno-6b0d8179",
-      "name": "Officer Arachno",
+      "name": "オフィサー・スパイド",
       "game": "base",
       "category": "Normal Enemy",
       "level": "11",
@@ -54684,7 +54684,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-officer-robusto-adaa0bbf",
-      "name": "Officer Robusto",
+      "name": "将校のロブスト",
       "game": "base",
       "category": "Unique Monster",
       "level": "75",
@@ -54756,7 +54756,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-ogre-bunnia-62ea980b",
-      "name": "Ogre Bunnia",
+      "name": "オーガー・バニア",
       "game": "base",
       "category": "Normal Enemy",
       "level": "25",
@@ -55188,7 +55188,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-oros-krabble-53783e1e",
-      "name": "Oros Krabble",
+      "name": "オロス・クライブ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "51-53",
@@ -55290,7 +55290,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-otol-kromar-5b444810",
-      "name": "Otol Kromar",
+      "name": "オトル・スピカル",
       "game": "base",
       "category": "Normal Enemy",
       "level": "39",
@@ -55417,7 +55417,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-palti-kromar-ac4d0fd9",
-      "name": "Palti Kromar",
+      "name": "パルティ・スピカル",
       "game": "base",
       "category": "Normal Enemy",
       "level": "35",
@@ -55544,7 +55544,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-panasowa-arachno-c95f3775",
-      "name": "Panasowa Arachno",
+      "name": "パナソワ・スパイド",
       "game": "base",
       "category": "Normal Enemy",
       "level": "91-96",
@@ -55686,7 +55686,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-pandora-pod-b3627bb6",
-      "name": "Pandora Pod",
+      "name": "パンドラ・ポッド",
       "game": "base",
       "category": "Normal Enemy",
       "level": "74",
@@ -55823,7 +55823,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-partner-volff-5b53dae1",
-      "name": "Partner Volff",
+      "name": "パートナー・ヴォルフ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "27",
@@ -55965,7 +55965,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-pawn-piranhax-dc4d689e",
-      "name": "Pawn Piranhax",
+      "name": "ポーン・サモン",
       "game": "base",
       "category": "Normal Enemy",
       "level": "2",
@@ -55996,7 +55996,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-peeling-kircheis-48e1a6be",
-      "name": "Peeling Kircheis",
+      "name": "剥落のキルヒアイス",
       "game": "base",
       "category": "Unique Monster",
       "level": "38",
@@ -56118,7 +56118,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-pelargos-ekidno-8eebe8c7",
-      "name": "Pelargos Ekidno",
+      "name": "ペラルゴス・エキドナ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "40",
@@ -56235,7 +56235,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-perna-eluca-48677b36",
-      "name": "Perna Eluca",
+      "name": "ペルナ・エルーカ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "32-33",
@@ -56362,7 +56362,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-petra-apis-1ae79c74",
-      "name": "Petra Apis",
+      "name": "ペトラ・アピス",
       "game": "base",
       "category": "Normal Enemy",
       "level": "27",
@@ -56469,7 +56469,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-phoenix-telethia-ee4fad0d",
-      "name": "Phoenix Telethia",
+      "name": "ポエニクス・テレシア",
       "game": "base",
       "category": "Normal Enemy",
       "level": "72-73",
@@ -56561,7 +56561,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-pillager-hode-157e36f3",
-      "name": "Pillager Hode",
+      "name": "強奪のフーディ",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "35",
@@ -56750,7 +56750,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-plane-bunnit-e258b9a0",
-      "name": "Plane Bunnit",
+      "name": "プラタン・バニット",
       "game": "base",
       "category": "Normal Enemy",
       "level": "12",
@@ -56857,7 +56857,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-plasma-deinos-6253a240",
-      "name": "Plasma Deinos",
+      "name": "トニトル・ディノス",
       "game": "base",
       "category": "Normal Enemy",
       "level": "29-32",
@@ -56969,7 +56969,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-plump-sprahda-ecd8513b",
-      "name": "Plump Sprahda",
+      "name": "豊潤のスパラーダ",
       "game": "base",
       "category": "Unique Monster",
       "level": "92",
@@ -57248,7 +57248,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-poleaxe-chilkin-151bbd9f",
-      "name": "Poleaxe Chilkin",
+      "name": "ボグーン・チルキン",
       "game": "base",
       "category": "Normal Enemy",
       "level": "41-44",
@@ -57365,7 +57365,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-polkan-telethia-2538ca23",
-      "name": "Polkan Telethia",
+      "name": "ポルカン・テレシア",
       "game": "base",
       "category": "Normal Enemy",
       "level": "69",
@@ -57507,7 +57507,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-porcu-hox-b369b447",
-      "name": "Porcu Hox",
+      "name": "ポーキュ・ホッグス",
       "game": "base",
       "category": "Normal Enemy",
       "level": "43",
@@ -57614,7 +57614,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-possessio-hode-0f579a5e",
-      "name": "Possessio Hode",
+      "name": "ポセシオ・フーディ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "36",
@@ -57731,7 +57731,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-powerful-eligos-7738632c",
-      "name": "Powerful Eligos",
+      "name": "荒神のエリゴス",
       "game": "base",
       "category": "Unique Monster",
       "level": "80",
@@ -57883,7 +57883,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-prado-upa-0109108e",
-      "name": "Prado Upa",
+      "name": "プラード・ウーパー",
       "game": "base",
       "category": "Normal Enemy",
       "level": "55-56",
@@ -58005,7 +58005,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-prairie-antol-09f6e5bd",
-      "name": "Prairie Antol",
+      "name": "プレイリー・アントル",
       "game": "base",
       "category": "Normal Enemy",
       "level": "16",
@@ -58122,7 +58122,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-praying-caterpile-0d1565cf",
-      "name": "Praying Caterpile",
+      "name": "プレアー・キャピル",
       "game": "base",
       "category": "Normal Enemy",
       "level": "3-4",
@@ -58234,7 +58234,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-precious-retrato-e7c207f8",
-      "name": "Precious Retrato",
+      "name": "宝珠のレトラート",
       "game": "base",
       "category": "Unique Monster",
       "level": "53",
@@ -58346,7 +58346,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-primo-nova-e72a8d78",
-      "name": "Primo Nova",
+      "name": "プリモ・ノヴァ",
       "game": "base",
       "category": "Story Exclusive Enemy",
       "level": "72",
@@ -58377,7 +58377,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-primordial-telethia-7585e188",
-      "name": "Primordial Telethia",
+      "name": "聖跡のテレシア",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "87",
@@ -58581,7 +58581,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-proper-bandaz-05d168d0",
-      "name": "Proper Bandaz",
+      "name": "常道のベンダズ",
       "game": "base",
       "category": "Unique Monster",
       "level": "39",
@@ -58708,7 +58708,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-prosperous-zepar-cfa2dff7",
-      "name": "Prosperous Zepar",
+      "name": "盛栄のゼパル",
       "game": "base",
       "category": "Unique Monster",
       "level": "56",
@@ -58810,7 +58810,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-protective-torquidon-c7a6fdd6",
-      "name": "Protective Torquidon",
+      "name": "治安のトーキドン",
       "game": "base",
       "category": "Unique Monster",
       "level": "96",
@@ -58952,7 +58952,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-prudent-purson-d4eb342d",
-      "name": "Prudent Purson",
+      "name": "思慮のプルソン",
       "game": "base",
       "category": "Unique Monster",
       "level": "49",
@@ -59064,7 +59064,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-puera-telethia-791f5cba",
-      "name": "Puera Telethia",
+      "name": "プエラ・テレシア",
       "game": "base",
       "category": "Boss",
       "level": "28",
@@ -59095,7 +59095,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-pulse-orluga-d41cbbad",
-      "name": "Pulse Orluga",
+      "name": "パルス・オルガ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "36",
@@ -59227,7 +59227,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-quarto-nova-ad3228bb",
-      "name": "Quarto Nova",
+      "name": "クアルト・ノヴァ",
       "game": "base",
       "category": "Story Exclusive Enemy",
       "level": "72",
@@ -59258,7 +59258,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-quinto-nova-6e884535",
-      "name": "Quinto Nova",
+      "name": "クイント・ノヴァ",
       "game": "base",
       "category": "Story Exclusive Enemy",
       "level": "72",
@@ -59289,7 +59289,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-racti-lexos-539d66fd",
-      "name": "Racti Lexos",
+      "name": "ラクティー・レクソス",
       "game": "base",
       "category": "Normal Enemy",
       "level": "39",
@@ -59411,7 +59411,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-radiant-pterix-3cf4e681",
-      "name": "Radiant Pterix",
+      "name": "後光のプテルス",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "86",
@@ -59488,7 +59488,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-randa-nebula-fd161bb4",
-      "name": "Randa Nebula",
+      "name": "ランダ・ネブラ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "74",
@@ -59595,7 +59595,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-ranger-tirkin-2809a3f3",
-      "name": "Ranger Tirkin",
+      "name": "レンジャー・ターキン",
       "game": "base",
       "category": "Normal Enemy",
       "level": "15-18",
@@ -59707,7 +59707,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-ravine-antol-73204d9b",
-      "name": "Ravine Antol",
+      "name": "ラヴィン・アントル",
       "game": "base",
       "category": "Normal Enemy",
       "level": "18",
@@ -59824,7 +59824,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-reckless-galdon-508be820",
-      "name": "Reckless Galdon",
+      "name": "空虚のガルデーン",
       "game": "base",
       "category": "Unique Monster",
       "level": "95",
@@ -59966,7 +59966,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-reckless-godwin-2a3e3ae3",
-      "name": "Reckless Godwin",
+      "name": "無謀なゴドウィン",
       "game": "base",
       "category": "Unique Monster",
       "level": "31",
@@ -60098,7 +60098,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-reckless-zanden-e27fb5a0",
-      "name": "Reckless Zanden",
+      "name": "虚空のザンデン",
       "game": "base",
       "category": "Quest Exclusive Unique Monster",
       "level": "98",
@@ -60240,7 +60240,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-red-antol-25ae2d21",
-      "name": "Red Antol",
+      "name": "レッド・アントル",
       "game": "base",
       "category": "Normal Enemy",
       "level": "17",
@@ -60367,7 +60367,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-reef-nebula-297ad3e2",
-      "name": "Reef Nebula",
+      "name": "リーフ・ネブラ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "43",
@@ -60474,7 +60474,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-reinforcement-m104-1d9088ef",
-      "name": "Reinforcement M104",
+      "name": "増援隊百四式",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "53",
@@ -60551,7 +60551,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-resolute-arachno-e960e09d",
-      "name": "Resolute Arachno",
+      "name": "執着のスパイド",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "10",
@@ -60765,7 +60765,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-revolutionary-bifrons-962c76f6",
-      "name": "Revolutionary Bifrons",
+      "name": "革命のビフロンス",
       "game": "base",
       "category": "Unique Monster",
       "level": "60",
@@ -61034,7 +61034,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-ridge-antol-cc3ff232",
-      "name": "Ridge Antol",
+      "name": "リッジ・アントル",
       "game": "base",
       "category": "Normal Enemy",
       "level": "4-5",
@@ -61156,7 +61156,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-rius-antol-a1ea77f3",
-      "name": "Rius Antol",
+      "name": "リウス・アントル",
       "game": "base",
       "category": "Normal Enemy",
       "level": "52",
@@ -61385,7 +61385,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-roguish-frengel-34d5a461",
-      "name": "Roguish Frengel",
+      "name": "姑息なフレンゲル",
       "game": "base",
       "category": "Unique Monster",
       "level": "39",
@@ -61497,7 +61497,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-royal-caterpile-7a2385ce",
-      "name": "Royal Caterpile",
+      "name": "ロイアル・キャピル",
       "game": "base",
       "category": "Normal Enemy",
       "level": "74",
@@ -61639,7 +61639,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-sabulum-orluga-99702b55",
-      "name": "Sabulum Orluga",
+      "name": "サブルム・オルガ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "33",
@@ -61746,7 +61746,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-sacred-zagamei-af885838",
-      "name": "Sacred Zagamei",
+      "name": "霊峰のザガメイ",
       "game": "base",
       "category": "Unique Monster",
       "level": "89",
@@ -61883,7 +61883,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-saldox-nebula-9e329837",
-      "name": "Saldox Nebula",
+      "name": "サルドクス・ネブラ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "40",
@@ -61980,7 +61980,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-sani-telethia-68b87104",
-      "name": "Sani Telethia",
+      "name": "サニー・テレシア",
       "game": "base",
       "category": "Boss",
       "level": "72",
@@ -62011,7 +62011,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-sanjibal-behemoth-0be2b03a",
-      "name": "Sanjibal Behemoth",
+      "name": "サンジバル・ベヒモス",
       "game": "base",
       "category": "Normal Enemy",
       "level": "78",
@@ -62128,7 +62128,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-satisfied-gogol-b84d72dd",
-      "name": "Satisfied Gogol",
+      "name": "飽満のゴゴール",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "96",
@@ -62205,7 +62205,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-satorl-caterpile-f3c2b070",
-      "name": "Satorl Caterpile",
+      "name": "ザトール・キャピル",
       "game": "base",
       "category": "Normal Enemy",
       "level": "25-27",
@@ -62342,7 +62342,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-satorl-flamii-6b95e0db",
-      "name": "Satorl Flamii",
+      "name": "ザトール・フラミー",
       "game": "base",
       "category": "Normal Enemy",
       "level": "22",
@@ -62469,7 +62469,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-satorl-guardian-c94b37c7",
-      "name": "Satorl Guardian",
+      "name": "ザトールの守護者",
       "game": "base",
       "category": "Quest Exclusive Boss",
       "level": "28",
@@ -62500,7 +62500,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-satorl-rhogul-0ca3b4c4",
-      "name": "Satorl Rhogul",
+      "name": "ザトール・ローグル",
       "game": "base",
       "category": "Normal Enemy",
       "level": "84-85",
@@ -62637,7 +62637,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-satorl-torta-473a25db",
-      "name": "Satorl Torta",
+      "name": "ザトール・トーター",
       "game": "base",
       "category": "Normal Enemy",
       "level": "85",
@@ -62774,7 +62774,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-satorl-vang-0cb132a8",
-      "name": "Satorl Vang",
+      "name": "ザトール・ヴァンプ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "21-24",
@@ -62901,7 +62901,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-satorl-volff-927fd596",
-      "name": "Satorl Volff",
+      "name": "ザトール・ヴォルフ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "24",
@@ -63043,7 +63043,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-scout-entia-d81daf9b",
-      "name": "Scout Entia",
+      "name": "スカウト・エンター",
       "game": "base",
       "category": "Story Exclusive Enemy",
       "level": "32",
@@ -63074,7 +63074,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-scout-hode-91fa98a7",
-      "name": "Scout Hode",
+      "name": "スカウト・フーディ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "30",
@@ -63186,7 +63186,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-scout-unit-prototype-2bf08654",
-      "name": "Scout Unit Prototype",
+      "name": "偵察型・ＰＲＯＴＯ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "53",
@@ -63288,7 +63288,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-secondo-nova-b9534f5f",
-      "name": "Secondo Nova",
+      "name": "セコンド・ノヴァ",
       "game": "base",
       "category": "Story Exclusive Enemy",
       "level": "72",
@@ -63319,7 +63319,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-sentimental-flamral-e645769e",
-      "name": "Sentimental Flamral",
+      "name": "情念のフラムラル",
       "game": "base",
       "category": "Unique Monster",
       "level": "66",
@@ -63441,7 +63441,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-sentinel-mechon-148acd41",
-      "name": "Sentinel Mechon",
+      "name": "防壁型機神兵",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "53",
@@ -63513,7 +63513,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-serene-imlaly-aa678050",
-      "name": "Serene Imlaly",
+      "name": "明鏡のイムラリ",
       "game": "base",
       "category": "Unique Monster",
       "level": "76",
@@ -63625,7 +63625,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-sero-telethia-dae0ad94",
-      "name": "Sero Telethia",
+      "name": "セーロ・テレシア",
       "game": "base",
       "category": "Story Exclusive Enemy",
       "level": "69",
@@ -63656,7 +63656,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-sesna-lexos-42ebddf9",
-      "name": "Sesna Lexos",
+      "name": "セスタ・レクソス",
       "game": "base",
       "category": "Normal Enemy",
       "level": "47",
@@ -63798,7 +63798,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-sestago-lexos-1cb41cf8",
-      "name": "Sestago Lexos",
+      "name": "セスタゴ・レクソス",
       "game": "base",
       "category": "Normal Enemy",
       "level": "47",
@@ -63940,7 +63940,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-setor-eks-e57494da",
-      "name": "Setor Eks",
+      "name": "セトール・エクス",
       "game": "base",
       "category": "Normal Enemy",
       "level": "94-96",
@@ -64072,7 +64072,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-shadeless-matrix-741d9647",
-      "name": "Shadeless Matrix",
+      "name": "薄影のマトリクス",
       "game": "base",
       "category": "Unique Monster",
       "level": "44",
@@ -64428,7 +64428,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-shimmering-forte-d42e50d3",
-      "name": "Shimmering Forte",
+      "name": "陽炎のフォルテ",
       "game": "base",
       "category": "Unique Monster",
       "level": "33",
@@ -64540,7 +64540,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-sierra-vang-f21bd6fc",
-      "name": "Sierra Vang",
+      "name": "シエーラ・ヴァンプ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "42",
@@ -64652,7 +64652,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-sinful-lamorak-113720cc",
-      "name": "Sinful Lamorak",
+      "name": "原罪のラモラック",
       "game": "base",
       "category": "Unique Monster",
       "level": "63",
@@ -64774,7 +64774,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-singing-brog-fcc46113",
-      "name": "Singing Brog",
+      "name": "シング・グロッグ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "8",
@@ -65283,7 +65283,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-sniper-paramecia-1e31e41d",
-      "name": "Sniper Paramecia",
+      "name": "狙撃のパラミシア",
       "game": "base",
       "category": "Unique Monster",
       "level": "15",
@@ -65395,7 +65395,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-sniper-tirkin-0033b301",
-      "name": "Sniper Tirkin",
+      "name": "スナイプ・ターキン",
       "game": "base",
       "category": "Normal Enemy",
       "level": "15-18",
@@ -65507,7 +65507,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-snowal-taos-ef9a7408",
-      "name": "Snowal Taos",
+      "name": "スノーラル・タオース",
       "game": "base",
       "category": "Normal Enemy",
       "level": "48",
@@ -65649,7 +65649,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-snowi-taos-448d5e2b",
-      "name": "Snowi Taos",
+      "name": "スノーイ・タオース",
       "game": "base",
       "category": "Normal Enemy",
       "level": "47",
@@ -65791,7 +65791,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-soft-hox-99001629",
-      "name": "Soft Hox",
+      "name": "ソフト・ホッグス",
       "game": "base",
       "category": "Normal Enemy",
       "level": "17",
@@ -65908,7 +65908,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-sol-grady-cc93b1f9",
-      "name": "Sol Grady",
+      "name": "ソール・グラディ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "85",
@@ -66045,7 +66045,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-solare-nebula-78d80697",
-      "name": "Solare Nebula",
+      "name": "ソラーレ・ネブラ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "77",
@@ -66183,7 +66183,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-solid-konev-99d1b018",
-      "name": "Solid Konev",
+      "name": "堅牢なコーネフ",
       "game": "base",
       "category": "Unique Monster",
       "level": "10",
@@ -66412,7 +66412,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-solidum-telethia-1533464f",
-      "name": "Solidum Telethia",
+      "name": "ソリドゥム・テレシア",
       "game": "base",
       "category": "Boss",
       "level": "36",
@@ -66443,7 +66443,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-somati-kromar-8b825388",
-      "name": "Somati Kromar",
+      "name": "ソマティ・スピカル",
       "game": "base",
       "category": "Normal Enemy",
       "level": "38",
@@ -66570,7 +66570,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-sonicia-gogol-875d2199",
-      "name": "Sonicia Gogol",
+      "name": "ソニシア・ゴゴール",
       "game": "base",
       "category": "Normal Enemy",
       "level": "96",
@@ -66707,7 +66707,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-soothed-aglovale-7b9a8c2e",
-      "name": "Soothed Aglovale",
+      "name": "安堵のアグロヴァル",
       "game": "base",
       "category": "Unique Monster",
       "level": "65",
@@ -66829,7 +66829,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-sparas-pagul-69f9e1bd",
-      "name": "Sparas Pagul",
+      "name": "スパラス・パグール",
       "game": "base",
       "category": "Normal Enemy",
       "level": "42",
@@ -67058,7 +67058,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-speedy-ramshyde-80146941",
-      "name": "Speedy Ramshyde",
+      "name": "早業のラムシャイド",
       "game": "base",
       "category": "Unique Monster",
       "level": "10",
@@ -67180,7 +67180,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-spirit-gadolt-8365eddc",
-      "name": "Spirit - Gadolt",
+      "name": "思念体・ガド",
       "game": "base",
       "category": "Story Exclusive Enemy",
       "level": "78",
@@ -67211,7 +67211,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-spirit-mumkhar-2afa5856",
-      "name": "Spirit - Mumkhar",
+      "name": "思念体・ムムカ",
       "game": "base",
       "category": "Story Exclusive Enemy",
       "level": "79",
@@ -67242,7 +67242,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-spirit-telethia-572b1453",
-      "name": "Spirit - Telethia",
+      "name": "思念体・テレシア",
       "game": "base",
       "category": "Story Exclusive Enemy",
       "level": "80",
@@ -67273,7 +67273,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-spirit-xord-4ac9ad79",
-      "name": "Spirit - Xord",
+      "name": "思念体・ゾード",
       "game": "base",
       "category": "Story Exclusive Enemy",
       "level": "78",
@@ -67304,7 +67304,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-splendid-botis-9a3876fc",
-      "name": "Splendid Botis",
+      "name": "名桜のボティス",
       "game": "base",
       "category": "Unique Monster",
       "level": "58",
@@ -67426,7 +67426,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-stella-eks-016b4397",
-      "name": "Stella Eks",
+      "name": "ステルラ・エクス",
       "game": "base",
       "category": "Normal Enemy",
       "level": "38",
@@ -67543,7 +67543,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-stone-krabble-aec1913a",
-      "name": "Stone Krabble",
+      "name": "ストーン・クライブ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "6-9",
@@ -67670,7 +67670,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-storm-vang-34b834e5",
-      "name": "Storm Vang",
+      "name": "ストーム・ヴァンプ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "26-27",
@@ -67797,7 +67797,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-stormy-belagon-20242f5d",
-      "name": "Stormy Belagon",
+      "name": "暴風のベルラガン",
       "game": "base",
       "category": "Unique Monster",
       "level": "87",
@@ -67929,7 +67929,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-stormy-widardun-68f3969b",
-      "name": "Stormy Widardun",
+      "name": "暴風のワイダーデン",
       "game": "base",
       "category": "Unique Monster",
       "level": "25",
@@ -68056,7 +68056,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-subterranean-zomar-b6800e99",
-      "name": "Subterranean Zomar",
+      "name": "地底のツモギリ",
       "game": "base",
       "category": "Unique Monster",
       "level": "40",
@@ -68183,7 +68183,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-suelo-orluga-7ccf11b6",
-      "name": "Suelo Orluga",
+      "name": "スエロ・オルガ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "43",
@@ -68325,7 +68325,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-sunlight-schvaik-534d3041",
-      "name": "Sunlight Schvaik",
+      "name": "陽光のシュヴァイク",
       "game": "base",
       "category": "Unique Monster",
       "level": "30",
@@ -68462,7 +68462,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-sureny-telethia-f0fdabf8",
-      "name": "Sureny Telethia",
+      "name": "スレーニ・テレシア",
       "game": "base",
       "category": "Boss",
       "level": "70",
@@ -68493,7 +68493,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-swift-zektol-ed652ee9",
-      "name": "Swift Zektol",
+      "name": "疾風のゼクトール",
       "game": "base",
       "category": "Unique Monster",
       "level": "28",
@@ -68635,7 +68635,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-synchronised-gaheris-dac71ae3",
-      "name": "Synchronised Gaheris",
+      "name": "連奏のガヘリス",
       "game": "base",
       "category": "Unique Monster",
       "level": "61",
@@ -68747,7 +68747,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-tarifa-hode-773e7c5d",
-      "name": "Tarifa Hode",
+      "name": "タリファ・フーディ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "35",
@@ -68869,7 +68869,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-telethia-arielle-2dd7a33d",
-      "name": "Telethia Arielle",
+      "name": "テレシアのアリエッタ",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "86",
@@ -68946,7 +68946,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-telethia-donnis-5674e994",
-      "name": "Telethia Donnis",
+      "name": "テレシアのドナ",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "91",
@@ -69023,7 +69023,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-telethia-galdo-141dce70",
-      "name": "Telethia Galdo",
+      "name": "テレシアのガーダ",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "88",
@@ -69100,7 +69100,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-telethia-galvin-dd2c4aad",
-      "name": "Telethia Galvin",
+      "name": "テレシアのガング",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "88",
@@ -69177,7 +69177,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-telethia-kaelin-fcdd0b71",
-      "name": "Telethia Kaelin",
+      "name": "テレシアのカイト",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "89",
@@ -69254,7 +69254,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-telethia-lecrough-4e3ea4a3",
-      "name": "Telethia Lecrough",
+      "name": "テレシアのロクロ",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "87",
@@ -69331,7 +69331,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-telethia-lesunia-cbf277b2",
-      "name": "Telethia Lesunia",
+      "name": "テレシアのルイーゼ",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "86",
@@ -69408,7 +69408,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-telethia-vol-aren-9a2b7446",
-      "name": "Telethia Vol'aren",
+      "name": "テレシアのボラリオ",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "90",
@@ -69485,7 +69485,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-tempest-vang-4599044f",
-      "name": "Tempest Vang",
+      "name": "テンペスト・ヴァンプ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "75",
@@ -69627,7 +69627,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-tempestuous-edegia-595d4a65",
-      "name": "Tempestuous Edegia",
+      "name": "大嵐のエイデジア",
       "game": "base",
       "category": "Unique Monster",
       "level": "39",
@@ -69759,7 +69759,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-temporal-gawain-4ce23868",
-      "name": "Temporal Gawain",
+      "name": "星霜のガウェイン",
       "game": "base",
       "category": "Unique Monster",
       "level": "65",
@@ -69886,7 +69886,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-teneb-vang-ee7d5e7b",
-      "name": "Teneb Vang",
+      "name": "テネブ・ヴァンプ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "32",
@@ -69998,7 +69998,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-tephra-lizard-264e5c36",
-      "name": "Tephra Lizard",
+      "name": "テフラ・リザド",
       "game": "base",
       "category": "Normal Enemy",
       "level": "8-9",
@@ -70115,7 +70115,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-terra-orluga-acf4e185",
-      "name": "Terra Orluga",
+      "name": "テララ・オルガ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "31",
@@ -70354,7 +70354,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-teterra-pod-6cc30eed",
-      "name": "Teterra Pod",
+      "name": "テテラ・ポッド",
       "game": "base",
       "category": "Normal Enemy",
       "level": "40",
@@ -70466,7 +70466,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-throne-sardi-634fb1d0",
-      "name": "Throne Sardi",
+      "name": "スローネ・サーディ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "70-72",
@@ -70608,7 +70608,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-tocos-orluga-1089b4bc",
-      "name": "Tocos Orluga",
+      "name": "トコス・オルガ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "39",
@@ -70740,7 +70740,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-tored-ageshu-13c50979",
-      "name": "Tored Ageshu",
+      "name": "トレド・アーケシュ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "72-74",
@@ -70847,7 +70847,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-trainer-harmelon-16d41ce1",
-      "name": "Trainer Harmelon",
+      "name": "調教のハーメルン",
       "game": "base",
       "category": "Unique Monster",
       "level": "15",
@@ -71081,7 +71081,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-tramont-wisp-4278decf",
-      "name": "Tramont Wisp",
+      "name": "トラモント・ランプス",
       "game": "base",
       "category": "Normal Enemy",
       "level": "53-55",
@@ -71198,7 +71198,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-tranquil-morax-8839b3be",
-      "name": "Tranquil Morax",
+      "name": "平穏のモラクス",
       "game": "base",
       "category": "Unique Monster",
       "level": "50",
@@ -71310,7 +71310,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-trava-kromar-4d50e2c8",
-      "name": "Trava Kromar",
+      "name": "トラヴァー・スピカル",
       "game": "base",
       "category": "Normal Enemy",
       "level": "86",
@@ -71442,7 +71442,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-tumultuous-felix-b2d2c24b",
-      "name": "Tumultuous Felix",
+      "name": "怒涛のフェリックス",
       "game": "base",
       "category": "Unique Monster",
       "level": "27",
@@ -71574,7 +71574,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-turbulent-belmo-aeb66e5a",
-      "name": "Turbulent Belmo",
+      "name": "大渦のベルモ",
       "game": "base",
       "category": "Unique Monster",
       "level": "36",
@@ -71696,7 +71696,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-tussock-kromar-bdcd7953",
-      "name": "Tussock Kromar",
+      "name": "タソック・スピカル",
       "game": "base",
       "category": "Normal Enemy",
       "level": "39",
@@ -71849,7 +71849,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-ucan-nebula-94fc0d98",
-      "name": "Ucan Nebula",
+      "name": "ウーカーン・ネブラ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "45",
@@ -72068,7 +72068,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-unine-hode-659e4788",
-      "name": "Unine Hode",
+      "name": "ウニーネ・フーディ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "33",
@@ -72190,7 +72190,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-unreliable-rezno-5f13a84c",
-      "name": "Unreliable Rezno",
+      "name": "連星のレゾーナ",
       "game": "base",
       "category": "Quest Exclusive Unique Monster",
       "level": "96",
@@ -72332,7 +72332,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-uragano-nebula-b022a420",
-      "name": "Uragano Nebula",
+      "name": "ウラガーノ・ネブラ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "76",
@@ -72439,7 +72439,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-vagabond-allocer-171aa7f4",
-      "name": "Vagabond Allocer",
+      "name": "流浪のアロケル",
       "game": "base",
       "category": "Unique Monster",
       "level": "63",
@@ -72556,7 +72556,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-vagrant-alfead-96856094",
-      "name": "Vagrant Alfead",
+      "name": "風来のアルフィード",
       "game": "base",
       "category": "Unique Monster",
       "level": "16",
@@ -72673,7 +72673,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-vague-barbas-c23d8ec3",
-      "name": "Vague Barbas",
+      "name": "濛々のマルバス",
       "game": "base",
       "category": "Unique Monster",
       "level": "46",
@@ -72780,7 +72780,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-venaes-nebula-46957874",
-      "name": "Venaes Nebula",
+      "name": "ペナエス・ネブラ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "34",
@@ -72902,7 +72902,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-venerable-focalor-43ab66d2",
-      "name": "Venerable Focalor",
+      "name": "千秋のフォカロル",
       "game": "base",
       "category": "Unique Monster",
       "level": "64",
@@ -73039,7 +73039,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-vengeful-daulton-a59fd075",
-      "name": "Vengeful Daulton",
+      "name": "制裁のドールトン",
       "game": "base",
       "category": "Unique Monster",
       "level": "22",
@@ -73166,7 +73166,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-verdant-bluchal-4325ae0b",
-      "name": "Verdant Bluchal",
+      "name": "新緑のブルックル",
       "game": "base",
       "category": "Unique Monster",
       "level": "5",
@@ -73278,7 +73278,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-veteran-yozel-85aa9671",
-      "name": "Veteran Yozel",
+      "name": "老練なヨーゼル",
       "game": "base",
       "category": "Unique Monster",
       "level": "83",
@@ -73415,7 +73415,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-vicious-rhana-3e48ff74",
-      "name": "Vicious Rhana",
+      "name": "猛襲のラーナ",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "73",
@@ -73492,7 +73492,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-victorious-gross-3e74a853",
-      "name": "Victorious Gross",
+      "name": "五光のグロース",
       "game": "base",
       "category": "Unique Monster",
       "level": "73",
@@ -73559,7 +73559,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-vilae-arachno-5424ca7d",
-      "name": "Vilae Arachno",
+      "name": "ビラエ・スパイド",
       "game": "base",
       "category": "Normal Enemy",
       "level": "93-96",
@@ -73701,7 +73701,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-violent-andante-46ee6cb6",
-      "name": "Violent Andante",
+      "name": "暴走のアンダンテ",
       "game": "base",
       "category": "Unique Monster",
       "level": "16",
@@ -73813,7 +73813,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-vivid-anstan-62ad2757",
-      "name": "Vivid Anstan",
+      "name": "鮮烈のアンスタン",
       "game": "base",
       "category": "Unique Monster",
       "level": "75",
@@ -73885,7 +73885,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-wallslide-gwynry-5fa3ed8f",
-      "name": "Wallslide Gwynry",
+      "name": "壁際のグエンリー",
       "game": "base",
       "category": "Unique Monster",
       "level": "9",
@@ -74012,7 +74012,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-wandering-amon-2a37503e",
-      "name": "Wandering Amon",
+      "name": "放浪のアモン",
       "game": "base",
       "category": "Unique Monster",
       "level": "98",
@@ -74144,7 +74144,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-watcher-hode-b94997a8",
-      "name": "Watcher Hode",
+      "name": "ウォッチ・フーディ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "34",
@@ -74261,7 +74261,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-water-upa-b5132fc5",
-      "name": "Water Upa",
+      "name": "ウォーター・ウーパー",
       "game": "base",
       "category": "Normal Enemy",
       "level": "17",
@@ -74388,7 +74388,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-weather-flier-e5051ad3",
-      "name": "Weather Flier",
+      "name": "ウェザー・フライア",
       "game": "base",
       "category": "Normal Enemy",
       "level": "10",
@@ -74485,7 +74485,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-whapol-sardi-30024af4",
-      "name": "Whapol Sardi",
+      "name": "ワポル・サーディ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "32",
@@ -74602,7 +74602,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-white-eduardo-caf3b730",
-      "name": "White Eduardo",
+      "name": "純白のエドワルド",
       "game": "base",
       "category": "Unique Monster",
       "level": "17",
@@ -74719,7 +74719,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-white-hox-92608ea4",
-      "name": "White Hox",
+      "name": "アルブム・ホッグス",
       "game": "base",
       "category": "Normal Enemy",
       "level": "75",
@@ -74861,7 +74861,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-white-smoke-hox-80b99a59",
-      "name": "White Smoke Hox",
+      "name": "白煙のホッグス",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "32",
@@ -74933,7 +74933,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-wicked-sallos-fe08279e",
-      "name": "Wicked Sallos",
+      "name": "閻魔のサレオス",
       "game": "base",
       "category": "Unique Monster",
       "level": "95",
@@ -75085,7 +75085,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-willow-bunniv-6a202c84",
-      "name": "Willow Bunniv",
+      "name": "ウィロー・バニーヴ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "4-5",
@@ -75202,7 +75202,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-wind-nebula-e7896c95",
-      "name": "Wind Nebula",
+      "name": "ウィンド・ネブラ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "26",
@@ -75339,7 +75339,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-wind-vang-f192ffb9",
-      "name": "Wind Vang",
+      "name": "ウィンド・ヴァンプ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "9",
@@ -75456,7 +75456,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-wise-gremory-92427c98",
-      "name": "Wise Gremory",
+      "name": "聡明のグレモリ",
       "game": "base",
       "category": "Unique Monster",
       "level": "68",
@@ -75593,7 +75593,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-wizard-entia-f44a71da",
-      "name": "Wizard Entia",
+      "name": "ウィズ・エンター",
       "game": "base",
       "category": "Story Exclusive Enemy",
       "level": "34",
@@ -75624,7 +75624,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-woeful-upa-c4917468",
-      "name": "Woeful Upa",
+      "name": "禍福のウーパー",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "62",
@@ -75808,7 +75808,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-wool-selua-981dab57",
-      "name": "Wool Selua",
+      "name": "ウール・セルラ",
       "game": "base",
       "category": "Normal Enemy",
       "level": "73",
@@ -75987,7 +75987,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-wrathful-orobas-e34b7921",
-      "name": "Wrathful Orobas",
+      "name": "逆鱗のオロバス",
       "game": "base",
       "category": "Unique Monster",
       "level": "67",
@@ -76145,7 +76145,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-yaldabaoth-cc101dc6",
-      "name": "Yaldabaoth",
+      "name": "ヤルダバオト",
       "game": "base",
       "category": "Boss",
       "level": "72",
@@ -76176,7 +76176,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-yellow-antol-5f73f972",
-      "name": "Yellow Antol",
+      "name": "イエロー・アントル",
       "game": "base",
       "category": "Normal Enemy",
       "level": "17",
@@ -76600,7 +76600,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-zealous-arachno-66951fcc",
-      "name": "Zealous Arachno",
+      "name": "執念のスパイド",
       "game": "base",
       "category": "Quest Exclusive Enemy",
       "level": "11",
@@ -76672,7 +76672,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-zefa-ories-f5e1f000",
-      "name": "Zefa Ories",
+      "name": "ゼガー・オリエス",
       "game": "base",
       "category": "Normal Enemy",
       "level": "44",
@@ -76784,7 +76784,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-zegia-ories-f08440c8",
-      "name": "Zegia Ories",
+      "name": "ゼギーア・オリエス",
       "game": "base",
       "category": "Normal Enemy",
       "level": "45",
@@ -76891,7 +76891,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-base-zeldi-kromar-ddc15669",
-      "name": "Zeldi Kromar",
+      "name": "ゼルティ・スピカル",
       "game": "base",
       "category": "Normal Enemy",
       "level": "84-86",
@@ -77023,7 +77023,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-acid-upa-f0ed6e2d",
-      "name": "Acid Upa",
+      "name": "アシッド・ウーパー",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "60-62",
@@ -77217,7 +77217,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-ammos-orluga-930398ab",
-      "name": "Ammos Orluga",
+      "name": "アンモス・オルガ",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "72",
@@ -77324,7 +77324,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-antol-king-ed588aea",
-      "name": "Antol King",
+      "name": "アントル・キング",
       "game": "future-connected",
       "category": "Boss",
       "level": "70",
@@ -77355,7 +77355,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-aqua-nebula-7bc18eac",
-      "name": "Aqua Nebula",
+      "name": "アクア・ネブラ",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "60-64",
@@ -77577,7 +77577,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-arachno-queen-9389470b",
-      "name": "Arachno Queen",
+      "name": "スパイド・クイーン",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "71-72",
@@ -77720,7 +77720,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-arena-orluga-d8f6515a",
-      "name": "Arena Orluga",
+      "name": "アレーナ・オルガ",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "72",
@@ -77827,7 +77827,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-atomis-ansel-820e26c7",
-      "name": "Atomis Ansel",
+      "name": "アトミス・アンセル",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "68",
@@ -77939,7 +77939,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-baby-armu-788574c3",
-      "name": "Baby Armu",
+      "name": "ベビー・アルマ",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "60-63",
@@ -78061,7 +78061,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-bagrus-nebula-f8dd1125",
-      "name": "Bagrus Nebula",
+      "name": "バグルス・ネブラ",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "65",
@@ -78198,7 +78198,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-barbaro-igna-5c4ec1ee",
-      "name": "Barbaro Igna",
+      "name": "バルバロ・イグーナ",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "72-73",
@@ -78392,7 +78392,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-bosque-hode-589f7dc5",
-      "name": "Bosque Hode",
+      "name": "ボスケ・フーディ",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "63-66",
@@ -78647,7 +78647,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-caris-nebula-2c64e99d",
-      "name": "Caris Nebula",
+      "name": "カーリス・ネブラ",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "67",
@@ -78820,7 +78820,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-chloro-laia-2e39ac02",
-      "name": "Chloro Laia",
+      "name": "クローロ・ライア",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "67",
@@ -78947,7 +78947,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-ciconia-ekidno-4b37dc3f",
-      "name": "Ciconia Ekidno",
+      "name": "キコニア・エキドナ",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "70-71",
@@ -79126,7 +79126,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-clowd-flier-ed9cb616",
-      "name": "Clowd Flier",
+      "name": "クラウド・フライア",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "61-64",
@@ -79223,7 +79223,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-colony-piranhax-067a2dc4",
-      "name": "Colony Piranhax",
+      "name": "コロニー・サモン",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "71-72",
@@ -79443,7 +79443,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-coppice-quadwing-3e3b2903",
-      "name": "Coppice Quadwing",
+      "name": "コピス・クロード",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "70-71",
@@ -79570,7 +79570,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-corladio-apis-3cd8ee03",
-      "name": "Corladio Apis",
+      "name": "コラティオ・アピス",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "67-71",
@@ -79682,7 +79682,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-cruz-pagul-46bb5d2b",
-      "name": "Cruz Pagul",
+      "name": "クルス・パグール",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "60",
@@ -79902,7 +79902,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-daksha-pod-542c65cf",
-      "name": "Daksha Pod",
+      "name": "ダクシャ・ポッド",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "61-67",
@@ -80081,7 +80081,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-deinos-sauros-7e8e7d82",
-      "name": "Deinos Sauros",
+      "name": "ディノル・サウラー",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "71-73",
@@ -80280,7 +80280,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-director-arachno-fccd2249",
-      "name": "Director Arachno",
+      "name": "ディレク・スパイド",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "71-74",
@@ -80423,7 +80423,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-doom-hox-c1afbc9a",
-      "name": "Doom Hox",
+      "name": "ドゥーム・ホッグス",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "61-67",
@@ -80713,7 +80713,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-eryth-hiln-574d620e",
-      "name": "Eryth Hiln",
+      "name": "エルト・ヒルン",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "62-68",
@@ -80840,7 +80840,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-eryth-rhana-57325824",
-      "name": "Eryth Rhana",
+      "name": "エルト・ラーナ",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "70-71",
@@ -80977,7 +80977,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-ether-bunnia-a961eb98",
-      "name": "Ether Bunnia",
+      "name": "エーテル・バニア",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "66-69",
@@ -81109,7 +81109,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-ether-igna-3d2f64eb",
-      "name": "Ether Igna",
+      "name": "エーテル・イグーナ",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "71-73",
@@ -81272,7 +81272,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-fighter-igna-e8f189d8",
-      "name": "Fighter Igna",
+      "name": "ファイター・イグーナ",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "73",
@@ -81404,7 +81404,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-flutes-kromar-d113faf4",
-      "name": "Flutes Kromar",
+      "name": "フルテス・スピカル",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "66-69",
@@ -81655,7 +81655,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-gluttony-gogol-0ba984e5",
-      "name": "Gluttony Gogol",
+      "name": "グラード・ゴゴール",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "68-69",
@@ -81782,7 +81782,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-goldi-kromar-ff1321f8",
-      "name": "Goldi Kromar",
+      "name": "ゴルティ・スピカル",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "71-72",
@@ -81914,7 +81914,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-green-feris-dfa5ad23",
-      "name": "Green Feris",
+      "name": "グリーヌ・フェリス",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "65-69",
@@ -82051,7 +82051,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-grom-nebula-7caeb3e7",
-      "name": "Grom Nebula",
+      "name": "グローム・ネブラ",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "66",
@@ -82204,7 +82204,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-grove-quadwing-5d1da87c",
-      "name": "Grove Quadwing",
+      "name": "グローヴ・クロード",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "66-67",
@@ -82372,7 +82372,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-hyle-hode-ef7d0aed",
-      "name": "Hyle Hode",
+      "name": "ヒューレ・フーディ",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "69-73",
@@ -82515,7 +82515,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-inferno-deinos-2842af1a",
-      "name": "Inferno Deinos",
+      "name": "カロル・ディノス",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "67-70",
@@ -82744,7 +82744,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-jungle-quadwing-d482f33e",
-      "name": "Jungle Quadwing",
+      "name": "ジャンゴ・クロード",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "64-66",
@@ -82856,7 +82856,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-klanis-apis-536eb94a",
-      "name": "Klanis Apis",
+      "name": "クラニス・アピス",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "66-68",
@@ -82963,7 +82963,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-korlba-pterix-b55d4c13",
-      "name": "Korlba Pterix",
+      "name": "コルーバ・プテルス",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "74",
@@ -83100,7 +83100,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-krawla-slobos-8d9875d3",
-      "name": "Krawla Slobos",
+      "name": "クロウラ・ソロボス",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "71",
@@ -83207,7 +83207,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-kyel-lexos-9432ed54",
-      "name": "Kyel Lexos",
+      "name": "ヒュエル・レクソス",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "74-75",
@@ -83380,7 +83380,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-laeklit-mammut-31db50ab",
-      "name": "Laeklit Mammut",
+      "name": "ラケリト・マム−ト",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "71",
@@ -83517,7 +83517,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-lake-flamii-ccb63fb5",
-      "name": "Lake Flamii",
+      "name": "レイク・フラミー",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "60-65",
@@ -83644,7 +83644,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-lampo-ponio-4051f55b",
-      "name": "Lampo Ponio",
+      "name": "ランポ・ポニオ",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "63-66",
@@ -83746,7 +83746,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-leg-ardun-688938a5",
-      "name": "Leg Ardun",
+      "name": "レッグ・アルドン",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "62-69",
@@ -83858,7 +83858,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-leg-armu-963afc45",
-      "name": "Leg Armu",
+      "name": "レッグ・アルマ",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "61-64",
@@ -84001,7 +84001,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-leg-skeeter-61837a13",
-      "name": "Leg Skeeter",
+      "name": "レッグ・スキート",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "66-67",
@@ -84103,7 +84103,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-leg-tokilos-b2693568",
-      "name": "Leg Tokilos",
+      "name": "レッグ・トキロス",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "68",
@@ -84230,7 +84230,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-leg-volff-12c15524",
-      "name": "Leg Volff",
+      "name": "レッグ・ヴォルフ",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "61-70",
@@ -84342,7 +84342,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-lelepago-pterix-e3c59ecc",
-      "name": "Lelepago Pterix",
+      "name": "レレパゴ・プテルス",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "70",
@@ -84586,7 +84586,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-light-wisp-4746c8fd",
-      "name": "Light Wisp",
+      "name": "ライト・ランプス",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "60-64",
@@ -84790,7 +84790,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-lunar-grady-a4d6e87f",
-      "name": "Lunar Grady",
+      "name": "ルーナ・グラディ",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "67",
@@ -84917,7 +84917,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-makna-ansel-a6f0a6c4",
-      "name": "Makna Ansel",
+      "name": "マクナ・アンセル",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "63-64",
@@ -85034,7 +85034,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-makna-eks-77f3e573",
-      "name": "Makna Eks",
+      "name": "マクナ・エクス",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "61-63",
@@ -85151,7 +85151,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-maleza-kromar-a29a48e2",
-      "name": "Maleza Kromar",
+      "name": "マレッサ・スピカル",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "67-69",
@@ -85273,7 +85273,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-marble-krabble-0d70a689",
-      "name": "Marble Krabble",
+      "name": "マーブル・クライブ",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "63-65",
@@ -85431,7 +85431,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-monta-moramora-0df32051",
-      "name": "Monta Moramora",
+      "name": "モンタ・モラモラ",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "64-70",
@@ -85538,7 +85538,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-morule-hox-ff9b440d",
-      "name": "Morule Hox",
+      "name": "モルーレ・ホッグス",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "61-64",
@@ -85665,7 +85665,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-noble-brog-4b35d78e",
-      "name": "Noble Brog",
+      "name": "ノーブル・グロッグ",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "60-62",
@@ -85792,7 +85792,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-officer-volff-f833cd8e",
-      "name": "Officer Volff",
+      "name": "オフィサー・ヴォルフ",
       "game": "future-connected",
       "category": "Story Exclusive Enemy",
       "level": "57",
@@ -85934,7 +85934,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-ogre-bunnia-4b0e41aa",
-      "name": "Ogre Bunnia",
+      "name": "オーガー・バニア",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "65-69",
@@ -86097,7 +86097,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-perna-eluca-7223c825",
-      "name": "Perna Eluca",
+      "name": "ペルナ・エルーカ",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "66-68",
@@ -86224,7 +86224,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-petra-apis-e2802193",
-      "name": "Petra Apis",
+      "name": "ペトラ・アピス",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "64-70",
@@ -86362,7 +86362,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-plasma-deinos-8727a331",
-      "name": "Plasma Deinos",
+      "name": "トニトル・ディノス",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "70-71",
@@ -86611,7 +86611,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-prado-upa-b2130b7a",
-      "name": "Prado Upa",
+      "name": "プラード・ウーパー",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "66-68",
@@ -86733,7 +86733,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-praying-caterpile-4af40dc9",
-      "name": "Praying Caterpile",
+      "name": "プレアー・キャピル",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "60-64",
@@ -87005,7 +87005,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-red-antol-f60d9462",
-      "name": "Red Antol",
+      "name": "レッド・アントル",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "61-67",
@@ -87132,7 +87132,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-reef-nebula-36149c18",
-      "name": "Reef Nebula",
+      "name": "リーフ・ネブラ",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "73",
@@ -87443,7 +87443,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-ridge-antol-2b8b5bf4",
-      "name": "Ridge Antol",
+      "name": "リッジ・アントル",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "60-65",
@@ -87565,7 +87565,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-sabulum-orluga-3ac4284a",
-      "name": "Sabulum Orluga",
+      "name": "サブルム・オルガ",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "70-73",
@@ -87672,7 +87672,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-satorl-rhogul-c63a4919",
-      "name": "Satorl Rhogul",
+      "name": "ザトール・ローグル",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "65",
@@ -87809,7 +87809,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-satorl-torta-913ca011",
-      "name": "Satorl Torta",
+      "name": "ザトール・トーター",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "69-70",
@@ -87946,7 +87946,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-satorl-volff-4a9b6b82",
-      "name": "Satorl Volff",
+      "name": "ザトール・ヴォルフ",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "63-70",
@@ -88088,7 +88088,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-sestago-lexos-9d6d222e",
-      "name": "Sestago Lexos",
+      "name": "セスタゴ・レクソス",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "69",
@@ -88230,7 +88230,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-setor-eks-b8d45e79",
-      "name": "Setor Eks",
+      "name": "セトール・エクス",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "66-70",
@@ -88663,7 +88663,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-snowal-taos-6517ef16",
-      "name": "Snowal Taos",
+      "name": "スノーラル・タオース",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "66-75",
@@ -88805,7 +88805,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-sol-grady-640b24df",
-      "name": "Sol Grady",
+      "name": "ソール・グラディ",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "67",
@@ -88942,7 +88942,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-somati-kromar-9ad8dc44",
-      "name": "Somati Kromar",
+      "name": "ソマティ・スピカル",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "67-69",
@@ -89217,7 +89217,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-suelo-orluga-06eb2863",
-      "name": "Suelo Orluga",
+      "name": "スエロ・オルガ",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "68-71",
@@ -89359,7 +89359,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-tarifa-hode-78570bb0",
-      "name": "Tarifa Hode",
+      "name": "タリファ・フーディ",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "69",
@@ -89543,7 +89543,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-trava-kromar-bed1dcc8",
-      "name": "Trava Kromar",
+      "name": "トラヴァー・スピカル",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "71",
@@ -89675,7 +89675,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-unine-hode-94d1b6e0",
-      "name": "Unine Hode",
+      "name": "ウニーネ・フーディ",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "69-73",
@@ -89859,7 +89859,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-watcher-hode-e7b2696a",
-      "name": "Watcher Hode",
+      "name": "ウォッチ・フーディ",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "68-72",
@@ -89976,7 +89976,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-whapol-sardi-48015faa",
-      "name": "Whapol Sardi",
+      "name": "ワポル・サーディ",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "61-62",
@@ -90093,7 +90093,7 @@ const MONSTERPEDIA_DATA = {
     },
     {
       "id": "monster-future-connected-wind-nebula-90d08bbd",
-      "name": "Wind Nebula",
+      "name": "ウィンド・ネブラ",
       "game": "future-connected",
       "category": "Normal Enemy",
       "level": "60-61",

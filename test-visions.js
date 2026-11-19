@@ -82,7 +82,7 @@ const waitFor = async (test, message, timeout = 8000) => {
 
   if (fired) {
     const text = host.textContent;
-    check("names the point of no return", /Ether Mine|Xord|Refugee Camp|Road Home/i.test(text), text.slice(0, 80));
+    check("names the point of no return", /中央採掘場|ゾード|脱出艇キャンプ|懐かしの我が街へ/i.test(text), text.slice(0, 80));
     check("states a loss count", /\d+\s*deadline item/i.test(text));
     check("itemises the loss", host.querySelectorAll(".vision-losses li").length > 0,
       `${host.querySelectorAll(".vision-losses li").length} rows`);
