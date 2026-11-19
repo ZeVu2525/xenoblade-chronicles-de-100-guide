@@ -124,8 +124,8 @@ async function makeDom({ legacy = null, previous = null, current = null, url = "
   await waitFor(() => document.querySelector(`#encounter-select option[value="${verdant.id}"]`), "Play Mode encounter dossiers");
   document.getElementById("encounter-select").value = verdant.id;
   document.getElementById("encounter-select").dispatchEvent(new Event("change", { bubbles: true }));
-  assert(document.getElementById("encounter-detail").textContent.includes("Shulk / Reyn / Fiora · control Shulk"), "Play Mode recommends a party that is unavailable for 新緑のブルックル");
-  assert(!document.getElementById("encounter-detail").textContent.includes("Shulk / Dunban / Riki"), "Play Mode leaked the late-game Unique Monster party into Chapter 1");
+  assert(document.getElementById("encounter-detail").textContent.includes("シュルク / ライン / フィオルン · シュルクを操作"), "Play Mode recommends a party that is unavailable for 新緑のブルックル");
+  assert(!document.getElementById("encounter-detail").textContent.includes("シュルク / ダンバン / リキ"), "Play Mode leaked the late-game Unique Monster party into Chapter 1");
   document.getElementById("session-length").value = "30";
   document.getElementById("session-focus").value = "completion";
   document.getElementById("session-build").dispatchEvent(new MouseEvent("click", { bubbles: true }));
@@ -357,7 +357,7 @@ async function makeDom({ legacy = null, previous = null, current = null, url = "
   monsterSearch.value = "新緑のブルックル";
   monsterSearch.dispatchEvent(new Event("input", { bubbles: true }));
   const verdantCard = document.querySelector("#monster-results .monster-card");
-  assert(verdantCard?.textContent.includes("Shulk / Reyn / Fiora · control Shulk"), "Monsterpedia does not show the legal Chapter 1 party for 新緑のブルックル");
+  assert(verdantCard?.textContent.includes("シュルク / ライン / フィオルン · シュルクを操作"), "Monsterpedia does not show the legal Chapter 1 party for 新緑のブルックル");
   assert(verdantCard?.querySelector('.combat-dossier[open]') && verdantCard.querySelector('details[open]'), "Monsterpedia disclosures do not start expanded");
   const dossierChainLink = verdantCard.querySelector('[data-open-tool="chain"][data-chain-target]');
   assert(dossierChainLink?.dataset.chainTarget === verdant.id && dossierChainLink.dataset.chainPhase === "ch1", "Unique Monster dossier does not carry target and story phase into Chain Planner");

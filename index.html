@@ -1980,13 +1980,13 @@ function routeItemReference(name, filter){
   return null;
 }
 const ROUTE_PARTY_PHASES = [
-  { chapters:["ch1","ch2"], party:"Shulk / Reyn / Fiora · control Shulk", members:["Shulk","Reyn","Fiora"], preset:"main-ch1-2-story", plan:"Control Shulk for vision responses; let Reyn hold aggro while Fiora adds side and back damage. Use Break → Topple when the target permits it." },
-  { chapters:["ch3"], party:"Shulk / Reyn · control Shulk", members:["Shulk","Reyn"], preset:"", plan:"This is the temporary two-person roster. Control Shulk, let Reyn tank, stay near the target level, and use Break → Topple instead of planning around a third character." },
-  { chapters:["ch4"], party:"Shulk / Reyn / Sharla · control Shulk", members:["Shulk","Reyn","Sharla"], preset:"main-ch3-5-story", plan:"Control Shulk for vision responses, let Reyn tank, and use Sharla to stabilize the first three-person story roster." },
-  { chapters:["ch5","ch6"], party:"Shulk / Dunban / Sharla · control Shulk", members:["Shulk","Reyn","Sharla","Dunban"], preset:"main-ch5-6-transition-safe", plan:"Control Shulk, let Dunban evade-tank, and keep Sharla for reliable sustain during the pre-Riki route." },
-  { chapters:["ch7","ch8","ch9","ch10","ch11"], party:"Shulk / Dunban / Riki · control Shulk", members:["Shulk","Reyn","Sharla","Dunban","Melia","Riki"], preset:"main-ch7-11-core", plan:"Use the route's reliable Shulk / Dunban / Riki core; control Shulk for visions and commit to Break → Topple only when resistance allows it." },
-  { chapters:["ch12","ch13","ch14","ch15","ch16","ch17","post"], party:"Shulk / Dunban / Riki · control Shulk", members:["Shulk","Reyn","Sharla","Dunban","Melia","Riki","Fiora"], preset:"main-um-safe", plan:"Use the route's reliable Shulk / Dunban / Riki core; control Shulk for visions and tune gems to the documented arts, spike, and level gap." },
-  { chapters:["fc"], party:"Shulk / Kino / Nene · control Shulk", members:["Shulk","Melia","Kino","Nene"], preset:"fc-opening-safe", plan:"Use the Future Connected roster: control Shulk, let Nene tank, and keep Kino on healing and support." }
+  { chapters:["ch1","ch2"], party:"シュルク / ライン / フィオルン · シュルクを操作", members:["シュルク","ライン","フィオルン"], preset:"main-ch1-2-story", plan:"Control Shulk for vision responses; let Reyn hold aggro while Fiora adds side and back damage. Use Break → Topple when the target permits it." },
+  { chapters:["ch3"], party:"シュルク / ライン · シュルクを操作", members:["シュルク","ライン"], preset:"", plan:"This is the temporary two-person roster. Control Shulk, let Reyn tank, stay near the target level, and use Break → Topple instead of planning around a third character." },
+  { chapters:["ch4"], party:"シュルク / ライン / カルナ · シュルクを操作", members:["シュルク","ライン","カルナ"], preset:"main-ch3-5-story", plan:"Control Shulk for vision responses, let Reyn tank, and use Sharla to stabilize the first three-person story roster." },
+  { chapters:["ch5","ch6"], party:"シュルク / ダンバン / カルナ · シュルクを操作", members:["シュルク","ライン","カルナ","ダンバン"], preset:"main-ch5-6-transition-safe", plan:"Control Shulk, let Dunban evade-tank, and keep Sharla for reliable sustain during the pre-Riki route." },
+  { chapters:["ch7","ch8","ch9","ch10","ch11"], party:"シュルク / ダンバン / リキ · シュルクを操作", members:["シュルク","ライン","カルナ","ダンバン","メリア","リキ"], preset:"main-ch7-11-core", plan:"Use the route's reliable Shulk / Dunban / Riki core; control Shulk for visions and commit to Break → Topple only when resistance allows it." },
+  { chapters:["ch12","ch13","ch14","ch15","ch16","ch17","post"], party:"シュルク / ダンバン / リキ · シュルクを操作", members:["シュルク","ライン","カルナ","ダンバン","メリア","リキ","フィオルン"], preset:"main-um-safe", plan:"Use the route's reliable Shulk / Dunban / Riki core; control Shulk for visions and tune gems to the documented arts, spike, and level gap." },
+  { chapters:["fc"], party:"シュルク / Kino / Nene · シュルクを操作", members:["シュルク","メリア","Kino","Nene"], preset:"fc-opening-safe", plan:"Use the Future Connected roster: control Shulk, let Nene tank, and keep Kino on healing and support." }
 ];
 function routePartyPhase(routeReference){
   if (!routeReference) return null;
@@ -1998,8 +1998,8 @@ function routeAwareEncounterAdvice(baseAdvice, routeReference){
   const namedParty = String(baseAdvice.party || "").split("·")[0].split("/").map(name => name.trim()).filter(Boolean);
   const basePartyIsAvailable = namedParty.length > 0 && namedParty.every(name => phase.members.includes(name));
   if (basePartyIsAvailable) return {...baseAdvice, basis:`${baseAdvice.basis || "Guide strategy."} Party legality checked against ${routeReference.chapterId.toUpperCase()} route availability.`};
-  const removedMeliaPlan = namedParty.includes("Melia");
-  const gems = (baseAdvice.gems || []).filter(gem => !removedMeliaPlan || !/Melia/i.test(gem));
+  const removedMeliaPlan = namedParty.includes("メリア");
+  const gems = (baseAdvice.gems || []).filter(gem => !removedMeliaPlan || !/メリア|Melia/i.test(gem));
   const mechanicsNote = removedMeliaPlan ? " The source data favors Ether damage here, but this route point does not yet provide that late-game Melia setup." : "";
   return {...baseAdvice, party:phase.party, preset:phase.preset, gems, route:`${phase.plan}${mechanicsNote}`, basis:`${baseAdvice.basis || "Guide strategy."} Party replaced with the roster actually available at ${routeReference.chapterId.toUpperCase()}.`};
 }

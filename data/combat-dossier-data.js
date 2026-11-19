@@ -11,9 +11,9 @@ const COMBAT_DOSSIER_DATA={
   },
   "records": {
     "monster-base-abnormal-clone-barg-73306b1c": {
-      "name": "Abnormal Clone Barg",
+      "name": "悪食のクロンボーク",
       "level": "77",
-      "area": "Prison Island",
+      "area": "監獄島",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -36,17 +36,17 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Barrier",
+              "name": "バリアー",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Physical Protect; Ether Protect",
+              "effect": "物理バリア; エーテルバリア",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Cloak of Darkness",
+              "name": "常闇の衣",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -56,17 +56,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Horn Stab",
+              "name": "一角突き",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
               "range": "-",
-              "effect": "Bleed",
+              "effect": "出血",
               "knockback": "Yes (2)",
               "breakDamage": "-"
             },
             {
-              "name": "Howl of Darkness",
+              "name": "常闇の咆哮",
               "type": "Ether",
               "strength": "1.3 – 1.5",
               "hits": "3",
@@ -77,9 +77,9 @@ const COMBAT_DOSSIER_DATA={
             }
           ],
           "spike": {
-            "type": "Topple",
+            "type": "転倒",
             "range": "8 M",
-            "damage": "Daze"
+            "damage": "気絶"
           },
           "resistances": {
             "break": "0%",
@@ -103,7 +103,7 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind",
@@ -111,18 +111,18 @@ const COMBAT_DOSSIER_DATA={
           "全デバフ抵抗"
         ],
         "watch": [
-          "Barrier: Physical Protect; Ether Protect",
-          "Cloak of Darkness: Ether Up",
-          "Horn Stab: Bleed"
+          "バリアー: 物理バリア; エーテルバリア",
+          "常闇の衣: Ether Up",
+          "一角突き: 出血"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-active-impulso-5a2cf27d": {
-      "name": "Active Impulso",
+      "name": "能動のインプルソ",
       "level": "72",
-      "area": "Bionis' Interior",
+      "area": "巨神胎内",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -150,27 +150,27 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.05 – 1.25",
               "hits": "2",
               "range": "-",
-              "effect": "HP Steal (%)",
+              "effect": "ＨＰ吸収 (%)",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Slash",
+              "name": "なぎ払い",
               "type": "Physical",
               "strength": "2.3 – 2.5",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Vile Fungus",
+              "name": "悪玉菌",
               "type": "Ether",
               "strength": "1.3 – 1.5",
               "hits": "1",
               "range": "-",
-              "effect": "Poison; Arts Seal",
+              "effect": "毒; アーツ封印",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -198,25 +198,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-fast",
-        "party": "Melia / Dunban / Riki · control Melia",
+        "party": "メリア / ダンバン / リキ · メリアを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗",
-          "Ether Up on Melia"
+          "メリアに Ether Up"
         ],
         "watch": [
-          "Nutrient Absorb V: HP Steal (%)",
-          "Slash: Topple",
-          "Vile Fungus: Poison; Arts Seal"
+          "Nutrient Absorb V: ＨＰ吸収 (%)",
+          "なぎ払い: 転倒",
+          "悪玉菌: 毒; アーツ封印"
         ],
-        "route": "High physical resistance favors a controlled Melia ether plan; store elements and discharge into safe windows.",
+        "route": "物理耐性が高いときは、操作するメリアのエーテル計画が向く。属性を溜め、安全な隙に放出する。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-affluent-beleth-6f04d711": {
-      "name": "Affluent Beleth",
+      "name": "宝幸のベレト",
       "level": "57",
-      "area": "Fallen Arm",
+      "area": "落ちた腕",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -244,22 +244,22 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.55 – 1.75",
               "hits": "1",
               "range": "-",
-              "effect": "Pierce; ヘイスト",
+              "effect": "貫通; ヘイスト",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Thunderbolt II",
+              "name": "落雷 II",
               "type": "Talent (Ether)",
               "strength": "1.8 – 2.0",
               "hits": "1",
               "range": "-",
-              "effect": "Paralysis",
+              "effect": "パラライズ",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Angler Fish Hit",
+              "name": "チョウチンヒット",
               "type": "Physical",
               "strength": "1.8 – 2.0",
               "hits": "1",
@@ -269,17 +269,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Knock-Down Spin",
+              "name": "ノッキングスピン",
               "type": "Physical",
               "strength": "2.3 – 2.5",
               "hits": "1",
               "range": "-",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Slow Water",
+              "name": "スロウウォータ",
               "type": "Ether",
               "strength": "1.3 – 1.5",
               "hits": "1",
@@ -312,25 +312,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Fish Festival VI: Pierce; ヘイスト",
-          "Thunderbolt II: Paralysis",
-          "Knock-Down Spin: Topple",
-          "Slow Water: Slow"
+          "Fish Festival VI: 貫通; ヘイスト",
+          "落雷 II: パラライズ",
+          "ノッキングスピン: 転倒",
+          "スロウウォータ: Slow"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-aged-leraje-d9922798": {
-      "name": "Aged Leraje",
+      "name": "早老のレラジェ",
       "level": "56",
-      "area": "Fallen Arm",
+      "area": "落ちた腕",
       "conditions": "Nighttime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -353,7 +353,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Ardent Howl",
+              "name": "俊敏の雄叫び",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -363,17 +363,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Freeze Intimidate",
+              "name": "すくみあがる威嚇",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Agility Down",
+              "effect": "素早さダウン",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Terrible Howl",
+              "name": "血染めの雄叫び",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -383,12 +383,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Savage",
+              "name": "食らいつき",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
               "range": "-",
-              "effect": "Bleed",
+              "effect": "出血",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -416,25 +416,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Ardent Howl: ヘイスト",
-          "Freeze Intimidate: Agility Down",
-          "Terrible Howl: 筋力アップ",
-          "Savage: Bleed"
+          "俊敏の雄叫び: ヘイスト",
+          "すくみあがる威嚇: 素早さダウン",
+          "血染めの雄叫び: 筋力アップ",
+          "食らいつき: 出血"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-ageless-moabit-f23ba2ca": {
-      "name": "Ageless Moabit",
+      "name": "不老のモアビート",
       "level": "75",
-      "area": "Prison Island",
+      "area": "監獄島",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -462,7 +462,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.55 – 1.75",
               "hits": "1",
               "range": "Circle around caster",
-              "effect": "Blaze; Self HP Down",
+              "effect": "炎熱; 自身に最大ＨＰダウン",
               "knockback": "Yes (1)",
               "breakDamage": "-"
             },
@@ -472,7 +472,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.55 – 1.75",
               "hits": "1",
               "range": "Circle around caster",
-              "effect": "Chill; Self HP Down",
+              "effect": "冷気; 自身に最大ＨＰダウン",
               "knockback": "Yes (1)",
               "breakDamage": "-"
             },
@@ -482,22 +482,22 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.55 – 1.75",
               "hits": "1",
               "range": "Circle around caster",
-              "effect": "Slow; Self HP Down",
+              "effect": "Slow; 自身に最大ＨＰダウン",
               "knockback": "Yes (1)",
               "breakDamage": "-"
             },
             {
-              "name": "Corona Whip",
+              "name": "コロナウィップ",
               "type": "Ether",
               "strength": "0.55 – 0.75",
               "hits": "3",
               "range": "-",
-              "effect": "Lock-On",
+              "effect": "ロックオン",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Elemental Bullet",
+              "name": "エレメント弾",
               "type": "Ether",
               "strength": "1.3 – 1.5",
               "hits": "1",
@@ -507,7 +507,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Elemental Cannon",
+              "name": "エレメント砲",
               "type": "Ether",
               "strength": "1.3 – 1.5",
               "hits": "1",
@@ -517,17 +517,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Ice Whip",
+              "name": "アイスウィップ",
               "type": "Ether",
               "strength": "0.55 – 0.75",
               "hits": "3",
               "range": "-",
-              "effect": "Arts Seal",
+              "effect": "アーツ封印",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Sand Whip",
+              "name": "サンドウィップ",
               "type": "Ether",
               "strength": "0.55 – 0.75",
               "hits": "3",
@@ -564,28 +564,28 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-fast",
-        "party": "Melia / Dunban / Riki · control Melia",
+        "party": "メリア / ダンバン / リキ · メリアを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind",
           "スパイク防御",
           "全デバフ抵抗",
-          "Ether Up on Melia"
+          "メリアに Ether Up"
         ],
         "watch": [
-          "Corona Eruption V: Blaze; Self HP Down",
-          "Ice Eruption IV: Chill; Self HP Down",
-          "Sand Eruption VII: Slow; Self HP Down",
-          "Corona Whip: Lock-On"
+          "Corona Eruption V: 炎熱; 自身に 最大ＨＰダウン",
+          "Ice Eruption IV: 冷気; 自身に 最大ＨＰダウン",
+          "Sand Eruption VII: Slow; 自身に 最大ＨＰダウン",
+          "コロナウィップ: ロックオン"
         ],
-        "route": "High physical resistance favors a controlled Melia ether plan; store elements and discharge into safe windows.",
+        "route": "物理耐性が高いときは、操作するメリアのエーテル計画が向く。属性を溜め、安全な隙に放出する。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-aggressive-cornelius-1319560d": {
-      "name": "Aggressive Cornelius",
+      "name": "衝撃のレオポルド",
       "level": "28",
-      "area": "Satorl Marsh",
+      "area": "燐光の地ザトール",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -608,7 +608,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Rampage III ‡",
+              "name": "大暴れ III ‡",
               "type": "Talent (Physical)",
               "strength": "1.3 – 1.5",
               "hits": "2",
@@ -618,22 +618,22 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/No"
             },
             {
-              "name": "Big Combo",
+              "name": "大連撃",
               "type": "Physical",
               "strength": "1.55 – 1.75",
               "hits": "3",
               "range": "-",
-              "effect": "Daze; Double Damage if Toppled",
+              "effect": "気絶; Double Damage if Toppled",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Big Scissors",
+              "name": "大バサミ",
               "type": "Physical",
               "strength": "2.3 – 2.5",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Bleed",
+              "effect": "出血",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -648,17 +648,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Armour Down",
+              "name": "アーマーダウン",
               "type": "Ether",
               "strength": "1.8 – 2.0",
               "hits": "1",
               "range": "-",
-              "effect": "Phys Def Down",
+              "effect": "物理耐性減",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Slow Ether",
+              "name": "スロウエーテル",
               "type": "Ether",
               "strength": "1.8 – 2.0",
               "hits": "1",
@@ -691,25 +691,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Big Combo: Daze; Double Damage if Toppled",
-          "Big Scissors: Bleed",
-          "Armour Down: Phys Def Down",
-          "Slow Ether: Slow"
+          "大連撃: 気絶; Double Damage if Toppled",
+          "大バサミ: 出血",
+          "アーマーダウン: 物理耐性減",
+          "スロウエーテル: Slow"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-agile-albatro-419bf22f": {
-      "name": "Agile Albatro",
+      "name": "流麗のアルバトロ",
       "level": "33",
-      "area": "Makna Forest",
+      "area": "マクナ原生林",
       "conditions": "Clear or Torrid Weather",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -732,47 +732,47 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Winged Awakening",
+              "name": "鳥の覚醒",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Awakening",
+              "effect": "覚醒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Winged Cure",
+              "name": "鳥の治癒",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Regenerate",
+              "effect": "時間ヒール",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Skewer",
+              "name": "串刺し",
               "type": "Physical",
               "strength": "3.3 – 3.5",
               "hits": "1",
               "range": "-",
-              "effect": "Bleed",
+              "effect": "出血",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Tornado Spin",
+              "name": "トルネードスピン",
               "type": "Ether",
               "strength": "2.05 – 2.25",
               "hits": "3",
               "range": "Circle around caster",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Wing Smite",
+              "name": "大羽ばたき",
               "type": "Ether",
               "strength": "1.8 – 2.0",
               "hits": "1",
@@ -805,25 +805,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Winged Awakening: Awakening",
-          "Winged Cure: Regenerate",
-          "Skewer: Bleed",
-          "Tornado Spin: Topple"
+          "鳥の覚醒: 覚醒",
+          "鳥の治癒: 時間ヒール",
+          "串刺し: 出血",
+          "トルネードスピン: 転倒"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-agile-barbatos-eb420e62": {
-      "name": "Agile Barbatos",
+      "name": "秀麗のバルバトス",
       "level": "47",
-      "area": "Valak Mountain",
+      "area": "ヴァラク雪山",
       "conditions": "Nighttime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -846,17 +846,17 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Bison Rampage III",
+              "name": "Bison 大暴れ III",
               "type": "Talent (Physical)",
               "strength": "1.05 – 1.25",
               "hits": "4",
               "range": "Circle around caster",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Beast Rampage",
+              "name": "獣の暴走",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -866,17 +866,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Bison Voice",
+              "name": "バイソンボイス",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Ether Up; Ether Protect",
+              "effect": "Ether Up; エーテルバリア",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Bison Charge",
+              "name": "バイソン突進",
               "type": "Physical",
               "strength": "1.05 – 1.25",
               "hits": "3",
@@ -886,12 +886,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Ice Breath",
+              "name": "アイスブレス",
               "type": "Ether",
               "strength": "1.8 – 2.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Chill; Slow",
+              "effect": "冷気; Slow",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -923,26 +923,26 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "スパイク防御",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Bison Rampage III: Topple",
-          "Beast Rampage: Crazed",
-          "Bison Voice: Ether Up; Ether Protect",
-          "Ice Breath: Chill; Slow"
+          "Bison 大暴れ III: 転倒",
+          "獣の暴走: Crazed",
+          "バイソンボイス: Ether Up; エーテルバリア",
+          "アイスブレス: 冷気; Slow"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-amber-fischer-3709be53": {
-      "name": "Amber Fischer",
+      "name": "琥珀のフィッシャー",
       "level": "27",
-      "area": "Satorl Marsh",
+      "area": "燐光の地ザトール",
       "conditions": "Clear Weather",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -970,42 +970,42 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.8 – 2.0",
               "hits": "1",
               "range": "-",
-              "effect": "Daze",
+              "effect": "気絶",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Binding Screech",
+              "name": "ショックボイス",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Frontal Arc",
-              "effect": "Bind; Ether Down",
+              "effect": "バインド; エーテルダウン",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Insane Screech",
+              "name": "大ショックボイス",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Bind",
+              "effect": "バインド",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Winged Awakening",
+              "name": "鳥の覚醒",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Awakening",
+              "effect": "覚醒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Kick Rush",
+              "name": "キックラッシュ",
               "type": "Physical",
               "strength": "1.3 – 1.5",
               "hits": "3",
@@ -1015,22 +1015,22 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Razor Water",
+              "name": "シェイブウォーター",
               "type": "Ether",
               "strength": "1.3 – 1.5",
               "hits": "1",
               "range": "-",
-              "effect": "Strength Down",
+              "effect": "筋力ダウン",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Venom Shot",
+              "name": "ベノムシュート",
               "type": "Ether",
               "strength": "1.3 – 1.5",
               "hits": "1",
               "range": "-",
-              "effect": "Poison",
+              "effect": "毒",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -1058,25 +1058,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Snipe Shot I: Daze",
-          "Binding Screech: Bind; Ether Down",
-          "Insane Screech: Bind",
-          "Winged Awakening: Awakening"
+          "Snipe Shot I: 気絶",
+          "ショックボイス: バインド; エーテルダウン",
+          "大ショックボイス: バインド",
+          "鳥の覚醒: 覚醒"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-amorous-arca-4eddd80b": {
-      "name": "Amorous Arca",
+      "name": "艶笑のアールカ",
       "level": "57",
-      "area": "Mechonis Field",
+      "area": "機神界フィールド",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -1104,12 +1104,12 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.8 – 2.0",
               "hits": "1",
               "range": "-",
-              "effect": "Pierce; ヘイスト",
+              "effect": "貫通; ヘイスト",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Drill Screw",
+              "name": "ドリルスクリュー",
               "type": "Physical",
               "strength": "3.3 – 3.5",
               "hits": "1",
@@ -1119,22 +1119,22 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Hard Bash",
+              "name": "ハードバッシュ",
               "type": "Physical",
               "strength": "3.3 – 3.5",
               "hits": "1",
               "range": "-",
-              "effect": "Daze",
+              "effect": "気絶",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Side Swing",
+              "name": "サイドスウィング",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -1162,23 +1162,23 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ"
         ],
         "watch": [
-          "Naked Glow V: Pierce; ヘイスト",
-          "Hard Bash: Daze",
-          "Side Swing: Topple"
+          "Naked Glow V: 貫通; ヘイスト",
+          "ハードバッシュ: 気絶",
+          "サイドスウィング: 転倒"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-ancient-daedala-60a4dc41": {
-      "name": "Ancient Daedala",
+      "name": "太古のデイダラ",
       "level": "105",
-      "area": "Fallen Arm",
+      "area": "落ちた腕",
       "conditions": "During Chapter 17",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -1201,7 +1201,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Bolt Screw",
+              "name": "ボルトスクリュー",
               "type": "Physical",
               "strength": "2.4 - 2.8",
               "hits": "1",
@@ -1211,32 +1211,32 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/Yes"
             },
             {
-              "name": "Rivoluzione",
+              "name": "リヴォルツィオーネ",
               "type": "Physical",
               "strength": "1.8 - 2.0",
               "hits": "1",
               "range": "Single",
-              "effect": "Bleed",
+              "effect": "出血",
               "knockback": "Yes",
               "breakDamage": "-"
             },
             {
-              "name": "Vento",
+              "name": "ヴェント",
               "type": "Physical",
               "strength": "0.75 - 0.90",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Strano ※1",
+              "name": "ストラーノ ※1",
               "type": "Physical",
               "strength": "1.2 - 1.4",
               "hits": "1",
               "range": "Single",
-              "effect": "Max HP Down",
+              "effect": "最大 最大ＨＰダウン",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -1246,12 +1246,12 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.35 - 1.6",
               "hits": "1",
               "range": "Single",
-              "effect": "Bleed",
+              "effect": "出血",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Laser ※2",
+              "name": "レーザー ※2",
               "type": "Ether",
               "strength": "2.7 - 3.2",
               "hits": "1",
@@ -1288,7 +1288,7 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind",
@@ -1296,19 +1296,19 @@ const COMBAT_DOSSIER_DATA={
           "全デバフ抵抗"
         ],
         "watch": [
-          "Rivoluzione: Bleed",
-          "Vento: Topple",
-          "Strano ※1: Max HP Down",
-          "Conquista X: Bleed"
+          "リヴォルツィオーネ: 出血",
+          "ヴェント: 転倒",
+          "ストラーノ ※1: 最大 最大ＨＰダウン",
+          "Conquista X: 出血"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-ancient-machine-left-64febfb5": {
-      "name": "Ancient Machine (left)",
+      "name": "古代防衛機構（左）",
       "level": "8",
-      "area": "Colony 9",
+      "area": "コロニー9",
       "conditions": "Story",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -1331,7 +1331,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Spin Attack",
+              "name": "スピンアタック",
               "type": "Physical",
               "strength": "1.55 - 1.75",
               "hits": "2",
@@ -1341,7 +1341,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Surprise Shock",
+              "name": "サプライズショック",
               "type": "Ether",
               "strength": "1.3 - 1.5",
               "hits": "1",
@@ -1351,7 +1351,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Ether Laser",
+              "name": "エーテルレーザー",
               "type": "Ether",
               "strength": "1.05 - 1.25",
               "hits": "1",
@@ -1361,7 +1361,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Attack Mode",
+              "name": "アタックモード",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -1371,17 +1371,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Guard Mode",
+              "name": "ガードモード",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Strength Down; Physical defence Up",
+              "effect": "筋力ダウン; 物理防御アップ",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Final Defence Mode",
+              "name": "最終防衛モード",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -1414,24 +1414,24 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ"
         ],
         "watch": [
-          "Surprise Shock: Ether Defence Down",
-          "Attack Mode: 筋力アップ; Physical Defence Down",
-          "Guard Mode: Strength Down; Physical defence Up",
-          "Final Defence Mode: 筋力アップ; ヘイスト"
+          "サプライズショック: エーテル防御ダウン",
+          "アタックモード: 筋力アップ; 物理防御ダウン",
+          "ガードモード: 筋力ダウン; 物理防御アップ",
+          "最終防衛モード: 筋力アップ; ヘイスト"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-ancient-machine-right-f5984160": {
-      "name": "Ancient Machine (right)",
+      "name": "古代防衛機構（右）",
       "level": "8",
-      "area": "Colony 9",
+      "area": "コロニー9",
       "conditions": "Story",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -1454,7 +1454,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Spin Attack",
+              "name": "スピンアタック",
               "type": "Physical",
               "strength": "1.55 - 1.75",
               "hits": "2",
@@ -1464,7 +1464,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Surprise Shock",
+              "name": "サプライズショック",
               "type": "Ether",
               "strength": "1.3 - 1.5",
               "hits": "1",
@@ -1474,7 +1474,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Ether Laser",
+              "name": "エーテルレーザー",
               "type": "Ether",
               "strength": "1.05 - 1.25",
               "hits": "1",
@@ -1484,7 +1484,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Attack Mode",
+              "name": "アタックモード",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -1494,17 +1494,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Guard Mode",
+              "name": "ガードモード",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Strength Down; Physical defence Up",
+              "effect": "筋力ダウン; 物理防御アップ",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Final Defence Mode",
+              "name": "最終防衛モード",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -1537,24 +1537,24 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ"
         ],
         "watch": [
-          "Surprise Shock: Ether Defence Down",
-          "Attack Mode: 筋力アップ; Physical Defence Down",
-          "Guard Mode: Strength Down; Physical defence Up",
-          "Final Defence Mode: 筋力アップ; ヘイスト"
+          "サプライズショック: エーテル防御ダウン",
+          "アタックモード: 筋力アップ; 物理防御ダウン",
+          "ガードモード: 筋力ダウン; 物理防御アップ",
+          "最終防衛モード: 筋力アップ; ヘイスト"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-apocrypha-generator-18e236ec": {
       "name": "Apocrypha Generator",
       "level": "70",
-      "area": "Central Factory",
+      "area": "中央工廠",
       "conditions": "Story",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -1577,62 +1577,62 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Great Laser VI",
+              "name": "Great レーザー VI",
               "type": "Talent (Ether)",
               "strength": "1.55 – 1.75",
               "hits": "1",
               "range": "Frontal Line",
-              "effect": "Paralysis",
+              "effect": "パラライズ",
               "knockback": "Yes (2)",
               "breakDamage": "-"
             },
             {
-              "name": "Magnetic Field: First",
+              "name": "磁場展開・初式",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Strength Down; Ether Defence Down",
+              "effect": "筋力ダウン; エーテル防御ダウン",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Magnetic Field: Zero",
+              "name": "磁場展開・零式",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Strength Down; Ether Defence Down",
+              "effect": "筋力ダウン; エーテル防御ダウン",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Shield Barrier",
+              "name": "シールドバリア",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Physical Protect; Ether Protect",
+              "effect": "物理バリア; エーテルバリア",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Talent Absorb",
+              "name": "ＴＰ吸収",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Talent Absorb",
+              "effect": "ＴＰ吸収",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Laser",
+              "name": "レーザー",
               "type": "Ether",
               "strength": "1.3 – 1.5",
               "hits": "4",
               "range": "-",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -1660,25 +1660,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Great Laser VI: Paralysis",
-          "Magnetic Field: First: Strength Down; Ether Defence Down",
-          "Magnetic Field: Zero: Strength Down; Ether Defence Down",
-          "Shield Barrier: Physical Protect; Ether Protect"
+          "Great レーザー VI: パラライズ",
+          "磁場展開・初式: 筋力ダウン; エーテル防御ダウン",
+          "磁場展開・零式: 筋力ダウン; エーテル防御ダウン",
+          "シールドバリア: 物理バリア; エーテルバリア"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-arachno-queen-8dd408e5": {
-      "name": "Arachno Queen",
+      "name": "スパイド・クイーン",
       "level": "12",
-      "area": "Tephra Cave",
+      "area": "テフラ洞窟",
       "conditions": "Story",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -1701,17 +1701,17 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Dive Impact",
+              "name": "ダイブインパクト",
               "type": "Physical",
               "strength": "2.3 - 2.5",
               "hits": "1",
               "range": "Circle around caster",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Arachno Crush I",
+              "name": "スパイド 押しつぶし I",
               "type": "Talent (Physical)",
               "strength": "3.3 - 3.5",
               "hits": "1",
@@ -1721,17 +1721,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/Yes"
             },
             {
-              "name": "Binding Web",
+              "name": "バインドウェブ",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Frontal Arc",
-              "effect": "Bind",
+              "effect": "バインド",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Lay Tribute",
+              "name": "女王への貢ぎ",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -1741,7 +1741,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Queen's Order",
+              "name": "クイーンズオーダー",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -1751,7 +1751,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "The Queen's Fury",
+              "name": "女王の怒り",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -1784,25 +1784,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Dive Impact: Topple",
-          "Binding Web: Bind",
-          "Lay Tribute: HP recovery (250), talent gauge increases",
-          "Queen's Order: Talent gauge increases"
+          "ダイブインパクト: 転倒",
+          "バインドウェブ: バインド",
+          "女王への貢ぎ: HP recovery (250), talent gauge increases",
+          "クイーンズオーダー: Talent gauge increases"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-armoured-rockwell-bdfd6836": {
-      "name": "Armoured Rockwell",
+      "name": "甲殻のロックウェル",
       "level": "82",
-      "area": "Bionis' Leg",
+      "area": "巨神脚",
       "conditions": "Rain or Storm Weather",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -1825,32 +1825,32 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Verse Eater IX",
+              "name": "Verse イーター IX",
               "type": "Talent (Physical)",
               "strength": "3.0 – 3.25",
               "hits": "1",
               "range": "-",
-              "effect": "Max HP Down",
+              "effect": "最大 最大ＨＰダウン",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "3 Tonne Crush",
+              "name": "千貫つぶし",
               "type": "Physical",
               "strength": "3.3 – 3.5",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Arts Seal",
+              "effect": "アーツ封印",
               "knockback": "Yes (1)",
               "breakDamage": "-"
             },
             {
-              "name": "Strike",
+              "name": "ひっぱたき",
               "type": "Physical",
               "strength": "4.3 – 4.5",
               "hits": "1",
               "range": "-",
-              "effect": "Daze",
+              "effect": "気絶",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -1878,25 +1878,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-fast",
-        "party": "Melia / Dunban / Riki · control Melia",
+        "party": "メリア / ダンバン / リキ · メリアを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind",
-          "Ether Up on Melia"
+          "メリアに Ether Up"
         ],
         "watch": [
-          "Verse Eater IX: Max HP Down",
-          "3 Tonne Crush: Arts Seal",
-          "Strike: Daze"
+          "Verse イーター IX: 最大 最大ＨＰダウン",
+          "千貫つぶし: アーツ封印",
+          "ひっぱたき: 気絶"
         ],
-        "route": "High physical resistance favors a controlled Melia ether plan; store elements and discharge into safe windows.",
+        "route": "物理耐性が高いときは、操作するメリアのエーテル計画が向く。属性を溜め、安全な隙に放出する。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-avalanche-abaasy-3fc98be5": {
-      "name": "Avalanche Abaasy",
+      "name": "雪檻のアバーシ",
       "level": "120",
-      "area": "Valak Mountain",
+      "area": "ヴァラク雪山",
       "conditions": "Blizzard at Night (Chapter 17)",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -1919,7 +1919,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Ultra Play Bite",
+              "name": "超甘噛み",
               "type": "Physical",
               "strength": "2.5 - 3.0",
               "hits": "1",
@@ -1929,27 +1929,27 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Ultra Tail Strike",
+              "name": "超尻尾打ち",
               "type": "Physical",
               "strength": "1.5 - 1.8",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Demon Purging Fire",
+              "name": "獄炎鬼殺し",
               "type": "Ether",
               "strength": "0.25 - 0.30",
               "hits": "6",
               "range": "Circle around caster",
-              "effect": "Blaze; Paralysis",
+              "effect": "炎熱; パラライズ",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Ultra Air Crush X",
+              "name": "Ultra Air 押しつぶし X",
               "type": "Talent (Physical)",
               "strength": "4.6 - 5.5",
               "hits": "1",
@@ -1962,7 +1962,7 @@ const COMBAT_DOSSIER_DATA={
           "spike": {
             "type": "Counter",
             "range": "15 M",
-            "damage": "Instant Death"
+            "damage": "即死"
           },
           "resistances": {
             "break": "100% ‡",
@@ -1997,7 +1997,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Ultra Play Bite",
+              "name": "超甘噛み",
               "type": "Physical",
               "strength": "2.5 - 3.0",
               "hits": "1",
@@ -2007,27 +2007,27 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Ultra Tail Strike",
+              "name": "超尻尾打ち",
               "type": "Physical",
               "strength": "1.5 - 1.8",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Demon Purging Fire",
+              "name": "獄炎鬼殺し",
               "type": "Ether",
               "strength": "0.25 - 0.30",
               "hits": "6",
               "range": "Circle around caster",
-              "effect": "Blaze; Paralysis",
+              "effect": "炎熱; パラライズ",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Ultra Air Crush X",
+              "name": "Ultra Air 押しつぶし X",
               "type": "Talent (Physical)",
               "strength": "4.6 - 5.5",
               "hits": "1",
@@ -2040,7 +2040,7 @@ const COMBAT_DOSSIER_DATA={
           "spike": {
             "type": "Counter",
             "range": "15 M",
-            "damage": "Instant Death"
+            "damage": "即死"
           },
           "resistances": {
             "break": "100% ‡",
@@ -2064,7 +2064,7 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind",
@@ -2072,17 +2072,17 @@ const COMBAT_DOSSIER_DATA={
           "全デバフ抵抗"
         ],
         "watch": [
-          "Ultra Tail Strike: Topple",
-          "Demon Purging Fire: Blaze; Paralysis"
+          "超尻尾打ち: 転倒",
+          "獄炎鬼殺し: 炎熱; パラライズ"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-balanced-palamedes-84a14c1e": {
-      "name": "Balanced Palamedes",
+      "name": "天秤のパロミデス",
       "level": "62",
-      "area": "Central Factory",
+      "area": "中央工廠",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -2115,7 +2115,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Nitroglycerine",
+              "name": "ニトログリセリン",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -2125,7 +2125,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Rush",
+              "name": "ラッシュ",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
@@ -2135,12 +2135,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Shield Bash",
+              "name": "シールドバッシュ",
               "type": "Physical",
               "strength": "3.3 – 3.5",
               "hits": "1",
               "range": "-",
-              "effect": "Daze",
+              "effect": "気絶",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -2168,25 +2168,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ"
         ],
         "watch": [
           "Sliding Sword V: Double Damage if Toppled",
-          "Nitroglycerine: ヘイスト",
-          "Rush: Double Damage if Toppled",
-          "Shield Bash: Daze"
+          "ニトログリセリン: ヘイスト",
+          "ラッシュ: 転倒中はダメージ2倍",
+          "シールドバッシュ: 気絶"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-banquet-vassago-99925d64": {
-      "name": "Banquet Vassago",
+      "name": "宴楽のウァサゴ",
       "level": "48",
-      "area": "Valak Mountain",
-      "conditions": "During The Balance of Power",
+      "area": "ヴァラク雪山",
+      "conditions": "パワーバランスの間",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
         "url": "https://xenoblade.fandom.com/wiki/Banquet_Vassago",
@@ -2208,37 +2208,37 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Reckless Light",
+              "name": "蛮勇の光",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Pierce",
+              "effect": "貫通",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Winged Awakening",
+              "name": "鳥の覚醒",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Awakening",
+              "effect": "覚醒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Big Down Swipe",
+              "name": "大縦振り",
               "type": "Physical",
               "strength": "3.3 – 3.5",
               "hits": "1",
               "range": "-",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Big Side Swipe",
+              "name": "大横振り",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
@@ -2248,17 +2248,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Down Swipe",
+              "name": "縦振り",
               "type": "Physical",
               "strength": "2.3 – 2.5",
               "hits": "1",
               "range": "-",
-              "effect": "Daze",
+              "effect": "気絶",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Side Swipe",
+              "name": "横振り",
               "type": "Physical",
               "strength": "1.8 – 2.0",
               "hits": "1",
@@ -2291,24 +2291,24 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ"
         ],
         "watch": [
-          "Reckless Light: Pierce",
-          "Winged Awakening: Awakening",
-          "Big Down Swipe: Topple",
-          "Down Swipe: Daze"
+          "蛮勇の光: 貫通",
+          "鳥の覚醒: 覚醒",
+          "大縦振り: 転倒",
+          "縦振り: 気絶"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-barbaric-sitri-ec0816b4": {
-      "name": "Barbaric Sitri",
+      "name": "蛮行のシトリー",
       "level": "47",
-      "area": "Valak Mountain",
+      "area": "ヴァラク雪山",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -2331,7 +2331,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Dive Impact III",
+              "name": "ダイブインパクト III",
               "type": "Talent (Physical)",
               "strength": "2.3 – 2.5",
               "hits": "1",
@@ -2341,7 +2341,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Acid Bath",
+              "name": "大溶解液",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -2351,32 +2351,32 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Devour",
+              "name": "捕食",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "HP Steal (%)",
+              "effect": "ＨＰ吸収 (%)",
               "knockback": "Yes (1)",
               "breakDamage": "-"
             },
             {
-              "name": "Devour Preparation",
+              "name": "捕食の準備",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Frontal Arc",
-              "effect": "Pierce; Bind",
+              "effect": "貫通; バインド",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Metabolism",
+              "name": "自己強化",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Physical Protect",
+              "effect": "物理バリア",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -2404,25 +2404,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Acid Bath: Physical Defence Down",
-          "Devour: HP Steal (%)",
-          "Devour Preparation: Pierce; Bind",
-          "Metabolism: Physical Protect"
+          "大溶解液: 物理防御ダウン",
+          "捕食: ＨＰ吸収 (%)",
+          "捕食の準備: 貫通; バインド",
+          "自己強化: 物理バリア"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-beautiful-vagul-25148963": {
-      "name": "Beautiful Vagul",
+      "name": "梅花のヴァグール",
       "level": "60",
-      "area": "Central Factory",
+      "area": "中央工廠",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -2455,7 +2455,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Cross Claw",
+              "name": "クロスクロー",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "2",
@@ -2465,7 +2465,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Cut Attack",
+              "name": "カットアタック",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
@@ -2475,22 +2475,22 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Dead Slash",
+              "name": "デッドスマッシュ",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
               "range": "-",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Thunder Flash",
+              "name": "サンダーボルト",
               "type": "Ether",
               "strength": "3.05 – 3.25",
               "hits": "1",
               "range": "Circle around caster",
-              "effect": "Paralysis",
+              "effect": "パラライズ",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -2498,7 +2498,7 @@ const COMBAT_DOSSIER_DATA={
           "spike": {
             "type": "Counter",
             "range": "8 M",
-            "damage": "Phys Def Down 25%"
+            "damage": "物理耐性減 25%"
           },
           "resistances": {
             "break": "70%",
@@ -2522,7 +2522,7 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "スパイク防御",
@@ -2530,18 +2530,18 @@ const COMBAT_DOSSIER_DATA={
         ],
         "watch": [
           "Reconstruct: 筋力アップ; ヘイスト",
-          "Cut Attack: Double Damage if Toppled",
-          "Dead Slash: Topple",
-          "Thunder Flash: Paralysis"
+          "カットアタック: 転倒中はダメージ2倍",
+          "デッドスマッシュ: 転倒",
+          "サンダーボルト: パラライズ"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-benevolent-aim-95ebefbb": {
-      "name": "Benevolent Aim",
+      "name": "博愛のアイム",
       "level": "51",
-      "area": "Sword Valley",
+      "area": "大剣の渓谷",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -2564,7 +2564,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Gala Chainsaw V",
+              "name": "Gala チェーンソ V",
               "type": "Talent (Physical)",
               "strength": "2.05 – 2.25",
               "hits": "1",
@@ -2574,18 +2574,18 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Deadly Chainsaw",
+              "name": "デッドチェーンソ",
               "type": "Physical",
               "strength": "3.3 – 3.5",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Bleed",
+              "effect": "出血",
               "knockback": "-",
               "breakDamage": "-"
             }
           ],
           "spike": {
-            "type": "Topple",
+            "type": "転倒",
             "range": "8 M",
             "damage": "1,130 Damage"
           },
@@ -2611,23 +2611,23 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "スパイク防御",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Deadly Chainsaw: Bleed"
+          "デッドチェーンソ: 出血"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-bizarre-ragoel-dad47484": {
-      "name": "Bizarre Ragoel",
+      "name": "猟奇のラゴエル",
       "level": "88",
-      "area": "Eryth Sea",
+      "area": "エルト海",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -2655,27 +2655,27 @@ const COMBAT_DOSSIER_DATA={
               "strength": "2.0 – 2.25",
               "hits": "1",
               "range": "-",
-              "effect": "Paralysis",
+              "effect": "パラライズ",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Devour",
+              "name": "捕食",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "HP Steal (%)",
+              "effect": "ＨＰ吸収 (%)",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Dive Attack",
+              "name": "飛び込み",
               "type": "Physical",
               "strength": "2.3 – 2.5",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -2713,25 +2713,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Electric Tongue VII: Paralysis",
-          "Devour: HP Steal (%)",
-          "Dive Attack: Topple"
+          "Electric Tongue VII: パラライズ",
+          "捕食: ＨＰ吸収 (%)",
+          "飛び込み: 転倒"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-blizzard-belgazas-92124e32": {
-      "name": "Blizzard Belgazas",
+      "name": "豪雪のベルガザス",
       "level": "114",
-      "area": "Valak Mountain",
+      "area": "ヴァラク雪山",
       "conditions": "During Chapter 17",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -2754,7 +2754,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Vicious Combo",
+              "name": "猛攻連続突き",
               "type": "Physical",
               "strength": "0.95 - 1.10",
               "hits": "2",
@@ -2764,7 +2764,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Mountain Stomp",
+              "name": "大連峰スタンプ",
               "type": "Physical",
               "strength": "0.8 - 0.9",
               "hits": "3",
@@ -2774,7 +2774,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/No"
             },
             {
-              "name": "Rex Gore",
+              "name": "覇王の突き上げ",
               "type": "Physical",
               "strength": "1.5 - 1.8",
               "hits": "2",
@@ -2784,12 +2784,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/Yes"
             },
             {
-              "name": "Rex Poison",
+              "name": "覇王の毒息",
               "type": "Ether",
               "strength": "2.4 - 2.8",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Poison, damage doubles during a blizzard",
+              "effect": "毒, damage doubles during a blizzard",
               "knockback": "Yes",
               "breakDamage": "-"
             },
@@ -2804,17 +2804,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Rex Roar",
+              "name": "覇王の咆哮",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Frontal Arc",
-              "effect": "Bind (and Pierce during a blizzard)",
+              "effect": "バインド (and 貫通 during a blizzard)",
               "knockback": "Yes",
               "breakDamage": "-"
             },
             {
-              "name": "Tyrannus Roar",
+              "name": "覇厳の咆哮",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -2825,7 +2825,7 @@ const COMBAT_DOSSIER_DATA={
             }
           ],
           "spike": {
-            "type": "Topple",
+            "type": "転倒",
             "range": "35 M",
             "damage": "2,540 Damage"
           },
@@ -2851,28 +2851,28 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-fast",
-        "party": "Melia / Dunban / Riki · control Melia",
+        "party": "メリア / ダンバン / リキ · メリアを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind",
           "スパイク防御",
           "全デバフ抵抗",
-          "Ether Up on Melia"
+          "メリアに Ether Up"
         ],
         "watch": [
-          "Rex Gore: Death during a blizzard only (second hit)",
-          "Rex Poison: Poison, damage doubles during a blizzard",
-          "Rex Roar: Bind (and Pierce during a blizzard)",
-          "Tyrannus Roar: Craze"
+          "覇王の突き上げ: Death during a blizzard only (second hit)",
+          "覇王の毒息: 毒, damage doubles during a blizzard",
+          "覇王の咆哮: バインド (and 貫通 during a blizzard)",
+          "覇厳の咆哮: Craze"
         ],
-        "route": "High physical resistance favors a controlled Melia ether plan; store elements and discharge into safe windows.",
+        "route": "物理耐性が高いときは、操作するメリアのエーテル計画が向く。属性を溜め、安全な隙に放出する。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-breezy-zolos-4dc82962": {
-      "name": "Breezy Zolos",
+      "name": "春風のゾルホス",
       "level": "37",
-      "area": "Makna Forest",
+      "area": "マクナ原生林",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -2905,27 +2905,27 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Barrier",
+              "name": "バリアー",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Damage Immunity",
+              "effect": "ダメージ無効",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Bloody Head Charge",
+              "name": "出血頭突き",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
               "range": "-",
-              "effect": "Bleed",
+              "effect": "出血",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Swing Cut",
+              "name": "ツバメ返し",
               "type": "Physical",
               "strength": "3.8 – 4.0",
               "hits": "1",
@@ -2962,7 +2962,7 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "スパイク防御",
@@ -2970,18 +2970,18 @@ const COMBAT_DOSSIER_DATA={
         ],
         "watch": [
           "Adrenaline: ヘイスト",
-          "Barrier: Damage Immunity",
-          "Bloody Head Charge: Bleed"
+          "バリアー: ダメージ無効",
+          "出血頭突き: 出血"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-brutal-gravar-cd4103a5": {
-      "name": "Brutal Gravar",
+      "name": "残虐のグラーヴァ",
       "level": "46",
-      "area": "Makna Forest",
-      "conditions": "After starting Mystery of Makna Ruins 2",
+      "area": "マクナ原生林",
+      "conditions": "After starting マクナ遺跡の謎2",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
         "url": "https://xenoblade.fandom.com/wiki/Brutal_Gravar",
@@ -3003,7 +3003,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Combo",
+              "name": "連撃",
               "type": "Physical",
               "strength": "1.3 - 1.5",
               "hits": "3",
@@ -3013,7 +3013,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Decapitator ※1",
+              "name": "首刈り ※1",
               "type": "Physical",
               "strength": "2.8 - 3.0",
               "hits": "1",
@@ -3028,7 +3028,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "3.3 - 3.5",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Ether Power Down",
+              "effect": "Ether パワーダウン",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -3038,17 +3038,17 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.55 - 1.75",
               "hits": "3",
               "range": "Single",
-              "effect": "Daze",
+              "effect": "気絶",
               "knockback": "-",
               "breakDamage": "No/Yes"
             },
             {
-              "name": "Banishment",
+              "name": "地獄への焼印",
               "type": "Ether",
               "strength": "2.3 - 2.5",
               "hits": "1",
               "range": "Circle around caster",
-              "effect": "Pierce",
+              "effect": "貫通",
               "knockback": "Yes",
               "breakDamage": "-"
             },
@@ -3058,22 +3058,22 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.3 - 1.5",
               "hits": "2",
               "range": "Circle around caster",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Beast's Curse",
+              "name": "獣の呪い",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Arts Seal",
+              "effect": "アーツ封印",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "The King's Roar ※2",
+              "name": "王者の雄たけび ※2",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -3106,24 +3106,24 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ"
         ],
         "watch": [
-          "Decapitator ※1: Death when target is toppled",
-          "Reaper: Ether Power Down",
-          "Smash: Daze",
-          "Banishment: Pierce"
+          "首刈り ※1: Death when target is toppled",
+          "Reaper: Ether パワーダウン",
+          "Smash: 気絶",
+          "地獄への焼印: 貫通"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-calm-anzabi-3930f78e": {
-      "name": "Calm Anzabi",
+      "name": "安寧のアンザビ",
       "level": "38",
-      "area": "High Entia Tomb",
+      "area": "ハイエンター墓所",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -3146,32 +3146,32 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Blast Laser III",
+              "name": "Blast レーザー III",
               "type": "Talent (Ether)",
               "strength": "1.8 – 2.0",
               "hits": "1",
               "range": "Frontal Line",
-              "effect": "Paralysis",
+              "effect": "パラライズ",
               "knockback": "Yes (1)",
               "breakDamage": "-"
             },
             {
-              "name": "Barrier",
+              "name": "バリアー",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Physical Protect",
+              "effect": "物理バリア",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Rapid Lasers ※1",
+              "name": "ラピッドレーザー ※1",
               "type": "Ether",
               "strength": "?",
               "hits": "4",
               "range": "-",
-              "effect": "Confuse",
+              "effect": "パニック",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -3199,25 +3199,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-fast",
-        "party": "Melia / Dunban / Riki · control Melia",
+        "party": "メリア / ダンバン / リキ · メリアを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗",
-          "Ether Up on Melia"
+          "メリアに Ether Up"
         ],
         "watch": [
-          "Blast Laser III: Paralysis",
-          "Barrier: Physical Protect",
-          "Rapid Lasers ※1: Confuse"
+          "Blast レーザー III: パラライズ",
+          "バリアー: 物理バリア",
+          "ラピッドレーザー ※1: パニック"
         ],
-        "route": "High physical resistance favors a controlled Melia ether plan; store elements and discharge into safe windows.",
+        "route": "物理耐性が高いときは、操作するメリアのエーテル計画が向く。属性を溜め、安全な隙に放出する。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-canyon-valencia-dcfb10d2": {
-      "name": "Canyon Valencia",
+      "name": "渓谷のバレンシア",
       "level": "78",
-      "area": "Bionis' Leg",
+      "area": "巨神脚",
       "conditions": "Clear Weather",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -3250,7 +3250,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Speed Up",
+              "name": "スピードアップ",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -3260,7 +3260,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Winged Fury",
+              "name": "鳥の狂騒",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -3270,17 +3270,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Hard Crash",
+              "name": "ハードクラッシュ",
               "type": "Physical",
               "strength": "3.3 – 3.5",
               "hits": "1",
               "range": "-",
-              "effect": "Daze",
+              "effect": "気絶",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Gale",
+              "name": "羽ばたき",
               "type": "Ether",
               "strength": "1.3 – 1.5",
               "hits": "1",
@@ -3313,24 +3313,24 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind"
         ],
         "watch": [
-          "Speed Up: 素早さアップ",
-          "Winged Fury: Crazed",
-          "Hard Crash: Daze"
+          "スピードアップ: 素早さアップ",
+          "鳥の狂騒: Crazed",
+          "ハードクラッシュ: 気絶"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-cautious-balteid-ea667247": {
-      "name": "Cautious Balteid",
+      "name": "慎重なバルトエイト",
       "level": "26",
-      "area": "Satorl Marsh",
+      "area": "燐光の地ザトール",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -3353,22 +3353,22 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Shield Up",
+              "name": "シールドアップ",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Physical Protect",
+              "effect": "物理バリア",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Taunt",
+              "name": "挑発",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Lock-On",
+              "effect": "ロックオン",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -3383,12 +3383,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Shield Bash",
+              "name": "シールドバッシュ",
               "type": "Physical",
               "strength": "2.3 – 2.5",
               "hits": "1",
               "range": "-",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -3416,24 +3416,24 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ"
         ],
         "watch": [
-          "Shield Up: Physical Protect",
-          "Taunt: Lock-On",
+          "シールドアップ: 物理バリア",
+          "挑発: ロックオン",
           "Raid: Double Damage if Toppled",
-          "Shield Bash: Topple"
+          "シールドバッシュ: 転倒"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-cellar-bugworm-0aac1427": {
-      "name": "Cellar Bugworm",
+      "name": "穴蔵のバグワム",
       "level": "10",
-      "area": "Tephra Cave",
+      "area": "テフラ洞窟",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -3456,7 +3456,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Caterpile Crush",
+              "name": "キャピル頭突き",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
@@ -3466,12 +3466,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Toxin Shower",
+              "name": "毒液シャワー",
               "type": "Ether",
               "strength": "1.3 – 1.5",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Poison",
+              "effect": "毒",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -3499,22 +3499,22 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Toxin Shower: Poison"
+          "毒液シャワー: 毒"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-clamorous-dablon-6e071072": {
-      "name": "Clamorous Dablon",
+      "name": "雷鳴のダブロン",
       "level": "92",
-      "area": "Eryth Sea",
+      "area": "エルト海",
       "conditions": "Stormy Weather",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -3537,17 +3537,17 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Gala Crush VII",
+              "name": "Gala 押しつぶし VII",
               "type": "Talent (Physical)",
               "strength": "2.0 – 2.25",
               "hits": "1",
               "range": "-",
-              "effect": "Daze",
+              "effect": "気絶",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Vortex",
+              "name": "竜巻おこし",
               "type": "Physical",
               "strength": "1.3 – 1.5",
               "hits": "2",
@@ -3557,22 +3557,22 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Aqua Wave",
+              "name": "アクアウェイブ",
               "type": "Ether",
               "strength": "1.05 – 1.25",
               "hits": "3",
               "range": "Frontal Line",
-              "effect": "Chill",
+              "effect": "冷気",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Boiling Wave",
+              "name": "ファイアウェイブ",
               "type": "Ether",
               "strength": "1.05 – 1.25",
               "hits": "3",
               "range": "Frontal Line",
-              "effect": "Blaze",
+              "effect": "炎熱",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -3600,25 +3600,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Gala Crush VII: Daze",
-          "Aqua Wave: Chill",
-          "Boiling Wave: Blaze"
+          "Gala 押しつぶし VII: 気絶",
+          "アクアウェイブ: 冷気",
+          "ファイアウェイブ: 炎熱"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-clandestine-apety-42e18f00": {
-      "name": "Clandestine Apety",
+      "name": "秘奥のアペティ",
       "level": "74",
-      "area": "Bionis' Interior",
+      "area": "巨神胎内",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -3641,7 +3641,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Telethia Arrow VI",
+              "name": "テレシア Arrow VI",
               "type": "Talent (Physical)",
               "strength": "1.55 – 1.75",
               "hits": "2",
@@ -3651,17 +3651,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Soul Read",
+              "name": "思考読み",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Physical Evasion Up",
+              "effect": "物理 回避率アップ",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Telethia Tail",
+              "name": "テレシアテール",
               "type": "Physical",
               "strength": "1.05 – 1.25",
               "hits": "2",
@@ -3671,7 +3671,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Ether Scatter",
+              "name": "拡散エーテル砲",
               "type": "Ether",
               "strength": "2.05 – 2.25",
               "hits": "2",
@@ -3681,12 +3681,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Shock Wave",
+              "name": "ショックウェイブ",
               "type": "Ether",
               "strength": "1.8 – 2.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Paralysis",
+              "effect": "パラライズ",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -3714,23 +3714,23 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Soul Read: Physical Evasion Up",
-          "Shock Wave: Paralysis"
+          "思考読み: 物理 回避率アップ",
+          "ショックウェイブ: パラライズ"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-clifftop-bayern-159d63b9": {
-      "name": "Clifftop Bayern",
+      "name": "崖上のバイエルン",
       "level": "32",
-      "area": "Bionis' Leg",
+      "area": "巨神脚",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -3753,7 +3753,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Dive Impact III",
+              "name": "ダイブインパクト III",
               "type": "Talent (Physical)",
               "strength": "2.3 – 2.5",
               "hits": "1",
@@ -3763,32 +3763,32 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/Yes"
             },
             {
-              "name": "Acid Bath",
+              "name": "大溶解液",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Frontal Arc",
-              "effect": "Phys Def Down",
+              "effect": "物理耐性減",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Devour",
+              "name": "捕食",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "HP Steal (%)",
+              "effect": "ＨＰ吸収 (%)",
               "knockback": "Yes (1)",
               "breakDamage": "-"
             },
             {
-              "name": "Metabolism",
+              "name": "自己強化",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Physical Protect",
+              "effect": "物理バリア",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -3816,23 +3816,23 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ"
         ],
         "watch": [
-          "Acid Bath: Phys Def Down",
-          "Devour: HP Steal (%)",
-          "Metabolism: Physical Protect"
+          "大溶解液: 物理耐性減",
+          "捕食: ＨＰ吸収 (%)",
+          "自己強化: 物理バリア"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-cold-ageshu-f7a52181": {
-      "name": "Cold Ageshu",
+      "name": "白眼のアーケシュ",
       "level": "77",
-      "area": "Prison Island",
+      "area": "監獄島",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -3860,37 +3860,37 @@ const COMBAT_DOSSIER_DATA={
               "strength": "2.0 – 2.25",
               "hits": "1",
               "range": "-",
-              "effect": "Instant Death",
+              "effect": "即死",
               "knockback": "Yes (1)",
               "breakDamage": "-"
             },
             {
-              "name": "Shock Roar",
+              "name": "ショックロア",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Frontal Arc",
-              "effect": "Confuse; Arts Seal",
+              "effect": "パニック; アーツ封印",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Venom Rush",
+              "name": "ベノムラッシュ",
               "type": "Physical",
               "strength": "1.3 – 1.5",
               "hits": "3",
               "range": "-",
-              "effect": "Poison",
+              "effect": "毒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Venom Shot",
+              "name": "ベノムシュート",
               "type": "Ether",
               "strength": "1.3 – 1.5",
               "hits": "1",
               "range": "-",
-              "effect": "Poison",
+              "effect": "毒",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -3918,26 +3918,26 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Killer Snipe IV: Instant Death",
-          "Shock Roar: Confuse; Arts Seal",
-          "Venom Rush: Poison",
-          "Venom Shot: Poison"
+          "Killer Snipe IV: 即死",
+          "ショックロア: パニック; アーツ封印",
+          "ベノムラッシュ: 毒",
+          "ベノムシュート: 毒"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-commander-oracion-ace20951": {
-      "name": "Commander Oracion",
+      "name": "将星のオラシオン",
       "level": "61",
-      "area": "Mechonis Field",
+      "area": "機神界フィールド",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -3965,7 +3965,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "0.7 – 0.9",
               "hits": "4",
               "range": "-",
-              "effect": "Bleed",
+              "effect": "出血",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -3975,12 +3975,12 @@ const COMBAT_DOSSIER_DATA={
               "strength": "6.8 – 7.0",
               "hits": "-",
               "range": "-",
-              "effect": "Recovery",
+              "effect": "回復",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Mighty Laser",
+              "name": "マイティレーザー",
               "type": "Ether",
               "strength": "1.3 – 1.5",
               "hits": "3",
@@ -4017,25 +4017,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "スパイク防御",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Hush Chop V: Bleed",
-          "Repair: Recovery"
+          "Hush Chop V: 出血",
+          "Repair: 回復"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-conflagrant-raxeal-0fa31eff": {
-      "name": "Conflagrant Raxeal",
+      "name": "炎獄のレクシール",
       "level": "45",
-      "area": "Valak Mountain",
-      "conditions": "During The Magma Rock",
+      "area": "ヴァラク雪山",
+      "conditions": "ヴァラクの熱い石の間",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
         "url": "https://xenoblade.fandom.com/wiki/Conflagrant_Raxeal",
@@ -4057,17 +4057,17 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Thunderbolt II",
+              "name": "落雷 II",
               "type": "Talent (Ether)",
               "strength": "0.8 – 1.0",
               "hits": "3",
               "range": "Frontal Arc",
-              "effect": "Paralysis",
+              "effect": "パラライズ",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Vortex",
+              "name": "竜巻おこし",
               "type": "Physical",
               "strength": "1.3 – 1.5",
               "hits": "2",
@@ -4077,12 +4077,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Boiling Wave",
+              "name": "ファイアウェイブ",
               "type": "Ether",
               "strength": "1.05 – 1.25",
               "hits": "3",
               "range": "Frontal Line",
-              "effect": "Blaze",
+              "effect": "炎熱",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -4110,23 +4110,23 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Thunderbolt II: Paralysis",
-          "Boiling Wave: Blaze"
+          "落雷 II: パラライズ",
+          "ファイアウェイブ: 炎熱"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-cumulus-danaemos-e9c10dce": {
-      "name": "Cumulus Danaemos",
+      "name": "積雲のダネイモス",
       "level": "41",
-      "area": "Eryth Sea",
+      "area": "エルト海",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -4154,12 +4154,12 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Frontal Arc",
-              "effect": "Paralysis",
+              "effect": "パラライズ",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Gore",
+              "name": "突き上げ",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
@@ -4169,17 +4169,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Tail Gore",
+              "name": "尻尾突き上げ",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Fury Horn",
+              "name": "狂騒の角笛",
               "type": "Ether",
               "strength": "-",
               "hits": "-",
@@ -4189,12 +4189,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Poison Breath",
+              "name": "毒 Breath",
               "type": "Ether",
               "strength": "1.3 – 1.5",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Poison",
+              "effect": "毒",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -4222,25 +4222,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Ultra Paralyse Blast III: Paralysis",
-          "Tail Gore: Topple",
-          "Fury Horn: 筋力アップ; ヘイスト",
-          "Poison Breath: Poison"
+          "Ultra Paralyse Blast III: パラライズ",
+          "尻尾突き上げ: 転倒",
+          "狂騒の角笛: 筋力アップ; ヘイスト",
+          "毒 Breath: 毒"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-dark-king-barbarus-7b318c01": {
-      "name": "Dark King Barbarus",
+      "name": "冥王のバルバルス",
       "level": "77",
-      "area": "Bionis' Interior",
+      "area": "巨神胎内",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -4268,22 +4268,22 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.8 – 2.0",
               "hits": "1",
               "range": "Circle around target",
-              "effect": "Bleed",
+              "effect": "出血",
               "knockback": "Yes (3)",
               "breakDamage": "-"
             },
             {
-              "name": "Soul Read",
+              "name": "思考読み",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Physical Evasion Up",
+              "effect": "物理 回避率アップ",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Killer Tail",
+              "name": "キラーテール",
               "type": "Physical",
               "strength": "1.55 – 1.75",
               "hits": "1",
@@ -4293,22 +4293,22 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Ether Particles",
+              "name": "エーテル粒子砲",
               "type": "Ether",
               "strength": "1.8 – 2.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Ether Def Down",
+              "effect": "エーテル耐性減",
               "knockback": "Yes (1)",
               "breakDamage": "-"
             },
             {
-              "name": "Killer Sky",
+              "name": "キラースカイ",
               "type": "Ether",
               "strength": "1.8 – 2.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -4336,26 +4336,26 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Killer Dive IV: Bleed",
-          "Soul Read: Physical Evasion Up",
-          "Ether Particles: Ether Def Down",
-          "Killer Sky: Topple"
+          "Killer Dive IV: 出血",
+          "思考読み: 物理 回避率アップ",
+          "エーテル粒子砲: エーテル耐性減",
+          "キラースカイ: 転倒"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-dark-kisling-6ef3cd9e": {
-      "name": "Dark Kisling",
+      "name": "暗闇のキスリング",
       "level": "20",
-      "area": "Ether Mine",
+      "area": "中央採掘場",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -4393,22 +4393,22 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.8 – 2.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Daze",
+              "effect": "気絶",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Binding Noise",
+              "name": "バインドノイズ",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Bind",
+              "effect": "バインド",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "High Frequency",
+              "name": "高周波ノイズ",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -4418,32 +4418,32 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Silent Noise",
+              "name": "サイレントノイズ",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Arts Seal",
+              "effect": "アーツ封印",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Winged Awakening",
+              "name": "鳥の覚醒",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Awakening",
+              "effect": "覚醒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Double Peck",
+              "name": "ダブルクリック",
               "type": "Physical",
               "strength": "1.3 – 1.5",
               "hits": "2",
               "range": "-",
-              "effect": "Bleed",
+              "effect": "出血",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -4471,25 +4471,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Air Dive III: Daze",
-          "Binding Noise: Bind",
-          "High Frequency: Ether Down",
-          "Silent Noise: Arts Seal"
+          "Air Dive III: 気絶",
+          "バインドノイズ: バインド",
+          "高周波ノイズ: Ether Down",
+          "サイレントノイズ: アーツ封印"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-dark-murakmor-1e3b2847": {
-      "name": "Dark Murakmor",
+      "name": "常闇のムラクモ",
       "level": "18",
-      "area": "Colony 9",
+      "area": "コロニー9",
       "conditions": "Nighttime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -4512,7 +4512,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Gore",
+              "name": "突き上げ",
               "type": "Physical",
               "strength": "2.8-3.0",
               "hits": "1",
@@ -4522,12 +4522,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Blizzard Breath",
+              "name": "ブリザードブレス",
               "type": "Ether",
               "strength": "1.8 - 2.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Chill; Bind",
+              "effect": "冷気; バインド",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -4542,7 +4542,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/No"
             },
             {
-              "name": "Winged Fury",
+              "name": "鳥の狂騒",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -4575,24 +4575,24 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Blizzard Breath: Chill; Bind",
-          "Winged Fury: Crazed"
+          "ブリザードブレス: 冷気; バインド",
+          "鳥の狂騒: Crazed"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-dazzling-tolosnia-a60c5c1d": {
-      "name": "Dazzling Tolosnia",
+      "name": "閃光のトロスニア",
       "level": "97",
-      "area": "Tephra Cave",
-      "conditions": "During The Blood of Bafalgar",
+      "area": "テフラ洞窟",
+      "conditions": "バルファルガの血の間",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
         "url": "https://xenoblade.fandom.com/wiki/Dazzling_Tolosnia",
@@ -4624,7 +4624,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/No"
             },
             {
-              "name": "Binding Web",
+              "name": "バインドウェブ",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -4634,7 +4634,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Queen's Order",
+              "name": "クイーンズオーダー",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -4667,24 +4667,24 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Binding Web: Slow",
-          "Queen's Order: Fill Talent Gauge"
+          "バインドウェブ: Slow",
+          "クイーンズオーダー: Talent Gauge を満たす"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-deadly-medorlo-fb9d8d9e": {
-      "name": "Deadly Medorlo",
+      "name": "終焉のメデオウロ",
       "level": "93",
-      "area": "Eryth Sea",
+      "area": "エルト海",
       "conditions": "Chapter 17",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -4707,37 +4707,37 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Soul Read",
+              "name": "思考読み",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Physical Evasion Up",
+              "effect": "物理 回避率アップ",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Predation",
+              "name": "プレデーション",
               "type": "Physical",
               "strength": "1.55 – 1.75",
               "hits": "1",
               "range": "Circle around caster",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Attention Seek",
+              "name": "ロックオンミー",
               "type": "Ether",
               "strength": "-",
               "hits": "-",
               "range": "All",
-              "effect": "Lock-On",
+              "effect": "ロックオン",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Delta Cannon",
+              "name": "デルタキャノン",
               "type": "Ether",
               "strength": "1.8 – 2.0",
               "hits": "1",
@@ -4747,7 +4747,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Ether Storm",
+              "name": "エーテルストーム",
               "type": "Ether",
               "strength": "1.3 – 1.5",
               "hits": "1",
@@ -4780,24 +4780,24 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind"
         ],
         "watch": [
-          "Soul Read: Physical Evasion Up",
-          "Predation: Topple",
-          "Attention Seek: Lock-On"
+          "思考読み: 物理 回避率アップ",
+          "プレデーション: 転倒",
+          "ロックオンミー: ロックオン"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-defective-ipos-f26c6dc6": {
-      "name": "Defective Ipos",
+      "name": "老朽のイポス",
       "level": "50",
-      "area": "Sword Valley",
+      "area": "大剣の渓谷",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -4820,17 +4820,17 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Over Eater VI",
+              "name": "Over イーター VI",
               "type": "Talent (Physical)",
               "strength": "2.8 – 3.0",
               "hits": "1",
               "range": "-",
-              "effect": "Max HP Down",
+              "effect": "最大 最大ＨＰダウン",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Break Screw",
+              "name": "ブレイクスクリュー",
               "type": "Physical",
               "strength": "3.3 – 3.5",
               "hits": "1",
@@ -4840,7 +4840,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Hard Attack",
+              "name": "ハードアタック",
               "type": "Physical",
               "strength": "3.3 – 3.5",
               "hits": "1",
@@ -4850,12 +4850,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Head Shock",
+              "name": "ヘッドショック",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
               "range": "-",
-              "effect": "Daze",
+              "effect": "気絶",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -4883,22 +4883,22 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ"
         ],
         "watch": [
-          "Over Eater VI: Max HP Down",
-          "Head Shock: Daze"
+          "Over イーター VI: 最大 最大ＨＰダウン",
+          "ヘッドショック: 気絶"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-demon-pavlovsk-b8236d4a": {
-      "name": "Demon Pavlovsk",
+      "name": "魔界獣パヴロフスク",
       "level": "78",
-      "area": "Prison Island",
+      "area": "監獄島",
       "conditions": "Story",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -4926,32 +4926,32 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.8 – 2.0",
               "hits": "1",
               "range": "Circle around target",
-              "effect": "Confuse",
+              "effect": "パニック",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Howling Grudge",
+              "name": "恨みの咆哮",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Frontal Arc",
-              "effect": "Ether Def Down",
+              "effect": "エーテル耐性減",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Weakening Howl",
+              "name": "弱体咆哮",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Frontal Arc",
-              "effect": "Agility Down",
+              "effect": "素早さダウン",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Multi-Stab",
+              "name": "連続突き",
               "type": "Physical",
               "strength": "1.55 – 1.75",
               "hits": "2",
@@ -4961,17 +4961,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Sumo Stomp",
+              "name": "四股踏み",
               "type": "Physical",
               "strength": "1.05 – 1.25",
               "hits": "3",
               "range": "Circle around caster",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Vicious Combo",
+              "name": "猛攻連続突き",
               "type": "Physical",
               "strength": "1.8 – 2.0",
               "hits": "2",
@@ -4981,7 +4981,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Dark Breath",
+              "name": "闇ブレス",
               "type": "Ether",
               "strength": "2.05 – 2.25",
               "hits": "1",
@@ -4992,7 +4992,7 @@ const COMBAT_DOSSIER_DATA={
             }
           ],
           "spike": {
-            "type": "Topple",
+            "type": "転倒",
             "range": "15 M",
             "damage": "1,200 Damage"
           },
@@ -5018,28 +5018,28 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-fast",
-        "party": "Melia / Dunban / Riki · control Melia",
+        "party": "メリア / ダンバン / リキ · メリアを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind",
           "スパイク防御",
           "全デバフ抵抗",
-          "Ether Up on Melia"
+          "メリアに Ether Up"
         ],
         "watch": [
-          "Antimatter Blast VI: Confuse",
-          "Howling Grudge: Ether Def Down",
-          "Weakening Howl: Agility Down",
-          "Sumo Stomp: Topple"
+          "Antimatter Blast VI: パニック",
+          "恨みの咆哮: エーテル耐性減",
+          "弱体咆哮: 素早さダウン",
+          "四股踏み: 転倒"
         ],
-        "route": "High physical resistance favors a controlled Melia ether plan; store elements and discharge into safe windows.",
+        "route": "物理耐性が高いときは、操作するメリアのエーテル計画が向く。属性を溜め、安全な隙に放出する。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-despotic-arsene-28eb0aa9": {
-      "name": "Despotic Arsene",
+      "name": "暴帝のアルセーヌ",
       "level": "108",
-      "area": "Satorl Marsh",
+      "area": "燐光の地ザトール",
       "conditions": "During Chapter 17",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -5062,27 +5062,27 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Emperor Blow",
+              "name": "エンペラーブロー",
               "type": "Physical",
               "strength": "2.0 - 2.4",
               "hits": "1",
               "range": "Single",
-              "effect": "Strength Down",
+              "effect": "筋力ダウン",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Imperial Sobat",
+              "name": "エンペラーソバット",
               "type": "Physical",
               "strength": "2.8 - 3.3",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Bleed",
+              "effect": "出血",
               "knockback": "Yes",
               "breakDamage": "-"
             },
             {
-              "name": "Imperial Upper",
+              "name": "エンペラーアッパー",
               "type": "Physical",
               "strength": "2.75 - 3.25",
               "hits": "1",
@@ -5092,7 +5092,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/No"
             },
             {
-              "name": "Emperor Combo X",
+              "name": "Emperor 連撃 X",
               "type": "Talent (Physical)",
               "strength": "2.1 - 2.5",
               "hits": "2",
@@ -5102,7 +5102,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/Yes"
             },
             {
-              "name": "Imperial Might",
+              "name": "暴帝の力",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -5135,25 +5135,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Emperor Blow: Strength Down",
-          "Imperial Sobat: Bleed",
-          "Imperial Might: ヘイスト"
+          "エンペラーブロー: 筋力ダウン",
+          "エンペラーソバット: 出血",
+          "暴帝の力: ヘイスト"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-destroyer-salvacion-9c640d47": {
-      "name": "Destroyer Salvacion",
+      "name": "隠滅のサルバシオン",
       "level": "59",
-      "area": "Mechonis Field",
+      "area": "機神界フィールド",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -5176,7 +5176,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Over Tentacle IV",
+              "name": "Over 触手 IV",
               "type": "Talent (Physical)",
               "strength": "2.8 – 3.0",
               "hits": "1",
@@ -5186,17 +5186,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Ripple Laser III",
+              "name": "Ripple レーザー III",
               "type": "Talent (Ether)",
               "strength": "1.8 – 2.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Paralysis",
+              "effect": "パラライズ",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Tentacles",
+              "name": "テンタクルトス",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
@@ -5206,12 +5206,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Fire Shot",
+              "name": "ファイヤーショット",
               "type": "Ether",
               "strength": "1.05 – 1.25",
               "hits": "1",
               "range": "-",
-              "effect": "Blaze",
+              "effect": "炎熱",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -5239,23 +5239,23 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Ripple Laser III: Paralysis",
-          "Fire Shot: Blaze"
+          "Ripple レーザー III: パラライズ",
+          "ファイヤーショット: 炎熱"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-destructive-bors-5aa56764": {
-      "name": "Destructive Bors",
+      "name": "修羅のボールス",
       "level": "64",
-      "area": "Agniratha",
+      "area": "帝都アグニラータ",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -5283,22 +5283,22 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.8 - 2.0",
               "hits": "1",
               "range": "Single",
-              "effect": "Pierce; ヘイスト to self",
+              "effect": "貫通; ヘイスト to self",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Side Swing",
+              "name": "サイドスウィング",
               "type": "Physical",
               "strength": "2.8 - 3.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Hard Bash",
+              "name": "ハードバッシュ",
               "type": "Physical",
               "strength": "3.3 - 3.5",
               "hits": "1",
@@ -5308,7 +5308,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "No/Yes"
             },
             {
-              "name": "Laser",
+              "name": "レーザー",
               "type": "Ether",
               "strength": "1.8 - 2.0",
               "hits": "1",
@@ -5318,7 +5318,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Ether Chaff",
+              "name": "エーテルチャフ",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -5351,23 +5351,23 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ"
         ],
         "watch": [
-          "Naked Glow V: Pierce; ヘイスト to self",
-          "Side Swing: Topple",
-          "Ether Chaff: Ether &#x25bc;; Ether Defence &#x25bc;"
+          "Naked Glow V: 貫通; ヘイスト to self",
+          "サイドスウィング: 転倒",
+          "エーテルチャフ: Ether &#x25bc;; Ether Defence &#x25bc;"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-dickson-battles-2b3e8a45": {
-      "name": "Dickson#Battles",
+      "name": "ディクソン#Battles",
       "level": "80",
-      "area": "Prison Island",
+      "area": "監獄島",
       "conditions": "Story",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -5390,7 +5390,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Chaos Combo",
+              "name": "カオスコンボ",
               "type": "Physical",
               "strength": "0.9 - 1.1",
               "hits": "3",
@@ -5400,17 +5400,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Chaos Dash",
+              "name": "カオスダッシュ",
               "type": "Physical",
               "strength": "2.25 - 2.50",
               "hits": "1",
               "range": "Frontal Line",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Chaos Punish ※2",
+              "name": "カオスパニッシュ ※2",
               "type": "Physical",
               "strength": "3.25 - 3.50",
               "hits": "1",
@@ -5420,12 +5420,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/Yes"
             },
             {
-              "name": "Silent Chaos",
+              "name": "カオスサイレント",
               "type": "Ether",
               "strength": "1.25 - 1.50",
               "hits": "2",
               "range": "Single",
-              "effect": "Arts Seal, absorb target's talent gauge",
+              "effect": "アーツ封印, absorb target's talent gauge",
               "knockback": "-",
               "breakDamage": "Yes/No"
             },
@@ -5435,12 +5435,12 @@ const COMBAT_DOSSIER_DATA={
               "strength": "2.50 - 2.75",
               "hits": "1",
               "range": "Frontal Line",
-              "effect": "Pierce",
+              "effect": "貫通",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Dark Power",
+              "name": "ダークパワー",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -5450,7 +5450,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Righteous Anger ※3",
+              "name": "鬼神の力 ※3",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -5460,7 +5460,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Treacherous Anger",
+              "name": "魔神の力",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -5473,7 +5473,7 @@ const COMBAT_DOSSIER_DATA={
           "spike": {
             "type": "Counter",
             "range": "8",
-            "damage": "Paralysis (25)"
+            "damage": "パラライズ (25)"
           },
           "resistances": {
             "break": "100% ‡",
@@ -5508,7 +5508,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Chaos Combo",
+              "name": "カオスコンボ",
               "type": "Physical",
               "strength": "0.9 - 1.1",
               "hits": "3",
@@ -5518,17 +5518,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Chaos Dash",
+              "name": "カオスダッシュ",
               "type": "Physical",
               "strength": "2.25 - 2.50",
               "hits": "1",
               "range": "Frontal Line",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Chaos Punish ※2",
+              "name": "カオスパニッシュ ※2",
               "type": "Physical",
               "strength": "3.25 - 3.50",
               "hits": "1",
@@ -5538,12 +5538,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/Yes"
             },
             {
-              "name": "Silent Chaos",
+              "name": "カオスサイレント",
               "type": "Ether",
               "strength": "1.25 - 1.50",
               "hits": "2",
               "range": "Single",
-              "effect": "Arts Seal, absorb target's talent gauge",
+              "effect": "アーツ封印, absorb target's talent gauge",
               "knockback": "-",
               "breakDamage": "Yes/No"
             },
@@ -5553,12 +5553,12 @@ const COMBAT_DOSSIER_DATA={
               "strength": "2.50 - 2.75",
               "hits": "1",
               "range": "Frontal Line",
-              "effect": "Pierce",
+              "effect": "貫通",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Dark Power",
+              "name": "ダークパワー",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -5568,7 +5568,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Righteous Anger ※3",
+              "name": "鬼神の力 ※3",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -5578,7 +5578,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Treacherous Anger",
+              "name": "魔神の力",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -5591,7 +5591,7 @@ const COMBAT_DOSSIER_DATA={
           "spike": {
             "type": "Counter",
             "range": "8",
-            "damage": "Paralysis (25)"
+            "damage": "パラライズ (25)"
           },
           "resistances": {
             "break": "100% ‡",
@@ -5615,26 +5615,26 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind",
           "スパイク防御"
         ],
         "watch": [
-          "Chaos Combo: Damage triples when the target is Toppled",
-          "Chaos Dash: Topple",
-          "Silent Chaos: Arts Seal, absorb target's talent gauge",
-          "Chaos Bullet VI: Pierce"
+          "カオスコンボ: Damage triples when the target is Toppled",
+          "カオスダッシュ: 転倒",
+          "カオスサイレント: アーツ封印, absorb target's talent gauge",
+          "Chaos Bullet VI: 貫通"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-lorithia-battle-0ed41099": {
-      "name": "Lorithia#Battle",
+      "name": "ロウラン#Battle",
       "level": "75",
-      "area": "Bionis' Interior",
+      "area": "巨神胎内",
       "conditions": "Story",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -5657,22 +5657,22 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Ether Laser",
+              "name": "エーテルレーザー",
               "type": "Ether",
               "strength": "2.3 - 2.5",
               "hits": "1",
               "range": "Frontal Line",
-              "effect": "Ether Defence Down; Arts Seal",
+              "effect": "エーテル防御ダウン; アーツ封印",
               "knockback": "-",
               "breakDamage": "Yes/No"
             },
             {
-              "name": "Obliterate",
+              "name": "薙ぎ払い",
               "type": "Physical",
               "strength": "2.8 - 3.0",
               "hits": "1",
               "range": "Circle around caster",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "Yes",
               "breakDamage": "-"
             },
@@ -5682,12 +5682,12 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.55 - 1.75",
               "hits": "1",
               "range": "Frontal Line",
-              "effect": "Confuse",
+              "effect": "パニック",
               "knockback": "-",
               "breakDamage": "Yes/Yes"
             },
             {
-              "name": "Elemental Barrier",
+              "name": "エレメント結界",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -5697,22 +5697,22 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Elemental Activate",
+              "name": "エレメント活性化",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Awakening",
+              "effect": "覚醒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Shield Recovery",
+              "name": "シールド回復",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Remove debuffs, Debuff Immunity",
+              "effect": "Remove debuffs, デバフ無効",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -5740,26 +5740,26 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-fast",
-        "party": "Melia / Dunban / Riki · control Melia",
+        "party": "メリア / ダンバン / リキ · メリアを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind",
-          "Ether Up on Melia"
+          "メリアに Ether Up"
         ],
         "watch": [
-          "Ether Laser: Ether Defence Down; Arts Seal",
-          "Obliterate: Topple",
-          "Big Bang VI: Confuse",
-          "Elemental Barrier: Summons novae"
+          "エーテルレーザー: エーテル防御ダウン; アーツ封印",
+          "薙ぎ払い: 転倒",
+          "Big Bang VI: パニック",
+          "エレメント結界: Summons novae"
         ],
-        "route": "High physical resistance favors a controlled Melia ether plan; store elements and discharge into safe windows.",
+        "route": "物理耐性が高いときは、操作するメリアのエーテル計画が向く。属性を溜め、安全な隙に放出する。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-dragon-king-alcar-69ffba6a": {
-      "name": "Dragon King Alcar",
+      "name": "竜王アルカトラズ",
       "level": "79",
-      "area": "Prison Island",
+      "area": "監獄島",
       "conditions": "During Path to the Top",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -5782,17 +5782,17 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Carapaia Tail",
+              "name": "カラパイアテイル",
               "type": "Physical",
               "strength": "2.25 - 2.50",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Grave Fang",
+              "name": "グレイブファング",
               "type": "Physical",
               "strength": "1.75 - 2.00",
               "hits": "1",
@@ -5802,12 +5802,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Ignis Breath",
+              "name": "イグニスブレス",
               "type": "Ether",
               "strength": "0.60 - 0.85",
               "hits": "6",
               "range": "Circle around caster",
-              "effect": "Blaze",
+              "effect": "炎熱",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -5849,7 +5849,7 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind",
@@ -5857,18 +5857,18 @@ const COMBAT_DOSSIER_DATA={
           "全デバフ抵抗"
         ],
         "watch": [
-          "Carapaia Tail: Topple",
-          "Grave Fang: Damage will double if target is toppled",
-          "Ignis Breath: Blaze"
+          "カラパイアテイル: 転倒",
+          "グレイブファング: Damage will double if target is toppled",
+          "イグニスブレス: 炎熱"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-drifter-jutard-5f40056b": {
-      "name": "Drifter Jutard",
+      "name": "迷走のシュタード",
       "level": "25",
-      "area": "Colony 6",
+      "area": "コロニー6",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -5891,7 +5891,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Super Knock Back I",
+              "name": "Super 吹き飛ばし I",
               "type": "Talent (Physical)",
               "strength": "1.8 – 2.0",
               "hits": "1",
@@ -5901,7 +5901,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Knock Back",
+              "name": "吹き飛ばし",
               "type": "Physical",
               "strength": "2.3 – 2.5",
               "hits": "1",
@@ -5911,7 +5911,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Side Swipe",
+              "name": "横振り",
               "type": "Physical",
               "strength": "1.8 – 2.0",
               "hits": "1",
@@ -5944,21 +5944,21 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ"
         ],
         "watch": [
           "No special art effect is listed; manage aggro and the level gap."
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-egil-battle-8a9765c6": {
-      "name": "Egil#Battle",
+      "name": "エギル#Battle",
       "level": "70",
-      "area": "Agniratha",
+      "area": "帝都アグニラータ",
       "conditions": "Story",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -5981,12 +5981,12 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Grand Ether Bullet",
+              "name": "大エーテル弾",
               "type": "Ether",
               "strength": "2.05 - 2.25",
               "hits": "1",
               "range": "Circle around target",
-              "effect": "Arts Seal",
+              "effect": "アーツ封印",
               "knockback": "-",
               "breakDamage": "Yes/No"
             },
@@ -6001,17 +6001,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/Yes"
             },
             {
-              "name": "Leader's Might",
+              "name": "盟主の力",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Awakening",
+              "effect": "覚醒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Leader's Fury ※1",
+              "name": "盟主の怒り ※1",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -6021,7 +6021,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Manufacture Drone ※2",
+              "name": "機神兵製造 ※2",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -6054,24 +6054,24 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ"
         ],
         "watch": [
-          "Grand Ether Bullet: Arts Seal",
-          "Leader's Might: Awakening",
-          "Leader's Fury ※1: Craze",
-          "Manufacture Drone ※2: Summons Mechon"
+          "大エーテル弾: アーツ封印",
+          "盟主の力: 覚醒",
+          "盟主の怒り ※1: Craze",
+          "機神兵製造 ※2: Summons Mechon"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-elder-gragus-bc9ce121": {
-      "name": "Elder Gragus",
+      "name": "老兄のグラグース",
       "level": "34",
-      "area": "Makna Forest",
+      "area": "マクナ原生林",
       "conditions": "Clear or Torrid Weather",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -6104,27 +6104,27 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Funky Dance",
+              "name": "ファンキーダンス",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Sleep",
+              "effect": "スリープ",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Winged Cure",
+              "name": "鳥の治癒",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Regenerate",
+              "effect": "時間ヒール",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Winged Fury",
+              "name": "鳥の狂騒",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -6134,7 +6134,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Rising Slice",
+              "name": "切り上げ",
               "type": "Physical",
               "strength": "2.3 – 2.5",
               "hits": "1",
@@ -6144,12 +6144,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Scratch",
+              "name": "ツメひっかき",
               "type": "Physical",
               "strength": "1.8 – 2.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Bleed",
+              "effect": "出血",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -6177,25 +6177,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Funky Dance: Sleep",
-          "Winged Cure: Regenerate",
-          "Winged Fury: Crazed",
-          "Scratch: Bleed"
+          "ファンキーダンス: スリープ",
+          "鳥の治癒: 時間ヒール",
+          "鳥の狂騒: Crazed",
+          "ツメひっかき: 出血"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-elegant-marin-25e92d13": {
-      "name": "Elegant Marin",
+      "name": "優美なマーリン",
       "level": "29",
-      "area": "Ether Mine",
+      "area": "中央採掘場",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -6218,27 +6218,27 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Ether Break II",
+              "name": "Ether 崩し II",
               "type": "Talent (Ether)",
               "strength": "1.8 – 2.0",
               "hits": "1",
               "range": "Circle around caster",
-              "effect": "Self HP Down",
+              "effect": "Self 最大ＨＰダウン",
               "knockback": "Yes (2)",
               "breakDamage": "-"
             },
             {
-              "name": "Hard Bash",
+              "name": "ハードバッシュ",
               "type": "Physical",
               "strength": "2.3 – 2.5",
               "hits": "1",
               "range": "-",
-              "effect": "Daze",
+              "effect": "気絶",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Krabble Bash",
+              "name": "クライブバッシュ",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
@@ -6248,12 +6248,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Bubble",
+              "name": "バブル",
               "type": "Ether",
               "strength": "1.3 – 1.5",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Agility Down",
+              "effect": "素早さダウン",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -6281,23 +6281,23 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ"
         ],
         "watch": [
-          "Ether Break II: Self HP Down",
-          "Hard Bash: Daze",
-          "Bubble: Agility Down"
+          "Ether 崩し II: Self 最大ＨＰダウン",
+          "ハードバッシュ: 気絶",
+          "バブル: 素早さダウン"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-enchanting-grune-2b0a751a": {
-      "name": "Enchanting Grune",
+      "name": "魅惑のグリューネ",
       "level": "13",
-      "area": "Colony 9",
+      "area": "コロニー9",
       "conditions": "5:00",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -6320,7 +6320,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Kick Rush",
+              "name": "キックラッシュ",
               "type": "Physical",
               "strength": "1.3 - 1.5",
               "hits": "3",
@@ -6340,22 +6340,22 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "No/Yes"
             },
             {
-              "name": "Razor Water",
+              "name": "シェイブウォーター",
               "type": "Ether",
               "strength": "1.3 - 1.5",
               "hits": "1",
               "range": "Single",
-              "effect": "Strength Down",
+              "effect": "筋力ダウン",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Insane Screech",
+              "name": "大ショックボイス",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Circle around Caster",
-              "effect": "Bind",
+              "effect": "バインド",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -6383,23 +6383,23 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Razor Water: Strength Down",
-          "Insane Screech: Bind"
+          "シェイブウォーター: 筋力ダウン",
+          "大ショックボイス: バインド"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-erratic-goliante-xc1-037bd55f": {
-      "name": "Erratic Goliante (XC1)",
+      "name": "流転のゴリアンテ（XC1）",
       "level": "97",
-      "area": "Tephra Cave",
+      "area": "テフラ洞窟",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -6422,7 +6422,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Behemoth Rampage",
+              "name": "獣王の暴走",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -6432,27 +6432,27 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Taunt",
+              "name": "挑発",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Frontal Arc",
-              "effect": "Lock-On",
+              "effect": "ロックオン",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Threatening Roar",
+              "name": "威嚇鳴き",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Frontal Arc",
-              "effect": "Phys Def Down; Strength Down",
+              "effect": "物理耐性減; 筋力ダウン",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Gore",
+              "name": "突き上げ",
               "type": "Physical",
               "strength": "3.3 – 3.5",
               "hits": "1",
@@ -6462,7 +6462,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Head Butt",
+              "name": "ヘッドバッド",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
@@ -6473,7 +6473,7 @@ const COMBAT_DOSSIER_DATA={
             }
           ],
           "spike": {
-            "type": "Topple",
+            "type": "転倒",
             "range": "10 M",
             "damage": "2,280 Damage"
           },
@@ -6499,26 +6499,26 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind",
           "スパイク防御"
         ],
         "watch": [
-          "Behemoth Rampage: Crazed",
-          "Taunt: Lock-On",
-          "Threatening Roar: Phys Def Down; Strength Down"
+          "獣王の暴走: Crazed",
+          "挑発: ロックオン",
+          "威嚇鳴き: 物理耐性減; 筋力ダウン"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-eternal-palsadia-7d3478af": {
-      "name": "Eternal Palsadia",
+      "name": "永劫のパレスアテナ",
       "level": "91",
-      "area": "Satorl Marsh",
-      "conditions": "After completing The Giants' Treasure",
+      "area": "燐光の地ザトール",
+      "conditions": "After completing ついに巨人族のタカラ",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
         "url": "https://xenoblade.fandom.com/wiki/Eternal_Palsadia",
@@ -6540,12 +6540,12 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Dive Impact III",
+              "name": "ダイブインパクト III",
               "type": "Talent (Physical)",
               "strength": "2.3 – 2.5",
               "hits": "1",
               "range": "Circle around caster",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -6560,7 +6560,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes"
             },
             {
-              "name": "Binding Web",
+              "name": "バインドウェブ",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -6570,17 +6570,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Devour Preparation",
+              "name": "捕食の準備",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Frontal Arc",
-              "effect": "Pierce; Bind",
+              "effect": "貫通; バインド",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Queen's Order",
+              "name": "クイーンズオーダー",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -6613,26 +6613,26 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Dive Impact III: Topple",
-          "Binding Web: Slow",
-          "Devour Preparation: Pierce; Bind",
-          "Queen's Order: Fill Talent Gauge"
+          "ダイブインパクト III: 転倒",
+          "バインドウェブ: Slow",
+          "捕食の準備: 貫通; バインド",
+          "クイーンズオーダー: Talent Gauge を満たす"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-evil-bathin-d3d5cc1d": {
-      "name": "Evil Bathin",
+      "name": "悪魔のバティン",
       "level": "54",
-      "area": "Fallen Arm",
+      "area": "落ちた腕",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -6660,12 +6660,12 @@ const COMBAT_DOSSIER_DATA={
               "strength": "2.05 – 2.25",
               "hits": "1",
               "range": "-",
-              "effect": "Blaze",
+              "effect": "炎熱",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Drill Screw",
+              "name": "ドリルスクリュー",
               "type": "Physical",
               "strength": "3.3 – 3.5",
               "hits": "1",
@@ -6675,22 +6675,22 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Hard Bash",
+              "name": "ハードバッシュ",
               "type": "Physical",
               "strength": "3.3 – 3.5",
               "hits": "1",
               "range": "-",
-              "effect": "Daze",
+              "effect": "気絶",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Side Swing",
+              "name": "サイドスウィング",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -6718,24 +6718,24 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Atomic Glow IV: Blaze",
-          "Hard Bash: Daze",
-          "Side Swing: Topple"
+          "Atomic Glow IV: 炎熱",
+          "ハードバッシュ: 気絶",
+          "サイドスウィング: 転倒"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-evil-rhangrot-adef951c": {
-      "name": "Evil Rhangrot",
+      "name": "横道のラングロット",
       "level": "6",
-      "area": "Colony 9",
+      "area": "コロニー9",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -6758,7 +6758,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Hit Swing",
+              "name": "ヒットスウィング",
               "type": "Physical",
               "strength": "1.8 - 2.0",
               "hits": "1",
@@ -6768,7 +6768,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Bunnit Combo II",
+              "name": "バニット 連撃 II",
               "type": "Talent (Physical)",
               "strength": "1.3 - 1.5",
               "hits": "2",
@@ -6778,7 +6778,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Huge Swing",
+              "name": "大振りスウィング",
               "type": "Physical",
               "strength": "1.05 - 1.25",
               "hits": "1",
@@ -6811,21 +6811,21 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ"
         ],
         "watch": [
           "No special art effect is listed; manage aggro and the level gap."
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-experienced-tristan-f5f5d461": {
-      "name": "Experienced Tristan",
+      "name": "老巧のトリスタン",
       "level": "64",
-      "area": "Agniratha",
+      "area": "帝都アグニラータ",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -6848,17 +6848,17 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Olden Shield",
+              "name": "オルデンシールド",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Physical Protect; Ether Protect",
+              "effect": "物理バリア; エーテルバリア",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Cross Claw",
+              "name": "クロスクロー",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "2",
@@ -6868,7 +6868,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/Yes"
             },
             {
-              "name": "Cut Attack",
+              "name": "カットアタック",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
@@ -6878,22 +6878,22 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Dead Slash",
+              "name": "デッドスマッシュ",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
               "range": "-",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Thunder Flash",
+              "name": "サンダーボルト",
               "type": "Ether",
               "strength": "3.05 – 3.25",
               "hits": "1",
               "range": "Circle around caster",
-              "effect": "Paralysis",
+              "effect": "パラライズ",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -6921,26 +6921,26 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Olden Shield: Physical Protect; Ether Protect",
-          "Cut Attack: Double Damage if Toppled",
-          "Dead Slash: Topple",
-          "Thunder Flash: Paralysis"
+          "オルデンシールド: 物理バリア; エーテルバリア",
+          "カットアタック: 転倒中はダメージ2倍",
+          "デッドスマッシュ: 転倒",
+          "サンダーボルト: パラライズ"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-exposure-wolfol-bfafbe02": {
-      "name": "Exposure Wolfol",
+      "name": "露光のウォレフォル",
       "level": "97",
-      "area": "Valak Mountain",
-      "conditions": "After completing The Magma Rock",
+      "area": "ヴァラク雪山",
+      "conditions": "After completing ヴァラクの熱い石",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
         "url": "https://xenoblade.fandom.com/wiki/Exposure_Wolfol",
@@ -6967,12 +6967,12 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.2 – 1.5",
               "hits": "3",
               "range": "Frontal Arc",
-              "effect": "Paralysis",
+              "effect": "パラライズ",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Vortex",
+              "name": "竜巻おこし",
               "type": "Physical",
               "strength": "1.3 – 1.5",
               "hits": "2",
@@ -6982,12 +6982,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Boiling Wave",
+              "name": "ファイアウェイブ",
               "type": "Ether",
               "strength": "1.05 – 1.25",
               "hits": "3",
               "range": "Frontal Line",
-              "effect": "Blaze",
+              "effect": "炎熱",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -7015,24 +7015,24 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Glorious Bolt VIII: Paralysis",
-          "Boiling Wave: Blaze"
+          "Glorious Bolt VIII: パラライズ",
+          "ファイアウェイブ: 炎熱"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-faithful-lancelot-d4c3f95f": {
-      "name": "Faithful Lancelot",
+      "name": "信仰のランスロット",
       "level": "59",
-      "area": "Central Factory",
+      "area": "中央工廠",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -7060,22 +7060,22 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.8 - 2.0",
               "hits": "1",
               "range": "Single",
-              "effect": "Pierce; ヘイスト",
+              "effect": "貫通; ヘイスト",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Side Swing",
+              "name": "サイドスウィング",
               "type": "Physical",
               "strength": "2.8 - 3.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Hard Bash",
+              "name": "ハードバッシュ",
               "type": "Physical",
               "strength": "3.3 - 3.5",
               "hits": "1",
@@ -7085,7 +7085,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "No/Yes"
             },
             {
-              "name": "Laser",
+              "name": "レーザー",
               "type": "Ether",
               "strength": "1.8 - 2.0",
               "hits": "1",
@@ -7095,12 +7095,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Ether Chaff",
+              "name": "エーテルチャフ",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Ether Def Down; Ether Down",
+              "effect": "エーテル耐性減; エーテルダウン",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -7128,23 +7128,23 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ"
         ],
         "watch": [
-          "Naked Glow V: Pierce; ヘイスト",
-          "Side Swing: Topple",
-          "Ether Chaff: Ether Def Down; Ether Down"
+          "Naked Glow V: 貫通; ヘイスト",
+          "サイドスウィング: 転倒",
+          "エーテルチャフ: エーテル耐性減; エーテルダウン"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-fate-labolas-107958af": {
-      "name": "Fate Labolas",
+      "name": "運命のラボラス",
       "level": "51",
-      "area": "Sword Valley",
+      "area": "大剣の渓谷",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -7167,17 +7167,17 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Naked Field",
+              "name": "ネイキッドフィールド",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Pierce",
+              "effect": "貫通",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Cut Attack",
+              "name": "カットアタック",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
@@ -7187,17 +7187,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Dead Slash",
+              "name": "デッドスマッシュ",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
               "range": "-",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Hit Back",
+              "name": "ヒットバック",
               "type": "Physical",
               "strength": "2.3 – 2.5",
               "hits": "1",
@@ -7207,17 +7207,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Skull Crack",
+              "name": "ブレインブレイク",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
               "range": "-",
-              "effect": "Daze",
+              "effect": "気絶",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Energy Flash",
+              "name": "エナジーボルト",
               "type": "Ether",
               "strength": "2.55 – 2.75",
               "hits": "1",
@@ -7250,24 +7250,24 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ"
         ],
         "watch": [
-          "Naked Field: Pierce",
-          "Cut Attack: Double Damage if Toppled",
-          "Dead Slash: Topple",
-          "Skull Crack: Daze"
+          "ネイキッドフィールド: 貫通",
+          "カットアタック: 転倒中はダメージ2倍",
+          "デッドスマッシュ: 転倒",
+          "ブレインブレイク: 気絶"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-field-altrich-95728542": {
-      "name": "Field Altrich",
+      "name": "中原のオルトリッチ",
       "level": "76",
-      "area": "Bionis' Leg",
+      "area": "巨神脚",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -7290,27 +7290,27 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Winged Awakening",
+              "name": "鳥の覚醒",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Awakening",
+              "effect": "覚醒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Big Down Swipe",
+              "name": "大縦振り",
               "type": "Physical",
               "strength": "3.3 – 3.5",
               "hits": "1",
               "range": "-",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Big Side Swipe",
+              "name": "大横振り",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
@@ -7320,17 +7320,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Down Swipe",
+              "name": "縦振り",
               "type": "Physical",
               "strength": "2.3 – 2.5",
               "hits": "1",
               "range": "-",
-              "effect": "Daze",
+              "effect": "気絶",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Side Swipe",
+              "name": "横振り",
               "type": "Physical",
               "strength": "1.8 – 2.0",
               "hits": "1",
@@ -7363,24 +7363,24 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind"
         ],
         "watch": [
-          "Winged Awakening: Awakening",
-          "Big Down Swipe: Topple",
-          "Down Swipe: Daze"
+          "鳥の覚醒: 覚醒",
+          "大縦振り: 転倒",
+          "縦振り: 気絶"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-fiendish-auburn-27171d7c": {
-      "name": "Fiendish Auburn",
+      "name": "鬼王のオーバーン",
       "level": "78",
-      "area": "Prison Island",
+      "area": "監獄島",
       "conditions": "After defeating the three Babeli Bargs and Babeli Bargs on the bridge",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -7403,27 +7403,27 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Velua Break VI",
+              "name": "Velua 崩し VI",
               "type": "Talent (Physical)",
               "strength": "1.25 – 1.5",
               "hits": "4",
               "range": "Circle around caster",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Dark Howl",
+              "name": "闇の遠吠え",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Awakening",
+              "effect": "覚醒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Velua Voice",
+              "name": "ベルーアボイス",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -7433,7 +7433,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Ferocious Gore",
+              "name": "猛突き上げ",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
@@ -7443,7 +7443,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Velua Rush",
+              "name": "ベルーアラッシュ",
               "type": "Physical",
               "strength": "1.25 – 1.5",
               "hits": "3",
@@ -7453,12 +7453,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Dark Breath",
+              "name": "闇ブレス",
               "type": "Ether",
               "strength": "1.8 – 2.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Strength Down",
+              "effect": "筋力ダウン",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -7486,25 +7486,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind"
         ],
         "watch": [
-          "Velua Break VI: Topple",
-          "Dark Howl: Awakening",
-          "Velua Voice: 素早さアップ; 筋力アップ",
-          "Dark Breath: Strength Down"
+          "Velua 崩し VI: 転倒",
+          "闇の遠吠え: 覚醒",
+          "ベルーアボイス: 素早さアップ; 筋力アップ",
+          "闇ブレス: 筋力ダウン"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-final-marcus-f6f24e04": {
-      "name": "Final Marcus",
+      "name": "終世のマークス",
       "level": "100",
-      "area": "Valak Mountain",
+      "area": "ヴァラク雪山",
       "conditions": "Clear or Snowy Weather at Night",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -7527,7 +7527,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Thrust",
+              "name": "つっぱり",
               "type": "Physical",
               "strength": "3.3 - 3.5",
               "hits": "1",
@@ -7537,12 +7537,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Light of Demise",
+              "name": "終焉の光",
               "type": "Ether",
               "strength": "3.8 - 4.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Bind; Paralysis",
+              "effect": "バインド; パラライズ",
               "knockback": "-",
               "breakDamage": "Yes/No"
             },
@@ -7552,12 +7552,12 @@ const COMBAT_DOSSIER_DATA={
               "strength": "3.5 - 3.8",
               "hits": "1",
               "range": "Single",
-              "effect": "Confuse",
+              "effect": "パニック",
               "knockback": "Yes",
               "breakDamage": "-"
             },
             {
-              "name": "Strengthening Will ※",
+              "name": "強化練気 ※",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -7567,12 +7567,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Iron Will ※",
+              "name": "硬化練気 ※",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Strength Down; Physical Protect",
+              "effect": "筋力ダウン; 物理バリア",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -7604,7 +7604,7 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind",
@@ -7612,20 +7612,20 @@ const COMBAT_DOSSIER_DATA={
           "全デバフ抵抗"
         ],
         "watch": [
-          "Light of Demise: Bind; Paralysis",
-          "Mountain Impact IX: Confuse",
-          "Strengthening Will ※: 筋力アップ; Physical Defence Down",
-          "Iron Will ※: Strength Down; Physical Protect"
+          "終焉の光: バインド; パラライズ",
+          "Mountain Impact IX: パニック",
+          "強化練気 ※: 筋力アップ; 物理防御ダウン",
+          "硬化練気 ※: 筋力ダウン; 物理バリア"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-firework-geldesia-d971ca79": {
-      "name": "Firework Geldesia",
+      "name": "火花のゲルデシア",
       "level": "98",
-      "area": "Tephra Cave",
-      "conditions": "During Battling Brutes",
+      "area": "テフラ洞窟",
+      "conditions": "ぶつかり合うふたつの間",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
         "url": "https://xenoblade.fandom.com/wiki/Firework_Geldesia",
@@ -7657,7 +7657,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/Yes"
             },
             {
-              "name": "Queen's Order",
+              "name": "クイーンズオーダー",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -7667,7 +7667,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Binding Web",
+              "name": "バインドウェブ",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -7680,7 +7680,7 @@ const COMBAT_DOSSIER_DATA={
           "spike": {
             "type": "Counter",
             "range": "15 M",
-            "damage": "Daze"
+            "damage": "気絶"
           },
           "resistances": {
             "break": "100% ‡",
@@ -7704,7 +7704,7 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind",
@@ -7712,17 +7712,17 @@ const COMBAT_DOSSIER_DATA={
           "全デバフ抵抗"
         ],
         "watch": [
-          "Queen's Order: Increases talent gauge",
-          "Binding Web: Slow"
+          "クイーンズオーダー: Increases talent gauge",
+          "バインドウェブ: Slow"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-flabbergasted-jerome-80ee6387": {
-      "name": "Flabbergasted Jerome",
+      "name": "霹靂のジローネ",
       "level": "38",
-      "area": "Eryth Sea",
+      "area": "エルト海",
       "conditions": "Clear Weather or Shooting Stars",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -7750,22 +7750,22 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.55 – 1.75",
               "hits": "1",
               "range": "Circle around caster",
-              "effect": "Sleep; Self HP Down",
+              "effect": "スリープ; 自身に最大ＨＰダウン",
               "knockback": "Yes (1)",
               "breakDamage": "-"
             },
             {
-              "name": "Aqua Whip",
+              "name": "アクアウィップ",
               "type": "Ether",
               "strength": "0.55 – 0.75",
               "hits": "3",
               "range": "-",
-              "effect": "Sleep",
+              "effect": "スリープ",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Elemental Bullet",
+              "name": "エレメント弾",
               "type": "Ether",
               "strength": "1.3 – 1.5",
               "hits": "1",
@@ -7775,7 +7775,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Elemental Cannon",
+              "name": "エレメント砲",
               "type": "Ether",
               "strength": "1.3 – 1.5",
               "hits": "1",
@@ -7788,7 +7788,7 @@ const COMBAT_DOSSIER_DATA={
           "spike": {
             "type": "Counter",
             "range": "8 M",
-            "damage": "Ether Def Down 25%"
+            "damage": "エーテル耐性減 25%"
           },
           "resistances": {
             "break": "100%",
@@ -7812,25 +7812,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-fast",
-        "party": "Melia / Dunban / Riki · control Melia",
+        "party": "メリア / ダンバン / リキ · メリアを操作",
         "gems": [
           "素早さアップ",
           "スパイク防御",
           "全デバフ抵抗",
-          "Ether Up on Melia"
+          "メリアに Ether Up"
         ],
         "watch": [
-          "Aqua Eruption II: Sleep; Self HP Down",
-          "Aqua Whip: Sleep"
+          "Aqua Eruption II: スリープ; 自身に 最大ＨＰダウン",
+          "アクアウィップ: スリープ"
         ],
-        "route": "High physical resistance favors a controlled Melia ether plan; store elements and discharge into safe windows.",
+        "route": "物理耐性が高いときは、操作するメリアのエーテル計画が向く。属性を溜め、安全な隙に放出する。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-flailing-bracken-0537bcb7": {
-      "name": "Flailing Bracken",
+      "name": "暴飲のブラッケン",
       "level": "73",
-      "area": "Colony 9",
+      "area": "コロニー9",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -7853,7 +7853,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Water Shot",
+              "name": "ウォーターシュート",
               "type": "Ether",
               "strength": "1.3 - 1.5",
               "hits": "1",
@@ -7863,7 +7863,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Kick Rush",
+              "name": "キックラッシュ",
               "type": "Strength",
               "strength": "1.3 - 1.5",
               "hits": "3",
@@ -7873,12 +7873,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Shock Roar",
+              "name": "ショックロア",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Frontal Arc",
-              "effect": "Confuse; Arts Seal",
+              "effect": "パニック; アーツ封印",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -7906,24 +7906,24 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Water Shot: Slow",
-          "Shock Roar: Confuse; Arts Seal"
+          "ウォーターシュート: Slow",
+          "ショックロア: パニック; アーツ封印"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-frenzied-bana-764dcc0f": {
-      "name": "Frenzied Bana",
+      "name": "逆上のバーン",
       "level": "78",
-      "area": "Frontier Village",
-      "conditions": "During Bana the Betrayer",
+      "area": "サイハテ村",
+      "conditions": "裏切りのバーンの間",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
         "url": "https://xenoblade.fandom.com/wiki/Frenzied_Bana",
@@ -7945,7 +7945,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Big Gore VIII",
+              "name": "Big 突き上げ VIII",
               "type": "Talent (Physical)",
               "strength": "2.3 – 2.5",
               "hits": "1",
@@ -7955,7 +7955,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "More Caviar! ※",
+              "name": "ハイモアキャビアだも ※",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -7965,7 +7965,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Roar",
+              "name": "鳴き声",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -7975,7 +7975,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Gore",
+              "name": "突き上げ",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
@@ -7985,32 +7985,32 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Blazing Flare",
+              "name": "火炎放射",
               "type": "Ether",
               "strength": "1.3 – 1.5",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Blaze",
+              "effect": "炎熱",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Pipe Down!",
+              "name": "寝言は寝て言うもー",
               "type": "Ether",
               "strength": "2.8 – 3.0",
               "hits": "1",
               "range": "Circle around caster",
-              "effect": "Sleep",
+              "effect": "スリープ",
               "knockback": "Yes (1)",
               "breakDamage": "-"
             },
             {
-              "name": "Wild Feast",
+              "name": "騒げ踊れ宴だもー",
               "type": "Ether",
               "strength": "4.8 – 5.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Poison; Confuse",
+              "effect": "毒; パニック",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -8038,26 +8038,26 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind",
           "全デバフ抵抗"
         ],
         "watch": [
-          "More Caviar! ※: Crazed",
-          "Roar: Slow",
-          "Blazing Flare: Blaze",
-          "Pipe Down!: Sleep"
+          "ハイモアキャビアだも ※: Crazed",
+          "鳴き声: Slow",
+          "火炎放射: 炎熱",
+          "寝言は寝て言うもー: スリープ"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-funeral-gozra-88aeff1c": {
-      "name": "Funeral Gozra",
+      "name": "葬送のゴズラ",
       "level": "42",
-      "area": "Eryth Sea",
+      "area": "エルト海",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -8080,7 +8080,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Hurricane Bugle",
+              "name": "疾風ラッパ",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -8090,7 +8090,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Big Spin",
+              "name": "大回転",
               "type": "Physical",
               "strength": "0.55 – 0.75",
               "hits": "4",
@@ -8100,12 +8100,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Hard Push",
+              "name": "ハードプッシュ",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
               "range": "-",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -8133,22 +8133,22 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ"
         ],
         "watch": [
-          "Hurricane Bugle: ヘイスト",
-          "Hard Push: Topple"
+          "疾風ラッパ: ヘイスト",
+          "ハードプッシュ: 転倒"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-furious-jozan-7bb42e3f": {
-      "name": "Furious Jozan",
+      "name": "憤怒のジョーザン",
       "level": "96",
-      "area": "High Entia Tomb",
+      "area": "ハイエンター墓所",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -8171,7 +8171,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Ether Laser VI",
+              "name": "エーテルレーザー VI",
               "type": "Talent (Ether)",
               "strength": "1.8 – 2.0",
               "hits": "1",
@@ -8181,47 +8181,47 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Attention Seek",
+              "name": "ロックオンミー",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "All",
-              "effect": "Lock-On",
+              "effect": "ロックオン",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Invite to Despair",
+              "name": "絶望への誘い",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Pierce; Lock-On",
+              "effect": "貫通; ロックオン",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Soul Read",
+              "name": "思考読み",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Physical Evasion Up",
+              "effect": "物理 回避率アップ",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Predation",
+              "name": "プレデーション",
               "type": "Physical",
               "strength": "1.55 – 1.75",
               "hits": "1",
               "range": "Circle around caster",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Delta Cannon",
+              "name": "デルタキャノン",
               "type": "Ether",
               "strength": "1.8 – 2.0",
               "hits": "1",
@@ -8231,7 +8231,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Ether Storm",
+              "name": "エーテルストーム",
               "type": "Ether",
               "strength": "1.3 – 1.5",
               "hits": "1",
@@ -8264,25 +8264,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind"
         ],
         "watch": [
-          "Attention Seek: Lock-On",
-          "Invite to Despair: Pierce; Lock-On",
-          "Soul Read: Physical Evasion Up",
-          "Predation: Topple"
+          "ロックオンミー: ロックオン",
+          "絶望への誘い: 貫通; ロックオン",
+          "思考読み: 物理 回避率アップ",
+          "プレデーション: 転倒"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-gadolt-battle-5f3b334a": {
-      "name": "Gadolt#Battle",
+      "name": "ガド#Battle",
       "level": "68",
-      "area": "Agniratha",
+      "area": "帝都アグニラータ",
       "conditions": "Story",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -8305,7 +8305,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Blow Jaggy ※2",
+              "name": "ブロウジャギー ※2",
               "type": "Physical",
               "strength": "2.3 - 2.5",
               "hits": "1",
@@ -8315,7 +8315,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/Yes"
             },
             {
-              "name": "Laser Bullet",
+              "name": "レーザーバレット",
               "type": "Ether",
               "strength": "2.75 - 3.00",
               "hits": "2",
@@ -8325,17 +8325,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Quick Cannon",
+              "name": "速射砲",
               "type": "Ether",
               "strength": "1.2 - 1.5",
               "hits": "3",
               "range": "Frontal Line",
-              "effect": "Paralysis",
+              "effect": "パラライズ",
               "knockback": "Yes",
               "breakDamage": "-"
             },
             {
-              "name": "Linear Laser V",
+              "name": "Linear レーザー V",
               "type": "Talent (Ether)",
               "strength": "3.25 - 3.50",
               "hits": "1",
@@ -8345,7 +8345,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/No"
             },
             {
-              "name": "Ether Jammer",
+              "name": "エーテルジャマー",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -8355,7 +8355,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Shield Call ※3",
+              "name": "シールドコール ※3",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -8399,7 +8399,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Blow Jaggy ※2",
+              "name": "ブロウジャギー ※2",
               "type": "Physical",
               "strength": "2.3 - 2.5",
               "hits": "1",
@@ -8409,7 +8409,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/Yes"
             },
             {
-              "name": "Laser Bullet",
+              "name": "レーザーバレット",
               "type": "Ether",
               "strength": "2.75 - 3.00",
               "hits": "2",
@@ -8419,17 +8419,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Quick Cannon",
+              "name": "速射砲",
               "type": "Ether",
               "strength": "1.2 - 1.5",
               "hits": "3",
               "range": "Frontal Line",
-              "effect": "Paralysis",
+              "effect": "パラライズ",
               "knockback": "Yes",
               "breakDamage": "-"
             },
             {
-              "name": "Linear Laser V",
+              "name": "Linear レーザー V",
               "type": "Talent (Ether)",
               "strength": "3.25 - 3.50",
               "hits": "1",
@@ -8439,7 +8439,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/No"
             },
             {
-              "name": "Ether Jammer",
+              "name": "エーテルジャマー",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -8449,7 +8449,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Shield Call ※3",
+              "name": "シールドコール ※3",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -8482,24 +8482,24 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Quick Cannon: Paralysis",
-          "Ether Jammer: Ether Defence Down; Slow",
-          "Shield Call ※3: ヘイスト, summons Mechon"
+          "速射砲: パラライズ",
+          "エーテルジャマー: エーテル防御ダウン; Slow",
+          "シールドコール ※3: ヘイスト, summons Mechon"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-gentle-mother-armu-9ba114e7": {
-      "name": "Gentle Mother Armu",
+      "name": "温厚なビックマム",
       "level": "37",
-      "area": "Colony 9",
+      "area": "コロニー9",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -8522,7 +8522,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Armu Plough",
+              "name": "アルマラッセル",
               "type": "Physical",
               "strength": "1.05 - 1.25",
               "hits": "3",
@@ -8532,17 +8532,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Armu Call",
+              "name": "アルマボイス",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Physical Defence Up",
+              "effect": "物理防御アップ",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Gore",
+              "name": "突き上げ",
               "type": "Physical",
               "strength": "2.8 - 3.0",
               "hits": "1",
@@ -8552,7 +8552,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Ferocious Gore I",
+              "name": "猛突き上げ I",
               "type": "Talent (Physical)",
               "strength": "2.05 - 2.25",
               "hits": "1",
@@ -8585,21 +8585,21 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ"
         ],
         "watch": [
-          "Armu Call: Physical Defence Up"
+          "アルマボイス: 物理防御アップ"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-gentle-rodriguez-ed19f4bb": {
-      "name": "Gentle Rodriguez",
+      "name": "柔軟なロドリゲス",
       "level": "40",
-      "area": "Colony 9",
+      "area": "コロニー9",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -8622,12 +8622,12 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Gorge",
+              "name": "暴食",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Single",
-              "effect": "HP Steal",
+              "effect": "ＨＰ吸収",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -8642,12 +8642,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Big Body Press",
+              "name": "巨体プレス",
               "type": "Physical",
               "strength": "2.8 - 3.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Bind",
+              "effect": "バインド",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -8675,23 +8675,23 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Gorge: HP Steal",
-          "Big Body Press: Bind"
+          "暴食: ＨＰ吸収",
+          "巨体プレス: バインド"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-ghostly-mahatos-2e4f0be4": {
-      "name": "Ghostly Mahatos",
+      "name": "鬼道のマハトス",
       "level": "76",
-      "area": "Bionis' Interior",
+      "area": "巨神胎内",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -8719,12 +8719,12 @@ const COMBAT_DOSSIER_DATA={
               "strength": "0.55 – 0.75",
               "hits": "4",
               "range": "Frontal Arc",
-              "effect": "Bind",
+              "effect": "バインド",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Ether Cannon VII",
+              "name": "エーテル砲 VII",
               "type": "Talent (Ether)",
               "strength": "1.8 – 2.0",
               "hits": "1",
@@ -8734,22 +8734,22 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Super Aura ※",
+              "name": "超回復オーラ ※",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Super Heal",
+              "effect": "超回復",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Talent Absorb",
+              "name": "ＴＰ吸収",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Frontal Arc",
-              "effect": "Talent Absorb",
+              "effect": "ＴＰ吸収",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -8787,25 +8787,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Channel V: Bind",
-          "Super Aura ※: Super Heal",
-          "Talent Absorb: Talent Absorb"
+          "Channel V: バインド",
+          "超回復オーラ ※: 超回復",
+          "ＴＰ吸収: ＴＰ吸収"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-glacier-acon-057e6b2c": {
-      "name": "Glacier Acon",
+      "name": "氷河のエイコーン",
       "level": "52",
-      "area": "Galahad Fortress",
+      "area": "ガラハド要塞",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -8833,12 +8833,12 @@ const COMBAT_DOSSIER_DATA={
               "strength": "2.05 – 2.25",
               "hits": "1",
               "range": "-",
-              "effect": "Blaze",
+              "effect": "炎熱",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Ether Chaff",
+              "name": "エーテルチャフ",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -8848,7 +8848,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Drill Screw",
+              "name": "ドリルスクリュー",
               "type": "Physical",
               "strength": "3.3 – 3.5",
               "hits": "1",
@@ -8858,32 +8858,32 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Feel Bash",
+              "name": "フールバッシュ",
               "type": "Physical",
               "strength": "3.3 – 3.5",
               "hits": "1",
               "range": "-",
-              "effect": "Confuse; Ether Down",
+              "effect": "パニック; エーテルダウン",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Side Swing",
+              "name": "サイドスウィング",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Bolt Screw",
+              "name": "ボルトスクリュー",
               "type": "Ether",
               "strength": "2.05 – 2.25",
               "hits": "1",
               "range": "-",
-              "effect": "Paralysis",
+              "effect": "パラライズ",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -8911,25 +8911,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Atomic Glow IV: Blaze",
-          "Ether Chaff: Ether Defence Down; Ether Down",
-          "Feel Bash: Confuse; Ether Down",
-          "Side Swing: Topple"
+          "Atomic Glow IV: 炎熱",
+          "エーテルチャフ: エーテル防御ダウン; Ether Down",
+          "フールバッシュ: パニック; エーテルダウン",
+          "サイドスウィング: 転倒"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-glorious-buer-753da8e6": {
-      "name": "Glorious Buer",
+      "name": "壮美のブエル",
       "level": "45",
-      "area": "Valak Mountain",
+      "area": "ヴァラク雪山",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -8957,12 +8957,12 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.55 – 1.75",
               "hits": "1",
               "range": "-",
-              "effect": "Pierce",
+              "effect": "貫通",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Motivation",
+              "name": "やる気アップ",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -8972,27 +8972,27 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Recovery",
+              "name": "回復",
               "type": "Status",
               "strength": "10.8 – 11.0",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Recovery",
+              "effect": "回復",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Down Swipe",
+              "name": "縦振り",
               "type": "Physical",
               "strength": "2.3 – 2.5",
               "hits": "1",
               "range": "-",
-              "effect": "Daze",
+              "effect": "気絶",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Side Swipe",
+              "name": "横振り",
               "type": "Physical",
               "strength": "1.8 – 2.0",
               "hits": "1",
@@ -9025,24 +9025,24 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ"
         ],
         "watch": [
-          "Impale IV: Pierce",
-          "Motivation: ヘイスト",
-          "Recovery: Recovery",
-          "Down Swipe: Daze"
+          "Impale IV: 貫通",
+          "やる気アップ: ヘイスト",
+          "回復: 回復",
+          "縦振り: 気絶"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-glorious-jurom-66bd53e3": {
-      "name": "Glorious Jurom",
+      "name": "爛漫のシュロム",
       "level": "55",
-      "area": "Galahad Fortress",
+      "area": "ガラハド要塞",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -9065,7 +9065,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Upper Chainsaw II",
+              "name": "Upper チェーンソ II",
               "type": "Talent (Physical)",
               "strength": "2.05 – 2.25",
               "hits": "1",
@@ -9085,7 +9085,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Auto Chainsaw",
+              "name": "オートチェーンソ",
               "type": "Physical",
               "strength": "3.3 – 3.5",
               "hits": "1",
@@ -9095,22 +9095,22 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Deadly Chainsaw",
+              "name": "デッドチェーンソ",
               "type": "Physical",
               "strength": "3.3 – 3.5",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Bleed",
+              "effect": "出血",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Lower Chainsaw",
+              "name": "ダウンチェーンソ",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -9138,23 +9138,23 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Deadly Chainsaw: Bleed",
-          "Lower Chainsaw: Topple"
+          "デッドチェーンソ: 出血",
+          "ダウンチェーンソ: 転倒"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-gluttonous-eugen-9c5312b4": {
-      "name": "Gluttonous Eugen",
+      "name": "暴食のオイゲン",
       "level": "11",
-      "area": "Tephra Cave",
+      "area": "テフラ洞窟",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -9182,27 +9182,27 @@ const COMBAT_DOSSIER_DATA={
               "strength": "2.05 – 2.25",
               "hits": "1",
               "range": "-",
-              "effect": "Daze",
+              "effect": "気絶",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Gorge",
+              "name": "暴食",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "HP Steal (%)",
+              "effect": "ＨＰ吸収 (%)",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Dive Attack",
+              "name": "飛び込み",
               "type": "Physical",
               "strength": "2.3 – 2.5",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -9240,23 +9240,23 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ"
         ],
         "watch": [
-          "Ultra Smash I: Daze",
-          "Gorge: HP Steal (%)",
-          "Dive Attack: Topple"
+          "Ultra Smash I: 気絶",
+          "暴食: ＨＰ吸収 (%)",
+          "飛び込み: 転倒"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-yaldabaoth-galahad-fortress-5f59b86a": {
-      "name": "Yaldabaoth#Galahad Fortress",
+      "name": "ヤルダバオト#ガラハド要塞",
       "level": "60",
-      "area": "Galahad Fortress",
+      "area": "ガラハド要塞",
       "conditions": "Story",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -9279,7 +9279,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Egil Tail",
+              "name": "エギルテール",
               "type": "Physical",
               "strength": "1.8 - 2.0",
               "hits": "1",
@@ -9289,7 +9289,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/No"
             },
             {
-              "name": "Catastrophe",
+              "name": "カタストロフィ",
               "type": "Ether",
               "strength": "1.8 - 2.0",
               "hits": "1",
@@ -9299,17 +9299,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "King Breaker",
+              "name": "キングブレイカー",
               "type": "Ether",
               "strength": "1.8 - 2.0",
               "hits": "1",
               "range": "All",
-              "effect": "Topple; Agility Down",
+              "effect": "転倒; 素早さダウン",
               "knockback": "",
               "breakDamage": ""
             },
             {
-              "name": "King's Order",
+              "name": "キングオーダー",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -9353,7 +9353,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Egil Tail",
+              "name": "エギルテール",
               "type": "Physical",
               "strength": "2.75 - 3.00",
               "hits": "1",
@@ -9363,7 +9363,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/Yes"
             },
             {
-              "name": "Catastrophe",
+              "name": "カタストロフィ",
               "type": "Ether",
               "strength": "2.25 - 2.50",
               "hits": "1",
@@ -9378,17 +9378,17 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.25 - 1.50",
               "hits": "3",
               "range": "Circle around caster",
-              "effect": "Bleed",
+              "effect": "出血",
               "knockback": "-",
               "breakDamage": "Yes/No"
             },
             {
-              "name": "Machinery Field",
+              "name": "マシナリーフィールド",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Ether Defence Down; Arts Seal",
+              "effect": "エーテル防御ダウン; アーツ封印",
               "knockback": "Yes",
               "breakDamage": "-"
             }
@@ -9427,17 +9427,17 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Continual Model",
+              "name": "絶の型",
               "type": "Physical",
               "strength": "2.75 - 3.00",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Arts Seal",
+              "effect": "アーツ封印",
               "knockback": "Yes",
               "breakDamage": "-"
             },
             {
-              "name": "Strength Model",
+              "name": "剛の型",
               "type": "Physical",
               "strength": "3.25 - 3.50",
               "hits": "1",
@@ -9447,27 +9447,27 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Weakness Model",
+              "name": "柔の型",
               "type": "Physical",
               "strength": "2.25 - 2.50",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "Yes",
               "breakDamage": "-"
             },
             {
-              "name": "Chastise",
+              "name": "盟主の威嚇",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "All",
-              "effect": "Bind",
+              "effect": "バインド",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Manufacture Drone ※4",
+              "name": "機神兵製造 ※4",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -9477,7 +9477,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Energy Replenish ※5",
+              "name": "エネルギー充填 ※5",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -9487,7 +9487,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Bionis Slash X ※6",
+              "name": "Bionis なぎ払い X ※6",
               "type": "Talent (Physical)",
               "strength": "<font size=\"20\">∞</font>",
               "hits": "1",
@@ -9520,24 +9520,24 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Catastrophe: Slow",
-          "King Breaker: Topple; Agility Down",
-          "King's Order: Craze"
+          "カタストロフィ: Slow",
+          "キングブレイカー: 転倒; 素早さダウン",
+          "キングオーダー: Craze"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-graceful-holand-46cf0a88": {
-      "name": "Graceful Holand",
+      "name": "幽玄のホーランド",
       "level": "19",
-      "area": "Colony 6",
+      "area": "コロニー6",
       "conditions": "Rain or Stormy Weather",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -9565,12 +9565,12 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.55 – 1.75",
               "hits": "1",
               "range": "Circle around caster",
-              "effect": "Paralysis; Self HP Down",
+              "effect": "パラライズ; 自身に最大ＨＰダウン",
               "knockback": "Yes (1)",
               "breakDamage": "-"
             },
             {
-              "name": "Elemental Bullet",
+              "name": "エレメント弾",
               "type": "Ether",
               "strength": "1.3 – 1.5",
               "hits": "1",
@@ -9580,7 +9580,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Elemental Cannon",
+              "name": "エレメント砲",
               "type": "Ether",
               "strength": "1.3 – 1.5",
               "hits": "1",
@@ -9590,12 +9590,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Volt Whip",
+              "name": "ヴォルトウィップ",
               "type": "Ether",
               "strength": "0.55 – 0.75",
               "hits": "3",
               "range": "-",
-              "effect": "Paralysis",
+              "effect": "パラライズ",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -9623,24 +9623,24 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-fast",
-        "party": "Melia / Dunban / Riki · control Melia",
+        "party": "メリア / ダンバン / リキ · メリアを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗",
-          "Ether Up on Melia"
+          "メリアに Ether Up"
         ],
         "watch": [
-          "Volt Eruption II: Paralysis; Self HP Down",
-          "Volt Whip: Paralysis"
+          "Volt Eruption II: パラライズ; 自身に 最大ＨＰダウン",
+          "ヴォルトウィップ: パラライズ"
         ],
-        "route": "High physical resistance favors a controlled Melia ether plan; store elements and discharge into safe windows.",
+        "route": "物理耐性が高いときは、操作するメリアのエーテル計画が向く。属性を溜め、安全な隙に放出する。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-hidden-gamigin-2b5071d2": {
-      "name": "Hidden Gamigin",
+      "name": "隠蔽のガミジン",
       "level": "49",
-      "area": "Valak Mountain",
+      "area": "ヴァラク雪山",
       "conditions": "Nighttime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -9663,7 +9663,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Fury Horn",
+              "name": "狂騒の角笛",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -9673,7 +9673,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Gore",
+              "name": "突き上げ",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
@@ -9683,22 +9683,22 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Fire Breath",
+              "name": "ファイアブレス",
               "type": "Ether",
               "strength": "1.8 – 2.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Blaze",
+              "effect": "炎熱",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Flame Breath",
+              "name": "フレイムブレス",
               "type": "Ether",
               "strength": "2.25 – 2.5",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Blaze; Bind",
+              "effect": "炎熱; バインド",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -9726,24 +9726,24 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Fury Horn: 筋力アップ; ヘイスト",
-          "Fire Breath: Blaze",
-          "Flame Breath: Blaze; Bind"
+          "狂騒の角笛: 筋力アップ; ヘイスト",
+          "ファイアブレス: 炎熱",
+          "フレイムブレス: 炎熱; バインド"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-illustrious-golteus-bc256ae3": {
-      "name": "Illustrious Golteus",
+      "name": "大空のゴルテウス",
       "level": "98",
-      "area": "Makna Forest",
+      "area": "マクナ原生林",
       "conditions": "Clear or Torrid Weather During Chapter 17",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -9766,7 +9766,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Big Gore VIII",
+              "name": "Big 突き上げ VIII",
               "type": "Talent (Physical)",
               "strength": "2.3 – 2.5",
               "hits": "1",
@@ -9776,7 +9776,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Roar",
+              "name": "鳴き声",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -9786,7 +9786,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Gore",
+              "name": "突き上げ",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
@@ -9796,12 +9796,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Blazing Flare",
+              "name": "火炎放射",
               "type": "Ether",
               "strength": "1.3 – 1.5",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Blaze",
+              "effect": "炎熱",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -9829,24 +9829,24 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Roar: Slow",
-          "Blazing Flare: Blaze"
+          "鳴き声: Slow",
+          "火炎放射: 炎熱"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-immovable-gonzalez-xc1-0ada3e27": {
-      "name": "Immovable Gonzalez (XC1)",
+      "name": "不動のゴンザレス（XC1）",
       "level": "90",
-      "area": "Bionis' Leg",
+      "area": "巨神脚",
       "conditions": "Anytime after Chapter 4",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -9869,7 +9869,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Head Butt",
+              "name": "ヘッドバッド",
               "type": "Physical",
               "strength": "2.8 - 3.0",
               "hits": "1",
@@ -9879,7 +9879,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Gore",
+              "name": "突き上げ",
               "type": "Physical",
               "strength": "3.3 - 3.5",
               "hits": "1",
@@ -9889,7 +9889,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/No"
             },
             {
-              "name": "Thunderous Roar ※1",
+              "name": "轟音 ※1",
               "type": "Physical",
               "strength": "2.3 - 2.5",
               "hits": "1",
@@ -9899,17 +9899,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/No"
             },
             {
-              "name": "Threatening Roar",
+              "name": "威嚇鳴き",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Frontal Arc",
-              "effect": "Strength Down; Physical Defence Down",
+              "effect": "筋力ダウン; 物理防御ダウン",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Beast Rampage ※2",
+              "name": "獣の暴走 ※2",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -9946,24 +9946,24 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind",
           "スパイク防御"
         ],
         "watch": [
-          "Threatening Roar: Strength Down; Physical Defence Down",
-          "Beast Rampage ※2: Craze"
+          "威嚇鳴き: 筋力ダウン; 物理防御ダウン",
+          "獣の暴走 ※2: Craze"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-impenetrable-redrob-fb7eb91d": {
-      "name": "Impenetrable Redrob",
+      "name": "鉄壁のレッドロブ",
       "level": "38",
-      "area": "Colony 9",
+      "area": "コロニー9",
       "conditions": "Nighttime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -9986,7 +9986,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Krabble Bash",
+              "name": "クライブバッシュ",
               "type": "Physical",
               "strength": "2.8 - 3.0",
               "hits": "1",
@@ -9996,12 +9996,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Bubble",
+              "name": "バブル",
               "type": "Ether",
               "strength": "1.3 - 1.5",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Agility Down",
+              "effect": "素早さダウン",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -10029,21 +10029,21 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ"
         ],
         "watch": [
-          "Bubble: Agility Down"
+          "バブル: 素早さダウン"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-indomitable-daulton-5cb93b32": {
-      "name": "Indomitable Daulton",
+      "name": "不屈のドールトン",
       "level": "85",
-      "area": "Satorl Marsh",
+      "area": "燐光の地ザトール",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -10076,7 +10076,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "No/Yes"
             },
             {
-              "name": "Beast Rampage",
+              "name": "獣の暴走",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -10086,7 +10086,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Behemoth Rampage",
+              "name": "獣王の暴走",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -10096,27 +10096,27 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Taunt",
+              "name": "挑発",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Frontal Arc",
-              "effect": "Lock-On",
+              "effect": "ロックオン",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Threatening Roar",
+              "name": "威嚇鳴き",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Frontal Arc",
-              "effect": "Physical Defence Down; Strength Down",
+              "effect": "物理防御ダウン; 筋力ダウン",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Gore",
+              "name": "突き上げ",
               "type": "Physical",
               "strength": "3.3 – 3.5",
               "hits": "1",
@@ -10126,7 +10126,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Head Butt",
+              "name": "ヘッドバッド",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
@@ -10136,7 +10136,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Onslaught Two",
+              "name": "コンボツー",
               "type": "Physical",
               "strength": "3.8 – 4.0",
               "hits": "1",
@@ -10147,7 +10147,7 @@ const COMBAT_DOSSIER_DATA={
             }
           ],
           "spike": {
-            "type": "Topple",
+            "type": "転倒",
             "range": "10 M",
             "damage": "2,000 Damage"
           },
@@ -10173,26 +10173,26 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind",
           "スパイク防御"
         ],
         "watch": [
-          "Beast Rampage: Crazed",
-          "Behemoth Rampage: Crazed",
-          "Taunt: Lock-On",
-          "Threatening Roar: Physical Defence Down; Strength Down"
+          "獣の暴走: Crazed",
+          "獣王の暴走: Crazed",
+          "挑発: ロックオン",
+          "威嚇鳴き: 物理防御ダウン; 筋力ダウン"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-infernal-crocell-0b9e5cdb": {
-      "name": "Infernal Crocell",
+      "name": "地獄のクロケル",
       "level": "58",
-      "area": "Mechonis Field",
+      "area": "機神界フィールド",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -10215,17 +10215,17 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Lock-On",
+              "name": "ロックオン",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Frontal Arc",
-              "effect": "Lock-On",
+              "effect": "ロックオン",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Spinning Slice",
+              "name": "ローリングカット",
               "type": "Physical",
               "strength": "1.55 – 1.75",
               "hits": "3",
@@ -10245,12 +10245,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Naked Lock",
+              "name": "ネイキッドロック",
               "type": "Ether",
               "strength": "-",
               "hits": "-",
               "range": "Frontal Arc",
-              "effect": "Pierce; Lock-On",
+              "effect": "貫通; ロックオン",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -10278,24 +10278,24 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-fast",
-        "party": "Melia / Dunban / Riki · control Melia",
+        "party": "メリア / ダンバン / リキ · メリアを操作",
         "gems": [
           "素早さアップ",
-          "Ether Up on Melia"
+          "メリアに Ether Up"
         ],
         "watch": [
-          "Lock-On: Lock-On",
+          "ロックオン: ロックオン",
           "Ether Bullet: Ether Defence Down",
-          "Naked Lock: Pierce; Lock-On"
+          "ネイキッドロック: 貫通; ロックオン"
         ],
-        "route": "High physical resistance favors a controlled Melia ether plan; store elements and discharge into safe windows.",
+        "route": "物理耐性が高いときは、操作するメリアのエーテル計画が向く。属性を溜め、安全な隙に放出する。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-inferno-heinrich-489d9353": {
-      "name": "Inferno Heinrich",
+      "name": "炎帝のハインリヒ",
       "level": "76",
-      "area": "Prison Island",
+      "area": "監獄島",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -10323,7 +10323,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.55 – 1.75",
               "hits": "1",
               "range": "Circle around caster",
-              "effect": "Blaze; Self HP Down",
+              "effect": "炎熱; 自身に最大ＨＰダウン",
               "knockback": "Yes (1)",
               "breakDamage": "-"
             },
@@ -10333,7 +10333,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.55 – 1.75",
               "hits": "1",
               "range": "Circle around caster",
-              "effect": "Chill; Self HP Down",
+              "effect": "冷気; 自身に最大ＨＰダウン",
               "knockback": "Yes (1)",
               "breakDamage": "-"
             },
@@ -10343,22 +10343,22 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.55 – 1.75",
               "hits": "1",
               "range": "Circle around caster",
-              "effect": "Slow; Self HP Down",
+              "effect": "Slow; 自身に最大ＨＰダウン",
               "knockback": "Yes (1)",
               "breakDamage": "-"
             },
             {
-              "name": "Corona Whip",
+              "name": "コロナウィップ",
               "type": "Ether",
               "strength": "0.55 – 0.75",
               "hits": "3",
               "range": "-",
-              "effect": "Lock-On",
+              "effect": "ロックオン",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Elemental Bullet",
+              "name": "エレメント弾",
               "type": "Ether",
               "strength": "1.3 – 1.5",
               "hits": "1",
@@ -10368,7 +10368,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Elemental Cannon",
+              "name": "エレメント砲",
               "type": "Ether",
               "strength": "1.3 – 1.5",
               "hits": "1",
@@ -10378,17 +10378,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Ice Whip",
+              "name": "アイスウィップ",
               "type": "Ether",
               "strength": "0.55 – 0.75",
               "hits": "3",
               "range": "-",
-              "effect": "Arts Seal",
+              "effect": "アーツ封印",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Sand Whip",
+              "name": "サンドウィップ",
               "type": "Ether",
               "strength": "0.55 – 0.75",
               "hits": "3",
@@ -10399,7 +10399,7 @@ const COMBAT_DOSSIER_DATA={
             }
           ],
           "spike": {
-            "type": "Topple",
+            "type": "転倒",
             "range": "8 M",
             "damage": "1,690 Damage"
           },
@@ -10425,28 +10425,28 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-fast",
-        "party": "Melia / Dunban / Riki · control Melia",
+        "party": "メリア / ダンバン / リキ · メリアを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind",
           "スパイク防御",
           "全デバフ抵抗",
-          "Ether Up on Melia"
+          "メリアに Ether Up"
         ],
         "watch": [
-          "Corona Eruption V: Blaze; Self HP Down",
-          "Ice Eruption IV: Chill; Self HP Down",
-          "Sand Eruption VII: Slow; Self HP Down",
-          "Corona Whip: Lock-On"
+          "Corona Eruption V: 炎熱; 自身に 最大ＨＰダウン",
+          "Ice Eruption IV: 冷気; 自身に 最大ＨＰダウン",
+          "Sand Eruption VII: Slow; 自身に 最大ＨＰダウン",
+          "コロナウィップ: ロックオン"
         ],
-        "route": "High physical resistance favors a controlled Melia ether plan; store elements and discharge into safe windows.",
+        "route": "物理耐性が高いときは、操作するメリアのエーテル計画が向く。属性を溜め、安全な隙に放出する。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-itinerant-dorothea-4aa3eb7c": {
-      "name": "Itinerant Dorothea",
+      "name": "借宿のドロテーア",
       "level": "6",
-      "area": "Colony 9",
+      "area": "コロニー9",
       "conditions": "Daytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -10469,7 +10469,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Krabble Bash",
+              "name": "クライブバッシュ",
               "type": "Physical",
               "strength": "2.8 - 3.0",
               "hits": "1",
@@ -10479,12 +10479,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Bubble",
+              "name": "バブル",
               "type": "Ether",
               "strength": "1.3 - 1.5",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Agility Down",
+              "effect": "素早さダウン",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -10512,21 +10512,21 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ"
         ],
         "watch": [
-          "Bubble: Agility Down"
+          "バブル: 素早さダウン"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-jade-face-battle-876e3ed6": {
-      "name": "Jade Face#Battle",
+      "name": "緑のフェイス#Battle",
       "level": "60",
-      "area": "Mechonis Field",
+      "area": "機神界フィールド",
       "conditions": "Story",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -10549,7 +10549,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Cross Jaggy",
+              "name": "クロスジャギー",
               "type": "Physical",
               "strength": "2.3 - 2.5",
               "hits": "1",
@@ -10559,7 +10559,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/Yes"
             },
             {
-              "name": "Laser Bullet",
+              "name": "レーザーバレット",
               "type": "Ether",
               "strength": "2.00 - 2.25",
               "hits": "2",
@@ -10569,27 +10569,27 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Quick Cannon",
+              "name": "速射砲",
               "type": "Ether",
               "strength": "3.3 - 3.5",
               "hits": "1",
               "range": "Frontal Line",
-              "effect": "Paralysis",
+              "effect": "パラライズ",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Linear Laser IV",
+              "name": "Linear レーザー IV",
               "type": "Talent (Ether)",
               "strength": "3.25 - 3.50",
               "hits": "1",
               "range": "Frontal Line",
-              "effect": "Paralysis",
+              "effect": "パラライズ",
               "knockback": "Yes",
               "breakDamage": "-"
             },
             {
-              "name": "Ether Jammer",
+              "name": "エーテルジャマー",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -10622,24 +10622,24 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Quick Cannon: Paralysis",
-          "Linear Laser IV: Paralysis",
-          "Ether Jammer: Ether Defence Down; Slow"
+          "速射砲: パラライズ",
+          "Linear レーザー IV: パラライズ",
+          "エーテルジャマー: エーテル防御ダウン; Slow"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-judicious-bunnitzol-58826ca5": {
-      "name": "Judicious Bunnitzol",
+      "name": "宣告のバニードズル",
       "level": "94",
-      "area": "Tephra Cave",
+      "area": "テフラ洞窟",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -10662,7 +10662,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Bunnit Combo IX",
+              "name": "バニット 連撃 IX",
               "type": "Talent (Physical)",
               "strength": "1.3 – 1.5",
               "hits": "2",
@@ -10672,17 +10672,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Daze Swing",
+              "name": "気絶スウィング",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
               "range": "-",
-              "effect": "Daze",
+              "effect": "気絶",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Hit Swing",
+              "name": "ヒットスウィング",
               "type": "Physical",
               "strength": "1.8 – 2.0",
               "hits": "1",
@@ -10692,7 +10692,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Swing Upper",
+              "name": "アッパースウィング",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
@@ -10725,22 +10725,22 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind"
         ],
         "watch": [
-          "Daze Swing: Daze"
+          "気絶スウィング: 気絶"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-kamikaze-bune-12915d19": {
-      "name": "Kamikaze Bune",
+      "name": "神風のブネ",
       "level": "53",
-      "area": "Sword Valley",
+      "area": "大剣の渓谷",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -10763,7 +10763,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Boost One",
+              "name": "ブーストワン",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -10773,7 +10773,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Boost Two",
+              "name": "ブーストツー",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -10783,7 +10783,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Delayal",
+              "name": "ディレイアール",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -10793,7 +10793,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Rush",
+              "name": "ラッシュ",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
@@ -10830,26 +10830,26 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "スパイク防御",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Boost One: 筋力アップ",
-          "Boost Two: 素早さアップ",
-          "Delayal: Slow; Ether Down",
-          "Rush: Double Damage if Toppled"
+          "ブーストワン: 筋力アップ",
+          "ブーストツー: 素早さアップ",
+          "ディレイアール: Slow; Ether Down",
+          "ラッシュ: 転倒中はダメージ2倍"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-lake-magdalena-be526a43": {
-      "name": "Lake Magdalena",
+      "name": "湖面のマグダレーナ",
       "level": "6",
-      "area": "Colony 9",
+      "area": "コロニー9",
       "conditions": "Nighttime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -10872,7 +10872,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Grand Uppercut",
+              "name": "大アッパーカット",
               "type": "Physical",
               "strength": "2.8 - 3.0",
               "hits": "1",
@@ -10882,7 +10882,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/No"
             },
             {
-              "name": "Big Water Cannon",
+              "name": "大水テッポウ",
               "type": "Ether",
               "strength": "1.8 - 2.0",
               "hits": "1",
@@ -10892,7 +10892,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Ultra Slap",
+              "name": "超ヒレビンタ",
               "type": "Physical",
               "strength": "3.3 - 3.5",
               "hits": "1",
@@ -10902,7 +10902,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "No/Yes"
             },
             {
-              "name": "Mega Slap Combo II",
+              "name": "Mega Slap 連撃 II",
               "type": "Talent (Physical)",
               "strength": "0.8-1.0",
               "hits": "3",
@@ -10935,22 +10935,22 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ"
         ],
         "watch": [
           "No special art effect is listed; manage aggro and the level gap."
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-lakebed-orthlus-cb8b8d04": {
-      "name": "Lakebed Orthlus",
+      "name": "湖底のオフレス",
       "level": "40",
-      "area": "Colony 9",
-      "conditions": "During Preparing for Adventure 3",
+      "area": "コロニー9",
+      "conditions": "続々・大冒険の準備の間",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
         "url": "https://xenoblade.fandom.com/wiki/Lakebed_Orthlus",
@@ -10972,7 +10972,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Crush",
+              "name": "押しつぶし",
               "type": "Physical",
               "strength": "3.3 - 3.5",
               "hits": "1",
@@ -10982,7 +10982,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Strike",
+              "name": "ひっぱたき",
               "type": "Physical",
               "strength": "4.3 - 4.5",
               "hits": "1",
@@ -10992,12 +10992,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "No/Yes"
             },
             {
-              "name": "Savage III",
+              "name": "食らいつき III",
               "type": "Talent (Physical)",
               "strength": "1.8 - 2.0",
               "hits": "1",
               "range": "Single",
-              "effect": "HP Down",
+              "effect": "最大ＨＰダウン",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -11025,22 +11025,22 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-fast",
-        "party": "Melia / Dunban / Riki · control Melia",
+        "party": "メリア / ダンバン / リキ · メリアを操作",
         "gems": [
           "素早さアップ",
-          "Ether Up on Melia"
+          "メリアに Ether Up"
         ],
         "watch": [
-          "Savage III: HP Down"
+          "食らいつき III: 最大ＨＰダウン"
         ],
-        "route": "High physical resistance favors a controlled Melia ether plan; store elements and discharge into safe windows.",
+        "route": "物理耐性が高いときは、操作するメリアのエーテル計画が向く。属性を溜め、安全な隙に放出する。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-lazy-bluco-386febc2": {
-      "name": "Lazy Bluco",
+      "name": "怠惰のブルーコ",
       "level": "34",
-      "area": "Makna Forest",
+      "area": "マクナ原生林",
       "conditions": "Nighttime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -11063,7 +11063,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Head Banger",
+              "name": "ヘッドバンカー",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
@@ -11073,7 +11073,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Rolling Attack",
+              "name": "回転アタック",
               "type": "Physical",
               "strength": "1.8 – 2.0",
               "hits": "1",
@@ -11083,18 +11083,18 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Binding Ray",
+              "name": "バインドレイ",
               "type": "Ether",
               "strength": "1.3 – 1.5",
               "hits": "1",
               "range": "-",
-              "effect": "Bind; Ether Down",
+              "effect": "バインド; エーテルダウン",
               "knockback": "-",
               "breakDamage": "-"
             }
           ],
           "spike": {
-            "type": "Topple",
+            "type": "転倒",
             "range": "8 M",
             "damage": "630 Damage"
           },
@@ -11120,24 +11120,24 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-fast",
-        "party": "Melia / Dunban / Riki · control Melia",
+        "party": "メリア / ダンバン / リキ · メリアを操作",
         "gems": [
           "素早さアップ",
           "スパイク防御",
           "全デバフ抵抗",
-          "Ether Up on Melia"
+          "メリアに Ether Up"
         ],
         "watch": [
-          "Binding Ray: Bind; Ether Down"
+          "バインドレイ: バインド; エーテルダウン"
         ],
-        "route": "High physical resistance favors a controlled Melia ether plan; store elements and discharge into safe windows.",
+        "route": "物理耐性が高いときは、操作するメリアのエーテル計画が向く。属性を溜め、安全な隙に放出する。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-leone-telethia-719c6716": {
-      "name": "Leone Telethia",
+      "name": "レオーネ・テレシア",
       "level": "36",
-      "area": "Makna Forest",
+      "area": "マクナ原生林",
       "conditions": "Story",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -11160,22 +11160,22 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Sleep Spin",
+              "name": "スリープロール",
               "type": "Physical",
               "strength": "2.3 - 2.5",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Sleep",
+              "effect": "スリープ",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Sleep Bullet",
+              "name": "スリープ弾",
               "type": "Ether",
               "strength": "2.05 - 2.25",
               "hits": "1",
               "range": "Single",
-              "effect": "Sleep",
+              "effect": "スリープ",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -11185,12 +11185,12 @@ const COMBAT_DOSSIER_DATA={
               "strength": "0.55 - 0.75",
               "hits": "4",
               "range": "Frontal Arc",
-              "effect": "Bind",
+              "effect": "バインド",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Ether Cannon II",
+              "name": "エーテル砲 II",
               "type": "Talent (Ether)",
               "strength": "2.05 - 2.25",
               "hits": "1",
@@ -11200,27 +11200,27 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Soul Read ※1",
+              "name": "思考読み ※1",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Physical Evasion Up",
+              "effect": "物理 回避率アップ",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Super Aura ※2",
+              "name": "超回復オーラ ※2",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Regenerate",
+              "effect": "時間ヒール",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Talent Absorb",
+              "name": "ＴＰ吸収",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -11264,22 +11264,22 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Sleep Spin",
+              "name": "スリープロール",
               "type": "Physical",
               "strength": "2.3 - 2.5",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Sleep",
+              "effect": "スリープ",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Sleep Bullet",
+              "name": "スリープ弾",
               "type": "Ether",
               "strength": "2.05 - 2.25",
               "hits": "1",
               "range": "Single",
-              "effect": "Sleep",
+              "effect": "スリープ",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -11289,12 +11289,12 @@ const COMBAT_DOSSIER_DATA={
               "strength": "0.55 - 0.75",
               "hits": "4",
               "range": "Frontal Arc",
-              "effect": "Bind",
+              "effect": "バインド",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Ether Cannon II",
+              "name": "エーテル砲 II",
               "type": "Talent (Ether)",
               "strength": "2.05 - 2.25",
               "hits": "1",
@@ -11304,27 +11304,27 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Soul Read ※1",
+              "name": "思考読み ※1",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Physical Evasion Up",
+              "effect": "物理 回避率アップ",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Super Aura ※2",
+              "name": "超回復オーラ ※2",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Regenerate",
+              "effect": "時間ヒール",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Talent Absorb",
+              "name": "ＴＰ吸収",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -11357,25 +11357,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Sleep Spin: Sleep",
-          "Sleep Bullet: Sleep",
-          "Channel I: Bind",
-          "Soul Read ※1: Physical Evasion Up"
+          "スリープロール: スリープ",
+          "スリープ弾: スリープ",
+          "Channel I: バインド",
+          "思考読み ※1: Physical 回避率アップ"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-lightning-ronove-4d068f05": {
-      "name": "Lightning Ronove",
+      "name": "稲妻のロノウェ",
       "level": "55",
-      "area": "Sword Valley",
+      "area": "大剣の渓谷",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -11408,7 +11408,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Auto Chainsaw",
+              "name": "オートチェーンソ",
               "type": "Physical",
               "strength": "3.3 – 3.5",
               "hits": "1",
@@ -11418,12 +11418,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Lower Chainsaw",
+              "name": "ダウンチェーンソ",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -11455,22 +11455,22 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "スパイク防御"
         ],
         "watch": [
-          "Lower Chainsaw: Topple"
+          "ダウンチェーンソ: 転倒"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-lightspeed-sonid-0451b656": {
-      "name": "Lightspeed Sonid",
+      "name": "光速のソニード",
       "level": "44",
-      "area": "Eryth Sea",
+      "area": "エルト海",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -11503,27 +11503,27 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Barrier",
+              "name": "バリアー",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Damage Immunity",
+              "effect": "ダメージ無効",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Bloody Head Charge",
+              "name": "出血頭突き",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
               "range": "-",
-              "effect": "Bleed",
+              "effect": "出血",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Swing Cut",
+              "name": "ツバメ返し",
               "type": "Physical",
               "strength": "3.8 – 4.0",
               "hits": "1",
@@ -11560,7 +11560,7 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "スパイク防御",
@@ -11568,17 +11568,17 @@ const COMBAT_DOSSIER_DATA={
         ],
         "watch": [
           "Adrenaline: ヘイスト",
-          "Barrier: Damage Immunity",
-          "Bloody Head Charge: Bleed"
+          "バリアー: ダメージ無効",
+          "出血頭突き: 出血"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-magestic-mordred-2aa687ab": {
-      "name": "Magestic Mordred",
+      "name": "王城のモルドレッド",
       "level": "70",
-      "area": "Central Factory",
+      "area": "中央工廠",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -11601,17 +11601,17 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Mega Flame Throw",
+              "name": "ＥＸフレイムスロウ",
               "type": "Ether",
               "strength": "1.05 - 1.25",
               "hits": "3",
               "range": "Frontal Arc",
-              "effect": "Blaze",
+              "effect": "炎熱",
               "knockback": "Yes",
               "breakDamage": "-"
             },
             {
-              "name": "Black Matter",
+              "name": "ブラックマター",
               "type": "Ether",
               "strength": "0.8 - 1.0",
               "hits": "3",
@@ -11621,7 +11621,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Titan Stamp ※",
+              "name": "タイタンスタンプ ※",
               "type": "Physical",
               "strength": "3.8 - 4.0",
               "hits": "1",
@@ -11631,7 +11631,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/Yes"
             },
             {
-              "name": "Titan Laser V",
+              "name": "Titan レーザー V",
               "type": "Talent (Ether)",
               "strength": "1.8 - 2.0",
               "hits": "1",
@@ -11641,7 +11641,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Titan Laser VII",
+              "name": "Titan レーザー VII",
               "type": "Talent (Ether)",
               "strength": "1.8 - 2.0",
               "hits": "1",
@@ -11674,23 +11674,23 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Mega Flame Throw: Blaze",
-          "Black Matter: Ether Defence Down"
+          "ＥＸフレイムスロウ: 炎熱",
+          "ブラックマター: エーテル防御ダウン"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-magnificent-digalus-d0e31620": {
-      "name": "Magnificent Digalus",
+      "name": "豪獣のディガリウス",
       "level": "99",
-      "area": "Makna Forest",
+      "area": "マクナ原生林",
       "conditions": "During Chapter 17",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -11713,17 +11713,17 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Tyranno Tail",
+              "name": "ティラノテール",
               "type": "Physical",
               "strength": "3.3 - 3.5",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Devour X",
+              "name": "捕食 X",
               "type": "Talent (Physical)",
               "strength": "1.8 - 2.0",
               "hits": "1",
@@ -11736,7 +11736,7 @@ const COMBAT_DOSSIER_DATA={
           "spike": {
             "type": "Counter",
             "range": "15 M",
-            "damage": "Topple"
+            "damage": "転倒"
           },
           "resistances": {
             "break": "100% ‡",
@@ -11760,24 +11760,24 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind",
           "スパイク防御"
         ],
         "watch": [
-          "Tyranno Tail: Topple",
-          "Devour X: Death"
+          "ティラノテール: 転倒",
+          "捕食 X: Death"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-majestic-clone-barg-4a7887b9": {
-      "name": "Majestic Clone Barg",
+      "name": "威風のクロンボーク",
       "level": "77",
-      "area": "Prison Island",
+      "area": "監獄島",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -11800,17 +11800,17 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Barrier",
+              "name": "バリアー",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Physical Protect; Ether Protect",
+              "effect": "物理バリア; エーテルバリア",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Cloak of Darkness",
+              "name": "常闇の衣",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -11820,17 +11820,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Horn Stab",
+              "name": "一角突き",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
               "range": "Single",
-              "effect": "Bleed",
+              "effect": "出血",
               "knockback": "Yes (2)",
               "breakDamage": "-"
             },
             {
-              "name": "Howl of Darkness",
+              "name": "常闇の咆哮",
               "type": "Ether",
               "strength": "1.3 – 1.5",
               "hits": "3",
@@ -11841,9 +11841,9 @@ const COMBAT_DOSSIER_DATA={
             }
           ],
           "spike": {
-            "type": "Topple",
+            "type": "転倒",
             "range": "8 M",
-            "damage": "Topple"
+            "damage": "転倒"
           },
           "resistances": {
             "break": "0%",
@@ -11867,7 +11867,7 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind",
@@ -11875,19 +11875,19 @@ const COMBAT_DOSSIER_DATA={
           "全デバフ抵抗"
         ],
         "watch": [
-          "Barrier: Physical Protect; Ether Protect",
-          "Cloak of Darkness: Ether Up",
-          "Horn Stab: Bleed"
+          "バリアー: 物理バリア; エーテルバリア",
+          "常闇の衣: Ether Up",
+          "一角突き: 出血"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-master-obart-24b15fd1": {
-      "name": "Master Obart",
+      "name": "マスター・ホバート",
       "level": "78",
-      "area": "Prison Island",
-      "conditions": "During Chase Dickson",
+      "area": "監獄島",
+      "conditions": "During Chase ディクソン",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
         "url": "https://xenoblade.fandom.com/wiki/Master_Obart",
@@ -11914,7 +11914,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "2.3 – 2.5",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Bleed",
+              "effect": "出血",
               "knockback": "-",
               "breakDamage": "Yes/Yes"
             },
@@ -11924,12 +11924,12 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.55 – 1.75",
               "hits": "1",
               "range": "Single",
-              "effect": "Topple; Pierce",
+              "effect": "転倒; 貫通",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Behemoth Rampage",
+              "name": "獣王の暴走",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -11939,37 +11939,37 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Royal Gravity",
+              "name": "王者の威厳",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Awakening",
+              "effect": "覚醒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Taunt",
+              "name": "挑発",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Frontal Arc",
-              "effect": "Lock-On",
+              "effect": "ロックオン",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Threatening Roar",
+              "name": "威嚇鳴き",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Frontal Arc",
-              "effect": "Physical Defence Down; Strength Down",
+              "effect": "物理防御ダウン; 筋力ダウン",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Gore",
+              "name": "突き上げ",
               "type": "Physical",
               "strength": "3.3 – 3.5",
               "hits": "1",
@@ -11979,7 +11979,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Head Butt",
+              "name": "ヘッドバッド",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
@@ -11990,7 +11990,7 @@ const COMBAT_DOSSIER_DATA={
             }
           ],
           "spike": {
-            "type": "Topple",
+            "type": "転倒",
             "range": "8 M",
             "damage": "1,000 Damage"
           },
@@ -12016,7 +12016,7 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind",
@@ -12024,19 +12024,19 @@ const COMBAT_DOSSIER_DATA={
           "全デバフ抵抗"
         ],
         "watch": [
-          "Legendary Claw VII: Bleed",
-          "Annihilation V: Topple; Pierce",
-          "Behemoth Rampage: Crazed",
-          "Royal Gravity: Awakening"
+          "Legendary Claw VII: 出血",
+          "Annihilation V: 転倒; 貫通",
+          "獣王の暴走: Crazed",
+          "王者の威厳: 覚醒"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-masterful-gigapur-987e9b32": {
-      "name": "Masterful Gigapur",
+      "name": "紫電のギガスパル",
       "level": "77",
-      "area": "Prison Island",
+      "area": "監獄島",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -12064,7 +12064,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.25 – 1.5",
               "hits": "3",
               "range": "Circle around caster",
-              "effect": "Daze",
+              "effect": "気絶",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -12074,67 +12074,67 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.05 – 1.25",
               "hits": "3",
               "range": "Circle around caster",
-              "effect": "Chill",
+              "effect": "冷気",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Murmur of Darkness",
+              "name": "常闇の吐息",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Pierce",
+              "effect": "貫通",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Tail Smash",
+              "name": "尻尾ヒット",
               "type": "Physical",
               "strength": "2.3 – 2.5",
               "hits": "1",
               "range": "-",
-              "effect": "Daze",
+              "effect": "気絶",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Tripping Rush",
+              "name": "足払い突進",
               "type": "Physical",
               "strength": "1.8 – 2.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Darkness Breath",
+              "name": "暗黒ブレス",
               "type": "Ether",
               "strength": "1.55 – 1.75",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Strength Down; Ether Down",
+              "effect": "筋力ダウン; エーテルダウン",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Freeze Breath",
+              "name": "氷結ブレス",
               "type": "Ether",
               "strength": "2.3 – 2.5",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Chill",
+              "effect": "冷気",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Icy Shower",
+              "name": "アイスシャワー",
               "type": "Ether",
               "strength": "2.55 – 2.75",
               "hits": "1",
               "range": "Circle around caster",
-              "effect": "Chill",
+              "effect": "冷気",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -12162,25 +12162,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind"
         ],
         "watch": [
-          "Glorious Meteor V: Daze",
-          "Ice Meteor III: Chill",
-          "Murmur of Darkness: Pierce",
-          "Tail Smash: Daze"
+          "Glorious Meteor V: 気絶",
+          "Ice Meteor III: 冷気",
+          "常闇の吐息: 貫通",
+          "尻尾ヒット: 気絶"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-mechon-m71-78e8a255": {
-      "name": "Mechon M71",
+      "name": "七一式機神兵",
       "level": "18",
-      "area": "Bionis' Leg",
+      "area": "巨神脚",
       "conditions": "Story",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -12203,7 +12203,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Rapid Tentacle",
+              "name": "ラピッドテンタクル",
               "type": "Physical",
               "strength": "2.00 - 2.25",
               "hits": "1",
@@ -12213,7 +12213,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/No"
             },
             {
-              "name": "Tentacles",
+              "name": "テンタクルトス",
               "type": "Physical",
               "strength": "4.3 - 4.5",
               "hits": "1",
@@ -12223,17 +12223,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/Yes"
             },
             {
-              "name": "Fire Shot",
+              "name": "ファイヤーショット",
               "type": "Ether",
               "strength": "1.55 - 1.75",
               "hits": "1",
               "range": "Single",
-              "effect": "Blaze",
+              "effect": "炎熱",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Ripple Laser I ※",
+              "name": "Ripple レーザー I ※",
               "type": "Talent (Ether)",
               "strength": "1.8 - 2.0",
               "hits": "1",
@@ -12248,7 +12248,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Awakening",
+              "effect": "覚醒",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -12287,7 +12287,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Rapid Tentacle",
+              "name": "ラピッドテンタクル",
               "type": "Physical",
               "strength": "2.00 - 2.25",
               "hits": "1",
@@ -12297,7 +12297,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/No"
             },
             {
-              "name": "Tentacles",
+              "name": "テンタクルトス",
               "type": "Physical",
               "strength": "4.3 - 4.5",
               "hits": "1",
@@ -12307,17 +12307,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/Yes"
             },
             {
-              "name": "Fire Shot",
+              "name": "ファイヤーショット",
               "type": "Ether",
               "strength": "1.55 - 1.75",
               "hits": "1",
               "range": "Single",
-              "effect": "Blaze",
+              "effect": "炎熱",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Ripple Laser I ※",
+              "name": "Ripple レーザー I ※",
               "type": "Talent (Ether)",
               "strength": "1.8 - 2.0",
               "hits": "1",
@@ -12332,7 +12332,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Awakening",
+              "effect": "覚醒",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -12360,23 +12360,23 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Fire Shot: Blaze",
-          "Generate Power ※: Awakening"
+          "ファイヤーショット: 炎熱",
+          "Generate Power ※: 覚醒"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-mechon-m82-sword-valley-9e6301a5": {
-      "name": "Mechon M82 (Sword Valley)",
+      "name": "八二式機神兵 (大剣の渓谷)",
       "level": "28",
-      "area": "Sword Valley",
+      "area": "大剣の渓谷",
       "conditions": "Story",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -12399,7 +12399,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Upper Chainsaw I",
+              "name": "Upper チェーンソ I",
               "type": "Talent (Physical)",
               "strength": "2.8 – 3.0",
               "hits": "1",
@@ -12409,7 +12409,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Deadly Chainsaw",
+              "name": "デッドチェーンソ",
               "type": "Physical",
               "strength": "1.8 – 2.0",
               "hits": "1",
@@ -12442,21 +12442,21 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ"
         ],
         "watch": [
           "No special art effect is listed; manage aggro and the level gap."
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-meditative-varla-e717d902": {
-      "name": "Meditative Varla",
+      "name": "瞑想のウァプラ",
       "level": "65",
-      "area": "Agniratha",
+      "area": "帝都アグニラータ",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -12489,7 +12489,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Nitroglycerine",
+              "name": "ニトログリセリン",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -12499,7 +12499,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Rush",
+              "name": "ラッシュ",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
@@ -12509,12 +12509,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Shield Bash",
+              "name": "シールドバッシュ",
               "type": "Physical",
               "strength": "3.3 – 3.5",
               "hits": "1",
               "range": "-",
-              "effect": "Daze",
+              "effect": "気絶",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -12542,24 +12542,24 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ"
         ],
         "watch": [
           "Sliding Sword V: Double Damage if Toppled",
-          "Nitroglycerine: ヘイスト",
-          "Rush: Double Damage if Toppled",
-          "Shield Bash: Daze"
+          "ニトログリセリン: ヘイスト",
+          "ラッシュ: 転倒中はダメージ2倍",
+          "シールドバッシュ: 気絶"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-metal-face-battles-5d6a9da5": {
-      "name": "Metal Face#Battles",
+      "name": "黒いフェイス#Battles",
       "level": "10",
-      "area": "Colony 9",
+      "area": "コロニー9",
       "conditions": "Story",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -12582,17 +12582,17 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Killing Claw",
+              "name": "キリングクロー",
               "type": "Physical",
               "strength": "3.8 - 4.0",
               "hits": "1",
               "range": "Single",
-              "effect": "Strength Down",
+              "effect": "筋力ダウン",
               "knockback": "Yes",
               "breakDamage": "-"
             },
             {
-              "name": "Last Resort",
+              "name": "スーサイド",
               "type": "Physical",
               "strength": "0.0 - 0.2",
               "hits": "2",
@@ -12602,7 +12602,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/Yes"
             },
             {
-              "name": "Dead Way ※1",
+              "name": "デッドウェイ ※1",
               "type": "Ether",
               "strength": "3.8 - 4.0",
               "hits": "1",
@@ -12646,17 +12646,17 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Killing Claw",
+              "name": "キリングクロー",
               "type": "Physical",
               "strength": "3.8 - 4.0",
               "hits": "1",
               "range": "Single",
-              "effect": "Strength Down",
+              "effect": "筋力ダウン",
               "knockback": "Yes",
               "breakDamage": "-"
             },
             {
-              "name": "Last Resort",
+              "name": "スーサイド",
               "type": "Physical",
               "strength": "2.05 - 2.25",
               "hits": "2",
@@ -12666,17 +12666,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/Yes"
             },
             {
-              "name": "Murder Screw",
+              "name": "マーダースクリュー",
               "type": "Physical",
               "strength": "2.8 - 3.0",
               "hits": "1",
               "range": "Circle around caster",
-              "effect": "Bleed",
+              "effect": "出血",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Dead Way",
+              "name": "デッドウェイ",
               "type": "Ether",
               "strength": "1.8 - 2.0",
               "hits": "1",
@@ -12686,7 +12686,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Grand Shot",
+              "name": "グランショット",
               "type": "Ether",
               "strength": "1.3 - 1.5",
               "hits": "1",
@@ -12719,21 +12719,21 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ"
         ],
         "watch": [
-          "Killing Claw: Strength Down"
+          "キリングクロー: 筋力ダウン"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-mild-florence-22572768": {
-      "name": "Mild Florence",
+      "name": "暖冬のフロレンス",
       "level": "58",
-      "area": "Central Factory",
+      "area": "中央工廠",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -12756,7 +12756,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Energy Flash",
+              "name": "エナジーボルト",
               "type": "Ether",
               "strength": "2.55 - 2.75",
               "hits": "1",
@@ -12766,17 +12766,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Dead Slash",
+              "name": "デッドスマッシュ",
               "type": "Physical",
               "strength": "2.8 - 3.0",
               "hits": "1",
               "range": "Single",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Skull Crack",
+              "name": "ブレインブレイク",
               "type": "Physical",
               "strength": "2.8 - 3.0",
               "hits": "1",
@@ -12786,17 +12786,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/Yes"
             },
             {
-              "name": "Naked Field",
+              "name": "ネイキッドフィールド",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Pierce",
+              "effect": "貫通",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Hit Back",
+              "name": "ヒットバック",
               "type": "Physical",
               "strength": "2.3 - 2.5",
               "hits": "1",
@@ -12829,23 +12829,23 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ"
         ],
         "watch": [
-          "Energy Flash: Ether Defence Down",
-          "Dead Slash: Topple",
-          "Naked Field: Pierce"
+          "エナジーボルト: エーテル防御ダウン",
+          "デッドスマッシュ: 転倒",
+          "ネイキッドフィールド: 貫通"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-mining-patrichev-239865db": {
-      "name": "Mining Patrichev",
+      "name": "採掘のパトリチェフ",
       "level": "8",
-      "area": "Tephra Cave",
+      "area": "テフラ洞窟",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -12868,7 +12868,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Daze Swing",
+              "name": "気絶スウィング",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
@@ -12878,7 +12878,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "No/Yes"
             },
             {
-              "name": "Hit Swing",
+              "name": "ヒットスウィング",
               "type": "Physical",
               "strength": "1.8 – 2.0",
               "hits": "1",
@@ -12888,7 +12888,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Swing Upper",
+              "name": "アッパースウィング",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
@@ -12921,22 +12921,22 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ"
         ],
         "watch": [
           "No special art effect is listed; manage aggro and the level gap."
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-mischievious-naberius-f1c6c6ce": {
-      "name": "Mischievious Naberius",
+      "name": "悪戯のナベリウス",
       "level": "57",
-      "area": "Sword Valley",
-      "conditions": "After completing 3rd Gate Front Line",
+      "area": "大剣の渓谷",
+      "conditions": "After completing 第3ゲート Front Line",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
         "url": "https://xenoblade.fandom.com/wiki/Mischievious_Naberius",
@@ -12958,17 +12958,17 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Mega Flame Throw ※",
+              "name": "ＥＸフレイムスロウ ※",
               "type": "Ether",
               "strength": "1.05 - 1.25",
               "hits": "3",
               "range": "Frontal Arc",
-              "effect": "Blaze",
+              "effect": "炎熱",
               "knockback": "Yes",
               "breakDamage": "-"
             },
             {
-              "name": "Black Matter",
+              "name": "ブラックマター",
               "type": "Ether",
               "strength": "0.8 - 1.0",
               "hits": "3",
@@ -12978,7 +12978,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Titan Stamp",
+              "name": "タイタンスタンプ",
               "type": "Physical",
               "strength": "3.8 - 4.0",
               "hits": "1",
@@ -12988,7 +12988,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/Yes"
             },
             {
-              "name": "Titan Laser V",
+              "name": "Titan レーザー V",
               "type": "Talent (Ether)",
               "strength": "1.8 - 2.0",
               "hits": "1",
@@ -12998,7 +12998,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Titan Laser VII",
+              "name": "Titan レーザー VII",
               "type": "Talent (Ether)",
               "strength": "1.8 - 2.0",
               "hits": "1",
@@ -13031,23 +13031,23 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Mega Flame Throw ※: Blaze",
-          "Black Matter: Ether Defence Down"
+          "ＥＸフレイムスロウ ※: 炎熱",
+          "ブラックマター: エーテル防御ダウン"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-moonlight-paimon-ef0ee4fd": {
-      "name": "Moonlight Paimon",
+      "name": "月光のパイモン",
       "level": "46",
-      "area": "Valak Mountain",
+      "area": "ヴァラク雪山",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -13075,22 +13075,22 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.55 – 1.75",
               "hits": "1",
               "range": "Circle around caster",
-              "effect": "Blaze; Self HP Down",
+              "effect": "炎熱; 自身に最大ＨＰダウン",
               "knockback": "Yes (1)",
               "breakDamage": "-"
             },
             {
-              "name": "Corona Whip",
+              "name": "コロナウィップ",
               "type": "Ether",
               "strength": "0.55 – 0.75",
               "hits": "3",
               "range": "Single",
-              "effect": "Lock-On",
+              "effect": "ロックオン",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Elemental Bullet",
+              "name": "エレメント弾",
               "type": "Ether",
               "strength": "1.3 – 1.5",
               "hits": "1",
@@ -13100,7 +13100,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Elemental Cannon",
+              "name": "エレメント砲",
               "type": "Ether",
               "strength": "1.3 – 1.5",
               "hits": "1",
@@ -13113,7 +13113,7 @@ const COMBAT_DOSSIER_DATA={
           "spike": {
             "type": "Counter",
             "range": "8 M",
-            "damage": "Strength Down 25%"
+            "damage": "筋力ダウン 25%"
           },
           "resistances": {
             "break": "100%",
@@ -13137,25 +13137,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-fast",
-        "party": "Melia / Dunban / Riki · control Melia",
+        "party": "メリア / ダンバン / リキ · メリアを操作",
         "gems": [
           "素早さアップ",
           "スパイク防御",
           "全デバフ抵抗",
-          "Ether Up on Melia"
+          "メリアに Ether Up"
         ],
         "watch": [
-          "Corona Eruption V: Blaze; Self HP Down",
-          "Corona Whip: Lock-On"
+          "Corona Eruption V: 炎熱; 自身に 最大ＨＰダウン",
+          "コロナウィップ: ロックオン"
         ],
-        "route": "High physical resistance favors a controlled Melia ether plan; store elements and discharge into safe windows.",
+        "route": "物理耐性が高いときは、操作するメリアのエーテル計画が向く。属性を溜め、安全な隙に放出する。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-mumkhar-sword-valley-43a03795": {
-      "name": "Mumkhar#Sword Valley",
+      "name": "ムムカ#大剣の渓谷",
       "level": "52",
-      "area": "Sword Valley",
+      "area": "大剣の渓谷",
       "conditions": "Story",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -13178,7 +13178,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Eagle Slice",
+              "name": "鷲牙螺旋突撃",
               "type": "Physical",
               "strength": "2.8 - 3.0",
               "hits": "1",
@@ -13188,7 +13188,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Eagle Triple Combo",
+              "name": "双鷲三連撃",
               "type": "Physical",
               "strength": "1.05 - 1.25",
               "hits": "3",
@@ -13198,7 +13198,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Massacre Lotus ※3",
+              "name": "殺戮大蓮華 ※3",
               "type": "Physical",
               "strength": "0.2 - 0.4",
               "hits": "8",
@@ -13208,12 +13208,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Super Spin",
+              "name": "超螺旋大回転",
               "type": "Physical",
               "strength": "1.8 - 2.0",
               "hits": "1",
               "range": "Circle around caster",
-              "effect": "Topple ※2",
+              "effect": "転倒 ※2",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -13223,12 +13223,12 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.55 - 1.75",
               "hits": "1",
               "range": "Frontal Line",
-              "effect": "Blaze",
+              "effect": "炎熱",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Corner",
+              "name": "雪隠",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -13272,22 +13272,22 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Special Killing Claw",
+              "name": "キリングクロー改",
               "type": "Physical",
               "strength": "3.3 - 3.5",
               "hits": "1",
               "range": "Single",
-              "effect": "Poison",
+              "effect": "毒",
               "knockback": "Yes",
               "breakDamage": "-"
             },
             {
-              "name": "Very Last Resort",
+              "name": "スーサイド改",
               "type": "Physical",
               "strength": "1.55 - 1.75",
               "hits": "2",
               "range": "Single",
-              "effect": "Poison",
+              "effect": "毒",
               "knockback": "-",
               "breakDamage": "Yes/Yes"
             },
@@ -13297,12 +13297,12 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.3 - 1.5",
               "hits": "1",
               "range": "Circle around caster",
-              "effect": "Poison",
+              "effect": "毒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Custom Dead Way",
+              "name": "デッドウェイ改",
               "type": "Ether",
               "strength": "1.8 - 2.0",
               "hits": "1",
@@ -13312,12 +13312,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Custom Grand Shot",
+              "name": "グランショット改",
               "type": "Ether",
               "strength": "2.8 - 3.0",
               "hits": "1",
               "range": "Circle around caster",
-              "effect": "Paralysis",
+              "effect": "パラライズ",
               "knockback": "-",
               "breakDamage": "Yes/Yes"
             },
@@ -13327,7 +13327,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.55 - 1.75",
               "hits": "1",
               "range": "Single",
-              "effect": "Poison",
+              "effect": "毒",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -13366,37 +13366,37 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Special Killing Claw",
+              "name": "キリングクロー改",
               "type": "Physical",
               "strength": "3.3 - 3.5",
               "hits": "1",
               "range": "Single",
-              "effect": "Poison",
+              "effect": "毒",
               "knockback": "Yes",
               "breakDamage": "-"
             },
             {
-              "name": "Very Last Resort",
+              "name": "スーサイド改",
               "type": "Physical",
               "strength": "1.55 - 1.75",
               "hits": "2",
               "range": "Single",
-              "effect": "Poison",
+              "effect": "毒",
               "knockback": "-",
               "breakDamage": "Yes/Yes"
             },
             {
-              "name": "Venom Hell Spin",
+              "name": "閻魔大回転・超毒",
               "type": "Physical",
               "strength": "1.3 - 1.5",
               "hits": "1",
               "range": "Circle around caster",
-              "effect": "Poison",
+              "effect": "毒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Custom Dead Way",
+              "name": "デッドウェイ改",
               "type": "Ether",
               "strength": "1.8 - 2.0",
               "hits": "1",
@@ -13406,12 +13406,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Custom Grand Shot",
+              "name": "グランショット改",
               "type": "Ether",
               "strength": "2.8 - 3.0",
               "hits": "1",
               "range": "Circle around caster",
-              "effect": "Paralysis",
+              "effect": "パラライズ",
               "knockback": "-",
               "breakDamage": "Yes/Yes"
             },
@@ -13421,7 +13421,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.55 - 1.75",
               "hits": "1",
               "range": "Single",
-              "effect": "Poison",
+              "effect": "毒",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -13460,7 +13460,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Eagle Slice",
+              "name": "鷲牙螺旋突撃",
               "type": "Physical",
               "strength": "2.8 - 3.0",
               "hits": "1",
@@ -13470,7 +13470,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Eagle Triple Combo",
+              "name": "双鷲三連撃",
               "type": "Physical",
               "strength": "1.05 - 1.25",
               "hits": "3",
@@ -13480,7 +13480,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Massacre Lotus",
+              "name": "殺戮大蓮華",
               "type": "Physical",
               "strength": "0.2 - 0.4",
               "hits": "8",
@@ -13490,12 +13490,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Super Spin",
+              "name": "超螺旋大回転",
               "type": "Physical",
               "strength": "1.8 - 2.0",
               "hits": "1",
               "range": "Circle around caster",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -13505,12 +13505,12 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.55 - 1.75",
               "hits": "1",
               "range": "Frontal Line",
-              "effect": "Blaze",
+              "effect": "炎熱",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Corner",
+              "name": "雪隠",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -13543,25 +13543,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Massacre Lotus ※3: Death when target is toppled",
-          "Super Spin: Topple ※2",
-          "Fiery Pain IV: Blaze",
-          "Corner: Invincibility"
+          "殺戮大蓮華 ※3: Death when target is toppled",
+          "超螺旋大回転: 転倒 ※2",
+          "Fiery Pain IV: 炎熱",
+          "雪隠: Invincibility"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-mumkhar-valak-mountain-e2068774": {
-      "name": "Mumkhar#Valak Mountain",
+      "name": "ムムカ#ヴァラク雪山",
       "level": "48",
-      "area": "Valak Mountain",
+      "area": "ヴァラク雪山",
       "conditions": "Story",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -13584,7 +13584,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Eagle Slice",
+              "name": "鷲牙螺旋突撃",
               "type": "Physical",
               "strength": "2.8 - 3.0",
               "hits": "1",
@@ -13594,7 +13594,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Eagle Triple Combo",
+              "name": "双鷲三連撃",
               "type": "Physical",
               "strength": "1.05 - 1.25",
               "hits": "3",
@@ -13604,7 +13604,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Massacre Lotus ※3",
+              "name": "殺戮大蓮華 ※3",
               "type": "Physical",
               "strength": "0.2 - 0.4",
               "hits": "8",
@@ -13614,12 +13614,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Super Spin",
+              "name": "超螺旋大回転",
               "type": "Physical",
               "strength": "1.8 - 2.0",
               "hits": "1",
               "range": "Circle around caster",
-              "effect": "Topple ※2",
+              "effect": "転倒 ※2",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -13629,12 +13629,12 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.55 - 1.75",
               "hits": "1",
               "range": "Frontal Line",
-              "effect": "Blaze",
+              "effect": "炎熱",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Corner",
+              "name": "雪隠",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -13678,22 +13678,22 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Special Killing Claw",
+              "name": "キリングクロー改",
               "type": "Physical",
               "strength": "3.3 - 3.5",
               "hits": "1",
               "range": "Single",
-              "effect": "Poison",
+              "effect": "毒",
               "knockback": "Yes",
               "breakDamage": "-"
             },
             {
-              "name": "Very Last Resort",
+              "name": "スーサイド改",
               "type": "Physical",
               "strength": "1.55 - 1.75",
               "hits": "2",
               "range": "Single",
-              "effect": "Poison",
+              "effect": "毒",
               "knockback": "-",
               "breakDamage": "Yes/Yes"
             },
@@ -13703,12 +13703,12 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.3 - 1.5",
               "hits": "1",
               "range": "Circle around caster",
-              "effect": "Poison",
+              "effect": "毒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Custom Dead Way",
+              "name": "デッドウェイ改",
               "type": "Ether",
               "strength": "1.8 - 2.0",
               "hits": "1",
@@ -13718,12 +13718,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Custom Grand Shot",
+              "name": "グランショット改",
               "type": "Ether",
               "strength": "2.8 - 3.0",
               "hits": "1",
               "range": "Circle around caster",
-              "effect": "Paralysis",
+              "effect": "パラライズ",
               "knockback": "-",
               "breakDamage": "Yes/Yes"
             },
@@ -13733,7 +13733,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.55 - 1.75",
               "hits": "1",
               "range": "Single",
-              "effect": "Poison",
+              "effect": "毒",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -13772,37 +13772,37 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Special Killing Claw",
+              "name": "キリングクロー改",
               "type": "Physical",
               "strength": "3.3 - 3.5",
               "hits": "1",
               "range": "Single",
-              "effect": "Poison",
+              "effect": "毒",
               "knockback": "Yes",
               "breakDamage": "-"
             },
             {
-              "name": "Very Last Resort",
+              "name": "スーサイド改",
               "type": "Physical",
               "strength": "1.55 - 1.75",
               "hits": "2",
               "range": "Single",
-              "effect": "Poison",
+              "effect": "毒",
               "knockback": "-",
               "breakDamage": "Yes/Yes"
             },
             {
-              "name": "Venom Hell Spin",
+              "name": "閻魔大回転・超毒",
               "type": "Physical",
               "strength": "1.3 - 1.5",
               "hits": "1",
               "range": "Circle around caster",
-              "effect": "Poison",
+              "effect": "毒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Custom Dead Way",
+              "name": "デッドウェイ改",
               "type": "Ether",
               "strength": "1.8 - 2.0",
               "hits": "1",
@@ -13812,12 +13812,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Custom Grand Shot",
+              "name": "グランショット改",
               "type": "Ether",
               "strength": "2.8 - 3.0",
               "hits": "1",
               "range": "Circle around caster",
-              "effect": "Paralysis",
+              "effect": "パラライズ",
               "knockback": "-",
               "breakDamage": "Yes/Yes"
             },
@@ -13827,7 +13827,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.55 - 1.75",
               "hits": "1",
               "range": "Single",
-              "effect": "Poison",
+              "effect": "毒",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -13866,7 +13866,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Eagle Slice",
+              "name": "鷲牙螺旋突撃",
               "type": "Physical",
               "strength": "2.8 - 3.0",
               "hits": "1",
@@ -13876,7 +13876,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Eagle Triple Combo",
+              "name": "双鷲三連撃",
               "type": "Physical",
               "strength": "1.05 - 1.25",
               "hits": "3",
@@ -13886,7 +13886,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Massacre Lotus",
+              "name": "殺戮大蓮華",
               "type": "Physical",
               "strength": "0.2 - 0.4",
               "hits": "8",
@@ -13896,12 +13896,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Super Spin",
+              "name": "超螺旋大回転",
               "type": "Physical",
               "strength": "1.8 - 2.0",
               "hits": "1",
               "range": "Circle around caster",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -13911,12 +13911,12 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.55 - 1.75",
               "hits": "1",
               "range": "Frontal Line",
-              "effect": "Blaze",
+              "effect": "炎熱",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Corner",
+              "name": "雪隠",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -13949,25 +13949,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Massacre Lotus ※3: Death when target is toppled",
-          "Super Spin: Topple ※2",
-          "Fiery Pain IV: Blaze",
-          "Corner: Invincibility"
+          "殺戮大蓮華 ※3: Death when target is toppled",
+          "超螺旋大回転: 転倒 ※2",
+          "Fiery Pain IV: 炎熱",
+          "雪隠: Invincibility"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-musical-vanflare-c7f6cf24": {
-      "name": "Musical Vanflare",
+      "name": "三弦のヴァンフレア",
       "level": "93",
-      "area": "Tephra Cave",
+      "area": "テフラ洞窟",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -14000,42 +14000,42 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Binding Noise",
+              "name": "バインドノイズ",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Bind",
+              "effect": "バインド",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Noise of Despair",
+              "name": "デスペアノイズ",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Pierce; Paralysis",
+              "effect": "貫通; パラライズ",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Winged Awakening",
+              "name": "鳥の覚醒",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Awakening",
+              "effect": "覚醒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Double Peck",
+              "name": "ダブルクリック",
               "type": "Physical",
               "strength": "1.3 – 1.5",
               "hits": "2",
               "range": "-",
-              "effect": "Bleed",
+              "effect": "出血",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -14063,26 +14063,26 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Binding Noise: Bind",
-          "Noise of Despair: Pierce; Paralysis",
-          "Winged Awakening: Awakening",
-          "Double Peck: Bleed"
+          "バインドノイズ: バインド",
+          "デスペアノイズ: 貫通; パラライズ",
+          "鳥の覚醒: 覚醒",
+          "ダブルクリック: 出血"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-mysterious-barnaby-794fe3be": {
-      "name": "Mysterious Barnaby",
+      "name": "面妖なバーナビー",
       "level": "75",
-      "area": "Bionis' Leg",
+      "area": "巨神脚",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -14105,7 +14105,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Pheromone Enhance",
+              "name": "強化フェロモン",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -14115,7 +14115,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Slow-Footed Net",
+              "name": "鈍足ネット",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -14125,17 +14125,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Ankle Bite",
+              "name": "足噛み",
               "type": "Physical",
               "strength": "2.3 – 2.5",
               "hits": "1",
               "range": "-",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Crushing Blow",
+              "name": "痛打",
               "type": "Physical",
               "strength": "1.8 – 2.0",
               "hits": "1",
@@ -14168,26 +14168,26 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Pheromone Enhance: 筋力アップ",
-          "Slow-Footed Net: Slow",
-          "Ankle Bite: Topple",
-          "Crushing Blow: Double Damage if Toppled"
+          "強化フェロモン: 筋力アップ",
+          "鈍足ネット: Slow",
+          "足噛み: 転倒",
+          "痛打: 転倒中はダメージ2倍"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-xord-stats-133a111f": {
-      "name": "Xord#Stats",
+      "name": "ゾード#Stats",
       "level": "25",
-      "area": "Bionis' Leg",
+      "area": "巨神脚",
       "conditions": "Story",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -14210,27 +14210,27 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Swing Beat",
+              "name": "スウィングビート",
               "type": "Physical",
               "strength": "2.8 - 3.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Wild Crash ※3",
+              "name": "ワイルドクラッシュ ※3",
               "type": "Physical",
               "strength": "2.8 - 3.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Bind",
+              "effect": "バインド",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Xord Impact ※4",
+              "name": "ゾードタックル ※4",
               "type": "Physical",
               "strength": "3.3 - 3.5",
               "hits": "1",
@@ -14245,12 +14245,12 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.8 - 2.0",
               "hits": "1",
               "range": "Frontal Line",
-              "effect": "Bleed",
+              "effect": "出血",
               "knockback": "Yes",
               "breakDamage": "-"
             },
             {
-              "name": "Boost Attack ※4",
+              "name": "ブーストアタック ※4",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -14270,7 +14270,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Berserk Boost ※6",
+              "name": "バーサクブースト ※6",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -14280,7 +14280,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Final Boost ※7",
+              "name": "ファイナルブースト ※7",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -14324,27 +14324,27 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Swing Beat",
+              "name": "スウィングビート",
               "type": "Physical",
               "strength": "2.8 - 3.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Wild Crash ※3",
+              "name": "ワイルドクラッシュ ※3",
               "type": "Physical",
               "strength": "2.8 - 3.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Bind",
+              "effect": "バインド",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Xord Impact ※4",
+              "name": "ゾードタックル ※4",
               "type": "Physical",
               "strength": "3.3 - 3.5",
               "hits": "1",
@@ -14359,12 +14359,12 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.8 - 2.0",
               "hits": "1",
               "range": "Frontal Line",
-              "effect": "Bleed",
+              "effect": "出血",
               "knockback": "Yes",
               "breakDamage": "-"
             },
             {
-              "name": "Boost Attack ※4",
+              "name": "ブーストアタック ※4",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -14384,7 +14384,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Berserk Boost ※6",
+              "name": "バーサクブースト ※6",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -14394,7 +14394,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Final Boost ※7",
+              "name": "ファイナルブースト ※7",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -14438,27 +14438,27 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Swing Beat",
+              "name": "スウィングビート",
               "type": "Physical",
               "strength": "2.8 - 3.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Wild Crash ※3",
+              "name": "ワイルドクラッシュ ※3",
               "type": "Physical",
               "strength": "2.8 - 3.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Bind",
+              "effect": "バインド",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Xord Impact ※4",
+              "name": "ゾードタックル ※4",
               "type": "Physical",
               "strength": "3.3 - 3.5",
               "hits": "1",
@@ -14473,12 +14473,12 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.8 - 2.0",
               "hits": "1",
               "range": "Frontal Line",
-              "effect": "Bleed",
+              "effect": "出血",
               "knockback": "Yes",
               "breakDamage": "-"
             },
             {
-              "name": "Boost Attack ※4",
+              "name": "ブーストアタック ※4",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -14498,7 +14498,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Berserk Boost ※6",
+              "name": "バーサクブースト ※6",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -14508,7 +14508,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Final Boost ※7",
+              "name": "ファイナルブースト ※7",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -14541,26 +14541,26 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Swing Beat: Topple",
-          "Wild Crash ※3: Bind",
-          "Bazooka II ※4: Bleed",
-          "Boost Attack ※4: ヘイスト"
+          "スウィングビート: 転倒",
+          "ワイルドクラッシュ ※3: バインド",
+          "Bazooka II ※4: 出血",
+          "ブーストアタック ※4: ヘイスト"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-mysterious-telethia-8c8759c2": {
-      "name": "Mysterious Telethia",
+      "name": "謎のテレシア",
       "level": "80",
-      "area": "Makna Forest",
-      "conditions": "During Melancholy Tyrea",
+      "area": "マクナ原生林",
+      "conditions": "憂愁のタルコの間",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
         "url": "https://xenoblade.fandom.com/wiki/Mysterious_Telethia",
@@ -14587,7 +14587,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.0 – 1.25",
               "hits": "4",
               "range": "Frontal Arc",
-              "effect": "Bind",
+              "effect": "バインド",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -14602,42 +14602,42 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Soul Read",
+              "name": "思考読み",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Physical Evasion Up",
+              "effect": "物理 回避率アップ",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Talent Absorb",
+              "name": "ＴＰ吸収",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Single",
-              "effect": "Talent Absorb",
+              "effect": "ＴＰ吸収",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Sleep Spin",
+              "name": "スリープロール",
               "type": "Physical",
               "strength": "2.3 – 2.5",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Sleep",
+              "effect": "スリープ",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Sleep Bullet",
+              "name": "スリープ弾",
               "type": "Ether",
               "strength": "2.05 – 2.25",
               "hits": "1",
               "range": "Single",
-              "effect": "Sleep",
+              "effect": "スリープ",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -14665,26 +14665,26 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Super Nova VII: Bind",
-          "Soul Read: Physical Evasion Up",
-          "Talent Absorb: Talent Absorb",
-          "Sleep Spin: Sleep"
+          "Super Nova VII: バインド",
+          "思考読み: 物理 回避率アップ",
+          "ＴＰ吸収: ＴＰ吸収",
+          "スリープロール: スリープ"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-mystical-klesida-ca63e02f": {
-      "name": "Mystical Klesida",
+      "name": "宝仙のクレーシタ",
       "level": "72",
-      "area": "Bionis' Interior",
+      "area": "巨神胎内",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -14707,42 +14707,42 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Purging Antibody VI",
+              "name": "Purging 抗体 VI",
               "type": "Talent (Ether)",
               "strength": "1.8 – 2.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Pierce; Sleep",
+              "effect": "貫通; スリープ",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Life Absorb",
+              "name": "生命吸収",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Single",
-              "effect": "HP Steal (%)",
+              "effect": "ＨＰ吸収 (%)",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Antibody Assault",
+              "name": "抗体突撃",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
               "range": "Single",
-              "effect": "Bind",
+              "effect": "バインド",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Antibody Repair",
+              "name": "抗体修復",
               "type": "Ether",
               "strength": "21.8 – 22.0",
               "hits": "-",
               "range": "Self",
-              "effect": "Recovery",
+              "effect": "回復",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -14774,27 +14774,27 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-fast",
-        "party": "Melia / Dunban / Riki · control Melia",
+        "party": "メリア / ダンバン / リキ · メリアを操作",
         "gems": [
           "素早さアップ",
           "スパイク防御",
           "全デバフ抵抗",
-          "Ether Up on Melia"
+          "メリアに Ether Up"
         ],
         "watch": [
-          "Purging Antibody VI: Pierce; Sleep",
-          "Life Absorb: HP Steal (%)",
-          "Antibody Assault: Bind",
-          "Antibody Repair: Recovery"
+          "Purging 抗体 VI: 貫通; スリープ",
+          "生命吸収: ＨＰ吸収 (%)",
+          "抗体突撃: バインド",
+          "抗体修復: 回復"
         ],
-        "route": "High physical resistance favors a controlled Melia ether plan; store elements and discharge into safe windows.",
+        "route": "物理耐性が高いときは、操作するメリアのエーテル計画が向く。属性を溜め、安全な隙に放出する。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-napping-volfen-86e5dff4": {
-      "name": "Napping Volfen",
+      "name": "午睡のウルフェン",
       "level": "17",
-      "area": "Bionis' Leg",
+      "area": "巨神脚",
       "conditions": "Rain or Stormy Weather",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -14817,7 +14817,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Ardent Howl",
+              "name": "俊敏の雄叫び",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -14827,7 +14827,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Beast Rampage",
+              "name": "獣の暴走",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -14837,22 +14837,22 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Freeze Intimidate",
+              "name": "すくみあがる威嚇",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Agility Down",
+              "effect": "素早さダウン",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Savage",
+              "name": "食らいつき",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
               "range": "-",
-              "effect": "Bleed",
+              "effect": "出血",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -14880,25 +14880,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Ardent Howl: ヘイスト",
-          "Beast Rampage: Crazed",
-          "Freeze Intimidate: Agility Down",
-          "Savage: Bleed"
+          "俊敏の雄叫び: ヘイスト",
+          "獣の暴走: Crazed",
+          "すくみあがる威嚇: 素早さダウン",
+          "食らいつき: 出血"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-night-cardamon-deb03b12": {
-      "name": "Night Cardamon",
+      "name": "闇夜のカルダモン",
       "level": "18",
-      "area": "Bionis' Leg",
+      "area": "巨神脚",
       "conditions": "Clear Weather at Night",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -14921,17 +14921,17 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "HP Siphon",
+              "name": "エーテルショック",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "HP Steal (15%); Fill Talent Gauge",
+              "effect": "ＨＰ吸収 (15%); Fill Talent Gauge",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Flash Spear",
+              "name": "フラッシュスピア",
               "type": "Physical",
               "strength": "2.3 – 2.5",
               "hits": "1",
@@ -14941,7 +14941,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Ether Fireworks",
+              "name": "エーテル花火",
               "type": "Ether",
               "strength": "1.5 – 1.75",
               "hits": "3",
@@ -14974,22 +14974,22 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ"
         ],
         "watch": [
-          "HP Siphon: HP Steal (15%); Fill Talent Gauge",
-          "Flash Spear: Fill Talent Gauge"
+          "エーテルショック: ＨＰ吸収 (15%); Fill Talent Gauge",
+          "フラッシュスピア: Talent Gauge を満たす"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-north-star-gusion-0d33e981": {
-      "name": "North Star Gusion",
+      "name": "七星のグシオン",
       "level": "50",
-      "area": "Valak Mountain",
+      "area": "ヴァラク雪山",
       "conditions": "Blizzard at Night",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -15012,17 +15012,17 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Thunderbolt II",
+              "name": "落雷 II",
               "type": "Talent (Ether)",
               "strength": "0.8 – 1.0",
               "hits": "3",
               "range": "Frontal Arc",
-              "effect": "Paralysis",
+              "effect": "パラライズ",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Vortex",
+              "name": "竜巻おこし",
               "type": "Physical",
               "strength": "1.3 – 1.5",
               "hits": "2",
@@ -15032,12 +15032,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Aqua Wave",
+              "name": "アクアウェイブ",
               "type": "Ether",
               "strength": "1.05 – 1.25",
               "hits": "3",
               "range": "Frontal Line",
-              "effect": "Chill",
+              "effect": "冷気",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -15065,23 +15065,23 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Thunderbolt II: Paralysis",
-          "Aqua Wave: Chill"
+          "落雷 II: パラライズ",
+          "アクアウェイブ: 冷気"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-obelis-obart-9673da5c": {
-      "name": "Obelis Obart",
+      "name": "オベリス・ホバート",
       "level": "75",
-      "area": "Prison Island",
+      "area": "監獄島",
       "conditions": "Story",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -15109,7 +15109,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "2.3 – 2.5",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Bleed",
+              "effect": "出血",
               "knockback": "Yes (2)",
               "breakDamage": "-"
             },
@@ -15119,7 +15119,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "2.8 – 3.0",
               "hits": "1",
               "range": "-",
-              "effect": "Daze",
+              "effect": "気絶",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -15129,12 +15129,12 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.55 – 1.75",
               "hits": "1",
               "range": "-",
-              "effect": "Topple; Pierce",
+              "effect": "転倒; 貫通",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Behemoth Rampage",
+              "name": "獣王の暴走",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -15144,27 +15144,27 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Taunt",
+              "name": "挑発",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Frontal Arc",
-              "effect": "Lock-On",
+              "effect": "ロックオン",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Threatening Roar",
+              "name": "威嚇鳴き",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Frontal Arc",
-              "effect": "Physical Defence Down; Strength Down",
+              "effect": "物理防御ダウン; 筋力ダウン",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Gore",
+              "name": "突き上げ",
               "type": "Physical",
               "strength": "3.3 – 3.5",
               "hits": "1",
@@ -15174,7 +15174,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Head Butt",
+              "name": "ヘッドバッド",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
@@ -15207,26 +15207,26 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Legendary Claw VII: Bleed",
-          "Onslaught One VIII: Daze",
-          "Annihilation V: Topple; Pierce",
-          "Behemoth Rampage: Crazed"
+          "Legendary Claw VII: 出血",
+          "Onslaught One VIII: 気絶",
+          "Annihilation V: 転倒; 貫通",
+          "獣王の暴走: Crazed"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-obsessive-galgaron-2ef006fc": {
-      "name": "Obsessive Galgaron",
+      "name": "執念のガルガロン",
       "level": "35",
-      "area": "Makna Forest",
+      "area": "マクナ原生林",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -15259,7 +15259,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Hurricane Bugle",
+              "name": "疾風ラッパ",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -15269,22 +15269,22 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Rescue Bugle",
+              "name": "お助けラッパ",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Summons Makna Eluca",
+              "effect": "Summons マクナ・エルーカ",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Hard Push",
+              "name": "ハードプッシュ",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
               "range": "-",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -15312,23 +15312,23 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ"
         ],
         "watch": [
-          "Hurricane Bugle: ヘイスト",
-          "Rescue Bugle: Summons Makna Eluca",
-          "Hard Push: Topple"
+          "疾風ラッパ: ヘイスト",
+          "お助けラッパ: Summons マクナ・エルーカ",
+          "ハードプッシュ: 転倒"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-officer-robusto-adaa0bbf": {
-      "name": "Officer Robusto",
+      "name": "将校のロブスト",
       "level": "75",
-      "area": "Bionis' Interior",
+      "area": "巨神胎内",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -15351,7 +15351,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Big Combo VI",
+              "name": "大連撃 VI",
               "type": "Talent (Physical)",
               "strength": "0.3 – 0.5",
               "hits": "8",
@@ -15366,33 +15366,33 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Physical Protect; ヘイスト",
+              "effect": "物理バリア; ヘイスト",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Big Spin",
+              "name": "大回転",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "2",
               "range": "Circle around caster",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Genome Break",
+              "name": "ゲノムブレイク",
               "type": "Ether",
               "strength": "2.05 – 2.25",
               "hits": "1",
               "range": "Circle around target",
-              "effect": "Sleep",
+              "effect": "スリープ",
               "knockback": "Yes (1)",
               "breakDamage": "-"
             }
           ],
           "spike": {
-            "type": "Topple",
+            "type": "転倒",
             "range": "10 M",
             "damage": "1,760 Damage"
           },
@@ -15418,7 +15418,7 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind",
@@ -15426,18 +15426,18 @@ const COMBAT_DOSSIER_DATA={
           "全デバフ抵抗"
         ],
         "watch": [
-          "Cell Activate ‡: Physical Protect; ヘイスト",
-          "Big Spin: Topple",
-          "Genome Break: Sleep"
+          "Cell Activate ‡: 物理バリア; ヘイスト",
+          "大回転: 転倒",
+          "ゲノムブレイク: スリープ"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-orluga-rufus-boss-ab06656a": {
-      "name": "Orluga Rufus (boss)",
+      "name": "オルガ・ルファス (boss)",
       "level": "36",
-      "area": "High Entia Tomb",
+      "area": "ハイエンター墓所",
       "conditions": "Story",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -15460,7 +15460,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Charge 1",
+              "name": "チャージワン",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -15470,7 +15470,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Charge 2",
+              "name": "チャージツー",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -15480,7 +15480,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Charge 3",
+              "name": "チャージスリー",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -15490,17 +15490,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Hard Push",
+              "name": "ハードプッシュ",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
               "range": "-",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Big Spin ※1",
+              "name": "大回転 ※1",
               "type": "Physical",
               "strength": "?",
               "hits": "4",
@@ -15510,12 +15510,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "R Laser",
+              "name": "アルレーザー",
               "type": "Ether",
               "strength": "2.8 – 3.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Arts Seal",
+              "effect": "アーツ封印",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -15543,24 +15543,24 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ"
         ],
         "watch": [
-          "Charge 1: Ether Up; Fill Talent Gauge",
-          "Charge 2: Ether Up; Fill Talent Gauge",
-          "Charge 3: Ether Up; Fill Talent Gauge",
-          "Hard Push: Topple"
+          "チャージワン: Ether Up; Talent Gauge を満たす",
+          "チャージツー: Ether Up; Talent Gauge を満たす",
+          "チャージスリー: Ether Up; Talent Gauge を満たす",
+          "ハードプッシュ: 転倒"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-peeling-kircheis-48e1a6be": {
-      "name": "Peeling Kircheis",
+      "name": "剥落のキルヒアイス",
       "level": "38",
-      "area": "Eryth Sea",
+      "area": "エルト海",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -15583,17 +15583,17 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Weak Point",
+              "name": "ウィークポイント",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Pierce",
+              "effect": "貫通",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Combo",
+              "name": "連撃",
               "type": "Physical",
               "strength": "1.3 – 1.5",
               "hits": "3",
@@ -15603,12 +15603,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Decapitator",
+              "name": "首刈り",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
               "range": "-",
-              "effect": "Instant Death if Toppled",
+              "effect": "即死 if Toppled",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -15618,17 +15618,17 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.55 – 1.75",
               "hits": "3",
               "range": "-",
-              "effect": "Daze",
+              "effect": "気絶",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Hypnotic Light",
+              "name": "眠りの光",
               "type": "Ether",
               "strength": "1.3 – 1.5",
               "hits": "1",
               "range": "Circle around caster",
-              "effect": "Sleep",
+              "effect": "スリープ",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -15656,25 +15656,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Weak Point: Pierce",
-          "Decapitator: Instant Death if Toppled",
-          "Smash: Daze",
-          "Hypnotic Light: Sleep"
+          "ウィークポイント: 貫通",
+          "首刈り: 即死 if Toppled",
+          "Smash: 気絶",
+          "眠りの光: スリープ"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-plump-sprahda-ecd8513b": {
-      "name": "Plump Sprahda",
+      "name": "豊潤のスパラーダ",
       "level": "92",
-      "area": "Tephra Cave",
+      "area": "テフラ洞窟",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -15697,7 +15697,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Slow-Footed Net",
+              "name": "鈍足ネット",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -15707,17 +15707,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Ankle Bite",
+              "name": "足噛み",
               "type": "Physical",
               "strength": "2.3 – 2.5",
               "hits": "1",
               "range": "Single",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Crushing Blow",
+              "name": "痛打",
               "type": "Physical",
               "strength": "1.8 – 2.0",
               "hits": "1",
@@ -15730,7 +15730,7 @@ const COMBAT_DOSSIER_DATA={
           "spike": {
             "type": "Counter",
             "range": "8 M",
-            "damage": "Bind"
+            "damage": "バインド"
           },
           "resistances": {
             "break": "70%",
@@ -15754,7 +15754,7 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind",
@@ -15762,18 +15762,18 @@ const COMBAT_DOSSIER_DATA={
           "全デバフ抵抗"
         ],
         "watch": [
-          "Slow-Footed Net: Slow",
-          "Ankle Bite: Topple",
-          "Crushing Blow: Double Damage if Toppled"
+          "鈍足ネット: Slow",
+          "足噛み: 転倒",
+          "痛打: 転倒中はダメージ2倍"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-powerful-eligos-7738632c": {
-      "name": "Powerful Eligos",
+      "name": "荒神のエリゴス",
       "level": "80",
-      "area": "Fallen Arm",
+      "area": "落ちた腕",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -15796,17 +15796,17 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Insect Awakening ※",
+              "name": "虫の覚醒 ※",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Awakening",
+              "effect": "覚醒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Melting Shower",
+              "name": "熔解シャワー",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -15816,7 +15816,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Violent Pheromones ※2",
+              "name": "強襲フェロモン ※2",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -15826,22 +15826,22 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Murder Claw",
+              "name": "マーダークロー",
               "type": "Physical",
               "strength": "1.3 – 1.5",
               "hits": "1",
               "range": "-",
-              "effect": "Bleed",
+              "effect": "出血",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Scissor Jaws",
+              "name": "ハサミアギト",
               "type": "Physical",
               "strength": "2.3 – 2.5",
               "hits": "1",
               "range": "-",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -15873,7 +15873,7 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind",
@@ -15881,19 +15881,19 @@ const COMBAT_DOSSIER_DATA={
           "全デバフ抵抗"
         ],
         "watch": [
-          "Insect Awakening ※: Awakening",
-          "Melting Shower: Physical Defence Down",
-          "Violent Pheromones ※2: 筋力アップ",
-          "Murder Claw: Bleed"
+          "虫の覚醒 ※: 覚醒",
+          "熔解シャワー: 物理防御ダウン",
+          "強襲フェロモン ※2: 筋力アップ",
+          "マーダークロー: 出血"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-precious-retrato-e7c207f8": {
-      "name": "Precious Retrato",
+      "name": "宝珠のレトラート",
       "level": "53",
-      "area": "Galahad Fortress",
+      "area": "ガラハド要塞",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -15926,27 +15926,27 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Power Down",
+              "name": "パワーダウン",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Strength Down",
+              "effect": "筋力ダウン",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Blood Screw ‡",
+              "name": "ブラッドスクリュー ‡",
               "type": "Physical",
               "strength": "3.3 – 3.5",
               "hits": "1",
               "range": "-",
-              "effect": "Bleed",
+              "effect": "出血",
               "knockback": "Yes (1)",
               "breakDamage": "-"
             },
             {
-              "name": "Hard Attack",
+              "name": "ハードアタック",
               "type": "Physical",
               "strength": "3.3 – 3.5",
               "hits": "1",
@@ -15956,12 +15956,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Side Swing",
+              "name": "サイドスウィング",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -15989,24 +15989,24 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Power Down: Strength Down",
-          "Blood Screw ‡: Bleed",
-          "Side Swing: Topple"
+          "パワーダウン: 筋力ダウン",
+          "ブラッドスクリュー ‡: 出血",
+          "サイドスウィング: 転倒"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-proper-bandaz-05d168d0": {
-      "name": "Proper Bandaz",
+      "name": "常道のベンダズ",
       "level": "39",
-      "area": "Eryth Sea",
+      "area": "エルト海",
       "conditions": "Shooting Stars",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -16029,17 +16029,17 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Ether Smash II",
+              "name": "エーテル防弱体 II",
               "type": "Talent (Ether)",
               "strength": "1.55 – 1.75",
               "hits": "1",
               "range": "Circle around caster",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Hard Bash",
+              "name": "ハードバッシュ",
               "type": "Physical",
               "strength": "3.3 – 3.5",
               "hits": "1",
@@ -16049,12 +16049,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Ether Cannon",
+              "name": "エーテル砲",
               "type": "Ether",
               "strength": "1.3 – 1.5",
               "hits": "1",
               "range": "-",
-              "effect": "Agility Down",
+              "effect": "素早さダウン",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -16082,22 +16082,22 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ"
         ],
         "watch": [
-          "Ether Smash II: Topple",
-          "Ether Cannon: Agility Down"
+          "エーテル防弱体 II: 転倒",
+          "エーテル砲: 素早さダウン"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-prosperous-zepar-cfa2dff7": {
-      "name": "Prosperous Zepar",
+      "name": "盛栄のゼパル",
       "level": "56",
-      "area": "Fallen Arm",
+      "area": "落ちた腕",
       "conditions": "Evening",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -16120,17 +16120,17 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Binding Screech",
+              "name": "ショックボイス",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Frontal Arc",
-              "effect": "Bind; Ether Down",
+              "effect": "バインド; エーテルダウン",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Kick Rush",
+              "name": "キックラッシュ",
               "type": "Physical",
               "strength": "1.3 – 1.5",
               "hits": "3",
@@ -16140,7 +16140,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Water Shot",
+              "name": "ウォーターシュート",
               "type": "Ether",
               "strength": "1.3 – 1.5",
               "hits": "1",
@@ -16151,9 +16151,9 @@ const COMBAT_DOSSIER_DATA={
             }
           ],
           "spike": {
-            "type": "Topple",
+            "type": "転倒",
             "range": "8 M",
-            "damage": "Bind"
+            "damage": "バインド"
           },
           "resistances": {
             "break": "0%",
@@ -16177,24 +16177,24 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "スパイク防御",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Binding Screech: Bind; Ether Down",
-          "Water Shot: Slow"
+          "ショックボイス: バインド; エーテルダウン",
+          "ウォーターシュート: Slow"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-protective-torquidon-c7a6fdd6": {
-      "name": "Protective Torquidon",
+      "name": "治安のトーキドン",
       "level": "96",
-      "area": "Tephra Cave",
+      "area": "テフラ洞窟",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -16217,7 +16217,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Gore",
+              "name": "突き上げ",
               "type": "Physical",
               "strength": "2.8 - 3.0",
               "hits": "1",
@@ -16227,12 +16227,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Ice Breath",
+              "name": "アイスブレス",
               "type": "Ether",
               "strength": "1.8 - 2.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Chill",
+              "effect": "冷気",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -16247,7 +16247,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/No"
             },
             {
-              "name": "Winged Fury",
+              "name": "鳥の狂騒",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -16280,23 +16280,23 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind"
         ],
         "watch": [
-          "Ice Breath: Chill",
-          "Winged Fury: Craze"
+          "アイスブレス: 冷気",
+          "鳥の狂騒: Craze"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-prudent-purson-d4eb342d": {
-      "name": "Prudent Purson",
+      "name": "思慮のプルソン",
       "level": "49",
-      "area": "Sword Valley",
+      "area": "大剣の渓谷",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -16329,7 +16329,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Break Screw",
+              "name": "ブレイクスクリュー",
               "type": "Physical",
               "strength": "3.3 – 3.5",
               "hits": "1",
@@ -16339,7 +16339,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Hard Attack",
+              "name": "ハードアタック",
               "type": "Physical",
               "strength": "3.3 – 3.5",
               "hits": "1",
@@ -16349,12 +16349,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Side Swing",
+              "name": "サイドスウィング",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -16382,21 +16382,21 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ"
         ],
         "watch": [
-          "Side Swing: Topple"
+          "サイドスウィング: 転倒"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-puera-telethia-791f5cba": {
-      "name": "Puera Telethia",
+      "name": "プエラ・テレシア",
       "level": "28",
-      "area": "Makna Forest",
+      "area": "マクナ原生林",
       "conditions": "Story",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -16419,7 +16419,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Telethia Arrow II",
+              "name": "テレシア Arrow II",
               "type": "Talent (Physical)",
               "strength": "2.3 – 2.5",
               "hits": "2",
@@ -16429,17 +16429,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Soul Read",
+              "name": "思考読み",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Physical Evasion Up",
+              "effect": "物理 回避率アップ",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Telethia Tail",
+              "name": "テレシアテール",
               "type": "Physical",
               "strength": "1.05 – 1.25",
               "hits": "2",
@@ -16449,7 +16449,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Ether Scatter",
+              "name": "拡散エーテル砲",
               "type": "Ether",
               "strength": "4.75 – 5.0",
               "hits": "2",
@@ -16459,7 +16459,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Shock Wave",
+              "name": "ショックウェイブ",
               "type": "Ether",
               "strength": "2.8 – 3.0",
               "hits": "1",
@@ -16492,21 +16492,21 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ"
         ],
         "watch": [
-          "Soul Read: Physical Evasion Up"
+          "思考読み: 物理 回避率アップ"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-reckless-galdon-508be820": {
-      "name": "Reckless Galdon",
+      "name": "空虚のガルデーン",
       "level": "95",
-      "area": "Tephra Cave",
+      "area": "テフラ洞窟",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -16539,7 +16539,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Attack Mode",
+              "name": "アタックモード",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -16549,17 +16549,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Bolt Shock",
+              "name": "ボルトショック",
               "type": "Ether",
               "strength": "2.3 – 2.5",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Bind; Lock-On",
+              "effect": "バインド; ロックオン",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Ether Laser",
+              "name": "エーテルレーザー",
               "type": "Ether",
               "strength": "2.05 – 2.25",
               "hits": "1",
@@ -16572,7 +16572,7 @@ const COMBAT_DOSSIER_DATA={
           "spike": {
             "type": "Counter",
             "range": "8 M",
-            "damage": "Ether Def Down 25%"
+            "damage": "エーテル耐性減 25%"
           },
           "resistances": {
             "break": "70%",
@@ -16596,7 +16596,7 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind",
@@ -16604,17 +16604,17 @@ const COMBAT_DOSSIER_DATA={
           "全デバフ抵抗"
         ],
         "watch": [
-          "Attack Mode: 筋力アップ; Physical Defence Down",
-          "Bolt Shock: Bind; Lock-On"
+          "アタックモード: 筋力アップ; 物理防御ダウン",
+          "ボルトショック: バインド; ロックオン"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-reckless-godwin-2a3e3ae3": {
-      "name": "Reckless Godwin",
+      "name": "無謀なゴドウィン",
       "level": "31",
-      "area": "Satorl Marsh",
+      "area": "燐光の地ザトール",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -16637,7 +16637,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Combo",
+              "name": "連撃",
               "type": "Physical",
               "strength": "1.3 - 1.5",
               "hits": "3",
@@ -16647,7 +16647,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Decapitator ※1",
+              "name": "首刈り ※1",
               "type": "Physical",
               "strength": "2.8 - 3.0",
               "hits": "1",
@@ -16677,12 +16677,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "No/Yes"
             },
             {
-              "name": "Banishment",
+              "name": "地獄への焼印",
               "type": "Ether",
               "strength": "2.3 - 2.5",
               "hits": "1",
               "range": "Circle around caster",
-              "effect": "Pierce",
+              "effect": "貫通",
               "knockback": "Yes",
               "breakDamage": "-"
             },
@@ -16692,22 +16692,22 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.3 - 1.5",
               "hits": "2",
               "range": "Circle around caster",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Beast's Curse",
+              "name": "獣の呪い",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Arts Seal",
+              "effect": "アーツ封印",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "King's Roar ※2",
+              "name": "King's 鳴き声 ※2",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -16740,25 +16740,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ"
         ],
         "watch": [
-          "Decapitator ※1: Death when target is toppled",
+          "首刈り ※1: Death when target is toppled",
           "Reaper: Ether Up",
-          "Banishment: Pierce",
-          "Crazy Dance III: Topple"
+          "地獄への焼印: 貫通",
+          "Crazy Dance III: 転倒"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-reckless-zanden-e27fb5a0": {
-      "name": "Reckless Zanden",
+      "name": "虚空のザンデン",
       "level": "98",
-      "area": "Tephra Cave",
-      "conditions": "During Battling Brutes",
+      "area": "テフラ洞窟",
+      "conditions": "ぶつかり合うふたつの間",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
         "url": "https://xenoblade.fandom.com/wiki/Reckless_Zanden",
@@ -16780,7 +16780,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Head Butt",
+              "name": "ヘッドバッド",
               "type": "Physical",
               "strength": "2.8 - 3.0",
               "hits": "1",
@@ -16790,7 +16790,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Gore",
+              "name": "突き上げ",
               "type": "Physical",
               "strength": "3.3 - 3.5",
               "hits": "1",
@@ -16800,27 +16800,27 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/No"
             },
             {
-              "name": "Taunt",
+              "name": "挑発",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Frontal Arc",
-              "effect": "Lock-On",
+              "effect": "ロックオン",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Threatening Roar",
+              "name": "威嚇鳴き",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Frontal Arc",
-              "effect": "Strength Down; Physical Defence Down",
+              "effect": "筋力ダウン; 物理防御ダウン",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Beast Rampage ※",
+              "name": "獣の暴走 ※",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -16857,25 +16857,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind",
           "スパイク防御"
         ],
         "watch": [
-          "Taunt: Lock-On",
-          "Threatening Roar: Strength Down; Physical Defence Down",
-          "Beast Rampage ※: Craze"
+          "挑発: ロックオン",
+          "威嚇鳴き: 筋力ダウン; 物理防御ダウン",
+          "獣の暴走 ※: Craze"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-revolutionary-bifrons-962c76f6": {
-      "name": "Revolutionary Bifrons",
+      "name": "革命のビフロンス",
       "level": "60",
-      "area": "Mechonis Field",
+      "area": "機神界フィールド",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -16903,22 +16903,22 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.8 – 2.0",
               "hits": "1",
               "range": "Single",
-              "effect": "Pierce; ヘイスト to self",
+              "effect": "貫通; ヘイスト to self",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Ether Chaff",
+              "name": "エーテルチャフ",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Ether Def Down; Ether Down",
+              "effect": "エーテル耐性減; エーテルダウン",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Hard Bash",
+              "name": "ハードバッシュ",
               "type": "Physical",
               "strength": "3.3 – 3.5",
               "hits": "1",
@@ -16928,17 +16928,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "No/Yes"
             },
             {
-              "name": "Side Swing",
+              "name": "サイドスウィング",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Laser",
+              "name": "レーザー",
               "type": "Ether",
               "strength": "1.8 – 2.0",
               "hits": "1",
@@ -16975,24 +16975,24 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "スパイク防御"
         ],
         "watch": [
-          "Naked Glow V: Pierce; ヘイスト to self",
-          "Ether Chaff: Ether Def Down; Ether Down",
-          "Side Swing: Topple"
+          "Naked Glow V: 貫通; ヘイスト to self",
+          "エーテルチャフ: エーテル耐性減; エーテルダウン",
+          "サイドスウィング: 転倒"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-roguish-frengel-34d5a461": {
-      "name": "Roguish Frengel",
+      "name": "姑息なフレンゲル",
       "level": "39",
-      "area": "Colony 9",
+      "area": "コロニー9",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -17015,27 +17015,27 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Scar Claw",
+              "name": "スカークロー",
               "type": "Physical",
               "strength": "1.3-1.5",
               "hits": "1",
               "range": "Single",
-              "effect": "Bleed",
+              "effect": "出血",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Scissor Jaws",
+              "name": "ハサミアギト",
               "type": "Physical",
               "strength": "2.3-2.5",
               "hits": "1",
               "range": "Single",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Melting Shower",
+              "name": "熔解シャワー",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -17045,7 +17045,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Violent Pheromones",
+              "name": "強襲フェロモン",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -17055,12 +17055,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Insect Awakening",
+              "name": "虫の覚醒",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Awakening",
+              "effect": "覚醒",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -17088,25 +17088,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Scar Claw: Bleed",
-          "Scissor Jaws: Topple",
-          "Melting Shower: Physical Defence Down",
-          "Violent Pheromones: 筋力アップ"
+          "スカークロー: 出血",
+          "ハサミアギト: 転倒",
+          "熔解シャワー: 物理防御ダウン",
+          "強襲フェロモン: 筋力アップ"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-sacred-zagamei-af885838": {
-      "name": "Sacred Zagamei",
+      "name": "霊峰のザガメイ",
       "level": "89",
-      "area": "Eryth Sea",
+      "area": "エルト海",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -17129,17 +17129,17 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Verse Eater IX",
+              "name": "Verse イーター IX",
               "type": "Talent (Physical)",
               "strength": "3.0 – 3.25",
               "hits": "1",
               "range": "-",
-              "effect": "Max HP Down",
+              "effect": "最大 最大ＨＰダウン",
               "knockback": "-",
               "breakDamage": ""
             },
             {
-              "name": "Crush",
+              "name": "押しつぶし",
               "type": "Physical",
               "strength": "3.3 – 3.5",
               "hits": "1",
@@ -17149,12 +17149,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Strike",
+              "name": "ひっぱたき",
               "type": "Physical",
               "strength": "4.3 – 4.5",
               "hits": "1",
               "range": "-",
-              "effect": "Daze",
+              "effect": "気絶",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -17182,23 +17182,23 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind"
         ],
         "watch": [
-          "Verse Eater IX: Max HP Down",
-          "Strike: Daze"
+          "Verse イーター IX: 最大 最大ＨＰダウン",
+          "ひっぱたき: 気絶"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-sani-telethia-68b87104": {
-      "name": "Sani Telethia",
+      "name": "サニー・テレシア",
       "level": "72",
-      "area": "Colony 6",
+      "area": "コロニー6",
       "conditions": "Story",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -17221,17 +17221,17 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Bolt from the Blue",
+              "name": "天和落雷",
               "type": "Ether",
               "strength": "0.8 - 1.0",
               "hits": "3",
               "range": "Frontal Arc",
-              "effect": "Paralysis",
+              "effect": "パラライズ",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Shock Wave",
+              "name": "ショックウェイブ",
               "type": "Ether",
               "strength": "1.3 - 1.5",
               "hits": "1",
@@ -17241,7 +17241,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Splash Wave",
+              "name": "スプラッシュウェイブ",
               "type": "Ether",
               "strength": "1.8 - 2.0",
               "hits": "1",
@@ -17251,7 +17251,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/No"
             },
             {
-              "name": "Sunlight Scatter",
+              "name": "晴天拡散粒子砲",
               "type": "Ether",
               "strength": "2.3 - 2.5",
               "hits": "1",
@@ -17261,17 +17261,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Thunderbolt",
+              "name": "落雷",
               "type": "Ether",
               "strength": "1.3 - 1.5",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Paralysis",
+              "effect": "パラライズ",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Telethia Buster VII",
+              "name": "テレシア バスター VII",
               "type": "Talent (Ether)",
               "strength": "1.8 - 2.0",
               "hits": "1",
@@ -17324,26 +17324,26 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Bolt from the Blue: Paralysis",
-          "Sunlight Scatter: Changes weather to clear",
-          "Thunderbolt: Paralysis",
+          "天和落雷: パラライズ",
+          "晴天拡散粒子砲: Changes weather to clear",
+          "落雷: パラライズ",
           "Weather Rain: Changes weather to rain"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-satorl-guardian-c94b37c7": {
-      "name": "Satorl Guardian",
+      "name": "ザトールの守護者",
       "level": "28",
-      "area": "Satorl Marsh",
-      "conditions": "During The Ancient Ceremony",
+      "area": "燐光の地ザトール",
+      "conditions": "古代の儀式の間",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
         "url": "https://xenoblade.fandom.com/wiki/Satorl_Guardian",
@@ -17365,7 +17365,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Wing Smite",
+              "name": "大羽ばたき",
               "type": "Ether",
               "strength": "1.8 to 2.0",
               "hits": "1",
@@ -17375,7 +17375,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/No"
             },
             {
-              "name": "Tornado Spin",
+              "name": "トルネードスピン",
               "type": "Ether",
               "strength": "1.55 to 1.75",
               "hits": "3",
@@ -17385,32 +17385,32 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/No"
             },
             {
-              "name": "Poison Stab",
+              "name": "毒刺し",
               "type": "Physical",
               "strength": "3.05 to 3.25",
               "hits": "1",
               "range": "Single",
-              "effect": "Poison",
+              "effect": "毒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Ultra Poison Stab III",
+              "name": "Ultra 毒刺し III",
               "type": "Talent (Physical)",
               "strength": "1.55 to 1.75",
               "hits": "1",
               "range": "Single",
-              "effect": "Poison",
+              "effect": "毒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Winged Awakening",
+              "name": "鳥の覚醒",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Awakening",
+              "effect": "覚醒",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -17438,24 +17438,24 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Poison Stab: Poison",
-          "Ultra Poison Stab III: Poison",
-          "Winged Awakening: Awakening"
+          "毒刺し: 毒",
+          "Ultra 毒刺し III: 毒",
+          "鳥の覚醒: 覚醒"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-sentimental-flamral-e645769e": {
-      "name": "Sentimental Flamral",
+      "name": "情念のフラムラル",
       "level": "66",
-      "area": "Agniratha",
+      "area": "帝都アグニラータ",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -17483,27 +17483,27 @@ const COMBAT_DOSSIER_DATA={
               "strength": "0.7 – 0.9",
               "hits": "4",
               "range": "-",
-              "effect": "Bleed",
+              "effect": "出血",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Soaked Wall",
+              "name": "ソークドウォール",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Damage Immunity",
+              "effect": "ダメージ無効",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Flame Throw",
+              "name": "フレイムスロウ",
               "type": "Ether",
               "strength": "1.8 – 2.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Blaze",
+              "effect": "炎熱",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -17531,24 +17531,24 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Hush Chop V: Bleed",
-          "Soaked Wall: Damage Immunity",
-          "Flame Throw: Blaze"
+          "Hush Chop V: 出血",
+          "ソークドウォール: ダメージ無効",
+          "フレイムスロウ: 炎熱"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-serene-imlaly-aa678050": {
-      "name": "Serene Imlaly",
+      "name": "明鏡のイムラリ",
       "level": "76",
-      "area": "Prison Island",
+      "area": "監獄島",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -17571,7 +17571,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Dark Cannon IX",
+              "name": "ダークキャノン IX",
               "type": "Talent (Ether)",
               "strength": "1.8 – 2.0",
               "hits": "1",
@@ -17601,7 +17601,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Drop Kick",
+              "name": "バックキック",
               "type": "Physical",
               "strength": "1.8 – 2.0",
               "hits": "1",
@@ -17611,7 +17611,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Gnaw",
+              "name": "かぶりつき",
               "type": "Physical",
               "strength": "3.3 – 3.5",
               "hits": "1",
@@ -17621,27 +17621,27 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Blazing Breath",
+              "name": "炎ブレス",
               "type": "Ether",
               "strength": "1.8 – 2.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Blaze",
+              "effect": "炎熱",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Dark Breath",
+              "name": "闇ブレス",
               "type": "Ether",
               "strength": "1.8 – 2.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Ether Def Down",
+              "effect": "エーテル耐性減",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Electro Breath",
+              "name": "雷ブレス",
               "type": "Ether",
               "strength": "1.8 – 2.0",
               "hits": "1",
@@ -17678,7 +17678,7 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind",
@@ -17686,17 +17686,17 @@ const COMBAT_DOSSIER_DATA={
           "全デバフ抵抗"
         ],
         "watch": [
-          "Blazing Breath: Blaze",
-          "Dark Breath: Ether Def Down"
+          "炎ブレス: 炎熱",
+          "闇ブレス: エーテル耐性減"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-shadeless-matrix-741d9647": {
-      "name": "Shadeless Matrix",
+      "name": "薄影のマトリクス",
       "level": "44",
-      "area": "Colony 9",
+      "area": "コロニー9",
       "conditions": "Nighttime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -17719,32 +17719,32 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Double Peck",
+              "name": "ダブルクリック",
               "type": "Physical",
               "strength": "1.3 - 1.5",
               "hits": "2",
               "range": "Single",
-              "effect": "Bleed",
+              "effect": "出血",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Binding Noise",
+              "name": "バインドノイズ",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Circle around Caster",
-              "effect": "Bind",
+              "effect": "バインド",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Winged Awakening",
+              "name": "鳥の覚醒",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Awakening",
+              "effect": "覚醒",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -17754,17 +17754,17 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.8 - 2.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Daze",
+              "effect": "気絶",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Noise of Despair",
+              "name": "デスペアノイズ",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Circle around Caster",
-              "effect": "Pierce, Paralysis",
+              "effect": "貫通, パラライズ",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -17792,25 +17792,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Double Peck: Bleed",
-          "Binding Noise: Bind",
-          "Winged Awakening: Awakening",
-          "Air Dive III: Daze"
+          "ダブルクリック: 出血",
+          "バインドノイズ: バインド",
+          "鳥の覚醒: 覚醒",
+          "Air Dive III: 気絶"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-shimmering-forte-d42e50d3": {
-      "name": "Shimmering Forte",
+      "name": "陽炎のフォルテ",
       "level": "33",
-      "area": "Makna Forest",
+      "area": "マクナ原生林",
       "conditions": "Torrid Weather",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -17843,7 +17843,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/No"
             },
             {
-              "name": "Gnaw",
+              "name": "かぶりつき",
               "type": "Physical",
               "strength": "3.3 – 3.5",
               "hits": "1",
@@ -17853,12 +17853,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Blazing Breath",
+              "name": "炎ブレス",
               "type": "Ether",
               "strength": "1.8 – 2.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Blaze",
+              "effect": "炎熱",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -17890,23 +17890,23 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "スパイク防御",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Blazing Breath: Blaze"
+          "炎ブレス: 炎熱"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-sinful-lamorak-113720cc": {
-      "name": "Sinful Lamorak",
+      "name": "原罪のラモラック",
       "level": "63",
-      "area": "Central Factory",
+      "area": "中央工廠",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -17939,7 +17939,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Auto Chainsaw",
+              "name": "オートチェーンソ",
               "type": "Physical",
               "strength": "3.3 – 3.5",
               "hits": "1",
@@ -17949,12 +17949,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Lower Chainsaw",
+              "name": "ダウンチェーンソ",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -17986,23 +17986,23 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "スパイク防御"
         ],
         "watch": [
-          "Lower Chainsaw: Topple"
+          "ダウンチェーンソ: 転倒"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-skyray-079062fe": {
       "name": "Skyray",
       "level": "40",
-      "area": "Eryth Sea",
-      "conditions": "During Path to Prison Island",
+      "area": "エルト海",
+      "conditions": "監獄島への道の間",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
         "url": "https://xenoblade.fandom.com/wiki/Skyray",
@@ -18029,47 +18029,47 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.05 – 1.25",
               "hits": "3",
               "range": "Circle around caster",
-              "effect": "Daze",
+              "effect": "気絶",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Murmur of Darkness",
+              "name": "常闇の吐息",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Pierce",
+              "effect": "貫通",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Tail Smash",
+              "name": "尻尾ヒット",
               "type": "Physical",
               "strength": "2.3 – 2.5",
               "hits": "1",
               "range": "-",
-              "effect": "Daze",
+              "effect": "気絶",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Tripping Rush",
+              "name": "足払い突進",
               "type": "Physical",
               "strength": "1.8 – 2.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Darkness Breath",
+              "name": "暗黒ブレス",
               "type": "Ether",
               "strength": "1.55 – 1.75",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Strength Down; Ether Down",
+              "effect": "筋力ダウン; エーテルダウン",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -18097,24 +18097,24 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ"
         ],
         "watch": [
-          "Ether Meteor II: Daze",
-          "Murmur of Darkness: Pierce",
-          "Tail Smash: Daze",
-          "Tripping Rush: Topple"
+          "Ether Meteor II: 気絶",
+          "常闇の吐息: 貫通",
+          "尻尾ヒット: 気絶",
+          "足払い突進: 転倒"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-sniper-paramecia-1e31e41d": {
-      "name": "Sniper Paramecia",
+      "name": "狙撃のパラミシア",
       "level": "15",
-      "area": "Bionis' Leg",
+      "area": "巨神脚",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -18142,22 +18142,22 @@ const COMBAT_DOSSIER_DATA={
               "strength": "2.05 – 2.25",
               "hits": "1",
               "range": "-",
-              "effect": "Bleed",
+              "effect": "出血",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Roar",
+              "name": "鳴き声",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Bind",
+              "effect": "バインド",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Bow and Arrow",
+              "name": "弓矢",
               "type": "Physical",
               "strength": "1.05 – 1.25",
               "hits": "1",
@@ -18167,12 +18167,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Sniping Arrow",
+              "name": "スナイプ矢",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
               "range": "-",
-              "effect": "Daze",
+              "effect": "気絶",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -18200,24 +18200,24 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Blood Shot Arrow I: Bleed",
-          "Roar: Bind",
-          "Sniping Arrow: Daze"
+          "Blood Shot Arrow I: 出血",
+          "鳴き声: バインド",
+          "スナイプ矢: 気絶"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-solid-konev-99d1b018": {
-      "name": "Solid Konev",
+      "name": "堅牢なコーネフ",
       "level": "10",
-      "area": "Tephra Cave",
+      "area": "テフラ洞窟",
       "conditions": "Nighttime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -18240,27 +18240,27 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Ether Break II",
+              "name": "Ether 崩し II",
               "type": "Talent (Ether)",
               "strength": "1.8 – 2.0",
               "hits": "1",
               "range": "Circle around caster",
-              "effect": "Self HP Down",
+              "effect": "Self 最大ＨＰダウン",
               "knockback": "Yes (2)",
               "breakDamage": "-"
             },
             {
-              "name": "Hard Bash",
+              "name": "ハードバッシュ",
               "type": "Physical",
               "strength": "2.3 – 2.5",
               "hits": "1",
               "range": "-",
-              "effect": "Daze",
+              "effect": "気絶",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Krabble Bash",
+              "name": "クライブバッシュ",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
@@ -18270,12 +18270,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Bubble",
+              "name": "バブル",
               "type": "Ether",
               "strength": "1.3 – 1.5",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Agility Down",
+              "effect": "素早さダウン",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -18303,23 +18303,23 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ"
         ],
         "watch": [
-          "Ether Break II: Self HP Down",
-          "Hard Bash: Daze",
-          "Bubble: Agility Down"
+          "Ether 崩し II: Self 最大ＨＰダウン",
+          "ハードバッシュ: 気絶",
+          "バブル: 素早さダウン"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-solidum-telethia-1533464f": {
-      "name": "Solidum Telethia",
+      "name": "ソリドゥム・テレシア",
       "level": "36",
-      "area": "High Entia Tomb",
+      "area": "ハイエンター墓所",
       "conditions": "Story",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -18342,7 +18342,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Delta Cannon",
+              "name": "デルタキャノン",
               "type": "Ether",
               "strength": "1.8 to 2.0",
               "hits": "1",
@@ -18352,7 +18352,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Ether Storm",
+              "name": "エーテルストーム",
               "type": "Ether",
               "strength": "1.3 to 1.5",
               "hits": "1",
@@ -18362,7 +18362,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/Yes"
             },
             {
-              "name": "Ether Laser II",
+              "name": "エーテルレーザー II",
               "type": "Talent (Ether)",
               "strength": "1.8 to 2.0",
               "hits": "1",
@@ -18372,32 +18372,32 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Predation",
+              "name": "プレデーション",
               "type": "Physical",
               "strength": "1.8 to 2.0",
               "hits": "1",
               "range": "Circle around caster",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Soul Read",
+              "name": "思考読み",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Physical Evasion Up",
+              "effect": "物理 回避率アップ",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Attention Seek",
+              "name": "ロックオンミー",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "All",
-              "effect": "Lock-On",
+              "effect": "ロックオン",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -18425,23 +18425,23 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ"
         ],
         "watch": [
-          "Predation: Topple",
-          "Soul Read: Physical Evasion Up",
-          "Attention Seek: Lock-On"
+          "プレデーション: 転倒",
+          "思考読み: 物理 回避率アップ",
+          "ロックオンミー: ロックオン"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-soothed-aglovale-7b9a8c2e": {
-      "name": "Soothed Aglovale",
+      "name": "安堵のアグロヴァル",
       "level": "65",
-      "area": "Agniratha",
+      "area": "帝都アグニラータ",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -18464,37 +18464,37 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Hard Armour",
+              "name": "ハードアーマー",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Physical Protect",
+              "effect": "物理バリア",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Auto Repair",
+              "name": "セルフリペア",
               "type": "Status",
               "strength": "11.8 – 12.0",
               "hits": "-",
               "range": "-",
-              "effect": "Recovery",
+              "effect": "回復",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Naked Lock",
+              "name": "ネイキッドロック",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Frontal Arc",
-              "effect": "Pierce; Lock-On",
+              "effect": "貫通; ロックオン",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Spinning Slice",
+              "name": "ローリングカット",
               "type": "Physical",
               "strength": "1.55 – 1.75",
               "hits": "3",
@@ -18514,12 +18514,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Lock-On",
+              "name": "ロックオン",
               "type": "Ether",
               "strength": "-",
               "hits": "-",
               "range": "Frontal Arc",
-              "effect": "Lock-On",
+              "effect": "ロックオン",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -18547,25 +18547,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-fast",
-        "party": "Melia / Dunban / Riki · control Melia",
+        "party": "メリア / ダンバン / リキ · メリアを操作",
         "gems": [
           "素早さアップ",
-          "Ether Up on Melia"
+          "メリアに Ether Up"
         ],
         "watch": [
-          "Hard Armour: Physical Protect",
-          "Auto Repair: Recovery",
-          "Naked Lock: Pierce; Lock-On",
+          "ハードアーマー: 物理バリア",
+          "セルフリペア: 回復",
+          "ネイキッドロック: 貫通; ロックオン",
           "Ether Bullet: Ether Defence Down"
         ],
-        "route": "High physical resistance favors a controlled Melia ether plan; store elements and discharge into safe windows.",
+        "route": "物理耐性が高いときは、操作するメリアのエーテル計画が向く。属性を溜め、安全な隙に放出する。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-speedy-ramshyde-80146941": {
-      "name": "Speedy Ramshyde",
+      "name": "早業のラムシャイド",
       "level": "10",
-      "area": "Colony 9",
+      "area": "コロニー9",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -18588,7 +18588,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Swing Upper",
+              "name": "アッパースウィング",
               "type": "Physical",
               "strength": "2.8 - 3.0",
               "hits": "1",
@@ -18598,7 +18598,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Hit Swing",
+              "name": "ヒットスウィング",
               "type": "Physical",
               "strength": "1.8 - 2.0",
               "hits": "1",
@@ -18608,7 +18608,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Daze Swing",
+              "name": "気絶スウィング",
               "type": "Physical",
               "strength": "2.8 - 3.0",
               "hits": "1",
@@ -18641,21 +18641,21 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ"
         ],
         "watch": [
           "No special art effect is listed; manage aggro and the level gap."
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-splendid-botis-9a3876fc": {
-      "name": "Splendid Botis",
+      "name": "名桜のボティス",
       "level": "58",
-      "area": "Fallen Arm",
+      "area": "落ちた腕",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -18678,7 +18678,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Boost One",
+              "name": "ブーストワン",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -18688,7 +18688,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Boost Two",
+              "name": "ブーストツー",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -18698,7 +18698,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Delayal",
+              "name": "ディレイアール",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -18708,22 +18708,22 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Naked Field",
+              "name": "ネイキッドフィールド",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Pierce",
+              "effect": "貫通",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Shield Bash",
+              "name": "シールドバッシュ",
               "type": "Physical",
               "strength": "3.3 – 3.5",
               "hits": "1",
               "range": "-",
-              "effect": "Daze",
+              "effect": "気絶",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -18751,25 +18751,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Boost One: 筋力アップ",
-          "Boost Two: 素早さアップ",
-          "Delayal: Slow; Ether Down",
-          "Naked Field: Pierce"
+          "ブーストワン: 筋力アップ",
+          "ブーストツー: 素早さアップ",
+          "ディレイアール: Slow; Ether Down",
+          "ネイキッドフィールド: 貫通"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-stormy-belagon-20242f5d": {
-      "name": "Stormy Belagon",
+      "name": "暴風のベルラガン",
       "level": "87",
-      "area": "Eryth Sea",
+      "area": "エルト海",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -18792,7 +18792,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Combo",
+              "name": "連撃",
               "type": "Physical",
               "strength": "1.3 – 1.5",
               "hits": "3",
@@ -18812,32 +18812,32 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "No/Yes"
             },
             {
-              "name": "Beastman Curse",
+              "name": "獣人の呪い",
               "type": "Ether",
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Arts Seal",
+              "effect": "アーツ封印",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Foot Trap",
+              "name": "足縛り",
               "type": "Ether",
               "strength": "1.3 – 1.5",
               "hits": "1",
               "range": "Single",
-              "effect": "Bind",
+              "effect": "バインド",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Hypnotic Light",
+              "name": "眠りの光",
               "type": "Ether",
               "strength": "1.3 – 1.5",
               "hits": "1",
               "range": "Circle around caster",
-              "effect": "Sleep",
+              "effect": "スリープ",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -18845,7 +18845,7 @@ const COMBAT_DOSSIER_DATA={
           "spike": {
             "type": "Counter",
             "range": "8 M",
-            "damage": "Sleep"
+            "damage": "スリープ"
           },
           "resistances": {
             "break": "70%",
@@ -18869,7 +18869,7 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind",
@@ -18877,18 +18877,18 @@ const COMBAT_DOSSIER_DATA={
           "全デバフ抵抗"
         ],
         "watch": [
-          "Beastman Curse: Arts Seal",
-          "Foot Trap: Bind",
-          "Hypnotic Light: Sleep"
+          "獣人の呪い: アーツ封印",
+          "足縛り: バインド",
+          "眠りの光: スリープ"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-stormy-widardun-68f3969b": {
-      "name": "Stormy Widardun",
+      "name": "暴風のワイダーデン",
       "level": "25",
-      "area": "Satorl Marsh",
+      "area": "燐光の地ザトール",
       "conditions": "Daytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -18931,7 +18931,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Aerial Mode",
+              "name": "エアリアルモード",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -18941,27 +18941,27 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Funky Dance",
+              "name": "ファンキーダンス",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Sleep",
+              "effect": "スリープ",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Winged Cure",
+              "name": "鳥の治癒",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Regenerate",
+              "effect": "時間ヒール",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Winged Fury",
+              "name": "鳥の狂騒",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -18971,22 +18971,22 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Scratch",
+              "name": "ツメひっかき",
               "type": "Physical",
               "strength": "1.8 – 2.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Bleed",
+              "effect": "出血",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Venom Storm",
+              "name": "ベノムストーム",
               "type": "Physical",
               "strength": "2.3 – 2.5",
               "hits": "1",
               "range": "-",
-              "effect": "Poison",
+              "effect": "毒",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -19014,25 +19014,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
           "Powered Mode ‡: 筋力アップ",
-          "Aerial Mode: ヘイスト",
-          "Funky Dance: Sleep",
-          "Winged Cure: Regenerate"
+          "エアリアルモード: ヘイスト",
+          "ファンキーダンス: スリープ",
+          "鳥の治癒: 時間ヒール"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-subterranean-zomar-b6800e99": {
-      "name": "Subterranean Zomar",
+      "name": "地底のツモギリ",
       "level": "40",
-      "area": "Eryth Sea",
+      "area": "エルト海",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -19065,7 +19065,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Swift Stance",
+              "name": "速攻体勢",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -19075,12 +19075,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Taunt",
+              "name": "挑発",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Single",
-              "effect": "Lock-On",
+              "effect": "ロックオン",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -19095,18 +19095,18 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Shield Crash",
+              "name": "シールドクラッシュ",
               "type": "Physical",
               "strength": "2.3 – 2.5",
               "hits": "1",
               "range": "Single",
-              "effect": "Daze",
+              "effect": "気絶",
               "knockback": "-",
               "breakDamage": "-"
             }
           ],
           "spike": {
-            "type": "Topple",
+            "type": "転倒",
             "range": "8 M",
             "damage": "800 Damage"
           },
@@ -19132,25 +19132,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "スパイク防御"
         ],
         "watch": [
           "Rage: Crazed",
-          "Swift Stance: ヘイスト",
-          "Taunt: Lock-On",
-          "Shield Crash: Daze"
+          "速攻体勢: ヘイスト",
+          "挑発: ロックオン",
+          "シールドクラッシュ: 気絶"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-sunlight-schvaik-534d3041": {
-      "name": "Sunlight Schvaik",
+      "name": "陽光のシュヴァイク",
       "level": "30",
-      "area": "Satorl Marsh",
+      "area": "燐光の地ザトール",
       "conditions": "Daytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -19183,17 +19183,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Build Up",
+              "name": "ビルドアップ",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Physical Protect",
+              "effect": "物理バリア",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Speed Up",
+              "name": "スピードアップ",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -19203,7 +19203,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Winged Fury",
+              "name": "鳥の狂騒",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -19213,17 +19213,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Hard Crash",
+              "name": "ハードクラッシュ",
               "type": "Physical",
               "strength": "3.3 – 3.5",
               "hits": "1",
               "range": "-",
-              "effect": "Daze",
+              "effect": "気絶",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Gale",
+              "name": "羽ばたき",
               "type": "Ether",
               "strength": "1.3 – 1.5",
               "hits": "1",
@@ -19256,24 +19256,24 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ"
         ],
         "watch": [
-          "Build Up: Physical Protect",
-          "Speed Up: 素早さアップ",
-          "Winged Fury: Crazed",
-          "Hard Crash: Daze"
+          "ビルドアップ: 物理バリア",
+          "スピードアップ: 素早さアップ",
+          "鳥の狂騒: Crazed",
+          "ハードクラッシュ: 気絶"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-sureny-telethia-f0fdabf8": {
-      "name": "Sureny Telethia",
+      "name": "スレーニ・テレシア",
       "level": "70",
-      "area": "Junks",
+      "area": "ジャンクス",
       "conditions": "Story",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -19296,17 +19296,17 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Burst Animus",
+              "name": "バーストアニムス",
               "type": "Ether",
               "strength": "0.8 - 1.0",
               "hits": "1",
               "range": "Circle around caster",
-              "effect": "Arts Seal; Bind",
+              "effect": "アーツ封印; バインド",
               "knockback": "Yes",
               "breakDamage": "-"
             },
             {
-              "name": "Ether Particles",
+              "name": "エーテル粒子砲",
               "type": "Ether",
               "strength": "4.7 - 4.9",
               "hits": "1",
@@ -19316,27 +19316,27 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Killer Shot",
+              "name": "キラーショット",
               "type": "Ether",
               "strength": "1.1 - 1.3",
               "hits": "1",
               "range": "Single",
-              "effect": "Chill, Ether Defence Down",
+              "effect": "冷気, エーテル防御ダウン",
               "knockback": "Yes",
               "breakDamage": "-"
             },
             {
-              "name": "Killer Sky",
+              "name": "キラースカイ",
               "type": "Ether",
               "strength": "6.0 - 6.2",
               "hits": "1",
               "range": "Single",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "Yes",
               "breakDamage": "-"
             },
             {
-              "name": "Killer Tail",
+              "name": "キラーテール",
               "type": "Physical",
               "strength": "3.1 - 3.3",
               "hits": "1",
@@ -19346,17 +19346,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Soul Read",
+              "name": "思考読み",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Physical Evasion Up",
+              "effect": "物理 回避率アップ",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Mega Ether Particles ※1",
+              "name": "エーテルメガ粒子砲 ※1",
               "type": "Ether",
               "strength": "5.8 - 6.0",
               "hits": "1",
@@ -19400,7 +19400,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Ether Particles",
+              "name": "エーテル粒子砲",
               "type": "Ether",
               "strength": "2.3 - 2.5",
               "hits": "1",
@@ -19410,27 +19410,27 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/No"
             },
             {
-              "name": "Killer Shot",
+              "name": "キラーショット",
               "type": "Ether",
               "strength": "1.55 - 1.75",
               "hits": "1",
               "range": "Single",
-              "effect": "Chill; Slow",
+              "effect": "冷気; Slow",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Killer Sky",
+              "name": "キラースカイ",
               "type": "Ether",
               "strength": "2.05 - 2.25",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Killer Tail",
+              "name": "キラーテール",
               "type": "Physical",
               "strength": "1.8 - 2.0",
               "hits": "1",
@@ -19450,12 +19450,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/Yes"
             },
             {
-              "name": "Soul Read",
+              "name": "思考読み",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Physical Evasion Up",
+              "effect": "物理 回避率アップ",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -19483,25 +19483,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Burst Animus: Arts Seal; Bind",
-          "Ether Particles: Ether Defence Down",
-          "Killer Shot: Chill, Ether Defence Down",
-          "Killer Sky: Topple"
+          "バーストアニムス: アーツ封印; バインド",
+          "エーテル粒子砲: エーテル防御ダウン",
+          "キラーショット: 冷気, エーテル防御ダウン",
+          "キラースカイ: 転倒"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-swift-zektol-ed652ee9": {
-      "name": "Swift Zektol",
+      "name": "疾風のゼクトール",
       "level": "28",
-      "area": "Satorl Marsh",
+      "area": "燐光の地ザトール",
       "conditions": "Daytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -19534,7 +19534,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Ardent Howl",
+              "name": "俊敏の雄叫び",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -19544,7 +19544,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Beast Rampage",
+              "name": "獣の暴走",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -19554,37 +19554,37 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Freeze Intimidate",
+              "name": "すくみあがる威嚇",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Agility Down",
+              "effect": "素早さダウン",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Shudder Intimidate",
+              "name": "ふるえあがる威嚇",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Strength Down; Ether Down",
+              "effect": "筋力ダウン; エーテルダウン",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Taunt",
+              "name": "挑発",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Lock-On; Ether Down",
+              "effect": "ロックオン; エーテルダウン",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Terrible Howl",
+              "name": "血染めの雄叫び",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -19594,12 +19594,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Poison Fang",
+              "name": "毒の牙",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
               "range": "-",
-              "effect": "Poison",
+              "effect": "毒",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -19627,25 +19627,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
           "All-Out Attack Howl ‡: ヘイスト",
-          "Ardent Howl: ヘイスト",
-          "Beast Rampage: Crazed",
-          "Freeze Intimidate: Agility Down"
+          "俊敏の雄叫び: ヘイスト",
+          "獣の暴走: Crazed",
+          "すくみあがる威嚇: 素早さダウン"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-synchronised-gaheris-dac71ae3": {
-      "name": "Synchronised Gaheris",
+      "name": "連奏のガヘリス",
       "level": "61",
-      "area": "Central Factory",
+      "area": "中央工廠",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -19668,37 +19668,37 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Hard Armour",
+              "name": "ハードアーマー",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Physical Protect",
+              "effect": "物理バリア",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Auto Repair",
+              "name": "セルフリペア",
               "type": "Status",
               "strength": "11.8 – 12.0",
               "hits": "-",
               "range": "-",
-              "effect": "Recovery",
+              "effect": "回復",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Naked Lock",
+              "name": "ネイキッドロック",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Frontal Arc",
-              "effect": "Pierce; Lock-On",
+              "effect": "貫通; ロックオン",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Spinning Slice",
+              "name": "ローリングカット",
               "type": "Physical",
               "strength": "1.55 – 1.75",
               "hits": "3",
@@ -19718,12 +19718,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Lock-On",
+              "name": "ロックオン",
               "type": "Ether",
               "strength": "-",
               "hits": "-",
               "range": "Frontal Arc",
-              "effect": "Lock-On",
+              "effect": "ロックオン",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -19751,25 +19751,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-fast",
-        "party": "Melia / Dunban / Riki · control Melia",
+        "party": "メリア / ダンバン / リキ · メリアを操作",
         "gems": [
           "素早さアップ",
-          "Ether Up on Melia"
+          "メリアに Ether Up"
         ],
         "watch": [
-          "Hard Armour: Physical Protect",
-          "Auto Repair: Recovery",
-          "Naked Lock: Pierce; Lock-On",
+          "ハードアーマー: 物理バリア",
+          "セルフリペア: 回復",
+          "ネイキッドロック: 貫通; ロックオン",
           "Ether Bullet: Ether Defence Down"
         ],
-        "route": "High physical resistance favors a controlled Melia ether plan; store elements and discharge into safe windows.",
+        "route": "物理耐性が高いときは、操作するメリアのエーテル計画が向く。属性を溜め、安全な隙に放出する。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-tempestuous-edegia-595d4a65": {
-      "name": "Tempestuous Edegia",
+      "name": "大嵐のエイデジア",
       "level": "39",
-      "area": "Eryth Sea",
+      "area": "エルト海",
       "conditions": "Nighttime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -19792,17 +19792,17 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Tripping Rush",
+              "name": "足払い突進",
               "type": "Physical",
               "strength": "1.8 – 2.0",
               "hits": "1",
               "range": "-",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Electro Rush",
+              "name": "電撃突進",
               "type": "Ether",
               "strength": "2.05 – 2.25",
               "hits": "1",
@@ -19835,21 +19835,21 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ"
         ],
         "watch": [
-          "Tripping Rush: Topple"
+          "足払い突進: 転倒"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-temporal-gawain-4ce23868": {
-      "name": "Temporal Gawain",
+      "name": "星霜のガウェイン",
       "level": "65",
-      "area": "Central Factory",
+      "area": "中央工廠",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -19877,12 +19877,12 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.8 – 2.0",
               "hits": "1",
               "range": "Frontal Line",
-              "effect": "Bleed",
+              "effect": "出血",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Boost Attack",
+              "name": "ブーストアタック",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -19892,7 +19892,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Shoulder Bomb",
+              "name": "ショルダーボム",
               "type": "Physical",
               "strength": "3.3 – 3.5",
               "hits": "1",
@@ -19902,28 +19902,28 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Swing Beat",
+              "name": "スウィングビート",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Wild Crash",
+              "name": "ワイルドクラッシュ",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Bind",
+              "effect": "バインド",
               "knockback": "-",
               "breakDamage": "-"
             }
           ],
           "spike": {
-            "type": "Topple",
+            "type": "転倒",
             "range": "10 M",
             "damage": "1,520 Damage"
           },
@@ -19949,26 +19949,26 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "スパイク防御",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Bazooka V: Bleed",
-          "Boost Attack: ヘイスト",
-          "Swing Beat: Topple",
-          "Wild Crash: Bind"
+          "Bazooka V: 出血",
+          "ブーストアタック: ヘイスト",
+          "スウィングビート: 転倒",
+          "ワイルドクラッシュ: バインド"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-territorial-rotbart-xc1-e75f6ebf": {
-      "name": "Territorial Rotbart (XC1)",
+      "name": "縄張りバルバロッサ（XC1）",
       "level": "81",
-      "area": "Bionis' Leg",
+      "area": "巨神脚",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -19991,7 +19991,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Beast Rampage",
+              "name": "獣の暴走",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -20001,27 +20001,27 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Taunt",
+              "name": "挑発",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Frontal Arc",
-              "effect": "Lock-On",
+              "effect": "ロックオン",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Threatening Roar",
+              "name": "威嚇鳴き",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Frontal Arc",
-              "effect": "Phys Def Down; Strength Down",
+              "effect": "物理耐性減; 筋力ダウン",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Gore",
+              "name": "突き上げ",
               "type": "Physical",
               "strength": "3.3 – 3.5",
               "hits": "1",
@@ -20031,7 +20031,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Head Butt",
+              "name": "ヘッドバッド",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
@@ -20042,7 +20042,7 @@ const COMBAT_DOSSIER_DATA={
             }
           ],
           "spike": {
-            "type": "Topple",
+            "type": "転倒",
             "range": "10 M",
             "damage": "1,800 Damage"
           },
@@ -20068,25 +20068,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind",
           "スパイク防御"
         ],
         "watch": [
-          "Beast Rampage: Crazed",
-          "Taunt: Lock-On",
-          "Threatening Roar: Phys Def Down; Strength Down"
+          "獣の暴走: Crazed",
+          "挑発: ロックオン",
+          "威嚇鳴き: 物理耐性減; 筋力ダウン"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-trainer-harmelon-16d41ce1": {
-      "name": "Trainer Harmelon",
+      "name": "調教のハーメルン",
       "level": "15",
-      "area": "Bionis' Leg",
+      "area": "巨神脚",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -20109,7 +20109,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Motivation",
+              "name": "やる気アップ",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -20119,27 +20119,27 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Recovery",
+              "name": "回復",
               "type": "Status",
               "strength": "10.8 – 11.0",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Recovery",
+              "effect": "回復",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Down Swipe",
+              "name": "縦振り",
               "type": "Physical",
               "strength": "2.3 – 2.5",
               "hits": "1",
               "range": "-",
-              "effect": "Daze",
+              "effect": "気絶",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Side Swipe",
+              "name": "横振り",
               "type": "Physical",
               "strength": "1.8 – 2.0",
               "hits": "1",
@@ -20172,23 +20172,23 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ"
         ],
         "watch": [
-          "Motivation: ヘイスト",
-          "Recovery: Recovery",
-          "Down Swipe: Daze"
+          "やる気アップ: ヘイスト",
+          "回復: 回復",
+          "縦振り: 気絶"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-tranquil-morax-8839b3be": {
-      "name": "Tranquil Morax",
+      "name": "平穏のモラクス",
       "level": "50",
-      "area": "Sword Valley",
+      "area": "大剣の渓谷",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -20211,27 +20211,27 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Over Eater VI",
+              "name": "Over イーター VI",
               "type": "Talent (Physical)",
               "strength": "2.8 – 3.0",
               "hits": "1",
               "range": "Single",
-              "effect": "Max HP Down",
+              "effect": "最大 最大ＨＰダウン",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Power Down",
+              "name": "パワーダウン",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Strength Down",
+              "effect": "筋力ダウン",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Break Screw",
+              "name": "ブレイクスクリュー",
               "type": "Physical",
               "strength": "3.3 – 3.5",
               "hits": "1",
@@ -20241,7 +20241,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Hard Attack",
+              "name": "ハードアタック",
               "type": "Physical",
               "strength": "3.3 – 3.5",
               "hits": "1",
@@ -20251,7 +20251,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Head Shock",
+              "name": "ヘッドショック",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
@@ -20262,9 +20262,9 @@ const COMBAT_DOSSIER_DATA={
             }
           ],
           "spike": {
-            "type": "Topple",
+            "type": "転倒",
             "range": "8 M",
-            "damage": "Sleep"
+            "damage": "スリープ"
           },
           "resistances": {
             "break": "0%",
@@ -20288,23 +20288,23 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "スパイク防御"
         ],
         "watch": [
-          "Over Eater VI: Max HP Down",
-          "Power Down: Strength Down"
+          "Over イーター VI: 最大 最大ＨＰダウン",
+          "パワーダウン: 筋力ダウン"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-tumultuous-felix-b2d2c24b": {
-      "name": "Tumultuous Felix",
+      "name": "怒涛のフェリックス",
       "level": "27",
-      "area": "Satorl Marsh",
+      "area": "燐光の地ザトール",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -20327,7 +20327,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Rampage III ‡",
+              "name": "大暴れ III ‡",
               "type": "Talent (Physical)",
               "strength": "1.3 – 1.5",
               "hits": "2",
@@ -20337,17 +20337,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/No"
             },
             {
-              "name": "Big Scissors",
+              "name": "大バサミ",
               "type": "Physical",
               "strength": "2.3 – 2.5",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Bleed",
+              "effect": "出血",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Combo",
+              "name": "連撃",
               "type": "Physical",
               "strength": "1.05 – 1.25",
               "hits": "3",
@@ -20367,22 +20367,22 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Armour Down",
+              "name": "アーマーダウン",
               "type": "Ether",
               "strength": "1.8 – 2.0",
               "hits": "1",
               "range": "-",
-              "effect": "Phys Def Down",
+              "effect": "物理耐性減",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Full Ether",
+              "name": "フールエーテル",
               "type": "Ether",
               "strength": "1.8 – 2.0",
               "hits": "1",
               "range": "-",
-              "effect": "Confuse",
+              "effect": "パニック",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -20410,25 +20410,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Big Scissors: Bleed",
-          "Combo: Double Damage if Toppled",
-          "Armour Down: Phys Def Down",
-          "Full Ether: Confuse"
+          "大バサミ: 出血",
+          "連撃: 転倒中はダメージ2倍",
+          "アーマーダウン: 物理耐性減",
+          "フールエーテル: パニック"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-turbulent-belmo-aeb66e5a": {
-      "name": "Turbulent Belmo",
+      "name": "大渦のベルモ",
       "level": "36",
-      "area": "Eryth Sea",
+      "area": "エルト海",
       "conditions": "Clear Weather or Shooting Stars",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -20451,52 +20451,52 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Howling Mockery",
+              "name": "挑発鳴き",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Lock-On",
+              "effect": "ロックオン",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Piercing Breath",
+              "name": "貫通ブレス",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Frontal Arc",
-              "effect": "Pierce",
+              "effect": "貫通",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Winged Awakening",
+              "name": "鳥の覚醒",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Awakening",
+              "effect": "覚醒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Twin Attack",
+              "name": "ツインアタック",
               "type": "Physical",
               "strength": "1.3 – 1.5",
               "hits": "2",
               "range": "-",
-              "effect": "Poison",
+              "effect": "毒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Poison Breath",
+              "name": "毒 Breath",
               "type": "Ether",
               "strength": "1.3 – 1.5",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Poison",
+              "effect": "毒",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -20524,25 +20524,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Howling Mockery: Lock-On",
-          "Piercing Breath: Pierce",
-          "Winged Awakening: Awakening",
-          "Twin Attack: Poison"
+          "挑発鳴き: ロックオン",
+          "貫通ブレス: 貫通",
+          "鳥の覚醒: 覚醒",
+          "ツインアタック: 毒"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-tyrea-battle-9ae4580e": {
-      "name": "Tyrea#Battle",
+      "name": "タルコ#Battle",
       "level": "38",
-      "area": "High Entia Tomb",
+      "area": "ハイエンター墓所",
       "conditions": "Story",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -20565,17 +20565,17 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Spiral Kick",
+              "name": "スパイラルキック",
               "type": "Physical",
               "strength": "2.8 - 3.0",
               "hits": "1",
               "range": "Single",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Flying Bee",
+              "name": "フライングビー",
               "type": "Physical",
               "strength": "2.8 - 3.0",
               "hits": "1",
@@ -20590,12 +20590,12 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.8 - 2.0",
               "hits": "1",
               "range": "Single",
-              "effect": "Bind",
+              "effect": "バインド",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Energy Drain",
+              "name": "ドレインエナジー",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -20605,7 +20605,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Reparation",
+              "name": "リベレーション",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -20615,12 +20615,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Telepathic Command",
+              "name": "テレシーコマンド",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Physical Defence Up",
+              "effect": "物理防御アップ",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -20648,26 +20648,26 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Spiral Kick: Topple",
-          "Flying Bee: Damage will double if target is toppled.",
-          "Guilty Bomb III: Bind",
-          "Energy Drain: Drains talent gauge, talent gauge of caster increases"
+          "スパイラルキック: 転倒",
+          "フライングビー: Damage will double if target is toppled.",
+          "Guilty Bomb III: バインド",
+          "ドレインエナジー: Drains talent gauge, talent gauge of caster increases"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-unreliable-rezno-5f13a84c": {
-      "name": "Unreliable Rezno",
+      "name": "連星のレゾーナ",
       "level": "96",
-      "area": "Makna Forest",
-      "conditions": "Torrid Weather during Final Challenge of the Sage",
+      "area": "マクナ原生林",
+      "conditions": "Torrid Weather during センニンの最終試練",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
         "url": "https://xenoblade.fandom.com/wiki/Unreliable_Rezno",
@@ -20689,7 +20689,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Gala Crush VII",
+              "name": "Gala 押しつぶし VII",
               "type": "Talent (Physical)",
               "strength": "2.0 – 2.25",
               "hits": "1",
@@ -20699,7 +20699,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "No/Yes"
             },
             {
-              "name": "Vortex",
+              "name": "竜巻おこし",
               "type": "Physical",
               "strength": "1.3 – 1.5",
               "hits": "2",
@@ -20709,12 +20709,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Aqua Wave",
+              "name": "アクアウェイブ",
               "type": "Ether",
               "strength": "1.05 – 1.25",
               "hits": "3",
               "range": "Frontal Line",
-              "effect": "Chill",
+              "effect": "冷気",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -20742,22 +20742,22 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind"
         ],
         "watch": [
-          "Aqua Wave: Chill"
+          "アクアウェイブ: 冷気"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-vagabond-allocer-171aa7f4": {
-      "name": "Vagabond Allocer",
+      "name": "流浪のアロケル",
       "level": "63",
-      "area": "Agniratha",
+      "area": "帝都アグニラータ",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -20790,27 +20790,27 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/No"
             },
             {
-              "name": "Energy Steal",
+              "name": "エナジースティール",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Talent Absorb",
+              "effect": "ＴＰ吸収",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Screw Shot",
+              "name": "スクリューショット",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
               "range": "-",
-              "effect": "Bleed",
+              "effect": "出血",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Energy Shot",
+              "name": "エナジーショット",
               "type": "Ether",
               "strength": "1.05 – 1.25",
               "hits": "1",
@@ -20843,23 +20843,23 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Energy Steal: Talent Absorb",
-          "Screw Shot: Bleed"
+          "エナジースティール: ＴＰ吸収",
+          "スクリューショット: 出血"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-vagrant-alfead-96856094": {
-      "name": "Vagrant Alfead",
+      "name": "風来のアルフィード",
       "level": "16",
-      "area": "Bionis' Leg",
+      "area": "巨神脚",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -20882,7 +20882,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Motivation",
+              "name": "やる気アップ",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -20892,27 +20892,27 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Recovery",
+              "name": "回復",
               "type": "Status",
               "strength": "10.8 – 11.0",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Recovery",
+              "effect": "回復",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Down Swipe",
+              "name": "縦振り",
               "type": "Physical",
               "strength": "2.3 – 2.5",
               "hits": "1",
               "range": "-",
-              "effect": "Daze",
+              "effect": "気絶",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Side Swipe",
+              "name": "横振り",
               "type": "Physical",
               "strength": "1.8 – 2.0",
               "hits": "1",
@@ -20945,23 +20945,23 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ"
         ],
         "watch": [
-          "Motivation: ヘイスト",
-          "Recovery: Recovery",
-          "Down Swipe: Daze"
+          "やる気アップ: ヘイスト",
+          "回復: 回復",
+          "縦振り: 気絶"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-vague-barbas-c23d8ec3": {
-      "name": "Vague Barbas",
+      "name": "濛々のマルバス",
       "level": "46",
-      "area": "Valak Mountain",
+      "area": "ヴァラク雪山",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -20989,12 +20989,12 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.55 – 1.75",
               "hits": "1",
               "range": "Circle around caster",
-              "effect": "Chill; Self HP Down",
+              "effect": "冷気; 自身に最大ＨＰダウン",
               "knockback": "Yes (1)",
               "breakDamage": "-"
             },
             {
-              "name": "Elemental Bullet",
+              "name": "エレメント弾",
               "type": "Ether",
               "strength": "1.3 – 1.5",
               "hits": "1",
@@ -21004,7 +21004,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Elemental Cannon",
+              "name": "エレメント砲",
               "type": "Ether",
               "strength": "1.3 – 1.5",
               "hits": "1",
@@ -21014,12 +21014,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Ice Whip",
+              "name": "アイスウィップ",
               "type": "Ether",
               "strength": "0.55 – 0.75",
               "hits": "3",
               "range": "Single",
-              "effect": "Arts Seal",
+              "effect": "アーツ封印",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -21027,7 +21027,7 @@ const COMBAT_DOSSIER_DATA={
           "spike": {
             "type": "Counter",
             "range": "8 M",
-            "damage": "Bind"
+            "damage": "バインド"
           },
           "resistances": {
             "break": "100%",
@@ -21051,24 +21051,24 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-fast",
-        "party": "Melia / Dunban / Riki · control Melia",
+        "party": "メリア / ダンバン / リキ · メリアを操作",
         "gems": [
           "素早さアップ",
           "スパイク防御",
-          "Ether Up on Melia"
+          "メリアに Ether Up"
         ],
         "watch": [
-          "Ice Eruption IV: Chill; Self HP Down",
-          "Ice Whip: Arts Seal"
+          "Ice Eruption IV: 冷気; 自身に 最大ＨＰダウン",
+          "アイスウィップ: アーツ封印"
         ],
-        "route": "High physical resistance favors a controlled Melia ether plan; store elements and discharge into safe windows.",
+        "route": "物理耐性が高いときは、操作するメリアのエーテル計画が向く。属性を溜め、安全な隙に放出する。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-venerable-focalor-43ab66d2": {
-      "name": "Venerable Focalor",
+      "name": "千秋のフォカロル",
       "level": "64",
-      "area": "Central Factory",
+      "area": "中央工廠",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -21091,22 +21091,22 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Flame Throw",
+              "name": "フレイムスロウ",
               "type": "Ether",
               "strength": "1.8 - 2.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Blaze",
+              "effect": "炎熱",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Soaked Wall",
+              "name": "ソークドウォール",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Physical Protect",
+              "effect": "物理バリア",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -21116,13 +21116,13 @@ const COMBAT_DOSSIER_DATA={
               "strength": "0.7 - 0.9",
               "hits": "4",
               "range": "Single",
-              "effect": "Bleed",
+              "effect": "出血",
               "knockback": "-",
               "breakDamage": "-"
             }
           ],
           "spike": {
-            "type": "Topple",
+            "type": "転倒",
             "range": "10 M",
             "damage": "1450 Damage"
           },
@@ -21148,25 +21148,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "スパイク防御",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Flame Throw: Blaze",
-          "Soaked Wall: Physical Protect",
-          "Hush Chop V: Bleed"
+          "フレイムスロウ: 炎熱",
+          "ソークドウォール: 物理バリア",
+          "Hush Chop V: 出血"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-vengeful-daulton-a59fd075": {
-      "name": "Vengeful Daulton",
+      "name": "制裁のドールトン",
       "level": "22",
-      "area": "Ether Mine",
+      "area": "中央採掘場",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -21189,17 +21189,17 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Thunderbolt II",
+              "name": "落雷 II",
               "type": "Talent (Ether)",
               "strength": "1.8 – 2.0",
               "hits": "1",
               "range": "-",
-              "effect": "Paralysis",
+              "effect": "パラライズ",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Angler Fish Hit",
+              "name": "チョウチンヒット",
               "type": "Physical",
               "strength": "1.8 – 2.0",
               "hits": "1",
@@ -21209,27 +21209,27 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Knock-Down Spin",
+              "name": "ノッキングスピン",
               "type": "Physical",
               "strength": "2.3 – 2.5",
               "hits": "1",
               "range": "-",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Sleepy Bubble",
+              "name": "スリープバブル",
               "type": "Ether",
               "strength": "1.3 – 1.5",
               "hits": "1",
               "range": "-",
-              "effect": "Sleep",
+              "effect": "スリープ",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Slow Water",
+              "name": "スロウウォータ",
               "type": "Ether",
               "strength": "1.3 – 1.5",
               "hits": "1",
@@ -21262,25 +21262,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Thunderbolt II: Paralysis",
-          "Knock-Down Spin: Topple",
-          "Sleepy Bubble: Sleep",
-          "Slow Water: Slow"
+          "落雷 II: パラライズ",
+          "ノッキングスピン: 転倒",
+          "スリープバブル: スリープ",
+          "スロウウォータ: Slow"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-verdant-bluchal-4325ae0b": {
-      "name": "Verdant Bluchal",
+      "name": "新緑のブルックル",
       "level": "5",
-      "area": "Colony 9",
+      "area": "コロニー9",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -21303,7 +21303,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Caterpile Attack",
+              "name": "キャピルアタック",
               "type": "Physical",
               "strength": "1.8 - 2.0",
               "hits": "1",
@@ -21313,7 +21313,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/No"
             },
             {
-              "name": "Caterpile Trample",
+              "name": "キャピル大頭突き",
               "type": "Physical",
               "strength": "3.8 - 4.0",
               "hits": "1",
@@ -21346,21 +21346,21 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ"
         ],
         "watch": [
           "No special art effect is listed; manage aggro and the level gap."
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-veteran-yozel-85aa9671": {
-      "name": "Veteran Yozel",
+      "name": "老練なヨーゼル",
       "level": "83",
-      "area": "Satorl Marsh",
+      "area": "燐光の地ザトール",
       "conditions": "Dense Fog at Night",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -21383,7 +21383,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Ultra Combo VIII",
+              "name": "Ultra 連撃 VIII",
               "type": "Talent (Physical)",
               "strength": "1.5 – 1.75",
               "hits": "3",
@@ -21393,7 +21393,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Beast Rampage",
+              "name": "獣の暴走",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -21403,42 +21403,42 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Iron Howl",
+              "name": "硬化の雄叫び",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Physical Protect",
+              "effect": "物理バリア",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Taunt",
+              "name": "挑発",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Lock-On",
+              "effect": "ロックオン",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Savage",
+              "name": "食らいつき",
               "type": "Physical",
               "strength": "2.3 – 2.5",
               "hits": "1",
               "range": "-",
-              "effect": "Bleed",
+              "effect": "出血",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Fire Breath",
+              "name": "ファイアブレス",
               "type": "Ether",
               "strength": "1.8 – 2.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Blaze",
+              "effect": "炎熱",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -21466,26 +21466,26 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Beast Rampage: Crazed",
-          "Iron Howl: Physical Protect",
-          "Taunt: Lock-On",
-          "Savage: Bleed"
+          "獣の暴走: Crazed",
+          "硬化の雄叫び: 物理バリア",
+          "挑発: ロックオン",
+          "食らいつき: 出血"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-victorious-gross-3e74a853": {
-      "name": "Victorious Gross",
+      "name": "五光のグロース",
       "level": "73",
-      "area": "Bionis' Interior",
+      "area": "巨神胎内",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -21508,32 +21508,32 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Total Immunise V",
+              "name": "Total 免疫砲 V",
               "type": "Talent (Ether)",
               "strength": "1.8 – 2.0",
               "hits": "1",
               "range": "Frontal Line",
-              "effect": "Confuse",
+              "effect": "パニック",
               "knockback": "Yes (1)",
               "breakDamage": "-"
             },
             {
-              "name": "Anti-Antibody",
+              "name": "アンチ抗体",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Physical Protect; 素早さアップ",
+              "effect": "物理バリア; 素早さアップ",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Immunise",
+              "name": "免疫砲",
               "type": "Ether",
               "strength": "0.55 – 0.75",
               "hits": "4",
               "range": "Single",
-              "effect": "Slow; Lock-On",
+              "effect": "Slow; ロックオン",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -21561,25 +21561,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-fast",
-        "party": "Melia / Dunban / Riki · control Melia",
+        "party": "メリア / ダンバン / リキ · メリアを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗",
-          "Ether Up on Melia"
+          "メリアに Ether Up"
         ],
         "watch": [
-          "Total Immunise V: Confuse",
-          "Anti-Antibody: Physical Protect; 素早さアップ",
-          "Immunise: Slow; Lock-On"
+          "Total 免疫砲 V: パニック",
+          "アンチ抗体: 物理バリア; 素早さアップ",
+          "免疫砲: Slow; ロックオン"
         ],
-        "route": "High physical resistance favors a controlled Melia ether plan; store elements and discharge into safe windows.",
+        "route": "物理耐性が高いときは、操作するメリアのエーテル計画が向く。属性を溜め、安全な隙に放出する。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-violent-andante-46ee6cb6": {
-      "name": "Violent Andante",
+      "name": "暴走のアンダンテ",
       "level": "16",
-      "area": "Bionis' Leg",
+      "area": "巨神脚",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -21602,7 +21602,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Ferocious Gore I",
+              "name": "猛突き上げ I",
               "type": "Talent (Physical)",
               "strength": "2.05 – 2.25",
               "hits": "1",
@@ -21612,7 +21612,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Beast Rampage",
+              "name": "獣の暴走",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -21622,7 +21622,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Armu Plough",
+              "name": "アルマラッセル",
               "type": "Physical",
               "strength": "1.05 – 1.25",
               "hits": "3",
@@ -21632,7 +21632,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Gore",
+              "name": "突き上げ",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
@@ -21642,7 +21642,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Rampage",
+              "name": "大暴れ",
               "type": "Physical",
               "strength": "0.8 – 1.0",
               "hits": "4",
@@ -21675,21 +21675,21 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ"
         ],
         "watch": [
-          "Beast Rampage: Crazed"
+          "獣の暴走: Crazed"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-vivid-anstan-62ad2757": {
-      "name": "Vivid Anstan",
+      "name": "鮮烈のアンスタン",
       "level": "75",
-      "area": "Bionis' Interior",
+      "area": "巨神胎内",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -21712,47 +21712,47 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Invite to Despair",
+              "name": "絶望への誘い",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Pierce; Lock-On",
+              "effect": "貫通; ロックオン",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Soul Read",
+              "name": "思考読み",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Physical Evasion Up",
+              "effect": "物理 回避率アップ",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Predation",
+              "name": "プレデーション",
               "type": "Physical",
               "strength": "1.55 – 1.75",
               "hits": "1",
               "range": "Circle around caster",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Attention Seek",
+              "name": "ロックオンミー",
               "type": "Ether",
               "strength": "-",
               "hits": "-",
               "range": "All",
-              "effect": "Lock-On",
+              "effect": "ロックオン",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Delta Cannon",
+              "name": "デルタキャノン",
               "type": "Ether",
               "strength": "1.8 – 2.0",
               "hits": "1",
@@ -21762,7 +21762,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Ether Storm",
+              "name": "エーテルストーム",
               "type": "Ether",
               "strength": "1.3 – 1.5",
               "hits": "1",
@@ -21795,25 +21795,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind"
         ],
         "watch": [
-          "Invite to Despair: Pierce; Lock-On",
-          "Soul Read: Physical Evasion Up",
-          "Predation: Topple",
-          "Attention Seek: Lock-On"
+          "絶望への誘い: 貫通; ロックオン",
+          "思考読み: 物理 回避率アップ",
+          "プレデーション: 転倒",
+          "ロックオンミー: ロックオン"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-wallslide-gwynry-5fa3ed8f": {
-      "name": "Wallslide Gwynry",
+      "name": "壁際のグエンリー",
       "level": "9",
-      "area": "Tephra Cave",
+      "area": "テフラ洞窟",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -21836,22 +21836,22 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Bloody Claw",
+              "name": "ブラッディクロー",
               "type": "Physical",
               "strength": "1.8 – 2.0",
               "hits": "1",
               "range": "-",
-              "effect": "Bleed",
+              "effect": "出血",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Knock-Down Spin",
+              "name": "ノッキングスピン",
               "type": "Physical",
               "strength": "1.8 – 2.0",
               "hits": "1",
               "range": "-",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -21879,23 +21879,23 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Bloody Claw: Bleed",
-          "Knock-Down Spin: Topple"
+          "ブラッディクロー: 出血",
+          "ノッキングスピン: 転倒"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-wandering-amon-2a37503e": {
-      "name": "Wandering Amon",
+      "name": "放浪のアモン",
       "level": "98",
-      "area": "Valak Mountain",
+      "area": "ヴァラク雪山",
       "conditions": "Nighttime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -21918,17 +21918,17 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Butt",
+              "name": "頭突き",
               "type": "Physical",
               "strength": "1.8 - 2.0",
               "hits": "1",
               "range": "Single",
-              "effect": "Bleed",
+              "effect": "出血",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Gore",
+              "name": "突き上げ",
               "type": "Physical",
               "strength": "2.3 - 2.5",
               "hits": "1",
@@ -21938,22 +21938,22 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/No"
             },
             {
-              "name": "Ultra Butt",
+              "name": "超頭突き",
               "type": "Physical",
               "strength": "2.8 - 3.0",
               "hits": "1",
               "range": "Single",
-              "effect": "Bleed",
+              "effect": "出血",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Ultra Gore",
+              "name": "超突き上げ",
               "type": "Physical",
               "strength": "3.3 - 3.5",
               "hits": "1",
               "range": "Single",
-              "effect": "Bleed",
+              "effect": "出血",
               "knockback": "-",
               "breakDamage": "Yes/No"
             }
@@ -21985,7 +21985,7 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind",
@@ -21993,18 +21993,18 @@ const COMBAT_DOSSIER_DATA={
           "全デバフ抵抗"
         ],
         "watch": [
-          "Butt: Bleed",
-          "Ultra Butt: Bleed",
-          "Ultra Gore: Bleed"
+          "頭突き: 出血",
+          "超頭突き: 出血",
+          "超突き上げ: 出血"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-white-eduardo-caf3b730": {
-      "name": "White Eduardo",
+      "name": "純白のエドワルド",
       "level": "17",
-      "area": "Bionis' Leg",
+      "area": "巨神脚",
       "conditions": "Stormy Weather",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -22027,22 +22027,22 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Devour",
+              "name": "捕食",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "HP Steal (%)",
+              "effect": "ＨＰ吸収 (%)",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Dive Attack",
+              "name": "飛び込み",
               "type": "Physical",
               "strength": "2.3 – 2.5",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -22080,22 +22080,22 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ"
         ],
         "watch": [
-          "Devour: HP Steal (%)",
-          "Dive Attack: Topple"
+          "捕食: ＨＰ吸収 (%)",
+          "飛び込み: 転倒"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-wicked-sallos-fe08279e": {
-      "name": "Wicked Sallos",
+      "name": "閻魔のサレオス",
       "level": "95",
-      "area": "Fallen Arm",
+      "area": "落ちた腕",
       "conditions": "Clear Weather",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -22118,7 +22118,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Gore",
+              "name": "突き上げ",
               "type": "Physical",
               "strength": "2.8 - 3.0",
               "hits": "1",
@@ -22128,12 +22128,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/No"
             },
             {
-              "name": "Fire Breath",
+              "name": "ファイアブレス",
               "type": "Ether",
               "strength": "1.8 - 2.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Blaze",
+              "effect": "炎熱",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -22148,7 +22148,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/Yes"
             },
             {
-              "name": "Winged Fury ※",
+              "name": "鳥の狂騒 ※",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -22181,24 +22181,24 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Fire Breath: Blaze",
-          "Winged Fury ※: Craze"
+          "ファイアブレス: 炎熱",
+          "鳥の狂騒 ※: Craze"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-wise-gremory-92427c98": {
-      "name": "Wise Gremory",
+      "name": "聡明のグレモリ",
       "level": "68",
-      "area": "Agniratha",
+      "area": "帝都アグニラータ",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -22221,7 +22221,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Big Combo VI",
+              "name": "大連撃 VI",
               "type": "Talent (Physical)",
               "strength": "0.3 – 0.5",
               "hits": "8",
@@ -22231,7 +22231,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Activity: Strong",
+              "name": "活性領域・剛",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -22241,17 +22241,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Big Spin",
+              "name": "大回転",
               "type": "Physical",
               "strength": "1.3 – 1.5",
               "hits": "2",
               "range": "Circle around caster",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Remote Cannon",
+              "name": "遠隔砲",
               "type": "Ether",
               "strength": "2.05 – 2.25",
               "hits": "1",
@@ -22288,23 +22288,23 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "スパイク防御"
         ],
         "watch": [
-          "Activity: Strong: 筋力アップ",
-          "Big Spin: Topple"
+          "活性領域・剛: 筋力アップ",
+          "大回転: 転倒"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-wrathful-orobas-e34b7921": {
-      "name": "Wrathful Orobas",
+      "name": "逆鱗のオロバス",
       "level": "67",
-      "area": "Agniratha",
+      "area": "帝都アグニラータ",
       "conditions": "Anytime",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -22327,7 +22327,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Gala Chainsaw V",
+              "name": "Gala チェーンソ V",
               "type": "Talent (Physical)",
               "strength": "2.05 – 2.25",
               "hits": "1",
@@ -22337,7 +22337,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Auto Chainsaw",
+              "name": "オートチェーンソ",
               "type": "Physical",
               "strength": "3.3 – 3.5",
               "hits": "1",
@@ -22347,17 +22347,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Lower Chainsaw",
+              "name": "ダウンチェーンソ",
               "type": "Physical",
               "strength": "2.8 – 3.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Long Cannon",
+              "name": "ロングキャノン",
               "type": "Ether",
               "strength": "1.8 – 2.0",
               "hits": "1",
@@ -22368,7 +22368,7 @@ const COMBAT_DOSSIER_DATA={
             }
           ],
           "spike": {
-            "type": "Topple",
+            "type": "転倒",
             "range": "8 M",
             "damage": "1,640 Damage"
           },
@@ -22394,22 +22394,22 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "スパイク防御"
         ],
         "watch": [
-          "Lower Chainsaw: Topple"
+          "ダウンチェーンソ: 転倒"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-xord-stats-878166d1": {
-      "name": "Xord#Stats",
+      "name": "ゾード#Stats",
       "level": "25",
-      "area": "Ether Mine",
+      "area": "中央採掘場",
       "conditions": "Story",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -22432,27 +22432,27 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Swing Beat",
+              "name": "スウィングビート",
               "type": "Physical",
               "strength": "2.8 - 3.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Wild Crash ※3",
+              "name": "ワイルドクラッシュ ※3",
               "type": "Physical",
               "strength": "2.8 - 3.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Bind",
+              "effect": "バインド",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Xord Impact ※4",
+              "name": "ゾードタックル ※4",
               "type": "Physical",
               "strength": "3.3 - 3.5",
               "hits": "1",
@@ -22467,12 +22467,12 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.8 - 2.0",
               "hits": "1",
               "range": "Frontal Line",
-              "effect": "Bleed",
+              "effect": "出血",
               "knockback": "Yes",
               "breakDamage": "-"
             },
             {
-              "name": "Boost Attack ※4",
+              "name": "ブーストアタック ※4",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -22492,7 +22492,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Berserk Boost ※6",
+              "name": "バーサクブースト ※6",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -22502,7 +22502,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Final Boost ※7",
+              "name": "ファイナルブースト ※7",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -22546,27 +22546,27 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Swing Beat",
+              "name": "スウィングビート",
               "type": "Physical",
               "strength": "2.8 - 3.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Wild Crash ※3",
+              "name": "ワイルドクラッシュ ※3",
               "type": "Physical",
               "strength": "2.8 - 3.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Bind",
+              "effect": "バインド",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Xord Impact ※4",
+              "name": "ゾードタックル ※4",
               "type": "Physical",
               "strength": "3.3 - 3.5",
               "hits": "1",
@@ -22581,12 +22581,12 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.8 - 2.0",
               "hits": "1",
               "range": "Frontal Line",
-              "effect": "Bleed",
+              "effect": "出血",
               "knockback": "Yes",
               "breakDamage": "-"
             },
             {
-              "name": "Boost Attack ※4",
+              "name": "ブーストアタック ※4",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -22606,7 +22606,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Berserk Boost ※6",
+              "name": "バーサクブースト ※6",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -22616,7 +22616,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Final Boost ※7",
+              "name": "ファイナルブースト ※7",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -22660,27 +22660,27 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Swing Beat",
+              "name": "スウィングビート",
               "type": "Physical",
               "strength": "2.8 - 3.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Wild Crash ※3",
+              "name": "ワイルドクラッシュ ※3",
               "type": "Physical",
               "strength": "2.8 - 3.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Bind",
+              "effect": "バインド",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Xord Impact ※4",
+              "name": "ゾードタックル ※4",
               "type": "Physical",
               "strength": "3.3 - 3.5",
               "hits": "1",
@@ -22695,12 +22695,12 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.8 - 2.0",
               "hits": "1",
               "range": "Frontal Line",
-              "effect": "Bleed",
+              "effect": "出血",
               "knockback": "Yes",
               "breakDamage": "-"
             },
             {
-              "name": "Boost Attack ※4",
+              "name": "ブーストアタック ※4",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -22720,7 +22720,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Berserk Boost ※6",
+              "name": "バーサクブースト ※6",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -22730,7 +22730,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Final Boost ※7",
+              "name": "ファイナルブースト ※7",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -22763,25 +22763,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Swing Beat: Topple",
-          "Wild Crash ※3: Bind",
-          "Bazooka II ※4: Bleed",
-          "Boost Attack ※4: ヘイスト"
+          "スウィングビート: 転倒",
+          "ワイルドクラッシュ ※3: バインド",
+          "Bazooka II ※4: 出血",
+          "ブーストアタック ※4: ヘイスト"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-yaldabaoth-cc101dc6": {
-      "name": "Yaldabaoth",
+      "name": "ヤルダバオト",
       "level": "72",
-      "area": "Agniratha",
+      "area": "帝都アグニラータ",
       "conditions": "Story",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -22804,7 +22804,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Egil Tail",
+              "name": "エギルテール",
               "type": "Physical",
               "strength": "1.8 - 2.0",
               "hits": "1",
@@ -22814,7 +22814,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/No"
             },
             {
-              "name": "Catastrophe",
+              "name": "カタストロフィ",
               "type": "Ether",
               "strength": "1.8 - 2.0",
               "hits": "1",
@@ -22824,17 +22824,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "King Breaker",
+              "name": "キングブレイカー",
               "type": "Ether",
               "strength": "1.8 - 2.0",
               "hits": "1",
               "range": "All",
-              "effect": "Topple; Agility Down",
+              "effect": "転倒; 素早さダウン",
               "knockback": "",
               "breakDamage": ""
             },
             {
-              "name": "King's Order",
+              "name": "キングオーダー",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -22878,7 +22878,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Egil Tail",
+              "name": "エギルテール",
               "type": "Physical",
               "strength": "2.75 - 3.00",
               "hits": "1",
@@ -22888,7 +22888,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "Yes/Yes"
             },
             {
-              "name": "Catastrophe",
+              "name": "カタストロフィ",
               "type": "Ether",
               "strength": "2.25 - 2.50",
               "hits": "1",
@@ -22903,17 +22903,17 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.25 - 1.50",
               "hits": "3",
               "range": "Circle around caster",
-              "effect": "Bleed",
+              "effect": "出血",
               "knockback": "-",
               "breakDamage": "Yes/No"
             },
             {
-              "name": "Machinery Field",
+              "name": "マシナリーフィールド",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Ether Defence Down; Arts Seal",
+              "effect": "エーテル防御ダウン; アーツ封印",
               "knockback": "Yes",
               "breakDamage": "-"
             }
@@ -22952,17 +22952,17 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Continual Model",
+              "name": "絶の型",
               "type": "Physical",
               "strength": "2.75 - 3.00",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Arts Seal",
+              "effect": "アーツ封印",
               "knockback": "Yes",
               "breakDamage": "-"
             },
             {
-              "name": "Strength Model",
+              "name": "剛の型",
               "type": "Physical",
               "strength": "3.25 - 3.50",
               "hits": "1",
@@ -22972,27 +22972,27 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Weakness Model",
+              "name": "柔の型",
               "type": "Physical",
               "strength": "2.25 - 2.50",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "Yes",
               "breakDamage": "-"
             },
             {
-              "name": "Chastise",
+              "name": "盟主の威嚇",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "All",
-              "effect": "Bind",
+              "effect": "バインド",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Manufacture Drone ※4",
+              "name": "機神兵製造 ※4",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -23002,7 +23002,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Energy Replenish ※5",
+              "name": "エネルギー充填 ※5",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -23012,7 +23012,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Bionis Slash X ※6",
+              "name": "Bionis なぎ払い X ※6",
               "type": "Talent (Physical)",
               "strength": "<font size=\"20\">∞</font>",
               "hits": "1",
@@ -23045,24 +23045,24 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Catastrophe: Slow",
-          "King Breaker: Topple; Agility Down",
-          "King's Order: Craze"
+          "カタストロフィ: Slow",
+          "キングブレイカー: 転倒; 素早さダウン",
+          "キングオーダー: Craze"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-zanza-battle-0f65b96b": {
-      "name": "Zanza#Battle",
+      "name": "ザンザ#Battle",
       "level": "50",
-      "area": "Mechonis Core",
+      "area": "機神界中枢",
       "conditions": "Story",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -23085,7 +23085,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "Monado Buster",
+              "name": "モナドバスター",
               "type": "Ether",
               "strength": "3.05 - 3.25",
               "hits": "1",
@@ -23095,27 +23095,27 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Monado Shield",
+              "name": "モナドシールド",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Invincible",
+              "effect": "無敵",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Monado Eater",
+              "name": "モナドイーター",
               "type": "Ether",
               "strength": "1.8 - 2.0",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Removes buffs; Inflicts Bleed",
+              "effect": "Removes buffs; Inflicts 出血",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Twin Break",
+              "name": "ツインブレイク",
               "type": "Physical",
               "strength": "-",
               "hits": "2",
@@ -23125,7 +23125,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Monado Brave",
+              "name": "モナドブレイブ",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -23135,12 +23135,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Ether Field",
+              "name": "エーテルフィールド",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Pierce",
+              "effect": "貫通",
               "knockback": "Yes (1)",
               "breakDamage": "-"
             }
@@ -23168,25 +23168,25 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "全デバフ抵抗"
         ],
         "watch": [
-          "Monado Shield: Invincible",
-          "Monado Eater: Removes buffs; Inflicts Bleed",
-          "Monado Brave: 筋力アップ; Ether Up",
-          "Ether Field: Pierce"
+          "モナドシールド: 無敵",
+          "モナドイーター: Removes buffs; Inflicts 出血",
+          "モナドブレイブ: 筋力アップ; Ether Up",
+          "エーテルフィールド: 貫通"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     },
     "monster-base-zanza-boss-fc9ee318": {
-      "name": "Zanza (boss)",
+      "name": "ザンザ (boss)",
       "level": "81",
-      "area": "Memory Space",
+      "area": "記憶空間",
       "conditions": "Story",
       "source": {
         "label": "Xenoblade Wiki enemy mechanics",
@@ -23214,32 +23214,32 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Physical Protect; Summons Guardians",
+              "effect": "物理バリア; Summons Guardians",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Monado Left",
+              "name": "モナドレフト",
               "type": "Ether",
               "strength": "1.5 - 1.75",
               "hits": "2",
               "range": "Single",
-              "effect": "Topple (on second hit)",
+              "effect": "転倒 (on second hit)",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Monado Right",
+              "name": "モナドライト",
               "type": "Physical",
               "strength": "1.25 - 1.5",
               "hits": "2",
               "range": "Single",
-              "effect": "Daze",
+              "effect": "気絶",
               "knockback": "-",
               "breakDamage": "No/Yes"
             },
             {
-              "name": "Monado Cross VIII",
+              "name": "モナド Cross VIII",
               "type": "Talent (Physical)",
               "strength": "3.0 -3.25",
               "hits": "1",
@@ -23249,27 +23249,27 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Monado Recover",
+              "name": "モナド Recover",
               "type": "Status",
               "strength": "19.8 - 20",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Recovery (himself and guardians)",
+              "effect": "回復 (himself and guardians)",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Monado Fear",
+              "name": "モナドフィアー",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Strength Down; Ether Down",
+              "effect": "筋力ダウン; エーテルダウン",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Monado Brave",
+              "name": "モナドブレイブ",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -23313,27 +23313,27 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "World Reconstruct (right)",
+              "name": "世界の再構築（右）",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Physical Protect; Crazed; Background turns gold",
+              "effect": "物理バリア; Crazed; Background turns gold",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "World Reconstruct (left) ※",
+              "name": "世界の再構築 (left) ※",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Physical Protect; Summons 2 Guardians; Background turns blue",
+              "effect": "物理バリア; Summons 2 Guardians; Background turns blue",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Monado Combo",
+              "name": "モナド連斬",
               "type": "Physical",
               "strength": "2.25 - 2.5",
               "hits": "2",
@@ -23343,32 +23343,32 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Bionis Buster",
+              "name": "巨神モナドバスター",
               "type": "Physical",
               "strength": "2.75 - 3.0",
               "hits": "1",
               "range": "Single",
-              "effect": "Daze",
+              "effect": "気絶",
               "knockback": "-",
               "breakDamage": "No/Yes"
             },
             {
-              "name": "Mechonis Buster",
+              "name": "機神モナドバスター",
               "type": "Physical",
               "strength": "2.25 - 2.5",
               "hits": "1",
               "range": "Frontal Arc",
-              "effect": "Topple",
+              "effect": "転倒",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Black Hole",
+              "name": "ブラックホール",
               "type": "Ether",
               "strength": "1.8 - 2.0",
               "hits": "1",
               "range": "Circle around caster",
-              "effect": "Pierce; Talent Drain",
+              "effect": "貫通; Talent Drain",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -23383,12 +23383,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Monado Shooter IX",
+              "name": "モナド Shooter IX",
               "type": "Talent (Ether)",
               "strength": "0.5 - 0.55",
               "hits": "6",
               "range": "Circle around caster",
-              "effect": "Bind",
+              "effect": "バインド",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -23427,7 +23427,7 @@ const COMBAT_DOSSIER_DATA={
           },
           "arts": [
             {
-              "name": "World Reconstruct (right)",
+              "name": "世界の再構築（右）",
               "type": "Status",
               "strength": "-",
               "hits": "-",
@@ -23437,17 +23437,17 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "World Reconstruct (left) ※",
+              "name": "世界の再構築 (left) ※",
               "type": "Status",
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Physical Protect; Summons 2 Guardians; Background turns blue",
+              "effect": "物理バリア; Summons 2 Guardians; Background turns blue",
               "knockback": "-",
               "breakDamage": "-"
             },
             {
-              "name": "Monado Combo",
+              "name": "モナド連斬",
               "type": "Physical",
               "strength": "2.0 - 2.25",
               "hits": "2",
@@ -23457,7 +23457,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Bionis Buster",
+              "name": "巨神モナドバスター",
               "type": "Physical",
               "strength": "2.5 - 2.75",
               "hits": "1",
@@ -23467,7 +23467,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "No/Yes"
             },
             {
-              "name": "Mechonis Buster",
+              "name": "機神モナドバスター",
               "type": "Physical",
               "strength": "2.0 - 2.25",
               "hits": "1",
@@ -23477,7 +23477,7 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Black Hole",
+              "name": "ブラックホール",
               "type": "Ether",
               "strength": "1.5 - 1.65",
               "hits": "1",
@@ -23497,12 +23497,12 @@ const COMBAT_DOSSIER_DATA={
               "breakDamage": "-"
             },
             {
-              "name": "Monado Shooter IX",
+              "name": "モナド Shooter IX",
               "type": "Talent (Ether)",
               "strength": "0.5 - 0.55",
               "hits": "6",
               "range": "Circle around caster",
-              "effect": "Bind",
+              "effect": "バインド",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -23530,24 +23530,24 @@ const COMBAT_DOSSIER_DATA={
       ],
       "guidePrep": {
         "preset": "main-um-safe",
-        "party": "Shulk / Dunban / Riki · control Shulk",
+        "party": "シュルク / ダンバン / リキ · シュルクを操作",
         "gems": [
           "素早さアップ",
           "夜間命中アップ when accuracy falls behind"
         ],
         "watch": [
-          "Summon Guardians ※: Physical Protect; Summons Guardians",
-          "Monado Left: Topple (on second hit)",
-          "Monado Right: Daze",
-          "Monado Recover: Recovery (himself and guardians)"
+          "Summon Guardians ※: 物理バリア; Summons Guardians",
+          "モナドレフト: 転倒 (on second hit)",
+          "モナドライト: 気絶",
+          "モナド Recover: 回復 (himself and guardians)"
         ],
-        "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
+        "route": "安定した未来視対応のパーティを使う。崩し → 転倒は、記載された耐性で可能なときだけ。",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
       }
     }
   },
   "encounters": {
-    "Final Marcus": {
+    "終世のマークス": {
       "preset": "main-superboss-safe",
       "gems": [
         "スパイク防御",
@@ -23555,12 +23555,12 @@ const COMBAT_DOSSIER_DATA={
         "夜間命中アップ if accuracy is low"
       ],
       "watch": [
-        "Aura damage spike",
+        "オーラ damage spike",
         "Can be dazed; use this as the first endgame accuracy check."
       ],
       "route": "First superboss: defeat before farming the harder four."
     },
-    "Ancient Daedala": {
+    "太古のデイダラ": {
       "preset": "main-superboss-safe",
       "gems": [
         "スパイク防御",
@@ -23568,12 +23568,12 @@ const COMBAT_DOSSIER_DATA={
         "素早さアップ"
       ],
       "watch": [
-        "Aura damage spike",
+        "オーラ damage spike",
         "Farm Rank V 夜間命中アップ cylinders before the Lv114/Lv120 fights."
       ],
       "route": "Second superboss; this farm unlocks the practical Abaasy preparation path."
     },
-    "Despotic Arsene": {
+    "暴帝のアルセーヌ": {
       "preset": "main-superboss-safe",
       "gems": [
         "素早さアップ",
@@ -23583,11 +23583,11 @@ const COMBAT_DOSSIER_DATA={
       "watch": [
         "Pure physical damage",
         "Fast attacks",
-        "Half-duration Topple; no spike requirement documented."
+        "Half-duration 転倒; no spike requirement documented."
       ],
       "route": "Third superboss after the Daedala 夜間命中アップ farm."
     },
-    "Blizzard Belgazas": {
+    "豪雪のベルガザス": {
       "preset": "main-topple-lock",
       "gems": [
         "夜間命中アップ",
@@ -23596,11 +23596,11 @@ const COMBAT_DOSSIER_DATA={
       ],
       "watch": [
         "No topple resistance",
-        "Topple-lock is the intended kill plan."
+        "転倒-lock is the intended kill plan."
       ],
       "route": "Fourth superboss; use the topple-lock preset once accuracy is solved."
     },
-    "Avalanche Abaasy": {
+    "雪檻のアバーシ": {
       "preset": "main-superboss-safe",
       "gems": [
         "Max 夜間命中アップ",
@@ -23612,7 +23612,7 @@ const COMBAT_DOSSIER_DATA={
       "watch": [
         "Instant-death counter spike",
         "Night + blizzard spawn",
-        "Max Monado Armour is mandatory defensive value."
+        "Max モナド アーマー is mandatory defensive value."
       ],
       "route": "Final Lv120 target; do not pull until the Daedala farm and gem plan are finished."
     }
