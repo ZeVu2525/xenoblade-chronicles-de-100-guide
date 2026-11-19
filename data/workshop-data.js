@@ -5,33 +5,33 @@ const WORKSHOP_DATA = {
   "sources": [
     {
       "id": "game8-gifts",
-      "label": "Game8 — Presents Guide",
+      "label": "Game8 — プレゼントガイド",
       "url": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/289015",
-      "use": "complete gift affinity matrix and item areas"
+      "use": "プレゼントの親和度表と、アイテムのある地域"
     },
     {
       "id": "wiki-crafting",
-      "label": "Xenoblade Wiki — Gem Crafting",
+      "label": "Xenoblade Wiki — ジェムクラフト",
       "url": "https://xenoblade.fandom.com/wiki/Gem_Crafting",
-      "use": "flame behavior, engineer tendencies, Heat and Mega Heat thresholds"
+      "use": "炎の挙動、エンジニアの傾向、Heat と Mega Heat の閾値"
     },
     {
       "id": "game8-crafting",
-      "label": "Game8 — Gem Crafting Guide",
+      "label": "Game8 — ジェムクラフトガイド",
       "url": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/289812",
-      "use": "recommended Shooter / Engineer pairs"
+      "use": "推奨の Shooter／Engineer の組み合わせ"
     },
     {
       "id": "gamefaqs-arts",
-      "label": "GameFAQs — Arts Guide",
+      "label": "GameFAQs — アーツガイド",
       "url": "https://gamefaqs.gamespot.com/switch/272738-xenoblade-chronicles-definitive-edition/faqs/65244",
-      "use": "Art colors and Chain Attack color rules"
+      "use": "アーツの色とチェインアタックの色の規則"
     },
     {
       "id": "wiki-chain",
-      "label": "Xenoblade Wiki — Chain Attack (XC1)",
+      "label": "Xenoblade Wiki — チェインアタック（XC1）",
       "url": "https://xenoblade.fandom.com/wiki/Chain_Attack_(XC1)",
-      "use": "Talent Art wildcard and chain multiplier behavior"
+      "use": "Talent Art のワイルドカードと、チェイン倍率の挙動"
     }
   ],
   "gemTargets": [
@@ -58,19 +58,19 @@ const WORKSHOP_DATA = {
         "shooter": "shulk",
         "engineer": "reyn",
         "unlock": 1,
-        "why": "Shulk can trigger Fever; Reyn strongly favors Strong Flame."
+        "why": "シュルクは Fever を起こせる。ラインは Strong Flame を強く出しやすい。"
       },
       {
         "shooter": "dunban",
         "engineer": "reyn",
         "unlock": 5,
-        "why": "Dunban rewards a steady flame; Reyn strongly favors Strong Flame."
+        "why": "ダンバンは安定した炎が伸びる。ラインは Strong Flame を強く出しやすい。"
       },
       {
         "shooter": "riki",
         "engineer": "reyn",
         "unlock": 7,
-        "why": "Definitive Edition fixes Riki's Shooter behavior; repeated Strong Flame cycles make this the consistent late option."
+        "why": "Definitive Edition はリキの Shooter の挙動を直している。Strong Flame を繰り返すと、終盤の安定した選択肢になる。"
       }
     ],
     "medium": [
@@ -78,19 +78,19 @@ const WORKSHOP_DATA = {
         "shooter": "melia",
         "engineer": "fiora",
         "unlock": 12,
-        "why": "Melia boosts Medium Flame gains and Fiora has a 90% Medium Flame tendency."
+        "why": "メリアは Medium Flame の伸びを上げ、フィオルンは Medium Flame が 90%。"
       },
       {
         "shooter": "riki",
         "engineer": "fiora",
         "unlock": 12,
-        "why": "Riki repeats cycles while Fiora overwhelmingly produces Medium Flame."
+        "why": "リキが周期を繰り返し、フィオルンはほぼ Medium Flame を出す。"
       },
       {
         "shooter": "dunban",
         "engineer": "fiora",
         "unlock": 12,
-        "why": "Fiora holds Medium Flame steady so Dunban's Shooter ability can contribute."
+        "why": "フィオルンが Medium Flame を安定させるので、ダンバンの Shooter が効く。"
       }
     ],
     "gentle": [
@@ -98,236 +98,236 @@ const WORKSHOP_DATA = {
         "shooter": "sharla",
         "engineer": "riki",
         "unlock": 7,
-        "why": "Sharla boosts Gentle Flame and Riki has an 80% Gentle Flame tendency."
+        "why": "カルナは Gentle Flame を伸ばし、リキは Gentle Flame が 80%。"
       },
       {
         "shooter": "shulk",
         "engineer": "riki",
         "unlock": 7,
-        "why": "A practical cylinder-prep pair when Sharla is not being used."
+        "why": "カルナを使っていないときの、実用的なシリンダー準備のペア。"
       },
       {
         "shooter": "fiora",
         "engineer": "riki",
         "unlock": 12,
-        "why": "Fiora begins with three cylinder gauges; Riki strongly favors Gentle Flame."
+        "why": "フィオルンはシリンダーゲージ3つから始まる。リキは Gentle Flame を強く出しやすい。"
       }
     ]
   },
   "chainArts": {
     "shulk": [
       {
-        "name": "Stream Edge",
+        "name": "ストリームエッジ",
         "color": "pink",
         "effect": "Break",
-        "note": "Area Break."
+        "note": "範囲の崩し。"
       },
       {
-        "name": "Air Slash",
+        "name": "エアスラッシュ",
         "color": "pink",
         "effect": "Break",
         "unlock": 3,
-        "note": "Single-target Break plus Slow when positioned."
+        "note": "位置が合うと、単体の崩しに Slow が付く。"
       },
       {
-        "name": "Shaker Edge",
+        "name": "シェイカーエッジ",
         "color": "yellow",
         "effect": "Daze",
         "unlock": 5,
-        "note": "Dazes a Toppled target."
+        "note": "転倒中の対象を気絶させる。"
       },
       {
-        "name": "Back Slash",
+        "name": "バックスラッシュ",
         "color": "red",
         "effect": "Damage",
-        "note": "Best from behind."
+        "note": "背面からが最も高い。"
       },
       {
-        "name": "Slit Edge",
+        "name": "スリットエッジ",
         "color": "red",
         "effect": "Debuff",
-        "note": "Physical defence down from the side."
+        "note": "側面から物理防御を下げる。"
       },
       {
-        "name": "Monado Art",
+        "name": "モナドのアーツ",
         "color": "talent",
         "effect": "Wildcard",
-        "note": "Preserves multiplier and lets the next Art establish a new color."
+        "note": "倍率を維持し、次のアーツで新しい色を始められる。"
       }
     ],
     "reyn": [
       {
-        "name": "Wild Down",
+        "name": "ワイルドダウン",
         "color": "green",
         "effect": "Topple",
-        "note": "Requires Break."
+        "note": "崩しが必要。"
       },
       {
-        "name": "Shield Bash",
+        "name": "シールドバッシュ",
         "color": "yellow",
         "effect": "Daze",
-        "note": "Requires Topple."
+        "note": "転倒が必要。"
       },
       {
-        "name": "Sword Drive",
+        "name": "ソードパイル",
         "color": "red",
         "effect": "Damage",
-        "note": "High physical burst."
+        "note": "高い物理バースト。"
       },
       {
-        "name": "Bone Upper",
+        "name": "ボーンアッパー",
         "color": "red",
         "effect": "Talent gain",
-        "note": "Builds Talent Gauge for Mad Taunt."
+        "note": "マッドタウントのために Talent Gauge を溜める。"
       },
       {
-        "name": "Mad Taunt",
+        "name": "マッドタウント",
         "color": "talent",
         "effect": "Wildcard",
-        "note": "Talent Art wildcard in a Chain Attack."
+        "note": "チェインアタックの中の Talent Art ワイルドカード。"
       }
     ],
     "sharla": [
       {
-        "name": "Metal Blast",
+        "name": "メタルブラスト",
         "color": "pink",
         "effect": "Break",
-        "note": "Line Break."
+        "note": "直線の崩し。"
       },
       {
-        "name": "Head Shot",
+        "name": "ヘッドスナイプ",
         "color": "red",
         "effect": "Damage",
-        "note": "Can instantly defeat a Dazed non-boss enemy."
+        "note": "気絶した、ボス以外の敵を即座に倒せることがある。"
       },
       {
-        "name": "Heal Round",
+        "name": "ヒールラウンド",
         "color": "blue",
         "effect": "Heal",
-        "note": "Party recovery."
+        "note": "パーティ回復。"
       }
     ],
     "dunban": [
       {
-        "name": "Steel Strike",
+        "name": "鉄功弾",
         "color": "green",
         "effect": "Topple",
-        "note": "Requires Break."
+        "note": "崩しが必要。"
       },
       {
-        "name": "Thunder",
+        "name": "天雷",
         "color": "yellow",
         "effect": "Daze",
         "unlock": 7,
-        "note": "Dazes a Toppled target while an Aura is active."
+        "note": "オーラが有効なあいだ、転倒中の対象を気絶させる。"
       },
       {
-        "name": "Gale Slash",
+        "name": "疾風刃",
         "color": "red",
         "effect": "Damage",
-        "note": "Starts several Dunban combos."
+        "note": "ダンバンの連携をいくつか開始する。"
       },
       {
-        "name": "Worldly Slash",
+        "name": "天地剣",
         "color": "red",
         "effect": "Debuff",
-        "note": "Physical defence down."
+        "note": "物理防御低下。"
       },
       {
-        "name": "Blossom Dance",
+        "name": "桜花乱舞",
         "color": "talent",
         "effect": "Wildcard",
-        "note": "Four-stage Talent Art and color bridge."
+        "note": "4段階の Talent Art で、色をつなぐ。"
       }
     ],
     "melia": [
       {
-        "name": "Spear Break",
+        "name": "スピアブレイク",
         "color": "red",
         "effect": "Damage",
-        "note": "Sets Starlight Kick."
+        "note": "スターライト・ニーを付与する。"
       },
       {
-        "name": "Starlight Kick",
+        "name": "スターライト・ニー",
         "color": "green",
         "effect": "Topple",
         "unlock": 7,
-        "note": "Topples after Spear Break without needing Break."
+        "note": "スピアブレイクのあと、崩しなしで転倒させる。"
       },
       {
         "name": "Element Discharge",
         "color": "talent",
         "effect": "Wildcard",
-        "note": "Talent Art wildcard; discharged element controls the actual effect."
+        "note": "Talent Art のワイルドカード。発射した属性が実際の効果を決める。"
       }
     ],
     "riki": [
       {
-        "name": "Roly-Poly",
+        "name": "コロベも",
         "color": "green",
         "effect": "Topple",
-        "note": "Requires Break."
+        "note": "崩しが必要。"
       },
       {
-        "name": "Bitey Bitey",
+        "name": "カムカムだも",
         "color": "red",
         "effect": "Damage",
-        "note": "Physical damage and Bleed."
+        "note": "物理ダメージと出血。"
       },
       {
-        "name": "Say Sorry",
+        "name": "クイアラタメも",
         "color": "red",
         "effect": "Damage",
-        "note": "Consumes target debuffs for burst."
+        "note": "対象のデバフを消費してバーストする。"
       },
       {
-        "name": "Lurgy",
+        "name": "ドクドクだも",
         "color": "purple",
-        "effect": "Ether DoT",
-        "note": "Poison damage over time."
+        "effect": "エーテルの継続ダメージ",
+        "note": "毒の継続ダメージ。"
       },
       {
-        "name": "Burninate",
+        "name": "モエモエだも",
         "color": "purple",
-        "effect": "Ether DoT",
+        "effect": "エーテルの継続ダメージ",
         "unlock": 7,
-        "note": "Blaze damage over time."
+        "note": "炎熱の継続ダメージ。"
       },
       {
-        "name": "Yoink!",
+        "name": "イタダクも",
         "color": "talent",
         "effect": "Wildcard",
-        "note": "Talent Art wildcard."
+        "note": "Talent Art のワイルドカード。"
       }
     ],
     "fiora": [
       {
-        "name": "Final Cross",
+        "name": "ファイナルクロス",
         "color": "green",
         "effect": "Topple",
         "unlock": 12,
-        "note": "Returned Fiora only; Topples in the required high-tension state."
+        "note": "復帰後のフィオルンだけ。必要な高テンション状態で転倒させる。"
       },
       {
-        "name": "Cross Impact",
+        "name": "クロスインパクト",
         "color": "yellow",
         "effect": "Daze",
         "unlock": 12,
-        "note": "Returned Fiora only; Dazes a Toppled target."
+        "note": "復帰後のフィオルンだけ。転倒中の対象を気絶させる。"
       },
       {
-        "name": "Double Wind",
+        "name": "ダブルウインド",
         "color": "red",
         "effect": "Damage",
         "unlock": 12,
-        "note": "Returned Fiora only; multi-target physical damage."
+        "note": "復帰後のフィオルンだけ。複数対象の物理ダメージ。"
       },
       {
         "name": "Talent Art",
         "color": "talent",
         "effect": "Wildcard",
         "unlock": 12,
-        "note": "Returned Fiora's current Talent Art bridges colors."
+        "note": "復帰後のフィオルンの、その時点の Talent Art が色をつなぐ。"
       }
     ]
   },
@@ -460,7 +460,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-2",
-      "name": "Cool Potato",
+      "name": "クルイモ",
       "area": "Colony 9",
       "category": "Vegetable",
       "affinity": {
@@ -475,7 +475,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-3",
-      "name": "Red Lettuce",
+      "name": "赤色レタス",
       "area": "Colony 9",
       "category": "Vegetable",
       "affinity": {
@@ -490,7 +490,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-4",
-      "name": "Chewy Radish",
+      "name": "カムカムラディッシュ",
       "area": "Colony 9",
       "category": "Vegetable",
       "affinity": {
@@ -505,7 +505,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-5",
-      "name": "Hot Taro",
+      "name": "ホットむらさきイモ",
       "area": "Bionis' Leg",
       "category": "Vegetable",
       "affinity": {
@@ -520,7 +520,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-6",
-      "name": "Juicy Broccoli",
+      "name": "ジューシートマト",
       "area": "Bionis' Leg",
       "category": "Vegetable",
       "affinity": {
@@ -535,7 +535,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-7",
-      "name": "Spicy Cabbage",
+      "name": "ホットキャベツ",
       "area": "Bionis' Leg",
       "category": "Vegetable",
       "affinity": {
@@ -550,7 +550,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-8",
-      "name": "Hard Lotus",
+      "name": "ハードホウレン",
       "area": "Bionis' Leg",
       "category": "Vegetable",
       "affinity": {
@@ -565,7 +565,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-9",
-      "name": "Blue Turnip",
+      "name": "青ウメロン",
       "area": "Satorl Marsh",
       "category": "Vegetable",
       "affinity": {
@@ -580,7 +580,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-10",
-      "name": "Cute Parsnip",
+      "name": "キュートストロベリ",
       "area": "Satorl Marsh",
       "category": "Vegetable",
       "affinity": {
@@ -595,7 +595,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-11",
-      "name": "Poisonous Gourd",
+      "name": "ポイズンツルレイシ",
       "area": "Satorl Marsh",
       "category": "Vegetable",
       "affinity": {
@@ -610,7 +610,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-12",
-      "name": "Humming Cabbage",
+      "name": "ハミングメキャベツ",
       "area": "Satorl Marsh",
       "category": "Vegetable",
       "affinity": {
@@ -625,7 +625,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-13",
-      "name": "Sarsaparilla",
+      "name": "サルサペリラ",
       "area": "Bionis' Interior",
       "category": "Vegetable",
       "affinity": {
@@ -640,7 +640,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-14",
-      "name": "Black Liver Bean",
+      "name": "クロマメレバー",
       "area": "Bionis' Interior",
       "category": "Vegetable",
       "affinity": {
@@ -655,7 +655,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-15",
-      "name": "Schorl Mushroom",
+      "name": "トルマリンダケ",
       "area": "Makna Forest",
       "category": "Vegetable",
       "affinity": {
@@ -670,7 +670,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-16",
-      "name": "Kelp Mushroom",
+      "name": "コンブダケ",
       "area": "Makna Forest",
       "category": "Vegetable",
       "affinity": {
@@ -685,7 +685,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-17",
-      "name": "Honey Rhubarb",
+      "name": "マクナ・アマミツ",
       "area": "Makna Forest",
       "category": "Vegetable",
       "affinity": {
@@ -700,7 +700,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-18",
-      "name": "Pink Asparagus",
+      "name": "アスパラボム",
       "area": "Eryth Sea",
       "category": "Vegetable",
       "affinity": {
@@ -715,7 +715,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-19",
-      "name": "Tropical Radish",
+      "name": "トロピカルダイコン",
       "area": "Eryth Sea",
       "category": "Vegetable",
       "affinity": {
@@ -730,7 +730,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-20",
-      "name": "Dolphin Carrot",
+      "name": "ドルフィンゴーヤ",
       "area": "Eryth Sea",
       "category": "Vegetable",
       "affinity": {
@@ -745,7 +745,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-21",
-      "name": "Gold Burdock",
+      "name": "ゴールドゴボウ",
       "area": "Eryth Sea",
       "category": "Vegetable",
       "affinity": {
@@ -760,7 +760,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-22",
-      "name": "Sour Radish",
+      "name": "サワーダイコン",
       "area": "Valak Mountain",
       "category": "Vegetable",
       "affinity": {
@@ -775,7 +775,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-23",
-      "name": "Ice Cabbage",
+      "name": "アイスキャベツ",
       "area": "Valak Mountain",
       "category": "Vegetable",
       "affinity": {
@@ -790,7 +790,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-24",
-      "name": "Girl Courgette",
+      "name": "ガールズッキーニ",
       "area": "Valak Mountain",
       "category": "Vegetable",
       "affinity": {
@@ -805,7 +805,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-25",
-      "name": "Amethyst Vanilla",
+      "name": "アメシストオーニラ",
       "area": "Valak Mountain",
       "category": "Vegetable",
       "affinity": {
@@ -820,7 +820,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-26",
-      "name": "Fire Pepper",
+      "name": "ファイアペッパー",
       "area": "Sword Valley",
       "category": "Vegetable",
       "affinity": {
@@ -835,7 +835,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-27",
-      "name": "Meaty Carrot",
+      "name": "ミートパプリカ",
       "area": "Sword Valley",
       "category": "Vegetable",
       "affinity": {
@@ -850,7 +850,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-28",
-      "name": "Bitter Broccoli",
+      "name": "ビターブロッコリー",
       "area": "Sword Valley",
       "category": "Vegetable",
       "affinity": {
@@ -865,7 +865,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-29",
-      "name": "Sour Turnip",
+      "name": "シブコールラビ",
       "area": "Fallen Arm",
       "category": "Vegetable",
       "affinity": {
@@ -880,7 +880,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-30",
-      "name": "Golden Beetroot",
+      "name": "コールデンスイカ",
       "area": "Fallen Arm",
       "category": "Vegetable",
       "affinity": {
@@ -895,7 +895,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-31",
-      "name": "Juicy Steakplant",
+      "name": "ジューシィマクワ",
       "area": "Mechonis Field",
       "category": "Vegetable",
       "affinity": {
@@ -910,7 +910,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-32",
-      "name": "Acerola Pea",
+      "name": "アセロラエンドウ",
       "area": "Mechonis Field",
       "category": "Vegetable",
       "affinity": {
@@ -925,7 +925,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-33",
-      "name": "Energy Aubergine",
+      "name": "スタミ・ナス",
       "area": "Mechonis Field",
       "category": "Vegetable",
       "affinity": {
@@ -940,7 +940,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-34",
-      "name": "Sweet Pepper",
+      "name": "スウィートパプリカ",
       "area": "Mechonis Field",
       "category": "Vegetable",
       "affinity": {
@@ -955,7 +955,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-35",
-      "name": "Meaty Potato",
+      "name": "フレッシュメロン",
       "area": "Central Factory",
       "category": "Vegetable",
       "affinity": {
@@ -970,7 +970,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-36",
-      "name": "Blue Root",
+      "name": "アサギイモ",
       "area": "Central Factory",
       "category": "Vegetable",
       "affinity": {
@@ -985,7 +985,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-37",
-      "name": "Dance Apple",
+      "name": "オドリンゴ",
       "area": "Colony 9",
       "category": "Fruit",
       "affinity": {
@@ -1000,7 +1000,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-38",
-      "name": "Black Kiwi",
+      "name": "ブラックキウイ",
       "area": "Colony 9",
       "category": "Fruit",
       "affinity": {
@@ -1015,7 +1015,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-39",
-      "name": "Clear Almond",
+      "name": "クリアーモンド",
       "area": "Tephra Cave",
       "category": "Fruit",
       "affinity": {
@@ -1030,7 +1030,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-40",
-      "name": "Bright Fig",
+      "name": "サンサンイチジク",
       "area": "Tephra Cave",
       "category": "Fruit",
       "affinity": {
@@ -1045,7 +1045,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-41",
-      "name": "Dark Grape",
+      "name": "クラブドウ",
       "area": "Tephra Cave",
       "category": "Fruit",
       "affinity": {
@@ -1060,7 +1060,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-42",
-      "name": "Sour Gooseberry",
+      "name": "シャープクランベリ",
       "area": "Bionis' Leg",
       "category": "Fruit",
       "affinity": {
@@ -1075,7 +1075,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-43",
-      "name": "Red Durian",
+      "name": "レッドドリアン",
       "area": "Bionis' Leg",
       "category": "Fruit",
       "affinity": {
@@ -1090,7 +1090,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-44",
-      "name": "Walnut Grape",
+      "name": "クルミグレープ",
       "area": "Bionis' Leg",
       "category": "Fruit",
       "affinity": {
@@ -1105,7 +1105,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-45",
-      "name": "Humming Plum",
+      "name": "ハミングプラム",
       "area": "Bionis' Leg",
       "category": "Fruit",
       "affinity": {
@@ -1120,7 +1120,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-46",
-      "name": "Dark Mango",
+      "name": "ダークマンゴー",
       "area": "Makna Forest",
       "category": "Fruit",
       "affinity": {
@@ -1135,7 +1135,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-47",
-      "name": "Pure Cherry",
+      "name": "ピュアアセロラ",
       "area": "Makna Forest",
       "category": "Fruit",
       "affinity": {
@@ -1150,7 +1150,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-48",
-      "name": "Bitter Kiwi",
+      "name": "ビターキウイ",
       "area": "Makna Forest",
       "category": "Fruit",
       "affinity": {
@@ -1165,7 +1165,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-49",
-      "name": "Juicy Grape",
+      "name": "ジュシブドウ",
       "area": "Makna Forest",
       "category": "Fruit",
       "affinity": {
@@ -1180,7 +1180,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-50",
-      "name": "Spicy Nut",
+      "name": "ピリットナシ",
       "area": "Frontier Village",
       "category": "Fruit",
       "affinity": {
@@ -1195,7 +1195,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-51",
-      "name": "Crimson Citrus",
+      "name": "クレナイスダチ",
       "area": "Frontier Village",
       "category": "Fruit",
       "affinity": {
@@ -1210,7 +1210,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-52",
-      "name": "Cool Lemon",
+      "name": "クルクールレモン",
       "area": "Alcamoth",
       "category": "Fruit",
       "affinity": {
@@ -1225,7 +1225,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-53",
-      "name": "Heart Peach",
+      "name": "ハートピーチ",
       "area": "Alcamoth",
       "category": "Fruit",
       "affinity": {
@@ -1240,7 +1240,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-54",
-      "name": "Ether Plum",
+      "name": "エーデルプラム",
       "area": "Valak Mountain",
       "category": "Fruit",
       "affinity": {
@@ -1255,7 +1255,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-55",
-      "name": "Fire Apple",
+      "name": "ファイアップル",
       "area": "Valak Mountain",
       "category": "Fruit",
       "affinity": {
@@ -1270,7 +1270,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-56",
-      "name": "Ruby Mangosteen",
+      "name": "ルビーマンゴスチン",
       "area": "Valak Mountain",
       "category": "Fruit",
       "affinity": {
@@ -1285,7 +1285,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-57",
-      "name": "Sour Grape",
+      "name": "シブドウ",
       "area": "Valak Mountain",
       "category": "Fruit",
       "affinity": {
@@ -1300,7 +1300,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-58",
-      "name": "Bitter Melon",
+      "name": "ニガメロン",
       "area": "Sword Valley",
       "category": "Fruit",
       "affinity": {
@@ -1315,7 +1315,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-59",
-      "name": "Citron Gooseberry",
+      "name": "クエンカムカム",
       "area": "Sword Valley",
       "category": "Fruit",
       "affinity": {
@@ -1330,7 +1330,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-60",
-      "name": "Juicy Melon",
+      "name": "ミズミズメロン",
       "area": "Sword Valley",
       "category": "Fruit",
       "affinity": {
@@ -1345,7 +1345,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-61",
-      "name": "Amethyst Melon",
+      "name": "アメシストレモン",
       "area": "Sword Valley",
       "category": "Fruit",
       "affinity": {
@@ -1360,7 +1360,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-62",
-      "name": "White Plum",
+      "name": "ホワイトプラム",
       "area": "Fallen Arm",
       "category": "Fruit",
       "affinity": {
@@ -1375,7 +1375,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-63",
-      "name": "Ice Kiwi Fruit",
+      "name": "アイスキウイ",
       "area": "Fallen Arm",
       "category": "Fruit",
       "affinity": {
@@ -1390,7 +1390,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-64",
-      "name": "Spicy Papaya",
+      "name": "ホットパパイヤ",
       "area": "Fallen Arm",
       "category": "Fruit",
       "affinity": {
@@ -1405,7 +1405,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-65",
-      "name": "Large Mango",
+      "name": "ムシマンゴー",
       "area": "Fallen Arm",
       "category": "Fruit",
       "affinity": {
@@ -1420,7 +1420,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-66",
-      "name": "Juicy Blueberry",
+      "name": "タジルブルーベリー",
       "area": "Agniratha",
       "category": "Fruit",
       "affinity": {
@@ -1435,7 +1435,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-67",
-      "name": "Sweet Lime",
+      "name": "アマアマライム",
       "area": "Agniratha",
       "category": "Fruit",
       "affinity": {
@@ -1450,7 +1450,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-68",
-      "name": "Spicy Banana",
+      "name": "ホットバナナ",
       "area": "Agniratha",
       "category": "Fruit",
       "affinity": {
@@ -1465,7 +1465,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-69",
-      "name": "Dry Lemon",
+      "name": "ドライレモン",
       "area": "Prison Island",
       "category": "Fruit",
       "affinity": {
@@ -1480,7 +1480,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-70",
-      "name": "Death Lychee",
+      "name": "デッドライチ",
       "area": "Prison Island",
       "category": "Fruit",
       "affinity": {
@@ -1495,7 +1495,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-71",
-      "name": "Hell Raspberry",
+      "name": "ヘルスウィーティー",
       "area": "Prison Island",
       "category": "Fruit",
       "affinity": {
@@ -1510,7 +1510,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-72",
-      "name": "Deadly Kiwi",
+      "name": "デッドリーキウイ",
       "area": "Prison Island",
       "category": "Fruit",
       "affinity": {
@@ -1525,7 +1525,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-73",
-      "name": "Strong Dandelion",
+      "name": "ポポンタンポポ",
       "area": "Colony 9",
       "category": "Flower",
       "affinity": {
@@ -1540,7 +1540,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-74",
-      "name": "Moon Flower",
+      "name": "ココーマワリ",
       "area": "Colony 9",
       "category": "Flower",
       "affinity": {
@@ -1555,7 +1555,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-75",
-      "name": "Dawn Hydrangea",
+      "name": "サチベリア",
       "area": "Colony 9",
       "category": "Flower",
       "affinity": {
@@ -1570,7 +1570,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-76",
-      "name": "Insanity Mint",
+      "name": "クレージミント",
       "area": "Tephra Cave",
       "category": "Flower",
       "affinity": {
@@ -1585,7 +1585,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-77",
-      "name": "Night Tulip",
+      "name": "ナイトチューリップ",
       "area": "Tephra Cave",
       "category": "Flower",
       "affinity": {
@@ -1600,7 +1600,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-78",
-      "name": "Cute Orchid",
+      "name": "キュットラン",
       "area": "Colony 6",
       "category": "Flower",
       "affinity": {
@@ -1615,7 +1615,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-79",
-      "name": "Sirius Anemone",
+      "name": "セリオスアネモネ",
       "area": "Colony 6",
       "category": "Flower",
       "affinity": {
@@ -1630,7 +1630,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-80",
-      "name": "Spirit Clematis",
+      "name": "ダンデクレマチス",
       "area": "Colony 6",
       "category": "Flower",
       "affinity": {
@@ -1645,7 +1645,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-81",
-      "name": "Sunflower Rogue",
+      "name": "ヒマワリローグ",
       "area": "Satorl Marsh",
       "category": "Flower",
       "affinity": {
@@ -1660,7 +1660,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-82",
-      "name": "Merry Coronation",
+      "name": "メリーカンギク",
       "area": "Satorl Marsh",
       "category": "Flower",
       "affinity": {
@@ -1675,7 +1675,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-83",
-      "name": "Ether Rose",
+      "name": "アキシィ",
       "area": "Satorl Marsh",
       "category": "Flower",
       "affinity": {
@@ -1690,7 +1690,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-84",
-      "name": "Orb Daisy",
+      "name": "リンタイ",
       "area": "Satorl Marsh",
       "category": "Flower",
       "affinity": {
@@ -1705,7 +1705,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-85",
-      "name": "Forget-You-Not",
+      "name": "ワスレナバナ",
       "area": "Satorl Marsh",
       "category": "Flower",
       "affinity": {
@@ -1720,7 +1720,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-86",
-      "name": "Enigma Lotus",
+      "name": "アイヤマ",
       "area": "Makna Forest",
       "category": "Flower",
       "affinity": {
@@ -1735,7 +1735,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-87",
-      "name": "Humming Nettle",
+      "name": "ハミングオオバ",
       "area": "Makna Forest",
       "category": "Flower",
       "affinity": {
@@ -1750,7 +1750,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-88",
-      "name": "Princess Daffodil",
+      "name": "ヒメミレス",
       "area": "Makna Forest",
       "category": "Flower",
       "affinity": {
@@ -1765,7 +1765,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-89",
-      "name": "Black Iris",
+      "name": "ノキス",
       "area": "Makna Forest",
       "category": "Flower",
       "affinity": {
@@ -1780,7 +1780,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-90",
-      "name": "Sea Berry",
+      "name": "スィーベリー",
       "area": "Eryth Sea",
       "category": "Flower",
       "affinity": {
@@ -1795,7 +1795,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-91",
-      "name": "Despair Clover",
+      "name": "アンカオイ",
       "area": "Eryth Sea",
       "category": "Flower",
       "affinity": {
@@ -1810,7 +1810,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-92",
-      "name": "Doomsday Poppy",
+      "name": "ストピィー",
       "area": "Eryth Sea",
       "category": "Flower",
       "affinity": {
@@ -1825,7 +1825,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-93",
-      "name": "Night Lily",
+      "name": "ナイトリリーム",
       "area": "Eryth Sea",
       "category": "Flower",
       "affinity": {
@@ -1840,7 +1840,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-94",
-      "name": "Razor Teasel",
+      "name": "スイルシータ",
       "area": "Eryth Sea",
       "category": "Flower",
       "affinity": {
@@ -1855,7 +1855,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-95",
-      "name": "Mystic Dahlia",
+      "name": "ミスティックダリア",
       "area": "Alcamoth",
       "category": "Flower",
       "affinity": {
@@ -1870,7 +1870,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-96",
-      "name": "Stardrop",
+      "name": "スタードロップ",
       "area": "Alcamoth",
       "category": "Flower",
       "affinity": {
@@ -1885,7 +1885,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-97",
-      "name": "Fortune Mallow",
+      "name": "ラブリーフッキー",
       "area": "Valak Mountain",
       "category": "Flower",
       "affinity": {
@@ -1900,7 +1900,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-98",
-      "name": "Black Peony",
+      "name": "クロボタン",
       "area": "Valak Mountain",
       "category": "Flower",
       "affinity": {
@@ -1915,7 +1915,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-99",
-      "name": "Fatal Belladonna",
+      "name": "デラナタ",
       "area": "Valak Mountain",
       "category": "Flower",
       "affinity": {
@@ -1930,7 +1930,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-100",
-      "name": "Jujube Silver",
+      "name": "ナツメシルバー",
       "area": "Sword Valley",
       "category": "Flower",
       "affinity": {
@@ -1945,7 +1945,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-101",
-      "name": "Black Blossom",
+      "name": "クロザクラ",
       "area": "Sword Valley",
       "category": "Flower",
       "affinity": {
@@ -1960,7 +1960,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-102",
-      "name": "Abyss Heather",
+      "name": "ベナバウラー",
       "area": "Sword Valley",
       "category": "Flower",
       "affinity": {
@@ -1975,7 +1975,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-103",
-      "name": "Delerium Foxglove",
+      "name": "ボクジュビオラ",
       "area": "Sword Valley",
       "category": "Flower",
       "affinity": {
@@ -1990,7 +1990,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-104",
-      "name": "Azure Hollyhock",
+      "name": "シーブルーストン",
       "area": "Mechonis Field",
       "category": "Flower",
       "affinity": {
@@ -2005,7 +2005,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-105",
-      "name": "Utopia Crocus",
+      "name": "ナルコユリラルド",
       "area": "Mechonis Field",
       "category": "Flower",
       "affinity": {
@@ -2020,7 +2020,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-106",
-      "name": "Lewisia Silver",
+      "name": "レウィシアシルバー",
       "area": "Agniratha",
       "category": "Flower",
       "affinity": {
@@ -2035,7 +2035,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-107",
-      "name": "Freesia Cyst",
+      "name": "フリージアシスト",
       "area": "Agniratha",
       "category": "Flower",
       "affinity": {
@@ -2050,7 +2050,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-108",
-      "name": "Bellflower Crystal",
+      "name": "キキョウクリスタル",
       "area": "Agniratha",
       "category": "Flower",
       "affinity": {
@@ -2065,7 +2065,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-109",
-      "name": "Shin Newt",
+      "name": "スネイモリ",
       "area": "Tephra Cave",
       "category": "Animal",
       "affinity": {
@@ -2080,7 +2080,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-110",
-      "name": "Cave Rat",
+      "name": "モネズミ",
       "area": "Tephra Cave",
       "category": "Animal",
       "affinity": {
@@ -2095,7 +2095,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-111",
-      "name": "Shin Gecko",
+      "name": "スネヤモリ",
       "area": "Tephra Cave",
       "category": "Animal",
       "affinity": {
@@ -2110,7 +2110,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-112",
-      "name": "Happy Rabbit",
+      "name": "ハッピーウサギ",
       "area": "Tephra Cave",
       "category": "Animal",
       "affinity": {
@@ -2125,7 +2125,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-113",
-      "name": "Pyro Lizard",
+      "name": "ボムマキトカゲ",
       "area": "Colony 6",
       "category": "Animal",
       "affinity": {
@@ -2140,7 +2140,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-114",
-      "name": "Amblygon Turtle",
+      "name": "アンブリゴタートル",
       "area": "Colony 6",
       "category": "Animal",
       "affinity": {
@@ -2155,7 +2155,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-115",
-      "name": "Dobercorgi",
+      "name": "ドーベルコーギー",
       "area": "Colony 6",
       "category": "Animal",
       "affinity": {
@@ -2170,7 +2170,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-116",
-      "name": "Light Bat",
+      "name": "ライトバット",
       "area": "Ether Mine",
       "category": "Animal",
       "affinity": {
@@ -2185,7 +2185,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-117",
-      "name": "Black Frog",
+      "name": "ブラッガエル",
       "area": "Ether Mine",
       "category": "Animal",
       "affinity": {
@@ -2200,7 +2200,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-118",
-      "name": "Yellow Cat",
+      "name": "イエローキャット",
       "area": "Ether Mine",
       "category": "Animal",
       "affinity": {
@@ -2215,7 +2215,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-119",
-      "name": "Chimera Rabbit",
+      "name": "ネズウサ",
       "area": "Satorl Marsh",
       "category": "Animal",
       "affinity": {
@@ -2230,7 +2230,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-120",
-      "name": "Venom Platypus",
+      "name": "ドクノカモノハシ",
       "area": "Satorl Marsh",
       "category": "Animal",
       "affinity": {
@@ -2245,7 +2245,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-121",
-      "name": "Humming Cat",
+      "name": "ハミングキャット",
       "area": "Satorl Marsh",
       "category": "Animal",
       "affinity": {
@@ -2260,7 +2260,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-122",
-      "name": "Blood Worm",
+      "name": "ブラッドワーム",
       "area": "Bionis' Interior",
       "category": "Animal",
       "affinity": {
@@ -2275,7 +2275,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-123",
-      "name": "Azure Mouse",
+      "name": "アズライトッポ",
       "area": "Bionis' Interior",
       "category": "Animal",
       "affinity": {
@@ -2290,7 +2290,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-124",
-      "name": "Happy Duck",
+      "name": "タノシイカモ",
       "area": "Bionis' Interior",
       "category": "Animal",
       "affinity": {
@@ -2305,7 +2305,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-125",
-      "name": "Ash Fox",
+      "name": "アッシュフォックス",
       "area": "Makna Forest",
       "category": "Animal",
       "affinity": {
@@ -2320,7 +2320,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-126",
-      "name": "Soft Sea Cucumber",
+      "name": "フニャフニャマコ",
       "area": "Makna Forest",
       "category": "Animal",
       "affinity": {
@@ -2335,7 +2335,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-127",
-      "name": "Fossil Monkey",
+      "name": "化石サル",
       "area": "Makna Forest",
       "category": "Animal",
       "affinity": {
@@ -2350,7 +2350,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-128",
-      "name": "Venomous Lizard",
+      "name": "エセポイズントカゲ",
       "area": "Makna Forest",
       "category": "Animal",
       "affinity": {
@@ -2365,7 +2365,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-129",
-      "name": "Sea Frog",
+      "name": "シンラカース",
       "area": "Eryth Sea",
       "category": "Animal",
       "affinity": {
@@ -2380,7 +2380,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-130",
-      "name": "Mane Cat",
+      "name": "タテガミネコ",
       "area": "Eryth Sea",
       "category": "Animal",
       "affinity": {
@@ -2395,7 +2395,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-131",
-      "name": "Wet Rat",
+      "name": "ヌレラットット",
       "area": "Valak Mountain",
       "category": "Animal",
       "affinity": {
@@ -2410,7 +2410,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-132",
-      "name": "Ice Monkey",
+      "name": "アイスアイセザル",
       "area": "Valak Mountain",
       "category": "Animal",
       "affinity": {
@@ -2425,7 +2425,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-133",
-      "name": "Crystal Frog",
+      "name": "クリスタルフロッグ",
       "area": "Valak Mountain",
       "category": "Animal",
       "affinity": {
@@ -2440,7 +2440,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-134",
-      "name": "Mud Squirrel",
+      "name": "ドロリス",
       "area": "Valak Mountain",
       "category": "Animal",
       "affinity": {
@@ -2455,7 +2455,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-135",
-      "name": "Oil Oyster",
+      "name": "オイルオイスター",
       "area": "Fallen Arm",
       "category": "Animal",
       "affinity": {
@@ -2470,7 +2470,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-136",
-      "name": "Dark Fish",
+      "name": "ダークフィッシュ",
       "area": "Fallen Arm",
       "category": "Animal",
       "affinity": {
@@ -2485,7 +2485,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-137",
-      "name": "Ether Penguin",
+      "name": "エンペルペギ",
       "area": "Fallen Arm",
       "category": "Animal",
       "affinity": {
@@ -2500,7 +2500,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-138",
-      "name": "Rainbow Slug",
+      "name": "ナナイロナマコ",
       "area": "Fallen Arm",
       "category": "Animal",
       "affinity": {
@@ -2515,7 +2515,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-139",
-      "name": "Prism Centipede",
+      "name": "プリズムカデ",
       "area": "Central Factory",
       "category": "Animal",
       "affinity": {
@@ -2530,7 +2530,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-140",
-      "name": "Cable Mouse",
+      "name": "ケーブルネズミー",
       "area": "Central Factory",
       "category": "Animal",
       "affinity": {
@@ -2545,7 +2545,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-141",
-      "name": "Oil Fox",
+      "name": "オイルキツネ",
       "area": "Central Factory",
       "category": "Animal",
       "affinity": {
@@ -2560,7 +2560,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-142",
-      "name": "Dancing Squirrel",
+      "name": "オドリス",
       "area": "Prison Island",
       "category": "Animal",
       "affinity": {
@@ -2575,7 +2575,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-143",
-      "name": "Lightning Weasel",
+      "name": "イナズマイタチ",
       "area": "Prison Island",
       "category": "Animal",
       "affinity": {
@@ -2590,7 +2590,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-144",
-      "name": "Angry Monkey",
+      "name": "イカリモンキー",
       "area": "Prison Island",
       "category": "Animal",
       "affinity": {
@@ -2605,7 +2605,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-145",
-      "name": "Prairie Dragonfly",
+      "name": "ソウゲントンボ",
       "area": "Colony 9",
       "category": "Bug",
       "affinity": {
@@ -2620,7 +2620,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-146",
-      "name": "Giant Hornet",
+      "name": "オオジロバチ",
       "area": "Colony 9",
       "category": "Bug",
       "affinity": {
@@ -2635,7 +2635,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-147",
-      "name": "White Beetle",
+      "name": "シロスジオサムシ",
       "area": "Colony 9",
       "category": "Bug",
       "affinity": {
@@ -2650,7 +2650,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-148",
-      "name": "Sorrow Beetle",
+      "name": "フマンカナブン",
       "area": "Colony 9",
       "category": "Bug",
       "affinity": {
@@ -2665,7 +2665,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-149",
-      "name": "Brown Butterfly",
+      "name": "アマイロチョウ",
       "area": "Tephra Cave",
       "category": "Bug",
       "affinity": {
@@ -2680,7 +2680,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-150",
-      "name": "Gold Caterpillar",
+      "name": "コガネイモムシ",
       "area": "Tephra Cave",
       "category": "Bug",
       "affinity": {
@@ -2695,7 +2695,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-151",
-      "name": "Rumble Stonefly",
+      "name": "ポップンカワゲラ",
       "area": "Tephra Cave",
       "category": "Bug",
       "affinity": {
@@ -2710,7 +2710,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-152",
-      "name": "White Ladybird",
+      "name": "シロゴマテントウ",
       "area": "Bionis' Leg",
       "category": "Bug",
       "affinity": {
@@ -2725,7 +2725,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-153",
-      "name": "Hill Firefly",
+      "name": "ゼッペキホタル",
       "area": "Bionis' Leg",
       "category": "Bug",
       "affinity": {
@@ -2740,7 +2740,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-154",
-      "name": "Moth Crawler",
+      "name": "スントリムシ",
       "area": "Bionis' Leg",
       "category": "Bug",
       "affinity": {
@@ -2755,7 +2755,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-155",
-      "name": "Queen Locust",
+      "name": "ユウヒバッタ",
       "area": "Bionis' Leg",
       "category": "Bug",
       "affinity": {
@@ -2770,7 +2770,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-156",
-      "name": "Fire Tarantula",
+      "name": "モエタランチュラ",
       "area": "Bionis' Leg",
       "category": "Bug",
       "affinity": {
@@ -2785,7 +2785,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-157",
-      "name": "Black Beetle",
+      "name": "クロメタルカナブン",
       "area": "Ether Mine",
       "category": "Bug",
       "affinity": {
@@ -2800,7 +2800,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-158",
-      "name": "Rubber Mantis",
+      "name": "ゴムカマキリ",
       "area": "Ether Mine",
       "category": "Bug",
       "affinity": {
@@ -2815,7 +2815,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-159",
-      "name": "Mystery Firefly",
+      "name": "シンピボタル",
       "area": "Ether Mine",
       "category": "Bug",
       "affinity": {
@@ -2830,7 +2830,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-160",
-      "name": "Scarlet Ladybird",
+      "name": "クレナイテントウ",
       "area": "Makna Forest",
       "category": "Bug",
       "affinity": {
@@ -2845,7 +2845,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-161",
-      "name": "Shield Bug",
+      "name": "アオゾラカメムシ",
       "area": "Makna Forest",
       "category": "Bug",
       "affinity": {
@@ -2860,7 +2860,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-162",
-      "name": "Hades Beetle",
+      "name": "ナラクノミズスマシ",
       "area": "Makna Forest",
       "category": "Bug",
       "affinity": {
@@ -2875,7 +2875,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-163",
-      "name": "Benign Cricket",
+      "name": "リュウセイスズムシ",
       "area": "Makna Forest",
       "category": "Bug",
       "affinity": {
@@ -2890,7 +2890,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-164",
-      "name": "Rainbow Bug",
+      "name": "ニジイロタガメ",
       "area": "Frontier Village",
       "category": "Bug",
       "affinity": {
@@ -2905,7 +2905,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-165",
-      "name": "Empress Beetle",
+      "name": "コウゴウタマムシ",
       "area": "Frontier Village",
       "category": "Bug",
       "affinity": {
@@ -2920,7 +2920,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-166",
-      "name": "Green Earwig",
+      "name": "フカミドシジミ",
       "area": "High Entia Tomb",
       "category": "Bug",
       "affinity": {
@@ -2935,7 +2935,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-167",
-      "name": "Blue Ladybird",
+      "name": "ミズテントウ",
       "area": "High Entia Tomb",
       "category": "Bug",
       "affinity": {
@@ -2950,7 +2950,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-168",
-      "name": "Wheel Lurker",
+      "name": "シャリンガクレ",
       "area": "Galahad Fortress",
       "category": "Bug",
       "affinity": {
@@ -2965,7 +2965,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-169",
-      "name": "Ultramarine Ant",
+      "name": "グンジョウアリ",
       "area": "Galahad Fortress",
       "category": "Bug",
       "affinity": {
@@ -2980,7 +2980,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-170",
-      "name": "Scarlet Crawler",
+      "name": "ヒイロケムシ",
       "area": "Mechonis Field",
       "category": "Bug",
       "affinity": {
@@ -2995,7 +2995,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-171",
-      "name": "Shiny Scarab",
+      "name": "ツヤカワカブト",
       "area": "Mechonis Field",
       "category": "Bug",
       "affinity": {
@@ -3010,7 +3010,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-172",
-      "name": "Water Boatman",
+      "name": "ムシスベリ",
       "area": "Mechonis Field",
       "category": "Bug",
       "affinity": {
@@ -3025,7 +3025,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-173",
-      "name": "Dew Beetle",
+      "name": "アサツユカミキリ",
       "area": "Central Factory",
       "category": "Bug",
       "affinity": {
@@ -3040,7 +3040,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-174",
-      "name": "Glider Cockroach",
+      "name": "メッキタピラ",
       "area": "Central Factory",
       "category": "Bug",
       "affinity": {
@@ -3055,7 +3055,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-175",
-      "name": "Electric Cricket",
+      "name": "シデンコオロギ",
       "area": "Agniratha",
       "category": "Bug",
       "affinity": {
@@ -3070,7 +3070,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-176",
-      "name": "Scissor Bug",
+      "name": "タチバサミムシ",
       "area": "Agniratha",
       "category": "Bug",
       "affinity": {
@@ -3100,7 +3100,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-178",
-      "name": "Emperor Beetle",
+      "name": "スオウカナブン",
       "area": "Prison Island",
       "category": "Bug",
       "affinity": {
@@ -3115,7 +3115,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-179",
-      "name": "Minute Mantis",
+      "name": "ナナジュウナナフシ",
       "area": "Other",
       "category": "Bug",
       "affinity": {
@@ -3130,7 +3130,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-180",
-      "name": "Love Beetle",
+      "name": "アイハンミョウ",
       "area": "Other",
       "category": "Bug",
       "affinity": {
@@ -3145,7 +3145,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-181",
-      "name": "Kneecap Rock",
+      "name": "シツガイ岩板",
       "area": "Tephra Cave",
       "category": "Nature",
       "affinity": {
@@ -3160,7 +3160,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-182",
-      "name": "Confusion Ivy",
+      "name": "まよいヅタ",
       "area": "Tephra Cave",
       "category": "Nature",
       "affinity": {
@@ -3175,7 +3175,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-183",
-      "name": "Clarity Moss",
+      "name": "まよわぬゴケ",
       "area": "Tephra Cave",
       "category": "Nature",
       "affinity": {
@@ -3190,7 +3190,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-184",
-      "name": "Mat Ice",
+      "name": "マットアイス",
       "area": "Bionis' Leg",
       "category": "Nature",
       "affinity": {
@@ -3205,7 +3205,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-185",
-      "name": "Bluesky Bark",
+      "name": "アオゾラバーク",
       "area": "Bionis' Leg",
       "category": "Nature",
       "affinity": {
@@ -3220,7 +3220,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-186",
-      "name": "Pione Stone",
+      "name": "ピオーネストーン",
       "area": "Bionis' Leg",
       "category": "Nature",
       "affinity": {
@@ -3235,7 +3235,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-187",
-      "name": "Charcoal Leg",
+      "name": "スススミススネ",
       "area": "Ether Mine",
       "category": "Nature",
       "affinity": {
@@ -3250,7 +3250,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-188",
-      "name": "Ether Pebble",
+      "name": "エーテルペブル",
       "area": "Ether Mine",
       "category": "Nature",
       "affinity": {
@@ -3265,7 +3265,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-189",
-      "name": "Rumble Coal",
+      "name": "ポップンチャコール",
       "area": "Ether Mine",
       "category": "Nature",
       "affinity": {
@@ -3280,7 +3280,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-190",
-      "name": "Mist Tree",
+      "name": "キリのキリ",
       "area": "Satorl Marsh",
       "category": "Nature",
       "affinity": {
@@ -3295,7 +3295,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-191",
-      "name": "Lemon Stone",
+      "name": "レモンセキ",
       "area": "Satorl Marsh",
       "category": "Nature",
       "affinity": {
@@ -3310,7 +3310,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-192",
-      "name": "Feather Leaf",
+      "name": "フェザーズリーフ",
       "area": "Satorl Marsh",
       "category": "Nature",
       "affinity": {
@@ -3325,7 +3325,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-193",
-      "name": "Water Log",
+      "name": "ウォーターボード",
       "area": "Satorl Marsh",
       "category": "Nature",
       "affinity": {
@@ -3340,7 +3340,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-194",
-      "name": "Wool Rock",
+      "name": "ウールロック",
       "area": "Satorl Marsh",
       "category": "Nature",
       "affinity": {
@@ -3355,7 +3355,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-195",
-      "name": "White Tail",
+      "name": "ホワイトテール",
       "area": "Eryth Sea",
       "category": "Nature",
       "affinity": {
@@ -3370,7 +3370,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-196",
-      "name": "Marine Marble",
+      "name": "マリンマーブル",
       "area": "Eryth Sea",
       "category": "Nature",
       "affinity": {
@@ -3385,7 +3385,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-197",
-      "name": "Oil Branch",
+      "name": "オイルブランチ",
       "area": "Eryth Sea",
       "category": "Nature",
       "affinity": {
@@ -3400,7 +3400,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-198",
-      "name": "Dilemma Rock",
+      "name": "ジレンマロック",
       "area": "Eryth Sea",
       "category": "Nature",
       "affinity": {
@@ -3415,7 +3415,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-199",
-      "name": "Gypsum Branch",
+      "name": "セッコウジュ",
       "area": "Valak Mountain",
       "category": "Nature",
       "affinity": {
@@ -3430,7 +3430,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-200",
-      "name": "Black Ash",
+      "name": "ブラックアッシュ",
       "area": "Valak Mountain",
       "category": "Nature",
       "affinity": {
@@ -3445,7 +3445,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-201",
-      "name": "Emerald Snow",
+      "name": "エメラルドスノウ",
       "area": "Valak Mountain",
       "category": "Nature",
       "affinity": {
@@ -3460,7 +3460,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-202",
-      "name": "Rabbit Stone",
+      "name": "ラビットストーン",
       "area": "Valak Mountain",
       "category": "Nature",
       "affinity": {
@@ -3475,7 +3475,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-203",
-      "name": "Broom Icicle",
+      "name": "ホウキつらら",
       "area": "Valak Mountain",
       "category": "Nature",
       "affinity": {
@@ -3490,7 +3490,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-204",
-      "name": "Poisonous Coral",
+      "name": "ドクドクサンゴ",
       "area": "Fallen Arm",
       "category": "Nature",
       "affinity": {
@@ -3505,7 +3505,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-205",
-      "name": "Poison Ivy",
+      "name": "エセポイズンアイビー",
       "area": "Fallen Arm",
       "category": "Nature",
       "affinity": {
@@ -3520,7 +3520,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-206",
-      "name": "Amber Leaf",
+      "name": "コハクの葉っぱ",
       "area": "Fallen Arm",
       "category": "Nature",
       "affinity": {
@@ -3535,7 +3535,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-207",
-      "name": "Ivy Nest",
+      "name": "ツタの巣",
       "area": "Mechonis Field",
       "category": "Nature",
       "affinity": {
@@ -3550,7 +3550,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-208",
-      "name": "Mossy Panel",
+      "name": "モスプレート",
       "area": "Mechonis Field",
       "category": "Nature",
       "affinity": {
@@ -3565,7 +3565,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-209",
-      "name": "Bronze Wood",
+      "name": "ブロンズウッド",
       "area": "Mechonis Field",
       "category": "Nature",
       "affinity": {
@@ -3580,7 +3580,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-210",
-      "name": "White Styrene",
+      "name": "シロスチロール",
       "area": "Central Factory",
       "category": "Nature",
       "affinity": {
@@ -3595,7 +3595,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-211",
-      "name": "Black Styrene",
+      "name": "クロスチロール",
       "area": "Central Factory",
       "category": "Nature",
       "affinity": {
@@ -3610,7 +3610,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-212",
-      "name": "Blood Oil",
+      "name": "ブラッドオイル",
       "area": "Central Factory",
       "category": "Nature",
       "affinity": {
@@ -3625,7 +3625,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-213",
-      "name": "Missing Tree",
+      "name": "ミッシングツリー",
       "area": "Agniratha",
       "category": "Nature",
       "affinity": {
@@ -3640,7 +3640,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-214",
-      "name": "Fortune Feather",
+      "name": "幸福の羽",
       "area": "Agniratha",
       "category": "Nature",
       "affinity": {
@@ -3655,7 +3655,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-215",
-      "name": "Absurd Branch",
+      "name": "アブソードブランチ",
       "area": "Prison Island",
       "category": "Nature",
       "affinity": {
@@ -3670,7 +3670,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-216",
-      "name": "Insanity Moss",
+      "name": "マッドモス",
       "area": "Prison Island",
       "category": "Nature",
       "affinity": {
@@ -3685,7 +3685,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-217",
-      "name": "Blue Chain",
+      "name": "ブルーチェーン",
       "area": "Colony 9",
       "category": "Parts",
       "affinity": {
@@ -3700,7 +3700,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-218",
-      "name": "Rabbit Diode",
+      "name": "ラビットダイオード",
       "area": "Colony 9",
       "category": "Parts",
       "affinity": {
@@ -3715,7 +3715,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-219",
-      "name": "Rusty Bolt",
+      "name": "赤さびボルト",
       "area": "Bionis' Leg",
       "category": "Parts",
       "affinity": {
@@ -3730,7 +3730,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-220",
-      "name": "Winding Gear",
+      "name": "ワインディングギア",
       "area": "Bionis' Leg",
       "category": "Parts",
       "affinity": {
@@ -3745,7 +3745,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-221",
-      "name": "Black Chip",
+      "name": "ブラックチップ",
       "area": "Ether Mine",
       "category": "Parts",
       "affinity": {
@@ -3760,7 +3760,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-222",
-      "name": "Ready Coil",
+      "name": "レディコイル",
       "area": "Ether Mine",
       "category": "Parts",
       "affinity": {
@@ -3775,7 +3775,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-223",
-      "name": "Blue Gear Shard",
+      "name": "ブルーギアの破片",
       "area": "Satorl Marsh",
       "category": "Parts",
       "affinity": {
@@ -3790,7 +3790,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-224",
-      "name": "Rumble Part",
+      "name": "ポップンテンプ",
       "area": "Satorl Marsh",
       "category": "Parts",
       "affinity": {
@@ -3805,7 +3805,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-225",
-      "name": "White Tube",
+      "name": "ホワイトチューブ",
       "area": "High Entia Tomb",
       "category": "Parts",
       "affinity": {
@@ -3820,7 +3820,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-226",
-      "name": "Green Diode",
+      "name": "グリーンダイオード",
       "area": "High Entia Tomb",
       "category": "Parts",
       "affinity": {
@@ -3835,7 +3835,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-227",
-      "name": "Spiral Lamp",
+      "name": "ラセンランプ",
       "area": "High Entia Tomb",
       "category": "Parts",
       "affinity": {
@@ -3850,7 +3850,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-228",
-      "name": "Gold Condenser",
+      "name": "ゴールドコンデンサ",
       "area": "Sword Valley",
       "category": "Parts",
       "affinity": {
@@ -3865,7 +3865,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-229",
-      "name": "Purple Lamp",
+      "name": "パープルライト",
       "area": "Sword Valley",
       "category": "Parts",
       "affinity": {
@@ -3880,7 +3880,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-230",
-      "name": "Crimson Gear",
+      "name": "クリムゾンギア",
       "area": "Sword Valley",
       "category": "Parts",
       "affinity": {
@@ -3895,7 +3895,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-231",
-      "name": "Locust Spring",
+      "name": "バッタスプリング",
       "area": "Galahad Fortress",
       "category": "Parts",
       "affinity": {
@@ -3910,7 +3910,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-232",
-      "name": "Art Core Coil",
+      "name": "アートコアコイル",
       "area": "Galahad Fortress",
       "category": "Parts",
       "affinity": {
@@ -3925,7 +3925,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-233",
-      "name": "Tail Antenna",
+      "name": "テールアンテナ",
       "area": "Galahad Fortress",
       "category": "Parts",
       "affinity": {
@@ -3940,7 +3940,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-234",
-      "name": "Warning Lamp",
+      "name": "イラプランプ",
       "area": "Fallen Arm",
       "category": "Parts",
       "affinity": {
@@ -3955,7 +3955,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-235",
-      "name": "Digital Filament",
+      "name": "エレクトリックフィラ",
       "area": "Fallen Arm",
       "category": "Parts",
       "affinity": {
@@ -3970,7 +3970,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-236",
-      "name": "Retro Diode",
+      "name": "レトロダイオード",
       "area": "Mechonis Field",
       "category": "Parts",
       "affinity": {
@@ -3985,7 +3985,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-237",
-      "name": "Modern Blue Gear",
+      "name": "モダンブルーギア",
       "area": "Mechonis Field",
       "category": "Parts",
       "affinity": {
@@ -4000,7 +4000,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-238",
-      "name": "Snow Transistor",
+      "name": "スノートランジスタ",
       "area": "Mechonis Field",
       "category": "Parts",
       "affinity": {
@@ -4015,7 +4015,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-239",
-      "name": "Angel Engine X",
+      "name": "エンゼルエンジンA",
       "area": "Central Factory",
       "category": "Parts",
       "affinity": {
@@ -4030,7 +4030,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-240",
-      "name": "Leaf Coil",
+      "name": "リーフコイル",
       "area": "Central Factory",
       "category": "Parts",
       "affinity": {
@@ -4045,7 +4045,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-241",
-      "name": "Warrior Screw",
+      "name": "ブシドーネジ",
       "area": "Central Factory",
       "category": "Parts",
       "affinity": {
@@ -4060,7 +4060,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-242",
-      "name": "Fancy Bolt",
+      "name": "ファンシーボルト",
       "area": "Agniratha",
       "category": "Parts",
       "affinity": {
@@ -4090,7 +4090,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-244",
-      "name": "Fairy Tale Diode",
+      "name": "メルヘンダイオード",
       "area": "Agniratha",
       "category": "Parts",
       "affinity": {
@@ -4105,7 +4105,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-245",
-      "name": "Grape Spring",
+      "name": "ブドウゼンマイ",
       "area": "Agniratha",
       "category": "Parts",
       "affinity": {
@@ -4120,7 +4120,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-246",
-      "name": "White Cover",
+      "name": "ホワイトカバー",
       "area": "Prison Island",
       "category": "Parts",
       "affinity": {
@@ -4135,7 +4135,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-247",
-      "name": "Modern Resistor",
+      "name": "モダンレジスタ",
       "area": "Prison Island",
       "category": "Parts",
       "affinity": {
@@ -4150,7 +4150,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-248",
-      "name": "Green Cam",
+      "name": "グリーンカム",
       "area": "Prison Island",
       "category": "Parts",
       "affinity": {
@@ -4165,7 +4165,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-249",
-      "name": "Strong Screw",
+      "name": "ハートネジ",
       "area": "Prison Island",
       "category": "Parts",
       "affinity": {
@@ -4180,7 +4180,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-250",
-      "name": "Golden Cog",
+      "name": "金色歯車",
       "area": "Other",
       "category": "Parts",
       "affinity": {
@@ -4195,7 +4195,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-251",
-      "name": "Angel Engine Y",
+      "name": "エンゼルエンジンB",
       "area": "Other",
       "category": "Parts",
       "affinity": {
@@ -4210,7 +4210,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-252",
-      "name": "Thunder Compass",
+      "name": "サンダーコンパス",
       "area": "Other",
       "category": "Parts",
       "affinity": {
@@ -4225,7 +4225,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-253",
-      "name": "Plate Snow",
+      "name": "プレート・スノー",
       "area": "Colony 9",
       "category": "Strange",
       "affinity": {
@@ -4240,7 +4240,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-254",
-      "name": "Rainbow Zirconia",
+      "name": "虹色キュービック",
       "area": "Colony 9",
       "category": "Strange",
       "affinity": {
@@ -4255,7 +4255,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-255",
-      "name": "Leaf Mystery",
+      "name": "リーフ・ミステリー",
       "area": "Tephra Cave",
       "category": "Strange",
       "affinity": {
@@ -4270,7 +4270,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-256",
-      "name": "Steel Silk",
+      "name": "鋼鉄の絹布",
       "area": "Tephra Cave",
       "category": "Strange",
       "affinity": {
@@ -4285,7 +4285,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-257",
-      "name": "Gold Dust Illusion",
+      "name": "砂金のマボロシ",
       "area": "Bionis' Leg",
       "category": "Strange",
       "affinity": {
@@ -4300,7 +4300,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-258",
-      "name": "Devious Gravity",
+      "name": "悪党グラビティ",
       "area": "Bionis' Leg",
       "category": "Strange",
       "affinity": {
@@ -4315,7 +4315,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-259",
-      "name": "White Songbird",
+      "name": "純白のカザナキドリ",
       "area": "Bionis' Leg",
       "category": "Strange",
       "affinity": {
@@ -4330,7 +4330,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-260",
-      "name": "Death Bangle",
+      "name": "必殺バングル",
       "area": "Bionis' Leg",
       "category": "Strange",
       "affinity": {
@@ -4345,7 +4345,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-261",
-      "name": "Verdant Eternity",
+      "name": "新緑のトコシエ",
       "area": "Colony 6",
       "category": "Strange",
       "affinity": {
@@ -4360,7 +4360,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-262",
-      "name": "White Night Rod",
+      "name": "白夜ブリーチ",
       "area": "Colony 6",
       "category": "Strange",
       "affinity": {
@@ -4375,7 +4375,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-263",
-      "name": "Love Crane",
+      "name": "リーベクレイン",
       "area": "Ether Mine",
       "category": "Strange",
       "affinity": {
@@ -4390,7 +4390,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-264",
-      "name": "Fire Abron",
+      "name": "ファイアブロン",
       "area": "Ether Mine",
       "category": "Strange",
       "affinity": {
@@ -4405,7 +4405,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-265",
-      "name": "Pauper's Cup",
+      "name": "清貧の木杯",
       "area": "Satorl Marsh",
       "category": "Strange",
       "affinity": {
@@ -4420,7 +4420,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-266",
-      "name": "Happy Carnival",
+      "name": "愉快カーニバル",
       "area": "Satorl Marsh",
       "category": "Strange",
       "affinity": {
@@ -4435,7 +4435,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-267",
-      "name": "Dawn Dice",
+      "name": "朝陽のサイコロ",
       "area": "Satorl Marsh",
       "category": "Strange",
       "affinity": {
@@ -4450,7 +4450,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-268",
-      "name": "Tap Tap Tap",
+      "name": "らたたたらったった",
       "area": "Bionis' Interior",
       "category": "Strange",
       "affinity": {
@@ -4465,7 +4465,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-269",
-      "name": "High Entia Jewel",
+      "name": "ハイエントジュエル",
       "area": "Bionis' Interior",
       "category": "Strange",
       "affinity": {
@@ -4480,7 +4480,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-270",
-      "name": "Lemonade Sky",
+      "name": "ラムネスカイ",
       "area": "Makna Forest",
       "category": "Strange",
       "affinity": {
@@ -4495,7 +4495,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-271",
-      "name": "Forest of Gossip",
+      "name": "談笑の森林",
       "area": "Makna Forest",
       "category": "Strange",
       "affinity": {
@@ -4510,7 +4510,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-272",
-      "name": "Gravel Disk",
+      "name": "真砂のエンバン",
       "area": "Makna Forest",
       "category": "Strange",
       "affinity": {
@@ -4525,7 +4525,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-273",
-      "name": "Rumble Box",
+      "name": "ぽっぷんぼっくす",
       "area": "Frontier Village",
       "category": "Strange",
       "affinity": {
@@ -4540,7 +4540,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-274",
-      "name": "Black Panel",
+      "name": "ハイパネルブラック",
       "area": "Frontier Village",
       "category": "Strange",
       "affinity": {
@@ -4555,7 +4555,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-275",
-      "name": "High Violet",
+      "name": "ハイヴァイオレット",
       "area": "Eryth Sea",
       "category": "Strange",
       "affinity": {
@@ -4570,7 +4570,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-276",
-      "name": "Steel Hauyne",
+      "name": "鋼鉄アウイン",
       "area": "Eryth Sea",
       "category": "Strange",
       "affinity": {
@@ -4585,7 +4585,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-277",
-      "name": "Ha Ha Ha",
+      "name": "もふもふもふもうふ",
       "area": "Alcamoth",
       "category": "Strange",
       "affinity": {
@@ -4600,7 +4600,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-278",
-      "name": "Thunder Atmos",
+      "name": "雷鳴のヘミスフィア",
       "area": "Alcamoth",
       "category": "Strange",
       "affinity": {
@@ -4615,7 +4615,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-279",
-      "name": "Tasty Sausage",
+      "name": "あまあまういんな",
       "area": "High Entia Tomb",
       "category": "Strange",
       "affinity": {
@@ -4630,7 +4630,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-280",
-      "name": "Macro Passion",
+      "name": "マクロパッション",
       "area": "High Entia Tomb",
       "category": "Strange",
       "affinity": {
@@ -4645,7 +4645,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-281",
-      "name": "Frost Glass",
+      "name": "樹氷のガラス",
       "area": "Valak Mountain",
       "category": "Strange",
       "affinity": {
@@ -4660,7 +4660,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-282",
-      "name": "Large Handcuffs",
+      "name": "巨獣ハンドカフ",
       "area": "Valak Mountain",
       "category": "Strange",
       "affinity": {
@@ -4675,7 +4675,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-283",
-      "name": "Red Frontier",
+      "name": "レッドフロンティア",
       "area": "Sword Valley",
       "category": "Strange",
       "affinity": {
@@ -4690,7 +4690,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-284",
-      "name": "Darkness Bottle",
+      "name": "ハイクロウボトル",
       "area": "Sword Valley",
       "category": "Strange",
       "affinity": {
@@ -4705,7 +4705,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-285",
-      "name": "Bud of Eternity",
+      "name": "永遠の新芽",
       "area": "Sword Valley",
       "category": "Strange",
       "affinity": {
@@ -4720,7 +4720,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-286",
-      "name": "Hunger Crash",
+      "name": "空腹クラッシュ",
       "area": "Galahad Fortress",
       "category": "Strange",
       "affinity": {
@@ -4735,7 +4735,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-287",
-      "name": "Splish Splash",
+      "name": "どばどばどばべちょ",
       "area": "Galahad Fortress",
       "category": "Strange",
       "affinity": {
@@ -4750,7 +4750,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-288",
-      "name": "Star Cute",
+      "name": "スター・キュート",
       "area": "Fallen Arm",
       "category": "Strange",
       "affinity": {
@@ -4765,7 +4765,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-289",
-      "name": "Summer Star",
+      "name": "梅雨のイチバンボシ",
       "area": "Fallen Arm",
       "category": "Strange",
       "affinity": {
@@ -4780,7 +4780,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-290",
-      "name": "Tweet Tweet",
+      "name": "ぴよぴよぽよぴよ",
       "area": "Mechonis Field",
       "category": "Strange",
       "affinity": {
@@ -4795,7 +4795,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-291",
-      "name": "Flame Frame",
+      "name": "フレイムフレーム",
       "area": "Mechonis Field",
       "category": "Strange",
       "affinity": {
@@ -4810,7 +4810,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-292",
-      "name": "Smoke Cylinder",
+      "name": "紫煙の円筒",
       "area": "Central Factory",
       "category": "Strange",
       "affinity": {
@@ -4825,7 +4825,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-293",
-      "name": "Sacred Panther",
+      "name": "エクスパンパンサー",
       "area": "Central Factory",
       "category": "Strange",
       "affinity": {
@@ -4840,7 +4840,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-294",
-      "name": "Parts Noble",
+      "name": "パーツ・ノーブル",
       "area": "Central Factory",
       "category": "Strange",
       "affinity": {
@@ -4855,7 +4855,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-295",
-      "name": "Eryth Blue",
+      "name": "ハイエルトブルー",
       "area": "Agniratha",
       "category": "Strange",
       "affinity": {
@@ -4870,7 +4870,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-296",
-      "name": "Dramatic Night",
+      "name": "闇夜ドラマチック",
       "area": "Agniratha",
       "category": "Strange",
       "affinity": {
@@ -4885,7 +4885,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-297",
-      "name": "Blue Glow",
+      "name": "紺青の残照",
       "area": "Prison Island",
       "category": "Strange",
       "affinity": {
@@ -4900,7 +4900,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-298",
-      "name": "Blue Blood",
+      "name": "ハイクアッドブラッド",
       "area": "Prison Island",
       "category": "Strange",
       "affinity": {
@@ -4915,7 +4915,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-299",
-      "name": "Coin of Fortune",
+      "name": "幸福の小さなコイン",
       "area": "Other",
       "category": "Strange",
       "affinity": {
@@ -4930,7 +4930,7 @@ const WORKSHOP_DATA = {
     },
     {
       "id": "gift-300",
-      "name": "Love Source",
+      "name": "ホレルゲン",
       "area": "Other",
       "category": "Strange",
       "affinity": {
