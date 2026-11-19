@@ -1,8 +1,122 @@
 // Display-only names. Do not use these strings as save keys, species keys,
 // sub-checkpoint ids, or Atlas query keys. The English source data stays put.
 // Sources are listed in OFFICIAL-NAMES.md.
+// Longer phrases are applied first inside officialJa.
 const OFFICIAL_NAME_PAIRS = [
   ["Future Connected", "つながる未来"],
+  ["Before you press start", "始める前に"],
+  ["The world reopens — biggest side-content chapter in the game", "世界が再び開く。本編で脇道が最も多い章"],
+  ["The completion phase", "達成の段階"],
+  ["Supply Station Battle", "補給所の戦い"],
+  ["Fiora's Conviction", "フィオルンの決意"],
+  ["Astas Remote Unit", "アスタスの遠隔装置"],
+  ["Path to the Top", "頂上への道"],
+  ["Bionis' Interior", "巨神胎内"],
+  ["High Entia Tomb", "ハイエンター墓所"],
+  ["Rainbow Zirconia", "虹色キュービック"],
+  ["Galahad Fortress", "ガラハド要塞"],
+  ["Physical Def Up", "物理防御アップ"],
+  ["Frontier Village", "サイハテ村"],
+  ["Mechonis Field", "機神界フィールド"],
+  ["Central Factory", "中央工廠"],
+  ["Valak Mountain", "ヴァラク雪山"],
+  ["Sword Valley", "大剣の渓谷"],
+  ["Turbine Battle", "タービンの戦い"],
+  ["Chase Dickson", "ディクソンを追え"],
+  ["Black Beetle", "クロメタルカナブン"],
+  ["Rabbit Diode", "ラビットダイオード"],
+  ["Tephra Cave", "テフラ洞窟"],
+  ["Makna Forest", "マクナ原生林"],
+  ["Satorl Marsh", "燐光の地ザトール"],
+  ["Bionis' Leg", "巨神脚"],
+  ["Ether Mine", "中央採掘場"],
+  ["Fallen Arm", "落ちた腕"],
+  ["Green Diode", "グリーンダイオード"],
+  ["Ready Coil", "レディコイル"],
+  ["Love Source", "ホレルゲン"],
+  ["Burst Affinity", "突発キズナ"],
+  ["Faced Mechon", "フェイス機神兵"],
+  ["Union Strikes", "連携必殺"],
+  ["Union Strike", "連携必殺"],
+  ["Lift Battle", "リフトの戦い"],
+  ["Expert Mode", "エキスパートモード"],
+  ["Strong Flame", "強火"],
+  ["Medium Flame", "中火"],
+  ["Gentle Flame", "弱火"],
+  ["Mega Heat", "メガヒート"],
+  ["Skill Links", "スキルリンク"],
+  ["Skill Link", "スキルリンク"],
+  ["Chain Link", "チェインリンク"],
+  ["Colony 9", "コロニー9"],
+  ["Colony 6", "コロニー6"],
+  ["Eryth Sea", "エルト海"],
+  ["Alcamoth", "皇都アカモート"],
+  ["Agniratha", "帝都アグニラータ"],
+  ["Impatience", "短気"],
+  ["Camaraderie", "友情"],
+  ["Obstinance", "頑固"],
+  ["Enthusiasm", "熱血"],
+  ["Cowardice", "臆病"],
+  ["Reticence", "内気"],
+  ["Reliance", "依存"],
+  ["Affection", "愛情"],
+  ["Rashness", "勝気"],
+  ["Innocence", "純真"],
+  ["Heroism", "勇者"],
+  ["Passion", "情熱"],
+  ["Love Sources", "ホレルゲン"],
+  ["Veritas Glyphs", "ベリタス・グリフ"],
+  ["Veritas Glyph", "ベリタス・グリフ"],
+  ["Oriental Glass", "オリエンタルグラス"],
+  ["Oriental Glasses", "オリエンタルグラス"],
+  ["New Game Plus", "ニューゲームプラス"],
+  ["Romantic Notions", "恋愛成就"],
+  ["Xenoblade Chronicles DE", "ゼノブレイドDE"],
+  ["Immunization", "免疫"],
+  ["Bodybuilder", "ボディビルダー"],
+  ["または Trust", "または小娘隊長の信頼"],
+  ["Area Affinity", "エリアキズナ"],
+  ["Xenoblade Wiki", "ゼノブレイドWiki"],
+  ["Sage", "センニン"],
+  ["Other", "その他"],
+  ["Argentis", "シルバー"],
+  ["Abaasy", "アバーシ"],
+  ["Housing", "住宅"],
+  ["Commerce", "商業"],
+  ["Nature", "自然"],
+  ["Special", "特殊"],
+  ["Valak", "ヴァラク"],
+  ["Makna", "マクナ"],
+  ["Seven", "セブン"],
+  ["Zel", "ゼル"],
+  ["Don", "ドン"],
+  ["Engineer", "エンジニア"],
+  ["Behemoth", "ベヒモス"],
+  ["Shooter", "シューター"],
+  ["Nebula", "ネブラ"],
+  ["Spirit", "スピリット"],
+  ["Andos", "アンドス"],
+  ["Astas", "アスタス"],
+  ["Giant", "巨人"],
+  ["Heat", "ヒート"],
+  ["Shulk", "シュルク"],
+  ["Reyn", "ライン"],
+  ["Fiora's", "フィオルンの"],
+  ["Fiora", "フィオルン"],
+  ["Dunban", "ダンバン"],
+  ["Sharla", "カルナ"],
+  ["Melia", "メリア"],
+  ["Riki", "リキ"],
+  ["Pod", "ポッド"],
+  ["God", "神"],
+  ["drops logged", "ドロップ記録"],
+  ["hunt pins", "狩ピン"],
+  ["Spike warning:", "スパイク注意:"],
+  ["documented Spike", "記載されたスパイク"],
+  ["Topple plan", "転倒の手順"],
+  ["Target:", "対象:"],
+  ["Alcamoth at Dawn", "夜明けの皇都アカモート"],
+  ["Alcamoth Orbital", "皇都アカモート周回"],
   ["Before you press start", "始める前に"],
   ["The world reopens — biggest side-content chapter in the game", "世界が再び開く。本編で脇道が最も多い章"],
   ["The completion phase", "達成の段階"],
@@ -98,14 +212,18 @@ const OFFICIAL_NAME_PAIRS = [
   ["Bravery", "英雄"]
 ];
 
+const OFFICIAL_NAME_SORTED = OFFICIAL_NAME_PAIRS.slice().sort((a, b) => b[0].length - a[0].length);
+
 function officialJa(text) {
   if (!text || !/[A-Za-z]/.test(text)) return text;
   let out = String(text);
-  for (const [en, ja] of OFFICIAL_NAME_PAIRS) {
+  for (const [en, ja] of OFFICIAL_NAME_SORTED) {
     const escaped = en.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
     out = out.replace(new RegExp("(?<![A-Za-z0-9])" + escaped + "(?![A-Za-z0-9])", "g"), ja);
   }
-  return out.replace(/(?<![A-Za-z])Chapter (\d+)(?![A-Za-z0-9])/g, "$1章");
+  return out
+    .replace(/(?<![A-Za-z])Chapter (\d+)(?![A-Za-z0-9])/g, "$1章")
+    .replace(/(?<![A-Za-z])Part (\d+)(?![A-Za-z0-9])/g, "その$1");
 }
 
 function subcheckJa(text) {
@@ -136,6 +254,8 @@ function applyOfficialNames(root) {
       return;
     }
     if (node.nodeType !== 1 || skip.has(node.tagName)) return;
+    if (node.classList && node.classList.contains("subcheck-atlas-link")) return;
+    if (node.tagName === "OPTION" && !node.hasAttribute("value")) node.setAttribute("value", node.textContent);
     for (const child of node.childNodes) walk(child);
   };
   walk(root);
