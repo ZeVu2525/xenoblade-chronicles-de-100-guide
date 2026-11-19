@@ -81,7 +81,7 @@ const storyItems = routeItems.filter(item => item.f === "story");
 const storyText = item => String(`${item.t || ""} ${item.d || ""}`).replace(/<[^>]+>/g, " ").replace(/\s+/g, " ");
 assert(storyItems.length === canonicalStoryQuests.length, `Expected ${canonicalStoryQuests.length} formal story checkpoints, got ${storyItems.length}`);
 assert(storyItems.every(item => item.storyQuestId && item.d && Number.isFinite(item.lv)), "A story checkpoint lacks its quest binding, directions, or recommended level");
-const formalStoryLedger = completion.categories.flatMap(category => category.groups.flatMap(group => group.items)).filter(item => /Story Quest/i.test(item.meta || ""));
+const formalStoryLedger = completion.categories.flatMap(category => category.groups.flatMap(group => group.items)).filter(item => /ストーリークエスト/.test(item.meta || ""));
 assert(formalStoryLedger.length === canonicalStoryQuests.length, `Completion ledger should contain ${canonicalStoryQuests.length} formal story quests, got ${formalStoryLedger.length}`);
 assert(formalStoryLedger.map(item => item.name).sort().join("|") === [...canonicalStoryQuests].sort().join("|"), "Canonical story quest list drifted from the Completion Hub ledger");
 for (const quest of formalStoryLedger) {
@@ -137,7 +137,7 @@ for (const item of storyItems) {
   const binding = bindings.bindings.find(entry => entry.targetId === item.storyQuestId);
   assert(binding?.handling === "exact" && binding.routeItemId === item.id, `${item.id} does not own its exact story-quest dependency link`);
 }
-for (const name of ["Heartwarming", "Heartbreaking", "The Brave Protectors"]) {
+for (const name of ["ベストアンサー", "空気が読めない", "街を守る勇士"]) {
   const item = completionItems.find(entry => entry.name === name);
   assert(item && item.missable, `${name} is not marked as missable`);
 }
@@ -247,7 +247,7 @@ assert(!world.quests.some(quest => hasPrerequisiteCycle(quest.id)), "Quest prere
 const questNamed = name => world.quests.find(quest => quest.name === name);
 assert(questNamed("料理対決・反撃！")?.followUps.some(id => questById.get(id)?.name === "料理対決・逆転？"), "Cook-Off chain order regressed");
 assert(!questNamed("ザトールの調査")?.prerequisites.some(id => questById.get(id)?.name === "タリアの研究"), "Investigating Satorl incorrectly requires the quest it excludes");
-assert(completionItems.some(item => item.name === "Itinerant Dorothea") && completionItems.some(item => item.name === "Avalanche Abaasy"), "Canonical completion names regressed");
+assert(completionItems.some(item => item.name === "借宿のドロテーア") && completionItems.some(item => item.name === "雪檻のアバーシ"), "Canonical completion names regressed");
 const plain = value => String(value || "").replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
 const leaderQuests = world.quests.filter(quest => /パーティリーダーは(シュルク|ライン|カルナ|ダンバン|メリア|リキ|フィオルン)/.test(quest.requirements));
 assert(leaderQuests.length === 18, `Expected 18 explicit leader-prerequisite quests, got ${leaderQuests.length}`);

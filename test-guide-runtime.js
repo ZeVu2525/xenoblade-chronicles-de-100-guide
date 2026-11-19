@@ -97,9 +97,9 @@ async function makeDom({ legacy = null, previous = null, current = null, url = "
   themeSelect.dispatchEvent(new Event("change", { bubbles: true }));
   assert(document.documentElement.dataset.theme === "xenoblade" && localStorage.getItem("xc1de-guide-theme") === "xenoblade", "Xenoblade theme did not apply or persist");
   const globalSearch = document.getElementById("guide-search");
-  globalSearch.value = "Avalanche Abaasy";
+  globalSearch.value = "雪檻のアバーシ";
   globalSearch.dispatchEvent(new Event("input", { bubbles: true }));
-  assert(document.querySelector("body > #guide-search-results")?.textContent.includes("Avalanche Abaasy"), "global search results are not portalled above the clipped header region");
+  assert(document.querySelector("body > #guide-search-results")?.textContent.includes("雪檻のアバーシ"), "global search results are not portalled above the clipped header region");
   globalSearch.dispatchEvent(new KeyboardEvent("keydown", { key: "Escape", bubbles: true }));
   assert(!document.getElementById("guide-search-results"), "Escape did not dismiss global search results");
   globalSearch.value = "縄張りバルバロッサ";
