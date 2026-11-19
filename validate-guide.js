@@ -282,18 +282,18 @@ for (const character of buildCharacters) {
 }
 for (const shulk of buildCharacters.filter(character => /shulk/.test(character.id))) {
   const arts = [shulk.controlled.metaSafe, shulk.controlled.aggressive, shulk.ai.metaSafe, shulk.ai.aggressive].flat();
-  assert(!arts.includes("Sword Drive"), `${shulk.id} illegally contains Reyn's Sword Drive`);
+  assert(!arts.includes("ソードパイル"), `${shulk.id} illegally contains Reyn's Sword Drive`);
 }
 const legalArts = {
-  shulk: ["Back Slash", "Light Heal", "Slit Edge", "Stream Edge", "Shadow Eye", "Air Slash", "Shaker Edge", "Battle Soul"],
-  reyn: ["Hammer Beat", "Wild Down", "War Swing", "Bone Upper", "Dive Sobat", "Sword Drive", "Shield Bash", "Lariat", "Rage", "Berserker", "Last Stand", "Magnum Charge", "Aura Burst", "Engage", "Anchor Chain", "Guard Shift"],
-  sharla: ["Heal Bullet", "Thunder Bullet", "Shield Bullet", "Cure Bullet", "Tranquilizer", "Tranquilliser", "Heal Blast", "Metal Blast", "Heal Round", "Heat Bullet", "Covert Stance", "Head Shaker", "Aura Bullet", "Heal Counter", "Head Shot", "Cure Round", "Drive Boost"],
-  dunban: ["Gale Slash", "Electric Gutbuster", "Worldly Slash", "Battle Eye", "Steel Strike", "Spirit Breath", "Blinding Blossom", "Serene Heart", "Tempest Kick", "Heat Haze", "Thunder", "Soaring Tempest", "Jaws of Death", "Final Flicker", "Demon Slayer", "Peerless"],
-  melia: ["Summon Bolt", "Summon Flare", "Summon Aqua", "Spear Break", "Hypnotise", "Shadow Stitch", "Reflection", "Healing Gift", "Summon Copy", "Summon Wind", "Starlight Kick", "Summon Earth", "Burst End", "Summon Ice", "Mind Blast", "Power Effect"],
-  riki: ["Happy Happy", "Bitey Bitey", "Sneaky", "Play Dead", "Lurgy", "Hero Time", "Roly-Poly", "Behave", "You Can Do It", "Freezinate", "Bedtime", "Tantrum", "Burninate", "Riki is Angry", "Peekaboo", "Say Sorry"],
-  fiora: ["Power Smash", "Screw Edge", "Hidden Thorn", "Lacerate", "Double Blade", "Spear Blade", "Cross Impact", "Healing Energy", "Zero Gravity", "Ether Drain", "Air Fang", "Double Wind", "Second Gear", "Lock-On", "Mag Storm", "Shutdown", "Guard Shift", "Power Drain", "Speed Shift", "Final Cross"],
-  kino: ["Healy Bullet", "Healy Round", "Shield Bullet", "Cure Round", "Thunder Bullet", "Head Shaker", "Tranquilliser", "Drive Boost", "Metal Blast", "Covert Stance"],
-  nene: ["Sword Drive", "Bone Upper", "Mild Down", "Magnum Starch", "Engage", "Guard Sift", "Hammer Beat", "Feather Swing", "Berserker", "Lariat", "Chive Sobat"]
+  shulk: ["バックスラッシュ", "ライトヒール", "スリットエッジ", "ストリームエッジ", "シャドーアイ", "エアスラッシュ", "シェイカーエッジ", "バトルソウル"],
+  reyn: ["ハンマービート", "ワイルドダウン", "ウォースイング", "ボーンアッパー", "ダイブソバット", "ソードパイル", "シールドバッシュ", "ラリアット", "Rage", "バーサーカー", "ラストスタンド", "バレットチャージ", "オーラバースト", "エンゲージ", "アンカーチェイン", "ガードシフト"],
+  sharla: ["ヒールバレット", "サンダーバレット", "シールドバレット", "キュアバレット", "Tranquilizer", "スリープバレット", "ヒールブラスト", "メタルブラスト", "ヒールラウンド", "ヒートバレット", "ハイドスタンス", "ヘッドシェイカー", "オーラバレット", "ヒールカウンター", "ヘッドスナイプ", "キュアラウンド", "ドライブブースト"],
+  dunban: ["疾風刃", "雷刃砲脚", "天地剣", "戦眼", "鉄功弾", "神威息吹", "桜花絢爛", "明鏡止水", "風刃旋脚", "陽炎", "天雷", "千刃天翔", "九死一殺", "背水影技", "鬼斬刃", "天下無双"],
+  melia: ["サモン・ボルト", "サモン・フレア", "サモン・アクア", "スピアブレイク", "スリープマインド", "シャドーステッチ", "Reflection", "ヒールギフト", "サモニングコピー", "サモン・ウインド", "スターライト・ニー", "サモン・アース", "バーストエンド", "サモン・アイス", "マインドブラスト", "パワーエフェクト"],
+  riki: ["ヨロコベも", "カムカムだも", "モラッタも", "マカセタも", "ドクドクだも", "ユウキだも", "コロベも", "オチツケも", "ガンバルも", "ヒエヒエだも", "グルグルだも", "ヤッチャウも", "モエモエだも", "オコッタも", "ココだも", "クイアラタメも"],
+  fiora: ["パワースマッシュ", "スクリューエッジ", "ハイドスパイク", "デッドリーバイト", "ダブルブレード", "スピアブレード", "クロスインパクト", "ヒールバリア", "グラビティーゼロ", "エーテルドレイン", "エアファング", "ダブルウインド", "セカンドギア", "ロックオン", "バグストーム", "シャットダウン", "ガードシフト", "パワードレイン", "スピードシフト", "ファイナルクロス"],
+  kino: ["Healy Bullet", "Healy Round", "シールドバレット", "キュアラウンド", "サンダーバレット", "ヘッドシェイカー", "スリープバレット", "ドライブブースト", "メタルブラスト", "ハイドスタンス"],
+  nene: ["ソードパイル", "ボーンアッパー", "Mild Down", "Magnum Starch", "エンゲージ", "Guard Sift", "ハンマービート", "Feather Swing", "バーサーカー", "ラリアット", "Chive Sobat"]
 };
 const legalFor = id => new Set(legalArts[id.replace(/^fc-/, "")]);
 for (const character of buildCharacters) {
@@ -311,7 +311,7 @@ for (const character of buildCharacters) {
 for (const update of builds.routeUpdates) for (const [id, arts] of Object.entries(update.artsByMember)) {
   const allowed = legalFor(id); for (const art of arts) assert(allowed.has(art), `${update.routeChapterId} ${id} contains an illegal normal Art: ${art}`);
 }
-const forbiddenNormal = { riki: ["Yoink!"], fiora: ["Butterfly Step"], shulk: ["Monado Shield", "Sword Drive"] };
+const forbiddenNormal = { riki: ["イタダクも"], fiora: ["バタフライステップ"], shulk: ["モナドシールド", "ソードパイル"] };
 for (const character of builds.characters) for (const art of forbiddenNormal[character.id] || []) {
   assert(![character.controlled.metaSafe, character.controlled.aggressive, character.ai.metaSafe, character.ai.aggressive].flat().includes(art), `${character.id} puts a Talent or foreign Art in a normal slot: ${art}`);
 }
@@ -320,7 +320,7 @@ for (const character of builds.characters) for (const invalid of invalidBranches
   assert(!character.skills.branchPriority.some(value => value.includes(invalid)), `${character.id} uses non-branch label ${invalid}`);
 }
 const routeMax = { ch1:10, ch3:18, ch5:32, ch7:44, ch8:52, ch12:70, ch17:90, post:99 };
-const unlockLevel = { "Head Shot":42, "Thunder":40, "Tempest Kick":32, "Serene Heart":28, "Heat Haze":36, "Jaws of Death":48, "Burninate":43, "Freezinate":31, "Bedtime":35, "Starlight Kick":44, "Summon Earth":47 };
+const unlockLevel = { "ヘッドスナイプ":42, "天雷":40, "風刃旋脚":32, "明鏡止水":28, "陽炎":36, "九死一殺":48, "モエモエだも":43, "ヒエヒエだも":31, "グルグルだも":35, "スターライト・ニー":44, "サモン・アース":47 };
 for (const update of builds.routeUpdates.filter(item => routeMax[item.routeChapterId])) for (const art of Object.values(update.artsByMember).flat()) {
   assert(!unlockLevel[art] || unlockLevel[art] <= routeMax[update.routeChapterId], `${update.routeChapterId} slots ${art} before its level-${unlockLevel[art]} unlock`);
 }
@@ -348,7 +348,7 @@ assert(html.includes('<button type="button" class="chh"'), "Chapter headers must
 assert(html.includes('const text = plainText(item.t || "")'), "Leader badges must be derived from the current card title, not historical detail text");
 assert(!html.includes("There are 13 of these"), "Static hidden-tree count is stale");
 assert(html.includes('--bg:#f2f6f8') && html.includes('--nav:#0b2438'), "Reading-first Xenoblade color tokens are missing");
-assert(html.includes('id="theme-select"') && html.includes('Readable Light') && html.includes('Simple Dark') && html.includes('Xenoblade Extreme'), "Appearance selector is missing one or more themes");
+assert(html.includes('id="theme-select"') && html.includes('読みやすいライト') && html.includes('シンプルダーク') && html.includes('ゼノブレイド エクストリーム'), "Appearance selector is missing one or more themes");
 assert(html.includes('id="build-character-tabs"') && html.includes('id="build-show-all"') && !html.includes('id="build-character"'), "Build Lab character tabs or Show all mode are missing");
 assert(html.includes('html[data-theme="dark"]') && html.includes('html[data-theme="xenoblade"]'), "Dark and Xenoblade theme tokens are missing");
 assert(html.includes('XENOBLADE EXTREME V2') && html.includes('class="route-legend"'), "Extreme V2 route HUD or warning legend is missing");
@@ -407,7 +407,7 @@ assert(html.includes('function renderBuildGoalComparison') && html.includes('Sam
 assert(html.includes('grid-template-columns:repeat(5,minmax(0,1fr))!important') && html.includes('overflow:visible!important'), "Five-hub navigation no longer guarantees a non-scrolling layout");
 assert(workshop.gifts.length === 300 && new Set(workshop.gifts.map(gift => gift.name)).size === 300, "Gift Optimizer matrix is incomplete or duplicated");
 assert(workshop.gifts.every(gift => Object.keys(gift.affinity).length === 7), "A gift is missing a base-game recipient value");
-const giftAreas = ["Colony 9","Tephra Cave","Bionis' Leg","Colony 6","Ether Mine","Satorl Marsh","Makna Forest","Frontier Village","Eryth Sea","Alcamoth","High Entia Tomb","Valak Mountain","Sword Valley","Galahad Fortress","Fallen Arm","Mechonis Field","Central Factory","Agniratha","Bionis' Interior","Prison Island","Other"];
+const giftAreas = ["コロニー9","テフラ洞窟","巨神脚","コロニー6","中央採掘場","燐光の地ザトール","マクナ原生林","サイハテ村","エルト海","皇都アカモート","ハイエンター墓所","ヴァラク雪山","大剣の渓谷","ガラハド要塞","落ちた腕","機神界フィールド","中央工廠","帝都アグニラータ","巨神胎内","監獄島","Other"];
 assert(new Set(workshop.gifts.map(gift => gift.area)).size === giftAreas.length, "Gift Optimizer area extraction is incomplete");
 assert(workshop.gifts.every(gift => giftAreas.includes(gift.area)), "Gift Optimizer contains an unknown area");
 assert(workshop.gifts.filter(gift => gift.area === "Other").length < 20, "Gift Optimizer incorrectly assigned most or all gifts to Other");
@@ -415,7 +415,7 @@ assert(workshop.gifts.every(gift => gift.area === "Other" || !gift.name.endsWith
 assert(["strong","medium","gentle"].every(flame => workshop.gemPairs[flame]?.length), "Gem Crafting pair guidance is incomplete");
 for (const id of ["p-chain","p-gems","p-gifts","p-party","hub-breadcrumb","hub-rail","hub-section-select"]) assert(html.includes(`id="${id}"`), `Workshop or hub UI is missing ${id}`);
 assert(html.includes('Object.values(HUBS).forEach(hub=>hub.sections.forEach') && html.includes('sectionSearchTerms'), "Global search does not derive entries from every hub subsection");
-assert(html.includes('data-party-members="shulk,dunban,riki"') && html.includes('data-chain-party="shulk,dunban,riki"') && html.includes('data-gem-target="Night Vision"'), "Endgame contextual links do not carry party, chain, and gem context");
+assert(html.includes('data-party-members="shulk,dunban,riki"') && html.includes('data-chain-party="shulk,dunban,riki"') && html.includes('data-gem-target="夜間命中アップ"'), "Endgame contextual links do not carry party, chain, and gem context");
 assert(html.includes('function partyContextAttributes') && html.includes('function primaryGemTargetForUpdate') && html.includes('data-gift-route='), "Route contextual links do not carry party, gem, or Heart-to-Heart context");
 assert(html.includes('Forced two-person phase') && html.includes('partySize=Math.min(3,phase.roster.length)'), "Party Lab does not handle the temporary two-person roster");
 assert(html.includes('data-chain-target=') && html.includes('data-search-monster-drop=') && html.includes('function monsterGuideSearchText'), "Monster, chain, or gem contextual lookup is missing");

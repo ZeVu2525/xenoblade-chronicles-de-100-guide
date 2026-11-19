@@ -105,10 +105,10 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind",
-          "Spike Defence",
-          "Debuff Resist"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind",
+          "スパイク防御",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Barrier: Physical Protect; Ether Protect",
@@ -200,8 +200,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-fast",
         "party": "Melia / Dunban / Riki · control Melia",
         "gems": [
-          "Agility Up",
-          "Debuff Resist",
+          "素早さアップ",
+          "全デバフ抵抗",
           "Ether Up on Melia"
         ],
         "watch": [
@@ -244,7 +244,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.55 – 1.75",
               "hits": "1",
               "range": "-",
-              "effect": "Pierce; Haste",
+              "effect": "Pierce; ヘイスト",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -314,11 +314,11 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
-          "Fish Festival VI: Pierce; Haste",
+          "Fish Festival VI: Pierce; ヘイスト",
           "Thunderbolt II: Paralysis",
           "Knock-Down Spin: Topple",
           "Slow Water: Slow"
@@ -358,7 +358,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Haste",
+              "effect": "ヘイスト",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -378,7 +378,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Strength Up",
+              "effect": "筋力アップ",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -418,13 +418,13 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
-          "Ardent Howl: Haste",
+          "Ardent Howl: ヘイスト",
           "Freeze Intimidate: Agility Down",
-          "Terrible Howl: Strength Up",
+          "Terrible Howl: 筋力アップ",
           "Savage: Bleed"
         ],
         "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
@@ -566,10 +566,10 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-fast",
         "party": "Melia / Dunban / Riki · control Melia",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind",
-          "Spike Defence",
-          "Debuff Resist",
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind",
+          "スパイク防御",
+          "全デバフ抵抗",
           "Ether Up on Melia"
         ],
         "watch": [
@@ -693,8 +693,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Big Combo: Daze; Double Damage if Toppled",
@@ -807,8 +807,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Winged Awakening: Awakening",
@@ -925,9 +925,9 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Spike Defence",
-          "Debuff Resist"
+          "素早さアップ",
+          "スパイク防御",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Bison Rampage III: Topple",
@@ -1060,8 +1060,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Snipe Shot I: Daze",
@@ -1104,7 +1104,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.8 – 2.0",
               "hits": "1",
               "range": "-",
-              "effect": "Pierce; Haste",
+              "effect": "Pierce; ヘイスト",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -1164,10 +1164,10 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up"
+          "素早さアップ"
         ],
         "watch": [
-          "Naked Glow V: Pierce; Haste",
+          "Naked Glow V: Pierce; ヘイスト",
           "Hard Bash: Daze",
           "Side Swing: Topple"
         ],
@@ -1290,10 +1290,10 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind",
-          "Spike Defence",
-          "Debuff Resist"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind",
+          "スパイク防御",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Rivoluzione: Bleed",
@@ -1366,7 +1366,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Strength Up; Physical Defence Down",
+              "effect": "筋力アップ; Physical Defence Down",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -1386,7 +1386,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Strength Up; Haste",
+              "effect": "筋力アップ; ヘイスト",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -1416,13 +1416,13 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up"
+          "素早さアップ"
         ],
         "watch": [
           "Surprise Shock: Ether Defence Down",
-          "Attack Mode: Strength Up; Physical Defence Down",
+          "Attack Mode: 筋力アップ; Physical Defence Down",
           "Guard Mode: Strength Down; Physical defence Up",
-          "Final Defence Mode: Strength Up; Haste"
+          "Final Defence Mode: 筋力アップ; ヘイスト"
         ],
         "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
@@ -1489,7 +1489,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Strength Up; Physical Defence Down",
+              "effect": "筋力アップ; Physical Defence Down",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -1509,7 +1509,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Strength Up; Haste",
+              "effect": "筋力アップ; ヘイスト",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -1539,13 +1539,13 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up"
+          "素早さアップ"
         ],
         "watch": [
           "Surprise Shock: Ether Defence Down",
-          "Attack Mode: Strength Up; Physical Defence Down",
+          "Attack Mode: 筋力アップ; Physical Defence Down",
           "Guard Mode: Strength Down; Physical defence Up",
-          "Final Defence Mode: Strength Up; Haste"
+          "Final Defence Mode: 筋力アップ; ヘイスト"
         ],
         "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
@@ -1662,8 +1662,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Great Laser VI: Paralysis",
@@ -1756,7 +1756,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Strength Up, talent gauge increases",
+              "effect": "筋力アップ, talent gauge increases",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -1786,8 +1786,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Dive Impact: Topple",
@@ -1880,8 +1880,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-fast",
         "party": "Melia / Dunban / Riki · control Melia",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind",
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind",
           "Ether Up on Melia"
         ],
         "watch": [
@@ -2066,10 +2066,10 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind",
-          "Debuff Resist or Divine Protect for instant-death spike",
-          "Debuff Resist"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind",
+          "全デバフ抵抗 or 即死抵抗 for instant-death spike",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Ultra Tail Strike: Topple",
@@ -2120,7 +2120,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Haste",
+              "effect": "ヘイスト",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -2170,11 +2170,11 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up"
+          "素早さアップ"
         ],
         "watch": [
           "Sliding Sword V: Double Damage if Toppled",
-          "Nitroglycerine: Haste",
+          "Nitroglycerine: ヘイスト",
           "Rush: Double Damage if Toppled",
           "Shield Bash: Daze"
         ],
@@ -2293,7 +2293,7 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up"
+          "素早さアップ"
         ],
         "watch": [
           "Reckless Light: Pierce",
@@ -2406,8 +2406,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Acid Bath: Physical Defence Down",
@@ -2450,7 +2450,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Strength Up; Haste",
+              "effect": "筋力アップ; ヘイスト",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -2524,12 +2524,12 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Spike Defence",
-          "Debuff Resist"
+          "素早さアップ",
+          "スパイク防御",
+          "全デバフ抵抗"
         ],
         "watch": [
-          "Reconstruct: Strength Up; Haste",
+          "Reconstruct: 筋力アップ; ヘイスト",
           "Cut Attack: Double Damage if Toppled",
           "Dead Slash: Topple",
           "Thunder Flash: Paralysis"
@@ -2613,9 +2613,9 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Spike Defence",
-          "Debuff Resist"
+          "素早さアップ",
+          "スパイク防御",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Deadly Chainsaw: Bleed"
@@ -2715,9 +2715,9 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind",
-          "Debuff Resist"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Electric Tongue VII: Paralysis",
@@ -2853,10 +2853,10 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-fast",
         "party": "Melia / Dunban / Riki · control Melia",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind",
-          "Spike Defence",
-          "Debuff Resist",
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind",
+          "スパイク防御",
+          "全デバフ抵抗",
           "Ether Up on Melia"
         ],
         "watch": [
@@ -2900,7 +2900,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Haste",
+              "effect": "ヘイスト",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -2964,12 +2964,12 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Spike Defence",
-          "Debuff Resist"
+          "素早さアップ",
+          "スパイク防御",
+          "全デバフ抵抗"
         ],
         "watch": [
-          "Adrenaline: Haste",
+          "Adrenaline: ヘイスト",
           "Barrier: Damage Immunity",
           "Bloody Head Charge: Bleed"
         ],
@@ -3108,7 +3108,7 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up"
+          "素早さアップ"
         ],
         "watch": [
           "Decapitator ※1: Death when target is toppled",
@@ -3201,8 +3201,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-fast",
         "party": "Melia / Dunban / Riki · control Melia",
         "gems": [
-          "Agility Up",
-          "Debuff Resist",
+          "素早さアップ",
+          "全デバフ抵抗",
           "Ether Up on Melia"
         ],
         "watch": [
@@ -3255,7 +3255,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Agility Up",
+              "effect": "素早さアップ",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -3315,11 +3315,11 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind"
         ],
         "watch": [
-          "Speed Up: Agility Up",
+          "Speed Up: 素早さアップ",
           "Winged Fury: Crazed",
           "Hard Crash: Daze"
         ],
@@ -3418,7 +3418,7 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up"
+          "素早さアップ"
         ],
         "watch": [
           "Shield Up: Physical Protect",
@@ -3501,8 +3501,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Toxin Shower: Poison"
@@ -3602,9 +3602,9 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind",
-          "Debuff Resist"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Gala Crush VII: Daze",
@@ -3716,8 +3716,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Soul Read: Physical Evasion Up",
@@ -3818,7 +3818,7 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up"
+          "素早さアップ"
         ],
         "watch": [
           "Acid Bath: Phys Def Down",
@@ -3920,9 +3920,9 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind",
-          "Debuff Resist"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Killer Snipe IV: Instant Death",
@@ -4019,9 +4019,9 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Spike Defence",
-          "Debuff Resist"
+          "素早さアップ",
+          "スパイク防御",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Hush Chop V: Bleed",
@@ -4112,8 +4112,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Thunderbolt II: Paralysis",
@@ -4184,7 +4184,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Strength Up; Haste",
+              "effect": "筋力アップ; ヘイスト",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -4224,13 +4224,13 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Ultra Paralyse Blast III: Paralysis",
           "Tail Gore: Topple",
-          "Fury Horn: Strength Up; Haste",
+          "Fury Horn: 筋力アップ; ヘイスト",
           "Poison Breath: Poison"
         ],
         "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
@@ -4338,9 +4338,9 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind",
-          "Debuff Resist"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Killer Dive IV: Bleed",
@@ -4473,8 +4473,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Air Dive III: Daze",
@@ -4577,8 +4577,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Blizzard Breath: Chill; Bind",
@@ -4669,9 +4669,9 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind",
-          "Debuff Resist"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Binding Web: Slow",
@@ -4782,8 +4782,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind"
         ],
         "watch": [
           "Soul Read: Physical Evasion Up",
@@ -4885,7 +4885,7 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up"
+          "素早さアップ"
         ],
         "watch": [
           "Over Eater VI: Max HP Down",
@@ -5020,10 +5020,10 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-fast",
         "party": "Melia / Dunban / Riki · control Melia",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind",
-          "Spike Defence",
-          "Debuff Resist",
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind",
+          "スパイク防御",
+          "全デバフ抵抗",
           "Ether Up on Melia"
         ],
         "watch": [
@@ -5107,7 +5107,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Haste",
+              "effect": "ヘイスト",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -5137,14 +5137,14 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind",
-          "Debuff Resist"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Emperor Blow: Strength Down",
           "Imperial Sobat: Bleed",
-          "Imperial Might: Haste"
+          "Imperial Might: ヘイスト"
         ],
         "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
@@ -5241,8 +5241,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Ripple Laser III: Paralysis",
@@ -5283,7 +5283,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.8 - 2.0",
               "hits": "1",
               "range": "Single",
-              "effect": "Pierce; Haste to self",
+              "effect": "Pierce; ヘイスト to self",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -5353,10 +5353,10 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up"
+          "素早さアップ"
         ],
         "watch": [
-          "Naked Glow V: Pierce; Haste to self",
+          "Naked Glow V: Pierce; ヘイスト to self",
           "Side Swing: Topple",
           "Ether Chaff: Ether &#x25bc;; Ether Defence &#x25bc;"
         ],
@@ -5465,7 +5465,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Haste",
+              "effect": "ヘイスト",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -5583,7 +5583,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Haste",
+              "effect": "ヘイスト",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -5617,9 +5617,9 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind",
-          "Spike Defence"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind",
+          "スパイク防御"
         ],
         "watch": [
           "Chaos Combo: Damage triples when the target is Toppled",
@@ -5742,8 +5742,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-fast",
         "party": "Melia / Dunban / Riki · control Melia",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind",
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind",
           "Ether Up on Melia"
         ],
         "watch": [
@@ -5851,10 +5851,10 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind",
-          "Spike Defence",
-          "Debuff Resist"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind",
+          "スパイク防御",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Carapaia Tail: Topple",
@@ -5946,7 +5946,7 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up"
+          "素早さアップ"
         ],
         "watch": [
           "No special art effect is listed; manage aggro and the level gap."
@@ -6056,7 +6056,7 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up"
+          "素早さアップ"
         ],
         "watch": [
           "Grand Ether Bullet: Arts Seal",
@@ -6179,8 +6179,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Funky Dance: Sleep",
@@ -6283,7 +6283,7 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up"
+          "素早さアップ"
         ],
         "watch": [
           "Ether Break II: Self HP Down",
@@ -6385,8 +6385,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Razor Water: Strength Down",
@@ -6501,9 +6501,9 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind",
-          "Spike Defence"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind",
+          "スパイク防御"
         ],
         "watch": [
           "Behemoth Rampage: Crazed",
@@ -6615,9 +6615,9 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind",
-          "Debuff Resist"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Dive Impact III: Topple",
@@ -6720,8 +6720,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Atomic Glow IV: Blaze",
@@ -6813,7 +6813,7 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up"
+          "素早さアップ"
         ],
         "watch": [
           "No special art effect is listed; manage aggro and the level gap."
@@ -6923,8 +6923,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Olden Shield: Physical Protect; Ether Protect",
@@ -7017,9 +7017,9 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind",
-          "Debuff Resist"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Glorious Bolt VIII: Paralysis",
@@ -7060,7 +7060,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.8 - 2.0",
               "hits": "1",
               "range": "Single",
-              "effect": "Pierce; Haste",
+              "effect": "Pierce; ヘイスト",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -7130,10 +7130,10 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up"
+          "素早さアップ"
         ],
         "watch": [
-          "Naked Glow V: Pierce; Haste",
+          "Naked Glow V: Pierce; ヘイスト",
           "Side Swing: Topple",
           "Ether Chaff: Ether Def Down; Ether Down"
         ],
@@ -7252,7 +7252,7 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up"
+          "素早さアップ"
         ],
         "watch": [
           "Naked Field: Pierce",
@@ -7365,8 +7365,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind"
         ],
         "watch": [
           "Winged Awakening: Awakening",
@@ -7428,7 +7428,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Agility Up; Strength Up",
+              "effect": "素早さアップ; 筋力アップ",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -7488,13 +7488,13 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind"
         ],
         "watch": [
           "Velua Break VI: Topple",
           "Dark Howl: Awakening",
-          "Velua Voice: Agility Up; Strength Up",
+          "Velua Voice: 素早さアップ; 筋力アップ",
           "Dark Breath: Strength Down"
         ],
         "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
@@ -7562,7 +7562,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Strength Up; Physical Defence Down",
+              "effect": "筋力アップ; Physical Defence Down",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -7606,15 +7606,15 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind",
-          "Spike Defence",
-          "Debuff Resist"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind",
+          "スパイク防御",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Light of Demise: Bind; Paralysis",
           "Mountain Impact IX: Confuse",
-          "Strengthening Will ※: Strength Up; Physical Defence Down",
+          "Strengthening Will ※: 筋力アップ; Physical Defence Down",
           "Iron Will ※: Strength Down; Physical Protect"
         ],
         "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
@@ -7706,10 +7706,10 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind",
-          "Spike Defence",
-          "Debuff Resist"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind",
+          "スパイク防御",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Queen's Order: Increases talent gauge",
@@ -7814,9 +7814,9 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-fast",
         "party": "Melia / Dunban / Riki · control Melia",
         "gems": [
-          "Agility Up",
-          "Spike Defence",
-          "Debuff Resist",
+          "素早さアップ",
+          "スパイク防御",
+          "全デバフ抵抗",
           "Ether Up on Melia"
         ],
         "watch": [
@@ -7908,8 +7908,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Water Shot: Slow",
@@ -8040,9 +8040,9 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind",
-          "Debuff Resist"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind",
+          "全デバフ抵抗"
         ],
         "watch": [
           "More Caviar! ※: Crazed",
@@ -8085,7 +8085,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Haste",
+              "effect": "ヘイスト",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -8135,10 +8135,10 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up"
+          "素早さアップ"
         ],
         "watch": [
-          "Hurricane Bugle: Haste",
+          "Hurricane Bugle: ヘイスト",
           "Hard Push: Topple"
         ],
         "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
@@ -8266,8 +8266,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind"
         ],
         "watch": [
           "Attention Seek: Lock-On",
@@ -8360,7 +8360,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Haste, summons Mechon",
+              "effect": "ヘイスト, summons Mechon",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -8454,7 +8454,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Haste, summons Mechon",
+              "effect": "ヘイスト, summons Mechon",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -8484,13 +8484,13 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Quick Cannon: Paralysis",
           "Ether Jammer: Ether Defence Down; Slow",
-          "Shield Call ※3: Haste, summons Mechon"
+          "Shield Call ※3: ヘイスト, summons Mechon"
         ],
         "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
@@ -8587,7 +8587,7 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up"
+          "素早さアップ"
         ],
         "watch": [
           "Armu Call: Physical Defence Up"
@@ -8677,8 +8677,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Gorge: HP Steal",
@@ -8789,9 +8789,9 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind",
-          "Debuff Resist"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Channel V: Bind",
@@ -8913,8 +8913,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Atomic Glow IV: Blaze",
@@ -8967,7 +8967,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Haste",
+              "effect": "ヘイスト",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -9027,11 +9027,11 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up"
+          "素早さアップ"
         ],
         "watch": [
           "Impale IV: Pierce",
-          "Motivation: Haste",
+          "Motivation: ヘイスト",
           "Recovery: Recovery",
           "Down Swipe: Daze"
         ],
@@ -9140,8 +9140,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Deadly Chainsaw: Bleed",
@@ -9242,7 +9242,7 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up"
+          "素早さアップ"
         ],
         "watch": [
           "Ultra Smash I: Daze",
@@ -9522,8 +9522,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Catastrophe: Slow",
@@ -9625,8 +9625,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-fast",
         "party": "Melia / Dunban / Riki · control Melia",
         "gems": [
-          "Agility Up",
-          "Debuff Resist",
+          "素早さアップ",
+          "全デバフ抵抗",
           "Ether Up on Melia"
         ],
         "watch": [
@@ -9668,7 +9668,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Strength Up; Haste",
+              "effect": "筋力アップ; ヘイスト",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -9728,11 +9728,11 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
-          "Fury Horn: Strength Up; Haste",
+          "Fury Horn: 筋力アップ; ヘイスト",
           "Fire Breath: Blaze",
           "Flame Breath: Blaze; Bind"
         ],
@@ -9831,9 +9831,9 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind",
-          "Debuff Resist"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Roar: Slow",
@@ -9948,9 +9948,9 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind",
-          "Spike Defence"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind",
+          "スパイク防御"
         ],
         "watch": [
           "Threatening Roar: Strength Down; Physical Defence Down",
@@ -10031,7 +10031,7 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up"
+          "素早さアップ"
         ],
         "watch": [
           "Bubble: Agility Down"
@@ -10175,9 +10175,9 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind",
-          "Spike Defence"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind",
+          "スパイク防御"
         ],
         "watch": [
           "Beast Rampage: Crazed",
@@ -10280,7 +10280,7 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-fast",
         "party": "Melia / Dunban / Riki · control Melia",
         "gems": [
-          "Agility Up",
+          "素早さアップ",
           "Ether Up on Melia"
         ],
         "watch": [
@@ -10427,10 +10427,10 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-fast",
         "party": "Melia / Dunban / Riki · control Melia",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind",
-          "Spike Defence",
-          "Debuff Resist",
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind",
+          "スパイク防御",
+          "全デバフ抵抗",
           "Ether Up on Melia"
         ],
         "watch": [
@@ -10514,7 +10514,7 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up"
+          "素早さアップ"
         ],
         "watch": [
           "Bubble: Agility Down"
@@ -10624,8 +10624,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Quick Cannon: Paralysis",
@@ -10727,8 +10727,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind"
         ],
         "watch": [
           "Daze Swing: Daze"
@@ -10768,7 +10768,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Strength Up",
+              "effect": "筋力アップ",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -10778,7 +10778,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Agility Up",
+              "effect": "素早さアップ",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -10832,13 +10832,13 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Spike Defence",
-          "Debuff Resist"
+          "素早さアップ",
+          "スパイク防御",
+          "全デバフ抵抗"
         ],
         "watch": [
-          "Boost One: Strength Up",
-          "Boost Two: Agility Up",
+          "Boost One: 筋力アップ",
+          "Boost Two: 素早さアップ",
           "Delayal: Slow; Ether Down",
           "Rush: Double Damage if Toppled"
         ],
@@ -10937,7 +10937,7 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up"
+          "素早さアップ"
         ],
         "watch": [
           "No special art effect is listed; manage aggro and the level gap."
@@ -11027,7 +11027,7 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-fast",
         "party": "Melia / Dunban / Riki · control Melia",
         "gems": [
-          "Agility Up",
+          "素早さアップ",
           "Ether Up on Melia"
         ],
         "watch": [
@@ -11122,9 +11122,9 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-fast",
         "party": "Melia / Dunban / Riki · control Melia",
         "gems": [
-          "Agility Up",
-          "Spike Defence",
-          "Debuff Resist",
+          "素早さアップ",
+          "スパイク防御",
+          "全デバフ抵抗",
           "Ether Up on Melia"
         ],
         "watch": [
@@ -11359,8 +11359,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Sleep Spin: Sleep",
@@ -11457,8 +11457,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Spike Defence"
+          "素早さアップ",
+          "スパイク防御"
         ],
         "watch": [
           "Lower Chainsaw: Topple"
@@ -11498,7 +11498,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Haste",
+              "effect": "ヘイスト",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -11562,12 +11562,12 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Spike Defence",
-          "Debuff Resist"
+          "素早さアップ",
+          "スパイク防御",
+          "全デバフ抵抗"
         ],
         "watch": [
-          "Adrenaline: Haste",
+          "Adrenaline: ヘイスト",
           "Barrier: Damage Immunity",
           "Bloody Head Charge: Bleed"
         ],
@@ -11676,8 +11676,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Mega Flame Throw: Blaze",
@@ -11762,9 +11762,9 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind",
-          "Spike Defence"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind",
+          "スパイク防御"
         ],
         "watch": [
           "Tyranno Tail: Topple",
@@ -11869,10 +11869,10 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind",
-          "Spike Defence",
-          "Debuff Resist"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind",
+          "スパイク防御",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Barrier: Physical Protect; Ether Protect",
@@ -12018,10 +12018,10 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind",
-          "Spike Defence",
-          "Debuff Resist"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind",
+          "スパイク防御",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Legendary Claw VII: Bleed",
@@ -12164,8 +12164,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind"
         ],
         "watch": [
           "Glorious Meteor V: Daze",
@@ -12362,8 +12362,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Fire Shot: Blaze",
@@ -12444,7 +12444,7 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up"
+          "素早さアップ"
         ],
         "watch": [
           "No special art effect is listed; manage aggro and the level gap."
@@ -12494,7 +12494,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Haste",
+              "effect": "ヘイスト",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -12544,11 +12544,11 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up"
+          "素早さアップ"
         ],
         "watch": [
           "Sliding Sword V: Double Damage if Toppled",
-          "Nitroglycerine: Haste",
+          "Nitroglycerine: ヘイスト",
           "Rush: Double Damage if Toppled",
           "Shield Bash: Daze"
         ],
@@ -12721,7 +12721,7 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up"
+          "素早さアップ"
         ],
         "watch": [
           "Killing Claw: Strength Down"
@@ -12831,7 +12831,7 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up"
+          "素早さアップ"
         ],
         "watch": [
           "Energy Flash: Ether Defence Down",
@@ -12923,7 +12923,7 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up"
+          "素早さアップ"
         ],
         "watch": [
           "No special art effect is listed; manage aggro and the level gap."
@@ -13033,8 +13033,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Mega Flame Throw ※: Blaze",
@@ -13139,9 +13139,9 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-fast",
         "party": "Melia / Dunban / Riki · control Melia",
         "gems": [
-          "Agility Up",
-          "Spike Defence",
-          "Debuff Resist",
+          "素早さアップ",
+          "スパイク防御",
+          "全デバフ抵抗",
           "Ether Up on Melia"
         ],
         "watch": [
@@ -13545,8 +13545,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Massacre Lotus ※3: Death when target is toppled",
@@ -13951,8 +13951,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Massacre Lotus ※3: Death when target is toppled",
@@ -14065,9 +14065,9 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind",
-          "Debuff Resist"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Binding Noise: Bind",
@@ -14110,7 +14110,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Strength Up",
+              "effect": "筋力アップ",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -14170,12 +14170,12 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind",
-          "Debuff Resist"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind",
+          "全デバフ抵抗"
         ],
         "watch": [
-          "Pheromone Enhance: Strength Up",
+          "Pheromone Enhance: 筋力アップ",
           "Slow-Footed Net: Slow",
           "Ankle Bite: Topple",
           "Crushing Blow: Double Damage if Toppled"
@@ -14255,7 +14255,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Haste",
+              "effect": "ヘイスト",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -14275,7 +14275,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Haste",
+              "effect": "ヘイスト",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -14369,7 +14369,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Haste",
+              "effect": "ヘイスト",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -14389,7 +14389,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Haste",
+              "effect": "ヘイスト",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -14483,7 +14483,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Haste",
+              "effect": "ヘイスト",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -14503,7 +14503,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Haste",
+              "effect": "ヘイスト",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -14543,14 +14543,14 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Swing Beat: Topple",
           "Wild Crash ※3: Bind",
           "Bazooka II ※4: Bleed",
-          "Boost Attack ※4: Haste"
+          "Boost Attack ※4: ヘイスト"
         ],
         "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
@@ -14667,9 +14667,9 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind",
-          "Debuff Resist"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Super Nova VII: Bind",
@@ -14776,9 +14776,9 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-fast",
         "party": "Melia / Dunban / Riki · control Melia",
         "gems": [
-          "Agility Up",
-          "Spike Defence",
-          "Debuff Resist",
+          "素早さアップ",
+          "スパイク防御",
+          "全デバフ抵抗",
           "Ether Up on Melia"
         ],
         "watch": [
@@ -14822,7 +14822,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Haste",
+              "effect": "ヘイスト",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -14882,11 +14882,11 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
-          "Ardent Howl: Haste",
+          "Ardent Howl: ヘイスト",
           "Beast Rampage: Crazed",
           "Freeze Intimidate: Agility Down",
           "Savage: Bleed"
@@ -14976,7 +14976,7 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up"
+          "素早さアップ"
         ],
         "watch": [
           "HP Siphon: HP Steal (15%); Fill Talent Gauge",
@@ -15067,8 +15067,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Thunderbolt II: Paralysis",
@@ -15209,9 +15209,9 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind",
-          "Debuff Resist"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Legendary Claw VII: Bleed",
@@ -15264,7 +15264,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Haste",
+              "effect": "ヘイスト",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -15314,10 +15314,10 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up"
+          "素早さアップ"
         ],
         "watch": [
-          "Hurricane Bugle: Haste",
+          "Hurricane Bugle: ヘイスト",
           "Rescue Bugle: Summons Makna Eluca",
           "Hard Push: Topple"
         ],
@@ -15366,7 +15366,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Physical Protect; Haste",
+              "effect": "Physical Protect; ヘイスト",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -15420,13 +15420,13 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind",
-          "Spike Defence",
-          "Debuff Resist"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind",
+          "スパイク防御",
+          "全デバフ抵抗"
         ],
         "watch": [
-          "Cell Activate ‡: Physical Protect; Haste",
+          "Cell Activate ‡: Physical Protect; ヘイスト",
           "Big Spin: Topple",
           "Genome Break: Sleep"
         ],
@@ -15545,7 +15545,7 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up"
+          "素早さアップ"
         ],
         "watch": [
           "Charge 1: Ether Up; Fill Talent Gauge",
@@ -15658,8 +15658,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Weak Point: Pierce",
@@ -15756,10 +15756,10 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind",
-          "Spike Defence",
-          "Debuff Resist"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind",
+          "スパイク防御",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Slow-Footed Net: Slow",
@@ -15821,7 +15821,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Strength Up",
+              "effect": "筋力アップ",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -15875,15 +15875,15 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind",
-          "Spike Defence",
-          "Debuff Resist"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind",
+          "スパイク防御",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Insect Awakening ※: Awakening",
           "Melting Shower: Physical Defence Down",
-          "Violent Pheromones ※2: Strength Up",
+          "Violent Pheromones ※2: 筋力アップ",
           "Murder Claw: Bleed"
         ],
         "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
@@ -15991,8 +15991,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Power Down: Strength Down",
@@ -16084,7 +16084,7 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up"
+          "素早さアップ"
         ],
         "watch": [
           "Ether Smash II: Topple",
@@ -16179,9 +16179,9 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Spike Defence",
-          "Debuff Resist"
+          "素早さアップ",
+          "スパイク防御",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Binding Screech: Bind; Ether Down",
@@ -16282,8 +16282,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind"
         ],
         "watch": [
           "Ice Breath: Chill",
@@ -16384,7 +16384,7 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up"
+          "素早さアップ"
         ],
         "watch": [
           "Side Swing: Topple"
@@ -16494,7 +16494,7 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up"
+          "素早さアップ"
         ],
         "watch": [
           "Soul Read: Physical Evasion Up"
@@ -16544,7 +16544,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Strength Up; Physical Defence Down",
+              "effect": "筋力アップ; Physical Defence Down",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -16598,13 +16598,13 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind",
-          "Spike Defence",
-          "Debuff Resist"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind",
+          "スパイク防御",
+          "全デバフ抵抗"
         ],
         "watch": [
-          "Attack Mode: Strength Up; Physical Defence Down",
+          "Attack Mode: 筋力アップ; Physical Defence Down",
           "Bolt Shock: Bind; Lock-On"
         ],
         "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
@@ -16742,7 +16742,7 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up"
+          "素早さアップ"
         ],
         "watch": [
           "Decapitator ※1: Death when target is toppled",
@@ -16859,9 +16859,9 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind",
-          "Spike Defence"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind",
+          "スパイク防御"
         ],
         "watch": [
           "Taunt: Lock-On",
@@ -16903,7 +16903,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "1.8 – 2.0",
               "hits": "1",
               "range": "Single",
-              "effect": "Pierce; Haste to self",
+              "effect": "Pierce; ヘイスト to self",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -16977,11 +16977,11 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Spike Defence"
+          "素早さアップ",
+          "スパイク防御"
         ],
         "watch": [
-          "Naked Glow V: Pierce; Haste to self",
+          "Naked Glow V: Pierce; ヘイスト to self",
           "Ether Chaff: Ether Def Down; Ether Down",
           "Side Swing: Topple"
         ],
@@ -17050,7 +17050,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Strength Up",
+              "effect": "筋力アップ",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -17090,14 +17090,14 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Scar Claw: Bleed",
           "Scissor Jaws: Topple",
           "Melting Shower: Physical Defence Down",
-          "Violent Pheromones: Strength Up"
+          "Violent Pheromones: 筋力アップ"
         ],
         "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
@@ -17184,8 +17184,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind"
         ],
         "watch": [
           "Verse Eater IX: Max HP Down",
@@ -17326,8 +17326,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Bolt from the Blue: Paralysis",
@@ -17440,8 +17440,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Poison Stab: Poison",
@@ -17533,8 +17533,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Hush Chop V: Bleed",
@@ -17680,10 +17680,10 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind",
-          "Spike Defence",
-          "Debuff Resist"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind",
+          "スパイク防御",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Blazing Breath: Blaze",
@@ -17794,8 +17794,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Double Peck: Bleed",
@@ -17892,9 +17892,9 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Spike Defence",
-          "Debuff Resist"
+          "素早さアップ",
+          "スパイク防御",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Blazing Breath: Blaze"
@@ -17988,8 +17988,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Spike Defence"
+          "素早さアップ",
+          "スパイク防御"
         ],
         "watch": [
           "Lower Chainsaw: Topple"
@@ -18099,7 +18099,7 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up"
+          "素早さアップ"
         ],
         "watch": [
           "Ether Meteor II: Daze",
@@ -18202,8 +18202,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Blood Shot Arrow I: Bleed",
@@ -18305,7 +18305,7 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up"
+          "素早さアップ"
         ],
         "watch": [
           "Ether Break II: Self HP Down",
@@ -18427,7 +18427,7 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up"
+          "素早さアップ"
         ],
         "watch": [
           "Predation: Topple",
@@ -18549,7 +18549,7 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-fast",
         "party": "Melia / Dunban / Riki · control Melia",
         "gems": [
-          "Agility Up",
+          "素早さアップ",
           "Ether Up on Melia"
         ],
         "watch": [
@@ -18643,7 +18643,7 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up"
+          "素早さアップ"
         ],
         "watch": [
           "No special art effect is listed; manage aggro and the level gap."
@@ -18683,7 +18683,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Strength Up",
+              "effect": "筋力アップ",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -18693,7 +18693,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Agility Up",
+              "effect": "素早さアップ",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -18753,12 +18753,12 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
-          "Boost One: Strength Up",
-          "Boost Two: Agility Up",
+          "Boost One: 筋力アップ",
+          "Boost Two: 素早さアップ",
           "Delayal: Slow; Ether Down",
           "Naked Field: Pierce"
         ],
@@ -18871,10 +18871,10 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind",
-          "Spike Defence",
-          "Debuff Resist"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind",
+          "スパイク防御",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Beastman Curse: Arts Seal",
@@ -18926,7 +18926,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Strength Up",
+              "effect": "筋力アップ",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -18936,7 +18936,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Haste",
+              "effect": "ヘイスト",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -19016,12 +19016,12 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
-          "Powered Mode ‡: Strength Up",
-          "Aerial Mode: Haste",
+          "Powered Mode ‡: 筋力アップ",
+          "Aerial Mode: ヘイスト",
           "Funky Dance: Sleep",
           "Winged Cure: Regenerate"
         ],
@@ -19070,7 +19070,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Haste",
+              "effect": "ヘイスト",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -19134,12 +19134,12 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Spike Defence"
+          "素早さアップ",
+          "スパイク防御"
         ],
         "watch": [
           "Rage: Crazed",
-          "Swift Stance: Haste",
+          "Swift Stance: ヘイスト",
           "Taunt: Lock-On",
           "Shield Crash: Daze"
         ],
@@ -19198,7 +19198,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Agility Up",
+              "effect": "素早さアップ",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -19258,11 +19258,11 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up"
+          "素早さアップ"
         ],
         "watch": [
           "Build Up: Physical Protect",
-          "Speed Up: Agility Up",
+          "Speed Up: 素早さアップ",
           "Winged Fury: Crazed",
           "Hard Crash: Daze"
         ],
@@ -19485,8 +19485,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Burst Animus: Arts Seal; Bind",
@@ -19529,7 +19529,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Haste",
+              "effect": "ヘイスト",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -19539,7 +19539,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Haste",
+              "effect": "ヘイスト",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -19589,7 +19589,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Strength Up",
+              "effect": "筋力アップ",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -19629,12 +19629,12 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
-          "All-Out Attack Howl ‡: Haste",
-          "Ardent Howl: Haste",
+          "All-Out Attack Howl ‡: ヘイスト",
+          "Ardent Howl: ヘイスト",
           "Beast Rampage: Crazed",
           "Freeze Intimidate: Agility Down"
         ],
@@ -19753,7 +19753,7 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-fast",
         "party": "Melia / Dunban / Riki · control Melia",
         "gems": [
-          "Agility Up",
+          "素早さアップ",
           "Ether Up on Melia"
         ],
         "watch": [
@@ -19837,7 +19837,7 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up"
+          "素早さアップ"
         ],
         "watch": [
           "Tripping Rush: Topple"
@@ -19887,7 +19887,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Haste",
+              "effect": "ヘイスト",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -19951,13 +19951,13 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Spike Defence",
-          "Debuff Resist"
+          "素早さアップ",
+          "スパイク防御",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Bazooka V: Bleed",
-          "Boost Attack: Haste",
+          "Boost Attack: ヘイスト",
           "Swing Beat: Topple",
           "Wild Crash: Bind"
         ],
@@ -20070,9 +20070,9 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind",
-          "Spike Defence"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind",
+          "スパイク防御"
         ],
         "watch": [
           "Beast Rampage: Crazed",
@@ -20114,7 +20114,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Haste",
+              "effect": "ヘイスト",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -20174,10 +20174,10 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up"
+          "素早さアップ"
         ],
         "watch": [
-          "Motivation: Haste",
+          "Motivation: ヘイスト",
           "Recovery: Recovery",
           "Down Swipe: Daze"
         ],
@@ -20290,8 +20290,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Spike Defence"
+          "素早さアップ",
+          "スパイク防御"
         ],
         "watch": [
           "Over Eater VI: Max HP Down",
@@ -20412,8 +20412,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Big Scissors: Bleed",
@@ -20526,8 +20526,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Howling Mockery: Lock-On",
@@ -20610,7 +20610,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Strength Up; Ether Power Up",
+              "effect": "筋力アップ; Ether Power Up",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -20650,8 +20650,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Spiral Kick: Topple",
@@ -20744,8 +20744,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind"
         ],
         "watch": [
           "Aqua Wave: Chill"
@@ -20845,8 +20845,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Energy Steal: Talent Absorb",
@@ -20887,7 +20887,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Haste",
+              "effect": "ヘイスト",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -20947,10 +20947,10 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up"
+          "素早さアップ"
         ],
         "watch": [
-          "Motivation: Haste",
+          "Motivation: ヘイスト",
           "Recovery: Recovery",
           "Down Swipe: Daze"
         ],
@@ -21053,8 +21053,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-fast",
         "party": "Melia / Dunban / Riki · control Melia",
         "gems": [
-          "Agility Up",
-          "Spike Defence",
+          "素早さアップ",
+          "スパイク防御",
           "Ether Up on Melia"
         ],
         "watch": [
@@ -21150,9 +21150,9 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Spike Defence",
-          "Debuff Resist"
+          "素早さアップ",
+          "スパイク防御",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Flame Throw: Blaze",
@@ -21264,8 +21264,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Thunderbolt II: Paralysis",
@@ -21348,7 +21348,7 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up"
+          "素早さアップ"
         ],
         "watch": [
           "No special art effect is listed; manage aggro and the level gap."
@@ -21468,9 +21468,9 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind",
-          "Debuff Resist"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Beast Rampage: Crazed",
@@ -21523,7 +21523,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Physical Protect; Agility Up",
+              "effect": "Physical Protect; 素早さアップ",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -21563,13 +21563,13 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-fast",
         "party": "Melia / Dunban / Riki · control Melia",
         "gems": [
-          "Agility Up",
-          "Debuff Resist",
+          "素早さアップ",
+          "全デバフ抵抗",
           "Ether Up on Melia"
         ],
         "watch": [
           "Total Immunise V: Confuse",
-          "Anti-Antibody: Physical Protect; Agility Up",
+          "Anti-Antibody: Physical Protect; 素早さアップ",
           "Immunise: Slow; Lock-On"
         ],
         "route": "High physical resistance favors a controlled Melia ether plan; store elements and discharge into safe windows.",
@@ -21677,7 +21677,7 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up"
+          "素早さアップ"
         ],
         "watch": [
           "Beast Rampage: Crazed"
@@ -21797,8 +21797,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind"
         ],
         "watch": [
           "Invite to Despair: Pierce; Lock-On",
@@ -21881,8 +21881,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Bloody Claw: Bleed",
@@ -21987,10 +21987,10 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind",
-          "Spike Defence",
-          "Debuff Resist"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind",
+          "スパイク防御",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Butt: Bleed",
@@ -22082,7 +22082,7 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up"
+          "素早さアップ"
         ],
         "watch": [
           "Devour: HP Steal (%)",
@@ -22183,9 +22183,9 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind",
-          "Debuff Resist"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Fire Breath: Blaze",
@@ -22236,7 +22236,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Strength Up",
+              "effect": "筋力アップ",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -22290,11 +22290,11 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Spike Defence"
+          "素早さアップ",
+          "スパイク防御"
         ],
         "watch": [
-          "Activity: Strong: Strength Up",
+          "Activity: Strong: 筋力アップ",
           "Big Spin: Topple"
         ],
         "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
@@ -22396,8 +22396,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Spike Defence"
+          "素早さアップ",
+          "スパイク防御"
         ],
         "watch": [
           "Lower Chainsaw: Topple"
@@ -22477,7 +22477,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Haste",
+              "effect": "ヘイスト",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -22497,7 +22497,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Haste",
+              "effect": "ヘイスト",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -22591,7 +22591,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Haste",
+              "effect": "ヘイスト",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -22611,7 +22611,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Haste",
+              "effect": "ヘイスト",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -22705,7 +22705,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Haste",
+              "effect": "ヘイスト",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -22725,7 +22725,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Self",
-              "effect": "Haste",
+              "effect": "ヘイスト",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -22765,14 +22765,14 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Swing Beat: Topple",
           "Wild Crash ※3: Bind",
           "Bazooka II ※4: Bleed",
-          "Boost Attack ※4: Haste"
+          "Boost Attack ※4: ヘイスト"
         ],
         "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
         "basis": "Rule-based guide advice derived from the cited level, resistances, arts and spike fields."
@@ -23047,8 +23047,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Catastrophe: Slow",
@@ -23130,7 +23130,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "-",
-              "effect": "Strength Up; Ether Up",
+              "effect": "筋力アップ; Ether Up",
               "knockback": "-",
               "breakDamage": "-"
             },
@@ -23170,13 +23170,13 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Debuff Resist"
+          "素早さアップ",
+          "全デバフ抵抗"
         ],
         "watch": [
           "Monado Shield: Invincible",
           "Monado Eater: Removes buffs; Inflicts Bleed",
-          "Monado Brave: Strength Up; Ether Up",
+          "Monado Brave: 筋力アップ; Ether Up",
           "Ether Field: Pierce"
         ],
         "route": "Use the reliable vision-response party; Break → Topple only when the listed resistance allows it.",
@@ -23274,7 +23274,7 @@ const COMBAT_DOSSIER_DATA={
               "strength": "-",
               "hits": "-",
               "range": "Circle around caster",
-              "effect": "Strength Up; Ether Up",
+              "effect": "筋力アップ; Ether Up",
               "knockback": "-",
               "breakDamage": "-"
             }
@@ -23532,8 +23532,8 @@ const COMBAT_DOSSIER_DATA={
         "preset": "main-um-safe",
         "party": "Shulk / Dunban / Riki · control Shulk",
         "gems": [
-          "Agility Up",
-          "Night Vision when accuracy falls behind"
+          "素早さアップ",
+          "夜間命中アップ when accuracy falls behind"
         ],
         "watch": [
           "Summon Guardians ※: Physical Protect; Summons Guardians",
@@ -23550,9 +23550,9 @@ const COMBAT_DOSSIER_DATA={
     "Final Marcus": {
       "preset": "main-superboss-safe",
       "gems": [
-        "Spike Defence",
-        "Agility Up",
-        "Night Vision if accuracy is low"
+        "スパイク防御",
+        "素早さアップ",
+        "夜間命中アップ if accuracy is low"
       ],
       "watch": [
         "Aura damage spike",
@@ -23563,21 +23563,21 @@ const COMBAT_DOSSIER_DATA={
     "Ancient Daedala": {
       "preset": "main-superboss-safe",
       "gems": [
-        "Spike Defence",
-        "Night Vision",
-        "Agility Up"
+        "スパイク防御",
+        "夜間命中アップ",
+        "素早さアップ"
       ],
       "watch": [
         "Aura damage spike",
-        "Farm Rank V Night Vision cylinders before the Lv114/Lv120 fights."
+        "Farm Rank V 夜間命中アップ cylinders before the Lv114/Lv120 fights."
       ],
       "route": "Second superboss; this farm unlocks the practical Abaasy preparation path."
     },
     "Despotic Arsene": {
       "preset": "main-superboss-safe",
       "gems": [
-        "Agility Up",
-        "Night Vision",
+        "素早さアップ",
+        "夜間命中アップ",
         "Physical defence / evasion plan"
       ],
       "watch": [
@@ -23585,14 +23585,14 @@ const COMBAT_DOSSIER_DATA={
         "Fast attacks",
         "Half-duration Topple; no spike requirement documented."
       ],
-      "route": "Third superboss after the Daedala Night Vision farm."
+      "route": "Third superboss after the Daedala 夜間命中アップ farm."
     },
     "Blizzard Belgazas": {
       "preset": "main-topple-lock",
       "gems": [
-        "Night Vision",
-        "Topple Plus",
-        "Agility Up"
+        "夜間命中アップ",
+        "転倒時間プラス",
+        "素早さアップ"
       ],
       "watch": [
         "No topple resistance",
@@ -23603,11 +23603,11 @@ const COMBAT_DOSSIER_DATA={
     "Avalanche Abaasy": {
       "preset": "main-superboss-safe",
       "gems": [
-        "Max Night Vision",
-        "Spike Defence",
-        "Debuff Resist or Divine Protect",
-        "Rank VI Topple Plus",
-        "Agility Up"
+        "Max 夜間命中アップ",
+        "スパイク防御",
+        "全デバフ抵抗 or 即死抵抗",
+        "Rank VI 転倒時間プラス",
+        "素早さアップ"
       ],
       "watch": [
         "Instant-death counter spike",

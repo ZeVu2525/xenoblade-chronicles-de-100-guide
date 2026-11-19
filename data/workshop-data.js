@@ -35,22 +35,22 @@ const WORKSHOP_DATA = {
     }
   ],
   "gemTargets": [
-    "Agility Up",
-    "Night Vision",
-    "Spike Defence",
-    "Topple Plus",
-    "Debuff Resist",
-    "Divine Protect",
-    "Haste",
-    "Double Attack",
-    "Strength Up",
+    "素早さアップ",
+    "夜間命中アップ",
+    "スパイク防御",
+    "転倒時間プラス",
+    "全デバフ抵抗",
+    "即死抵抗",
+    "ヘイスト",
+    "ダブルアタック",
+    "筋力アップ",
     "Ether Up",
     "HP Up",
     "Physical Def Up",
-    "Ether Def Up",
-    "Aggro Up",
-    "Aggro Down",
-    "Heat Sink"
+    "エーテル防御増",
+    "ヘイトアップ",
+    "ヘイトダウン",
+    "ヒートシンク"
   ],
   "gemPairs": {
     "strong": [
@@ -119,20 +119,20 @@ const WORKSHOP_DATA = {
       {
         "name": "ストリームエッジ",
         "color": "pink",
-        "effect": "Break",
+        "effect": "崩し",
         "note": "範囲の崩し。"
       },
       {
         "name": "エアスラッシュ",
         "color": "pink",
-        "effect": "Break",
+        "effect": "崩し",
         "unlock": 3,
         "note": "位置が合うと、単体の崩しに Slow が付く。"
       },
       {
         "name": "シェイカーエッジ",
         "color": "yellow",
-        "effect": "Daze",
+        "effect": "気絶",
         "unlock": 5,
         "note": "転倒中の対象を気絶させる。"
       },
@@ -159,13 +159,13 @@ const WORKSHOP_DATA = {
       {
         "name": "ワイルドダウン",
         "color": "green",
-        "effect": "Topple",
+        "effect": "転倒",
         "note": "崩しが必要。"
       },
       {
         "name": "シールドバッシュ",
         "color": "yellow",
-        "effect": "Daze",
+        "effect": "気絶",
         "note": "転倒が必要。"
       },
       {
@@ -191,7 +191,7 @@ const WORKSHOP_DATA = {
       {
         "name": "メタルブラスト",
         "color": "pink",
-        "effect": "Break",
+        "effect": "崩し",
         "note": "直線の崩し。"
       },
       {
@@ -211,13 +211,13 @@ const WORKSHOP_DATA = {
       {
         "name": "鉄功弾",
         "color": "green",
-        "effect": "Topple",
+        "effect": "転倒",
         "note": "崩しが必要。"
       },
       {
         "name": "天雷",
         "color": "yellow",
-        "effect": "Daze",
+        "effect": "気絶",
         "unlock": 7,
         "note": "オーラが有効なあいだ、転倒中の対象を気絶させる。"
       },
@@ -250,7 +250,7 @@ const WORKSHOP_DATA = {
       {
         "name": "スターライト・ニー",
         "color": "green",
-        "effect": "Topple",
+        "effect": "転倒",
         "unlock": 7,
         "note": "スピアブレイクのあと、崩しなしで転倒させる。"
       },
@@ -265,7 +265,7 @@ const WORKSHOP_DATA = {
       {
         "name": "コロベも",
         "color": "green",
-        "effect": "Topple",
+        "effect": "転倒",
         "note": "崩しが必要。"
       },
       {
@@ -304,14 +304,14 @@ const WORKSHOP_DATA = {
       {
         "name": "ファイナルクロス",
         "color": "green",
-        "effect": "Topple",
+        "effect": "転倒",
         "unlock": 12,
         "note": "復帰後のフィオルンだけ。必要な高テンション状態で転倒させる。"
       },
       {
         "name": "クロスインパクト",
         "color": "yellow",
-        "effect": "Daze",
+        "effect": "気絶",
         "unlock": 12,
         "note": "復帰後のフィオルンだけ。転倒中の対象を気絶させる。"
       },
@@ -445,8 +445,8 @@ const WORKSHOP_DATA = {
   "gifts": [
     {
       "id": "gift-1",
-      "name": "Sweet Wasabi",
-      "area": "Colony 9",
+      "name": "あまあまワサビ",
+      "area": "コロニー9",
       "category": "Vegetable",
       "affinity": {
         "shulk": -4,
@@ -461,7 +461,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-2",
       "name": "クルイモ",
-      "area": "Colony 9",
+      "area": "コロニー9",
       "category": "Vegetable",
       "affinity": {
         "shulk": 2,
@@ -476,7 +476,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-3",
       "name": "赤色レタス",
-      "area": "Colony 9",
+      "area": "コロニー9",
       "category": "Vegetable",
       "affinity": {
         "shulk": -8,
@@ -491,7 +491,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-4",
       "name": "カムカムラディッシュ",
-      "area": "Colony 9",
+      "area": "コロニー9",
       "category": "Vegetable",
       "affinity": {
         "shulk": -2,
@@ -506,7 +506,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-5",
       "name": "ホットむらさきイモ",
-      "area": "Bionis' Leg",
+      "area": "巨神脚",
       "category": "Vegetable",
       "affinity": {
         "shulk": -10,
@@ -521,7 +521,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-6",
       "name": "ジューシートマト",
-      "area": "Bionis' Leg",
+      "area": "巨神脚",
       "category": "Vegetable",
       "affinity": {
         "shulk": -12,
@@ -536,7 +536,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-7",
       "name": "ホットキャベツ",
-      "area": "Bionis' Leg",
+      "area": "巨神脚",
       "category": "Vegetable",
       "affinity": {
         "shulk": -4,
@@ -551,7 +551,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-8",
       "name": "ハードホウレン",
-      "area": "Bionis' Leg",
+      "area": "巨神脚",
       "category": "Vegetable",
       "affinity": {
         "shulk": -6,
@@ -566,7 +566,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-9",
       "name": "青ウメロン",
-      "area": "Satorl Marsh",
+      "area": "燐光の地ザトール",
       "category": "Vegetable",
       "affinity": {
         "shulk": 4,
@@ -581,7 +581,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-10",
       "name": "キュートストロベリ",
-      "area": "Satorl Marsh",
+      "area": "燐光の地ザトール",
       "category": "Vegetable",
       "affinity": {
         "shulk": -6,
@@ -596,7 +596,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-11",
       "name": "ポイズンツルレイシ",
-      "area": "Satorl Marsh",
+      "area": "燐光の地ザトール",
       "category": "Vegetable",
       "affinity": {
         "shulk": 2,
@@ -611,7 +611,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-12",
       "name": "ハミングメキャベツ",
-      "area": "Satorl Marsh",
+      "area": "燐光の地ザトール",
       "category": "Vegetable",
       "affinity": {
         "shulk": -8,
@@ -626,7 +626,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-13",
       "name": "サルサペリラ",
-      "area": "Bionis' Interior",
+      "area": "巨神胎内",
       "category": "Vegetable",
       "affinity": {
         "shulk": -6,
@@ -641,7 +641,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-14",
       "name": "クロマメレバー",
-      "area": "Bionis' Interior",
+      "area": "巨神胎内",
       "category": "Vegetable",
       "affinity": {
         "shulk": 2,
@@ -656,7 +656,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-15",
       "name": "トルマリンダケ",
-      "area": "Makna Forest",
+      "area": "マクナ原生林",
       "category": "Vegetable",
       "affinity": {
         "shulk": 2,
@@ -671,7 +671,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-16",
       "name": "コンブダケ",
-      "area": "Makna Forest",
+      "area": "マクナ原生林",
       "category": "Vegetable",
       "affinity": {
         "shulk": -4,
@@ -686,7 +686,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-17",
       "name": "マクナ・アマミツ",
-      "area": "Makna Forest",
+      "area": "マクナ原生林",
       "category": "Vegetable",
       "affinity": {
         "shulk": -12,
@@ -701,7 +701,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-18",
       "name": "アスパラボム",
-      "area": "Eryth Sea",
+      "area": "エルト海",
       "category": "Vegetable",
       "affinity": {
         "shulk": -8,
@@ -716,7 +716,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-19",
       "name": "トロピカルダイコン",
-      "area": "Eryth Sea",
+      "area": "エルト海",
       "category": "Vegetable",
       "affinity": {
         "shulk": -6,
@@ -731,7 +731,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-20",
       "name": "ドルフィンゴーヤ",
-      "area": "Eryth Sea",
+      "area": "エルト海",
       "category": "Vegetable",
       "affinity": {
         "shulk": 6,
@@ -746,7 +746,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-21",
       "name": "ゴールドゴボウ",
-      "area": "Eryth Sea",
+      "area": "エルト海",
       "category": "Vegetable",
       "affinity": {
         "shulk": -18,
@@ -761,7 +761,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-22",
       "name": "サワーダイコン",
-      "area": "Valak Mountain",
+      "area": "ヴァラク雪山",
       "category": "Vegetable",
       "affinity": {
         "shulk": -4,
@@ -776,7 +776,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-23",
       "name": "アイスキャベツ",
-      "area": "Valak Mountain",
+      "area": "ヴァラク雪山",
       "category": "Vegetable",
       "affinity": {
         "shulk": -4,
@@ -791,7 +791,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-24",
       "name": "ガールズッキーニ",
-      "area": "Valak Mountain",
+      "area": "ヴァラク雪山",
       "category": "Vegetable",
       "affinity": {
         "shulk": -4,
@@ -806,7 +806,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-25",
       "name": "アメシストオーニラ",
-      "area": "Valak Mountain",
+      "area": "ヴァラク雪山",
       "category": "Vegetable",
       "affinity": {
         "shulk": -6,
@@ -821,7 +821,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-26",
       "name": "ファイアペッパー",
-      "area": "Sword Valley",
+      "area": "大剣の渓谷",
       "category": "Vegetable",
       "affinity": {
         "shulk": -6,
@@ -836,7 +836,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-27",
       "name": "ミートパプリカ",
-      "area": "Sword Valley",
+      "area": "大剣の渓谷",
       "category": "Vegetable",
       "affinity": {
         "shulk": -12,
@@ -851,7 +851,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-28",
       "name": "ビターブロッコリー",
-      "area": "Sword Valley",
+      "area": "大剣の渓谷",
       "category": "Vegetable",
       "affinity": {
         "shulk": 6,
@@ -866,7 +866,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-29",
       "name": "シブコールラビ",
-      "area": "Fallen Arm",
+      "area": "落ちた腕",
       "category": "Vegetable",
       "affinity": {
         "shulk": 2,
@@ -881,7 +881,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-30",
       "name": "コールデンスイカ",
-      "area": "Fallen Arm",
+      "area": "落ちた腕",
       "category": "Vegetable",
       "affinity": {
         "shulk": -6,
@@ -896,7 +896,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-31",
       "name": "ジューシィマクワ",
-      "area": "Mechonis Field",
+      "area": "機神界フィールド",
       "category": "Vegetable",
       "affinity": {
         "shulk": -8,
@@ -911,7 +911,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-32",
       "name": "アセロラエンドウ",
-      "area": "Mechonis Field",
+      "area": "機神界フィールド",
       "category": "Vegetable",
       "affinity": {
         "shulk": 2,
@@ -926,7 +926,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-33",
       "name": "スタミ・ナス",
-      "area": "Mechonis Field",
+      "area": "機神界フィールド",
       "category": "Vegetable",
       "affinity": {
         "shulk": 10,
@@ -941,7 +941,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-34",
       "name": "スウィートパプリカ",
-      "area": "Mechonis Field",
+      "area": "機神界フィールド",
       "category": "Vegetable",
       "affinity": {
         "shulk": -10,
@@ -956,7 +956,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-35",
       "name": "フレッシュメロン",
-      "area": "Central Factory",
+      "area": "中央工廠",
       "category": "Vegetable",
       "affinity": {
         "shulk": -6,
@@ -971,7 +971,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-36",
       "name": "アサギイモ",
-      "area": "Central Factory",
+      "area": "中央工廠",
       "category": "Vegetable",
       "affinity": {
         "shulk": -8,
@@ -986,7 +986,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-37",
       "name": "オドリンゴ",
-      "area": "Colony 9",
+      "area": "コロニー9",
       "category": "Fruit",
       "affinity": {
         "shulk": -2,
@@ -1001,7 +1001,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-38",
       "name": "ブラックキウイ",
-      "area": "Colony 9",
+      "area": "コロニー9",
       "category": "Fruit",
       "affinity": {
         "shulk": 2,
@@ -1016,7 +1016,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-39",
       "name": "クリアーモンド",
-      "area": "Tephra Cave",
+      "area": "テフラ洞窟",
       "category": "Fruit",
       "affinity": {
         "shulk": 6,
@@ -1031,7 +1031,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-40",
       "name": "サンサンイチジク",
-      "area": "Tephra Cave",
+      "area": "テフラ洞窟",
       "category": "Fruit",
       "affinity": {
         "shulk": 2,
@@ -1046,7 +1046,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-41",
       "name": "クラブドウ",
-      "area": "Tephra Cave",
+      "area": "テフラ洞窟",
       "category": "Fruit",
       "affinity": {
         "shulk": 4,
@@ -1061,7 +1061,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-42",
       "name": "シャープクランベリ",
-      "area": "Bionis' Leg",
+      "area": "巨神脚",
       "category": "Fruit",
       "affinity": {
         "shulk": 2,
@@ -1076,7 +1076,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-43",
       "name": "レッドドリアン",
-      "area": "Bionis' Leg",
+      "area": "巨神脚",
       "category": "Fruit",
       "affinity": {
         "shulk": -2,
@@ -1091,7 +1091,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-44",
       "name": "クルミグレープ",
-      "area": "Bionis' Leg",
+      "area": "巨神脚",
       "category": "Fruit",
       "affinity": {
         "shulk": 8,
@@ -1106,7 +1106,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-45",
       "name": "ハミングプラム",
-      "area": "Bionis' Leg",
+      "area": "巨神脚",
       "category": "Fruit",
       "affinity": {
         "shulk": 2,
@@ -1121,7 +1121,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-46",
       "name": "ダークマンゴー",
-      "area": "Makna Forest",
+      "area": "マクナ原生林",
       "category": "Fruit",
       "affinity": {
         "shulk": 8,
@@ -1136,7 +1136,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-47",
       "name": "ピュアアセロラ",
-      "area": "Makna Forest",
+      "area": "マクナ原生林",
       "category": "Fruit",
       "affinity": {
         "shulk": 2,
@@ -1151,7 +1151,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-48",
       "name": "ビターキウイ",
-      "area": "Makna Forest",
+      "area": "マクナ原生林",
       "category": "Fruit",
       "affinity": {
         "shulk": 8,
@@ -1166,7 +1166,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-49",
       "name": "ジュシブドウ",
-      "area": "Makna Forest",
+      "area": "マクナ原生林",
       "category": "Fruit",
       "affinity": {
         "shulk": 2,
@@ -1181,7 +1181,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-50",
       "name": "ピリットナシ",
-      "area": "Frontier Village",
+      "area": "サイハテ村",
       "category": "Fruit",
       "affinity": {
         "shulk": 8,
@@ -1196,7 +1196,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-51",
       "name": "クレナイスダチ",
-      "area": "Frontier Village",
+      "area": "サイハテ村",
       "category": "Fruit",
       "affinity": {
         "shulk": 2,
@@ -1211,7 +1211,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-52",
       "name": "クルクールレモン",
-      "area": "Alcamoth",
+      "area": "皇都アカモート",
       "category": "Fruit",
       "affinity": {
         "shulk": -6,
@@ -1226,7 +1226,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-53",
       "name": "ハートピーチ",
-      "area": "Alcamoth",
+      "area": "皇都アカモート",
       "category": "Fruit",
       "affinity": {
         "shulk": -2,
@@ -1241,7 +1241,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-54",
       "name": "エーデルプラム",
-      "area": "Valak Mountain",
+      "area": "ヴァラク雪山",
       "category": "Fruit",
       "affinity": {
         "shulk": 2,
@@ -1256,7 +1256,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-55",
       "name": "ファイアップル",
-      "area": "Valak Mountain",
+      "area": "ヴァラク雪山",
       "category": "Fruit",
       "affinity": {
         "shulk": 4,
@@ -1271,7 +1271,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-56",
       "name": "ルビーマンゴスチン",
-      "area": "Valak Mountain",
+      "area": "ヴァラク雪山",
       "category": "Fruit",
       "affinity": {
         "shulk": 2,
@@ -1286,7 +1286,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-57",
       "name": "シブドウ",
-      "area": "Valak Mountain",
+      "area": "ヴァラク雪山",
       "category": "Fruit",
       "affinity": {
         "shulk": 10,
@@ -1301,7 +1301,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-58",
       "name": "ニガメロン",
-      "area": "Sword Valley",
+      "area": "大剣の渓谷",
       "category": "Fruit",
       "affinity": {
         "shulk": 10,
@@ -1316,7 +1316,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-59",
       "name": "クエンカムカム",
-      "area": "Sword Valley",
+      "area": "大剣の渓谷",
       "category": "Fruit",
       "affinity": {
         "shulk": 2,
@@ -1331,7 +1331,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-60",
       "name": "ミズミズメロン",
-      "area": "Sword Valley",
+      "area": "大剣の渓谷",
       "category": "Fruit",
       "affinity": {
         "shulk": 4,
@@ -1346,7 +1346,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-61",
       "name": "アメシストレモン",
-      "area": "Sword Valley",
+      "area": "大剣の渓谷",
       "category": "Fruit",
       "affinity": {
         "shulk": 4,
@@ -1361,7 +1361,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-62",
       "name": "ホワイトプラム",
-      "area": "Fallen Arm",
+      "area": "落ちた腕",
       "category": "Fruit",
       "affinity": {
         "shulk": 2,
@@ -1376,7 +1376,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-63",
       "name": "アイスキウイ",
-      "area": "Fallen Arm",
+      "area": "落ちた腕",
       "category": "Fruit",
       "affinity": {
         "shulk": 2,
@@ -1391,7 +1391,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-64",
       "name": "ホットパパイヤ",
-      "area": "Fallen Arm",
+      "area": "落ちた腕",
       "category": "Fruit",
       "affinity": {
         "shulk": -4,
@@ -1406,7 +1406,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-65",
       "name": "ムシマンゴー",
-      "area": "Fallen Arm",
+      "area": "落ちた腕",
       "category": "Fruit",
       "affinity": {
         "shulk": 6,
@@ -1421,7 +1421,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-66",
       "name": "タジルブルーベリー",
-      "area": "Agniratha",
+      "area": "帝都アグニラータ",
       "category": "Fruit",
       "affinity": {
         "shulk": 8,
@@ -1436,7 +1436,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-67",
       "name": "アマアマライム",
-      "area": "Agniratha",
+      "area": "帝都アグニラータ",
       "category": "Fruit",
       "affinity": {
         "shulk": 2,
@@ -1451,7 +1451,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-68",
       "name": "ホットバナナ",
-      "area": "Agniratha",
+      "area": "帝都アグニラータ",
       "category": "Fruit",
       "affinity": {
         "shulk": 4,
@@ -1466,7 +1466,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-69",
       "name": "ドライレモン",
-      "area": "Prison Island",
+      "area": "監獄島",
       "category": "Fruit",
       "affinity": {
         "shulk": -2,
@@ -1481,7 +1481,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-70",
       "name": "デッドライチ",
-      "area": "Prison Island",
+      "area": "監獄島",
       "category": "Fruit",
       "affinity": {
         "shulk": 2,
@@ -1496,7 +1496,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-71",
       "name": "ヘルスウィーティー",
-      "area": "Prison Island",
+      "area": "監獄島",
       "category": "Fruit",
       "affinity": {
         "shulk": -4,
@@ -1511,7 +1511,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-72",
       "name": "デッドリーキウイ",
-      "area": "Prison Island",
+      "area": "監獄島",
       "category": "Fruit",
       "affinity": {
         "shulk": 4,
@@ -1526,7 +1526,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-73",
       "name": "ポポンタンポポ",
-      "area": "Colony 9",
+      "area": "コロニー9",
       "category": "Flower",
       "affinity": {
         "shulk": 2,
@@ -1541,7 +1541,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-74",
       "name": "ココーマワリ",
-      "area": "Colony 9",
+      "area": "コロニー9",
       "category": "Flower",
       "affinity": {
         "shulk": 8,
@@ -1556,7 +1556,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-75",
       "name": "サチベリア",
-      "area": "Colony 9",
+      "area": "コロニー9",
       "category": "Flower",
       "affinity": {
         "shulk": -4,
@@ -1571,7 +1571,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-76",
       "name": "クレージミント",
-      "area": "Tephra Cave",
+      "area": "テフラ洞窟",
       "category": "Flower",
       "affinity": {
         "shulk": 2,
@@ -1586,7 +1586,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-77",
       "name": "ナイトチューリップ",
-      "area": "Tephra Cave",
+      "area": "テフラ洞窟",
       "category": "Flower",
       "affinity": {
         "shulk": 2,
@@ -1601,7 +1601,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-78",
       "name": "キュットラン",
-      "area": "Colony 6",
+      "area": "コロニー6",
       "category": "Flower",
       "affinity": {
         "shulk": 4,
@@ -1616,7 +1616,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-79",
       "name": "セリオスアネモネ",
-      "area": "Colony 6",
+      "area": "コロニー6",
       "category": "Flower",
       "affinity": {
         "shulk": 18,
@@ -1631,7 +1631,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-80",
       "name": "ダンデクレマチス",
-      "area": "Colony 6",
+      "area": "コロニー6",
       "category": "Flower",
       "affinity": {
         "shulk": -8,
@@ -1646,7 +1646,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-81",
       "name": "ヒマワリローグ",
-      "area": "Satorl Marsh",
+      "area": "燐光の地ザトール",
       "category": "Flower",
       "affinity": {
         "shulk": -2,
@@ -1661,7 +1661,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-82",
       "name": "メリーカンギク",
-      "area": "Satorl Marsh",
+      "area": "燐光の地ザトール",
       "category": "Flower",
       "affinity": {
         "shulk": -4,
@@ -1676,7 +1676,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-83",
       "name": "アキシィ",
-      "area": "Satorl Marsh",
+      "area": "燐光の地ザトール",
       "category": "Flower",
       "affinity": {
         "shulk": -8,
@@ -1691,7 +1691,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-84",
       "name": "リンタイ",
-      "area": "Satorl Marsh",
+      "area": "燐光の地ザトール",
       "category": "Flower",
       "affinity": {
         "shulk": 16,
@@ -1706,7 +1706,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-85",
       "name": "ワスレナバナ",
-      "area": "Satorl Marsh",
+      "area": "燐光の地ザトール",
       "category": "Flower",
       "affinity": {
         "shulk": 10,
@@ -1721,7 +1721,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-86",
       "name": "アイヤマ",
-      "area": "Makna Forest",
+      "area": "マクナ原生林",
       "category": "Flower",
       "affinity": {
         "shulk": 2,
@@ -1736,7 +1736,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-87",
       "name": "ハミングオオバ",
-      "area": "Makna Forest",
+      "area": "マクナ原生林",
       "category": "Flower",
       "affinity": {
         "shulk": 4,
@@ -1751,7 +1751,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-88",
       "name": "ヒメミレス",
-      "area": "Makna Forest",
+      "area": "マクナ原生林",
       "category": "Flower",
       "affinity": {
         "shulk": 8,
@@ -1766,7 +1766,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-89",
       "name": "ノキス",
-      "area": "Makna Forest",
+      "area": "マクナ原生林",
       "category": "Flower",
       "affinity": {
         "shulk": -6,
@@ -1781,7 +1781,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-90",
       "name": "スィーベリー",
-      "area": "Eryth Sea",
+      "area": "エルト海",
       "category": "Flower",
       "affinity": {
         "shulk": -10,
@@ -1796,7 +1796,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-91",
       "name": "アンカオイ",
-      "area": "Eryth Sea",
+      "area": "エルト海",
       "category": "Flower",
       "affinity": {
         "shulk": -2,
@@ -1811,7 +1811,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-92",
       "name": "ストピィー",
-      "area": "Eryth Sea",
+      "area": "エルト海",
       "category": "Flower",
       "affinity": {
         "shulk": 2,
@@ -1826,7 +1826,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-93",
       "name": "ナイトリリーム",
-      "area": "Eryth Sea",
+      "area": "エルト海",
       "category": "Flower",
       "affinity": {
         "shulk": -2,
@@ -1841,7 +1841,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-94",
       "name": "スイルシータ",
-      "area": "Eryth Sea",
+      "area": "エルト海",
       "category": "Flower",
       "affinity": {
         "shulk": 2,
@@ -1856,7 +1856,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-95",
       "name": "ミスティックダリア",
-      "area": "Alcamoth",
+      "area": "皇都アカモート",
       "category": "Flower",
       "affinity": {
         "shulk": -4,
@@ -1871,7 +1871,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-96",
       "name": "スタードロップ",
-      "area": "Alcamoth",
+      "area": "皇都アカモート",
       "category": "Flower",
       "affinity": {
         "shulk": -8,
@@ -1886,7 +1886,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-97",
       "name": "ラブリーフッキー",
-      "area": "Valak Mountain",
+      "area": "ヴァラク雪山",
       "category": "Flower",
       "affinity": {
         "shulk": 2,
@@ -1901,7 +1901,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-98",
       "name": "クロボタン",
-      "area": "Valak Mountain",
+      "area": "ヴァラク雪山",
       "category": "Flower",
       "affinity": {
         "shulk": 2,
@@ -1916,7 +1916,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-99",
       "name": "デラナタ",
-      "area": "Valak Mountain",
+      "area": "ヴァラク雪山",
       "category": "Flower",
       "affinity": {
         "shulk": 2,
@@ -1931,7 +1931,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-100",
       "name": "ナツメシルバー",
-      "area": "Sword Valley",
+      "area": "大剣の渓谷",
       "category": "Flower",
       "affinity": {
         "shulk": -4,
@@ -1946,7 +1946,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-101",
       "name": "クロザクラ",
-      "area": "Sword Valley",
+      "area": "大剣の渓谷",
       "category": "Flower",
       "affinity": {
         "shulk": 16,
@@ -1961,7 +1961,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-102",
       "name": "ベナバウラー",
-      "area": "Sword Valley",
+      "area": "大剣の渓谷",
       "category": "Flower",
       "affinity": {
         "shulk": -8,
@@ -1976,7 +1976,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-103",
       "name": "ボクジュビオラ",
-      "area": "Sword Valley",
+      "area": "大剣の渓谷",
       "category": "Flower",
       "affinity": {
         "shulk": 4,
@@ -1991,7 +1991,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-104",
       "name": "シーブルーストン",
-      "area": "Mechonis Field",
+      "area": "機神界フィールド",
       "category": "Flower",
       "affinity": {
         "shulk": 22,
@@ -2006,7 +2006,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-105",
       "name": "ナルコユリラルド",
-      "area": "Mechonis Field",
+      "area": "機神界フィールド",
       "category": "Flower",
       "affinity": {
         "shulk": -2,
@@ -2021,7 +2021,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-106",
       "name": "レウィシアシルバー",
-      "area": "Agniratha",
+      "area": "帝都アグニラータ",
       "category": "Flower",
       "affinity": {
         "shulk": 4,
@@ -2036,7 +2036,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-107",
       "name": "フリージアシスト",
-      "area": "Agniratha",
+      "area": "帝都アグニラータ",
       "category": "Flower",
       "affinity": {
         "shulk": 4,
@@ -2051,7 +2051,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-108",
       "name": "キキョウクリスタル",
-      "area": "Agniratha",
+      "area": "帝都アグニラータ",
       "category": "Flower",
       "affinity": {
         "shulk": 8,
@@ -2066,7 +2066,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-109",
       "name": "スネイモリ",
-      "area": "Tephra Cave",
+      "area": "テフラ洞窟",
       "category": "Animal",
       "affinity": {
         "shulk": 4,
@@ -2081,7 +2081,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-110",
       "name": "モネズミ",
-      "area": "Tephra Cave",
+      "area": "テフラ洞窟",
       "category": "Animal",
       "affinity": {
         "shulk": 2,
@@ -2096,7 +2096,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-111",
       "name": "スネヤモリ",
-      "area": "Tephra Cave",
+      "area": "テフラ洞窟",
       "category": "Animal",
       "affinity": {
         "shulk": 8,
@@ -2111,7 +2111,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-112",
       "name": "ハッピーウサギ",
-      "area": "Tephra Cave",
+      "area": "テフラ洞窟",
       "category": "Animal",
       "affinity": {
         "shulk": -6,
@@ -2126,7 +2126,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-113",
       "name": "ボムマキトカゲ",
-      "area": "Colony 6",
+      "area": "コロニー6",
       "category": "Animal",
       "affinity": {
         "shulk": 8,
@@ -2141,7 +2141,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-114",
       "name": "アンブリゴタートル",
-      "area": "Colony 6",
+      "area": "コロニー6",
       "category": "Animal",
       "affinity": {
         "shulk": 2,
@@ -2156,7 +2156,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-115",
       "name": "ドーベルコーギー",
-      "area": "Colony 6",
+      "area": "コロニー6",
       "category": "Animal",
       "affinity": {
         "shulk": 10,
@@ -2171,7 +2171,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-116",
       "name": "ライトバット",
-      "area": "Ether Mine",
+      "area": "中央採掘場",
       "category": "Animal",
       "affinity": {
         "shulk": 4,
@@ -2186,7 +2186,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-117",
       "name": "ブラッガエル",
-      "area": "Ether Mine",
+      "area": "中央採掘場",
       "category": "Animal",
       "affinity": {
         "shulk": 2,
@@ -2201,7 +2201,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-118",
       "name": "イエローキャット",
-      "area": "Ether Mine",
+      "area": "中央採掘場",
       "category": "Animal",
       "affinity": {
         "shulk": 2,
@@ -2216,7 +2216,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-119",
       "name": "ネズウサ",
-      "area": "Satorl Marsh",
+      "area": "燐光の地ザトール",
       "category": "Animal",
       "affinity": {
         "shulk": -6,
@@ -2231,7 +2231,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-120",
       "name": "ドクノカモノハシ",
-      "area": "Satorl Marsh",
+      "area": "燐光の地ザトール",
       "category": "Animal",
       "affinity": {
         "shulk": -4,
@@ -2246,7 +2246,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-121",
       "name": "ハミングキャット",
-      "area": "Satorl Marsh",
+      "area": "燐光の地ザトール",
       "category": "Animal",
       "affinity": {
         "shulk": -8,
@@ -2261,7 +2261,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-122",
       "name": "ブラッドワーム",
-      "area": "Bionis' Interior",
+      "area": "巨神胎内",
       "category": "Animal",
       "affinity": {
         "shulk": 4,
@@ -2276,7 +2276,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-123",
       "name": "アズライトッポ",
-      "area": "Bionis' Interior",
+      "area": "巨神胎内",
       "category": "Animal",
       "affinity": {
         "shulk": 14,
@@ -2291,7 +2291,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-124",
       "name": "タノシイカモ",
-      "area": "Bionis' Interior",
+      "area": "巨神胎内",
       "category": "Animal",
       "affinity": {
         "shulk": 2,
@@ -2306,7 +2306,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-125",
       "name": "アッシュフォックス",
-      "area": "Makna Forest",
+      "area": "マクナ原生林",
       "category": "Animal",
       "affinity": {
         "shulk": 2,
@@ -2321,7 +2321,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-126",
       "name": "フニャフニャマコ",
-      "area": "Makna Forest",
+      "area": "マクナ原生林",
       "category": "Animal",
       "affinity": {
         "shulk": 2,
@@ -2336,7 +2336,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-127",
       "name": "化石サル",
-      "area": "Makna Forest",
+      "area": "マクナ原生林",
       "category": "Animal",
       "affinity": {
         "shulk": 4,
@@ -2351,7 +2351,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-128",
       "name": "エセポイズントカゲ",
-      "area": "Makna Forest",
+      "area": "マクナ原生林",
       "category": "Animal",
       "affinity": {
         "shulk": 2,
@@ -2366,7 +2366,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-129",
       "name": "シンラカース",
-      "area": "Eryth Sea",
+      "area": "エルト海",
       "category": "Animal",
       "affinity": {
         "shulk": 2,
@@ -2381,7 +2381,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-130",
       "name": "タテガミネコ",
-      "area": "Eryth Sea",
+      "area": "エルト海",
       "category": "Animal",
       "affinity": {
         "shulk": -8,
@@ -2396,7 +2396,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-131",
       "name": "ヌレラットット",
-      "area": "Valak Mountain",
+      "area": "ヴァラク雪山",
       "category": "Animal",
       "affinity": {
         "shulk": -4,
@@ -2411,7 +2411,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-132",
       "name": "アイスアイセザル",
-      "area": "Valak Mountain",
+      "area": "ヴァラク雪山",
       "category": "Animal",
       "affinity": {
         "shulk": 4,
@@ -2426,7 +2426,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-133",
       "name": "クリスタルフロッグ",
-      "area": "Valak Mountain",
+      "area": "ヴァラク雪山",
       "category": "Animal",
       "affinity": {
         "shulk": -4,
@@ -2441,7 +2441,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-134",
       "name": "ドロリス",
-      "area": "Valak Mountain",
+      "area": "ヴァラク雪山",
       "category": "Animal",
       "affinity": {
         "shulk": 16,
@@ -2456,7 +2456,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-135",
       "name": "オイルオイスター",
-      "area": "Fallen Arm",
+      "area": "落ちた腕",
       "category": "Animal",
       "affinity": {
         "shulk": 4,
@@ -2471,7 +2471,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-136",
       "name": "ダークフィッシュ",
-      "area": "Fallen Arm",
+      "area": "落ちた腕",
       "category": "Animal",
       "affinity": {
         "shulk": 2,
@@ -2486,7 +2486,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-137",
       "name": "エンペルペギ",
-      "area": "Fallen Arm",
+      "area": "落ちた腕",
       "category": "Animal",
       "affinity": {
         "shulk": -2,
@@ -2501,7 +2501,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-138",
       "name": "ナナイロナマコ",
-      "area": "Fallen Arm",
+      "area": "落ちた腕",
       "category": "Animal",
       "affinity": {
         "shulk": 24,
@@ -2516,7 +2516,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-139",
       "name": "プリズムカデ",
-      "area": "Central Factory",
+      "area": "中央工廠",
       "category": "Animal",
       "affinity": {
         "shulk": -4,
@@ -2531,7 +2531,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-140",
       "name": "ケーブルネズミー",
-      "area": "Central Factory",
+      "area": "中央工廠",
       "category": "Animal",
       "affinity": {
         "shulk": 16,
@@ -2546,7 +2546,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-141",
       "name": "オイルキツネ",
-      "area": "Central Factory",
+      "area": "中央工廠",
       "category": "Animal",
       "affinity": {
         "shulk": 2,
@@ -2561,7 +2561,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-142",
       "name": "オドリス",
-      "area": "Prison Island",
+      "area": "監獄島",
       "category": "Animal",
       "affinity": {
         "shulk": 2,
@@ -2576,7 +2576,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-143",
       "name": "イナズマイタチ",
-      "area": "Prison Island",
+      "area": "監獄島",
       "category": "Animal",
       "affinity": {
         "shulk": 6,
@@ -2591,7 +2591,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-144",
       "name": "イカリモンキー",
-      "area": "Prison Island",
+      "area": "監獄島",
       "category": "Animal",
       "affinity": {
         "shulk": -14,
@@ -2606,7 +2606,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-145",
       "name": "ソウゲントンボ",
-      "area": "Colony 9",
+      "area": "コロニー9",
       "category": "Bug",
       "affinity": {
         "shulk": -8,
@@ -2621,7 +2621,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-146",
       "name": "オオジロバチ",
-      "area": "Colony 9",
+      "area": "コロニー9",
       "category": "Bug",
       "affinity": {
         "shulk": 2,
@@ -2636,7 +2636,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-147",
       "name": "シロスジオサムシ",
-      "area": "Colony 9",
+      "area": "コロニー9",
       "category": "Bug",
       "affinity": {
         "shulk": 2,
@@ -2651,7 +2651,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-148",
       "name": "フマンカナブン",
-      "area": "Colony 9",
+      "area": "コロニー9",
       "category": "Bug",
       "affinity": {
         "shulk": 4,
@@ -2666,7 +2666,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-149",
       "name": "アマイロチョウ",
-      "area": "Tephra Cave",
+      "area": "テフラ洞窟",
       "category": "Bug",
       "affinity": {
         "shulk": 8,
@@ -2681,7 +2681,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-150",
       "name": "コガネイモムシ",
-      "area": "Tephra Cave",
+      "area": "テフラ洞窟",
       "category": "Bug",
       "affinity": {
         "shulk": -4,
@@ -2696,7 +2696,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-151",
       "name": "ポップンカワゲラ",
-      "area": "Tephra Cave",
+      "area": "テフラ洞窟",
       "category": "Bug",
       "affinity": {
         "shulk": 16,
@@ -2711,7 +2711,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-152",
       "name": "シロゴマテントウ",
-      "area": "Bionis' Leg",
+      "area": "巨神脚",
       "category": "Bug",
       "affinity": {
         "shulk": 2,
@@ -2726,7 +2726,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-153",
       "name": "ゼッペキホタル",
-      "area": "Bionis' Leg",
+      "area": "巨神脚",
       "category": "Bug",
       "affinity": {
         "shulk": 2,
@@ -2741,7 +2741,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-154",
       "name": "スントリムシ",
-      "area": "Bionis' Leg",
+      "area": "巨神脚",
       "category": "Bug",
       "affinity": {
         "shulk": -6,
@@ -2756,7 +2756,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-155",
       "name": "ユウヒバッタ",
-      "area": "Bionis' Leg",
+      "area": "巨神脚",
       "category": "Bug",
       "affinity": {
         "shulk": 2,
@@ -2771,7 +2771,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-156",
       "name": "モエタランチュラ",
-      "area": "Bionis' Leg",
+      "area": "巨神脚",
       "category": "Bug",
       "affinity": {
         "shulk": 2,
@@ -2786,7 +2786,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-157",
       "name": "クロメタルカナブン",
-      "area": "Ether Mine",
+      "area": "中央採掘場",
       "category": "Bug",
       "affinity": {
         "shulk": 2,
@@ -2801,7 +2801,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-158",
       "name": "ゴムカマキリ",
-      "area": "Ether Mine",
+      "area": "中央採掘場",
       "category": "Bug",
       "affinity": {
         "shulk": -8,
@@ -2816,7 +2816,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-159",
       "name": "シンピボタル",
-      "area": "Ether Mine",
+      "area": "中央採掘場",
       "category": "Bug",
       "affinity": {
         "shulk": 16,
@@ -2831,7 +2831,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-160",
       "name": "クレナイテントウ",
-      "area": "Makna Forest",
+      "area": "マクナ原生林",
       "category": "Bug",
       "affinity": {
         "shulk": 2,
@@ -2846,7 +2846,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-161",
       "name": "アオゾラカメムシ",
-      "area": "Makna Forest",
+      "area": "マクナ原生林",
       "category": "Bug",
       "affinity": {
         "shulk": 22,
@@ -2861,7 +2861,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-162",
       "name": "ナラクノミズスマシ",
-      "area": "Makna Forest",
+      "area": "マクナ原生林",
       "category": "Bug",
       "affinity": {
         "shulk": 2,
@@ -2876,7 +2876,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-163",
       "name": "リュウセイスズムシ",
-      "area": "Makna Forest",
+      "area": "マクナ原生林",
       "category": "Bug",
       "affinity": {
         "shulk": -4,
@@ -2891,7 +2891,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-164",
       "name": "ニジイロタガメ",
-      "area": "Frontier Village",
+      "area": "サイハテ村",
       "category": "Bug",
       "affinity": {
         "shulk": 2,
@@ -2906,7 +2906,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-165",
       "name": "コウゴウタマムシ",
-      "area": "Frontier Village",
+      "area": "サイハテ村",
       "category": "Bug",
       "affinity": {
         "shulk": 4,
@@ -2921,7 +2921,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-166",
       "name": "フカミドシジミ",
-      "area": "High Entia Tomb",
+      "area": "ハイエンター墓所",
       "category": "Bug",
       "affinity": {
         "shulk": 8,
@@ -2936,7 +2936,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-167",
       "name": "ミズテントウ",
-      "area": "High Entia Tomb",
+      "area": "ハイエンター墓所",
       "category": "Bug",
       "affinity": {
         "shulk": 2,
@@ -2951,7 +2951,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-168",
       "name": "シャリンガクレ",
-      "area": "Galahad Fortress",
+      "area": "ガラハド要塞",
       "category": "Bug",
       "affinity": {
         "shulk": 2,
@@ -2966,7 +2966,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-169",
       "name": "グンジョウアリ",
-      "area": "Galahad Fortress",
+      "area": "ガラハド要塞",
       "category": "Bug",
       "affinity": {
         "shulk": 8,
@@ -2981,7 +2981,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-170",
       "name": "ヒイロケムシ",
-      "area": "Mechonis Field",
+      "area": "機神界フィールド",
       "category": "Bug",
       "affinity": {
         "shulk": -4,
@@ -2996,7 +2996,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-171",
       "name": "ツヤカワカブト",
-      "area": "Mechonis Field",
+      "area": "機神界フィールド",
       "category": "Bug",
       "affinity": {
         "shulk": 2,
@@ -3011,7 +3011,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-172",
       "name": "ムシスベリ",
-      "area": "Mechonis Field",
+      "area": "機神界フィールド",
       "category": "Bug",
       "affinity": {
         "shulk": 18,
@@ -3026,7 +3026,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-173",
       "name": "アサツユカミキリ",
-      "area": "Central Factory",
+      "area": "中央工廠",
       "category": "Bug",
       "affinity": {
         "shulk": 8,
@@ -3041,7 +3041,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-174",
       "name": "メッキタピラ",
-      "area": "Central Factory",
+      "area": "中央工廠",
       "category": "Bug",
       "affinity": {
         "shulk": -4,
@@ -3056,7 +3056,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-175",
       "name": "シデンコオロギ",
-      "area": "Agniratha",
+      "area": "帝都アグニラータ",
       "category": "Bug",
       "affinity": {
         "shulk": 2,
@@ -3071,7 +3071,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-176",
       "name": "タチバサミムシ",
-      "area": "Agniratha",
+      "area": "帝都アグニラータ",
       "category": "Bug",
       "affinity": {
         "shulk": 2,
@@ -3086,7 +3086,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-177",
       "name": "Senorita Scarab",
-      "area": "Prison Island",
+      "area": "監獄島",
       "category": "Bug",
       "affinity": {
         "shulk": 8,
@@ -3101,7 +3101,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-178",
       "name": "スオウカナブン",
-      "area": "Prison Island",
+      "area": "監獄島",
       "category": "Bug",
       "affinity": {
         "shulk": -8,
@@ -3146,7 +3146,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-181",
       "name": "シツガイ岩板",
-      "area": "Tephra Cave",
+      "area": "テフラ洞窟",
       "category": "Nature",
       "affinity": {
         "shulk": 2,
@@ -3161,7 +3161,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-182",
       "name": "まよいヅタ",
-      "area": "Tephra Cave",
+      "area": "テフラ洞窟",
       "category": "Nature",
       "affinity": {
         "shulk": 6,
@@ -3176,7 +3176,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-183",
       "name": "まよわぬゴケ",
-      "area": "Tephra Cave",
+      "area": "テフラ洞窟",
       "category": "Nature",
       "affinity": {
         "shulk": 2,
@@ -3191,7 +3191,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-184",
       "name": "マットアイス",
-      "area": "Bionis' Leg",
+      "area": "巨神脚",
       "category": "Nature",
       "affinity": {
         "shulk": -4,
@@ -3206,7 +3206,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-185",
       "name": "アオゾラバーク",
-      "area": "Bionis' Leg",
+      "area": "巨神脚",
       "category": "Nature",
       "affinity": {
         "shulk": 4,
@@ -3221,7 +3221,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-186",
       "name": "ピオーネストーン",
-      "area": "Bionis' Leg",
+      "area": "巨神脚",
       "category": "Nature",
       "affinity": {
         "shulk": 2,
@@ -3236,7 +3236,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-187",
       "name": "スススミススネ",
-      "area": "Ether Mine",
+      "area": "中央採掘場",
       "category": "Nature",
       "affinity": {
         "shulk": 2,
@@ -3251,7 +3251,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-188",
       "name": "エーテルペブル",
-      "area": "Ether Mine",
+      "area": "中央採掘場",
       "category": "Nature",
       "affinity": {
         "shulk": 2,
@@ -3266,7 +3266,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-189",
       "name": "ポップンチャコール",
-      "area": "Ether Mine",
+      "area": "中央採掘場",
       "category": "Nature",
       "affinity": {
         "shulk": 2,
@@ -3281,7 +3281,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-190",
       "name": "キリのキリ",
-      "area": "Satorl Marsh",
+      "area": "燐光の地ザトール",
       "category": "Nature",
       "affinity": {
         "shulk": 2,
@@ -3296,7 +3296,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-191",
       "name": "レモンセキ",
-      "area": "Satorl Marsh",
+      "area": "燐光の地ザトール",
       "category": "Nature",
       "affinity": {
         "shulk": -4,
@@ -3311,7 +3311,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-192",
       "name": "フェザーズリーフ",
-      "area": "Satorl Marsh",
+      "area": "燐光の地ザトール",
       "category": "Nature",
       "affinity": {
         "shulk": -2,
@@ -3326,7 +3326,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-193",
       "name": "ウォーターボード",
-      "area": "Satorl Marsh",
+      "area": "燐光の地ザトール",
       "category": "Nature",
       "affinity": {
         "shulk": 2,
@@ -3341,7 +3341,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-194",
       "name": "ウールロック",
-      "area": "Satorl Marsh",
+      "area": "燐光の地ザトール",
       "category": "Nature",
       "affinity": {
         "shulk": -6,
@@ -3356,7 +3356,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-195",
       "name": "ホワイトテール",
-      "area": "Eryth Sea",
+      "area": "エルト海",
       "category": "Nature",
       "affinity": {
         "shulk": -4,
@@ -3371,7 +3371,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-196",
       "name": "マリンマーブル",
-      "area": "Eryth Sea",
+      "area": "エルト海",
       "category": "Nature",
       "affinity": {
         "shulk": 10,
@@ -3386,7 +3386,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-197",
       "name": "オイルブランチ",
-      "area": "Eryth Sea",
+      "area": "エルト海",
       "category": "Nature",
       "affinity": {
         "shulk": 2,
@@ -3401,7 +3401,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-198",
       "name": "ジレンマロック",
-      "area": "Eryth Sea",
+      "area": "エルト海",
       "category": "Nature",
       "affinity": {
         "shulk": 2,
@@ -3416,7 +3416,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-199",
       "name": "セッコウジュ",
-      "area": "Valak Mountain",
+      "area": "ヴァラク雪山",
       "category": "Nature",
       "affinity": {
         "shulk": 10,
@@ -3431,7 +3431,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-200",
       "name": "ブラックアッシュ",
-      "area": "Valak Mountain",
+      "area": "ヴァラク雪山",
       "category": "Nature",
       "affinity": {
         "shulk": 2,
@@ -3446,7 +3446,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-201",
       "name": "エメラルドスノウ",
-      "area": "Valak Mountain",
+      "area": "ヴァラク雪山",
       "category": "Nature",
       "affinity": {
         "shulk": 4,
@@ -3461,7 +3461,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-202",
       "name": "ラビットストーン",
-      "area": "Valak Mountain",
+      "area": "ヴァラク雪山",
       "category": "Nature",
       "affinity": {
         "shulk": 10,
@@ -3476,7 +3476,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-203",
       "name": "ホウキつらら",
-      "area": "Valak Mountain",
+      "area": "ヴァラク雪山",
       "category": "Nature",
       "affinity": {
         "shulk": 8,
@@ -3491,7 +3491,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-204",
       "name": "ドクドクサンゴ",
-      "area": "Fallen Arm",
+      "area": "落ちた腕",
       "category": "Nature",
       "affinity": {
         "shulk": 4,
@@ -3506,7 +3506,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-205",
       "name": "エセポイズンアイビー",
-      "area": "Fallen Arm",
+      "area": "落ちた腕",
       "category": "Nature",
       "affinity": {
         "shulk": 2,
@@ -3521,7 +3521,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-206",
       "name": "コハクの葉っぱ",
-      "area": "Fallen Arm",
+      "area": "落ちた腕",
       "category": "Nature",
       "affinity": {
         "shulk": -6,
@@ -3536,7 +3536,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-207",
       "name": "ツタの巣",
-      "area": "Mechonis Field",
+      "area": "機神界フィールド",
       "category": "Nature",
       "affinity": {
         "shulk": -4,
@@ -3551,7 +3551,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-208",
       "name": "モスプレート",
-      "area": "Mechonis Field",
+      "area": "機神界フィールド",
       "category": "Nature",
       "affinity": {
         "shulk": 2,
@@ -3566,7 +3566,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-209",
       "name": "ブロンズウッド",
-      "area": "Mechonis Field",
+      "area": "機神界フィールド",
       "category": "Nature",
       "affinity": {
         "shulk": 8,
@@ -3581,7 +3581,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-210",
       "name": "シロスチロール",
-      "area": "Central Factory",
+      "area": "中央工廠",
       "category": "Nature",
       "affinity": {
         "shulk": -4,
@@ -3596,7 +3596,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-211",
       "name": "クロスチロール",
-      "area": "Central Factory",
+      "area": "中央工廠",
       "category": "Nature",
       "affinity": {
         "shulk": 2,
@@ -3611,7 +3611,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-212",
       "name": "ブラッドオイル",
-      "area": "Central Factory",
+      "area": "中央工廠",
       "category": "Nature",
       "affinity": {
         "shulk": 4,
@@ -3626,7 +3626,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-213",
       "name": "ミッシングツリー",
-      "area": "Agniratha",
+      "area": "帝都アグニラータ",
       "category": "Nature",
       "affinity": {
         "shulk": 10,
@@ -3641,7 +3641,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-214",
       "name": "幸福の羽",
-      "area": "Agniratha",
+      "area": "帝都アグニラータ",
       "category": "Nature",
       "affinity": {
         "shulk": -10,
@@ -3656,7 +3656,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-215",
       "name": "アブソードブランチ",
-      "area": "Prison Island",
+      "area": "監獄島",
       "category": "Nature",
       "affinity": {
         "shulk": 4,
@@ -3671,7 +3671,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-216",
       "name": "マッドモス",
-      "area": "Prison Island",
+      "area": "監獄島",
       "category": "Nature",
       "affinity": {
         "shulk": -4,
@@ -3686,7 +3686,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-217",
       "name": "ブルーチェーン",
-      "area": "Colony 9",
+      "area": "コロニー9",
       "category": "Parts",
       "affinity": {
         "shulk": 30,
@@ -3701,7 +3701,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-218",
       "name": "ラビットダイオード",
-      "area": "Colony 9",
+      "area": "コロニー9",
       "category": "Parts",
       "affinity": {
         "shulk": 8,
@@ -3716,7 +3716,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-219",
       "name": "赤さびボルト",
-      "area": "Bionis' Leg",
+      "area": "巨神脚",
       "category": "Parts",
       "affinity": {
         "shulk": 10,
@@ -3731,7 +3731,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-220",
       "name": "ワインディングギア",
-      "area": "Bionis' Leg",
+      "area": "巨神脚",
       "category": "Parts",
       "affinity": {
         "shulk": 24,
@@ -3746,7 +3746,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-221",
       "name": "ブラックチップ",
-      "area": "Ether Mine",
+      "area": "中央採掘場",
       "category": "Parts",
       "affinity": {
         "shulk": 14,
@@ -3761,7 +3761,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-222",
       "name": "レディコイル",
-      "area": "Ether Mine",
+      "area": "中央採掘場",
       "category": "Parts",
       "affinity": {
         "shulk": 10,
@@ -3776,7 +3776,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-223",
       "name": "ブルーギアの破片",
-      "area": "Satorl Marsh",
+      "area": "燐光の地ザトール",
       "category": "Parts",
       "affinity": {
         "shulk": 6,
@@ -3791,7 +3791,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-224",
       "name": "ポップンテンプ",
-      "area": "Satorl Marsh",
+      "area": "燐光の地ザトール",
       "category": "Parts",
       "affinity": {
         "shulk": 8,
@@ -3806,7 +3806,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-225",
       "name": "ホワイトチューブ",
-      "area": "High Entia Tomb",
+      "area": "ハイエンター墓所",
       "category": "Parts",
       "affinity": {
         "shulk": 8,
@@ -3821,7 +3821,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-226",
       "name": "グリーンダイオード",
-      "area": "High Entia Tomb",
+      "area": "ハイエンター墓所",
       "category": "Parts",
       "affinity": {
         "shulk": 10,
@@ -3836,7 +3836,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-227",
       "name": "ラセンランプ",
-      "area": "High Entia Tomb",
+      "area": "ハイエンター墓所",
       "category": "Parts",
       "affinity": {
         "shulk": 6,
@@ -3851,7 +3851,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-228",
       "name": "ゴールドコンデンサ",
-      "area": "Sword Valley",
+      "area": "大剣の渓谷",
       "category": "Parts",
       "affinity": {
         "shulk": -6,
@@ -3866,7 +3866,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-229",
       "name": "パープルライト",
-      "area": "Sword Valley",
+      "area": "大剣の渓谷",
       "category": "Parts",
       "affinity": {
         "shulk": 10,
@@ -3881,7 +3881,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-230",
       "name": "クリムゾンギア",
-      "area": "Sword Valley",
+      "area": "大剣の渓谷",
       "category": "Parts",
       "affinity": {
         "shulk": 10,
@@ -3896,7 +3896,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-231",
       "name": "バッタスプリング",
-      "area": "Galahad Fortress",
+      "area": "ガラハド要塞",
       "category": "Parts",
       "affinity": {
         "shulk": 10,
@@ -3911,7 +3911,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-232",
       "name": "アートコアコイル",
-      "area": "Galahad Fortress",
+      "area": "ガラハド要塞",
       "category": "Parts",
       "affinity": {
         "shulk": 18,
@@ -3926,7 +3926,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-233",
       "name": "テールアンテナ",
-      "area": "Galahad Fortress",
+      "area": "ガラハド要塞",
       "category": "Parts",
       "affinity": {
         "shulk": 10,
@@ -3941,7 +3941,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-234",
       "name": "イラプランプ",
-      "area": "Fallen Arm",
+      "area": "落ちた腕",
       "category": "Parts",
       "affinity": {
         "shulk": 4,
@@ -3956,7 +3956,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-235",
       "name": "エレクトリックフィラ",
-      "area": "Fallen Arm",
+      "area": "落ちた腕",
       "category": "Parts",
       "affinity": {
         "shulk": 24,
@@ -3971,7 +3971,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-236",
       "name": "レトロダイオード",
-      "area": "Mechonis Field",
+      "area": "機神界フィールド",
       "category": "Parts",
       "affinity": {
         "shulk": 8,
@@ -3986,7 +3986,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-237",
       "name": "モダンブルーギア",
-      "area": "Mechonis Field",
+      "area": "機神界フィールド",
       "category": "Parts",
       "affinity": {
         "shulk": 16,
@@ -4001,7 +4001,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-238",
       "name": "スノートランジスタ",
-      "area": "Mechonis Field",
+      "area": "機神界フィールド",
       "category": "Parts",
       "affinity": {
         "shulk": 10,
@@ -4016,7 +4016,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-239",
       "name": "エンゼルエンジンA",
-      "area": "Central Factory",
+      "area": "中央工廠",
       "category": "Parts",
       "affinity": {
         "shulk": 10,
@@ -4031,7 +4031,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-240",
       "name": "リーフコイル",
-      "area": "Central Factory",
+      "area": "中央工廠",
       "category": "Parts",
       "affinity": {
         "shulk": 10,
@@ -4046,7 +4046,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-241",
       "name": "ブシドーネジ",
-      "area": "Central Factory",
+      "area": "中央工廠",
       "category": "Parts",
       "affinity": {
         "shulk": 12,
@@ -4061,7 +4061,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-242",
       "name": "ファンシーボルト",
-      "area": "Agniratha",
+      "area": "帝都アグニラータ",
       "category": "Parts",
       "affinity": {
         "shulk": 10,
@@ -4076,7 +4076,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-243",
       "name": "Blue Light Lamp",
-      "area": "Agniratha",
+      "area": "帝都アグニラータ",
       "category": "Parts",
       "affinity": {
         "shulk": 16,
@@ -4091,7 +4091,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-244",
       "name": "メルヘンダイオード",
-      "area": "Agniratha",
+      "area": "帝都アグニラータ",
       "category": "Parts",
       "affinity": {
         "shulk": 10,
@@ -4106,7 +4106,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-245",
       "name": "ブドウゼンマイ",
-      "area": "Agniratha",
+      "area": "帝都アグニラータ",
       "category": "Parts",
       "affinity": {
         "shulk": 24,
@@ -4121,7 +4121,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-246",
       "name": "ホワイトカバー",
-      "area": "Prison Island",
+      "area": "監獄島",
       "category": "Parts",
       "affinity": {
         "shulk": 12,
@@ -4136,7 +4136,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-247",
       "name": "モダンレジスタ",
-      "area": "Prison Island",
+      "area": "監獄島",
       "category": "Parts",
       "affinity": {
         "shulk": 10,
@@ -4151,7 +4151,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-248",
       "name": "グリーンカム",
-      "area": "Prison Island",
+      "area": "監獄島",
       "category": "Parts",
       "affinity": {
         "shulk": 12,
@@ -4166,7 +4166,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-249",
       "name": "ハートネジ",
-      "area": "Prison Island",
+      "area": "監獄島",
       "category": "Parts",
       "affinity": {
         "shulk": 16,
@@ -4226,7 +4226,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-253",
       "name": "プレート・スノー",
-      "area": "Colony 9",
+      "area": "コロニー9",
       "category": "Strange",
       "affinity": {
         "shulk": -6,
@@ -4241,7 +4241,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-254",
       "name": "虹色キュービック",
-      "area": "Colony 9",
+      "area": "コロニー9",
       "category": "Strange",
       "affinity": {
         "shulk": 4,
@@ -4256,7 +4256,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-255",
       "name": "リーフ・ミステリー",
-      "area": "Tephra Cave",
+      "area": "テフラ洞窟",
       "category": "Strange",
       "affinity": {
         "shulk": 4,
@@ -4271,7 +4271,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-256",
       "name": "鋼鉄の絹布",
-      "area": "Tephra Cave",
+      "area": "テフラ洞窟",
       "category": "Strange",
       "affinity": {
         "shulk": 4,
@@ -4286,7 +4286,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-257",
       "name": "砂金のマボロシ",
-      "area": "Bionis' Leg",
+      "area": "巨神脚",
       "category": "Strange",
       "affinity": {
         "shulk": -2,
@@ -4301,7 +4301,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-258",
       "name": "悪党グラビティ",
-      "area": "Bionis' Leg",
+      "area": "巨神脚",
       "category": "Strange",
       "affinity": {
         "shulk": 4,
@@ -4316,7 +4316,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-259",
       "name": "純白のカザナキドリ",
-      "area": "Bionis' Leg",
+      "area": "巨神脚",
       "category": "Strange",
       "affinity": {
         "shulk": 4,
@@ -4331,7 +4331,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-260",
       "name": "必殺バングル",
-      "area": "Bionis' Leg",
+      "area": "巨神脚",
       "category": "Strange",
       "affinity": {
         "shulk": -10,
@@ -4346,7 +4346,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-261",
       "name": "新緑のトコシエ",
-      "area": "Colony 6",
+      "area": "コロニー6",
       "category": "Strange",
       "affinity": {
         "shulk": 6,
@@ -4361,7 +4361,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-262",
       "name": "白夜ブリーチ",
-      "area": "Colony 6",
+      "area": "コロニー6",
       "category": "Strange",
       "affinity": {
         "shulk": 6,
@@ -4376,7 +4376,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-263",
       "name": "リーベクレイン",
-      "area": "Ether Mine",
+      "area": "中央採掘場",
       "category": "Strange",
       "affinity": {
         "shulk": -2,
@@ -4391,7 +4391,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-264",
       "name": "ファイアブロン",
-      "area": "Ether Mine",
+      "area": "中央採掘場",
       "category": "Strange",
       "affinity": {
         "shulk": -6,
@@ -4406,7 +4406,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-265",
       "name": "清貧の木杯",
-      "area": "Satorl Marsh",
+      "area": "燐光の地ザトール",
       "category": "Strange",
       "affinity": {
         "shulk": 24,
@@ -4421,7 +4421,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-266",
       "name": "愉快カーニバル",
-      "area": "Satorl Marsh",
+      "area": "燐光の地ザトール",
       "category": "Strange",
       "affinity": {
         "shulk": 12,
@@ -4436,7 +4436,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-267",
       "name": "朝陽のサイコロ",
-      "area": "Satorl Marsh",
+      "area": "燐光の地ザトール",
       "category": "Strange",
       "affinity": {
         "shulk": 4,
@@ -4451,7 +4451,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-268",
       "name": "らたたたらったった",
-      "area": "Bionis' Interior",
+      "area": "巨神胎内",
       "category": "Strange",
       "affinity": {
         "shulk": 2,
@@ -4466,7 +4466,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-269",
       "name": "ハイエントジュエル",
-      "area": "Bionis' Interior",
+      "area": "巨神胎内",
       "category": "Strange",
       "affinity": {
         "shulk": 4,
@@ -4481,7 +4481,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-270",
       "name": "ラムネスカイ",
-      "area": "Makna Forest",
+      "area": "マクナ原生林",
       "category": "Strange",
       "affinity": {
         "shulk": 2,
@@ -4496,7 +4496,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-271",
       "name": "談笑の森林",
-      "area": "Makna Forest",
+      "area": "マクナ原生林",
       "category": "Strange",
       "affinity": {
         "shulk": 4,
@@ -4511,7 +4511,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-272",
       "name": "真砂のエンバン",
-      "area": "Makna Forest",
+      "area": "マクナ原生林",
       "category": "Strange",
       "affinity": {
         "shulk": 8,
@@ -4526,7 +4526,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-273",
       "name": "ぽっぷんぼっくす",
-      "area": "Frontier Village",
+      "area": "サイハテ村",
       "category": "Strange",
       "affinity": {
         "shulk": 4,
@@ -4541,7 +4541,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-274",
       "name": "ハイパネルブラック",
-      "area": "Frontier Village",
+      "area": "サイハテ村",
       "category": "Strange",
       "affinity": {
         "shulk": 18,
@@ -4556,7 +4556,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-275",
       "name": "ハイヴァイオレット",
-      "area": "Eryth Sea",
+      "area": "エルト海",
       "category": "Strange",
       "affinity": {
         "shulk": 4,
@@ -4571,7 +4571,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-276",
       "name": "鋼鉄アウイン",
-      "area": "Eryth Sea",
+      "area": "エルト海",
       "category": "Strange",
       "affinity": {
         "shulk": 18,
@@ -4586,7 +4586,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-277",
       "name": "もふもふもふもうふ",
-      "area": "Alcamoth",
+      "area": "皇都アカモート",
       "category": "Strange",
       "affinity": {
         "shulk": 4,
@@ -4601,7 +4601,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-278",
       "name": "雷鳴のヘミスフィア",
-      "area": "Alcamoth",
+      "area": "皇都アカモート",
       "category": "Strange",
       "affinity": {
         "shulk": 2,
@@ -4616,7 +4616,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-279",
       "name": "あまあまういんな",
-      "area": "High Entia Tomb",
+      "area": "ハイエンター墓所",
       "category": "Strange",
       "affinity": {
         "shulk": -2,
@@ -4631,7 +4631,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-280",
       "name": "マクロパッション",
-      "area": "High Entia Tomb",
+      "area": "ハイエンター墓所",
       "category": "Strange",
       "affinity": {
         "shulk": 4,
@@ -4646,7 +4646,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-281",
       "name": "樹氷のガラス",
-      "area": "Valak Mountain",
+      "area": "ヴァラク雪山",
       "category": "Strange",
       "affinity": {
         "shulk": 6,
@@ -4661,7 +4661,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-282",
       "name": "巨獣ハンドカフ",
-      "area": "Valak Mountain",
+      "area": "ヴァラク雪山",
       "category": "Strange",
       "affinity": {
         "shulk": 4,
@@ -4676,7 +4676,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-283",
       "name": "レッドフロンティア",
-      "area": "Sword Valley",
+      "area": "大剣の渓谷",
       "category": "Strange",
       "affinity": {
         "shulk": 6,
@@ -4691,7 +4691,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-284",
       "name": "ハイクロウボトル",
-      "area": "Sword Valley",
+      "area": "大剣の渓谷",
       "category": "Strange",
       "affinity": {
         "shulk": 2,
@@ -4706,7 +4706,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-285",
       "name": "永遠の新芽",
-      "area": "Sword Valley",
+      "area": "大剣の渓谷",
       "category": "Strange",
       "affinity": {
         "shulk": 6,
@@ -4721,7 +4721,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-286",
       "name": "空腹クラッシュ",
-      "area": "Galahad Fortress",
+      "area": "ガラハド要塞",
       "category": "Strange",
       "affinity": {
         "shulk": 2,
@@ -4736,7 +4736,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-287",
       "name": "どばどばどばべちょ",
-      "area": "Galahad Fortress",
+      "area": "ガラハド要塞",
       "category": "Strange",
       "affinity": {
         "shulk": 4,
@@ -4751,7 +4751,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-288",
       "name": "スター・キュート",
-      "area": "Fallen Arm",
+      "area": "落ちた腕",
       "category": "Strange",
       "affinity": {
         "shulk": 4,
@@ -4766,7 +4766,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-289",
       "name": "梅雨のイチバンボシ",
-      "area": "Fallen Arm",
+      "area": "落ちた腕",
       "category": "Strange",
       "affinity": {
         "shulk": 2,
@@ -4781,7 +4781,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-290",
       "name": "ぴよぴよぽよぴよ",
-      "area": "Mechonis Field",
+      "area": "機神界フィールド",
       "category": "Strange",
       "affinity": {
         "shulk": -2,
@@ -4796,7 +4796,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-291",
       "name": "フレイムフレーム",
-      "area": "Mechonis Field",
+      "area": "機神界フィールド",
       "category": "Strange",
       "affinity": {
         "shulk": 6,
@@ -4811,7 +4811,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-292",
       "name": "紫煙の円筒",
-      "area": "Central Factory",
+      "area": "中央工廠",
       "category": "Strange",
       "affinity": {
         "shulk": 6,
@@ -4826,7 +4826,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-293",
       "name": "エクスパンパンサー",
-      "area": "Central Factory",
+      "area": "中央工廠",
       "category": "Strange",
       "affinity": {
         "shulk": 6,
@@ -4841,7 +4841,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-294",
       "name": "パーツ・ノーブル",
-      "area": "Central Factory",
+      "area": "中央工廠",
       "category": "Strange",
       "affinity": {
         "shulk": 6,
@@ -4856,7 +4856,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-295",
       "name": "ハイエルトブルー",
-      "area": "Agniratha",
+      "area": "帝都アグニラータ",
       "category": "Strange",
       "affinity": {
         "shulk": 10,
@@ -4871,7 +4871,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-296",
       "name": "闇夜ドラマチック",
-      "area": "Agniratha",
+      "area": "帝都アグニラータ",
       "category": "Strange",
       "affinity": {
         "shulk": 18,
@@ -4886,7 +4886,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-297",
       "name": "紺青の残照",
-      "area": "Prison Island",
+      "area": "監獄島",
       "category": "Strange",
       "affinity": {
         "shulk": 2,
@@ -4901,7 +4901,7 @@ const WORKSHOP_DATA = {
     {
       "id": "gift-298",
       "name": "ハイクアッドブラッド",
-      "area": "Prison Island",
+      "area": "監獄島",
       "category": "Strange",
       "affinity": {
         "shulk": 18,

@@ -367,9 +367,9 @@ async function makeDom({ legacy = null, previous = null, current = null, url = "
   monsterSearch.value = "Verdant Bluchal";
   monsterSearch.dispatchEvent(new Event("input", { bubbles: true }));
   const monsterGemLink = document.querySelector('#monster-results [data-open-tool="gems"][data-gem-target]');
-  assert(monsterGemLink?.dataset.gemTarget === "Agility Up", "Monsterpedia dossier does not expose its relevant gem preparation");
+  assert(monsterGemLink?.dataset.gemTarget === "素早さアップ", "Monsterpedia dossier does not expose its relevant gem preparation");
   monsterGemLink.dispatchEvent(new MouseEvent("click", { bubbles: true }));
-  assert(document.getElementById("p-gems").classList.contains("on") && document.getElementById("gem-target").value === "Agility Up", "Monsterpedia-to-Gem-Assistant context was not applied");
+  assert(document.getElementById("p-gems").classList.contains("on") && document.getElementById("gem-target").value === "素早さアップ", "Monsterpedia-to-Gem-Assistant context was not applied");
   monsterSearch.value = "";
   monsterSearch.dispatchEvent(new Event("input", { bubbles: true }));
 
@@ -418,12 +418,12 @@ async function makeDom({ legacy = null, previous = null, current = null, url = "
   assert(document.querySelectorAll("#party-presets .preset-avatar[src^='assets/party-portraits/']").length > 0, "Party presets are missing their sourced character portraits");
   assert(document.getElementById("build-goal-note").textContent.includes("Same 8 normal Arts"), "Shulk's fortress comparison does not explain why its Arts match Reliable meta");
   document.querySelector('[data-build-character="reyn"]').dispatchEvent(new MouseEvent("click", { bubbles: true }));
-  assert(document.getElementById("build-goal-note").textContent.includes("Fortress adds Last Stand, Aura Burst"), "Reyn's fortress comparison does not expose its actual Art changes");
+  assert(document.getElementById("build-goal-note").textContent.includes("Fortress adds ラストスタンド, オーラバースト"), "Reyn's fortress comparison does not expose its actual Art changes");
   document.querySelector('[data-build-character="melia"]').dispatchEvent(new MouseEvent("click", { bubbles: true }));
   document.getElementById("build-control").value = "ai";
   document.getElementById("build-goal").value = "aggressive";
   document.getElementById("build-goal").dispatchEvent(new Event("change", { bubbles: true }));
-  assert(/Melia · AI · Fastest-kill meta/.test(document.getElementById("build-result").textContent), "Build Lab selectors did not update the recommendation");
+  assert(/メリア · AI · Fastest-kill meta/.test(document.getElementById("build-result").textContent), "Build Lab selectors did not update the recommendation");
   document.getElementById("build-goal").value = "fortress";
   document.getElementById("build-goal").dispatchEvent(new Event("change", { bubbles: true }));
   assert(document.getElementById("build-goal-note").textContent.includes("Survival-first"), "Fortress mode does not explain how it differs from Reliable meta");
@@ -451,7 +451,7 @@ async function makeDom({ legacy = null, previous = null, current = null, url = "
   document.querySelector('[data-hub="workshop"]').dispatchEvent(new MouseEvent("click", { bubbles: true }));
   document.querySelector('#p-combat [data-open-tool="chain"]').dispatchEvent(new MouseEvent("click", { bubbles: true }));
   assert(document.getElementById("p-chain").classList.contains("on") && document.querySelectorAll("#chain-result .chain-art").length >= 2, "Chain Planner did not render a phase-legal sequence");
-  assert(!document.getElementById("chain-result").textContent.includes("Dunban") && !document.getElementById("chain-result").textContent.includes("Riki"), "Chain Planner leaked later party members into the opening phase");
+  assert(!document.getElementById("chain-result").textContent.includes("ダンバン") && !document.getElementById("chain-result").textContent.includes("リキ"), "Chain Planner leaked later party members into the opening phase");
   document.querySelector('[data-hub-destination="gems"]').dispatchEvent(new MouseEvent("click", { bubbles: true }));
   assert(document.getElementById("gem-result").textContent.includes("100% makes a gem") && document.getElementById("gem-result").textContent.includes("300% Mega Heat"), "Gem Crafting Assistant is missing its threshold plan");
   document.querySelector('[data-hub-destination="gifts"]').dispatchEvent(new MouseEvent("click", { bubbles: true }));
@@ -463,15 +463,15 @@ async function makeDom({ legacy = null, previous = null, current = null, url = "
     giftArea.dispatchEvent(new Event("change", { bubbles: true }));
     assert(document.querySelectorAll("#gift-result .gift-row").length > 0, `Gift Optimizer area filter returned nothing for ${option.value}`);
   }
-  giftArea.value = "Colony 9";
-  document.getElementById("gift-q").value = "Sweet Wasabi";
+  giftArea.value = "コロニー9";
+  document.getElementById("gift-q").value = "あまあまワサビ";
   document.getElementById("gift-q").dispatchEvent(new Event("input", { bubbles: true }));
-  assert(document.getElementById("gift-result").textContent.includes("Sweet Wasabi") && !document.getElementById("gift-result").textContent.includes("Sweet Wasabi Colony 9"), "Gift Optimizer did not separate gift names from their areas");
+  assert(document.getElementById("gift-result").textContent.includes("あまあまワサビ") && !document.getElementById("gift-result").textContent.includes("あまあまワサビコロニー9"), "Gift Optimizer did not separate gift names from their areas");
   document.getElementById("gift-q").value = "";
   giftArea.value = "";
   giftArea.dispatchEvent(new Event("change", { bubbles: true }));
   document.querySelector('[data-hub-destination="party"]').dispatchEvent(new MouseEvent("click", { bubbles: true }));
-  assert(document.getElementById("party-leader").options.length === 3 && !document.getElementById("party-result").textContent.includes("Dunban"), "Party Chemistry Lab did not enforce Chapter 1 roster availability");
+  assert(document.getElementById("party-leader").options.length === 3 && !document.getElementById("party-result").textContent.includes("ダンバン"), "Party Chemistry Lab did not enforce Chapter 1 roster availability");
   document.getElementById("party-phase").value = "ch3";
   document.getElementById("party-phase").dispatchEvent(new Event("change", { bubbles: true }));
   assert(document.getElementById("party-three").disabled && document.getElementById("party-three").closest("label").hidden, "Party Lab did not represent the Chapter 3 forced pair");
@@ -483,20 +483,20 @@ async function makeDom({ legacy = null, previous = null, current = null, url = "
   ch5PartyLink.dispatchEvent(new MouseEvent("click", { bubbles: true }));
   assert(document.getElementById("party-phase").value === "ch5" && document.getElementById("party-leader").value === "shulk" && document.getElementById("party-two").value === "dunban" && document.getElementById("party-three").value === "sharla", "route-to-Party-Lab context was not applied");
   document.querySelector('#party-result [data-open-tool="chain"]').dispatchEvent(new MouseEvent("click", { bubbles: true }));
-  assert(document.getElementById("chain-phase").value === "ch5" && document.getElementById("chain-preset").value === "__context" && /Shulk \/ Dunban \/ Sharla/.test(document.getElementById("chain-result").textContent), "Party Lab did not carry the selected party into Chain Planner");
+  assert(document.getElementById("chain-phase").value === "ch5" && document.getElementById("chain-preset").value === "__context" && /シュルク \/ ダンバン \/ カルナ/.test(document.getElementById("chain-result").textContent), "Party Lab did not carry the selected party into Chain Planner");
 
   document.querySelector('[data-p="route"]').dispatchEvent(new MouseEvent("click", { bubbles: true }));
   const ch5GemLink = document.querySelector('#s-ch5 .route-build [data-open-tool="gems"]');
-  assert(ch5GemLink?.dataset.gemTarget === "Agility Up", "route build update did not identify its primary gem need");
+  assert(ch5GemLink?.dataset.gemTarget === "素早さアップ", "route build update did not identify its primary gem need");
   ch5GemLink.dispatchEvent(new MouseEvent("click", { bubbles: true }));
-  assert(document.getElementById("gem-phase").value === "ch5" && document.getElementById("gem-target").value === "Agility Up", "route-to-Gem-Assistant context was not applied");
+  assert(document.getElementById("gem-phase").value === "ch5" && document.getElementById("gem-target").value === "素早さアップ", "route-to-Gem-Assistant context was not applied");
   document.querySelector('#gem-result [data-search-monster-drop]').dispatchEvent(new MouseEvent("click", { bubbles: true }));
-  assert(document.getElementById("p-monsters").classList.contains("on") && document.getElementById("monster-q").value === "Agility Up" && document.querySelectorAll("#monster-results .monster-card").length > 0, "Gem Assistant did not open relevant Monsterpedia encounter/drop context");
+  assert(document.getElementById("p-monsters").classList.contains("on") && document.getElementById("monster-q").value === "素早さアップ" && document.querySelectorAll("#monster-results .monster-card").length > 0, "Gem Assistant did not open relevant Monsterpedia encounter/drop context");
 
   const ch5Record = dom.window.playableRouteCards().find(record => record.chapter.id === "ch5");
   dom.window.renderAreaBriefing(ch5Record);
-  const companionAgilityLink = document.querySelector('#area-briefing [data-open-tool="gems"][data-gem-target="Agility Up"]');
-  assert(companionAgilityLink && companionAgilityLink.textContent.includes("Craft Agility Up"), "Companion does not turn the Chapter 5 Dunban agility need into a contextual gem action");
+  const companionAgilityLink = document.querySelector('#area-briefing [data-open-tool="gems"][data-gem-target="素早さアップ"]');
+  assert(companionAgilityLink && companionAgilityLink.textContent.includes("Craft 素早さアップ"), "Companion does not turn the Chapter 5 Dunban agility need into a contextual gem action");
 
   document.querySelector('[data-p="route"]').dispatchEvent(new MouseEvent("click", { bubbles: true }));
   const heartGiftLink = document.querySelector('#route [data-open-tool="gifts"][data-gift-route]');
