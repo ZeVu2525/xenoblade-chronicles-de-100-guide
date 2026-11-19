@@ -339,7 +339,7 @@ assert(routeSource.includes("Seven hidden skill trees are available this chapter
 assert(!heartsResearch.includes("Fallen Arm / Machina Village is flagged as locking"), "Stale Fallen Arm lock warning");
 assert(!heartsResearch.includes("permanently locks when you begin the Colony 6 relocation"), "Stale Refugee Camp lock warning");
 
-for (const text of ["Companion", "Completion Hub", "Monsterpedia", "Quest &amp; Dependency Lookup", "Build Lab", "Recommended Level:", "Required Leader:", "Location, landmark &amp; secret-area tracker", "Export progress", "Import progress", "Restore last reset", "xc1de-guide-state-v4", "Not my branch"]) {
+for (const text of ["同行", "達成ハブ", "Monsterpedia", "クエストと依存", "ビルド工房", "推奨レベル:", "必要なリーダー:", "場所・ランドマーク・隠しエリア", "進行を書き出す", "進行を読み込む", "直前のリセットを戻す", "xc1de-guide-state-v4", "自分の分岐ではない"]) {
   assert(html.includes(text), `index.html is missing ${text}`);
 }
 assert(html.includes('role="progressbar"'), "Progress bar lacks ARIA semantics");
@@ -385,14 +385,14 @@ assert(/\.it label\{[^}]*font-size:17px/.test(html), "Route task text has regres
 assert(/\.det\{[^}]*font-size:15\.5px/.test(html), "Route detail text has regressed below 15.5px");
 assert(/\.det\{[^}]*max-width:74ch/.test(html) && /\.det \.step\{[^}]*display:block/.test(html), "Route detail measure or step formatting regressed");
 assert(/\.det \.step:before\{[^}]*top:50%;[^}]*translateY\(-50%\)/.test(html), "Themed quest-step bullets are not vertically centered");
-assert(/\.guidance-toggle\{[^}]*margin-left:4px/.test(html) && html.includes('.pan[open] .guidance-toggle:before{content:"Hide "}'), "Guidance Details labels are not consistently inline");
+assert(/\.guidance-toggle\{[^}]*margin-left:4px/.test(html) && html.includes('.pan[open] .guidance-toggle:before{content:"隠す "}'), "Guidance Details labels are not consistently inline");
 assert(/\.tag\{[^}]*font-size:12\.5px/.test(html) && /\.world-head\{[^}]*font-size:16px/.test(html), "Dense metadata or world-tracker text has regressed below the legibility target");
 assert(html.includes('grid-template-columns:repeat(3,minmax(180px,1fr))'), "Lookup filters lost their readable three-column layout");
 assert(html.includes('--fg3:#526b7b') && html.includes('--focus:#00658d'), "Light-theme contrast tokens regressed");
 assert(html.includes('class="tabs-shell"') && html.includes('id="hub-section-select"') && html.includes('class="hub-rail"'), "Five-hub navigation or responsive section picker is missing");
 assert(html.includes('class="chapter-heading"') && html.includes('aria-labelledby="tab-route"'), "Route heading or tab-panel semantics are missing");
-assert(html.includes('aria-pressed="true">All') && html.includes('id="route-count"'), "Route filter state or result feedback is missing");
-assert(html.includes('class="route-build-grid"') && html.includes('<h3>Slot now</h3>'), "Route build updates are not structurally formatted");
+assert(html.includes('aria-pressed="true">すべて') && html.includes('id="route-count"'), "Route filter state or result feedback is missing");
+assert(html.includes('class="route-build-grid"') && html.includes('<h3>今の枠</h3>'), "Route build updates are not structurally formatted");
 assert(html.includes('function routeTitle(html)') && html.includes('${tag}${routeTitle(it.t)}'), "Route status emoji are not normalized into the icon and tag system");
 assert(html.includes('function ensurePanelData(name)') && html.includes('completionLoad = loadData(') && html.includes('monsterLoad = loadData('), "Heavy secondary datasets are not lazy loaded");
 assert(!html.includes('max-width:1440px'), "Appearance mode must not change the guide container width");
@@ -401,10 +401,10 @@ assert(html.includes('id="p-companion"') && html.includes('id="session-dashboard
 assert(html.includes('class="route-subchecks"') && html.includes('data-subcheck-parent=') && html.includes('routeSteps: cleanNestedMap'), "Persistent nested route checkpoints are not wired into the guide");
 assert(/\.it label\.route-subcheck\{[^}]*display:flex[^}]*column-gap:16px/.test(html) && /\.route-subcheck input\{[^}]*margin:0 0 0 3px/.test(html), "Nested route checkboxes lost their label spacing");
 assert(!/<details(?![^>]*\bopen\b)/.test(html), "Every disclosure must start expanded");
-assert(html.includes('function routeAwareEncounterAdvice') && html.includes('Party replaced with the roster actually available'), "Encounter recommendations are not constrained to the route-era roster");
+assert(html.includes('function routeAwareEncounterAdvice') && html.includes('今出せる編成に置き換えた'), "Encounter recommendations are not constrained to the route-era roster");
 assert(html.includes('id="guide-search"') && html.includes('class="header-tools"') && html.includes('class="header-status"'), "Header search, theme, and progress regions are not structurally separated");
-assert(html.includes('class="header-console"') && html.includes('ROUTE PROGRESS'), "Extreme header console or progress label is missing");
-assert(html.includes('function renderBuildGoalComparison') && html.includes('Same ${reliable.length} normal Arts') && html.includes('class="build-delta"'), "Reliable-versus-fortress build comparison is missing");
+assert(html.includes('class="header-console"') && html.includes('ルート進行'), "Extreme header console or progress label is missing");
+assert(html.includes('function renderBuildGoalComparison') && html.includes('通常アーツは同じ ${reliable.length} 個') && html.includes('class="build-delta"'), "Reliable-versus-fortress build comparison is missing");
 assert(html.includes('grid-template-columns:repeat(5,minmax(0,1fr))!important') && html.includes('overflow:visible!important'), "Five-hub navigation no longer guarantees a non-scrolling layout");
 assert(workshop.gifts.length === 300 && new Set(workshop.gifts.map(gift => gift.name)).size === 300, "Gift Optimizer matrix is incomplete or duplicated");
 assert(workshop.gifts.every(gift => Object.keys(gift.affinity).length === 7), "A gift is missing a base-game recipient value");
@@ -418,7 +418,7 @@ for (const id of ["p-chain","p-gems","p-gifts","p-party","hub-breadcrumb","hub-r
 assert(html.includes('Object.values(HUBS).forEach(hub=>hub.sections.forEach') && html.includes('sectionSearchTerms'), "Global search does not derive entries from every hub subsection");
 assert(html.includes('data-party-members="shulk,dunban,riki"') && html.includes('data-chain-party="shulk,dunban,riki"') && html.includes('data-gem-target="夜間命中アップ"'), "Endgame contextual links do not carry party, chain, and gem context");
 assert(html.includes('function partyContextAttributes') && html.includes('function primaryGemTargetForUpdate') && html.includes('data-gift-route='), "Route contextual links do not carry party, gem, or Heart-to-Heart context");
-assert(html.includes('Forced two-person phase') && html.includes('partySize=Math.min(3,phase.roster.length)'), "Party Lab does not handle the temporary two-person roster");
+assert(html.includes('二人だけの強制進行') && html.includes('partySize=Math.min(3,phase.roster.length)'), "Party Lab does not handle the temporary two-person roster");
 assert(html.includes('data-chain-target=') && html.includes('data-search-monster-drop=') && html.includes('function monsterGuideSearchText'), "Monster, chain, or gem contextual lookup is missing");
 assert(fs.existsSync(path.join(root, "manifest.webmanifest")) && fs.existsSync(path.join(root, "sw.js")), "PWA manifest or service worker is missing");
 
