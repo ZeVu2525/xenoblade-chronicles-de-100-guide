@@ -249,16 +249,15 @@ assert(questNamed("料理対決・反撃！")?.followUps.some(id => questById.ge
 assert(!questNamed("ザトールの調査")?.prerequisites.some(id => questById.get(id)?.name === "タリアの研究"), "Investigating Satorl incorrectly requires the quest it excludes");
 assert(completionItems.some(item => item.name === "Itinerant Dorothea") && completionItems.some(item => item.name === "Avalanche Abaasy"), "Canonical completion names regressed");
 const plain = value => String(value || "").replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
-const leaderQuests = world.quests.filter(quest => /\b(?:as party leader|in the lead)\b/i.test(quest.requirements));
+const leaderQuests = world.quests.filter(quest => /パーティリーダーは(シュルク|ライン|カルナ|ダンバン|メリア|リキ|フィオルン)/.test(quest.requirements));
 assert(leaderQuests.length === 18, `Expected 18 explicit leader-prerequisite quests, got ${leaderQuests.length}`);
 for (const quest of leaderQuests) {
   const card = quest.name.startsWith("小娘隊長")
     ? routeItems.find(item => item.id === "c17-07")
     : routeItems.find(item => plain(item.t).includes(quest.name));
   assert(card, `${quest.name} has a leader prerequisite but no route card`);
-  const leader = quest.requirements.match(/\b(Shulk|Reyn|Sharla|Dunban|Melia|Riki|Fiora) (?:as party leader|in the lead)/i)?.[1];
-  const leaderJa = {Shulk:"シュルク", Reyn:"ライン", Sharla:"カルナ", Dunban:"ダンバン", Melia:"メリア", Riki:"リキ", Fiora:"フィオルン"};
-  const shown = leaderJa[leader] || leader;
+  const leader = quest.requirements.match(/パーティリーダーは(シュルク|ライン|カルナ|ダンバン|メリア|リキ|フィオルン)/)?.[1];
+  const shown = leader;
   assert(shown && new RegExp(`${shown}.{0,80}(?:リーダー|must lead|leading|accepts|turns in|party leader)`, "i").test(plain(`${card.t} ${card.d}`)), `${quest.name} route card does not clearly warn that ${leader} must lead`);
 }
 for (const [name, leader] of [["ロコの切実な願い", "シュルク"], ["他種族嫌いを治して", "メリア"], ["意地っ張りストロジャム", "ダンバン"], ["逃避行の阻止", "カルナ"]]) {
