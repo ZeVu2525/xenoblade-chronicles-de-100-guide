@@ -7,10 +7,10 @@ const OFFICIAL_NAME_PAIRS = [
   ["Before you press start", "始める前に"],
   ["The world reopens — biggest side-content chapter in the game", "世界が再び開く。本編で脇道が最も多い章"],
   ["The completion phase", "達成の段階"],
-  ["Supply Station Battle", "補給所の戦い"],
-  ["Fiora's Conviction", "フィオルンの決意"],
+  ["Supply Station Battle", "サプライステーションバトル"],
+  ["Fiora's Conviction", "フィオルンのコンビクション"],
   ["Astas Remote Unit", "アスタスの遠隔装置"],
-  ["Path to the Top", "頂上への道"],
+  ["Path to the Top", "パス・トゥ・ザ・トップ"],
   ["Bionis' Interior", "巨神胎内"],
   ["High Entia Tomb", "ハイエンター墓所"],
   ["Rainbow Zirconia", "虹色キュービック"],
@@ -21,8 +21,8 @@ const OFFICIAL_NAME_PAIRS = [
   ["Central Factory", "中央工廠"],
   ["Valak Mountain", "ヴァラク雪山"],
   ["Sword Valley", "大剣の渓谷"],
-  ["Turbine Battle", "タービンの戦い"],
-  ["Chase Dickson", "ディクソンを追え"],
+  ["Turbine Battle", "タービンバトル"],
+  ["Chase Dickson", "チェイス・ディクソン"],
   ["Black Beetle", "クロメタルカナブン"],
   ["Rabbit Diode", "ラビットダイオード"],
   ["Tephra Cave", "テフラ洞窟"],
@@ -36,13 +36,13 @@ const OFFICIAL_NAME_PAIRS = [
   ["Love Source", "ホレルゲン"],
   ["Burst Affinity", "突発キズナ"],
   ["Faced Mechon", "フェイス機神兵"],
-  ["Union Strikes", "連携必殺"],
-  ["Union Strike", "連携必殺"],
-  ["Lift Battle", "リフトの戦い"],
+  ["Union Strikes", "ユニオンストライク"],
+  ["Union Strike", "ユニオンストライク"],
+  ["Lift Battle", "リフトバトル"],
   ["Expert Mode", "エキスパートモード"],
-  ["Strong Flame", "強火"],
-  ["Medium Flame", "中火"],
-  ["Gentle Flame", "弱火"],
+  ["Strong Flame", "ストロングフレイム"],
+  ["Medium Flame", "ミディアムフレイム"],
+  ["Gentle Flame", "ジェントルフレイム"],
   ["Mega Heat", "メガヒート"],
   ["Skill Links", "スキルリンク"],
   ["Skill Link", "スキルリンク"],
@@ -72,19 +72,18 @@ const OFFICIAL_NAME_PAIRS = [
   ["New Game Plus", "ニューゲームプラス"],
   ["Romantic Notions", "恋愛成就"],
   ["Xenoblade Chronicles DE", "ゼノブレイドDE"],
-  ["Immunization", "免疫"],
+  ["Immunization", "イミュナイゼーション"],
   ["Bodybuilder", "ボディビルダー"],
   ["または Trust", "または小娘隊長の信頼"],
-  ["Area Affinity", "エリアキズナ"],
+  ["Area Affinity", "エリアアフィニティ"],
   ["Xenoblade Wiki", "ゼノブレイドWiki"],
-  ["Sage", "センニン"],
-  ["Other", "その他"],
+  ["Sage", "セージ"],
   ["Argentis", "シルバー"],
   ["Abaasy", "アバーシ"],
-  ["Housing", "住宅"],
-  ["Commerce", "商業"],
-  ["Nature", "自然"],
-  ["Special", "特殊"],
+  ["Housing", "ハウジング"],
+  ["Commerce", "コマース"],
+  ["Nature", "ネイチャー"],
+  ["Special", "スペシャル"],
   ["Valak", "ヴァラク"],
   ["Makna", "マクナ"],
   ["Seven", "セブン"],
@@ -97,7 +96,7 @@ const OFFICIAL_NAME_PAIRS = [
   ["Spirit", "スピリット"],
   ["Andos", "アンドス"],
   ["Astas", "アスタス"],
-  ["Giant", "巨人"],
+  ["Giant", "ジャイアント"],
   ["Heat", "ヒート"],
   ["Shulk", "シュルク"],
   ["Reyn", "ライン"],
@@ -108,15 +107,15 @@ const OFFICIAL_NAME_PAIRS = [
   ["Melia", "メリア"],
   ["Riki", "リキ"],
   ["Pod", "ポッド"],
-  ["God", "神"],
-  ["drops logged", "ドロップ記録"],
-  ["hunt pins", "狩ピン"],
-  ["Spike warning:", "スパイク注意:"],
-  ["documented Spike", "記載されたスパイク"],
-  ["Topple plan", "転倒の手順"],
-  ["Target:", "対象:"],
-  ["Alcamoth at Dawn", "夜明けの皇都アカモート"],
-  ["Alcamoth Orbital", "皇都アカモート周回"],
+  ["God", "ゴッド"],
+  ["drops logged", "ドロップログ"],
+  ["hunt pins", "ハントピン"],
+  ["Spike warning:", "スパイク・ワーニング:"],
+  ["documented Spike", "ドキュメント・スパイク"],
+  ["Topple plan", "転倒プラン"],
+  ["Target:", "ターゲット:"],
+  ["Alcamoth at Dawn", "皇都アカモート・ドーン"],
+  ["Alcamoth Orbital", "皇都アカモート・オービタル"],
   ["Before you press start", "始める前に"],
   ["The world reopens — biggest side-content chapter in the game", "世界が再び開く。本編で脇道が最も多い章"],
   ["The completion phase", "達成の段階"],
@@ -223,25 +222,21 @@ function officialJa(text) {
   }
   return out
     .replace(/(?<![A-Za-z])Chapter (\d+)(?![A-Za-z0-9])/g, "$1章")
-    .replace(/(?<![A-Za-z])Part (\d+)(?![A-Za-z0-9])/g, "その$1");
+    .replace(/(?<![A-Za-z])Part (\d+)(?![A-Za-z0-9])/g, "パート$1");
 }
 
 function subcheckJa(text) {
   return text
-    .replace(/^Search Quest/, "探索クエスト")
-    .replace(/^Monster Quest/, "討伐クエスト")
-    .replace(/^Material Quest/, "素材クエスト")
-    .replace(/^Collection Quest/, "収集クエスト")
-    .replace(/^Collect Quest/, "収集クエスト")
-    .replace(/^Register (.+)$/, "$1を登録")
-    .replace(/^Defeat (.+)$/, "$1を倒す")
-    .replace(/^Bank /, "預ける ")
-    .replace(/^Complete (.+) Collectopaedia$/, "$1のコレペディアを完成")
-    .replace(/ Area Affinity/g, "のエリアキズナ")
-    .replace(/ page$/, "のページ")
-    .replace(/^Speak to (.+)$/, "$1に話す")
-    .replace(/^Collect /, "集める ")
-    .replace(/^Return to (.+)$/, "$1に戻る");
+    .replace(/^Search Quest/, "サーチクエスト")
+    .replace(/^Monster Quest/, "モンスタークエスト")
+    .replace(/^Material Quest/, "マテリアルクエスト")
+    .replace(/^Collection Quest/, "コレクションクエスト")
+    .replace(/^Collect Quest/, "コレクトクエスト")
+    .replace(/^Bank /, "バンク ")
+    .replace(/^Complete (.+) Collectopaedia$/, "$1のコレペディアをコンプリート")
+    .replace(/^Collect /, "コレクト ")
+    .replace(/^Challenge /, "チャレンジ ")
+    .replace(/ page$/, "ページ");
 }
 
 function applyOfficialNames(root) {

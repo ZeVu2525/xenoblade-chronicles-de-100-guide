@@ -35,36 +35,48 @@
 | Burst Affinity | 突発キズナ | ゲーム内スキル説明の言い方 |
 | Colony 9 などエリア名、虹色キュービックなど素材 | コロニー9、テフラ洞窟、巨神脚など | 日本語版の地名・アイテム名。小項目の保存IDは英語ラベルのまま |
 
-## 推定訳
+## 推定訳のうちカタカナにしたもの
 
-公式のメニュー名を一対一で確認できなかったので、攻略での呼び方か、意味の通る日本語にした。データの英語は変えていない。
+公式の一対一が無いので、英語の音をカタカナにした。意訳は使わない。データの英語は変えていない。
 
-| 英語 | 表示 | 理由 |
-| --- | --- | --- |
-| Union Strike | 連携必殺 | 任天堂のページは「必殺技」「トクイワザ」。メニュー名の引用は無い。日本語攻略の呼び方 |
-| Expert Mode | エキスパートモード | 英語メニュー名のカタカナ。公式の画面表記は未確認 |
-| Heat / Mega Heat | ヒート / メガヒート | 合成の段階名。カタカナ |
-| Strong / Medium / Gentle Flame | 強火 / 中火 / 弱火 | 炎の強さの意訳 |
-| Shooter / Engineer | シューター / エンジニア | 合成の二人の役割。カタカナ |
-| Chase Dickson | ディクソンを追え | ストーリー題。公式題は未確認 |
-| Fiora's Conviction | フィオルンの決意 | 同上 |
-| Lift Battle | リフトの戦い | 同上 |
-| Path to the Top | 頂上への道 | 同上。「上層への道を探せ」とは別クエスト |
-| Supply Station Battle | 補給所の戦い | 同上 |
-| Turbine Battle | タービンの戦い | 同上 |
-| Faced Mechon | フェイス機神兵 | 種族名の推定 |
-| Andos | アンドス | アイテム名「アンドスの〜」からの推定 |
-| Nebula | ネブラ | 敵の名前「〜ネブラ」からの推定 |
-| Behemoth | ベヒモス | 「ベヒモスの巣」からの推定 |
-| Astas | アスタス | 「アスタスの遠隔装置」からの推定 |
-| Pod / Spirit / God / Giant | ポッド / スピリット / 神 / 巨人 | 種族名のカタカナまたは意訳 |
-| Skill Link / Chain Link | スキルリンク / チェインリンク | システムの意訳 |
-| Other | その他 | コレペディアと贈り物の「その他」区分。選択の値は Other のまま |
-| Housing / Commerce / Nature / Special | 住宅 / 商業 / 自然 / 特殊 | コロニー6の四部門。日本語攻略の呼び方 |
-| Abaasy | アバーシ | 正式名は雪檻のアバーシ。短い呼びの推定 |
-| Sage | センニン | 「センニンの最終試練」に合わせた推定 |
-| Seven / Zel / Don | セブン / ゼル / ドン | カタカナ。ドンとゼルはシルバー家 |
-| 小項目の Register / Defeat / Search Quest など | 登録、倒す、探索クエストなど | この攻略の見出しの意訳。チェックIDは英語のまま |
+| 英語 | 表示 |
+| --- | --- |
+| Union Strike | ユニオンストライク |
+| Expert Mode | エキスパートモード |
+| Heat / Mega Heat | ヒート / メガヒート |
+| Strong / Medium / Gentle Flame | ストロングフレイム / ミディアムフレイム / ジェントルフレイム |
+| Shooter / Engineer | シューター / エンジニア |
+| Chase Dickson | チェイス・ディクソン |
+| Fiora's Conviction | フィオルンのコンビクション（フィオルンは公式名） |
+| Lift Battle | リフトバトル |
+| Path to the Top | パス・トゥ・ザ・トップ |
+| Supply Station Battle | サプライステーションバトル |
+| Turbine Battle | タービンバトル |
+| Faced Mechon | フェイス機神兵（機神兵は公式名） |
+| Andos / Nebula / Behemoth / Astas | アンドス / ネブラ / ベヒモス / アスタス |
+| Pod / Spirit / God / Giant | ポッド / スピリット / ゴッド / ジャイアント |
+| Skill Link / Chain Link | スキルリンク / チェインリンク |
+| Housing / Commerce / Nature / Special | ハウジング / コマース / ネイチャー / スペシャル |
+| Abaasy | アバーシ（正式名は雪檻のアバーシ） |
+| Sage | セージ |
+| Seven / Zel / Don | セブン / ゼル / ドン |
+| Immunization | イミュナイゼーション |
+| Search Quest / Monster Quest / Material Quest / Collection Quest | サーチクエスト / モンスタークエスト / マテリアルクエスト / コレクションクエスト |
+| Bank / Collect / Challenge / Part N | バンク / コレクト / チャレンジ / パート |
+| Area Affinity | エリアアフィニティ |
+| Alcamoth Orbital / at Dawn | 皇都アカモート・オービタル / ドーン（皇都アカモートは公式名） |
+
+## 推定訳のうち英語のままにしたもの
+
+カタカナにすると不自然なので、英語のまま表示する。
+
+| 英語 | 理由 |
+| --- | --- |
+| Other | 区分名として英語のままの方が自然。選択の値も Other |
+| Register / Defeat / Speak to / Return to | 動詞の見出し。レジスターやデフィートより英語が読みやすい |
+| Pickup / Target | 地図ボタン。既存の確認がこの文字を見ている |
+| Route | 全体検索の種類名。既存の確認が Route: を見ている |
+| Switch | 機種名。日本でも英語のまま通じる |
 
 ## 英語のまま残したもの
 
