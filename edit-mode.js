@@ -1,7 +1,8 @@
 /* Display-text corrections. Stored separately from guide progress. */
 (function () {
   const KEY = "xc1de-guide-text-edits-v1";
-  const SESSION = "xc1de-text-edit-open";
+  const MODE_KEY = "xc1de-text-edit-mode";
+  const OLD_SESSION = "xc1de-text-edit-open";
   const DATA_FILES = [
     ["data/route-data.js", ["ROUTE", "STORY_ROUTE_SPINE", "ROUTE_SUBCHECK_LABELS", "ROUTE_SUBCHECK_OBJECTIVES", "ROUTE_SUBCHECK_HINTS"]],
     ["data/world-data.js", ["WORLD_DATA"]],
@@ -127,11 +128,12 @@
   const style = document.createElement("style");
   style.textContent = [
     "#text-edit-root{font:13px/1.35 sans-serif}",
-    "#text-edit-bar{position:fixed;z-index:260;top:0;left:0;right:0;box-sizing:border-box;display:flex;flex-wrap:wrap;align-items:center;gap:6px;padding:8px 10px;background:#14324a;color:#fff}",
+    "#text-edit-bar{position:fixed;z-index:280;top:0;left:0;right:0;box-sizing:border-box;display:flex;flex-wrap:wrap;align-items:center;gap:6px;padding:8px 10px;background:#14324a;color:#fff}",
     "#text-edit-bar strong{margin-right:4px}",
     "#text-edit-bar button,#text-edit-toggle{box-sizing:border-box;min-height:36px;padding:6px 10px;border:1px solid #8fb6cc;border-radius:6px;background:#0d2436;color:#fff;font:inherit;white-space:nowrap;cursor:pointer}",
+    "#text-edit-bar #text-edit-exit{flex:1 1 100%;min-height:44px;background:#f6e7c1;color:#10202c;border-color:#f6e7c1;font-weight:700}",
     "#text-edit-toggle{min-height:32px;padding:4px 8px;border-color:var(--line,#8aa);background:transparent;color:inherit;font-size:12px}",
-    "#text-edit-dialog,#text-edit-sheet{position:fixed;z-index:270;inset:0;display:flex;align-items:flex-end;justify-content:center;padding:12px;background:rgba(2,10,18,.55);box-sizing:border-box}",
+    "#text-edit-dialog,#text-edit-sheet{position:fixed;z-index:270;left:0;right:0;bottom:0;top:var(--text-edit-bar-h,0px);display:flex;align-items:flex-end;justify-content:center;padding:12px;background:rgba(2,10,18,.55);box-sizing:border-box}",
     "#text-edit-dialog[hidden],#text-edit-sheet[hidden],#text-edit-bar[hidden]{display:none}",
     "#text-edit-dialog form,#text-edit-sheet .sheet{width:min(640px,100%);max-height:min(80vh,640px);overflow:auto;box-sizing:border-box;padding:14px;border-radius:12px;background:#fff;color:#10202c}",
     "#text-edit-input{width:100%;min-height:120px;box-sizing:border-box;font:16px/1.45 sans-serif;padding:8px}",
@@ -139,14 +141,16 @@
     "#text-edit-actions button,.text-edit-mini{min-height:40px;padding:8px 12px;border-radius:8px;border:1px solid #8aa;background:#f4f7f8;font:inherit}",
     ".text-edit-row{padding:8px 0;border-bottom:1px solid #dde}",
     ".text-edit-row p{margin:0 0 6px;white-space:pre-wrap;word-break:break-word}",
-    "@media(max-width:640px){#text-edit-bar{padding:8px}#text-edit-bar button{flex:1 1 auto}#text-edit-dialog,#text-edit-sheet{padding:8px;align-items:flex-end}}"
+    "@media(max-width:640px){#text-edit-bar{padding:8px}#text-edit-bar button{flex:1 1 calc(50% - 6px)}#text-edit-exit{flex:1 1 100%}#text-edit-dialog,#text-edit-sheet{padding:8px;align-items:flex-end}}"
   ].join("");
   document.head.appendChild(style);
 
   const root = document.createElement("div");
   root.id = "text-edit-root";
   root.innerHTML = [
-    '<div id="text-edit-bar" hidden><strong>編集モード</strong>',
+    '<div id="text-edit-bar" hidden>',
+    '<button type="button" id="text-edit-exit">編集モードを終了</button>',
+    '<strong>編集モード</strong>',
     '<button type="button" id="text-edit-list-open">修正一覧</button>',
     '<button type="button" id="text-edit-export">書き出し</button>',
     '<button type="button" id="text-edit-import-open">読み込み</button>',
@@ -171,15 +175,38 @@
     const n = Object.keys(edits).length;
     count.textContent = n ? n + "件" : "";
     bar.hidden = !editOn;
-    document.body.style.paddingTop = editOn ? bar.offsetHeight + "px" : "";
+    const barHeight = editOn ? bar.offsetHeight : 0;
+    document.body.style.paddingTop = barHeight ? barHeight + "px" : "";
+    document.documentElement.style.setProperty("--text-edit-bar-h", barHeight + "px");
+  }
+  function paintToggle() {
+    const toggle = document.getElementById("text-edit-toggle");
+    if (!toggle) return;
+    toggle.setAttribute("aria-pressed", editOn ? "true" : "false");
+    toggle.textContent = editOn ? "訳の修正：オン" : "訳の修正：オフ";
+  }
+  function stripEditParam() {
+    try {
+      const url = new URL(location.href);
+      if (!url.searchParams.has("edit")) return;
+      url.searchParams.delete("edit");
+      history.replaceState(history.state, "", url.pathname + url.search + url.hash);
+    } catch (e) {}
+  }
+  function rememberMode(on) {
+    try { localStorage.setItem(MODE_KEY, on ? "1" : "0"); } catch (e) {}
+    try { sessionStorage.removeItem(OLD_SESSION); } catch (e) {}
   }
   function setEditOn(on) {
     editOn = !!on;
-    try { sessionStorage.setItem(SESSION, editOn ? "1" : "0"); } catch (e) {}
-    if (!editOn) closeDialog();
+    rememberMode(editOn);
+    if (!editOn) {
+      closeDialog();
+      closeSheet();
+      stripEditParam();
+    }
     syncBar();
-    const toggle = document.getElementById("text-edit-toggle");
-    if (toggle) toggle.setAttribute("aria-pressed", editOn ? "true" : "false");
+    paintToggle();
   }
   function closeDialog() {
     dialogOpen = false;
@@ -200,8 +227,13 @@
     while (node && !node.nodeValue.trim()) node = walker.nextNode();
     return node;
   }
+  function elementFrom(target) {
+    if (!target) return null;
+    return target.nodeType === 1 ? target : target.parentElement;
+  }
   function allowed(target) {
-    return !!(target && target.closest && target.closest("#text-edit-root, #tabs, #hub-rail, #hub-section-picker, #open-howto, #howto, #vision, #text-edit-toggle"));
+    const el = elementFrom(target);
+    return !!(el && el.closest("#text-edit-root, #tabs, #hub-rail, #hub-section-picker, #open-howto, #howto, #vision, #text-edit-toggle"));
   }
   function beginEdit(event) {
     const node = textNodeFrom(event);
@@ -331,14 +363,16 @@
   });
 
   function onInteract(event) {
+    const el = elementFrom(event.target);
+    if (el && el.closest("#text-edit-exit, #text-edit-toggle")) return;
     if (dialogOpen) {
-      if (!event.target.closest("#text-edit-root")) {
+      if (!el || !el.closest("#text-edit-root")) {
         event.preventDefault();
         event.stopPropagation();
       }
       return;
     }
-    if (!editOn || allowed(event.target)) return;
+    if (!editOn || allowed(el)) return;
     event.preventDefault();
     event.stopPropagation();
     if (event.type === "click") beginEdit(event);
@@ -346,20 +380,66 @@
   document.addEventListener("click", onInteract, true);
   document.addEventListener("change", onInteract, true);
 
-  const params = new URLSearchParams(location.search);
-  let open = params.get("edit") === "1";
-  if (params.get("edit") === "0") open = false;
-  else if (!params.has("edit")) {
-    try { open = sessionStorage.getItem(SESSION) === "1"; } catch (e) { open = false; }
+  function homeScreen() {
+    try {
+      if (navigator.standalone === true) return true;
+      return window.matchMedia("(display-mode: standalone)").matches || window.matchMedia("(display-mode: fullscreen)").matches;
+    } catch (e) {
+      return false;
+    }
+  }
+  function navigationType() {
+    try {
+      const nav = performance.getEntriesByType("navigation")[0];
+      if (nav && nav.type) return nav.type;
+    } catch (e) {}
+    try {
+      if (performance.navigation && performance.navigation.type === 1) return "reload";
+    } catch (e) {}
+    return "navigate";
+  }
+  function savedMode() {
+    try { return localStorage.getItem(MODE_KEY); } catch (e) { return null; }
+  }
+  function initialEditOn() {
+    try { sessionStorage.removeItem(OLD_SESSION); } catch (e) {}
+    const home = homeScreen();
+    const nav = navigationType();
+    const edit = new URLSearchParams(location.search).get("edit");
+    if (home && nav !== "reload") {
+      stripEditParam();
+      rememberMode(false);
+      return false;
+    }
+    if (home) {
+      stripEditParam();
+      return savedMode() === "1";
+    }
+    if (edit === "0") {
+      stripEditParam();
+      return false;
+    }
+    if (edit === "1" && nav !== "reload") return true;
+    if (edit === "1" && nav === "reload") return savedMode() === "1";
+    return savedMode() === "1";
   }
   applyAll();
-  setEditOn(open);
+  setEditOn(initialEditOn());
   new MutationObserver(mutations => {
     if (!Object.keys(edits).length) return;
     for (const mutation of mutations) for (const node of mutation.addedNodes) applyNode(node);
   }).observe(document.body, { childList: true, subtree: true });
   window.addEventListener("resize", () => { if (editOn) syncBar(); });
 
+  document.getElementById("text-edit-exit").addEventListener("click", event => {
+    event.preventDefault();
+    event.stopPropagation();
+    setEditOn(false);
+  });
   const toggle = document.getElementById("text-edit-toggle");
-  if (toggle) toggle.addEventListener("click", () => setEditOn(!editOn));
+  if (toggle) toggle.addEventListener("click", event => {
+    event.preventDefault();
+    event.stopPropagation();
+    setEditOn(!editOn);
+  });
 })();
