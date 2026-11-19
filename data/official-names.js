@@ -1,8 +1,121 @@
 // Display-only names. Do not use these strings as save keys, species keys,
 // sub-checkpoint ids, or Atlas query keys. The English source data stays put.
 // Sources are listed in OFFICIAL-NAMES.md.
+// Longer phrases are applied first inside officialJa.
 const OFFICIAL_NAME_PAIRS = [
   ["Future Connected", "つながる未来"],
+  ["Before you press start", "始める前に"],
+  ["The world reopens — biggest side-content chapter in the game", "世界が再び開く。本編で脇道が最も多い章"],
+  ["The completion phase", "達成の段階"],
+  ["Supply Station Battle", "サプライステーションバトル"],
+  ["Fiora's Conviction", "フィオルンのコンビクション"],
+  ["Astas Remote Unit", "アスタスの遠隔装置"],
+  ["Path to the Top", "パス・トゥ・ザ・トップ"],
+  ["Bionis' Interior", "巨神胎内"],
+  ["High Entia Tomb", "ハイエンター墓所"],
+  ["Rainbow Zirconia", "虹色キュービック"],
+  ["Galahad Fortress", "ガラハド要塞"],
+  ["Physical Def Up", "物理防御アップ"],
+  ["Frontier Village", "サイハテ村"],
+  ["Mechonis Field", "機神界フィールド"],
+  ["Central Factory", "中央工廠"],
+  ["Valak Mountain", "ヴァラク雪山"],
+  ["Sword Valley", "大剣の渓谷"],
+  ["Turbine Battle", "タービンバトル"],
+  ["Chase Dickson", "チェイス・ディクソン"],
+  ["Black Beetle", "クロメタルカナブン"],
+  ["Rabbit Diode", "ラビットダイオード"],
+  ["Tephra Cave", "テフラ洞窟"],
+  ["Makna Forest", "マクナ原生林"],
+  ["Satorl Marsh", "燐光の地ザトール"],
+  ["Bionis' Leg", "巨神脚"],
+  ["Ether Mine", "中央採掘場"],
+  ["Fallen Arm", "落ちた腕"],
+  ["Green Diode", "グリーンダイオード"],
+  ["Ready Coil", "レディコイル"],
+  ["Love Source", "ホレルゲン"],
+  ["Burst Affinity", "突発キズナ"],
+  ["Faced Mechon", "フェイス機神兵"],
+  ["Union Strikes", "ユニオンストライク"],
+  ["Union Strike", "ユニオンストライク"],
+  ["Lift Battle", "リフトバトル"],
+  ["Expert Mode", "エキスパートモード"],
+  ["Strong Flame", "ストロングフレイム"],
+  ["Medium Flame", "ミディアムフレイム"],
+  ["Gentle Flame", "ジェントルフレイム"],
+  ["Mega Heat", "メガヒート"],
+  ["Skill Links", "スキルリンク"],
+  ["Skill Link", "スキルリンク"],
+  ["Chain Link", "チェインリンク"],
+  ["Colony 9", "コロニー9"],
+  ["Colony 6", "コロニー6"],
+  ["Eryth Sea", "エルト海"],
+  ["Alcamoth", "皇都アカモート"],
+  ["Agniratha", "帝都アグニラータ"],
+  ["Impatience", "短気"],
+  ["Camaraderie", "友情"],
+  ["Obstinance", "頑固"],
+  ["Enthusiasm", "熱血"],
+  ["Cowardice", "臆病"],
+  ["Reticence", "内気"],
+  ["Reliance", "依存"],
+  ["Affection", "愛情"],
+  ["Rashness", "勝気"],
+  ["Innocence", "純真"],
+  ["Heroism", "勇者"],
+  ["Passion", "情熱"],
+  ["Love Sources", "ホレルゲン"],
+  ["Veritas Glyphs", "ベリタス・グリフ"],
+  ["Veritas Glyph", "ベリタス・グリフ"],
+  ["Oriental Glass", "オリエンタルグラス"],
+  ["Oriental Glasses", "オリエンタルグラス"],
+  ["New Game Plus", "ニューゲームプラス"],
+  ["Romantic Notions", "恋愛成就"],
+  ["Xenoblade Chronicles DE", "ゼノブレイドDE"],
+  ["Immunization", "イミュナイゼーション"],
+  ["Bodybuilder", "ボディビルダー"],
+  ["または Trust", "または小娘隊長の信頼"],
+  ["Area Affinity", "エリアアフィニティ"],
+  ["Xenoblade Wiki", "ゼノブレイドWiki"],
+  ["Sage", "セージ"],
+  ["Argentis", "シルバー"],
+  ["Abaasy", "アバーシ"],
+  ["Housing", "ハウジング"],
+  ["Commerce", "コマース"],
+  ["Nature", "ネイチャー"],
+  ["Special", "スペシャル"],
+  ["Valak", "ヴァラク"],
+  ["Makna", "マクナ"],
+  ["Seven", "セブン"],
+  ["Zel", "ゼル"],
+  ["Don", "ドン"],
+  ["Engineer", "エンジニア"],
+  ["Behemoth", "ベヒモス"],
+  ["Shooter", "シューター"],
+  ["Nebula", "ネブラ"],
+  ["Spirit", "スピリット"],
+  ["Andos", "アンドス"],
+  ["Astas", "アスタス"],
+  ["Giant", "ジャイアント"],
+  ["Heat", "ヒート"],
+  ["Shulk", "シュルク"],
+  ["Reyn", "ライン"],
+  ["Fiora's", "フィオルンの"],
+  ["Fiora", "フィオルン"],
+  ["Dunban", "ダンバン"],
+  ["Sharla", "カルナ"],
+  ["Melia", "メリア"],
+  ["Riki", "リキ"],
+  ["Pod", "ポッド"],
+  ["God", "ゴッド"],
+  ["drops logged", "ドロップログ"],
+  ["hunt pins", "ハントピン"],
+  ["Spike warning:", "スパイク・ワーニング:"],
+  ["documented Spike", "ドキュメント・スパイク"],
+  ["Topple plan", "転倒プラン"],
+  ["Target:", "ターゲット:"],
+  ["Alcamoth at Dawn", "皇都アカモート・ドーン"],
+  ["Alcamoth Orbital", "皇都アカモート・オービタル"],
   ["Before you press start", "始める前に"],
   ["The world reopens — biggest side-content chapter in the game", "世界が再び開く。本編で脇道が最も多い章"],
   ["The completion phase", "達成の段階"],
@@ -98,32 +211,32 @@ const OFFICIAL_NAME_PAIRS = [
   ["Bravery", "英雄"]
 ];
 
+const OFFICIAL_NAME_SORTED = OFFICIAL_NAME_PAIRS.slice().sort((a, b) => b[0].length - a[0].length);
+
 function officialJa(text) {
   if (!text || !/[A-Za-z]/.test(text)) return text;
   let out = String(text);
-  for (const [en, ja] of OFFICIAL_NAME_PAIRS) {
+  for (const [en, ja] of OFFICIAL_NAME_SORTED) {
     const escaped = en.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
     out = out.replace(new RegExp("(?<![A-Za-z0-9])" + escaped + "(?![A-Za-z0-9])", "g"), ja);
   }
-  return out.replace(/(?<![A-Za-z])Chapter (\d+)(?![A-Za-z0-9])/g, "$1章");
+  return out
+    .replace(/(?<![A-Za-z])Chapter (\d+)(?![A-Za-z0-9])/g, "$1章")
+    .replace(/(?<![A-Za-z])Part (\d+)(?![A-Za-z0-9])/g, "パート$1");
 }
 
 function subcheckJa(text) {
   return text
-    .replace(/^Search Quest/, "探索クエスト")
-    .replace(/^Monster Quest/, "討伐クエスト")
-    .replace(/^Material Quest/, "素材クエスト")
-    .replace(/^Collection Quest/, "収集クエスト")
-    .replace(/^Collect Quest/, "収集クエスト")
-    .replace(/^Register (.+)$/, "$1を登録")
-    .replace(/^Defeat (.+)$/, "$1を倒す")
-    .replace(/^Bank /, "預ける ")
-    .replace(/^Complete (.+) Collectopaedia$/, "$1のコレペディアを完成")
-    .replace(/ Area Affinity/g, "のエリアキズナ")
-    .replace(/ page$/, "のページ")
-    .replace(/^Speak to (.+)$/, "$1に話す")
-    .replace(/^Collect /, "集める ")
-    .replace(/^Return to (.+)$/, "$1に戻る");
+    .replace(/^Search Quest/, "サーチクエスト")
+    .replace(/^Monster Quest/, "モンスタークエスト")
+    .replace(/^Material Quest/, "マテリアルクエスト")
+    .replace(/^Collection Quest/, "コレクションクエスト")
+    .replace(/^Collect Quest/, "コレクトクエスト")
+    .replace(/^Bank /, "バンク ")
+    .replace(/^Complete (.+) Collectopaedia$/, "$1のコレペディアをコンプリート")
+    .replace(/^Collect /, "コレクト ")
+    .replace(/^Challenge /, "チャレンジ ")
+    .replace(/ page$/, "ページ");
 }
 
 function applyOfficialNames(root) {
@@ -136,6 +249,8 @@ function applyOfficialNames(root) {
       return;
     }
     if (node.nodeType !== 1 || skip.has(node.tagName)) return;
+    if (node.classList && node.classList.contains("subcheck-atlas-link")) return;
+    if (node.tagName === "OPTION" && !node.hasAttribute("value")) node.setAttribute("value", node.textContent);
     for (const child of node.childNodes) walk(child);
   };
   walk(root);
