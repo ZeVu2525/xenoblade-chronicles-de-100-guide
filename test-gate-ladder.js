@@ -70,8 +70,8 @@ const waitFor = async (test, message, timeout = 10000) => {
   });
   check("orders star tiers numerically, fractions included", ordered);
 
-  const colony9 = areas.find(a => a.querySelector("summary b").textContent === "Colony 9");
-  check("Colony 9 ladder starts at its lowest gate",
+  const colony9 = areas.find(a => a.querySelector("summary b").textContent === "コロニー9");
+  check("コロニー9 ladder starts at its lowest gate",
     colony9?.querySelector(".gate-tier-head b").textContent === "☆1¼",
     colony9?.querySelector(".gate-tier-head b").textContent);
 
@@ -113,11 +113,11 @@ const waitFor = async (test, message, timeout = 10000) => {
 
   // Area filter narrows the ladder.
   const select = doc.getElementById("affinity-area");
-  select.value = "Colony 9";
+  select.value = "コロニー9";
   select.dispatchEvent(new window.Event("change", { bubbles: true }));
   await new Promise(r => setTimeout(r, 80));
   const filtered = [...gates.querySelectorAll(".gate-area")];
-  check("Area filter narrows the ladder", filtered.length === 1 && filtered[0].querySelector("summary b").textContent === "Colony 9",
+  check("Area filter narrows the ladder", filtered.length === 1 && filtered[0].querySelector("summary b").textContent === "コロニー9",
     filtered.map(a => a.querySelector("summary b").textContent).join(","));
 
   select.value = "";
