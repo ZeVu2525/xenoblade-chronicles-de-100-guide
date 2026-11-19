@@ -9,7 +9,7 @@ const MAP_ATLAS_DATA = {
   "areas": [
     {
       "id": "colony-9",
-      "name": "Colony 9",
+      "name": "コロニー9",
       "game": "base",
       "recommendedChapter": 1,
       "routeChapterId": "ch1",
@@ -19,7 +19,7 @@ const MAP_ATLAS_DATA = {
       "entries": [
         {
           "id": "world-colony-9-gem-man-s-stall-b49511e2",
-          "name": "Gem Man's Stall",
+          "name": "ジェム爺の露天商",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 1,
@@ -29,7 +29,7 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-colony-9-mechon-wreckage-site-49f86893",
-          "name": "Mechon Wreckage Site",
+          "name": "機神兵残骸跡地",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 1,
@@ -69,7 +69,7 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-colony-9-fortress-entrance-5f82b8d6",
-          "name": "Fortress Entrance",
+          "name": "軍事区 正門",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 1,
@@ -79,7 +79,7 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-colony-9-tranquil-square-04fe781b",
-          "name": "Tranquil Square",
+          "name": "居住区 憩いの広場",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 1,
@@ -89,7 +89,7 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-colony-9-outlook-park-1cb422e9",
-          "name": "Outlook Park",
+          "name": "見晴らしの丘公園",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 1,
@@ -99,7 +99,7 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-colony-9-tephra-cave-entrance-00ab1798",
-          "name": "Tephra Cave Entrance",
+          "name": "テフラ洞窟 入口",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 1,
@@ -109,7 +109,7 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-colony-9-cylinder-hangar-a16588a8",
-          "name": "Cylinder Hangar",
+          "name": "シリンダー格納庫",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 1,
@@ -119,7 +119,7 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-colony-9-commercial-district-8dfb1b19",
-          "name": "Commercial District",
+          "name": "商業区",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 1,
@@ -129,7 +129,7 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-colony-9-military-district-d4fdac63",
-          "name": "Military District",
+          "name": "軍事区",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 1,
@@ -149,7 +149,7 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-colony-9-residential-district-5e96fa4c",
-          "name": "Residential District",
+          "name": "居住区",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 1,
@@ -159,7 +159,7 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-colony-9-anti-air-battery-1-c50e455b",
-          "name": "Anti-Air Battery 1",
+          "name": "対空砲1号基",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 1,
@@ -169,7 +169,7 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-colony-9-anti-air-battery-2-f4df9ed5",
-          "name": "Anti-Air Battery 2",
+          "name": "対空砲2号基",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 1,
@@ -179,7 +179,7 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-colony-9-anti-air-battery-3-53f1cc5f",
-          "name": "Anti-Air Battery 3",
+          "name": "対空砲3号基",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 1,
@@ -189,7 +189,7 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-colony-9-tephra-hill-c478ba9d",
-          "name": "Tephra Hill",
+          "name": "テフラ坂",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 1,
@@ -199,7 +199,7 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-colony-9-cliff-lake-c3e7918d",
-          "name": "Cliff Lake",
+          "name": "断崖の池",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 1,
@@ -209,7 +209,7 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-colony-9-agora-shore-5119720d",
-          "name": "Agora Shore",
+          "name": "アゴラの岸",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 1,
@@ -219,7 +219,7 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-colony-9-hazzai-cape-4d996349",
-          "name": "Hazzai Cape",
+          "name": "ハッザイ岬",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 1,
@@ -229,7 +229,7 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-colony-9-dunban-s-house-eee084ec",
-          "name": "Dunban's House",
+          "name": "ダンバン邸",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 1,
@@ -242,7 +242,7 @@ const MAP_ATLAS_DATA = {
     },
     {
       "id": "tephra-cave",
-      "name": "Tephra Cave",
+      "name": "テフラ洞窟",
       "game": "base",
       "routeChapterId": "ch1",
       "lockoutDeadline": null,
@@ -254,161 +254,161 @@ const MAP_ATLAS_DATA = {
       "entries": [
         {
           "id": "world-tephra-cave-tephra-path-20fb10be",
-          "name": "Tephra Path",
+          "name": "テフラ通り",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-tephra-cave-mag-mell-ruins-f1668b90",
-          "name": "Mag Mell Ruins",
+          "name": "マグ・メルドの遺跡",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-tephra-cave-rear-entrance-74db5943",
-          "name": "Rear Entrance",
+          "name": "テフラ洞窟裏口",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-tephra-cave-spring-of-grief-416f9aeb",
-          "name": "Spring of Grief",
+          "name": "嘆きの泉",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-tephra-cave-vilia-lake-9c2d4956",
-          "name": "Vilia Lake",
+          "name": "ヴィリア湖",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-tephra-cave-heavenly-window-e7ba267b",
-          "name": "Heavenly Window",
+          "name": "慈悲の天窓",
           "type": "secret-area",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-tephra-cave-bafalgar-tomb-803c31c3",
-          "name": "Bafalgar Tomb",
+          "name": "バルファルガ墓地",
           "type": "secret-area",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-tephra-cave-leg-pass-bf973598",
-          "name": "Leg Pass",
+          "name": "脚の峠道",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-tephra-cave-caterpile-nest-f565ef8d",
-          "name": "Caterpile Nest",
+          "name": "キャピルの巣",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-tephra-cave-warehouse-2-51d047bd",
-          "name": "Warehouse 2",
+          "name": "第2左舷倉庫",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-tephra-cave-escape-pod-bay-dce37404",
-          "name": "Escape Pod Bay",
+          "name": "脱出ポッド室",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-tephra-cave-tephra-cavern-d3debdfe",
-          "name": "Tephra Cavern",
+          "name": "テフラ大空洞",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-tephra-cave-hidden-warehouse-20b9b125",
-          "name": "Hidden Warehouse",
+          "name": "隠し倉庫",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-tephra-cave-forgotten-cave-fd4aa701",
-          "name": "Forgotten Cave",
+          "name": "忘れ去られた洞穴",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-tephra-cave-emergency-warehouse-0d9d9612",
-          "name": "Emergency Warehouse",
+          "name": "隊商非常用倉庫",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-tephra-cave-soothsayer-s-crypt-1024db9a",
-          "name": "Soothsayer's Crypt",
+          "name": "宗主納骨堂",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-tephra-cave-prayer-room-b2f40f24",
-          "name": "Prayer Room",
+          "name": "祈りの間",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-tephra-cave-bone-corridor-1db1564c",
-          "name": "Bone Corridor",
+          "name": "骨の回廊",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-tephra-cave-arachno-queen-s-nest-26a2b45a",
-          "name": "Arachno Queen's Nest",
+          "name": "女王蜘蛛の巣窟",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-tephra-cave-kneecap-hill-82a4137e",
-          "name": "Kneecap Hill",
+          "name": "膝頭の丘",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-tephra-cave-trader-s-stopover-302b4246",
-          "name": "Trader's Stopover",
+          "name": "隊商中継地",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-tephra-cave-arachno-feeding-lair-680448b0",
-          "name": "Arachno Feeding Lair",
+          "name": "スパイドの狩場",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-tephra-cave-path-of-absolution-9af87acf",
-          "name": "Path of Absolution",
+          "name": "清めの道",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
@@ -417,7 +417,7 @@ const MAP_ATLAS_DATA = {
     },
     {
       "id": "bionis-leg",
-      "name": "Bionis' Leg",
+      "name": "巨神脚",
       "game": "base",
       "routeChapterId": "ch4",
       "lockoutDeadline": null,
@@ -443,91 +443,91 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-bionis-leg-kamos-guidepost-29214c95",
-          "name": "Kamos Guidepost",
+          "name": "ガムトの道標",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-bionis-leg-refugee-camp-2abe34da",
-          "name": "Refugee Camp",
+          "name": "脱出艇キャンプ",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-bionis-leg-raguel-bridge-south-af6f5861",
-          "name": "Raguel Bridge - South",
+          "name": "ラグエル大橋 第1塔",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-bionis-leg-raguel-bridge-north-4df0de50",
-          "name": "Raguel Bridge - North",
+          "name": "ラグエル大橋 第2塔",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-bionis-leg-spiral-valley-cd00462f",
-          "name": "Spiral Valley",
+          "name": "ラセン谷",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-bionis-leg-zax-guidepost-ac78ce8f",
-          "name": "Zax Guidepost",
+          "name": "ザクスの道標",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-bionis-leg-bask-cave-passage-b3f11a36",
-          "name": "Bask Cave Passage",
+          "name": "バクス岩窟通り",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-bionis-leg-observation-platform-7c646935",
-          "name": "Observation Platform",
+          "name": "開拓者の展望台",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-bionis-leg-believer-s-paradise-683cbbe1",
-          "name": "Believer's Paradise",
+          "name": "崇拝者の楽園",
           "type": "secret-area",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-bionis-leg-gaur-plain-de480ca1",
-          "name": "Gaur Plain",
+          "name": "ガウル平原",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-bionis-leg-volff-lair-9f974b05",
-          "name": "Volff Lair",
+          "name": "ヴォルフのねぐら",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-bionis-leg-rho-oasis-c6363bfe",
-          "name": "Rho Oasis",
+          "name": "ローのオアシス",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-bionis-leg-tirkin-headquarters-c22d7b1c",
-          "name": "Tirkin Headquarters",
+          "name": "ターキンの本営",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
@@ -541,70 +541,70 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-bionis-leg-sky-stage-7cb4b296",
-          "name": "Sky Stage",
+          "name": "天空の舞台",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-bionis-leg-kisk-cave-87d2035d",
-          "name": "Kisk Cave",
+          "name": "キスク洞窟",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-bionis-leg-daksha-shrine-88cbca43",
-          "name": "Daksha Shrine",
+          "name": "ダクシャ神殿",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-bionis-leg-raguel-lake-f3385b58",
-          "name": "Raguel Lake",
+          "name": "ラグエル湖",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-bionis-leg-tranquil-grotto-9310b241",
-          "name": "Tranquil Grotto",
+          "name": "静寂の岩屋",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-bionis-leg-maguel-road-912de56b",
-          "name": "Maguel Road",
+          "name": "マークウェル街道",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-bionis-leg-windy-cave-7577e379",
-          "name": "Windy Cave",
+          "name": "風鳴りの空洞",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-bionis-leg-crevasse-waterfall-3d4efc0e",
-          "name": "Crevasse Waterfall",
+          "name": "裂け目の滝",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-bionis-leg-traveller-s-rest-8c07c9a2",
-          "name": "Traveller's Rest",
+          "name": "旅人の休息跡地",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-bionis-leg-kasharpa-falls-4a808151",
-          "name": "Kasharpa Falls",
+          "name": "カシュハパの滝",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
@@ -613,7 +613,7 @@ const MAP_ATLAS_DATA = {
     },
     {
       "id": "colony-6",
-      "name": "Colony 6",
+      "name": "コロニー6",
       "game": "base",
       "routeChapterId": "ch5",
       "lockoutDeadline": null,
@@ -625,42 +625,42 @@ const MAP_ATLAS_DATA = {
       "entries": [
         {
           "id": "world-colony-6-reconstruction-hq-cb74fcd5",
-          "name": "Reconstruction HQ",
+          "name": "コロニー6 復興本部",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-colony-6-supply-road-3d0094bf",
-          "name": "Supply Road",
+          "name": "コロニー6 補給路",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-colony-6-watchpoint-junction-4f539aea",
-          "name": "Watchpoint Junction",
+          "name": "物見の三叉路",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-colony-6-drainage-outlet-5c7f6dbe",
-          "name": "Drainage Outlet",
+          "name": "コロニー6 排水口",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-colony-6-freight-road-b1c5a747",
-          "name": "Freight Road",
+          "name": "貨物運搬路",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-colony-6-misty-path-5e9a261e",
-          "name": "Misty Path",
+          "name": "霧の街道",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
@@ -674,7 +674,7 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-colony-6-splintered-path-0ef69600",
-          "name": "Splintered Path",
+          "name": "巨神の刺道",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
@@ -688,14 +688,14 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-colony-6-pod-depot-d6568bf7",
-          "name": "Pod Depot",
+          "name": "ポッド発着場",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-colony-6-hope-farm-2a7e3c4d",
-          "name": "Hope Farm",
+          "name": "希望の農場",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
@@ -704,7 +704,7 @@ const MAP_ATLAS_DATA = {
     },
     {
       "id": "ether-mine",
-      "name": "Ether Mine",
+      "name": "中央採掘場",
       "game": "base",
       "recommendedChapter": 5,
       "routeChapterId": "ch5",
@@ -714,7 +714,7 @@ const MAP_ATLAS_DATA = {
       "entries": [
         {
           "id": "world-ether-mine-drainage-tunnel-9920ec0b",
-          "name": "Drainage Tunnel",
+          "name": "地下坑道 排水口",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 5,
@@ -724,7 +724,7 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-ether-mine-drainage-control-room-83b3c0ee",
-          "name": "Drainage Control Room",
+          "name": "排水制御室",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 5,
@@ -734,7 +734,7 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-ether-mine-mining-base-e5dfdd7c",
-          "name": "Mining Base",
+          "name": "採掘基地",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 5,
@@ -744,7 +744,7 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-ether-mine-central-pit-entrance-c1a083c9",
-          "name": "Central Pit - Entrance",
+          "name": "中央採掘場 入口",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 5,
@@ -754,7 +754,7 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-ether-mine-personnel-lift-2-c2d6731b",
-          "name": "Personnel Lift 2",
+          "name": "第2作業用リフト",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 5,
@@ -774,7 +774,7 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-ether-mine-glowmoss-lake-ae0b6eac",
-          "name": "Glowmoss Lake",
+          "name": "光ゴケの地底湖",
           "type": "secret-area",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 5,
@@ -784,7 +784,7 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-ether-mine-regulation-piston-2ec2f622",
-          "name": "Regulation Piston",
+          "name": "掘削調整ピストン前",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 5,
@@ -794,7 +794,7 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-ether-mine-personnel-lift-3-afdc0485",
-          "name": "Personnel Lift 3",
+          "name": "第3作業用リフト",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 5,
@@ -804,7 +804,7 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-ether-mine-central-pit-base-level-084add4d",
-          "name": "Central Pit - Base Level",
+          "name": "中央採掘場 最下層",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 5,
@@ -814,7 +814,7 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-ether-mine-test-pit-1-cd8fd849",
-          "name": "Test Pit 1",
+          "name": "地下坑道 第1試掘場",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 5,
@@ -824,7 +824,7 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-ether-mine-test-pit-2-3d1afd6c",
-          "name": "Test Pit 2",
+          "name": "地下坑道 第2試掘場",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 5,
@@ -834,7 +834,7 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-ether-mine-test-pit-3-3fe3690a",
-          "name": "Test Pit 3",
+          "name": "地下坑道 第3試掘場",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 5,
@@ -844,7 +844,7 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-ether-mine-storage-depot-88ef11d5",
-          "name": "Storage Depot",
+          "name": "資材置き場",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 5,
@@ -854,7 +854,7 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-ether-mine-central-terminal-93b3d2d0",
-          "name": "Central Terminal",
+          "name": "中央ターミナル",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 5,
@@ -864,7 +864,7 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-ether-mine-test-pit-4-65c26d70",
-          "name": "Test Pit 4",
+          "name": "地下坑道 第4試掘場",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 5,
@@ -874,7 +874,7 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-ether-mine-observation-point-1db300ea",
-          "name": "Observation Point",
+          "name": "採掘監視所",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 5,
@@ -884,7 +884,7 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-ether-mine-central-pit-level-1-d7f5fc91",
-          "name": "Central Pit - Level 1",
+          "name": "中央採掘場 第1層",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 5,
@@ -894,7 +894,7 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-ether-mine-central-pit-level-2-9e04a19d",
-          "name": "Central Pit - Level 2",
+          "name": "中央採掘場 第2層",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 5,
@@ -904,7 +904,7 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-ether-mine-central-pit-level-3-84df972c",
-          "name": "Central Pit - Level 3",
+          "name": "中央採掘場 第3層",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 5,
@@ -917,7 +917,7 @@ const MAP_ATLAS_DATA = {
     },
     {
       "id": "satorl-marsh",
-      "name": "Satorl Marsh",
+      "name": "燐光の地ザトール",
       "game": "base",
       "routeChapterId": "ch6",
       "lockoutDeadline": null,
@@ -936,119 +936,119 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-satorl-marsh-nopon-merchant-camp-735cb7f7",
-          "name": "Nopon Merchant Camp",
+          "name": "ノポン商会キャンプ",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-satorl-marsh-crown-tree-39675c7d",
-          "name": "Crown Tree",
+          "name": "王冠樹",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-satorl-marsh-silent-obelisk-a893298d",
-          "name": "Silent Obelisk",
+          "name": "沈黙のオベリスク",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-satorl-marsh-glowing-obelisk-7e25b311",
-          "name": "Glowing Obelisk",
+          "name": "光球のオベリスク",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-satorl-marsh-sororal-statues-9f221c58",
-          "name": "Sororal Statues",
+          "name": "岩窟の姉妹像",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-satorl-marsh-statue-summit-a0541338",
-          "name": "Statue Summit",
+          "name": "姉妹像最上部",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-satorl-marsh-shining-pond-ebfd1c19",
-          "name": "Shining Pond",
+          "name": "輝く沼",
           "type": "secret-area",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-satorl-marsh-lacus-swamp-a587ee85",
-          "name": "Lacus Swamp",
+          "name": "ラクス沼",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-satorl-marsh-zaldania-waterfall-b86ba711",
-          "name": "Zaldania Waterfall",
+          "name": "ザタナルギアの滝",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-satorl-marsh-poison-swamp-2091f8e6",
-          "name": "Poison Swamp",
+          "name": "毒吐き沼",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-satorl-marsh-altar-of-fate-836337dd",
-          "name": "Altar of Fate",
+          "name": "運命の祭壇",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-satorl-marsh-barren-moor-cf063e55",
-          "name": "Barren Moor",
+          "name": "虚無の湿原",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-satorl-marsh-dark-swamp-49d5dddd",
-          "name": "Dark Swamp",
+          "name": "深き闇の沼",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-satorl-marsh-igna-territory-adaf29e0",
-          "name": "Igna Territory",
+          "name": "イグーナの領地",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-satorl-marsh-exile-fortress-b52c740e",
-          "name": "Exile Fortress",
+          "name": "流刑の砦",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-satorl-marsh-nopon-refuge-c2637ad2",
-          "name": "Nopon Refuge",
+          "name": "ノポンの隠れ家",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-satorl-marsh-soter-ruins-3092953e",
-          "name": "Soter Ruins",
+          "name": "ソーテール遺跡",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
@@ -1062,21 +1062,21 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-satorl-marsh-oath-sanctuary-0df54ab1",
-          "name": "Oath Sanctuary",
+          "name": "宣誓の聖所",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-satorl-marsh-mauk-floodgate-56783a05",
-          "name": "Mauk Floodgate",
+          "name": "モーク水門",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-satorl-marsh-basin-cave-500e7d5c",
-          "name": "Basin Cave",
+          "name": "水盤の洞窟",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
@@ -1085,7 +1085,7 @@ const MAP_ATLAS_DATA = {
     },
     {
       "id": "makna-forest",
-      "name": "Makna Forest",
+      "name": "マクナ原生林",
       "game": "base",
       "routeChapterId": "ch7",
       "lockoutDeadline": null,
@@ -1097,112 +1097,112 @@ const MAP_ATLAS_DATA = {
       "entries": [
         {
           "id": "world-makna-forest-enlarge-1-bridge-one-97485531",
-          "name": "Enlarge 1 Bridge One",
+          "name": "Enlarge 1 イチのつり橋",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-makna-forest-bridge-two-03f8e80e",
-          "name": "Bridge Two",
+          "name": "ニのつり橋",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-makna-forest-bridge-three-f33e02a7",
-          "name": "Bridge Three",
+          "name": "サンのつり橋",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-makna-forest-repaired-bridge-four-df03717d",
-          "name": "Repaired Bridge Four",
+          "name": "復活したヨンのつり橋",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-makna-forest-great-makna-falls-a5a5fb66",
-          "name": "Great Makna Falls",
+          "name": "マクナ大瀑布",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-makna-forest-sap-cave-d72e7346",
-          "name": "Sap Cave",
+          "name": "樹液のほら穴",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-makna-forest-contaminated-area-35d1a60d",
-          "name": "Contaminated Area",
+          "name": "汚された地",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-makna-forest-eks-watering-hole-7fe5dec0",
-          "name": "Eks Watering Hole",
+          "name": "エクスの水飲み場",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-makna-forest-clear-waterfall-b9cba53c",
-          "name": "Clear Waterfall",
+          "name": "清流の滝",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-makna-forest-yellow-flower-grove-6c316a7c",
-          "name": "Yellow Flower Grove",
+          "name": "キイロの花畑",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-makna-forest-decayed-forest-82569427",
-          "name": "Decayed Forest",
+          "name": "腐敗した森",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-makna-forest-abyss-basin-c9323629",
-          "name": "Abyss Basin",
+          "name": "奈落の滝つぼ",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-makna-forest-precipice-bridge-d7ebebed",
-          "name": "Precipice Bridge",
+          "name": "断崖の橋",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-makna-forest-hode-lair-6294c751",
-          "name": "Hode Lair",
+          "name": "フーディの住処",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-makna-forest-colony-9-29a6fc32",
-          "name": "Colony 9",
+          "name": "コロニー9",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-makna-forest-tephra-cave-0057beba",
-          "name": "Tephra Cave",
+          "name": "テフラ洞窟",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
@@ -1216,21 +1216,21 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-makna-forest-colony-6-18a6d77f",
-          "name": "Colony 6",
+          "name": "コロニー6",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-makna-forest-ether-mine-83e804ef",
-          "name": "Ether Mine",
+          "name": "中央採掘場",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-makna-forest-satorl-marsh-a29ba49a",
-          "name": "Satorl Marsh",
+          "name": "燐光の地ザトール",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
@@ -1244,56 +1244,56 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-makna-forest-makna-forest-d43b8f8b",
-          "name": "Makna Forest",
+          "name": "マクナ原生林",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-makna-forest-frontier-village-bc2b73f0",
-          "name": "Frontier Village",
+          "name": "サイハテ村",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-makna-forest-eryth-sea-4e041899",
-          "name": "Eryth Sea",
+          "name": "エルト海",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-makna-forest-alcamoth-df840aa2",
-          "name": "Alcamoth",
+          "name": "皇都アカモート",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-makna-forest-high-entia-tomb-ba57bd96",
-          "name": "High Entia Tomb",
+          "name": "ハイエンター墓所",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-makna-forest-prison-island-5ae33377",
-          "name": "Prison Island",
+          "name": "監獄島",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-makna-forest-valak-mountain-8483bcc1",
-          "name": "Valak Mountain",
+          "name": "ヴァラク雪山",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-makna-forest-sword-valley-2d600428",
-          "name": "Sword Valley",
+          "name": "大剣の渓谷",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
@@ -1307,56 +1307,56 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-makna-forest-fallen-arm-1ebaefbb",
-          "name": "Fallen Arm",
+          "name": "落ちた腕",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-makna-forest-mechonis-field-98911dce",
-          "name": "Mechonis Field",
+          "name": "機神界フィールド",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-makna-forest-central-factory-cd147190",
-          "name": "Central Factory",
+          "name": "中央工廠",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-makna-forest-agniratha-613c0487",
-          "name": "Agniratha",
+          "name": "帝都アグニラータ",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-makna-forest-divine-sanctuary-ad0132d1",
-          "name": "Divine Sanctuary",
+          "name": "神呼びの聖域",
           "type": "secret-area",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-makna-forest-king-agni-s-tomb-4fe924eb",
-          "name": "King Agni's Tomb",
+          "name": "征服王アギニの墳墓",
           "type": "secret-area",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-makna-forest-seahorse-islet-42f92a8f",
-          "name": "Seahorse Islet",
+          "name": "竜の落とし子",
           "type": "secret-area",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-makna-forest-sparkling-pool-93430f58",
-          "name": "Sparkling Pool",
+          "name": "キラキラ池",
           "type": "secret-area",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
@@ -1365,7 +1365,7 @@ const MAP_ATLAS_DATA = {
     },
     {
       "id": "frontier-village",
-      "name": "Frontier Village",
+      "name": "サイハテ村",
       "game": "base",
       "routeChapterId": "ch7",
       "lockoutDeadline": null,
@@ -1377,77 +1377,77 @@ const MAP_ATLAS_DATA = {
       "entries": [
         {
           "id": "world-frontier-village-entry-bridge-d5f3565c",
-          "name": "Entry Bridge",
+          "name": "デイリの橋",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-frontier-village-sacred-altar-4e00fc8b",
-          "name": "Sacred Altar",
+          "name": "御神体の祭壇",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-frontier-village-nopon-tower-523525b6",
-          "name": "Nopon Tower",
+          "name": "ノポンタワー",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-frontier-village-pollen-works-60223d51",
-          "name": "Pollen Works",
+          "name": "花粉工場",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-frontier-village-riki-s-house-d4d134a0",
-          "name": "Riki's House",
+          "name": "リキの家",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-frontier-village-chief-s-residence-82b4b428",
-          "name": "Chief's Residence",
+          "name": "村長の家",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-frontier-village-prophecy-hut-6813c1d5",
-          "name": "Prophecy Hut",
+          "name": "お告げの間",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-frontier-village-contemplation-terrace-a15425bd",
-          "name": "Contemplation Terrace",
+          "name": "祈りのテラス",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-frontier-village-reservoir-7b7969d8",
-          "name": "Reservoir",
+          "name": "貯水池",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-frontier-village-underground-store-6369c1bf",
-          "name": "Underground Store",
+          "name": "B1F 地下貯蔵庫",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-frontier-village-nopon-kitchen-f42436f1",
-          "name": "Nopon Kitchen",
+          "name": "ノポンの台所",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
@@ -1461,21 +1461,21 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-frontier-village-kyn-shopping-street-dafa8807",
-          "name": "Kyn Shopping Street",
+          "name": "2Ｆ カイナ商店通り",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-frontier-village-orb-storage-level-b9631fce",
-          "name": "Orb Storage Level",
+          "name": "3Ｆ 花粉玉倉庫板",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-frontier-village-pollen-orb-storehouse-0291b23b",
-          "name": "Pollen Orb Storehouse",
+          "name": "花粉玉倉庫",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
@@ -1489,42 +1489,42 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-frontier-village-pollen-works-level-5e500e06",
-          "name": "Pollen Works Level",
+          "name": "5Ｆ 花粉工場板",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-frontier-village-archaeology-level-965ac3b6",
-          "name": "Archaeology Level",
+          "name": "6Ｆ 遺跡研究板",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-frontier-village-archaeology-centre-6e747dba",
-          "name": "Archaeology Centre",
+          "name": "遺跡研究本部",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-frontier-village-top-housing-level-d04e39b8",
-          "name": "Top Housing Level",
+          "name": "7Ｆ 高層住宅板",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-frontier-village-mysterious-sanctuary-77f95cc9",
-          "name": "Mysterious Sanctuary",
+          "name": "8Ｆ 神秘の聖域",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-frontier-village-apex-lake-2e20b8af",
-          "name": "Apex Lake",
+          "name": "9Ｆ てっぺんの湖",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
@@ -1533,7 +1533,7 @@ const MAP_ATLAS_DATA = {
     },
     {
       "id": "eryth-sea",
-      "name": "Eryth Sea",
+      "name": "エルト海",
       "game": "base",
       "routeChapterId": "ch8",
       "lockoutDeadline": null,
@@ -1545,189 +1545,189 @@ const MAP_ATLAS_DATA = {
       "entries": [
         {
           "id": "world-eryth-sea-latael-shore-f07602e3",
-          "name": "Latael Shore",
+          "name": "ラタエル海岸",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-eryth-sea-centre-gate-c2803f08",
-          "name": "Centre Gate",
+          "name": "センターゲート",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-eryth-sea-high-entia-tomb-191c3ed0",
-          "name": "High Entia Tomb",
+          "name": "ハイエンター墓所",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-eryth-sea-syrath-lighthouse-8b9d8370",
-          "name": "Syrath Lighthouse",
+          "name": "シウェラート灯台",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-eryth-sea-central-seal-island-b87bc726",
-          "name": "Central Seal Island",
+          "name": "中央封印島",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-eryth-sea-soltnar-seal-island-6eaf5699",
-          "name": "Soltnar Seal Island",
+          "name": "ソルタナ封印島",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-eryth-sea-khatorl-seal-island-ef1b25d9",
-          "name": "Khatorl Seal Island",
+          "name": "カトール封印島",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-eryth-sea-ether-plant-728041ae",
-          "name": "Ether Plant",
+          "name": "エーテルプラント",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-eryth-sea-faras-cave-831b05eb",
-          "name": "Faras Cave",
+          "name": "ファラスの境界泉",
           "type": "secret-area",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-eryth-sea-hovering-reef-1-1d7cf69c",
-          "name": "Hovering Reef 1",
+          "name": "第1浮遊岩礁",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-eryth-sea-showdown-cliff-aa974019",
-          "name": "Showdown Cliff",
+          "name": "敵対者の岸壁",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-eryth-sea-hovering-reef-2-250037e0",
-          "name": "Hovering Reef 2",
+          "name": "第2浮遊岩礁",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-eryth-sea-hovering-reef-3-3f3e26ab",
-          "name": "Hovering Reef 3",
+          "name": "第3浮遊岩礁",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-eryth-sea-hovering-reef-4-ffa908a9",
-          "name": "Hovering Reef 4",
+          "name": "第4浮遊岩礁",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-eryth-sea-hovering-reef-5-7e7f7019",
-          "name": "Hovering Reef 5",
+          "name": "第5浮遊岩礁",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-eryth-sea-hovering-reef-6-42321510",
-          "name": "Hovering Reef 6",
+          "name": "第6浮遊岩礁",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-eryth-sea-ether-crystal-deposit-874e9381",
-          "name": "Ether Crystal Deposit",
+          "name": "エーテル結晶採掘場",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-eryth-sea-hovering-reef-7-67353fad",
-          "name": "Hovering Reef 7",
+          "name": "第7浮遊岩礁",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-eryth-sea-hovering-reef-8-a164693a",
-          "name": "Hovering Reef 8",
+          "name": "第8浮遊岩礁",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-eryth-sea-hovering-reef-9-fac2f490",
-          "name": "Hovering Reef 9",
+          "name": "第9浮遊岩礁",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-eryth-sea-hovering-reef-10-551d0c6f",
-          "name": "Hovering Reef 10",
+          "name": "第10浮遊岩礁",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-eryth-sea-hode-refuge-92a5bb2e",
-          "name": "Hode Refuge",
+          "name": "フーディの隠れ家",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-eryth-sea-bionis-occipital-808c4a7b",
-          "name": "Bionis' Occipital",
+          "name": "巨神後頭部",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-eryth-sea-sleeping-dragon-isle-1cb59d82",
-          "name": "Sleeping Dragon Isle",
+          "name": "眠れる竜の島",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-eryth-sea-kromar-coast-4c944e7e",
-          "name": "Kromar Coast",
+          "name": "スピカルの離岸",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-eryth-sea-secluded-island-778e6d16",
-          "name": "Secluded Island",
+          "name": "鎮まりの離島",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-eryth-sea-anu-shore-31c23345",
-          "name": "Anu Shore",
+          "name": "アヌ海岸",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
@@ -1736,7 +1736,7 @@ const MAP_ATLAS_DATA = {
     },
     {
       "id": "alcamoth",
-      "name": "Alcamoth",
+      "name": "皇都アカモート",
       "game": "base",
       "routeChapterId": "ch8",
       "lockoutDeadline": null,
@@ -1755,77 +1755,77 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-alcamoth-fountain-of-hope-e74790ff",
-          "name": "Fountain of Hope",
+          "name": "希望の噴水",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-alcamoth-fountain-of-eternity-b8588346",
-          "name": "Fountain of Eternity",
+          "name": "永遠の噴水",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-alcamoth-imperial-palace-451163a5",
-          "name": "Imperial Palace",
+          "name": "皇宮",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-alcamoth-ascension-hall-f87fb085",
-          "name": "Ascension Hall",
+          "name": "聖天翔の間",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-alcamoth-whitewing-palace-c024b249",
-          "name": "Whitewing Palace",
+          "name": "白翼宮",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-alcamoth-imperial-villa-9811c88d",
-          "name": "Imperial Villa",
+          "name": "離宮",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-alcamoth-melfica-road-3a25be9e",
-          "name": "Melfica Road",
+          "name": "メルフィカ通り",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-alcamoth-great-hall-b28aa943",
-          "name": "Great Hall",
+          "name": "大広間",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-alcamoth-revelation-hall-53d46505",
-          "name": "Revelation Hall",
+          "name": "啓示の間",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-alcamoth-sky-terrace-3604db35",
-          "name": "Sky Terrace",
+          "name": "天空のテラス",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-alcamoth-audience-chamber-add42386",
-          "name": "Audience Chamber",
+          "name": "謁見の間",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
@@ -1834,7 +1834,7 @@ const MAP_ATLAS_DATA = {
     },
     {
       "id": "high-entia-tomb",
-      "name": "High Entia Tomb",
+      "name": "ハイエンター墓所",
       "game": "base",
       "routeChapterId": "ch8",
       "lockoutDeadline": null,
@@ -1846,77 +1846,77 @@ const MAP_ATLAS_DATA = {
       "entries": [
         {
           "id": "world-high-entia-tomb-tomb-approach-a0a028cb",
-          "name": "Tomb Approach",
+          "name": "墓所の参道",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-high-entia-tomb-sealed-chamber-34393407",
-          "name": "Sealed Chamber",
+          "name": "封印の間",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-high-entia-tomb-ceremony-hall-50aa6b08",
-          "name": "Ceremony Hall",
+          "name": "儀式の間",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-high-entia-tomb-tomb-robber-pool-990e481c",
-          "name": "Tomb Robber Pool",
+          "name": "墓荒しの池",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-high-entia-tomb-valley-of-emperors-87a54ee7",
-          "name": "Valley of Emperors",
+          "name": "王家の谷",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-high-entia-tomb-tower-of-trials-bridge-2a106bb6",
-          "name": "Tower of Trials - Bridge",
+          "name": "試練の塔 連絡橋",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-high-entia-tomb-hall-of-spirits-c3c76fef",
-          "name": "Hall of Spirits",
+          "name": "英霊たちの間",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-high-entia-tomb-hall-of-trials-085ab6a4",
-          "name": "Hall of Trials",
+          "name": "試練の間",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-high-entia-tomb-telethia-laboratory-7658f307",
-          "name": "Telethia Laboratory",
+          "name": "テレシア研究室",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-high-entia-tomb-imperial-treasury-8901ddaa",
-          "name": "Imperial Treasury",
+          "name": "王家の宝物庫",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-high-entia-tomb-second-treasury-7d6c1ecd",
-          "name": "Second Treasury",
+          "name": "第2宝物庫",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
@@ -1925,10 +1925,10 @@ const MAP_ATLAS_DATA = {
     },
     {
       "id": "prison-island",
-      "name": "Prison Island",
+      "name": "監獄島",
       "game": "base",
       "routeChapterId": "ch9",
-      "lockoutDeadline": "before the Mechonis Core story transition (Chapter 15)",
+      "lockoutDeadline": "15章の機神界中枢のストーリー移行より前",
       "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291433",
       "map": {
         "local": "assets/area-maps/prison-island.png",
@@ -1937,44 +1937,44 @@ const MAP_ATLAS_DATA = {
       "entries": [
         {
           "id": "world-prison-island-high-entia-transporter-db3a2c19",
-          "name": "High Entia Transporter",
+          "name": "ハイエンター転移装置",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
-          "lockoutDeadline": "before the Mechonis Core story transition (Chapter 15)"
+          "lockoutDeadline": "15章の機神界中枢のストーリー移行より前"
         },
         {
           "id": "world-prison-island-prison-gate-94354ed9",
-          "name": "Prison Gate",
+          "name": "監獄島城門",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
-          "lockoutDeadline": "before the Mechonis Core story transition (Chapter 15)"
+          "lockoutDeadline": "15章の機神界中枢のストーリー移行より前"
         },
         {
           "id": "world-prison-island-prison-terrace-fb6180b9",
-          "name": "Prison Terrace",
+          "name": "監獄の間",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
-          "lockoutDeadline": "before the Mechonis Core story transition (Chapter 15)"
+          "lockoutDeadline": "15章の機神界中枢のストーリー移行より前"
         },
         {
           "id": "world-prison-island-central-hall-0fb173e7",
-          "name": "Central Hall",
+          "name": "中央広間",
           "type": "location",
           "accessNotes": "Map discovery entry.",
-          "lockoutDeadline": "before the Mechonis Core story transition (Chapter 15)"
+          "lockoutDeadline": "15章の機神界中枢のストーリー移行より前"
         },
         {
           "id": "world-prison-island-great-canyon-5406d4ce",
-          "name": "Great Canyon",
+          "name": "大渓谷",
           "type": "location",
           "accessNotes": "Map discovery entry.",
-          "lockoutDeadline": "before the Mechonis Core story transition (Chapter 15)"
+          "lockoutDeadline": "15章の機神界中枢のストーリー移行より前"
         }
       ]
     },
     {
       "id": "valak-mountain",
-      "name": "Valak Mountain",
+      "name": "ヴァラク雪山",
       "game": "base",
       "routeChapterId": "ch10",
       "lockoutDeadline": null,
@@ -1986,182 +1986,182 @@ const MAP_ATLAS_DATA = {
       "entries": [
         {
           "id": "world-valak-mountain-zokhed-pass-a7398881",
-          "name": "Zokhed Pass",
+          "name": "ゾックヘッド峠",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-valak-mountain-mechonis-wound-eeb4def2",
-          "name": "Mechonis Wound",
+          "name": "機神の爪痕",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-valak-mountain-hollow-bone-5e2926a3",
-          "name": "Hollow Bone",
+          "name": "巨神の環状骨",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-valak-mountain-befalgar-pedestal-052f7507",
-          "name": "Befalgar Pedestal",
+          "name": "ベファルガの台座",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-valak-mountain-three-sage-summit-9b35426e",
-          "name": "Three Sage Summit",
+          "name": "三大賢者の頂",
           "type": "secret-area",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-valak-mountain-nopon-camp-953530c7",
-          "name": "Nopon Camp",
+          "name": "ノポンキャンプ",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-valak-mountain-harict-chapel-f9473900",
-          "name": "Harict Chapel",
+          "name": "ハリクト礼拝堂",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-valak-mountain-lava-cave-2fd2f315",
-          "name": "Lava Cave",
+          "name": "溶岩洞穴",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-valak-mountain-la-luz-church-f3b160ed",
-          "name": "La Luz Church",
+          "name": "ラ・ルース教会",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-valak-mountain-nofol-tower-4cc45401",
-          "name": "Nofol Tower",
+          "name": "ノフルの塔",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-valak-mountain-bionis-wrist-8d606f5b",
-          "name": "Bionis' Wrist",
+          "name": "巨神の手首",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-valak-mountain-nagul-waterfall-df73a191",
-          "name": "Nagul Waterfall",
+          "name": "ナグル滝",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-valak-mountain-serik-waterfall-aed19b9d",
-          "name": "Serik Waterfall",
+          "name": "セリック滝",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-valak-mountain-apis-lair-c3ee8e21",
-          "name": "Apis Lair",
+          "name": "アピスの住処",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-valak-mountain-kana-peak-37a0f1a5",
-          "name": "Kana Peak",
+          "name": "カーナ峰",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-valak-mountain-agul-mountain-range-ac518b0b",
-          "name": "Agul Mountain Range",
+          "name": "アグル山脈",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-valak-mountain-bagnar-snowfield-93ace117",
-          "name": "Bagnar Snowfield",
+          "name": "バジーナ雪原",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-valak-mountain-chilkin-lair-c60af4ca",
-          "name": "Chilkin Lair",
+          "name": "チルキンのねぐら",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-valak-mountain-url-crevasse-cd901b38",
-          "name": "Url Crevasse",
+          "name": "ウルの裂け目",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-valak-mountain-bionis-right-elbow-70ae2ca7",
-          "name": "Bionis' Right Elbow",
+          "name": "巨神の右肘",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-valak-mountain-valak-peak-7590ad83",
-          "name": "Valak Peak",
+          "name": "ヴァラク山",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-valak-mountain-antol-den-bc401d2f",
-          "name": "Antol Den",
+          "name": "アントルの寝床",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-valak-mountain-jakt-geyser-a1f66838",
-          "name": "Jakt Geyser",
+          "name": "ジャクト間欠泉",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-valak-mountain-sealed-tower-565a5ccf",
-          "name": "Sealed Tower",
+          "name": "封印の塔",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-valak-mountain-ignia-hill-b5ad17c5",
-          "name": "Ignia Hill",
+          "name": "イギニア坂",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-valak-mountain-great-glacier-3bb05a9b",
-          "name": "Great Glacier",
+          "name": "大氷河地帯",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
@@ -2170,10 +2170,10 @@ const MAP_ATLAS_DATA = {
     },
     {
       "id": "sword-valley",
-      "name": "Sword Valley",
+      "name": "大剣の渓谷",
       "game": "base",
       "routeChapterId": "ch11",
-      "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)",
+      "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）",
       "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291436",
       "map": {
         "local": "assets/area-maps/sword-valley.png",
@@ -2182,131 +2182,131 @@ const MAP_ATLAS_DATA = {
       "entries": [
         {
           "id": "world-sword-valley-bionis-thumb-794a15af",
-          "name": "Bionis' Thumb",
+          "name": "巨神の親指",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)"
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）"
         },
         {
           "id": "world-sword-valley-supply-convoy-725bd911",
-          "name": "Supply Convoy",
+          "name": "補給部隊最前線",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)"
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）"
         },
         {
           "id": "world-sword-valley-ged-fortress-925cb524",
-          "name": "Ged Fortress",
+          "name": "ゲト砦",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)"
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）"
         },
         {
           "id": "world-sword-valley-dolgan-outpost-ea6f3eba",
-          "name": "Dolgan Outpost",
+          "name": "ドルガン監視砦",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)"
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）"
         },
         {
           "id": "world-sword-valley-enalda-control-base-b8899d9d",
-          "name": "Enalda Control Base",
+          "name": "エナルダ管理基地",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)"
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）"
         },
         {
           "id": "world-sword-valley-heavy-machine-depot-3a747c9e",
-          "name": "Heavy Machine Depot",
+          "name": "大型機発着場",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)"
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）"
         },
         {
           "id": "world-sword-valley-control-tower-6671762e",
           "name": "Control Tower",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)"
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）"
         },
         {
           "id": "world-sword-valley-radio-tower-7d42e8f6",
-          "name": "Radio Tower",
+          "name": "電波塔",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)"
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）"
         },
         {
           "id": "world-sword-valley-fortress-rear-entrance-4e5e88c1",
-          "name": "Fortress Rear Entrance",
+          "name": "ガラハド要塞 裏口",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)"
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）"
         },
         {
           "id": "world-sword-valley-monado-wound-87b3aa3d",
-          "name": "Monado Wound",
+          "name": "モナドの爪痕",
           "type": "secret-area",
           "accessNotes": "Skip Travel point once discovered.",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)"
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）"
         },
         {
           "id": "world-sword-valley-6th-gate-67c71c5f",
-          "name": "6th Gate",
+          "name": "第6ゲート",
           "type": "location",
           "accessNotes": "Map discovery entry.",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)"
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）"
         },
         {
           "id": "world-sword-valley-5th-gate-7bd1793d",
-          "name": "5th Gate",
+          "name": "第5ゲート",
           "type": "location",
           "accessNotes": "Map discovery entry.",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)"
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）"
         },
         {
           "id": "world-sword-valley-4th-gate-970d421b",
-          "name": "4th Gate",
+          "name": "第4ゲート",
           "type": "location",
           "accessNotes": "Map discovery entry.",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)"
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）"
         },
         {
           "id": "world-sword-valley-3rd-gate-b06926a4",
-          "name": "3rd Gate",
+          "name": "第3ゲート",
           "type": "location",
           "accessNotes": "Map discovery entry.",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)"
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）"
         },
         {
           "id": "world-sword-valley-ether-storage-area-7c1c8563",
-          "name": "Ether Storage Area",
+          "name": "エーテル貯蔵区",
           "type": "location",
           "accessNotes": "Map discovery entry.",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)"
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）"
         },
         {
           "id": "world-sword-valley-port-access-pathway-f7db50fc",
-          "name": "Port Access Pathway",
+          "name": "機神港 連絡通路",
           "type": "location",
           "accessNotes": "Map discovery entry.",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)"
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）"
         },
         {
           "id": "world-sword-valley-port-maintenance-bay-5080299e",
-          "name": "Port Maintenance Bay",
+          "name": "機神港 整備場",
           "type": "location",
           "accessNotes": "Map discovery entry.",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)"
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）"
         }
       ]
     },
     {
       "id": "galahad-fortress",
-      "name": "Galahad Fortress",
+      "name": "ガラハド要塞",
       "game": "base",
       "routeChapterId": "ch11",
-      "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)",
+      "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）",
       "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291437",
       "map": {
         "local": "assets/area-maps/galahad-fortress.png",
@@ -2315,114 +2315,114 @@ const MAP_ATLAS_DATA = {
       "entries": [
         {
           "id": "world-galahad-fortress-ether-influx-conduit-00d1798d",
-          "name": "Ether Influx Conduit",
+          "name": "エーテル流入管理通路",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)"
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）"
         },
         {
           "id": "world-galahad-fortress-main-control-room-0fdc0c1e",
-          "name": "Main Control Room",
+          "name": "エーテル溶鉱炉管制室",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)"
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）"
         },
         {
           "id": "world-galahad-fortress-ether-blast-furnace-570b9512",
-          "name": "Ether Blast Furnace",
+          "name": "エーテル溶鉱炉",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)"
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）"
         },
         {
           "id": "world-galahad-fortress-preparation-bay-0da1d1ec",
-          "name": "Preparation Bay",
+          "name": "整備準備室",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)"
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）"
         },
         {
           "id": "world-galahad-fortress-fortress-depths-b2683069",
-          "name": "Fortress Depths",
+          "name": "ガラハド要塞 最深部",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)"
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）"
         },
         {
           "id": "world-galahad-fortress-main-maintenance-bay-428178c4",
-          "name": "Main Maintenance Bay",
+          "name": "中央整備室",
           "type": "location",
           "accessNotes": "Map discovery entry.",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)"
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）"
         },
         {
           "id": "world-galahad-fortress-1st-fuel-supply-room-2f724dea",
-          "name": "1st Fuel Supply Room",
+          "name": "第1燃料補給室",
           "type": "location",
           "accessNotes": "Map discovery entry.",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)"
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）"
         },
         {
           "id": "world-galahad-fortress-2nd-fuel-supply-room-32731376",
-          "name": "2nd Fuel Supply Room",
+          "name": "第2燃料補給室",
           "type": "location",
           "accessNotes": "Map discovery entry.",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)"
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）"
         },
         {
           "id": "world-galahad-fortress-3rd-fuel-supply-room-635cf494",
-          "name": "3rd Fuel Supply Room",
+          "name": "第3燃料補給室",
           "type": "location",
           "accessNotes": "Map discovery entry.",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)"
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）"
         },
         {
           "id": "world-galahad-fortress-1st-turbine-room-07d881e0",
-          "name": "1st Turbine Room",
+          "name": "第1タービン室",
           "type": "location",
           "accessNotes": "Map discovery entry.",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)"
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）"
         },
         {
           "id": "world-galahad-fortress-2nd-turbine-room-b7aee6c9",
-          "name": "2nd Turbine Room",
+          "name": "第2タービン室",
           "type": "location",
           "accessNotes": "Map discovery entry.",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)"
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）"
         },
         {
           "id": "world-galahad-fortress-blast-furnace-conduit-4098ca3a",
-          "name": "Blast Furnace Conduit",
+          "name": "溶鉱炉管理通路",
           "type": "location",
           "accessNotes": "Map discovery entry.",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)"
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）"
         },
         {
           "id": "world-galahad-fortress-piston-control-room-3832c53c",
-          "name": "Piston Control Room",
+          "name": "ピストン制御室",
           "type": "location",
           "accessNotes": "Map discovery entry.",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)"
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）"
         },
         {
           "id": "world-galahad-fortress-ether-input-stream-4076fbd9",
-          "name": "Ether Input Stream",
+          "name": "エーテル注入路",
           "type": "location",
           "accessNotes": "Map discovery entry.",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)"
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）"
         },
         {
           "id": "world-galahad-fortress-face-maintenance-bay-01c8f26a",
           "name": "Face Maintenance Bay",
           "type": "location",
           "accessNotes": "Map discovery entry.",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)"
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）"
         }
       ]
     },
     {
       "id": "fallen-arm",
-      "name": "Fallen Arm",
+      "name": "落ちた腕",
       "game": "base",
       "routeChapterId": "ch12",
       "lockoutDeadline": null,
@@ -2434,133 +2434,133 @@ const MAP_ATLAS_DATA = {
       "entries": [
         {
           "id": "world-fallen-arm-wreckage-beach-b9381a4b",
-          "name": "Wreckage Beach",
+          "name": "残骸の浜辺",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-fallen-arm-ulna-passage-59bba4e0",
-          "name": "Ulna Passage",
+          "name": "機神尺骨通路",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-fallen-arm-inlet-beach-e30726bb",
-          "name": "Inlet Beach",
+          "name": "入り江の砂浜",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-fallen-arm-junks-af59ff68",
-          "name": "Junks",
+          "name": "ジャンクス",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-fallen-arm-giant-mechon-debris-f0c666c5",
-          "name": "Giant Mechon Debris",
+          "name": "巨大な機神兵の残骸",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-fallen-arm-black-wreckage-10793d88",
-          "name": "Black Wreckage",
+          "name": "黒の残骸",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-fallen-arm-connecting-bridge-03e12d8b",
-          "name": "Connecting Bridge",
+          "name": "連絡橋",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-fallen-arm-digit-2-plain-9ebb1b3a",
-          "name": "Digit 2 Plain",
+          "name": "人差し原野",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-fallen-arm-radiocarpea-f2557580",
-          "name": "Radiocarpea",
+          "name": "手首関節部",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-fallen-arm-rotating-bulkhead-2862e991",
-          "name": "Rotating Bulkhead",
+          "name": "回転式防壁",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-fallen-arm-distant-fingertip-22180303",
-          "name": "Distant Fingertip",
+          "name": "天涯の爪先",
           "type": "secret-area",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-fallen-arm-silver-wreckage-8f7b9858",
-          "name": "Silver Wreckage",
+          "name": "白銀の残骸",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-fallen-arm-zakt-spring-aef6896b",
-          "name": "Zakt Spring",
+          "name": "ザクトの泉",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-fallen-arm-jifum-beach-a6492d30",
-          "name": "Jifum Beach",
+          "name": "ジフムの浜辺",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-fallen-arm-transformer-area-f5ebece9",
-          "name": "Transformer Area",
+          "name": "小指変圧区",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-fallen-arm-5th-pulse-zone-526364a5",
-          "name": "5th Pulse Zone",
+          "name": "第5動脈管区",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-fallen-arm-power-pipe-ruins-2e1880b6",
-          "name": "Power Pipe Ruins",
+          "name": "動力パイプ跡",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-fallen-arm-radiocarpea-coast-20ba5886",
-          "name": "Radiocarpea Coast",
+          "name": "手首の海岸",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-fallen-arm-hidden-machina-village-9c4838d5",
-          "name": "Hidden Machina Village",
+          "name": "マシーナの隠れ里",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
@@ -2574,56 +2574,56 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-fallen-arm-digit-1-7808422b",
-          "name": "Digit 1",
+          "name": "機神の親指",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-fallen-arm-digit-1-crevasse-010be742",
-          "name": "Digit 1 Crevasse",
+          "name": "親指の裂け目",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-fallen-arm-ether-exhaust-system-be2caba8",
-          "name": "Ether Exhaust System",
+          "name": "エーテル排出装置",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-fallen-arm-digit-5-beach-59f0d82c",
-          "name": "Digit 5 Beach",
+          "name": "小指の砂浜",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-fallen-arm-digit-5-45e4e988",
-          "name": "Digit 5",
+          "name": "機神の小指",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-fallen-arm-digit-4-3b9ab704",
-          "name": "Digit 4",
+          "name": "機神の薬指",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-fallen-arm-digit-3-26470bab",
-          "name": "Digit 3",
+          "name": "機神の中指",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-fallen-arm-digit-2-974f1493",
-          "name": "Digit 2",
+          "name": "機神の人差し指",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
@@ -2632,10 +2632,10 @@ const MAP_ATLAS_DATA = {
     },
     {
       "id": "mechonis-field",
-      "name": "Mechonis Field",
+      "name": "機神界フィールド",
       "game": "base",
       "routeChapterId": "ch13",
-      "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+      "lockoutDeadline": "14章のメイナス神殿の出来事より前",
       "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291440",
       "map": {
         "local": "assets/area-maps/mechonis-field.png",
@@ -2644,191 +2644,191 @@ const MAP_ATLAS_DATA = {
       "entries": [
         {
           "id": "world-mechonis-field-left-leg-cooling-outlet-351d0861",
-          "name": "Left Leg Cooling Outlet",
+          "name": "機神左脚 冷却口",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         },
         {
           "id": "world-mechonis-field-gf-main-power-switch-0a69a874",
-          "name": "GF Main Power Switch",
+          "name": "1Ｆ主電源区画",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         },
         {
           "id": "world-mechonis-field-1f-main-power-switch-5718bc8c",
-          "name": "1F Main Power Switch",
+          "name": "2Ｆ主電源区画",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         },
         {
           "id": "world-mechonis-field-3f-main-power-switch-c4cca46e",
-          "name": "3F Main Power Switch",
+          "name": "4Ｆ主電源区画",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         },
         {
           "id": "world-mechonis-field-lower-bulkhead-bridge-c51fd8bc",
-          "name": "Lower Bulkhead Bridge",
+          "name": "機神大隔壁下部連絡橋",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         },
         {
           "id": "world-mechonis-field-upper-bulkhead-bridge-42414196",
-          "name": "Upper Bulkhead Bridge",
+          "name": "機神大隔壁上部連絡橋",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         },
         {
           "id": "world-mechonis-field-4f-main-power-switch-c7d02587",
-          "name": "4F Main Power Switch",
+          "name": "5Ｆ主電源区画",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         },
         {
           "id": "world-mechonis-field-great-battle-scar-1133ce52",
-          "name": "Great Battle Scar",
+          "name": "古代二神戦争の傷跡",
           "type": "secret-area",
           "accessNotes": "Skip Travel point once discovered.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         },
         {
           "id": "world-mechonis-field-machina-refuge-7cc82781",
-          "name": "Machina Refuge",
+          "name": "マシーナの隠れ家",
           "type": "secret-area",
           "accessNotes": "Skip Travel point once discovered.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         },
         {
           "id": "world-mechonis-field-1st-zebrai-bulkhead-0c741645",
-          "name": "1st Zebrai Bulkhead",
+          "name": "第1セブライ隔壁",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         },
         {
           "id": "world-mechonis-field-2nd-gamalt-bulkhead-e8a144be",
-          "name": "2nd Gamalt Bulkhead",
+          "name": "第2ゲマルト隔壁",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         },
         {
           "id": "world-mechonis-field-1st-lift-gf-51a1de18",
-          "name": "1st Lift - GF",
+          "name": "第1リフト 1Ｆ",
           "type": "location",
           "accessNotes": "Map discovery entry.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         },
         {
           "id": "world-mechonis-field-2nd-lift-gf-3631361a",
-          "name": "2nd Lift - GF",
+          "name": "第2リフト 1Ｆ",
           "type": "location",
           "accessNotes": "Map discovery entry.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         },
         {
           "id": "world-mechonis-field-1st-lift-b1f-79ab192f",
-          "name": "1st Lift - B1F",
+          "name": "第1リフト Ｂ1Ｆ",
           "type": "location",
           "accessNotes": "Map discovery entry.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         },
         {
           "id": "world-mechonis-field-spent-fuel-tank-c2471382",
-          "name": "Spent Fuel Tank",
+          "name": "廃棄燃料タンク",
           "type": "location",
           "accessNotes": "Map discovery entry.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         },
         {
           "id": "world-mechonis-field-2nd-lift-1f-3c2ee98c",
-          "name": "2nd Lift - 1F",
+          "name": "第2リフト 2Ｆ",
           "type": "location",
           "accessNotes": "Map discovery entry.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         },
         {
           "id": "world-mechonis-field-3rd-lift-engine-room-787f946a",
-          "name": "3rd Lift Engine Room",
+          "name": "第3リフト動力室",
           "type": "location",
           "accessNotes": "Map discovery entry.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         },
         {
           "id": "world-mechonis-field-2f-observation-post-c0f02390",
-          "name": "2F Observation Post",
+          "name": "3Ｆ監視所",
           "type": "location",
           "accessNotes": "Map discovery entry.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         },
         {
           "id": "world-mechonis-field-3rd-lift-2f-fa1414d2",
-          "name": "3rd Lift - 2F",
+          "name": "第3リフト 3Ｆ",
           "type": "location",
           "accessNotes": "Map discovery entry.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         },
         {
           "id": "world-mechonis-field-bulkhead-controls-65f08681",
-          "name": "Bulkhead Controls",
+          "name": "機神大隔壁制御室",
           "type": "location",
           "accessNotes": "Map discovery entry.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         },
         {
           "id": "world-mechonis-field-3rd-lift-3f-d230b80d",
-          "name": "3rd Lift - 3F",
+          "name": "第3リフト 4Ｆ",
           "type": "location",
           "accessNotes": "Map discovery entry.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         },
         {
           "id": "world-mechonis-field-ether-gear-store-eff8473b",
-          "name": "Ether Gear Store",
+          "name": "エーテルギア保存庫",
           "type": "location",
           "accessNotes": "Map discovery entry.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         },
         {
           "id": "world-mechonis-field-patella-exhaust-d0ecb5b0",
-          "name": "Patella Exhaust",
+          "name": "機神膝部排気口",
           "type": "location",
           "accessNotes": "Map discovery entry.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         },
         {
           "id": "world-mechonis-field-power-supply-area-1-5053b7c6",
-          "name": "Power Supply Area 1",
+          "name": "第1電源区画",
           "type": "location",
           "accessNotes": "Map discovery entry.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         },
         {
           "id": "world-mechonis-field-power-supply-area-2-abfb2dce",
-          "name": "Power Supply Area 2",
+          "name": "第2電源区画",
           "type": "location",
           "accessNotes": "Map discovery entry.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         },
         {
           "id": "world-mechonis-field-high-velocity-lift-e55d7ac3",
-          "name": "High-Velocity Lift",
+          "name": "左大腿骨高速リフト",
           "type": "location",
           "accessNotes": "Map discovery entry.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         }
       ]
     },
     {
       "id": "central-factory",
-      "name": "Central Factory",
+      "name": "中央工廠",
       "game": "base",
       "routeChapterId": "ch14",
       "lockoutDeadline": "before finishing the Chapter 16 revisit",
@@ -2840,7 +2840,7 @@ const MAP_ATLAS_DATA = {
       "entries": [
         {
           "id": "world-central-factory-port-terminal-e61fbb3f",
-          "name": "Port Terminal",
+          "name": "機神港ターミナル",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": "before finishing the Chapter 16 revisit"
@@ -2854,140 +2854,140 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-central-factory-central-warehouse-lift-7757e748",
-          "name": "Central Warehouse Lift",
+          "name": "中央倉庫リフト",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": "before finishing the Chapter 16 revisit"
         },
         {
           "id": "world-central-factory-factory-vent-8464ec57",
-          "name": "Factory Vent",
+          "name": "生産工場通風孔",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": "before finishing the Chapter 16 revisit"
         },
         {
           "id": "world-central-factory-tower-boarding-gate-63d70cdd",
-          "name": "Tower Boarding Gate",
+          "name": "中央塔搭乗口",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": "before finishing the Chapter 16 revisit"
         },
         {
           "id": "world-central-factory-regeneration-control-407bc9bb",
-          "name": "Regeneration Control",
+          "name": "フェイス再生槽制御室",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": "before finishing the Chapter 16 revisit"
         },
         {
           "id": "world-central-factory-agniratha-transporter-783f54af",
-          "name": "Agniratha Transporter",
+          "name": "帝都行き転移装置",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": "before finishing the Chapter 16 revisit"
         },
         {
           "id": "world-central-factory-ventilation-conduit-cb36fd71",
-          "name": "Ventilation Conduit",
+          "name": "送風機内ジャンクス前",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": "before finishing the Chapter 16 revisit"
         },
         {
           "id": "world-central-factory-bridge-to-apocrypha-611b04a1",
-          "name": "Bridge to Apocrypha",
+          "name": "アポクリファ連絡橋",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": "before finishing the Chapter 16 revisit"
         },
         {
           "id": "world-central-factory-central-gate-fdc7074f",
-          "name": "Central Gate",
+          "name": "機神港中央ゲート",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": "before finishing the Chapter 16 revisit"
         },
         {
           "id": "world-central-factory-landing-strip-1-ee25be9b",
-          "name": "Landing Strip 1",
+          "name": "機神港第1発着場",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": "before finishing the Chapter 16 revisit"
         },
         {
           "id": "world-central-factory-landing-strip-2-db262e6e",
-          "name": "Landing Strip 2",
+          "name": "機神港第2発着場",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": "before finishing the Chapter 16 revisit"
         },
         {
           "id": "world-central-factory-maintenance-entrance-1-f9bb7cdd",
-          "name": "Maintenance Entrance 1",
+          "name": "整備棟第1搬入口",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": "before finishing the Chapter 16 revisit"
         },
         {
           "id": "world-central-factory-maintenance-wing-2226c3b3",
-          "name": "Maintenance Wing",
+          "name": "機神兵整備棟",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": "before finishing the Chapter 16 revisit"
         },
         {
           "id": "world-central-factory-storage-depot-8db8107f",
-          "name": "Storage Depot",
+          "name": "資材置き場",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": "before finishing the Chapter 16 revisit"
         },
         {
           "id": "world-central-factory-central-lift-66ae5140",
-          "name": "Central Lift",
+          "name": "工場中央区リフト",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": "before finishing the Chapter 16 revisit"
         },
         {
           "id": "world-central-factory-training-ground-roof-2fcd20a3",
-          "name": "Training Ground Roof",
+          "name": "演習場屋上",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": "before finishing the Chapter 16 revisit"
         },
         {
           "id": "world-central-factory-central-tower-lift-ef3ff87e",
-          "name": "Central Tower Lift",
+          "name": "中央塔連絡リフト",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": "before finishing the Chapter 16 revisit"
         },
         {
           "id": "world-central-factory-large-mechon-store-8b5701f0",
-          "name": "Large Mechon Store",
+          "name": "大型機神兵管理倉庫",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": "before finishing the Chapter 16 revisit"
         },
         {
           "id": "world-central-factory-main-factory-gate-c65a4508",
-          "name": "Main Factory Gate",
+          "name": "生産工場正面ゲート",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": "before finishing the Chapter 16 revisit"
         },
         {
           "id": "world-central-factory-mechon-factory-a28a009d",
-          "name": "Mechon Factory",
+          "name": "機神兵生産工場",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": "before finishing the Chapter 16 revisit"
         },
         {
           "id": "world-central-factory-central-tower-roof-46539fb1",
-          "name": "Central Tower Roof",
+          "name": "中央塔甲板",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": "before finishing the Chapter 16 revisit"
@@ -3008,7 +3008,7 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-central-factory-observation-platform-c4fd5f0b",
-          "name": "Observation Platform",
+          "name": "開拓者の展望台",
           "type": "secret-area",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": "before finishing the Chapter 16 revisit"
@@ -3017,10 +3017,10 @@ const MAP_ATLAS_DATA = {
     },
     {
       "id": "agniratha",
-      "name": "Agniratha",
+      "name": "帝都アグニラータ",
       "game": "base",
       "routeChapterId": "ch14",
-      "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+      "lockoutDeadline": "14章のメイナス神殿の出来事より前",
       "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291444",
       "map": {
         "local": "assets/area-maps/agniratha.png",
@@ -3029,184 +3029,184 @@ const MAP_ATLAS_DATA = {
       "entries": [
         {
           "id": "world-agniratha-factory-transporter-f4e99710",
-          "name": "Factory Transporter",
+          "name": "中央工廠行き転移装置",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         },
         {
           "id": "world-agniratha-central-tower-bca30f8d",
-          "name": "Central Tower",
+          "name": "帝都中枢タワー",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         },
         {
           "id": "world-agniratha-1st-control-platform-887a0390",
-          "name": "1st Control Platform",
+          "name": "第1制御室",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         },
         {
           "id": "world-agniratha-4th-control-platform-c258ca7e",
-          "name": "4th Control Platform",
+          "name": "第4制御室",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         },
         {
           "id": "world-agniratha-meyneth-statue-0367a568",
-          "name": "Meyneth Statue",
+          "name": "首なしメイナス像",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         },
         {
           "id": "world-agniratha-2nd-control-platform-3f2bf492",
-          "name": "2nd Control Platform",
+          "name": "第2制御室",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         },
         {
           "id": "world-agniratha-3rd-control-platform-f7d244da",
-          "name": "3rd Control Platform",
+          "name": "第3制御室",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         },
         {
           "id": "world-agniratha-shrine-transporter-e2d36b01",
-          "name": "Shrine Transporter",
+          "name": "神殿転送装置",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         },
         {
           "id": "world-agniratha-meyneth-shrine-a47e8cbd",
-          "name": "Meyneth Shrine",
+          "name": "メイナス神殿",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         },
         {
           "id": "world-agniratha-seven-sage-cloister-a72adfab",
-          "name": "Seven Sage Cloister",
+          "name": "7賢者の密議所",
           "type": "secret-area",
           "accessNotes": "Skip Travel point once discovered.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         },
         {
           "id": "world-agniratha-gaur-plain-3f34198a",
-          "name": "Gaur Plain",
+          "name": "ガウル平原",
           "type": "location",
           "accessNotes": "Map discovery entry.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         },
         {
           "id": "world-agniratha-volff-lair-4478a604",
-          "name": "Volff Lair",
+          "name": "ヴォルフのねぐら",
           "type": "location",
           "accessNotes": "Map discovery entry.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         },
         {
           "id": "world-agniratha-rho-oasis-05730b20",
-          "name": "Rho Oasis",
+          "name": "ローのオアシス",
           "type": "location",
           "accessNotes": "Map discovery entry.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         },
         {
           "id": "world-agniratha-tirkin-headquarters-85011793",
-          "name": "Tirkin Headquarters",
+          "name": "ターキンの本営",
           "type": "location",
           "accessNotes": "Map discovery entry.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         },
         {
           "id": "world-agniratha-viliera-hilla-cfc0ad81",
           "name": "Viliera Hilla",
           "type": "location",
           "accessNotes": "Map discovery entry.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         },
         {
           "id": "world-agniratha-sky-stage-05a12789",
-          "name": "Sky Stage",
+          "name": "天空の舞台",
           "type": "location",
           "accessNotes": "Map discovery entry.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         },
         {
           "id": "world-agniratha-kisk-cave-57e609a7",
-          "name": "Kisk Cave",
+          "name": "キスク洞窟",
           "type": "location",
           "accessNotes": "Map discovery entry.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         },
         {
           "id": "world-agniratha-daksha-shrine-9cac1197",
-          "name": "Daksha Shrine",
+          "name": "ダクシャ神殿",
           "type": "location",
           "accessNotes": "Map discovery entry.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         },
         {
           "id": "world-agniratha-raguel-lake-7a1edad5",
-          "name": "Raguel Lake",
+          "name": "ラグエル湖",
           "type": "location",
           "accessNotes": "Map discovery entry.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         },
         {
           "id": "world-agniratha-tranquil-grotto-b4f9f456",
-          "name": "Tranquil Grotto",
+          "name": "静寂の岩屋",
           "type": "location",
           "accessNotes": "Map discovery entry.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         },
         {
           "id": "world-agniratha-maguel-road-6ed78b39",
-          "name": "Maguel Road",
+          "name": "マークウェル街道",
           "type": "location",
           "accessNotes": "Map discovery entry.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         },
         {
           "id": "world-agniratha-windy-cave-c0cbeba9",
-          "name": "Windy Cave",
+          "name": "風鳴りの空洞",
           "type": "location",
           "accessNotes": "Map discovery entry.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         },
         {
           "id": "world-agniratha-crevasse-waterfall-d414d740",
-          "name": "Crevasse Waterfall",
+          "name": "裂け目の滝",
           "type": "location",
           "accessNotes": "Map discovery entry.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         },
         {
           "id": "world-agniratha-traveller-s-rest-d21a3d9f",
-          "name": "Traveller's Rest",
+          "name": "旅人の休息跡地",
           "type": "location",
           "accessNotes": "Map discovery entry.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         },
         {
           "id": "world-agniratha-kasharpa-falls-1b9b5a08",
-          "name": "Kasharpa Falls",
+          "name": "カシュハパの滝",
           "type": "location",
           "accessNotes": "Map discovery entry.",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14"
+          "lockoutDeadline": "14章のメイナス神殿の出来事より前"
         }
       ]
     },
     {
       "id": "bionis-interior",
-      "name": "Bionis' Interior",
+      "name": "巨神胎内",
       "game": "base",
       "routeChapterId": "ch17",
       "lockoutDeadline": null,
@@ -3218,105 +3218,105 @@ const MAP_ATLAS_DATA = {
       "entries": [
         {
           "id": "world-bionis-interior-terminal-trachea-f21541dd",
-          "name": "Terminal Trachea",
+          "name": "胎内終末気管路",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-bionis-interior-interior-landing-site-4ee120df",
-          "name": "Interior Landing Site",
+          "name": "胎内停泊所",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-bionis-interior-spinal-nerve-tower-e056c7cb",
-          "name": "Spinal Nerve Tower",
+          "name": "脊髄神経タワー",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-bionis-interior-pars-sympathica-tower-35552603",
-          "name": "Pars Sympathica Tower",
+          "name": "交感神経タワー",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-bionis-interior-terminal-nerve-tower-13cd51cc",
-          "name": "Terminal Nerve Tower",
+          "name": "終末神経タワー",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-bionis-interior-upper-trachea-a067b05a",
-          "name": "Upper Trachea",
+          "name": "胎内上部気管路",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-bionis-interior-heart-entrance-e2288892",
-          "name": "Heart Entrance",
+          "name": "巨神の心臓入口",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
         },
         {
           "id": "world-bionis-interior-third-lung-c648f412",
-          "name": "Third Lung",
+          "name": "第3肺内部",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-bionis-interior-first-lung-ba4b52d5",
-          "name": "First Lung",
+          "name": "第1肺内部",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-bionis-interior-vein-crossroad-601baa8c",
-          "name": "Vein Crossroad",
+          "name": "静脈の交差路",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-bionis-interior-terminal-vein-a95fcc57",
-          "name": "Terminal Vein",
+          "name": "末端静脈",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-bionis-interior-venous-plexus-ad1e53bc",
-          "name": "Venous Plexus",
+          "name": "網静脈地帯",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-bionis-interior-third-lung-bronchus-86183749",
-          "name": "Third Lung Bronchus",
+          "name": "第3肺気管支",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-bionis-interior-second-lung-2cb5933c",
-          "name": "Second Lung",
+          "name": "第2肺内部",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
         },
         {
           "id": "world-bionis-interior-aortic-pathway-4abef305",
-          "name": "Aortic Pathway",
+          "name": "大動脈の回廊",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
@@ -3337,7 +3337,7 @@ const MAP_ATLAS_DATA = {
       "entries": [
         {
           "id": "world-bionis-shoulder-junks-fac9f8cd",
-          "name": "Junks",
+          "name": "ジャンクス",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
@@ -3386,7 +3386,7 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-bionis-shoulder-soltnar-seal-island-97c9c4d5",
-          "name": "Soltnar Seal Island",
+          "name": "ソルタナ封印島",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
@@ -3421,7 +3421,7 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-bionis-shoulder-old-king-s-testament-6896db3b",
-          "name": "Old King's Testament",
+          "name": "Old King's テスタメント",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "lockoutDeadline": null
@@ -3624,7 +3624,7 @@ const MAP_ATLAS_DATA = {
         },
         {
           "id": "world-bionis-shoulder-teelan-s-laboratory-c1a67ee9",
-          "name": "Teelan's Laboratory",
+          "name": "テトの研究所",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "lockoutDeadline": null
