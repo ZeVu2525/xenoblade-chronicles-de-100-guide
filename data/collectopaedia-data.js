@@ -3,36 +3,36 @@ const COLLECTOPAEDIA_DATA = {
   "version": 1,
   "generated": "source-snapshot",
   "source": {
-    "label": "Xenoblade Wiki XC Collectopaedia pages",
+    "label": "Xenoblade Wiki の XC コレペディアのページ",
     "url": "https://xenoblade.fandom.com/wiki/Collectopaedia_(XC1)"
   },
   "collections": [
     {
       "id": "colony-9",
-      "area": "Colony 9",
-      "page": "Colony 9 Collection",
+      "area": "コロニー9",
+      "page": "コロニー9コレペディア",
       "source": "https://xenoblade.fandom.com/wiki/Colony_9_Collection",
-      "completionReward": "Carbon Driver",
+      "completionReward": "カーボンバンカー",
       "groups": [
         {
           "type": "Veg",
-          "reward": "Quick Step III",
+          "reward": "移動速度アップ III",
           "items": [
             {
               "id": "collect-colony-9-veg-sweet-wasabi-574233ea",
-              "name": "Sweet Wasabi"
+              "name": "あまあまワサビ"
             },
             {
               "id": "collect-colony-9-veg-cool-potato-4abf2896",
-              "name": "Cool Potato"
+              "name": "クルイモ"
             },
             {
               "id": "collect-colony-9-veg-red-lettuce-833774d5",
-              "name": "Red Lettuce"
+              "name": "赤色レタス"
             },
             {
               "id": "collect-colony-9-veg-chewy-radish-2a33bc29",
-              "name": "Chewy Radish"
+              "name": "カムカムラディッシュ"
             }
           ]
         },
@@ -42,51 +42,51 @@ const COLLECTOPAEDIA_DATA = {
           "items": [
             {
               "id": "collect-colony-9-fruit-dance-apple-2322e956",
-              "name": "Dance Apple"
+              "name": "オドリンゴ"
             },
             {
               "id": "collect-colony-9-fruit-black-kiwi-d16deb3d",
-              "name": "Black Kiwi"
+              "name": "ブラックキウイ"
             }
           ]
         },
         {
           "type": "Flower",
-          "reward": "Poison Defence III",
+          "reward": "毒防御 III",
           "items": [
             {
               "id": "collect-colony-9-flower-strong-dandelion-d94e7a4c",
-              "name": "Strong Dandelion"
+              "name": "ポポンタンポポ"
             },
             {
               "id": "collect-colony-9-flower-moon-flower-32505c07",
-              "name": "Moon Flower"
+              "name": "ココーマワリ"
             },
             {
               "id": "collect-colony-9-flower-dawn-hydrangea-493cdd24",
-              "name": "Dawn Hydrangea"
+              "name": "サチベリア"
             }
           ]
         },
         {
           "type": "Bug",
-          "reward": "Regnas Gauntlets",
+          "reward": "レグナスガード",
           "items": [
             {
               "id": "collect-colony-9-bug-prairie-dragonfly-7c4631ea",
-              "name": "Prairie Dragonfly"
+              "name": "ソウゲントンボ"
             },
             {
               "id": "collect-colony-9-bug-giant-hornet-b558eeda",
-              "name": "Giant Hornet"
+              "name": "オオジロバチ"
             },
             {
               "id": "collect-colony-9-bug-white-beetle-98ba681d",
-              "name": "White Beetle"
+              "name": "シロスジオサムシ"
             },
             {
               "id": "collect-colony-9-bug-sorrow-beetle-b5a87126",
-              "name": "Sorrow Beetle"
+              "name": "フマンカナブン"
             }
           ]
         },
@@ -96,25 +96,25 @@ const COLLECTOPAEDIA_DATA = {
           "items": [
             {
               "id": "collect-colony-9-parts-blue-chain-5b6eaea6",
-              "name": "Blue Chain"
+              "name": "ブルーチェーン"
             },
             {
               "id": "collect-colony-9-parts-rabbit-diode-3a6794a2",
-              "name": "Rabbit Diode"
+              "name": "ラビットダイオード"
             }
           ]
         },
         {
           "type": "Strange",
-          "reward": "Strength Up II",
+          "reward": "筋力アップ II",
           "items": [
             {
               "id": "collect-colony-9-strange-plate-snow-329a29e1",
-              "name": "Plate Snow"
+              "name": "プレート・スノー"
             },
             {
               "id": "collect-colony-9-strange-rainbow-zirconia-b4732e66",
-              "name": "Rainbow Zirconia"
+              "name": "虹色キュービック"
             }
           ]
         }
@@ -122,40 +122,40 @@ const COLLECTOPAEDIA_DATA = {
     },
     {
       "id": "tephra-cave",
-      "area": "Tephra Cave",
-      "page": "Tephra Cave Collection",
+      "area": "テフラ洞窟",
+      "page": "テフラ洞窟コレペディア",
       "source": "https://xenoblade.fandom.com/wiki/Tephra_Cave_Collection",
-      "completionReward": "Warrior Cuisses",
+      "completionReward": "ウォーリアクィス",
       "groups": [
         {
           "type": "Fruit",
-          "reward": "Lightning Attack II",
+          "reward": "雷追撃 II",
           "items": [
             {
               "id": "collect-tephra-cave-fruit-clear-almond-48c578b9",
-              "name": "Clear Almond"
+              "name": "クリアーモンド"
             },
             {
               "id": "collect-tephra-cave-fruit-bright-fig-cd974e51",
-              "name": "Bright Fig"
+              "name": "サンサンイチジク"
             },
             {
               "id": "collect-tephra-cave-fruit-dark-grape-3ad10955",
-              "name": "Dark Grape"
+              "name": "クラブドウ"
             }
           ]
         },
         {
           "type": "Flower",
-          "reward": "Poison Defence III",
+          "reward": "毒防御 III",
           "items": [
             {
               "id": "collect-tephra-cave-flower-insanity-mint-87db05de",
-              "name": "Insanity Mint"
+              "name": "クレージミント"
             },
             {
               "id": "collect-tephra-cave-flower-night-tulip-2f106ad1",
-              "name": "Night Tulip"
+              "name": "ナイトチューリップ"
             }
           ]
         },
@@ -165,69 +165,69 @@ const COLLECTOPAEDIA_DATA = {
           "items": [
             {
               "id": "collect-tephra-cave-animal-shin-newt-05f2e97a",
-              "name": "Shin Newt"
+              "name": "スネイモリ"
             },
             {
               "id": "collect-tephra-cave-animal-cave-rat-77d43690",
-              "name": "Cave Rat"
+              "name": "モネズミ"
             },
             {
               "id": "collect-tephra-cave-animal-shin-gecko-739731ef",
-              "name": "Shin Gecko"
+              "name": "スネヤモリ"
             },
             {
               "id": "collect-tephra-cave-animal-happy-rabbit-fddec76d",
-              "name": "Happy Rabbit"
+              "name": "ハッピーウサギ"
             }
           ]
         },
         {
           "type": "Bug",
-          "reward": "Slow Resist II",
+          "reward": "スロウ抵抗 II",
           "items": [
             {
               "id": "collect-tephra-cave-bug-brown-butterfly-cc51e243",
-              "name": "Brown Butterfly"
+              "name": "アマイロチョウ"
             },
             {
               "id": "collect-tephra-cave-bug-gold-caterpillar-84e6507e",
-              "name": "Gold Caterpillar"
+              "name": "コガネイモムシ"
             },
             {
               "id": "collect-tephra-cave-bug-rumble-stonefly-4994641c",
-              "name": "Rumble Stonefly"
+              "name": "ポップンカワゲラ"
             }
           ]
         },
         {
           "type": "Nature",
-          "reward": "Attack Plus II",
+          "reward": "攻撃力強化 II",
           "items": [
             {
               "id": "collect-tephra-cave-nature-kneecap-rock-cf4d4b8c",
-              "name": "Kneecap Rock"
+              "name": "シツガイ岩板"
             },
             {
               "id": "collect-tephra-cave-nature-confusion-ivy-6f45c5d3",
-              "name": "Confusion Ivy"
+              "name": "まよいヅタ"
             },
             {
               "id": "collect-tephra-cave-nature-clarity-moss-c6295afd",
-              "name": "Clarity Moss"
+              "name": "まよわぬゴケ"
             }
           ]
         },
         {
           "type": "Strange",
-          "reward": "Attack Stability II",
+          "reward": "攻撃力安定 II",
           "items": [
             {
               "id": "collect-tephra-cave-strange-leaf-mystery-6e213b5a",
-              "name": "Leaf Mystery"
+              "name": "リーフ・ミステリー"
             },
             {
               "id": "collect-tephra-cave-strange-steel-silk-0031f612",
-              "name": "Steel Silk"
+              "name": "鋼鉄の絹布"
             }
           ]
         }
@@ -235,132 +235,132 @@ const COLLECTOPAEDIA_DATA = {
     },
     {
       "id": "bionis-leg",
-      "area": "Bionis' Leg",
-      "page": "Bionis' Leg Collection",
+      "area": "巨神脚",
+      "page": "巨神脚コレペディア",
       "source": "https://xenoblade.fandom.com/wiki/Bionis'_Leg_Collection",
-      "completionReward": "White Cluster",
+      "completionReward": "ホワイトクラスター",
       "groups": [
         {
           "type": "Veg",
-          "reward": "Pelt Top",
+          "reward": "ハードレザートップス",
           "items": [
             {
               "id": "collect-bionis-leg-veg-hot-taro-4bbb66ec",
-              "name": "Hot Taro"
+              "name": "ホットむらさきイモ"
             },
             {
               "id": "collect-bionis-leg-veg-juicy-broccoli-7280170a",
-              "name": "Juicy Broccoli"
+              "name": "ジューシートマト"
             },
             {
               "id": "collect-bionis-leg-veg-spicy-cabbage-36f62b24",
-              "name": "Spicy Cabbage"
+              "name": "ホットキャベツ"
             },
             {
               "id": "collect-bionis-leg-veg-hard-lotus-3b22d9b6",
-              "name": "Hard Lotus"
+              "name": "ハードホウレン"
             }
           ]
         },
         {
           "type": "Fruit",
-          "reward": "Paralysis II",
+          "reward": "パラライズ II",
           "items": [
             {
               "id": "collect-bionis-leg-fruit-sour-gooseberry-282bfd3d",
-              "name": "Sour Gooseberry"
+              "name": "シャープクランベリ"
             },
             {
               "id": "collect-bionis-leg-fruit-red-durian-fe523213",
-              "name": "Red Durian"
+              "name": "レッドドリアン"
             },
             {
               "id": "collect-bionis-leg-fruit-walnut-grape-50284f91",
-              "name": "Walnut Grape"
+              "name": "クルミグレープ"
             },
             {
               "id": "collect-bionis-leg-fruit-humming-plum-feed478c",
-              "name": "Humming Plum"
+              "name": "ハミングプラム"
             }
           ]
         },
         {
           "type": "Bug",
-          "reward": "Grand Gauntlets",
+          "reward": "グラントガード",
           "items": [
             {
               "id": "collect-bionis-leg-bug-white-ladybird-127c9bca",
-              "name": "White Ladybird"
+              "name": "シロゴマテントウ"
             },
             {
               "id": "collect-bionis-leg-bug-hill-firefly-95c1f71a",
-              "name": "Hill Firefly"
+              "name": "ゼッペキホタル"
             },
             {
               "id": "collect-bionis-leg-bug-moth-crawler-df262c09",
-              "name": "Moth Crawler"
+              "name": "スントリムシ"
             },
             {
               "id": "collect-bionis-leg-bug-queen-locust-5e956aac",
-              "name": "Queen Locust"
+              "name": "ユウヒバッタ"
             },
             {
               "id": "collect-bionis-leg-bug-fire-tarantula-b20a4196",
-              "name": "Fire Tarantula"
+              "name": "モエタランチュラ"
             }
           ]
         },
         {
           "type": "Nature",
-          "reward": "Bind Resist II",
+          "reward": "バインド抵抗 II",
           "items": [
             {
               "id": "collect-bionis-leg-nature-mat-ice-4894bd4b",
-              "name": "Mat Ice"
+              "name": "マットアイス"
             },
             {
               "id": "collect-bionis-leg-nature-bluesky-bark-ad0df616",
-              "name": "Bluesky Bark"
+              "name": "アオゾラバーク"
             },
             {
               "id": "collect-bionis-leg-nature-pione-stone-c37f9e96",
-              "name": "Pione Stone"
+              "name": "ピオーネストーン"
             }
           ]
         },
         {
           "type": "Parts",
-          "reward": "Strength Up II",
+          "reward": "筋力アップ II",
           "items": [
             {
               "id": "collect-bionis-leg-parts-rusty-bolt-8b1989ce",
-              "name": "Rusty Bolt"
+              "name": "赤さびボルト"
             },
             {
               "id": "collect-bionis-leg-parts-winding-gear-3cd2cdc0",
-              "name": "Winding Gear"
+              "name": "ワインディングギア"
             }
           ]
         },
         {
           "type": "Strange",
-          "reward": "Pelt Bottoms",
+          "reward": "ハードレザーボトムズ",
           "items": [
             {
               "id": "collect-bionis-leg-strange-gold-dust-illusion-9ff3779b",
-              "name": "Gold Dust Illusion"
+              "name": "砂金のマボロシ"
             },
             {
               "id": "collect-bionis-leg-strange-devious-gravity-bb04b377",
-              "name": "Devious Gravity"
+              "name": "悪党グラビティ"
             },
             {
               "id": "collect-bionis-leg-strange-white-songbird-60f25671",
-              "name": "White Songbird"
+              "name": "純白のカザナキドリ"
             },
             {
               "id": "collect-bionis-leg-strange-death-bangle-32816442",
-              "name": "Death Bangle"
+              "name": "必殺バングル"
             }
           ]
         }
@@ -368,58 +368,58 @@ const COLLECTOPAEDIA_DATA = {
     },
     {
       "id": "colony-6",
-      "area": "Colony 6",
-      "page": "Colony 6 Collection",
+      "area": "コロニー6",
+      "page": "コロニー6コレペディア",
       "source": "https://xenoblade.fandom.com/wiki/Colony_6_Collection",
-      "completionReward": "Warrior Plate",
+      "completionReward": "ウォーリアプレート",
       "groups": [
         {
           "type": "Flower",
-          "reward": "Auto-Atk Stealth II",
+          "reward": "ヘイト低下 II",
           "items": [
             {
               "id": "collect-colony-6-flower-cute-orchid-d83fc049",
-              "name": "Cute Orchid"
+              "name": "キュットラン"
             },
             {
               "id": "collect-colony-6-flower-sirius-anemone-ad3b4677",
-              "name": "Sirius Anemone"
+              "name": "セリオスアネモネ"
             },
             {
               "id": "collect-colony-6-flower-spirit-clematis-24b440e6",
-              "name": "Spirit Clematis"
+              "name": "ダンデクレマチス"
             }
           ]
         },
         {
           "type": "Animal",
-          "reward": "Paralysis Resist II",
+          "reward": "パラライズ抵抗 II",
           "items": [
             {
               "id": "collect-colony-6-animal-pyro-lizard-0cedad6c",
-              "name": "Pyro Lizard"
+              "name": "ボムマキトカゲ"
             },
             {
               "id": "collect-colony-6-animal-amblygon-turtle-47aefd25",
-              "name": "Amblygon Turtle"
+              "name": "アンブリゴタートル"
             },
             {
               "id": "collect-colony-6-animal-dobercorgi-fb583f8d",
-              "name": "Dobercorgi"
+              "name": "ドーベルコーギー"
             }
           ]
         },
         {
           "type": "Strange",
-          "reward": "Ether Def Up II",
+          "reward": "エーテル防御増 II",
           "items": [
             {
               "id": "collect-colony-6-strange-verdant-eternity-2ffb9f3c",
-              "name": "Verdant Eternity"
+              "name": "新緑のトコシエ"
             },
             {
               "id": "collect-colony-6-strange-white-night-rod-2356425e",
-              "name": "White Night Rod"
+              "name": "白夜ブリーチ"
             }
           ]
         }
@@ -427,90 +427,90 @@ const COLLECTOPAEDIA_DATA = {
     },
     {
       "id": "ether-mine",
-      "area": "Ether Mine",
-      "page": "Ether Mine Collection",
+      "area": "中央採掘場",
+      "page": "中央採掘場コレペディア",
       "source": "https://xenoblade.fandom.com/wiki/Ether_Mine_Collection",
-      "completionReward": "Rayon Pike",
+      "completionReward": "レオンパイク",
       "groups": [
         {
           "type": "Animal",
-          "reward": "Back Atk Plus II",
+          "reward": "背面攻撃強化 II",
           "items": [
             {
               "id": "collect-ether-mine-animal-light-bat-7b3122b9",
-              "name": "Light Bat"
+              "name": "ライトバット"
             },
             {
               "id": "collect-ether-mine-animal-black-frog-fafef899",
-              "name": "Black Frog"
+              "name": "ブラッガエル"
             },
             {
               "id": "collect-ether-mine-animal-yellow-cat-ddccdff0",
-              "name": "Yellow Cat"
+              "name": "イエローキャット"
             }
           ]
         },
         {
           "type": "Bug",
-          "reward": "Bleed Defence III",
+          "reward": "出血防御 III",
           "items": [
             {
               "id": "collect-ether-mine-bug-black-beetle-4982d92a",
-              "name": "Black Beetle"
+              "name": "クロメタルカナブン"
             },
             {
               "id": "collect-ether-mine-bug-rubber-mantis-4ee94fd6",
-              "name": "Rubber Mantis"
+              "name": "ゴムカマキリ"
             },
             {
               "id": "collect-ether-mine-bug-mystery-firefly-021a1a4c",
-              "name": "Mystery Firefly"
+              "name": "シンピボタル"
             }
           ]
         },
         {
           "type": "Nature",
-          "reward": "Recovery Up II",
+          "reward": "回復アップ II",
           "items": [
             {
               "id": "collect-ether-mine-nature-charcoal-leg-4fc15cd3",
-              "name": "Charcoal Leg"
+              "name": "スススミススネ"
             },
             {
               "id": "collect-ether-mine-nature-ether-pebble-79d4c282",
-              "name": "Ether Pebble"
+              "name": "エーテルペブル"
             },
             {
               "id": "collect-ether-mine-nature-rumble-coal-8d82c241",
-              "name": "Rumble Coal"
+              "name": "ポップンチャコール"
             }
           ]
         },
         {
           "type": "Parts",
-          "reward": "Topple Up II",
+          "reward": "転倒威力アップ II",
           "items": [
             {
               "id": "collect-ether-mine-parts-black-chip-f46f622f",
-              "name": "Black Chip"
+              "name": "ブラックチップ"
             },
             {
               "id": "collect-ether-mine-parts-ready-coil-d29a7bd9",
-              "name": "Ready Coil"
+              "name": "レディコイル"
             }
           ]
         },
         {
           "type": "Strange",
-          "reward": "Muscle Up II",
+          "reward": "物理防御増 II",
           "items": [
             {
               "id": "collect-ether-mine-strange-love-crane-eea05789",
-              "name": "Love Crane"
+              "name": "リーベクレイン"
             },
             {
               "id": "collect-ether-mine-strange-fire-abron-7a84441e",
-              "name": "Fire Abron"
+              "name": "ファイアブロン"
             }
           ]
         }
@@ -518,132 +518,132 @@ const COLLECTOPAEDIA_DATA = {
     },
     {
       "id": "satorl-marsh",
-      "area": "Satorl Marsh",
-      "page": "Satorl Marsh Collection",
+      "area": "燐光の地ザトール",
+      "page": "燐光の地ザトールコレペディア",
       "source": "https://xenoblade.fandom.com/wiki/Satorl_Marsh_Collection",
-      "completionReward": "Panther Top (1 slot)",
+      "completionReward": "パンサートップス（1スロット）",
       "groups": [
         {
           "type": "Veg",
-          "reward": "Nopol Gear",
+          "reward": "ノポルギア",
           "items": [
             {
               "id": "collect-satorl-marsh-veg-blue-turnip-58192401",
-              "name": "Blue Turnip"
+              "name": "青ウメロン"
             },
             {
               "id": "collect-satorl-marsh-veg-cute-parsnip-0b515420",
-              "name": "Cute Parsnip"
+              "name": "キュートストロベリ"
             },
             {
               "id": "collect-satorl-marsh-veg-poisonous-gourd-2a2f33ba",
-              "name": "Poisonous Gourd"
+              "name": "ポイズンツルレイシ"
             },
             {
               "id": "collect-satorl-marsh-veg-humming-cabbage-f68e7d1e",
-              "name": "Humming Cabbage"
+              "name": "ハミングメキャベツ"
             }
           ]
         },
         {
           "type": "Flower",
-          "reward": "Jungle Shoes",
+          "reward": "ジャンゴシューズ",
           "items": [
             {
               "id": "collect-satorl-marsh-flower-sunflower-rogue-b5f52387",
-              "name": "Sunflower Rogue"
+              "name": "ヒマワリローグ"
             },
             {
               "id": "collect-satorl-marsh-flower-merry-coronation-61143b24",
-              "name": "Merry Coronation"
+              "name": "メリーカンギク"
             },
             {
               "id": "collect-satorl-marsh-flower-ether-rose-5ed7f2c3",
-              "name": "Ether Rose"
+              "name": "アキシィ"
             },
             {
               "id": "collect-satorl-marsh-flower-orb-daisy-4baec4df",
-              "name": "Orb Daisy"
+              "name": "リンタイ"
             },
             {
               "id": "collect-satorl-marsh-flower-forget-you-not-edfd76f0",
-              "name": "Forget-You-Not"
+              "name": "ワスレナバナ"
             }
           ]
         },
         {
           "type": "Animal",
-          "reward": "Lock-On Resist II",
+          "reward": "ロックオン抵抗 II",
           "items": [
             {
               "id": "collect-satorl-marsh-animal-chimera-rabbit-b00d46b1",
-              "name": "Chimera Rabbit"
+              "name": "ネズウサ"
             },
             {
               "id": "collect-satorl-marsh-animal-venom-platypus-02b1442f",
-              "name": "Venom Platypus"
+              "name": "ドクノカモノハシ"
             },
             {
               "id": "collect-satorl-marsh-animal-humming-cat-4a105507",
-              "name": "Humming Cat"
+              "name": "ハミングキャット"
             }
           ]
         },
         {
           "type": "Nature",
-          "reward": "Nopol Gauntlets",
+          "reward": "ノポルガード",
           "items": [
             {
               "id": "collect-satorl-marsh-nature-mist-tree-3d50862c",
-              "name": "Mist Tree"
+              "name": "キリのキリ"
             },
             {
               "id": "collect-satorl-marsh-nature-lemon-stone-2592cb74",
-              "name": "Lemon Stone"
+              "name": "レモンセキ"
             },
             {
               "id": "collect-satorl-marsh-nature-feather-leaf-3d4c9f1d",
-              "name": "Feather Leaf"
+              "name": "フェザーズリーフ"
             },
             {
               "id": "collect-satorl-marsh-nature-water-log-1b8a030f",
-              "name": "Water Log"
+              "name": "ウォーターボード"
             },
             {
               "id": "collect-satorl-marsh-nature-wool-rock-15712d07",
-              "name": "Wool Rock"
+              "name": "ウールロック"
             }
           ]
         },
         {
           "type": "Parts",
-          "reward": "Strength Up II",
+          "reward": "筋力アップ II",
           "items": [
             {
               "id": "collect-satorl-marsh-parts-blue-gear-shard-7db36a3d",
-              "name": "Blue Gear Shard"
+              "name": "ブルーギアの破片"
             },
             {
               "id": "collect-satorl-marsh-parts-rumble-part-ab24669a",
-              "name": "Rumble Part"
+              "name": "ポップンテンプ"
             }
           ]
         },
         {
           "type": "Strange",
-          "reward": "Haste II",
+          "reward": "ヘイスト II",
           "items": [
             {
               "id": "collect-satorl-marsh-strange-pauper-s-cup-fef79cbe",
-              "name": "Pauper's Cup"
+              "name": "清貧の木杯"
             },
             {
               "id": "collect-satorl-marsh-strange-happy-carnival-5cb3c609",
-              "name": "Happy Carnival"
+              "name": "愉快カーニバル"
             },
             {
               "id": "collect-satorl-marsh-strange-dawn-dice-56b4794e",
-              "name": "Dawn Dice"
+              "name": "朝陽のサイコロ"
             }
           ]
         }
@@ -651,54 +651,54 @@ const COLLECTOPAEDIA_DATA = {
     },
     {
       "id": "bionis-interior",
-      "area": "Bionis' Interior",
-      "page": "Bionis' Interior Collection",
+      "area": "巨神胎内",
+      "page": "巨神胎内コレペディア",
       "source": "https://xenoblade.fandom.com/wiki/Bionis'_Interior_Collection",
-      "completionReward": "Z Speed Goggles",
+      "completionReward": "Ｚスピードゴーグル",
       "groups": [
         {
           "type": "Veg",
-          "reward": "Haste V",
+          "reward": "ヘイスト V",
           "items": [
             {
               "id": "collect-bionis-interior-veg-sarsaparilla-d3914b93",
-              "name": "Sarsaparilla"
+              "name": "サルサペリラ"
             },
             {
               "id": "collect-bionis-interior-veg-black-liver-bean-0fc4cd8c",
-              "name": "Black Liver Bean"
+              "name": "クロマメレバー"
             }
           ]
         },
         {
           "type": "Animal",
-          "reward": "Aggro Down IV",
+          "reward": "ヘイトダウン IV",
           "items": [
             {
               "id": "collect-bionis-interior-animal-blood-worm-537aaf95",
-              "name": "Blood Worm"
+              "name": "ブラッドワーム"
             },
             {
               "id": "collect-bionis-interior-animal-azure-mouse-3e6c07be",
-              "name": "Azure Mouse"
+              "name": "アズライトッポ"
             },
             {
               "id": "collect-bionis-interior-animal-happy-duck-ac3d3bb2",
-              "name": "Happy Duck"
+              "name": "タノシイカモ"
             }
           ]
         },
         {
           "type": "Strange",
-          "reward": "Strength Down V",
+          "reward": "筋力ダウン V",
           "items": [
             {
               "id": "collect-bionis-interior-strange-tap-tap-tap-e9c6054b",
-              "name": "Tap Tap Tap"
+              "name": "らたたたらったった"
             },
             {
               "id": "collect-bionis-interior-strange-high-entia-jewel-d53164f5",
-              "name": "High Entia Jewel"
+              "name": "ハイエントジュエル"
             }
           ]
         }
@@ -706,92 +706,92 @@ const COLLECTOPAEDIA_DATA = {
     },
     {
       "id": "makna-forest",
-      "area": "Makna Forest",
-      "page": "Makna Forest Collection",
+      "area": "マクナ原生林",
+      "page": "マクナ原生林コレペディア",
       "source": "https://xenoblade.fandom.com/wiki/Makna_Forest_Collection",
-      "completionReward": "Ironwall Gnasher (2)",
+      "completionReward": "鉄壁のツクツク (2)",
       "groups": [
         {
           "type": "Veg",
-          "reward": "Sleep Resist III",
+          "reward": "スリープ抵抗 III",
           "items": [
             {
               "id": "collect-makna-forest-veg-schorl-mushroom-a83af623",
-              "name": "Schorl Mushroom"
+              "name": "トルマリンダケ"
             },
             {
               "id": "collect-makna-forest-veg-kelp-mushroom-dbe098d7",
-              "name": "Kelp Mushroom"
+              "name": "コンブダケ"
             },
             {
               "id": "collect-makna-forest-veg-honey-rhubarb-8421cfd0",
-              "name": "Honey Rhubarb"
+              "name": "マクナ・アマミツ"
             }
           ]
         },
         {
           "type": "Fruit",
-          "reward": "Sky Gloves (1)",
+          "reward": "スカイグローブ (1)",
           "items": [
             {
               "id": "collect-makna-forest-fruit-dark-mango-c95553d3",
-              "name": "Dark Mango"
+              "name": "ダークマンゴー"
             },
             {
               "id": "collect-makna-forest-fruit-pure-cherry-f63c2a21",
-              "name": "Pure Cherry"
+              "name": "ピュアアセロラ"
             },
             {
               "id": "collect-makna-forest-fruit-bitter-kiwi-96a49ff3",
-              "name": "Bitter Kiwi"
+              "name": "ビターキウイ"
             },
             {
               "id": "collect-makna-forest-fruit-juicy-grape-1288175e",
-              "name": "Juicy Grape"
+              "name": "ジュシブドウ"
             }
           ]
         },
         {
           "type": "Flower",
-          "reward": "Blaze Defence III",
+          "reward": "炎熱防御 III",
           "items": [
             {
               "id": "collect-makna-forest-flower-enigma-lotus-bbf5273a",
-              "name": "Enigma Lotus"
+              "name": "アイヤマ"
             },
             {
               "id": "collect-makna-forest-flower-humming-nettle-abc3919e",
-              "name": "Humming Nettle"
+              "name": "ハミングオオバ"
             },
             {
               "id": "collect-makna-forest-flower-princess-daffodil-e82a42c3",
-              "name": "Princess Daffodil"
+              "name": "ヒメミレス"
             },
             {
               "id": "collect-makna-forest-flower-black-iris-1a60c9a3",
-              "name": "Black Iris"
+              "name": "ノキス"
             }
           ]
         },
         {
           "type": "Animal",
-          "reward": "Sky Shoes (1)",
+          "reward": "スカイシューズ (1)",
           "items": [
             {
               "id": "collect-makna-forest-animal-ash-fox-3ed63eec",
-              "name": "Ash Fox"
+              "name": "アッシュフォックス"
             },
             {
               "id": "collect-makna-forest-animal-soft-sea-cucumber-3b1015c8",
-              "name": "Soft Sea Cucumber"
+              "name": "フニャフニャマコ"
             },
             {
               "id": "collect-makna-forest-animal-fossil-monkey-8c31c933",
-              "name": "Fossil Monkey"
+              "name": "化石サル"
             },
             {
               "id": "collect-makna-forest-animal-venomous-lizard-32a41c0f",
-              "name": "Venomous Lizard"
+              "name": "エセポイズントカゲ"
             }
           ]
         },
@@ -801,37 +801,37 @@ const COLLECTOPAEDIA_DATA = {
           "items": [
             {
               "id": "collect-makna-forest-bug-scarlet-ladybird-ac815490",
-              "name": "Scarlet Ladybird"
+              "name": "クレナイテントウ"
             },
             {
               "id": "collect-makna-forest-bug-shield-bug-c2eee99b",
-              "name": "Shield Bug"
+              "name": "アオゾラカメムシ"
             },
             {
               "id": "collect-makna-forest-bug-hades-beetle-bde65b92",
-              "name": "Hades Beetle"
+              "name": "ナラクノミズスマシ"
             },
             {
               "id": "collect-makna-forest-bug-benign-cricket-175d4a1e",
-              "name": "Benign Cricket"
+              "name": "リュウセイスズムシ"
             }
           ]
         },
         {
           "type": "Strange",
-          "reward": "Debuff Plus II",
+          "reward": "デバフ時間追加 II",
           "items": [
             {
               "id": "collect-makna-forest-strange-lemonade-sky-2c425d8a",
-              "name": "Lemonade Sky"
+              "name": "ラムネスカイ"
             },
             {
               "id": "collect-makna-forest-strange-forest-of-gossip-a60deaeb",
-              "name": "Forest of Gossip"
+              "name": "談笑の森林"
             },
             {
               "id": "collect-makna-forest-strange-gravel-disk-f8f14290",
-              "name": "Gravel Disk"
+              "name": "真砂のエンバン"
             }
           ]
         }
@@ -839,50 +839,50 @@ const COLLECTOPAEDIA_DATA = {
     },
     {
       "id": "frontier-village",
-      "area": "Frontier Village",
-      "page": "Frontier Village Collection",
+      "area": "サイハテ村",
+      "page": "サイハテ村コレペディア",
       "source": "https://xenoblade.fandom.com/wiki/Frontier_Village_Collection",
-      "completionReward": "Half-Bloom Striker (2 slots)",
+      "completionReward": "五分咲きの太刀（2スロット）",
       "groups": [
         {
           "type": "Fruit",
-          "reward": "Strength Up III",
+          "reward": "筋力アップ III",
           "items": [
             {
               "id": "collect-frontier-village-fruit-spicy-nut-c88d7161",
-              "name": "Spicy Nut"
+              "name": "ピリットナシ"
             },
             {
               "id": "collect-frontier-village-fruit-crimson-citrus-e14850d5",
-              "name": "Crimson Citrus"
+              "name": "クレナイスダチ"
             }
           ]
         },
         {
           "type": "Bug",
-          "reward": "Weapon Power II",
+          "reward": "武器発動アップ II",
           "items": [
             {
               "id": "collect-frontier-village-bug-rainbow-bug-9d62611c",
-              "name": "Rainbow Bug"
+              "name": "ニジイロタガメ"
             },
             {
               "id": "collect-frontier-village-bug-empress-beetle-c2c475c2",
-              "name": "Empress Beetle"
+              "name": "コウゴウタマムシ"
             }
           ]
         },
         {
           "type": "Strange",
-          "reward": "Agility Up III",
+          "reward": "素早さアップ III",
           "items": [
             {
               "id": "collect-frontier-village-strange-rumble-box-1e57b101",
-              "name": "Rumble Box"
+              "name": "ぽっぷんぼっくす"
             },
             {
               "id": "collect-frontier-village-strange-black-panel-c8fec0bb",
-              "name": "Black Panel"
+              "name": "ハイパネルブラック"
             }
           ]
         }
@@ -890,92 +890,92 @@ const COLLECTOPAEDIA_DATA = {
     },
     {
       "id": "eryth-sea",
-      "area": "Eryth Sea",
-      "page": "Eryth Sea Collection",
+      "area": "エルト海",
+      "page": "エルト海コレペディア",
       "source": "https://xenoblade.fandom.com/wiki/Eryth_Sea_Collection",
-      "completionReward": "Heavy Armour",
+      "completionReward": "強化型アーマー",
       "groups": [
         {
           "type": "Veg",
-          "reward": "Critical Up II",
+          "reward": "会心アップ II",
           "items": [
             {
               "id": "collect-eryth-sea-veg-pink-asparagus-60968cda",
-              "name": "Pink Asparagus"
+              "name": "アスパラボム"
             },
             {
               "id": "collect-eryth-sea-veg-tropical-radish-40c5c906",
-              "name": "Tropical Radish"
+              "name": "トロピカルダイコン"
             },
             {
               "id": "collect-eryth-sea-veg-dolphin-carrot-f0b58027",
-              "name": "Dolphin Carrot"
+              "name": "ドルフィンゴーヤ"
             },
             {
               "id": "collect-eryth-sea-veg-gold-burdock-cbd10e8c",
-              "name": "Gold Burdock"
+              "name": "ゴールドゴボウ"
             }
           ]
         },
         {
           "type": "Flower",
-          "reward": "Mithril Armour",
+          "reward": "ミスリルアーマー",
           "items": [
             {
               "id": "collect-eryth-sea-flower-sea-berry-f2169a07",
-              "name": "Sea Berry"
+              "name": "スィーベリー"
             },
             {
               "id": "collect-eryth-sea-flower-despair-clover-7a65b120",
-              "name": "Despair Clover"
+              "name": "アンカオイ"
             },
             {
               "id": "collect-eryth-sea-flower-doomsday-poppy-1e5f1ac0",
-              "name": "Doomsday Poppy"
+              "name": "ストピィー"
             },
             {
               "id": "collect-eryth-sea-flower-night-lily-f4157352",
-              "name": "Night Lily"
+              "name": "ナイトリリーム"
             },
             {
               "id": "collect-eryth-sea-flower-razor-teasel-3c1dd2e0",
-              "name": "Razor Teasel"
+              "name": "スイルシータ"
             }
           ]
         },
         {
           "type": "Animal",
-          "reward": "Aerial Cloak II",
+          "reward": "飛行迷彩 II",
           "items": [
             {
               "id": "collect-eryth-sea-animal-sea-frog-7d5a9db2",
-              "name": "Sea Frog"
+              "name": "シンラカース"
             },
             {
               "id": "collect-eryth-sea-animal-mane-cat-4acfaeed",
-              "name": "Mane Cat"
+              "name": "タテガミネコ"
             }
           ]
         },
         {
           "type": "Nature",
-          "reward": "Mithril Leggings",
+          "reward": "ミスリルレギンス",
           "items": [
             {
               "id": "collect-eryth-sea-nature-white-tail-1a798ab6",
-              "name": "White Tail"
+              "name": "ホワイトテール"
             },
             {
               "id": "collect-eryth-sea-nature-marine-marble-abb61ce7",
-              "name": "Marine Marble"
+              "name": "マリンマーブル"
             },
             {
               "id": "collect-eryth-sea-nature-oil-branch-efd1881c",
-              "name": "Oil Branch"
+              "name": "オイルブランチ"
             },
             {
               "id": "collect-eryth-sea-nature-dilemma-rock-e1f69f8f",
-              "name": "Dilemma Rock"
+              "name": "ジレンマロック"
             }
           ]
         },
@@ -985,11 +985,11 @@ const COLLECTOPAEDIA_DATA = {
           "items": [
             {
               "id": "collect-eryth-sea-strange-high-violet-494ea757",
-              "name": "High Violet"
+              "name": "ハイヴァイオレット"
             },
             {
               "id": "collect-eryth-sea-strange-steel-hauyne-1b6c4244",
-              "name": "Steel Hauyne"
+              "name": "鋼鉄アウイン"
             }
           ]
         }
@@ -997,50 +997,50 @@ const COLLECTOPAEDIA_DATA = {
     },
     {
       "id": "alcamoth",
-      "area": "Alcamoth",
-      "page": "Alcamoth Collection",
+      "area": "皇都アカモート",
+      "page": "皇都アカモートコレペディア",
       "source": "https://xenoblade.fandom.com/wiki/Alcamoth_Collection",
-      "completionReward": "Gust Shot (2)",
+      "completionReward": "ガストショット (2)",
       "groups": [
         {
           "type": "Fruit",
-          "reward": "Blaze Plus III",
+          "reward": "炎熱強化 III",
           "items": [
             {
               "id": "collect-alcamoth-fruit-cool-lemon-ebbe3b7d",
-              "name": "Cool Lemon"
+              "name": "クルクールレモン"
             },
             {
               "id": "collect-alcamoth-fruit-heart-peach-8e74b3b0",
-              "name": "Heart Peach"
+              "name": "ハートピーチ"
             }
           ]
         },
         {
           "type": "Flower",
-          "reward": "Muscle Up III",
+          "reward": "物理防御増 III",
           "items": [
             {
               "id": "collect-alcamoth-flower-mystic-dahlia-f74fe40b",
-              "name": "Mystic Dahlia"
+              "name": "ミスティックダリア"
             },
             {
               "id": "collect-alcamoth-flower-stardrop-6cb6bbe2",
-              "name": "Stardrop"
+              "name": "スタードロップ"
             }
           ]
         },
         {
           "type": "Strange",
-          "reward": "Paralysis Resist III",
+          "reward": "パラライズ抵抗 III",
           "items": [
             {
               "id": "collect-alcamoth-strange-ha-ha-ha-126c62c0",
-              "name": "Ha Ha Ha"
+              "name": "もふもふもふもうふ"
             },
             {
               "id": "collect-alcamoth-strange-thunder-atmos-8ebecd40",
-              "name": "Thunder Atmos"
+              "name": "雷鳴のヘミスフィア"
             }
           ]
         }
@@ -1048,10 +1048,10 @@ const COLLECTOPAEDIA_DATA = {
     },
     {
       "id": "high-entia-tomb",
-      "area": "High Entia Tomb",
-      "page": "High Entia Tomb Collection",
+      "area": "ハイエンター墓所",
+      "page": "ハイエンター墓所コレペディア",
       "source": "https://xenoblade.fandom.com/wiki/High_Entia_Tomb_Collection",
-      "completionReward": "Shell Armour (1)",
+      "completionReward": "シェルアーマー (1)",
       "groups": [
         {
           "type": "Bug",
@@ -1059,43 +1059,43 @@ const COLLECTOPAEDIA_DATA = {
           "items": [
             {
               "id": "collect-high-entia-tomb-bug-green-earwig-dad6a092",
-              "name": "Green Earwig"
+              "name": "フカミドシジミ"
             },
             {
               "id": "collect-high-entia-tomb-bug-blue-ladybird-b0b9bbed",
-              "name": "Blue Ladybird"
+              "name": "ミズテントウ"
             }
           ]
         },
         {
           "type": "Parts",
-          "reward": "Electric Plus III",
+          "reward": "雷強化 III",
           "items": [
             {
               "id": "collect-high-entia-tomb-parts-white-tube-73386b37",
-              "name": "White Tube"
+              "name": "ホワイトチューブ"
             },
             {
               "id": "collect-high-entia-tomb-parts-green-diode-4300c8e2",
-              "name": "Green Diode"
+              "name": "グリーンダイオード"
             },
             {
               "id": "collect-high-entia-tomb-parts-spiral-lamp-3dfe8aca",
-              "name": "Spiral Lamp"
+              "name": "ラセンランプ"
             }
           ]
         },
         {
           "type": "Strange",
-          "reward": "Ether Def Up III",
+          "reward": "エーテル防御増 III",
           "items": [
             {
               "id": "collect-high-entia-tomb-strange-tasty-sausage-0a57c38d",
-              "name": "Tasty Sausage"
+              "name": "あまあまういんな"
             },
             {
               "id": "collect-high-entia-tomb-strange-macro-passion-4b7a7360",
-              "name": "Macro Passion"
+              "name": "マクロパッション"
             }
           ]
         }
@@ -1103,132 +1103,132 @@ const COLLECTOPAEDIA_DATA = {
     },
     {
       "id": "valak-mountain",
-      "area": "Valak Mountain",
-      "page": "Valak Mountain Collection",
+      "area": "ヴァラク雪山",
+      "page": "ヴァラク雪山コレペディア",
       "source": "https://xenoblade.fandom.com/wiki/Valak_Mountain_Collection",
-      "completionReward": "Cerasus Cutlass (2 Slots)",
+      "completionReward": "夜桜刀（2スロット）",
       "groups": [
         {
           "type": "Veg",
-          "reward": "Heavy Boots",
+          "reward": "強化型ブーツ",
           "items": [
             {
               "id": "collect-valak-mountain-veg-sour-radish-56f839de",
-              "name": "Sour Radish"
+              "name": "サワーダイコン"
             },
             {
               "id": "collect-valak-mountain-veg-ice-cabbage-f2374b86",
-              "name": "Ice Cabbage"
+              "name": "アイスキャベツ"
             },
             {
               "id": "collect-valak-mountain-veg-girl-courgette-d8ba9b01",
-              "name": "Girl Courgette"
+              "name": "ガールズッキーニ"
             },
             {
               "id": "collect-valak-mountain-veg-amethyst-vanilla-3060a092",
-              "name": "Amethyst Vanilla"
+              "name": "アメシストオーニラ"
             }
           ]
         },
         {
           "type": "Fruit",
-          "reward": "Chill Defence III",
+          "reward": "冷気防御 III",
           "items": [
             {
               "id": "collect-valak-mountain-fruit-ether-plum-f3c40e73",
-              "name": "Ether Plum"
+              "name": "エーデルプラム"
             },
             {
               "id": "collect-valak-mountain-fruit-fire-apple-e3711dd6",
-              "name": "Fire Apple"
+              "name": "ファイアップル"
             },
             {
               "id": "collect-valak-mountain-fruit-ruby-mangosteen-511c7acc",
-              "name": "Ruby Mangosteen"
+              "name": "ルビーマンゴスチン"
             },
             {
               "id": "collect-valak-mountain-fruit-sour-grape-e41fc2ff",
-              "name": "Sour Grape"
+              "name": "シブドウ"
             }
           ]
         },
         {
           "type": "Flower",
-          "reward": "Confuse Resist III",
+          "reward": "パニック抵抗 III",
           "items": [
             {
               "id": "collect-valak-mountain-flower-fortune-mallow-9814d91a",
-              "name": "Fortune Mallow"
+              "name": "ラブリーフッキー"
             },
             {
               "id": "collect-valak-mountain-flower-black-peony-ff6b50ab",
-              "name": "Black Peony"
+              "name": "クロボタン"
             },
             {
               "id": "collect-valak-mountain-flower-fatal-belladonna-b476bef2",
-              "name": "Fatal Belladonna"
+              "name": "デラナタ"
             }
           ]
         },
         {
           "type": "Animal",
-          "reward": "Aura Heal II",
+          "reward": "オーラヒール II",
           "items": [
             {
               "id": "collect-valak-mountain-animal-wet-rat-e791bdf7",
-              "name": "Wet Rat"
+              "name": "ヌレラットット"
             },
             {
               "id": "collect-valak-mountain-animal-ice-monkey-a26b7d6c",
-              "name": "Ice Monkey"
+              "name": "アイスアイセザル"
             },
             {
               "id": "collect-valak-mountain-animal-crystal-frog-eac459ba",
-              "name": "Crystal Frog"
+              "name": "クリスタルフロッグ"
             },
             {
               "id": "collect-valak-mountain-animal-mud-squirrel-9bd0de13",
-              "name": "Mud Squirrel"
+              "name": "ドロリス"
             }
           ]
         },
         {
           "type": "Nature",
-          "reward": "Heavy Gear",
+          "reward": "強化型ギア",
           "items": [
             {
               "id": "collect-valak-mountain-nature-gypsum-branch-b604359e",
-              "name": "Gypsum Branch"
+              "name": "セッコウジュ"
             },
             {
               "id": "collect-valak-mountain-nature-black-ash-0dd20437",
-              "name": "Black Ash"
+              "name": "ブラックアッシュ"
             },
             {
               "id": "collect-valak-mountain-nature-emerald-snow-ce675840",
-              "name": "Emerald Snow"
+              "name": "エメラルドスノウ"
             },
             {
               "id": "collect-valak-mountain-nature-rabbit-stone-13e456a0",
-              "name": "Rabbit Stone"
+              "name": "ラビットストーン"
             },
             {
               "id": "collect-valak-mountain-nature-broom-icicle-7a230085",
-              "name": "Broom Icicle"
+              "name": "ホウキつらら"
             }
           ]
         },
         {
           "type": "Strange",
-          "reward": "Chill Plus III",
+          "reward": "冷気強化 III",
           "items": [
             {
               "id": "collect-valak-mountain-strange-frost-glass-5ca2241b",
-              "name": "Frost Glass"
+              "name": "樹氷のガラス"
             },
             {
               "id": "collect-valak-mountain-strange-large-handcuffs-6ce733c9",
-              "name": "Large Handcuffs"
+              "name": "巨獣ハンドカフ"
             }
           ]
         }
@@ -1236,88 +1236,88 @@ const COLLECTOPAEDIA_DATA = {
     },
     {
       "id": "sword-valley",
-      "area": "Sword Valley",
-      "page": "Sword Valley Collection",
+      "area": "大剣の渓谷",
+      "page": "大剣の渓谷コレペディア",
       "source": "https://xenoblade.fandom.com/wiki/Sword_Valley_Collection",
-      "completionReward": "Cosmic Nibbler (2 slots)",
+      "completionReward": "隕石のバクバク（2スロット）",
       "groups": [
         {
           "type": "Veg",
-          "reward": "Good Footing III",
+          "reward": "吹き飛び抵抗 III",
           "items": [
             {
               "id": "collect-sword-valley-veg-fire-pepper-19476120",
-              "name": "Fire Pepper"
+              "name": "ファイアペッパー"
             },
             {
               "id": "collect-sword-valley-veg-meaty-carrot-c91c80aa",
-              "name": "Meaty Carrot"
+              "name": "ミートパプリカ"
             },
             {
               "id": "collect-sword-valley-veg-bitter-broccoli-a7a3f715",
-              "name": "Bitter Broccoli"
+              "name": "ビターブロッコリー"
             }
           ]
         },
         {
           "type": "Fruit",
-          "reward": "HP Steal III",
+          "reward": "ＨＰ吸収 III",
           "items": [
             {
               "id": "collect-sword-valley-fruit-bitter-melon-143c77dc",
-              "name": "Bitter Melon"
+              "name": "ニガメロン"
             },
             {
               "id": "collect-sword-valley-fruit-citron-gooseberry-c30fd2ef",
-              "name": "Citron Gooseberry"
+              "name": "クエンカムカム"
             },
             {
               "id": "collect-sword-valley-fruit-juicy-melon-a270d830",
-              "name": "Juicy Melon"
+              "name": "ミズミズメロン"
             },
             {
               "id": "collect-sword-valley-fruit-amethyst-melon-579247ec",
-              "name": "Amethyst Melon"
+              "name": "アメシストレモン"
             }
           ]
         },
         {
           "type": "Flower",
-          "reward": "Auto-Heal Up III",
+          "reward": "自然回復アップ III",
           "items": [
             {
               "id": "collect-sword-valley-flower-jujube-silver-c0b1fa0b",
-              "name": "Jujube Silver"
+              "name": "ナツメシルバー"
             },
             {
               "id": "collect-sword-valley-flower-black-blossom-09538719",
-              "name": "Black Blossom"
+              "name": "クロザクラ"
             },
             {
               "id": "collect-sword-valley-flower-abyss-heather-a61c523c",
-              "name": "Abyss Heather"
+              "name": "ベナバウラー"
             },
             {
               "id": "collect-sword-valley-flower-delerium-foxglove-ec4ad70a",
-              "name": "Delerium Foxglove"
+              "name": "ボクジュビオラ"
             }
           ]
         },
         {
           "type": "Parts",
-          "reward": "First Attack Plus III",
+          "reward": "開幕攻撃強化 III",
           "items": [
             {
               "id": "collect-sword-valley-parts-gold-condenser-af1df8b5",
-              "name": "Gold Condenser"
+              "name": "ゴールドコンデンサ"
             },
             {
               "id": "collect-sword-valley-parts-purple-lamp-1e033c46",
-              "name": "Purple Lamp"
+              "name": "パープルライト"
             },
             {
               "id": "collect-sword-valley-parts-crimson-gear-63b34cc8",
-              "name": "Crimson Gear"
+              "name": "クリムゾンギア"
             }
           ]
         },
@@ -1327,15 +1327,15 @@ const COLLECTOPAEDIA_DATA = {
           "items": [
             {
               "id": "collect-sword-valley-strange-red-frontier-1220ed84",
-              "name": "Red Frontier"
+              "name": "レッドフロンティア"
             },
             {
               "id": "collect-sword-valley-strange-darkness-bottle-9f3054dd",
-              "name": "Darkness Bottle"
+              "name": "ハイクロウボトル"
             },
             {
               "id": "collect-sword-valley-strange-bud-of-eternity-099c2be1",
-              "name": "Bud of Eternity"
+              "name": "永遠の新芽"
             }
           ]
         }
@@ -1343,40 +1343,40 @@ const COLLECTOPAEDIA_DATA = {
     },
     {
       "id": "galahad-fortress",
-      "area": "Galahad Fortress",
-      "page": "Galahad Fortress Collection",
+      "area": "ガラハド要塞",
+      "page": "ガラハド要塞コレペディア",
       "source": "https://xenoblade.fandom.com/wiki/Galahad_Fortress_Collection",
-      "completionReward": "Arkose Pike (2)",
+      "completionReward": "アルコズパイク (2)",
       "groups": [
         {
           "type": "Bug",
-          "reward": "Terrain Defence II",
+          "reward": "地形防御 II",
           "items": [
             {
               "id": "collect-galahad-fortress-bug-wheel-lurker-eaea1235",
-              "name": "Wheel Lurker"
+              "name": "シャリンガクレ"
             },
             {
               "id": "collect-galahad-fortress-bug-ultramarine-ant-4ed1d86f",
-              "name": "Ultramarine Ant"
+              "name": "グンジョウアリ"
             }
           ]
         },
         {
           "type": "Parts",
-          "reward": "Agility Down III",
+          "reward": "素早さダウン III",
           "items": [
             {
               "id": "collect-galahad-fortress-parts-locust-spring-e0dff683",
-              "name": "Locust Spring"
+              "name": "バッタスプリング"
             },
             {
               "id": "collect-galahad-fortress-parts-art-core-coil-7c4b2733",
-              "name": "Art Core Coil"
+              "name": "アートコアコイル"
             },
             {
               "id": "collect-galahad-fortress-parts-tail-antenna-d0a3a3ed",
-              "name": "Tail Antenna"
+              "name": "テールアンテナ"
             }
           ]
         },
@@ -1386,11 +1386,11 @@ const COLLECTOPAEDIA_DATA = {
           "items": [
             {
               "id": "collect-galahad-fortress-strange-hunger-crash-9b1016d5",
-              "name": "Hunger Crash"
+              "name": "空腹クラッシュ"
             },
             {
               "id": "collect-galahad-fortress-strange-splish-splash-620b4a80",
-              "name": "Splish Splash"
+              "name": "どばどばどばべちょ"
             }
           ]
         }
@@ -1398,112 +1398,112 @@ const COLLECTOPAEDIA_DATA = {
     },
     {
       "id": "fallen-arm",
-      "area": "Fallen Arm",
-      "page": "Fallen Arm Collection",
+      "area": "落ちた腕",
+      "page": "落ちた腕コレペディア",
       "source": "https://xenoblade.fandom.com/wiki/Fallen_Arm_Collection",
-      "completionReward": "Taurus Greaves",
+      "completionReward": "タウロスグリーヴ",
       "groups": [
         {
           "type": "Veg",
-          "reward": "Muscle Up IV",
+          "reward": "物理防御増 IV",
           "items": [
             {
               "id": "collect-fallen-arm-veg-sour-turnip-d5d6e6cb",
-              "name": "Sour Turnip"
+              "name": "シブコールラビ"
             },
             {
               "id": "collect-fallen-arm-veg-golden-beetroot-04b56171",
-              "name": "Golden Beetroot"
+              "name": "コールデンスイカ"
             }
           ]
         },
         {
           "type": "Fruit",
-          "reward": "Heat Sink III",
+          "reward": "ヒートシンク III",
           "items": [
             {
               "id": "collect-fallen-arm-fruit-white-plum-af662ef8",
-              "name": "White Plum"
+              "name": "ホワイトプラム"
             },
             {
               "id": "collect-fallen-arm-fruit-ice-kiwi-fruit-c49de0f0",
-              "name": "Ice Kiwi Fruit"
+              "name": "アイスキウイ"
             },
             {
               "id": "collect-fallen-arm-fruit-spicy-papaya-a94207ab",
-              "name": "Spicy Papaya"
+              "name": "ホットパパイヤ"
             },
             {
               "id": "collect-fallen-arm-fruit-large-mango-7e26373c",
-              "name": "Large Mango"
+              "name": "ムシマンゴー"
             }
           ]
         },
         {
           "type": "Animal",
-          "reward": "Gemini Boots",
+          "reward": "ジェミニブーツ",
           "items": [
             {
               "id": "collect-fallen-arm-animal-oil-oyster-49db41cd",
-              "name": "Oil Oyster"
+              "name": "オイルオイスター"
             },
             {
               "id": "collect-fallen-arm-animal-dark-fish-7d5730a7",
-              "name": "Dark Fish"
+              "name": "ダークフィッシュ"
             },
             {
               "id": "collect-fallen-arm-animal-ether-penguin-e21d094f",
-              "name": "Ether Penguin"
+              "name": "エンペルペギ"
             },
             {
               "id": "collect-fallen-arm-animal-rainbow-slug-d662b29c",
-              "name": "Rainbow Slug"
+              "name": "ナナイロナマコ"
             }
           ]
         },
         {
           "type": "Nature",
-          "reward": "Blaze Defence IV",
+          "reward": "炎熱防御 IV",
           "items": [
             {
               "id": "collect-fallen-arm-nature-poisonous-coral-44064eee",
-              "name": "Poisonous Coral"
+              "name": "ドクドクサンゴ"
             },
             {
               "id": "collect-fallen-arm-nature-poison-ivy-68846600",
-              "name": "Poison Ivy"
+              "name": "エセポイズンアイビー"
             },
             {
               "id": "collect-fallen-arm-nature-amber-leaf-420b4c22",
-              "name": "Amber Leaf"
+              "name": "コハクの葉っぱ"
             }
           ]
         },
         {
           "type": "Parts",
-          "reward": "Muscle Up IV",
+          "reward": "物理防御増 IV",
           "items": [
             {
               "id": "collect-fallen-arm-parts-warning-lamp-252c8060",
-              "name": "Warning Lamp"
+              "name": "イラプランプ"
             },
             {
               "id": "collect-fallen-arm-parts-digital-filament-a52e23c0",
-              "name": "Digital Filament"
+              "name": "エレクトリックフィラ"
             }
           ]
         },
         {
           "type": "Strange",
-          "reward": "Strength Up IV",
+          "reward": "筋力アップ IV",
           "items": [
             {
               "id": "collect-fallen-arm-strange-star-cute-35d02b5b",
-              "name": "Star Cute"
+              "name": "スター・キュート"
             },
             {
               "id": "collect-fallen-arm-strange-summer-star-ec86592c",
-              "name": "Summer Star"
+              "name": "梅雨のイチバンボシ"
             }
           ]
         }
@@ -1511,112 +1511,112 @@ const COLLECTOPAEDIA_DATA = {
     },
     {
       "id": "mechonis-field",
-      "area": "Mechonis Field",
-      "page": "Mechonis Field Collection",
+      "area": "機神界フィールド",
+      "page": "機神界フィールドコレペディア",
       "source": "https://xenoblade.fandom.com/wiki/Mechonis_Field_Collection",
-      "completionReward": "Taurus Helm",
+      "completionReward": "タウロスヘルム",
       "groups": [
         {
           "type": "Veg",
-          "reward": "Taurus Arms",
+          "reward": "タウロスアーム",
           "items": [
             {
               "id": "collect-mechonis-field-veg-juicy-steakplant-d91835b2",
-              "name": "Juicy Steakplant"
+              "name": "ジューシィマクワ"
             },
             {
               "id": "collect-mechonis-field-veg-acerola-pea-0176994a",
-              "name": "Acerola Pea"
+              "name": "アセロラエンドウ"
             },
             {
               "id": "collect-mechonis-field-veg-energy-aubergine-a1421bb6",
-              "name": "Energy Aubergine"
+              "name": "スタミ・ナス"
             },
             {
               "id": "collect-mechonis-field-veg-sweet-pepper-b6ebee53",
-              "name": "Sweet Pepper"
+              "name": "スウィートパプリカ"
             }
           ]
         },
         {
           "type": "Flower",
-          "reward": "Agility Up IV",
+          "reward": "素早さアップ IV",
           "items": [
             {
               "id": "collect-mechonis-field-flower-azure-hollyhock-0690b30c",
-              "name": "Azure Hollyhock"
+              "name": "シーブルーストン"
             },
             {
               "id": "collect-mechonis-field-flower-utopia-crocus-3e8dffa5",
-              "name": "Utopia Crocus"
+              "name": "ナルコユリラルド"
             }
           ]
         },
         {
           "type": "Bug",
-          "reward": "Daze Up IV",
+          "reward": "気絶威力アップ IV",
           "items": [
             {
               "id": "collect-mechonis-field-bug-scarlet-crawler-8f4c14c1",
-              "name": "Scarlet Crawler"
+              "name": "ヒイロケムシ"
             },
             {
               "id": "collect-mechonis-field-bug-shiny-scarab-843f2567",
-              "name": "Shiny Scarab"
+              "name": "ツヤカワカブト"
             },
             {
               "id": "collect-mechonis-field-bug-water-boatman-a618d92b",
-              "name": "Water Boatman"
+              "name": "ムシスベリ"
             }
           ]
         },
         {
           "type": "Nature",
-          "reward": "First Attack Plus III",
+          "reward": "開幕攻撃強化 III",
           "items": [
             {
               "id": "collect-mechonis-field-nature-ivy-nest-f75240b7",
-              "name": "Ivy Nest"
+              "name": "ツタの巣"
             },
             {
               "id": "collect-mechonis-field-nature-mossy-panel-c6d37b0c",
-              "name": "Mossy Panel"
+              "name": "モスプレート"
             },
             {
               "id": "collect-mechonis-field-nature-bronze-wood-4b0d8772",
-              "name": "Bronze Wood"
+              "name": "ブロンズウッド"
             }
           ]
         },
         {
           "type": "Parts",
-          "reward": "Lightning Attack IV",
+          "reward": "雷追撃 IV",
           "items": [
             {
               "id": "collect-mechonis-field-parts-retro-diode-7f45617c",
-              "name": "Retro Diode"
+              "name": "レトロダイオード"
             },
             {
               "id": "collect-mechonis-field-parts-modern-blue-gear-117e7002",
-              "name": "Modern Blue Gear"
+              "name": "モダンブルーギア"
             },
             {
               "id": "collect-mechonis-field-parts-snow-transistor-600cd9e0",
-              "name": "Snow Transistor"
+              "name": "スノートランジスタ"
             }
           ]
         },
         {
           "type": "Strange",
-          "reward": "Fall Defence IV",
+          "reward": "落下防御 IV",
           "items": [
             {
               "id": "collect-mechonis-field-strange-tweet-tweet-b5939218",
-              "name": "Tweet Tweet"
+              "name": "ぴよぴよぽよぴよ"
             },
             {
               "id": "collect-mechonis-field-strange-flame-frame-cce973fb",
-              "name": "Flame Frame"
+              "name": "フレイムフレーム"
             }
           ]
         }
@@ -1624,40 +1624,40 @@ const COLLECTOPAEDIA_DATA = {
     },
     {
       "id": "central-factory",
-      "area": "Central Factory",
-      "page": "Central Factory Collection",
+      "area": "中央工廠",
+      "page": "中央工廠コレペディア",
       "source": "https://xenoblade.fandom.com/wiki/Central_Factory_Collection",
-      "completionReward": "Machina Driver III",
+      "completionReward": "マキナ・バンカー III",
       "groups": [
         {
           "type": "Veg",
-          "reward": "Strength Up IV",
+          "reward": "筋力アップ IV",
           "items": [
             {
               "id": "collect-central-factory-veg-meaty-potato-2bf33384",
-              "name": "Meaty Potato"
+              "name": "フレッシュメロン"
             },
             {
               "id": "collect-central-factory-veg-blue-root-733949ec",
-              "name": "Blue Root"
+              "name": "アサギイモ"
             }
           ]
         },
         {
           "type": "Animal",
-          "reward": "Blaze Defence IV",
+          "reward": "炎熱防御 IV",
           "items": [
             {
               "id": "collect-central-factory-animal-prism-centipede-b660d8da",
-              "name": "Prism Centipede"
+              "name": "プリズムカデ"
             },
             {
               "id": "collect-central-factory-animal-cable-mouse-d56810c8",
-              "name": "Cable Mouse"
+              "name": "ケーブルネズミー"
             },
             {
               "id": "collect-central-factory-animal-oil-fox-cc7dc70b",
-              "name": "Oil Fox"
+              "name": "オイルキツネ"
             }
           ]
         },
@@ -1667,65 +1667,65 @@ const COLLECTOPAEDIA_DATA = {
           "items": [
             {
               "id": "collect-central-factory-bug-dew-beetle-38804b24",
-              "name": "Dew Beetle"
+              "name": "アサツユカミキリ"
             },
             {
               "id": "collect-central-factory-bug-glider-cockroach-f5d7fb1e",
-              "name": "Glider Cockroach"
+              "name": "メッキタピラ"
             }
           ]
         },
         {
           "type": "Nature",
-          "reward": "Lock-On Resist IV",
+          "reward": "ロックオン抵抗 IV",
           "items": [
             {
               "id": "collect-central-factory-nature-white-styrene-1daa3e03",
-              "name": "White Styrene"
+              "name": "シロスチロール"
             },
             {
               "id": "collect-central-factory-nature-black-styrene-e4eee88b",
-              "name": "Black Styrene"
+              "name": "クロスチロール"
             },
             {
               "id": "collect-central-factory-nature-blood-oil-2a567ed2",
-              "name": "Blood Oil"
+              "name": "ブラッドオイル"
             }
           ]
         },
         {
           "type": "Parts",
-          "reward": "Talent Boost III",
+          "reward": "タレントブースト III",
           "items": [
             {
               "id": "collect-central-factory-parts-angel-engine-x-9547f14a",
-              "name": "Angel Engine X"
+              "name": "エンゼルエンジンA"
             },
             {
               "id": "collect-central-factory-parts-leaf-coil-90b25f7d",
-              "name": "Leaf Coil"
+              "name": "リーフコイル"
             },
             {
               "id": "collect-central-factory-parts-warrior-screw-c81dbf1f",
-              "name": "Warrior Screw"
+              "name": "ブシドーネジ"
             }
           ]
         },
         {
           "type": "Strange",
-          "reward": "Arts Heal IV",
+          "reward": "アーツヒール IV",
           "items": [
             {
               "id": "collect-central-factory-strange-smoke-cylinder-3f7426af",
-              "name": "Smoke Cylinder"
+              "name": "紫煙の円筒"
             },
             {
               "id": "collect-central-factory-strange-sacred-panther-175fdab1",
-              "name": "Sacred Panther"
+              "name": "エクスパンパンサー"
             },
             {
               "id": "collect-central-factory-strange-parts-noble-777eda3b",
-              "name": "Parts Noble"
+              "name": "パーツ・ノーブル"
             }
           ]
         }
@@ -1733,108 +1733,108 @@ const COLLECTOPAEDIA_DATA = {
     },
     {
       "id": "agniratha",
-      "area": "Agniratha",
-      "page": "Agniratha Collection",
+      "area": "帝都アグニラータ",
+      "page": "帝都アグニラータコレペディア",
       "source": "https://xenoblade.fandom.com/wiki/Agniratha_Collection",
-      "completionReward": "Debuff Resist IV",
+      "completionReward": "全デバフ抵抗 IV",
       "groups": [
         {
           "type": "Fruit",
-          "reward": "Auto-Heal Up III",
+          "reward": "自然回復アップ III",
           "items": [
             {
               "id": "collect-agniratha-fruit-juicy-blueberry-299dde71",
-              "name": "Juicy Blueberry"
+              "name": "タジルブルーベリー"
             },
             {
               "id": "collect-agniratha-fruit-sweet-lime-08678fed",
-              "name": "Sweet Lime"
+              "name": "アマアマライム"
             },
             {
               "id": "collect-agniratha-fruit-spicy-banana-9acc3331",
-              "name": "Spicy Banana"
+              "name": "ホットバナナ"
             }
           ]
         },
         {
           "type": "Flower",
-          "reward": "Topple Resist IV",
+          "reward": "転倒抵抗 IV",
           "items": [
             {
               "id": "collect-agniratha-flower-lewisia-silver-e3d8dc30",
-              "name": "Lewisia Silver"
+              "name": "レウィシアシルバー"
             },
             {
               "id": "collect-agniratha-flower-freesia-cyst-ea90fcc0",
-              "name": "Freesia Cyst"
+              "name": "フリージアシスト"
             },
             {
               "id": "collect-agniratha-flower-bellflower-crystal-7b338430",
-              "name": "Bellflower Crystal"
+              "name": "キキョウクリスタル"
             }
           ]
         },
         {
           "type": "Bug",
-          "reward": "Ether Def Up IV",
+          "reward": "エーテル防御増 IV",
           "items": [
             {
               "id": "collect-agniratha-bug-electric-cricket-d5ad3264",
-              "name": "Electric Cricket"
+              "name": "シデンコオロギ"
             },
             {
               "id": "collect-agniratha-bug-scissor-bug-8df46102",
-              "name": "Scissor Bug"
+              "name": "タチバサミムシ"
             }
           ]
         },
         {
           "type": "Nature",
-          "reward": "Ether Def Down IV",
+          "reward": "エーテル耐性減 IV",
           "items": [
             {
               "id": "collect-agniratha-nature-missing-tree-0d525a75",
-              "name": "Missing Tree"
+              "name": "ミッシングツリー"
             },
             {
               "id": "collect-agniratha-nature-fortune-feather-fd57a92b",
-              "name": "Fortune Feather"
+              "name": "幸福の羽"
             }
           ]
         },
         {
           "type": "Parts",
-          "reward": "Daze Resist IV",
+          "reward": "気絶抵抗 IV",
           "items": [
             {
               "id": "collect-agniratha-parts-fancy-bolt-58c61623",
-              "name": "Fancy Bolt"
+              "name": "ファンシーボルト"
             },
             {
               "id": "collect-agniratha-parts-blue-light-amp-14d07c18",
-              "name": "Blue Light Amp"
+              "name": "ブルーライトアンプ"
             },
             {
               "id": "collect-agniratha-parts-fairy-tale-diode-b875adf0",
-              "name": "Fairy Tale Diode"
+              "name": "メルヘンダイオード"
             },
             {
               "id": "collect-agniratha-parts-grape-spring-fc1bcae2",
-              "name": "Grape Spring"
+              "name": "ブドウゼンマイ"
             }
           ]
         },
         {
           "type": "Strange",
-          "reward": "Tension Swing III",
+          "reward": "テンション変動 III",
           "items": [
             {
               "id": "collect-agniratha-strange-eryth-blue-8456e3bd",
-              "name": "Eryth Blue"
+              "name": "ハイエルトブルー"
             },
             {
               "id": "collect-agniratha-strange-dramatic-night-24475c35",
-              "name": "Dramatic Night"
+              "name": "闇夜ドラマチック"
             }
           ]
         }
@@ -1842,98 +1842,98 @@ const COLLECTOPAEDIA_DATA = {
     },
     {
       "id": "prison-island",
-      "area": "Prison Island",
-      "page": "Prison Island Collection",
+      "area": "監獄島",
+      "page": "監獄島コレペディア",
       "source": "https://xenoblade.fandom.com/wiki/Prison_Island_Collection",
-      "completionReward": "Ledios Plate",
+      "completionReward": "レディオスプレート",
       "groups": [
         {
           "type": "Fruit",
-          "reward": "Break V",
+          "reward": "崩し V",
           "items": [
             {
               "id": "collect-prison-island-fruit-dry-lemon-f7649ec6",
-              "name": "Dry Lemon"
+              "name": "ドライレモン"
             },
             {
               "id": "collect-prison-island-fruit-death-lychee-1484933c",
-              "name": "Death Lychee"
+              "name": "デッドライチ"
             },
             {
               "id": "collect-prison-island-fruit-hell-raspberry-52cbd207",
-              "name": "Hell Raspberry"
+              "name": "ヘルスウィーティー"
             },
             {
               "id": "collect-prison-island-fruit-deadly-kiwi-d58dfa38",
-              "name": "Deadly Kiwi"
+              "name": "デッドリーキウイ"
             }
           ]
         },
         {
           "type": "Animal",
-          "reward": "Good Footing V",
+          "reward": "吹き飛び抵抗 V",
           "items": [
             {
               "id": "collect-prison-island-animal-dancing-squirrel-78eef66e",
-              "name": "Dancing Squirrel"
+              "name": "オドリス"
             },
             {
               "id": "collect-prison-island-animal-lightning-weasel-2f0d35b0",
-              "name": "Lightning Weasel"
+              "name": "イナズマイタチ"
             },
             {
               "id": "collect-prison-island-animal-angry-monkey-1fe2c8e0",
-              "name": "Angry Monkey"
+              "name": "イカリモンキー"
             }
           ]
         },
         {
           "type": "Bug",
-          "reward": "Agility Up V",
+          "reward": "素早さアップ V",
           "items": [
             {
               "id": "collect-prison-island-bug-senorita-scarab-29ab29f2",
-              "name": "Señorita Scarab"
+              "name": "セニョリータカブト"
             },
             {
               "id": "collect-prison-island-bug-emperor-beetle-90e49c1a",
-              "name": "Emperor Beetle"
+              "name": "スオウカナブン"
             }
           ]
         },
         {
           "type": "Nature",
-          "reward": "Strength Up V",
+          "reward": "筋力アップ V",
           "items": [
             {
               "id": "collect-prison-island-nature-absurd-branch-c7740985",
-              "name": "Absurd Branch"
+              "name": "アブソードブランチ"
             },
             {
               "id": "collect-prison-island-nature-insanity-moss-4b90bf43",
-              "name": "Insanity Moss"
+              "name": "マッドモス"
             }
           ]
         },
         {
           "type": "Parts",
-          "reward": "Ledios Cuisses",
+          "reward": "レディオスクィス",
           "items": [
             {
               "id": "collect-prison-island-parts-white-cover-93597501",
-              "name": "White Cover"
+              "name": "ホワイトカバー"
             },
             {
               "id": "collect-prison-island-parts-modern-resistor-ee85515a",
-              "name": "Modern Resistor"
+              "name": "モダンレジスタ"
             },
             {
               "id": "collect-prison-island-parts-green-cam-c3eb7a09",
-              "name": "Green Cam"
+              "name": "グリーンカム"
             },
             {
               "id": "collect-prison-island-parts-strong-screw-b56cf2ec",
-              "name": "Strong Screw"
+              "name": "ハートネジ"
             }
           ]
         },
@@ -1943,11 +1943,11 @@ const COLLECTOPAEDIA_DATA = {
           "items": [
             {
               "id": "collect-prison-island-strange-blue-glow-1de0242e",
-              "name": "Blue Glow"
+              "name": "紺青の残照"
             },
             {
               "id": "collect-prison-island-strange-blue-blood-494d64e5",
-              "name": "Blue Blood"
+              "name": "ハイクアッドブラッド"
             }
           ]
         }
@@ -1958,51 +1958,51 @@ const COLLECTOPAEDIA_DATA = {
       "area": "Other",
       "page": "Other Collection",
       "source": "https://xenoblade.fandom.com/wiki/Other_Collection",
-      "completionReward": "Aggro Down V",
+      "completionReward": "ヘイトダウン V",
       "groups": [
         {
           "type": "Bug",
-          "reward": "AP Up V",
+          "reward": "ＡＰアップ V",
           "items": [
             {
               "id": "collect-other-bug-minute-mantis-37e078db",
-              "name": "Minute Mantis"
+              "name": "ナナジュウナナフシ"
             },
             {
               "id": "collect-other-bug-love-beetle-9de4590e",
-              "name": "Love Beetle"
+              "name": "アイハンミョウ"
             }
           ]
         },
         {
           "type": "Parts",
-          "reward": "EXP Up V",
+          "reward": "ＥＸＰアップ V",
           "items": [
             {
               "id": "collect-other-parts-golden-cog-78d4834c",
-              "name": "Golden Cog"
+              "name": "金色歯車"
             },
             {
               "id": "collect-other-parts-angel-engine-y-7e156e4a",
-              "name": "Angel Engine Y"
+              "name": "エンゼルエンジンB"
             },
             {
               "id": "collect-other-parts-thunder-compass-071dea82",
-              "name": "Thunder Compass"
+              "name": "サンダーコンパス"
             }
           ]
         },
         {
           "type": "Strange",
-          "reward": "Critical Up V",
+          "reward": "会心アップ V",
           "items": [
             {
               "id": "collect-other-strange-coin-of-fortune-e44b4d17",
-              "name": "Coin of Fortune"
+              "name": "幸福の小さなコイン"
             },
             {
               "id": "collect-other-strange-love-source-db2436fa",
-              "name": "Love Source"
+              "name": "ホレルゲン"
             }
           ]
         }
