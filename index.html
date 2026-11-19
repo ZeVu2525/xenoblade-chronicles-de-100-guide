@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="ja" data-theme="light">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -1146,7 +1146,7 @@ html[data-theme="xenoblade"] .area-arrival{border-color:#2d7199;border-radius:0;
     <span><svg class="ui-icon" aria-hidden="true"><use href="#i-deadline"/></svg>期限</span>
     <span><svg class="ui-icon" aria-hidden="true"><use href="#i-heart"/></svg>キズナトーク</span>
     <span><svg class="ui-icon" aria-hidden="true"><use href="#i-warning"/></svg>必要なリーダー</span>
-    <span><svg class="ui-icon" aria-hidden="true"><use href="#i-material"/></svg>Material / collectible</span>
+    <span><svg class="ui-icon" aria-hidden="true"><use href="#i-material"/></svg>素材 / 収集品</span>
     <span><img class="game-icon" src="assets/game-icons/landmark-xcde.png" width="28" height="44" alt="" aria-hidden="true">場所</span>
   </div>
   <p class="route-safety-key"><img class="game-icon" src="assets/game-icons/timed-quest.png" width="18" height="21" alt="" aria-hidden="true"><span class="red">赤 = 取り逃し / 封鎖:</span>印字された期限の前に、そのカードを終える。<span class="pink">ピンク = 必要なパーティリーダー:</span>クエストを始める前、または報告する前に、指定のキャラクターへ切り替える。そうしないとNPCが説明しないことがある。推奨レベルは、名前のある敵や作業のレベルがあればそれを使い、なければその章の安全目標を使う。これは攻略上の目標で、ゲームの必須レベルではない。Expert Mode の加入時の下限で、新しく入ったキャラクターをそれより下げられないことがある。</p>
@@ -1157,7 +1157,7 @@ html[data-theme="xenoblade"] .area-arrival{border-color:#2d7199;border-radius:0;
 <!-- FIELD COMPANION -->
 <div class="panel" id="p-companion" role="tabpanel" aria-labelledby="tab-companion" hidden>
   <h2 class="icon-heading"><img class="game-icon" src="assets/game-icons/skills.png" width="100" height="100" alt="" aria-hidden="true">フィールド同行</h2>
-  <p>Turn your manual guide progress into a focused play session: a realistic checklist, the things to finish before leaving, the right current party, and world conditions worth setting now.</p>
+  <p>手入力した攻略の進行を、集中したプレイセッションに変える。現実的なチェックリスト、離れる前に終えること、今の正しいパーティ、今設定する価値のある世界の条件。</p>
   <div class="companion-shell">
     <div class="session-builder" id="companion-session" aria-label="冒険セッション">
       <label class="filter-field">セッションの長さ<select id="session-length"><option value="30">30分</option><option value="60">60分</option><option value="90">90分</option><option value="120">120分</option></select></label>
@@ -1175,9 +1175,9 @@ html[data-theme="xenoblade"] .area-arrival{border-color:#2d7199;border-radius:0;
     <section id="play-current" class="mission-current" aria-live="polite"></section>
     <section id="companion-next"><h2>この次</h2><div id="play-next" class="next-steps"></div></section>
     <section id="companion-area"><h2>エリア説明</h2><div id="area-briefing" class="brief-grid"></div></section>
-    <section id="companion-inventory"><h2>次の持ち物</h2><p>Quantities are manual and private to this browser. The planner extracts material cards from the route; it never reads game save data.</p><button type="button" class="route-link" data-open-tool="gems">ジェム合成助手を開く</button><div id="inventory-list" class="inventory-list"></div></section>
+    <section id="companion-inventory"><h2>次の持ち物</h2><p>個数は手入力で、このブラウザだけのものだ。プランナーはルートから素材カードを抜き出す。ゲームのセーブデータは読まない。</p><button type="button" class="route-link" data-open-tool="gems">ジェム合成助手を開く</button><div id="inventory-list" class="inventory-list"></div></section>
     <section id="companion-encounter" class="encounter-console"><h2>戦闘モード</h2><label class="filter-field">ボスまたは Unique Monster<select id="encounter-select"><option value="">資料を読み込み中…</option></select></label><div id="encounter-detail"></div></section>
-    <p class="offline-note"><b>Your checklist is private per browser profile.</b>GitHub Pages serves identical guide files to everyone, while progress remains in local browser storage. Export a JSON backup before clearing site data or moving devices.</p>
+    <p class="offline-note"><b>チェックリストは、ブラウザのプロファイルごとに非公開だ。</b>GitHub Pagesは全員に同じ攻略ファイルを配る。進行はブラウザのローカルストレージに残る。サイトデータを消す前、または端末を移す前に、JSONのバックアップを書き出す。</p>
   </div>
 </div>
 
@@ -1203,7 +1203,7 @@ html[data-theme="xenoblade"] .area-arrival{border-color:#2d7199;border-radius:0;
 <!-- MONSTERPEDIA -->
 <div class="panel" id="p-monsters" role="tabpanel" aria-labelledby="tab-reference" hidden>
   <h2 class="icon-heading"><img class="game-icon" src="assets/game-icons/enemy-sight.png" width="24" height="20" alt="" aria-hidden="true">Monsterpedia</h2>
-  <p>Every base-game and Future Connected enemy, with its level, habitat, appearance conditions and confirmed drops. Search checks monster names, areas and drops together.</p>
+  <p>本編と Future Connected の敵をすべて載せ、レベル、生息地、出現条件、確認済みドロップを示す。検索は敵の名前、エリア、ドロップをまとめて調べる。</p>
   <div class="lookup-toolbar">
     <label class="filter-field">検索<input type="search" id="monster-q" name="monster-search" autocomplete="off" spellcheck="false" placeholder="敵、エリア、ドロップ…"></label>
     <label class="filter-field">エリア<select id="monster-area"><option value="">すべてのエリア</option></select></label>
@@ -1226,7 +1226,7 @@ html[data-theme="xenoblade"] .area-arrival{border-color:#2d7199;border-radius:0;
 <!-- QUEST DEPENDENCIES -->
 <div class="panel" id="p-quests" role="tabpanel" aria-labelledby="tab-reference" hidden>
   <h2 class="icon-heading"><img class="game-icon" src="assets/game-icons/quest-alert.png" width="44" height="48" alt="" aria-hidden="true">クエストと依存</h2>
-  <p>Find a quest, see where and when it starts, what unlocks it, what follows it and which branch it excludes.</p>
+  <p>クエストを探し、どこでいつ始まり、何がそれを解放し、何が続き、どの分岐を除外するかを見る。</p>
   <div class="lookup-toolbar">
     <label class="filter-field">検索<input type="search" id="quest-q" name="quest-search" autocomplete="off" spellcheck="false" placeholder="クエスト、出し主、前提、報酬…"></label>
     <label class="filter-field">エリア<select id="quest-area"><option value="">すべてのエリア</option></select></label>
@@ -1276,23 +1276,23 @@ html[data-theme="xenoblade"] .area-arrival{border-color:#2d7199;border-radius:0;
     <p class="source-note" id="build-source"></p>
   </div>
   <h2>誰を操作するか</h2>
-  <div class="callout g"><p><strong>Reliable default: シュルク, 章1 to the post-game.</strong>His 未来視 show an incoming enemy art before it lands, and the correct response is モナドシールド, モナド アーマー, モナド スピード on the target, or warning the ally with<b>B</b>. The AI cannot make those encounter-specific reactions reliably.</p>
+  <div class="callout g"><p><strong>安定した初期値: シュルク、章1からクリア後まで。</strong>彼の未来視は、敵のアーツが着弾する前にそれを示し、正しい対応は対象へのモナドシールド、モナド アーマー、モナド スピード、または仲間への警告で押すボタンは<b>B</b>。AIは、その戦闘ごとの対応を安定して選べない。</p>
   <p><strong>8章からの攻撃的な別案:</strong>メリアを自分で操作し、AIはダンバンとリキ。エーテルの上限は最も高いが、AIのメリアは属性を溜めず放出する。上のビルド工房で、安定と最速討伐を切り替える。</p></div>
 
   <h2>進行ごとのパーティ</h2>
   <div class="scroll"><table>
     <tr><th>進行</th><th>パーティ</th><th>メモ</th></tr>
-    <tr><td>1-2章</td><td>シュルク / ライン / フィオルン</td><td>Forced. Learn 崩し → 転倒 on ライン.</td></tr>
+    <tr><td>1-2章</td><td>シュルク / ライン / フィオルン</td><td>固定。ラインで崩し → 転倒を覚える。</td></tr>
     <tr><td>3章</td><td>シュルク / ライン</td><td>二人だけの強制パーティ。</td></tr>
-    <tr><td>4章</td><td>シュルク / ライン / カルナ</td><td>ライン tanks with raw Defence, カルナ heals after joining.</td></tr>
-    <tr><td>5-6章</td><td>シュルク / ダンバン / カルナ</td><td>Transition to ダンバン's agility tanking while retaining reliable healing.</td></tr>
-    <tr><td>7-11章</td><td><b>シュルク / ダンバン / リキ</b></td><td>Reliable core once リキ joins; player メリア is the aggressive alternative from Ch8.</td></tr>
-    <tr><td>12章以降</td><td>シュルク / ダンバン / リキ</td><td>フィオルン rejoins but リキ is still the better AI.</td></tr>
-    <tr><td>強敵</td><td>メリア (you) / ダンバン / リキ</td><td>メリア for speed, シュルク for safety.</td></tr>
+    <tr><td>4章</td><td>シュルク / ライン / カルナ</td><td>ラインは素の防御でタンクし、カルナは加入後に回復する。</td></tr>
+    <tr><td>5-6章</td><td>シュルク / ダンバン / カルナ</td><td>安定した回復を残したまま、ダンバンの素早さによる回避タンクへ移る。</td></tr>
+    <tr><td>7-11章</td><td><b>シュルク / ダンバン / リキ</b></td><td>リキが加入したあとの安定した中核。プレイヤー操作のメリアは8章からの攻撃的な別案。</td></tr>
+    <tr><td>12章以降</td><td>シュルク / ダンバン / リキ</td><td>フィオルンは復帰するが、AIとしてはまだリキの方が上手い。</td></tr>
+    <tr><td>強敵</td><td>メリア（自分） / ダンバン / リキ</td><td>速さはメリア、安全はシュルク。</td></tr>
   </table></div>
 
-  <h3>Why シュルク / ダンバン / リキ</h3>
-  <p><b>ダンバン is an evasion tank.</b>With Agility gems and モナド スピード he simply does not get hit by physical attacks.<b>リキ</b>heals with<code>ガンバルも</code>, lands the strongest DoTs, and has a huge HP pool — and his AI plays him well. An evasion tank means almost no incoming damage, so a dedicated healer becomes redundant and battles get much faster.<b>Do not run ライン and ダンバン together</b>— two tanks is redundant unless you are deliberately topple-locking.</p>
+  <h3>なぜシュルク / ダンバン / リキか</h3>
+  <p><b>ダンバンは回避タンクだ。</b>素早さのジェムとモナド スピードがあれば、物理攻撃は当たらない。<b>リキ</b>は<code>ガンバルも</code>で回復し、最も強い継続ダメージを出し、HPが非常に多い — しかもAIは彼を上手く動かす。回避タンクなら受けるダメージがほとんど無く、専任のヒーラーは余剰になり、戦闘はずっと速くなる。<b>ラインとダンバンを一緒に出さない</b>— 意図して転倒を維持するのでなければ、タンク二人は余剰だ。</p>
 
   <h3>AIの質</h3>
   <div class="scroll"><table>
@@ -1303,105 +1303,105 @@ html[data-theme="xenoblade"] .area-arrival{border-color:#2d7199;border-radius:0;
     <tr><td>カルナ</td><td>及第</td><td>序盤だけ。あとで大きく落ちる</td></tr>
     <tr><td>フィオルン</td><td>平凡</td><td>使えるが、上限には届かない</td></tr>
     <tr><td>メリア</td><td>バーストの手順が苦手</td><td>支援か穴埋めだけ。ダメージが要るときは自分で操作する</td></tr>
-    <tr><td>シュルク</td><td>未来視のタイミングに制限される</td><td>Use beside player メリア/フィオルン only when you accept weaker reactive safety</td></tr>
+    <tr><td>シュルク</td><td>未来視のタイミングに制限される</td><td>プレイヤー操作のメリア/フィオルンの隣に置くのは、反応の安全が落ちることを受け入れるときだけ</td></tr>
   </table></div>
 
-  <h2>モナド Arts priority</h2>
+  <h2>モナドのアーツ優先度</h2>
   <div class="scroll"><table>
     <tr><th>アーツ</th><th>いつ</th><th>優先度</th></tr>
-    <tr><td>モナド エンチャント</td><td>Lets most physical party members damage 機神兵 normally; returned フィオルン is the important exception</td><td>最高。中盤</td></tr>
-    <tr><td>モナドシールド</td><td>Nullifies an enemy Talent Art only when シールド's Art level meets or exceeds the Vision's Roman numeral</td><td>Raise as required</td></tr>
-    <tr><td>モナド アーマー</td><td>Reduces physical/ether Art damage by up to 75% at max level; it does not stop enemy Talent Arts</td><td>最高。終盤</td></tr>
-    <tr><td>モナド スピード</td><td>Agility/evasion to one target —<b>put it on ダンバン</b></td><td>非常に高い</td></tr>
-    <tr><td>モナドバスター</td><td>Heavy damage, anti-機神兵</td><td>高い</td></tr>
-    <tr><td>モナド ブレイカー</td><td>Blocks enemy buffs and ether attacks</td><td>状況による</td></tr>
-    <tr><td>モナドイーター</td><td>Strips buffs, applies bleed</td><td>状況による</td></tr>
+    <tr><td>モナド エンチャント</td><td>物理寄りの仲間のほとんどが、機神兵に通常ダメージを通せるようにする。復帰したフィオルンは重要な例外</td><td>最高。中盤</td></tr>
+    <tr><td>モナドシールド</td><td>シールドのアーツレベルが未来視のローマ数字以上のときだけ、敵の Talent Art を無効にする</td><td>必要に応じて上げる</td></tr>
+    <tr><td>モナド アーマー</td><td>最大レベルで、物理／エーテルのアーツダメージを最大75%減らす。敵の Talent Arts は止めない</td><td>最高。終盤</td></tr>
+    <tr><td>モナド スピード</td><td>対象ひとりに素早さ／回避 —<b>ダンバンにかける</b></td><td>非常に高い</td></tr>
+    <tr><td>モナドバスター</td><td>重いダメージ、対機神兵</td><td>高い</td></tr>
+    <tr><td>モナド ブレイカー</td><td>敵の強化とエーテル攻撃を防ぐ</td><td>状況による</td></tr>
+    <tr><td>モナドイーター</td><td>強化を剥がし、出血を付与する</td><td>状況による</td></tr>
   </table></div>
-  <div class="callout a"><p><strong>モナド スピード on ダンバン is the strongest single interaction in the game.</strong>An evasion tank with an evasion buff is unhittable by physical attacks.</p></div>
+  <div class="callout a"><p><strong>モナド スピードをダンバンにかけるのは、このゲームで最も強い単一の組み合わせだ。</strong>回避バフの乗った回避タンクには、物理攻撃が当たらない。</p></div>
 
   <h2 class="icon-heading"><img class="game-icon" src="assets/game-icons/skills.png" width="100" height="100" alt="" aria-hidden="true">スキルツリーの投資順</h2>
-  <p>1. <b>ダンバン's agility and evasion skills.</b>The whole comp depends on him not being hit. 2.<b>シュルク's 必殺魂 line</b>for talent gauge generation. 3.<b>リキ's HP and healing.</b> 4. <b>ダンバン's 鉄壁の守護</b>before スパイク encounters — it reduces スパイク damage by 20%, so combine it with the dossier's required mitigation rather than treating it as immunity. 5. Everything else opportunistically.</p>
+  <p>1. <b>ダンバンの素早さと回避のスキル。</b>この編成は、彼が当たらないことにかかっている。2.<b>シュルクの必殺魂のライン</b>でタレントゲージを溜める。3.<b>リキのHPと回復。</b> 4. <b>ダンバンの鉄壁の守護</b>をスパイク戦の前に上げる — スパイクダメージを20%減らすので、無効化とは考えず、資料が求める軽減と組み合わせる。5. 残りは臨機応変に。</p>
   <h3>隠しスキルツリー — 解放表</h3>
-  <p><b>There are 14: two for every base-game character.</b>They are quest rewards, several sit behind long or timed prerequisite chains, and every finale has a required leader. The route repeats that requirement on the exact card.</p>
+  <p><b>14ある。本編のキャラクター一人につき二つ。</b>クエスト報酬で、いくつかは長い、または時間制限のある前提の連鎖の奥にあり、どの結末にも必要なリーダーがいる。ルートはその条件を、該当するカードに繰り返して書いてある。</p>
   <div class="scroll"><table>
     <tr><th>キャラクター</th><th>系統</th><th>解放方法</th><th>章</th></tr>
-    <tr><td rowspan="2"><b>シュルク</b></td><td>Pessimism</td><td><b>シュルク leads:</b> <code>機械オンチの腕時計</code> → <b>デジレーンの将来</b></td><td>1 → 6</td></tr>
-    <tr><td>Bravery</td><td><b>シュルク leads:</b> <code>小娘隊長の復活</code> <b>または</b> <code>Trust</code>; either branch unlocks it</td><td>17</td></tr>
-    <tr><td rowspan="2"><b>ライン</b></td><td>Impatience</td><td><b>ライン leads:</b> <b>料理対決・決着！</b> — ミュキシリア, コロニー6</td><td>10</td></tr>
-    <tr><td>Camaraderie</td><td><b>ライン leads:</b> <code>友情の三種の神器</code> — フリッツ, コロニー9</td><td>17</td></tr>
-    <tr><td rowspan="2"><b>カルナ</b></td><td>Reliance</td><td><b>カルナ leads:</b> <code>害虫駆除</code> + <code>ヒミツの技術革新</code> → <b>母の死を越えて</b></td><td>8</td></tr>
-    <tr><td>Affection</td><td><b>カルナ leads for each objective:</b> <code>逃避行の阻止</code>after the Argentis chain</td><td>17</td></tr>
-    <tr><td rowspan="2"><b>フィオルン</b></td><td>Rashness</td><td><b>フィオルン leads:</b> <b>約束の剣</b>— カラル; requires 花が枯れちゃう, 2★ Hidden Village and 機神界フィールド access</td><td>13</td></tr>
-    <tr><td>Innocence</td><td><b>フィオルン leads:</b> <b>ぶつかり合うふたつ</b> — デュランド, 脱出艇キャンプ</td><td>17</td></tr>
-    <tr><td rowspan="2"><b>ダンバン</b></td><td>Obstinance</td><td><b>ダンバン leads:</b>the Valak chain ending in<b>パワーバランス</b></td><td>10</td></tr>
-    <tr><td>Enthusiasm</td><td><b>ダンバン accepts; シュルク turns in:</b>オルフェス's<b>成長するために！</b>chain, 3.5★ Hidden Village</td><td>17</td></tr>
-    <tr><td rowspan="2"><b>リキ</b></td><td>Cowardice</td><td><b>リキ leads:</b> <code>不正表示問題</code> → <b>おっきくな〜れ</b>, 3.5★ Central Bionis</td><td>10</td></tr>
-    <tr><td>Heroism</td><td><b>リキ leads:</b>Sage chain ending in<b>センニンの最終試練</b></td><td>17</td></tr>
-    <tr><td rowspan="2"><b>メリア</b></td><td>Reticence</td><td><b>メリア leads:</b>エーテルプラント chain ending in<b>焦心苦慮の灯台</b></td><td>8</td></tr>
-    <tr><td>Passion</td><td><b>メリア leads:</b> <b>古代ハイエンターの謎</b>; 2.5★ Upper Bionis, ハイエンターの紋章, and タリアの研究<b>または</b> ザトールの調査</td><td>17</td></tr>
+    <tr><td rowspan="2"><b>シュルク</b></td><td>Pessimism</td><td><b>シュルクがリーダー:</b> <code>機械オンチの腕時計</code> → <b>デジレーンの将来</b></td><td>1 → 6</td></tr>
+    <tr><td>Bravery</td><td><b>シュルクがリーダー:</b> <code>小娘隊長の復活</code> <b>または</b> <code>Trust</code>; どちらの分岐でも解放される</td><td>17</td></tr>
+    <tr><td rowspan="2"><b>ライン</b></td><td>Impatience</td><td><b>ラインがリーダー:</b> <b>料理対決・決着！</b> — ミュキシリア, コロニー6</td><td>10</td></tr>
+    <tr><td>Camaraderie</td><td><b>ラインがリーダー:</b> <code>友情の三種の神器</code> — フリッツ, コロニー9</td><td>17</td></tr>
+    <tr><td rowspan="2"><b>カルナ</b></td><td>Reliance</td><td><b>カルナがリーダー:</b> <code>害虫駆除</code> + <code>ヒミツの技術革新</code> → <b>母の死を越えて</b></td><td>8</td></tr>
+    <tr><td>Affection</td><td><b>各目標でカルナがリーダー:</b> <code>逃避行の阻止</code>、Argentisの連鎖のあと</td><td>17</td></tr>
+    <tr><td rowspan="2"><b>フィオルン</b></td><td>Rashness</td><td><b>フィオルンがリーダー:</b> <b>約束の剣</b>— カラル。花が枯れちゃう、2★ Hidden Village、機神界フィールドへの到達が必要</td><td>13</td></tr>
+    <tr><td>Innocence</td><td><b>フィオルンがリーダー:</b> <b>ぶつかり合うふたつ</b> — デュランド, 脱出艇キャンプ</td><td>17</td></tr>
+    <tr><td rowspan="2"><b>ダンバン</b></td><td>Obstinance</td><td><b>ダンバンがリーダー:</b>Valakの連鎖で、最後は<b>パワーバランス</b></td><td>10</td></tr>
+    <tr><td>Enthusiasm</td><td><b>受注はダンバン、報告はシュルク:</b>オルフェスの<b>成長するために！</b>の連鎖、3.5★ Hidden Village</td><td>17</td></tr>
+    <tr><td rowspan="2"><b>リキ</b></td><td>Cowardice</td><td><b>リキがリーダー:</b> <code>不正表示問題</code> → <b>おっきくな〜れ</b>, 3.5★ Central Bionis</td><td>10</td></tr>
+    <tr><td>Heroism</td><td><b>リキがリーダー:</b>Sageの連鎖で、最後は<b>センニンの最終試練</b></td><td>17</td></tr>
+    <tr><td rowspan="2"><b>メリア</b></td><td>Reticence</td><td><b>メリアがリーダー:</b>エーテルプラントの連鎖で、最後は<b>焦心苦慮の灯台</b></td><td>8</td></tr>
+    <tr><td>Passion</td><td><b>メリアがリーダー:</b> <b>古代ハイエンターの謎</b>; 2.5★ Upper Bionis、ハイエンターの紋章、タリアの研究<b>または</b> ザトールの調査</td><td>17</td></tr>
   </table></div>
-  <div class="callout a"><p><strong>Leader warning:</strong>all 14 finales are badged at their exact route step.<code>成長するために！</code>is the strange one: ダンバン must accept it, but シュルク must lead for the final turn-in. メリア's Passion tree is not lost if<code>タリアの研究</code>expires;<code>ザトールの調査</code>is the 章17 replacement prerequisite.</p></div>
-  <div class="callout"><p><strong>章correction worth knowing.</strong> <code>治療装置を開発！</code>と<code>入れ歯を作る！</code>are<b>章10</b>quests from the 御神体の祭壇 in サイハテ村, not 章7. The same visit is when you take<code>不正表示問題</code>と<code>おっきくな〜れ</code>for リキ's tree — so サイハテ村 needs a deliberate return trip in 章10, not just a pass in 章7. Build Central Bionis affinity to<b>3.5★</b>in 章7 so the gate is already open when you come back.</p></div>
-  <div class="callout"><p><strong>ぶつかり合うふたつ is one of the richest optional bundles and easy to overlook.</strong>It is<b>not timed</b>, but it unlocks フィオルン's hidden tree, pays 63,500 G and 158,000 EXP, and spawns two Unique Monster — 火花のゲルデシア (98) and 虚空のザンデン (98) in テフラ洞窟's 女王蜘蛛の巣窟. It appears at the 脱出艇キャンプ in 章17, which most guides treat as permanently closed after 章5. It is not — デュランド and エイン repopulate it.</p></div>
-  <div class="callout a"><p><strong>Chain warning:</strong> <code>デジレーンの将来</code>requires<code>機械オンチの腕時計</code>from 章1. Skip the 章1 quest and シュルク's Pessimism tree never becomes available.</p></div>
+  <div class="callout a"><p><strong>リーダーの警告:</strong>14の結末はすべて、該当するルート手順に印が付いている。<code>成長するために！</code>は例外だ。受注はダンバンだが、最後の報告ではシュルクがリーダーでなければならない。メリアの Passion 系統は、<code>タリアの研究</code>が期限切れでも失われない。<code>ザトールの調査</code>が章17の代替前提だ。</p></div>
+  <div class="callout"><p><strong>知っておきたい章の訂正。</strong> <code>治療装置を開発！</code>と<code>入れ歯を作る！</code>は<b>章10</b>のクエストで、サイハテ村の御神体の祭壇から出る。章7ではない。同じ訪問で、<code>不正表示問題</code>と<code>おっきくな〜れ</code>をリキの系統のために取る — よってサイハテ村は章10で意図して戻る必要があり、章7の通過だけでは足りない。Central Bionisのキズナを<b>3.5★</b>まで章7で上げ、戻ったときに門がすでに開いているようにする。</p></div>
+  <div class="callout"><p><strong>ぶつかり合うふたつは、最も実りの多い任意の束の一つで、見落としやすい。</strong>これは<b>時間制限が無い</b>が、フィオルンの隠し系統を解放し、63,500 G と 158,000 EXP を払い、テフラ洞窟の女王蜘蛛の巣窟に Unique Monster を二体出す — 火花のゲルデシア (98) と虚空のザンデン (98)。章17の脱出艇キャンプに現れる。多くの攻略は、そこを章5のあと永久に閉じたものとして扱う。閉じていない — デュランドとエインが戻る。</p></div>
+  <div class="callout a"><p><strong>連鎖の警告:</strong> <code>デジレーンの将来</code>には<code>機械オンチの腕時計</code>が必要で、それは章1のもの。章1のクエストを飛ばすと、シュルクの Pessimism 系統は二度と解放されない。</p></div>
 
   <h2>Skill Links</h2>
-  <div class="callout g"><p>キズナコイン come from<b>levelling up</b>and from<b>first kills on Unique Monster</b>. <b>Coins are refundable</b>— unlink a skill and you get them back, so experiment freely.</p></div>
+  <div class="callout g"><p>キズナコインの入手元は<b>レベルアップ</b>と<b>Unique Monster の初回撃破</b>. <b>コインは返金できる</b>— スキルのリンクを外すと戻るので、自由に試してよい。</p></div>
   <div class="scroll"><table>
-    <tr><th>キャラクター</th><th>Link</th><th>入手元</th><th>Cost</th><th>Effect</th></tr>
-    <tr><td rowspan="4"><b>ダンバン</b><br><span class="muted">priority</span></td><td>ハイスピード</td><td>メリア</td><td>20</td><td>+15 Agility —<b>take first</b></td></tr>
-    <tr><td>大暴れ</td><td>ライン</td><td>20</td><td>+10% double attack</td></tr>
-    <tr><td>連携の極み</td><td>シュルク</td><td>18</td><td>+25% chain attack damage</td></tr>
-    <tr><td>強撃の極意</td><td>フィオルン</td><td>13</td><td>+20% critical damage</td></tr>
-    <tr><td rowspan="4"><b>シュルク</b></td><td>攻めの素質</td><td>ライン</td><td>17</td><td>+10% weapon attack</td></tr>
-    <tr><td>強撃の極意</td><td>フィオルン</td><td>13</td><td>+20% critical damage</td></tr>
-    <tr><td>必殺魂</td><td>ダンバン</td><td>48</td><td>More tension from Arts</td></tr>
-    <tr><td>ハイスピード</td><td>メリア</td><td>20</td><td>+15 Agility</td></tr>
-    <tr><td rowspan="4"><b>リキ</b></td><td>治癒の知識</td><td>シュルク</td><td>8</td><td>+15% healing</td></tr>
-    <tr><td>友情の連鎖</td><td>シュルク</td><td>45</td><td>+15% Chain Link chance</td></tr>
-    <tr><td>栄光の未来</td><td>シュルク</td><td>28</td><td>Maxes talent gauge after 未来視</td></tr>
-    <tr><td>ハイスピード</td><td>メリア</td><td>20</td><td>+15 Agility</td></tr>
-    <tr><td rowspan="4"><b>ライン</b></td><td>堅実な戦い</td><td>シュルク</td><td>11</td><td>Physical and ether defence</td></tr>
-    <tr><td>鋼鉄の肉体</td><td>ダンバン</td><td>49</td><td>-15% physical damage taken</td></tr>
-    <tr><td>Immunization</td><td>シュルク</td><td>45</td><td>Blocks stat-reduction debuffs</td></tr>
-    <tr><td>勇者のモコモコ</td><td>リキ</td><td>43</td><td>Debuff resistance</td></tr>
-    <tr><td rowspan="4"><b>メリア</b></td><td>攻性エーテル</td><td>カルナ</td><td>20</td><td>+20% ether Art damage</td></tr>
-    <tr><td>友情の連鎖</td><td>シュルク</td><td>45</td><td>+15% Chain Link chance</td></tr>
-    <tr><td>お日様大好き</td><td>リキ</td><td>18</td><td>Reduced cooldown in daytime</td></tr>
-    <tr><td>元気大爆発</td><td>フィオルン</td><td>80</td><td>Tension from Talent Arts</td></tr>
-    <tr><td rowspan="4"><b>フィオルン</b><br><span class="muted">"Seven"</span></td><td>兜の緒締め</td><td>ダンバン</td><td>50</td><td>HP on criticals</td></tr>
-    <tr><td>神業の回避</td><td>シュルク</td><td>45</td><td>+5% Burst Affinity after evading</td></tr>
-    <tr><td>武装の極意</td><td>ダンバン</td><td>10</td><td>Reduces equipment weight</td></tr>
-    <tr><td>ハイスピード</td><td>メリア</td><td>20</td><td>+15 Agility</td></tr>
-    <tr><td rowspan="4"><b>カルナ</b></td><td>治癒の知識</td><td>シュルク</td><td>8</td><td>+15% healing</td></tr>
-    <tr><td>Bodybuilder</td><td>ライン</td><td>6</td><td>+5% max HP</td></tr>
-    <tr><td>重装の心得</td><td>ダンバン</td><td>15</td><td>Equip heavy armour early</td></tr>
-    <tr><td>鋼鉄の肉体</td><td>ダンバン</td><td>49</td><td>-15% physical damage taken</td></tr>
+    <tr><th>キャラクター</th><th>リンク</th><th>入手元</th><th>コスト</th><th>効果</th></tr>
+    <tr><td rowspan="4"><b>ダンバン</b><br><span class="muted">優先</span></td><td>ハイスピード</td><td>メリア</td><td>20</td><td>+15 素早さ —<b>最初に取る</b></td></tr>
+    <tr><td>大暴れ</td><td>ライン</td><td>20</td><td>+10% ダブルアタック</td></tr>
+    <tr><td>連携の極み</td><td>シュルク</td><td>18</td><td>+25% チェインアタックのダメージ</td></tr>
+    <tr><td>強撃の極意</td><td>フィオルン</td><td>13</td><td>+20% クリティカルダメージ</td></tr>
+    <tr><td rowspan="4"><b>シュルク</b></td><td>攻めの素質</td><td>ライン</td><td>17</td><td>+10% 武器攻撃</td></tr>
+    <tr><td>強撃の極意</td><td>フィオルン</td><td>13</td><td>+20% クリティカルダメージ</td></tr>
+    <tr><td>必殺魂</td><td>ダンバン</td><td>48</td><td>アーツで得られるテンションが増える</td></tr>
+    <tr><td>ハイスピード</td><td>メリア</td><td>20</td><td>+15 素早さ</td></tr>
+    <tr><td rowspan="4"><b>リキ</b></td><td>治癒の知識</td><td>シュルク</td><td>8</td><td>+15% 回復</td></tr>
+    <tr><td>友情の連鎖</td><td>シュルク</td><td>45</td><td>+15% Chain Link 確率</td></tr>
+    <tr><td>栄光の未来</td><td>シュルク</td><td>28</td><td>未来視のあとタレントゲージが最大になる</td></tr>
+    <tr><td>ハイスピード</td><td>メリア</td><td>20</td><td>+15 素早さ</td></tr>
+    <tr><td rowspan="4"><b>ライン</b></td><td>堅実な戦い</td><td>シュルク</td><td>11</td><td>物理とエーテルの防御</td></tr>
+    <tr><td>鋼鉄の肉体</td><td>ダンバン</td><td>49</td><td>-15% 被物理ダメージ</td></tr>
+    <tr><td>Immunization</td><td>シュルク</td><td>45</td><td>能力低下のデバフを防ぐ</td></tr>
+    <tr><td>勇者のモコモコ</td><td>リキ</td><td>43</td><td>デバフ耐性</td></tr>
+    <tr><td rowspan="4"><b>メリア</b></td><td>攻性エーテル</td><td>カルナ</td><td>20</td><td>+20% エーテルアーツのダメージ</td></tr>
+    <tr><td>友情の連鎖</td><td>シュルク</td><td>45</td><td>+15% Chain Link 確率</td></tr>
+    <tr><td>お日様大好き</td><td>リキ</td><td>18</td><td>昼のクールダウンが短くなる</td></tr>
+    <tr><td>元気大爆発</td><td>フィオルン</td><td>80</td><td>タレントアーツでテンションを得る</td></tr>
+    <tr><td rowspan="4"><b>フィオルン</b><br><span class="muted">"Seven"</span></td><td>兜の緒締め</td><td>ダンバン</td><td>50</td><td>クリティカルでHP回復</td></tr>
+    <tr><td>神業の回避</td><td>シュルク</td><td>45</td><td>+5% 回避後の Burst Affinity</td></tr>
+    <tr><td>武装の極意</td><td>ダンバン</td><td>10</td><td>装備重量を減らす</td></tr>
+    <tr><td>ハイスピード</td><td>メリア</td><td>20</td><td>+15 素早さ</td></tr>
+    <tr><td rowspan="4"><b>カルナ</b></td><td>治癒の知識</td><td>シュルク</td><td>8</td><td>+15% 回復</td></tr>
+    <tr><td>Bodybuilder</td><td>ライン</td><td>6</td><td>+5% 最大HP</td></tr>
+    <tr><td>重装の心得</td><td>ダンバン</td><td>15</td><td>序盤から重い鎧を装備できる</td></tr>
+    <tr><td>鋼鉄の肉体</td><td>ダンバン</td><td>49</td><td>-15% 被物理ダメージ</td></tr>
   </table></div>
 
-  <h2>Gems</h2>
-  <div class="callout a"><p><strong>Agility is the strongest stat in the game.</strong>It powers the evasion-tank plan and raises hit rate against higher-level enemies, and hit rate is what gates the superbosses.</p></div>
-  <p>Gem crafting: the<b>pair of characters working the furnace determines the number of cycles, based on their affinity</b>. Higher party affinity means better gems — another reason the affinity grind pays for itself.</p>
+  <h2>ジェム</h2>
+  <div class="callout a"><p><strong>素早さはこのゲームで最も強い能力値だ。</strong>回避タンクの計画を支え、自分よりレベルの高い敵への命中を上げ、命中率こそが強敵への門になる。</p></div>
+  <p>ジェム合成では、<b>炉を担当する二人のキズナが、サイクル数を決める</b>。パーティのキズナが高いほどジェムが良くなる — キズナ周回が元を取る理由がもう一つある。</p>
   <div class="scroll"><table>
-    <tr><th>Gem</th><th>理由</th></tr>
-    <tr><td><b>素早さアップ</b></td><td>Best stat. Everything else is downstream</td></tr>
-    <tr><td><b>スパイク防御</b></td><td>Use for a documented damaging, counter or 転倒 スパイク; 鉄壁の守護 adds 20% reduction</td></tr>
-    <tr><td><b>夜間命中アップ</b></td><td>Accuracy vs higher-level enemies. Maxed rank required for Abaasy</td></tr>
-    <tr><td><b>転倒時間プラス</b></td><td>Extends topple. Rank VI needed to topple-lock Abaasy</td></tr>
-    <tr><td>全デバフ抵抗 / 即死抵抗</td><td>Abaasy's instant-death counter spike</td></tr>
-    <tr><td>ヘイスト</td><td>Faster Art cooldowns</td></tr>
-    <tr><td>ダブルアタック</td><td>Compounds with 大暴れ on ダンバン</td></tr>
-    <tr><td>筋力アップ / Ether Up</td><td>Flat damage. Lower priority than Agility</td></tr>
+    <tr><th>ジェム</th><th>理由</th></tr>
+    <tr><td><b>素早さアップ</b></td><td>最良の能力値。ほかはすべてこの下流にある</td></tr>
+    <tr><td><b>スパイク防御</b></td><td>資料が示すダメージ、カウンター、転倒のスパイクに使う。鉄壁の守護は20%の軽減を加える</td></tr>
+    <tr><td><b>夜間命中アップ</b></td><td>自分よりレベルの高い敵への命中。Abaasy には最大ランクが必要</td></tr>
+    <tr><td><b>転倒時間プラス</b></td><td>転倒を伸ばす。Abaasy を転倒で止め続けるにはランクVI</td></tr>
+    <tr><td>全デバフ抵抗 / 即死抵抗</td><td>Abaasy の即死カウンタースパイク</td></tr>
+    <tr><td>ヘイスト</td><td>アーツのクールダウンが速くなる</td></tr>
+    <tr><td>ダブルアタック</td><td>ダンバンの大暴れと重なる</td></tr>
+    <tr><td>筋力アップ / Ether Up</td><td>固定ダメージ。素早さより優先度は低い</td></tr>
   </table></div>
 
   <h2>装備</h2>
-  <p><b>装備はジェムほど大事ではない。</b>A mediocre piece with three good slots beats a better piece with one — prioritise slot count.<b>本編中に装備を周回しない</b>; quest rewards and shops are sufficient because your level is capped at the story target. The gear chase belongs in the post-game.</p>
+  <p><b>装備はジェムほど大事ではない。</b>良い枠が三つの凡庸な品は、枠が一つのより良い品に勝つ — 枠の数を優先する。<b>本編中に装備を周回しない</b>。クエスト報酬と店で足りる。レベルは本編の目標で頭打ちになる。装備を追うのはクリア後だ。</p>
   <div class="scroll"><table>
-    <tr><th>Named gear</th><th>出典</th></tr>
-    <tr><td><b>皇家の錫杖</b> (メリア)</td><td>🔴 Missable. Ch10, control メリア and talk to カリアン before he leaves</td></tr>
-    <tr><td>ティターンプレート</td><td>All four コロニー6 categories at Level 5</td></tr>
-    <tr><td>Oriental Glass / ティターンアーム</td><td>コロニー6 Housing / Commerce at Level 5</td></tr>
-    <tr><td>カーボンバンカー · ホワイトクラスター</td><td>コロニー9 · 巨神脚 コレペディア completion</td></tr>
+    <tr><th>名前付き装備</th><th>出典</th></tr>
+    <tr><td><b>皇家の錫杖</b> (メリア)</td><td>🔴 取り逃し。章10。メリアを操作し、カリアンが去る前に話す</td></tr>
+    <tr><td>ティターンプレート</td><td>コロニー6の四部門すべてがレベル5</td></tr>
+    <tr><td>Oriental Glass / ティターンアーム</td><td>コロニー6の Housing / Commerce がレベル5</td></tr>
+    <tr><td>カーボンバンカー · ホワイトクラスター</td><td>コロニー9 · 巨神脚のコレペディア達成</td></tr>
     <tr><td>隕石のバクバク · アルコズパイク</td><td>🔴 大剣の渓谷 コレペディア</td></tr>
     <tr><td>タウロスグリーヴ · タウロスヘルム</td><td>🔴 機神界フィールド コレペディア</td></tr>
     <tr><td>マキナ・バンカー III</td><td>🔴 中央工廠 コレペディア</td></tr>
@@ -1409,172 +1409,172 @@ html[data-theme="xenoblade"] .area-arrival{border-color:#2d7199;border-radius:0;
   </table></div>
 
   <h2>Expert Mode のレベル管理</h2>
-  <p>Set your level to the 章target and leave it. Banked EXP is never lost and there is no penalty for a large bank.<b>本編中に貯金を使わない</b>— its purpose is the post-game, where the gap between you (~90) and the superbosses (100-120) is otherwise brutal. Do<b>drop</b>your level deliberately for level-conditioned quests and to keep Unique Monster fights meaningful.</p>
-  <p class="muted">Against superbosses, level is only part of it. Abaasy at 120 will still shred an underprepared Lv99 party — gems and モナド アーマー matter more than the last few levels.</p>
+  <p>レベルを章の目標に合わせ、そのままにする。貯めたEXPは失われず、大量に持っていても罰は無い。<b>本編中に貯金を使わない</b>— 使い道はクリア後だ。自分（~90）と強敵（100-120）の差は、そうしなければ厳しい。意図してレベルを<b>下げる</b>。レベル条件のあるクエストと、意味のある難度に保つ Unique Monster 戦のために</p>
+  <p class="muted">強敵に対して、レベルは一部でしかない。120の Abaasy は、準備不足のLv99パーティをそれでも引き裂く — 最後の数レベルより、ジェムとモナド アーマーの方が大事だ。</p>
 
   <h2>三つのキズナ</h2>
   <div class="scroll"><table>
     <tr><th>種類</th><th>開くもの</th><th>上げ方</th></tr>
-    <tr><td>パーティのキズナ</td><td>キズナトーク, Skill Link capacity, gem crafting cycles</td><td>Burst Affinity prompts, キズナトーク, questing together, gifts</td></tr>
-    <tr><td>Area affinity (5★)</td><td>コレペディア "Other" page, NPC trades, quest availability</td><td>Side quests for that area's residents</td></tr>
-    <tr><td>NPC affinity (the chart)</td><td>Quests, trades, コロニー6 residents</td><td>Talking repeatedly at different times, completing their quests</td></tr>
+    <tr><td>パーティのキズナ</td><td>キズナトーク、Skill Link の容量、ジェム合成のサイクル</td><td>Burst Affinity の合図、キズナトーク、一緒にクエスト、贈り物</td></tr>
+    <tr><td>エリアのキズナ（5★）</td><td>コレペディアの "Other" ページ、NPCの交換、クエストの出現</td><td>そのエリアの住人のサイドクエスト</td></tr>
+    <tr><td>NPCのキズナ（キズナグラム）</td><td>クエスト、交換、コロニー6の住人</td><td>違う時間に繰り返し話しかけ、そのクエストを達成する</td></tr>
   </table></div>
-  <div class="callout g"><p><strong>近道:</strong>superbosses drop<b>Veritas Glyphs</b>→ trade for<b>Love Sources</b>→ large party affinity boosts. That is why superbosses come<em>before</em>the affinity grind in the post-game.</p></div>
+  <div class="callout g"><p><strong>近道:</strong>強敵は<b>Veritas Glyphs</b>を落とす → 交換先は<b>Love Sources</b>→ パーティのキズナが大きく上がる。だから強敵は、クリア後のキズナ周回の<em>前</em>に来る。</p></div>
 </div>
 
 <!-- COLONY 6 -->
 <div class="panel" id="p-colony6" role="tabpanel" aria-labelledby="tab-completion" hidden>
   <div class="grid">
     <div class="card"><h4>必要ゴールド</h4><div class="big">1,995,000</div><p class="muted">本当の壁はゴールド。素材ではない。</p></div>
-    <div class="card"><h4>部門</h4><div class="big">4 × 5</div><p class="muted">Housing, Commerce, Nature, Special</p></div>
+    <div class="card"><h4>部門</h4><div class="big">4 × 5</div><p class="muted">Housing、Commerce、Nature、Special</p></div>
     <div class="card"><h4>危険</h4><div class="big">9</div><p class="muted">すべて回収経路がある</p></div>
     <div class="card"><h4>交換は無い</h4><div class="big">1</div><p class="muted">サモンの高級魚粉 ×5</p></div>
   </div>
 
   <details class="guide-reference" open>
-    <summary>Open the コロニー6 shop and reconstruction map</summary>
-    <img src="assets/game-icons/colony6-shop.png" width="960" height="540" loading="lazy" decoding="async" alt="Numbered コロニー6 shop and reconstruction map">
-    <p>Reference image from the Xenoblade Wiki. Use it to orient yourself once residents and shops begin moving in; the material and build order below is the route authority.</p>
+    <summary>コロニー6の店と再建マップを開く</summary>
+    <img src="assets/game-icons/colony6-shop.png" width="960" height="540" loading="lazy" decoding="async" alt="番号付きのコロニー6の店と再建マップ">
+    <p>Xenoblade Wiki の参考画像。住人と店が入り始めたら、これで位置を掴む。ルートの基準は、下の素材と建築順だ。</p>
   </details>
 
-  <div class="callout g"><p><strong>コロニー6 cannot be soft-locked.</strong>Every at-risk material has a recovery path, mostly through マシーナの隠れ里 and コロニー6's own collection. The trade backups just cost affinity and time.</p></div>
+  <div class="callout g"><p><strong>コロニー6はソフトロックしない。</strong>危険な素材にはすべて回収経路があり、多くはマシーナの隠れ里とコロニー6自身の採集を通る。交換の代替はキズナと時間を使うだけだ。</p></div>
 
-  <h2>Materials at risk, and how to recover</h2>
+  <h2>危険な素材と回収方法</h2>
   <div class="scroll"><table>
-    <tr><th>素材</th><th>エリア</th><th>Closes at</th><th>代替</th></tr>
-    <tr><td><b>レッドフロンティア</b> ×2</td><td>大剣の渓谷</td><td>緑のフェイス, Ch13</td><td>Trade レアナ, マシーナの隠れ里</td></tr>
-    <tr><td><b>アートコアコイル</b> ×2</td><td>ガラハド要塞</td><td>緑のフェイス, Ch13</td><td>Trade カイルス, マシーナの隠れ里</td></tr>
-    <tr><td>モスプレート ×2</td><td>機神界フィールド</td><td>帝都アグニラータ bosses, Ch14</td><td>Trade ノポリック, コロニー6</td></tr>
-    <tr><td>シーブルーストン ×2</td><td>機神界フィールド</td><td>帝都アグニラータ bosses, Ch14</td><td>Trade セガール, 燐光の地ザトール (post-MC)</td></tr>
-    <tr><td>レウィシアシルバー ×2</td><td>帝都アグニラータ</td><td>メイナス神殿, Ch14</td><td>Trade ストロジャム, コロニー6</td></tr>
-    <tr><td>ブルーライトアンプ ×3</td><td>帝都アグニラータ</td><td>メイナス神殿, Ch14</td><td>Trade オルクホング, コロニー6</td></tr>
-    <tr><td>エンゼルエンジンA ×2</td><td>中央工廠</td><td>Ch15 (revisit Ch16)</td><td>Trade シータクロス, コロニー6</td></tr>
-    <tr><td>頑丈な装甲 ×4</td><td>皇都アカモート trade</td><td>機神界中枢, Ch15</td><td>Fight フラーベル・アンドス, エルト海</td></tr>
-    <tr><td>海王の長寿蒲焼 ×1</td><td>皇都アカモート trade</td><td>機神界中枢, Ch15</td><td>ヒュエル・レクソス, コロニー6, rain, post-MC</td></tr>
+    <tr><th>素材</th><th>エリア</th><th>閉鎖</th><th>代替</th></tr>
+    <tr><td><b>レッドフロンティア</b> ×2</td><td>大剣の渓谷</td><td>緑のフェイス、章13</td><td>レアナと交換、マシーナの隠れ里</td></tr>
+    <tr><td><b>アートコアコイル</b> ×2</td><td>ガラハド要塞</td><td>緑のフェイス、章13</td><td>カイルスと交換、マシーナの隠れ里</td></tr>
+    <tr><td>モスプレート ×2</td><td>機神界フィールド</td><td>帝都アグニラータのボス、章14</td><td>ノポリックと交換、コロニー6</td></tr>
+    <tr><td>シーブルーストン ×2</td><td>機神界フィールド</td><td>帝都アグニラータのボス、章14</td><td>セガールと交換、燐光の地ザトール (機神界中枢後)</td></tr>
+    <tr><td>レウィシアシルバー ×2</td><td>帝都アグニラータ</td><td>メイナス神殿、章14</td><td>ストロジャムと交換、コロニー6</td></tr>
+    <tr><td>ブルーライトアンプ ×3</td><td>帝都アグニラータ</td><td>メイナス神殿、章14</td><td>オルクホングと交換、コロニー6</td></tr>
+    <tr><td>エンゼルエンジンA ×2</td><td>中央工廠</td><td>章15 (章16で再訪)</td><td>シータクロスと交換、コロニー6</td></tr>
+    <tr><td>頑丈な装甲 ×4</td><td>皇都アカモートの交換</td><td>機神界中枢, Ch15</td><td>フラーベル・アンドスを討伐, エルト海</td></tr>
+    <tr><td>海王の長寿蒲焼 ×1</td><td>皇都アカモートの交換</td><td>機神界中枢, Ch15</td><td>ヒュエル・レクソス, コロニー6, 雨, 清レア後</td></tr>
   </table></div>
 
-  <div class="callout g"><p><strong>Not at risk despite appearances:</strong> <b>幸福の羽</b>, <b>クロスチロール</b>と<b>レトロダイオード</b>all appear in the<b>コロニー6</b>collection as well as their closing area. コロニー6 never closes.</p></div>
+  <div class="callout g"><p><strong>見た目に反して危険ではない:</strong> <b>幸福の羽</b>, <b>クロスチロール</b>と<b>レトロダイオード</b>はいずれも<b>コロニー6</b>のコレクションにも、閉じるエリアにも出る。コロニー6は決して閉じない。</p></div>
 
-  <h2>The actual grind: three rare drops</h2>
+  <h2>実際の周回: レアなドロップ3つ</h2>
   <div class="scroll"><table>
     <tr><th>素材</th><th>場所</th><th>メモ</th></tr>
-    <tr><td><b>化石サル</b> ×1</td><td>マクナ原生林</td><td>Needed for Housing 2, very early. Backup: trade プコ</td></tr>
-    <tr><td><b>アイスキャベツ</b> ×2</td><td>ヴァラク雪山</td><td>The grindiest item in the game. Backup: trade ユーリィ</td></tr>
-    <tr><td><b>クロマメレバー</b> ×2</td><td>巨神胎内 (Ch17)</td><td><b>No trade backup exists</b></td></tr>
+    <tr><td><b>化石サル</b> ×1</td><td>マクナ原生林</td><td>住宅2に必要で、時期はとても早い。代替: プコと交換</td></tr>
+    <tr><td><b>アイスキャベツ</b> ×2</td><td>ヴァラク雪山</td><td>このゲームでいちばん周回が重い品。代替: ユーリィと交換</td></tr>
+    <tr><td><b>クロマメレバー</b> ×2</td><td>巨神胎内 (Ch17)</td><td><b>交換の代替は無い</b></td></tr>
   </table></div>
 
-  <div class="callout a"><p><strong>The farm loop.</strong>スキップトラベル resets every emptied 採集ポイント. Empty the points near a landmark, スキップトラベル away, come straight back — they have refilled and the rare slot re-rolls. Ten cycles is about five minutes and beats wandering the map every time.</p></div>
+  <div class="callout a"><p><strong>採集の周回。</strong>スキップトラベルは、空にした採集ポイントをすべてリセットする。ランドマーク近くのポイントを空にし、スキップトラベルで離れて、すぐ戻る — 補充されていて、レア枠は振り直されている。10周で約5分。毎回、地図を歩き回るより速い。</p></div>
 
   <h2>建築順</h2>
-  <p><b>Housing を3にしてから Nature を3。</b>Almost every resident gates on a Housing level, and Housing 3 + Nature 3 unlocks<b>ストロジャム</b>, who is a hard prerequisite for both ミンカ and ゴワゴワー and who trades レウィシアシルバー.<b>Do not attempt any Level 5 until after 章14</b>, since three of the four Level 5 tiers want materials from closing areas.</p>
+  <p><b>住宅を3にしてから自然を3。</b>住人のほぼ全員は住宅のレベルが条件になり、住宅3＋自然3で解放される<b>ストロジャム</b>は、ミンカとゴワゴワーの両方に欠かせない前提で、レウィシアシルバーを交換する。<b>どのレベル5も、章14のあとまで手を出さない</b>、4つのレベル5のうち3つは閉じるエリアの素材を求めるから。</p>
 
   <h2>排他の住人</h2>
   <div class="scroll"><table>
-    <tr><th>取る</th><th>取らない</th><th>入手元</th><th>Reason</th></tr>
-    <tr><td><b>パイラル</b></td><td>メフィメフィ</td><td>コロニー9</td><td>Harder gate but better resident, and you are building all four categories anyway</td></tr>
-    <tr><td>ミンカ <i>または</i> ゴワゴワー</td><td>—</td><td>サイハテ村</td><td>Both +3 Pop, both need ストロジャム. ミンカ wants 55% Completion, ゴワゴワー wants Pop 100 — take whichever gate you hit first</td></tr>
-    <tr><td>Zel<i>または</i> エン・シルバー</td><td>—</td><td>皇都アカモート</td><td>Both +4 Pop. Must speak to<b>both</b>and invite<b>Don</b>first. Functionally identical</td></tr>
+    <tr><th>取る</th><th>取らない</th><th>入手元</th><th>理由</th></tr>
+    <tr><td><b>パイラル</b></td><td>メフィメフィ</td><td>コロニー9</td><td>条件は厳しいが住人としては上で、4部門はどれも上げることになる</td></tr>
+    <tr><td>ミンカ <i>または</i> ゴワゴワー</td><td>—</td><td>サイハテ村</td><td>どちらも人口+3、どちらもストロジャムが必要。ミンカは復興度55%を求め、ゴワゴワーは人口100を求める — 先に届いた条件を取る</td></tr>
+    <tr><td>Zel<i>または</i> エン・シルバー</td><td>—</td><td>皇都アカモート</td><td>どちらも人口+4。必ず<b>両方</b>に話し、<b>Don</b>を先に招く。機能は同じ</td></tr>
   </table></div>
-  <p class="muted">Full per-level material tables and the complete resident list are in<code>research/02-colony-6-reconstruction.md</code>.</p>
+  <p class="muted">レベルごとの全素材表と、住人の完全な一覧の収録先は<code>research/02-colony-6-reconstruction.md</code>.</p>
 </div>
 
 <!-- BRANCHES -->
 <div class="panel" id="p-branches" role="tabpanel" aria-labelledby="tab-completion" hidden>
-  <h2>All 10 mutually exclusive quest pairs</h2>
-  <div class="callout a"><p><strong>Decision principle.</strong>This run banks EXP and targets a full キズナグラム and コレペディア. So<b>affinity and reputation beat EXP</b>, and<b>gold beats EXP</b>(コロニー6 costs ~2,000,000 G). Where a source says one option gives "better EXP/gold as a later quest" and the other gives "more affinity," affinity wins.</p></div>
+  <h2>互いに排他なクエストの組、全10</h2>
+  <div class="callout a"><p><strong>判断の原則。</strong>この周回はEXPを貯め、キズナグラムとコレペディアの全達成を狙う。だから<b>キズナと評判がEXPに勝つ</b>、そして<b>ゴールドがEXPに勝つ</b>（コロニー6の費用は~2,000,000 G）。資料が、一方は「後のクエストとしてはEXPとゴールドが上」、もう一方は「キズナが多い」と言うなら、キズナが勝つ。</p></div>
   <div class="scroll"><table>
     <tr><th>取る</th><th>取らない</th><th>エリア</th><th>章</th><th>理由</th></tr>
-    <tr><td><b>兄弟ゲンカ・オトウト編</b></td><td>兄弟ゲンカ・アニキ編</td><td>コロニー9</td><td>1</td><td>Better affinity. Give the pollen to<b>ジローク</b>. Changes the follow-up quest</td></tr>
-    <tr><td><i>either</i> <b>Romantic Notions</b></td><td>—</td><td>コロニー9</td><td>1</td><td>Verified to have no effect on rewards, affinity or follow-ups. The only genuinely free pair</td></tr>
-    <tr><td><b>君の贈る物語</b></td><td>君が贈る物語</td><td>脱出艇キャンプ</td><td>4-5</td><td>Better affinity, and unlocks additional コロニー6 quests</td></tr>
-    <tr><td><b>懐かしの我が街へ</b></td><td>いざ、コロニー6へ</td><td>コロニー6</td><td>5</td><td>Identical outcome, but いざ、コロニー6へ only appears at マシーナの隠れ里 in<b>Ch12</b>. Seven chapters of reconstruction for 12,000 G is not a trade</td></tr>
-    <tr><td><b>コロニー6のお嬢様 (ミュキシリア)</b></td><td>コロニー6のお嬢様 (ストロジャム)</td><td>コロニー6</td><td>5+</td><td>Near coin flip. 5,000 EXP /<b>11,000 G</b>/ アメシストアーマー vs 5,300 / 10,000 / アメシストレギンス.<b>Same affinity outcome either way</b></td></tr>
-    <tr><td><b>興奮の中年</b></td><td>夢中の詩人</td><td>コロニー6</td><td>5+</td><td>24,000 EXP / <b>28,500 G</b>/ レックスアーム, and upgrades<b>ローズウェスト to "Good Friends"</b>— she is an invitable resident. Also hands you 2 エクス Iron Hearts, which Housing 3 wants</td></tr>
-    <tr><td><b>治療装置を開発！</b></td><td>入れ歯を作る！</td><td>サイハテ村</td><td>7</td><td>Better EXP and money, no counter-argument</td></tr>
-    <tr><td><b>タリアの研究</b></td><td>ザトールの調査</td><td>皇都アカモート</td><td>8-14</td><td>Both unlock メリア's 5th skill branch. タリア's gives more Upper Bionis reputation =<b>Area Affinity</b>, needed at 5★ for the コレペディア "Other" page. 🔴<b>Deadline Ch15</b></td></tr>
-    <tr><td><b>いつまでも君と一緒に</b></td><td>何があっても君を愛す</td><td>皇都アカモート</td><td>8-14</td><td>Choice is made inside<code>自分の本心を知りたい</code>— speak to<b>ローザ before リコ</b>. Upgrades two chart links; the alternative documents none</td></tr>
-    <tr><td><b>冒険者達の遭難</b></td><td>帰ってこない相棒</td><td>皇都アカモート</td><td>8-14</td><td>The alternative pays more EXP and gold but<b>leaves the キズナグラム unchanged</b></td></tr>
+    <tr><td><b>兄弟ゲンカ・オトウト編</b></td><td>兄弟ゲンカ・アニキ編</td><td>コロニー9</td><td>1</td><td>キズナが上。花粉を渡す相手は<b>ジローク</b>。後続クエストが変わる</td></tr>
+    <tr><td><i>どちらでも</i> <b>Romantic Notions</b></td><td>—</td><td>コロニー9</td><td>1</td><td>報酬にも、キズナにも、後続にも影響しないと確認済み。本当に自由な組はこれだけ</td></tr>
+    <tr><td><b>君の贈る物語</b></td><td>君が贈る物語</td><td>脱出艇キャンプ</td><td>4-5</td><td>キズナが上で、コロニー6のクエストが追加で開く</td></tr>
+    <tr><td><b>懐かしの我が街へ</b></td><td>いざ、コロニー6へ</td><td>コロニー6</td><td>5</td><td>結果は同じ。ただし、いざ、コロニー6へが出るのはマシーナの隠れ里だけで、時期は<b>Ch12</b>。12,000 Gのために復興を7章分かけるのは、交換にならない</td></tr>
+    <tr><td><b>コロニー6のお嬢様 (ミュキシリア)</b></td><td>コロニー6のお嬢様 (ストロジャム)</td><td>コロニー6</td><td>5+</td><td>ほぼ五分。5,000 EXP /<b>11,000 G</b>/ アメシストアーマー対 5,300 / 10,000 / アメシストレギンス。<b>キズナの結果はどちらでも同じ</b></td></tr>
+    <tr><td><b>興奮の中年</b></td><td>夢中の詩人</td><td>コロニー6</td><td>5+</td><td>24,000 EXP / <b>28,500 G</b>/ レックスアーム、そして上げるのは<b>ローズウェストを「親友」にすること</b>— 招ける住人だ。あわせてエクスの鉄心臓を2個くれ、住宅3がそれを求める</td></tr>
+    <tr><td><b>治療装置を開発！</b></td><td>入れ歯を作る！</td><td>サイハテ村</td><td>7</td><td>EXPとお金が上で、反対材料は無い</td></tr>
+    <tr><td><b>タリアの研究</b></td><td>ザトールの調査</td><td>皇都アカモート</td><td>8-14</td><td>どちらもメリアの5番目のスキル系統を開く。タリア側は Upper Bionis の評判がより多く =<b>Area Affinity</b>、コレペディアの「その他」ページには5★が必要。🔴<b>期限はCh15</b></td></tr>
+    <tr><td><b>いつまでも君と一緒に</b></td><td>何があっても君を愛す</td><td>皇都アカモート</td><td>8-14</td><td>選択をするのは<code>自分の本心を知りたい</code>の中 — 話しかけるのは<b>ローザがリコより先</b>。キズナグラムの線を2本上げる。もう一方に記録された変化は無い</td></tr>
+    <tr><td><b>冒険者達の遭難</b></td><td>帰ってこない相棒</td><td>皇都アカモート</td><td>8-14</td><td>もう一方はEXPとゴールドが多いが<b>キズナグラムは変わらない</b></td></tr>
   </table></div>
-  <div class="callout"><p><strong>The nastiest trap here is タリアの研究.</strong>It lives in 皇都アカモート, which dies at 機神界中枢.<code>ザトールの調査</code>is only obtainable<em>after</em>機神界中枢 — so drifting past 章15 without taking タリアの研究 silently converts your choice into the worse one.</p></div>
+  <div class="callout"><p><strong>ここでいちばん厄介な罠はタリアの研究。</strong>所在は皇都アカモートで、そこは機神界中枢で消える。<code>ザトールの調査</code>を入手できるのは<em>後・</em>機神界中枢をクリアしてからだけ — 章15を通り過ぎてタリアの研究を取らないと、選択は黙って悪い方へすり替わる。</p></div>
 </div>
 
 <!-- SUPERBOSSES -->
 <div class="panel" id="p-bosses" role="tabpanel" aria-labelledby="tab-completion" hidden>
-  <h2>The 5 superbosses</h2>
+  <h2>強敵5体</h2>
   <div class="guide-feature">
-    <div><p>All are Unique Monster at Level 100+. Four of the five require clearing 機神界中枢 first.</p><p class="muted">Abaasy is the final check: the route below puts the 夜間命中アップ and defensive preparation in place before you deliberately seek its blizzard-night spawn.</p></div>
-    <figure><img src="assets/game-icons/superboss-abaasy.png" width="960" height="540" loading="lazy" decoding="async" alt="雪檻のアバーシ in ヴァラク雪山"><figcaption>In-game 雪檻のアバーシ reference image · Xenoblade Wiki</figcaption></figure>
+    <div><p>いずれも Unique Monster で、レベルは100+。5体のうち4体は、先に機神界中枢のクリアが必要。</p><p class="muted">Abaasyが最後の確認になる。下のルートは、吹雪の夜の出現を意図して探しに行く前に、夜間命中アップと防御の準備を揃える。</p></div>
+    <figure><img src="assets/game-icons/superboss-abaasy.png" width="960" height="540" loading="lazy" decoding="async" alt="ヴァラク雪山の雪檻のアバーシ"><figcaption>ゲーム内の雪檻のアバーシ参照画像 · Xenoblade Wiki</figcaption></figure>
   </div>
   <div class="scroll"><table>
-    <tr><th>#</th><th>Name</th><th>Lv</th><th>場所</th><th>条件</th><th>Key trait</th></tr>
-    <tr><td>1</td><td><b>終世のマークス</b></td><td>100</td><td>Valak, 三大賢者の頂</td><td>Night</td><td>Weakest. The only one that can be dazed, and the most consistently hittable without 夜間命中アップ</td></tr>
-    <tr><td>2</td><td><b>太古のデイダラ</b></td><td>105</td><td>落ちた腕, 残骸の浜辺</td><td>Post-機神界中枢</td><td>Strongest 機神兵-type.<b>Drops Rank V 夜間命中アップ cylinders — farm it</b></td></tr>
-    <tr><td>3</td><td><b>暴帝のアルセーヌ</b></td><td>108</td><td>燐光の地ザトール, N of 光球のオベリスク</td><td>Post-機神界中枢</td><td>Purely physical, no spikes, half-duration topple. High damage, fast attacks</td></tr>
-    <tr><td>4</td><td><b>豪雪のベルガザス</b></td><td>114</td><td>Valak, near 大氷河地帯</td><td>Post-機神界中枢</td><td>No 転倒 resistance, but its 2,540-damage 転倒 スパイク means the control plan still needs スパイク防御</td></tr>
-    <tr><td>5</td><td><b>雪檻のアバーシ</b></td><td>120</td><td>Valak, 三大賢者の頂</td><td>Night + blizzard, post-MC</td><td>Highest level in the game. Instant-death counter spike. Needs maxed 夜間命中アップ and Rank VI 転倒時間プラス</td></tr>
+    <tr><th>#</th><th>名前</th><th>Lv</th><th>場所</th><th>条件</th><th>特徴</th></tr>
+    <tr><td>1</td><td><b>終世のマークス</b></td><td>100</td><td>ヴァラク, 三大賢者の頂</td><td>夜</td><td>最弱。気絶できるのはこの一体だけで、夜間命中アップがなくてもいちばん安定して当たる</td></tr>
+    <tr><td>2</td><td><b>太古のデイダラ</b></td><td>105</td><td>落ちた腕, 残骸の浜辺</td><td>機神界中枢の清レア後</td><td>最強の機神兵タイプ。<b>ランクVの夜間命中アップのシリンダーを落とす — 周回する</b></td></tr>
+    <tr><td>3</td><td><b>暴帝のアルセーヌ</b></td><td>108</td><td>燐光の地ザトール, 光球のオベリスクの北</td><td>機神界中枢の清レア後</td><td>純粋な物理で、スパイクは無く、転倒時間は半分。ダメージは高く、攻撃は速い</td></tr>
+    <tr><td>4</td><td><b>豪雪のベルガザス</b></td><td>114</td><td>ヴァラク, 大氷河地帯の近く</td><td>機神界中枢の清レア後</td><td>転倒の耐性は無いが、2,540ダメージの転倒スパイクがあるので、制御の計画にはまだスパイク防御が必要</td></tr>
+    <tr><td>5</td><td><b>雪檻のアバーシ</b></td><td>120</td><td>ヴァラク, 三大賢者の頂</td><td>夜 + 吹雪, 清レア後</td><td>ゲーム最高レベル。即死のカウンタースパイク。夜間命中アップは最大、ランクVIの転倒時間プラスが必要</td></tr>
   </table></div>
-  <div class="callout a"><p><strong>Kill order matters.</strong>Marcus first because he is beatable without 夜間命中アップ. Then Daedala<em>second</em>and farm it, because its Rank V 夜間命中アップ cylinders are what make Belgazas and Abaasy hittable at all.</p></div>
-  <div class="workshop-actions"><button type="button" class="route-link" data-open-tool="party" data-party-phase="post" data-party-members="shulk,dunban,riki" data-party-leader="shulk">Load the superboss party</button><button type="button" class="route-link" data-open-tool="chain" data-chain-phase="post" data-chain-party="shulk,dunban,riki" data-chain-leader="shulk">Plan this party's chain</button><button type="button" class="route-link" data-open-tool="gems" data-gem-phase="post" data-gem-target="夜間命中アップ">Craft 夜間命中アップ</button></div>
+  <div class="callout a"><p><strong>討伐順が大事。</strong>マークスが先。夜間命中アップなしで倒せるから。次にデイダラを<em>二番</em>にして周回する。ランクVの夜間命中アップのシリンダーが、ベルガザスとAbaasyに当たるようにするものだから。</p></div>
+  <div class="workshop-actions"><button type="button" class="route-link" data-open-tool="party" data-party-phase="post" data-party-members="shulk,dunban,riki" data-party-leader="shulk">強敵のパーティを読み込む</button><button type="button" class="route-link" data-open-tool="chain" data-chain-phase="post" data-chain-party="shulk,dunban,riki" data-chain-leader="shulk">このパーティのチェインを計画</button><button type="button" class="route-link" data-open-tool="gems" data-gem-phase="post" data-gem-target="夜間命中アップ">夜間命中アップを合成</button></div>
 
-  <h3>Loadout</h3>
+  <h3>装備構成</h3>
   <div class="scroll"><table>
-    <tr><th>Item</th><th>理由</th></tr>
-    <tr><td><b>スパイク防御</b></td><td>Boss-specific. Equip it for documented damaging, counter or 転倒 Spikes; ダンバン's<b>鉄壁の守護</b>is 20% additional reduction</td></tr>
-    <tr><td><b>夜間命中アップ</b></td><td>Accuracy against higher-level enemies. Maxed rank required for Abaasy</td></tr>
-    <tr><td>全デバフ抵抗 / 即死抵抗</td><td>Abaasy's instant-death mechanic</td></tr>
-    <tr><td>転倒時間プラス (Rank VI)</td><td>Belgazas topple-lock; nearly impossible on Abaasy without Rank VI</td></tr>
-    <tr><td>素早さアップ</td><td>Hit rate</td></tr>
-    <tr><td><b>モナド アーマー</b>, maxed</td><td>75% reduction to physical and ether Art damage; not enemy Talent Arts</td></tr>
+    <tr><th>項目</th><th>理由</th></tr>
+    <tr><td><b>スパイク防御</b></td><td>ボスごとに変える。資料にあるダメージ、カウンター、または転倒のスパイクへ装備する。ダンバンの<b>鉄壁の守護</b>は追加で20%の軽減</td></tr>
+    <tr><td><b>夜間命中アップ</b></td><td>自分よりレベルの高い敵への命中。Abaasyには最大ランクが必要</td></tr>
+    <tr><td>全デバフ抵抗 / 即死抵抗</td><td>Abaasyの即死の仕組み</td></tr>
+    <tr><td>転倒時間プラス (ランクVI)</td><td>ベルガザスの転倒ロック。ランクVIが無いとAbaasyではほぼ不可能</td></tr>
+    <tr><td>素早さアップ</td><td>命中率</td></tr>
+    <tr><td><b>モナド アーマー</b>、最大</td><td>物理とエーテルのアーツダメージを75%軽減。敵のタレントアーツは対象外</td></tr>
   </table></div>
 
-  <h3>Rewards</h3>
-  <p>Rank V crystals with<b>気絶威力アップ</b>と<b>夜間命中アップ</b>attributes, craftable into the Rank VI gems the endgame armour wants. Plus<b>Veritas Glyphs</b>, tradeable for<b>Love Sources</b>, which give large party affinity boosts — the reason superbosses come before the affinity grind.</p>
-  <div class="callout g"><p><strong>33 of the 157 Unique Monster live in permanently-missable areas</strong>— 大剣の渓谷 8, ガラハド要塞 3, 機神界フィールド 5, 中央工廠 9, 帝都アグニラータ 8. Five of those are<b>double-gated</b>: the quest that spawns them is itself missable. Full list in<code>research/04-unique-monsters.md</code>.</p></div>
+  <h3>報酬</h3>
+  <p>ランクVの結晶。持つのは<b>気絶威力アップ</b>と<b>夜間命中アップ</b>の属性で、終盤の鎧が求めるランクVIのジェムに合成できる。加えて<b>ベリタス・グリフ</b>と交換できる<b>ホレルゲン</b>は、パーティのキズナを大きく上げる — 強敵をキズナ周回より前に置く理由だ。</p>
+  <div class="callout g"><p><strong>157体の Unique Monster のうち33体は、永久に取り逃すエリアにいる</strong>— 大剣の渓谷 8, ガラハド要塞 3, 機神界フィールド 5, 中央工廠 9, 帝都アグニラータ 8。そのうち5体は<b>二重の門</b>: 出現させるクエスト自体が取り逃せる。完全な一覧は<code>research/04-unique-monsters.md</code>.</p></div>
 </div>
 
 <!-- WEATHER -->
 <div class="panel" id="p-weather" role="tabpanel" aria-labelledby="tab-reference" hidden>
-  <h2>Weather and time dependent spawns</h2>
-  <p>Set these up deliberately rather than hoping. Expert Mode lets you idle to shift time.</p>
+  <h2>天候と時刻で出現が変わる敵</h2>
+  <p>運任せにせず、条件を意図して揃える。Expert Mode なら、放置して時刻をずらせる。</p>
   <div class="scroll"><table>
     <tr><th>条件</th><th>Unique Monster</th></tr>
-    <tr><td><b>Thunderstorm</b></td><td>純白のエドワルド (巨神脚) · 甲殻のロックウェル (巨神脚) · 幽玄のホーランド (コロニー6) · 雷鳴のダブロン (エルト海)</td></tr>
-    <tr><td><b>Rain or thunderstorm</b></td><td>午睡のウルフェン (巨神脚) · 甲殻のロックウェル · 幽玄のホーランド</td></tr>
-    <tr><td><b>Clear weather</b></td><td>流麗のアルバトロ (Makna) · 老兄のグラグース (Makna) · 大渦のベルモ (エルト海) · 閻魔のサレオス (落ちた腕)</td></tr>
-    <tr><td><b>Blizzard</b></td><td>七星のグシオン (Valak) · 雪檻のアバーシ (Valak)</td></tr>
-    <tr><td><b>Fog</b></td><td>老練なヨーゼル (燐光の地ザトール — also night)</td></tr>
-    <tr><td><b>Shooting Stars</b></td><td>常道のベンダズ (エルト海 — also night)</td></tr>
-    <tr><td><b>Night</b></td><td>鉄壁のレッドロブ · 薄影のマトリクス · 堅牢なコーネフ · 闇夜のカルダモン · 怠惰のブルーコ · 秀麗のバルバトス · 隠蔽のガミジン · 七星のグシオン · 放浪のアモン · 終世のマークス · 雪檻のアバーシ · 老練なヨーゼル · 早老のレラジェ · 常道のベンダズ</td></tr>
-    <tr><td><b>Specific hour</b></td><td>魅惑のグリューネ (5:00 PM) · 盛栄のゼパル (6:00 PM)</td></tr>
-    <tr><td><b>Day</b></td><td>借宿のドロテーア · 暴風のワイダーデン · 陽光のシュヴァイク</td></tr>
+    <tr><td><b>雷雨</b></td><td>純白のエドワルド (巨神脚) · 甲殻のロックウェル (巨神脚) · 幽玄のホーランド (コロニー6) · 雷鳴のダブロン (エルト海)</td></tr>
+    <tr><td><b>雨、または雷雨</b></td><td>午睡のウルフェン (巨神脚) · 甲殻のロックウェル · 幽玄のホーランド</td></tr>
+    <tr><td><b>晴れ</b></td><td>流麗のアルバトロ (Makna) · 老兄のグラグース (Makna) · 大渦のベルモ (エルト海) · 閻魔のサレオス (落ちた腕)</td></tr>
+    <tr><td><b>吹雪</b></td><td>七星のグシオン (Valak) · 雪檻のアバーシ (Valak)</td></tr>
+    <tr><td><b>霧</b></td><td>老練なヨーゼル (燐光の地ザトール — 夜も)</td></tr>
+    <tr><td><b>流星</b></td><td>常道のベンダズ (エルト海 — 夜も)</td></tr>
+    <tr><td><b>夜</b></td><td>鉄壁のレッドロブ · 薄影のマトリクス · 堅牢なコーネフ · 闇夜のカルダモン · 怠惰のブルーコ · 秀麗のバルバトス · 隠蔽のガミジン · 七星のグシオン · 放浪のアモン · 終世のマークス · 雪檻のアバーシ · 老練なヨーゼル · 早老のレラジェ · 常道のベンダズ</td></tr>
+    <tr><td><b>特定の時刻</b></td><td>魅惑のグリューネ (5:00 PM) · 盛栄のゼパル (6:00 PM)</td></tr>
+    <tr><td><b>昼</b></td><td>借宿のドロテーア · 暴風のワイダーデン · 陽光のシュヴァイク</td></tr>
   </table></div>
 
-  <h2>Weather-gated materials</h2>
+  <h2>天候限定の素材</h2>
   <div class="scroll"><table>
     <tr><th>素材</th><th>条件</th></tr>
-    <tr><td><b>小雨の元素</b>(Special 1)</td><td>Kill アクア・ネブラ on 巨神脚 during a<b>thunderstorm</b></td></tr>
-    <tr><td><b>海王の長寿蒲焼</b>(Commerce 5)</td><td>ヒュエル・レクソス at 貨物運搬路, コロニー6 —<b>rain</b>, post-機神界中枢</td></tr>
-    <tr><td><b>ポニオの蹄判子</b>×5 (Housing 4)</td><td>ランポ・ポニオ, 落ちた腕 — <b>night</b></td></tr>
-    <tr><td><b>ヴォルフの王室毛皮</b>×3 (Housing 4)</td><td>カエルム・ヴォルフ, 落ちた腕 — <b>night</b>. Same circuit as above</td></tr>
+    <tr><td><b>小雨の元素</b>(Special 1)</td><td>巨神脚でアクア・ネブラを倒す。天候は<b>雷雨</b></td></tr>
+    <tr><td><b>海王の長寿蒲焼</b>(Commerce 5)</td><td>コロニー6の貨物運搬路にいるヒュエル・レクソス。条件は<b>雨</b>、機神界中枢のあと</td></tr>
+    <tr><td><b>ポニオの蹄判子</b>×5 (Housing 4)</td><td>ランポ・ポニオ, 落ちた腕 — <b>夜</b></td></tr>
+    <tr><td><b>ヴォルフの王室毛皮</b>×3 (Housing 4)</td><td>カエルム・ヴォルフ, 落ちた腕 — <b>夜</b>。上と同じ周回</td></tr>
   </table></div>
 
-  <h2>Night-only キズナトーク</h2>
+  <h2>夜だけのキズナトーク</h2>
   <div class="scroll"><table>
-    <tr><th>Pair</th><th>場所</th><th>キズナ</th></tr>
-    <tr><td>ライン &amp; ダンバン</td><td>居住区 憩いの広場, コロニー9</td><td>Pink</td></tr>
-    <tr><td>ダンバン &amp; リキ</td><td>嘆きの泉, テフラ洞窟</td><td>Purple</td></tr>
-    <tr><td>堅牢なコーネフ area — シュルク &amp; ダンバン</td><td>ザタナルギアの滝, 燐光の地ザトール</td><td>Green</td></tr>
-    <tr><td>カルナ &amp; メリア</td><td>メルフィカ通り 1F far west, 皇都アカモート</td><td>Purple</td></tr>
-    <tr><td>ライン &amp; フィオルン</td><td>ラ・ルース教会 secret passage, Valak</td><td>Purple</td></tr>
-    <tr><td>フィオルン &amp; カルナ</td><td>Near ジャンクス, 落ちた腕</td><td>Green</td></tr>
+    <tr><th>ペア</th><th>場所</th><th>キズナ</th></tr>
+    <tr><td>ライン &amp; ダンバン</td><td>居住区 憩いの広場, コロニー9</td><td>ピンク</td></tr>
+    <tr><td>ダンバン &amp; リキ</td><td>嘆きの泉, テフラ洞窟</td><td>紫</td></tr>
+    <tr><td>堅牢なコーネフの周辺 — シュルク &amp; ダンバン</td><td>ザタナルギアの滝, 燐光の地ザトール</td><td>緑</td></tr>
+    <tr><td>カルナ &amp; メリア</td><td>メルフィカ通り 1F の西端、皇都アカモート</td><td>紫</td></tr>
+    <tr><td>ライン &amp; フィオルン</td><td>ラ・ルース教会の隠し通路、Valak</td><td>紫</td></tr>
+    <tr><td>フィオルン &amp; カルナ</td><td>ジャンクスの近く、落ちた腕</td><td>緑</td></tr>
   </table></div>
-  <p class="muted">All 63 キズナトーク with locations, affinity tiers and correct answers are in<code>research/03-heart-to-hearts.md</code>.</p>
+  <p class="muted">場所、キズナ段階、正解つきのキズナトーク全63件は次にある<code>research/03-heart-to-hearts.md</code>.</p>
 </div>
 
 <!-- WORKSHOP: CHAIN PLANNER -->
 <div class="panel" id="p-chain" role="tabpanel" aria-labelledby="tab-workshop" hidden>
   <h2 class="icon-heading"><img class="game-icon" src="assets/game-icons/back-slash-xcde.png" width="100" height="100" alt="" aria-hidden="true">チェイン計画</h2>
-  <p>Plan around the party you can field now. Same-color Arts raise the multiplier; Talent Arts preserve it and let the next Art establish a new color. A reaction chain may deliberately trade multiplier for 崩し → 転倒 → 気絶 control.</p>
+  <p>今出せるパーティに合わせて組む。同じ色のアーツは倍率を上げる。Talent Arts は倍率を維持し、次のアーツで新しい色を始められる。リアクションの連鎖では、倍率を意図して捨て、崩し → 転倒 → 気絶の制御に回すことがある。</p>
   <div class="workshop-grid">
     <form id="chain-controls" class="workshop-controls">
       <label class="filter-field">進行<select id="chain-phase"></select></label>
@@ -1590,7 +1590,7 @@ html[data-theme="xenoblade"] .area-arrival{border-color:#2d7199;border-radius:0;
 <!-- WORKSHOP: GEM CRAFTING -->
 <div class="panel" id="p-gems" role="tabpanel" aria-labelledby="tab-workshop" hidden>
   <h2 class="icon-heading"><img class="game-icon" src="assets/game-icons/skills.png" width="100" height="100" alt="" aria-hidden="true">ジェム合成助手</h2>
-  <p>Use a two-pass plan: first isolate a quality into near-99% cylinders, then combine matching cylinders with a Strong Flame pair. The assistant never pretends the random furnace outcome is guaranteed.</p>
+  <p>二段階で進める。まず品質を99%近くのシリンダーへ分離し、次に揃ったシリンダーを Strong Flame の二人で合わせる。助手は、炉のランダムな結果を保証とは扱わない。</p>
   <div class="workshop-grid">
     <form id="gem-controls" class="workshop-controls">
       <label class="filter-field">進行<select id="gem-phase"></select></label>
@@ -1607,7 +1607,7 @@ html[data-theme="xenoblade"] .area-arrival{border-color:#2d7199;border-radius:0;
 <!-- WORKSHOP: GIFTS -->
 <div class="panel" id="p-gifts" role="tabpanel" aria-labelledby="tab-workshop" hidden>
   <h2 class="icon-heading"><img class="game-icon" src="assets/game-icons/affinity-mission.png" width="24" height="24" alt="" aria-hidden="true">贈り物最適化</h2>
-  <p>Pick a giver and recipient, then filter to areas you have reached. The affinity value belongs to the recipient; the giver matters because affinity rises between that pair.</p>
+  <p>渡す人と受け取る人を選び、到達したエリアに絞る。キズナ値は受け取る人に付き、渡す人が意味を持つのは、その二人のあいだでキズナが上がるからだ。</p>
   <div class="workshop-grid">
     <form id="gift-controls" class="workshop-controls">
       <label class="filter-field">渡す人<select id="gift-giver"></select></label>
@@ -1625,7 +1625,7 @@ html[data-theme="xenoblade"] .area-arrival{border-color:#2d7199;border-radius:0;
 <!-- WORKSHOP: PARTY CHEMISTRY -->
 <div class="panel" id="p-party" role="tabpanel" aria-labelledby="tab-workshop" hidden>
   <h2 class="icon-heading"><img class="game-icon" src="assets/game-icons/skills.png" width="100" height="100" alt="" aria-hidden="true">パーティ相性</h2>
-  <p>Test a trio against the jobs XC1 actually asks a party to cover. Availability is enforced by phase, and AI-sensitive characters are scored differently depending on whom you control.</p>
+  <p>三人組を、XC1 がパーティに実際に求める役割で試す。出せるかどうかは進行で決まり、AIの影響が大きいキャラクターは、誰を操作するかで評価が変わる。</p>
   <div class="workshop-grid">
     <form id="party-controls" class="workshop-controls">
       <label class="filter-field">進行<select id="party-phase"></select></label>
@@ -1641,7 +1641,7 @@ html[data-theme="xenoblade"] .area-arrival{border-color:#2d7199;border-radius:0;
 
 </main>
 
-<footer>Updated 2026-08-02 · Progress saves only in each visitor's browser profile and is never written to GitHub · Export/import provides a portable backup · Installable for offline use · Research and source notes:<code>research/</code>
+<footer>更新 2026-08-02 · 進行は各訪問者のブラウザプロファイルにだけ保存され、GitHub には書き込まれない · 書き出し／読み込みで持ち出せるバックアップになる · オフライン用にインストールできる · 調査と出典メモ:<code>research/</code>
 </footer>
 
 <script src="data/workshop-data.js"></script>
@@ -1756,7 +1756,7 @@ function save(){
     }
     return true;
   }
-  catch(e){ setSaveStatus("Progress could not be saved in this browser.", true); return false; }
+  catch(e){ setSaveStatus("このブラウザには進行を保存できなかった。", true); return false; }
 }
 if (migrated) save();
 
@@ -1790,12 +1790,12 @@ function gameIcon(name, className = ""){
   return `<img class="game-icon${className ? ` ${className}` : ""}" src="assets/game-icons/${icon.file}" width="${icon.width}" height="${icon.height}" alt="" aria-hidden="true">`;
 }
 const KINDS = {
-  lvl:    [uiIcon("level"), "Set your level"],
-  build:  [gameIcon("build"), "Party &amp; build check"],
-  weather:[uiIcon("weather"), "Weather / time"],
-  grind:  [uiIcon("grind"), "Grind stop"],
-  branch: [uiIcon("branch"), "Branch choice"],
-  boss:   [uiIcon("boss"), "Boss prep"],
+  lvl:    [uiIcon("level"), "レベルを合わせる"],
+  build:  [gameIcon("build"), "パーティとビルド"],
+  weather:[uiIcon("weather"), "天候 / 時刻"],
+  grind:  [uiIcon("grind"), "周回止め"],
+  branch: [uiIcon("branch"), "分岐"],
+  boss:   [uiIcon("boss"), "ボス準備"],
   info:   [uiIcon("info"), ""]
 };
 
@@ -1894,9 +1894,9 @@ function renderQuestSchedules(questIds, compact = false){
     const rowKey = [automatic ? "automatic" : giver.name, slot.time, slot.location].join("|");
     if (seenRows.has(rowKey)) return "";
     seenRows.add(rowKey);
-    return `<div class="quest-schedule-row"><span class="quest-schedule-label">${gameIcon("timed")}${automatic ? "Automatic trigger" : "NPC active"}</span><span class="quest-schedule-detail">${automatic ? "" : `<strong>${esc(giver.name)}</strong><span aria-hidden="true"> · </span>`}<b>${esc(slot.time)}</b><span aria-hidden="true"> · </span>${esc(slot.location)}</span></div>`;
+    return `<div class="quest-schedule-row"><span class="quest-schedule-label">${gameIcon("timed")}${automatic ? "自動で発生" : "NPCがいる"}</span><span class="quest-schedule-detail">${automatic ? "" : `<strong>${esc(giver.name)}</strong><span aria-hidden="true"> · </span>`}<b>${esc(slot.time)}</b><span aria-hidden="true"> · </span>${esc(slot.location)}</span></div>`;
   }))).filter(Boolean);
-  return `<div class="quest-schedule${compact ? " is-compact" : ""}" aria-label="Quest giver availability">${rows.join("")}</div>`;
+  return `<div class="quest-schedule${compact ? " is-compact" : ""}" aria-label="クエストの出し主">${rows.join("")}</div>`;
 }
 function routeQuestScheduleIds(item){
   const ids = [];
@@ -1963,8 +1963,8 @@ function routeQuickLinks(item){
   return `<div class="route-card-actions" aria-label="Open guide reference">`
     + (monster ? `<button type="button" class="route-link" data-open-monster="${esc(monster.id)}">${gameIcon("enemy")}${esc(monster.name)} を Monsterpedia で開く</button>` : "")
     + (quest ? `<button type="button" class="route-link" data-open-quest="${esc(quest.id)}">${gameIcon("quest")}${esc(quest.name)} をクエスト検索で開く</button>` : "")
-    + (heart ? `<button type="button" class="route-link" data-open-tool="gifts" data-gift-route="${esc(plainText(item.t||""))}">Open Gift Optimizer for this pair</button>` : "")
-    + (atlasLocation ? `<button type="button" class="route-link" data-open-world-id="${esc(atlasLocation)}">${gameIcon("landmark")}Show the exact Atlas pin</button>` : "")
+    + (heart ? `<button type="button" class="route-link" data-open-tool="gifts" data-gift-route="${esc(plainText(item.t||""))}">この二人の贈り物</button>` : "")
+    + (atlasLocation ? `<button type="button" class="route-link" data-open-world-id="${esc(atlasLocation)}">${gameIcon("landmark")}地図の正確なピン</button>` : "")
     + `</div>`;
 }
 function routeItemReference(name, filter){
@@ -1978,13 +1978,13 @@ function routeItemReference(name, filter){
   return null;
 }
 const ROUTE_PARTY_PHASES = [
-  { chapters:["ch1","ch2"], party:"シュルク / ライン / フィオルン · シュルクを操作", members:["シュルク","ライン","フィオルン"], preset:"main-ch1-2-story", plan:"Control シュルク for vision responses; let ライン hold aggro while フィオルン adds side and back damage. Use 崩し → 転倒 when the target permits it." },
-  { chapters:["ch3"], party:"シュルク / ライン · シュルクを操作", members:["シュルク","ライン"], preset:"", plan:"This is the temporary two-person roster. Control シュルク, let ライン tank, stay near the target level, and use 崩し → 転倒 instead of planning around a third character." },
-  { chapters:["ch4"], party:"シュルク / ライン / カルナ · シュルクを操作", members:["シュルク","ライン","カルナ"], preset:"main-ch3-5-story", plan:"Control シュルク for vision responses, let ライン tank, and use カルナ to stabilize the first three-person story roster." },
-  { chapters:["ch5","ch6"], party:"シュルク / ダンバン / カルナ · シュルクを操作", members:["シュルク","ライン","カルナ","ダンバン"], preset:"main-ch5-6-transition-safe", plan:"Control シュルク, let ダンバン evade-tank, and keep カルナ for reliable sustain during the pre-リキ route." },
-  { chapters:["ch7","ch8","ch9","ch10","ch11"], party:"シュルク / ダンバン / リキ · シュルクを操作", members:["シュルク","ライン","カルナ","ダンバン","メリア","リキ"], preset:"main-ch7-11-core", plan:"Use the route's reliable シュルク / ダンバン / リキ core; control シュルク for 未来視 and commit to 崩し → 転倒 only when resistance allows it." },
-  { chapters:["ch12","ch13","ch14","ch15","ch16","ch17","post"], party:"シュルク / ダンバン / リキ · シュルクを操作", members:["シュルク","ライン","カルナ","ダンバン","メリア","リキ","フィオルン"], preset:"main-um-safe", plan:"Use the route's reliable シュルク / ダンバン / リキ core; control シュルク for 未来視 and tune gems to the documented arts, spike, and level gap." },
-  { chapters:["fc"], party:"シュルク / Kino / Nene · シュルクを操作", members:["シュルク","メリア","Kino","Nene"], preset:"fc-opening-safe", plan:"Use the Future Connected roster: control シュルク, let Nene tank, and keep Kino on healing and support." }
+  { chapters:["ch1","ch2"], party:"シュルク / ライン / フィオルン · シュルクを操作", members:["シュルク","ライン","フィオルン"], preset:"main-ch1-2-story", plan:"未来視への対応はシュルクを操作する。ラインがヘイトを受け、フィオルンが側面と背面のダメージを足す。対象が許すときだけ崩し → 転倒を使う。" },
+  { chapters:["ch3"], party:"シュルク / ライン · シュルクを操作", members:["シュルク","ライン"], preset:"", plan:"一時的な二人編成。シュルクを操作し、ラインが前に立ち、目標レベルから離れず、三人目を前提にせず崩し → 転倒を使う。" },
+  { chapters:["ch4"], party:"シュルク / ライン / カルナ · シュルクを操作", members:["シュルク","ライン","カルナ"], preset:"main-ch3-5-story", plan:"未来視はシュルクを操作する。ラインが前に立ち、最初の三人本編はカルナで安定させる。" },
+  { chapters:["ch5","ch6"], party:"シュルク / ダンバン / カルナ · シュルクを操作", members:["シュルク","ライン","カルナ","ダンバン"], preset:"main-ch5-6-transition-safe", plan:"シュルクを操作し、ダンバンが回避で前に立つ。リキの前のルートでは、カルナの回復を残す。" },
+  { chapters:["ch7","ch8","ch9","ch10","ch11"], party:"シュルク / ダンバン / リキ · シュルクを操作", members:["シュルク","ライン","カルナ","ダンバン","メリア","リキ"], preset:"main-ch7-11-core", plan:"ルートの安定した中核はシュルク / ダンバン / リキ。未来視はシュルクを操作し、耐性が許すときだけ崩し → 転倒に入る。" },
+  { chapters:["ch12","ch13","ch14","ch15","ch16","ch17","post"], party:"シュルク / ダンバン / リキ · シュルクを操作", members:["シュルク","ライン","カルナ","ダンバン","メリア","リキ","フィオルン"], preset:"main-um-safe", plan:"ルートの安定した中核はシュルク / ダンバン / リキ。未来視はシュルクを操作し、記載されたアーツ、スパイク、レベル差にジェムを合わせる。" },
+  { chapters:["fc"], party:"シュルク / Kino / Nene · シュルクを操作", members:["シュルク","メリア","Kino","Nene"], preset:"fc-opening-safe", plan:"Future Connected の編成。シュルクを操作し、Nene が前に立ち、Kino は回復と補助。" }
 ];
 function routePartyPhase(routeReference){
   if (!routeReference) return null;
@@ -1995,11 +1995,11 @@ function routeAwareEncounterAdvice(baseAdvice, routeReference){
   if (!phase) return baseAdvice;
   const namedParty = String(baseAdvice.party || "").split("·")[0].split("/").map(name => name.trim()).filter(Boolean);
   const basePartyIsAvailable = namedParty.length > 0 && namedParty.every(name => phase.members.includes(name));
-  if (basePartyIsAvailable) return {...baseAdvice, basis:`${baseAdvice.basis || "Guide strategy."} Party legality checked against ${routeReference.chapterId.toUpperCase()} route availability.`};
+  if (basePartyIsAvailable) return {...baseAdvice, basis:`${baseAdvice.basis || "攻略の手順。"} ${routeReference.chapterId.toUpperCase()} のルートで出せるか確認した。`};
   const removedMeliaPlan = namedParty.includes("メリア");
   const gems = (baseAdvice.gems || []).filter(gem => !removedMeliaPlan || !/メリア|Melia/i.test(gem));
-  const mechanicsNote = removedMeliaPlan ? "The source data favors Ether damage here, but this route point does not yet provide that late-game メリア setup." : "";
-  return {...baseAdvice, party:phase.party, preset:phase.preset, gems, route:`${phase.plan}${mechanicsNote}`, basis:`${baseAdvice.basis || "Guide strategy."} 今出せる編成に置き換えた at ${routeReference.chapterId.toUpperCase()}.`};
+  const mechanicsNote = removedMeliaPlan ? "出典はここでエーテルダメージを推すが、この地点には終盤のメリア編成がまだ無い。" : "";
+  return {...baseAdvice, party:phase.party, preset:phase.preset, gems, route:`${phase.plan}${mechanicsNote}`, basis:`${baseAdvice.basis || "攻略の手順。"} ${routeReference.chapterId.toUpperCase()} で今出せる編成に置き換えた。`};
 }
 function routeBinding(targetId){
   return bindingsReady ? ROUTE_BINDINGS_DATA.bindings.find(binding => binding.targetId === targetId) || null : null;
@@ -2111,7 +2111,7 @@ function renderWorldGroup(group){
   const rows = group.entries.map(renderWorldCue).join("");
   const complete = group.entries.filter(entry => worldDone[entry.id]).length;
   const areas = [...new Set(group.entries.map(entry => entry.area))].join(" / ");
-  if (group.anchorId === "@end") return `<details class="world-block route-catchup" data-world-group="${esc(group.bundle)}" open><summary>${gameIcon("landmark")}Catch-up sweep · ${esc(areas)} <span class="gcount world-count">${complete}/${group.entries.length}</span></summary>${rows}</details>`;
+  if (group.anchorId === "@end") return `<details class="world-block route-catchup" data-world-group="${esc(group.bundle)}" open><summary>${gameIcon("landmark")}後からの周回 · ${esc(areas)} <span class="gcount world-count">${complete}/${group.entries.length}</span></summary>${rows}</details>`;
   const head = `<b>${esc(WORLD_EFFORT_LABELS[group.effort])}</b><span class="route-cue-area">${esc(areas)}</span><span class="gcount world-count">${complete}/${group.entries.length}</span>`;
   if (group.entries.length > 6 && group.effort !== "on-path") return `<details class="route-cue-bundle route-cue-collapsible effort-${esc(group.effort)}" data-world-group="${esc(group.bundle)}" open><summary class="route-cue-head">${head}</summary>${rows}</details>`;
   return `<div class="route-cue-bundle effort-${esc(group.effort)}${group.entries.length === 1 ? " is-single" : ""}" data-world-group="${esc(group.bundle)}">${group.entries.length > 1 ? `<div class="route-cue-head">${head}</div>` : ""}${rows}</div>`;
@@ -2136,7 +2136,7 @@ function worldArrivalTrackersForChapter(ch, entries){
       anchorId: validAnchor,
       order: Number(source.order) || 999,
       effort: WORLD_EFFORT_LABELS[source.effort] ? source.effort : "return-later",
-      note: source.note || entry.accessNotes || "Discover while crossing this area."
+      note: source.note || entry.accessNotes || "このエリアを通るときに見つける。"
     };
     if (!grouped.has(entry.areaId)) grouped.set(entry.areaId, { areaId:entry.areaId, area:entry.area, areaOrder:entry.areaOrder, entries:[] });
     grouped.get(entry.areaId).entries.push({...entry, routePlacement:placement});
@@ -2158,13 +2158,13 @@ function renderWorldArrivalItem(entry){
   return `<div class="world-arrival-item world-it${entry.type==="secret-area"?" is-secret":""}${checked?" done":""}" data-f="world" data-id="${esc(entry.id)}" data-world-id="${esc(entry.id)}"${deadline?' data-deadline="true"':""}>
     <input type="checkbox" id="${esc(inputId)}" data-world-id="${esc(entry.id)}"${checked?" checked":""}>
     <label for="${esc(inputId)}"><span class="world-arrival-kind">${esc(entry.type.replace(/-/g," "))}</span><span class="world-arrival-name">${esc(entry.name)}</span><small>${esc(effort)}${deadline?" · lockout":""}</small></label>
-    <button type="button" class="world-pin-link" data-open-world-id="${esc(entry.id)}" title="Show ${esc(entry.name)} on the Atlas" aria-label="Show ${esc(entry.name)} on the Atlas">${uiIcon("location")}</button>
+    <button type="button" class="world-pin-link" data-open-world-id="${esc(entry.id)}" title="${esc(entry.name)} を地図で見る" aria-label="${esc(entry.name)} を地図で見る">${uiIcon("location")}</button>
   </div>`;
 }
 function renderWorldArrivalTracker(tracker){
   const complete=tracker.entries.filter(entry=>worldDone[entry.id]).length;
   return `<section class="area-arrival" data-world-group="arrival-${esc(tracker.areaId)}" data-area-id="${esc(tracker.areaId)}">
-    <header class="area-arrival-head"><div>${gameIcon("landmark")}<span><b>Area arrival · ${esc(tracker.area)}</b><small>Tick discoveries as this route reaches them; detours and later returns are labelled.</small></span></div><span class="gcount world-count">${complete}/${tracker.entries.length}</span><button type="button" class="route-link area-atlas-link" data-open-world-area="${esc(tracker.areaId)}">Open area in Atlas</button></header>
+    <header class="area-arrival-head"><div>${gameIcon("landmark")}<span><b>エリア到着 · ${esc(tracker.area)}</b><small>ルートがここへ着いたら発見をチェックする。寄り道と後からの戻りは書いてある。</small></span></div><span class="gcount world-count">${complete}/${tracker.entries.length}</span><button type="button" class="route-link area-atlas-link" data-open-world-area="${esc(tracker.areaId)}">地図でエリアを開く</button></header>
     <div class="world-arrival-grid">${tracker.entries.map(renderWorldArrivalItem).join("")}</div>
   </section>`;
 }
@@ -2191,17 +2191,17 @@ function renderRouteBuildUpdate(ch){
   return `<details class="pan p-build route-build" data-f="pan" open><summary class="pant">${gameIcon("build")}ビルド更新 · ${esc(update.phase)} <span class="guidance-toggle">詳細</span></summary>
     <div class="pand">
       <div class="route-build-lead"><b>安定パーティ:</b> ${esc(party)}<br><b>操作:</b> ${esc(buildName(update.leader))}</div>
-      <div class="route-build-options"><span><b>Reliable option</b><br>${esc(update.safeAlternative)}</span><span><b>Aggressive option</b><br>${esc(update.aggressiveAlternative)}</span></div>
+      <div class="route-build-options"><span><b>安定の案</b><br>${esc(update.safeAlternative)}</span><span><b>攻撃の案</b><br>${esc(update.aggressiveAlternative)}</span></div>
       <div class="route-build-grid">
         <div class="route-build-block"><h3>今の枠</h3>
           ${arts}</div>
-        <div class="route-build-block"><h3>Spend AP now</h3>
+        <div class="route-build-block"><h3>今使うAP</h3>
           <ul class="route-build-list">${ap}</ul></div>
-        <div class="route-build-block"><h3>Skills &amp; links</h3>
+        <div class="route-build-block"><h3>スキルとリンク</h3>
           <p>${esc(update.skills)}</p></div>
-        <div class="route-build-block"><h3>Gear &amp; gems</h3>
+        <div class="route-build-block"><h3>装備とジェム</h3>
           <ul class="route-build-list">${gear}</ul></div>
-        <div class="route-build-block"><h3>AI warnings</h3>
+        <div class="route-build-block"><h3>AIの注意</h3>
           <ul class="route-build-list">${warnings}</ul></div>
       </div>
       <div class="workshop-actions route-build-action"><button type="button" class="ghost safe open-build" data-character="${esc(update.leader)}">ビルド工房を開く</button><button type="button" class="route-link" data-open-tool="party" ${partyContext}>パーティ相性で見る</button>${gemTarget?`<button type="button" class="route-link" data-open-tool="gems" data-gem-phase="${esc(workshopPhaseIdForChapter(ch.id))}" data-gem-target="${esc(gemTarget)}">${esc(gemTarget)} を調整</button>`:""}</div>
@@ -2221,7 +2221,7 @@ function setRouteItemDisclosure(itemId, collapsed, persist = true){
   if (content) content.hidden = collapsed;
   if (button) {
     button.setAttribute("aria-expanded", String(!collapsed));
-    button.setAttribute("aria-label", `${collapsed ? "Expand" : "Collapse"} details for this route task`);
+    button.setAttribute("aria-label", collapsed ? "この手順の詳細を開く" : "この手順の詳細を閉じる");
   }
   if (persist) save();
 }
@@ -2670,7 +2670,7 @@ document.getElementById("expand").addEventListener("click", e => {
     s.classList.toggle("closed", collapsed);
     s.querySelector(".chh")?.setAttribute("aria-expanded", String(!collapsed));
   });
-  e.target.textContent = collapsed ? "Expand all" : "Collapse all";
+  e.target.textContent = collapsed ? "すべて開く" : "すべて折りたたむ";
   e.target.setAttribute("aria-expanded", String(!collapsed));
 });
 
@@ -2888,11 +2888,11 @@ function initMonsterpedia(){
   monsterReady = true;
   const areas = [...new Set(MONSTERPEDIA_DATA.entries.map(entry => entry.areaName).filter(Boolean))].sort();
   const types = [...new Set(MONSTERPEDIA_DATA.entries.map(entry => entry.category).filter(Boolean))].sort();
-  document.getElementById("monster-area").innerHTML = "<option value=\"\">All areas</option>"
+  document.getElementById("monster-area").innerHTML = "<option value=\"\">すべてのエリア</option>"
     + areas.map(area => `<option>${esc(area)}</option>`).join("");
-  document.getElementById("monster-type").innerHTML = "<option value=\"\">All types</option>"
+  document.getElementById("monster-type").innerHTML = "<option value=\"\">すべての種類</option>"
     + types.map(type => `<option>${esc(type)}</option>`).join("");
-  document.getElementById("monster-family").innerHTML = "<option value=\"\">All families</option>"
+  document.getElementById("monster-family").innerHTML = "<option value=\"\">すべての系統</option>"
     + MONSTER_FAMILY_LIST.map(family => `<option value="${family.id}">${family.label}</option>`).join("");
   const confirmedDrops = MONSTERPEDIA_DATA.entries.reduce((total, entry) => total + (entry.drops?.confirmed?.length || 0), 0);
   document.getElementById("monster-ledger").textContent = `${MONSTERPEDIA_DATA.entries.length.toLocaleString()} monsters · ${confirmedDrops.toLocaleString()} confirmed drops`;
@@ -2920,7 +2920,7 @@ function monsterMatchesCondition(entry, condition){
 }
 function updateMonsterHuntStatus(){
   const total = Object.keys(monsterHunts).length;
-  const label = total ? `${total} monster${total === 1 ? "" : "s"} pinned to your hunt list.` : "No monsters pinned.";
+  const label = total ? `狩リストに ${total} 体。` : "ピンした敵はいない。";
   document.getElementById("monster-hunt-status").textContent = label;
   document.getElementById("monster-clear-hunts").hidden = total === 0;
   if (monsterReady) {
@@ -2944,17 +2944,17 @@ function monsterSourceUrl(entry){
 }
 function renderCombatDossier(entry, routeReference){
   const record=window.COMBAT_DOSSIER_DATA?.records?.[entry.id], curated=window.COMBAT_DOSSIER_DATA?.encounters?.[entry.name];
-  if(!record) return "<details class=\"combat-dossier\" open><summary>Combat dossier · source record unavailable</summary><p>Mechanical dossier data has not been refreshed for this encounter.</p></details>";
+  if(!record) return "<details class=\"combat-dossier\" open><summary>戦闘資料 · 出典の記録なし</summary><p>この戦闘の機構資料は更新されていない。</p></details>";
   const advice=routeAwareEncounterAdvice(curated||record.guidePrep, routeReference);
   const variant=record.variants?.[0]||{}, stats=variant.stats||{}, arts=variant.arts||[], spike=variant.spike, resistances=variant.resistances||{};
-  const statBits=[["HP",stats.hp],["Attack",stats.attack],["Ether",stats.ether],["Agility",stats.agility],["Physical resist",stats.physicalResistance],["Ether resist",stats.etherResistance]].filter(([,value])=>value).map(([label,value])=>`<li><b>${esc(label)}:</b> ${esc(value)}</li>`).join("");
-  const artRows=arts.map(art=>`<li><b>${esc(art.name)}</b> · ${esc(art.type||"Unknown type")}${art.range?` · ${esc(art.range)}`:""}${art.effect&&art.effect!=="-"?` · ${esc(art.effect)}`:""}${art.knockback&&art.knockback!=="-"?` · knockback ${esc(art.knockback)}`:""}</li>`).join("");
+  const statBits=[["HP",stats.hp],["攻撃",stats.attack],["エーテル",stats.ether],["素早さ",stats.agility],["物理耐性",stats.physicalResistance],["エーテル耐性",stats.etherResistance]].filter(([,value])=>value).map(([label,value])=>`<li><b>${esc(label)}:</b> ${esc(value)}</li>`).join("");
+  const artRows=arts.map(art=>`<li><b>${esc(art.name)}</b> · ${esc(art.type||"種類不明")}${art.range?` · ${esc(art.range)}`:""}${art.effect&&art.effect!=="-"?` · ${esc(art.effect)}`:""}${art.knockback&&art.knockback!=="-"?` · 吹き飛び ${esc(art.knockback)}`:""}</li>`).join("");
   const resistanceRows=Object.entries(resistances).filter(([,value])=>value&&value!=="0%").map(([label,value])=>`<li><b>${esc(label.replace(/([A-Z])/g," $1"))}:</b> ${esc(value)}</li>`).join("");
-  const spikePanel=spike?`<section class="dossier-panel"><h4>⚠ Spike documented</h4><p><b>${esc(spike.type||"Spike")}</b>${spike.range?` · ${esc(spike.range)}`:""}<br>${esc(spike.damage||"Effect not stated")}</p></section>`:"<section class=\"dossier-panel\"><h4>スパイク</h4><p>No spike template is documented by this source. This means <em>undocumented</em>, not game-data proof of none.</p></section>";
+  const spikePanel=spike?`<section class="dossier-panel"><h4>⚠ スパイク記載あり</h4><p><b>${esc(spike.type||"スパイク")}</b>${spike.range?` · ${esc(spike.range)}`:""}<br>${esc(spike.damage||"効果の記載なし")}</p></section>`:"<section class=\"dossier-panel\"><h4>スパイク</h4><p>この出典にスパイクの型は記載されていない。これは <em>未記載</em> であり、ゲームデータで無いことの証明ではない。</p></section>";
   const chainPhase=workshopPhaseIdForEncounter(entry,routeReference);
   const chainContext=`data-chain-target="${esc(entry.id)}" data-chain-phase="${esc(chainPhase)}"${advice.preset?` data-chain-preset="${esc(advice.preset)}"`:""}`;
-  const presetButton=advice.preset?`<button type="button" class="route-link" data-open-preset="${esc(advice.preset)}">${gameIcon("build")}Open recommended preset</button><button type="button" class="route-link" data-open-tool="chain" ${chainContext}>Plan a chain for this target</button>`:`<button type="button" class="route-link" data-open-tool="chain" ${chainContext}>Plan a chain for this target</button>`;
-  return `<details class="combat-dossier" open><summary>Combat dossier · source-backed mechanics + ${curated?"curated":"mechanics-derived"} guide prep</summary><p><b>Target:</b> Lv ${esc(entry.level)} · ${esc(entry.area||entry.areaName)}${entry.conditions?` · ${esc(entry.conditions)}`:""}</p><div class="dossier-grid"><section class="dossier-panel"><h4>Battle stats</h4><ul class="dossier-list">${statBits||"<li>Not documented</li>"}</ul></section>${spikePanel}<section class="dossier-panel"><h4>Notable resistances</h4><ul class="dossier-list">${resistanceRows||"<li>No non-zero resistance listed.</li>"}</ul></section></div><section class="dossier-panel"><h4>Enemy arts to watch</h4><ul class="dossier-list">${artRows||"<li>No arts documented.</li>"}</ul></section><section class="dossier-panel"><h4>${curated?"Curated guide strategy":"Mechanics-derived guide prep"}</h4>${advice.party?`<p><b>Party:</b> ${esc(advice.party)}</p>`:""}<p><b>Gems:</b> ${advice.gems.map(esc).join(" · ")}</p><p><b>Watch:</b> ${advice.watch.map(esc).join(" · ")}</p><p><b>Plan:</b> ${esc(advice.route)}</p>${presetButton}${advice.basis?`<p class="dossier-source">${esc(advice.basis)}</p>`:""}</section>${routeReference?`<button type="button" class="route-link" data-open-route="${esc(routeReference.itemId)}">${gameIcon("landmark")}Open route prep</button>`:""}<p class="dossier-source">Mechanical data: <a href="${esc(record.source.url)}" target="_blank" rel="noopener">${esc(record.source.label)}</a> · ${esc(record.source.confidence)}. Strategy text is separately labeled guide advice.</p></details>`;
+  const presetButton=advice.preset?`<button type="button" class="route-link" data-open-preset="${esc(advice.preset)}">${gameIcon("build")}推奨プリセット</button><button type="button" class="route-link" data-open-tool="chain" ${chainContext}>この対象のチェイン</button>`:`<button type="button" class="route-link" data-open-tool="chain" ${chainContext}>この対象のチェイン</button>`;
+  return `<details class="combat-dossier" open><summary>戦闘資料 · 出典の数値 + ${curated?"選定":"数値から導いた"}準備</summary><p><b>対象:</b> Lv ${esc(entry.level)} · ${esc(entry.area||entry.areaName)}${entry.conditions?` · ${esc(entry.conditions)}`:""}</p><div class="dossier-grid"><section class="dossier-panel"><h4>戦闘ステータス</h4><ul class="dossier-list">${statBits||"<li>記載なし</li>"}</ul></section>${spikePanel}<section class="dossier-panel"><h4>注目する耐性</h4><ul class="dossier-list">${resistanceRows||"<li>0以外の耐性は無い。</li>"}</ul></section></div><section class="dossier-panel"><h4>警戒する敵アーツ</h4><ul class="dossier-list">${artRows||"<li>アーツの記載は無い。</li>"}</ul></section><section class="dossier-panel"><h4>${curated?"選定した戦い方":"数値から導いた準備"}</h4>${advice.party?`<p><b>パーティ:</b> ${esc(advice.party)}</p>`:""}<p><b>ジェム:</b> ${advice.gems.map(esc).join(" · ")}</p><p><b>注意:</b> ${advice.watch.map(esc).join(" · ")}</p><p><b>手順:</b> ${esc(advice.route)}</p>${presetButton}${advice.basis?`<p class="dossier-source">${esc(advice.basis)}</p>`:""}</section>${routeReference?`<button type="button" class="route-link" data-open-route="${esc(routeReference.itemId)}">${gameIcon("landmark")}ルートの準備</button>`:""}<p class="dossier-source">数値の出典: <a href="${esc(record.source.url)}" target="_blank" rel="noopener">${esc(record.source.label)}</a> · ${esc(record.source.confidence)}。戦い方の文は、別に攻略の助言として書いてある。</p></details>`;
 }
 
 // Focused second-screen companion.
@@ -2996,20 +2996,20 @@ function buildSession(){
 function renderSessionDashboard(){
   const el=document.getElementById("session-dashboard");if(!el)return;
   document.getElementById("session-length").value=String(state.preferences.sessionLength||60);document.getElementById("session-focus").value=state.preferences.sessionFocus||"story";
-  if(!routeReady){el.innerHTML="<section class=\"session-card\"><p>Loading route progress…</p></section>";return;}
+  if(!routeReady){el.innerHTML="<section class=\"session-card\"><p>ルート進行を読み込み中…</p></section>";return;}
   const records=new Map(playableRouteCards().map(record=>[record.item.id,record])),ids=(state.preferences.sessionIds||[]).filter(id=>records.has(id)),current=currentPlayable();
-  if(!ids.length){el.innerHTML="<section class=\"session-card\"><h3>Build an adventure session</h3><p>Choose how long you have and what you want from the play session. The route order remains authoritative; focus only changes which nearby optional work fits.</p></section><aside class=\"session-card\"><h3>What it uses</h3><p>Your checked route cards, current chapter, open deadlines, route materials and phase-legal party preset. No game save is read.</p></aside>";renderRecentTools();return;}
+  if(!ids.length){el.innerHTML="<section class=\"session-card\"><h3>冒険セッションを組む</h3><p>使える時間と、そのプレイで欲しいものを選ぶ。基準になるのはルートの順番で、焦点が変えるのは近くの任意作業のどれを入れるかだけだ。</p></section><aside class=\"session-card\"><h3>使うもの</h3><p>チェック済みのルートカード、現在の章、開いている期限、ルート素材、その進行で使えるパーティプリセット。ゲームのセーブは読まない。</p></aside>";renderRecentTools();return;}
   const entries=ids.map(id=>records.get(id)),completed=entries.filter(record=>done[record.item.id]).length,startDone=new Set(state.preferences.sessionStartDone||[]),newlyDone=entries.filter(record=>done[record.item.id]&&!startDone.has(record.item.id)).length,totalMinutes=entries.reduce((sum,record)=>sum+routeTaskMinutes(record.item),0);
   const chapter=current?.chapter||entries[0]?.chapter,beforeLeaving=chapter?chapter.items.filter(item=>item.id&&!done[item.id]&&(item.f==="d"||requiredLeader(item))).slice(0,6):[];
   const conditions=[...new Set(entries.flatMap(record=>{const text=plainText(`${record.item.t||""} ${record.item.d||""}`);return ["day","night","rain","thunderstorm","blizzard","fog","shooting stars"].filter(term=>new RegExp(`\\b${term}\\b`,`i`).test(text));}))];
   const buildUpdate=buildReady&&chapter?BUILD_DATA.routeUpdates.find(update=>update.routeChapterId===chapter.id):null;
   const gemTarget=buildUpdate?primaryGemTargetForUpdate(buildUpdate):"";
-  el.innerHTML=`<section class="session-card"><h3>${completed===entries.length?"Session clear":"Today's route"} · ${completed}/${entries.length}</h3><p class="muted">About ${totalMinutes} minutes · ${esc((state.preferences.sessionFocus||"story").replace(/^./,letter=>letter.toUpperCase()))} focus · route order preserved</p>${entries.map(record=>`<div class="session-check"><input type="checkbox" id="session-${esc(record.item.id)}" data-session-route="${esc(record.item.id)}"${done[record.item.id]?" checked":""}><label for="session-${esc(record.item.id)}"><b>${routeTitle(record.item.t)}</b><small>${esc(record.chapter.title)} · Recommended Lv ${esc(recommendedLevel(record.chapter,record.item)??chapterLevelLabel(record.chapter))}${record.item.f==="d"?" · Missable":""}</small></label><span class="session-estimate">~${routeTaskMinutes(record.item)} min</span></div>`).join("")}<div class="workshop-actions"><button type="button" class="ghost safe" data-session-rebuild="true">Rebuild</button><button type="button" class="route-link" data-session-end="true">Session summary</button></div>${newlyDone?`<p class="session-summary"><b>${newlyDone} objective${newlyDone===1?"":"s"} completed this session.</b> Keep going or end here—your exact checklist is saved.</p>`:""}</section><aside class="session-card"><h3>Before leaving</h3>${beforeLeaving.length?`<ul class="priority-list">${beforeLeaving.map(item=>`<li>${routeTitle(item.t)}</li>`).join("")}</ul>`:'<p class="green"><b>No deadline or leader-gated cards remain in this chapter.</b></p>'}<h4>Party check</h4>${buildUpdate?`<p><b>${esc(buildUpdate.party.map(buildName).join(" / "))}</b><br>Control ${esc(buildName(buildUpdate.leader))}.</p><div class="workshop-actions"><button type="button" class="route-link" data-open-tool="party" ${partyContextAttributes(buildUpdate,chapter.id)}>Test this party</button>${gemTarget?`<button type="button" class="route-link" data-open-tool="gems" data-gem-phase="${esc(workshopPhaseIdForChapter(chapter.id))}" data-gem-target="${esc(gemTarget)}">${esc(gemTarget)} を調整</button>`:""}</div>`:buildReady?'<p class="muted">No party swap is scheduled here. Follow the current route card\'s party note.</p>':'<p class="muted">Party data is loading.</p>'}<h4>World conditions</h4><p>${conditions.length?conditions.map(term=>`<span class="tag">${esc(term)}</span>`).join(" "):'No time or weather setup appears in this session.'}</p></aside>`;
+  el.innerHTML=`<section class="session-card"><h3>${completed===entries.length?"セッション完了":"今日のルート"} · ${completed}/${entries.length}</h3><p class="muted">約 ${totalMinutes} 分 · ${esc((state.preferences.sessionFocus||"story"))} · ルート順は守る</p>${entries.map(record=>`<div class="session-check"><input type="checkbox" id="session-${esc(record.item.id)}" data-session-route="${esc(record.item.id)}"${done[record.item.id]?" checked":""}><label for="session-${esc(record.item.id)}"><b>${routeTitle(record.item.t)}</b><small>${esc(record.chapter.title)} · 推奨Lv ${esc(recommendedLevel(record.chapter,record.item)??chapterLevelLabel(record.chapter))}${record.item.f==="d"?" · 取り逃し":""}</small></label><span class="session-estimate">約${routeTaskMinutes(record.item)}分</span></div>`).join("")}<div class="workshop-actions"><button type="button" class="ghost safe" data-session-rebuild="true">組み直す</button><button type="button" class="route-link" data-session-end="true">セッションのまとめ</button></div>${newlyDone?`<p class="session-summary"><b>このセッションで ${newlyDone} 件終えた。</b>続けるか、ここで終える。チェックリストは保存される。</p>`:""}</section><aside class="session-card"><h3>離れる前</h3>${beforeLeaving.length?`<ul class="priority-list">${beforeLeaving.map(item=>`<li>${routeTitle(item.t)}</li>`).join("")}</ul>`:'<p class="green"><b>この章に期限やリーダー指定のカードは残っていない。</b></p>'}<h4>パーティ確認</h4>${buildUpdate?`<p><b>${esc(buildUpdate.party.map(buildName).join(" / "))}</b><br>${esc(buildName(buildUpdate.leader))} を操作。</p><div class="workshop-actions"><button type="button" class="route-link" data-open-tool="party" ${partyContextAttributes(buildUpdate,chapter.id)}>このパーティを試す</button>${gemTarget?`<button type="button" class="route-link" data-open-tool="gems" data-gem-phase="${esc(workshopPhaseIdForChapter(chapter.id))}" data-gem-target="${esc(gemTarget)}">${esc(gemTarget)} を調整</button>`:""}</div>`:buildReady?'<p class="muted">ここでパーティの入れ替えは予定されていない。今のルートカードのパーティ注記に従う。</p>':'<p class="muted">パーティデータを読み込み中。</p>'}<h4>世界の条件</h4><p>${conditions.length?conditions.map(term=>`<span class="tag">${esc(term)}</span>`).join(" "):'このセッションに時刻や天候の準備は無い。'}</p></aside>`;
   renderRecentTools();
 }
 function renderAreaBriefing(current){
   const el = document.getElementById("area-briefing"); if (!el) return;
-  if (!current) { el.innerHTML = "<article class=\"brief-card\"><h3>Route complete</h3><p>Use the Completion Hub for any unresolved ledger items.</p></article>"; return; }
+  if (!current) { el.innerHTML = "<article class=\"brief-card\"><h3>ルート完了</h3><p>未処理の台帳項目は達成ハブを使う。</p></article>"; return; }
   const chapter = current.chapter, routeOpen = chapter.items.filter(item => item.id && !done[item.id]);
   const deadlineOpen = routeOpen.filter(item => item.f === "d").length;
   const leaderOpen = routeOpen.filter(item => requiredLeader(item)).length;
@@ -3019,7 +3019,7 @@ function renderAreaBriefing(current){
   const questOpen = boundQuests.filter(item => !isResolved(item)).length;
   const buildUpdate = buildReady ? BUILD_DATA.routeUpdates.find(update => update.routeChapterId === chapter.id) : null;
   const gemTarget=buildUpdate?primaryGemTargetForUpdate(buildUpdate):"";
-  el.innerHTML = `<article class="brief-card"><h3>${esc(chapter.title)}</h3><div class="brief-stat">Lv ${esc(chapterLevelLabel(chapter))}</div><p>Guide target · ${routeOpen.length} route cards remain.</p></article><article class="brief-card"><h3>Advance blockers</h3><div class="brief-stat">${deadlineOpen}</div><p>deadline cards · ${leaderOpen} leader-gated cards remain in this chapter.</p></article><article class="brief-card"><h3>World sweep</h3><div class="brief-stat">${worldOpen}</div><p>of ${worldEntries.length} mapped discoveries remain at this route phase.</p></article><article class="brief-card"><h3>Quest ledger</h3><div class="brief-stat">${completionReady && bindingsReady ? questOpen : "…"}</div><p>${completionReady && bindingsReady ? `of ${boundQuests.length} bound quest outcomes unresolved.` : "Open Completion Hub once to load ledger status."}</p></article>${buildUpdate ? `<article class="brief-card"><h3>Party check</h3><p><b>${esc(buildUpdate.party.map(buildName).join(" / "))}</b></p><p>Control ${esc(buildName(buildUpdate.leader))}. ${esc(buildUpdate.safeAlternative)}</p><div class="workshop-actions"><button type="button" class="route-link" data-companion-panel="combat">Open builds</button><button type="button" class="route-link" data-open-tool="party" ${partyContextAttributes(buildUpdate,chapter.id)}>Test chemistry</button>${gemTarget?`<button type="button" class="route-link" data-open-tool="gems" data-gem-phase="${esc(workshopPhaseIdForChapter(chapter.id))}" data-gem-target="${esc(gemTarget)}">Craft ${esc(gemTarget)}</button>`:""}</div></article>` : ""}`;
+  el.innerHTML = `<article class="brief-card"><h3>${esc(chapter.title)}</h3><div class="brief-stat">Lv ${esc(chapterLevelLabel(chapter))}</div><p>攻略目標 · ルートカード残り ${routeOpen.length}件。</p></article><article class="brief-card"><h3>進行の障害</h3><div class="brief-stat">${deadlineOpen}</div><p>期限カード · リーダー指定 ${leaderOpen}件がこの章に残る。</p></article><article class="brief-card"><h3>ワールド周回</h3><div class="brief-stat">${worldOpen}</div><p>この段階の発見 ${worldEntries.length}件のうち残り。</p></article><article class="brief-card"><h3>クエスト台帳</h3><div class="brief-stat">${completionReady && bindingsReady ? questOpen : "…"}</div><p>${completionReady && bindingsReady ? `紐づいたクエスト結果 ${boundQuests.length}件のうち未処理。` : "台帳を読むには、達成ハブを一度開く。"}</p></article>${buildUpdate ? `<article class="brief-card"><h3>パーティ確認</h3><p><b>${esc(buildUpdate.party.map(buildName).join(" / "))}</b></p><p>${esc(buildName(buildUpdate.leader))} を操作。 ${esc(buildUpdate.safeAlternative)}</p><div class="workshop-actions"><button type="button" class="route-link" data-companion-panel="combat">ビルドを開く</button><button type="button" class="route-link" data-open-tool="party" ${partyContextAttributes(buildUpdate,chapter.id)}>相性を試す</button>${gemTarget?`<button type="button" class="route-link" data-open-tool="gems" data-gem-phase="${esc(workshopPhaseIdForChapter(chapter.id))}" data-gem-target="${esc(gemTarget)}">${esc(gemTarget)} を合成</button>`:""}</div></article>` : ""}`;
 }
 function routeMaterialNeed(record){
   const title = plainText(record.item.t || "");
@@ -3030,7 +3030,7 @@ function routeMaterialNeed(record){
 function renderInventoryPlanner(){
   const el = document.getElementById("inventory-list"); if (!el || !routeReady) return;
   const materials = playableRouteCards().filter(record => record.item.f === "m" && !done[record.item.id]).slice(0, 18).map(routeMaterialNeed);
-  el.innerHTML = materials.map(material => { const have=inventoryLog[material.id]||0, remaining=Math.max(0,material.needed-have); return `<div class="inventory-row"><div><b>${esc(material.name)}</b><div class="binding-note">${esc(material.record.chapter.title)}</div></div><label>Have <input type="number" min="0" max="999" inputmode="numeric" value="${have}" data-inventory-id="${esc(material.id)}" aria-label="Quantity owned for ${esc(material.name)}"></label><span class="inventory-need">${remaining ? `<b>${remaining}</b> still needed` : '<b class="green">Ready</b>'} · route asks for ${material.needed}</span><button type="button" class="route-link" data-open-route="${esc(material.id)}">Open step</button></div>`; }).join("") || "<div class=\"callout g\"><p>No unticked material cards remain.</p></div>";
+  el.innerHTML = materials.map(material => { const have=inventoryLog[material.id]||0, remaining=Math.max(0,material.needed-have); return `<div class="inventory-row"><div><b>${esc(material.name)}</b><div class="binding-note">${esc(material.record.chapter.title)}</div></div><label>所持 <input type="number" min="0" max="999" inputmode="numeric" value="${have}" data-inventory-id="${esc(material.id)}" aria-label="${esc(material.name)} の所持数"></label><span class="inventory-need">${remaining ? `あと <b>${remaining}</b>` : '<b class="green">足りている</b>'} · ルートは ${material.needed}</span><button type="button" class="route-link" data-open-route="${esc(material.id)}">手順</button></div>`; }).join("") || "<div class=\"callout g\"><p>未チェックの素材カードは残っていない。</p></div>";
 }
 function initEncounterMode(){
   const select=document.getElementById("encounter-select"); if(!select||!monsterReady||!window.COMBAT_DOSSIER_DATA)return;
@@ -3042,9 +3042,9 @@ function initEncounterMode(){
 }
 function renderEncounterMode(){
   const select=document.getElementById("encounter-select"),detail=document.getElementById("encounter-detail"); if(!select||!detail)return;
-  if(!monsterReady||!window.COMBAT_DOSSIER_DATA){detail.innerHTML="<p class=\"muted\">Loading the source-backed encounter database…</p>";return;}
+  if(!monsterReady||!window.COMBAT_DOSSIER_DATA){detail.innerHTML="<p class=\"muted\">出典に基づく戦闘データを読み込み中…</p>";return;}
   const entry=MONSTERPEDIA_DATA.entries.find(candidate=>candidate.id===select.value);
-  if(!entry){detail.innerHTML="<p class=\"muted\">Choose a boss or Unique Monster to open its pre-fight checklist.</p>";return;}
+  if(!entry){detail.innerHTML="<p class=\"muted\">ボスまたは Unique Monster を選ぶと、戦闘前のチェックリストが開く。</p>";return;}
   const routeReference=routeItemReference(entry.name,item=>item.f==="u");
   detail.innerHTML=renderCombatDossier(entry,routeReference);
 }
@@ -3052,11 +3052,11 @@ function renderCompanion(){
   const current=currentPlayable(), currentEl=document.getElementById("play-current"), nextEl=document.getElementById("play-next"), statusEl=document.getElementById("advance-status");
   if(!currentEl||!nextEl||!statusEl)return;
   document.getElementById("play-view").value=state.preferences.playView; document.getElementById("spoiler-level").value=state.preferences.spoilerLevel;renderSessionDashboard();
-  if(!current){statusEl.className="advance-status";statusEl.innerHTML="<div><strong>Route checklist complete</strong><span>Finish any unresolved Completion Hub ledger items.</span></div>";currentEl.innerHTML="<h3>Every route card is checked</h3><button type=\"button\" class=\"route-link\" data-companion-panel=\"completion\">Open Completion Hub</button>";nextEl.innerHTML="";renderAreaBriefing(null);renderInventoryPlanner();return;}
+  if(!current){statusEl.className="advance-status";statusEl.innerHTML="<div><strong>ルートのチェックリスト完了</strong><span>未処理の達成ハブの台帳項目を片付ける。</span></div>";currentEl.innerHTML="<h3>ルートカードはすべてチェック済み</h3><button type=\"button\" class=\"route-link\" data-companion-panel=\"completion\">達成ハブを開く</button>";nextEl.innerHTML="";renderAreaBriefing(null);renderInventoryPlanner();return;}
   const chapter=current.chapter,item=current.item,leader=requiredLeader(item),level=recommendedLevel(chapter,item),chapterDeadline=chapter.items.filter(candidate=>candidate.id&&candidate.f==="d"&&!done[candidate.id]);
   const blocked=chapterDeadline.length>0;statusEl.className=`advance-status${blocked?" is-blocked":""}`;statusEl.innerHTML=`<div><strong>${blocked?"まだストーリーを進めない":"この章の期限カードは片付いた"}</strong><span>${blocked?`${esc(chapter.title)} に期限 ${chapterDeadline.length}件。`:"次の目標を終えてから、ストーリーの境界を越える。"}</span></div>${blocked?`<button type="button" class="route-link" data-companion-deadlines="true">障害を見る</button>`:""}`;
   const minimal=state.preferences.spoilerLevel==="minimal"&&!playReveal&&item.f!=="d"&&!leader, gameplay=state.preferences.spoilerLevel==="gameplay";
-  currentEl.innerHTML=`<div class="mission-meta"><span>${esc(chapter.title)}</span><span>Recommended Lv ${esc(level??chapterLevelLabel(chapter))}</span>${leader?`<span class="leader-badge">必要なリーダー · ${esc(leader)}</span>`:""}${item.f==="d"?'<span class="deadline-badge">取り逃し / 封鎖</span>':""}</div><h3>${minimal?"次の目標は隠している":routeTitle(item.t)}</h3>${minimal?'<p>Reveal only when you are ready for the next objective.</p><button type="button" class="route-link" data-reveal-play="true">この手順を見る</button>':gameplay?'<p class="muted">Detailed narrative/context is hidden in Gameplay mode. Open the route card for the complete explanation.</p>':item.d?`<div>${item.d}</div>`:""}<div class="route-card-actions"><button type="button" class="ghost safe" data-complete-play="${esc(item.id)}">完了</button><button type="button" class="route-link" data-open-route="${esc(item.id)}">ルートカード</button></div>`;
+  currentEl.innerHTML=`<div class="mission-meta"><span>${esc(chapter.title)}</span><span>Recommended Lv ${esc(level??chapterLevelLabel(chapter))}</span>${leader?`<span class="leader-badge">必要なリーダー · ${esc(leader)}</span>`:""}${item.f==="d"?'<span class="deadline-badge">取り逃し / 封鎖</span>':""}</div><h3>${minimal?"次の目標は隠している":routeTitle(item.t)}</h3>${minimal?'<p>次の目標を見る準備ができてから開く。</p><button type="button" class="route-link" data-reveal-play="true">この手順を見る</button>':gameplay?'<p class="muted">プレイ手順の表示では、物語の説明を隠している。全文はルートカードを開く。</p>':item.d?`<div>${item.d}</div>`:""}<div class="route-card-actions"><button type="button" class="ghost safe" data-complete-play="${esc(item.id)}">完了</button><button type="button" class="route-link" data-open-route="${esc(item.id)}">ルートカード</button></div>`;
   const open=playableRouteCards().filter(record=>!done[record.item.id]&&record.item.id!==item.id);const list=state.preferences.playView==="deadlines"?open.filter(record=>record.item.f==="d").slice(0,10):open.slice(0,state.preferences.playView==="compact"?10:4);
   nextEl.innerHTML=list.map((record,index)=>`<article class="step-card"><span class="step-number">${index+1}</span><p><b>${state.preferences.spoilerLevel==="minimal"&&record.item.f!=="d"?"次の目標":routeTitle(record.item.t)}</b><br><span class="muted">${esc(record.chapter.title)} · Lv ${esc(recommendedLevel(record.chapter,record.item)??chapterLevelLabel(record.chapter))}</span></p><button type="button" class="route-link" data-open-route="${esc(record.item.id)}">開く</button></article>`).join("")||"<p class=\"muted\">ほかに該当する手順はない。</p>";
   document.getElementById("play-open-route").dataset.openRoute=item.id;renderAreaBriefing(current);renderInventoryPlanner();initEncounterMode();
@@ -3112,7 +3112,7 @@ function renderMonsterpedia(reset = false){
     return [entry.name, entry.species, entry.area, entry.conditions, entry.category, monsterFamily(entry).label, drops, guideContext]
       .filter(Boolean).join(" ").toLowerCase().includes(query);
   }).sort((a,b) => a.levelMin - b.levelMin || a.name.localeCompare(b.name));
-  document.getElementById("monster-count").textContent = `${found.length} of ${MONSTERPEDIA_DATA.entries.length} monsters · showing ${Math.min(monsterLimit, found.length)}`;
+  document.getElementById("monster-count").textContent = `${found.length} / ${MONSTERPEDIA_DATA.entries.length} 体 · ${Math.min(monsterLimit, found.length)} 件表示`;
   monsterEl.innerHTML = found.slice(0, monsterLimit).map(entry => {
     const drops = entry.drops?.confirmed || [];
     const monsterType = monsterFamily(entry);
@@ -3121,7 +3121,7 @@ function renderMonsterpedia(reset = false){
       entry.questOnly ? "Quest-only" : "", entry.timeSpecific ? "Time-specific" : "", entry.weatherSpecific ? "Weather-specific" : ""]
       .filter(Boolean).map(tag => `<span class="pill${tag === monsterType.label ? ` family-pill family-${monsterType.id}` : /quest|boss|unique/i.test(tag) ? " special" : ""}">${esc(tag)}</span>`).join("");
     const dropRows = drops.map((drop,index) => { const dropId = `${entry.id}:${index}`; return `<li><label><input class="drop-toggle" type="checkbox" data-drop-id="${esc(dropId)}"${dropLog[dropId] ? " checked" : ""} aria-label="Log ${esc(drop.item)} drop"><b>${esc(drop.item)}</b>${drop.chest ? ` · ${esc(drop.chest)} chest` : ""}${drop.rate ? ` · ${esc(drop.rate)}` : ""}</label></li>`; }).join("");
-    const gemTarget=recommendedGemForEntry(entry,routeReference),gemAction=gemTarget?`<button type="button" class="route-link" data-open-tool="gems" data-gem-phase="${esc(workshopPhaseIdForEncounter(entry,routeReference))}" data-gem-target="${esc(gemTarget)}">Craft ${esc(gemTarget)} for this fight</button>`:"";
+    const gemTarget=recommendedGemForEntry(entry,routeReference),gemAction=gemTarget?`<button type="button" class="route-link" data-open-tool="gems" data-gem-phase="${esc(workshopPhaseIdForEncounter(entry,routeReference))}" data-gem-target="${esc(gemTarget)}">${esc(gemTarget)} をこの戦いに</button>`:"";
     return `<article class="result-card monster-card family-${monsterType.id}${entry.unique ? " is-unique" : ""}${entry.boss ? " is-boss" : ""}${monsterLog[entry.id] ? " is-logged" : ""}" data-family="${monsterType.id}">
       <div class="monster-crest" aria-hidden="true">${entry.unique ? '<span class="monster-rank">&#9733;</span>' : ""}${monsterPortrait(entry)}</div>
       <div class="monster-card-main"><h3><span>${esc(entry.name)}</span><span class="rec-level">Lv ${esc(entry.level)}</span></h3>
@@ -3131,7 +3131,7 @@ function renderMonsterpedia(reset = false){
         ${(entry.unique || entry.boss) ? renderCombatDossier(entry,routeReference) : ""}
         <div class="monster-card-actions"><button type="button" class="hunt-toggle monster-log-toggle" data-monster-log="${esc(entry.id)}" aria-pressed="${monsterLog[entry.id] ? "true" : "false"}">${monsterLog[entry.id] ? "Logged" : "Mark as logged"}</button><button type="button" class="hunt-toggle" data-hunt="${esc(entry.id)}" aria-pressed="${monsterHunts[entry.id] ? "true" : "false"}">${monsterHunts[entry.id] ? "Pinned to hunt list" : "Pin to hunt list"}</button>${gemAction}${routeReference ? `<button type="button" class="route-link" data-open-route="${esc(routeReference.itemId)}">${gameIcon("landmark")}Open route card</button>` : ""}</div>
         <p class="muted"><a href="${esc(monsterSourceUrl(entry))}" target="_blank" rel="noopener">Enemy-page source</a>${entry.image?.local ? "" : " · Source page has no portrait; showing the official in-game enemy icon."}</p></div></article>`;
-  }).join("") || "<div class=\"callout a\"><p>No monsters match those filters.</p></div>";
+  }).join("") || "<div class=\"callout a\"><p>そのフィルターに合う敵はいない。</p></div>";
   const more = document.getElementById("monster-more"); more.hidden = found.length <= monsterLimit;
   if (document.getElementById("p-monsters").classList.contains("on")) updateHeaderProgress();
 }
@@ -3166,7 +3166,7 @@ function completionQuest(quest){
 }
 function initQuestLookup(){
   const areas = [...new Set(WORLD_DATA.quests.map(quest => quest.area))].sort();
-  document.getElementById("quest-area").innerHTML = "<option value=\"\">All areas</option>" + areas.map(area => `<option>${esc(area)}</option>`).join("");
+  document.getElementById("quest-area").innerHTML = "<option value=\"\">すべてのエリア</option>" + areas.map(area => `<option>${esc(area)}</option>`).join("");
   document.getElementById("quest-source").innerHTML = `Dependency edges are created only from exact, unambiguous names; raw requirements are retained. Snapshot ${esc(WORLD_DATA.generated)} from <a href="${esc(WORLD_DATA.source.checklist.url)}" target="_blank" rel="noopener">${esc(WORLD_DATA.source.checklist.label)}</a>.`;
   renderQuestLookup();
 }
@@ -3205,7 +3205,7 @@ function renderQuestLookup(reset = false){
       <div class="quest-readiness${ready ? "" : " is-blocked"}"><b>${ready ? "Dependency check ready" : "Why this is blocked"}</b>${unresolvedPrereqs.length ? `<p>Complete first: ${unresolvedPrereqs.map(id=>esc(questName(id))).join(" · ")}</p>` : ""}${excludedDone.length ? `<p>Other branch already resolved: ${excludedDone.map(id=>esc(questName(id))).join(" · ")}</p>` : ""}${ready && quest.requirements ? `<p>Structured prerequisites are clear. Still verify raw gates: ${esc(quest.requirements)}</p>` : ready ? `<p>No unresolved structured prerequisite.</p>` : ""}</div>
       ${routeReference ? `<div class="route-card-actions"><button type="button" class="route-link" data-open-route="${esc(routeReference.itemId)}">${gameIcon("landmark")}Open route handling point</button>${binding ? `<span class="binding-note">${esc(binding.handling)} · ${esc(binding.rationale)}</span>` : ""}</div>` : ""}
       <p class="muted"><a href="${esc(quest.source)}" target="_blank" rel="noopener">Checklist source</a></p></article>`;
-  }).join("") || "<div class=\"callout a\"><p>No quests match those filters.</p></div>";
+  }).join("") || "<div class=\"callout a\"><p>そのフィルターに合うクエストはいない。</p></div>";
   const more = document.getElementById("quest-more"); more.hidden = found.length <= questLimit;
 }
 ["quest-q","quest-area","quest-status"].forEach(id => {
@@ -3266,7 +3266,7 @@ function renderAtlas(){
     const requestedSearch=atlasSearch&&map.regionId===atlasSearch.areaId?atlasSearch:null;
     if(requestedSearch){q.value=requestedSearch.query;typeInputs.forEach(input=>{input.checked=!requestedSearch.type||input.dataset.atlasType===requestedSearch.type;});atlasSearch=null;}
     const showPoint=point=>{detail.innerHTML=`<h3>${esc(frontierPointLabel(point,map))}</h3><p><b>${esc(map.name)} · ${esc(map.region)}</b><br><span class="muted">Marker ID: ${esc(point.id||"not supplied")}</span></p>${point.type==="CollectionPoint"?`<ul class="dossier-list">${point.items.map(item=>`<li>${esc(item.name)}${item.rate!==null?` · <b>${esc(item.rate)}%</b>`:""}</li>`).join("")}</ul>`:point.type==="EnemySpawnPoint"?`<ul class="dossier-list">${point.spawns.map(spawn=>`<li>${esc(spawn.name)}${spawn.level!==null?` · Lv ${esc(spawn.level)}`:""}${spawn.rate!==null?` · ${esc(spawn.rate)}%`:""}${spawn.quest?" · quest":""}${spawn.missable?" · missable":""}</li>`).join("")}</ul>`:""}<p class="muted">GeoJSON: ${point.coordinates.map(value=>Number(value).toFixed(5)).join(", ")} · <a href="${esc(point.source)}" target="_blank" rel="noopener">source record</a></p>`;};
-    const draw=()=>{const query=q.value.trim().toLowerCase(),enabled=new Set(typeInputs.filter(input=>input.checked).map(input=>input.dataset.atlasType));const found=map.points.filter(point=>enabled.has(point.type)&&(!query||`${point.name} ${point.id||""} ${frontierPointText(point)}`.toLowerCase().includes(query)));pins.innerHTML=found.map((point,index)=>{const screen=mercatorPoint(point.coordinates),label=frontierPointLabel(point,map);return`<button type="button" class="frontier-pin ${esc(point.type)}" style="left:${screen.x}%;top:${screen.y}%" data-frontier-point="${index}" title="${esc(`${label} · ${map.name} · ${map.region}`)}" aria-label="${esc(`${label}, ${map.name}, ${map.region}. ${frontierPointText(point)}`)}"><span class="sr-only">${esc(`${label} · ${map.name} · ${map.region}`)}</span></button>`;}).join("");results.innerHTML=found.slice(0,180).map((point,index)=>`<button type="button" data-frontier-point="${index}" aria-label="Open ${esc(frontierPointLabel(point,map))}"><b>${esc(frontierPointLabel(point,map))}</b><br><span class="muted">${esc(map.name)} · ${esc(map.region)} · marker ${esc(point.id||"not supplied")}</span><br>${esc(frontierPointText(point)).slice(0,180)}</button>`).join("")||"<p class=\"frontier-detail muted\">No pins match.</p>";const route=query?nearestRoute(found.filter(point=>point.type==="CollectionPoint")):[];routeSvg.innerHTML=route.length>1?`<polyline points="${route.map(point=>`${point.screen.x},${point.screen.y}`).join(" ")}"></polyline>`:"";atlasEl._frontierFound=found;};
+    const draw=()=>{const query=q.value.trim().toLowerCase(),enabled=new Set(typeInputs.filter(input=>input.checked).map(input=>input.dataset.atlasType));const found=map.points.filter(point=>enabled.has(point.type)&&(!query||`${point.name} ${point.id||""} ${frontierPointText(point)}`.toLowerCase().includes(query)));pins.innerHTML=found.map((point,index)=>{const screen=mercatorPoint(point.coordinates),label=frontierPointLabel(point,map);return`<button type="button" class="frontier-pin ${esc(point.type)}" style="left:${screen.x}%;top:${screen.y}%" data-frontier-point="${index}" title="${esc(`${label} · ${map.name} · ${map.region}`)}" aria-label="${esc(`${label}, ${map.name}, ${map.region}. ${frontierPointText(point)}`)}"><span class="sr-only">${esc(`${label} · ${map.name} · ${map.region}`)}</span></button>`;}).join("");results.innerHTML=found.slice(0,180).map((point,index)=>`<button type="button" data-frontier-point="${index}" aria-label="Open ${esc(frontierPointLabel(point,map))}"><b>${esc(frontierPointLabel(point,map))}</b><br><span class="muted">${esc(map.name)} · ${esc(map.region)} · marker ${esc(point.id||"not supplied")}</span><br>${esc(frontierPointText(point)).slice(0,180)}</button>`).join("")||"<p class=\"frontier-detail muted\">一致するピンはない。</p>";const route=query?nearestRoute(found.filter(point=>point.type==="CollectionPoint")):[];routeSvg.innerHTML=route.length>1?`<polyline points="${route.map(point=>`${point.screen.x},${point.screen.y}`).join(" ")}"></polyline>`:"";atlasEl._frontierFound=found;};
     document.getElementById("atlas-area").addEventListener("change",event=>{atlasFocus=null;atlasArea=event.target.value;renderAtlas();});q.addEventListener("input",()=>{atlasFocus=null;draw();});typeInputs.forEach(input=>input.addEventListener("change",draw));atlasEl.onclick=event=>{const button=event.target.closest("[data-frontier-point]");const point=atlasEl._frontierFound?.[Number(button?.dataset.frontierPoint)];if(point)showPoint(point);};draw();
     if(focusMatch?.map?.id===map.id&&focusMatch.point){
       q.value=focusMatch.record.entry.name;draw();
@@ -3276,21 +3276,21 @@ function renderAtlas(){
     }
     return;
   }
-  if (!atlasReady) { atlasEl.innerHTML = "<div class=\"callout\"><p>Loading interactive map atlas…</p></div>"; return; }
+  if (!atlasReady) { atlasEl.innerHTML = "<div class=\"callout\"><p>操作できる地図帳を読み込み中…</p></div>"; return; }
   const usable = MAP_ATLAS_DATA.areas.filter(area => area.map);
   atlasArea = usable.some(area => area.id === atlasArea) ? atlasArea : usable[0]?.id;
   const area = usable.find(item => item.id === atlasArea);
-  if (!area) { atlasEl.innerHTML = "<div class=\"callout a\"><p>No verified local map file is available.</p></div>"; return; }
+  if (!area) { atlasEl.innerHTML = "<div class=\"callout a\"><p>確認済みのローカル地図ファイルはない。</p></div>"; return; }
   const coordinates = new Map((window.MAP_COORDINATE_DATA?.coordinates || []).map(point => [point.id, point]));
   const entries = area.entries.map(entry => { const point=coordinates.get(entry.id); return `<div class="atlas-entry"><span class="tag world-kind">${esc(entry.type.replace(/-/g," "))}</span><b>${esc(entry.name)}</b>${entry.lockoutDeadline ? `<span class="deadline-badge">${gameIcon("timed")}Lockout</span>` : ""}<div class="muted">${esc(entry.accessNotes || "Map discovery entry.")}${point ? ` · exact game coord: X ${point.x}, Y ${point.y}, Z ${point.z}` : ""}</div></div>`; }).join("");
-  atlasEl.innerHTML = `<div class="atlas-controls"><label class="filter-field">Area<select id="atlas-area">${usable.map(item=>`<option value="${esc(item.id)}"${item.id===area.id?" selected":""}>${esc(item.name)}</option>`).join("")}</select></label><a class="route-link" href="${esc(area.map.sourceFile)}" target="_blank" rel="noopener">Open wiki map source</a>${area.lockoutDeadline ? `<span class="deadline-badge">${gameIcon("timed")}Finish before ${esc(area.lockoutDeadline)}</span>` : ""}</div><div class="atlas-map"><figure><img src="${esc(area.map.local)}" width="1024" height="1024" loading="lazy" decoding="async" alt="${esc(area.name)} in-game map"><figcaption>Actual in-game map image, locally cached from the cited wiki file. Browse the verified discovery index beside it.</figcaption></figure><div class="atlas-list" aria-label="${esc(area.name)} landmarks and locations">${entries}</div></div>`;
+  atlasEl.innerHTML = `<div class="atlas-controls"><label class="filter-field">エリア<select id="atlas-area">${usable.map(item=>`<option value="${esc(item.id)}"${item.id===area.id?" selected":""}>${esc(item.name)}</option>`).join("")}</select></label><a class="route-link" href="${esc(area.map.sourceFile)}" target="_blank" rel="noopener">地図の出典</a>${area.lockoutDeadline ? `<span class="deadline-badge">${gameIcon("timed")}${esc(area.lockoutDeadline)} の前に終える</span>` : ""}</div><div class="atlas-map"><figure><img src="${esc(area.map.local)}" width="1024" height="1024" loading="lazy" decoding="async" alt="${esc(area.name)} のゲーム内地図"><figcaption>出典のwikiから手元に置いた、ゲーム内の地図。横の確認済み発見一覧と一緒に見る。</figcaption></figure><div class="atlas-list" aria-label="${esc(area.name)} のランドマークと場所">${entries}</div></div>`;
   document.getElementById("atlas-area").addEventListener("change", event => { atlasArea = event.target.value; renderAtlas(); });
 }
 function toggleCollectopaedia(id){ if (collectopaediaLog[id]) delete collectopaediaLog[id]; else collectopaediaLog[id]=true; save(); renderCollectopaedia(); }
 function renderCollectopaedia(){
-  if (!collectReady) { collectEl.innerHTML = "<div class=\"callout\"><p>Loading item-level コレペディア…</p></div>"; return; }
+  if (!collectReady) { collectEl.innerHTML = "<div class=\"callout\"><p>アイテム単位のコレペディアを読み込み中…</p></div>"; return; }
   const total = COLLECTOPAEDIA_DATA.counts.items, logged = Object.keys(collectopaediaLog).length;
-  collectEl.innerHTML = `<div class="lookup-status"><div class="lookup-count">${logged} / ${total} items logged across ${COLLECTOPAEDIA_DATA.counts.pages} pages</div><a href="${esc(COLLECTOPAEDIA_DATA.source.url)}" target="_blank" rel="noopener">Source pages</a></div><div class="collect-grid">${COLLECTOPAEDIA_DATA.collections.map(page => { const pageItems=page.groups.flatMap(group=>group.items); const pageDone=pageItems.filter(item=>collectopaediaLog[item.id]).length; return `<section class="collect-page"><h3>${esc(page.area)} <span class="rec-level">${pageDone}/${pageItems.length}</span></h3><p class="muted">Page reward: ${esc(page.completionReward)}</p>${page.groups.map(group=>`<div class="collect-row"><b>${esc(group.type)}</b><small>Row reward: ${esc(group.reward)}</small>${group.items.map(item=>`<label class="collect-item"><input type="checkbox" data-collect-id="${esc(item.id)}"${collectopaediaLog[item.id]?" checked":""}> <span>${esc(item.name)}</span></label>`).join("")}</div>`).join("")}<p class="muted"><a href="${esc(page.source)}" target="_blank" rel="noopener">Collection source</a></p></section>`; }).join("")}</div>`;
+  collectEl.innerHTML = `<div class="lookup-status"><div class="lookup-count">${logged} / ${total} 件を記録 · ${COLLECTOPAEDIA_DATA.counts.pages} ページ</div><a href="${esc(COLLECTOPAEDIA_DATA.source.url)}" target="_blank" rel="noopener">出典ページ</a></div><div class="collect-grid">${COLLECTOPAEDIA_DATA.collections.map(page => { const pageItems=page.groups.flatMap(group=>group.items); const pageDone=pageItems.filter(item=>collectopaediaLog[item.id]).length; return `<section class="collect-page"><h3>${esc(page.area)} <span class="rec-level">${pageDone}/${pageItems.length}</span></h3><p class="muted">ページ報酬: ${esc(page.completionReward)}</p>${page.groups.map(group=>`<div class="collect-row"><b>${esc(group.type)}</b><small>行の報酬: ${esc(group.reward)}</small>${group.items.map(item=>`<label class="collect-item"><input type="checkbox" data-collect-id="${esc(item.id)}"${collectopaediaLog[item.id]?" checked":""}> <span>${esc(item.name)}</span></label>`).join("")}</div>`).join("")}<p class="muted"><a href="${esc(page.source)}" target="_blank" rel="noopener">収集の出典</a></p></section>`; }).join("")}</div>`;
 }
 // ---- Area Affinity gate ladder -------------------------------------------------
 // Every star value here is the literal requirement text of the quest that carries it.
@@ -3354,18 +3354,18 @@ function gateLadder(){
   }).sort((a, b) => b.open - a.open || a.area.localeCompare(b.area));
 }
 function renderGateLadder(areaFilter){
-  const GATE_LABEL = { done: "ticked", open: "still open", swept: "area sweep" };
+  const GATE_LABEL = { done: "済", open: "未了", swept: "周回" };
   return gateLadder()
     .filter(entry => !areaFilter || entry.area === areaFilter)
     .map(entry => `<details class="gate-area" open>
       <summary><b>${esc(entry.area)}</b>
-        <span class="gate-counts">${entry.total} gated quest${entry.total === 1 ? "" : "s"}${entry.open ? ` · <span class="gate-open">${entry.open} still open</span>` : " · <span class=\"gate-clear\">none outstanding</span>"}</span>
-        <span class="muted gate-cleared">${entry.cleared ? `route confirms every gated quest up to ☆${esc(entry.cleared)}` : "no gate tier fully ticked yet"}</span>
+        <span class="gate-counts">門クエスト ${entry.total}件${entry.open ? ` · <span class="gate-open">未了 ${entry.open}</span>` : " · <span class=\"gate-clear\">残りなし</span>"}</span>
+        <span class="muted gate-cleared">${entry.cleared ? `ルートは☆${esc(entry.cleared)}までの門クエストを確認済み` : "まだ星の段をすべて終えていない"}</span>
       </summary>
       ${entry.ladder.map(tier => `<div class="gate-tier">
         <div class="gate-tier-head"><b>☆${esc(tier.star)}</b>
-          <span class="muted">${tier.rows.length} quest${tier.rows.length === 1 ? "" : "s"} open at this gate · ${tier.done} ticked${tier.open ? ` · ${tier.open} waiting on you` : ""}${tier.swept ? ` · ${tier.swept} covered by an area sweep` : ""}</span></div>
-        <div class="route-card-actions">${tier.rows.map(row => `<button type="button" class="route-link gate-q is-${row.state}"${row.routeId ? ` data-gate-route="${esc(row.routeId)}" data-gate-chapter="${esc(row.chapter)}"` : ` data-open-affinity-quest="${esc(row.quest.id)}"`} title="${esc(GATE_LABEL[row.state])}${row.quest.timed ? " · timed quest" : ""}">${esc(row.quest.name)}${row.quest.timed ? " ⏱" : ""}</button>`).join(" ")}</div>
+          <span class="muted">この門のクエスト ${tier.rows.length}件 · 済 ${tier.done}${tier.open ? ` · 未了 ${tier.open}` : ""}${tier.swept ? ` · 周回 ${tier.swept}` : ""}</span></div>
+        <div class="route-card-actions">${tier.rows.map(row => `<button type="button" class="route-link gate-q is-${row.state}"${row.routeId ? ` data-gate-route="${esc(row.routeId)}" data-gate-chapter="${esc(row.chapter)}"` : ` data-open-affinity-quest="${esc(row.quest.id)}"`} title="${esc(GATE_LABEL[row.state])}${row.quest.timed ? " · 期限クエスト" : ""}">${esc(row.quest.name)}${row.quest.timed ? " ⏱" : ""}</button>`).join(" ")}</div>
       </div>`).join("")}
     </details>`).join("");
 }
@@ -3378,13 +3378,13 @@ function jumpToRouteItem(itemId, chapterId, pushHistory = true){
   setTimeout(() => row.classList.remove("gate-flash"), 1600);
 }
 function renderAffinityPlanner(){
-  if (!worldReady || !affinityReady) { affinityEl.innerHTML = "<div class=\"callout\"><p>Loading resident, quest and affinity requirements…</p></div>"; return; }
+  if (!worldReady || !affinityReady) { affinityEl.innerHTML = "<div class=\"callout\"><p>住人、クエスト、キズナの条件を読み込み中…</p></div>"; return; }
   const starRows = renderGateLadder("");
   const branchRows=AFFINITY_DATA.choices.sort((a,b)=>a.quest.localeCompare(b.quest)).map(choice=>`<button type="button" class="route-link" data-open-affinity-quest="${esc(choice.questId)}">${esc(choice.quest)} · ${choice.alternatives.map(esc).join(" / ")}</button>`).join(" ");
   const areas=[...new Set(AFFINITY_DATA.residents.flatMap(resident=>resident.areas))].sort();
-  affinityEl.innerHTML = `<div class="lookup-status"><div class="lookup-count">${AFFINITY_DATA.counts.residents} 住人 / クエスト接点 · ${AFFINITY_DATA.counts.quests} クエスト解放 · ${AFFINITY_DATA.counts.choices} 排他の辺</div><a href="${esc(AFFINITY_DATA.sources[1].url)}" target="_blank" rel="noopener">Chronological Affinity Link guide</a></div><div class="atlas-controls"><label class="filter-field">検索<input id="affinity-q" type="search" placeholder="住人、18:00…"></label><label class="filter-field">エリア<select id="affinity-area"><option value="">すべてのエリア</option>${areas.map(area=>`<option>${esc(area)}</option>`).join("")}</select></label></div><div class="planner-grid"><section class="planner-card gate-card"><h3>Area Affinity gate ladder</h3><p class="muted">Every star value is the literal requirement text of that quest. The game shows no affinity number and this data set holds none, so nothing here predicts your current standing — it reports what each gate opens and which of those quests your route has ticked. Green is ticked, amber is still on you, grey is covered by an area-sweep task rather than its own route line. ⏱ marks a timed quest. The Area filter narrows this ladder too.</p><div id="affinity-gates">${starRows}</div></section><section class="planner-card"><h3>Mutually exclusive outcomes</h3><p>Resolve these through the route recommendation before turning in either side. Choices can change NPC links, resident availability or follow-ups.</p><div class="route-card-actions">${branchRows}</div></section><section class="planner-card"><h3>How to use the chart</h3><ul><li>Register named residents, then revisit after quest batches at their listed hours.</li><li>Use the chronological source for talk-only relationship links; the structured cards below never invent an edge from prose.</li><li>Area stars, required residents, leader gates and mutually exclusive quest edges are searchable here and in global search.</li></ul></section></div><div id="affinity-residents" class="collect-grid"></div><p class="source-note">${esc(AFFINITY_DATA.policy)} Sources: ${AFFINITY_DATA.sources.map(source=>`<a href="${esc(source.url)}" target="_blank" rel="noopener">${esc(source.label)}</a>`).join(" · ")}.</p>`;
+  affinityEl.innerHTML = `<div class="lookup-status"><div class="lookup-count">${AFFINITY_DATA.counts.residents} 住人 / クエスト接点 · ${AFFINITY_DATA.counts.quests} クエスト解放 · ${AFFINITY_DATA.counts.choices} 排他の辺</div><a href="${esc(AFFINITY_DATA.sources[1].url)}" target="_blank" rel="noopener">時系列のキズナ出典</a></div><div class="atlas-controls"><label class="filter-field">検索<input id="affinity-q" type="search" placeholder="住人、18:00…"></label><label class="filter-field">エリア<select id="affinity-area"><option value="">すべてのエリア</option>${areas.map(area=>`<option>${esc(area)}</option>`).join("")}</select></label></div><div class="planner-grid"><section class="planner-card gate-card"><h3>エリアキズナの門</h3><p class="muted">星の値は、そのクエストに書かれた条件そのものだ。ゲームはキズナの数値を出さず、このデータにも無い。今の自分の星は予測しない。各門が何を開くかと、ルートでどれを終えたかだけを示す。緑は済、琥珀は未了、灰色は個別のルートではなく周回で覆われる。⏱は期限クエスト。エリアの絞り込みは、この門にも効く。</p><div id="affinity-gates">${starRows}</div></section><section class="planner-card"><h3>相互排他の結末</h3><p>どちらを報告する前に、ルートの推奨で決める。選択でNPCの線、住人、続きが変わる。</p><div class="route-card-actions">${branchRows}</div></section><section class="planner-card"><h3>キズナグラムの使い方</h3><ul><li>名前のある住人を登録し、書いた時間に、クエストのまとまりのあとでもう一度会う。</li><li>会話だけの線は時系列の出典を使う。下のカードは文章から辺を作らない。</li><li>エリアの星、必要な住人、リーダーの門、相互排他の辺は、ここと全体検索で探せる。</li></ul></section></div><div id="affinity-residents" class="collect-grid"></div><p class="source-note">${esc(AFFINITY_DATA.policy)} Sources: ${AFFINITY_DATA.sources.map(source=>`<a href="${esc(source.url)}" target="_blank" rel="noopener">${esc(source.label)}</a>`).join(" · ")}.</p>`;
   const questById=new Map(AFFINITY_DATA.quests.map(quest=>[quest.id,quest]));
-  const renderResidents=()=>{const query=document.getElementById("affinity-q").value.trim().toLowerCase(),area=document.getElementById("affinity-area").value;const found=AFFINITY_DATA.residents.filter(resident=>{if(area&&!resident.areas.includes(area))return false;const questNames=[...resident.questIds,...resident.requiredByQuestIds].map(id=>questById.get(id)?.name||"").join(" ");return !query||[resident.name,resident.areas.join(" "),resident.locations.map(location=>`${location.location} ${location.time}`).join(" "),questNames].join(" ").toLowerCase().includes(query);});document.getElementById("affinity-residents").innerHTML=found.map(resident=>`<article class="collect-page"><h3>${esc(resident.name)}</h3><p class="muted">${esc(resident.areas.join(" · "))}</p>${resident.locations.length?`<ul class="dossier-list">${resident.locations.map(location=>`<li>${esc(location.location||"Location varies")}${location.time?` · <b>${esc(location.time)}</b>`:""}</li>`).join("")}</ul>`:"<p class=\"muted\">No quest-giver location in the ledger; use the linked Affinity guide.</p>"}${resident.questIds.length?`<details open><summary>Offers ${resident.questIds.length} quest${resident.questIds.length===1?"":"s"}</summary><div class="route-card-actions">${resident.questIds.map(id=>questById.get(id)).filter(Boolean).map(quest=>`<button type="button" class="route-link" data-open-affinity-quest="${esc(quest.id)}">${esc(quest.name)}${quest.star?` · ☆${esc(quest.star)}`:""}${quest.leader?` · ${esc(quest.leader)} leads`:""}</button>`).join(" ")}</div></details>`:""}${resident.requiredByQuestIds.length?`<details open><summary>Required to unlock ${resident.requiredByQuestIds.length}</summary><div class="route-card-actions">${resident.requiredByQuestIds.map(id=>questById.get(id)).filter(Boolean).map(quest=>`<button type="button" class="route-link" data-open-affinity-quest="${esc(quest.id)}">${esc(quest.name)}</button>`).join(" ")}</div></details>`:""}</article>`).join("")||"<div class=\"callout a\"><p>No residents match.</p></div>";};
+  const renderResidents=()=>{const query=document.getElementById("affinity-q").value.trim().toLowerCase(),area=document.getElementById("affinity-area").value;const found=AFFINITY_DATA.residents.filter(resident=>{if(area&&!resident.areas.includes(area))return false;const questNames=[...resident.questIds,...resident.requiredByQuestIds].map(id=>questById.get(id)?.name||"").join(" ");return !query||[resident.name,resident.areas.join(" "),resident.locations.map(location=>`${location.location} ${location.time}`).join(" "),questNames].join(" ").toLowerCase().includes(query);});document.getElementById("affinity-residents").innerHTML=found.map(resident=>`<article class="collect-page"><h3>${esc(resident.name)}</h3><p class="muted">${esc(resident.areas.join(" · "))}</p>${resident.locations.length?`<ul class="dossier-list">${resident.locations.map(location=>`<li>${esc(location.location||"場所は変わる")}${location.time?` · <b>${esc(location.time)}</b>`:""}</li>`).join("")}</ul>`:"<p class=\"muted\">台帳にクエストの出し場所は無い。キズナの出典を使う。</p>"}${resident.questIds.length?`<details open><summary>出すクエスト ${resident.questIds.length}件</summary><div class="route-card-actions">${resident.questIds.map(id=>questById.get(id)).filter(Boolean).map(quest=>`<button type="button" class="route-link" data-open-affinity-quest="${esc(quest.id)}">${esc(quest.name)}${quest.star?` · ☆${esc(quest.star)}`:""}${quest.leader?` · リーダー ${esc(quest.leader)}`:""}</button>`).join(" ")}</div></details>`:""}${resident.requiredByQuestIds.length?`<details open><summary>解放に必要 ${resident.requiredByQuestIds.length}件</summary><div class="route-card-actions">${resident.requiredByQuestIds.map(id=>questById.get(id)).filter(Boolean).map(quest=>`<button type="button" class="route-link" data-open-affinity-quest="${esc(quest.id)}">${esc(quest.name)}</button>`).join(" ")}</div></details>`:""}</article>`).join("")||"<div class=\"callout a\"><p>一致する住人はいない。</p></div>";};
   const areaSelect = document.getElementById("affinity-area");
   const syncGates = () => { document.getElementById("affinity-gates").innerHTML = renderGateLadder(areaSelect.value); };
   document.getElementById("affinity-q").addEventListener("input",renderResidents);
@@ -3517,20 +3517,20 @@ function renderCharacterBuild(character,control,goal){
   const list=values=>`<ul class="priority-list">${(values||[]).map(value=>`<li>${esc(value)}</li>`).join("")}</ul>`;
   const landmark=showAllBuilds?`role="region" aria-label="${esc(character.name)} build"`:`role="tabpanel" aria-labelledby="build-tab-${esc(character.id)}"`;
   return `<article class="build-character-block" id="build-${esc(character.id)}" ${landmark}><header class="build-character-heading"><img src="${partyPortrait(character.id)}" width="48" height="58" alt="" aria-hidden="true" decoding="async"><div><h3>${esc(character.name)} · ${control==="player"?"プレイヤー":"AI"} · ${goalLabel}</h3><p>${esc(character.role)} · ${esc(character.availability||BUILD_DATA.futureConnected.availability)}</p></div></header><div class="build-columns">
-    <section class="build-section"><h3>Role &amp; game plan</h3>${goal==="fortress"?`<div class="callout g"><p><b>Fortress difference:</b> ${esc(profile?.strategy||"Survival, recovery and encounter counters take priority over kill speed.")}</p></div>`:""}<p>${esc(character.controlGuide||"")}</p>${list(character.facts)}</section>
-    <section class="build-section"><h3>Arts to slot</h3>${list(arts)}${character.talentArts?.length?`<p><b>Talent / Monado Arts:</b> ${character.talentArts.map(esc).join(" · ")}</p>`:""}<p><b>Level with AP in this order:</b></p>${list(priority)}</section>
-    <section class="build-section"><h3>Skills &amp; Skill Links</h3>${skills.branchPriority?`<p><b>Branch priority</b></p>${list(skills.branchPriority)}`:'<p>Future Connected has no Skill Link system.</p>'}${skills.linksIn?`<p><b>Link into this character</b></p>${list(skills.linksIn)}`:""}${skills.linksOut?`<p><b>Useful links they provide</b></p>${list(skills.linksOut)}`:""}</section>
-    <section class="build-section"><h3>Gear, gems &amp; AI behavior</h3>${gear.weapon?`<p><b>Weapon:</b> ${esc(gear.weapon)}</p>`:""}${gear.armour?`<p><b>Armour:</b> ${esc(gear.armour)}</p>`:""}<p><b>Gem priority</b></p>${list(gems)}<p><b>AI caveat:</b> ${esc(character.aiCaveat||"No special caveat documented.")}</p></section>
+    <section class="build-section"><h3>役割と戦い方</h3>${goal==="fortress"?`<div class="callout g"><p><b>要塞との差:</b> ${esc(profile?.strategy||"生存、回復、敵ごとの対策を、討伐速度より優先する。")}</p></div>`:""}<p>${esc(character.controlGuide||"")}</p>${list(character.facts)}</section>
+    <section class="build-section"><h3>入れるアーツ</h3>${list(arts)}${character.talentArts?.length?`<p><b>Talent Art / モナド:</b> ${character.talentArts.map(esc).join(" · ")}</p>`:""}<p><b>APを使う順:</b></p>${list(priority)}</section>
+    <section class="build-section"><h3>スキルと Skill Link</h3>${skills.branchPriority?`<p><b>系統の優先</b></p>${list(skills.branchPriority)}`:'<p>Future Connected に Skill Link は無い。</p>'}${skills.linksIn?`<p><b>このキャラクターへ繋ぐ</b></p>${list(skills.linksIn)}`:""}${skills.linksOut?`<p><b>このキャラクターが渡す</b></p>${list(skills.linksOut)}`:""}</section>
+    <section class="build-section"><h3>装備、ジェム、AI</h3>${gear.weapon?`<p><b>武器:</b> ${esc(gear.weapon)}</p>`:""}${gear.armour?`<p><b>鎧:</b> ${esc(gear.armour)}</p>`:""}<p><b>ジェムの優先</b></p>${list(gems)}<p><b>AIの注意:</b> ${esc(character.aiCaveat||"特記する注意は無い。")}</p></section>
   </div></article>`;
 }
 function renderBuildGoalComparison(character, control, goal){
-  const notes={fortress:"Survival-first. Defensive Arts, recovery, AP and gems replace damage wherever the kit allows; clears are slower but failure risk is lower.",safe:"Consistent damage and utility without speed-run assumptions. It carries enough safety for normal play, but does not spend every slot and gem on survival.",aggressive:"Tighter execution, weaker recovery and encounter-specific risk in exchange for shorter fights."};
-  if (goal === "aggressive") return `<p><b>Fastest-kill meta:</b> ${notes.aggressive}</p>`;
-  if (!character) return `<p><b>${goal==="fortress"?"Never-lose / fortress":"Reliable meta"}:</b> ${notes[goal]} Each character card below shows its own exact loadout.</p>`;
+  const notes={fortress:"生存優先。キットが許すところでは、防御アーツ、回復、AP、ジェムがダメージに代わる。クリアは遅いが、失敗は減る。",safe:"速度を前提にしない、安定したダメージと補助。通常のプレイに足りる安全はあるが、枠とジェムをすべて生存に使いはしない。",aggressive:"操作は厳しく、回復は弱く、敵ごとの危険と引き換えに戦闘は短い。"};
+  if (goal === "aggressive") return `<p><b>最速討伐:</b> ${notes.aggressive}</p>`;
+  if (!character) return `<p><b>${goal==="fortress"?"要塞":"安定メタ"}:</b> ${notes[goal]} 下の各カードが、そのキャラクターの正確な装備だ。</p>`;
   const profile=BUILD_DATA.fortressProfiles?.[character.id],base=control==="player"?character.controlled:character.ai,reliable=base?.metaSafe||[],fortress=profile?.[control==="player"?"controlled":"ai"]||[];
   const added=fortress.filter(art=>!reliable.includes(art)),removed=reliable.filter(art=>!fortress.includes(art));
   const artDelta=added.length||removed.length?`${added.length?`要塞型が足すのは ${added.map(esc).join(", ")}。 `:""}${removed.length?`外すのは ${removed.map(esc).join(", ")}。`:""}`:`通常アーツは同じ ${reliable.length} 個 — ${esc(character.name)} に、より安全な合法パレットは無い。`;
-  return `<p><b>${goal==="fortress"?"Never-lose / fortress":"Reliable meta"}:</b> ${notes[goal]}</p><div class="build-compare" aria-label="Reliable and fortress build comparison"><div class="build-compare-card"><b>Reliable meta${goal==="safe"?" · selected":""}</b><span>Stable damage, core utility and normal recovery. Keeps more offensive pressure.</span></div><div class="build-compare-card is-fortress"><b>Never-lose / fortress${goal==="fortress"?" · selected":""}</b><span>Maximum recovery, encounter counters and defensive margin. Intentionally slower.</span></div></div><div class="build-delta"><b>What changes for ${esc(character.name)} (${control==="player"?"player":"AI"}):</b> ${artDelta} <b>Fortress AP:</b> ${(profile?.levelPriority||[]).slice(0,3).map(esc).join(" → ")}. <b>Fortress gems:</b> ${(profile?.gems||[]).slice(0,3).map(esc).join(" · ")}.</div>`;
+  return `<p><b>${goal==="fortress"?"要塞":"安定メタ"}:</b> ${notes[goal]}</p><div class="build-compare" aria-label="安定と要塞の比較"><div class="build-compare-card"><b>安定メタ${goal==="safe"?" · 選択中":""}</b><span>安定したダメージ、中核の補助、普通の回復。攻撃の圧力はこちらが多い。</span></div><div class="build-compare-card is-fortress"><b>要塞${goal==="fortress"?" · 選択中":""}</b><span>回復、敵ごとの対策、防御の余裕を最大にする。意図して遅い。</span></div></div><div class="build-delta"><b>${esc(character.name)}（${control==="player"?"プレイヤー":"AI"}）の違い:</b> ${artDelta} <b>要塞のAP:</b> ${(profile?.levelPriority||[]).slice(0,3).map(esc).join(" → ")}。 <b>要塞のジェム:</b> ${(profile?.gems||[]).slice(0,3).map(esc).join(" · ")}。</div>`;
 }
 function renderBuild(){
   if (!buildReady) return;
@@ -3548,9 +3548,9 @@ let selectedPreset = "";
 function renderPresets(){
   if (!buildReady) return;
   document.getElementById("party-presets").innerHTML = BUILD_DATA.partyPresets.map(preset =>
-    `<button type="button" class="preset${selectedPreset === preset.id ? " on" : ""}" data-preset="${esc(preset.id)}"><b>${esc(preset.phase)} · ${esc(preset.activity)}</b><div class="preset-party" aria-hidden="true">${preset.party.map(member => `<img class="preset-avatar${member === preset.leader ? " is-leader" : ""}" src="${partyPortrait(member)}" width="38" height="48" alt="" loading="lazy" decoding="async">`).join("")}</div><span>${preset.party.map(buildName).map(esc).join(" / ")} · control ${esc(buildName(preset.leader))}</span></button>`).join("");
+    `<button type="button" class="preset${selectedPreset === preset.id ? " on" : ""}" data-preset="${esc(preset.id)}"><b>${esc(preset.phase)} · ${esc(preset.activity)}</b><div class="preset-party" aria-hidden="true">${preset.party.map(member => `<img class="preset-avatar${member === preset.leader ? " is-leader" : ""}" src="${partyPortrait(member)}" width="38" height="48" alt="" loading="lazy" decoding="async">`).join("")}</div><span>${preset.party.map(buildName).map(esc).join(" / ")} · 操作 ${esc(buildName(preset.leader))}</span></button>`).join("");
   const preset = BUILD_DATA.partyPresets.find(item => item.id === selectedPreset);
-  document.getElementById("preset-detail").innerHTML = preset ? `<div class="callout g"><p><strong>${esc(preset.phase)} · ${esc(preset.variant)}</strong></p><p>${esc(preset.why)}</p><p><b>Party:</b> ${preset.party.map(buildName).map(esc).join(" / ")} · <b>Leader:</b> ${esc(buildName(preset.leader))}</p></div>` : "";
+  document.getElementById("preset-detail").innerHTML = preset ? `<div class="callout g"><p><strong>${esc(preset.phase)} · ${esc(preset.variant)}</strong></p><p>${esc(preset.why)}</p><p><b>パーティ:</b> ${preset.party.map(buildName).map(esc).join(" / ")} · <b>リーダー:</b> ${esc(buildName(preset.leader))}</p></div>` : "";
 }
 ["build-control","build-goal"].forEach(id => document.getElementById(id).addEventListener("change", renderBuild));
 document.getElementById("build-character-tabs").addEventListener("click", event => {
@@ -3627,22 +3627,22 @@ function populateChainPresets(){
 function chainArt(member,phase,predicate){return (WORKSHOP_DATA.chainArts[member]||[]).filter(art=>!art.unlock||art.unlock<=phase.rank).find(predicate);}
 function renderChainPlanner(){
   if(!buildReady||typeof WORKSHOP_DATA==="undefined")return;const phase=phaseById(document.getElementById("chain-phase").value),presetValue=document.getElementById("chain-preset").value,preset=presetValue==="__context"?{id:"__context",party:[...chainContextParty],leader:chainContextLeader||chainContextParty[0],why:"Party carried here from the route, Companion, Endgame guide, or Party Lab."}:BUILD_DATA.partyPresets.find(item=>item.id===presetValue),goal=document.getElementById("chain-goal").value,result=document.getElementById("chain-result");
-  if(!preset){result.innerHTML="<p>No phase-legal preset matches yet.</p>";return;}const order=[preset.leader,...preset.party.filter(member=>member!==preset.leader)],sequence=[];let warning="";
+  if(!preset){result.innerHTML="<p>その進行で使えるプリセットはまだない。</p>";return;}const order=[preset.leader,...preset.party.filter(member=>member!==preset.leader)],sequence=[];let warning="";
   if(goal==="reaction"){
     const effects=["崩し","転倒","気絶"];effects.forEach(effect=>{const match=order.map(member=>({member,art:chainArt(member,phase,art=>art.effect===effect)})).find(entry=>entry.art&&!sequence.some(chosen=>chosen.member===entry.member));if(match)sequence.push(match);});
     if(sequence.length<3)warning="この3人では、一連の 崩し → 転倒 → 気絶 を一巡でつなげない。チェインリンクで後の 気絶 を出すか、パーティを変える。";
   } else {
-    const color=goal==="physical"?"red":goal==="ether"?"purple":"blue";order.forEach(member=>{const art=chainArt(member,phase,item=>item.color===color)||chainArt(member,phase,item=>item.color==="talent");if(art)sequence.push({member,art});else warning=`${characterLabel(member)} has no phase-available ${color} Art for this plan; the chain will need a Talent bridge or a party change.`;});
+    const color=goal==="physical"?"red":goal==="ether"?"purple":"blue";order.forEach(member=>{const art=chainArt(member,phase,item=>item.color===color)||chainArt(member,phase,item=>item.color==="talent");if(art)sequence.push({member,art});else warning=`${characterLabel(member)} には、この計画で使える ${color} のアーツがこの進行に無い。Talent Art で繋ぐか、パーティを変える。`;});
   }
   const targetId=document.getElementById("chain-target").value,target=monsterReady?MONSTERPEDIA_DATA.entries.find(entry=>entry.id===targetId):null,dossier=target&&window.COMBAT_DOSSIER_DATA?.records?.[target.id],spike=dossier?.variants?.[0]?.spike;
   const partyAttrs=`data-party-phase="${esc(phase.id)}" data-party-members="${esc(preset.party.join(","))}" data-party-leader="${esc(preset.leader)}"`;
-  result.innerHTML=`<h3>${esc(preset.party.map(characterLabel).join(" / "))}</h3><p>${esc(preset.why)}</p><div class="chain-sequence">${sequence.map((entry,index)=>`<div class="chain-art ${esc(entry.art.color)}"><b>${index+1}. ${esc(characterLabel(entry.member))} · ${esc(entry.art.name)}</b><span>${esc(entry.art.effect)} · ${esc(entry.art.note)}</span></div>`).join("")||'<p>No legal sequence found.</p>'}</div>${warning?`<div class="callout a"><p><b>Coverage warning:</b> ${esc(warning)}</p></div>`:""}${goal==="reaction"?'<p class="muted">Reaction colors change from pink to green to yellow, so this is control-first—not a same-color damage multiplier route.</p>':'<p class="muted">Repeat the displayed color on a Chain Link. A charged Talent Art can bridge to a different color without dropping the multiplier.</p>'}${target?`<div class="combat-dossier"><p><b>Target:</b> Lv ${esc(target.level)} ${esc(target.name)} · ${esc(target.area||target.areaName)}${spike?`</p><p><b>Spike warning:</b> ${esc(spike.type||"documented Spike")} · bring the dossier's mitigation before committing to a Topple plan.`:""}</p></div>`:""}<div class="workshop-actions"><button type="button" class="route-link" data-open-tool="party" ${partyAttrs}>Test this party in Party Lab</button>${preset.id==="__context"?'<button type="button" class="route-link" data-open-panel="combat">Open member builds</button>':`<button type="button" class="route-link" data-open-preset="${esc(preset.id)}">Open full builds</button>`}</div>`;
+  result.innerHTML=`<h3>${esc(preset.party.map(characterLabel).join(" / "))}</h3><p>${esc(preset.why)}</p><div class="chain-sequence">${sequence.map((entry,index)=>`<div class="chain-art ${esc(entry.art.color)}"><b>${index+1}. ${esc(characterLabel(entry.member))} · ${esc(entry.art.name)}</b><span>${esc(entry.art.effect)} · ${esc(entry.art.note)}</span></div>`).join("")||'<p>合法な順番は無い。</p>'}</div>${warning?`<div class="callout a"><p><b>役割の不足:</b> ${esc(warning)}</p></div>`:""}${goal==="reaction"?'<p class="muted">リアクションの色はピンクから緑、黄へ変わる。これは制御が先で、同色のダメージ倍率ルートではない。</p>':'<p class="muted">表示した色を Chain Link で繰り返す。溜まった Talent Art は、倍率を落とさず別の色へ渡せる。</p>'}${target?`<div class="combat-dossier"><p><b>Target:</b> Lv ${esc(target.level)} ${esc(target.name)} · ${esc(target.area||target.areaName)}${spike?`</p><p><b>Spike warning:</b> ${esc(spike.type||"documented Spike")} · bring the dossier's mitigation before committing to a Topple plan.`:""}</p></div>`:""}<div class="workshop-actions"><button type="button" class="route-link" data-open-tool="party" ${partyAttrs}>Test this party in Party Lab</button>${preset.id==="__context"?'<button type="button" class="route-link" data-open-panel="combat">Open member builds</button>':`<button type="button" class="route-link" data-open-preset="${esc(preset.id)}">Open full builds</button>`}</div>`;
 }
-function populateChainTargets(){const select=document.getElementById("chain-target");if(!select||!monsterReady)return;const previous=select.value;select.innerHTML="<option value=\"\">No specific target</option>"+MONSTERPEDIA_DATA.entries.filter(entry=>entry.unique||entry.type==="Boss").sort((a,b)=>(Number(a.level)||0)-(Number(b.level)||0)).map(entry=>`<option value="${esc(entry.id)}">Lv ${esc(entry.level)} · ${esc(entry.name)}</option>`).join("");if([...select.options].some(option=>option.value===previous))select.value=previous;}
+function populateChainTargets(){const select=document.getElementById("chain-target");if(!select||!monsterReady)return;const previous=select.value;select.innerHTML="<option value=\"\">指定なし</option>"+MONSTERPEDIA_DATA.entries.filter(entry=>entry.unique||entry.type==="Boss").sort((a,b)=>(Number(a.level)||0)-(Number(b.level)||0)).map(entry=>`<option value="${esc(entry.id)}">Lv ${esc(entry.level)} · ${esc(entry.name)}</option>`).join("");if([...select.options].some(option=>option.value===previous))select.value=previous;}
 function renderGemAssistant(){
   if(typeof WORKSHOP_DATA==="undefined")return;const phase=phaseById(document.getElementById("gem-phase").value),goal=document.getElementById("gem-goal").value,target=document.getElementById("gem-target").value,quality=Math.max(0,Math.min(299,Number(document.getElementById("gem-quality").value)||0)),qualities=Number(document.getElementById("gem-qualities").value),flame=goal==="cylinder"?"gentle":goal==="multi"||qualities>1?"medium":"strong",pairs=WORKSHOP_DATA.gemPairs[flame].filter(pair=>pair.unlock<=phase.rank&&phase.roster.includes(pair.shooter)&&phase.roster.includes(pair.engineer));
-  const pair=pairs.at(-1)||pairs[0],threshold=goal==="mega"?300:goal==="heat"?200:goal==="gem"||goal==="multi"?100:99,gap=Math.max(0,threshold-quality),status=goal==="cylinder"?"Keep the target below 100%; every other unwanted quality should also stay below 100% if you want cylinders instead of accidental gems.":quality>=threshold?`Your starting ${quality}% already meets the ${threshold}% threshold; use the recommended flame to improve consistency, but the furnace remains random.`:`You need at least ${gap} more percentage points during crafting to reach ${threshold}%.`;
-  document.getElementById("gem-result").innerHTML=`<h3>${esc(target)} · ${goal==="mega"?"Mega Heat":goal==="heat"?"Heat":goal==="cylinder"?"cylinder prep":"craft"}</h3><div class="callout ${goal==="cylinder"?"a":"g"}"><p><b>${esc(flame.replace(/^./,letter=>letter.toUpperCase()))} Flame plan.</b> ${esc(status)}</p></div>${pair?`<p><b>Shooter:</b> ${esc(characterLabel(pair.shooter))}<br><b>Engineer:</b> ${esc(characterLabel(pair.engineer))}</p><p>${esc(pair.why)}</p>`:'<p><b>No ideal pair is available in this phase.</b> Use the best-affinity legal pair and expect more variance, or wait for the recommended characters to join.</p>'}<ol><li>${goal==="cylinder"?"Combine low-quality sources and avoid crossing 100%.":"Start with matching-rank, single-quality cylinders; two near 99% cylinders are the clean late-game setup."}</li><li>${flame==="strong"?"Use one focused quality so Strong Flame cannot boost the wrong result.":flame==="medium"?"Use Medium Flame because every selected quality needs progress.":"Use Gentle Flame to fill the cylinder gauge while minimizing accidental quality growth."}</li><li>100%でジェムができる。200%の Heat でランクが上がる。300% Mega Heat で、最大値のジェムが二つ、一つ上のランクで出る。</li></ol><div class="workshop-actions"><button type="button" class="route-link" data-open-panel="monsters" data-search-monster-drop="${esc(target)}">Find ${esc(target)} encounters and drops</button><button type="button" class="route-link" data-open-tool="party" data-party-phase="${esc(phase.id)}" data-party-members="${esc([pair?.shooter,pair?.engineer].filter(Boolean).join(","))}" data-party-leader="${esc(pair?.shooter||"")}">Check crafter availability</button></div>`;
+  const pair=pairs.at(-1)||pairs[0],threshold=goal==="mega"?300:goal==="heat"?200:goal==="gem"||goal==="multi"?100:99,gap=Math.max(0,threshold-quality),status=goal==="cylinder"?"対象は100%未満に保つ。シリンダーが欲しく、偶然のジェムを避けたいなら、不要な品質も100%未満。":quality>=threshold?`開始の ${quality}% は、すでに ${threshold}% に届いている。推奨の炎で安定は上げられるが、炉はランダムのまま。`:`${threshold}% まで、合成中にあと ${gap} ポイント以上が必要。`;
+  document.getElementById("gem-result").innerHTML=`<h3>${esc(target)} · ${goal==="mega"?"Mega Heat":goal==="heat"?"Heat":goal==="cylinder"?"シリンダー":"合成"}</h3><div class="callout ${goal==="cylinder"?"a":"g"}"><p><b>${esc(flame==="strong"?"Strong":flame==="medium"?"Medium":"Gentle")} Flame。</b> ${esc(status)}</p></div>${pair?`<p><b>Shooter:</b> ${esc(characterLabel(pair.shooter))}<br><b>Engineer:</b> ${esc(characterLabel(pair.engineer))}</p><p>${esc(pair.why)}</p>`:'<p><b>この進行に理想の二人はいない。</b>合法でキズナが最も高い二人を使い、ばらつきを見込む。または推奨のキャラクターを待つ。</p>'}<ol><li>${goal==="cylinder"?"低い品質を合わせ、100%を越えない。":"同じランクで品質が一つのシリンダーから始める。99%近くが二つ揃うのが終盤の形。"}</li><li>${flame==="strong"?"品質は一つに絞る。Strong Flame が別の結果を上げないようにする。":flame==="medium"?"選んだ品質をすべて進めたいので Medium Flame。":"ゲージを満たしつつ品質の偶発を抑えるなら Gentle Flame。"}</li><li>100%でジェムができる。200%の Heat でランクが上がる。300% Mega Heat で、最大値のジェムが二つ、一つ上のランクで出る。</li></ol><div class="workshop-actions"><button type="button" class="route-link" data-open-panel="monsters" data-search-monster-drop="${esc(target)}">${esc(target)} の出現とドロップ</button><button type="button" class="route-link" data-open-tool="party" data-party-phase="${esc(phase.id)}" data-party-members="${esc([pair?.shooter,pair?.engineer].filter(Boolean).join(","))}" data-party-leader="${esc(pair?.shooter||"")}">合成役がいるか</button></div>`;
 }
 const GIFT_AREA_ORDER=["コロニー9","テフラ洞窟","巨神脚","コロニー6","中央採掘場","燐光の地ザトール","マクナ原生林","サイハテ村","エルト海","皇都アカモート","ハイエンター墓所","ヴァラク雪山","大剣の渓谷","ガラハド要塞","落ちた腕","機神界フィールド","中央工廠","帝都アグニラータ","巨神胎内","監獄島","Other"];
 function giftAreaIndex(area){const index=GIFT_AREA_ORDER.indexOf(area);return index>=0?index:GIFT_AREA_ORDER.length-1;}
@@ -3650,29 +3650,29 @@ function protectedGiftNames(){if(!routeReady)return new Set();return new Set(pla
 function renderGiftOptimizer(){
   if(typeof WORKSHOP_DATA==="undefined")return;const giver=document.getElementById("gift-giver").value,recipient=document.getElementById("gift-recipient").value,area=document.getElementById("gift-area").value,category=document.getElementById("gift-category").value,query=document.getElementById("gift-q").value.trim().toLowerCase(),protect=document.getElementById("gift-protect").checked,protectedNames=protect?protectedGiftNames():new Set(),areaLimit=area?giftAreaIndex(area):Infinity;
   const results=WORKSHOP_DATA.gifts.filter(gift=>(!area||giftAreaIndex(gift.area)<=areaLimit)&&(!category||gift.category===category)&&(!query||`${gift.name} ${gift.area} ${gift.category}`.toLowerCase().includes(query))&&!protectedNames.has(gift.name.toLowerCase())).sort((a,b)=>b.affinity[recipient]-a.affinity[recipient]||a.name.localeCompare(b.name)).slice(0,20);
-  document.getElementById("gift-result").innerHTML=`<h3>${esc(characterLabel(giver))} → ${esc(characterLabel(recipient))}</h3><p>${protect?`${protectedNames.size} unfinished route material${protectedNames.size===1?" is":"s are"} protected from recommendations.`:"Route materials are not protected."} Love Source is always +100, but the list below also finds realistic field collectables.</p><div class="gift-results">${results.map(gift=>`<div class="gift-row"><div><b>${esc(gift.name)}</b><small>${esc(gift.category)} · ${esc(gift.area)}</small></div><span class="gift-value">${gift.affinity[recipient]>0?"+":""}${esc(gift.affinity[recipient])}</span></div>`).join("")||'<p>No gifts match these filters.</p>'}</div><div class="workshop-actions"><button type="button" class="route-link" data-open-tool="party">Put this pair in a party</button></div>`;
+  document.getElementById("gift-result").innerHTML=`<h3>${esc(characterLabel(giver))} → ${esc(characterLabel(recipient))}</h3><p>${protect?`未完了ルートの素材 ${protectedNames.size}種は候補から外している。`:"ルート素材は守っていない。"} Love Source は常に+100。下の表は、フィールドで現実的な収集品も出す。</p><div class="gift-results">${results.map(gift=>`<div class="gift-row"><div><b>${esc(gift.name)}</b><small>${esc(gift.category)} · ${esc(gift.area)}</small></div><span class="gift-value">${gift.affinity[recipient]>0?"+":""}${esc(gift.affinity[recipient])}</span></div>`).join("")||'<p>この条件の贈り物は無い。</p>'}</div><div class="workshop-actions"><button type="button" class="route-link" data-open-tool="party">この二人をパーティへ</button></div>`;
 }
 function populatePartySelectors(){
   if(!buildReady)return;const phase=phaseById(document.getElementById("party-phase").value),selects=["party-leader","party-two","party-three"].map(id=>document.getElementById(id)),previous=selects.map(select=>select.value),defaults=phase.party;
   const partySize=Math.min(3,phase.roster.length);
-  selects.forEach((select,index)=>{const active=index<partySize;select.closest("label").hidden=!active;select.disabled=!active;select.innerHTML=active?phase.roster.map(id=>`<option value="${esc(id)}">${esc(characterLabel(id))}</option>`).join(""):"<option value=\"\">No third member</option>";select.value=active?(phase.roster.includes(previous[index])?previous[index]:(defaults[index]||phase.roster[index]||phase.roster[0])):"";});renderPartyChemistry();
+  selects.forEach((select,index)=>{const active=index<partySize;select.closest("label").hidden=!active;select.disabled=!active;select.innerHTML=active?phase.roster.map(id=>`<option value="${esc(id)}">${esc(characterLabel(id))}</option>`).join(""):"<option value=\"\">3人目なし</option>";select.value=active?(phase.roster.includes(previous[index])?previous[index]:(defaults[index]||phase.roster[index]||phase.roster[0])):"";});renderPartyChemistry();
 }
 function renderPartyChemistry(){
   if(!buildReady||typeof WORKSHOP_DATA==="undefined")return;const phase=phaseById(document.getElementById("party-phase").value),members=[document.getElementById("party-leader").value,document.getElementById("party-two").value,document.getElementById("party-three").value].filter(Boolean),goal=document.getElementById("party-goal").value,unique=[...new Set(members)],expectedSize=Math.min(3,phase.roster.length),tags=new Set(unique.flatMap(id=>WORKSHOP_DATA.chemistry[id]?.tags||[])),legal=unique.length===expectedSize&&unique.every(id=>phase.roster.includes(id));
   const controlTotal=members.reduce((sum,id,index)=>sum+(WORKSHOP_DATA.chemistry[id]?.[index===0?"player":"ai"]||1),0),controlMaximum=Math.max(1,members.length*3);
-  const scores={"Front line":tags.has("tank")?20:5,"回復":tags.has("heal")?20:5,"崩し / 転倒":tags.has("break")&&tags.has("topple")?20:tags.has("topple")?10:3,"Damage mix":tags.has("physical")&&tags.has("ether")?20:12,"Control fit":Math.round(controlTotal/controlMaximum*20)};
+  const scores={"前衛":tags.has("tank")?20:5,"回復":tags.has("heal")?20:5,"崩し / 転倒":tags.has("break")&&tags.has("topple")?20:tags.has("topple")?10:3,"ダメージ":tags.has("physical")&&tags.has("ether")?20:12,"操作":Math.round(controlTotal/controlMaximum*20)};
   let total=Object.values(scores).reduce((sum,value)=>sum+value,0);if(goal==="safe"&&!tags.has("heal"))total-=10;if(goal==="burst"&&!tags.has("burst"))total-=8;if(goal==="topple"&&!(tags.has("break")&&tags.has("topple")))total-=10;if(goal==="ether"&&!tags.has("ether"))total-=10;total=Math.max(0,Math.min(100,total));
-  const warnings=[];if(!legal)warnings.push(`Choose ${expectedSize} different character${expectedSize===1?"":"s"} from the selected phase.`);if(!tags.has("tank"))warnings.push("No clear aggro anchor; expect target swapping and positional instability.");if(!tags.has("heal"))warnings.push("No dependable party recovery; this is a speed or execution setup.");if(!(tags.has("break")&&tags.has("topple")))warnings.push("崩し → 転倒 coverage is incomplete.");if(members[0]&&(WORKSHOP_DATA.chemistry[members[0]]?.player||0)<3)warnings.push(`${characterLabel(members[0])} gains less from manual control than another member of this party.`);members.slice(1).forEach(id=>{if((WORKSHOP_DATA.chemistry[id]?.ai||0)<2)warnings.push(`${characterLabel(id)} is AI-sensitive and may not execute the intended rotation.`);});
+  const warnings=[];if(!legal)warnings.push(`選んだ進行から、別のキャラクターを ${expectedSize} 人にする。`);if(!tags.has("tank"))warnings.push("ヘイトの軸が無い。対象が変わり、位置が安定しない。");if(!tags.has("heal"))warnings.push("安定した回復が無い。速度か操作の編成。");if(!(tags.has("break")&&tags.has("topple")))warnings.push("崩し → 転倒が足りない。");if(members[0]&&(WORKSHOP_DATA.chemistry[members[0]]?.player||0)<3)warnings.push(`${characterLabel(members[0])} は、この中では自分で操作する利益が小さい。`);members.slice(1).forEach(id=>{if((WORKSHOP_DATA.chemistry[id]?.ai||0)<2)warnings.push(`${characterLabel(id)} はAIが不安定で、意図した回りをしないことがある。`);});
   const matching=BUILD_DATA.partyPresets.find(preset=>preset.party.length===expectedSize&&preset.party.every(id=>unique.includes(id))&&preset.leader===members[0]);
   const phaseNote=expectedSize<3?"<p class=\"muted\"><b>二人だけの強制進行:</b> 三つ目の枠が無いのは意図どおりで、不正なパーティには数えない。</p>":"";
-  document.getElementById("party-result").innerHTML=`<h3>${legal?`${total}/100 chemistry`:"Invalid party"}</h3><p><b>${esc(members.map(characterLabel).join(" / "))}</b> · control ${esc(characterLabel(members[0]))}</p>${phaseNote}<div class="workshop-score">${Object.entries(scores).map(([label,value])=>`<b>${esc(label)}</b><span class="score-bar" aria-label="${esc(label)} ${value} of 20"><i style="width:${value*5}%"></i></span>`).join("")}</div>${warnings.length?`<div class="callout a"><p><b>Watch:</b></p><ul>${warnings.map(warning=>`<li>${esc(warning)}</li>`).join("")}</ul></div>`:'<div class="callout g"><p><b>Clean coverage:</b> this party has a tank, recovery, reaction control, damage variety and a sensible control assignment.</p></div>'}${matching?`<p><b>Matching guide preset:</b> ${esc(matching.phase)} · ${esc(matching.activity)}. ${esc(matching.why)}</p>`:""}<div class="workshop-actions">${legal?`<button type="button" class="route-link" data-open-tool="chain" data-chain-phase="${esc(phase.id)}" data-chain-party="${esc(members.join(","))}" data-chain-leader="${esc(members[0])}">Plan this party's chain</button>`:""}<button type="button" class="route-link" data-open-panel="combat">Open member builds</button></div>`;
+  document.getElementById("party-result").innerHTML=`<h3>${legal?`相性 ${total}/100`:"編成が成立しない"}</h3><p><b>${esc(members.map(characterLabel).join(" / "))}</b> · 操作 ${esc(characterLabel(members[0]))}</p>${phaseNote}<div class="workshop-score">${Object.entries(scores).map(([label,value])=>`<b>${esc(label)}</b><span class="score-bar" aria-label="${esc(label)} ${value}/20"><i style="width:${value*5}%"></i></span>`).join("")}</div>${warnings.length?`<div class="callout a"><p><b>注意:</b></p><ul>${warnings.map(warning=>`<li>${esc(warning)}</li>`).join("")}</ul></div>`:'<div class="callout g"><p><b>役割は揃っている:</b>前衛、回復、リアクション、ダメージの幅、操作の割り当てがある。</p></div>'}${matching?`<p><b>対応するプリセット:</b> ${esc(matching.phase)} · ${esc(matching.activity)}. ${esc(matching.why)}</p>`:""}<div class="workshop-actions">${legal?`<button type="button" class="route-link" data-open-tool="chain" data-chain-phase="${esc(phase.id)}" data-chain-party="${esc(members.join(","))}" data-chain-leader="${esc(members[0])}">このパーティのチェイン</button>`:""}<button type="button" class="route-link" data-open-panel="combat">ビルドを開く</button></div>`;
 }
 function initWorkshop(){
   if(typeof WORKSHOP_DATA==="undefined"||!buildReady)return;const phase=currentWorkshopPhase();["chain-phase","gem-phase","party-phase"].forEach(id=>{const select=document.getElementById(id);select.innerHTML=phaseOptions();select.value=phase.id;});
   document.getElementById("gem-target").innerHTML=WORKSHOP_DATA.gemTargets.map(name=>`<option>${esc(name)}</option>`).join("");
   const mainCharacters=BUILD_DATA.characters.map(character=>character.id);["gift-giver","gift-recipient"].forEach((id,index)=>{const select=document.getElementById(id);select.innerHTML=mainCharacters.map(character=>`<option value="${esc(character)}">${esc(characterLabel(character))}</option>`).join("");select.value=index?"reyn":"shulk";});
-  document.getElementById("gift-area").innerHTML="<option value=\"\">Any area</option>"+GIFT_AREA_ORDER.map(area=>`<option>${esc(area)}</option>`).join("");document.getElementById("gift-category").innerHTML="<option value=\"\">Any category</option>"+[...new Set(WORKSHOP_DATA.gifts.map(gift=>gift.category))].map(category=>`<option>${esc(category)}</option>`).join("");
-  document.getElementById("chain-source").innerHTML=`Mechanics: ${workshopSources(["gamefaqs-arts","wiki-chain"])}. Sequences are guide recommendations.`;document.getElementById("gem-source").innerHTML=`Mechanics and pairs: ${workshopSources(["wiki-crafting","game8-crafting"])}.`;document.getElementById("gift-source").innerHTML=`全${WORKSHOP_DATA.gifts.length}種の表: ${workshopSources(["game8-gifts"])}.`;document.getElementById("party-source").innerHTML="Scores are transparent guide heuristics over the sourced build roster; they are not hidden game stats.";
+  document.getElementById("gift-area").innerHTML="<option value=\"\">すべてのエリア</option>"+GIFT_AREA_ORDER.map(area=>`<option>${esc(area)}</option>`).join("");document.getElementById("gift-category").innerHTML="<option value=\"\">すべての分類</option>"+[...new Set(WORKSHOP_DATA.gifts.map(gift=>gift.category))].map(category=>`<option>${esc(category)}</option>`).join("");
+  document.getElementById("chain-source").innerHTML=`仕組み: ${workshopSources(["gamefaqs-arts","wiki-chain"])}。順番は攻略の推奨。`;document.getElementById("gem-source").innerHTML=`仕組みと二人組: ${workshopSources(["wiki-crafting","game8-crafting"])}。`;document.getElementById("gift-source").innerHTML=`全${WORKSHOP_DATA.gifts.length}種の表: ${workshopSources(["game8-gifts"])}。`;document.getElementById("party-source").innerHTML="点数は、出典のあるビルド表に対する攻略の目安で、隠されたゲーム内ステータスではない。";
   populateChainPresets();populateChainTargets();renderGemAssistant();renderGiftOptimizer();populatePartySelectors();
 }
 ["chain-goal","chain-preset","chain-target"].forEach(id=>document.getElementById(id).addEventListener("change",renderChainPlanner));document.getElementById("chain-phase").addEventListener("change",()=>{chainContextParty=[];chainContextLeader="";populateChainPresets();});
@@ -3693,7 +3693,7 @@ function setSaveStatus(message, error = false){
 }
 function backupCurrent(){
   try { localStorage.setItem(BACKUP_LS, JSON.stringify(state)); updateRestoreAvailability(); return true; }
-  catch(e){ setSaveStatus("Could not create the automatic local backup.", true); return false; }
+  catch(e){ setSaveStatus("自動のローカルバックアップを作れなかった。", true); return false; }
 }
 function updateRestoreAvailability(){
   let available = false;
@@ -3716,7 +3716,7 @@ document.getElementById("export").addEventListener("click", () => {
   link.href = URL.createObjectURL(blob);
   link.download = `xcde-guide-progress-${new Date().toISOString().slice(0,10)}.json`;
   link.click(); setTimeout(() => URL.revokeObjectURL(link.href), 0);
-  setSaveStatus("Progress exported.");
+  setSaveStatus("進行を書き出した。");
 });
 document.getElementById("import").addEventListener("click", () => document.getElementById("import-file").click());
 document.getElementById("import-file").addEventListener("change", async e => {
@@ -3726,7 +3726,7 @@ document.getElementById("import-file").addEventListener("change", async e => {
     const imported = value && value.app === "xcde-guide" ? value.state : value;
     if (!imported || typeof imported !== "object" || (!imported.route && !imported.completion && !imported.world && !imported.hunts)) throw new Error("Not an XCDE guide backup");
     backupCurrent(); state = normalizeState(imported); syncStateRefs(); save(); rebuildAll();
-    setSaveStatus("Progress imported. The previous state is available under Restore last reset.");
+    setSaveStatus("進行を読み込んだ。前の状態は直前のリセットを戻すで戻せる。");
   } catch(error){ setSaveStatus(`Import failed: ${error.message}`, true); }
   e.target.value = "";
 });
@@ -3735,7 +3735,7 @@ document.getElementById("restore").addEventListener("click", () => {
     const backup = JSON.parse(localStorage.getItem(BACKUP_LS) || "null");
     if (!backup) throw new Error("No backup is available");
     state = normalizeState(backup); syncStateRefs(); save(); rebuildAll();
-    setSaveStatus("Last automatic backup restored.");
+    setSaveStatus("最後の自動バックアップを戻した。");
   } catch(error){ setSaveStatus(`Restore failed: ${error.message}`, true); }
 });
 document.getElementById("reset").addEventListener("click", () => {
@@ -3743,7 +3743,7 @@ document.getElementById("reset").addEventListener("click", () => {
   backupCurrent(); state = emptyState(); visionShownThisSession = Object.create(null);
   try { localStorage.removeItem(VISION_SEEN); } catch(e){}
   syncStateRefs(); save(); rebuildAll();
-  setSaveStatus("All progress cleared. Use Restore last reset to undo.");
+  setSaveStatus("進行を消した。戻すには直前のリセットを戻す。");
 });
 updateRestoreAvailability();
 
@@ -3787,14 +3787,14 @@ function ensurePanelData(name){
   }
   if (name === "reference") {
     if (!collectReady && window.COLLECTOPAEDIA_DATA) { collectReady = true; renderCollectopaedia(); }
-    else if (!collectReady && !collectLoad) collectLoad = loadData("data/collectopaedia-data.js").then(() => { collectReady = true; renderCollectopaedia(); }).catch(() => { collectEl.innerHTML = "<div class=\"callout\"><p><strong>読み込めなかった: コレペディア data.</strong> 実行: <code>node build-collectopaedia-data.js</code>.</p></div>"; });
+    else if (!collectReady && !collectLoad) collectLoad = loadData("data/collectopaedia-data.js").then(() => { collectReady = true; renderCollectopaedia(); }).catch(() => { collectEl.innerHTML = "<div class=\"callout\"><p><strong>読み込めなかった: コレペディア データ.</strong> 実行: <code>node build-collectopaedia-data.js</code>.</p></div>"; });
     if (!window.MAP_COORDINATE_DATA && !coordinateLoad) coordinateLoad = loadData("data/map-coordinates-data.js").then(() => { if (atlasReady) renderAtlas(); });
     if (!atlasReady && window.MAP_ATLAS_DATA) { atlasReady = true; renderAtlas(); }
-    else if (!atlasReady && !atlasLoad) atlasLoad = loadData("data/map-atlas-data.js").then(() => { atlasReady = true; renderAtlas(); }).catch(() => { atlasEl.innerHTML = "<div class=\"callout\"><p><strong>読み込めなかった: Map Atlas data.</strong> 実行: <code>node build-map-atlas-data.js</code>.</p></div>"; });
+    else if (!atlasReady && !atlasLoad) atlasLoad = loadData("data/map-atlas-data.js").then(() => { atlasReady = true; renderAtlas(); }).catch(() => { atlasEl.innerHTML = "<div class=\"callout\"><p><strong>読み込めなかった: Map Atlas データ.</strong> 実行: <code>node build-map-atlas-data.js</code>.</p></div>"; });
     if (!frontierReady && window.FRONTIER_MAP_DATA) { frontierReady = true; renderAtlas(); }
-    else if (!frontierReady && !frontierLoad) frontierLoad = loadData("data/frontier-map-data.js").then(() => { frontierReady = true; renderAtlas(); }).catch(() => { if(!atlasReady) atlasEl.innerHTML = "<div class=\"callout\"><p><strong>読み込めなかった: interactive map data.</strong> 実行: <code>node build-frontier-map-data.js</code>.</p></div>"; });
+    else if (!frontierReady && !frontierLoad) frontierLoad = loadData("data/frontier-map-data.js").then(() => { frontierReady = true; renderAtlas(); }).catch(() => { if(!atlasReady) atlasEl.innerHTML = "<div class=\"callout\"><p><strong>読み込めなかった: 操作できる地図のデータ.</strong> 実行: <code>node build-frontier-map-data.js</code>.</p></div>"; });
     if (!affinityReady && window.AFFINITY_DATA) { affinityReady = true; renderAffinityPlanner(); }
-    else if (!affinityReady && !affinityLoad) affinityLoad = loadData("data/affinity-data.js").then(() => { affinityReady = true; renderAffinityPlanner(); }).catch(() => { affinityEl.innerHTML = "<div class=\"callout\"><p><strong>読み込めなかった: Affinity Planner data.</strong> 実行: <code>node build-affinity-data.js</code>.</p></div>"; });
+    else if (!affinityReady && !affinityLoad) affinityLoad = loadData("data/affinity-data.js").then(() => { affinityReady = true; renderAffinityPlanner(); }).catch(() => { affinityEl.innerHTML = "<div class=\"callout\"><p><strong>読み込めなかった: Affinity Planner データ.</strong> 実行: <code>node build-affinity-data.js</code>.</p></div>"; });
     renderAffinityPlanner();
   }
 }
@@ -3809,7 +3809,7 @@ loadData("data/route-data.js").then(() => {
   routeReady = true; build(); filter(); renderCompanion();
 }).catch(() => {
     routeEl.innerHTML = "<div class=\"callout\"><p><strong>読み込めなかった: <code>data/route-data.js</code>.</strong>"
-      + "Keep the <code>data</code> folder in the same place as this file.</p></div>";
+      + "そのまま <code>data</code> フォルダをこのファイルと同じ場所に置く。</p></div>";
 });
 loadData("data/world-data.js").then(() => {
   worldReady = true; initQuestLookup(); if (routeReady && anchorsReady) { build(); filter(); } renderCompanion();
@@ -3817,7 +3817,7 @@ loadData("data/world-data.js").then(() => {
   questEl.innerHTML = "<div class=\"callout\"><p><strong>読み込めなかった: <code>data/world-data.js</code>.</strong> 実行: <code>node build-world-data.js</code>.</p></div>";
 });
 loadData("data/build-data.js").then(() => { initBuilds(); renderCompanion(); }).catch(() => {
-  document.getElementById("build-result").innerHTML = "<div class=\"callout\"><p><strong>読み込めなかった: <code>data/build-data.js</code>.</strong> Keep the data folder beside this file.</p></div>";
+  document.getElementById("build-result").innerHTML = "<div class=\"callout\"><p><strong>読み込めなかった: <code>data/build-data.js</code>.</strong> データフォルダをこのファイルの横に置く。</p></div>";
 });
 if ("serviceWorker" in navigator && /^https?:$/.test(location.protocol)) window.addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
 </script>

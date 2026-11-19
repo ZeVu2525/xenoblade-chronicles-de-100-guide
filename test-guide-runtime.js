@@ -129,7 +129,7 @@ async function makeDom({ legacy = null, previous = null, current = null, url = "
   document.getElementById("session-length").value = "30";
   document.getElementById("session-focus").value = "completion";
   document.getElementById("session-build").dispatchEvent(new MouseEvent("click", { bubbles: true }));
-  assert(document.querySelectorAll("#session-dashboard .session-check").length > 0 && document.getElementById("session-dashboard").textContent.includes("route order preserved"), "Adventure Companion did not build a route-ordered session");
+  assert(document.querySelectorAll("#session-dashboard .session-check").length > 0 && document.getElementById("session-dashboard").textContent.includes("ルート順は守る"), "Adventure Companion did not build a route-ordered session");
   assert(!document.getElementById("session-dashboard").textContent.includes("Party data is loading"), "Adventure Companion shows a false loading state when the current chapter has no scheduled party swap");
   assert(JSON.parse(localStorage.getItem("xc1de-guide-state-v4")).preferences.sessionIds.length > 0, "Adventure Companion session did not persist");
   document.querySelector("#play-current [data-complete-play]").dispatchEvent(new MouseEvent("click", { bubbles: true }));
@@ -294,7 +294,7 @@ async function makeDom({ legacy = null, previous = null, current = null, url = "
   monsterSearch.value = "グロッグのモモ肉";
   monsterSearch.dispatchEvent(new Event("input", { bubbles: true }));
   assert(document.querySelectorAll("#monster-results .result-card").length > 0, "Monsterpedia drop search returned nothing");
-  assert(document.getElementById("monster-count").textContent.includes("of 866"), "Monsterpedia count is incorrect");
+  assert(document.getElementById("monster-count").textContent.includes("866 体"), "Monsterpedia count is incorrect");
   assert(document.getElementById("monster-ledger").textContent.includes("0 / 12,582 drops logged"), "Monsterpedia ledger total is missing or incorrect");
   monsterSearch.value = "縄張りバルバロッサ";
   monsterSearch.dispatchEvent(new Event("input", { bubbles: true }));
@@ -343,7 +343,7 @@ async function makeDom({ legacy = null, previous = null, current = null, url = "
   document.getElementById("monster-condition").value = "unique";
   document.getElementById("monster-condition").dispatchEvent(new Event("change", { bubbles: true }));
   assert(document.querySelectorAll("#monster-results .result-card").length > 0 && [...document.querySelectorAll("#monster-results .result-card")].every(card => /Unique Monster/i.test(card.textContent)), "Monsterpedia unique filter leaked normal enemies");
-  assert([...document.querySelectorAll("#monster-results .monster-card")].every(card => card.querySelector(".combat-dossier")?.textContent.includes("source-backed mechanics")), "A Unique Monster card lacks its source-backed combat dossier");
+  assert([...document.querySelectorAll("#monster-results .monster-card")].every(card => card.querySelector(".combat-dossier")?.textContent.includes("出典の数値")), "A Unique Monster card lacks its source-backed combat dossier");
   const routeLinkedEncounters = dom.window.MONSTERPEDIA_DATA.entries.filter(entry => entry.unique && dom.window.COMBAT_DOSSIER_DATA.records[entry.id]).map(entry => ({ entry, reference:dom.window.routeItemReference(entry.name, item => item.f === "u") })).filter(record => record.reference);
   assert(routeLinkedEncounters.length >= 80, "too few route-linked Unique Monster dossiers were available for the party-legality audit");
   for (const { entry, reference } of routeLinkedEncounters) {
@@ -426,13 +426,13 @@ async function makeDom({ legacy = null, previous = null, current = null, url = "
   assert(/メリア · AI · 最速討伐/.test(document.getElementById("build-result").textContent), "Build Lab selectors did not update the recommendation");
   document.getElementById("build-goal").value = "fortress";
   document.getElementById("build-goal").dispatchEvent(new Event("change", { bubbles: true }));
-  assert(document.getElementById("build-goal-note").textContent.includes("Survival-first"), "Fortress mode does not explain how it differs from Reliable meta");
+  assert(document.getElementById("build-goal-note").textContent.includes("生存優先"), "Fortress mode does not explain how it differs from Reliable meta");
   document.getElementById("build-show-all").dispatchEvent(new MouseEvent("click", { bubbles: true }));
   assert(document.querySelectorAll("#build-result .build-character-block").length === 11, "Build Lab Show all did not render every character sequentially");
   document.getElementById("build-show-all").dispatchEvent(new MouseEvent("click", { bubbles: true }));
   assert(document.querySelectorAll("#build-result .build-character-block").length === 1, "Build Lab did not return to single-character mode");
   document.querySelector("#party-presets .preset").dispatchEvent(new MouseEvent("click", { bubbles: true }));
-  assert(document.getElementById("preset-detail").textContent.includes("Party:"), "party preset did not open");
+  assert(document.getElementById("preset-detail").textContent.includes("パーティ:"), "party preset did not open");
   assert(document.querySelectorAll("#tabs > button").length === 5 && !document.getElementById("mobile-section"), "global navigation did not consolidate to five hubs");
   assert([...document.querySelectorAll("#tabs > button")].map(button => button.textContent.trim()).join("|") === "ルート|同行|達成|資料|工房", "global navigation labels or order do not match the five-hub design");
   const expectedHubSections = {
@@ -497,7 +497,7 @@ async function makeDom({ legacy = null, previous = null, current = null, url = "
   const ch5Record = dom.window.playableRouteCards().find(record => record.chapter.id === "ch5");
   dom.window.renderAreaBriefing(ch5Record);
   const companionAgilityLink = document.querySelector('#area-briefing [data-open-tool="gems"][data-gem-target="素早さアップ"]');
-  assert(companionAgilityLink && companionAgilityLink.textContent.includes("Craft 素早さアップ"), "Companion does not turn the Chapter 5 Dunban agility need into a contextual gem action");
+  assert(companionAgilityLink && companionAgilityLink.textContent.includes("素早さアップ を合成"), "Companion does not turn the Chapter 5 Dunban agility need into a contextual gem action");
 
   document.querySelector('[data-p="route"]').dispatchEvent(new MouseEvent("click", { bubbles: true }));
   const heartGiftLink = document.querySelector('#route [data-open-tool="gifts"][data-gift-route]');
