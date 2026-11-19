@@ -1020,6 +1020,20 @@ html.vision-active{overflow:hidden}
   .vision-card h2{font-size:20px}
   .vision-actions button{width:100%}
 }
+.howto-open{min-height:40px;padding:0 12px;border:1px solid var(--line);border-radius:8px;background:var(--bg2);color:var(--fg);font:700 14px/1 var(--display);white-space:nowrap;cursor:pointer}
+.howto{position:fixed;inset:0;z-index:80;overflow:auto;padding:24px 12px;background:rgba(2,10,18,.55)}
+.howto[hidden]{display:none}
+.howto-card{width:min(720px,100%);margin:12px auto 32px;padding:18px 16px 28px;border:1px solid var(--line);border-radius:12px;background:var(--bg);color:var(--fg)}
+.howto-bar{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.howto-card h2{margin:0}
+.howto-card h3{margin:18px 0 8px}
+.howto-card p,.howto-card li{line-height:1.55}
+.howto-card li{margin:6px 0}
+@media(max-width:640px){
+  .howto{padding:8px}
+  .howto-card{margin:0 auto 20px;padding:14px 12px 22px}
+  .howto-open{min-height:36px;padding:0 10px}
+}
 
 /* Five-hub information architecture. Detailed destinations live in the hub
    rail instead of competing for permanent space in the global navigation. */
@@ -1090,6 +1104,7 @@ html[data-theme="xenoblade"] .area-arrival{border-color:#2d7199;border-radius:0;
       <div class="header-status"><div class="bar" id="progress" role="progressbar" aria-label="ルート進行" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><i id="pbar" style="width:0"></i></div><div class="pct" id="ptxt" aria-live="polite">0 / 0</div></div>
       <div class="header-tools">
         <label class="global-search" for="guide-search"><svg class="ui-icon" aria-hidden="true"><use href="#i-search"/></svg><span class="search-label">全体を検索</span><input id="guide-search" type="search" autocomplete="off" spellcheck="false" placeholder="クエスト、敵、アイテムを検索…"><span id="guide-search-count" aria-live="polite"></span></label>
+        <button type="button" id="open-howto" class="howto-open">使い方</button>
         <label class="theme-control" for="theme-select">表示<select id="theme-select" aria-label="表示"><option value="light">読みやすいライト</option><option value="dark">シンプルダーク</option><option value="xenoblade">ゼノブレイド エクストリーム V2</option></select>
         </label>
       </div>
@@ -1111,6 +1126,28 @@ html[data-theme="xenoblade"] .area-arrival{border-color:#2d7199;border-radius:0;
 
 <!-- Vision overlay. Populated only when a point of no return is imminent. -->
 <div id="vision" class="vision" hidden></div>
+<div id="howto" class="howto" hidden>
+  <div class="howto-card" role="dialog" aria-modal="true" aria-labelledby="howto-title">
+    <div class="howto-bar"><h2 id="howto-title">使い方</h2><button type="button" id="howto-close" class="ghost">閉じる</button></div>
+    <p>このアプリは、ゼノブレイド ディフィニティブエディションを取り逃しなく進めるための手元の台帳です。ゲームのセーブは読みません。チェックは、今開いているブラウザの中だけに残ります。</p>
+    <h3>五つの画面</h3>
+    <ul>
+      <li><b>ルート</b> — 安全な進行順。章を開き、カードをチェックする。赤は期限、ピンクは必要なリーダー。上の帯は、次の引き返せない地点までの未チェック期限を数える。</li>
+      <li><b>同行</b> — 今のプレイ時間に合わせた短いリスト。離れる前の期限、今のパーティ、持ち物の個数。</li>
+      <li><b>達成</b> — クエスト、実績、コロニー6、分岐、終盤の台帳。自分の分岐ではない結末は、そのボタンで外せる。</li>
+      <li><b>資料</b> — 図鑑、クエスト検索、地図と計画、キズナの門、コレペディア、天候。</li>
+      <li><b>工房</b> — ビルド工房、チェイン、ジェム合成、贈り物、パーティ相性。今の章で出せる仲間だけを候補にする。</li>
+    </ul>
+    <h3>検索と絞り込み</h3>
+    <p>ヘッダーの検索は、クエスト、敵、アイテム、画面の名前を横断する。ルート画面の検索は、その進行順の中だけ。チップ（すべて、本編、期限、キズナトーク、素材、ユニークモンスター、場所、未チェックのみ）は、表示を切り替える。章のメニューは、その章へ飛ぶ。</p>
+    <h3>保存</h3>
+    <p>進行はブラウザのローカルストレージに保存される。端末ごと、ブラウザごとに別です。GitHubには送られない。別の端末へ移すときは「進行を書き出す」でJSONを保存し、向こうで「進行を読み込む」。<b>進行をすべて消す</b>の直前の状態は、「直前のリセットを戻す」で一度だけ戻せる。</p>
+    <h3>iPhone</h3>
+    <p>Safariでこのページを開き、共有ボタンから「ホーム画面に追加」する。次回からはそのアイコンで開く。通信があるときに一度開いておくと、サービスワーカーがルートと台帳を手元に残す。図鑑の大きなデータと地図のピンは、開いたときに追加で読み込む。機内モードでは、すでに開いた画面が中心になる。</p>
+    <h3>名前の表示</h3>
+    <p>公式の日本語名が確認できた用語は、画面上だけ日本語になる。セーブの鍵、種族の照合、小項目のチェックIDは英語のままなので、以前の進行は残る。確認できなかった名前は英語のままです。一覧はリポジトリの <code>OFFICIAL-NAMES.md</code>。</p>
+  </div>
+</div>
 
 <main id="main" tabindex="-1">
 
@@ -1645,6 +1682,7 @@ html[data-theme="xenoblade"] .area-arrival{border-color:#2d7199;border-radius:0;
 </footer>
 
 <script src="data/workshop-data.js"></script>
+<script src="data/official-names.js"></script>
 <script>
 const LEGACY_LS = "xc1de-100-v1";
 const OLD_PREVIOUS_LS = "xc1de-guide-state-v2";
@@ -3820,6 +3858,18 @@ loadData("data/build-data.js").then(() => { initBuilds(); renderCompanion(); }).
   document.getElementById("build-result").innerHTML = "<div class=\"callout\"><p><strong>読み込めなかった: <code>data/build-data.js</code>.</strong> データフォルダをこのファイルの横に置く。</p></div>";
 });
 if ("serviceWorker" in navigator && /^https?:$/.test(location.protocol)) window.addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
+const howto = document.getElementById("howto");
+document.getElementById("open-howto").addEventListener("click", () => { howto.hidden = false; document.getElementById("howto-close").focus(); });
+document.getElementById("howto-close").addEventListener("click", () => { howto.hidden = true; document.getElementById("open-howto").focus(); });
+howto.addEventListener("click", event => { if (event.target === howto) howto.hidden = true; });
+document.addEventListener("keydown", event => { if (event.key === "Escape" && howto && !howto.hidden) { howto.hidden = true; document.getElementById("open-howto").focus(); } });
+if (typeof applyOfficialNames === "function") {
+  const officialRoot = document.body;
+  applyOfficialNames(officialRoot);
+  new MutationObserver(mutations => {
+    for (const mutation of mutations) for (const node of mutation.addedNodes) applyOfficialNames(node);
+  }).observe(officialRoot, { childList: true, subtree: true });
+}
 </script>
 </body>
 </html>
