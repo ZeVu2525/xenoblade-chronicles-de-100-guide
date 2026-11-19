@@ -2,7 +2,7 @@
 const ROUTE_BINDINGS_DATA = {
   "version": 1,
   "generated": "source-snapshot",
-  "policy": "Every Completion Hub item has one explicit safe route handling point. Exact means named on-card; batch/post/fc means resolved through the linked ledger sweep, not silently assumed complete.",
+  "policy": "コンプリーションハブの各項目には、安全なルート処理地点が一つずつある。exact はカード上に名前があること、batch／post／fc は結ばれた台帳周回で処理し、黙って達成済みにはしない。",
   "counts": {
     "total": 1053,
     "exact": 464,
@@ -17,7 +17,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c3-02",
       "routeChapterId": "ch3",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-9-the-key-to-a-long-life-c651adfb",
@@ -25,7 +25,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-01",
       "routeChapterId": "ch1",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-9-a-curry-conundrum-8e3c9bc6",
@@ -33,7 +33,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-15",
       "routeChapterId": "ch1",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-9-biscuits-for-a-grandson-152ef976",
@@ -41,7 +41,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-03",
       "routeChapterId": "ch1",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-9-birthday-shoes-af6b8430",
@@ -49,7 +49,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-16",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-9-education-minded-suzanna-e284a74b",
@@ -57,7 +57,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-22",
       "routeChapterId": "ch1",
       "handling": "batch",
-      "rationale": "Area quest is included in the Colony 9 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー9の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-9-education-crazy-suzanna-6464b6d4",
@@ -65,7 +65,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-16",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-9-flattened-flowers-c57c1577",
@@ -73,7 +73,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c3-01",
       "routeChapterId": "ch3",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-9-lonely-niranira-4a391273",
@@ -81,7 +81,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-02",
       "routeChapterId": "ch1",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-9-the-broken-watch-ad2a0f8a",
@@ -89,7 +89,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-04",
       "routeChapterId": "ch1",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-9-the-old-soldier-s-test-b8753421",
@@ -97,7 +97,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-29",
       "routeChapterId": "ch7",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-9-romantic-notions-of-a-girl-66b7b8cf",
@@ -105,7 +105,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c3-07",
       "routeChapterId": "ch3",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-9-romantic-notions-of-a-boy-a4c3d34c",
@@ -113,7 +113,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-22",
       "routeChapterId": "ch1",
       "handling": "batch",
-      "rationale": "Timed quest is included in the Colony 9 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "時間制限クエストはコロニー9の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-9-an-impoverished-critic-8c1a542b",
@@ -121,7 +121,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c3-03",
       "routeChapterId": "ch3",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-9-financial-planning-1b77dae6",
@@ -129,7 +129,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c3-04",
       "routeChapterId": "ch3",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-9-overworked-and-underpaid-771d15a5",
@@ -137,7 +137,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c3-11",
       "routeChapterId": "ch3",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-9-pestering-paola-5e0aabdb",
@@ -145,7 +145,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c3-11",
       "routeChapterId": "ch3",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-9-out-of-luck-giorgio-1a923a16",
@@ -153,7 +153,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c3-11",
       "routeChapterId": "ch3",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-9-paola-and-narine-18d94380",
@@ -161,7 +161,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-37",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-9-the-plan-preparation-7b66a63b",
@@ -169,7 +169,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c3-05",
       "routeChapterId": "ch3",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-9-the-plan-the-night-before-48265829",
@@ -177,7 +177,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c3-08",
       "routeChapterId": "ch3",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-9-the-plan-execution-1e25ac5f",
@@ -185,7 +185,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c3-09",
       "routeChapterId": "ch3",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-9-a-young-captain-s-request-d47cc184",
@@ -193,7 +193,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-14",
       "routeChapterId": "ch1",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-9-a-young-captain-s-suffering-7b367e25",
@@ -201,7 +201,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c3-06",
       "routeChapterId": "ch3",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-9-a-young-captain-s-rise-084c78f8",
@@ -209,7 +209,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c3-10",
       "routeChapterId": "ch3",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-9-a-young-captain-s-challenge-3b6e8a3c",
@@ -217,7 +217,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-08",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-9-a-young-captain-s-trust-a927076c",
@@ -225,7 +225,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-18",
       "routeChapterId": "ch17",
       "handling": "post",
-      "rationale": "Area quest is included in the Colony 9 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー9の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-9-a-young-captain-s-revival-6417f76a",
@@ -233,7 +233,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-07",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-9-pride-and-courage-87817643",
@@ -241,7 +241,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-17",
       "routeChapterId": "ch1",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-9-friendship-tokens-f32a6115",
@@ -249,7 +249,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-09",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-9-a-big-brother-s-fight-ccc402f4",
@@ -257,7 +257,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-05",
       "routeChapterId": "ch7",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-9-a-little-brother-s-fight-c5e7ea1a",
@@ -265,7 +265,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-05",
       "routeChapterId": "ch7",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-9-a-place-to-come-home-to-7c040452",
@@ -273,7 +273,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-22",
       "routeChapterId": "ch1",
       "handling": "batch",
-      "rationale": "Area quest is included in the Colony 9 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー9の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-9-thawing-relationships-ae729363",
@@ -281,7 +281,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-22",
       "routeChapterId": "ch1",
       "handling": "batch",
-      "rationale": "Area quest is included in the Colony 9 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー9の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-9-rocco-s-heartful-request-123cd707",
@@ -289,7 +289,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-16",
       "routeChapterId": "ch1",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-9-dean-s-shady-request-d2e3cc6a",
@@ -297,7 +297,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-18",
       "routeChapterId": "ch1",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-9-liliana-s-sincere-request-a992ff79",
@@ -305,7 +305,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-19",
       "routeChapterId": "ch1",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-9-jackson-s-awakening-e3cd8a4d",
@@ -313,7 +313,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-22",
       "routeChapterId": "ch1",
       "handling": "batch",
-      "rationale": "Area quest is included in the Colony 9 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー9の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-9-jackson-the-cook-f3ac6d5d",
@@ -321,7 +321,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-22",
       "routeChapterId": "ch1",
       "handling": "batch",
-      "rationale": "Area quest is included in the Colony 9 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー9の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-9-jackson-the-poet-d40f10a7",
@@ -329,7 +329,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-22",
       "routeChapterId": "ch1",
       "handling": "batch",
-      "rationale": "Area quest is included in the Colony 9 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー9の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-9-desiree-s-future-f8d99dfa",
@@ -337,7 +337,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c6-35",
       "routeChapterId": "ch6",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-9-betty-s-gift-2ae61ede",
@@ -345,7 +345,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-22",
       "routeChapterId": "ch1",
       "handling": "batch",
-      "rationale": "Area quest is included in the Colony 9 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー9の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-9-desiree-s-apology-c68a7721",
@@ -353,7 +353,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-22",
       "routeChapterId": "ch1",
       "handling": "batch",
-      "rationale": "Area quest is included in the Colony 9 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー9の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-9-the-elite-captain-s-anguish-aa6b3314",
@@ -361,7 +361,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-18",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-9-getting-to-know-minnie-cbdfe5a0",
@@ -369,7 +369,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-18",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-9-getting-to-know-dorothy-32854a9f",
@@ -377,7 +377,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-18",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-9-a-mysterious-light-a13112c1",
@@ -385,7 +385,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-22",
       "routeChapterId": "ch1",
       "handling": "batch",
-      "rationale": "Area quest is included in the Colony 9 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー9の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-9-out-like-a-light-40f7eb9a",
@@ -393,7 +393,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-22",
       "routeChapterId": "ch1",
       "handling": "batch",
-      "rationale": "Area quest is included in the Colony 9 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー9の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-9-the-lost-pendant-169815c1",
@@ -401,7 +401,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c3-12",
       "routeChapterId": "ch3",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-9-monster-quest-1-part-1-f38055d1",
@@ -409,7 +409,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-22",
       "routeChapterId": "ch1",
       "handling": "batch",
-      "rationale": "Area quest is included in the Colony 9 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー9の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-9-monster-quest-1-part-2-2034c1d5",
@@ -417,7 +417,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-22",
       "routeChapterId": "ch1",
       "handling": "batch",
-      "rationale": "Area quest is included in the Colony 9 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー9の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-9-monster-quest-1-part-3-79f5dabb",
@@ -425,7 +425,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-22",
       "routeChapterId": "ch1",
       "handling": "batch",
-      "rationale": "Area quest is included in the Colony 9 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー9の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-9-monster-quest-2-part-1-c127e9f5",
@@ -433,7 +433,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-22",
       "routeChapterId": "ch1",
       "handling": "batch",
-      "rationale": "Area quest is included in the Colony 9 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー9の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-9-monster-quest-2-part-2-582d4f43",
@@ -441,7 +441,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-22",
       "routeChapterId": "ch1",
       "handling": "batch",
-      "rationale": "Area quest is included in the Colony 9 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー9の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-9-monster-quest-2-part-3-9acaa1fc",
@@ -449,7 +449,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-22",
       "routeChapterId": "ch1",
       "handling": "batch",
-      "rationale": "Area quest is included in the Colony 9 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー9の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-9-monster-quest-3-part-1-b44280ef",
@@ -457,7 +457,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-22",
       "routeChapterId": "ch1",
       "handling": "batch",
-      "rationale": "Area quest is included in the Colony 9 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー9の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-9-monster-quest-3-part-2-745dc67c",
@@ -465,7 +465,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-22",
       "routeChapterId": "ch1",
       "handling": "batch",
-      "rationale": "Area quest is included in the Colony 9 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー9の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-9-monster-quest-3-part-3-f024097e",
@@ -473,7 +473,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-22",
       "routeChapterId": "ch1",
       "handling": "batch",
-      "rationale": "Area quest is included in the Colony 9 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー9の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-9-monster-quest-3-part-4-c40931db",
@@ -481,7 +481,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-22",
       "routeChapterId": "ch1",
       "handling": "batch",
-      "rationale": "Area quest is included in the Colony 9 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー9の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-9-monster-quest-4-part-1-7e04c2e5",
@@ -489,7 +489,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-22",
       "routeChapterId": "ch1",
       "handling": "batch",
-      "rationale": "Area quest is included in the Colony 9 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー9の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-9-monster-quest-4-part-2-bfc86df5",
@@ -497,7 +497,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-22",
       "routeChapterId": "ch1",
       "handling": "batch",
-      "rationale": "Area quest is included in the Colony 9 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー9の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-9-monster-quest-4-part-3-fc3fd237",
@@ -505,7 +505,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-22",
       "routeChapterId": "ch1",
       "handling": "batch",
-      "rationale": "Area quest is included in the Colony 9 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー9の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-9-challenge-1-c25ea720",
@@ -513,7 +513,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-06",
       "routeChapterId": "ch1",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-9-challenge-2-68e6e077",
@@ -521,7 +521,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-07",
       "routeChapterId": "ch1",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-9-challenge-3-3414296e",
@@ -529,7 +529,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-08",
       "routeChapterId": "ch1",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-9-challenge-4-970afab1",
@@ -537,7 +537,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c2-05",
       "routeChapterId": "ch2",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-9-material-quest-1-05fb0f7f",
@@ -545,7 +545,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-06",
       "routeChapterId": "ch4",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-9-material-quest-2-2039aacb",
@@ -553,7 +553,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-11",
       "routeChapterId": "ch1",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-9-material-quest-3-7d90f769",
@@ -561,7 +561,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-22",
       "routeChapterId": "ch1",
       "handling": "batch",
-      "rationale": "Area quest is included in the Colony 9 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー9の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-9-material-quest-4-0fbb5951",
@@ -569,7 +569,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-11",
       "routeChapterId": "ch1",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-9-collection-quest-1-ca37f51c",
@@ -577,7 +577,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-06",
       "routeChapterId": "ch4",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-9-collection-quest-2-594fbfbc",
@@ -585,7 +585,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-12",
       "routeChapterId": "ch1",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-9-collection-quest-3-9f754ffc",
@@ -593,7 +593,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-22",
       "routeChapterId": "ch1",
       "handling": "batch",
-      "rationale": "Area quest is included in the Colony 9 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー9の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-9-collection-quest-4-e429e3c0",
@@ -601,7 +601,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-22",
       "routeChapterId": "ch1",
       "handling": "batch",
-      "rationale": "Area quest is included in the Colony 9 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー9の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-9-search-quest-1-9f9562a0",
@@ -609,7 +609,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-13",
       "routeChapterId": "ch1",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-9-search-quest-2-c385b730",
@@ -617,7 +617,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-22",
       "routeChapterId": "ch1",
       "handling": "batch",
-      "rationale": "Area quest is included in the Colony 9 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー9の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-9-search-quest-3-d78f7bfe",
@@ -625,7 +625,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-22",
       "routeChapterId": "ch1",
       "handling": "batch",
-      "rationale": "Area quest is included in the Colony 9 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー9の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-9-search-quest-4-49ffabf9",
@@ -633,7 +633,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-22",
       "routeChapterId": "ch1",
       "handling": "batch",
-      "rationale": "Area quest is included in the Colony 9 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー9の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-9-a-token-of-friendship-51042185",
@@ -641,7 +641,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-17",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-9-the-gem-man-s-invention-1f9126a2",
@@ -649,7 +649,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c6-36",
       "routeChapterId": "ch6",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-9-delivering-food-ff6d1a95",
@@ -657,7 +657,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "story-delivering-food",
       "routeChapterId": "ch1",
       "handling": "exact",
-      "rationale": "Formal story quest is linked by its retained source ID."
+      "rationale": "正式なストーリークエストは、残してある元のIDで結ばれている。"
     },
     {
       "targetId": "quest-tephra-cave-missing-in-action-780cfec2",
@@ -665,7 +665,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c3-12",
       "routeChapterId": "ch3",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-tephra-cave-arachno-silk-fundraising-8f3f671d",
@@ -673,7 +673,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c3-22",
       "routeChapterId": "ch3",
       "handling": "batch",
-      "rationale": "Area quest is included in the Tephra Cave ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはテフラ洞窟の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-tephra-cave-a-thank-you-93db0f47",
@@ -681,7 +681,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c3-22",
       "routeChapterId": "ch3",
       "handling": "batch",
-      "rationale": "Area quest is included in the Tephra Cave ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはテフラ洞窟の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-tephra-cave-clearing-obstructions-68256ada",
@@ -689,7 +689,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c3-22",
       "routeChapterId": "ch3",
       "handling": "batch",
-      "rationale": "Area quest is included in the Tephra Cave ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはテフラ洞窟の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-tephra-cave-the-book-of-bafalgar-7d37bca5",
@@ -697,7 +697,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-04",
       "routeChapterId": "ch17",
       "handling": "post",
-      "rationale": "Area quest is included in the Tephra Cave ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはテフラ洞窟の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-tephra-cave-the-blood-of-bafalgar-5cb0e4ee",
@@ -705,7 +705,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-04",
       "routeChapterId": "ch17",
       "handling": "post",
-      "rationale": "Area quest is included in the Tephra Cave ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはテフラ洞窟の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-tephra-cave-the-path-of-bafalgar-2a536900",
@@ -713,7 +713,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-04",
       "routeChapterId": "ch17",
       "handling": "post",
-      "rationale": "Area quest is included in the Tephra Cave ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはテフラ洞窟の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-tephra-cave-the-coffin-of-bafalgar-f9784e3f",
@@ -721,7 +721,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-04",
       "routeChapterId": "ch17",
       "handling": "post",
-      "rationale": "Area quest is included in the Tephra Cave ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはテフラ洞窟の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-tephra-cave-the-gratitude-of-bafalgar-2eb5451e",
@@ -729,7 +729,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-04",
       "routeChapterId": "ch17",
       "handling": "post",
-      "rationale": "Area quest is included in the Tephra Cave ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはテフラ洞窟の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-tephra-cave-collection-quest-1-632d5906",
@@ -737,7 +737,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-06",
       "routeChapterId": "ch4",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-tephra-cave-collection-quest-2-0b312bff",
@@ -745,7 +745,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-12",
       "routeChapterId": "ch1",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-tephra-cave-material-quest-1-01afcb45",
@@ -753,7 +753,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-06",
       "routeChapterId": "ch4",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-tephra-cave-material-quest-2-d6b30bb6",
@@ -761,7 +761,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-11",
       "routeChapterId": "ch1",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-bionis-leg-emergency-treatment-c86776e7",
@@ -769,7 +769,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-03",
       "routeChapterId": "ch4",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-bionis-leg-being-a-good-grandfather-9ef961fb",
@@ -777,7 +777,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-06",
       "routeChapterId": "ch4",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-bionis-leg-a-thoughtful-idea-047b88f8",
@@ -785,7 +785,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-06",
       "routeChapterId": "ch4",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-bionis-leg-a-dash-of-colour-4f52f280",
@@ -793,7 +793,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-06",
       "routeChapterId": "ch4",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-bionis-leg-imaginations-tempered-f8dcc7a5",
@@ -801,7 +801,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-02",
       "routeChapterId": "ch4",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-bionis-leg-spirits-raised-166ef63c",
@@ -809,7 +809,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-02",
       "routeChapterId": "ch4",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-bionis-leg-thieving-monsters-479bb2e8",
@@ -817,7 +817,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-04",
       "routeChapterId": "ch4",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-bionis-leg-the-greedy-monster-7511fe50",
@@ -825,7 +825,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-06",
       "routeChapterId": "ch4",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-bionis-leg-save-the-girl-10b6a5e4",
@@ -833,7 +833,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-05",
       "routeChapterId": "ch4",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-bionis-leg-earnest-s-fibs-98917f25",
@@ -841,7 +841,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-06",
       "routeChapterId": "ch4",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-bionis-leg-earnest-s-mischief-195b7daf",
@@ -849,7 +849,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-06",
       "routeChapterId": "ch4",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-bionis-leg-earnest-s-solitude-44cfd7fc",
@@ -857,7 +857,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-06",
       "routeChapterId": "ch4",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-bionis-leg-the-lost-nopon-8c4e3176",
@@ -865,7 +865,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-25",
       "routeChapterId": "ch4",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-bionis-leg-with-much-gratitude-07093bc2",
@@ -873,7 +873,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-26",
       "routeChapterId": "ch4",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-bionis-leg-with-even-more-gratitude-895d1dd0",
@@ -881,7 +881,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-27",
       "routeChapterId": "ch4",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-bionis-leg-legend-of-mythical-empress-516757f5",
@@ -889,7 +889,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-28",
       "routeChapterId": "ch4",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-bionis-leg-a-flower-for-a-rose-41910338",
@@ -897,7 +897,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-02",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-bionis-leg-battling-brutes-adab749b",
@@ -905,7 +905,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-03",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-bionis-leg-supplies-for-satorl-d827c5dd",
@@ -913,7 +913,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-04",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-bionis-leg-monster-quest-1-part-1-efd76bed",
@@ -921,7 +921,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-30",
       "routeChapterId": "ch4",
       "handling": "batch",
-      "rationale": "Area quest is included in the Bionis' Leg ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストは巨神脚の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-bionis-leg-monster-quest-1-part-2-3298bba8",
@@ -929,7 +929,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-30",
       "routeChapterId": "ch4",
       "handling": "batch",
-      "rationale": "Area quest is included in the Bionis' Leg ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストは巨神脚の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-bionis-leg-monster-quest-1-part-3-0fc37c7f",
@@ -937,7 +937,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-30",
       "routeChapterId": "ch4",
       "handling": "batch",
-      "rationale": "Area quest is included in the Bionis' Leg ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストは巨神脚の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-bionis-leg-monster-quest-1-part-4-f12cb694",
@@ -945,7 +945,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-30",
       "routeChapterId": "ch4",
       "handling": "batch",
-      "rationale": "Area quest is included in the Bionis' Leg ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストは巨神脚の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-bionis-leg-monster-quest-2-5f029d15",
@@ -953,7 +953,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-06",
       "routeChapterId": "ch4",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-bionis-leg-monster-quest-3-part-1-720142e6",
@@ -961,7 +961,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-31",
       "routeChapterId": "ch4",
       "handling": "batch",
-      "rationale": "Timed quest is included in the Bionis' Leg ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "時間制限クエストは巨神脚の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-bionis-leg-monster-quest-3-part-2-35e3059c",
@@ -969,7 +969,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-31",
       "routeChapterId": "ch4",
       "handling": "batch",
-      "rationale": "Timed quest is included in the Bionis' Leg ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "時間制限クエストは巨神脚の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-bionis-leg-challenge-1-part-1-cc0488db",
@@ -977,7 +977,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-11",
       "routeChapterId": "ch4",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-bionis-leg-challenge-1-part-2-46f42b16",
@@ -985,7 +985,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-09",
       "routeChapterId": "ch4",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-bionis-leg-challenge-2-part-1-4c3375a6",
@@ -993,7 +993,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-08",
       "routeChapterId": "ch4",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-bionis-leg-challenge-2-part-2-63a30fec",
@@ -1001,7 +1001,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-10",
       "routeChapterId": "ch4",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-bionis-leg-material-quest-1-e12496c0",
@@ -1009,7 +1009,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-06",
       "routeChapterId": "ch4",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-bionis-leg-material-quest-2-f6f0759b",
@@ -1017,7 +1017,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-11",
       "routeChapterId": "ch1",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-bionis-leg-material-quest-3-883c8e81",
@@ -1025,7 +1025,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-31",
       "routeChapterId": "ch4",
       "handling": "batch",
-      "rationale": "Timed quest is included in the Bionis' Leg ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "時間制限クエストは巨神脚の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-bionis-leg-material-quest-4-c2eeb333",
@@ -1033,7 +1033,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-11",
       "routeChapterId": "ch1",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-bionis-leg-collection-quest-1-b069e9eb",
@@ -1041,7 +1041,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-06",
       "routeChapterId": "ch4",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-bionis-leg-collection-quest-2-b9c21a0f",
@@ -1049,7 +1049,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-12",
       "routeChapterId": "ch1",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-bionis-leg-search-quest-1-a3fd7be5",
@@ -1057,7 +1057,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-06",
       "routeChapterId": "ch4",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-bionis-leg-search-quest-2-16812a0a",
@@ -1065,7 +1065,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-31",
       "routeChapterId": "ch4",
       "handling": "batch",
-      "rationale": "Timed quest is included in the Bionis' Leg ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "時間制限クエストは巨神脚の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-6-the-road-home-43a85355",
@@ -1073,7 +1073,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c6-01",
       "routeChapterId": "ch6",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-6-to-colony-6-d46af1a9",
@@ -1081,7 +1081,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-miss-brave-protectors",
       "routeChapterId": "ch1",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-6-cook-off-counter-attack-d7f535df",
@@ -1089,7 +1089,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-18",
       "routeChapterId": "ch17",
       "handling": "batch",
-      "rationale": "Area quest is included in the Colony 6 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー6の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-6-cook-off-comeback-ebbd64de",
@@ -1097,7 +1097,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-18",
       "routeChapterId": "ch17",
       "handling": "batch",
-      "rationale": "Area quest is included in the Colony 6 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー6の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-6-cook-off-final-blow-2fed8c3a",
@@ -1105,7 +1105,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c10-36",
       "routeChapterId": "ch10",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-6-cook-off-showdown-2644f7b8",
@@ -1113,7 +1113,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c10-46",
       "routeChapterId": "ch10",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-6-a-delectable-delicacy-10788c5b",
@@ -1121,7 +1121,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c10-37",
       "routeChapterId": "ch10",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-6-a-tantalising-treat-d8f30b24",
@@ -1129,7 +1129,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-18",
       "routeChapterId": "ch17",
       "handling": "batch",
-      "rationale": "Area quest is included in the Colony 6 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー6の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-6-missing-lodger-1cc378a0",
@@ -1137,7 +1137,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c10-38",
       "routeChapterId": "ch10",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-6-looking-for-freedom-59d82962",
@@ -1145,7 +1145,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c10-38",
       "routeChapterId": "ch10",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-6-cursed-berryjammy-f9c86edc",
@@ -1153,7 +1153,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c10-39",
       "routeChapterId": "ch10",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-6-weak-berryjammy-bf34044f",
@@ -1161,7 +1161,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c10-39",
       "routeChapterId": "ch10",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-6-obstinate-berryjammy-cecc54f5",
@@ -1169,7 +1169,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c10-40",
       "routeChapterId": "ch10",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-6-unstoppable-berryjammy-790ce0cc",
@@ -1177,7 +1177,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c10-41",
       "routeChapterId": "ch10",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-6-miss-sweetness-showdown-berryjammy-058f80d0",
@@ -1185,7 +1185,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c10-42",
       "routeChapterId": "ch10",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-6-miss-sweetness-showdown-ma-crish-91417867",
@@ -1193,7 +1193,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c10-42",
       "routeChapterId": "ch10",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-6-the-most-transparent-thing-8d36938d",
@@ -1201,7 +1201,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c10-43",
       "routeChapterId": "ch10",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-6-miss-sweetness-gratitude-berryjammy-150bef51",
@@ -1209,7 +1209,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-18",
       "routeChapterId": "ch17",
       "handling": "batch",
-      "rationale": "Area quest is included in the Colony 6 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー6の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-6-miss-sweetness-gratitude-ma-crish-a716ddce",
@@ -1217,7 +1217,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-18",
       "routeChapterId": "ch17",
       "handling": "batch",
-      "rationale": "Area quest is included in the Colony 6 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー6の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-6-a-final-sweet-favour-048942ec",
@@ -1225,7 +1225,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-18",
       "routeChapterId": "ch17",
       "handling": "batch",
-      "rationale": "Area quest is included in the Colony 6 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー6の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-6-in-pursuit-of-love-3558d618",
@@ -1233,7 +1233,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-18",
       "routeChapterId": "ch17",
       "handling": "batch",
-      "rationale": "Area quest is included in the Colony 6 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー6の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-6-the-melody-of-happiness-2c8efc23",
@@ -1241,7 +1241,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c10-46",
       "routeChapterId": "ch10",
       "handling": "batch",
-      "rationale": "Timed quest is included in the Colony 6 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "時間制限クエストはコロニー6の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-6-dream-of-a-poet-18b0ab33",
@@ -1249,7 +1249,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c10-46",
       "routeChapterId": "ch10",
       "handling": "batch",
-      "rationale": "Timed quest is included in the Colony 6 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "時間制限クエストはコロニー6の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-6-family-secrets-zel-argentis-7b51e99a",
@@ -1257,7 +1257,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-15",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-6-family-secrets-en-argentis-4268080f",
@@ -1265,7 +1265,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-15",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-6-betrothal-test-zel-argentis-3fbc2130",
@@ -1273,7 +1273,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-15",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-6-betrothal-test-en-argentis-184f7886",
@@ -1281,7 +1281,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-15",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-6-stopping-the-elopement-zel-argentis-ed304437",
@@ -1289,7 +1289,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-15",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-6-stopping-the-elopement-en-argentis-79415ed3",
@@ -1297,7 +1297,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-15",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-6-a-butler-s-concerns-cb513ea0",
@@ -1305,7 +1305,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-18",
       "routeChapterId": "ch17",
       "handling": "batch",
-      "rationale": "Area quest is included in the Colony 6 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー6の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-6-a-maid-s-concerns-b6bb3445",
@@ -1313,7 +1313,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-18",
       "routeChapterId": "ch17",
       "handling": "batch",
-      "rationale": "Area quest is included in the Colony 6 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー6の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-6-lifespan-of-a-machina-09aa34f4",
@@ -1321,7 +1321,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-18",
       "routeChapterId": "ch17",
       "handling": "post",
-      "rationale": "Area quest is included in the Colony 6 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー6の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-6-a-poet-s-concerns-921160ad",
@@ -1329,7 +1329,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-18",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-6-delivering-the-undeliverable-2f715acd",
@@ -1337,7 +1337,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-18",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-6-finding-the-unfindable-06180801",
@@ -1345,7 +1345,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-18",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-6-odd-smoke-investigation-6258b1ec",
@@ -1353,7 +1353,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-18",
       "routeChapterId": "ch17",
       "handling": "batch",
-      "rationale": "Area quest is included in the Colony 6 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー6の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-6-odd-smoke-resolution-7936d29a",
@@ -1361,7 +1361,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-18",
       "routeChapterId": "ch17",
       "handling": "batch",
-      "rationale": "Area quest is included in the Colony 6 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー6の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-6-homs-determination-ed9307cf",
@@ -1369,7 +1369,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-18",
       "routeChapterId": "ch17",
       "handling": "post",
-      "rationale": "Area quest is included in the Colony 6 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー6の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-6-nopon-determination-7b2342da",
@@ -1377,7 +1377,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-18",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-6-a-gutsy-trader-105be93d",
@@ -1385,7 +1385,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-18",
       "routeChapterId": "ch17",
       "handling": "batch",
-      "rationale": "Area quest is included in the Colony 6 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー6の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-6-a-dauntless-trader-6792b74a",
@@ -1393,7 +1393,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-18",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-6-nic-s-training-30b7f956",
@@ -1401,7 +1401,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c10-38",
       "routeChapterId": "ch10",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-6-nic-s-final-test-36762c6f",
@@ -1409,7 +1409,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-18",
       "routeChapterId": "ch17",
       "handling": "batch",
-      "rationale": "Area quest is included in the Colony 6 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー6の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-6-what-is-love-7158159e",
@@ -1417,7 +1417,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c6-02",
       "routeChapterId": "ch6",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-6-what-is-courage-625cad86",
@@ -1425,7 +1425,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c6-03",
       "routeChapterId": "ch6",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-6-matryona-s-answer-4b22e1a0",
@@ -1433,7 +1433,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c6-04",
       "routeChapterId": "ch6",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-6-a-selfish-girl-s-mistake-dce1b813",
@@ -1441,7 +1441,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c6-05",
       "routeChapterId": "ch6",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-6-chemist-s-reopening-dab0f646",
@@ -1449,7 +1449,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c6-06",
       "routeChapterId": "ch6",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-6-satata-s-younger-brother-3ae727eb",
@@ -1457,7 +1457,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c6-07",
       "routeChapterId": "ch6",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-6-rest-in-peace-91907f78",
@@ -1465,7 +1465,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c6-08",
       "routeChapterId": "ch6",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-6-for-the-restoration-d8293354",
@@ -1473,7 +1473,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c6-10",
       "routeChapterId": "ch6",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-6-making-a-new-path-046fa2a2",
@@ -1481,7 +1481,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c6-09",
       "routeChapterId": "ch6",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-6-securing-provisions-fd07b5ad",
@@ -1489,7 +1489,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-01",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-6-proof-of-status-3cfe2284",
@@ -1497,7 +1497,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c5-05",
       "routeChapterId": "ch5",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-6-safety-first-338ec3cf",
@@ -1505,7 +1505,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c5-06",
       "routeChapterId": "ch5",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-6-secret-mission-55008d00",
@@ -1513,7 +1513,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c5-07",
       "routeChapterId": "ch5",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-6-replica-monado-1-e5e0c114",
@@ -1521,7 +1521,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-10",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-6-replica-monado-2-3e9a357b",
@@ -1529,7 +1529,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-18",
       "routeChapterId": "ch17",
       "handling": "post",
-      "rationale": "Area quest is included in the Colony 6 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー6の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-6-replica-monado-3-f7b5ae68",
@@ -1537,7 +1537,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-18",
       "routeChapterId": "ch17",
       "handling": "post",
-      "rationale": "Area quest is included in the Colony 6 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー6の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-6-replica-monado-4-4e108091",
@@ -1545,7 +1545,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-18",
       "routeChapterId": "ch17",
       "handling": "post",
-      "rationale": "Area quest is included in the Colony 6 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー6の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-6-replica-monado-5-b5d22848",
@@ -1553,7 +1553,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-18",
       "routeChapterId": "ch17",
       "handling": "post",
-      "rationale": "Area quest is included in the Colony 6 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー6の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-6-melancholy-tyrea-6bf5fc18",
@@ -1561,7 +1561,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-11",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-6-defend-colony-6-mechon-d6a1151e",
@@ -1569,7 +1569,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-18",
       "routeChapterId": "ch17",
       "handling": "batch",
-      "rationale": "Area quest is included in the Colony 6 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー6の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-6-defend-colony-6-reptile-8bf5033f",
@@ -1577,7 +1577,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-18",
       "routeChapterId": "ch17",
       "handling": "batch",
-      "rationale": "Area quest is included in the Colony 6 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー6の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-6-defend-colony-6-elite-08a1af13",
@@ -1585,7 +1585,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-18",
       "routeChapterId": "ch17",
       "handling": "batch",
-      "rationale": "Area quest is included in the Colony 6 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー6の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-colony-6-defend-colony-6-ancient-badfebc6",
@@ -1593,7 +1593,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-18",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-colony-6-defend-colony-6-demon-efce2fdd",
@@ -1601,7 +1601,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-18",
       "routeChapterId": "ch17",
       "handling": "post",
-      "rationale": "Area quest is included in the Colony 6 ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはコロニー6の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-satorl-marsh-preventing-starvation-0354bc6e",
@@ -1609,7 +1609,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c6-11",
       "routeChapterId": "ch6",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-satorl-marsh-zazadan-in-danger-b897de90",
@@ -1617,7 +1617,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c6-12",
       "routeChapterId": "ch6",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-satorl-marsh-zazadan-still-in-danger-14950435",
@@ -1625,7 +1625,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c6-13",
       "routeChapterId": "ch6",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-satorl-marsh-it-s-all-in-the-mind-ad0a4211",
@@ -1633,7 +1633,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c6-14",
       "routeChapterId": "ch6",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-satorl-marsh-a-mysterious-delicacy-dc8f2b4d",
@@ -1641,7 +1641,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c6-15",
       "routeChapterId": "ch6",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-satorl-marsh-a-gift-39824024",
@@ -1649,7 +1649,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c6-16",
       "routeChapterId": "ch6",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-satorl-marsh-gather-information-6d08db06",
@@ -1657,7 +1657,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c6-33",
       "routeChapterId": "ch6",
       "handling": "batch",
-      "rationale": "Area quest is included in the Satorl Marsh ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストは燐光の地ザトールの台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-satorl-marsh-kacha-s-kidnapping-52ffe137",
@@ -1665,7 +1665,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c6-17",
       "routeChapterId": "ch6",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-satorl-marsh-the-giants-key-73f6238d",
@@ -1673,7 +1673,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c6-18",
       "routeChapterId": "ch6",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-satorl-marsh-the-giants-treasure-4456a56e",
@@ -1681,7 +1681,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c6-19",
       "routeChapterId": "ch6",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-satorl-marsh-making-camp-371241f9",
@@ -1689,7 +1689,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c6-20",
       "routeChapterId": "ch6",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-satorl-marsh-monster-quest-1-d2d45dde",
@@ -1697,7 +1697,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-10",
       "routeChapterId": "ch1",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-satorl-marsh-monster-quest-2-a146d173",
@@ -1705,7 +1705,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c6-32",
       "routeChapterId": "ch6",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-satorl-marsh-monster-quest-3-57249d50",
@@ -1713,7 +1713,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-06",
       "routeChapterId": "ch4",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-satorl-marsh-monster-quest-4-ccb0a9ec",
@@ -1721,7 +1721,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-36",
       "routeChapterId": "ch7",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-satorl-marsh-challenge-123635e9",
@@ -1729,7 +1729,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-19",
       "routeChapterId": "ch17",
       "handling": "post",
-      "rationale": "Area quest is included in the Satorl Marsh ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストは燐光の地ザトールの台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-satorl-marsh-for-a-friend-65689534",
@@ -1737,7 +1737,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-19",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-satorl-marsh-a-merciful-end-0ddf39e6",
@@ -1745,7 +1745,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-19",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-satorl-marsh-a-release-from-duty-b8f09fc5",
@@ -1753,7 +1753,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-19",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-satorl-marsh-the-imperial-ceremony-ca0ffe39",
@@ -1761,7 +1761,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-31",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-satorl-marsh-imperial-ceremony-offerings-bf7ddd7f",
@@ -1769,7 +1769,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-04",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-satorl-marsh-the-ancient-ceremony-0559117c",
@@ -1777,7 +1777,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "story-the-ancient-ceremony",
       "routeChapterId": "ch6",
       "handling": "exact",
-      "rationale": "Formal story quest is linked by its retained source ID."
+      "rationale": "正式なストーリークエストは、残してある元のIDで結ばれている。"
     },
     {
       "targetId": "quest-satorl-marsh-ancient-ceremony-offerings-6ccb2479",
@@ -1785,7 +1785,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "story-ancient-ceremony-offerings",
       "routeChapterId": "ch6",
       "handling": "exact",
-      "rationale": "Formal story quest is linked by its retained source ID."
+      "rationale": "正式なストーリークエストは、残してある元のIDで結ばれている。"
     },
     {
       "targetId": "quest-makna-forest-legend-of-the-sage-c39bf375",
@@ -1793,7 +1793,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-36",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-makna-forest-challenge-of-the-sage-3223b9dc",
@@ -1801,7 +1801,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-36",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-makna-forest-final-challenge-of-the-sage-3d8ee72d",
@@ -1809,7 +1809,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-06",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-makna-forest-bridge-repair-dd1b988b",
@@ -1817,7 +1817,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-41",
       "routeChapterId": "ch7",
       "handling": "batch",
-      "rationale": "Area quest is included in the Makna Forest ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはマクナ原生林の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-makna-forest-monster-quest-1-9082c265",
@@ -1825,7 +1825,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-10",
       "routeChapterId": "ch1",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-makna-forest-monster-quest-2-fa0c16cc",
@@ -1833,7 +1833,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c6-32",
       "routeChapterId": "ch6",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-makna-forest-monster-quest-3-7b73cb3f",
@@ -1841,7 +1841,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-06",
       "routeChapterId": "ch4",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-makna-forest-monster-quest-4-5f56b842",
@@ -1849,7 +1849,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-36",
       "routeChapterId": "ch7",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-makna-forest-challenge-7ec939fe",
@@ -1857,7 +1857,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-26",
       "routeChapterId": "ch7",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-makna-forest-mystery-girl-rescue-96776777",
@@ -1865,7 +1865,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "story-mystery-girl-rescue",
       "routeChapterId": "ch7",
       "handling": "exact",
-      "rationale": "Formal story quest is linked by its retained source ID."
+      "rationale": "正式なストーリークエストは、残してある元のIDで結ばれている。"
     },
     {
       "targetId": "quest-frontier-village-leku-s-food-crisis-55789eb3",
@@ -1873,7 +1873,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-03",
       "routeChapterId": "ch7",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-hunt-for-a-patron-3cc74323",
@@ -1881,7 +1881,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-04",
       "routeChapterId": "ch7",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-heropon-s-spirit-2e5ef224",
@@ -1889,7 +1889,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-05",
       "routeChapterId": "ch7",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-beat-kilaki-to-it-0fb18436",
@@ -1897,7 +1897,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-06",
       "routeChapterId": "ch7",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-lousy-lizards-6e01eb1c",
@@ -1905,7 +1905,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-20",
       "routeChapterId": "ch7",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-popularity-premonition-4a21e195",
@@ -1913,7 +1913,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-07",
       "routeChapterId": "ch7",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-making-a-mixer-38489cac",
@@ -1921,7 +1921,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-10",
       "routeChapterId": "ch7",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-materials-for-a-mixer-2f8bc8e5",
@@ -1929,7 +1929,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-10",
       "routeChapterId": "ch7",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-decoration-makeover-98a2b266",
@@ -1937,7 +1937,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-22",
       "routeChapterId": "ch7",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-hunt-for-bug-loving-friend-7022223e",
@@ -1945,7 +1945,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-21",
       "routeChapterId": "ch7",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-a-worried-bug-lover-35141cf1",
@@ -1953,7 +1953,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-21",
       "routeChapterId": "ch7",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-a-tormented-bug-lover-4472415b",
@@ -1961,7 +1961,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-21",
       "routeChapterId": "ch7",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-mushy-mushrooms-4b40ec39",
@@ -1969,7 +1969,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-01",
       "routeChapterId": "ch7",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-medical-advancements-d38e6c42",
@@ -1977,7 +1977,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c10-28",
       "routeChapterId": "ch10",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-let-s-make-fillings-e0331e56",
@@ -1985,7 +1985,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-41",
       "routeChapterId": "ch7",
       "handling": "batch",
-      "rationale": "Timed quest is included in the Frontier Village ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "時間制限クエストはサイハテ村の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-frontier-village-world-s-strongest-flavour-bbfbbf9c",
@@ -1993,7 +1993,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-41",
       "routeChapterId": "ch7",
       "handling": "batch",
-      "rationale": "Area quest is included in the Frontier Village ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはサイハテ村の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-frontier-village-reversed-tastes-491b62ae",
@@ -2001,7 +2001,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-41",
       "routeChapterId": "ch7",
       "handling": "batch",
-      "rationale": "Area quest is included in the Frontier Village ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはサイハテ村の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-frontier-village-sweet-seduction-39ca6157",
@@ -2009,7 +2009,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-18",
       "routeChapterId": "ch7",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-ingredients-for-a-brew-99e4433b",
@@ -2017,7 +2017,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-19",
       "routeChapterId": "ch7",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-healing-the-healer-87cebe81",
@@ -2025,7 +2025,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c10-29",
       "routeChapterId": "ch10",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-legendary-nopon-charm-e6f64f8f",
@@ -2033,7 +2033,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c10-29",
       "routeChapterId": "ch10",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-mislabelling-problem-8c276339",
@@ -2041,7 +2041,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c10-30",
       "routeChapterId": "ch10",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-getting-bigger-f8926db1",
@@ -2049,7 +2049,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c10-31",
       "routeChapterId": "ch10",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-who-is-bigger-bd626a51",
@@ -2057,7 +2057,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c10-31",
       "routeChapterId": "ch10",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-strange-noises-from-below-8b1a3855",
@@ -2065,7 +2065,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-12",
       "routeChapterId": "ch7",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-musical-genius-2f8caef8",
@@ -2073,7 +2073,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-13",
       "routeChapterId": "ch7",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-things-that-hum-f767b940",
@@ -2081,7 +2081,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-13",
       "routeChapterId": "ch7",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-things-that-rumble-9eb8cc36",
@@ -2089,7 +2089,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-13",
       "routeChapterId": "ch7",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-disinsectization-9f1dd2f2",
@@ -2097,7 +2097,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-11",
       "routeChapterId": "ch7",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-avenge-a-mamapon-s-death-afae25ff",
@@ -2105,7 +2105,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-35",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-dadapon-in-trouble-d0011fed",
@@ -2113,7 +2113,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-08",
       "routeChapterId": "ch7",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-it-definitely-exist-86e39ec6",
@@ -2121,7 +2121,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-09",
       "routeChapterId": "ch7",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-even-in-the-chief-s-absence-17151b06",
@@ -2129,7 +2129,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-41",
       "routeChapterId": "ch7",
       "handling": "batch",
-      "rationale": "Area quest is included in the Frontier Village ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはサイハテ村の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-frontier-village-bored-pelupelu-4ba04657",
@@ -2137,7 +2137,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-41",
       "routeChapterId": "ch7",
       "handling": "batch",
-      "rationale": "Area quest is included in the Frontier Village ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはサイハテ村の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-frontier-village-a-gift-for-miko-b85d65c9",
@@ -2145,7 +2145,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-41",
       "routeChapterId": "ch7",
       "handling": "batch",
-      "rationale": "Area quest is included in the Frontier Village ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはサイハテ村の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-frontier-village-giant-attack-3e870524",
@@ -2153,7 +2153,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-41",
       "routeChapterId": "ch7",
       "handling": "batch",
-      "rationale": "Area quest is included in the Frontier Village ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはサイハテ村の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-frontier-village-kind-lupa-s-grampypon-a5eab65a",
@@ -2161,7 +2161,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-02",
       "routeChapterId": "ch7",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-secret-elixer-ingredients-9b5e9e4c",
@@ -2169,7 +2169,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-41",
       "routeChapterId": "ch7",
       "handling": "batch",
-      "rationale": "Area quest is included in the Frontier Village ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはサイハテ村の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-frontier-village-mystery-of-makna-ruins-1-6696c5a5",
@@ -2177,7 +2177,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c10-32",
       "routeChapterId": "ch10",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-mystery-of-makna-ruins-2-e51dd72d",
@@ -2185,7 +2185,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c10-33",
       "routeChapterId": "ch10",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-mystery-of-makna-ruins-3-087e7238",
@@ -2193,7 +2193,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c10-34",
       "routeChapterId": "ch10",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-mystery-of-makna-ruins-4-b8c1296f",
@@ -2201,7 +2201,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c10-35",
       "routeChapterId": "ch10",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-honouring-the-nopon-sage-3b8a2f5a",
@@ -2209,7 +2209,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-36",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-meeting-the-nopon-sage-b62920c3",
@@ -2217,7 +2217,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-41",
       "routeChapterId": "ch7",
       "handling": "batch",
-      "rationale": "Area quest is included in the Frontier Village ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはサイハテ村の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-frontier-village-fixing-time-mushrooms-8654c073",
@@ -2225,7 +2225,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-18",
       "routeChapterId": "ch7",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-restoring-the-capital-0d26078f",
@@ -2233,7 +2233,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-10",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Area quest is included in the Frontier Village ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはサイハテ村の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-frontier-village-restoring-the-capital-2-bccc53cb",
@@ -2241,7 +2241,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-10",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Area quest is included in the Frontier Village ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはサイハテ村の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-frontier-village-broken-ether-furnace-7f3e3db3",
@@ -2249,7 +2249,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-12",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-broken-ether-furnace-2-3f6c744d",
@@ -2257,7 +2257,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-10",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Area quest is included in the Frontier Village ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはサイハテ村の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-frontier-village-a-memento-of-daddy-10b93298",
@@ -2265,7 +2265,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-10",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Area quest is included in the Frontier Village ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはサイハテ村の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-frontier-village-pollen-orb-ingredients-833496ce",
@@ -2273,7 +2273,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-14",
       "routeChapterId": "ch7",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-secret-ingredient-hunt-658b9ff1",
@@ -2281,7 +2281,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-16",
       "routeChapterId": "ch7",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-secret-innovation-5cf8ce52",
@@ -2289,7 +2289,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-15",
       "routeChapterId": "ch7",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-the-master-s-successor-64e36cf7",
@@ -2297,7 +2297,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-17",
       "routeChapterId": "ch7",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-dangerous-ambition-0c01efad",
@@ -2305,7 +2305,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c15-01",
       "routeChapterId": "ch15",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-find-the-kingpin-03df88e7",
@@ -2313,7 +2313,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c15-01",
       "routeChapterId": "ch15",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-adviser-hunt-05dfd2de",
@@ -2321,7 +2321,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c15-01",
       "routeChapterId": "ch15",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-evidence-collection-3691c3f0",
@@ -2329,7 +2329,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c15-01",
       "routeChapterId": "ch15",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-destroying-the-city-trade-fc96181c",
@@ -2337,7 +2337,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c15-01",
       "routeChapterId": "ch15",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-bana-the-betrayer-a6210543",
@@ -2345,7 +2345,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-10",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Area quest is included in the Frontier Village ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはサイハテ村の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-frontier-village-presents-for-priceless-pupils-1bdeca37",
@@ -2353,7 +2353,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-10",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Area quest is included in the Frontier Village ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはサイハテ村の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-frontier-village-safer-energy-47efa787",
@@ -2361,7 +2361,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-10",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Area quest is included in the Frontier Village ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはサイハテ村の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-frontier-village-distilling-active-ingredients-2d475228",
@@ -2369,7 +2369,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-10",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Area quest is included in the Frontier Village ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはサイハテ村の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-frontier-village-monster-quest-1-part-1-9f37ca9e",
@@ -2377,7 +2377,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-41",
       "routeChapterId": "ch7",
       "handling": "batch",
-      "rationale": "Area quest is included in the Frontier Village ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはサイハテ村の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-frontier-village-monster-quest-1-part-2-e1b85e60",
@@ -2385,7 +2385,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-41",
       "routeChapterId": "ch7",
       "handling": "batch",
-      "rationale": "Area quest is included in the Frontier Village ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはサイハテ村の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-frontier-village-monster-quest-1-part-3-95e4df97",
@@ -2393,7 +2393,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-41",
       "routeChapterId": "ch7",
       "handling": "batch",
-      "rationale": "Area quest is included in the Frontier Village ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはサイハテ村の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-frontier-village-monster-quest-2-part-1-3ba4cd30",
@@ -2401,7 +2401,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-41",
       "routeChapterId": "ch7",
       "handling": "batch",
-      "rationale": "Area quest is included in the Frontier Village ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはサイハテ村の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-frontier-village-monster-quest-2-part-2-012bf20d",
@@ -2409,7 +2409,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-41",
       "routeChapterId": "ch7",
       "handling": "batch",
-      "rationale": "Area quest is included in the Frontier Village ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはサイハテ村の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-frontier-village-monster-quest-2-part-3-304a192f",
@@ -2417,7 +2417,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-41",
       "routeChapterId": "ch7",
       "handling": "batch",
-      "rationale": "Area quest is included in the Frontier Village ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはサイハテ村の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-frontier-village-challenge-1-904ff9bc",
@@ -2425,7 +2425,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-23",
       "routeChapterId": "ch7",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-challenge-2-e229b41e",
@@ -2433,7 +2433,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-24",
       "routeChapterId": "ch7",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-challenge-3-47955942",
@@ -2441,7 +2441,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-25",
       "routeChapterId": "ch7",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-material-quest-1-169c688b",
@@ -2449,7 +2449,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-06",
       "routeChapterId": "ch4",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-material-quest-2-09be6d68",
@@ -2457,7 +2457,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-11",
       "routeChapterId": "ch1",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-material-quest-3-d97541fa",
@@ -2465,7 +2465,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-41",
       "routeChapterId": "ch7",
       "handling": "batch",
-      "rationale": "Area quest is included in the Frontier Village ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはサイハテ村の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-frontier-village-material-quest-4-db4b8d85",
@@ -2473,7 +2473,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-11",
       "routeChapterId": "ch1",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-collection-quest-1-4990e4ce",
@@ -2481,7 +2481,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-06",
       "routeChapterId": "ch4",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-collection-quest-2-3792d5e9",
@@ -2489,7 +2489,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-12",
       "routeChapterId": "ch1",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-collection-quest-3-5e220c4c",
@@ -2497,7 +2497,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-41",
       "routeChapterId": "ch7",
       "handling": "batch",
-      "rationale": "Area quest is included in the Frontier Village ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはサイハテ村の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-frontier-village-collection-quest-4-31c4a887",
@@ -2505,7 +2505,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-41",
       "routeChapterId": "ch7",
       "handling": "batch",
-      "rationale": "Area quest is included in the Frontier Village ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはサイハテ村の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-frontier-village-search-quest-1-a29b0ccd",
@@ -2513,7 +2513,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-06",
       "routeChapterId": "ch4",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-frontier-village-search-quest-2-3d2c17e1",
@@ -2521,7 +2521,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-41",
       "routeChapterId": "ch7",
       "handling": "batch",
-      "rationale": "Area quest is included in the Frontier Village ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはサイハテ村の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-frontier-village-search-quest-3-ba91015f",
@@ -2529,7 +2529,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-41",
       "routeChapterId": "ch7",
       "handling": "batch",
-      "rationale": "Area quest is included in the Frontier Village ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはサイハテ村の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-frontier-village-an-errand-for-the-heropon-0207461b",
@@ -2537,7 +2537,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "story-an-errand-for-the-heropon",
       "routeChapterId": "ch7",
       "handling": "exact",
-      "rationale": "Formal story quest is linked by its retained source ID."
+      "rationale": "正式なストーリークエストは、残してある元のIDで結ばれている。"
     },
     {
       "targetId": "quest-eryth-sea-trouble-at-the-plant-09ca325d",
@@ -2545,7 +2545,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-30",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-eryth-sea-punish-the-hodes-5ab7916f",
@@ -2553,7 +2553,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-30",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-eryth-sea-mend-the-plant-d48b53ff",
@@ -2561,7 +2561,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-30",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-eryth-sea-hode-attack-59c50864",
@@ -2569,7 +2569,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-31",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-eryth-sea-trouble-at-the-lighthouse-de94d51f",
@@ -2577,7 +2577,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-32",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-eryth-sea-investigating-satorl-968ac172",
@@ -2585,7 +2585,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-17",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-eryth-sea-ancient-high-entia-mystery-03d27957",
@@ -2593,7 +2593,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-31",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-eryth-sea-the-missing-boy-35f1e4eb",
@@ -2601,7 +2601,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-31",
       "routeChapterId": "ch17",
       "handling": "post",
-      "rationale": "Area quest is included in the Eryth Sea ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはエルト海の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-eryth-sea-the-only-thing-i-can-do-b6c15ab2",
@@ -2609,7 +2609,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-31",
       "routeChapterId": "ch17",
       "handling": "post",
-      "rationale": "Area quest is included in the Eryth Sea ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはエルト海の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-eryth-sea-i-will-never-forget-you-697f1d2e",
@@ -2617,7 +2617,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-31",
       "routeChapterId": "ch17",
       "handling": "post",
-      "rationale": "Area quest is included in the Eryth Sea ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはエルト海の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-eryth-sea-secret-research-24cff589",
@@ -2625,7 +2625,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-31",
       "routeChapterId": "ch17",
       "handling": "post",
-      "rationale": "Area quest is included in the Eryth Sea ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはエルト海の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-eryth-sea-monster-quest-1-94fd67d5",
@@ -2633,7 +2633,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-10",
       "routeChapterId": "ch1",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-eryth-sea-monster-quest-2-028f026d",
@@ -2641,7 +2641,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c6-32",
       "routeChapterId": "ch6",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-eryth-sea-challenge-bb182f57",
@@ -2649,7 +2649,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-33",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-eryth-sea-collect-quest-1-44e9abc0",
@@ -2657,7 +2657,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-53",
       "routeChapterId": "ch8",
       "handling": "batch",
-      "rationale": "Area quest is included in the Eryth Sea ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはエルト海の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-eryth-sea-collect-quest-2-48357cd4",
@@ -2665,7 +2665,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-53",
       "routeChapterId": "ch8",
       "handling": "batch",
-      "rationale": "Area quest is included in the Eryth Sea ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはエルト海の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-eryth-sea-save-the-worker-f2ef1b0c",
@@ -2673,7 +2673,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "story-save-the-worker",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Formal story quest is linked by its retained source ID."
+      "rationale": "正式なストーリークエストは、残してある元のIDで結ばれている。"
     },
     {
       "targetId": "quest-eryth-sea-path-to-prison-island-48dacbcc",
@@ -2681,7 +2681,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "story-path-to-prison-island",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Formal story quest is linked by its retained source ID."
+      "rationale": "正式なストーリークエストは、残してある元のIDで結ばれている。"
     },
     {
       "targetId": "quest-eryth-sea-sister-seals-c9046416",
@@ -2689,7 +2689,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "story-sister-seals",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Formal story quest is linked by its retained source ID."
+      "rationale": "正式なストーリークエストは、残してある元のIDで結ばれている。"
     },
     {
       "targetId": "quest-alcamoth-the-deciphering-machine-e8f9b65c",
@@ -2697,7 +2697,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-01",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-alcamoth-a-necessary-upgrade-c20d8fb2",
@@ -2705,7 +2705,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-16",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-alcamoth-talia-s-research-d77fade7",
@@ -2713,7 +2713,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-17",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-alcamoth-bring-back-my-son-70c7c6b8",
@@ -2721,7 +2721,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-02",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-alcamoth-teaching-materials-d0bb83b2",
@@ -2729,7 +2729,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-02",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-alcamoth-brave-actions-af207184",
@@ -2737,7 +2737,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-11",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-alcamoth-protect-the-capital-2ca874b2",
@@ -2745,7 +2745,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-12",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-alcamoth-how-do-they-feel-6057e1e2",
@@ -2753,7 +2753,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-03",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-alcamoth-how-do-i-feel-c40184df",
@@ -2761,7 +2761,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-03",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-alcamoth-i-love-you-no-matter-what-e78badae",
@@ -2769,7 +2769,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-03",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-alcamoth-together-forever-b4a3ce0a",
@@ -2777,7 +2777,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-04",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-alcamoth-a-friend-in-need-c9b3b741",
@@ -2785,7 +2785,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-20",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-alcamoth-preparing-for-adventure-b544ce81",
@@ -2793,7 +2793,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-06",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-alcamoth-preparing-for-adventure-2-6bb08adb",
@@ -2801,7 +2801,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-13",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-alcamoth-preparing-for-adventure-3-c3600c9e",
@@ -2809,7 +2809,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-14",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-alcamoth-adventureres-in-peril-4a2d710a",
@@ -2817,7 +2817,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c10-44",
       "routeChapterId": "ch10",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-alcamoth-building-bridges-7492aa71",
@@ -2825,7 +2825,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-05",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-alcamoth-believing-again-66f7b260",
@@ -2833,7 +2833,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c10-45",
       "routeChapterId": "ch10",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-alcamoth-starlight-seeker-cae55fa5",
@@ -2841,7 +2841,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-15",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-alcamoth-starlight-gazer-8dad45d5",
@@ -2849,7 +2849,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-18",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-alcamoth-back-pain-1e322f2c",
@@ -2857,7 +2857,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-19",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-alcamoth-looking-for-gold-bugs-42de6fc4",
@@ -2865,7 +2865,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-09",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-alcamoth-losing-the-taste-for-alcohol-a3b54ab3",
@@ -2873,7 +2873,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-08",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-alcamoth-looking-for-a-lost-son-28159068",
@@ -2881,7 +2881,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-07",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-alcamoth-looking-for-a-lost-daughter-73bb1d26",
@@ -2889,7 +2889,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c15-01",
       "routeChapterId": "ch15",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-alcamoth-going-out-to-play-844b5d0e",
@@ -2897,7 +2897,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-10",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-alcamoth-getting-a-member-s-card-a4a6253e",
@@ -2905,7 +2905,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c15-01",
       "routeChapterId": "ch15",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-alcamoth-vidian-rescue-mission-70909031",
@@ -2913,7 +2913,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-12",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-alcamoth-monster-quest-1-part-1-42171b4c",
@@ -2921,7 +2921,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c15-02",
       "routeChapterId": "ch15",
       "handling": "batch",
-      "rationale": "Timed quest is included in the Alcamoth ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "時間制限クエストは皇都アカモートの台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-alcamoth-monster-quest-1-part-2-f95eda7f",
@@ -2929,7 +2929,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c15-02",
       "routeChapterId": "ch15",
       "handling": "batch",
-      "rationale": "Timed quest is included in the Alcamoth ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "時間制限クエストは皇都アカモートの台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-alcamoth-monster-quest-1-part-3-abdb2831",
@@ -2937,7 +2937,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c15-02",
       "routeChapterId": "ch15",
       "handling": "batch",
-      "rationale": "Timed quest is included in the Alcamoth ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "時間制限クエストは皇都アカモートの台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-alcamoth-monster-quest-2-part-1-e38b167a",
@@ -2945,7 +2945,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c15-02",
       "routeChapterId": "ch15",
       "handling": "batch",
-      "rationale": "Timed quest is included in the Alcamoth ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "時間制限クエストは皇都アカモートの台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-alcamoth-monster-quest-2-part-2-ee3c08bd",
@@ -2953,7 +2953,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c15-02",
       "routeChapterId": "ch15",
       "handling": "batch",
-      "rationale": "Timed quest is included in the Alcamoth ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "時間制限クエストは皇都アカモートの台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-alcamoth-monster-quest-2-part-3-dd9dd723",
@@ -2961,7 +2961,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c15-02",
       "routeChapterId": "ch15",
       "handling": "batch",
-      "rationale": "Timed quest is included in the Alcamoth ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "時間制限クエストは皇都アカモートの台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-alcamoth-monster-quest-3-part-1-4f7a4e60",
@@ -2969,7 +2969,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c15-02",
       "routeChapterId": "ch15",
       "handling": "batch",
-      "rationale": "Timed quest is included in the Alcamoth ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "時間制限クエストは皇都アカモートの台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-alcamoth-monster-quest-3-part-2-5acdd6dd",
@@ -2977,7 +2977,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c15-02",
       "routeChapterId": "ch15",
       "handling": "batch",
-      "rationale": "Timed quest is included in the Alcamoth ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "時間制限クエストは皇都アカモートの台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-alcamoth-monster-quest-3-part-3-1fad9148",
@@ -2985,7 +2985,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c15-02",
       "routeChapterId": "ch15",
       "handling": "batch",
-      "rationale": "Timed quest is included in the Alcamoth ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "時間制限クエストは皇都アカモートの台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-alcamoth-monster-quest-4-part-1-08dad316",
@@ -2993,7 +2993,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c15-02",
       "routeChapterId": "ch15",
       "handling": "batch",
-      "rationale": "Timed quest is included in the Alcamoth ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "時間制限クエストは皇都アカモートの台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-alcamoth-monster-quest-4-part-2-24615c68",
@@ -3001,7 +3001,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c15-02",
       "routeChapterId": "ch15",
       "handling": "batch",
-      "rationale": "Timed quest is included in the Alcamoth ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "時間制限クエストは皇都アカモートの台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-alcamoth-monster-quest-4-part-3-2c4d90c6",
@@ -3009,7 +3009,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c15-02",
       "routeChapterId": "ch15",
       "handling": "batch",
-      "rationale": "Timed quest is included in the Alcamoth ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "時間制限クエストは皇都アカモートの台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-alcamoth-challenge-1-4a226e64",
@@ -3017,7 +3017,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-21",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-alcamoth-challenge-2-b349a7b0",
@@ -3025,7 +3025,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-22",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-alcamoth-challenge-3-4f62e955",
@@ -3033,7 +3033,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-23",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-alcamoth-challenge-4-25825bda",
@@ -3041,7 +3041,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-24",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-alcamoth-material-quest-1-86612ce4",
@@ -3049,7 +3049,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-06",
       "routeChapterId": "ch4",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-alcamoth-material-quest-2-b2c2468f",
@@ -3057,7 +3057,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-11",
       "routeChapterId": "ch1",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-alcamoth-material-quest-3-98019c8a",
@@ -3065,7 +3065,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c15-02",
       "routeChapterId": "ch15",
       "handling": "batch",
-      "rationale": "Timed quest is included in the Alcamoth ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "時間制限クエストは皇都アカモートの台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-alcamoth-material-quest-4-2ca3d813",
@@ -3073,7 +3073,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-11",
       "routeChapterId": "ch1",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-alcamoth-collection-quest-1-ff40dabd",
@@ -3081,7 +3081,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-06",
       "routeChapterId": "ch4",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-alcamoth-collection-quest-2-b67f2781",
@@ -3089,7 +3089,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-12",
       "routeChapterId": "ch1",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-alcamoth-collection-quest-3-51469a9f",
@@ -3097,7 +3097,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c15-02",
       "routeChapterId": "ch15",
       "handling": "batch",
-      "rationale": "Timed quest is included in the Alcamoth ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "時間制限クエストは皇都アカモートの台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-alcamoth-collection-quest-4-6e8970dc",
@@ -3105,7 +3105,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c15-02",
       "routeChapterId": "ch15",
       "handling": "batch",
-      "rationale": "Timed quest is included in the Alcamoth ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "時間制限クエストは皇都アカモートの台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-alcamoth-search-quest-1-226d3221",
@@ -3113,7 +3113,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-06",
       "routeChapterId": "ch4",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-alcamoth-search-quest-2-8a73ee94",
@@ -3121,7 +3121,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c15-02",
       "routeChapterId": "ch15",
       "handling": "batch",
-      "rationale": "Timed quest is included in the Alcamoth ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "時間制限クエストは皇都アカモートの台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-alcamoth-search-quest-3-b05095e9",
@@ -3129,7 +3129,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c15-02",
       "routeChapterId": "ch15",
       "handling": "batch",
-      "rationale": "Timed quest is included in the Alcamoth ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "時間制限クエストは皇都アカモートの台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-alcamoth-search-quest-4-23055241",
@@ -3137,7 +3137,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c15-02",
       "routeChapterId": "ch15",
       "handling": "batch",
-      "rationale": "Timed quest is included in the Alcamoth ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "時間制限クエストは皇都アカモートの台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-valak-mountain-chilkins-and-antols-1b62b6c9",
@@ -3145,7 +3145,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c10-03",
       "routeChapterId": "ch10",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-valak-mountain-valak-mountain-research-5103e920",
@@ -3153,7 +3153,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c10-04",
       "routeChapterId": "ch10",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-valak-mountain-the-freezing-nopon-5be11969",
@@ -3161,7 +3161,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c10-05",
       "routeChapterId": "ch10",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-valak-mountain-bad-timing-b1b67242",
@@ -3169,7 +3169,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c10-06",
       "routeChapterId": "ch10",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-valak-mountain-chilkin-changes-bee3a218",
@@ -3177,7 +3177,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c10-07",
       "routeChapterId": "ch10",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-valak-mountain-the-balance-of-power-29a46cce",
@@ -3185,7 +3185,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c10-08",
       "routeChapterId": "ch10",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-valak-mountain-the-missing-partner-1c795354",
@@ -3193,7 +3193,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-07",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Area quest is included in the Valak Mountain ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストはヴァラク雪山の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-valak-mountain-the-final-giants-ruins-1534830f",
@@ -3201,7 +3201,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-13",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-valak-mountain-the-giants-treasures-9a24d5b0",
@@ -3209,7 +3209,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-13",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-valak-mountain-monster-quest-1-c8c37227",
@@ -3217,7 +3217,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-10",
       "routeChapterId": "ch1",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-valak-mountain-monster-quest-2-4447734f",
@@ -3225,7 +3225,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c6-32",
       "routeChapterId": "ch6",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-valak-mountain-monster-quest-3-6c2b7de9",
@@ -3233,7 +3233,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-06",
       "routeChapterId": "ch4",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-valak-mountain-monster-quest-4-4dc843a9",
@@ -3241,7 +3241,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-36",
       "routeChapterId": "ch7",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-valak-mountain-the-magma-rock-be7e2048",
@@ -3249,7 +3249,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c10-02",
       "routeChapterId": "ch10",
       "handling": "exact",
-      "rationale": "Formal story quest is linked by its retained source ID."
+      "rationale": "正式なストーリークエストは、残してある元のIDで結ばれている。"
     },
     {
       "targetId": "quest-sword-valley-secure-dolgan-outpost-b6ba581d",
@@ -3257,7 +3257,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c11-01",
       "routeChapterId": "ch11",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-sword-valley-secure-enalda-control-base-f74387a5",
@@ -3265,7 +3265,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c11-02",
       "routeChapterId": "ch11",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-sword-valley-3rd-gate-front-line-29a8066d",
@@ -3273,7 +3273,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c11-04",
       "routeChapterId": "ch11",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-sword-valley-secure-the-radio-tower-78dba9cf",
@@ -3281,7 +3281,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c11-03",
       "routeChapterId": "ch11",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-sword-valley-lift-battle-b601ae54",
@@ -3289,7 +3289,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "story-lift-battle",
       "routeChapterId": "ch11",
       "handling": "exact",
-      "rationale": "Formal story quest is linked by its retained source ID."
+      "rationale": "正式なストーリークエストは、残してある元のIDで結ばれている。"
     },
     {
       "targetId": "quest-sword-valley-supply-station-battle-d408cebf",
@@ -3297,7 +3297,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "story-supply-station-battle",
       "routeChapterId": "ch11",
       "handling": "exact",
-      "rationale": "Formal story quest is linked by its retained source ID."
+      "rationale": "正式なストーリークエストは、残してある元のIDで結ばれている。"
     },
     {
       "targetId": "quest-sword-valley-turbine-battle-b3f2fea9",
@@ -3305,7 +3305,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "story-turbine-battle",
       "routeChapterId": "ch11",
       "handling": "exact",
-      "rationale": "Formal story quest is linked by its retained source ID."
+      "rationale": "正式なストーリークエストは、残してある元のIDで結ばれている。"
     },
     {
       "targetId": "quest-sword-valley-fiora-s-conviction-242777dd",
@@ -3313,7 +3313,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "story-fioras-conviction",
       "routeChapterId": "ch11",
       "handling": "exact",
-      "rationale": "Formal story quest is linked by its retained source ID."
+      "rationale": "正式なストーリークエストは、残してある元のIDで結ばれている。"
     },
     {
       "targetId": "quest-sword-valley-chase-dickson-331c7524",
@@ -3321,7 +3321,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "story-chase-dickson",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Formal story quest is linked by its retained source ID."
+      "rationale": "正式なストーリークエストは、残してある元のIDで結ばれている。"
     },
     {
       "targetId": "quest-sword-valley-path-to-the-top-94cea14c",
@@ -3329,7 +3329,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "story-path-to-the-top",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Formal story quest is linked by its retained source ID."
+      "rationale": "正式なストーリークエストは、残してある元のIDで結ばれている。"
     },
     {
       "targetId": "quest-fallen-arm-save-the-machina-6988cd50",
@@ -3337,7 +3337,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c12-20",
       "routeChapterId": "ch12",
       "handling": "batch",
-      "rationale": "Area quest is included in the Fallen Arm ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストは落ちた腕の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-fallen-arm-eliminate-the-threat-67ffcc4b",
@@ -3345,7 +3345,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c12-20",
       "routeChapterId": "ch12",
       "handling": "batch",
-      "rationale": "Area quest is included in the Fallen Arm ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストは落ちた腕の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-fallen-arm-mysterious-noises-309a4964",
@@ -3353,7 +3353,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c12-20",
       "routeChapterId": "ch12",
       "handling": "batch",
-      "rationale": "Area quest is included in the Fallen Arm ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストは落ちた腕の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-fallen-arm-protect-the-village-5ab3ee62",
@@ -3361,7 +3361,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c12-20",
       "routeChapterId": "ch12",
       "handling": "batch",
-      "rationale": "Area quest is included in the Fallen Arm ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストは落ちた腕の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-fallen-arm-stop-the-mechon-rampage-f7d7d644",
@@ -3369,7 +3369,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c12-20",
       "routeChapterId": "ch12",
       "handling": "batch",
-      "rationale": "Area quest is included in the Fallen Arm ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストは落ちた腕の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-fallen-arm-stunted-growth-2d12d5d5",
@@ -3377,7 +3377,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-05",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-fallen-arm-transmission-bypass-d501f868",
@@ -3385,7 +3385,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-05",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-fallen-arm-the-exhaust-pump-5a59d384",
@@ -3393,7 +3393,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-05",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-fallen-arm-the-mini-reactor-98a23b5e",
@@ -3401,7 +3401,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-05",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-fallen-arm-the-history-of-mechonis-a92d0c19",
@@ -3409,7 +3409,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c12-02",
       "routeChapterId": "ch13",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-fallen-arm-the-history-of-the-capital-b1ab126c",
@@ -3417,7 +3417,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c12-03",
       "routeChapterId": "ch14",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-fallen-arm-i-want-to-be-a-homs-adb96842",
@@ -3425,7 +3425,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c12-20",
       "routeChapterId": "ch12",
       "handling": "batch",
-      "rationale": "Area quest is included in the Fallen Arm ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストは落ちた腕の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-fallen-arm-powerless-277f33af",
@@ -3433,7 +3433,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c12-20",
       "routeChapterId": "ch12",
       "handling": "batch",
-      "rationale": "Area quest is included in the Fallen Arm ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストは落ちた腕の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-fallen-arm-power-up-d74de4a5",
@@ -3441,7 +3441,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c12-20",
       "routeChapterId": "ch12",
       "handling": "batch",
-      "rationale": "Area quest is included in the Fallen Arm ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストは落ちた腕の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-fallen-arm-fixing-a-broken-door-df5fc0a3",
@@ -3449,7 +3449,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c12-06",
       "routeChapterId": "ch12",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-fallen-arm-the-wilted-flower-3b17d5f3",
@@ -3457,7 +3457,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c12-06",
       "routeChapterId": "ch12",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-fallen-arm-the-oath-sword-ed4e9dff",
@@ -3465,7 +3465,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c13-15",
       "routeChapterId": "ch13",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-fallen-arm-scheduled-inspection-c2eb28c6",
@@ -3473,7 +3473,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c12-07",
       "routeChapterId": "ch12",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-fallen-arm-a-tough-battle-0a4cdb5f",
@@ -3481,7 +3481,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c12-20",
       "routeChapterId": "ch12",
       "handling": "batch",
-      "rationale": "Area quest is included in the Fallen Arm ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストは落ちた腕の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-fallen-arm-a-weapon-just-for-me-b6c6d086",
@@ -3489,7 +3489,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c12-20",
       "routeChapterId": "ch12",
       "handling": "batch",
-      "rationale": "Timed quest is included in the Fallen Arm ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "時間制限クエストは落ちた腕の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-fallen-arm-therapy-a4f80c53",
@@ -3497,7 +3497,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c12-20",
       "routeChapterId": "ch12",
       "handling": "batch",
-      "rationale": "Area quest is included in the Fallen Arm ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストは落ちた腕の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-fallen-arm-mending-memories-b698e5dc",
@@ -3505,7 +3505,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c12-20",
       "routeChapterId": "ch12",
       "handling": "batch",
-      "rationale": "Area quest is included in the Fallen Arm ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストは落ちた腕の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-fallen-arm-resolution-father-dfeb23c7",
@@ -3513,7 +3513,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c12-20",
       "routeChapterId": "ch12",
       "handling": "batch",
-      "rationale": "Area quest is included in the Fallen Arm ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストは落ちた腕の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-fallen-arm-resolution-mother-42b28709",
@@ -3521,7 +3521,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c12-20",
       "routeChapterId": "ch12",
       "handling": "batch",
-      "rationale": "Area quest is included in the Fallen Arm ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストは落ちた腕の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-fallen-arm-food-delivery-3a437fca",
@@ -3529,7 +3529,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c12-20",
       "routeChapterId": "ch12",
       "handling": "batch",
-      "rationale": "Area quest is included in the Fallen Arm ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "エリアクエストは落ちた腕の台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-fallen-arm-for-my-loved-one-5e79610a",
@@ -3537,7 +3537,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c12-04",
       "routeChapterId": "ch12",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-fallen-arm-to-my-loved-one-3c9d0b86",
@@ -3545,7 +3545,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c12-05",
       "routeChapterId": "ch12",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-fallen-arm-reunion-with-fiora-b00e4e65",
@@ -3553,7 +3553,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "story-reunion-with-fiora",
       "routeChapterId": "ch12",
       "handling": "exact",
-      "rationale": "Formal story quest is linked by its retained source ID."
+      "rationale": "正式なストーリークエストは、残してある元のIDで結ばれている。"
     },
     {
       "targetId": "quest-fallen-arm-we-made-it-4429533c",
@@ -3561,7 +3561,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "story-we-made-it",
       "routeChapterId": "ch12",
       "handling": "exact",
-      "rationale": "Formal story quest is linked by its retained source ID."
+      "rationale": "正式なストーリークエストは、残してある元のIDで結ばれている。"
     },
     {
       "targetId": "quest-fallen-arm-fiora-s-treatment-203a0705",
@@ -3569,7 +3569,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "story-fioras-treatment",
       "routeChapterId": "ch12",
       "handling": "exact",
-      "rationale": "Formal story quest is linked by its retained source ID."
+      "rationale": "正式なストーリークエストは、残してある元のIDで結ばれている。"
     },
     {
       "targetId": "quest-mechonis-field-best-boots-349f0765",
@@ -3577,7 +3577,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c14-13",
       "routeChapterId": "ch14",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-mechonis-field-monster-quest-mechonis-field-eac3d06b",
@@ -3585,7 +3585,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-10",
       "routeChapterId": "ch1",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-mechonis-field-challenge-quest-1-mechonis-field-4cf669b1",
@@ -3593,7 +3593,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c14-14",
       "routeChapterId": "ch14",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-mechonis-field-challenge-quest-2-mechonis-field-85c5b30a",
@@ -3601,7 +3601,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c14-15",
       "routeChapterId": "ch14",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-mechonis-field-aiming-for-the-top-dc2d2e44",
@@ -3609,7 +3609,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "story-aiming-for-the-top",
       "routeChapterId": "ch13",
       "handling": "exact",
-      "rationale": "Formal story quest is linked by its retained source ID."
+      "rationale": "正式なストーリークエストは、残してある元のIDで結ばれている。"
     },
     {
       "targetId": "quest-mechonis-field-get-the-3rd-lift-moving-73bf4423",
@@ -3617,7 +3617,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "story-get-the-3rd-lift-moving",
       "routeChapterId": "ch13",
       "handling": "exact",
-      "rationale": "Formal story quest is linked by its retained source ID."
+      "rationale": "正式なストーリークエストは、残してある元のIDで結ばれている。"
     },
     {
       "targetId": "quest-mechonis-field-opening-the-bulkhead-2e419184",
@@ -3625,7 +3625,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "story-opening-the-bulkhead",
       "routeChapterId": "ch13",
       "handling": "exact",
-      "rationale": "Formal story quest is linked by its retained source ID."
+      "rationale": "正式なストーリークエストは、残してある元のIDで結ばれている。"
     },
     {
       "targetId": "quest-mechonis-field-the-high-velocity-lift-7e8ecd3d",
@@ -3633,7 +3633,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "story-the-high-velocity-lift",
       "routeChapterId": "ch13",
       "handling": "exact",
-      "rationale": "Formal story quest is linked by its retained source ID."
+      "rationale": "正式なストーリークエストは、残してある元のIDで結ばれている。"
     },
     {
       "targetId": "quest-mechonis-field-need-power-514fff96",
@@ -3641,7 +3641,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "story-need-power",
       "routeChapterId": "ch13",
       "handling": "exact",
-      "rationale": "Formal story quest is linked by its retained source ID."
+      "rationale": "正式なストーリークエストは、残してある元のIDで結ばれている。"
     },
     {
       "targetId": "quest-central-factory-eliminate-the-backup-69778f1d",
@@ -3649,7 +3649,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c14-20",
       "routeChapterId": "ch14",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-central-factory-daring-assault-4f1db107",
@@ -3657,7 +3657,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c14-22",
       "routeChapterId": "ch14",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-central-factory-roof-battle-146cab6c",
@@ -3665,7 +3665,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c14-21",
       "routeChapterId": "ch14",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-central-factory-new-weapon-for-fiora-8c533ae1",
@@ -3673,7 +3673,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c15-07",
       "routeChapterId": "ch15",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-central-factory-to-the-central-tower-8f337a65",
@@ -3681,7 +3681,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "story-to-the-central-tower",
       "routeChapterId": "ch14",
       "handling": "exact",
-      "rationale": "Formal story quest is linked by its retained source ID."
+      "rationale": "正式なストーリークエストは、残してある元のIDで結ばれている。"
     },
     {
       "targetId": "quest-central-factory-maintenance-wing-escape-4eed6fe9",
@@ -3689,7 +3689,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "story-maintenance-wing-escape",
       "routeChapterId": "ch14",
       "handling": "exact",
-      "rationale": "Formal story quest is linked by its retained source ID."
+      "rationale": "正式なストーリークエストは、残してある元のIDで結ばれている。"
     },
     {
       "targetId": "quest-central-factory-find-a-path-to-the-top-ee4f7c11",
@@ -3697,7 +3697,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "story-find-a-path-to-the-top",
       "routeChapterId": "ch14",
       "handling": "exact",
-      "rationale": "Formal story quest is linked by its retained source ID."
+      "rationale": "正式なストーリークエストは、残してある元のIDで結ばれている。"
     },
     {
       "targetId": "quest-central-factory-materials-for-a-bomb-b65dfdde",
@@ -3705,7 +3705,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "story-materials-for-a-bomb",
       "routeChapterId": "ch14",
       "handling": "exact",
-      "rationale": "Formal story quest is linked by its retained source ID."
+      "rationale": "正式なストーリークエストは、残してある元のIDで結ばれている。"
     },
     {
       "targetId": "quest-central-factory-the-central-tower-barrier-500279fe",
@@ -3713,7 +3713,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "story-the-central-tower-barrier",
       "routeChapterId": "ch14",
       "handling": "exact",
-      "rationale": "Formal story quest is linked by its retained source ID."
+      "rationale": "正式なストーリークエストは、残してある元のIDで結ばれている。"
     },
     {
       "targetId": "quest-agniratha-civil-protection-1-1-ebee732b",
@@ -3721,7 +3721,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c14-05",
       "routeChapterId": "ch14",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-agniratha-civil-protection-1-2-f572883d",
@@ -3729,7 +3729,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c14-19",
       "routeChapterId": "ch14",
       "handling": "batch",
-      "rationale": "Timed quest is included in the Agniratha ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "時間制限クエストは帝都アグニラータの台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-agniratha-civil-protection-1-3-21fd2dda",
@@ -3737,7 +3737,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c14-19",
       "routeChapterId": "ch14",
       "handling": "batch",
-      "rationale": "Timed quest is included in the Agniratha ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "時間制限クエストは帝都アグニラータの台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-agniratha-civil-protection-2-1-d971bfe2",
@@ -3745,7 +3745,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c14-19",
       "routeChapterId": "ch14",
       "handling": "batch",
-      "rationale": "Timed quest is included in the Agniratha ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "時間制限クエストは帝都アグニラータの台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-agniratha-civil-protection-2-2-3e6ae032",
@@ -3753,7 +3753,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c14-19",
       "routeChapterId": "ch14",
       "handling": "batch",
-      "rationale": "Timed quest is included in the Agniratha ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "時間制限クエストは帝都アグニラータの台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-agniratha-civil-protection-2-3-8ba84a67",
@@ -3761,7 +3761,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c14-19",
       "routeChapterId": "ch14",
       "handling": "batch",
-      "rationale": "Timed quest is included in the Agniratha ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "時間制限クエストは帝都アグニラータの台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-agniratha-military-status-1-1-b90b5037",
@@ -3769,7 +3769,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c14-01",
       "routeChapterId": "ch14",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-agniratha-military-status-1-2-2bf37cdf",
@@ -3777,7 +3777,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c14-02",
       "routeChapterId": "ch14",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-agniratha-military-status-2-1-7939a579",
@@ -3785,7 +3785,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c14-03",
       "routeChapterId": "ch14",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-agniratha-military-status-2-2-e9fdc7b6",
@@ -3793,7 +3793,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c14-04",
       "routeChapterId": "ch14",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-agniratha-agniratha-beautification-1-6713e319",
@@ -3801,7 +3801,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c14-06",
       "routeChapterId": "ch14",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-agniratha-agniratha-beautification-2-0897fb93",
@@ -3809,7 +3809,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c14-19",
       "routeChapterId": "ch14",
       "handling": "batch",
-      "rationale": "Timed quest is included in the Agniratha ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "時間制限クエストは帝都アグニラータの台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-agniratha-telethia-investigation-1-68bb3d59",
@@ -3817,7 +3817,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c14-07",
       "routeChapterId": "ch14",
       "handling": "exact",
-      "rationale": "Quest name is printed on this route card."
+      "rationale": "クエスト名はこのルートカードに印字されている。"
     },
     {
       "targetId": "quest-agniratha-telethia-investigation-2-1d09e743",
@@ -3825,7 +3825,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c14-19",
       "routeChapterId": "ch14",
       "handling": "batch",
-      "rationale": "Timed quest is included in the Agniratha ledger sweep; inspect its dependency card before turn-in."
+      "rationale": "時間制限クエストは帝都アグニラータの台帳周回に含まれる。報告の前に依存カードを確認する。"
     },
     {
       "targetId": "quest-agniratha-shrine-transport-793d97cb",
@@ -3833,7 +3833,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "story-shrine-transport",
       "routeChapterId": "ch14",
       "handling": "exact",
-      "rationale": "Formal story quest is linked by its retained source ID."
+      "rationale": "正式なストーリークエストは、残してある元のIDで結ばれている。"
     },
     {
       "targetId": "quest-agniratha-pillar-verification-devices-19c243b2",
@@ -3841,7 +3841,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "story-pillar-verification-devices",
       "routeChapterId": "ch14",
       "handling": "exact",
-      "rationale": "Formal story quest is linked by its retained source ID."
+      "rationale": "正式なストーリークエストは、残してある元のIDで結ばれている。"
     },
     {
       "targetId": "quest-agniratha-save-bionis-45732bab",
@@ -3849,7 +3849,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "story-save-bionis",
       "routeChapterId": "ch15",
       "handling": "exact",
-      "rationale": "Formal story quest is linked by its retained source ID."
+      "rationale": "正式なストーリークエストは、残してある元のIDで結ばれている。"
     },
     {
       "targetId": "achievement-trials-hunter-in-training-71b0b9d9",
@@ -3857,7 +3857,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-trials-pro-hunter-ed7e7e62",
@@ -3865,7 +3865,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-trials-master-hunter-8cf44645",
@@ -3873,7 +3873,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-trials-first-steps-2fe8c144",
@@ -3881,7 +3881,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-trials-a-corner-of-the-world-54893265",
@@ -3889,7 +3889,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-trials-seasoned-traveler-82fd290c",
@@ -3897,7 +3897,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-trials-globetrotter-a29cd925",
@@ -3905,7 +3905,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-trials-worldly-wise-145ee63b",
@@ -3913,7 +3913,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-trials-explorer-9d4155b3",
@@ -3921,7 +3921,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-trials-trailblazer-f814dc1d",
@@ -3929,7 +3929,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-trials-pioneer-a92b790b",
@@ -3937,7 +3937,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c6-15",
       "routeChapterId": "ch6",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "achievement-trials-your-first-friend-d79f607e",
@@ -3945,7 +3945,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-trials-friend-number-ten-839e1c79",
@@ -3953,7 +3953,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-trials-fifty-fine-friends-65e6d845",
@@ -3961,7 +3961,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-trials-friend-of-the-world-3ca337ed",
@@ -3969,7 +3969,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-trials-the-brave-protectors-3e124482",
@@ -3977,7 +3977,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-miss-brave-protectors",
       "routeChapterId": "ch1",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "achievement-trials-network-of-knowledge-d77fe69b",
@@ -3985,7 +3985,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-trials-the-hopeful-survivors-4cbeba8a",
@@ -3993,7 +3993,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-trials-know-so-many-nopon-d2295af3",
@@ -4001,7 +4001,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-trials-wings-of-nobility-56fda595",
@@ -4009,7 +4009,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-trials-a-village-of-machines-40376b83",
@@ -4017,7 +4017,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-trials-the-strongest-tie-ec919e07",
@@ -4025,7 +4025,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-trials-constellation-e81a0d53",
@@ -4033,7 +4033,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-trials-spider-s-web-ea0ab959",
@@ -4041,7 +4041,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-trials-neural-network-94afc854",
@@ -4049,7 +4049,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-trials-roots-across-the-world-83e93efc",
@@ -4057,7 +4057,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-trials-colony-9-celeb-092116fd",
@@ -4065,7 +4065,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-trials-colony-6-celeb-29dd04ce",
@@ -4073,7 +4073,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-trials-honorary-nopon-661c1586",
@@ -4081,7 +4081,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-trials-honorary-high-entia-5c0b1f09",
@@ -4089,7 +4089,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-trials-honorary-machina-36b84882",
@@ -4097,7 +4097,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-trials-local-hero-5a224af8",
@@ -4105,7 +4105,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-trials-world-hero-ee700502",
@@ -4113,7 +4113,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-trials-heartwarming-80ffda2b",
@@ -4121,7 +4121,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-20",
       "routeChapterId": "ch1",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "achievement-trials-heartbreaking-03bac291",
@@ -4129,7 +4129,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-20",
       "routeChapterId": "ch1",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "achievement-trials-pouring-out-your-heart-7d2380ec",
@@ -4137,7 +4137,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-trials-the-heart-of-the-matter-ab77e6ba",
@@ -4145,7 +4145,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-trials-ace-of-hearts-167168f8",
@@ -4153,7 +4153,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-trials-problem-solved-875745ac",
@@ -4161,7 +4161,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-trials-helpful-stranger-0dfcd486",
@@ -4169,7 +4169,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-trials-generous-friend-961a048a",
@@ -4177,7 +4177,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-trials-charitable-ally-91dcb6ed",
@@ -4185,7 +4185,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-trials-selfless-giver-b1d004b8",
@@ -4193,7 +4193,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-trials-shaping-history-5a4a4d42",
@@ -4201,7 +4201,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-trials-drawing-a-crowd-cc1894bd",
@@ -4209,7 +4209,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-trials-building-a-community-bd448da7",
@@ -4217,7 +4217,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-trials-bursting-at-the-seams-77641922",
@@ -4225,7 +4225,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-trials-a-fixer-upper-59cfb82d",
@@ -4233,7 +4233,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-trials-a-fix-on-the-solution-e330bf13",
@@ -4241,7 +4241,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-trials-good-and-fixed-aecbe2b5",
@@ -4249,7 +4249,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-bone-breaker-2077e1f8",
@@ -4257,7 +4257,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-rock-smasher-ae90ffe9",
@@ -4265,7 +4265,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-world-shaker-f7394869",
@@ -4273,7 +4273,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-beginner-s-luck-f79e6e3b",
@@ -4281,7 +4281,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-tough-guy-eh-f44c149b",
@@ -4289,7 +4289,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-no-stopping-you-9090ea2d",
@@ -4297,7 +4297,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-please-no-more-dbb51b59",
@@ -4305,7 +4305,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-time-for-new-glasses-25232d8f",
@@ -4313,7 +4313,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-some-help-you-are-437ed700",
@@ -4321,7 +4321,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-machine-mishaps-be832257",
@@ -4329,7 +4329,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-machine-mayhem-e7bc84a4",
@@ -4337,7 +4337,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-machine-meltdown-a056648d",
@@ -4345,7 +4345,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-ground-down-d5c81556",
@@ -4353,7 +4353,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-ground-up-52235a10",
@@ -4361,7 +4361,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-ground-to-a-pulp-4406c6ae",
@@ -4369,7 +4369,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-airing-grievances-de31c6b2",
@@ -4377,7 +4377,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-clearing-the-air-fe49bc30",
@@ -4385,7 +4385,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-anti-air-battering-3132232e",
@@ -4393,7 +4393,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-bug-off-2dea466f",
@@ -4401,7 +4401,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-walking-insecticide-7b84e8fa",
@@ -4409,7 +4409,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-elementary-9aeff203",
@@ -4417,7 +4417,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-braving-the-elements-5ae98c29",
@@ -4425,7 +4425,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-telethia-tracker-89d530d5",
@@ -4433,7 +4433,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-telethia-triumph-b040977f",
@@ -4441,7 +4441,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-fish-for-compliments-9a5e4aaf",
@@ -4449,7 +4449,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-smashing-20e8fb3f",
@@ -4457,7 +4457,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-simply-smashing-19e59b5d",
@@ -4465,7 +4465,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-smashing-to-pieces-ae57e7ad",
@@ -4473,7 +4473,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-not-gonna-happen-61ef3cd7",
@@ -4481,7 +4481,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-i-ll-change-the-future-e15531f2",
@@ -4489,7 +4489,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-the-future-is-ours-ed5cb18f",
@@ -4497,7 +4497,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-second-wind-15923b3c",
@@ -4505,7 +4505,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c16-01",
       "routeChapterId": "ch16",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "achievement-records-can-t-keep-em-down-88ba3791",
@@ -4513,7 +4513,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-down-but-never-out-d974e03c",
@@ -4521,7 +4521,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-critical-thinking-7f36b4ae",
@@ -4529,7 +4529,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-critical-condition-ea4f0df8",
@@ -4537,7 +4537,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-critical-mass-b11dabca",
@@ -4545,7 +4545,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-let-s-fight-319a372a",
@@ -4553,7 +4553,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-let-s-go-everyone-e42ccaea",
@@ -4561,7 +4561,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-yeah-we-can-do-it-ed81335d",
@@ -4569,7 +4569,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-turn-it-up-337167df",
@@ -4577,7 +4577,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-fire-it-up-5b7ba4fe",
@@ -4585,7 +4585,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-burn-it-up-7b78dbee",
@@ -4593,7 +4593,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-go-team-f40070a1",
@@ -4601,7 +4601,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-tip-top-team-up-dcee8846",
@@ -4609,7 +4609,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-a-team-like-no-other-bb0c313b",
@@ -4617,7 +4617,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-team-with-a-capital-t-8e146124",
@@ -4625,7 +4625,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-killer-combo-31b9e69b",
@@ -4633,7 +4633,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-cosmic-killer-combo-7379fb3a",
@@ -4641,7 +4641,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-quantum-killer-combo-57004e61",
@@ -4649,7 +4649,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-chain-gang-aa111f47",
@@ -4657,7 +4657,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-off-the-chain-0db5a516",
@@ -4665,7 +4665,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-back-stabber-dd4872df",
@@ -4673,7 +4673,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-rear-admiral-d5060c32",
@@ -4681,7 +4681,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-ninja-skillz-81159a4a",
@@ -4689,7 +4689,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-jaws-of-defeat-acb97b6f",
@@ -4697,7 +4697,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-come-on-cheer-up-a4018604",
@@ -4705,7 +4705,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-phoenix-f3a13784",
@@ -4713,7 +4713,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c14-07",
       "routeChapterId": "ch14",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "achievement-records-art-practice-cdec5e63",
@@ -4721,7 +4721,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-the-art-of-war-f20c089a",
@@ -4729,7 +4729,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-right-let-s-do-this-39a69849",
@@ -4737,7 +4737,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-reyn-time-baby-e787f3d5",
@@ -4745,7 +4745,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-i-can-beat-anyone-11b19dc2",
@@ -4753,7 +4753,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-attack-me-if-you-dare-d9661417",
@@ -4761,7 +4761,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-things-are-heating-up-9760fa81",
@@ -4769,7 +4769,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-riki-use-arts-b296490a",
@@ -4777,7 +4777,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-who-dares-defy-me-a74fc9a2",
@@ -4785,7 +4785,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-one-step-further-38410739",
@@ -4793,7 +4793,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-the-final-step-f22a6e86",
@@ -4801,7 +4801,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-art-school-1e2e4733",
@@ -4809,7 +4809,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-a-work-of-art-c2e7d457",
@@ -4817,7 +4817,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-perfecting-the-art-fc4f12d6",
@@ -4825,7 +4825,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-down-to-a-fine-art-9ad7be36",
@@ -4833,7 +4833,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-art-to-art-de4d901c",
@@ -4841,7 +4841,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-state-of-the-art-e0fadbac",
@@ -4849,7 +4849,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-sharing-the-knowledge-afda2bd3",
@@ -4857,7 +4857,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-specialist-5ca7baf4",
@@ -4865,7 +4865,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-honest-insight-1ee5e444",
@@ -4873,7 +4873,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-raging-stalwart-3919d07e",
@@ -4881,7 +4881,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-spirited-adventurer-c92ab871",
@@ -4889,7 +4889,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-gallant-hero-63d890ac",
@@ -4897,7 +4897,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-unyielding-devotion-162468be",
@@ -4905,7 +4905,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-adorable-randomness-aafe06b8",
@@ -4913,7 +4913,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-serene-candour-72730d2f",
@@ -4921,7 +4921,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-secret-weapon-72be8147",
@@ -4929,7 +4929,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-dream-team-b80689e1",
@@ -4937,7 +4937,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-turning-it-around-8834edd2",
@@ -4945,7 +4945,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-changing-course-e89072e6",
@@ -4953,7 +4953,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-complete-180-5fedd416",
@@ -4961,7 +4961,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-looking-for-trouble-69e19872",
@@ -4969,7 +4969,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-beating-the-odds-7f7a3bdf",
@@ -4977,7 +4977,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-unlucky-sixes-3a10096d",
@@ -4985,7 +4985,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-lucky-sevens-73970efb",
@@ -4993,7 +4993,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-skip-it-6556d165",
@@ -5001,7 +5001,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-14",
       "routeChapterId": "ch4",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "achievement-records-lazybones-737de19f",
@@ -5009,7 +5009,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-hunting-for-treasure-e34c201d",
@@ -5017,7 +5017,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-hoarding-treasure-7fdaeb1e",
@@ -5025,7 +5025,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-ooh-shiny-29aacc3f",
@@ -5033,7 +5033,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-it-hasn-t-lost-its-lustre-a555e447",
@@ -5041,7 +5041,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-need-more-treasure-971d6895",
@@ -5049,7 +5049,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-treasure-trove-2efc8a3e",
@@ -5057,7 +5057,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-titan-s-gift-92d66539",
@@ -5065,7 +5065,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-titan-s-generosity-786bd3a3",
@@ -5073,7 +5073,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-titan-s-greatness-644db285",
@@ -5081,7 +5081,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-raring-to-go-e80fe2d8",
@@ -5089,7 +5089,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-medium-rare-e1c85d84",
@@ -5097,7 +5097,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-in-rare-form-2b3a7f10",
@@ -5105,7 +5105,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-crystallised-luck-ce26a9c4",
@@ -5113,7 +5113,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-that-hits-the-slot-db1c45b3",
@@ -5121,7 +5121,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-truly-outrageous-49480c2f",
@@ -5129,7 +5129,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-learning-the-craft-a798c3a6",
@@ -5137,7 +5137,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-getting-crafty-f54f1034",
@@ -5145,7 +5145,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-crafting-your-destiny-169cf453",
@@ -5153,7 +5153,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-craftacular-58591666",
@@ -5161,7 +5161,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-craftstravaganza-5e55424f",
@@ -5169,7 +5169,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-lending-a-hand-fbd6dc93",
@@ -5177,7 +5177,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-crafting-friendships-1d57778f",
@@ -5185,7 +5185,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-firing-on-all-cylinders-57da4f36",
@@ -5193,7 +5193,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-happy-new-year-aeea80c1",
@@ -5201,7 +5201,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-terminal-velocity-b704e8b6",
@@ -5209,7 +5209,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-making-waves-b26f2594",
@@ -5217,7 +5217,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-one-is-never-enough-f0f51e26",
@@ -5225,7 +5225,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-collector-s-mentality-bcf8ed78",
@@ -5233,7 +5233,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-stamp-of-insanity-76dbc5f1",
@@ -5241,7 +5241,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-study-aids-b17ef467",
@@ -5249,7 +5249,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-auber-the-top-7b001f06",
@@ -5257,7 +5257,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-aim-for-the-heart-1090eb2c",
@@ -5265,7 +5265,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-thanks-but-no-thanks-41ed606e",
@@ -5273,7 +5273,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-fruitful-gifts-ea0385f3",
@@ -5281,7 +5281,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-you-may-have-this-4baabbf8",
@@ -5289,7 +5289,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-not-just-riki-eat-dc1d05f9",
@@ -5297,7 +5297,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-love-at-first-bite-58b3dc99",
@@ -5305,7 +5305,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-ear-to-the-ground-1a8267c2",
@@ -5313,7 +5313,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-social-butterfly-b79067e7",
@@ -5321,7 +5321,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-breaking-the-ice-a9daaa0a",
@@ -5329,7 +5329,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-idle-chit-chat-031c2211",
@@ -5337,7 +5337,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-chatting-the-day-away-048fac1b",
@@ -5345,7 +5345,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-blossoming-friendship-f108cc5f",
@@ -5353,7 +5353,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-unshakable-trust-ae74186f",
@@ -5361,7 +5361,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-unbreakable-bond-07ab0476",
@@ -5369,7 +5369,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-get-the-party-started-cc851d57",
@@ -5377,7 +5377,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-party-s-in-full-swing-3fba3ba6",
@@ -5385,7 +5385,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-equivalent-exchange-0d0ebff3",
@@ -5393,7 +5393,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-tradesman-83151103",
@@ -5401,7 +5401,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-master-tradesman-e87cabd3",
@@ -5409,7 +5409,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-mysterious-mantis-1a5065df",
@@ -5417,7 +5417,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-shining-impracticality-16ba642d",
@@ -5425,7 +5425,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-indigo-belligerence-8f7be1cc",
@@ -5433,7 +5433,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-stormy-outlook-eadb2827",
@@ -5441,7 +5441,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "achievement-records-angelic-imitation-cfea7aaf",
@@ -5449,7 +5449,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-12",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Non-missable residual achievement verified during the final records audit."
+      "rationale": "取り逃しのない残余実績。最終の記録監査で確認する。"
     },
     {
       "targetId": "monster-base-game-verdant-bluchal-22336986",
@@ -5457,7 +5457,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-07",
       "routeChapterId": "ch1",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-evil-rhangrot-d54477cd",
@@ -5465,7 +5465,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-06",
       "routeChapterId": "ch1",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-lake-magdalena-57d540bf",
@@ -5473,7 +5473,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-08",
       "routeChapterId": "ch1",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-itinerant-dorothea-f6c36712",
@@ -5481,7 +5481,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-09",
       "routeChapterId": "ch1",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-mining-patrichev-67a55421",
@@ -5489,7 +5489,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c3-13",
       "routeChapterId": "ch3",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-wallslide-gwynry-1a3da059",
@@ -5497,7 +5497,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c3-17",
       "routeChapterId": "ch3",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-cellar-bugworm-5a2ede93",
@@ -5505,7 +5505,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c3-14",
       "routeChapterId": "ch3",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-speedy-ramshyde-0a420fe8",
@@ -5513,7 +5513,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c2-03",
       "routeChapterId": "ch2",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-solid-konev-d262a4df",
@@ -5521,7 +5521,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c3-15",
       "routeChapterId": "ch3",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-gluttonous-eugen-9758c469",
@@ -5529,7 +5529,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c3-16",
       "routeChapterId": "ch3",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-enchanting-grune-ff3693a1",
@@ -5537,7 +5537,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c2-04",
       "routeChapterId": "ch2",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-trainer-harmelon-df8f6b42",
@@ -5545,7 +5545,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-08",
       "routeChapterId": "ch4",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-sniper-paramecia-4fc9950c",
@@ -5553,7 +5553,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-07",
       "routeChapterId": "ch4",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-vagrant-alfead-aec6e0fb",
@@ -5561,7 +5561,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-10",
       "routeChapterId": "ch4",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-violent-andante-c65cd97e",
@@ -5569,7 +5569,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-09",
       "routeChapterId": "ch4",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-napping-volfen-5c344474",
@@ -5577,7 +5577,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-12",
       "routeChapterId": "ch4",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-white-eduardo-81d0c9aa",
@@ -5585,7 +5585,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-11",
       "routeChapterId": "ch4",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-dark-murakmor-404f06a8",
@@ -5593,7 +5593,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c3-09",
       "routeChapterId": "ch3",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-night-cardamon-114df800",
@@ -5601,7 +5601,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-13",
       "routeChapterId": "ch4",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-graceful-holand-2f27d5f9",
@@ -5609,7 +5609,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c5-09",
       "routeChapterId": "ch5",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-dark-kisling-14fd2fca",
@@ -5617,7 +5617,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c5-01",
       "routeChapterId": "ch5",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-vengeful-daulton-b86317e5",
@@ -5625,7 +5625,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c5-02",
       "routeChapterId": "ch5",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-drifter-jutard-2b9eadd2",
@@ -5633,7 +5633,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c5-10",
       "routeChapterId": "ch5",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-stormy-widardun-d41884ac",
@@ -5641,7 +5641,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c6-22",
       "routeChapterId": "ch6",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-cautious-balteid-b280ae8d",
@@ -5649,7 +5649,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c6-23",
       "routeChapterId": "ch6",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-amber-fischer-eedfc86f",
@@ -5657,7 +5657,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c6-25",
       "routeChapterId": "ch6",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-tumultuous-felix-709da846",
@@ -5665,7 +5665,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c6-24",
       "routeChapterId": "ch6",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-aggressive-cornelius-620a3fdf",
@@ -5673,7 +5673,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c6-26",
       "routeChapterId": "ch6",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-swift-zektol-61b354b4",
@@ -5681,7 +5681,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c6-27",
       "routeChapterId": "ch6",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-elegant-marin-2add6397",
@@ -5689,7 +5689,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c6-03",
       "routeChapterId": "ch6",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-sunlight-schvaik-cc2ae408",
@@ -5697,7 +5697,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c6-13",
       "routeChapterId": "ch6",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-reckless-godwin-9ea984d8",
@@ -5705,7 +5705,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c6-28",
       "routeChapterId": "ch6",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-clifftop-bayern-bc8512ab",
@@ -5713,7 +5713,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c4-14",
       "routeChapterId": "ch4",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-agile-albatro-3ab64c27",
@@ -5721,7 +5721,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-23",
       "routeChapterId": "ch7",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-shimmering-forte-818c79d0",
@@ -5729,7 +5729,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-26",
       "routeChapterId": "ch7",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-elder-gragus-2ea23791",
@@ -5737,7 +5737,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-29",
       "routeChapterId": "ch7",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-lazy-bluco-adf2100d",
@@ -5745,7 +5745,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-25",
       "routeChapterId": "ch7",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-obsessive-galgaron-1893af0c",
@@ -5753,7 +5753,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-06",
       "routeChapterId": "ch7",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-turbulent-belmo-830c5dc2",
@@ -5761,7 +5761,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-39",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-gentle-mother-armu-3a3ab9cf",
@@ -5769,7 +5769,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-07",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the level-sorted Unique Monster cleanup; use Monsterpedia for its exact spawn conditions."
+      "rationale": "レベル順の Unique Monster 整理で回収する。出現条件は Monsterpedia で確認する。"
     },
     {
       "targetId": "monster-base-game-breezy-zolos-c0dbe70b",
@@ -5777,7 +5777,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-24",
       "routeChapterId": "ch7",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-impenetrable-redrob-aeab3650",
@@ -5785,7 +5785,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-07",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the level-sorted Unique Monster cleanup; use Monsterpedia for its exact spawn conditions."
+      "rationale": "レベル順の Unique Monster 整理で回収する。出現条件は Monsterpedia で確認する。"
     },
     {
       "targetId": "monster-base-game-flabbergasted-jerome-bdcc754a",
@@ -5793,7 +5793,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-33",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-calm-anzabi-ab3db7f7",
@@ -5801,7 +5801,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-39",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-peeling-kircheis-a65de167",
@@ -5809,7 +5809,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-23",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-roguish-frengel-dc2d7535",
@@ -5817,7 +5817,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-07",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the level-sorted Unique Monster cleanup; use Monsterpedia for its exact spawn conditions."
+      "rationale": "レベル順の Unique Monster 整理で回収する。出現条件は Monsterpedia で確認する。"
     },
     {
       "targetId": "monster-base-game-proper-bandaz-8819ea02",
@@ -5825,7 +5825,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-21",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-tempestuous-edegia-03ec31bc",
@@ -5833,7 +5833,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-22",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-gentle-rodriguez-b678f587",
@@ -5841,7 +5841,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-19",
       "routeChapterId": "ch1",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-lakebed-orthlus-202648cb",
@@ -5849,7 +5849,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-14",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-subterranean-zomar-979a1aa0",
@@ -5857,7 +5857,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-39",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-cumulus-danaemos-3fc411e1",
@@ -5865,7 +5865,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-39",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-funeral-gozra-15bcf8b3",
@@ -5873,7 +5873,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-30",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-lightspeed-sonid-f71bcd5a",
@@ -5881,7 +5881,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c8-24",
       "routeChapterId": "ch8",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-shadeless-matrix-8eadcc15",
@@ -5889,7 +5889,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-07",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the level-sorted Unique Monster cleanup; use Monsterpedia for its exact spawn conditions."
+      "rationale": "レベル順の Unique Monster 整理で回収する。出現条件は Monsterpedia で確認する。"
     },
     {
       "targetId": "monster-base-game-glorious-buer-93371758",
@@ -5897,7 +5897,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c10-09",
       "routeChapterId": "ch10",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-conflagrant-raxeal-a7eed579",
@@ -5905,7 +5905,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c10-02",
       "routeChapterId": "ch10",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-brutal-gravar-e562ee86",
@@ -5913,7 +5913,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c7-27",
       "routeChapterId": "ch7",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-moonlight-paimon-23b001db",
@@ -5921,7 +5921,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c10-09",
       "routeChapterId": "ch10",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-vague-barbas-b3491278",
@@ -5929,7 +5929,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c10-09",
       "routeChapterId": "ch10",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-barbaric-sitri-f85ed83b",
@@ -5937,7 +5937,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c10-08",
       "routeChapterId": "ch10",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-agile-barbatos-d00b234b",
@@ -5945,7 +5945,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c10-10",
       "routeChapterId": "ch10",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-banquet-vassago-c3a41acb",
@@ -5953,7 +5953,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c10-08",
       "routeChapterId": "ch10",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-hidden-gamigin-9c5eead2",
@@ -5961,7 +5961,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c10-10",
       "routeChapterId": "ch10",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-prudent-purson-856c3553",
@@ -5969,7 +5969,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c11-01",
       "routeChapterId": "ch11",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-defective-ipos-7aa7c268",
@@ -5977,7 +5977,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c11-05",
       "routeChapterId": "ch11",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-north-star-gusion-7b668c26",
@@ -5985,7 +5985,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c10-10",
       "routeChapterId": "ch10",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-tranquil-morax-a8a6e471",
@@ -5993,7 +5993,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c11-02",
       "routeChapterId": "ch11",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-fate-labolas-24666b76",
@@ -6001,7 +6001,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c11-05",
       "routeChapterId": "ch11",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-benevolent-aim-e714fd92",
@@ -6009,7 +6009,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c11-05",
       "routeChapterId": "ch11",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-glacier-acon-47025f1f",
@@ -6017,7 +6017,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c11-07",
       "routeChapterId": "ch11",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-precious-retrato-3909670b",
@@ -6025,7 +6025,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c11-07",
       "routeChapterId": "ch11",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-kamikaze-bune-e759e5ed",
@@ -6033,7 +6033,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c11-05",
       "routeChapterId": "ch11",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-evil-bathin-ce15d17f",
@@ -6041,7 +6041,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c12-07",
       "routeChapterId": "ch12",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-glorious-jurom-08414e8d",
@@ -6049,7 +6049,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c11-07",
       "routeChapterId": "ch11",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-lightning-ronove-55eafde3",
@@ -6057,7 +6057,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c11-03",
       "routeChapterId": "ch11",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-aged-leraje-7c28f22d",
@@ -6065,7 +6065,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c12-14",
       "routeChapterId": "ch12",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-prosperous-zepar-934e15fb",
@@ -6073,7 +6073,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c12-15",
       "routeChapterId": "ch12",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-amorous-arca-6e9bd711",
@@ -6081,7 +6081,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c14-17",
       "routeChapterId": "ch14",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-affluent-beleth-ad97caf2",
@@ -6089,7 +6089,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c12-16",
       "routeChapterId": "ch12",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-mischievious-naberius-6201b69f",
@@ -6097,7 +6097,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-07",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the level-sorted Unique Monster cleanup; use Monsterpedia for its exact spawn conditions."
+      "rationale": "レベル順の Unique Monster 整理で回収する。出現条件は Monsterpedia で確認する。"
     },
     {
       "targetId": "monster-base-game-infernal-crocell-b17ab82f",
@@ -6105,7 +6105,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c14-15",
       "routeChapterId": "ch14",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-mild-florence-0928e111",
@@ -6113,7 +6113,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c14-23",
       "routeChapterId": "ch14",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-splendid-botis-b2a13244",
@@ -6121,7 +6121,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c12-17",
       "routeChapterId": "ch12",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-destroyer-salvacion-edd3419c",
@@ -6129,7 +6129,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c14-17",
       "routeChapterId": "ch14",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-faithful-lancelot-0b2786db",
@@ -6137,7 +6137,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c14-23",
       "routeChapterId": "ch14",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-beautiful-vagul-0ee1e28a",
@@ -6145,7 +6145,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c14-20",
       "routeChapterId": "ch14",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-revolutionary-bifrons-c341020e",
@@ -6153,7 +6153,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c14-14",
       "routeChapterId": "ch14",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-commander-oracion-ff8586f4",
@@ -6161,7 +6161,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c14-17",
       "routeChapterId": "ch14",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-synchronised-gaheris-a6afc739",
@@ -6169,7 +6169,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c14-23",
       "routeChapterId": "ch14",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-balanced-palamedes-3506820c",
@@ -6177,7 +6177,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c14-23",
       "routeChapterId": "ch14",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-sinful-lamorak-b6de9940",
@@ -6185,7 +6185,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c14-23",
       "routeChapterId": "ch14",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-vagabond-allocer-d9a8e35c",
@@ -6193,7 +6193,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c14-01",
       "routeChapterId": "ch14",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-destructive-bors-e83d1313",
@@ -6201,7 +6201,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c14-08",
       "routeChapterId": "ch14",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-experienced-tristan-85d1dbf9",
@@ -6209,7 +6209,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c14-08",
       "routeChapterId": "ch14",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-venerable-focalor-99376082",
@@ -6217,7 +6217,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c14-21",
       "routeChapterId": "ch14",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-meditative-varla-f44faaeb",
@@ -6225,7 +6225,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c14-03",
       "routeChapterId": "ch14",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-temporal-gawain-a6b407af",
@@ -6233,7 +6233,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c14-23",
       "routeChapterId": "ch14",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-soothed-aglovale-99a59006",
@@ -6241,7 +6241,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c14-08",
       "routeChapterId": "ch14",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-sentimental-flamral-c3e35e98",
@@ -6249,7 +6249,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c14-08",
       "routeChapterId": "ch14",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-wrathful-orobas-d699b2f9",
@@ -6257,7 +6257,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c14-04",
       "routeChapterId": "ch14",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-wise-gremory-139b9483",
@@ -6265,7 +6265,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c14-02",
       "routeChapterId": "ch14",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-magestic-mordred-5cd0910d",
@@ -6273,7 +6273,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c14-23",
       "routeChapterId": "ch14",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-active-impulso-f09bfbef",
@@ -6281,7 +6281,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-23",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-mystical-klesida-be715026",
@@ -6289,7 +6289,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-23",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-flailing-bracken-3614834d",
@@ -6297,7 +6297,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-07",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the level-sorted Unique Monster cleanup; use Monsterpedia for its exact spawn conditions."
+      "rationale": "レベル順の Unique Monster 整理で回収する。出現条件は Monsterpedia で確認する。"
     },
     {
       "targetId": "monster-base-game-victorious-gross-6d007922",
@@ -6305,7 +6305,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-23",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-clandestine-apety-982b6acb",
@@ -6313,7 +6313,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-23",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-ageless-moabit-887b7281",
@@ -6321,7 +6321,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c9-01",
       "routeChapterId": "ch9",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-officer-robusto-be687dbe",
@@ -6329,7 +6329,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-23",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-mysterious-barnaby-f1d1bd2e",
@@ -6337,7 +6337,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-07",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the level-sorted Unique Monster cleanup; use Monsterpedia for its exact spawn conditions."
+      "rationale": "レベル順の Unique Monster 整理で回収する。出現条件は Monsterpedia で確認する。"
     },
     {
       "targetId": "monster-base-game-vivid-anstan-4d522dda",
@@ -6345,7 +6345,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-23",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-inferno-heinrich-b8550f99",
@@ -6353,7 +6353,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c9-01",
       "routeChapterId": "ch9",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-ghostly-mahatos-f848af47",
@@ -6361,7 +6361,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-23",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-field-altrich-b20a881d",
@@ -6369,7 +6369,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-07",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the level-sorted Unique Monster cleanup; use Monsterpedia for its exact spawn conditions."
+      "rationale": "レベル順の Unique Monster 整理で回収する。出現条件は Monsterpedia で確認する。"
     },
     {
       "targetId": "monster-base-game-serene-imlaly-783b9c21",
@@ -6377,7 +6377,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c9-01",
       "routeChapterId": "ch9",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-abnormal-clone-barg-b360cab2",
@@ -6385,7 +6385,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-24",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-dark-king-barbarus-06903cba",
@@ -6393,7 +6393,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-23",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-cold-ageshu-25669925",
@@ -6401,7 +6401,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c9-01",
       "routeChapterId": "ch9",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-masterful-gigapur-0f2bcf03",
@@ -6409,7 +6409,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c9-01",
       "routeChapterId": "ch9",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-majestic-clone-barg-b2a26080",
@@ -6417,7 +6417,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-24",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-frenzied-bana-0e120d55",
@@ -6425,7 +6425,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-07",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the level-sorted Unique Monster cleanup; use Monsterpedia for its exact spawn conditions."
+      "rationale": "レベル順の Unique Monster 整理で回収する。出現条件は Monsterpedia で確認する。"
     },
     {
       "targetId": "monster-base-game-fiendish-auburn-0ed446a1",
@@ -6433,7 +6433,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-25",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-canyon-valencia-62e04aa8",
@@ -6441,7 +6441,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-07",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the level-sorted Unique Monster cleanup; use Monsterpedia for its exact spawn conditions."
+      "rationale": "レベル順の Unique Monster 整理で回収する。出現条件は Monsterpedia で確認する。"
     },
     {
       "targetId": "monster-base-game-powerful-eligos-f7edeea0",
@@ -6449,7 +6449,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c12-18",
       "routeChapterId": "ch12",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-territorial-rotbart-31bcef63",
@@ -6457,7 +6457,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-07",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the level-sorted Unique Monster cleanup; use Monsterpedia for its exact spawn conditions."
+      "rationale": "レベル順の Unique Monster 整理で回収する。出現条件は Monsterpedia で確認する。"
     },
     {
       "targetId": "monster-base-game-armoured-rockwell-590cc958",
@@ -6465,7 +6465,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-07",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the level-sorted Unique Monster cleanup; use Monsterpedia for its exact spawn conditions."
+      "rationale": "レベル順の Unique Monster 整理で回収する。出現条件は Monsterpedia で確認する。"
     },
     {
       "targetId": "monster-base-game-veteran-yozel-65d756e9",
@@ -6473,7 +6473,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-07",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the level-sorted Unique Monster cleanup; use Monsterpedia for its exact spawn conditions."
+      "rationale": "レベル順の Unique Monster 整理で回収する。出現条件は Monsterpedia で確認する。"
     },
     {
       "targetId": "monster-base-game-indomitable-daulton-0a3017d1",
@@ -6481,7 +6481,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-07",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the level-sorted Unique Monster cleanup; use Monsterpedia for its exact spawn conditions."
+      "rationale": "レベル順の Unique Monster 整理で回収する。出現条件は Monsterpedia で確認する。"
     },
     {
       "targetId": "monster-base-game-stormy-belagon-9c64a462",
@@ -6489,7 +6489,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-07",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the level-sorted Unique Monster cleanup; use Monsterpedia for its exact spawn conditions."
+      "rationale": "レベル順の Unique Monster 整理で回収する。出現条件は Monsterpedia で確認する。"
     },
     {
       "targetId": "monster-base-game-bizarre-ragoel-99a13210",
@@ -6497,7 +6497,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-07",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the level-sorted Unique Monster cleanup; use Monsterpedia for its exact spawn conditions."
+      "rationale": "レベル順の Unique Monster 整理で回収する。出現条件は Monsterpedia で確認する。"
     },
     {
       "targetId": "monster-base-game-sacred-zagamei-029725b1",
@@ -6505,7 +6505,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-07",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the level-sorted Unique Monster cleanup; use Monsterpedia for its exact spawn conditions."
+      "rationale": "レベル順の Unique Monster 整理で回収する。出現条件は Monsterpedia で確認する。"
     },
     {
       "targetId": "monster-base-game-immovable-gonzalez-fc033ac0",
@@ -6513,7 +6513,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-07",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the level-sorted Unique Monster cleanup; use Monsterpedia for its exact spawn conditions."
+      "rationale": "レベル順の Unique Monster 整理で回収する。出現条件は Monsterpedia で確認する。"
     },
     {
       "targetId": "monster-base-game-eternal-palsadia-a97733ff",
@@ -6521,7 +6521,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-14",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-clamorous-dablon-e3898a1b",
@@ -6529,7 +6529,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-07",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the level-sorted Unique Monster cleanup; use Monsterpedia for its exact spawn conditions."
+      "rationale": "レベル順の Unique Monster 整理で回収する。出現条件は Monsterpedia で確認する。"
     },
     {
       "targetId": "monster-base-game-plump-sprahda-f83502ed",
@@ -6537,7 +6537,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-07",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the level-sorted Unique Monster cleanup; use Monsterpedia for its exact spawn conditions."
+      "rationale": "レベル順の Unique Monster 整理で回収する。出現条件は Monsterpedia で確認する。"
     },
     {
       "targetId": "monster-base-game-deadly-medorlo-44401696",
@@ -6545,7 +6545,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-07",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the level-sorted Unique Monster cleanup; use Monsterpedia for its exact spawn conditions."
+      "rationale": "レベル順の Unique Monster 整理で回収する。出現条件は Monsterpedia で確認する。"
     },
     {
       "targetId": "monster-base-game-musical-vanflare-085da6f1",
@@ -6553,7 +6553,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-07",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the level-sorted Unique Monster cleanup; use Monsterpedia for its exact spawn conditions."
+      "rationale": "レベル順の Unique Monster 整理で回収する。出現条件は Monsterpedia で確認する。"
     },
     {
       "targetId": "monster-base-game-judicious-bunnitzol-6d423db5",
@@ -6561,7 +6561,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-07",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the level-sorted Unique Monster cleanup; use Monsterpedia for its exact spawn conditions."
+      "rationale": "レベル順の Unique Monster 整理で回収する。出現条件は Monsterpedia で確認する。"
     },
     {
       "targetId": "monster-base-game-reckless-galdon-79d20d05",
@@ -6569,7 +6569,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-07",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the level-sorted Unique Monster cleanup; use Monsterpedia for its exact spawn conditions."
+      "rationale": "レベル順の Unique Monster 整理で回収する。出現条件は Monsterpedia で確認する。"
     },
     {
       "targetId": "monster-base-game-wicked-sallos-5e8611cc",
@@ -6577,7 +6577,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-07",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the level-sorted Unique Monster cleanup; use Monsterpedia for its exact spawn conditions."
+      "rationale": "レベル順の Unique Monster 整理で回収する。出現条件は Monsterpedia で確認する。"
     },
     {
       "targetId": "monster-base-game-furious-jozan-3b635500",
@@ -6585,7 +6585,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-08",
       "routeChapterId": "post",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-protective-torquidon-572e53b5",
@@ -6593,7 +6593,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-07",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the level-sorted Unique Monster cleanup; use Monsterpedia for its exact spawn conditions."
+      "rationale": "レベル順の Unique Monster 整理で回収する。出現条件は Monsterpedia で確認する。"
     },
     {
       "targetId": "monster-base-game-unreliable-rezno-70f5a4d4",
@@ -6601,7 +6601,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-06",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-erratic-goliante-143a937f",
@@ -6609,7 +6609,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-07",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the level-sorted Unique Monster cleanup; use Monsterpedia for its exact spawn conditions."
+      "rationale": "レベル順の Unique Monster 整理で回収する。出現条件は Monsterpedia で確認する。"
     },
     {
       "targetId": "monster-base-game-exposure-wolfol-dd297d86",
@@ -6617,7 +6617,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-07",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the level-sorted Unique Monster cleanup; use Monsterpedia for its exact spawn conditions."
+      "rationale": "レベル順の Unique Monster 整理で回収する。出現条件は Monsterpedia で確認する。"
     },
     {
       "targetId": "monster-base-game-dazzling-tolosnia-2eb01831",
@@ -6625,7 +6625,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-07",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the level-sorted Unique Monster cleanup; use Monsterpedia for its exact spawn conditions."
+      "rationale": "レベル順の Unique Monster 整理で回収する。出現条件は Monsterpedia で確認する。"
     },
     {
       "targetId": "monster-base-game-illustrious-golteus-b0c3dcd4",
@@ -6633,7 +6633,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-07",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the level-sorted Unique Monster cleanup; use Monsterpedia for its exact spawn conditions."
+      "rationale": "レベル順の Unique Monster 整理で回収する。出現条件は Monsterpedia で確認する。"
     },
     {
       "targetId": "monster-base-game-firework-geldesia-7f45d86d",
@@ -6641,7 +6641,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-03",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-reckless-zanden-85735f22",
@@ -6649,7 +6649,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c17-03",
       "routeChapterId": "ch17",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-wandering-amon-f906a088",
@@ -6657,7 +6657,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-07",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the level-sorted Unique Monster cleanup; use Monsterpedia for its exact spawn conditions."
+      "rationale": "レベル順の Unique Monster 整理で回収する。出現条件は Monsterpedia で確認する。"
     },
     {
       "targetId": "monster-base-game-magnificent-digalus-88254c13",
@@ -6665,7 +6665,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-07",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the level-sorted Unique Monster cleanup; use Monsterpedia for its exact spawn conditions."
+      "rationale": "レベル順の Unique Monster 整理で回収する。出現条件は Monsterpedia で確認する。"
     },
     {
       "targetId": "monster-base-game-final-marcus-cd1c7985",
@@ -6673,7 +6673,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c10-11",
       "routeChapterId": "ch10",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-ancient-daedala-8792d285",
@@ -6681,7 +6681,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-02",
       "routeChapterId": "post",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-despotic-arsene-750ac748",
@@ -6689,7 +6689,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-03",
       "routeChapterId": "post",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-blizzard-belgazas-d686988e",
@@ -6697,7 +6697,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-04",
       "routeChapterId": "post",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "monster-base-game-avalanche-abaasy-a8b21cb7",
@@ -6705,7 +6705,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-05",
       "routeChapterId": "post",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "heart-colony-9-outlook-park-sunrise-in-the-park-0c174081",
@@ -6713,7 +6713,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "c1-20",
       "routeChapterId": "ch1",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "heart-colony-9-agora-shore-overlooking-the-colony-de18d08e",
@@ -6721,7 +6721,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-colony-9-tephra-cave-entrance-enduring-friendship-7ef60c1f",
@@ -6729,7 +6729,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-colony-9-mechon-wreckage-site-a-heropon-s-perspective-c8ae3b32",
@@ -6737,7 +6737,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-colony-9-cylinder-hangar-ancient-wreckage-c825ff7d",
@@ -6745,7 +6745,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-colony-9-residential-district-watching-over-them-51e90f78",
@@ -6753,7 +6753,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-colony-9-dunban-s-house-fiora-s-cooking-516e7f65",
@@ -6761,7 +6761,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-tephra-cave-spring-of-grief-glowing-in-the-night-7e8dbb6d",
@@ -6769,7 +6769,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-tephra-cave-kneecap-hill-a-scene-revisited-31479b62",
@@ -6777,7 +6777,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-tephra-cave-bone-corridor-the-legend-of-the-spider-d9db53d1",
@@ -6785,7 +6785,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-bionis-leg-inside-refugee-camp-what-s-on-reyn-s-mind-cc7e0af8",
@@ -6793,7 +6793,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-bionis-leg-outside-refugee-camp-heir-to-the-monado-d28bc6f5",
@@ -6801,7 +6801,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-bionis-leg-believer-s-paradise-geography-lesson-b1326667",
@@ -6809,7 +6809,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-bionis-leg-rho-oasis-revisiting-the-past-32b8c6d6",
@@ -6817,7 +6817,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-bionis-leg-raguel-bridge-north-what-visions-may-bring-5ff87ca7",
@@ -6825,7 +6825,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-colony-6-west-of-main-entrance-strength-of-heart-77d380a4",
@@ -6833,7 +6833,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-colony-6-pod-depot-one-year-on-e122fa8e",
@@ -6841,7 +6841,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-colony-6-freight-elevator-renewed-determination-0c930720",
@@ -6849,7 +6849,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-colony-6-turret-at-hope-farm-dunban-s-right-arm-647736dc",
@@ -6857,7 +6857,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-colony-6-ridge-at-hope-farm-recovery-and-reflection-49370ddd",
@@ -6865,7 +6865,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-colony-6-reconstruction-hq-the-colony-reborn-b8d80a33",
@@ -6873,7 +6873,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-colony-6-park-quiet-time-8d2cadd6",
@@ -6881,7 +6881,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-ether-mine-mining-base-a-broken-watch-a561a308",
@@ -6889,7 +6889,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-ether-mine-central-terminal-a-wistful-glow-18f2e7f2",
@@ -6897,7 +6897,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-satorl-marsh-zaldania-waterfall-the-shimmering-marsh-af05b23b",
@@ -6905,7 +6905,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-satorl-marsh-sororal-statues-high-entia-history-7d49bf3c",
@@ -6913,7 +6913,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-satorl-marsh-crown-tree-atop-the-crown-tree-94015335",
@@ -6921,7 +6921,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-makna-forest-eks-watering-hole-riki-s-crazy-crystal-plan-89f3e7fb",
@@ -6929,7 +6929,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-makna-forest-sparkling-pool-no-boys-allowed-8e264c8b",
@@ -6937,7 +6937,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-makna-forest-agni-tablet-fallen-brethren-49838a2f",
@@ -6945,7 +6945,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-frontier-village-pollen-works-at-the-pollen-works-f0f58217",
@@ -6953,7 +6953,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-frontier-village-prophecy-hut-a-mysterious-sanctuary-99dd11a0",
@@ -6961,7 +6961,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-frontier-village-nopon-tower-a-day-like-any-other-51071df0",
@@ -6969,7 +6969,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-frontier-village-riki-s-house-life-s-hard-for-a-heropon-64e9c303",
@@ -6977,7 +6977,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-frontier-village-7f-west-of-mysterious-sanctuary-reawakened-memories-51aad700",
@@ -6985,7 +6985,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-frontier-village-apex-lake-true-natures-67e2b096",
@@ -6993,7 +6993,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-eryth-sea-hovering-reef-2-flowers-of-eryth-sea-28c4d89f",
@@ -7001,7 +7001,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-eryth-sea-syrath-lighthouse-riki-have-question-1451b97b",
@@ -7009,7 +7009,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-eryth-sea-ether-plant-a-gift-for-a-loved-one-7b2860f5",
@@ -7017,7 +7017,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-eryth-sea-sleeping-dragon-isle-fish-fly-fish-fly-1060f631",
@@ -7025,7 +7025,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-alcamoth-se-of-fountain-of-hope-brother-and-sister-8353c123",
@@ -7033,7 +7033,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-alcamoth-west-of-melfica-road-ancient-astrology-30411a2f",
@@ -7041,7 +7041,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-alcamoth-great-hall-the-forefathers-792c75a1",
@@ -7049,7 +7049,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-alcamoth-imperial-villa-melia-s-imperial-villa-b85c0889",
@@ -7057,7 +7057,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-alcamoth-sky-terrace-a-breathtaking-sight-716f737a",
@@ -7065,7 +7065,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-alcamoth-audience-chamber-so-close-yet-so-far-65572486",
@@ -7073,7 +7073,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-high-entia-tomb-hall-of-trials-hopes-and-plans-c5706c59",
@@ -7081,7 +7081,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-high-entia-tomb-valley-of-emperors-echoes-of-ancient-times-285f9a9d",
@@ -7089,7 +7089,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-valak-mountain-harict-chapel-in-ose-tower-b34bc273",
@@ -7097,7 +7097,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-valak-mountain-jakt-geyser-a-snowy-hot-spring-53fc8bc3",
@@ -7105,7 +7105,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-valak-mountain-war-god-statue-la-luz-church-first-sight-of-snow-4ff9678c",
@@ -7113,7 +7113,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-fallen-arm-ether-light-a-night-time-chat-f5300a8e",
@@ -7121,7 +7121,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-fallen-arm-junks-linada-s-room-a-family-of-two-cd212b37",
@@ -7129,7 +7129,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-fallen-arm-digit-1-overcoming-the-pain-69617b59",
@@ -7137,7 +7137,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-fallen-arm-black-wreckage-eternal-scars-b082ba45",
@@ -7145,7 +7145,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-fallen-arm-silver-wreckage-just-like-old-times-098ad70d",
@@ -7153,7 +7153,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-fallen-arm-inlet-beach-camping-spot-59a3ea5c",
@@ -7161,7 +7161,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-fallen-arm-distant-fingertip-those-waiting-for-you-d6bcdaa1",
@@ -7169,7 +7169,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-bionis-interior-south-of-spinal-nerver-tower-fiora-s-body-4babd6db",
@@ -7177,7 +7177,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-bionis-interior-west-of-terminal-nerve-tower-kind-words-b52e5688",
@@ -7185,7 +7185,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-prison-island-gondorl-cathedral-before-the-final-battle-31aa4700",
@@ -7193,7 +7193,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-prison-island-gravina-bridge-untold-feelings-8f5b00ba",
@@ -7201,7 +7201,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "heart-prison-island-empty-throne-journey-s-end-0dbd04f4",
@@ -7209,7 +7209,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-06",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the final Heart-to-Heart ledger cleanup after affinity preparation."
+      "rationale": "キズナ準備のあと、最後のキズナトークの台帳整理で回収する。"
     },
     {
       "targetId": "grand-prix-bionis-leg-caterpile-circuit-shulk-6d674096",
@@ -7217,7 +7217,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-bionis-leg-caterpile-circuit-reyn-088b74a5",
@@ -7225,7 +7225,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-bionis-leg-caterpile-circuit-sharla-b3741130",
@@ -7233,7 +7233,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-bionis-leg-caterpile-circuit-dunban-75149835",
@@ -7241,7 +7241,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-bionis-leg-caterpile-circuit-melia-12d9c237",
@@ -7249,7 +7249,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-bionis-leg-caterpile-circuit-riki-e4ee794e",
@@ -7257,7 +7257,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-bionis-leg-caterpile-circuit-fiora-9fb7acf3",
@@ -7265,7 +7265,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-bionis-leg-twilight-speedway-shulk-f3bc4e24",
@@ -7273,7 +7273,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-bionis-leg-twilight-speedway-reyn-28e6b52b",
@@ -7281,7 +7281,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-bionis-leg-twilight-speedway-sharla-2686be4a",
@@ -7289,7 +7289,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-bionis-leg-twilight-speedway-dunban-c94cec54",
@@ -7297,7 +7297,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-bionis-leg-twilight-speedway-melia-9a44d8ca",
@@ -7305,7 +7305,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-bionis-leg-twilight-speedway-riki-6f075697",
@@ -7313,7 +7313,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-bionis-leg-twilight-speedway-fiora-7434ce4e",
@@ -7321,7 +7321,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-makna-forest-jungle-rumble-shulk-f25440d9",
@@ -7329,7 +7329,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-makna-forest-jungle-rumble-reyn-bfdec374",
@@ -7337,7 +7337,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-makna-forest-jungle-rumble-sharla-b00eedc9",
@@ -7345,7 +7345,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-makna-forest-jungle-rumble-dunban-890ec019",
@@ -7353,7 +7353,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-makna-forest-jungle-rumble-melia-88744efa",
@@ -7361,7 +7361,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-makna-forest-jungle-rumble-riki-3836f55c",
@@ -7369,7 +7369,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-makna-forest-jungle-rumble-fiora-69fe994c",
@@ -7377,7 +7377,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-makna-forest-midnight-forest-shulk-68eafa9f",
@@ -7385,7 +7385,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-makna-forest-midnight-forest-reyn-66d627a9",
@@ -7393,7 +7393,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-makna-forest-midnight-forest-sharla-98596972",
@@ -7401,7 +7401,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-makna-forest-midnight-forest-dunban-a87f1d2c",
@@ -7409,7 +7409,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-makna-forest-midnight-forest-melia-66d23ea6",
@@ -7417,7 +7417,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-makna-forest-midnight-forest-riki-a3c4760b",
@@ -7425,7 +7425,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-makna-forest-midnight-forest-fiora-6f21b4b9",
@@ -7433,7 +7433,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-alcamoth-alcamoth-orbital-shulk-b086bac9",
@@ -7441,7 +7441,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-alcamoth-alcamoth-orbital-reyn-cf489b9a",
@@ -7449,7 +7449,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-alcamoth-alcamoth-orbital-sharla-3df58177",
@@ -7457,7 +7457,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-alcamoth-alcamoth-orbital-dunban-08bcdfa1",
@@ -7465,7 +7465,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-alcamoth-alcamoth-orbital-melia-986956a6",
@@ -7473,7 +7473,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-alcamoth-alcamoth-orbital-riki-e8a0cc18",
@@ -7481,7 +7481,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-alcamoth-alcamoth-orbital-fiora-925f2f65",
@@ -7489,7 +7489,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-alcamoth-alcamoth-at-dawn-shulk-7f289c43",
@@ -7497,7 +7497,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-alcamoth-alcamoth-at-dawn-reyn-d0f1ad22",
@@ -7505,7 +7505,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-alcamoth-alcamoth-at-dawn-sharla-2f2c0afb",
@@ -7513,7 +7513,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-alcamoth-alcamoth-at-dawn-dunban-7f8d40ca",
@@ -7521,7 +7521,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-alcamoth-alcamoth-at-dawn-melia-ab4ad8e0",
@@ -7529,7 +7529,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-alcamoth-alcamoth-at-dawn-riki-df27faa0",
@@ -7537,7 +7537,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-alcamoth-alcamoth-at-dawn-fiora-94a256ac",
@@ -7545,7 +7545,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-valak-mountain-valak-slalom-shulk-ce9131ec",
@@ -7553,7 +7553,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-valak-mountain-valak-slalom-reyn-82022ebe",
@@ -7561,7 +7561,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-valak-mountain-valak-slalom-sharla-72bc44dc",
@@ -7569,7 +7569,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-valak-mountain-valak-slalom-dunban-acecd203",
@@ -7577,7 +7577,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-valak-mountain-valak-slalom-melia-5fe95f09",
@@ -7585,7 +7585,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-valak-mountain-valak-slalom-riki-3cc903cf",
@@ -7593,7 +7593,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-valak-mountain-valak-slalom-fiora-00c94746",
@@ -7601,7 +7601,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-valak-mountain-blizzard-rally-shulk-ec0ec811",
@@ -7609,7 +7609,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-valak-mountain-blizzard-rally-reyn-fd590ca1",
@@ -7617,7 +7617,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-valak-mountain-blizzard-rally-sharla-f91cf5b4",
@@ -7625,7 +7625,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-valak-mountain-blizzard-rally-dunban-3015358b",
@@ -7633,7 +7633,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-valak-mountain-blizzard-rally-melia-8011202e",
@@ -7641,7 +7641,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-valak-mountain-blizzard-rally-riki-b95947ce",
@@ -7649,7 +7649,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-valak-mountain-blizzard-rally-fiora-adb5a4ca",
@@ -7657,7 +7657,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-colony-9-rural-road-shulk-685b84e7",
@@ -7665,7 +7665,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-colony-9-rural-road-reyn-79c3c1d2",
@@ -7673,7 +7673,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-colony-9-rural-road-sharla-702d17f1",
@@ -7681,7 +7681,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-colony-9-rural-road-dunban-93f2cd92",
@@ -7689,7 +7689,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-colony-9-rural-road-melia-63b81fbf",
@@ -7697,7 +7697,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-colony-9-rural-road-riki-307a387d",
@@ -7705,7 +7705,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-colony-9-rural-road-fiora-acdbf8b4",
@@ -7713,7 +7713,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-colony-9-colony-9-wild-ride-shulk-ab37f3b1",
@@ -7721,7 +7721,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-colony-9-colony-9-wild-ride-reyn-5b122ef2",
@@ -7729,7 +7729,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-colony-9-colony-9-wild-ride-sharla-8a1a0483",
@@ -7737,7 +7737,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-colony-9-colony-9-wild-ride-dunban-8b507dc5",
@@ -7745,7 +7745,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-colony-9-colony-9-wild-ride-melia-16639531",
@@ -7753,7 +7753,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-colony-9-colony-9-wild-ride-riki-c334ecd6",
@@ -7761,7 +7761,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "grand-prix-colony-9-colony-9-wild-ride-fiora-a8408dc3",
@@ -7769,7 +7769,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-13",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Covered by the all-character Grand Prix ledger clear."
+      "rationale": "全キャラクターの Grand Prix 台帳消化で回収する。"
     },
     {
       "targetId": "milestone-max-levels-shulk-reach-level-99-bad6ef1c",
@@ -7777,7 +7777,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-max-levels-reyn-reach-level-99-63df8f88",
@@ -7785,7 +7785,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-max-levels-sharla-reach-level-99-5495fd40",
@@ -7793,7 +7793,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-max-levels-dunban-reach-level-99-31a8fdda",
@@ -7801,7 +7801,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-max-levels-melia-reach-level-99-7f417ffa",
@@ -7809,7 +7809,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-max-levels-riki-reach-level-99-d96c0785",
@@ -7817,7 +7817,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-max-levels-fiora-reach-level-99-f7548d07",
@@ -7825,7 +7825,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-arts-and-skills-shulk-raise-every-art-to-level-12-0a78653d",
@@ -7833,7 +7833,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-arts-and-skills-reyn-raise-every-art-to-level-12-56d04f28",
@@ -7841,7 +7841,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-arts-and-skills-sharla-raise-every-art-to-level-12-f11da122",
@@ -7849,7 +7849,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-arts-and-skills-dunban-raise-every-art-to-level-12-275e7c33",
@@ -7857,7 +7857,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-arts-and-skills-melia-raise-every-art-to-level-12-f3753ef6",
@@ -7865,7 +7865,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-arts-and-skills-riki-raise-every-art-to-level-12-dfbcb7aa",
@@ -7873,7 +7873,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-arts-and-skills-fiora-raise-every-art-to-level-12-a7716461",
@@ -7881,7 +7881,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-arts-and-skills-shulk-unlock-both-extra-skill-branches-and-learn-every-skill-99fbd960",
@@ -7889,7 +7889,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-arts-and-skills-reyn-unlock-both-extra-skill-branches-and-learn-every-skill-b066774c",
@@ -7897,7 +7897,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-arts-and-skills-sharla-unlock-both-extra-skill-branches-and-learn-every-skill-38cb6620",
@@ -7905,7 +7905,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-arts-and-skills-dunban-unlock-both-extra-skill-branches-and-learn-every-skill-45d18051",
@@ -7913,7 +7913,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-arts-and-skills-melia-unlock-both-extra-skill-branches-and-learn-every-skill-7eb1f724",
@@ -7921,7 +7921,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-arts-and-skills-riki-unlock-both-extra-skill-branches-and-learn-every-skill-53d0117f",
@@ -7929,7 +7929,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-arts-and-skills-fiora-unlock-both-extra-skill-branches-and-learn-every-skill-d1f6b917",
@@ -7937,7 +7937,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-party-affinity-shulk-reyn-reach-maximum-party-affinity-ddcc91ff",
@@ -7945,7 +7945,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-party-affinity-shulk-sharla-reach-maximum-party-affinity-90f13253",
@@ -7953,7 +7953,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-party-affinity-shulk-dunban-reach-maximum-party-affinity-805f09b3",
@@ -7961,7 +7961,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-party-affinity-shulk-melia-reach-maximum-party-affinity-e3b6f5be",
@@ -7969,7 +7969,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-party-affinity-shulk-riki-reach-maximum-party-affinity-4fbc69d6",
@@ -7977,7 +7977,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-party-affinity-shulk-fiora-reach-maximum-party-affinity-ab2eb538",
@@ -7985,7 +7985,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-party-affinity-reyn-sharla-reach-maximum-party-affinity-8fc47ff6",
@@ -7993,7 +7993,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-party-affinity-reyn-dunban-reach-maximum-party-affinity-bd969512",
@@ -8001,7 +8001,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-party-affinity-reyn-melia-reach-maximum-party-affinity-95352ca1",
@@ -8009,7 +8009,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-party-affinity-reyn-riki-reach-maximum-party-affinity-71b8ed17",
@@ -8017,7 +8017,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-party-affinity-reyn-fiora-reach-maximum-party-affinity-73c54dfb",
@@ -8025,7 +8025,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-party-affinity-sharla-dunban-reach-maximum-party-affinity-d4742349",
@@ -8033,7 +8033,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-party-affinity-sharla-melia-reach-maximum-party-affinity-96af1494",
@@ -8041,7 +8041,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-party-affinity-sharla-riki-reach-maximum-party-affinity-cab8b954",
@@ -8049,7 +8049,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-party-affinity-sharla-fiora-reach-maximum-party-affinity-e81813fc",
@@ -8057,7 +8057,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-party-affinity-dunban-melia-reach-maximum-party-affinity-80beaa00",
@@ -8065,7 +8065,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-party-affinity-dunban-riki-reach-maximum-party-affinity-6f37911a",
@@ -8073,7 +8073,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-party-affinity-dunban-fiora-reach-maximum-party-affinity-09b68a49",
@@ -8081,7 +8081,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-party-affinity-melia-riki-reach-maximum-party-affinity-8376334b",
@@ -8089,7 +8089,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-party-affinity-melia-fiora-reach-maximum-party-affinity-1a0d6267",
@@ -8097,7 +8097,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-party-affinity-riki-fiora-reach-maximum-party-affinity-955c1910",
@@ -8105,7 +8105,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-area-affinity-colony-9-reach-5-star-area-affinity-cc5c81a0",
@@ -8113,7 +8113,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-area-affinity-colony-6-reach-5-star-area-affinity-d1f3aeba",
@@ -8121,7 +8121,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-area-affinity-central-bionis-reach-5-star-area-affinity-c1f99429",
@@ -8129,7 +8129,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-area-affinity-upper-bionis-reach-5-star-area-affinity-374572ae",
@@ -8137,7 +8137,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-area-affinity-hidden-village-reach-5-star-area-affinity-50ec5a20",
@@ -8145,7 +8145,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-collectopaedia-colony-9-complete-the-page-048f74ba",
@@ -8153,7 +8153,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-collectopaedia-tephra-cave-complete-the-page-83c6dbdb",
@@ -8161,7 +8161,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-collectopaedia-bionis-leg-complete-the-page-3c6f60c5",
@@ -8169,7 +8169,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-collectopaedia-colony-6-complete-the-page-fba1375a",
@@ -8177,7 +8177,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-collectopaedia-ether-mine-complete-the-page-f582601b",
@@ -8185,7 +8185,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-collectopaedia-satorl-marsh-complete-the-page-25ae05c4",
@@ -8193,7 +8193,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-collectopaedia-makna-forest-complete-the-page-a69098ce",
@@ -8201,7 +8201,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-collectopaedia-frontier-village-complete-the-page-2792688e",
@@ -8209,7 +8209,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-collectopaedia-eryth-sea-complete-the-page-d2142e79",
@@ -8217,7 +8217,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-collectopaedia-alcamoth-complete-the-page-e009515c",
@@ -8225,7 +8225,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-collectopaedia-high-entia-tomb-complete-the-page-53c1c75c",
@@ -8233,7 +8233,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-collectopaedia-valak-mountain-complete-the-page-4e4cbb5c",
@@ -8241,7 +8241,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-collectopaedia-sword-valley-complete-the-page-c20c2fec",
@@ -8249,7 +8249,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-collectopaedia-galahad-fortress-complete-the-page-7f260581",
@@ -8257,7 +8257,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-collectopaedia-fallen-arm-complete-the-page-ad596611",
@@ -8265,7 +8265,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-collectopaedia-mechonis-field-complete-the-page-159a79f4",
@@ -8273,7 +8273,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-collectopaedia-central-factory-complete-the-page-eefc55fb",
@@ -8281,7 +8281,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-collectopaedia-agniratha-complete-the-page-7ca438cb",
@@ -8289,7 +8289,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-collectopaedia-bionis-interior-complete-the-page-50ebdcac",
@@ -8297,7 +8297,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-collectopaedia-other-complete-the-page-e210a717",
@@ -8305,7 +8305,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-colony-6-housing-reconstruct-to-level-5-f800f2da",
@@ -8313,7 +8313,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-colony-6-commerce-reconstruct-to-level-5-6ccba649",
@@ -8321,7 +8321,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-colony-6-nature-reconstruct-to-level-5-c465f241",
@@ -8329,7 +8329,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-colony-6-special-reconstruct-to-level-5-06d9ddc0",
@@ -8337,7 +8337,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-colony-6-population-invite-all-150-residents-9dddd544",
@@ -8345,7 +8345,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-exploration-reveal-every-map-and-visit-every-landmark-location-and-secret-ar-2a0d1197",
@@ -8353,7 +8353,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-collections-obtain-mumkhar-s-razor-from-kurralth-on-valak-mountain-d261ee01",
@@ -8361,7 +8361,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-collections-obtain-every-fashion-appearance-that-can-be-collected-on-this-fi-b9517bc0",
@@ -8369,7 +8369,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "milestone-collections-earn-s-rank-in-every-available-time-attack-challenge-in-restrict-befe5ad6",
@@ -8377,7 +8377,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "pg-11",
       "routeChapterId": "post",
       "handling": "post",
-      "rationale": "Manual completion milestone verified during final cleanup."
+      "rationale": "手動の達成項目。最終整理のときに確認する。"
     },
     {
       "targetId": "fc-story-and-quests-clear-every-side-quest-0ca3cc16",
@@ -8385,7 +8385,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "fc-05",
       "routeChapterId": "fc",
       "handling": "fc",
-      "rationale": "Covered by the Future Connected completion sweep."
+      "rationale": "Future Connected の達成周回で回収する。"
     },
     {
       "targetId": "fc-story-and-quests-recruit-all-12-ponspectors-c4cf6215",
@@ -8393,7 +8393,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "fc-05",
       "routeChapterId": "fc",
       "handling": "fc",
-      "rationale": "Covered by the Future Connected completion sweep."
+      "rationale": "Future Connected の達成周回で回収する。"
     },
     {
       "targetId": "fc-story-and-quests-defeat-the-fog-king-08162eb7",
@@ -8401,7 +8401,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "fc-06",
       "routeChapterId": "fc",
       "handling": "exact",
-      "rationale": "Target name is printed on this route card."
+      "rationale": "対象名はこのルートカードに印字されている。"
     },
     {
       "targetId": "fc-exploration-defeat-all-20-unique-monsters-on-bionis-shoulder-253c4f30",
@@ -8409,7 +8409,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "fc-05",
       "routeChapterId": "fc",
       "handling": "fc",
-      "rationale": "Covered by the Future Connected completion sweep."
+      "rationale": "Future Connected の達成周回で回収する。"
     },
     {
       "targetId": "fc-exploration-find-every-landmark-location-and-secret-area-0638cc30",
@@ -8417,7 +8417,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "fc-05",
       "routeChapterId": "fc",
       "handling": "fc",
-      "rationale": "Covered by the Future Connected completion sweep."
+      "rationale": "Future Connected の達成周回で回収する。"
     },
     {
       "targetId": "fc-exploration-complete-shoulder-survey-snaps-573d1d85",
@@ -8425,7 +8425,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "fc-05",
       "routeChapterId": "fc",
       "handling": "fc",
-      "rationale": "Covered by the Future Connected completion sweep."
+      "rationale": "Future Connected の達成周回で回収する。"
     },
     {
       "targetId": "fc-return-to-the-main-game-buy-the-master-arts-manuals-needed-to-raise-every-main-game-art--a2da49d9",
@@ -8433,7 +8433,7 @@ const ROUTE_BINDINGS_DATA = {
       "routeItemId": "fc-05",
       "routeChapterId": "fc",
       "handling": "fc",
-      "rationale": "Covered by the Future Connected completion sweep."
+      "rationale": "Future Connected の達成周回で回収する。"
     }
   ]
 };

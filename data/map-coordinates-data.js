@@ -2,7 +2,7 @@
 const MAP_COORDINATE_DATA={
   "version": 1,
   "source": {
-    "label": "XCDE extracted landmark table",
+    "label": "XCDE から抽出したランドマーク表",
     "url": "https://xenobladedata.github.io/xb1de/bdat/bdat_common/landmarklist.html"
   },
   "coordinates": [

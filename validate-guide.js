@@ -42,11 +42,11 @@ for (const quest of world.quests) {
   assert(schedule.givers.every(giver => giver.name && giver.locations.length && giver.locations.every(slot => slot.location && slot.time)), `${quest.name}: incomplete quest giver location/time`);
 }
 const dionysisSchedule = schedulesByQuest.get("quest-colony-9-the-key-to-a-long-life-c651adfb");
-assert(dionysisSchedule?.givers?.[0]?.name === "Dionysis" && dionysisSchedule.givers[0].locations[0].time === "06:00–13:00" && /Residential District/.test(dionysisSchedule.givers[0].locations[0].location), "The Key to a Long Life does not carry Dionysis's verified schedule");
+assert(dionysisSchedule?.givers?.[0]?.name === "ディオニージス" && dionysisSchedule.givers[0].locations[0].time === "06:00–13:00" && /居住区/.test(dionysisSchedule.givers[0].locations[0].location), "The Key to a Long Life does not carry Dionysis's verified schedule");
 const lukasSchedule = schedulesByQuest.get("quest-colony-9-pride-and-courage-87817643");
-assert(lukasSchedule?.givers?.[0]?.name === "Lukas" && lukasSchedule.givers[0].locations[0].time === "09:00–15:00" && /Residential District/.test(lukasSchedule.givers[0].locations[0].location), "Pride and Courage does not carry Lukas's verified schedule");
+assert(lukasSchedule?.givers?.[0]?.name === "グレフ" && lukasSchedule.givers[0].locations[0].time === "09:00–15:00" && /居住区/.test(lukasSchedule.givers[0].locations[0].location), "Pride and Courage does not carry Lukas's verified schedule");
 const adventurersSchedule = schedulesByQuest.get("quest-alcamoth-adventureres-in-peril-4a2d710a");
-assert(adventurersSchedule?.questName === "Adventurers in Peril", "The source-ledger Adventurers in Peril typo was not normalized for route matching");
+assert(adventurersSchedule?.questName === "冒険者達の遭難", "The source-ledger Adventurers in Peril typo was not normalized for route matching");
 assert(html.includes("[hidden]{display:none!important}.hide{display:none!important}"), "Global hidden and filtered-state CSS guards are missing");
 assert(html.includes('html[data-theme="xenoblade"] .tabs,html:not([data-theme="xenoblade"]) .tabs{grid-template-columns:repeat(6,minmax(0,1fr))!important}'), "Mobile five-hub navigation does not use its readable 3+2 stack");
 assert(html.includes("workshopPhaseIdForEncounter(entry,routeReference)"), "Encounter tools do not use level-aware Workshop phases");
@@ -68,20 +68,20 @@ assert(panels.length === 120, `Expected 120 guidance panels, got ${panels.length
 assert(new Set(routeItems.map(item => item.id)).size === routeItems.length, "Duplicate route IDs");
 assert(routeItems.every(item => item.id), "A tickable route item has no persistent ID");
 const canonicalStoryQuests = [
-  "Aiming for the Top", "An Errand for the Heropon", "Ancient Ceremony Offerings", "Chase Dickson",
-  "Delivering Food", "Find a Path to the Top", "Fiora's Conviction", "Fiora's Treatment",
-  "Get the 3rd Lift Moving", "Lift Battle", "Maintenance Wing Escape", "Materials for a Bomb",
-  "Mystery Girl Rescue", "Need Power!", "Opening the Bulkhead", "Path to Prison Island",
-  "Path to the Top", "Pillar Verification Devices", "Reunion with Fiora", "Save Bionis",
-  "Save the Worker", "Shrine Transport", "Sister Seals", "Supply Station Battle",
-  "The Ancient Ceremony", "The Central Tower Barrier", "The High-Velocity Lift", "The Magma Rock",
-  "To the Central Tower", "Turbine Battle", "We Made It"
+  "上層を目指せ", "勇者のお使い", "儀式の準備", "Chase Dickson",
+  "お弁当を届ける", "上層への道を探せ", "Fiora's Conviction", "フィオルンの治療",
+  "第3リフトを起動しろ", "Lift Battle", "整備棟を抜けろ", "爆弾の材料を集めろ",
+  "謎の少女を救え", "電源を供給せよ", "大隔壁を開放せよ", "監獄島への道",
+  "Path to the Top", "四柱の認証装置", "フィオルンとの再会", "巨神界の崩壊を止める",
+  "作業員を救助せよ", "神殿への転送装置", "封印の姉妹門", "Supply Station Battle",
+  "古代の儀式", "中央塔の障壁", "高速リフトを起動せよ", "ヴァラクの熱い石",
+  "中央塔を目指せ", "Turbine Battle", "仲間は生きている"
 ];
 const storyItems = routeItems.filter(item => item.f === "story");
 const storyText = item => String(`${item.t || ""} ${item.d || ""}`).replace(/<[^>]+>/g, " ").replace(/\s+/g, " ");
 assert(storyItems.length === canonicalStoryQuests.length, `Expected ${canonicalStoryQuests.length} formal story checkpoints, got ${storyItems.length}`);
 assert(storyItems.every(item => item.storyQuestId && item.d && Number.isFinite(item.lv)), "A story checkpoint lacks its quest binding, directions, or recommended level");
-const formalStoryLedger = completion.categories.flatMap(category => category.groups.flatMap(group => group.items)).filter(item => /Story Quest/i.test(item.meta || ""));
+const formalStoryLedger = completion.categories.flatMap(category => category.groups.flatMap(group => group.items)).filter(item => /ストーリークエスト/.test(item.meta || ""));
 assert(formalStoryLedger.length === canonicalStoryQuests.length, `Completion ledger should contain ${canonicalStoryQuests.length} formal story quests, got ${formalStoryLedger.length}`);
 assert(formalStoryLedger.map(item => item.name).sort().join("|") === [...canonicalStoryQuests].sort().join("|"), "Canonical story quest list drifted from the Completion Hub ledger");
 for (const quest of formalStoryLedger) {
@@ -97,7 +97,7 @@ for (const item of groupedRouteItems) {
 }
 assert(routeItems.find(item => item.id === "c1-miss-brave-protectors")?.steps?.length === 9, "The Brave Protectors must expose all nine Defence Force registrations");
 const littleBrother = routeItems.find(item => item.id === "c1-05");
-assert(/18:00–03:00/.test(littleBrother?.d || "") && /Nopon Refuge/.test(littleBrother?.d || "") && /behind Zazadan/.test(littleBrother?.d || ""), "A Little Brother's Fight lacks pickup time or Red Pollen Orb directions");
+assert(/18:00–03:00/.test(littleBrother?.d || "") && /ノポンの隠れ家/.test(littleBrother?.d || "") && /ザザダンの後ろ/.test(littleBrother?.d || ""), "A Little Brother's Fight lacks pickup time or Red Pollen Orb directions");
 assert(route.find(chapter => chapter.items.some(item => item.id === "c1-05"))?.id === "ch7", "A Little Brother's Fight must be routed after Riki joins in Chapter 7");
 assert(route.find(chapter => chapter.items.some(item => item.id === "c12-02"))?.id === "ch13", "The History of Mechonis must be routed after Mechonis Field opens");
 assert(route.find(chapter => chapter.items.some(item => item.id === "c12-03"))?.id === "ch14", "The History of the Capital must be routed after Agniratha opens");
@@ -137,7 +137,7 @@ for (const item of storyItems) {
   const binding = bindings.bindings.find(entry => entry.targetId === item.storyQuestId);
   assert(binding?.handling === "exact" && binding.routeItemId === item.id, `${item.id} does not own its exact story-quest dependency link`);
 }
-for (const name of ["Heartwarming", "Heartbreaking", "The Brave Protectors"]) {
+for (const name of ["ベストアンサー", "空気が読めない", "街を守る勇士"]) {
   const item = completionItems.find(entry => entry.name === name);
   assert(item && item.missable, `${name} is not marked as missable`);
 }
@@ -157,7 +157,7 @@ assert(dossiers.counts.withSpike === 49, "Documented combat-spike coverage chang
 const portraits = monsterpedia.entries.filter(entry => entry.image?.local);
 assert(portraits.length === monsterpedia.entries.length, `Every Monsterpedia entry needs a locally cached portrait, got ${portraits.length}/${monsterpedia.entries.length}`);
 assert(portraits.every(entry => fs.existsSync(path.join(root, entry.image.local))), "A Monsterpedia portrait path does not exist locally");
-for (const name of ["Clap Bunniv", "Energy Device", "M32 Transport Unit"]) {
+for (const name of ["クラップ・バニーヴ", "エネルギー装置", "三二式・運搬型"]) {
   const entry = monsterpedia.entries.find(candidate => candidate.name === name);
   assert(entry?.image?.sourceFile, `Exact wiki-file portrait override is missing for ${name}`);
 }
@@ -221,13 +221,13 @@ assert(new Set(worldEntries.map(entry => entry.id)).size === worldEntries.length
 const routeIds = new Set(route.map(chapter => chapter.id));
 assert(worldEntries.every(entry => routeIds.has(entry.routeChapterId)), "A world discovery is assigned to a missing route chapter");
 const area = name => world.areas.find(entry => entry.name === name);
-assert(area("Bionis' Leg").routeChapterId === "ch4", "Bionis' Leg must enter this guide in Chapter 4");
-assert(area("Sword Valley").routeChapterId === "ch11", "Sword Valley must enter this guide in Chapter 11");
-assert(area("Fallen Arm").routeChapterId === "ch12" && !area("Fallen Arm").lockoutDeadline, "Fallen Arm must not carry a false lockout warning");
-assert(area("Mechonis Field").routeChapterId === "ch13", "Mechonis Field must enter this guide in Chapter 13");
-assert(area("Agniratha").routeChapterId === "ch14", "Agniratha must enter this guide in Chapter 14");
-for (const late of ["Heavenly Window", "Bafalgar Tomb", "Trader's Stopover", "Arachno Feeding Lair", "Path of Absolution"]) {
-  assert(area("Tephra Cave").entries.find(entry => entry.name === late)?.routeChapterId === "ch17", `${late} must be deferred until the post-Core route`);
+assert(area("巨神脚").routeChapterId === "ch4", "Bionis' Leg must enter this guide in Chapter 4");
+assert(area("大剣の渓谷").routeChapterId === "ch11", "Sword Valley must enter this guide in Chapter 11");
+assert(area("落ちた腕").routeChapterId === "ch12" && !area("落ちた腕").lockoutDeadline, "Fallen Arm must not carry a false lockout warning");
+assert(area("機神界フィールド").routeChapterId === "ch13", "Mechonis Field must enter this guide in Chapter 13");
+assert(area("帝都アグニラータ").routeChapterId === "ch14", "Agniratha must enter this guide in Chapter 14");
+for (const late of ["慈悲の天窓", "バルファルガ墓地", "隊商中継地", "スパイドの狩場", "清めの道"]) {
+  assert(area("テフラ洞窟").entries.find(entry => entry.name === late)?.routeChapterId === "ch17", `${late} must be deferred until the post-Core route`);
 }
 const questIds = new Set(world.quests.map(quest => quest.id));
 for (const quest of world.quests) for (const id of [...quest.prerequisites, ...quest.followUps, ...quest.mutuallyExclusive]) {
@@ -245,27 +245,28 @@ const hasPrerequisiteCycle = id => {
 };
 assert(!world.quests.some(quest => hasPrerequisiteCycle(quest.id)), "Quest prerequisite graph contains a cycle");
 const questNamed = name => world.quests.find(quest => quest.name === name);
-assert(questNamed("Cook-Off Counter Attack!")?.followUps.some(id => questById.get(id)?.name === "Cook-Off Comeback?"), "Cook-Off chain order regressed");
-assert(!questNamed("Investigating Satorl")?.prerequisites.some(id => questById.get(id)?.name === "Talia's Research"), "Investigating Satorl incorrectly requires the quest it excludes");
-assert(completionItems.some(item => item.name === "Itinerant Dorothea") && completionItems.some(item => item.name === "Avalanche Abaasy"), "Canonical completion names regressed");
+assert(questNamed("料理対決・反撃！")?.followUps.some(id => questById.get(id)?.name === "料理対決・逆転？"), "Cook-Off chain order regressed");
+assert(!questNamed("ザトールの調査")?.prerequisites.some(id => questById.get(id)?.name === "タリアの研究"), "Investigating Satorl incorrectly requires the quest it excludes");
+assert(completionItems.some(item => item.name === "借宿のドロテーア") && completionItems.some(item => item.name === "雪檻のアバーシ"), "Canonical completion names regressed");
 const plain = value => String(value || "").replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
-const leaderQuests = world.quests.filter(quest => /\b(?:as party leader|in the lead)\b/i.test(quest.requirements));
+const leaderQuests = world.quests.filter(quest => /パーティリーダーは(シュルク|ライン|カルナ|ダンバン|メリア|リキ|フィオルン)/.test(quest.requirements));
 assert(leaderQuests.length === 18, `Expected 18 explicit leader-prerequisite quests, got ${leaderQuests.length}`);
 for (const quest of leaderQuests) {
-  const card = quest.name.startsWith("A Young Captain's ")
+  const card = quest.name.startsWith("小娘隊長")
     ? routeItems.find(item => item.id === "c17-07")
     : routeItems.find(item => plain(item.t).includes(quest.name));
   assert(card, `${quest.name} has a leader prerequisite but no route card`);
-  const leader = quest.requirements.match(/\b(Shulk|Reyn|Sharla|Dunban|Melia|Riki|Fiora) (?:as party leader|in the lead)/i)?.[1];
-  assert(leader && new RegExp(`${leader}.{0,80}(?:must lead|leading|accepts|turns in|party leader)`, "i").test(plain(`${card.t} ${card.d}`)), `${quest.name} route card does not clearly warn that ${leader} must lead`);
+  const leader = quest.requirements.match(/パーティリーダーは(シュルク|ライン|カルナ|ダンバン|メリア|リキ|フィオルン)/)?.[1];
+  const shown = leader;
+  assert(shown && new RegExp(`${shown}.{0,80}(?:リーダー|must lead|leading|accepts|turns in|party leader)`, "i").test(plain(`${card.t} ${card.d}`)), `${quest.name} route card does not clearly warn that ${leader} must lead`);
 }
-for (const [name, leader] of [["Rocco's Heartful Request", "Shulk"], ["Building Bridges", "Melia"], ["Obstinate Berryjammy", "Dunban"], ["Stopping the Elopement", "Sharla"]]) {
+for (const [name, leader] of [["ロコの切実な願い", "シュルク"], ["他種族嫌いを治して", "メリア"], ["意地っ張りストロジャム", "ダンバン"], ["逃避行の阻止", "カルナ"]]) {
   const card = routeItems.find(item => plain(item.t).includes(name));
-  assert(card && new RegExp(`${leader}.{0,80}(?:must lead|leading)`, "i").test(plain(`${card.t} ${card.d}`)), `${name} is missing its mid-quest ${leader} leader warning`);
+  assert(card && new RegExp(`${leader}.{0,80}(?:リーダー|must lead|leading)`, "i").test(plain(`${card.t} ${card.d}`)), `${name} is missing its mid-quest ${leader} leader warning`);
 }
-assert(route.find(chapter => chapter.id === "ch10").items.some(item => item.id === "c10-46" && plain(item.t).includes("Cook-Off Showdown!")), "Reyn's Impatience unlock is missing from Chapter 10");
-assert(route.find(chapter => chapter.id === "ch13").items.some(item => item.id === "c13-15" && plain(item.t).includes("The Oath Sword")), "Fiora's Rashness unlock is missing from Chapter 13");
-assert(route.find(chapter => chapter.id === "ch17").items.some(item => item.id === "c17-31" && plain(item.t).includes("Ancient High Entia Mystery")), "Melia's Passion unlock is missing from Chapter 17");
+assert(route.find(chapter => chapter.id === "ch10").items.some(item => item.id === "c10-46" && plain(item.t).includes("料理対決・決着！")), "Reyn's Impatience unlock is missing from Chapter 10");
+assert(route.find(chapter => chapter.id === "ch13").items.some(item => item.id === "c13-15" && plain(item.t).includes("約束の剣")), "Fiora's Rashness unlock is missing from Chapter 13");
+assert(route.find(chapter => chapter.id === "ch17").items.some(item => item.id === "c17-31" && plain(item.t).includes("古代ハイエンターの謎")), "Melia's Passion unlock is missing from Chapter 17");
 
 assert(builds.characters.length === 7 && builds.futureConnected.characters.length === 4, "Build Lab roster must include 7 base and 4 Future Connected characters");
 assert(builds.partyPresets.length === 17, `Expected 17 party presets, got ${builds.partyPresets.length}`);
@@ -282,18 +283,18 @@ for (const character of buildCharacters) {
 }
 for (const shulk of buildCharacters.filter(character => /shulk/.test(character.id))) {
   const arts = [shulk.controlled.metaSafe, shulk.controlled.aggressive, shulk.ai.metaSafe, shulk.ai.aggressive].flat();
-  assert(!arts.includes("Sword Drive"), `${shulk.id} illegally contains Reyn's Sword Drive`);
+  assert(!arts.includes("ソードパイル"), `${shulk.id} illegally contains Reyn's Sword Drive`);
 }
 const legalArts = {
-  shulk: ["Back Slash", "Light Heal", "Slit Edge", "Stream Edge", "Shadow Eye", "Air Slash", "Shaker Edge", "Battle Soul"],
-  reyn: ["Hammer Beat", "Wild Down", "War Swing", "Bone Upper", "Dive Sobat", "Sword Drive", "Shield Bash", "Lariat", "Rage", "Berserker", "Last Stand", "Magnum Charge", "Aura Burst", "Engage", "Anchor Chain", "Guard Shift"],
-  sharla: ["Heal Bullet", "Thunder Bullet", "Shield Bullet", "Cure Bullet", "Tranquilizer", "Tranquilliser", "Heal Blast", "Metal Blast", "Heal Round", "Heat Bullet", "Covert Stance", "Head Shaker", "Aura Bullet", "Heal Counter", "Head Shot", "Cure Round", "Drive Boost"],
-  dunban: ["Gale Slash", "Electric Gutbuster", "Worldly Slash", "Battle Eye", "Steel Strike", "Spirit Breath", "Blinding Blossom", "Serene Heart", "Tempest Kick", "Heat Haze", "Thunder", "Soaring Tempest", "Jaws of Death", "Final Flicker", "Demon Slayer", "Peerless"],
-  melia: ["Summon Bolt", "Summon Flare", "Summon Aqua", "Spear Break", "Hypnotise", "Shadow Stitch", "Reflection", "Healing Gift", "Summon Copy", "Summon Wind", "Starlight Kick", "Summon Earth", "Burst End", "Summon Ice", "Mind Blast", "Power Effect"],
-  riki: ["Happy Happy", "Bitey Bitey", "Sneaky", "Play Dead", "Lurgy", "Hero Time", "Roly-Poly", "Behave", "You Can Do It", "Freezinate", "Bedtime", "Tantrum", "Burninate", "Riki is Angry", "Peekaboo", "Say Sorry"],
-  fiora: ["Power Smash", "Screw Edge", "Hidden Thorn", "Lacerate", "Double Blade", "Spear Blade", "Cross Impact", "Healing Energy", "Zero Gravity", "Ether Drain", "Air Fang", "Double Wind", "Second Gear", "Lock-On", "Mag Storm", "Shutdown", "Guard Shift", "Power Drain", "Speed Shift", "Final Cross"],
-  kino: ["Healy Bullet", "Healy Round", "Shield Bullet", "Cure Round", "Thunder Bullet", "Head Shaker", "Tranquilliser", "Drive Boost", "Metal Blast", "Covert Stance"],
-  nene: ["Sword Drive", "Bone Upper", "Mild Down", "Magnum Starch", "Engage", "Guard Sift", "Hammer Beat", "Feather Swing", "Berserker", "Lariat", "Chive Sobat"]
+  shulk: ["バックスラッシュ", "ライトヒール", "スリットエッジ", "ストリームエッジ", "シャドーアイ", "エアスラッシュ", "シェイカーエッジ", "バトルソウル"],
+  reyn: ["ハンマービート", "ワイルドダウン", "ウォースイング", "ボーンアッパー", "ダイブソバット", "ソードパイル", "シールドバッシュ", "ラリアット", "Rage", "バーサーカー", "ラストスタンド", "バレットチャージ", "オーラバースト", "エンゲージ", "アンカーチェイン", "ガードシフト"],
+  sharla: ["ヒールバレット", "サンダーバレット", "シールドバレット", "キュアバレット", "Tranquilizer", "スリープバレット", "ヒールブラスト", "メタルブラスト", "ヒールラウンド", "ヒートバレット", "ハイドスタンス", "ヘッドシェイカー", "オーラバレット", "ヒールカウンター", "ヘッドスナイプ", "キュアラウンド", "ドライブブースト"],
+  dunban: ["疾風刃", "雷刃砲脚", "天地剣", "戦眼", "鉄功弾", "神威息吹", "桜花絢爛", "明鏡止水", "風刃旋脚", "陽炎", "天雷", "千刃天翔", "九死一殺", "背水影技", "鬼斬刃", "天下無双"],
+  melia: ["サモン・ボルト", "サモン・フレア", "サモン・アクア", "スピアブレイク", "スリープマインド", "シャドーステッチ", "Reflection", "ヒールギフト", "サモニングコピー", "サモン・ウインド", "スターライト・ニー", "サモン・アース", "バーストエンド", "サモン・アイス", "マインドブラスト", "パワーエフェクト"],
+  riki: ["ヨロコベも", "カムカムだも", "モラッタも", "マカセタも", "ドクドクだも", "ユウキだも", "コロベも", "オチツケも", "ガンバルも", "ヒエヒエだも", "グルグルだも", "ヤッチャウも", "モエモエだも", "オコッタも", "ココだも", "クイアラタメも"],
+  fiora: ["パワースマッシュ", "スクリューエッジ", "ハイドスパイク", "デッドリーバイト", "ダブルブレード", "スピアブレード", "クロスインパクト", "ヒールバリア", "グラビティーゼロ", "エーテルドレイン", "エアファング", "ダブルウインド", "セカンドギア", "ロックオン", "バグストーム", "シャットダウン", "ガードシフト", "パワードレイン", "スピードシフト", "ファイナルクロス"],
+  kino: ["Healy Bullet", "Healy Round", "シールドバレット", "キュアラウンド", "サンダーバレット", "ヘッドシェイカー", "スリープバレット", "ドライブブースト", "メタルブラスト", "ハイドスタンス"],
+  nene: ["ソードパイル", "ボーンアッパー", "Mild Down", "Magnum Starch", "エンゲージ", "Guard Sift", "ハンマービート", "Feather Swing", "バーサーカー", "ラリアット", "Chive Sobat"]
 };
 const legalFor = id => new Set(legalArts[id.replace(/^fc-/, "")]);
 for (const character of buildCharacters) {
@@ -311,7 +312,7 @@ for (const character of buildCharacters) {
 for (const update of builds.routeUpdates) for (const [id, arts] of Object.entries(update.artsByMember)) {
   const allowed = legalFor(id); for (const art of arts) assert(allowed.has(art), `${update.routeChapterId} ${id} contains an illegal normal Art: ${art}`);
 }
-const forbiddenNormal = { riki: ["Yoink!"], fiora: ["Butterfly Step"], shulk: ["Monado Shield", "Sword Drive"] };
+const forbiddenNormal = { riki: ["イタダクも"], fiora: ["バタフライステップ"], shulk: ["モナドシールド", "ソードパイル"] };
 for (const character of builds.characters) for (const art of forbiddenNormal[character.id] || []) {
   assert(![character.controlled.metaSafe, character.controlled.aggressive, character.ai.metaSafe, character.ai.aggressive].flat().includes(art), `${character.id} puts a Talent or foreign Art in a normal slot: ${art}`);
 }
@@ -320,7 +321,7 @@ for (const character of builds.characters) for (const invalid of invalidBranches
   assert(!character.skills.branchPriority.some(value => value.includes(invalid)), `${character.id} uses non-branch label ${invalid}`);
 }
 const routeMax = { ch1:10, ch3:18, ch5:32, ch7:44, ch8:52, ch12:70, ch17:90, post:99 };
-const unlockLevel = { "Head Shot":42, "Thunder":40, "Tempest Kick":32, "Serene Heart":28, "Heat Haze":36, "Jaws of Death":48, "Burninate":43, "Freezinate":31, "Bedtime":35, "Starlight Kick":44, "Summon Earth":47 };
+const unlockLevel = { "ヘッドスナイプ":42, "天雷":40, "風刃旋脚":32, "明鏡止水":28, "陽炎":36, "九死一殺":48, "モエモエだも":43, "ヒエヒエだも":31, "グルグルだも":35, "スターライト・ニー":44, "サモン・アース":47 };
 for (const update of builds.routeUpdates.filter(item => routeMax[item.routeChapterId])) for (const art of Object.values(update.artsByMember).flat()) {
   assert(!unlockLevel[art] || unlockLevel[art] <= routeMax[update.routeChapterId], `${update.routeChapterId} slots ${art} before its level-${unlockLevel[art]} unlock`);
 }
@@ -328,17 +329,17 @@ for (const update of builds.routeUpdates.filter(item => routeMax[item.routeChapt
 const routeSource = read("data/route-data.js");
 assert(!routeSource.includes("Ponspectors replace party members"), "Stale Future Connected Ponspector claim");
 assert(!routeSource.includes("Party is fixed — Shulk, Melia, Kino and Nene"), "Stale Future Connected party claim");
-assert(routeSource.includes("Ponspectors replace Chain Attacks with Union Strikes"), "Correct Union Strike guidance missing");
+assert(routeSource.includes("Ponspectors はチェインアタックを Union Strikes に置き換える"), "Correct Union Strike guidance missing");
 assert(!routeSource.includes("sixteen quests"), "Agniratha has fourteen optional terminal quests, not sixteen");
 assert(routeSource.includes("Seventh Sage Cloister"), "Agniratha secret-area step missing");
-assert(routeSource.includes("Twenty-three later route steps depend on the active party leader"), "Leader-trap overview count is stale");
+assert(routeSource.includes("この先のルート手順のうち23件は、操作中のパーティリーダーに依存する"), "Leader-trap overview count is stale");
 for (const id of ["c17-01", "c17-02", "c17-03", "c17-04"]) assert(routeItems.find(item => item.id === id)?.f !== "d", `${id} is a permanent post-Core quest and must not carry a false deadline`);
 assert(!plain(routeItems.find(item => item.id === "c17-04")?.t).match(/Shulk.*lead/i), "Supplies for Satorl has a false Shulk leader warning");
 assert(routeSource.includes("Seven hidden skill trees are available this chapter"), "Chapter 17 hidden-tree leader circuit is missing");
 assert(!heartsResearch.includes("Fallen Arm / Machina Village is flagged as locking"), "Stale Fallen Arm lock warning");
 assert(!heartsResearch.includes("permanently locks when you begin the Colony 6 relocation"), "Stale Refugee Camp lock warning");
 
-for (const text of ["Companion", "Completion Hub", "Monsterpedia", "Quest &amp; Dependency Lookup", "Build Lab", "Recommended Level:", "Required Leader:", "Location, landmark &amp; secret-area tracker", "Export progress", "Import progress", "Restore last reset", "xc1de-guide-state-v4", "Not my branch"]) {
+for (const text of ["同行", "達成ハブ", "Monsterpedia", "クエストと依存", "ビルド工房", "推奨レベル:", "必要なリーダー:", "場所・ランドマーク・隠しエリア", "進行を書き出す", "進行を読み込む", "直前のリセットを戻す", "xc1de-guide-state-v4", "自分の分岐ではない"]) {
   assert(html.includes(text), `index.html is missing ${text}`);
 }
 assert(html.includes('role="progressbar"'), "Progress bar lacks ARIA semantics");
@@ -348,7 +349,7 @@ assert(html.includes('<button type="button" class="chh"'), "Chapter headers must
 assert(html.includes('const text = plainText(item.t || "")'), "Leader badges must be derived from the current card title, not historical detail text");
 assert(!html.includes("There are 13 of these"), "Static hidden-tree count is stale");
 assert(html.includes('--bg:#f2f6f8') && html.includes('--nav:#0b2438'), "Reading-first Xenoblade color tokens are missing");
-assert(html.includes('id="theme-select"') && html.includes('Readable Light') && html.includes('Simple Dark') && html.includes('Xenoblade Extreme'), "Appearance selector is missing one or more themes");
+assert(html.includes('id="theme-select"') && html.includes('読みやすいライト') && html.includes('シンプルダーク') && html.includes('ゼノブレイド エクストリーム'), "Appearance selector is missing one or more themes");
 assert(html.includes('id="build-character-tabs"') && html.includes('id="build-show-all"') && !html.includes('id="build-character"'), "Build Lab character tabs or Show all mode are missing");
 assert(html.includes('html[data-theme="dark"]') && html.includes('html[data-theme="xenoblade"]'), "Dark and Xenoblade theme tokens are missing");
 assert(html.includes('XENOBLADE EXTREME V2') && html.includes('class="route-legend"'), "Extreme V2 route HUD or warning legend is missing");
@@ -384,14 +385,14 @@ assert(/\.it label\{[^}]*font-size:17px/.test(html), "Route task text has regres
 assert(/\.det\{[^}]*font-size:15\.5px/.test(html), "Route detail text has regressed below 15.5px");
 assert(/\.det\{[^}]*max-width:74ch/.test(html) && /\.det \.step\{[^}]*display:block/.test(html), "Route detail measure or step formatting regressed");
 assert(/\.det \.step:before\{[^}]*top:50%;[^}]*translateY\(-50%\)/.test(html), "Themed quest-step bullets are not vertically centered");
-assert(/\.guidance-toggle\{[^}]*margin-left:4px/.test(html) && html.includes('.pan[open] .guidance-toggle:before{content:"Hide "}'), "Guidance Details labels are not consistently inline");
+assert(/\.guidance-toggle\{[^}]*margin-left:4px/.test(html) && html.includes('.pan[open] .guidance-toggle:before{content:"隠す "}'), "Guidance Details labels are not consistently inline");
 assert(/\.tag\{[^}]*font-size:12\.5px/.test(html) && /\.world-head\{[^}]*font-size:16px/.test(html), "Dense metadata or world-tracker text has regressed below the legibility target");
 assert(html.includes('grid-template-columns:repeat(3,minmax(180px,1fr))'), "Lookup filters lost their readable three-column layout");
 assert(html.includes('--fg3:#526b7b') && html.includes('--focus:#00658d'), "Light-theme contrast tokens regressed");
 assert(html.includes('class="tabs-shell"') && html.includes('id="hub-section-select"') && html.includes('class="hub-rail"'), "Five-hub navigation or responsive section picker is missing");
 assert(html.includes('class="chapter-heading"') && html.includes('aria-labelledby="tab-route"'), "Route heading or tab-panel semantics are missing");
-assert(html.includes('aria-pressed="true">All') && html.includes('id="route-count"'), "Route filter state or result feedback is missing");
-assert(html.includes('class="route-build-grid"') && html.includes('<h3>Slot now</h3>'), "Route build updates are not structurally formatted");
+assert(html.includes('aria-pressed="true">すべて') && html.includes('id="route-count"'), "Route filter state or result feedback is missing");
+assert(html.includes('class="route-build-grid"') && html.includes('<h3>今の枠</h3>'), "Route build updates are not structurally formatted");
 assert(html.includes('function routeTitle(html)') && html.includes('${tag}${routeTitle(it.t)}'), "Route status emoji are not normalized into the icon and tag system");
 assert(html.includes('function ensurePanelData(name)') && html.includes('completionLoad = loadData(') && html.includes('monsterLoad = loadData('), "Heavy secondary datasets are not lazy loaded");
 assert(!html.includes('max-width:1440px'), "Appearance mode must not change the guide container width");
@@ -400,14 +401,14 @@ assert(html.includes('id="p-companion"') && html.includes('id="session-dashboard
 assert(html.includes('class="route-subchecks"') && html.includes('data-subcheck-parent=') && html.includes('routeSteps: cleanNestedMap'), "Persistent nested route checkpoints are not wired into the guide");
 assert(/\.it label\.route-subcheck\{[^}]*display:flex[^}]*column-gap:16px/.test(html) && /\.route-subcheck input\{[^}]*margin:0 0 0 3px/.test(html), "Nested route checkboxes lost their label spacing");
 assert(!/<details(?![^>]*\bopen\b)/.test(html), "Every disclosure must start expanded");
-assert(html.includes('function routeAwareEncounterAdvice') && html.includes('Party replaced with the roster actually available'), "Encounter recommendations are not constrained to the route-era roster");
+assert(html.includes('function routeAwareEncounterAdvice') && html.includes('今出せる編成に置き換えた'), "Encounter recommendations are not constrained to the route-era roster");
 assert(html.includes('id="guide-search"') && html.includes('class="header-tools"') && html.includes('class="header-status"'), "Header search, theme, and progress regions are not structurally separated");
-assert(html.includes('class="header-console"') && html.includes('ROUTE PROGRESS'), "Extreme header console or progress label is missing");
-assert(html.includes('function renderBuildGoalComparison') && html.includes('Same ${reliable.length} normal Arts') && html.includes('class="build-delta"'), "Reliable-versus-fortress build comparison is missing");
+assert(html.includes('class="header-console"') && html.includes('ルート進行'), "Extreme header console or progress label is missing");
+assert(html.includes('function renderBuildGoalComparison') && html.includes('通常アーツは同じ ${reliable.length} 個') && html.includes('class="build-delta"'), "Reliable-versus-fortress build comparison is missing");
 assert(html.includes('grid-template-columns:repeat(5,minmax(0,1fr))!important') && html.includes('overflow:visible!important'), "Five-hub navigation no longer guarantees a non-scrolling layout");
 assert(workshop.gifts.length === 300 && new Set(workshop.gifts.map(gift => gift.name)).size === 300, "Gift Optimizer matrix is incomplete or duplicated");
 assert(workshop.gifts.every(gift => Object.keys(gift.affinity).length === 7), "A gift is missing a base-game recipient value");
-const giftAreas = ["Colony 9","Tephra Cave","Bionis' Leg","Colony 6","Ether Mine","Satorl Marsh","Makna Forest","Frontier Village","Eryth Sea","Alcamoth","High Entia Tomb","Valak Mountain","Sword Valley","Galahad Fortress","Fallen Arm","Mechonis Field","Central Factory","Agniratha","Bionis' Interior","Prison Island","Other"];
+const giftAreas = ["コロニー9","テフラ洞窟","巨神脚","コロニー6","中央採掘場","燐光の地ザトール","マクナ原生林","サイハテ村","エルト海","皇都アカモート","ハイエンター墓所","ヴァラク雪山","大剣の渓谷","ガラハド要塞","落ちた腕","機神界フィールド","中央工廠","帝都アグニラータ","巨神胎内","監獄島","Other"];
 assert(new Set(workshop.gifts.map(gift => gift.area)).size === giftAreas.length, "Gift Optimizer area extraction is incomplete");
 assert(workshop.gifts.every(gift => giftAreas.includes(gift.area)), "Gift Optimizer contains an unknown area");
 assert(workshop.gifts.filter(gift => gift.area === "Other").length < 20, "Gift Optimizer incorrectly assigned most or all gifts to Other");
@@ -415,9 +416,9 @@ assert(workshop.gifts.every(gift => gift.area === "Other" || !gift.name.endsWith
 assert(["strong","medium","gentle"].every(flame => workshop.gemPairs[flame]?.length), "Gem Crafting pair guidance is incomplete");
 for (const id of ["p-chain","p-gems","p-gifts","p-party","hub-breadcrumb","hub-rail","hub-section-select"]) assert(html.includes(`id="${id}"`), `Workshop or hub UI is missing ${id}`);
 assert(html.includes('Object.values(HUBS).forEach(hub=>hub.sections.forEach') && html.includes('sectionSearchTerms'), "Global search does not derive entries from every hub subsection");
-assert(html.includes('data-party-members="shulk,dunban,riki"') && html.includes('data-chain-party="shulk,dunban,riki"') && html.includes('data-gem-target="Night Vision"'), "Endgame contextual links do not carry party, chain, and gem context");
+assert(html.includes('data-party-members="shulk,dunban,riki"') && html.includes('data-chain-party="shulk,dunban,riki"') && html.includes('data-gem-target="夜間命中アップ"'), "Endgame contextual links do not carry party, chain, and gem context");
 assert(html.includes('function partyContextAttributes') && html.includes('function primaryGemTargetForUpdate') && html.includes('data-gift-route='), "Route contextual links do not carry party, gem, or Heart-to-Heart context");
-assert(html.includes('Forced two-person phase') && html.includes('partySize=Math.min(3,phase.roster.length)'), "Party Lab does not handle the temporary two-person roster");
+assert(html.includes('二人だけの強制進行') && html.includes('partySize=Math.min(3,phase.roster.length)'), "Party Lab does not handle the temporary two-person roster");
 assert(html.includes('data-chain-target=') && html.includes('data-search-monster-drop=') && html.includes('function monsterGuideSearchText'), "Monster, chain, or gem contextual lookup is missing");
 assert(fs.existsSync(path.join(root, "manifest.webmanifest")) && fs.existsSync(path.join(root, "sw.js")), "PWA manifest or service worker is missing");
 

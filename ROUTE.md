@@ -1,1724 +1,1723 @@
-# Xenoblade Chronicles DE (Switch 2) — The 100% Route
+# Xenoblade Chronicles DE (Switch 2) — 100%ルート
 
-> **Generated file — do not edit by hand.**
-> Source of truth is `data/route-data.js`. Regenerate with `node build-route-md.js`.
-> The interactive version with tick-boxes is `index.html`.
+> **生成ファイル。手で編集しない。**
+> 正本は `data/route-data.js`。対話版は `index.html`。
 
-Profile: **fresh file, Expert Mode, cap at story level and bank the surplus, full spoilers, Shulk-controlled.**
+プロフィール: **初期データ、Expert Mode、本編の目標レベルで頭打ちにして余りは貯める、ネタバレあり、シュルク操作。**
 
-🔴 hard deadline · 🟡 soft deadline · 💜 Heart-to-Heart · ⛏️ Colony 6 material · 👾 Unique Monster · 🏁 Grand Prix · 📜 quest · ⚪ safe
+🔴 硬い期限 · 🟡 柔らかい期限 · 💜 キズナトーク · ⛏️ コロニー6の素材 · 👾 Unique Monster · 🏁 Grand Prix · 📜 クエスト · ⚪ 安全
 
 ---
 
-## Standing rules
+## 常に守る規則
 
-Apply in every chapter. Not repeated below.
+どの章でも適用する。下では繰り返さない。
 
-1. **Talk to every named NPC twice**, at different times of day, and again after finishing a batch of quests. This is the Affinity Chart engine.
-2. **Never sell a collectable** without checking it against the Colony 6 bill of materials. Sell weapons and armour freely.
-3. **Bank EXP.** Set your level to the chapter target and leave it. The bank is for the post-game.
-4. **Register every collectable** to the Collectopaedia before selling duplicates.
-5. **Kill every Unique Monster once, on sight.** First kill grants an Affinity Coin to all seven characters.
+1. **名前のあるNPCには、時間帯を変えて2回話しかける。** クエストをまとめて終えたあとももう一度。これがキズナグラムのエンジンだ。
+2. **コレクタブルは、コロニー6の必要素材と照合するまで売らない。** 武器と鎧は売ってよい。
+3. **EXPは貯める。** レベルはその章の目標に合わせて、そのままにする。貯金はクリア後のため。
+4. **コレクタブルは、重複を売る前にコレペディアへ登録する。**
+5. **Unique Monster は、見つけたら一度は倒す。** 初回撃破で7人全員にキズナコインが入る。
 
-### The collectable farm loop — use this constantly
+### コレクタブル周回
 
-**Skip Travel resets every emptied Collection Point.** Empty the collection points in an area, Skip Travel to any landmark, come straight back, and they have refilled. Each point draws from a fixed pool, so each cycle re-rolls the rare slot.
+**スキップトラベルは、空にした採集ポイントを戻す。** エリアの採集ポイントを空にし、ランドマークへスキップトラベルしてすぐ戻ると、補充されている。各ポイントは決まったプールから出るので、周回するたびにレア枠が振り直される。
 
-Pick a landmark with several collection points within thirty seconds of it. That is your farm. Ten cycles takes about five minutes and beats wandering the map every time.
+ランドマークから30秒以内に採集ポイントが複数ある場所を選ぶ。そこが周回地点だ。10周はおよそ5分で、マップを歩き回るより速い。
 
-### Heart-to-Heart reality check
+### キズナトーク
 
-Party join order: Shulk/Reyn/Fiora Ch1 → **Sharla Ch4** → **Dunban permanent Ch5** → **Melia and Riki Ch7** → **Fiora returns Ch12**.
+加入順: シュルク／ライン／フィオルンが1章 → **カルナが4章** → **ダンバンが5章で恒久** → **メリアとリキが7章** → **フィオルンが12章で復帰**。
 
-A pair cannot reach high affinity before they have been in the party together a long time. **Roughly 20 of the 63 are Pink-tier and cannot be done before the late game**, no matter how you route. That is the game, not a routing failure. Each one below is pinned to the earliest chapter it is actually achievable.
+二人は、一緒にパーティにいる時間が長くないと高いキズナに届かない。**63件のうちおよそ20件はピンク帯で、終盤までできない。** ルートの失敗ではない。下の各件は、実際に達成できる最も早い章に置いてある。
 
-### Quest types — how they complete
+### クエストの終わり方
 
-**Generic quests** (Monster, Challenge, Material, Collection, Search) come from unnamed NPCs and **complete automatically in the field**. No walk back. A **Challenge** quest's whole objective is killing one named Unique Monster — the quest and the kill are the same action, and the monster will not be there until you take the quest.
+**一般クエスト**（モンスター、チャレンジ、素材、収集、探索）は名前のないNPCから出て、**フィールドで自動的に完了する。** 戻る必要はない。**チャレンジ**の目標は、名前のある Unique Monster を1体倒すことだ。クエストと撃破は同じ行動で、受注するまでその敵はいない。
 
-**Named-NPC quests** are the opposite: you must return to the person who gave it.
+**名前のあるNPCのクエスト**は逆で、渡した相手のところへ戻る。
 
 ---
 
 ## Chapter 0 — Before you press start
 
-**Level —** · 2 tracked items
+**レベル —** · 追跡 2件
 
-1. ⚪ Set difficulty to **Expert Mode** in the options.
+1. ⚪ オプションで難易度を**Expert Mode**にする。
 
-> **📊 Set your level — How Expert Mode levelling actually works**
+> **📊 レベルを合わせる — How Expert Mode levelling actually works**
 >
-> Two things to understand before you use it.
+> 使う前に、理解しておくことが2つある。
 >
-> **1. EXP goes to a bank, not straight into levels.** Open the menu and you will see banked EXP separate from your level. You spend it deliberately.
-> **2. It is fully reversible.** Levelling down refunds the EXP back into the bank. There is no way to waste it and no penalty for holding a large bank.
+> **1. EXPはレベルへ直接入らず、バンクに入る。**メニューを開くと、レベルとは別に貯まったEXPが見える。使うときは自分で決めて消費する。
+> **2. 完全に元へ戻せる。**レベルを下げるとEXPはバンクへ返る。無駄にする手段はなく、バンクを大量に抱えてもペナルティはない。
 >
-> **The policy for this run:** sit at the level this guide gives for each chapter and bank everything else. You are saving it for the post-game, where the superbosses are Lv100 to Lv120 and you will finish the story around Lv90. That gap is what the bank closes.
+> **この周回の方針：**各章でこの攻略が示すレベルに合わせ、残りはすべてバンクする。取っておくのはクリア後のためだ。スーパーボスはLv100からLv120で、ストーリー終了時はLv90前後になる。その差をバンクが埋める。
 >
-> You will also **drop** your level on purpose sometimes: some quests have level conditions, and Unique Monsters stop giving useful fights if you outclass them.
+> ときには意図的にレベルを**下げる**。レベル条件のあるクエストがあり、ユニークモンスターはこちらが上回りすぎると、戦いとして意味がなくなる。
 
-> **⚔️ Party & build — Guide control policy: Shulk for reliable first clears**
+> **⚔️ パーティとビルド — 攻略上の操作方針：確実な初回クリアはシュルク**
 >
-> Visions can occur even when Shulk is not active, but controlling him makes the guide's manual responses dependable: use Monado Shield for a sufficiently low-level enemy Talent Art, Monado Armour against physical/ether Arts, Monado Speed on a physical target, or a **B** warning to the targeted ally. The AI cannot choose among those encounter-specific reactions reliably.
+> 未来視はシュルクを操作していないときでも発生する。ただし操作すると、この攻略の手動対応が安定する。敵のTalent Artが十分に低レベルならモナドシールド、物理／エーテルのアーツにはモナド アーマー、物理の対象にはモナド スピード、狙われた味方には**B**の警告、という使い分けだ。AIは、戦闘ごとのこうした対応を安定して選べない。
 >
-> This is a safe-route recommendation, not a game requirement. One planned alternative later is player-controlled Melia for Ether burst and superboss farming.
+> これは安全ルートの推奨であり、ゲームの必須条件ではない。後で予定している別案は、エーテルバーストとスーパーボス周回のために、プレイヤーがメリアを操作する形だ。
 
-2. ⚪ Confirm Shulk is your party leader before you start questing.
+2. ⚪ クエストを始める前に、パーティリーダーがシュルクであることを確認する。
 
-> **ℹ️ Note — 🔴 THE PARTY-LEADER TRAP — the most dangerous mechanic in the game**
+> **ℹ️ メモ — 🔴 THE PARTY-LEADER TRAP — the most dangerous mechanic in the game**
 >
-> **Twenty-three later route steps depend on the active party leader.** Eighteen quests list a leader prerequisite (the two mutually exclusive Young Captain finales share one route card), four more hide a leader-only interaction in the middle, and two one-time Melia events require you to control her. There is often no useful error message: the quest simply fails to appear or progress.
+> **この先のルート手順のうち23件は、操作中のパーティリーダーに依存する。**18件のクエストがリーダー条件を持ち（相互排他のYoung 機長の結末2つは、ルートカードを1枚共有する）、さらに4件は途中にリーダー限定の会話を隠し、一度きりのメリアのイベント2件は、その操作を必要とする。役に立つエラーは出ないことが多い。クエストが出現しないか、進まないだけだ。
 >
-> **Extra-skill-tree rule:** lead with the character whose tree the quest awards. The one exception is `Stunted Growth`: **Dunban accepts it, then Shulk must turn it in.**
+> **追加スキルツリーの規則：**そのクエストが与えるツリーのキャラクターをリーダーにする。唯一の例外は`成長するために！`。**受けるのはダンバン、報告はシュルクが行う。**
 >
-> **Other easy-to-miss gates:** Shulk for `The Broken Watch`, the Dean step of `Rocco's Heartful Request`, `Making a Mixer`, `Paola and Narine` and `A Token of Friendship`; Melia for `Building Bridges`; Dunban for `Obstinate Berryjammy`; Sharla for the conversations in `Stopping the Elopement`.
+> **見落としやすい他の条件：**シュルクは`機械オンチの腕時計`、ディーンの手順である`ロコの切実な願い`、`ミキサー製作`、`パオラとネリネ`と`友人思い`。メリアは`他種族嫌いを治して`。ダンバンは`意地っ張りストロジャム`。カルナは`逃避行の阻止`の中の会話。
 >
-> **Every exact gate is repeated on its route card with a pink Required Leader badge.** If a quest you expect is absent, use that badge before assuming it is missable.
+> **正確な条件はすべて、各ルートカードにピンクのRequired Leaderバッジで再掲してある。**出るはずのクエストが無いときは、取り逃しと判断する前にそのバッジを確認する。
 
-> **ℹ️ Note — 🔴 One dialogue choice permanently destroys a quest**
+> **ℹ️ メモ — 🔴 One dialogue choice permanently destroys a quest**
 >
-> There is exactly one place in this game where picking the wrong conversation option kills content forever, with no warning and no retry.
+> このゲームで、会話の選択を間違えると警告もやり直しもなくコンテンツが永久に消える場所は、ちょうど1つだけだ。
 >
-> **`The Old Soldier's Test`** — Jan, at the training ground on the east side of Colony 9's **Military District**.
+> **`老兵ヤーンの試練`** — ヤーン。コロニー9の**軍事区**の東側にある訓練場にいる。
 >
-> To unlock it you must talk to **Dionysis** in the Residential District and answer:
-> **✅ &quot;He's too old for that girl.&quot;**
-> **❌ &quot;Love keeps the ticker going&quot;** — this **permanently kills the quest for the entire playthrough.**
+> 解放するには**ディオニージス**と居住区で話し、次のように答える。
+> **✅ &quot;あの娘には歳を取りすぎている。&quot;**
+> **❌ &quot;恋が心臓を動かし続ける&quot;** — これを選ぶと**このプレイを通してクエストが永久に消える。**
 >
-> It costs you 5,000 EXP, the **Dawn Staff** (two gem slots), and the Unique Monster **Elder Gragus** — an Affinity Coin for all seven characters.
+> 失うものは5,000 EXP、**昼夜の杖**（ジェムスロット2つ）、ユニークモンスター**老兄のグラグース** — 全7キャラクター分のキズナコインだ。
 >
-> Full prerequisites, since they are fiddly: Melia must have temporarily joined in Makna Forest · **Colony 9 affinity at 3★** · Dionysis, Cheryl and Minnie registered on the Affinity Chart · talk to **Jan between 9:00 and 15:00** first to give him affinity for Minnie · *then* speak to Dionysis and answer correctly.
+> 条件は細かいので全部書く。メリアがマクナ原生林で一時加入していること · **コロニー9の友好度が3★** · ディオニージス、ツィリル、メイニーがキズナグラムに登録済み · 最初に**ヤーンと9:00から15:00のあいだに**話し、メイニーへのキズナを付ける · *それから*ディオニージスと話し、正しく答える。
 
 ---
 
-## Chapter 1 — Colony 9 and Tephra Cave
+## Chapter 1 — コロニー9とテフラ洞窟
 
-**Level 1-10** · 23 tracked items
+**レベル 1-10** · 追跡 23件
 
-> Party: Shulk and Reyn, then Fiora joins in Tephra Cave. **Colony 9 never permanently closes**, so nothing here is a true emergency — but the quests are affinity-gated in a chain, so the order below is the order they actually unlock in.
+> パーティ：シュルクとライン。その後フィオルンがテフラ洞窟で加入する。**コロニー9は永久に閉じない**ので、ここには本当の緊急事態はない — ただしクエストはキズナで連鎖的に解放される。下の順番が、実際に解放される順番だ。
 
-> **📊 Set your level — Levels 1 to 10 — do not touch the slider yet**
+> **📊 レベルを合わせる — Levels 1 to 10 — do not touch the slider yet**
 >
-> Chapter 1 enemies are Lv1-10 and you level naturally through them. There is nothing to bank yet and nothing to spend. Just play.
+> 1章の敵はLv1-10で、戦っていれば自然にレベルが上がる。まだバンクするものも、使うものもない。そのまま進める。
 >
 > First real decision point is Chapter 4. From there the guide gives you a number each chapter.
 
-> **ℹ️ Note — How Colony 9's quests are gated — read this once**
+> **ℹ️ メモ — コロニー9のクエストの解放条件 — 一度読んでおく**
 >
-> Colony 9 side quests unlock on **Area Affinity** (the star rating for the region), and completing quests is what raises it. So there is a forced order:
+> コロニー9のサイドクエストは**エリア友好度**（その地域の星評価）で解放され、上げるのはクエストの完了だ。だから順番は固定される。
 >
-> **No gate** → The Key to a Long Life · Lonely Niranira · Biscuits for a Grandson · The Broken Watch · all generic quests
-> **1.25★** → A Young Captain's Request
-> **1.5★** → A Curry Conundrum · Rocco's Heartful Request
-> **2★** → Pride and Courage · Dean's Shady Request
-> **2.5★** → Liliana's Sincere Request
+> **条件なし** → 元気の秘訣 · 孤独なニルニー · 孫へのクッキー · 機械オンチの腕時計 · 汎用クエストすべて
+> **1.25★** → 小娘隊長の依頼
+> **1.5★** → 人気カレー屋のピンチ · ロコの切実な願い
+> **2★** → 勇気とプライド · ディーンの邪な願い
+> **2.5★** → リルカの真剣な願い
 >
 > Work top to bottom. If a quest below is not showing up, you have not done enough of the ones above it.
 
-> **ℹ️ Note — Generic quests do not need turning in**
+> **ℹ️ メモ — Generic quests do not need turning in**
 >
-> **Monster Quests** (kill N of an enemy), **Challenges** (kill one Unique Monster), **Material**, **Collection** and **Search** Quests all come from unnamed NPCs and **complete automatically in the field** the moment you satisfy them. No walk back.
+> **討伐クエスト**（敵をN体倒す）、**強敵を求めて**（ユニークモンスターを1体倒す）、**素材**、**収集**、**おさがし**の各クエストは、名前のないNPCから出る。条件を満たした瞬間に**フィールドで自動完了する**。戻る必要はない。
 >
-> **Named-NPC quests are the opposite** — you must return to the person who gave it. Every named quest below tells you where to return.
+> **名前のあるNPCのクエストは逆だ** — 渡した本人のところへ戻る必要がある。下に挙げる名前付きクエストには、戻る場所を書いてある。
 >
 > The one-line pickup schedules and objectives below are cross-checked against the <a href="https://nightlygamingbinge.com/xenoblade-chronicles-colony-9-side-quests/" target="_blank" rel="noopener">Colony 9 side-quest ledger</a> and individual <a href="https://xenoblade.fandom.com/wiki/Colony_9_Quests" target="_blank" rel="noopener">Xenoblade Wiki quest records</a>.
 
-> **ℹ️ Note — First arrival circuit — follow the clock, not the category list**
+> **ℹ️ メモ — First arrival circuit — follow the clock, not the category list**
 >
-> If you reach Colony 9 at **night**, do this compact loop first: **Central Plaza** (take Search Quest 1) → **Commercial District** (take Material Quest 2) → **Gem Man's Stall** (take The Broken Watch with Shulk leading) → **Dunban's House** (pick up the Wedding Ring behind it) → **Tranquil Square** and **Fortress Entrance** (register the night Defence Force members).
+> コロニー9に**夜**着いたら、まずこの短い周回をする。**Central Plaza**（おさがしクエスト1を受ける）→ **商業区**（素材クエスト2を受ける）→ **ジェム爺の露天商**（機械オンチの腕時計をシュルクがリーダーの状態で受ける）→ **ダンバン邸**（その奥の結婚指輪を拾う）→ **居住区 憩いの広場**と**軍事区 正門**（夜のDefence Force隊員を登録する）。
 >
-> At **day**, sweep Tranquil Square → Ether Light → Fortress Entrance for the remaining named quests and Defence Force members. The cards below are ordered around those two real walking circuits; individual generic quests have their own sub-checkboxes, so taking one does not imply the whole bundle is finished.
+> **昼**は、居住区 憩いの広場 → エーテル Light → 軍事区 正門を回り、残りの名前付きクエストとDefence Force隊員を回収する。下のカードは、その2つの実際の歩行周回に沿って並べてある。汎用クエストは個別のサブチェックを持つので、1つ受けただけでは束の全体が終わったことにはならない。
 
-1. ➡️ **MAIN STORY · Delivering Food** — Dunban's House to Outlook Park
-   - **Start:** control Fiora at **Dunban's House** after the opening Colony 9 scenes.
-   - **Route:** take the southeast path to **Outlook Park** and give Shulk the food.
-   - **Before advancing:** the first-arrival Colony 9 circuit below is now open; clear it before leaving for Tephra Cave.
+1. ➡️ **本編 · お弁当を届ける** — ダンバン邸から見晴らしの丘公園
+   - **開始:** フィオルンを操作する。場所は**ダンバン邸**。序盤のコロニー9イベントのあと。
+   - **ルート:** 南東の道で**見晴らしの丘公園**へ行き、シュルクに弁当を渡す。
+   - **進行前:** 下の初回到着のコロニー9周回が開いている。テフラ洞窟へ発つ前に片付ける。
 
-2. 🔴 🔴 Earn **The Brave Protectors** before inviting Nic to Colony 6
-   Register all nine Colony 9 Defence Force members on the Affinity Chart: **Andreas, Dorothy, Kantz, Emmy Leater, Miller, Minnie, Monica, Nic and Raoul**. Talk to named NPCs twice and at their active time until the link registers. Inviting Nic to Colony 6 before this is complete can make the achievement unobtainable on this file.
-   **Sub-checkpoints:**
-   - [ ] Register Andreas — 18:00–06:00 · Fortress Entrance
+2. 🔴 🔴 **街を守る勇士**を、ヌークをコロニー6へ招く前に達成する
+   コロニー9のDefence Force隊員9人を全員、キズナグラムに登録する。**アードルフ、ドロテア、カンタン、エミ・リータ、ミラー、メイニー、モニカ、ヌーク、ルヒオル**。名前のあるNPCには、リンクが登録されるまで、活動時間に2回話しかける。これが終わる前にヌークをコロニー6へ招くと、このセーブデータでは実績が取れなくなることがある。
+   **サブチェック:**
+   - [ ] Register Andreas — 18:00–06:00 · 軍事区 正門
    - [ ] Register Dorothy — 06:00–18:00 · Ether Light
-   - [ ] Register Kantz — 06:00–18:00 · Fortress Entrance
-   - [ ] Register Emmy Leater — 06:00–18:00 · Fortress Entrance
-   - [ ] Register Miller — 06:00–18:00 · Fortress Entrance
-   - [ ] Register Minnie — 18:00–06:00 · Tranquil Square
-   - [ ] Register Monica — 18:00–06:00 · Fortress Entrance
-   - [ ] Register Nic — 18:00–06:00 · Fortress Entrance · do this before inviting him
-   - [ ] Register Raoul — 06:00–18:00 · Fortress Entrance
+   - [ ] Register Kantz — 06:00–18:00 · 軍事区 正門
+   - [ ] Register Emmy Leater — 06:00–18:00 · 軍事区 正門
+   - [ ] Register Miller — 06:00–18:00 · 軍事区 正門
+   - [ ] Register Minnie — 18:00–06:00 · 居住区 憩いの広場
+   - [ ] Register Monica — 18:00–06:00 · 軍事区 正門
+   - [ ] Register Nic — 18:00–06:00 · 軍事区 正門 · 彼を誘う前に行う。
+   - [ ] Register Raoul — 06:00–18:00 · 軍事区 正門
 
-3. 🔴 **Search Quests 1-4** — start with the **Wedding Ring** at night
-   - **First-night pickup:** take **Search Quest 1** from the unnamed resident in **Central Plaza, 18:00–06:00**.
-   - **Do:** collect the **Wedding Ring behind Dunban's House** in the Residential District. It auto-completes immediately.
-   **Sub-checkpoints:**
-   - [ ] Search Quest 1 — Wedding Ring — Pickup 18:00–06:00 · Central Plaza. Wedding Ring is directly behind Dunban's House.
-   - [ ] Search Quest 2 — Blue Glass Bead — Pickup 06:00–18:00 · Residential District. Blue Glass Bead is behind the southwest building near the exit bridge.
-   - [ ] Search Quest 3 — Key — Pickup 06:00–18:00 · Gem Man's Stall. The Key is behind the fenced building in southeast Residential District.
-   - [ ] Search Quest 4 — Spanner — Pickup 18:00–06:00 · south of Tranquil Square. The Spanner is on the balcony west of Gem Man's Stall; loop behind the building.
+3. 🔴 **探索クエスト1-4** — 夜の**結婚指輪**から始める
+   - **初夜の受注：**名前のない住人から**おさがしクエスト1**を受ける。場所は**Central Plaza、18:00–06:00**。
+   - **手順：****結婚指輪をダンバン邸の奥で**、居住区にて拾う。その場で自動完了する。
+   **サブチェック:**
+   - [ ] Search Quest 1 — Wedding Ring — Pickup 18:00–06:00 · Central Plaza。結婚指輪はダンバン邸の真後ろにある。
+   - [ ] Search Quest 2 — 青いガラス玉 — Pickup 06:00–18:00 · 居住区。青いガラス玉は出口の橋の近く、南西の建物の裏にある。
+   - [ ] Search Quest 3 — Key — Pickup 06:00–18:00 · ジェム爺の露天商。Key は居住区の南東、柵で囲まれた建物の裏にある。
+   - [ ] Search Quest 4 — スパナ — Pickup 18:00–06:00 · 居住区 憩いの広場の南。スパナはジェム爺の露天商の西のバルコニーにある。建物の裏へ回り込む。
 
-4. 🔴 **Material Quests 1-4** — generic, auto-complete
-   - **First-night pickup:** take **Material Quest 2** from the unnamed resident in the **Commercial District, 18:00–06:00**.
-   - **Known objectives:** Material Quest 2 — a Small Scale from the piranhas in the water below the colony. Material Quest 4 — a Yolkless Flamil Egg from **Lake Flamii, near Anti-Air Battery 1**.
-   - These consume the items when they complete, so do not sell anything odd you pick up in Colony 9 until the board is clear.
-   **Sub-checkpoints:**
-   - [ ] Material Quest 1 — 2× Small Shells — Pickup 06:00–18:00 · Weapon Dev. Lab stairs. Collect 2 Small Shells from Beach Krabbles below the Main Entrance bridge.
-   - [ ] Material Quest 2 — 1× Small Scale — Pickup 18:00–06:00 · Commercial District near Ether Light. Collect 1 Small Scale from Piranhaxes below Outlook Park.
-   - [ ] Material Quest 3 — 2× Vang Teeth — Pickup 06:00–18:00 · Commercial District bridge to Central Plaza. Collect 2 Vang Teeth from Little Vangs near the Main Entrance at night.
-   - [ ] Material Quest 4 — 1× Yolkless Flamii Egg — Pickup 18:00–06:00 · Residential District near Tranquil Square. Collect 1 Yolkless Flamii Egg from Lake Flamii south of Anti-Air Battery 1.
+4. 🔴 **素材クエスト1-4** — 汎用、自動完了
+   - **初夜の受注：**名前のない住人から**素材クエスト2**を受ける。場所は**商業区、18:00–06:00**。
+   - **判明している目標：**素材クエスト2 — コロニー下の水中にいるpiranhasから小さなウロコ。素材クエスト4 — **レイク・フラミー、対空砲1号基の近く**にいる個体からYolkless Flamil Egg。
+   - これらは完了時にアイテムを消費する。ボードが空になるまで、コロニー9で拾った見慣れないものは売らない。
+   **サブチェック:**
+   - [ ] Material Quest 1 — 2× Small Shells — Pickup 06:00–18:00 · 兵器開発局 研究棟の階段。Main Entrance の橋の下にいる Beach Krabbles から Small Shells を2個集める。
+   - [ ] Material Quest 2 — 1× 小さなウロコ — Pickup 18:00–06:00 · 商業区（エーテル Light の近く）。小さなウロコを見晴らしの丘公園の下にいる Piranhaxes から1個集める。
+   - [ ] Material Quest 3 — 2× ヴァンプの歯 — Pickup 06:00–18:00 · 商業区から Central Plaza への橋。夜に Main Entrance の近くにいる Little Vangs からヴァンプの歯を2個集める。
+   - [ ] Material Quest 4 — 1× フラミーの無精卵 — Pickup 18:00–06:00 · 居住区（居住区 憩いの広場の近く）。フラミーの無精卵をレイク・フラミー（対空砲1号基の南）から1個集める。
 
-5. 🔴 **The Broken Watch** — Désirée · **Shulk must be leading**
-   - **Pick up:** Désirée, **18:00–06:00** at the **Gem Man's Stall**. She will not give it to you unless **Shulk is the active party leader**.
-   - **Do:** collect **3x Blue Chain** around Colony 9, then go to the **Weapon Development Lab** (Shulk's lab) and mend the watch.
-   - **Turn in:** back to Désirée.
-   - **Pays:** 750 G · 80 EXP · Muscle Up II.
-   - **Why it is flagged:** this is step one of the chain to **Désirée's Future** in Chapter 6, the only source of **Shulk's hidden Pessimism skill tree**. Miss this and that tree never becomes available.
+5. 🔴 **機械オンチの腕時計** — デジレーン · **シュルクがリーダーである必要がある**
+   - **受注：**デジレーン、**18:00–06:00**、場所は**ジェム爺の露天商**。**操作中のパーティリーダーがシュルク**でないと渡さない。
+   - **手順：****3x ブルーチェーン**をコロニー9周辺で集め、それから**Weapon Development Lab**（シュルクの研究所）へ行って時計を直す。
+   - **報告：**デジレーンのところへ戻る。
+   - **報酬：**750 G · 80 EXP · 物理防御増 II。
+   - **印を付けた理由：**これは6章の**デジレーンの将来**へ続く連鎖の最初の手順で、**シュルクの隠しPessimismスキルツリー**の唯一の入手元だ。ここを逃すと、そのツリーは二度と出ない。
 
-6. 🔴 **Collection Quests 1-4** — generic, auto-complete
-   - **Known objective:** Collection Quest 2 — one **Plate Snow**, from the field outside town. Given by an old man in the northwest of the Commercial District.
-   **Sub-checkpoints:**
-   - [ ] Collection Quest 1 — 2× Rabbit Diodes — Pickup 06:00–18:00 · Commercial District near Ether Light. Collect 2 Rabbit Diodes between Mechon Wreckage Site and Tephra Hill.
-   - [ ] Collection Quest 2 — 1× Plate Snow — Pickup 18:00–06:00 · upper northwest Commercial District behind Gem Man's Stall. Collect 1 Plate Snow from Colony 9 ground points.
-   - [ ] Collection Quest 3 — 2× Rainbow Zirconias — Pickup 06:00–18:00 · shop east of Tranquil Square. Collect 2 Rainbow Zirconias from Colony 9 ground points; Dionysis trades them at 1★.
-   - [ ] Collection Quest 4 — 1× Giant Hornet — Pickup 06:00–18:00 · east of Tranquil Square. Collect 1 Giant Hornet from Colony 9 ground points; Dean trades it at 1★.
+6. 🔴 **収集クエスト1-4** — 汎用、自動完了
+   - **判明している目標：**収集クエスト2 — **プレート・スノー**を1つ、町の外のフィールドから。依頼人は商業区の北西にいる老人。
+   **サブチェック:**
+   - [ ] Collection Quest 1 — 2× Rabbit Diodes — Pickup 06:00–18:00 · 商業区（エーテル Light の近く）。機神兵残骸跡地とテフラ坂のあいだで Rabbit Diodes を2個集める。
+   - [ ] Collection Quest 2 — 1× プレート・スノー — Pickup 18:00–06:00 · 北西上部の商業区（ジェム爺の露天商の裏）。プレート・スノーをコロニー9の地面の採取ポイントから1個集める。
+   - [ ] Collection Quest 3 — 2× Rainbow Zirconias — Pickup 06:00–18:00 · 居住区 憩いの広場の東の店。コロニー9の地面の採取ポイントから Rainbow Zirconias を2個集める。ディオニージスが1★で交換する。
+   - [ ] Collection Quest 4 — 1× オオジロバチ — Pickup 06:00–18:00 · 居住区 憩いの広場の東。オオジロバチをコロニー9の地面の採取ポイントから1個集める。ディーンが1★で交換する。
 
-7. 📜 **The Key to a Long Life** — Dionysis
-   - **Pick up:** Dionysis, Residential District (near Tranquil Square).
-   - **Do:** kill Brogs around Colony 9 until you have **2x Medicinal Brog Oil**.
-   - **Turn in:** back to Dionysis.
-   - **Pays:** 500 G · 50 EXP · Light Shoes (has an empty gem slot) · +100 Colony 9 affinity.
+7. 📜 **元気の秘訣** — ディオニージス
+   - **受注：**ディオニージス、居住区（居住区 憩いの広場の近く）。
+   - **手順：**コロニー9周辺のBrogsを倒し、**2x グロッグの薬効油**を揃える。
+   - **報告：**ディオニージスのところへ戻る。
+   - **報酬：**500 G · 50 EXP · ライトシューズ（空きジェムスロットあり） · +100のコロニー9友好度。
 
-8. 📜 **Lonely Niranira** — Niranira
-   - **Pick up:** Niranira, Tranquil Square.
-   - **Do:** take her letter to **Lukas**, also in Tranquil Square.
-   - **Turn in:** back to Niranira.
-   - **Pays:** 100 G · 50 EXP · Block Guarder.
-   - **Unlocks:** Pride and Courage — **do not skip this**, the chain eventually reaches Friendship Tokens in Ch17, which is Reyn's hidden Camaraderie skill tree.
+8. 📜 **孤独なニルニー** — ニルニー
+   - **受注：**ニルニー、居住区 憩いの広場。
+   - **手順：**手紙を**グレフ**へ渡す。同じ居住区 憩いの広場にいる。
+   - **報告：**ニルニーのところへ戻る。
+   - **報酬：**100 G · 50 EXP · ブロックガーダー。
+   - **解放：**勇気とプライド — **飛ばさない**。この連鎖は17章の友情の三種の神器に到達し、それはラインの隠しCamaraderieスキルツリーだ。
 
-9. 📜 **Biscuits for a Grandson** — Marcia
-   - **Pick up:** Marcia, Ether Light (Commercial District).
-   - **Do:** take Marcia's Biscuits to **Jiroque** in the Residential District — he is training to beat his older brother.
-   - **Turn in:** back to Marcia.
-   - **Pays:** 800 G · 30 EXP · Swimming Sandals.
-   - **Unlocks later:** the brothers' branch becomes available after Riki joins. It is routed at the first valid Chapter 7 return visit, not during this opening sweep.
+9. 📜 **孫へのクッキー** — マーシャ
+   - **受注：**マーシャ、エーテル Light（商業区）。
+   - **手順：**マーシャのクッキーを**ジローク**へ居住区で届ける — 兄に勝つための訓練中だ。
+   - **報告：**マーシャのところへ戻る。
+   - **報酬：**800 G · 30 EXP · スイマーサンダル。
+   - **後で解放：**兄弟の分岐はリキ加入後に出る。最初の有効な7章の再訪時に回す。この最初の周回ではやらない。
 
-> **ℹ️ Note — The four Challenge quests ARE the Unique Monster fights**
+> **ℹ️ メモ — 4つの強敵を求めてクエストは、ユニークモンスター戦そのものだ**
 >
-> This trips people up. A **Challenge** quest's entire objective is *kill one named Unique Monster*. You are not doing a quest and then separately hunting a monster — they are the same action, and the monster will not be there until you take the quest.
+> ここでつまずく人が多い。**強敵を求めて**クエストの目標は、全体が*名前のあるユニークモンスターを1体倒す*ことだ。クエストをやってから別にモンスターを狩るのではない — 同じ行為であり、クエストを受けるまでそのモンスターは出現しない。
 >
-> So: take the Challenge, go kill the thing, it auto-completes. Each one also gives every party member an **Affinity Coin**, which is the currency for Skill Links later.
+> だから、強敵を求めてを受け、倒しに行き、自動完了させる。それぞれ、パーティ全員に**キズナコイン**も渡す。これは後のスキルリンクの通貨だ。
 
-10. 👾 **Challenge 1** → kill **Evil Rhangrot** (Lv6)
-   - **Pick up:** Defence Force Soldier, **Military District** — the dark alley by the containers to the northeast.
-   - **Do:** kill Evil Rhangrot near **Tephra Hill**. It is escorted by two Hand Bunnits. It drops a **Gold Chest**.
-   - **Pays:** 1,800 G · +50 Rep · one Affinity Coin for all seven characters.
+10. 👾 **強敵を求めて1** → **横道のラングロット**を倒す（Lv6）
+   - **受注：**防衛隊員、**軍事区** — 北東のコンテナ脇の暗い路地。
+   - **手順：**横道のラングロットを**テフラ坂**の近くで倒す。Hand Bunnitsが2体護衛についている。**Gold Chest**を落とす。
+   - **報酬：**1,800 G · +50 Rep · 全7キャラクターにキズナコイン1枚。
 
-11. 👾 **Challenge 2** → kill **Verdant Bluchal** (Lv5)
-   - **Pick up:** a Colony 9 Resident in the **Commercial District** (around Ether Light).
-   - **Do:** kill Verdant Bluchal on the beach near **Anti-Air Battery 1**.
-   - **Pays:** 1,800 G · +50 Rep · Affinity Coin.
+11. 👾 **強敵を求めて2** → **新緑のブルックル**を倒す（Lv5）
+   - **受注：**コロニー9住人、場所は**商業区**（エーテル Light周辺）。
+   - **手順：**新緑のブルックルを**対空砲1号基**近くの浜で倒す。
+   - **報酬：**1,800 G · +50 Rep · キズナコイン。
 
-12. 👾 **Challenge 3** → kill **Lake Magdalena** (Lv6) · **night only**
-   - **Pick up:** Defence Force Soldier, **Military District**.
-   - **Do:** Lake Magdalena appears **only at night**, in the pool **below Outlook Park**. If it is daytime, rest at an inn or wait for the clock.
-   - **Pays:** 3,000 G · +50 Rep · Affinity Coin.
+12. 👾 **強敵を求めて3** → **湖面のマグダレーナ**を倒す（Lv6） · **夜だけ**
+   - **受注：**防衛隊員、**軍事区**。
+   - **手順：**湖面のマグダレーナの出現は**夜だけ**、場所は**見晴らしの丘公園の下**の池。昼なら宿で休むか、時計が回るのを待つ。
+   - **報酬：**3,000 G · +50 Rep · キズナコイン。
 
-13. 👾 **Itinerant Dorothea** (Lv6) — free-roaming, no quest needed
-   Cliff Lake, **daytime**. Not tied to any Challenge — just go and kill it.
+13. 👾 **借宿のドロテーア**（Lv6） — 自由に徘徊、クエスト不要
+   断崖の池、**昼**。どの強敵を求めてとも結び付いていない — 行って倒すだけだ。
 
-> **🌦️ Weather / time — Time-of-day targets in Colony 9**
+> **🌦️ 天候 / 時間 — コロニー9の時刻指定ターゲット**
 >
-> Two things here need the clock moved, and it is worth doing them in one night trip rather than two:
-> **Night** → Lake Magdalena, in the pool below Outlook Park (Challenge 3).
-> **Day** → Itinerant Dorothea at Cliff Lake.
+> ここで時計を動かす必要があるものが2つあり、2回に分けず1回の夜の移動でやる価値がある。
+> **夜** → 湖面のマグダレーナ。見晴らしの丘公園の下の池（強敵を求めて3）。
+> **昼** → 借宿のドロテーア、場所は断崖の池。
 >
-> You cannot set the clock directly this early. Sleep at an inn or just keep questing and it will roll around.
+> この早い段階では、時計を直接合わせられない。宿でスリープするか、クエストを続けていれば時刻は回る。
 
-> **ℹ️ Note — These generic quests are flagged timed — but nobody says when they expire**
+> **ℹ️ メモ — These generic quests are flagged timed — but nobody says when they expire**
 >
-> Game8 marks the whole Colony 9 generic block (Monster, Challenge, Material, Collection, Search) as **timed**, meaning they expire at some story point. It does **not** say which point, and the authoritative missables lists do not mention Colony 9 quests at all.
+> Game8はコロニー9の汎用ブロック全体（討伐、強敵を求めて、素材、収集、探索）を**時限**としている。どこかのストーリー時点で期限が切れる、という意味だ。どの時点かは**書いていない**。権威のある取り逃し一覧も、コロニー9のクエストには触れていない。
 >
-> **So treat the expiry as unknown and clear the block in Chapter 1.** It costs about an hour. If they turn out to last until Mechonis Core, you lost nothing; if they expire early, you kept three Unique Monsters and a pile of Affinity Coins that are otherwise gone.
+> **だから期限は不明として扱い、1章のうちにこの塊を片付ける。**かかるのは約1時間だ。機神界中枢まで残ると分かっても失うものはない。早く切れるなら、そうでなければ消えるユニークモンスター3体と、キズナコインの山を残せる。
 
-14. 🔴 **Monster Quests 1-4** (all parts) — generic, auto-complete
-   - **Pick up:** Defence Force Soldiers at the Fortress Entrance, Colony 9 Residents at Ether Light, and a guard outside Tephra Cave.
-   - **Known objectives:** Monster Quest 1 — kill Ridge Antois near the water, then a Lv6 Cute Brog that only appears **at night** by the shore, then 3x Lv9 Colony Krabble at **Cliff Lake at night**. Monster Quest 4 — kill 1 Willow Bunniv, 2x Lv8 Singing Brog, and 5x Lv5 Meil Lizard, all inside Tephra Cave / the ruins.
-   - **Note:** several parts are night-only, so fold them into the same night trip as Lake Magdalena.
-   **Sub-checkpoints:**
-   - [ ] Monster Quest 1 — Part 1 — 2× Ridge Antols — Pickup 18:00–06:00 · Fortress Entrance. Defeat 2 Ridge Antols on the Outlook Park beach.
-   - [ ] Monster Quest 1 — Part 2 — 1× Cute Brog — Pickup 18:00–06:00 · Fortress Entrance. Defeat 1 Cute Brog at Cliff Lake.
-   - [ ] Monster Quest 1 — Part 3 — 3× Colony Krabbles — Pickup 18:00–06:00 · Fortress Entrance. Defeat 3 Colony Krabbles around Cliff Lake / Mechon Wreckage Site at night.
-   - [ ] Monster Quest 2 — Part 1 — 2× Lake Flamii — Pickup 06:00–18:00 · Fortress Entrance. Defeat 2 Lake Flamii on the shore south of Anti-Air Battery 1.
-   - [ ] Monster Quest 2 — Part 2 — 1× Baby Armu — Pickup 06:00–18:00 · Fortress Entrance. Defeat 1 Baby Armu southwest of Anti-Air Battery 1.
-   - [ ] Monster Quest 2 — Part 3 — 2× Stone Krabbles — Pickup 06:00–18:00 · Fortress Entrance. Defeat 2 Stone Krabbles at Hazzai Cape, east of Anti-Air Battery 3.
-   - [ ] Monster Quest 3 — Part 1 — 2× Hand Bunnits — Pickup 06:00–18:00 · Gem Man's Stall. Defeat 2 Hand Bunnits on the Main Entrance → Tephra Hill trail by day.
-   - [ ] Monster Quest 3 — Part 2 — 3× Beach Krabbles — Pickup 06:00–18:00 · Gem Man's Stall. Defeat 3 Beach Krabbles below the Main Entrance bridge.
-   - [ ] Monster Quest 3 — Part 3 — 2× Wood Bunnits — Pickup 06:00–18:00 · Gem Man's Stall. Defeat 2 Wood Bunnits on Tephra Hill by day.
-   - [ ] Monster Quest 3 — Part 4 — 3× Light Skeeters — Pickup 06:00–18:00 · Gem Man's Stall. Defeat 3 Light Skeeters on the shore south of Anti-Air Battery 1 by day.
-   - [ ] Monster Quest 4 — Part 1 — 1× Willow Bunniv — Pickup 06:00–18:00 · Tephra Cave Entrance. Defeat 1 Willow Bunniv at the end of the entrance tunnel.
-   - [ ] Monster Quest 4 — Part 2 — 2× Singing Brogs — Pickup 06:00–18:00 · Tephra Cave Entrance. Defeat 2 Singing Brogs just beyond Caterpile Nest.
-   - [ ] Monster Quest 4 — Part 3 — 5× Mell Lizards — Pickup 06:00–18:00 · Tephra Cave Entrance. Defeat 5 Mell Lizards just beyond Warehouse 2.
+14. 🔴 **討伐クエスト1-4**（全部） — 汎用、自動完了
+   - **受注：**軍事区 正門にいるDefence Force Soldiers、エーテル Lightにいるコロニー9のResidents、テフラ洞窟の外にいる警備兵。
+   - **判明している目標：**討伐クエストその1 — 水辺付近のRidge Antoisを倒し、続いてLv6のキュート・グロッグを倒す。出現は岸辺で**夜だけ**。続いて3x Lv9のColony クライブを、**夜の断崖の池**で倒す。討伐クエストその4 — ウィロー・バニーヴを1体、2x Lv8のシング・グロッグ、5x Lv5のMeil リザドを倒す。すべてテフラ洞窟／廃墟の内側。
+   - **注：**いくつかの部分は夜限定なので、湖面のマグダレーナと同じ夜の移動にまとめる。
+   **サブチェック:**
+   - [ ] Monster Quest 1 — Part 1 — 2× Ridge Antols — Pickup 18:00–06:00 · 軍事区 正門。見晴らしの丘公園の浜で Ridge Antols を2体倒す。
+   - [ ] Monster Quest 1 — Part 2 — 1× キュート・グロッグ — Pickup 18:00–06:00 · 軍事区 正門。キュート・グロッグを断崖の池で1体倒す。
+   - [ ] Monster Quest 1 — Part 3 — 3× Colony Krabbles — Pickup 18:00–06:00 · 軍事区 正門。夜に断崖の池 / 機神兵残骸跡地の周辺で Colony Krabbles を3体倒す。
+   - [ ] Monster Quest 2 — Part 1 — 2× レイク・フラミー — Pickup 06:00–18:00 · 軍事区 正門。レイク・フラミーを対空砲1号基の南の岸で2体倒す。
+   - [ ] Monster Quest 2 — Part 2 — 1× ベビー・アルマ — Pickup 06:00–18:00 · 軍事区 正門。ベビー・アルマを対空砲1号基の南西で1体倒す。
+   - [ ] Monster Quest 2 — Part 3 — 2× 石ころ Krabbles — Pickup 06:00–18:00 · 軍事区 正門。石ころ Krabbles をハッザイ岬（対空砲3号基の東）で2体倒す。
+   - [ ] Monster Quest 3 — Part 1 — 2× Hand Bunnits — Pickup 06:00–18:00 · ジェム爺の露天商。昼に Main Entrance → テフラ坂の道で Hand Bunnits を2体倒す。
+   - [ ] Monster Quest 3 — Part 2 — 3× Beach Krabbles — Pickup 06:00–18:00 · ジェム爺の露天商。Main Entrance の橋の下で Beach Krabbles を3体倒す。
+   - [ ] Monster Quest 3 — Part 3 — 2× Wood Bunnits — Pickup 06:00–18:00 · ジェム爺の露天商。昼にテフラ坂で Wood Bunnits を2体倒す。
+   - [ ] Monster Quest 3 — Part 4 — 3× Light Skeeters — Pickup 06:00–18:00 · ジェム爺の露天商。昼に対空砲1号基の南の岸で Light Skeeters を3体倒す。
+   - [ ] Monster Quest 4 — Part 1 — 1× ウィロー・バニーヴ — Pickup 06:00–18:00 · テフラ洞窟 入口。入口トンネルの突き当たりでウィロー・バニーヴを1体倒す。
+   - [ ] Monster Quest 4 — Part 2 — 2× Singing Brogs — Pickup 06:00–18:00 · テフラ洞窟 入口。キャピルの巣のすぐ先で Singing Brogs を2体倒す。
+   - [ ] Monster Quest 4 — Part 3 — 5× Mell Lizards — Pickup 06:00–18:00 · テフラ洞窟 入口。第2左舷倉庫のすぐ先で Mell Lizards を5体倒す。
 
-> **ℹ️ Note — Affinity gate reached — 1.25★ quests now appear**
+> **ℹ️ メモ — Affinity gate reached — 1.25★ quests now appear**
 >
 > If the next quest is not showing, go back and finish more of the block above.
 
-15. 📜 **A Young Captain's Request** — Emmy Leater · needs **1.25★**
-   - **Pick up:** Emmy Leater, Fortress Entrance.
-   - **Do:** find **Miller** in the Commercial District and send him back. He comes quietly.
-   - **Turn in:** back to Emmy Leater.
-   - **Pays:** 600 G · 70 EXP · Dyed Top, Dyed Bottoms, Dyed Mules.
-   - **Unlocks:** A Young Captain's Suffering (Ch3), and eventually A Young Captain's Revival / Trust in Ch17 — **Shulk's hidden Bravery skill tree**.
+15. 📜 **小娘隊長の依頼** — エミ・リータ · **1.25★**が必要
+   - **受注：**エミ・リータ、軍事区 正門。
+   - **手順：****ミラー**を商業区で見つけ、帰す。おとなしく付いてくる。
+   - **報告：**エミ・リータのところへ戻る。
+   - **報酬：**600 G · 70 EXP · カラードトップス、カラードボトムズ、カラードミュール。
+   - **解放：**小娘隊長の苦難（3章）、そして最終的に17章の小娘隊長の復活／Trust — **シュルクの隠しBraveryスキルツリー**。
 
-16. 📜 **A Curry Conundrum** — Giorgio · needs **1.5★**
-   - **Pick up:** Giorgio, at the Curry Shop, Ether Light.
-   - **Do:** collect **5x Dance Apple** around Colony 9.
-   - **Turn in:** back to Giorgio. He gives you free curry forever after.
-   - **Pays:** 1,200 G · 60 EXP · Caravan Gauntlets.
-   - **Unlocks:** Overworked and Underpaid (Ch3).
+16. 📜 **人気カレー屋のピンチ** — コパム · **1.5★**が必要
+   - **受注：**コパム、Curry Shop、エーテル Light。
+   - **手順：****5x オドリンゴ**をコロニー9周辺で集める。
+   - **報告：**コパムのところへ戻る。以後、カレーは無料でもらえる。
+   - **報酬：**1,200 G · 60 EXP · キャラバンガード。
+   - **解放：**働きすぎコパム（3章）。
 
-17. 🔴 **Rocco's Heartful Request** — Rocco · needs **1.5★** · **Shulk must be leading**
-   - **Pick up:** Rocco, at Ether Light.
-   - **Do:** he needs a broken keepsake repaired. Take the pendant to **Dean at the lab**. **Dean will only accept it if Shulk is the party leader** — with anyone else leading he flatly refuses and the quest stalls with no explanation.
-   - **Turn in:** bring the repaired pendant back to Rocco.
-   - **Pays:** 350 G · 100 EXP · Tinted Glasses · Pretty Bangle.
-   - **Affinity:** repairs Rocco and Sonia from Warring Family to **Happy Family**.
-   - **Unlocks:** Dean's Shady Request.
+17. 🔴 **ロコの切実な願い** — ロコ · **1.5★**が必要 · **シュルクがリーダーである必要がある**
+   - **受注：**ロコ、エーテル Light。
+   - **手順：**壊れた形見を直してほしい。ペンダントを**ディーン、研究所へ**持っていく。**ディーンが受け取るのは、パーティリーダーがシュルクのときだけ** — ほかがリーダーだと説明なく拒み、クエストは理由も無く止まる。
+   - **報告：**直したペンダントをロコへ持ち帰る。
+   - **報酬：**350 G · 100 EXP · カラードグラス · カラードバングル。
+   - **キズナ：**ロコとソニアをWarring Familyから**Happy Family**へ直す。
+   - **解放：**ディーンの邪な願い。
 
-18. 📜 **Pride and Courage** — Lukas · needs **Lonely Niranira** + **2★**
-   - **Pick up:** Lukas, Tranquil Square.
-   - **Do:** Niranira has gone off alone to **Hazzai Cape** to get a Krabble shell. Go get him, then speak to **Moritz** to patch things up.
-   - **Turn in:** back to Lukas.
-   - **Pays:** 800 G · 100 EXP · Attack Plus II.
-   - **Affinity:** makes Moritz, Lukas and Niranira all **Best Friends** with each other — three links from one quest.
-   - **Unlocks:** **Friendship Tokens** (Ch17) = **Reyn's hidden Camaraderie skill tree**.
+18. 📜 **勇気とプライド** — グレフ · **孤独なニルニー**と**2★**が必要
+   - **受注：**グレフ、居住区 憩いの広場。
+   - **手順：**ニルニーは一人で**ハッザイ岬**へ行き、クライブの殻を取りに出ている。迎えに行き、そのあと**フリッツ**と話して仲を取り持つ。
+   - **報告：**グレフのところへ戻る。
+   - **報酬：**800 G · 100 EXP · 攻撃力強化 II。
+   - **キズナ：**フリッツ、グレフ、ニルニーが互いに**Best Friends**になる — 1つのクエストでリンク3本。
+   - **解放：****友情の三種の神器**（17章）＝**ラインの隠しCamaraderieスキルツリー**。
 
-19. 📜 **Dean's Shady Request** — Dean · needs **Rocco's** + **2★**
-   - **Pick up:** Dean, Fortress Entrance. He wants help arranging dinner with Sonia, his first love.
-   - **Do:** talk to **Sonia** → she wants **2x Shin Gecko** from **Tephra Cave** to settle her kids' argument → bring them back to Sonia.
-   - **Turn in:** report back to Dean.
-   - **Pays:** 1,500 G · 200 EXP · Lock-On Resist II.
-   - **Unlocks:** Liliana's Sincere Request.
+19. 📜 **ディーンの邪な願い** — ディーン · **ロコのクエスト**と**2★**が必要
+   - **受注：**ディーン、軍事区 正門。初恋のソニアとの夕食を手配する手伝いを求めている。
+   - **手順：****ソニア**と話す → 子供の口論を収めるため**2x スネヤモリ**を**テフラ洞窟**から欲しがっている → ソニアへ持ち帰る。
+   - **報告：**ディーンへ報告して戻る。
+   - **報酬：**1,500 G · 200 EXP · ロックオン抵抗 II。
+   - **解放：**リルカの真剣な願い。
 
-20. 📜 **Liliana's Sincere Request** — Liliana · needs **Dean's** + **2.5★**
-   - **Pick up:** Liliana, Ether Light. She is worried her mother is forgetting her late father now that she is seeing Dean.
-   - **Do:** get the **Message in a Bottle** from the small cave at **Agora Shore**, then take it to **Sonia**.
-   - **Turn in:** back to Liliana.
-   - **Pays:** 4,000 G · 500 EXP · Swimming Oil. Biggest payout in Chapter 1.
-   - **Also:** this is listed as the trigger for **Gentle Rodriguez** (Lv40) at the north end of Agora Shore. You cannot beat it at Lv10 — note the spot and come back much later.
+20. 📜 **リルカの真剣な願い** — リルカ · **ディーンのクエスト**と**2.5★**が必要
+   - **受注：**リルカ、エーテル Light。母がディーンと会うようになり、亡き父を忘れているのではないかと心配している。
+   - **手順：****紙の入ったビン**を、**アゴラの岸**の小さな洞窟から取り、それから**ソニア**へ持っていく。
+   - **報告：**リルカのところへ戻る。
+   - **報酬：**4,000 G · 500 EXP · スイマーオイル。1章で最大の報酬。
+   - **ほか：****柔軟なロドリゲス**（Lv40）の発生条件として載っている。場所はアゴラの岸の北端。Lv10では倒せない — 場所だけ覚えて、ずっと後で戻る。
 
-21. 💜 💜 **Shulk & Fiora** — Outlook Park, day, Yellow
-   Called *Sunrise in the Park*. It unlocks during the story when you meet Fiora at Outlook Park, so you will walk into it naturally. The only Heart-to-Heart reachable this chapter — everything else needs affinity you do not have yet.
-   **Missable achievement setup:** choose **‘You and Dunban...’** then **‘Kind of.’** to make this go as smoothly as possible and earn **Heartwarming**. On one later Heart-to-Heart, deliberately choose both worst answers to earn **Heartbreaking**; after those two achievements, use the documented best answers for every remaining scene.
+21. 💜 💜 **シュルク & フィオルン** — 見晴らしの丘公園、昼、Yellow
+   名称は*Sunrise in the Park*。ストーリーでフィオルンと見晴らしの丘公園で会ったときに解放されるので、自然に通りかかる。この章で到達できるキズナトークはこれだけだ — ほかは、まだ持っていないキズナが必要になる。
+   **取り逃し実績の仕込み：****‘あなたとダンバン...’**を選び、次に**‘まあ、そんなところ。’**を選ぶと、できるだけ円滑に進み、**ベストアンサー**を得られる。後のキズナトークの1つでは、最悪の答えを両方わざと選び、**空気が読めない**を取る。この2つの実績のあと、残りの場面はすべて記載どおりの最良の答えを使う。
 
-22. ⛏️ ⛏️ **Rainbow Zirconia** x3 and **Rabbit Diode** x3
-   Both are Colony 9 collection-point items, needed much later for **Colony 6 Housing 5** and **Special 5**. Rainbow Zirconia also appears in Colony 6 itself, so neither is at risk.
-   Just register them in the Collectopaedia as you pass and **do not sell them**.
-   **Sub-checkpoints:**
+22. ⛏️ ⛏️ **虹色キュービック** x3 と **ラビットダイオード** x3
+   どちらもコロニー9の採集ポイントのアイテムで、ずっと後の**コロニー6 Housing 5**と**Special 5**に必要だ。虹色キュービックはコロニー6自体にも出るので、どちらも危険はない。
+   通りがかりにコレペディアへ登録し、**売らない**。
+   **サブチェック:**
    - [ ] Bank 3× Rainbow Zirconia
    - [ ] Bank 3× Rabbit Diode
 
-23. ⚪ Touch every landmark in Colony 9 and Tephra Cave
+23. ⚪ コロニー9とテフラ洞窟のランドマークをすべて触れる
    Free EXP each, and they unlock Skip Travel points you will use constantly for the collectable farm loop later.
 
 ---
 
-## Chapter 2 — Colony 9, Mechon invasion
+## Chapter 2 — コロニー9、機神兵の侵攻
 
-**Level 10-14** · 5 tracked items
+**レベル 10-14** · 追跡 5件
 
-> Short, mostly story. **Dunban joins as a guest** and is monstrously strong — enjoy it, he leaves. The one thing that matters here is Fiora: **she leaves at the end of this chapter and does not come back until Chapter 12**.
+> 短い、ほとんどストーリーだ。**ダンバンがゲストとして加入する**。途方もなく強い — 楽しんでおく。離脱する。ここで大事なのはフィオルンだけだ。**この章の終わりに離脱し、12章まで戻ってこない**。
 
-> **📊 Set your level — Sit at 13-14, still no banking needed**
+> **📊 レベルを合わせる — Sit at 13-14, still no banking needed**
 >
-> The chapter is short and the fights are scripted around Dunban carrying you. Nothing to tune yet.
+> 章は短く、戦闘はダンバンが運ぶ前提で脚本化されている。まだ調整するものはない。
 
-> **⚔️ Party & build — Guest Dunban is a preview, not a plan**
+> **⚔️ パーティとビルド — ゲストのダンバンは予告であり、計画ではない**
 >
-> Dunban joins temporarily and shreds everything, which makes this chapter misleading. Do not build habits around him yet — he leaves at the end and does not become permanent until **Chapter 5**.
+> ダンバンは一時加入し、何でも粉砕する。この章の印象はそれで歪む。まだこのキャラクター中心の癖を付けない — 章の終わりに離脱し、**5章**まで恒久メンバーにならない。
 >
-> **What to actually use this chapter:** keep practising Break → Topple with Reyn, and start paying attention to **Visions**. This is where the game starts showing you incoming attacks, and reacting to them is the skill that carries the entire run.
+> **この章で実際に使うもの：**崩し → 転倒をラインと練習し続け、**未来視**へ意識を向け始める。ゲームが飛んでくる攻撃を見せ始めるのがここだ。それに反応する技術が、周回全体を運ぶ。
 
-> **ℹ️ Note — 🔴 Fiora leaves at the end of this chapter**
+> **ℹ️ メモ — 🔴 フィオルンはこの章の終わりに離脱する**
 >
-> She returns in **Chapter 12**, ten chapters away. Any Heart-to-Heart involving Fiora above Yellow is blocked until then, and there is nothing you can do about it — her affinity simply cannot build while she is gone.
+> **12章**で戻ってくる。10章も先だ。Yellowを超えるキズナトークのうちフィオルンが関わるものは、それまでブロックされる。どうにもならない — いないあいだはキズナが伸びない。
 >
 > The one worth attempting now is below. If it does not fire, let it go; it is not missable, just deferred a very long time.
 
-1. 💜 💜 **Reyn & Fiora** — Dunban's house, day, Green · **try now or wait until Ch12**
-   - **Where:** inside Dunban's house, Colony 9, during the day.
-   - **Needs:** Green affinity between Reyn and Fiora. They have only been together since Ch1, so this is tight.
-   - **How to force it:** run a few fights with both in the party and hit **every** Burst Affinity prompt. That is the fastest affinity lever in the game and most players ignore it.
-   - If it will not trigger, move on. It is re-listed in Chapter 13 once she is back.
+1. 💜 💜 **ライン & フィオルン** — ダンバンの家、昼、Green · **今試すか、12章まで待つか**
+   - **場所：**ダンバンの家の中、コロニー9、昼。
+   - **必要：**ラインとフィオルンのあいだのGreenのキズナ。一緒にいるのは1章からなので、余裕は少ない。
+   - **強制する方法：**両方をパーティに入れて数戦し、Burst Affinityの表示を**毎回**押す。ゲーム最速のキズナ手段であり、ほとんどのプレイヤーは無視する。
+   - 発生しないなら先へ進む。戻ったあとの13章に再掲してある。
 
-> **ℹ️ Note — Time Attack unlocks — start banking Noponstone now**
+> **ℹ️ メモ — Time Attack unlocks — start banking Noponstone now**
 >
-> After the Mechon attack, the **Land of Challenge** opens. The first portal is at **Leg Pass, in the Tephra Cave area**. Portals appear in most major regions from here on.
+> 機神兵の襲撃のあと、**強敵を求めての地**が開く。最初のポータルは**脚の峠道、テフラ洞窟のエリア内**だ。ここから先、主要な地域のほとんどにポータルが出る。
 >
-> **Why bother this early:** Time Attack pays **Noponstone**, and the Nopon Archsage sells Colony 6 reconstruction materials for it — including the two that come from areas which permanently seal. It is your insurance policy against a mistake in Chapter 14.
+> **こんな早い段階でやる理由：**タイムアタックは**ノポンストーン**を払い、ノポンのArchsageがそれでコロニー6の再建素材を売る — 永久に封鎖される地域でしか出ない2種を含む。14章で失敗したときの保険だ。
 >
-> **How to treat it:** run a set whenever you walk past a portal. Do not go out of your way to farm it. You are banking against a future problem, not solving a present one.
+> **扱い方：**ポータルの前を通るたびに1セット走る。わざわざ周回しに寄らない。今の問題を解いているのではなく、将来の問題に備えて貯めている。
 >
-> Note: you cannot save or Skip Travel while inside the Land of Challenge.
+> 注：強敵を求めての地の中では、セーブもSkip Travelもできない。
 
-2. ⚪ Find the **Leg Pass** Time Attack portal in Tephra Cave and run one set
+2. ⚪ **脚の峠道**のタイムアタックのポータルをテフラ洞窟で見つけ、1セット走る
 
-3. 👾 UM: **Speedy Ramshyde** (10) — Cliff Lake. Free-roaming, no quest needed
+3. 👾 UM: **早業のラムシャイド** (10) — 断崖の池。自由に徘徊、クエスト不要
 
-4. 👾 UM: **Enchanting Grune** (13) — beach east of the Tephra Cave Entrance · **5:00 PM only**
+4. 👾 UM: **魅惑のグリューネ** (13) — テフラ洞窟 入口の東の浜 · **5:00 PMだけ**
    One of only two monsters in the game tied to a specific hour rather than day/night. If the clock is wrong, sleep at an inn and come back — it will not appear otherwise.
 
-5. 👾 **Challenge 4** → kill **Wallslide Gwynry** (Lv9) — **only appears now**
-   - **Why it is here and not Chapter 1:** this quest does not exist until **after Reyn obtains the Monado**, which happens in this chapter. If you looked for it in Ch1 and could not find it, that is why.
-   - **Pick up:** a Colony 9 Resident at the **Gem Man's Stall**. He nearly got eaten by the thing.
-   - **Do:** kill Wallslide Gwynry inside **Tephra Cave**. Sources disagree on the exact spot — the quest page says **Mag Mell Ruins**, the monster list says **north of the Escape Pod Bay**. Both are in the same stretch of cave; sweep it and you will find it.
-   - **Pays:** 2,200 G · +50 Rep · one Affinity Coin for all seven characters.
-   - Completes the set of four Colony 9 Challenges.
+5. 👾 **強敵を求めて4** → **壁際のグエンリー**を倒す（Lv9） — **今しか出現しない**
+   - **1章ではなくここにある理由：**このクエストは、**ラインがモナドを入手したあと**まで存在しない。入手はこの章だ。1章で探して見つからなかったなら、それが理由だ。
+   - **受注：**コロニー9住人、場所は**ジェム爺の露天商**。あやうく食べられるところだった。
+   - **手順：**壁際のグエンリーを**テフラ洞窟**の内部で倒す。正確な地点は資料が食い違う — クエストページは**マグ・メルドの遺跡**、モンスター一覧は**脱出ポッド室の北**。どちらも洞窟の同じ区間にある。そこを掃討すれば見つかる。
+   - **報酬：**2,200 G · +50 Rep · 全7キャラクターにキズナコイン1枚。
+   - コロニー9の強敵4つのセットが完了する。
 
 ---
 
-## Chapter 3 — Tephra Cave revisited + Colony 9 reopens
+## Chapter 3 — テフラ洞窟の再訪 + コロニー9が再び開く
 
-**Level 14-18** · 22 tracked items
+**レベル 14-18** · 追跡 22件
 
-> The big one for side content. **Colony 9 unlocks 13 new quests** the moment the Mechon leave, and most of them send you into Tephra Cave, so do the two areas together rather than in sequence. The Lv92-98 Tephra monsters do not exist yet — they appear after Mechonis Core.
+> サイドコンテンツの大きい区切りだ。機神兵が去った瞬間に**コロニー9は新規クエスト13件を解放する**。その多くがテフラ洞窟へ送り出すので、2つの地域は順番ではなく一緒にやる。Lv92-98のTephraのモンスターはまだ存在しない — 機神界中枢のあとで出現する。
 
-> **📊 Set your level — Sit at 14-18, still nothing to bank**
+> **📊 レベルを合わせる — Sit at 14-18, still nothing to bank**
 >
-> Tephra Cave enemies are Lv8-18 and Colony 9's new quests target the same band. You will drift to about 18 naturally. **Do not spend anything yet** — the first time the guide asks you to actually set a number is Chapter 4.
+> テフラ洞窟の敵はLv8-18で、コロニー9の新しいクエストも同じ帯を狙う。自然に18前後まで上がる。**まだ何も使わない** — 攻略が実際に数値を指定するのは、初めて4章だ。
 
-> **⚔️ Party & build — Party: Shulk (you) / Reyn**
+> **⚔️ パーティとビルド — パーティ：シュルク（プレイヤー）／ライン**
 >
-> Fiora has left and Sharla has not joined yet, so this stretch is a forced two-person party. What to actually practise this chapter:
+> フィオルンは離脱し、カルナはまだ加入していない。この区間は強制の2人パーティだ。この章で実際に練習すること：
 >
-> **Break → Topple.** Reyn's **Bone Upper** topples anything already Broken. Shulk's **Slit Edge** breaks. Getting this loop automatic now is what carries you through the whole game — a toppled enemy cannot act.
-> **Burst Affinity.** When a party member shouts, press the button on cue. Free party affinity, and you need a lot of it. Do it every single time.
-> **Positioning.** Most arts hit harder from the side or behind. Shulk's Back Slash roughly doubles from behind.
+> **崩し → 転倒。**ラインの**ボーンアッパー**は、すでにBrokenの相手を転倒させる。シュルクの**スリットエッジ**は崩す。この循環を今のうちに自動化しておくと、ゲーム全体を通して使える — 転倒した敵は行動できない。
+> **Burst Affinity。**パーティメンバーが叫んだら、合図に合わせてボタンを押す。パーティのキズナが無料で入り、大量に必要だ。毎回やる。
+> **位置取り。**大半のアーツは側面か背面の方が威力が高い。シュルクのバックスラッシュは背面だとおよそ倍になる。
 
-> **ℹ️ Note — Colony 9's second wave — affinity gates again**
+> **ℹ️ メモ — コロニー9の第2波 — 再び友好度の門**
 >
-> Same pattern as Chapter 1, new thresholds. Work top down:
+> 1章と同じ型で、閾値だけ新しい。上からやる。
 >
-> **No gate** → Flattened Flowers · Mementos of a Lost Son · An Impoverished Critic → Financial Planning · The Plan - Preparation
-> **1.5★** → A Young Captain's Suffering
-> **2★** → Romantic Notions of a Girl · The Plan - The Night Before · A Young Captain's Rise · Overworked and Underpaid
+> **条件なし** → 舞い散った花 · 息子の形見 · 貧乏評論家の悩み → 高利貸しの企み · 野望・準備編
+> **1.5★** → 小娘隊長の苦難
+> **2★** → 恋愛成就・女性編 · 野望・前夜編 · 小娘隊長の栄進 · 働きすぎコパム
 >
-> All of them require the story beat *after the Mechon leave Colony 9*, which is this chapter.
+> どれも、ストーリーの節目*機神兵がコロニー9を去ったあと*を必要とする。それがこの章だ。
 
-1. 📜 **Flattened Flowers** — Françoise
-   - **Pick up:** Françoise, Tranquil Square.
-   - **Do:** collect **5x Dawn Hydrangea** from collection points around Colony 9.
-   - **Turn in:** back to Françoise.
-   - **Pays:** 750 G · 100 EXP · Soil Gauntlets · +100 Colony 9 affinity.
+1. 📜 **舞い散った花** — フランソワ
+   - **受注：**フランソワ、居住区 憩いの広場。
+   - **手順：****5x サチベリア**をコロニー9周辺の採集ポイントから集める。
+   - **報告：**フランソワのところへ戻る。
+   - **報酬：**750 G · 100 EXP · ソイルガード · コロニー9友好度+100。
 
-2. 📜 **Mementos of a Lost Son** — Cheryl
-   - **Pick up:** Cheryl, at the **Gem Man's Stall**.
-   - **Do:** find three keepsakes of her missing son — **Tatty Armour**, **Twisted Gun**, **Nicked Knife**, one each.
-   - **Turn in:** back to Cheryl.
-   - **Pays:** 4,500 G · 1,500 EXP · Bomber Lancer (empty gem slot) · +200 Colony 9 affinity. One of the best early affinity payouts.
+2. 📜 **息子の形見** — ツィリル
+   - **受注：**ツィリル、**ジェム爺の露天商**。
+   - **手順：**行方不明の息子の形見を3つ見つける — **ぼろぼろの鎧**、**ひん曲がった銃**、**刃こぼれしたナイフ**、各1つ。
+   - **報告：**ツィリルのところへ戻る。
+   - **報酬：**4,500 G · 1,500 EXP · ボマーランサー（空きジェムスロット） · コロニー9友好度+200。序盤でも指折りの友好度報酬だ。
 
-3. 📜 **An Impoverished Critic** — Leopold · auto-chains into Financial Planning
-   - **Pick up:** Leopold, Ether Light. King Squeeze is squeezing him over a debt.
-   - **Do:** talk to **King Squeeze**. This automatically hands you **Financial Planning** — the two are one story.
-   - **Turn in:** it closes when Financial Planning closes.
+3. 📜 **貧乏評論家の悩み** — レモーレオン · 高利貸しの企みへ自動でつながる
+   - **受注：**レモーレオン、エーテル Light。キング・スクイズが借金のことで締め付けている。
+   - **手順：****キング・スクイズ**と話す。これで自動的に**高利貸しの企み**を渡される — 2つは1つの話だ。
+   - **報告：**高利貸しの企みが閉じると、こちらも閉じる。
 
-> **🔀 Branch choice — Financial Planning — Route A vs Route B**
+> **🔀 分岐 — 高利貸しの企み — Route AとRoute B**
 >
-> You are dragged into this by An Impoverished Critic and must pick a side. Both need **5x Caterpile Poison** from Caterpiles in Tephra Cave, so gather those first either way.
+> 貧乏評論家の悩みに引きずり込まれ、どちらかの側を選ぶ必要がある。どちらも**5x キャピルの甘い毒汁**を、テフラ洞窟のCaterpilesから必要とする。どちらにせよ先に集めておく。
 >
-> **Route A — side with King Squeeze:** talk to Sylviane, get the poison, retrieve the **Top-Secret Orders** discarded at Central Plaza, show King Squeeze the evidence. Reward **Quark Boots**.
-> **Route B — help Leopold:** talk to Leopold, get the poison, plant it in King Squeeze's pocket during the meeting, report to Leopold. Reward **Ranger Shoes**.
+> **Route A — キング・スクイズ側：**スルワと話し、毒を受け取り、Central Plazaに捨てられた**極秘の指令書**を回収し、キング・スクイズに証拠を見せる。報酬は**クォークブーツ**。
+> **Route B — レモーレオンを助ける：**レモーレオンと話し、毒を受け取り、会合中にキング・スクイズのポケットへ仕込み、レモーレオンへ報告する。報酬は**レンジャーシューズ**。
 >
-> Gold and EXP are identical (2,500 G / 500 EXP). The difference is the chart: the routes push Leopold↔King Squeeze toward *Complicated* or *Got Revenge*, and Leopold↔Sylviane between *Awkward* and *Endless Love*.
+> ゴールドとEXPは同じ（2,500 G / 500 EXP）。違うのは相関図だ。ルートはレモーレオン↔キング・スクイズを*Complicated*か*Got カタキ討ち*へ押し、レモーレオン↔スルワを*Awkward*と*Endless Love*のあいだで動かす。
 >
-> **Take Route B.** *Endless Love* is a stronger link than *Awkward*, and you are chasing chart quality, not footwear.
+> **Route Bを取る。***Endless Love*は*Awkward*より強いリンクで、追っているのは履物ではなく相関図の質だ。
 
-4. 📜 **Financial Planning** — take **Route B**, help Leopold
-   - **Do:** talk to Leopold → collect **5x Caterpile Poison** from Caterpiles in **Tephra Cave** → plant it in King Squeeze's pocket at the meeting.
-   - **Turn in:** back to Leopold.
-   - **Pays:** 2,500 G · 500 EXP · Ranger Shoes.
+4. 📜 **高利貸しの企み** — **Route B**を取り、レモーレオンを助ける
+   - **手順：**レモーレオンと話す → Caterpilesから**5x キャピルの甘い毒汁**を**テフラ洞窟**で集める → 会合の場でキング・スクイズのポケットへ仕込む。
+   - **報告：**レモーレオンのところへ戻る。
+   - **報酬：**2,500 G · 500 EXP · レンジャーシューズ。
 
-5. 📜 **The Plan - Preparation** — Sesame (1 of 3)
-   - **Pick up:** Sesame, Ether Light.
-   - **Do:** kill **Singing Brogs** in Tephra Cave for **2x Croaking Brog Bag** → back to Sesame → talk to **Betty** in the Residential District → bring the **Sealed Package** to Sesame.
-   - **Turn in:** Sesame, one more time.
-   - **Pays:** 1,000 G · 150 EXP · Critical Up II · +100 Betty affinity.
+5. 📜 **野望・準備編** — ソルトセサミ（3つのうち1）
+   - **受注：**ソルトセサミ、エーテル Light。
+   - **手順：****Singing Brogs**をテフラ洞窟で倒し**2x グロッグの鳴き袋**を手に入れる → ソルトセサミへ戻る → **ベッティ**と居住区で話す → **謎の小包（開封厳禁）**をソルトセサミへ届ける。
+   - **報告：**ソルトセサミ、もう一度。
+   - **報酬：**1,000 G · 150 EXP · 会心アップ II · ベッティ友好度+100。
 
-6. 📜 **A Young Captain's Suffering** — Emmy Leater · needs **1.5★**
-   - **Pick up:** Emmy Leater, Fortress Entrance. Requires **A Young Captain's Request** from Ch1.
-   - **Do:** kill **5x Wind Vang** in Tephra Cave.
-   - **Turn in:** back to Emmy Leater.
-   - **Pays:** 1,100 G · 180 EXP · Ether Def Up III · +150 Miller affinity.
+6. 📜 **小娘隊長の苦難** — エミ・リータ · **1.5★**が必要
+   - **受注：**エミ・リータ、軍事区 正門。1章の**小娘隊長の依頼**が必要。
+   - **手順：****5x ウィンド・ヴァンプ**をテフラ洞窟で倒す。
+   - **報告：**エミ・リータのところへ戻る。
+   - **報酬：**1,100 G · 180 EXP · エーテル防御増 III · ミラー友好度+150。
 
-> **ℹ️ Note — Affinity gate — 2★ quests now open**
+> **ℹ️ メモ — Affinity gate — 2★ quests now open**
 >
-> The four below all need **2★ Colony 9**. If they are not showing, finish the block above first.
+> 下の4つはすべて**コロニー9の2★**が必要だ。出ていないなら、まず上の塊を終わらせる。
 
-> **🔀 Branch choice — Romantic Notions — Girl or Boy (I had this wrong earlier)**
+> **🔀 分岐 — Romantic Notions — Girl or Boy (I had this wrong earlier)**
 >
-> I previously called this pair harmless. **It is not.** They are mutually exclusive and they move the Affinity Chart in opposite directions.
+> 以前、この組は無害だと書いた。**無害ではない。**相互排他で、キズナグラムを逆方向へ動かす。
 >
-> **Romantic Notions of a Girl** (Monica, Fortress Entrance): Monica↔Erik goes *Unrequited* → **Mutual Love?**, **+250 affinity**. Reward Soil Gear.
-> **Romantic Notions of a Boy** (Andreas, Fortress Entrance): Monica↔Andreas becomes *Passionate*, +200 — but Monica↔Erik **degrades to Parted Ways**. Reward Soil Boots. Also **timed**.
+> **恋愛成就・女性編**（モニカ、軍事区 正門）：モニカ↔エリックは*Unrequited* → **Mutual Love?**になり、**+250のキズナ**。報酬はソイルギア。
+> **恋愛成就・男性編**（アードルフ、軍事区 正門）：モニカ↔アードルフは*Passionate*になり、+200 — ただしモニカ↔エリックは**Parted Waysまで下がる**。報酬はソイルブーツ。さらに**時限**。
 >
-> **Take the Girl version.** More affinity, and it is the only one that does not damage an existing link.
+> **Girl版を取る。**キズナが多く、既存のリンクを壊さないのはこちらだけだ。
 >
-> **Quirk to know:** the Boy version only becomes available after the Girl version has been **accepted**, and it dies the moment you **complete** the Girl version. So you may see both in your log at once. Just finish Monica's.
+> **知っておく仕様：**男性版は女性版を**受注した**あとでないと出ず、女性版を**完了した**瞬間に消える。だからログに両方が同時に並ぶことがある。モニカの方を完了させる。
 
-7. 🔴 **Romantic Notions of a Girl** — Monica · needs **2★** · **night**
-   - **Pick up:** Monica, Fortress Entrance.
-   - **Do:** get **1x Tephra Drop** from near the **Spring of Grief** in Tephra Cave. **It only appears at night.**
-   - **Turn in:** back to Monica.
-   - **Pays:** 1,200 G · 300 EXP · Soil Gear · +250 across Monica and Erik.
+7. 🔴 **恋愛成就・女性編** — モニカ · **2★**が必要 · **夜**
+   - **受注：**モニカ、軍事区 正門。
+   - **手順：****1x テフラドロップ**を**嘆きの泉**の近く、テフラ洞窟で取る。**夜にしか出現しない。**
+   - **報告：**モニカのところへ戻る。
+   - **報酬：**1,200 G · 300 EXP · ソイルギア · モニカとエリックのあいだで+250。
 
-8. 📜 **The Plan - The Night Before** — Sesame (2 of 3) · needs **2★** · **night**
-   - **Do:** kill **Colony Krabbles at Cliff Lake** for **2x Iron Krabble Shell** — **night only** → back to Sesame → talk to **Kenny Rohan** (he wanders, so hunt around) → back to Sesame.
-   - **Pays:** 1,500 G · 200 EXP · Strength Up III · +150 Colony 9 affinity.
+8. 📜 **野望・前夜編** — ソルトセサミ（3つのうち2） · **2★**が必要 · **夜**
+   - **手順：****断崖の池のColony Krabbles**を倒して**2x クライブの鉄ハウス** — **夜だけ** → ソルトセサミへ戻る → **ケニ・ルヒン**と話す（歩き回るので周囲を探す）→ ソルトセサミへ戻る。
+   - **報酬：**1,500 G · 200 EXP · 筋力アップ III · コロニー9友好度+150。
 
-9. 👾 **The Plan - Execution** — Sesame (3 of 3) → spawns **Dark Murakmor** (18) · **night**
-   - **Do:** kill **Dark Murakmor** near **Anti-Air Battery 3** — **it only spawns at night** → back to Sesame → check the street lights at the Commercial District entrance → stop the plan.
-   - **Turn in:** Sesame.
-   - **Pays:** 5,000 G · 1,200 EXP · Attack Stability II · Affinity Coin for all seven.
-   - The sinister plan turns out to be a fireworks display to cheer the colony up.
+9. 👾 **野望・実行編** — ソルトセサミ（3つのうち3） → **常闇のムラクモ**（18）を出現させる · **夜**
+   - **手順：****常闇のムラクモ**を**対空砲3号基**の近くで倒す — **出現は夜だけ** → ソルトセサミへ戻る → 商業区入口の街灯を確認する → 計画を止める。
+   - **報告：**ソルトセサミ。
+   - **報酬：**5,000 G · 1,200 EXP · 攻撃力安定 II · 全7人にキズナコイン。
+   - 陰険な計画の正体は、コロニーを元気づける花火だった。
 
-10. 📜 **A Young Captain's Rise** — Emmy Leater · needs **2★**
-   - **Do:** pick one — **Lurker Brog at the Spring of Grief**, or **Lurker Krabble at Vilia Lake**. Either satisfies it.
-   - **Turn in:** back to Emmy Leater.
-   - **Pays:** 1,800 G · 250 EXP · Flame Gear (Blaze Attack slot) · +200 Miller.
-   - **Unlocks:** A Young Captain's Challenge, and the chain eventually reaches **Shulk's Bravery skill tree** in Ch17.
+10. 📜 **小娘隊長の栄進** — エミ・リータ · **2★**が必要
+   - **手順：**どちらか1つ — **闇隠れグロッグ、嘆きの泉にいる**、または**闇隠れクライブ、ヴィリア湖にいる**。どちらでも満たせる。
+   - **報告：**エミ・リータのところへ戻る。
+   - **報酬：**1,800 G · 250 EXP · フレイムギア（炎熱追撃スロット） · ミラー+200。
+   - **解放：**小娘隊長の挑戦。連鎖は最終的に17章の**シュルクのBraveryスキルツリー**へ到達する。
 
-11. 📜 **Overworked and Underpaid** — Giorgio · needs **2★** + **A Curry Conundrum**
-   - **Pick up:** triggers off a Vision of Giorgio collapsing at Ether Light.
-   - **Do:** either route needs **3x Fresh Armu Milk** (from Armus in Colony 9) and **3x Insanity Mint** (Tephra Cave). **Route B is better** — consult Paola first, then tell Giorgio about her staged fainting scheme. It makes Giorgio↔Paola a **Happy Family** link; Route A only gives flat area affinity.
-   - **Pays:** 3,000 G · 300 EXP · HP Up II · Ether Def Up II.
-   - **Unlocks:** Out-of-Luck Giorgio and Pestering Paola (Ch4).
+11. 📜 **働きすぎコパム** — コパム · **2★**と**人気カレー屋のピンチ**が必要
+   - **受注：**エーテル Lightでコパムが倒れる未来視をきっかけに発生する。
+   - **手順：**どちらのルートも**3x アルマの生ミルク**（コロニー9のArmus）と**3x クレージミント**（テフラ洞窟）が必要。**Route Bの方がよい** — 先にパオラに相談し、それからコパムに、芝居の失神計画のことを伝える。コパム↔パオラが**Happy Family**のリンクになる。Route Aはエリア友好度が平坦に入るだけだ。
+   - **報酬：**3,000 G · 300 EXP · HP Up II · エーテル防御増 II。
+   - **解放：**スランプ・コパムとグッド・パオラ（4章）。
 
-12. 📜 **The Lost Pendant** — Defence Force Soldier, Cylinder Hangar
-   - **Prerequisite nobody mentions:** you must have done **Missing in Action** first.
-   - **Do:** find the **Lost Pendant** near **Vilia Lake** in Tephra Cave, around the collapsed path.
-   - **Turn in:** back to the soldier at the Cylinder Hangar.
-   - **Pays:** 950 G · 100 EXP · Quark Gear · +50 Rep.
-   - Game8 flags this **timed** but no source gives the expiry. Do it now.
+12. 📜 **なくしたペンダント** — 防衛隊員, シリンダー格納庫
+   - **誰も触れない前提：**先に**単独行動の兵士**を済ませてある必要がある。
+   - **手順：****なくしたペンダント**を**ヴィリア湖**の近く、テフラ洞窟の崩れた道のあたりで見つける。
+   - **報告：**シリンダー格納庫にいる兵士のところへ戻る。
+   - **報酬：**950 G · 100 EXP · クォークギア · +50 Rep。
+   - Game8はこれを**時限**としているが、期限を書く資料はない。今やる。
 
-> **🌦️ Weather / time — Do one night circuit and clear five things at once**
+> **🌦️ 天候 / 時間 — Do one night circuit and clear five things at once**
 >
-> Chapter 3 is unusually night-heavy. Rather than five separate trips, wait for dusk and do this loop:
-> **1.** Tephra Cave, Spring of Grief — **Tephra Drop** (Romantic Notions) and **Solid Konev** (Lv10 UM, just south of it).
-> **2.** Cliff Lake — **Colony Krabbles** for Iron Krabble Shells (The Plan - The Night Before).
-> **3.** Anti-Air Battery 3 — **Dark Murakmor** (The Plan - Execution).
+> 3章は夜の用事が異常に多い。5回に分けず、日没を待ってこの周回をする。
+> **1.** テフラ洞窟、嘆きの泉 — **テフラドロップ**（Romantic Notions）と**堅牢なコーネフ**（Lv10 UM、そのすぐ南）。
+> **2.** 断崖の池 — **Colony Krabbles**からIron クライブ Shells（野望・前夜編）。
+> **3.** 対空砲3号基 — **常闇のムラクモ** (野望・実行編).
 >
 > You cannot set the clock directly yet, so sleep at an inn or keep questing until it rolls over.
 
-13. 👾 UM: **Mining Patrichev** (8) — NE of Caterpile Nest
+13. 👾 UM: **採掘のパトリチェフ** (8) — キャピルの巣の北東
 
-14. 👾 UM: **Cellar Bugworm** (10) — Caterpile Nest
+14. 👾 UM: **穴蔵のバグワム** (10) — キャピルの巣
 
-15. 👾 UM: **Solid Konev** (10) — south of Spring of Grief, **night**
+15. 👾 UM: **堅牢なコーネフ** (10) — 嘆きの泉の南、**夜**
 
-16. 👾 UM: **Gluttonous Eugen** (11) — Vilia Lake
+16. 👾 UM: **暴食のオイゲン** (11) — ヴィリア湖
 
-17. ⚪ **Wallslide Gwynry** should already be dead — that was Challenge 4 in Chapter 2
-   Listed only so you notice if you skipped it. If it is still alive: quest from a Colony 9 Resident at the **Gem Man's Stall**, monster in Tephra Cave around Mag Mell Ruins / north of the Escape Pod Bay.
+17. ⚪ **壁際のグエンリー**は、もう倒しているはずだ — 2章の強敵を求めて4だった
+   飛ばしたときに気づけるよう、載せておくだけだ。まだ生きている場合、クエストはコロニー9住人から、場所は**ジェム爺の露天商**。モンスターはテフラ洞窟内、マグ・メルドの遺跡あたり／脱出ポッド室の北。
 
-18. 💜 💜 **Shulk & Reyn** — outside Tephra Cave, day, Green
+18. 💜 💜 **シュルク & ライン** — テフラ洞窟の外、昼、Green
    They have been together since Chapter 1, so Green should be live by now. If not, spam Burst Affinity prompts for a session and come back.
 
-19. ⛏️ ⛏️ **Steel Silk** x2 (Housing 1) — Tephra collection, or trade Peppino in Colony 9
+19. ⛏️ ⛏️ **鋼鉄の絹布** x2（Housing 1） — Tephraの採集、またはパピィをコロニー9で交換
 
-20. ⛏️ ⛏️ **Dark Grape** x2 (Nature 1) — Tephra collection
+20. ⛏️ ⛏️ **クラブドウ** x2（Nature 1） — Tephraの採集
 
-21. ⛏️ ⛏️ **Kneecap Rock** x1 (Special 1) — Tephra collection
+21. ⛏️ ⛏️ **シツガイ岩板** x1（Special 1） — Tephraの採集
 
-> **⛏️ Grind stop — First real farm stop — learn the Skip Travel loop here**
+> **⛏️ 周回 — First real farm stop — learn the Skip Travel loop here**
 >
-> You need three Colony 6 materials out of Tephra Cave (Steel Silk ×2, Dark Grape ×2, Kneecap Rock ×1) plus a full Collectopaedia page. This is the ideal place to learn the loop you will use for the next 200 hours:
+> コロニー6の素材をテフラ洞窟から3つ出す必要がある（鋼鉄の絹布 ×2、クラブドウ ×2、シツガイ岩板 ×1）。加えてコレペディアのページを1枚埋める。これから200時間使う周回を覚えるのに、ここが最適だ。
 >
-> **1.** Pick a Tephra Cave landmark with several blue collection sparkles within about thirty seconds of it.
-> **2.** Grab every one of them.
-> **3.** Skip Travel to any other landmark, then Skip Travel straight back.
-> **4.** The points have refilled and the rare slot has re-rolled. Repeat.
+> **1.**青いきらめきの採集が、約30秒以内に複数あるテフラ洞窟のランドマークを1つ選ぶ。
+> **2.**その全部を取る。
+> **3.**別のランドマークへSkip Travelし、すぐにSkip Travelで戻る。
+> **4.**ポイントは補充され、レア枠は振り直されている。繰り返す。
 >
 > Ten cycles is about five minutes. Do not wander the map hunting individual spawns — that is the slow way and it never gets faster.
 
-22. ⚪ Fill the Tephra Cave Collectopaedia page
+22. ⚪ テフラ洞窟のコレペディアのページを埋める
 
-> **ℹ️ Note — Two Colony 9 quests you will see but cannot finish yet**
+> **ℹ️ メモ — 今は見えても、まだ完了できないコロニー9のクエストが2つある**
 >
-> **Paola and Narine** (Narine, Tranquil Square) shows up now and pays a startling **20,000 EXP**. Ignore it for a long while: it requires **two female party members**, so it is locked until **Melia joins in Chapter 7**, and on top of that it wants White-tier Shulk↔Reyn affinity and White-tier affinity between the two women. Realistically a Chapter 8+ job. It is re-listed there.
+> **パオラとネリネ**（ネリネ、居住区 憩いの広場）は今出現し、驚くほどの**20,000 EXP**を払う。長いあいだ無視する。**女性パーティメンバー2人**が必要で、**メリアが7章で加入する**までロックされる。そのうえ白い段階のシュルク↔ラインキズナと、女性2人のあいだの白い段階のキズナが要る。現実的には8章以降の作業だ。そこへ再掲してある。
 >
-> **Liliana's Sincere Request** is listed as the trigger for **Gentle Rodriguez** (Lv40) at the north end of Agora Shore. You are Lv18. Note the spot and come back much later.
+> **リルカの真剣な願い**は、**柔軟なロドリゲス**（Lv40）の発生条件として載っている。場所はアゴラの岸の北端。今はLv18だ。場所だけ覚えて、ずっと後で戻る。
 
 ---
 
-## Chapter 4 — Bionis' Leg
+## Chapter 4 — 巨神脚
 
-**Level 18-25** · 31 tracked items
+**レベル 18-25** · 追跡 31件
 
-> **Sharla joins.** The biggest material chapter in the game, and the first major deadline: the **timed Refugee Camp quest block** expires when you complete the Colony 6 relocation. Note that Bionis' Leg quests feed **Colony 6's** Area Affinity, not Colony 9's.
+> **カルナが加入する。**ゲーム中最大の素材章であり、最初の大きな期限でもある。**時限の脱出艇キャンプクエスト群**は、コロニー6への移転を完了すると消える。巨神脚のクエストが養うのは**コロニー6の**エリア友好度で、コロニー9のではない。
 
-> **📊 Set your level — Guide target — sit at 22**
+> **📊 レベルを合わせる — Guide target — sit at 22**
 >
-> **This is a recommended Expert Mode target, not a game requirement.** Bionis' Leg enemies run Lv15-25 and the Unique Monsters you can realistically take are Lv15-18. Set your level to 22 and leave it there; recruited characters cannot be lowered below their individual join-level floor.
+> **これは推奨するExpert Modeの目標であり、ゲームの必須条件ではない。**巨神脚の敵はLv15-25で、現実的に倒せるユニークモンスターはLv15-18だ。レベルを22に合わせ、そこに置いたままにする。加入したキャラクターは、それぞれの加入レベルを下限として、それより下げられない。
 >
-> From here on you will out-earn the curve because you are doing every side quest. **Bank the surplus, do not spend it.** If you let yourself drift to 30 here, the Refugee Camp quests stop giving meaningful EXP, the Unique Monsters become free, and you learn nothing before Chapter 5's difficulty step.
+> ここから先はサイドクエストを全部やるので、想定曲線よりEXPを稼ぐ。**余剰はバンクし、使わない。**ここで30まで流すと、脱出艇キャンプのクエストは意味のあるEXPを出さなくなり、ユニークモンスターはただの餌になり、5章の難度の段差の前に何も学べない。
 >
-> The Lv73-90 monsters wandering Bionis' Leg (Barnaby, Altrich, Valencia, Rotbart, Rockwell, Gonzalez) are **post-game**. Do not go near them.
+> 巨神脚をさまよっているLv73-90のモンスター（Barnaby、Altrich、Valencia、Rotbart、Rockwell、Gonzalez）は**クリア後**だ。近づかない。
 
-> **⚔️ Party & build — Sharla joins — swap to Shulk / Reyn / Sharla**
+> **⚔️ パーティとビルド — カルナが加入する — シュルク／ライン／カルナへ入れ替える**
 >
-> **Reyn tanks, Sharla heals, you damage and control.** This is the training-wheels comp and it lasts until Chapter 6.
+> **ラインがタンク、カルナが回復、プレイヤーがダメージと操作。**これは補助輪の編成で、6章まで続く。
 >
-> **Sharla:** her Talent Art is a **Cooldown** gauge — she overheats if you spam. Left to the AI she manages it fine; that is why she is an AI slot and not yours.
-> **Reyn:** put **War Swing** and **Bone Upper** on his bar. Bone Upper topples anything already Broken.
-> **Shulk:** **Back Slash** (from behind), **Slit Edge** (breaks, and drops enemy physical defence), **Light Heal**. Keep Monado Buster ready.
+> **カルナ：**Talent Artは**Cooldown**ゲージだ — 連打するとオーバーヒートする。AIに任せると上手く管理する。だからAI枠であり、プレイヤーの枠ではない。
+> **ライン：**バーに**ウォースイング**と**ボーンアッパー**を入れる。ボーンアッパーは、すでに崩されている相手を転倒させる。
+> **シュルク：****バックスラッシュ**（背面から）、**スリットエッジ**（崩し、敵の物理防御を下げる）、**ライトヒール**。モナドバスターを準備しておく。
 >
-> **Gems:** you can craft now. Anything **Agility Up** you find goes on Reyn first — the whole game rewards not being hit. Do not overthink gems this early; slot count matters more than quality.
+> **ジェム：**今からクラフトできる。見つけた**素早さアップ**は、まずラインに付ける — 当たらないことが、ゲーム全体で報われる。この段階のジェムは考えすぎない。品質よりスロット数だ。
 
-> **💀 Boss prep — 🔴 Do this before you touch any quest — the Ether Jet**
+> **💀 ボス準備 — 🔴 Do this before you touch any quest — the Ether Jet**
 >
-> The single most time-saving fifteen minutes in the run, and it sits behind a quest giver who **may not survive the chapter**.
+> この周回で最も時間を節約する15分であり、それが**この章を生き延びないかもしれない**依頼人の向こうにある。
 
-1. 🔴 🔴 **World-Changing Whatchamajig** — unlocks the **Ether Jet**. Do it first.
-   - **Pick up:** the **Nopon Engineer** standing near the entrance to the **Refugee Camp**, Bionis' Leg.
-   - **Do:** travel to **Colony 9's Cylinder Hangar**, take the ether cylinders, kill the one weak enemy that interrupts you.
-   - **Turn in:** back to the Nopon Engineer.
-   - **Controls once you have it:** **ZL+ZR** to summon anywhere in the field · **B** accelerate · **ZL** brake and reverse · **A** boost while accelerating.
-   - **Why first:** the quest giver stands at the Refugee Camp, and the camp closes permanently when you start the relocation next chapter. No source confirms whether this Switch 2 quest dies with it. Doing it now costs fifteen minutes; being wrong later costs the Ether Jet, the entire Nopon Grand Prix and its five armour sets, permanently.
+1. 🔴 🔴 **World-Changing Whatchamajig** — **エーテル Jet**を解放する。最初にやる。
+   - **受注：****ノポンのEngineer**。**脱出艇キャンプ**の入口付近に立っている。場所は巨神脚。
+   - **手順：****コロニー9のシリンダー格納庫**へ行き、エーテルシリンダーを取り、邪魔に入る弱い敵を1体倒す。
+   - **報告：**ノポンのEngineerのところへ戻る。
+   - **入手後の操作：**フィールドのどこでも**ZL+ZR**で呼ぶ · **B**加速 · **ZL**ブレーキと後退 · **A**加速中のブースト。
+   - **先にやる理由：**依頼人は脱出艇キャンプに立っていて、次の章で移転を始めるとキャンプは永久に閉じる。このSwitch 2のクエストが一緒に消えるか、どの資料も確認していない。今やると15分で済む。後で外すと、エーテル Jet、ノポンのGrand Prix全体と、そのアーマー5セットを永久に失う。
 
-> **ℹ️ Note — The Refugee Camp deadline — what actually dies**
+> **ℹ️ メモ — 脱出艇キャンプの期限 — 実際に消えるもの**
 >
-> Completing **The Road Home** relocates the refugees to Colony 6 and expires the camp's **timed quest block**. Finish every task this route flags at the camp before the turn-in; do not read this as a claim that every non-timed Bionis' Leg quest vanishes.
+> **懐かしの我が街へ**を完了すると、避難民はコロニー6へ移り、キャンプの**時限クエスト群**が期限切れになる。報告の前に、このルートがキャンプで印を付けた作業を全部終わらせる。時限でない巨神脚のクエストがすべて消える、という意味には読まない。
 >
-> **Spiral Valley is a different matter** — those quests are out in Bionis' Leg proper and survive. If *The Road Home* itself expires, **To Colony 6!** is the mutually exclusive fallback that starts reconstruction.
+> **ラセン谷は別問題だ** — そちらのクエストは巨神脚の本域にあり、残る。*懐かしの我が街へ*自体が期限切れになるなら、再建を始める相互排他の代替が**いざ、コロニー6へ**だ。
 
-> **🔀 Branch choice — Spirits Raised vs Imaginations Tempered — and the trick to it**
+> **🔀 分岐 — 君の贈る物語と君が贈る物語 — とそのコツ**
 >
-> Both come from the same situation: Matryona's granddaughter **Pama** is upset, and two people disagree about how to help her.
+> どちらも同じ状況から出る。マトリョーナの孫娘**パム**が落ち込んでいて、助け方について2人が意見を異にする。
 >
-> **Take Spirits Raised** (from **Arda**). Better affinity, it unlocks extra Colony 6 quests later, and narratively it is the one that stops Pama going to the river alone and drowning.
+> **君の贈る物語を取る**（**アーダ**から）。キズナが良く、後で追加のコロニー6クエストを解放し、物語の上でもパムが一人で川へ行って溺れるのを止める方だ。
 >
-> **The trick:** `Spirits Raised` does not appear until you have **accepted Imaginations Tempered**. So take Matryona's quest first, then Arda's, then finish **Arda's**. Completing Matryona's kills the other one.
+> **コツ：**`君の贈る物語`は、**君が贈る物語を受注する**まで出ない。だから先にマトリョーナのクエストを受け、次にアーダの方を受け、**アーダの方**を完了する。マトリョーナの方を完了すると、もう一方は消える。
 >
 > Both expire at the relocation regardless.
 
-2. 🔴 🔴 **Spirits Raised** — Arda · accept **Imaginations Tempered** first
-   - **Pick up:** accept **Imaginations Tempered** from **Matryona** at the Refugee Camp, which makes **Arda's** version appear. Take that one.
-   - **Do:** collect **1x Medicinal Herb** near **Tranquil Grotto** → speak to **Arda** → go back to **Matryona** → give the picture book to **Pama**.
-   - **Turn in:** **Pama** — not Arda. The final dialogue is with the girl.
-   - **Pays:** 800 G · 400 EXP · Arts Heal II · Pama becomes a *Kind Person* (+150 with Ewan), Arda a *Great Person*.
+2. 🔴 🔴 **君の贈る物語** — アーダ · 先に**君が贈る物語**を受注する
+   - **受注：****君が贈る物語**を**マトリョーナ**から、脱出艇キャンプにて受注する。すると**アーダの方**が出現する。そちらを受ける。
+   - **手順：****1x 治癒草**を**静寂の岩屋**の近くで集める → **アーダ**と話す → **マトリョーナ**へ戻る → 絵本を**パム**に渡す。
+   - **報告：****パム** — アーダではない。最後の会話は少女とのものだ。
+   - **報酬：**800 G · 400 EXP · アーツヒール II · パムは*Kind Person*になる（イワンと+150）、アーダは*Great Person*。
 
-3. 🔴 🔴 **Emergency Treatment** — Olga · **night**
-   - **Pick up:** Olga, Refugee Camp. You must have met **Gorman** first.
-   - **Do:** kill **Wisps** on Bionis' Leg for **5x Glowing Wisp Fluid**. **Wisps only appear at night.**
-   - **Turn in:** back to Olga.
-   - **Pays:** 750 G · 300 EXP · Quark Gear · +50 Olga.
+3. 🔴 🔴 **薬の時間** — オルガ · **夜**
+   - **受注：**オルガ、脱出艇キャンプ。先に**ゲールマン**と会っている必要がある。
+   - **手順：****Wisps**を巨神脚で倒して**5x ランプスの発光液**。**Wispsの出現は夜だけ。**
+   - **報告：**オルガのところへ戻る。
+   - **報酬：**750 G · 300 EXP · クォークギア · オルガ+50。
 
-4. 🔴 🔴 **Thieving Monsters** — Gorman
-   - **Pick up:** Gorman, Refugee Camp. Tirkins stole the refugees' laundry.
-   - **Do:** get **1x Clothes** from **Tirkin Headquarters**.
-   - **Turn in:** back to Gorman.
-   - **Pays:** 950 G · 300 EXP · Grand Armour · Grand Leggings · +50 Rep.
+4. 🔴 🔴 **泥棒モンスター** — ゲールマン
+   - **受注：**ゲールマン、脱出艇キャンプ。Tirkinsが避難民の洗濯物を盗んだ。
+   - **手順：****1x みんなの服**を**ターキンの本営**から取る。
+   - **報告：**ゲールマンのところへ戻る。
+   - **報酬：**950 G · 300 EXP · グラントアーマー · グラントレギンス · +50 Rep。
 
-5. 🔴 🔴 **Save the Girl!** — surprise quest, cannot be declined
-   - **Triggers:** walk to the **waterfall southeast of Gaur Plain**, near the **Volff Lair** on the Ragrinar Canyon Path. Available once the story sends you after Juju.
-   - **Do:** kill **4x Ferocious Volff** menacing the bathing woman, then talk to her.
-   - **Pays:** 1,200 G · 300 EXP · Diver Top · Diver Bottoms (empty gem slot) · +50 Rep.
+5. 🔴 🔴 **女性を助けろ！** — 不意のクエスト、拒否できない
+   - **発生：****ガウル平原の南東にある滝**まで歩く。近くの**ヴォルフのねぐら**、ラグリナ渓谷道の上。ストーリーでジュジュを追うよう送られると出る。
+   - **手順：**入浴中の女性を脅かす**4x 猛撃のヴォルフ**を倒し、それから彼女と話す。
+   - **報酬：**1,200 G · 300 EXP · ダイバートップス · ダイバーボトムズ（空きジェムスロット） · +50 Rep。
 
-6. 🔴 🔴 Clear the rest of the **Refugee Camp timed quest board**
-   - **Named, from the camp:** Being a Good Grandfather (Satata) · A Thoughtful Idea (Matryona) · A Dash of Colour (Ewan) · The Greedy Monster (Satata) · **Earnest's Fibs → Earnest's Mischief → Earnest's Solitude** (Earnest, a three-part chain worth 2,950 G and a Grand Boots).
-   - **Generic, auto-complete:** Monster Quest 2 · Monster Quest 3 Parts 1-2 · Challenge 1 Parts 1-2 · Challenge 2 Parts 1-2 · Material Quest 1-4 · Collection Quest 1-2 · Search Quest 1-2.
-   - **All of it dies at the relocation.** The generic ones auto-complete in the field, so take every one before you go monster hunting and they will tick off as you go.
-   **Sub-checkpoints:**
-   - [ ] Being a Good Grandfather — 3× Sticky Web Fibre — Pickup 06:00–15:00 · Satata, Refugee Camp. Collect Sticky Web Fibre from Arachno, then follow the Kiroki handoff.
-   - [ ] A Thoughtful Idea — 3× Ponio Neck Meat — Pickup 09:00–18:00 · Matryona, Refugee Camp. Speak to Ewan and collect Ponio Neck Meat from Field Ponios.
-   - [ ] A Dash of Colour — 4× Sour Gooseberries — Pickup 06:00–18:00 · Ewan, Refugee Camp. Collect Sour Gooseberries, then deliver the paints through Matryona.
-   - [ ] The Greedy Monster — Abnormal Brog — Pickup 06:00–15:00 · Satata, Refugee Camp. Defeat Abnormal Brog near Raguel Lake and return.
-   - [ ] Earnest's Fibs — first ether deposit — Pickup anytime · Earnest, Refugee Camp. Inspect the first ether deposit and return.
-   - [ ] Earnest's Mischief — second ether deposit — Pickup anytime · Earnest, Refugee Camp. Inspect the cave-side ether deposit at Raguel Lake and return.
-   - [ ] Earnest's Solitude — grave and Arrogant Tirkin — Pickup anytime · Earnest, Refugee Camp. Place flowers on the grave, then defeat Arrogant Tirkin north of Kasharpa Falls.
-   - [ ] Monster Quest 2 — 2× Basin Antols — Pickup 06:00–18:00 · Refugee Camp. Defeat Basin Antols around Daksha Shrine / the camp.
-   - [ ] Monster Quest 3 — Part 1 — 5× M64 Mechon — Pickup 18:00–06:00 · Refugee Camp. Defeat M64 Mechon along Maguel Road.
-   - [ ] Monster Quest 3 — Part 2 — 2× Brave Tirkins — Pickup 18:00–06:00 · Refugee Camp. Defeat Brave Tirkins at Tirkin Headquarters.
-   - [ ] Challenge 1 — Part 1 — White Eduardo — Pickup anytime · Refugee Camp. Defeat White Eduardo at Raguel Lake during a thunderstorm.
-   - [ ] Challenge 1 — Part 2 — Violent Andante — Pickup anytime · Refugee Camp. Defeat Violent Andante around Sky Stage / Viliera Hill.
-   - [ ] Challenge 2 — Part 1 — Trainer Harmelon — Pickup 06:00–18:00 · Refugee Camp. Defeat Trainer Harmelon north of Spiral Valley.
-   - [ ] Challenge 2 — Part 2 — Vagrant Alfead — Pickup 06:00–18:00 · Refugee Camp. Defeat Vagrant Alfead at Tirkin Headquarters.
-   - [ ] Material Quest 1 — 2× Brog Leg Meat + 2× Fertile Flamii Eggs — Pickup 18:00–06:00 · Refugee Camp. Collect Brog Leg Meat from Big Brogs and Fertile Flamii Eggs from Flamiis.
-   - [ ] Material Quest 2 — 2× Tirkin Crests + 2× Tail Feathers — Pickup 18:00–06:00 · Refugee Camp. Collect Tirkin Crests and Tail Feathers at Tirkin Headquarters.
-   - [ ] Material Quest 3 — 1× Bunnit Sapling — Pickup 18:00–06:00 · Refugee Camp. Collect a Bunnit Sapling from Slugger Bunnits north of Jabo Rock Rest Area.
-   - [ ] Material Quest 4 — 3× Vang Third Molars — Pickup 18:00–06:00 · Refugee Camp. Collect Vang Third Molars from Vangs on Bionis' Leg.
-   - [ ] Collection Quest 1 — 2× Clear Almonds — Pickup 18:00–06:00 · Refugee Camp. Collect Clear Almonds from Tephra Cave collection points.
-   - [ ] Collection Quest 2 — 3× Moth Crawlers — Pickup 06:00–18:00 · Refugee Camp. Collect Moth Crawlers from Bionis' Leg collection points.
-   - [ ] Search Quest 1 — Bird Necklace — Pickup 06:00–18:00 · Refugee Camp. Find the Bird Necklace near Raguel Bridge.
-   - [ ] Search Quest 2 — Torn Paper — Pickup 18:00–06:00 · Refugee Camp. Find the Torn Paper on Gaur Plain.
+6. 🔴 🔴 **脱出艇キャンプの時限クエストボードの残り**を片付ける
+   - **名前付き、キャンプから：**祖父の心孫知らず（タツ） · 君に贈る物語（マトリョーナ） · 君へ贈る物語（イワン） · 大食いモンスター（タツ） · **ウソつきオーネスト → ひとでなしオーネスト → こどくのオーネスト**（オーネスト、2,950 Gとグラントブーツが報酬の3部構成）。
+   - **汎用、自動完了：**討伐クエスト 2 · 討伐クエストその3 Parts 1-2 · 強敵を求めて1 Parts 1-2 · 強敵を求めて2 Parts 1-2 · 素材クエスト1-4 · 収集クエスト1-2 · おさがしクエスト1-2。
+   - **移転で全部消える。**汎用のものはフィールドで自動完了するので、モンスター狩りの前に全部受けておく。進むにつれて消えていく。
+   **サブチェック:**
+   - [ ] Being a Good Grandfather — 3× スパイドの粘着細糸 — Pickup 06:00–15:00 · タツ、脱出艇キャンプ。スパイドの粘着細糸をスパイドから集め、その後キロロへの引き継ぎに従う。
+   - [ ] A Thoughtful Idea — 3× ポニオの黒タテガミ — Pickup 09:00–18:00 · マトリョーナ、脱出艇キャンプ。イワンに話しかけ、Field Ponios からポニオの黒タテガミを集める。
+   - [ ] A Dash of Colour — 4× Sour Gooseberries — Pickup 06:00–18:00 · イワン、脱出艇キャンプ。Sour Gooseberries を集め、絵の具をマトリョーナを通して届ける。
+   - [ ] The Greedy Monster — 悪食のグロッグ — Pickup 06:00–15:00 · タツ、脱出艇キャンプ。悪食のグロッグをラグエル湖の近くで倒して戻る。
+   - [ ] Earnest's Fibs — first ether deposit — Pickup いつでも · オーネスト、脱出艇キャンプ。最初のエーテル鉱床を調べて戻る。
+   - [ ] Earnest's Mischief — second ether deposit — Pickup いつでも · オーネスト、脱出艇キャンプ。ラグエル湖にある洞窟側のエーテル鉱床を調べて戻る。
+   - [ ] Earnest's Solitude — 墓と増長のターキン — Pickup いつでも · オーネスト、脱出艇キャンプ。墓に花を置き、増長のターキンをカシュハパの滝の北で倒す。
+   - [ ] Monster Quest 2 — 2× Basin Antols — Pickup 06:00–18:00 · 脱出艇キャンプ。ダクシャ神殿 / キャンプの周辺で Basin Antols を倒す。
+   - [ ] Monster Quest 3 — Part 1 — 5× M64 Mechon — Pickup 18:00–06:00 · 脱出艇キャンプ。マークウェル街道沿いに M64 機神兵を倒す。
+   - [ ] Monster Quest 3 — Part 2 — 2× Brave Tirkins — Pickup 18:00–06:00 · 脱出艇キャンプ。ターキンの本営で Brave Tirkins を倒す。
+   - [ ] Challenge 1 — Part 1 — 純白のエドワルド — Pickup いつでも · 脱出艇キャンプ。雷雨のとき純白のエドワルドをラグエル湖で倒す。
+   - [ ] Challenge 1 — Part 2 — 暴走のアンダンテ — Pickup いつでも · 脱出艇キャンプ。暴走のアンダンテを天空の舞台 / ビリエラ丘陵の周辺で倒す。
+   - [ ] Challenge 2 — Part 1 — 調教のハーメルン — Pickup 06:00–18:00 · 脱出艇キャンプ。調教のハーメルンをラセン谷の北で倒す。
+   - [ ] Challenge 2 — Part 2 — 風来のアルフィード — Pickup 06:00–18:00 · 脱出艇キャンプ。風来のアルフィードをターキンの本営で倒す。
+   - [ ] Material Quest 1 — 2× グロッグのモモ肉 + 2× 有精のフラミーの卵 — Pickup 18:00–06:00 · 脱出艇キャンプ。Big Brogs からグロッグのモモ肉を集め、Flamiis から有精のフラミーの卵を集める。
+   - [ ] Material Quest 2 — 2× ターキンのトサカ + 2× 尾羽 — Pickup 18:00–06:00 · 脱出艇キャンプ。ターキンのトサカと尾羽をターキンの本営で集める。
+   - [ ] Material Quest 3 — 1× バニットの幸せ苗木 — Pickup 18:00–06:00 · 脱出艇キャンプ。Jabo Rock Rest Area の北にいる Slugger Bunnits からバニットの幸せ苗木を集める。
+   - [ ] Material Quest 4 — 3× ヴァンプの第三大臼歯 — Pickup 18:00–06:00 · 脱出艇キャンプ。ヴァンプの第三大臼歯を巨神脚にいる Vangs から集める。
+   - [ ] Collection Quest 1 — 2× Clear Almonds — Pickup 18:00–06:00 · 脱出艇キャンプ。テフラ洞窟の採取ポイントから Clear Almonds を集める。
+   - [ ] Collection Quest 2 — 3× Moth Crawlers — Pickup 06:00–18:00 · 脱出艇キャンプ。巨神脚の採取ポイントから Moth Crawlers を集める。
+   - [ ] Search Quest 1 — 片羽の鳥のネックレス — Pickup 06:00–18:00 · 脱出艇キャンプ。Raguel Bridge の近くで片羽の鳥のネックレスを見つける。
+   - [ ] Search Quest 2 — 寄せ書きの破片 — Pickup 18:00–06:00 · 脱出艇キャンプ。寄せ書きの破片をガウル平原で見つける。
 
-> **ℹ️ Note — The four Challenge parts are Unique Monster fights again**
+> **ℹ️ メモ — 4つの強敵を求めてのパートは、再びユニークモンスター戦だ**
 >
-> Same rule as Colony 9. Take them from the Refugee Camp before you hunt, or the monsters will not be there:
-> **Challenge 1 Part 1** → White Eduardo · **Challenge 1 Part 2** → Violent Andante
-> **Challenge 2 Part 1** → Trainer Harmelon · **Challenge 2 Part 2** → Vagrant Alfead
+> 規則はコロニー9と同じだ。狩る前に脱出艇キャンプで受けておく。そうしないとモンスターはいない。
+> **強敵を求めて1 Part 1** → 純白のエドワルド · **強敵を求めて1 Part 2** → 暴走のアンダンテ
+> **強敵を求めて2 Part 1** → 調教のハーメルン · **強敵を求めて2 Part 2** → 風来のアルフィード
 
-7. 👾 UM: **Sniper Paramecia** (15) — southwest of Gaur Plain. Free-roaming
+7. 👾 UM: **狙撃のパラミシア** (15) — ガウル平原の南西。自由に徘徊
 
-8. 👾 UM: **Trainer Harmelon** (15) — east of Zax Guidepost · **Challenge 2 Part 1**
+8. 👾 UM: **調教のハーメルン** (15) — ザクスの道標の東 · **強敵を求めて2 Part 1**
 
-9. 👾 UM: **Violent Andante** (16) — near Raguel Lake, Viliera Hill · **Challenge 1 Part 2**
+9. 👾 UM: **暴走のアンダンテ** (16) — ラグエル湖、ビリエラ丘陵の近く · **強敵を求めて1 Part 2**
 
-10. 👾 UM: **Vagrant Alfead** (16) — Tirkin Headquarters · **Challenge 2 Part 2**
-   Same building as the Thieving Monsters clothes. Do both in one trip.
+10. 👾 UM: **風来のアルフィード** (16) — ターキンの本営 · **強敵を求めて2 Part 2**
+   泥棒モンスターの服と同じ建物だ。1回の移動で両方やる。
 
-11. 👾 UM: **White Eduardo** (17) — island in Raguel Lake · **thunderstorm only** · Challenge 1 Part 1
+11. 👾 UM: **純白のエドワルド** (17) — ラグエル湖の島 · **雷雨のときだけ** · 強敵を求めて1 Part 1
 
-12. 👾 UM: **Napping Volfen** (17) — eastern Gaur Plain · **rain or thunderstorm**
+12. 👾 UM: **午睡のウルフェン** (17) — ガウル平原の東 · **雨、または雷雨**
 
-13. 👾 UM: **Night Cardamon** (18) — near Kasharpa Falls · **night, and not raining**
+13. 👾 UM: **闇夜のカルダモン** (18) — カシュハパの滝の近く · **夜、かつ雨ではない**
 
-14. 👾 UM: **Clifftop Bayern** (32) — Daksha Shrine
-   Fourteen levels above you. Either skip it and come back, or bring it down with a full Break → Topple → Daze lock. Your call — it is not going anywhere.
+14. 👾 UM: **崖上のバイエルン** (32) — ダクシャ神殿
+   こちらより14レベル上だ。飛ばして後で戻るか、崩し → 転倒 → 気絶の完全な拘束で落とす。どちらでもよい — どこかへは消えない。
 
-> **🌦️ Weather / time — Bionis' Leg is the worst weather chapter. Plan two trips, not six**
+> **🌦️ 天候 / 時間 — 巨神脚は天候が最も厄介な章だ。6回ではなく2回の移動で計画する**
 >
-> **Trip 1 — a thunderstorm.** Wait for one rather than chasing it, then in a single storm clear:
-> · **White Eduardo**, island in Raguel Lake (Challenge 1 Part 1)
-> · **Napping Volfen**, eastern Gaur Plain (rain also works)
-> · **Aqua Nebula** for the **Light Rain Element** — Colony 6 Special 1. **Thunderstorm only, nothing else drops it.**
+> **行程1 — 雷雨。**追いかけず、来るのを待つ。その1回の嵐で次を片付ける。
+> · **純白のエドワルド**、ラグエル湖の島（強敵を求めて1 Part 1）
+> · **午睡のウルフェン**、ガウル平原の東（雨でも可）
+> · **アクア・ネブラ**から**小雨の元素** — コロニー6 Special 1。**雷雨のときだけ。ほかでは落ちない。**
 >
-> **Trip 2 — one night.**
-> · **Wisps** for 5x Glowing Wisp Fluid (Emergency Treatment)
-> · **Night Cardamon** near Kasharpa Falls — needs night **and** clear skies, so do it on a dry night, not the storm night.
+> **行程2 — 夜を1回。**
+> · **Wisps**から5x ランプスの発光液（薬の時間）
+> · **闇夜のカルダモン**、カシュハパの滝の近く — 夜**かつ**晴れ空が必要。嵐の夜ではなく、乾いた夜にやる。
 >
 > Everything else here is weather-independent.
 
-> **⛏️ Grind stop — Ten Colony 6 materials live here. Clear them now, not at Lv85**
+> **⛏️ 周回 — コロニー6の素材が10種、ここにある。Lv85になってからではなく、今片付ける**
 >
-> Bionis' Leg carries more of the Colony 6 bill than any other area. None of it is on a deadline — the area is permanent — but these are ordinary Lv15-25 enemies you are fighting anyway. Coming back at level 85 to farm them is an hour you throw away.
+> 巨神脚は、他のどのエリアよりもコロニー6の分量を多く抱えている。どれも期限はない — エリアは恒久だ — が、相手はどうせ戦う普通の Lv15-25 の敵だ。レベル85まで戻って周回するのは、捨てる1時間になる。
 >
-> **Do not sell any of these.** Check the ten items below off as you go.
+> **これらはどれも売るな。** 下の10個を、進みながら消していく。
 
-15. ⛏️ ⛏️ **Spotted Volff Hide** ×2 — Housing 1. Kill Volff (everywhere)
+15. ⛏️ ⛏️ **ヴォルフの斑柄毛皮** ×2 — Housing 1。ヴォルフを倒す（全域）
 
-16. ⛏️ ⛏️ **Sharp Hox Spur** ×2 — Nature 1. Kill Hox near **Jabos Rock Rest Area**
+16. ⛏️ ⛏️ **ホッグスの一本針** ×2 — Nature 1。ホッグスを**ジャボス岩の休憩所**の近くで倒す
 
-17. ⛏️ ⛏️ **Gogol Horn** ×3 — Housing 5. Kill Gogols near **Raguel Bridge**
+17. ⛏️ ⛏️ **ゴゴールの獣王角** ×3 — Housing 5。Gogols を**Raguel Bridge**の近くで倒す
 
-18. ⛏️ ⛏️ **Hox Daylight Spur** ×3 — Nature 4. Kill Dark or White Hox **under Raguel Bridge**
+18. ⛏️ ⛏️ **ホッグスの晴天針** ×3 — Nature 4。Dark かアルブム・ホッグスを**Raguel Bridge の下**で倒す
 
-19. ⛏️ ⛏️ **Ardun Elder Beard** ×3 — Nature 5. Kill Magnis Ardun near **Rho Oasis**
+19. ⛏️ ⛏️ **アルドンの元老髭** ×3 — Nature 5。マグニス・アルドンを**ローのオアシス**の近くで倒す
 
-20. ⛏️ ⛏️ **Tokilos King Egg** ×1 — Nature 5. Kill **Leg Tokilos** near **Zax Guidepost**
+20. ⛏️ ⛏️ **トキロスの鳥王卵** ×1 — Nature 5。**レッグ・トキロス**を**ザクスの道標**の近くで倒す
 
-21. ⛏️ ⛏️ **Hill Firefly** ×4 — Commerce 5. Bionis' Leg collection points
+21. ⛏️ ⛏️ **ゼッペキホタル** ×4 — Commerce 5。巨神脚の採集ポイント
 
-22. ⛏️ ⛏️ **Light Rain Element** ×1 — Special 1. **Aqua Nebula, thunderstorm only**
+22. ⛏️ ⛏️ **小雨の元素** ×1 — Special 1。**アクア・ネブラ、雷雨のときだけ**
 
-23. ⛏️ ⛏️ **Vang Star Wing** ×2 — Housing 5. Tempest Vang in **Windy Cave**
+23. ⛏️ ⛏️ **ヴァンプの星羽根** ×2 — Housing 5。テンペスト・ヴァンプが**風鳴りの空洞**にいる
 
-24. ⛏️ ⛏️ **Caterpile Silk** ×3 — Nature 4. Royal Caterpile in **Windy Cave**
-   Same cave as the Vang Star Wings. One trip covers both.
+24. ⛏️ ⛏️ **キャピルの神糸** ×3 — Nature 4。ロイアル・キャピルが**風鳴りの空洞**にいる
+   ヴァンプ Star Wings と同じ洞窟。1回の訪問で両方済む。
 
-> **ℹ️ Note — Spiral Valley — a separate chain that does NOT expire**
+> **ℹ️ メモ — ラセン谷 — 期限が切れない、別の連鎖**
 >
-> Out in Bionis' Leg proper, given by Nopon near **Zax Guidepost**. These survive the relocation, so if you are short on time before Chapter 5, sacrifice these and not the camp.
+> 巨神脚の本体側。依頼主はノポンで、場所は**ザクスの道標**の近く。これらは移住後も残る。5章の前に時間が足りないなら、キャンプではなくこちらを後回しにする。
 
-25. 📜 **The Lost Nopon** — Gerugu, Spiral Valley
-   - **Pays:** 750 G · 300 EXP · Point Rifle · +50 Colony 6 affinity.
-   - First link of the chain below.
+25. 📜 **方向音痴迷惑ノポン** — グレリー, ラセン谷
+   - **報酬:** 750 G · 300 EXP · ポイントライフル · +50 コロニー6友好度。
+   - 下の連鎖の最初の一環。
 
-26. 📜 **With Much Gratitude** — Batubatu, Spiral Valley
-   - **Pays:** 1,000 G · 450 EXP · Spike II · +100 affinity.
+26. 📜 **最上級の感謝** — バルド, ラセン谷
+   - **報酬:** 1,000 G · 450 EXP · スパイク II · +100 友好度。
 
-27. 📜 **With Even More Gratitude** — Gerugu, Spiral Valley
-   - **Pays:** 1,200 G · 750 EXP · Grand Gear · Electric Plus III · +150 affinity.
-   - **Then talk to Pachipa** — that hands you `It Definitely Exist!`, which is the gate on the quest below.
+27. 📜 **再・最上級の感謝** — グレリー, ラセン谷
+   - **報酬:** 1,200 G · 750 EXP · グラントギア · 雷強化 III · +150 友好度。
+   - **その後パチカに話す** — これで`ゼッタイいる！`を受け取り、下のクエストの門になる。
 
-28. 📜 **Legend of Mythical Empress** — Gerugu · needs **3.5★ Colony 6**
-   - **Prerequisites:** `With Even More Gratitude` and `It Definitely Exist!` (from Pachipa), plus **3.5★ Colony 6 Area Affinity**. That is high for this chapter — you may not clear it until after the relocation, which is fine because Spiral Valley does not expire.
-   - **Do:** kill the **Mythical Empress**, enraged near her nest after something killed her child.
-   - **Turn in:** back to Gerugu.
-   - **Pays:** 6,500 G · 3,000 EXP · Haste II · +200 Rep. Biggest single payout available this chapter.
+28. 📜 **真・伝説のエンプレス** — グレリー · 必要 **3.5★ コロニー6**
+   - **前提:** `再・最上級の感謝`と`ゼッタイいる！`（パチカから）、加えて**3.5★ コロニー6のエリア友好度**。この章としては高い — 移住のあとまで達成できないことがあるが、ラセン谷は期限切れにならないので問題ない。
+   - **手順:** **伝説のエンプレス**を倒す。子を殺されたあと、巣の近くで激怒している。
+   - **報告:** グレリーのもとへ戻る。
+   - **報酬:** 6,500 G · 3,000 EXP · ヘイスト II · +200 評判。この章で一度にもらえる最大の報酬。
 
-29. 💜 💜 **Shulk & Sharla** — Raguel Bridge North, day, Green
-   Sharla just joined, so give it an hour of party time and Burst Affinity prompts before you try.
+29. 💜 💜 **シュルク & カルナ** — Raguel Bridge North、昼、緑
+   カルナは加入したばかりなので、試す前に1時間ほどパーティに入れ、バーストキズナの表示を押していく。
 
-30. 🔴 🔴 💜 **Reyn & Sharla** — Refugee Camp interior, day, Green
+30. 🔴 🔴 💜 **ライン & カルナ** — 脱出艇キャンプの内部、昼、緑
    In the camp, so treat it as on the deadline even though Heart-to-Hearts are generally not missable. Do it before the relocation and the question never comes up.
 
-31. 🔴 🔴 Fill the **Refugee Camp** Collectopaedia entries before the relocation
+31. 🔴 🔴 移住の前に**脱出艇キャンプ**のコレペディア項目を埋める
 
-> **ℹ️ Note — Two Bionis' Leg Heart-to-Hearts you cannot reach yet**
+> **ℹ️ メモ — まだ届かない巨神脚のキズナトークが2つ**
 >
-> **Shulk & Dunban** at Believer's Paradise needs Purple, and **Dunban & Sharla** at Rho Oasis needs Pink. Dunban does not even join permanently until Chapter 5. They are pinned to Chapter 8 and the post-game respectively.
+> **シュルク & ダンバン**、場所は崇拝者の楽園、必要は紫。そして**ダンバン & カルナ**、場所はローのオアシス、必要はピンク。ダンバンの恒久加入は5章になってからだ。それぞれ8章とクリア後に固定されている。
 
 ---
 
-## Chapter 5 — Colony 6 and Ether Mine
+## Chapter 5 — コロニー6と中央採掘場
 
-**Level 25-32** · 14 tracked items
+**レベル 25-32** · 追跡 14件
 
-> **Dunban becomes permanent.** One hard deadline here — **Xord** seals half the Ether Mine. The Refugee Camp relocation is **Chapter 6**, not this one, so you have more room than most guides imply.
+> **ダンバンが恒久になる。** ここでの硬い期限は一つ — **ゾード**が中央採掘場の半分を封鎖する。脱出艇キャンプの移住は**6章**で、この章ではない。だから、多くの攻略が示すより猶予がある。
 
-> **📊 Set your level — Set level to 28**
+> **📊 レベルを合わせる — Set level to 28**
 >
-> Ether Mine runs Lv20-29 and Colony 6's monsters sit around 19-25. **28 keeps Xord honest** without trivialising him.
+> 中央採掘場は Lv20-29 で、コロニー6のモンスターは 19-25 前後だ。**28 ならゾードを正当な相手に保てる**。相手を簡単にしすぎない。
 >
 > You should now be visibly banking EXP — if your bank is empty you are spending it, which is the one mistake this policy exists to prevent. Check the menu.
 
-> **⚔️ Party & build — Dunban is permanent now — start the handover**
+> **⚔️ パーティとビルド — ダンバンは今から恒久 — 引き継ぎを始める**
 >
-> Swap to **Shulk / Dunban / Sharla** and retire Reyn from the active party.
+> **シュルク / ダンバン / カルナ**へ切り替え、ラインを戦闘パーティから下げる。
 >
-> **Why now:** Dunban is an **evasion tank**, and he needs time in the party for his Agility skills and affinity to build before he becomes the wall he ends up as. Starting him now means he is ready when the difficulty steps up.
-> **Prioritize Agility Up on Dunban** until he reliably evades. Reserve enough Agility Up or Night Vision for your controlled attacker to hit consistently when fighting above its level.
-> **Dunban's arts:** **Gale Slash**, **Blossom Dance**, **Serene Heart** (big evasion buff — the AI uses it well). Use **Steel Strike** to Topple an enemy after Break. Tempest Kick is a later Lv32 buff-removal art, not a Topple.
-> **Skill tree:** spend his AP on the agility and evasion branches first. This is the highest-return AP in the entire game.
+> **今やる理由:** ダンバンは**回避タンク**で、最終的な壁になる前に、パーティで素早さのスキルとキズナを育てる時間が要る。今から入れれば、難度が上がったときに間に合う。
+> **素早さアップをダンバンに優先する**。安定して回避できるまで続ける。自分より上のレベルと戦っても操作中の攻撃役が安定して当たるよう、素早さアップか夜間命中アップを十分残す。
+> **ダンバンのアーツ:** **疾風刃**、**桜花乱舞**、**明鏡止水**（大きな回避バフ — AI はこれを上手く使う）。**鉄功弾**で敵を転倒する。使うのは崩しのあと。風刃旋脚は後の Lv32 のバフ解除アーツで、転倒ではない。
+> **スキルツリー:** AP はまず素早さと回避の枝に使う。ゲーム全体で最も効率の良い AP だ。
 >
-> Keep Reyn levelled — he is fine — but Dunban is the tank from here to the end.
+> ラインのレベルは維持する — 問題はない — が、ここから最後までタンクはダンバンだ。
 
-> **💀 Boss prep — 🔴 Xord — and what he takes with him**
+> **💀 ボス準備 — 🔴 ゾード — そして一緒に持っていくもの**
 >
-> Beating Xord permanently seals the **Central Pit**, roughly half the Ether Mine. Finish the four items below **before** you fight him.
+> ゾードを倒すと**Central Pit**が永久に封鎖され、中央採掘場のおよそ半分が閉じる。下の4項目は、戦う**前**に終える。
 >
-> **The fight itself:** he is a Mechon, so ordinary attacks bounce. You need **Monado Enchant** up on the party — that is the entire gimmick. Refresh it when it lapses and he is a normal fight.
+> **戦闘そのもの:** 相手は機神兵なので、通常攻撃は弾かれる。パーティに**モナドのエンチャント**を掛けておく必要がある — 仕掛けはそれだけだ。切れたら掛け直せば、通常の戦闘になる。
 
-1. 🔴 🔴 Before Xord — UM: **Dark Kisling** (20), east of Central Terminal
+1. 🔴 🔴 ゾードの前 — UM: **暗闇のキスリング**（20）、中央ターミナルの東
 
-2. 🔴 🔴 Before Xord — UM: **Vengeful Daulton** (22), east of Test Pit 4
+2. 🔴 🔴 ゾードの前 — UM: **制裁のドールトン**（22）、地下坑道 第4試掘場の東
 
-3. 🔴 🔴 Before Xord — ⛏️ **Ready Coil** ×2 (Commerce 2) and **Black Beetle** ×2 (Nature 5)
-   Both from Ether Mine collection points. Run the Skip Travel loop off the nearest landmark until you have all four.
-   **Sub-checkpoints:**
+3. 🔴 🔴 ゾードの前 — ⛏️ **レディコイル** ×2（Commerce 2）と**クロメタルカナブン** ×2（Nature 5）
+   どちらも中央採掘場の採集ポイント。最寄りのランドマークからスキップトラベルの周回を、4つ揃うまで繰り返す。
+   **サブチェック:**
    - [ ] Bank 2× Ready Coil
    - [ ] Bank 2× Black Beetle
 
-4. 🔴 🔴 Before Xord — fill the **Ether Mine** Collectopaedia page
+4. 🔴 🔴 ゾードの前 — **中央採掘場**のコレペディアページを埋める
 
-> **ℹ️ Note — ⚠️ Elegant Marin — a timing trap worth checking yourself**
+> **ℹ️ メモ — ⚠️ 優美なマーリン — 自分で確認する価値のある、タイミングの罠**
 >
-> **Elegant Marin** (Lv29) sits near **Glowmoss Lake** in the Ether Mine and only spawns via the quest `What is Courage?!` — which comes from Ewan at the Colony 6 Reconstruction HQ and, per the quest lists, does not appear until **Chapter 6**.
+> **優美なマーリン**（Lv29）の位置は**光ゴケの地底湖**の近く、中央採掘場の中。出現はクエスト`勇気を教えてやる！`だけ — 出し主はイワン、場所はコロニー6のコロニー6 復興本部。クエスト一覧では**6章**まで出ない。
 >
-> That is after Xord. **If Glowmoss Lake happens to be inside the sealed Central Pit, this Unique Monster is unobtainable.** No source addresses it either way.
+> それはゾードのあとだ。**光ゴケの地底湖が封鎖された Central Pit の中なら、このユニークモンスターは入手できない。** どの資料も、どちらとも書いていない。
 >
-> **What to do:** before you fight Xord, walk to Glowmoss Lake and note where it sits relative to the Central Pit. Then when `What is Courage?!` appears in Chapter 6, go straight back and check access. If it is sealed, you have lost one Affinity Coin and nothing else — but you will know rather than wonder.
+> **対処:** ゾードと戦う前に光ゴケの地底湖まで歩き、Central Pit との位置関係を記録する。その後、6章で`勇気を教えてやる！`が出たら、すぐ戻って入れるか確認する。封鎖されていれば、失うのはキズナコイン1枚だけで、他には何もない — ただし、迷うのではなく、事実として分かる。
 
-> **ℹ️ Note — Watchpoint Junction — three quests from Daza, one timed**
+> **ℹ️ メモ — 物見の三叉路 — ガザからのクエスト3つ、うち1つが時限**
 >
-> On the road between Bionis' Leg and Colony 6. Easy to blow past.
+> 巨神脚とコロニー6のあいだの道。通り過ぎやすい。
 
-5. 📜 **Proof of Status** — Daza, Watchpoint Junction
-   - **Pays:** 850 G · 320 EXP · Break II · +50 Rep.
+5. 📜 **ノポン商会の証** — ガザ, 物見の三叉路
+   - **報酬:** 850 G · 320 EXP · 崩し II · +50 評判。
 
-6. 📜 **Safety First** — Daza, Watchpoint Junction
-   - **Pays:** 900 G · 400 EXP · Pelt Bottoms · Pelt Top · +50 Rep.
+6. 📜 **安全の確保** — ガザ, 物見の三叉路
+   - **報酬:** 900 G · 400 EXP · ハードレザーボトムズ · ハードレザートップス · +50 評判。
 
-7. 🔴 🔴 **Secret Mission** — Daza, Watchpoint Junction · **timed**
-   - **Pays:** 1,000 G · 500 EXP · Slow III · **Top-Secret Data** · +150 Rep.
-   - Flagged timed by Game8 with no stated expiry. Do it while you are passing.
+7. 🔴 🔴 **極秘の任務** — ガザ、物見の三叉路 · **時限**
+   - **報酬:** 1,000 G · 500 EXP · Slow III · **極秘資料** · +150 評判。
+   - Game8 は時限と印を付けているが、期限の記載はない。通りがかりにやる。
 
-> **ℹ️ Note — Colony 6 opens — and reconstruction is a 200-hour background task**
+> **ℹ️ メモ — コロニー6が開く — そして再建は、裏で進む200時間の作業だ**
 >
-> You are about to be handed the largest single project in the game. Two numbers to hold onto:
+> このゲームで最大の単一プロジェクトを、これから渡される。持っておく数字は2つ。
 >
-> **~2,000,000 G total** across all four categories at Level 5. Gold is the wall here, not materials.
-> **Four categories** — Housing, Commerce, Nature, Special — each 0 to 5.
+> **合計 ~2,000,000 G**。レベル5の4部門すべてを合わせた額。ここで壁になるのはゴールドだ。素材ではない。
+> **4部門** — Housing、Commerce、Nature、Special — それぞれ 0 から 5。
 >
-> **Build order: Housing to 3, then Nature to 3.** Nearly every resident gates on a Housing level, and Housing 3 + Nature 3 is exactly what unlocks **Berryjammy**, who is a hard prerequisite for both Minana and Gowago later and who trades **Lewisia Silver**, one of the materials from an area that dies.
+> **建設順: Housing を3まで、その後 Nature を3まで。** ほぼすべての住民が Housing のレベルを条件にし、Housing 3 + Nature 3 がちょうど**ストロジャム**を解放する。この住民は、後のミンカとゴワゴワーの両方に必須の前提で、消えるエリアの素材の一つ**レウィシアシルバー**を交換する。
 >
-> **Do not push any category to Level 5 yet.** Three of the four Level 5 tiers want materials from areas you have not reached, some of which close.
+> **どの部門も、まだレベル5まで押さない。** レベル5の4段のうち3つは、まだ到達していないエリアの素材を要求する。その一部は閉鎖する。
 
-8. ⚪ **Begin reconstruction: Housing → 3, then Nature → 3**
+8. ⚪ **再建を始める: Housing → 3、その後 Nature → 3**
 
-9. 👾 UM: **Graceful Holand** (19) — NE of Drainage Outlet · **rain or thunderstorm**
+9. 👾 UM: **幽玄のホーランド**（19）— コロニー6 排水口の北東 · **雨または雷雨**
 
-10. 👾 UM: **Drifter Jutard** (25) — Pod Depot
+10. 👾 UM: **迷走のシュタード**（25）— ポッド発着場
 
-11. ⛏️ ⛏️ **Amblygon Turtle** ×2 — Commerce 1. Colony 6 collection, or trade Arda in Colony 6
+11. ⛏️ ⛏️ **アンブリゴタートル** ×2 — Commerce 1。コロニー6で採集するか、アーダと交換する。場所もコロニー6
 
-> **⛏️ Grind stop — Colony 6's collection points are your permanent safety net**
+> **⛏️ 周回 — コロニー6の採集ポイントは、恒久の保険になる**
 >
-> Worth understanding now rather than in Chapter 14. Colony 6 **never closes**, and its own collection points also yield **Rainbow Zirconia**, **Retro Diode**, **Black Styrene** and **Fortune Feather** — every one of which otherwise comes from an area that permanently seals.
+> 14章ではなく、今理解しておく価値がある。コロニー6は**決して閉鎖しない**。ここの採集ポイントは**虹色キュービック**、**レトロダイオード**、**クロスチロール**、そして**幸福の羽**も出す — これらはどれも、そうでなければ恒久的に封鎖されるエリアで手に入るものだ。
 >
-> So if you miss one of those in Agniratha, Mechonis Field or Central Factory later, you are not soft-locked. Come back here and farm it. Set up a Skip Travel loop off the Colony 6 landmark whenever you are passing through.
+> なので、後で帝都アグニラータ、機神界フィールド、中央工廠のどれかを逃しても、進行不能にはならない。ここに戻って集めればよい。通りがかるたびに、コロニー6のランドマークからスキップトラベルの周回を組む。
 
-> **🔀 Branch choice — Perrine vs Mefimefi — your first exclusive resident**
+> **🔀 分岐 — パイラル 対 メフィメフィ — 最初の排他の住民**
 >
-> Both come from Colony 9. Inviting one permanently excludes the other.
+> どちらもコロニー9から来る。片方を招待すると、もう片方は永久に除外される。
 >
-> **Perrine:** needs Housing 3 + Commerce 2 + Nature 2 + Special 2.
-> **Mefimefi:** needs only Housing 3 + Special 2, and unlocks `Nopon Determination` in Ch17 which pays far more (48,000 G / 72,000 EXP vs 16,000 / 9,100).
+> **パイラル:** 必要条件は Housing 3 + Commerce 2 + Nature 2 + Special 2。
+> **メフィメフィ:** 必要なのは Housing 3 + Special 2 だけで、17章の`ノポンの意地`を解放する。報酬ははるかに大きい（48,000 G / 72,000 EXP vs 16,000 / 9,100）。
 >
-> **Route recommendation: take Perrine.** `Homs Determination` requires the defeat of **Territorial Rotbart** (Lv81) on Gaur Plain, so this route keeps that Unique Monster objective visible in the late-game checklist. It does **not** claim that the quest spawns Rotbart or makes its Affinity Coin exclusive. Choose Mefimefi instead only if you prefer `Nopon Determination`'s larger reward; the resident and their quest are an irreversible branch.
+> **ルートの推奨: パイラルを取る。** `ホムスの意地`は**縄張りバルバロッサ**（Lv81）の討伐がガウル平原で必要になるので、このルートでは終盤のチェックリストにそのユニークモンスターの目標が残る。Rotbart を出現させるとも、そのキズナコインを排他にするとも、**主張しない**。メフィメフィを選ぶのは`ノポンの意地`の大きい報酬を優先する場合だけで、住民とそのクエストは取り消せない分岐だ。
 >
-> You are building all four categories to 5 regardless, so Perrine's harder gate costs you nothing but time.
+> 4部門はどれも5まで上げるので、パイラルの厳しい条件で余分に掛かるのは時間だけだ。
 
-12. 🔴 **Choose the Perrine path** (route recommendation) **or Mefimefi reward path** — exclusive Colony 6 branch
+12. 🔴 **パイラルの経路を選ぶ**（ルートの推奨）**またはメフィメフィの報酬経路** — コロニー6の排他分岐
 
-13. 🔴 🔴 💜 **Reyn & Dunban** — Refugee Camp, lake area, day, Green
-   - **Why it is flagged:** it needs **Dunban in the party**, which only happens now, and the Refugee Camp closes when you start `The Road Home`. That quest is Chapter 6, so you have this chapter plus part of the next — wider than it looks, but do not sit on it.
-   - If Dunban and Reyn are not Green yet, run a few fights with both in the party and hit every Burst Affinity prompt.
+13. 🔴 🔴 💜 **ライン & ダンバン** — 脱出艇キャンプ、湖のエリア、昼、緑
+   - **印の理由:** **パーティにダンバンが必要**になるのは今だけで、脱出艇キャンプは`懐かしの我が街へ`を始めた時点で閉じる。そのクエストは6章なので、猶予はこの章と次の章の一部 — 見た目より広いが、放置しない。
+   - ダンバンとラインがまだ緑でないなら、両方をパーティに入れて数戦し、バーストキズナの表示をすべて押す。
 
-> **ℹ️ Note — Nopon Grand Prix unlocks — Switch 2 content**
+> **ℹ️ メモ — ノポン Grand Prix が解放される — Switch 2 のコンテンツ**
 >
-> Opens after the **Metal Face encounter** here, provided you did `World-Changing Whatchamajig` in Chapter 4. Access it from the **main menu with Y** — you do not have to travel to the tracks.
+> ここの**黒いフェイスとの遭遇**のあと、4章で`World-Changing Whatchamajig`を済ませていれば解放される。入場は**メインメニューの Y** — コースまで移動する必要はない。
 >
-> **Full completion is all 70 clears** (5 tracks × 7 characters × 2 modes), which grants a permanent Ether Jet acceleration and boost bonus. That is a long tail — run each track as it unlocks rather than saving them all for the end.
+> **完全制覇は70回すべてのクリア**（5コース × 7キャラクター × 2モード）。恒久のエーテル Jet の加速とブーストのボーナスが付く。長い後続だ — 全部を最後まで貯めず、解放されたコースから走る。
 
-14. 🏁 🏁 **Bionis' Leg pair** — Caterpile Circuit (Score Attack) and Twilight Speedway (Battle Race)
-   First clear of each gives a character-specific **head** armour piece. Rewards Noponstone scaled to your rank.
+14. 🏁 🏁 **巨神脚の組** — キャピル Circuit（Score Attack）と Twilight Speedway（Battle Race）
+   それぞれの初回クリアで、キャラ専用の**頭**防具が手に入る。順位に応じた Noponstone が報酬になる。
 
-> **ℹ️ Note — Two Colony 6 branches that are NOT this chapter**
+> **ℹ️ メモ — この章ではないコロニー6の分岐が2つ**
 >
-> Correcting a mistake in an earlier version of this guide:
+> この攻略の以前の版の誤りを訂正する。
 >
-> **Miss Sweetness Showdown** (Berryjammy vs Ma'crish) is **Chapter 10**. It needs 3.5★ Colony 6 and a five-quest Cook-Off chain first.
-> **The Melody of Happiness vs Dream of a Poet** is **Chapter 14**, and it needs `In Pursuit of Love` from Rosemary in Chapter 13 first.
+> **コロニー6のお嬢様 Showdown**（ストロジャム 対 ミュキシリア）は**10章**。先に 3.5★ コロニー6と、クエスト5つの Cook-Off 連鎖が必要。
+> **興奮の中年 対 夢中の詩人**は**14章**。先に必要なのは`恋人探し`で、13章にローズウェストから出る。
 >
 > Both are re-listed in their proper chapters. Do not go looking for them now.
 
 ---
 
-## Chapter 6 — Satorl Marsh, Colony 6 rebuilds, Bionis' Interior
+## Chapter 6 — 燐光の地ザトール、コロニー6の再建、巨神胎内
 
-**Level 32-38** · 38 tracked items
+**レベル 32-38** · 追跡 38件
 
-> Dense chapter. The Colony 6 Reconstruction HQ opens a long quest chain, Satorl Marsh has two substantial Nopon chains, and **this is where the relocation happens** — which kills the Refugee Camp for good.
+> 密度の高い章だ。コロニー6のコロニー6 復興本部が長いクエスト連鎖を開き、燐光の地ザトールにはまとまったノポンの連鎖が2本あり、**移住が起きるのはここ** — 脱出艇キャンプはこれで完全に終わる。
 
-> **📊 Set your level — Set level to 35**
+> **📊 レベルを合わせる — Set level to 35**
 >
-> Satorl Marsh runs Lv25-31 and the Colony 6 quests target similar. 35 gives you headroom for the Lv33 quest-exclusive monsters without trivialising anything.
+> 燐光の地ザトールは Lv25-31 で、コロニー6のクエストも同程度が対象だ。35 なら、Lv33 のクエスト限定モンスターに余裕があり、何も簡単にしすぎない。
 >
-> **Do not** chase Immovable Gonzalez (Lv90) in Spiral Valley. He is post-game and there is a way around him — see the For the Restoration note.
+> **追わない**。対象は不動のゴンザレス（Lv90）、場所はラセン谷。クリア後の相手で、迂回手段がある — 安全な復興のためにの注を見よ。
 
-> **⚔️ Party & build — Satorl Marsh at night is a different area**
+> **⚔️ パーティとビルド — 夜の燐光の地ザトールは別のエリアだ**
 >
-> Worth knowing before you plan anything here: **Satorl Marsh transforms at night**, lighting up with glowing trees. It is not cosmetic — visibility and navigation change completely, and one Heart-to-Heart requires it.
+> ここで何かを計画する前に知っておくこと。**燐光の地ザトールは夜に変貌する**。光る木で明るくなる。見た目だけではない — 視界と移動が完全に変わり、キズナトークの一つがそれを要求する。
 >
-> **Combat:** Igna enemies here hit hard for the level. Keep Dunban tanking and use Shulk's **Monado Speed** on him — you should be leaning on it reflexively by now.
+> **戦闘:** ここのイグーナの敵は、レベルの割に痛い。ダンバンにタンクを続けさせ、シュルクの**モナド スピード**をそのタンクに掛ける — もう反射で頼っているはずだ。
 
-> **ℹ️ Note — 🔴 The relocation happens this chapter — order matters**
+> **ℹ️ メモ — 🔴 The relocation happens this chapter — order matters**
 >
-> Completing **`The Road Home`** moves the refugees to Colony 6 and expires every unfinished **timed Refugee Camp quest**. Non-timed Bionis' Leg content is not universally deleted.
+> **`懐かしの我が街へ`**を完了すると、避難民はコロニー6へ移り、未完了の**時限の脱出艇キャンプクエスト**はすべて期限切れになる。時限でない巨神脚の内容が、すべて消えるわけではない。
 >
-> **So: finish every route-flagged Refugee Camp task from Chapter 4 BEFORE you complete The Road Home.** Go back and check your log now, not after.
+> **つまり: 4章でこのルートが印を付けた脱出艇キャンプの作業を、懐かしの我が街へを完了する前にすべて終える。** あとからではなく、今ログを戻って確認する。
 >
-> **Do not delay it either.** If The Road Home itself expires, `To Colony 6!` is the mutually exclusive reconstruction fallback, but it does not appear until Chapter 13.
+> **遅らせもしない。** 懐かしの我が街へ自体が期限切れになると、相互排他の再建の代替は`いざ、コロニー6へ`だが、出現は13章からだ。
 
-1. 🔴 🔴 **The Road Home** — Otharon, Colony 6 Main Entrance · **ends the Refugee Camp**
-   - **Do first:** confirm every Chapter 4 route-flagged timed Refugee Camp quest is closed.
-   - **Do:** kill **6x Black Smoke Hox** (Lv30, quest-exclusive) at **Raguel Bridge South** on Bionis' Leg → **6x White Smoke Hox** (Lv32) spawn in the same spot, kill those → talk to **Juju**.
-   - **Turn in:** Juju, at the Refugee Camp.
-   - **Pays:** 3,200 G · 550 EXP · +100 Rep · EXP Up I · AP Up I.
+1. 🔴 🔴 **懐かしの我が街へ** — オダマ、コロニー6 Main Entrance · **脱出艇キャンプを終わらせる**
+   - **先にやること:** 4章でこのルートが印を付けた時限の脱出艇キャンプクエストが、すべて完了していることを確認する。
+   - **手順:** **6x 黒煙のホッグス**（Lv30、クエスト限定）を**Raguel Bridge South**、巨神脚で倒す → 同じ地点に**6x 白煙のホッグス**（Lv32）が出現するので、それらを倒す → **ジュジュ**に話す。
+   - **報告:** ジュジュ、場所は脱出艇キャンプ。
+   - **報酬:** 3,200 G · 550 EXP · +100 評判 · ＥＸＰアップ I · ＡＰアップ I。
 
-> **ℹ️ Note — The Colony 6 HQ chain — one long thread, do it in order**
+> **ℹ️ メモ — コロニー6の HQ 連鎖 — 一本の長い流れ。順番どおりにやる**
 >
-> Almost everything at the Reconstruction HQ is a single sequence. Out of order, quests simply will not appear:
+> コロニー6 復興本部にあるもののほとんどは、一本の順序だ。順番を崩すと、クエストは出現しない。
 >
-> **What is Love?!** → **What is Courage?!** (1.25★) → **Matryona's Answer** (2★)
-> **Satata's Younger Brother** → **Rest in Peace** (1.5★)
-> **Making a New Path** → **For the Restoration** ← do these in this order, it matters, see below
-> Standalone: A Selfish Girl's Mistake (1.5★) · Chemist's Reopening
+> **恋愛を教えてやる！** → **勇気を教えてやる！** (1.25★) → **マトリョーナの返答** (2★)
+> **タツの弟** → **安らかに眠れ** (1.5★)
+> **迂回ルートを作れ** → **安全な復興のために** ← この順でやる。重要。下記を見よ
+> 単独: わがまま娘ゆえの過ち（1.5★）· 薬屋業再開
 
-> **🔀 Branch choice — 🔴 Why Spirits Raised in Chapter 4 mattered more than I said**
+> **🔀 分岐 — 🔴 4章の君の贈る物語が、前に書いた以上に重要だった理由**
 >
-> Back in Chapter 4 I told you to take `Spirits Raised` over `Imaginations Tempered` for better affinity. The real reason is much bigger:
+> 4章では、より良い友好度のために`君の贈る物語`を`君が贈る物語`より取るよう書いた。本当の理由は、それよりずっと大きい。
 >
-> **`What is Love?!` requires that `Imaginations Tempered` was NOT completed.**
+> **`恋愛を教えてやる！`の条件は、`君が贈る物語`を完了していないこと。**
 >
-> If you finished Matryona's version instead of Arda's, the entire Ewan/Matryona chain — What is Love?!, What is Courage?!, Matryona's Answer — **never becomes available.** That is three quests, an Affinity Chart romance outcome, and a Unique Monster gone from one choice two chapters ago.
+> マトリョーナの版をアーダの版の代わりに終えていた場合、イワン/マトリョーナの連鎖全体 — 恋愛を教えてやる！、勇気を教えてやる！、マトリョーナの返答 — は**決して出現しない。** 2章前の一つの選択で、クエスト3つとキズナグラムの恋愛の結末と、ユニークモンスターが失われる。
 >
-> **There is a second trap in the same thread.** If you collected the **Lake Drop** during Imaginations Tempered but never delivered it before the relocation, that Lake Drop is gone permanently, and `Matryona's Answer` is forced onto Route B (the rejection ending). Conversely, if a Lake Drop is already in your inventory when you accept, Route A fires automatically.
+> **同じ流れに、二つ目の罠がある。** **湖のしずく**を君が贈る物語中に集めても、移住の前に届けていなければ、その湖のしずくは永久に消える。そして`マトリョーナの返答`はルートB（拒絶エンド）に固定される。逆に、受注の時点で湖のしずくが所持品にあれば、ルートAが自動で発生する。
 
-2. 📜 **What is Love?!** — Ewan, Reconstruction HQ
-   - **Requires:** `Imaginations Tempered` was **not** completed. If it was, this quest does not exist.
-   - **Do:** talk to four Colony 6 residents about love — **Olga**, **Gorman**, **Anna**, **Satata**.
-   - **Turn in:** Ewan.
-   - **Pays:** 3,500 G · 620 EXP · +50 Rep · Bleed Defence III.
+2. 📜 **恋愛を教えてやる！** — イワン, コロニー6 復興本部
+   - **条件:** `君が贈る物語`を完了**していない**こと。完了していると、このクエストは存在しない。
+   - **手順:** 恋についてコロニー6の住民4人に話す — **オルガ**、**ゲールマン**、**アンナ**、**タツ**。
+   - **報告:** イワン。
+   - **報酬:** 3,500 G · 620 EXP · +50 評判 · 出血防御 III。
 
-3. 👾 **What is Courage?!** — Ewan · needs **1.25★** · spawns a Unique Monster
-   - **Do:** escort Ewan and kill one of two targets. **Route A: Elegant Marin** (Lv29 Unique Monster, Ether Mine, Glowmoss Lake, any time or weather). **Route B: Hungry Volff** (Lv33, quest-exclusive, Satorl Marsh near the Glowing Obelisk).
-   - **Take Route A.** Rewards are identical either way, but Elegant Marin is a **Unique Monster** — an Affinity Coin for all seven characters. Hungry Volff is quest-exclusive filler.
-   - **Then:** protect Ewan on the trip and talk to him twice.
-   - **Pays:** 3,700 G · 650 EXP · +100 Rep · Daze Tension III.
-   - This resolves the Chapter 5 worry about Elegant Marin: it spawns any time and Glowmoss Lake is reachable after Xord.
+3. 👾 **勇気を教えてやる！** — イワン · 必要 **1.25★** · ユニークモンスターが出現する
+   - **手順:** イワンを護衛し、2つの対象のうち1体を倒す。**ルートA: 優美なマーリン**（Lv29 のユニークモンスター、中央採掘場、光ゴケの地底湖、時間も天候も不問）。**ルートB: 餓狼のヴォルフ**（Lv33、クエスト限定、燐光の地ザトール、光球のオベリスクの近く）。
+   - **ルートAを取る。** 報酬はどちらも同じだが、優美なマーリンは**ユニークモンスター** — 7人全員のキズナコインになる。餓狼のヴォルフはクエスト限定の埋めだ。
+   - **次:** 道中イワンを守り、2回話しかける。
+   - **報酬:** 3,700 G · 650 EXP · +100 評判 · 気絶テンション III。
+   - これで5章の優美なマーリンに関する懸念は解消する。出現はいつでもよく、光ゴケの地底湖はゾードのあとでも到達できる。
 
-> **🔀 Branch choice — Matryona's Answer — Lake Drop or Nasty Weed**
+> **🔀 分岐 — マトリョーナの返答 — 湖のしずくかウラミー草**
 >
-> **Route A (Lake Drop, near Raguel Lake on Bionis' Leg):** Matryona accepts Ewan. Reward **Blaze Attack II**.
-> **Route B (Nasty Weed, east of the Crown Tree in Satorl Marsh):** she paints a deliberately unflattering portrait to reject him. Reward **Blaze Defence III**.
+> **ルートA（湖のしずく、ラグエル湖の近く、巨神脚）:** マトリョーナがイワンを受け入れる。報酬は**炎熱追撃 II**。
+> **ルートB（ウラミー草、王冠樹の東、燐光の地ザトールの中）:** 拒絶するため、わざと悪く描いた肖像にする。報酬は**炎熱防御 III**。
 >
-> **Take Route A.** Gold, EXP and reputation are identical (4,500 G / 700 EXP / +150). The difference is the outcome, and the positive one is the recommended route.
+> **ルートAを取る。** ゴールド、EXP、評判は同じ（4,500 G / 700 EXP / +150）。違うのは結末で、推奨ルートは良い方だ。
 >
-> The Nasty Weed does not even spawn until the quest reaches that step, so if you want Route A just make sure you are carrying a Lake Drop when you accept.
+> ウラミー草は、クエストがその段階に進むまで出現すらしない。ルートAにするなら、受注時に湖のしずくを所持していることだけ確認する。
 
-4. 📜 **Matryona's Answer** — Matryona · needs **2★** · take **Route A**
-   - **Do:** collect a **Lake Drop** near **Raguel Lake**, Bionis' Leg → talk to Matryona → deliver the portrait to **Ewan** → return to Matryona.
-   - **Pays:** 4,500 G · 700 EXP · +150 Rep · Blaze Attack II.
+4. 📜 **マトリョーナの返答** — マトリョーナ · 必要 **2★** · **ルートA**を取る
+   - **手順:** **湖のしずく**を**ラグエル湖**の近く、巨神脚で集める → マトリョーナに話す → 肖像を**イワン**へ届ける → マトリョーナへ戻る。
+   - **報酬:** 4,500 G · 700 EXP · +150 評判 · 炎熱追撃 II。
 
-5. 📜 **A Selfish Girl's Mistake** — Anna · needs **1.5★** · cannot be declined
-   - **Do:** find **Nikita** on the **Splintered Path** (south of Colony 6), then find **Kiroki** in the **Drainage Control Room** of the Ether Mine.
-   - **Turn in:** Anna.
-   - **Pays:** 4,200 G · 680 EXP · +100 Rep · Pierce Resist II.
-   - **Affinity:** creates two **Friends Always** links — Kiroki↔Nikita and Anna↔Nikita. Good chart value for one quest.
+5. 📜 **わがまま娘ゆえの過ち** — アンナ · 必要 **1.5★** · 辞退できない
+   - **手順:** **ニキータ**を**巨神の刺道**（コロニー6の南）で見つけ、次に**キロロ**を**排水制御室**で見つける。場所は中央採掘場。
+   - **報告:** アンナ。
+   - **報酬:** 4,200 G · 680 EXP · +100 評判 · 貫通抵抗 II。
+   - **キズナ:** **Friends Always**のリンクを2本作る — キロロ↔ニキータとアンナ↔ニキータ。クエスト1つとしては相関図の価値が高い。
 
-6. 📜 **Chemist's Reopening** — Olga
-   - **Do:** 1x **Chewy Radish** (Colony 9), 2x **Red Durian** (Bionis' Leg), 1x **Sirius Anemone** (Colony 6 collection points — 12 of them, low drop rate, so run the Skip Travel loop).
-   - **Pays:** 3,600 G · 620 EXP · +50 Rep · Recovery Up II.
+6. 📜 **薬屋業再開** — オルガ
+   - **手順:** 1x **カムカムラディッシュ**（コロニー9）、2x **レッドドリアン**（巨神脚）、1x **セリオスアネモネ**（コロニー6の採集ポイント — 12箇所、ドロップ率は低いのでスキップトラベルの周回をする）。
+   - **報酬:** 3,600 G · 620 EXP · +50 評判 · 回復アップ II。
 
-7. 📜 **Satata's Younger Brother** — Satata
-   - **Do:** collect 1x **Mushroom Cap** at the **Mining Base** in the Ether Mine.
-   - **Pays:** 4,200 G · 700 EXP · +50 Rep · Iron Armour · Iron Leggings.
+7. 📜 **タツの弟** — タツ
+   - **手順:** 1x **緑色のキノコ帽**を**採掘基地**で集める。場所は中央採掘場の中。
+   - **報酬:** 4,200 G · 700 EXP · +50 評判 · アイアンアーマー · アイアンレギンス。
 
-8. 📜 **Rest in Peace** — Satata · needs **1.5★**
-   - **Do:** go to the **Divine Sanctuary in Makna Forest**, stand where **Great Makna Falls is fully visible**, and throw the Mushroom Cap.
-   - **Turn in:** Satata.
-   - **Pays:** 6,500 G · 850 EXP · +100 Rep · Jungle Shoes.
-   - Needs Makna Forest, so it completes in Chapter 7.
+8. 📜 **安らかに眠れ** — タツ · 必要 **1.5★**
+   - **手順:** **神呼びの聖域、場所はマクナ原生林**へ行き、**マクナ大瀑布が完全に見える位置**に立って、緑色のキノコ帽を投げる。
+   - **報告:** タツ。
+   - **報酬:** 6,500 G · 850 EXP · +100 評判 · ジャンゴシューズ。
+   - マクナ原生林が必要なので、完了は7章になる。
 
-> **ℹ️ Note — ⚠️ Do Making a New Path BEFORE For the Restoration — it skips a Lv90 monster**
+> **ℹ️ メモ — ⚠️ 迂回ルートを作れを安全な復興のためにより前にやる — Lv90 のモンスターを飛ばせる**
 >
-> `For the Restoration` sends you for a **Divine Rock** at the peak of **Spiral Valley**. The direct route is blocked by **Immovable Gonzalez**, a **Level 90** Unique Monster that spawns there once the refugees leave. At Lv35 that is not a fight, it is a wall.
+> `安全な復興のために`は**御神岩**を取りに行かせる。場所は**ラセン谷**の頂だ。直路は**不動のゴンザレス**に塞がれている。避難民が去るとそこに出現する、**レベル90**のユニークモンスターだ。Lv35 では戦闘にならず、壁になる。
 >
-> **`Making a New Path` is the answer.** Do it first and Gorman blasts an alternative route, letting you finish For the Restoration without touching Gonzalez.
+> **答えは`迂回ルートを作れ`だ。** 先にこれをやるとゲールマンが別路を開き、Gonzalez に触れずに安全な復興のためにを終えられる。
 >
-> **Both expire when Colony 6 reconstruction is completed** — an unusual trigger. If you are an efficient rebuilder you can accidentally lock yourself out of two quests by finishing the colony too fast. Do them early.
+> **両方とも、コロニー6の再建が完了すると期限切れになる** — 珍しい条件だ。再建が速いと、コロニーを早く完成させすぎて、クエスト2つから自分を締め出すことがある。早くやる。
 
-9. 🔴 🔴 **Making a New Path** — Gorman · **do this before For the Restoration**
-   - **Do:** collect **3x Dynamite** in the Ether Mine — one in the dead end **south of Test Pit 2**, one in the dead end **just south of Test Pit 3**, one **slightly east of Test Pit 4**.
-   - **Turn in:** Gorman.
-   - **Pays:** no gold or EXP published on any source — the reward is functional: Gorman opens the Spiral Valley route.
-   - **Expires** when reconstruction is complete.
+9. 🔴 🔴 **迂回ルートを作れ** — ゲールマン · **安全な復興のためにより前にこれをやる**
+   - **手順:** **3x ダイナマイト**を中央採掘場で集める — 1つは行き止まりの**地下坑道 第2試掘場の南**、1つは行き止まりの**地下坑道 第3試掘場のすぐ南**、1つは**地下坑道 第4試掘場の少し東**。
+   - **報告:** ゲールマン。
+   - **報酬:** どの資料にもゴールドも EXP も出ていない — 報酬は機能だ。ゲールマンがラセン谷への道を開く。
+   - **期限**は、再建が完了したとき。
 
-10. 🔴 🔴 **For the Restoration** — Gorman
-   - **Do:** collect 1x **Divine Rock** at the peak of **Spiral Valley**, Bionis' Leg — via Gorman's new path, not past Gonzalez.
-   - **Pays:** 4,400 G · 680 EXP · +150 Rep · Spike III.
-   - **Expires** when reconstruction is complete.
+10. 🔴 🔴 **安全な復興のために** — ゲールマン
+   - **手順:** 1x **御神岩**を**ラセン谷**の頂、巨神脚で集める — ゲールマンの新しい道を使い、Gonzalez の前は通らない。
+   - **報酬:** 4,400 G · 680 EXP · +150 評判 · スパイク III。
+   - **期限**は、再建が完了したとき。
 
-> **ℹ️ Note — Satorl Marsh — two Nopon chains worth real money**
+> **ℹ️ メモ — 燐光の地ザトール — 実入りのあるノポンの連鎖が2本**
 >
-> The marsh has more side content than its reputation suggests. Two sequential chains, plus four one-off monster quests.
+> この湿地は、評判よりサイドの内容が多い。連続する連鎖が2本、単発の討伐クエストが4つ。
 >
-> **Zazadan chain** — giver stands at the **Glowing Obelisk**. Six quests, strictly in order.
-> **Bokoko / Kacha chain** — givers at the **Nopon Merchant Camp**. Four quests.
+> **ザザダンの連鎖** — 依頼主は**光球のオベリスク**に立っている。クエスト6つ、厳密にこの順。
+> **ゴド / カチャの連鎖** — 依頼主は**ノポン商会キャンプ**にいる。クエスト4つ。
 
-11. 📜 **Preventing Starvation** — Zazadan (1 of 6)
-   - **Do:** 2x **Twin Flamii Egg** (from Flamii) and 5x **Lemon Stone**, both in Satorl Marsh.
-   - **Pays:** 2,400 G · 400 EXP · +100 Rep · Mist Gel, Mist Cream, Mist Sandals.
+11. 📜 **ガシをソシ** — ザザダン（6つのうち1）
+   - **手順:** 2x **Twin フラミー Egg**（フラミーから）と 5x **レモンセキ**。どちらも燐光の地ザトール。
+   - **報酬:** 2,400 G · 400 EXP · +100 評判 · ミストジェル、ミストクリーム、ミストサンダル。
 
-12. 📜 **Zazadan in Danger** — Zazadan (2 of 6)
-   - **Do:** kill **8x Ogre Bunnia** in Satorl Marsh. Convenient — Ogre Bunnia also drop **Bunnia Scent Wood**, which Colony 6 Housing 2 wants ×4.
-   - **Pays:** 3,200 G · 680 EXP · +150 Rep · Swep Gear · Agility Up II.
+12. 📜 **まだまだブッソウ** — ザザダン（6つのうち2）
+   - **手順:** **8x オーガー・バニア**を燐光の地ザトールで倒す。都合が良い — オーガー・バニアは**バニアの魅惑香木**もドロップし、コロニー6の Housing 2 が ×4 要求する。
+   - **報酬:** 3,200 G · 680 EXP · +150 評判 · スウェップギア · 素早さアップ II。
 
-13. 👾 **Zazadan Still in Danger** — Zazadan (3 of 6) → **Sunlight Schvaik** (30) · **day only**
-   - **Do:** kill **Sunlight Schvaik**, flying around **Barren Moor**.
-   - **Conditions:** **morning, day or evening only — never night.** Clear, fog or heavy fog all work. About a 30% spawn, so re-enter the area if it is absent.
-   - **Pays:** 4,500 G · 850 EXP · +150 Rep · Swep Gauntlets · HP Up II · Affinity Coin.
+13. 👾 **まだブッソウ** — ザザダン（6つのうち3）→ **陽光のシュヴァイク**（30）· **昼のみ**
+   - **手順:** **陽光のシュヴァイク**を倒す。**虚無の湿原**の周囲を飛んでいる。
+   - **条件:** **朝、昼、夕方のみ — 夜は不可。** 晴れ、霧、濃霧はどれも可。出現は約 30% なので、いないときはエリアに入り直す。
+   - **報酬:** 4,500 G · 850 EXP · +150 評判 · スウェップガード · HP Up II · キズナコイン。
 
-14. 📜 **It's All in the Mind** — Zazadan (4 of 6)
-   - **Do:** collect 1x **Nopon Potion** in the **Lacus Swamp** area.
-   - **Pays:** 5,100 G · 1,000 EXP · +150 Rep · Swep Boots · Ether Up II.
+14. 📜 **ヤマイはキから** — ザザダン（6つのうち4）
+   - **手順:** 1x **ノポンゼンカイヤク**を、**ラクス沼**エリアで集める。
+   - **報酬:** 5,100 G · 1,000 EXP · +150 評判 · スウェップブーツ · エーテル Up II。
 
-15. 📜 **A Mysterious Delicacy** — Zazadan (5 of 6)
-   - **Do:** dip the Red Pollen Orb into the **Shining Pond** at **Dark Swamp**. Yields Highmore Caviar.
-   - **Pays:** 5,800 G · 1,500 EXP · +250 Rep · **Pioneer** (sword).
+15. 📜 **ナゾのチンミ** — ザザダン（6つのうち5）
+   - **手順:** 赤い花粉玉を**輝く沼**に浸す。場所は**深き闇の沼**。ハイモアキャビアが手に入る。
+   - **報酬:** 5,800 G · 1,500 EXP · +250 評判 · **Pioneer**（剣）。
 
-16. 🔴 🔴 **A Gift?** — Zazadan (6 of 6) · **timed**
-   - **Do:** deliver the Highmore Caviar to **Dedeba**. One source places Dedeba at Frontier Village rather than the marsh — check both.
-   - **Pays:** 7,800 G · 2,500 EXP · +200 Rep · Panther Bottoms.
-   - **Expires** after the party disperses in Colony 6 having escaped Mechonis Core (Ch15). Long window, but it is a real deadline.
+16. 🔴 🔴 **オクリモノ？** — ザザダン（6つのうち6）· **時限**
+   - **手順:** ハイモアキャビアを**ダボール**へ届ける。ある資料はダボールの位置を湿地ではなくサイハテ村としている — 両方確認する。
+   - **報酬:** 7,800 G · 2,500 EXP · +200 評判 · パンサーボトムズ。
+   - **期限**は、コロニー6でパーティが解散したあと。その解散は機神界中枢から逃れた時点（15章）。猶予は長いが、本物の期限だ。
 
-17. 📜 **Kacha's Kidnapping** — Bokoko, Nopon Merchant Camp (1 of 4)
-   - **Do:** talk to Kacha → go to **Exile Fortress** → rescue Kacha from the Ignas → back to Bokoko.
-   - **Pays:** 3,500 G · 410 EXP · +150 Rep · Jungle Cap, Jungle Gloves, Jungle Shoes.
+17. 📜 **さらわれたカチャ** — ゴド、ノポン商会キャンプ（4つのうち1）
+   - **手順:** カチャに話す → **流刑の砦**へ行く → Ignas からカチャを救う → ゴドへ戻る。
+   - **報酬:** 3,500 G · 410 EXP · +150 評判 · ジャンゴキャップ、ジャンゴグローブ、ジャンゴシューズ。
 
-18. 📜 **The Giants' Key** — Kacha (2 of 4)
-   - **Do:** kill **5x Deluded Igna** on the high plateau above **Dark Swamp** → dig up the **Giants' Key** there → inspect the altar on the **Exile Fortress roof**.
-   - **Pays:** 5,900 G · 2,200 EXP · +200 Rep · Recovery Up IV.
+18. 📜 **巨人族のタカラ** — カチャ（4つのうち2）
+   - **手順:** **5x 妄執のイグーナ**を、**深き闇の沼**の上の高い台地で倒す → そこで**隠し扉のカギ**を掘り出す → **流刑の砦の屋根**の祭壇を調べる。
+   - **報酬:** 5,900 G · 2,200 EXP · +200 評判 · 回復アップ IV。
 
-19. 📜 **The Giants' Treasure** — Kacha (3 of 4)
-   - **Do:** collect the **Giants' Mirror** at **Daksha Shrine** on Bionis' Leg, then use it at the Exile Fortress roof altar.
-   - **Pays:** 9,100 G · 3,100 EXP · +250 Rep · Double Attack IV.
-   - **Also:** completing this is what makes **Eternal Palsadia** (Lv91) spawn at the top of Exile Fortress. Post-game target — note it.
+19. 📜 **ついに巨人族のタカラ** — カチャ（4つのうち3）
+   - **手順:** **巨人族の土鏡**を**ダクシャ神殿**で集める。場所は巨神脚の上。その後、流刑の砦の屋根の祭壇で使う。
+   - **報酬:** 9,100 G · 3,100 EXP · +250 評判 · ダブルアタック IV。
+   - **追加:** これを完了すると**永劫のパレスアテナ**（Lv91）が流刑の砦の頂上に出現するようになる。クリア後の対象 — 記録しておく。
 
-20. 📜 **Making Camp** — Bokoko (4 of 4)
-   - **Do:** 4x **Glowing Upa Seed** (Upas), 3x **Fancy Volff Hide** (Volff), 4x **Feather Leaf**, 3x **Wool Rock** — all in Satorl Marsh.
-   - **Pays:** 10,500 G · 1,000 EXP · +100 Rep · Iron Armour · Nopol Boots. Best gold in the chapter.
+20. 📜 **野営の準備** — ゴド（4つのうち4）
+   - **手順:** 4x **ウーパーの光ダネ**（Upas）、3x **ヴォルフの派手毛皮**（ヴォルフ）、4x **フェザーズリーフ**、3x **ウールロック** — すべて燐光の地ザトール。
+   - **報酬:** 10,500 G · 1,000 EXP · +100 評判 · アイアンアーマー · ノポルブーツ。この章で最も多いゴールド。
 
-21. 📜 **Nopon Merchant monster quests ×4** — Nopon Merchant Camp, generic, auto-complete
-   - 1. Kill **2x Detox Brog** — 5,800 G
-   - 2. Kill **3x Coppice Quadwing** — 6,200 G. These also drop **Quadwing Bag**, which Colony 6 Nature 2 wants ×2.
-   - 3. Kill **2x Mist Rhogul** at **Barren Moor** — 6,800 G
-   - 4. Kill **1x Officer Volff** (Lv23-26, six spawn points, **not at night**) — 6,500 G
-   **Sub-checkpoints:**
-   - [ ] Nopon Merchant Monster Quest 1 — defeat 2× Detox Brog — Pickup anytime · Nopon Merchant Camp. Defeat Detox Brogs in Satorl Marsh.
-   - [ ] Nopon Merchant Monster Quest 2 — defeat 3× Coppice Quadwing — Pickup anytime · Nopon Merchant Camp. Defeat Coppice Quadwings by day around Crown Tree / Lacus Swamp.
-   - [ ] Nopon Merchant Monster Quest 3 — defeat 2× Mist Rhogul — Pickup anytime · Nopon Merchant Camp. Defeat Mist Rhoguls by day around Nopon Refuge / Altar of Fate.
-   - [ ] Nopon Merchant Monster Quest 4 — defeat 1× Officer Volff — Pickup anytime · Nopon Merchant Camp. Defeat Officer Volff in Satorl Marsh.
+21. 📜 **ノポン商会の討伐クエスト ×4** — ノポン商会キャンプ、汎用、自動完了
+   - 1. **2x デトック・グロッグ**を倒す — 5,800 G
+   - 2. **3x コピス・クロード**を倒す — 6,200 G。これらは**クロードの宝袋**もドロップし、コロニー6の Nature 2 が ×2 要求する。
+   - 3. **2x ミスト・ローグル**を**虚無の湿原**で倒す — 6,800 G
+   - 4. **1x オフィサー・ヴォルフ**を倒す（Lv23-26、出現地点は6つ、**夜は不可**）— 6,500 G
+   **サブチェック:**
+   - [ ] Nopon Merchant Monster Quest 1 — defeat 2× Detox Brog — Pickup いつでも · ノポン商会キャンプ。燐光の地ザトールで Detox Brogs を倒す。
+   - [ ] Nopon Merchant Monster Quest 2 — defeat 3× Coppice Quadwing — Pickup いつでも · ノポン商会キャンプ。昼に王冠樹 / ラクス沼の周辺で Coppice Quadwings を倒す。
+   - [ ] Nopon Merchant Monster Quest 3 — defeat 2× Mist Rhogul — Pickup いつでも · ノポン商会キャンプ。昼にノポンの隠れ家 / 運命の祭壇の周辺で Mist Rhoguls を倒す。
+   - [ ] Nopon Merchant Monster Quest 4 — defeat 1× Officer Volff — Pickup いつでも · ノポン商会キャンプ。オフィサー・ヴォルフを燐光の地ザトールで倒す。
 
-22. 👾 UM: **Stormy Widardun** (25) — Zaldania Waterfall, **day**
+22. 👾 UM: **暴風のワイダーデン**（25）— ザタナルギアの滝、**昼**
 
-23. 👾 UM: **Cautious Balteid** (26) — west of Barren Moor
+23. 👾 UM: **慎重なバルトエイト**（26）— 虚無の湿原の西
 
-24. 👾 UM: **Tumultuous Felix** (27) — southeast of the Silent Obelisk
+24. 👾 UM: **怒涛のフェリックス**（27）— 沈黙のオベリスクの南東
 
-25. 👾 UM: **Amber Fischer** (27) — near the Altar of Fate, on the C-shaped island
+25. 👾 UM: **琥珀のフィッシャー**（27）— 運命の祭壇の近く、C字の島
 
-26. 👾 UM: **Aggressive Cornelius** (28) — southern Igna Territory
+26. 👾 UM: **衝撃のレオポルド**（28）— 南のイグーナの領地
 
-27. 👾 UM: **Swift Zektol** (28) — east of Igna Territory
+27. 👾 UM: **疾風のゼクトール**（28）— イグーナの領地の東
 
-28. 👾 UM: **Reckless Godwin** (31) — Exile Fortress
+28. 👾 UM: **無謀なゴドウィン**（31）— 流刑の砦
 
-> **ℹ️ Note — Satorl's high-level block is post-game**
+> **ℹ️ メモ — Satorl's high-level block is post-game**
 >
-> **Veteran Yozel** (83), **Indomitable Daulton** (85), **Eternal Palsadia** (91) and the superboss **Despotic Arsene** (108) all live here too. Leave them. Arsene does not even spawn until after Mechonis Core.
+> **老練なヨーゼル**（83）、**不屈のドールトン**（85）、**永劫のパレスアテナ**（91）、そしてスーパーボスの**暴帝のアルセーヌ**（108）もここにいる。放置する。Arsene は機神界中枢のあとまで出現すらしない。
 
-29. 💜 💜 **Shulk & Dunban** — Zaldania Waterfall, **night**, Green
-   Go at night — the marsh transforms and the scene needs it. Dunban has been permanent since Ch5 so Green should be live.
+29. 💜 💜 **シュルク & ダンバン** — ザタナルギアの滝、**夜**、緑
+   夜に行く — 湿地が変貌し、その場面はそれを必要とする。ダンバンは5章から恒久なので、緑はもう成立しているはずだ。
 
-30. ⛏️ ⛏️ **Bunnia Scent Wood** ×4 — Housing 2. Ogre Bunnia north of the Glowing Obelisk, or trade Bokoko
-   Same enemy as `Zazadan in Danger` (kill 8 Ogre Bunnia). Do both at once.
+30. ⛏️ ⛏️ **バニアの魅惑香木** ×4 — Housing 2。オーガー・バニア、光球のオベリスクの北。またはゴドと交換
+   `まだまだブッソウ`と同じ敵（オーガー・バニアを8体倒す）。両方同時にやる。
 
-31. ⛏️ ⛏️ **Igna Hide Jacket** ×2 — Commerce 1. Kill Igna
+31. ⛏️ ⛏️ **イグーナ族の皮製品** ×2 — Commerce 1。イグーナを倒す
 
-32. ⛏️ ⛏️ **Quadwing Bag** ×2 — Nature 2. Kill Coppice Quadwing
-   Same enemy as Nopon Merchant monster quest 2. Do both at once.
+32. ⛏️ ⛏️ **クロードの宝袋** ×2 — Nature 2。コピス・クロードを倒す
+   ノポン商会の討伐クエスト2と同じ敵。両方同時にやる。
 
-33. ⚪ Fill the **Satorl Marsh** Collectopaedia page
+33. ⚪ **燐光の地ザトール**のコレペディアページを埋める
 
-34. ➡️ **MAIN STORY · The Ancient Ceremony** — begin at the Sororal Statues
-   - **Start:** speak to the Nopon Merchant at the **Sororal Statues**.
-   - **Do:** begin the coming-of-age preparations; the next story card tracks the four required offerings.
-   - **Finish:** present the offerings at the Adulthood Emblem and defeat the **Lv28 Satorl Guardian**.
+34. ➡️ **本編 · 古代の儀式** — 岩窟の姉妹像から始める
+   - **開始:** ノポン商会に話しかける。場所は**岩窟の姉妹像**。
+   - **手順:** 成人の準備を始める。次の本編カードが、必要な供物4つを追う。
+   - **完了:** Adulthood Emblem に供物を捧げ、**Lv28 ザトールの守護者**を倒す。
 
-35. ➡️ **MAIN STORY · Ancient Ceremony Offerings** — collect all four Radiants
-   - **Igna Territory:** collect the **Blue Radiant**.
-   - **Altar of Fate:** collect the **Rainbow Radiant**.
-   - **Dark Swamp:** collect the **Dull Radiant**.
-   - **Basin Cave:** collect the **White Radiant**, then return to the Sororal Statues.
+35. ➡️ **本編 · 儀式の準備** — Radiants を4つすべて集める
+   - **イグーナの領地:** **青く輝く燐光**を集める。
+   - **運命の祭壇:** **虹色に輝く燐光**を集める。
+   - **深き闇の沼:** **鈍く輝く燐光**を集める。
+   - **水盤の洞窟:** **白く輝く燐光**を集め、岩窟の姉妹像に戻る。
 
-36. ⚪ **Bionis' Interior, first visit** — nothing to hunt yet
-   Its 8 Unique Monsters only spawn on the **second** visit in Chapter 17. **Black Liver Bean** ×2 (Nature 5) is a rare collection drop here — grab it if it appears, but you return, so it is not a deadline.
+36. ⚪ **巨神胎内、初回訪問** — まだ狩るものはない
+   ここのユニークモンスター8体は、17章の**2回目**の訪問でしか出現しない。**クロマメレバー** ×2（Nature 5）は、ここの稀な採集ドロップだ — 出たら取る。ただし戻ってくるので、期限ではない。
 
-37. 📜 **Désirée's Future** — Colony 9, Ether Light · **⚠️ SHULK MUST LEAD** · **Shulk's Pessimism skill tree**
-   - **Requires** `The Broken Watch` from Chapter 1. If you skipped that, this does not exist and the tree is gone.
-   - **Leader gate:** Désirée only offers it with Shulk leading.
-   - **Pays:** 8,000 G · 3,500 EXP · Swep gear · **Shulk Skill Tree — Pessimism**.
+37. 📜 **デジレーンの将来** — コロニー9、エーテル Light · **⚠️ シュルク がリーダー必須** · **シュルクの Pessimism スキルツリー**
+   - **条件**は1章の`機械オンチの腕時計`。それを飛ばしていると、これは存在せず、ツリーも消えている。
+   - **リーダー条件:** デジレーンがこれを出すのは、シュルクがリーダーのときだけ。
+   - **報酬:** 8,000 G · 3,500 EXP · Swep gear · **シュルクのスキルツリー — Pessimism**。
 
-38. 📜 **The Gem Man's Invention** — Colony 9, Gem Man's Stall · **Mobile Furnace**
-   Rewards the **Mobile Furnace**: gem crafting anywhere instead of trekking back to a fixed furnace. Take it the moment it appears — it changes how you play for the rest of the game.
+38. 📜 **ジェム爺の発明** — コロニー9, ジェム爺の露天商 · **携帯型エーテル高炉**
+   報酬は**携帯型エーテル高炉**。決まった炉まで戻らず、どこでもジェムを作れる。出た瞬間に取る — 以後の遊び方が変わる。
 
 ---
 
-## Chapter 7 — Makna Forest and Frontier Village
+## Chapter 7 — マクナ原生林とサイハテ村
 
-**Level 38-44** · 44 tracked items
+**レベル 38-44** · 追跡 44件
 
-> **Melia and Riki join and the party is finally six.** Frontier Village is the densest quest hub in the game and nothing here expires, but a lot of it **chains forward into Chapter 10** — so what you do now decides what exists later.
+> **メリアとリキが加入し、パーティはようやく6人になる。** サイハテ村はこのゲームで最も密度の高いクエスト拠点で、ここで期限切れになるものはない。ただし多くが**10章へ連鎖していく** — 今やることが、後に何が存在するか決める。
 
-> **📊 Set your level — Set level to 42**
+> **📊 レベルを合わせる — Set level to 42**
 >
-> Makna runs Lv33-37 with a Lv46 outlier (Brutal Gravar). 42 handles everything including Gravar if you play well.
+> Makna は Lv33-37 で、外れ値の Lv46（残虐のグラーヴァ）がいる。42 なら、うまくやれば Gravar を含めて全部処理できる。
 >
 > Your bank should be getting fat now. Good. Leave it.
 
-> **⚔️ Party & build — ⚔️ The permanent party arrives — switch to Shulk / Dunban / Riki**
+> **⚔️ パーティとビルド — ⚔️ 恒久パーティが揃う — シュルク / ダンバン / リキへ切り替える**
 >
-> This is the comp for the rest of the game. Make the change now and stop fiddling.
+> これがゲームの残りを通す編成だ。今切り替えて、いじり続けるのはやめる。
 >
-> **Riki** is a superb all-rounder and the AI plays him well. **You Can Do It** heals allies in a line in front of him, so positioning matters; **Lurgy**, **Burninate** and **Freezinate** supply strong damage over time, and his HP pool is enormous.
-> **Drop Sharla.** With Dunban dodging nearly everything physical, a dedicated healer is dead weight and her damage is the worst in the party. Riki covers healing well enough.
-> **Melia stays on the bench for this safe-route preset.** Her AI can contribute, but it is not reliable for a planned elemental-storage-and-burst rotation because it may discharge summons early. Control her yourself when using that build; the guide introduces it later for Ether-heavy fights and superboss farming.
+> **リキ**は非常に優れた万能役で、AI の操作も上手い。**ガンバルも**は前方の直線上の味方を回復するので、位置が重要。**ドクドクだも**、**モエモエだも**、**ヒエヒエだも**は強い継続ダメージを供給し、HP の総量も膨大だ。
+> **カルナを外す。** ダンバンが物理のほぼすべてを回避するので、専用のヒーラーは荷物になり、ダメージもパーティで最低だ。回復はリキで十分まかなえる。
+> **この安全ルートのプリセットではメリアを控えにする。** AI でも貢献できるが、計画した属性の蓄積とバーストの回転には信頼できない。召喚を早く放つことがある。そのビルドを使うときは自分で操作する。この攻略では、エーテル比重の高い戦闘とスーパーボス周回のために、あとで紹介する。
 >
-> **Skill Links are worth spending on now.** Put **High Speed** (Melia, 20 coins, +15 Agility) on Dunban immediately. Coins refund on unlink, so there is no wrong answer.
+> **スキルリンクは、今使ってよい。** **ハイスピード**（メリア、20コイン、素早さ +15）を、すぐにダンバンへ付ける。解除するとコインは返るので、失敗はない。
 
-> **ℹ️ Note — ⚠️ Four things people expect here that are actually Chapter 10**
+> **ℹ️ メモ — ⚠️ Four things people expect here that are actually Chapter 10**
 >
-> Correcting several guides, including an earlier version of this one:
+> 複数の攻略を訂正する。この攻略の以前の版も含む。
 >
-> **Medical Advancements / Let's Make Fillings!** — Ch10. Needs the story to pass Kallian seeing you off from Alcamoth.
-> **Getting Bigger!** (Riki's Cowardice tree) — Ch10, and it is **four quests deep**, not one.
-> **Mystery of Makna Ruins 1-4** — Ch10.
-> **Bridge Repair** — Ch10, needs Prison Island visited.
+> **治療装置を開発！ / 入れ歯を作る！** — 10章。ストーリーでカリアンが皇都アカモートから見送ったあとが条件。
+> **おっきくな〜れ**（リキの Cowardice ツリー）— 10章。深さは**クエスト4つ**で、1つではない。
+> **マクナ遺跡の謎1-4** — 10章。
+> **橋の修復** — 10章。監獄島への訪問が必要。
 >
-> What you must do **now** is the two gateway quests that make all of that possible: `Mushy Mushrooms` and `Kind Lupa's Grampypon`. Skip those and the Chapter 10 chains never appear.
+> **今**やるべきなのは、それらを可能にする入り口のクエスト2つ、`やわらかキノコ`と`たまには孫らしく`だ。これらを飛ばすと、10章の連鎖は出現しない。
 
-> **🔀 Branch choice — First valid return visit — A Big Brother's Fight vs A Little Brother's Fight**
+> **🔀 分岐 — 最初に有効な再訪 — 兄弟ゲンカ・アニキ編 対 兄弟ゲンカ・オトウト編**
 >
-> **This branch could not exist during Chapter 1.** It requires Riki in the party and An Errand for the Heropon, so handle it now, immediately after Riki joins.
+> **この分岐は1章のあいだ存在できなかった。** パーティにリキと、勇者のお使いが必要だ。リキが加入した直後の、今処理する。
 >
-> The quests are mutually exclusive: finishing one permanently cancels the other. **Take A Little Brother's Fight and give the Red Pollen Orb to Jiroque**. It gives the route's preferred affinity outcome and unlocks Thawing Relationships.
+> クエストは相互排他で、片方を終えるともう片方は永久に取り消される。**兄弟ゲンカ・オトウト編を取り、赤い花粉玉をジロークに渡す**。このルートが望むキズナの結果になり、Thawing Relationships が解放される。
 
-1. 🔴 **A Little Brother's Fight** — give the Red Pollen Orb to **Jiroque**
-   - **Pick up:** Skip Travel back to Colony 9. First accept **A Big Brother's Fight** from Zukazu, then speak to **Jiroque** in the Residential District from **18:00–03:00**. Requires Riki, An Errand for the Heropon, and Colony 9 affinity ★2½.
-   - **Do:** Skip Travel to **Nopon Refuge** in Satorl Marsh (north of the Glowing Obelisk) and collect the **Red Pollen Orb behind Zazadan**.
-   - **Turn in:** return to Jiroque in the Residential District from **18:00–03:00**.
-   - **Branch warning:** finishing this permanently cancels A Big Brother's Fight. This route intentionally chooses Jiroque's quest.
+1. 🔴 **兄弟ゲンカ・オトウト編** — 赤い花粉玉を**ジローク**に渡す
+   - **受注:** スキップトラベルでコロニー9へ戻る。まず**兄弟ゲンカ・アニキ編**をカズローから受け、次に**ジローク**へ話す。場所は居住区、時間は**18:00–03:00**。条件はリキ、勇者のお使い、そしてコロニー9の友好度 ★2½。
+   - **手順:** **ノポンの隠れ家**へスキップトラベルする。場所は燐光の地ザトール（光球のオベリスクの北）。集めるのは**赤い花粉玉、ザザダンの後ろ**。
+   - **報告:** ジロークへ戻る。場所は居住区、時間は**18:00–03:00**。
+   - **分岐の警告:** これを終えると兄弟ゲンカ・アニキ編は永久に取り消される。このルートは意図してジロークのクエストを選ぶ。
 
-2. ➡️ **MAIN STORY · Mystery Girl Rescue** — collect Water Ether Crystals
-   - **Start:** automatic at Makna Forest's **Contaminated Area**.
-   - **Do:** gather the marked **Water Ether Crystals** nearby and return to the mystery girl.
-   - **Then:** continue to Frontier Village; this opens the route's first full Makna/Nopon sweep.
+2. ➡️ **本編 · 謎の少女を救え** — 水のエーテル結晶を集める
+   - **開始:** マクナ原生林の**汚された地**で自動。
+   - **手順:** 近くのマークされた**水のエーテル結晶**を集め、謎の少女のところへ戻る。
+   - **その後:** サイハテ村へ進む。これでルート初の Makna/ノポン総ざらいが開く。
 
-3. ➡️ **MAIN STORY · An Errand for the Heropon** — collect Riki's gear
-   - **Weapon:** collect Riki's weapon from the **Frontier Village Weapon Shop**.
-   - **Armour:** collect Riki's armour from the **Armour Shop**.
-   - **Party check:** once Riki permanently joins, use the chapter build update before the side-quest circuit.
+3. ➡️ **本編 · 勇者のお使い** — リキの装備を受け取る
+   - **武器:** リキの武器を**サイハテ村の武器屋**で受け取る。
+   - **アーマー:** リキの防具を**アーマーの店**で受け取る。
+   - **パーティ確認:** リキが本加入したら、サイドクエスト周回の前に章のビルド更新を使う。
 
-4. 🔴 🔴 **Mushy Mushrooms** — Kofuko, Sacred Altar · **gateway to the whole Ch10 doctor chain**
-   - **Do:** collect **8x Kelp Mushroom** in Makna Forest.
-   - **Pays:** 1,000 G · 1,150 EXP · +100 Rep · Jungle Gloves · Bleed Attack II.
-   - **Why flagged:** without this, `Medical Advancements`, `Healing the Healer`, `Mislabelling Problem` and `Getting Bigger!` — i.e. **Riki's entire hidden skill tree** — never become available in Chapter 10.
+4. 🔴 🔴 **やわらかキノコ** — フゴフゴ、御神体の祭壇 · **10章の医者の連鎖全体への入り口**
+   - **手順:** **8x コンブダケ**をマクナ原生林で集める。
+   - **報酬:** 1,000 G · 1,150 EXP · +100 評判 · ジャンゴグローブ · 出血追撃 II。
+   - **印の理由:** これが無いと、`治療装置を開発！`、`医者の不養生`、`不正表示問題`、そして`おっきくな〜れ` — つまり**リキの隠されたスキルツリー全体** — が10章で出現しない。
 
-5. 🔴 🔴 **Kind Lupa's Grampypon** — Lupa, Riki's House · needs **2★** · gateway to Makna Ruins
-   - **Sub-quest first** (`Secret Elixir Ingredients`, auto-attached): **5x Hades Beetle** (Makna), **3x All-Seeing Eye** from Jungle Quadwings (Makna), **2x Potent Brog Poison** from Poison Brogs (Satorl Marsh).
-   - **Then:** deliver the Secret Nopon Elixir to **Satata in Colony 6** → report to Lupa.
-   - **Pays:** 3,300 G · 1,200 EXP · +100 Rep · Panther Shoes.
-   - **Unlocks:** the four-part **Mystery of Makna Ruins** chain in Ch10, which ends with the **'Eater' Records — Monado Eater for Shulk**, plus Barrier Gnasher and Heart of the Giants.
+5. 🔴 🔴 **たまには孫らしく** — ルパ、リキの家 · 必要 **2★** · Makna Ruins への入り口
+   - **先にサブクエスト**（`秘薬の材料集め`、自動で付く）: **5x ナラクノミズスマシ**（Makna）、**3x クロードの暗視目玉**は Jungle Quadwings（Makna）から、**2x グロッグの百歩毒**は毒 Brogs（燐光の地ザトール）から。
+   - **次:** ノポンの秘薬を届ける相手は**タツ、場所はコロニー6** → ルパへ報告する。
+   - **報酬:** 3,300 G · 1,200 EXP · +100 評判 · パンサーシューズ。
+   - **解放:** 10章にある4部構成の連鎖、**謎（Makna Ruins）**。終わりは**モナド記録書「喰」 — モナドイーター、対象はシュルク**。加えて障壁のツクツクと巨人の心。
 
-> **ℹ️ Note — Riki's family chain — Riki's House, five quests, strictly in order**
+> **ℹ️ メモ — リキの家族の連鎖 — リキの家、クエスト5つ、厳密にこの順**
 >
-> Rising affinity gates: none → 1.5★ → 1.5★ → 2★ → 2.5★. All givers are Riki's children.
+> 上がっていく友好度の門: なし → 1.5★ → 1.5★ → 2★ → 2.5★。依頼主は全員、リキの子供だ。
 
-6. 📜 **Leku's Food Crisis** — Leku (1 of 5)
-   - **Do:** **10x Peachy Leg Joint** from **Deinoses** in Makna.
-   - **Pays:** 3,200 G · 800 EXP · +50 Rep · Chill Defence IV.
+6. 📜 **レク一家の食料危機** — レク（5つのうち1）
+   - **手順:** **10x 骨付きモモ肉**。入手先は Makna の**Deinoses**。
+   - **報酬:** 3,200 G · 800 EXP · +50 評判 · 冷気防御 IV。
 
-7. 📜 **Hunt for a Patron** — Leku (2 of 5) · needs **1.5★**
-   - **Do:** talk to **Lupa** (cleverest), **Modamo** (strongest) and **Pepa** (cutest).
-   - **Pays:** 3,800 G · 950 EXP · +100 Rep · Blaze Defence IV.
+7. 📜 **パトロンを探せ** — レク（5つのうち2）· 必要 **1.5★**
+   - **手順:** **ルパ**（最も賢い）、**モダニィ**（最も強い）、**ピップ**（最も可愛い）に話す。
+   - **報酬:** 3,800 G · 950 EXP · +100 評判 · 炎熱防御 IV。
 
-8. 📜 **Heropon's Spirit** — **Kilaki** (3 of 5) · needs **1.5★**
-   - **Do:** **2x Tasty Ansel Wing** from **Makna Ansels**.
-   - **Pays:** 4,300 G · 1,100 EXP · +150 Rep · Poison Defence IV · Kilaki's Note.
+8. 📜 **勇者の心意気** — **キカ**（5つのうち3）· 必要 **1.5★**
+   - **手順:** **2x アンセルの七色手羽先**。入手先は**Makna Ansels**。
+   - **報酬:** 4,300 G · 1,100 EXP · +150 評判 · 毒防御 IV · キカのゆうしゃメモ。
 
-9. 👾 **Beat Kilaki to it!** — Leku (4 of 5) · needs **2★** → **Obsessive Galgaron** (35)
-   - **Do:** kill **Obsessive Galgaron** at the **Hode Lair** in Makna. Any time, any weather, ~30% spawn — re-enter the area if absent.
-   - **Pays:** 5,500 G · 1,500 EXP · +200 Rep · Panther Gloves · Affinity Coin.
+9. 👾 **キカより先回り！** — レク（5つのうち4）· 必要 **2★** → **執念のガルガロン**（35）
+   - **手順:** **執念のガルガロン**を倒す。場所は Makna の**フーディの住処**。時間も天候も不問、出現 ~30% — いないときはエリアに入り直す。
+   - **報酬:** 5,500 G · 1,500 EXP · +200 評判 · パンサーグローブ · キズナコイン。
 
-10. 📜 **Popularity Premonition** — Leku (5 of 5) · needs **2.5★** · permanent choice
-   - **Do:** pick **Pepa** (Route A, marriage) or **Lupa** (Route B, engagement) — this is permanent. Then collect **3x Delicious Vang Tail** (Vangs) and **2x Royal Apis Nectar** (Apis), both Makna.
-   - **Pays:** 11,000 G · 2,800 EXP · +200 Rep · Shell Boots.
-   - Sources disagree on whether this and Beat Kilaki to it! are timed. Treat both as **do before leaving Chapter 7** and it stops mattering.
+10. 📜 **モテ期到来の予感** — レク（5つのうち5）· 必要 **2.5★** · 恒久の選択
+   - **手順:** **ピップ**（ルートA、結婚）か**ルパ**（ルートB、婚約）を選ぶ — これは恒久。その後**3x ヴァンプの珍味尻尾**（Vangs）と**2x アピスのロイヤル蜜**（アピス）を集める。どちらも Makna。
+   - **報酬:** 11,000 G · 2,800 EXP · +200 評判 · シェルブーツ。
+   - これとキカより先回り！が時限かどうか、資料は一致していない。両方とも**7章を離れる前にやる**扱いにすれば、問題は消える。
 
-> **🌦️ Weather / time — ⏰ Two Pachipa quests only exist between 12:00 and 15:00**
+> **🌦️ 天候 / 時間 — ⏰ パチカのクエスト2つは、12:00 から 15:00 のあいだにしか存在しない**
 >
-> Genuinely easy to miss because the NPC is standing there the whole time and simply will not talk about it outside the window.
+> 本当に見逃しやすい。NPC はずっとそこに立っているが、その時間の外ではこの話をしない。
 >
-> **Talk to Pachipa at Riki's House between 12:00 and 15:00** to get `Dadapon In Trouble`, and again in the same window for `It Definitely Exist!`.
+> **パチカに話す。場所はリキの家、時間は 12:00 から 15:00**。これで`とーちゃんが心配`を受ける。同じ時間にもう一度で`ゼッタイいる！`。
 >
-> The second one matters beyond itself: it is a prerequisite for **Legend of Mythical Empress** back in Spiral Valley (6,500 G / 3,000 EXP), which you may still have open from Chapter 4.
+> 二つ目はそれ自体を超えて重要だ。前提になるのは**真・伝説のエンプレス**で、場所はラセン谷（6,500 G / 3,000 EXP）。4章からまだ開いていることがある。
 
-11. 📜 **Dadapon In Trouble** — Pachipa · **12:00-15:00** · needs **2★**
-   - **Do:** kill **2x Mount Torta** on Bionis' Leg.
-   - **Pays:** 3,900 G · 1,000 EXP · +100 Rep · Poison Plus III.
+11. 📜 **とーちゃんが心配** — パチカ · **12:00-15:00** · 必要 **2★**
+   - **手順:** **2x マウント・トーター**を巨神脚で倒す。
+   - **報酬:** 3,900 G · 1,000 EXP · +100 評判 · 毒強化 III。
 
-12. 📜 **It Definitely Exist!** — Pachipa · **12:00-15:00** · needs **2.5★**
-   - **Do:** talk to **Gerugu** → kill the **Daughter Empress** (quest-exclusive) → return.
-   - **Pays:** 6,400 G · 2,000 EXP · +100 Rep · Jack Guarder.
-   - **Unlocks** Legend of Mythical Empress in Spiral Valley (needs 3.5★ Colony 6).
+12. 📜 **ゼッタイいる！** — パチカ · **12:00-15:00** · 必要 **2.5★**
+   - **手順:** **グレリー**に話す → **ドーター・エンプレス**（クエスト限定）を倒す → 戻る。
+   - **報酬:** 6,400 G · 2,000 EXP · +100 評判 · ジャックガーダー。
+   - **解放** 真・伝説のエンプレス、場所はラセン谷（必要 3.5★ コロニー6）。
 
-13. 🔴 🔴 **Making a Mixer** — Rono, Pollen Works · **Shulk must lead to build it**
-   - **Do:** sub-quest `Materials for a Mixer` — **2x Generic Shaft** (Mechon M64) and **2x Generic Blade** (Mechon M53), both on Bionis' Leg.
-   - **Then:** build it at the **Weapon Development Lab in Colony 9**. **Shulk must be the party leader** or the machine will not respond.
-   - **Pays:** 3,800 G · 1,200 EXP · +100 Rep · Good Footing IV.
+13. 🔴 🔴 **ミキサー製作** — ロン、花粉工場 · **作るにはシュルクがリーダー必須**
+   - **手順:** サブクエスト`ミキサーの材料集め` — **2x 汎用シャフト部品**（六四式機神兵）と**2x 汎用ブレード部品**（五三式機神兵）。どちらも巨神脚。
+   - **次:** **Weapon Development Lab、場所はコロニー9**で作る。**シュルクがパーティリーダー必須**。そうでないと機械は反応しない。
+   - **報酬:** 3,800 G · 1,200 EXP · +100 評判 · 吹き飛び抵抗 IV。
 
-14. 📜 **Disinsectization** — Rasha, Sacred Altar · needs **1.5★** · **leads to Sharla's skill tree**
-   - **Do:** kill **5x Makna Eluca** at the **Yellow Flower Grove** → talk to **Cherri** → back to Rasha.
-   - **Pays:** 3,200 G · 900 EXP · +50 Rep · Mist Gel, Mist Cream, Mist Sandals.
-   - **Unlocks:** `Avenge a Mamapon's Death` in Ch8, which grants **Sharla's hidden Reliance skill tree**. Do not skip this one.
+14. 📜 **害虫駆除** — ラシャ、御神体の祭壇 · 必要 **1.5★** · **カルナのスキルツリーへ繋がる**
+   - **手順:** **5x マクナ・エルーカ**を**キイロの花畑**で倒す → **チリ**に話す → ラシャへ戻る。
+   - **報酬:** 3,200 G · 900 EXP · +50 評判 · ミストジェル、ミストクリーム、ミストサンダル。
+   - **解放:** 8章の`母の死を越えて`。これで**カルナの隠された Reliance スキルツリー**が手に入る。これは飛ばさない。
 
-15. 📜 **Strange Noises from Below** — Pipiki, Sacred Altar
-   - **Do:** talk to **Tati** → **3x Hode Camouflage** from Hodes in Makna → Tati → Pipiki.
-   - **Pays:** 5,800 G · 2,000 EXP · +50 Rep · Panther Top.
-   - **Unlocks:** `Musical Genius` and `Honouring the Nopon Sage` (Ch8) — the latter starts the chain to **Riki's Heroism skill tree**.
+15. 📜 **地下からの不気味な声** — ピケ, 御神体の祭壇
+   - **手順:** **タティ**に話す → **3x フーディの迷彩布**を Makna の Hodes から → タティ → ピケ。
+   - **報酬:** 5,800 G · 2,000 EXP · +50 評判 · パンサートップス。
+   - **解放:** `音楽は偉大`と`センニンのお供え`（8章）— 後者が**リキの Heroism スキルツリー**への連鎖を始める。
 
-16. 📜 **Musical Genius** — Tati · needs **1.5★** · big collectathon
-   - **Things that Hum:** 2x Humming Plum (Bionis' Leg), 2x Humming Cabbage (Satorl), 2x Humming Cat (Satorl), 2x Humming Nettle (Makna).
-   - **Things that Rumble:** 2x Rumble Stonefly (Tephra Cave), 2x Rumble Coal (Ether Mine), 2x Rumble Part (Satorl), 2x Rumble Box (Frontier Village).
-   - **Pays:** 10,000 G · 6,500 EXP · +150 Rep · Climb Armour, Climb Leggings, Quick Step III. Worth the legwork.
+16. 📜 **音楽は偉大** — タティ · 必要 **1.5★** · 大量収集
+   - **ハミング・コレクション:** 2x ハミングプラム（巨神脚）、2x ハミングメキャベツ（Satorl）、2x ハミングキャット（Satorl）、2x ハミングオオバ（Makna）。
+   - **ボップン・コレクション:** 2x ポップンカワゲラ（テフラ洞窟）、2x ポップンチャコール（中央採掘場）、2x ポップンテンプ（Satorl）、2x ぽっぷんぼっくす（サイハテ村）。
+   - **報酬:** 10,000 G · 6,500 EXP · +150 評判 · クライムアーマー、クライムレギンス、移動速度アップ III。足を使う価値はある。
 
-17. 📜 **Pollen Orb Ingredients** — Dobadoba, Pollen Orb Storehouse · needs **1.5★**
-   - **Do:** **5x Yellow Pollen** at the **Yellow Flower Grove**, Makna.
-   - **Pays:** 5,000 G · 1,500 EXP · +50 Rep · Panther Bottoms · First Atk Plus III.
-   - **Unlocks:** Secret Ingredient Hunt and Secret Innovation.
+17. 📜 **花粉玉の材料調達** — ドバガス、花粉玉倉庫 · 必要 **1.5★**
+   - **手順:** **5x キイロの花粉**を Makna の**キイロの花畑**で。
+   - **報酬:** 5,000 G · 1,500 EXP · +50 評判 · パンサーボトムズ · First Atk Plus III。
+   - **解放:** ヒミツの材料集めとヒミツの技術革新。
 
-18. 📜 **Secret Innovation** — Rasha · needs **1.5★** · **dawn to dusk only**
-   - **Do:** **1x Filtered Water** near the **Sparkling Pool**, Makna — **daytime only** → Cherri → Rasha.
-   - **Pays:** 6,000 G · 2,100 EXP · +50 Rep · Buff Time Plus II.
-   - **Unlocks:** The Master's Successor → `Dangerous Ambition` (Ch8, timed, dies at Mechonis Core).
+18. 📜 **ヒミツの技術革新** — ラシャ · 必要 **1.5★** · **夜明けから日没のみ**
+   - **手順:** **1x 透き通った水（高純度）**、Makna の**キラキラ池**の近く — **昼間のみ** → チリ → ラシャ。
+   - **報酬:** 6,000 G · 2,100 EXP · +50 評判 · バフ時間プラス II。
+   - **解放:** 跡継ぎ問題 → `危険な野望`（8章、時限、機神界中枢で消える）。
 
-19. 📜 **Secret Ingredient Hunt** — Bana · needs **1.5★**
-   - **Do:** **1x Monster Egg** on the hill right of the **Twisted Tree Gate**, Makna → give to **Gadada** → Bana.
-   - **Pays:** 5,500 G · 1,800 EXP · +50 Rep · Aura Heal II.
+19. 📜 **ヒミツの材料集め** — バーン · 必要 **1.5★**
+   - **手順:** **1x モンスターの卵**を、Makna の**ネジリ木のゲート**の右の丘で → **ガルダ**に渡す → バーン。
+   - **報酬:** 5,500 G · 1,800 EXP · +50 評判 · オーラヒール II。
 
-20. 📜 **The Master's Successor** — Dobadoba · needs **2★**
-   - **Do:** choose **Gadada** or **Cherri** as successor.
-   - **Pays:** 7,500 G · 2,400 EXP · +100 Rep · Debuff Resist II.
+20. 📜 **跡継ぎ問題** — ドバガス · 必要 **2★**
+   - **手順:** 後継に**ガルダ**か**チリ**を選ぶ。
+   - **報酬:** 7,500 G · 2,400 EXP · +100 評判 · 全デバフ抵抗 II。
 
-21. 📜 **Fixing Time Mushrooms** → **Sweet Seduction** — Migaga, Sacred Altar
-   - **Fixing Time Mushrooms:** feed compost to the Time Mushrooms on **floors 1, 4 and 7** of Frontier Village. 4,000 G · 1,150 EXP.
-   - **Sweet Seduction** (needs 2★ and `Ingredients for a Brew`): 3,600 G · 1,000 EXP · +150 Rep · Sky Gloves.
+21. 📜 **キノコ時計の修理** → **あま〜い誘惑** — ミガミガ, 御神体の祭壇
+   - **キノコ時計の修理:** Time Mushrooms に堆肥を与える。場所は**1階、4階、7階**、サイハテ村。4,000 G · 1,150 EXP。
+   - **あま〜い誘惑**（必要 2★ と`酒造りの材料`）: 3,600 G · 1,000 EXP · +150 評判 · スカイグローブ。
 
-22. 📜 **Ingredients for a Brew** — Kofuko · **route decided by your inventory**
-   - **Quirk:** the route is chosen automatically by what you are carrying when you accept. **Route B** (4x Walnut Grape, Bionis' Leg) fires unless you dump your Walnut Grapes first, because they are common.
-   - **Route A:** 2x Bitter Kiwi (Makna) → Sky Shoes + Terrain Defence II. **Route B:** Sky Shoes + Auto-Heal Up III. Both 3,400 G · 850 EXP.
+22. 📜 **酒造りの材料** — フゴフゴ · **ルートは所持品で決まる**
+   - **仕様:** ルートは、受注時の所持品で自動的に決まる。**ルートB**（4x クルミグレープ、巨神脚）は、先に Walnut Grapes を捨てないと発生する。よく拾うからだ。
+   - **ルートA:** 2x ビターキウイ（Makna）→ スカイシューズ + 地形防御 II。**ルートB:** スカイシューズ + 自然回復アップ III。どちらも 3,400 G · 850 EXP。
 
-23. 📜 **Lousy Lizards** — Modamo, Riki's House · needs **2.5★**
-   - **Do:** kill **5x Inferno Deinos** and **5x Plasma Deinos** in Makna.
-   - **Pays:** 7,500 G · 2,000 EXP · +100 Rep · Jungle Top, Jungle Bottoms.
+23. 📜 **苦手なトカゲ** — モダニィ、リキの家 · 必要 **2.5★**
+   - **手順:** Makna で**5x カロル・ディノス**と**5x トニトル・ディノス**を倒す。
+   - **報酬:** 7,500 G · 2,000 EXP · +100 評判 · ジャンゴトップス、ジャンゴボトムズ。
 
-24. 📜 **Hunt for Bug-Loving Friend** → **A Worried Bug-Lover** — Kokora / Deki, Nopon Tower
-   - **First:** talk to **Ababa** → **3x Shield Bug** (Makna) → Ababa → Kokora. 3,600 G · 950 EXP.
-   - **Then** (Deki, needs 1.5★): **2x Green Eluca Juice** from Makna Elucas → Ababa → Deki. 4,200 G · 1,000 EXP · Night Vision IV.
-   - **Unlocks:** A Tormented Bug-Lover (Ch8, **timed**).
+24. 📜 **虫好き仲間を求めて** → **虫好きじいさんの悩み** — キララ / デク, ノポンタワー
+   - **最初:** **アババ**に話す → **3x アオゾラカメムシ**（Makna）→ アババ → キララ。3,600 G · 950 EXP。
+   - **次**（デク、必要 1.5★）: Makna Elucas から**2x エルーカの激辛青汁** → アババ → デク。4,200 G · 1,000 EXP · 夜間命中アップ IV。
+   - **解放:** 虫好きじいさんの苦悩（8章、**時限**）。
 
-25. 📜 **Decoration Makeover** — Pepa, Chief's Residence
-   - **Do:** **6x Enigma Lotus** (Makna), **4x Happy Rabbit** (Tephra Cave), **3x Love Crane** (Ether Mine).
-   - **Pays:** 5,200 G · 1,050 EXP · +100 Rep · Jungle Cap.
+25. 📜 **かわいいお部屋に大変身** — ピップ, 村長の家
+   - **手順:** **6x アイヤマ**（Makna）、**4x ハッピーウサギ**（テフラ洞窟）、**3x リーベクレイン**（中央採掘場）。
+   - **報酬:** 5,200 G · 1,050 EXP · +100 評判 · ジャンゴキャップ。
 
-> **ℹ️ Note — The Challenge quests here are split across three different NPCs**
+> **ℹ️ メモ — ここの強敵を求めてクエストは、別々のNPC3人に分かれている**
 >
-> Each Challenge is one Unique Monster kill. The givers are in **three different spots**, which is why people find two and assume that is all:
+> 強敵を求めてはそれぞれ、ユニークモンスターを1体倒す。依頼人は**別々の3か所**にいる。だから2人見つけて、それで全部だと思い込みやすい。
 >
-> **Challenge 1** — Nopon Villager at the **Nopon Tower** → Agile Albatro
-> **Challenge 2** — Nopon Villager at the **Sacred Altar** → Breezy Zolos
-> **Challenge 3** — Nopon Villager at **Riki's House** → Lazy Bluco
-> **Challenge (Makna)** — **Nopon Merchant at the Agni Tablet**, out in Makna, not the village → Shimmering Forte
+> **強敵を求めて1** — サイハテ村住人が**ノポンタワー**にいる → 流麗のアルバトロ
+> **強敵を求めて2** — サイハテ村住人が**御神体の祭壇**にいる → 春風のゾルホス
+> **強敵を求めて3** — サイハテ村住人が**リキの家**にいる → 怠惰のブルーコ
+> **強敵を求めて（Makna）** — **ノポン商会がアギニの碑にいる**。村の中ではなく Makna の外 → 陽炎のフォルテ
 
-26. 👾 **Challenge 1** (Nopon Tower) → **Agile Albatro** (33) — below Bridge Three · **avoids rain**
+26. 👾 **強敵を求めて1**（ノポンタワー） → **流麗のアルバトロ**（33） — サンのつり橋の下 · **雨を避ける**
    Pays 23,000 G + Affinity Coin.
 
-27. 👾 **Challenge 2** (Sacred Altar) → **Breezy Zolos** (37) — Windmill Pavilion · any conditions
+27. 👾 **強敵を求めて2**（御神体の祭壇） → **春風のゾルホス**（37） — カゼオイの風車小屋 · 条件は問わない
    Pays 26,000 G + Affinity Coin.
 
-28. 👾 **Challenge 3** (Riki's House) → **Lazy Bluco** (34) — Yellow Flower Grove · **night only**
+28. 👾 **強敵を求めて3**（リキの家） → **怠惰のブルーコ**（34） — キイロの花畑 · **夜のみ**
    Pays 29,000 G + Affinity Coin. ~30% spawn, so re-enter if absent.
 
-29. 👾 **Challenge (Makna)** (Nopon Merchant, Agni Tablet) → **Shimmering Forte** (33) — Eks Watering Hole
-   - **Conditions:** **clear weather**, and **not at night**. ~30% spawn.
-   - Pays 25,000 G + Affinity Coin.
+29. 👾 **強敵を求めて（Makna）**（ノポン商会、アギニの碑） → **陽炎のフォルテ**（33） — エクスの水飲み場
+   - **条件：** **晴れ**、かつ**夜ではない**。出現は ~30%。
+   - 報酬は 25,000 G + キズナコイン。
 
-30. 👾 **Brutal Gravar** (46) — King Agni's Tomb · **no quest needed**
-   Correcting a common claim, including in an earlier version of this guide: Gravar is **not** quest-gated by the Mystery of Makna Ruins chain. It spawns naturally at about 30%. The Ruins chain just gives you a reason to be standing there.
+30. 👾 **残虐のグラーヴァ**（46） — 征服王アギニの墳墓 · **クエスト不要**
+   よくある説を訂正する。この攻略の旧版も含めて、Gravar はクエスト解禁**ではない**。門にされるのは Makna Ruins の謎連鎖だが、実際は約30%で自然出現する。遺跡の連鎖は、そこに立つ理由をくれるだけだ。
 
-31. 📜 **Makna Monster Quests 1-4** — Nopon Merchant, Agni Tablet · generic, auto-complete
-   - 1. Kill 5x Jungle Quadwing — 15,000 G · 2. Kill 2x Makna Feris — 9,600 G · 3. Kill 2x Makna Ansel — 8,500 G · 4. Kill 3x Makna Eks — 12,000 G
-   - Quest 4's Makna Eks also drop **Eks Iron Heart**, which Colony 6 Housing 3 needs. Do them together.
-   **Sub-checkpoints:**
-   - [ ] Makna Monster Quest 1 — 5× Jungle Quadwings — Pickup anytime · Nopon Merchant at Agni Tablet. Defeat Jungle Quadwings below Agni Tablet / near Waypoint Beacon.
-   - [ ] Makna Monster Quest 2 — 2× Makna Feris — Pickup anytime · Nopon Merchant at Agni Tablet. Defeat Makna Feris around Waypoint Beacon or Sparkling Pool.
-   - [ ] Makna Monster Quest 3 — 2× Makna Ansels — Pickup anytime · Nopon Merchant at Agni Tablet. Defeat Makna Ansels around Eks Watering Hole in clear weather.
-   - [ ] Makna Monster Quest 4 — 3× Makna Eks — Pickup anytime · Nopon Merchant at Agni Tablet. Defeat Makna Eks at Eks Watering Hole.
+31. 📜 **Makna 討伐クエスト 1-4** — ノポン商会、アギニの碑 · 汎用、自動完了
+   - 1. ジャンゴ・クロードを5体倒す — 15,000 G · 2. マクナ・フェリスを2体倒す — 9,600 G · 3. マクナ・アンセルを2体倒す — 8,500 G · 4. マクナ・エクスを3体倒す — 12,000 G
+   - クエスト4のマクナ・エクスは**エクスの鉄心臓**も落とす。コロニー6の住宅3がこれを必要とする。まとめてやる。
+   **サブチェック:**
+   - [ ] Makna Monster Quest 1 — 5× Jungle Quadwings — Pickup いつでも · ノポン商会はアギニの碑にいる。アギニの碑の下 / ミチシルベのかがり火の近くで Jungle Quadwings を倒す。
+   - [ ] Makna Monster Quest 2 — 2× マクナ・フェリス — Pickup いつでも · ノポン商会はアギニの碑にいる。マクナ・フェリスをミチシルベのかがり火かキラキラ池の周辺で倒す。
+   - [ ] Makna Monster Quest 3 — 2× Makna Ansels — Pickup いつでも · ノポン商会はアギニの碑にいる。晴天のときエクスの水飲み場の周辺で Makna Ansels を倒す。
+   - [ ] Makna Monster Quest 4 — 3× マクナ・エクス — Pickup いつでも · ノポン商会はアギニの碑にいる。マクナ・エクスをエクスの水飲み場で倒す。
 
-> **ℹ️ Note — 🔴 The Old Soldier's Test becomes possible now — and it can be destroyed**
+> **ℹ️ メモ — 🔴 老兵ヤーンの試練がいま可能になる — そして潰すこともできる**
 >
-> Melia has temporarily joined, which is one of its prerequisites. This is the quest with the **permanent dialogue lockout** described in Chapter 0.
+> メリアが一時的に加入していて、それが前提のひとつだ。これは0章で述べた、**恒久の会話ロック**があるクエストだ。
 >
-> **Sequence:** get Colony 9 to **3★** · have Dionysis, Cheryl and Minnie on the Affinity Chart · talk to **Jan** (Colony 9 Military District training ground) between **9:00 and 15:00** · then talk to **Dionysis** in the Residential District and answer **&quot;He's too old for that girl.&quot;**
+> **手順：** コロニー9を**3★**にする · ディオニージス、ツィリル、メイニーをキズナグラムに出す · **ヤーン**（コロニー9の軍事区訓練場）に**9:00 and 15:00**のあいだに話しかける · その後**ディオニージス**に居住区で話しかけ、**&quot;あの娘には年を取りすぎている。&quot;**と答える
 >
 > The other answer kills it for the playthrough.
 
-32. 🔴 🔴 **The Old Soldier's Test** — Jan, Colony 9 → **Elder Gragus** (34)
-   - **Do:** kill **Elder Gragus** at the **Nopon Arch** in Makna Forest. Avoids rain.
-   - **Turn in:** Jan, Colony 9 Military District.
-   - **Pays:** 5,800 G · 5,000 EXP · **Dawn Staff** (2 empty gem slots) · +100 Colony 9 affinity · Affinity Coin.
+32. 🔴 🔴 **老兵ヤーンの試練** — ヤーン, コロニー9 → **老兄のグラグース** (34)
+   - **手順：** **老兄のグラグース**を**ノポンアーチ**で倒す。場所はマクナ原生林。雨は避ける。
+   - **報告：** ヤーン、コロニー9の軍事区。
+   - **報酬：** 5,800 G · 5,000 EXP · **昼夜の杖**（空きジェムリット2つ） · コロニー9のキズナ +100 · キズナコイン。
 
-33. 💜 💜 **Shulk & Riki** — Pollen Works, day, Green
+33. 💜 💜 **シュルク & リキ** — 花粉工場、昼、緑
 
-34. 💜 💜 **Shulk & Melia** — Agni Tablet, day, Green
+34. 💜 💜 **シュルク & メリア** — アギニの碑、昼、緑
 
-35. 💜 💜 **Sharla & Melia** — Sparkling Pool, day, Green
+35. 💜 💜 **カルナ & メリア** — キラキラ池、昼、緑
 
-36. 💜 💜 **Dunban & Melia** — Apex Lake / Contemplation Terrace, day, Green
+36. 💜 💜 **ダンバン & メリア** — 9Ｆ てっぺんの湖 / 祈りのテラス、昼、緑
 
-37. 💜 💜 **Riki & Melia** — Prophecy Hut, day, Green
-   Five at once — the best Heart-to-Heart chapter in the game, because Melia and Riki are new and Green comes fast. Run them as one circuit after a few hours of party time.
+37. 💜 💜 **リキ & メリア** — お告げの間、昼、緑
+   一度に5つ — ゲームで最良のキズナトークの章だ。メリアとリキが新しく、緑が早く付く。数時間の同行のあと、1周で回す。
 
-38. ⛏️ ⛏️ **Fossil Monkey** ×1 — Housing 2. Makna collection, **rare**
-   Run the Skip Travel loop off a Makna landmark. If it resists you more than twenty minutes, trade **Puko** in Frontier Village instead — this is not worth an hour.
+38. ⛏️ ⛏️ **化石サル** ×1 — 住宅2。Makna の採集、**レア**
+   Makna のランドマークから Skip Travel の周回を回す。20分より長く出ないなら、**プコ**をサイハテ村で交換する — 1時間かける価値はない。
 
-39. ⛏️ ⛏️ **Eks Iron Heart** ×1 — Housing 3. Kill Makna Eks (same as Monster Quest 4)
+39. ⛏️ ⛏️ **エクスの鉄心臓** ×1 — 住宅3。マクナ・エクスを倒す（討伐クエストその4と同じ）
 
-40. ⛏️ ⛏️ **Hode Plank** ×3 — Commerce 2. Kill Hyle Hode, or trade Lupa
+40. ⛏️ ⛏️ **フーディの平面木材** ×3 — 商業2。ヒューレ・フーディを倒すか、ルパと交換する
 
-41. ⛏️ ⛏️ **Lemonade Sky** ×3 — Special 3. Makna collection
+41. ⛏️ ⛏️ **ラムネスカイ** ×3 — 特殊3。Makna の採集
 
-42. ⛏️ ⛏️ **Dust Element** ×2 — Special 2. Kill Caris Nebula at the Bridge Two/Three junction
+42. ⛏️ ⛏️ **砂塵の元素** ×2 — 特殊2。カーリス・ネブラをニのつり橋／Three の分岐で倒す
 
-43. ⛏️ ⛏️ **Empress Beetle** ×3 — Nature 2. Frontier Village collection
+43. ⛏️ ⛏️ **コウゴウタマムシ** ×3 — 自然2。サイハテ村の採集
 
-44. ⚪ Fill the **Makna Forest** and **Frontier Village** Collectopaedia pages
-   **Sub-checkpoints:**
+44. ⚪ **マクナ原生林**と**サイハテ村**のコレペディアページを埋める
+   **サブチェック:**
    - [ ] Complete Makna Forest Collectopaedia
    - [ ] Complete Frontier Village Collectopaedia
 
-> **⛏️ Grind stop — ⛏️ Push Central Bionis affinity to 3.5★ before you leave**
+> **⛏️ 周回 — ⛏️ Push Central Bionis affinity to 3.5★ before you leave**
 >
-> This is the single most useful thing you can bank in Chapter 7. **3.5★ Central Bionis** is the gate on `Getting Bigger!` in Chapter 10 — **Riki's hidden Cowardice skill tree**.
+> 7章で温存できるもののなかで、これがいちばん役に立つ。**3.5★ Central Bionis**は、10章の`おっきくな〜れ`の門だ — **リキの隠し Cowardice スキルツリー**。
 >
-> Frontier Village side quests are the fastest way there, and you are doing them anyway. Just do not leave the chapter at 2★ and then have to come back and grind it cold.
+> サイハテ村のサイドクエストがそこへの最短で、どうせやる。2★のまま章を出て、あとからゼロで上げ直すことだけは避ける。
 
 ---
 
-## Chapter 8 — Eryth Sea, Alcamoth, High Entia Tomb
+## Chapter 8 — エルト海, 皇都アカモート, ハイエンター墓所
 
-**Level 44-52** · 56 tracked items
+**レベル 44-52** · 追跡 56件
 
-> **The single most important chapter in the run.** Every Alcamoth NPC quest dies at Mechonis Core in Chapter 15, and Alcamoth is the biggest gold source in the game. Eryth Sea's own quests are safe. Work Alcamoth in the five phases below — its quests are affinity-gated, so brute-forcing the list out of order does not work.
+> **この周回で最も重要な章。** 皇都アカモートのNPCクエストは、15章の機神界中枢で全部消える。そして皇都アカモートは、ゲーム最大のゴールド源だ。エルト海自身のクエストは無事だ。下の5フェーズで皇都アカモートを進める — クエストはキズナ条件なので、一覧を順不同で強引に進めても通らない。
 
-> **📊 Set your level — Set level to 50**
+> **📊 レベルを合わせる — Set level to 50**
 >
-> Eryth Sea runs Lv36-44, High Entia Tomb 38. 50 covers everything comfortably and leaves the Lv87-93 Eryth Sea block (Belagon, Ragoel, Zagamei, Dablon, Medorlo) safely post-game.
+> エルト海は Lv36-44、ハイエンター墓所は 38。50なら全体を余裕でこなせ、Lv87-93 のエルト海帯（Belagon、Ragoel、Zagamei、Dablon、Medorlo）はクリア後に安全に残せる。
 >
-> This chapter has more quests than any other. Do not be tempted to spend the bank to speed it up — the quests are gated on **affinity**, not level.
+> この章のクエスト数は、どの章より多い。温存分を使って急ごうとしてはいけない — 門は**キズナ**であり、レベルではない。
 
-> **⚔️ Party & build — ⚔️ Where your build should be, and the Melia note**
+> **⚔️ パーティとビルド — ⚔️ ビルドの到達点と、メリアについての注記**
 >
-> **Party:** Shulk / Dunban / Riki. Dunban should be visibly dodging most physical attacks by now — if not, put more Agility Up on him and spend AP on his evasion branches.
+> **パーティ：** シュルク / ダンバン / リキ。ダンバンは、この時点で物理攻撃のほとんどを見て分かるほど回避しているはずだ — そうでなければ素早さアップをさらに載せ、AP を回避の分岐に使う。
 >
-> **You will need to swap leader twice this chapter**, which is unusual and easy to forget:
-> · **Melia** leads for `Building Bridges`
-> · **Shulk** leads for `Paola and Narine`
+> **この章ではリーダーを2回交代する**。珍しく、忘れやすい。
+> · **メリア**が`他種族嫌いを治して`のリーダー
+> · **シュルク**が`パオラとネリネ`のリーダー
 >
-> **Gems:** you have the Mobile Furnace from Ch6, so craft in the field. Remember the crafting pair's affinity sets the cycle count — pair characters who like each other.
+> **ジェム：** 6章の携帯型エーテル高炉があるので、フィールドでクラフトできる。クラフトする2人のキズナが周回数を決める — 仲の良いキャラ同士を組ませる。
 
-> **ℹ️ Note — 🔴 What actually dies at Mechonis Core, and what does not**
+> **ℹ️ メモ — 🔴 機神界中枢で実際に消えるものと、消えないもの**
 >
-> Worth being precise, because the panic in most guides is broader than the truth:
+> 正確に書いておく。大半の攻略の焦りは、事実より範囲が広い。
 >
-> **DIES:** every Alcamoth NPC quest. The NPCs leave or are gone. This is roughly 90 quests.
-> **SURVIVES:** the Alcamoth **area** itself — reachable in Ch17 on foot via the **Centre Gate portal from Eryth Sea** (no Skip Travel, and it is overrun by Telethia). Its six Heart-to-Hearts are therefore safe.
-> **SURVIVES:** all Eryth Sea and Syrath Lighthouse quests. They are Normal, not timed.
+> **消滅：** 皇都アカモートのNPCクエストは全部。NPCは去り、いなくなる。およそ90クエストだ。
+> **残る：** 皇都アカモートの**地域そのもの** — 17章に徒歩で、**センターゲートのポータルをエルト海から**到達できる（Skip Travel は不可、テレシアが蔓延している）。したがってキズナトーク6つは無事だ。
+> **残る：** エルト海とシウェラート灯台のクエストは全部。通常で、期限付きではない。
 >
-> **Correction to an earlier version of this guide:** `Ancient High Entia Mystery` — the source of **Melia's Passion skill tree** — is a **Chapter 17** quest from Talia at the Ether Plant, and it is **not missable**. Its prerequisite can be satisfied by either `Talia's Research` (Ch8, missable) *or* `Investigating Satorl` (Ch17). Melia's tree is safe whatever you do.
+> **この攻略の旧版への訂正：** `古代ハイエンターの謎` — **メリアの Passion スキルツリーの入手元** — は**17章**のクエストで、タリアがエーテルプラントで出す。そして**取り逃し不可**だ。前提は`タリアの研究`（8章、取り逃しうる）*または* `ザトールの調査`（17章）のどちらかで足りる。メリアのツリーは、どう進めても無事だ。
 
-> **ℹ️ Note — ALCAMOTH PHASE 1 — no affinity gates. These are what build your affinity**
+> **ℹ️ メモ — ALCAMOTH PHASE 1 — no affinity gates. These are what build your affinity**
 >
-> Do all of these on your first visit, before the story sends you into the High Entia Tomb. None require a star rating, and completing them is how you reach the 1.25★-2.5★ gates that Phases 2-3 need.
+> 最初の訪問で、ストーリーがハイエンター墓所へ送る前に、これらを全部やる。星評価はどれも不要で、完了そのものがフェーズ2-3に必要な 1.25★-2.5★ の門へ届く道だ。
 
-1. 🔴 🔴 **The Deciphering Machine** — Ruthan, Imperial Palace
-   - **Do:** **6x Sturdy Armour** from **Flavel Andos** at Eryth Sea.
-   - **Pays:** 5,500 G · 1,500 EXP · +100 Rep · Slow Resist III.
-   - Convenient: Colony 6 Housing 3 also wants **Sturdy Armour ×4**. Farm 10 and cover both.
+1. 🔴 🔴 **文献解読装置** — ルス, 皇宮
+   - **手順：** **頑丈な装甲を6個**、**フラーベル・アンドス**からエルト海で。
+   - **報酬：** 5,500 G · 1,500 EXP · 友好度 +100 · スロウ抵抗 III。
+   - ついでに。コロニー6の住宅3も**頑丈な装甲 ×4**を必要とする。10個集めて両方を賄う。
 
-2. 🔴 🔴 **Bring Back My Son!** → **Teaching Materials** — Merisa / Mir'leiz, Imperial Palace
-   - **Bring Back My Son!:** talk to **Mir'leiz** at Eryth Sea, return. 3,500 G · 1,800 EXP.
-   - **Teaching Materials:** talk to **Caul** → **3x Murky Eluca Water** from **Perna Elucas** at Eryth Sea → Caul → Mir'leiz. 4,300 G · 2,000 EXP.
+2. 🔴 🔴 **息子を連れ戻して！** → **教材の材料を集めて！** — メリッサ / ミラリース, 皇宮
+   - **息子を連れ戻して！：** **ミラリース**にエルト海で話しかけ、戻る。3,500 G · 1,800 EXP。
+   - **教材の材料を集めて！：** **コールス**に話す → **エルーカの緑ニガ水を3個**、**Perna Elucas**からエルト海で → コールス → ミラリース。4,300 G · 2,000 EXP。
 
-3. 🔴 🔴 **How Do They Feel?** → **How Do I Feel?** — Scarlen, Main Entrance · **the branch is here**
-   - **How Do They Feel?:** talk Ricoth → talk Rozeal → Scarlen. 3,800 G · 1,300 EXP.
-   - **How Do I Feel? — this is where you choose.** Talk to **Rozeal FIRST**, then Ricoth → unlocks `Together Forever`. Talking to Ricoth first instead unlocks `I Love You No Matter What`.
-   - **Take the Rozeal-first route.** Together Forever upgrades two chart links (Scarlen↔Ricoth to Very Close, Ricoth↔Rozeal to Best Friends); the alternative documents none.
+3. 🔴 🔴 **気持ちを知りたい** → **自分の本心を知りたい** — セガール、Main Entrance · **分岐はここ**
+   - **気持ちを知りたい：** リコに話す → ローザに話す → セガール。3,800 G · 1,300 EXP。
+   - **自分の本心を知りたい — ここで選ぶ。** **ローザを先に**話し、その後リコ → `いつまでも君と一緒に`が解禁される。先にリコへ話すと、代わりに`何があっても君を愛す`が解禁される。
+   - **ローザを先にする経路を取る。** いつまでも君と一緒にはチャートのリンクを2つ上げる（セガール↔リコが Very Close、リコ↔ローザが Best Friends）。もう一方は、記録されるリンクがない。
 
-4. 🔴 🔴 **Together Forever** — Scarlen · Rozeal-first route only
-   - **Do:** talk to Rozeal → Scarlen.
-   - **Pays:** 4,800 G · 2,100 EXP · +200 Rep · Physical Protect IV.
+4. 🔴 🔴 **いつまでも君と一緒に** — セガール · ローザを先にする経路のみ
+   - **手順：** ローザに話す → セガール。
+   - **報酬：** 4,800 G · 2,100 EXP · 友好度 +200 · 物理バリア IV。
 
-5. 🔴 🔴 **Building Bridges** — Arielle, Fountain of Eternity · **⚠️ MELIA MUST LEAD**
-   - **Switch your party leader to Melia before you start.** Both the Lesunia conversations require it — with anyone else leading the quest simply will not progress.
-   - **Do:** talk to **Lesunia** as Melia → **2x Marine Marble** at Eryth Sea → back to Lesunia as Melia → report to Arielle.
-   - **Pays:** 5,300 G · 1,750 EXP · +100 Rep · Topple Resist III.
-   - **Unlocks:** `Believing Again` → `Vidian Rescue Mission` in Ch17, worth 58,000 G and 97,500 EXP. Skipping this quietly costs you that.
+5. 🔴 🔴 **他種族嫌いを治して** — アリエッタ、永遠の噴水 · **⚠️ メリア がリーダー必須**
+   - **始める前に、パーティリーダーをメリアへ替える。** ルイーゼとの会話はどちらもそれが必要だ — 他の誰かがリーダーだと、クエストは進まない。
+   - **手順：** **ルイーゼ**にメリアで話す → **マリンマーブルを2個**、エルト海で → ルイーゼにメリアで戻る → アリエッタに報告する。
+   - **報酬：** 5,300 G · 1,750 EXP · 友好度 +100 · 転倒抵抗 III。
+   - **解放：** `もう一度、信じる心を` → 17章の`ビビアン救出作戦`。58,000 G と 97,500 EXP。これを飛ばすと、その報酬を静かに失う。
 
-6. 🔴 🔴 **Preparing for Adventure** — Zain, Fountain of Eternity (1 of 3)
-   - **Do:** **Kasharpa Water** (Kasharpa Falls, Bionis' Leg) + **Statue Water** (Sororal Statues, Satorl Marsh) + **Makna Water** (Great Makna Falls, Makna Forest). One of each.
-   - **Pays:** 4,200 G · 1,600 EXP · +200 Rep · Strength Up III / Ether Up III / Agility Up III.
+6. 🔴 🔴 **大冒険の準備** — ゼイン、永遠の噴水（3つのうち1）
+   - **手順：** **カシュハパの滝の水**（カシュハパの滝、巨神脚） + **岩窟の姉妹像の滝の水**（岩窟の姉妹像、燐光の地ザトール） + **マクナ大瀑布の水**（マクナ大瀑布、マクナ原生林）。それぞれ1つ。
+   - **報酬：** 4,200 G · 1,600 EXP · 友好度 +200 · 筋力アップ III / エーテル Up III / 素早さアップ III。
 
-7. 🔴 🔴 **Looking for a Lost Son** → **Lost Daughter** — Vol'aren, Fountain of Hope
-   - Neither can be declined. **Son:** talk to **Atael**, return. **Daughter:** talk to **Cian**, return.
-   - **Pays:** 6,750 G + 7,200 G · 2,300 + 2,500 EXP · Tension Swing III, Strength Up IV.
-   - **Atael is also your Ocean Elixir of Life trade** — do it in the same visit.
+7. 🔴 🔴 **迷子の息子を捜して** → **Lost Daughter** — ボラリオ、希望の噴水
+   - どちらも拒否できない。**息子：** **アテル**に話し、戻る。**娘：** **キィーノ**に話し、戻る。
+   - **報酬：** 6,750 G + 7,200 G · 2,300 + 2,500 EXP · テンション変動 III、筋力アップ IV。
+   - **アテルは海王の長寿蒲焼の交換相手でもある** — 同じ訪問でやる。
 
-8. 🔴 🔴 **Losing the Taste for Alcohol** — Nelo, Fountain of Hope
-   - **Do:** **2x Feris Blood** from Feris in Makna + **5x Pagul Hot Pot** from **Cruz Paguls** at Eryth Sea.
-   - **Pays:** 4,750 G · 1,800 EXP · +150 Rep · Confuse Resist III.
+8. 🔴 🔴 **お酒に強くなりたい** — ネロ, 希望の噴水
+   - **手順：** **フェリスの赤酒血液を2個**、Makna のフェリスから + **パグールのつぼ焼きを5個**、**Cruz Paguls**からエルト海で。
+   - **報酬：** 4,750 G · 1,800 EXP · 友好度 +150 · パニック抵抗 III。
 
-9. 🔴 🔴 **Looking for Gold Bugs** — Teelan, Imperial Palace
-   - **Do:** **9x Gold Caterpillar** in **Tephra Cave**. A long way back, so fold it into another Tephra trip.
-   - **Pays:** 5,100 G · 1,950 EXP · +100 Rep · Fall Defence II.
+9. 🔴 🔴 **金色の虫を求めて** — テト, 皇宮
+   - **手順：** **コガネイモムシを9個**、**テフラ洞窟**で。戻りが長いので、別の Tephra 行きにまとめる。
+   - **報酬：** 5,100 G · 1,950 EXP · 友好度 +100 · 落下防御 II。
 
-10. 🔴 🔴 **Going Out to Play** — Popipo, Main Entrance
-   - **Do:** talk to **Baroba** → **5x Ether Rose** in Satorl Marsh → Baroba → return.
-   - **Pays:** 6,400 G · 1,600 EXP · +100 Rep · Paralysis Resist III.
+10. 🔴 🔴 **息子が外で遊べる様に** — ポピエ、Main Entrance
+   - **手順：** **バロル**に話す → **アキシィを5個**、燐光の地ザトールで → バロル → 戻る。
+   - **報酬：** 6,400 G · 1,600 EXP · 友好度 +100 · パラライズ抵抗 III。
 
-11. ➡️ **MAIN STORY · Save the Worker** — Syrath Lighthouse and Hovering Reef 4
-   - **Ask:** travel to **Syrath Lighthouse** on Hovering Reef 4 and ask about the missing worker.
-   - **Find:** go behind the lighthouse toward the **Ether Crystal Deposit**.
-   - **Rescue:** defeat the attacking Kromars and speak to the worker.
+11. ➡️ **本編 · 作業員を救助せよ** — シウェラート灯台と第4浮遊岩礁
+   - **確認:** **シウェラート灯台**へ行く。場所は第4浮遊岩礁。行方不明の作業員について聞く。
+   - **発見:** 灯台の裏から**エーテル結晶採掘場**へ向かう。
+   - **救出:** 襲ってくる Kromars を倒し、作業員に話しかける。
 
-> **ℹ️ Note — ALCAMOTH PHASE 2 — 1.25★ to 1.5★, and one ordering trap**
+> **ℹ️ メモ — ALCAMOTH PHASE 2 — 1.25★ to 1.5★, and one ordering trap**
 >
-> **⚠️ `Protect the Capital!` expires the instant `Brave Actions` completes** — and Brave Actions is what grants it, during its first step. So the sequence is: start Brave Actions → it hands you Protect the Capital! → **finish and turn in Protect the Capital! FIRST** → then finish Brave Actions.
+> **⚠️ `皇都の安全を守れ！`は、`勇気ある行動`を完了した瞬間に期限切れになる** — しかもそれを渡すのは勇気ある行動で、最初の手順のうちに渡される。順番はこうだ。勇気ある行動を受ける → 皇都の安全を守れ！を渡される → **皇都の安全を守れ！を先に完了して報告する** → その後勇気ある行動を完了する。
 >
 > Get that backwards and you lose a quest with no warning.
 
-12. 🔴 🔴 **Brave Actions** — Mir'leiz · needs **1.5★** · read the trap above
-   - **Do:** talk to **Lecrough** (this hands you Protect the Capital!) → kill **2x Buono Nebula** at Eryth Sea → back to Lecrough → Mir'leiz.
-   - **Pays:** 5,600 G · 2,400 EXP · +200 Rep · Unbeatable III.
+12. 🔴 🔴 **勇気ある行動** — ミラリース · **1.5★**が必要 · 上の罠を読む
+   - **手順：** **ロクロ**に話す（ここで皇都の安全を守れ！を渡される） → **ブオーノ・ネブラを2体**、エルト海で倒す → ロクロに戻る → ミラリース。
+   - **報酬：** 5,600 G · 2,400 EXP · 友好度 +200 · 戦闘不能抵抗 III。
 
-13. 🔴 🔴 **Protect the Capital!** — Lecrough, Ascension Hall · **turn in BEFORE finishing Brave Actions**
-   - **Do:** kill **2x Bono Nebula** at Eryth Sea.
-   - **Pays:** 4,400 G · 2,100 EXP · +100 Rep · Panther Top, Panther Shoes.
-   - **Note the two nebula names are different** — Brave Actions wants **Buono** Nebula, this wants **Bono** Nebula. Easy to conflate.
+13. 🔴 🔴 **皇都の安全を守れ！** — ロクロ、聖天翔の間 · **勇気ある行動を終える前に報告する**
+   - **手順：** **ボーノ・ネブラを2体**、エルト海で倒す。
+   - **報酬：** 4,400 G · 2,100 EXP · 友好度 +100 · パンサートップス、パンサーシューズ。
+   - **ネビュラの名前は2つで別物だ** — 勇気ある行動が求めるのは**Buono** Nebula、こちらは**Bono** Nebula。混ぜやすい。
 
-14. 🔴 🔴 **Preparing for Adventure 2** — Kurralth · needs **1.25★**
-   - **Do:** **1x Chalk Container** at **Anu Shore**, Eryth Sea.
-   - **Pays:** 4,700 G · 1,800 EXP · Muscle Up III, Ether Def Up III.
+14. 🔴 🔴 **続・大冒険の準備** — クラル · **1.25★**が必要
+   - **手順：** **白亜の入れ物を1個**、**アヌ海岸**で。場所はエルト海。
+   - **報酬：** 4,700 G · 1,800 EXP · 物理防御増 III、エーテル防御増 III。
 
-15. 🔴 🔴 **Preparing for Adventure 3** — Zain · needs **1.5★** → spawns **Lakebed Orthlus** (40)
-   - **Do:** get **Orthlus' Liver** by killing **Lakebed Orthlus** at **Agora Shore, Colony 9**. This is a quest-exclusive Unique Monster — no quest, no monster, and it dies with the quest at Mechonis Core.
-   - **Pays:** 6,600 G · 2,500 EXP · +150 Rep · Mithril Gear, Gauntlets, Boots · Affinity Coin.
-   - **Unlocks:** Starlight Seeker and Adventurers in Peril.
+15. 🔴 🔴 **続々・大冒険の準備** — ゼイン · **1.5★**が必要 → **湖底のオフレス**（40）を出現させる
+   - **手順：** **オフレスの大肝**を手に入れる。**湖底のオフレス**を倒す。場所は**アゴラの岸、コロニー9**。これはクエスト限定のユニークモンスターだ — クエストがなければモンスターもおらず、機神界中枢でクエストと一緒に消える。
+   - **報酬：** 6,600 G · 2,500 EXP · 友好度 +150 · ミスリルギア、ガントレット、ブーツ · キズナコイン。
+   - **解放：** 輝きをその小さな手にと冒険者達の遭難。
 
-16. 🔴 🔴 **Starlight Seeker** — Elior · needs **1.5★**
-   - **Do:** talk to **Miriall** → **2x Silver Eks Plate** from **Stella Eks** at Eryth Sea → Miriall → Elior.
-   - **Pays:** 5,600 G · 2,000 EXP · +100 Rep · Daze Resist III.
+16. 🔴 🔴 **輝きをその小さな手に** — エイン · **1.5★**が必要
+   - **手順：** **ミリア**に話す → **エクスの反射銀板を2個**、**ステルラ・エクス**からエルト海で → ミリア → エイン。
+   - **報酬：** 5,600 G · 2,000 EXP · 友好度 +100 · 気絶抵抗 III。
 
-> **ℹ️ Note — ALCAMOTH PHASE 3 — after the story sends you into the High Entia Tomb**
+> **ℹ️ メモ — ALCAMOTH フェーズ3 — ストーリーでハイエンター墓所へ送られたあと**
 >
-> Three quests unlock, and between them they want four different things out of the Tomb. **Sweep it once and collect all of them together** so you never have to go back:
+> クエストが3つ解禁され、あわせて Tomb から別々のものが4種要る。**一度掃討して、全部まとめて集める**。そうすれば戻らなくて済む。
 >
-> **5x Green Diode** · **3x Astas Remote Unit** (from Hover Astas) · **1x Attachment Part** (Second Treasury) · **3x Andos Antenna** (from Andos, for an Eryth Sea collect quest) · **2x Blue Ladybird** (Colony 6 Commerce 3)
+> **グリーンダイオードを5個** · **アスタスの遠隔装置を3個**（コーヌ・アスタスから） · **アタッチメントパーツを1個**（第2宝物庫） · **アンドスの長アンテナを3個**（Andos から、エルト海の収集クエスト用） · **ミズテントウを2個**（コロニー6の商業3）
 
-17. 🔴 🔴 **A Necessary Upgrade** — Naroth · needs **1.25★** + Tomb story point
-   - **Do:** **5x Green Diode** in the High Entia Tomb + **3x Astas Remote Unit** from **Hover Astas** there.
-   - **Pays:** 6,500 G · 1,800 EXP · +150 Rep · Shell Gauntlets.
-   **Sub-checkpoints:**
+17. 🔴 🔴 **文献解読装置改良** — ナトリ · **1.25★**と Tomb のストーリー地点が必要
+   - **手順：** **グリーンダイオードを5個**、ハイエンター墓所で + **アスタスの遠隔装置を3個**、そこの**コーヌ・アスタス**から。
+   - **報酬：** 6,500 G · 1,800 EXP · 友好度 +150 · シェルガード。
+   **サブチェック:**
    - [ ] Collect 5× Green Diode
    - [ ] Collect 3× Astas Remote Unit
 
-18. 🔴 🔴 **Talia's Research** — Talia · needs **2★** · **take this over Investigating Satorl**
-   - **Do:** kill **Dogmatic Gogol** (quest-exclusive) at the **Place of Judgement, Satorl Marsh**.
-   - **Pays:** 6,800 G · 2,250 EXP · +200 Rep · Ether Def Up IV, Arts Seal Resist III.
-   - **Why take it:** more Upper Bionis reputation, which is Area Affinity, which you need at 5★ for the Collectopaedia's Other page. The Ch17 alternative `Investigating Satorl` pays more EXP and gold, which you are banking and can farm.
+18. 🔴 🔴 **タリアの研究** — タリア · **2★**が必要 · **ザトールの調査よりこちらを取る**
+   - **手順：** **戒律のゴゴール**（クエスト限定）を倒す。場所は**審判の間、燐光の地ザトール**。
+   - **報酬：** 6,800 G · 2,250 EXP · 友好度 +200 · エーテル防御増 IV、アーツ封印抵抗 III。
+   - **選ぶ理由：** Upper Bionis の友好度が増える。それはエリア友好度で、コレペディアのその他ページに 5★ が要る。17章の代替`ザトールの調査`は EXP とゴールドが多いが、そちらは温存しており、周回もできる。
 
-19. 🔴 🔴 **Starlight Gazer** — Elior · needs **2.5★** + Tomb story point
-   - **Do:** talk to **Kaleka** → **1x Attachment Part** from the **Second Treasury** in the High Entia Tomb → Kaleka → Elior.
-   - **Pays:** 6,900 G · 2,700 EXP · +200 Rep · Amethyst Leggings.
-   **Sub-checkpoints:**
-   - [ ] Speak to Kaleka — 18:00–06:00 · Frontier Village · Nopon Tower
-   - [ ] Collect the Attachment Part in the Second Treasury — High Entia Tomb B2F · Second Treasury off the central hallway
-   - [ ] Return to Kaleka — 18:00–06:00 · Frontier Village · Nopon Tower
-   - [ ] Return to Elior — 06:00–18:00 · Alcamoth · Fountain of Eternity
+19. 🔴 🔴 **更なる輝きをその手に** — エイン · **2.5★**と Tomb のストーリー地点が必要
+   - **手順：** **ガルバ**に話す → **アタッチメントパーツを1個**、**第2宝物庫**からハイエンター墓所で → ガルバ → エイン。
+   - **報酬：** 6,900 G · 2,700 EXP · 友好度 +200 · アメシストレギンス。
+   **サブチェック:**
+   - [ ] Speak to Kaleka — 18:00–06:00 · サイハテ村 · ノポンタワー
+   - [ ] Collect the Attachment Part in the Second Treasury — ハイエンター墓所 B2F · 中央の廊下から外れた第2宝物庫
+   - [ ] Return to Kaleka — 18:00–06:00 · サイハテ村 · ノポンタワー
+   - [ ] Return to Elior — 06:00–18:00 · 皇都アカモート · 永遠の噴水
 
-> **ℹ️ Note — ALCAMOTH PHASE 4 — after the Whitewing Palace scene. This is the gold.**
+> **ℹ️ メモ — ALCAMOTH フェーズ4 — 白翼宮のシーンのあと。ここが金策だ。**
 >
-> Two more named quests open at the Ascension Hall, and then the entire generic block becomes available.
+> 聖天翔の間で名前付きクエストがさらに2つ開き、その後に汎用枠が全部解禁される。
 >
-> **The generic block alone pays 614,000 G.** Monster Quests 1-4 (three parts each) 231,000 · Challenges 1-4 168,000 · Material 1-4 92,500 · Collection 1-4 80,500 · Search 1-4 42,000.
+> **汎用枠だけで 614,000 G。** 討伐クエスト 1-4（各3パート）231,000 · チャレンジ 1-4 は 168,000 · 素材 1-4 は 92,500 · 収集 1-4 は 80,500 · おさがし 1-4 は 42,000。
 >
-> With the named quests, Alcamoth totals roughly **745,000 G** — over a third of your 2,000,000 G Colony 6 bill, from one city, on a deadline. Generic fetch quests look like filler, which is exactly why people skip them and then wonder why they cannot afford reconstruction 100 hours later.
+> 名前付きクエストを合わせると、皇都アカモートはおよそ**745,000 G** — 2,000,000 G のコロニー6復興費の3分の1超を、1つの街から、期限つきで稼ぐ。汎用のお使いクエストは埋め草に見える。だから飛ばして、100時間後に復興の金が足りず困る。
 >
-> Nearly every target is an **Eryth Sea** monster, so take the whole board at once and clear it in one sweep.
+> 対象のほとんどは**エルト海**のモンスターだ。依頼を一度に全部受け、1回の掃討で片づける。
 
-20. 🔴 🔴 **Back Pain** — Galdo, Ascension Hall
-   - **Do:** kill **6x Archer Hode** at Eryth Sea. 5,500 G · 1,800 EXP · Bind II.
-   - Galdo is also your **Sturdy Armour** trade if you would rather not farm Flavel Andos.
+20. 🔴 🔴 **腰痛持ちは大変だ！** — ガーダ, 聖天翔の間
+   - **手順：** **テヒト・フーディを6体**、エルト海で倒す。5,500 G · 1,800 EXP · バインド II。
+   - ガーダは**頑丈な装甲**の交換相手でもある。フラーベル・アンドスを狩りたくないとき用だ。
 
-21. 🔴 🔴 **A Friend in Need** — Lecrough, Ascension Hall
-   - **Do:** kill **6x Eryth Hiln** at Eryth Sea. 7,500 G · 2,500 EXP · Arts Stealth III.
-   - Eryth Hiln also drop **Jagged Tail**, which Colony 6 Nature 3 wants ×3.
+21. 🔴 🔴 **親友のために** — ロクロ, 聖天翔の間
+   - **手順：** **エルト・ヒルンを6体**、エルト海で倒す。7,500 G · 2,500 EXP · 技ヘイト低下 III。
+   - エルト・ヒルンは**ギザギザ尻尾**も落とす。コロニー6の自然3がこれを ×3 必要とする。
 
-22. 🔴 🔴 **Challenge 1** (Citizen, **Fountain of Hope**) → **Proper Bandaz** (39) · **45,000 G**
-   - **The hardest spawn condition in the game:** Secluded Island, **night AND shooting stars simultaneously**. Camp it — you cannot force weather this early.
+22. 🔴 🔴 **強敵を求めて1**（市民、**希望の噴水**） → **常道のベンダズ**（39） · **45,000 G**
+   - **ゲームで最も厳しい出現条件：** 鎮まりの離島、**夜かつ流星が同時**。張り込む — この時点では天候を強制できない。
 
-23. 🔴 🔴 **Challenge 2** (Citizen, **Fountain of Eternity**) → **Tempestuous Edegia** (39) · **38,000 G**
-   Hovering Reef 10. **Night only**, any weather.
+23. 🔴 🔴 **強敵を求めて2**（市民、**永遠の噴水**） → **大嵐のエイデジア**（39） · **38,000 G**
+   第10浮遊岩礁。**夜のみ**、天候は問わない。
 
-24. 🔴 🔴 **Challenge 3** (Imperial Guard, **Ascension Hall**) → **Peeling Kircheis** (38) · **35,000 G**
-   Hovering Reef 7. Any time, any weather — the easy one.
+24. 🔴 🔴 **強敵を求めて3** (近衛兵, **聖天翔の間**) → **剥落のキルヒアイス** (38) · **35,000 G**
+   第7浮遊岩礁。時間も天候も問わない — 簡単なほう。
 
-25. 🔴 🔴 **Challenge 4** (Citizen, **Fountain of Eternity**) → **Lightspeed Sonid** (44) · **50,000 G**
-   Anu Shore. Any time, any weather. Biggest single generic payout in the game.
+25. 🔴 🔴 **強敵を求めて4**（市民、**永遠の噴水**） → **光速のソニード**（44） · **50,000 G**
+   アヌ海岸。時間も天候も問わない。ゲームで汎用クエストの単体報酬は最大。
 
-26. 🔴 🔴 **Alcamoth Monster Quests 1-4**, three parts each — **231,000 G**
-   - Imperial Guards and Citizens at the **Imperial Palace** and **Ascension Hall**. Every target is an Eryth Sea monster — Chloro Laia, Stella Eks, Racti Lexos, Somati Kromar and similar.
-   - Generic, so they auto-complete in the field. Take all twelve parts before you go hunting.
-   **Sub-checkpoints:**
-   - [ ] Alcamoth Monster Quest 1 — Part 1 — 5× Cruz Paguls — Pickup 06:00–18:00 · Imperial Palace. Defeat Cruz Paguls at Latael Shore or Hovering Reef 5.
-   - [ ] Alcamoth Monster Quest 1 — Part 2 — 3× Eryth Ansels — Pickup 06:00–18:00 · Imperial Palace. Defeat Eryth Ansels by day around Hovering Reefs 4, 5, 7 or 9.
-   - [ ] Alcamoth Monster Quest 1 — Part 3 — 2× Ciconia Ekidnos — Pickup 06:00–18:00 · Imperial Palace. Defeat Ciconia Ekidnos around Hovering Reefs 7 or 10.
-   - [ ] Alcamoth Monster Quest 2 — Part 1 — 3× Chloro Laias — Pickup 18:00–06:00 · Imperial Palace. Defeat Chloro Laias at night around Hovering Reefs 2, 4, 5 or 9.
-   - [ ] Alcamoth Monster Quest 2 — Part 2 — 5× Stella Eks — Pickup 18:00–06:00 · Imperial Palace. Defeat Stella Eks around Anu Shore, Khatorl Seal Island or the outer reefs.
-   - [ ] Alcamoth Monster Quest 2 — Part 3 — 1× Racti Lexos — Pickup 18:00–06:00 · Imperial Palace. Defeat Racti Lexos around Soltnar Seal Island or Hovering Reefs 5 and 9.
-   - [ ] Alcamoth Monster Quest 3 — Part 1 — 5× Unine Hodes — Pickup 06:00–18:00 · Melfica Road. Defeat Unine Hodes around Showdown Cliff or Hovering Reefs 2 and 3.
-   - [ ] Alcamoth Monster Quest 3 — Part 2 — 2× Tocos Orluga — Pickup 06:00–18:00 · Melfica Road. Defeat Tocos Orluga around Hode Refuge or Khatorl Seal Island.
-   - [ ] Alcamoth Monster Quest 3 — Part 3 — 1× Pelargos Ekidno — Pickup 06:00–18:00 · Melfica Road. Defeat Pelargos Ekidno around Hode Refuge or Khatorl Seal Island.
-   - [ ] Alcamoth Monster Quest 4 — Part 1 — 3× Somati Kromars — Pickup 18:00–06:00 · Ascension Hall. Defeat Somati Kromars at Soltnar Seal Island.
-   - [ ] Alcamoth Monster Quest 4 — Part 2 — 4× Tussock Kromars — Pickup 18:00–06:00 · Ascension Hall. Defeat Tussock Kromars at Soltnar Seal Island.
-   - [ ] Alcamoth Monster Quest 4 — Part 3 — 5× Otol Kromars — Pickup 18:00–06:00 · Ascension Hall. Defeat Otol Kromars at Soltnar Seal Island.
+26. 🔴 🔴 **皇都アカモート討伐クエスト 1-4**、各3パート — **231,000 G**
+   - 親衛隊と市民が**皇宮**と**聖天翔の間**にいる。対象はすべてエルト海のモンスター — クローロ・ライア、ステルラ・エクス、ラクティー・レクソス、ソマティ・スピカルなど。
+   - 汎用なので、フィールドで自動完了する。狩りに出る前に、12パート全部受ける。
+   **サブチェック:**
+   - [ ] Alcamoth Monster Quest 1 — Part 1 — 5× Cruz Paguls — Pickup 06:00–18:00 · 皇宮。ラタエル海岸か第5浮遊岩礁で Cruz Paguls を倒す。
+   - [ ] Alcamoth Monster Quest 1 — Part 2 — 3× Eryth Ansels — Pickup 06:00–18:00 · 皇宮。昼に Hovering Reefs 4、5、7、9 のいずれかの周辺で Eryth Ansels を倒す。
+   - [ ] Alcamoth Monster Quest 1 — Part 3 — 2× Ciconia Ekidnos — Pickup 06:00–18:00 · 皇宮。Hovering Reefs 7 か 10 の周辺で Ciconia Ekidnos を倒す。
+   - [ ] Alcamoth Monster Quest 2 — Part 1 — 3× Chloro Laias — Pickup 18:00–06:00 · 皇宮。夜に Hovering Reefs 2、4、5、9 のいずれかの周辺で Chloro Laias を倒す。
+   - [ ] Alcamoth Monster Quest 2 — Part 2 — 5× ステルラ・エクス — Pickup 18:00–06:00 · 皇宮。ステルラ・エクスをアヌ海岸、カトール封印島、または外側の礁の周辺で倒す。
+   - [ ] Alcamoth Monster Quest 2 — Part 3 — 1× ラクティー・レクソス — Pickup 18:00–06:00 · 皇宮。ラクティー・レクソスをソルタナ封印島、または Hovering Reefs 5 と 9 の周辺で倒す。
+   - [ ] Alcamoth Monster Quest 3 — Part 1 — 5× Unine Hodes — Pickup 06:00–18:00 · メルフィカ通り。敵対者の岸壁、または Hovering Reefs 2 と 3 の周辺で Unine Hodes を倒す。
+   - [ ] Alcamoth Monster Quest 3 — Part 2 — 2× トコス・オルガ — Pickup 06:00–18:00 · メルフィカ通り。トコス・オルガをフーディの隠れ家かカトール封印島の周辺で倒す。
+   - [ ] Alcamoth Monster Quest 3 — Part 3 — 1× ペラルゴス・エキドナ — Pickup 06:00–18:00 · メルフィカ通り。ペラルゴス・エキドナをフーディの隠れ家かカトール封印島の周辺で倒す。
+   - [ ] Alcamoth Monster Quest 4 — Part 1 — 3× Somati Kromars — Pickup 18:00–06:00 · 聖天翔の間。ソルタナ封印島で Somati Kromars を倒す。
+   - [ ] Alcamoth Monster Quest 4 — Part 2 — 4× Tussock Kromars — Pickup 18:00–06:00 · 聖天翔の間。ソルタナ封印島で Tussock Kromars を倒す。
+   - [ ] Alcamoth Monster Quest 4 — Part 3 — 5× Otol Kromars — Pickup 18:00–06:00 · 聖天翔の間。ソルタナ封印島で Otol Kromars を倒す。
 
-27. 🔴 🔴 **Alcamoth Material / Collection / Search Quests 1-4 each** — **215,000 G**
-   - **Material** (~92,500 G): Glossy Grady Fan from Lunar Gradys, Orluga Grass Skirt from Orlugas in Makna, and similar.
-   - **Collection** (~80,500 G): Gold Burdock, White Tail and other Eryth Sea collectables.
-   - **Search** (~42,000 G): lost items **inside Alcamoth itself** — Mother's Necklace on the second level, Silver Ring, and so on.
-   - All generic and auto-completing. Take the entire board in one pass.
-   **Sub-checkpoints:**
-   - [ ] Alcamoth Material Quest 1 — 2× Glossy Grady Fans — Pickup 06:00–18:00 · Main Entrance. Collect Glossy Grady Fans from Lunar Gradys at Eryth Sea.
-   - [ ] Alcamoth Material Quest 2 — 5× Orluga Grass Skirts — Pickup 06:00–18:00 · Imperial Palace. Collect Orluga Grass Skirts from Orlugas in Makna Forest.
-   - [ ] Alcamoth Material Quest 3 — 3× Orluga Slacks — Pickup 06:00–18:00 · Main Entrance. Collect Orluga Slacks from Orlugas at Eryth Sea.
-   - [ ] Alcamoth Material Quest 4 — 2× Lexos Beards — Pickup 06:00–18:00 · Imperial Palace. Collect Lexos Beards from Racti Lexos at Eryth Sea.
-   - [ ] Alcamoth Collection Quest 1 — 3× Gold Burdock — Pickup 06:00–18:00 · Melfica Road. Collect Gold Burdock from Eryth Sea collection points.
-   - [ ] Alcamoth Collection Quest 2 — 2× White Tails — Pickup 06:00–18:00 · Main Entrance. Collect White Tails from Eryth Sea collection points.
-   - [ ] Alcamoth Collection Quest 3 — 5× Stardrops — Pickup 06:00–18:00 · Fountain of Hope. Collect Stardrops from Alcamoth collection points.
-   - [ ] Alcamoth Collection Quest 4 — 2× Spiral Lamps — Pickup 18:00–06:00 · Melfica Road. Collect Spiral Lamps from High Entia Tomb collection points.
-   - [ ] Alcamoth Search Quest 1 — Mother's Necklace — Pickup 18:00–06:00 · Fountain of Hope. Find the Mother's Necklace on Alcamoth's second level.
-   - [ ] Alcamoth Search Quest 2 — Silver Ring — Pickup 18:00–06:00 · Fountain of Hope. Find the Silver Ring in Alcamoth.
-   - [ ] Alcamoth Search Quest 3 — Merchant's Gift — Pickup 06:00–18:00 · Fountain of Eternity. Find the Merchant's Gift on Alcamoth's lower level.
-   - [ ] Alcamoth Search Quest 4 — Health Amulet — Pickup 18:00–06:00 · Fountain of Hope. Find the Health Amulet on Alcamoth's lower level.
+27. 🔴 🔴 **皇都アカモートの素材／収集／おさがしクエスト、それぞれ 1-4** — **215,000 G**
+   - **素材**（~92,500 G）：Lunar Gradys からのグラディの光沢扇、Makna の Orlugas からのオルガのコシミノ、など。
+   - **収集**（~80,500 G）：ゴールドゴボウ、ホワイトテール、その他のエルト海採集品。
+   - **おさがし**（~42,000 G）：落とし物は**皇都アカモートの内部** — 2階の母の形見のネックレス、シルバーリング、など。
+   - 全部が汎用で、自動完了する。一覧を1回で全部受ける。
+   **サブチェック:**
+   - [ ] Alcamoth Material Quest 1 — 2× 光沢のあるグラディの扇 — Pickup 06:00–18:00 · Main Entrance。光沢のあるグラディの扇をエルト海の Lunar Gradys から集める。
+   - [ ] Alcamoth Material Quest 2 — 5× オルガの草スカート — Pickup 06:00–18:00 · 皇宮。オルガの草スカートをマクナ原生林の Orlugas から集める。
+   - [ ] Alcamoth Material Quest 3 — 3× オルガ族の悪魔パンツ — Pickup 06:00–18:00 · Main Entrance。オルガ族の悪魔パンツをエルト海の Orlugas から集める。
+   - [ ] Alcamoth Material Quest 4 — 2× レクソスの髭 — Pickup 06:00–18:00 · 皇宮。レクソスの髭をラクティー・レクソスから集める。場所はエルト海。
+   - [ ] Alcamoth Collection Quest 1 — 3× ゴールドゴボウ — Pickup 06:00–18:00 · メルフィカ通り。ゴールドゴボウをエルト海の採取ポイントから集める。
+   - [ ] Alcamoth Collection Quest 2 — 2× 白いの尾 — Pickup 06:00–18:00 · Main Entrance。白いの尾をエルト海の採取ポイントから集める。
+   - [ ] Alcamoth Collection Quest 3 — 5× Stardrops — Pickup 06:00–18:00 · 希望の噴水。皇都アカモートの採取ポイントから Stardrops を集める。
+   - [ ] Alcamoth Collection Quest 4 — 2× Spiral Lamps — Pickup 18:00–06:00 · メルフィカ通り。ハイエンター墓所の採取ポイントから Spiral Lamps を集める。
+   - [ ] Alcamoth Search Quest 1 — 母の形見のネックレス — Pickup 18:00–06:00 · 希望の噴水。母の形見のネックレスを皇都アカモートの2階で見つける。
+   - [ ] Alcamoth Search Quest 2 — シルバーリング — Pickup 18:00–06:00 · 希望の噴水。シルバーリングを皇都アカモートで見つける。
+   - [ ] Alcamoth Search Quest 3 — 行商人との記念品 — Pickup 06:00–18:00 · 永遠の噴水。行商人との記念品を皇都アカモートの下層で見つける。
+   - [ ] Alcamoth Search Quest 4 — 健康祈願のお守り — Pickup 18:00–06:00 · 希望の噴水。健康祈願のお守りを皇都アカモートの下層で見つける。
 
-28. 🟡 🟡 **Repair the Alcamoth warps**
-   Three of the six Alcamoth Heart-to-Hearts need repaired warps to reach. The Heart-to-Hearts themselves survive Mechonis Core, but the **repair quests die with the NPCs**. Do the repairs now or those three become a long walk you cannot make.
+28. 🟡 🟡 **皇都アカモートのワープを修理する**
+   皇都アカモートのキズナトーク6つのうち3つは、修理したワープがないと届かない。キズナトーク自体は機神界中枢を越えて残るが、**修理クエストはNPCと一緒に消える**。いま修理しないと、その3つは歩けない長道になる。
 
-29. 🔴 🔴 ⛏️ **Ocean Elixir of Life** ×1 — Commerce 5. Trade **Atael** in Alcamoth
-   Backup exists (Kyel Lexos at Freight Road in Colony 6) but it is rain-gated and post-Mechonis Core. Take the trade while Atael is standing here.
+29. 🔴 🔴 ⛏️ **海王の長寿蒲焼** ×1 — 商業5。**アテル**と皇都アカモートで交換する
+   代替はある（ヒュエル・レクソスが貨物運搬路にいる、場所はコロニー6）が、雨が条件で、機神界中枢よりあとだ。アテルがここにいるあいだに交換する。
 
-30. ⚪ Alcamoth residents for Colony 6: **Talonyth**, **Ma'crish**, **Jer'ell**, **Yura**
-   All four are **also findable outside Alcamoth** (Bionis' Leg, Satorl Marsh, Valak Mountain), so they are **not** on the Chapter 15 deadline. Relax about these.
+30. ⚪ 皇都アカモートの、コロニー6用の住人：**タテドナス**、**ミュキシリア**、**ジェリコン**、**ユーリィ**
+   4人とも**皇都アカモートの外でも見つかる**（巨神脚、燐光の地ザトール、ヴァラク雪山）。だから15章の期限には**載らない**。これらは安心してよい。
 
-> **ℹ️ Note — ERYTH SEA — safe, not timed, but two skill trees run through it**
+> **ℹ️ メモ — ERYTH SEA — safe, not timed, but two skill trees run through it**
 >
-> None of this expires. But the Ether Plant chain is **Melia's Reticence tree**, and Rasha's Ch7 quest chains into **Sharla's Reliance tree** here.
+> ここはどれも期限切れにならない。ただしエーテルプラントの連鎖は**メリアの Reticence ツリー**で、ラシャの7章クエストはここから**カルナの Reliance ツリー**へ続く。
 
-31. 📜 **Trouble at the Plant** — Jarack, Ether Plant (umbrella quest, 2 sub-quests)
-   - **Sub-quest — Punish the Hodes:** kill **Funeral Gozra** (Lv42 Unique Monster, **Hode Refuge**, any time or weather). Affinity Coin.
-   - **Sub-quest — Mend the Plant:** **3x Luxury Hode Wood** from Hodes at Eryth Sea → talk Jarack → interact with the **Turbine Access Panel** in the Ether Plant → talk Jarack.
-   - **Pays:** 7,700 G · 4,700 EXP · +200 Rep · Shell Gauntlets · Good Footing II.
+31. 📜 **孤立無援のプラント** — ジャック、エーテルプラント（包括クエスト、サブクエスト2つ）
+   - **サブクエスト — フーディを成敗せよ：** **葬送のゴズラ**を倒す（Lv42 のユニークモンスター、**フーディの隠れ家**、時間も天候も問わない）。キズナコイン。
+   - **サブクエスト — プラントを修理せよ：** **フーディ族の高級木材を3個**、エルト海の Hodes から → ジャックに話す → **Turbine Access Panel**をエーテルプラントで操作する → ジャックに話す。
+   - **報酬：** 7,700 G · 4,700 EXP · 友好度 +200 · シェルガード · 吹き飛び抵抗 II。
 
-32. 📜 **Hode Attack** — Jarack · auto-received, cannot decline
-   - **Do:** kill **2x Confusion Ekidno** (quest-exclusive spawns) at Eryth Sea.
-   - **Pays:** 5,400 G · 3,000 EXP · +100 Rep · Buff Time Plus II, Divine Protect II.
+32. 📜 **フーディを撃退せよ** — ジャック · 自動受注、拒否不可
+   - **手順：** **雑然のエキドナを2体**、エルト海で倒す（クエスト限定の出現）。
+   - **報酬：** 5,400 G · 3,000 EXP · 友好度 +100 · バフ時間プラス II、即死抵抗 II。
 
-33. 📜 **Trouble at the Lighthouse** — Shalen, **Syrath Lighthouse** · **⚠️ MELIA MUST LEAD** · **Melia's Reticence tree**
-   - **Leader gate:** put Melia in front before speaking to Shalen or the quest will not be offered.
-   - **Do:** kill **3x Decay Ekidno** near the Syrath Lighthouse. **They only spawn at night.**
-   - **Pays:** 5,700 G · 3,800 EXP · **+500 Rep** · **Nightglow Staff** (2 slots) · **Melia Skill Tree — Reticence**.
-   - Note the giver is at the **Syrath Lighthouse**, not Hovering Reef 4 as some guides say.
+33. 📜 **焦心苦慮の灯台** — シェレン、**シウェラート灯台** · **⚠️ メリア がリーダー必須** · **メリアの Reticence ツリー**
+   - **リーダー条件：** メリアを先頭に置いてからシェレンに話しかける。そうしないとクエストは出ない。
+   - **手順：** **崩壊のエキドナを3体**、シウェラート灯台の近くで倒す。**出現は夜だけだ。**
+   - **報酬：** 5,700 G · 3,800 EXP · **友好度 +500** · **夜光の杖**（スロット2つ） · **メリアスキルツリー — Reticence**。
+   - 依頼人は**シウェラート灯台**にいる。一部の攻略が書く第4浮遊岩礁ではない。
 
-34. 👾 **Challenge** (Lighthouse Keeper, Syrath Lighthouse) → **Flabbergasted Jerome** (38) · **32,000 G**
-   Hovering Reef 5, lower level. Any time; clear or shooting stars — **not during a thunderstorm**.
+34. 👾 **強敵を求めて** (ハイエンター灯台守, シウェラート灯台) → **霹靂のジローネ** (38) · **32,000 G**
+   第5浮遊岩礁、下層。時間はいつでも。晴れか流星 — **雷雨のあいだは不可**。
 
-35. 📜 **Eryth Sea Monster / Collect quests** — Lighthouse Keeper and Citizen, Syrath Lighthouse
-   - **Monster 1:** 5x Palti Kromar — 13,000 G. **Monster 2:** 5x Maleza Kromar — 15,000 G. Both drop Colony 6 Kromar materials, so this doubles up.
-   - **Collect 1:** 3x Hiln Coin Purse + 5x Doomsday Poppy — 12,000 G.
-   - **Collect 2:** 3x Andos Antenna (**High Entia Tomb**) + 3x Old Dragon Spine (Racti Lexos) + 3x Pink Asparagus — 20,000 G. Fold the Antennae into your Tomb sweep.
-   **Sub-checkpoints:**
-   - [ ] Monster Quest 1 — 5× Palti Kromar
-   - [ ] Monster Quest 2 — 5× Maleza Kromar
-   - [ ] Collect Quest 1 — 3× Hiln Coin Purse + 5× Doomsday Poppy
-   - [ ] Collect Quest 2 — 3× Andos Antenna + 3× Old Dragon Spine + 3× Pink Asparagus
+35. 📜 **エルト海の討伐／収集クエスト** — ハイエンター灯台守と市民、シウェラート灯台
+   - **討伐1：** パルティ・スピカルを5体 — 13,000 G。**討伐2：** マレッサ・スピカルを5体 — 15,000 G。どちらもコロニー6のスピカル素材を落とすので、まとめて稼げる。
+   - **収集1：** ヒルンの小銭袋を3個 + ストピィーを5個 — 12,000 G。
+   - **収集2：** アンドスの長アンテナを3個（**ハイエンター墓所**） + 古びた龍ヒレを3個（ラクティー・レクソス） + アスパラボムを3個 — 20,000 G。アンテナは Tomb の掃討にまとめる。
+   **サブチェック:**
+   - [ ] Monster Quest 1 — 5× パルティ・スピカル
+   - [ ] Monster Quest 2 — 5× マレッサ・スピカル
+   - [ ] Collect Quest 1 — 3× ヒルンの小銭袋 + 5× ストピィー
+   - [ ] Collect Quest 2 — 3× アンドスの長アンテナ + 3× 古びた龍ヒレ + 3× アスパラボム
 
-36. 📜 **Avenge a Mamapon's Death** — Rasha, Frontier Village · **⚠️ SHARLA MUST LEAD** · **Sharla's Reliance skill tree**
-   - **Requires:** `Disinsectization`, `Secret Innovation`, 4★ Central Bionis and Sharla leading.
-   - **Do:** defeat **Pillager Hode** at the Ether Crystal Deposit, Eryth Sea → return to Rasha → give the Cloth Shred to Cherri → return to Rasha.
-   - **Pays:** 5,200 G · 3,600 EXP · Shell Leggings · **Sharla Skill Tree — Reliance**.
+36. 📜 **母の死を越えて** — ラシャ、サイハテ村 · **⚠️ カルナ がリーダー必須** · **カルナの Reliance スキルツリー**
+   - **必要条件：** `害虫駆除`、`ヒミツの技術革新`、4★ Central Bionis、カルナがリーダー。
+   - **手順：** **強奪のフーディ**を倒す。場所はエーテル結晶採掘場、エルト海 → ラシャに戻る → 布のきれはしをチリに渡す → ラシャに戻る。
+   - **報酬：** 5,200 G · 3,600 EXP · シェルレギンス · **カルナスキルツリー — Reliance**。
 
-37. 📜 **Honouring the Nopon Sage** → **Legend of the Sage** → **Challenge of the Sage**
-   - Follows from `Strange Noises from Below` (Ch7). Giver: **Nopon Sage, Divine Sanctuary** in Makna.
-   - **Legend of the Sage:** talk Pipiki → Sage → Pachipa → Sage. 4,500 G · 1,500 EXP.
-   - The chain finishes in Ch17 with **Final Challenge of the Sage** — **Riki's Heroism skill tree**, 38,000 G, 73,500 EXP, Meteor Nibbler.
+37. 📜 **センニンのお供え** → **センニンの伝説** → **センニンの試練**
+   - `地下からの不気味な声`（7章）の続き。依頼人は Makna の**ノポン・センニン、神呼びの聖域**。
+   - **センニンの伝説：** ピケに話す → Sage → パチカ → Sage。4,500 G · 1,500 EXP。
+   - 連鎖は17章の**センニンの最終試練**で終わる — **リキの Heroism スキルツリー**、38,000 G、73,500 EXP、流星群のバクバク。
 
-38. 🔴 🔴 **Paola and Narine** — Narine, Tranquil Square, Colony 9 · **Shulk must lead** · **20,000 EXP**
-   - **Why now:** it needs **two female party members**, impossible until Melia joined in Ch7, plus White-tier Shulk↔Reyn affinity and White-tier affinity between the two women.
-   - **Do:** raise Shulk↔Reyn to Blue → talk Narine → raise it higher → talk **Paola** → raise affinity between two female party members → talk Paola again → return to Narine.
-   - **Pays:** 200 G · **20,000 EXP** · Daze Plus IV · Narine and Paola become Best Friends.
+38. 🔴 🔴 **パオラとネリネ** — ネリネ、居住区 憩いの広場、コロニー9 · **シュルクがリーダー必須** · **20,000 EXP**
+   - **今やる理由：** **女性のパーティメンバーが2人**必要で、メリアが7章に加入するまで不可能だ。加えて白い段階のシュルク↔ラインキズナと、女性2人のあいだの白い段階のキズナ。
+   - **手順：** シュルク↔ラインを青まで上げる → ネリネに話す → さらに上げる → **パオラ**に話す → 女性のパーティメンバー2人のキズナを上げる → パオラにもう一度話す → ネリネに戻る。
+   - **報酬：** 200 G · **20,000 EXP** · 気絶時間プラス IV · ネリネとパオラが Best Friends になる。
 
-39. 🏁 🏁 **Makna Grand Prix pair** — Jungle Rumble and Midnight Forest. **Torso** slot
-   Unlocks on reaching Eryth Sea. Access from the main menu with Y.
+39. 🏁 🏁 **Makna Grand Prix のペア** — Jungle Rumble と Midnight Forest。**胴**スロット
+   エルト海到達で解禁。メインメニューから Y で開く。
 
-40. 👾 Free-roaming Eryth Sea UMs: **Turbulent Belmo** (36, **clear days**), **Subterranean Zomar** (40), **Cumulus Danaemos** (41), and **Calm Anzabi** (38, High Entia Tomb Second Treasury)
-   No quests needed for these four. The Lv87-93 Eryth Sea block is post-game.
-   **Sub-checkpoints:**
+40. 👾 通常徘徊のエルト海ユニークモンスター：**大渦のベルモ**（36、**晴れの日**）、**地底のツモギリ**（40）、**積雲のダネイモス**（41）、そして**安寧のアンザビ**（38、ハイエンター墓所の第2宝物庫）
+   この4体にクエストは不要。Lv87-93 のエルト海帯はクリア後。
+   **サブチェック:**
    - [ ] Defeat Turbulent Belmo
    - [ ] Defeat Subterranean Zomar
    - [ ] Defeat Cumulus Danaemos
    - [ ] Defeat Calm Anzabi
 
-41. 💜 💜 **Reyn & Riki** — Sleeping Dragon Isle, day, Green
+41. 💜 💜 **ライン & リキ** — 眠れる竜の島、昼、緑
 
-42. 💜 💜 **Dunban & Sharla** — Ether Plant, day, Green
+42. 💜 💜 **ダンバン & カルナ** — エーテルプラント、昼、緑
 
-43. 💜 💜 **Sharla & Riki** — Hovering Reef 2, day, Green
+43. 💜 💜 **カルナ & リキ** — 第2浮遊岩礁、昼、緑
 
-44. 💜 💜 **Reyn & Melia** — Valley of Emperors south, High Entia Tomb, day, Green
+44. 💜 💜 **ライン & メリア** — 王家の谷の南、ハイエンター墓所、昼、緑
 
-45. 💜 💜 **Shulk & Reyn** — Bone Corridor, Tephra Cave, day, Purple
+45. 💜 💜 **シュルク & ライン** — 骨の回廊、テフラ洞窟、昼、紫
 
-46. 💜 💜 **Shulk & Dunban** — Believer's Paradise, Bionis' Leg, day, Purple
+46. 💜 💜 **シュルク & ダンバン** — 崇拝者の楽園、巨神脚、昼、紫
 
-47. 💜 💜 **Shulk & Sharla** — Mining Base, Ether Mine, day, Purple
+47. 💜 💜 **シュルク & カルナ** — 採掘基地、中央採掘場、昼、紫
    The last three are a detour back through old areas. The Ether Jet makes it quick — run them as one loop.
 
-48. ⛏️ ⛏️ **Sturdy Armour** ×4 — Housing 3. Flavel Andos, or trade Galdo in Alcamoth
+48. ⛏️ ⛏️ **頑丈な装甲** ×4 — 住宅3。フラーベル・アンドス、またはガーダと皇都アカモートで交換する
 
-49. ⛏️ ⛏️ **Oil Branch** ×2, **Despair Clover** ×2, **Sea Berry** ×3 — Eryth Sea collection points
+49. ⛏️ ⛏️ **オイルブランチ** ×2、**アンカオイ** ×2、**スィーベリー** ×3 — エルト海の採集ポイント
 
-50. ⛏️ ⛏️ **Shiny Kromar Hide** ×3 and **Slick Kromar Stone** ×2 — Commerce 3. Kill the Kromar variants
+50. ⛏️ ⛏️ **スピカル族の鍛え皮** ×3 と **スピカル族の鍛え石** ×2 — 商業3。スピカルの亜種を倒す
 
-51. ⛏️ ⛏️ **Jagged Tail** ×3 — Nature 3. Kill Eryth Hiln (same as A Friend in Need)
+51. ⛏️ ⛏️ **ギザギザ尻尾** ×3 — 自然3。エルト・ヒルンを倒す（親友のためにと同じ）
 
-52. ⛏️ ⛏️ **Squall Element** ×2 — Special 3. Kill Bono Nebula (same as Protect the Capital!)
+52. ⛏️ ⛏️ **突風の元素** ×2 — 特殊3。ボーノ・ネブラを倒す（皇都の安全を守れ！と同じ）
 
-53. ⛏️ ⛏️ **Blue Ladybird** ×2 — Commerce 3. High Entia Tomb collection — get it during the Tomb sweep
+53. ⛏️ ⛏️ **ミズテントウ** ×2 — 商業3。ハイエンター墓所の採集 — Tomb の掃討中に取る
 
-54. ⚪ Fill the **Eryth Sea**, **Alcamoth** and **High Entia Tomb** Collectopaedia pages
-   **Sub-checkpoints:**
+54. ⚪ **エルト海**、**皇都アカモート**、**ハイエンター墓所**のコレペディアページを埋める
+   **サブチェック:**
    - [ ] Complete Eryth Sea Collectopaedia
    - [ ] Complete Alcamoth Collectopaedia
    - [ ] Complete High Entia Tomb Collectopaedia
 
-55. ➡️ **MAIN STORY · Path to Prison Island** — open the two sister gates
-   - **Safe-to-advance gate:** finish every red Alcamoth card above before proceeding.
-   - **Do:** travel through Eryth Sea and open the **Khatorl** and **Soltnar** sister gates.
-   - **Then:** unlock the seal that appears and continue toward Prison Island.
+55. ➡️ **本編 · 監獄島への道** — 姉妹門を2つ開ける
+   - **進行可の関門:** 上にある赤い皇都アカモートカードをすべて終えてから進む。
+   - **手順:** エルト海を進み、**Khatorl**と**Soltnar**の姉妹門を開ける。
+   - **その後:** 現れた封印を解き、監獄島へ進む。
 
-56. ➡️ **MAIN STORY · Sister Seals** — Khatorl and Soltnar Seal Islands
-   - **Khatorl:** release the seal on **Khatorl Seal Island**.
-   - **Soltnar:** release the seal on **Soltnar Seal Island**.
-   - **Restart point:** after both seals are released, the route continues in Chapter 9 at Prison Island.
+56. ➡️ **本編 · 封印の姉妹門** — Khatorl と Soltnar の封印島
+   - **Khatorl:** **カトール封印島**の封印を解く。
+   - **Soltnar:** **ソルタナ封印島**の封印を解く。
+   - **再開地点:** 両方の封印を解いたあと、ルートは9章の監獄島から続く。
 
 ---
 
-## Chapter 9 — Prison Island (first visit)
+## Chapter 9 — 監獄島（初回）
 
-**Level 52-56** · 3 tracked items
+**レベル 52-56** · 追跡 3件
 
-> A short, almost entirely linear story chapter. There is no side content on the island itself — its **8 Unique Monsters only exist on the second visit in Chapter 17**. Treat this as a breather and a checkpoint.
+> 短く、ほぼ完全に一本道のストーリー章だ。島そのものにサイドコンテンツはない — **ユニークモンスター8体は、17章の2回目の訪問にしかいない**。息抜きとチェックポイントとして扱う。
 
-> **📊 Set your level — Set level to 55**
+> **📊 レベルを合わせる — Set level to 55**
 >
-> The chapter is a corridor with scripted fights. 55 clears it comfortably. Bank everything else.
+> この章は、スクリプト戦闘のある通路だ。55なら余裕で抜けられる。それ以外は温存する。
 >
-> **Sanity check on your bank:** by now, doing every side quest, you should be carrying a substantial surplus. If your bank is thin you have been spending it — stop, because the post-game gap from Lv90 to Avalanche Abaasy at Lv120 is exactly what it is for.
+> **温存分の確認：** サイドクエストを全部やっていれば、いまはかなりの余剰を持っているはずだ。温存が薄いなら、使ってしまっている — やめろ。Lv90 から Lv120 の雪檻のアバーシまでのクリア後の差は、まさにそのためのものだ。
 
-> **⚔️ Party & build — Checkpoint — where your build should be by now**
+> **⚔️ パーティとビルド — Checkpoint — where your build should be by now**
 >
-> Before the back half of the game, confirm all of this:
+> ゲームの後半に入る前に、これを全部確認する。
 >
-> **Party:** Shulk (you) / Dunban / Riki. If you are still running Sharla, swap her out — Dunban's evasion means you barely take damage, which makes a dedicated healer dead weight.
-> **Dunban:** agility and evasion branches prioritised, every Agility Up gem you own on him. He should already be dodging most physical attacks.
-> **Monado Speed on Dunban** should be reflex by now. Evasion tank plus evasion buff is the strongest interaction in the game.
-> **Skill Links:** you should have Affinity Coins from every Unique Monster killed so far. Spend them — **High Speed** from Melia (+15 Agility, 20 coins) onto Dunban first. Coins are refundable, so experiment freely.
-> **Gems:** start deliberately crafting Agility Up. Remember the crafting pair's **affinity** sets how many furnace cycles you get, so craft with two characters who like each other.
+> **パーティ：** シュルク（自分） / ダンバン / リキ。まだカルナを使っているなら外す — ダンバンの回避でほとんどダメージを受けず、専任の回復役は足手まといだ。
+> **ダンバン：** 素早さと回避の分岐を優先し、持っている素早さアップのジェムをすべて彼に載せる。物理攻撃のほとんどは、すでに回避できているはずだ。
+> **モナドのスピードをダンバンにかけること**は、もう反射になっているはずだ。回避タンクに回避バフは、ゲーム最強の組み合わせだ。
+> **スキルリンク：** ここまで倒したユニークモンスター全員分のキズナコインがあるはずだ。使うこと — **ハイスピード**をメリアから（素早さ +15、コイン20枚）ダンバンへ先に。コインは返せるので、自由に試してよい。
+> **ジェム：** 素早さアップを意図的にクラフトし始める。クラフトする2人の**キズナ**が、高炉の周回数を決める。だから、仲の良い2人でクラフトする。
 
-> **ℹ️ Note — 🔴 Imperial Staff — the window is open RIGHT NOW**
+> **ℹ️ メモ — 🔴 皇家の錫杖 — 枠はいま開いている**
 >
-> From **Chapter 10** you can obtain **Melia's Imperial Staff**, a unique weapon with an appearance you cannot get any other way. It is lost the moment **Kallian departs with the allied force**.
+> **10章**から**メリアの皇家の錫杖**を入手できる。他の方法では得られない外見の専用武器だ。**カリアンが連合軍と共に去った瞬間**に失われる。
 >
-> **The catch that makes people miss it:** you must **switch your controlled character to Melia** and talk to Kallian yourself. On a Shulk-led run there is no reason you would ever do that, and the game never hints at it.
+> **取り逃す原因：** **操作キャラをメリアに替える**必要があり、自分でカリアンに話しかける。シュルクリーダーの周回では、そうする理由がどこにもなく、ゲームもヒントを出さない。
 >
 > It is listed again as the first item of Chapter 10. Do it the moment that chapter starts.
 
-1. ⚪ Play through Prison Island — no side content exists here yet
-   The island's 8 Unique Monsters (Ageless Moabit, Serene Imlaly, Inferno Heinrich, Cold Ageshu, both Clone Bargs, Masterful Gigapur, Fiendish Auburn) and its 3 Heart-to-Hearts all belong to the **second** visit in Chapter 17. Do not hunt for them.
+1. ⚪ 監獄島を進める — ここには、まだサイドコンテンツがない
+   島のユニークモンスター8体（不老のモアビート、明鏡のイムラリ、炎帝のハインリヒ、白眼のアーケシュ、Clone Bargs の両方、紫電のギガスパル、鬼王のオーバーン）とキズナトーク3つは、すべて17章の**2回目**の訪問のものだ。探さない。
 
-2. 🏁 🏁 **Alcamoth Grand Prix pair unlocks** — Alcamoth Orbital and Alcamoth at Dawn
-   - **Unlocks:** after the Prison Island events. Access from the main menu with **Y**.
-   - **Gives:** the **arms** armour slot, one piece per character on first clear, plus Noponstone by rank.
-   - **Alcamoth Orbital** is a Score Attack run at night, starting at the Main Entrance and finishing at the mural in the Great Hall.
+2. 🏁 🏁 **皇都アカモート Grand Prix のペアが解禁** — 皇都アカモート Orbital と 皇都アカモート at Dawn
+   - **解禁：** 監獄島のイベントのあと。メインメニューから**Y**で開く。
+   - **入手：** **腕**の防具スロット。初回クリアでキャラクターごとに1つ、加えてランクに応じた Noponstone。
+   - **皇都アカモート Orbital**は夜の Score Attack で、Main Entrance から始まり、大広間の壁画で終わる。
 
-3. 🟡 🟡 Clear both Alcamoth courses with **all seven characters before Chapter 15**
-   - **The risk:** Alcamoth dies at Mechonis Core in Ch15. The Grand Prix is accessed from a menu and Alcamoth stays physically walkable from the Eryth Sea Centre Gate afterwards, so these courses **probably** survive — but no source confirms it.
-   - **The call:** 14 of the 70 total clears are here. Doing them now costs about an hour and removes the question entirely. Being wrong costs 14 clears and the permanent Ether Jet bonus that needs all 70.
-   **Sub-checkpoints:**
+3. 🟡 🟡 皇都アカモートの両コースを、**15章より前にキャラクター7人全員でクリアする**
+   - **リスク：** 皇都アカモートは15章の機神界中枢で消える。Grand Prix はメニューから開き、皇都アカモートはその後もエルト海のセンターゲートから物理的に歩ける。だからこれらのコースは**おそらく**残る — ただし、どの資料も確定していない。
+   - **判断：** 全70回のうち14回がここにある。いまやれば約1時間で、疑問そのものが消える。外すと、14回と、70回全部が必要な恒久のエーテル Jet ボーナスを失う。
+   **サブチェック:**
    - [ ] Alcamoth Orbital — Shulk
    - [ ] Alcamoth Orbital — Reyn
    - [ ] Alcamoth Orbital — Fiora
@@ -1736,671 +1735,671 @@ A pair cannot reach high affinity before they have been in the party together a 
 
 ---
 
-## Chapter 10 — Valak Mountain + the Purple sweep
+## Chapter 10 — ヴァラク雪山 + 紫の掃討
 
-**Level 56-62** · 47 tracked items
+**レベル 56-62** · 追跡 47件
 
-> By now everyone except Fiora has enough shared party time for Purple. Items 8-17 are one circuit: Colony 9 → Tephra → Bionis' Leg → Satorl → Makna → Colony 6 → Alcamoth. The Ether Jet makes it fast.
+> いまはフィオルン以外、全員が紫に足りる同行時間を持っている。項目8-17は1周だ。コロニー9 → Tephra → 巨神脚 → Satorl → Makna → コロニー6 → 皇都アカモート。エーテル Jet が速くする。
 
-> **📊 Set your level — Set level to 60**
+> **📊 レベルを合わせる — Set level to 60**
 >
-> Valak runs Lv45-50. 60 is generous, but this chapter has a Lv100 superboss standing in the open and several Lv97-98 monsters, so a buffer stops an accidental encounter ending your session.
+> Valak は Lv45-50。60なら余裕だが、この章には野外に立つ Lv100 のスーパーボスと、Lv97-98 のモンスターが何体かいる。余裕があれば、偶発戦闘でその周回が終わらない。
 >
-> **Do not** engage Final Marcus, Blizzard Belgazas, Avalanche Abaasy, Exposure Wolfol or Wandering Amon. All post-game.
+> **交戦しない**。対象は終世のマークス、豪雪のベルガザス、雪檻のアバーシ、露光のウォレフォル、放浪のアモン。すべてクリア後。
 
-> **⚔️ Party & build — ⚔️ Consider picking Melia up for a while**
+> **⚔️ パーティとビルド — ⚔️ しばらくメリアを入れてみる**
 >
-> This chapter has a lot of ether-weak enemies and you are about to spend real time on Valak. If you want to learn Melia before the post-game — where she is the fastest superboss killer — **this is the chapter to practise**.
+> この章はエーテル弱点の敵が多く、Valak で本格的に時間を使う。クリア後の前にメリアを覚えたいなら — クリア後は彼女が最速のスーパーボスキルラーだ — **練習する章はここだ**。
 >
-> **Planned Melia rotation:** summon an elemental (Summon Bolt, Summon Ice etc.), retain the buffs you need, use **Summon Copy**, then discharge during a burst or Chain Attack window. Her AI does not reliably preserve that exact setup, so control her when using this preset.
+> **予定しているメリアのローテーション：** エレメンタルを召喚し（サモン・ボルト、サモン・アイスなど）、必要なバフを維持し、**サモニングコピー**を使い、バーストかチェインアタックの枠で解放する。AI はこの手順を安定して守らないので、この構成を使うときは自分で操作する。
 >
-> If that sounds like a chore, stay on Shulk. You lose nothing except a faster post-game.
+> 面倒ならシュルクのままでいい。失うのは、クリア後が速くなることだけだ。
 
-1. 🔴 🔴 **Imperial Staff** — control **Melia** and talk to **Kallian**. Do it the moment the chapter starts
-   - **The trap:** you must **switch your controlled character to Melia** yourself. On a Shulk-led run there is no reason you ever would, and the game never hints at it.
-   - **Lost when:** Kallian departs with the allied force.
-   - **Gives:** Melia's unique **Imperial Staff**, with an appearance obtainable no other way.
+1. 🔴 🔴 **皇家の錫杖** — **メリア**を操作して**カリアン**に話す。章が始まった瞬間にやる
+   - **罠：** **操作キャラをメリアに替える**のは自分でやらなければならない。シュルクリーダーの周回では、そうする理由がどこにもなく、ゲームもヒントを出さない。
+   - **失うとき：** カリアンが連合軍と共に去る。
+   - **入手：** メリア専用の**皇家の錫杖**。この外見は、他の方法では得られない。
 
-> **ℹ️ Note — The Magma Rock gates half of Valak Mountain**
+> **ℹ️ メモ — ヴァラクの熱い石がヴァラク雪山の半分の門になる**
 >
-> **The Magma Rock** is a story quest, auto-given at **Harict Chapel**, cannot be declined. Kill **Conflagrant Raxeal** (Lv45) in the **Lava Cave** — 100% spawn, any time or weather, guaranteed Magma Rock drop.
+> **ヴァラクの熱い石**はストーリークエストで、**ハリクト礼拝堂**で自動付与、拒否できない。**炎獄のレクシール**（Lv45）を**溶岩洞穴**で倒す — 出現率100%、時間も天候も問わず、火耀石は確定ドロップ。
 >
-> The rock melts **four ice walls** around the mountain. Downstream it unlocks the **Great Glacier** ice wall, which is where `Bad Timing` hides — and that is the middle of Dunban's skill tree chain. Without the Magma Rock, half this chapter does not exist.
+> 岩は山のまわりの**氷の壁4つ**を溶かす。その先で**大氷河地帯**の氷壁が開き、そこに`バッドタイミング`が隠れている — ダンバンのスキルツリー連鎖の途中だ。火耀石がなければ、この章の半分は存在しない。
 
-2. ➡️ **MAIN STORY · The Magma Rock** — defeat Conflagrant Raxeal (Lv45)
-   - **Start:** automatically received at **Harict Chapel**.
-   - **Fight:** defeat **Conflagrant Raxeal** in the **Lava Cave**; it always drops the Magma Rock.
-   - **Use:** return to the frozen door and melt the ice to open the upper half of Valak Mountain.
+2. ➡️ **本編 · ヴァラクの熱い石** — 炎獄のレクシールを倒す（Lv45）
+   - **開始:** **ハリクト礼拝堂**で自動受注。
+   - **戦闘:** **炎獄のレクシール**を倒す。場所は**溶岩洞穴**。必ず火耀石を落とす。
+   - **使用:** 凍った扉に戻り、氷を溶かしてヴァラク雪山の上半分を開く。
 
-> **ℹ️ Note — Dunban's Obstinance tree — six quests, two different NPCs, three locations**
+> **ℹ️ メモ — ダンバンの Obstinance ツリー — クエスト6つ、NPCは2人、場所は3つ**
 >
-> The reason people miss this is that the chain **moves**. The Nopon Researcher who starts it is at the Nopon Camp, but two later steps are given by the *same NPC standing somewhere else entirely*, and the last two come from **Dakuku** instead.
+> これを取り逃す理由は、連鎖が**移動する**からだ。開始するノポン調査隊はノポンキャンプにいるが、あとの2段階は*まったく別の場所に立っている同一NPC*が出す。最後の2つは代わりに**ダルク**からだ。
 >
-> **No affinity gate on any of them** — it is purely sequential.
+> **どれにもキズナの門はない** — 純粋に順番だけだ。
 
-3. 📜 **Chilkins and Antols** — Nopon Researcher, **Nopon Camp** (1 of 6)
-   - **Do:** kill **5x Poleaxe Chilkin**, then **5x Ent Antol**, then talk to him.
-   - **Pays:** 10,000 G · 3,300 EXP · +100 Rep · Spike Defence IV, Chill Defence IV, Paralysis Resist IV.
+3. 📜 **チルキンかアントルか** — ノポン調査隊、**ノポンキャンプ**（6つのうち1）
+   - **手順：** **ボグーン・チルキンを5体**倒し、次に**エント・アントルを5体**倒し、その後彼に話しかける。
+   - **報酬：** 10,000 G · 3,300 EXP · 友好度 +100 · スパイク防御 IV、冷気防御 IV、パラライズ抵抗 IV。
 
-4. 📜 **Valak Mountain Research** — Nopon Researcher, Nopon Camp (2 of 6) · no combat
-   - **Do:** view the scenery at **Befalgar Pedestal**, then at **Kana Peak**, then return.
-   - **Pays:** 11,500 G · 3,800 EXP · +150 Rep · Chill Defence V.
+4. 📜 **ヴァラク雪山展望調査** — ノポン調査隊、ノポンキャンプ（6つのうち2） · 戦闘なし
+   - **手順：** **ベファルガの台座**の景色を見て、次に**カーナ峰**を見て、戻る。
+   - **報酬：** 11,500 G · 3,800 EXP · 友好度 +150 · 冷気防御 V。
 
-5. 📜 **The Freezing Nopon** — Nopon Researcher at **Hollow Bone** (3 of 6) · different spot
-   - **Do:** **3x Hox Flint** (Porcu Hoxes), **2x Antol Fire Pouch** (Ent Antols), **1x Feris Aged Ale** (a Noto Feris) — all on Valak Mountain.
-   - **Pays:** 12,000 G · 4,500 EXP · +200 Rep · Heavy Leggings.
+5. 📜 **ブルブルノポン** — ノポン調査隊が**巨神の環状骨**にいる（6つのうち3） · 場所が違う
+   - **手順：** **ホッグスの火打ち石を3個**（Porcu Hoxes）、**アントルの火液袋を2個**（Ent Antols）、**フェリスの千年火酒を1個**（ノト・フェリス） — 全部ヴァラク雪山。
+   - **報酬：** 12,000 G · 4,500 EXP · 友好度 +200 · 強化型レギンス。
 
-6. 📜 **Bad Timing** — hidden behind the **Great Glacier ice wall** (4 of 6)
-   - **How to find it:** melt the **Thick Ice Wall** in the **Great Glacier** with the Magma Rock and talk to the Nopon Researcher inside. Cannot be declined.
-   - **Do:** kill **4x Cunning Chilkin** (quest-exclusive).
-   - **Pays:** 13,800 G · 5,000 EXP · +200 Rep · Heavy Gear, Heavy Armour.
-   - This is the step that makes the Magma Rock a hard prerequisite for Dunban's tree.
+6. 📜 **バッドタイミング** — **大氷河地帯の氷壁の向こうに隠れている**（6つのうち4）
+   - **見つけ方：** **厚い氷壁**を**大氷河地帯**で火耀石により溶かし、中のノポン調査隊に話しかける。拒否できない。
+   - **手順：** **悪辣なチルキンを4体**倒す（クエスト限定）。
+   - **報酬：** 13,800 G · 5,000 EXP · 友好度 +200 · 強化型ギア、強化型アーマー。
+   - この段階が、火耀石をダンバンのツリーの必須前提にする。
 
-7. 📜 **Chilkin Changes** — **Dakuku**, Nopon Camp (5 of 6)
-   - **Do:** investigate the **Chilkin Lair at Bagnar Snowfield**, then talk to Dakuku.
-   - **Pays:** 15,000 G · 3,200 EXP · Blaze Defence V, Daze Resist II.
+7. 📜 **チルキン族の変化** — **ダルク**、ノポンキャンプ（6つのうち5）
+   - **手順：** **チルキンのねぐらをバジーナ雪原で**調べ、その後ダルクに話す。
+   - **報酬：** 15,000 G · 3,200 EXP · 炎熱防御 V、気絶抵抗 II。
 
-8. 👾 **The Balance of Power** — Dakuku (6 of 6) · **⚠️ DUNBAN MUST LEAD** · **Dunban's Obstinance tree + 2 Unique Monsters**
-   - **Leader gate:** Dakuku only offers the finale with Dunban leading.
-   - **Do:** kill **Barbaric Sitri** (Lv47, **Antol Den**) and **Banquet Vassago** (Lv48, hatches from the large **Bonterra Pod** in Antol Den — **quest-exclusive**, 173,200 HP, weak to Topple and Daze), then talk to Dakuku.
-   - **Pays:** 21,000 G · 8,500 EXP · +250 Rep · **Snaer Striker**, Stellar Gear, Stellar Gauntlets, **Dunban Skill Tree — Obstinance**.
-   - **Correction:** Barbaric Sitri is **not** quest-exclusive — it is a normal field UM at ~30% spawn, any time or weather. Only Vassago needs the quest.
+8. 👾 **パワーバランス** — ダルク（6つのうち6） · **⚠️ ダンバン がリーダー必須** · **ダンバンの Obstinance ツリー + ユニークモンスター2体**
+   - **リーダー条件：** ダルクは、ダンバンがリーダーのときだけ最終話を出す。
+   - **手順：** **蛮行のシトリー**（Lv47、**アントルの寝床**）と**宴楽のウァサゴ**（Lv48、大型の**ボンテラ・ポッド**からアントルの寝床で孵化する — **クエスト限定**、173,200 HP、弱点は転倒と気絶）を倒し、その後ダルクに話しかける。
+   - **報酬：** 21,000 G · 8,500 EXP · 友好度 +250 · **雪隠れの太刀**、ステラギア、ステラガード、**ダンバンスキルツリー — Obstinance**。
+   - **訂正：** 蛮行のシトリーは**クエスト限定ではない** — 時間も天候も問わない、出現 ~30% の通常フィールドユニークモンスターだ。クエストが必要なのは Vassago だけだ。
 
-9. 👾 Free-roaming Valak UMs: **Glorious Buer** (45), **Moonlight Paimon** (46, Lava Cave), **Vague Barbas** (46)
-   **Sub-checkpoints:**
+9. 👾 通常徘徊の Valak ユニークモンスター：**壮美のブエル**（45）、**月光のパイモン**（46、溶岩洞穴）、**濛々のマルバス**（46）
+   **サブチェック:**
    - [ ] Defeat Glorious Buer
    - [ ] Defeat Moonlight Paimon
    - [ ] Defeat Vague Barbas
 
-10. 👾 Night-only Valak UMs: **Agile Barbatos** (47), **Hidden Gamigin** (49), **North Star Gusion** (50)
-   Gusion is west of Url Crevasse and needs **night AND a blizzard** — the second-fussiest spawn in the game after Proper Bandaz.
-   **Sub-checkpoints:**
+10. 👾 夜のみの Valak ユニークモンスター：**秀麗のバルバトス**（47）、**隠蔽のガミジン**（49）、**七星のグシオン**（50）
+   Gusion はウルの裂け目の西にいて、**夜かつ吹雪**が必要だ — 常道のベンダズに次いで、ゲームで2番目にうるさい出現条件だ。
+   **サブチェック:**
    - [ ] Defeat Agile Barbatos at night
    - [ ] Defeat Hidden Gamigin at night
    - [ ] Defeat North Star Gusion during a night blizzard
 
-11. ⚪ **Final Marcus** (Lv100 superboss) is at Three Sage Summit at night. Note the spot, walk away
-   You will come back for it first in the post-game superboss run, because it is the only one beatable without Night Vision gems.
+11. ⚪ **終世のマークス**（Lv100 のスーパーボス）は夜の三大賢者の頂にいる。場所だけ覚えて、離れる
+   クリア後のスーパーボス周回で、最初にここに戻る。夜間命中アップのジェムなしで倒せる唯一だからだ。
 
-12. 📜 **Valak Monster Quests 1-4** — Nopon Merchant, **Zokhed Pass** · big money
-   - 1. 2x Monta Moramora — 23,000 G · 2. 5x Sparas Pagul — 25,500 G · 3. 3x Bow Chilkin — 28,000 G · 4. 1x Sesna Lexos — 30,000 G
-   - **106,500 G total.** Generic, so they auto-complete. Take all four before hunting. The merchant says there is no rush; sources disagree on whether they are timed, so just do them.
-   **Sub-checkpoints:**
-   - [ ] Valak Monster Quest 1 — 2× Monta Moramoras — Pickup anytime · Nopon Researcher at Zokhed Pass. Defeat Monta Moramoras by day around Zokhed Pass / Nagul Waterfall.
-   - [ ] Valak Monster Quest 2 — 5× Sparas Paguls — Pickup anytime · Nopon Researcher at Zokhed Pass. Defeat Sparas Paguls around Nagul Waterfall.
-   - [ ] Valak Monster Quest 3 — 3× Bow Chilkins — Pickup anytime · Nopon Researcher at Zokhed Pass. Defeat Bow Chilkins around Url Crevasse / Bagnar Snowfield.
-   - [ ] Valak Monster Quest 4 — 1× Sesna Lexos — Pickup anytime · Nopon Researcher at Zokhed Pass. Defeat Sesna Lexos by day around Bagnar Snowfield.
+12. 📜 **Valak 討伐クエスト 1-4** — ノポン商会、**ゾックヘッド峠** · 大金
+   - 1. 2x モンタ・モラモラ — 23,000 G · 2. 5x スパラス・パグール — 25,500 G · 3. 3x ボウ・チルキン — 28,000 G · 4. 1x セスタ・レクソス — 30,000 G
+   - **合計 106,500 G。** 汎用なので自動完了する。狩りに出る前に4つ全部受ける。商人は急がなくていいと言う。期限の有無は資料によって食い違うので、とにかくやっておく。
+   **サブチェック:**
+   - [ ] Valak Monster Quest 1 — 2× Monta Moramoras — Pickup いつでも · ノポン調査隊はゾックヘッド峠にいる。昼にゾックヘッド峠 / ナグル滝の周辺で Monta Moramoras を倒す。
+   - [ ] Valak Monster Quest 2 — 5× Sparas Paguls — Pickup いつでも · ノポン調査隊はゾックヘッド峠にいる。ナグル滝の周辺で Sparas Paguls を倒す。
+   - [ ] Valak Monster Quest 3 — 3× Bow Chilkins — Pickup いつでも · ノポン調査隊はゾックヘッド峠にいる。ウルの裂け目 / バジーナ雪原の周辺で Bow Chilkins を倒す。
+   - [ ] Valak Monster Quest 4 — 1× セスタ・レクソス — Pickup いつでも · ノポン調査隊はゾックヘッド峠にいる。昼にセスタ・レクソスをバジーナ雪原の周辺で倒す。
 
-13. ⛏️ ⛏️ **Ice Cabbage** ×2 — Nature 3. Valak collection, **the grindiest item in the game**
-   Find a landmark with clustered collection points and run the Skip Travel loop. **If it resists you more than twenty minutes, trade Yura on Valak Mountain instead**, or buy it with Noponstone at 13,600. This item is not worth an hour of your life.
+13. ⛏️ ⛏️ **アイスキャベツ** ×2 — 自然3。Valak の採集、**ゲームで最も周回が重いアイテム**
+   採集ポイントが固まっているランドマークを見つけ、Skip Travel の周回を回す。**20分より長く出ないなら、ユーリィをヴァラク雪山で交換する**。または Noponstone で 13,600 で買う。このアイテムに人生の1時間は使わない。
 
-14. ⛏️ ⛏️ **Snow Element** ×2 — Special 3. Kill Reef Nebula
+14. ⛏️ ⛏️ **氷雪の元素** ×2 — 特殊3。リーフ・ネブラを倒す
 
-15. 💜 **Riki & Dunban** — Harict Chapel, day, Green.
+15. 💜 **リキ & ダンバン** — ハリクト礼拝堂、昼、緑。
 
-16. 💜 **Shulk & Riki** — Jakt Geyser, day, Purple.
+16. 💜 **シュルク & リキ** — ジャクト間欠泉、昼、紫。
 
-17. 💜 **Dunban & Melia** — Sororal Statues, Satorl Marsh, day, Purple.
+17. 💜 **ダンバン & メリア** — 岩窟の姉妹像、燐光の地ザトール、昼、紫。
 
-18. 💜 **Reyn & Riki** — NW Twisted Tree Gate, Makna, day, Purple.
+18. 💜 **ライン & リキ** — 北西のネジリ木のゲート、Makna、昼、紫。
 
-19. 💜 **Reyn & Sharla** — Agora Shore, Colony 9, day, Purple.
+19. 💜 **ライン & カルナ** — アゴラの岸、コロニー9、昼、紫。
 
-20. 💜 **Reyn & Melia** — Cylinder Hangar, Colony 9, day, Purple.
+20. 💜 **ライン & メリア** — シリンダー格納庫、コロニー9、昼、紫。
 
-21. 💜 **Sharla & Riki** — Mechon Wreckage Site, Colony 9, day, Purple.
+21. 💜 **カルナ & リキ** — 機神兵残骸跡地、コロニー9、昼、紫。
 
-22. 💜 **Dunban & Riki** — Spring of Grief, Tephra Cave, **night**, Purple.
+22. 💜 **ダンバン & リキ** — 嘆きの泉、テフラ洞窟、**夜**、紫。
 
-23. 💜 **Shulk & Melia** — Audience Chamber, Alcamoth, day, Purple.
+23. 💜 **シュルク & メリア** — 謁見の間、皇都アカモート、昼、紫。
 
-24. 💜 **Sharla & Melia** — Melfica Road 1F far west, Alcamoth, **night**, Purple.
+24. 💜 **カルナ & メリア** — メルフィカ通り 1F の最西、皇都アカモート、**夜**、紫。
 
-25. 💜 **Reyn & Dunban** — Pod Depot, Colony 6, day, Purple.
+25. 💜 **ライン & ダンバン** — ポッド発着場、コロニー6、昼、紫。
 
-26. 💜 **Dunban & Sharla** — Hope Farm north, Colony 6, day, Purple.
+26. 💜 **ダンバン & カルナ** — 希望の農場の北、コロニー6、昼、紫。
 
-27. 🏁 🏁 **Valak Grand Prix pair** — Valak Slalom and Blizzard Rally. **Legs** slot
+27. 🏁 🏁 **Valak Grand Prix のペア** — Valak Slalom と Blizzard Rally。**脚**スロット
 
-> **ℹ️ Note — 🔴 The Frontier Village return trip — four quests and Riki's skill tree**
+> **ℹ️ メモ — 🔴 サイハテ村への戻り — クエスト4つとリキのスキルツリー**
 >
-> These only exist now, gated on *after Kallian sees the party off from Alcamoth*. If you looked for them in Chapter 7 and could not find them, this is why.
+> これらはいま初めて存在する。解禁は*カリアンが皇都アカモートでパーティを見送ったあと*だ。7章で探して見つからなかったなら、これが理由だ。
 >
-> The chain is **four deep**: `Medical Advancements` (or Fillings) → `Healing the Healer` → `Mislabelling Problem` → `Getting Bigger!`, with the affinity gate climbing **2★ → 3★ → 3★ → 3.5★**. That is why Chapter 7 told you to bank Central Bionis affinity.
+> 連鎖は**4段**：`治療装置を開発！`（または Fillings） → `医者の不養生` → `不正表示問題` → `おっきくな〜れ`。キズナの門は**2★ → 3★ → 3★ → 3.5★**と上がる。7章が Central Bionis の友好度を貯めておけと言った理由はこれだ。
 
-> **🔀 Branch choice — Medical Advancements vs Let's Make Fillings! — both timed, mutually exclusive**
+> **🔀 分岐 — 治療装置を開発！対入れ歯を作る！ — どちらも期限付きで、両立しない**
 >
-> **Take Medical Advancements** (from **Medi**, Sacred Altar).
+> **治療装置を開発！を取る**（**メディ**、御神体の祭壇）。
 >
-> **Medical Advancements:** 2x **Ories Horn** from Ories **on Valak Mountain** — convenient, you are already here. Pays **12,000 G / 5,300 EXP** / Topple Up IV.
-> **Let's Make Fillings!:** from **Yusa** (some guides misspell him Yuka). 4x **Vang Milk Tooth** from Vangs in **Satorl Marsh** — a trip backwards. Pays 7,000 G / 2,500 EXP / Daze Up IV.
+> **治療装置を開発！：** **オリエスの金剛大角を2個**、オリエスから**ヴァラク雪山で** — 都合がいい。もうここにいる。報酬は**12,000 G / 5,300 EXP** / 転倒威力アップ IV。
+> **入れ歯を作る！：** **ユシ**から（一部の攻略は Yuka と綴りを誤る）。**ヴァンプの乳歯を4個**、Vangs から**燐光の地ザトール**で — 逆戻りだ。報酬は 7,000 G / 2,500 EXP / 気絶威力アップ IV。
 >
 > Nearly double the gold and EXP, and no detour. Each expires the instant the other completes.
 
-28. 🔴 🔴 **Medical Advancements** — Medi, Sacred Altar · needs **2★ Central Bionis** + `Mushy Mushrooms`
-   - **Do:** **2x Ories Horn** from Ories on Valak Mountain → back to Medi.
-   - **Pays:** 12,000 G · 5,300 EXP · +150 Rep · Topple Up IV.
+28. 🔴 🔴 **治療装置を開発！** — メディ、御神体の祭壇 · **2★ Central Bionis**と`やわらかキノコ`が必要
+   - **手順：** **オリエスの金剛大角を2個**、オリエスからヴァラク雪山で → メディに戻る。
+   - **報酬：** 12,000 G · 5,300 EXP · 友好度 +150 · 転倒威力アップ IV。
 
-29. 📜 **Healing the Healer** — Npa, Sacred Altar · needs **3★**
-   - **Do:** talk Medi → Yusa → sub-quest `Legendary Nopon Charm`: offer flowers at **four altars on Bionis' Leg** — near **Kasharpa Falls**, **Tranquil Grotto**, **Viliera Hill** and **southern Gaur Plain** → Yusa → Npa.
-   - **Pays:** 5,200 G · 900 EXP · +150 Rep · Bleed Plus III.
+29. 📜 **医者の不養生** — ンパ、御神体の祭壇 · **3★**が必要
+   - **手順：** メディに話す → ユシ → サブクエスト`ノポン伝統のおまじない`：**巨神脚の祭壇4か所**に花を供える — **カシュハパの滝**の近く、**静寂の岩屋**、**ビリエラ丘陵**、そして**南のガウル平原** → ユシ → ンパ。
+   - **報酬：** 5,200 G · 900 EXP · 友好度 +150 · 出血強化 III。
 
-30. 📜 **Mislabelling Problem** — Medi · needs **3★**
-   - **Do:** talk to **Puko** → kill **Abominable Hiln** (quest-exclusive) at **Showdown Cliff, Eryth Sea** → collect High Entia Medicine → Puko → Medi.
-   - **Pays:** 6,000 G · 2,850 EXP · +150 Rep · Shell Gauntlets.
+30. 📜 **不正表示問題** — メディ · **3★**が必要
+   - **手順：** **プコ**に話す → **重犯のヒルン**（クエスト限定）を**敵対者の岸壁、エルト海**で倒す → ハイエンターの薬を拾う → プコ → メディ。
+   - **報酬：** 6,000 G · 2,850 EXP · 友好度 +150 · シェルガード。
 
-31. 📜 **Getting Bigger!** — **Dabidabi, Chief's Residence** · needs **3.5★** · **⚠️ RIKI MUST LEAD** · **Riki's Cowardice tree**
-   - **Leader gate:** Dabidabi only offers the quest with Riki leading.
-   - **Do:** talk to **Adidi** → **5x Ekidno Jaw Gristle** from Ekidno at **Eryth Sea** → talk to **Puko** → sub-quest `Who is Bigger?`: give the Enlarging Seaweed to **Adidi** (Route B) to make Dabidabi and Adidi a **Happy Couple**, then talk to Dabidabi twice.
-   - **Take Route B** — it is the only one that creates an Affinity Chart link.
-   - **Pays:** 8,500 G · 4,800 EXP · +150 Rep · Shell Armour · **Riki Skill Tree — Cowardice**.
+31. 📜 **おっきくな〜れ** — **ダビダビ、村長の家** · **3.5★**が必要 · **⚠️ リキ がリーダー必須** · **リキの Cowardice ツリー**
+   - **リーダー条件：** ダビダビは、リキがリーダーのときだけクエストを出す。
+   - **手順：** **アリンダ**に話す → **エキドナの顎肉を5個**、エキドナから**エルト海**で → **プコ**に話す → サブクエスト`どっちを大きく？`：でっかくなる藻を**アリンダ**に渡す（Route B）。ダビダビとアリンダを**Happy Couple**にし、その後ダビダビに2回話しかける。
+   - **Route B を取る** — キズナグラムのリンクを作るのはこれだけだ。
+   - **報酬：** 8,500 G · 4,800 EXP · 友好度 +150 · シェルアーマー · **リキスキルツリー — Cowardice**。
 
-> **ℹ️ Note — The Mystery of Makna Ruins chain also opens now — and it ends in a Monado art**
+> **ℹ️ メモ — Makna Ruins の謎連鎖もいま開く — そして最後はモナドのアーツだ**
 >
-> Four quests from **Lupa at Riki's House**, gated on `Kind Lupa's Grampypon` from Chapter 7 plus the story reaching Makna near Valak.
+> クエスト4つ。依頼は**ルパ、場所はリキの家**。条件は7章の`たまには孫らしく`と、ストーリーが Valak 近くの Makna に届いていること。
 >
-> The payoff is unusually good: part 4 gives the **'Eater' Records — Monado Eater for Shulk** — plus the **Barrier Gnasher**, the **Heart of the Giants** (needed for The Final Giants' Ruins) and an advanced Battle Soul art book.
+> 報酬は異常に良い。パート4で**モナド記録書「喰」 — モナドイーター（シュルク用）** — 加えて**障壁のツクツク**、**巨人の心**（巨人族最後の遺跡に必要）、上級のバトルソウルアーツブックを得る。
 
-32. 📜 **Mystery of Makna Ruins 1** — Lupa. Collect **3x Ancient Document** around Makna
-   3,800 EXP · 5,500 G · Amethyst Gear · Lightning Attack II.
+32. 📜 **マクナ遺跡の謎1** — ルパ。Makna の周辺で**古文書を3個**集める
+   3,800 EXP · 5,500 G · アメシストギア · 雷追撃 II。
 
-33. 📜 **Mystery of Makna Ruins 2** — recite the prayer at **King Agni's Tomb**, investigate the coffin
-   - 5,300 EXP · 6,200 G · Amethyst Gauntlets · Blaze Attack II.
-   - While you are here: **Brutal Gravar** (Lv46) spawns naturally at King Agni's Tomb at ~30%. It is **not** gated by this quest, contrary to most guides — but this is the reason you are standing here.
+33. 📜 **マクナ遺跡の謎2** — **征服王アギニの墳墓**で祈りを唱え、棺を調べる
+   - 5,300 EXP · 6,200 G · アメシストガード · 炎熱追撃 II。
+   - ここにいるあいだに。**残虐のグラーヴァ**（Lv46）は征服王アギニの墳墓に ~30% で自然出現する。このクエストの解禁条件**ではない**。大半の攻略とは逆だ — だが、ここに立っている理由はこれだ。
 
-34. 📜 **Mystery of Makna Ruins 3** — needs **3★**
-   - **Do:** **3x Aqueous Andos Oil** from Flavel Andos (Eryth Sea) + **3x Algora Sap** from **Sap Cave**, Makna.
-   - 7,200 EXP · 8,000 G · Amethyst Boots · Chill Attack II · Lubricant Oil.
+34. 📜 **マクナ遺跡の謎3** — **3★**が必要
+   - **手順：** **アンドスの水性グリスを3個**、フラーベル・アンドスから（エルト海） + **アルグラ樹液を3個**、Makna の**樹液のほら穴**から。
+   - 7,200 EXP · 8,000 G · アメシストブーツ · 冷気追撃 II · 潤滑油。
 
-35. 📜 **Mystery of Makna Ruins 4** — auto-accepted → **Monado Eater**
-   - **Do:** oil the coffin, descend.
-   - **Pays:** 13,000 G · 10,000 EXP · **Barrier Gnasher** · **Heart of the Giants** · and a chest containing the **'Eater' Records (Monado Eater)** and an advanced Battle Soul art book.
+35. 📜 **マクナ遺跡の謎4** — 自動受注 → **モナドイーター**
+   - **手順：** 棺に油を差して、下へ降りる。
+   - **報酬：** 13,000 G · 10,000 EXP · **障壁のツクツク** · **巨人の心** · そして宝箱。中身は**モナド記録書「喰」（モナドイーター）**と、上級のバトルソウルアーツブック。
 
-> **ℹ️ Note — 🔴 The Colony 6 Cook-Off and Berryjammy chains — and a leader gate**
+> **ℹ️ メモ — 🔴 コロニー6の Cook-Off とストロジャムの連鎖 — そしてリーダー条件**
 >
-> Long, interlocking, and one step needs **Dunban leading**. Order:
+> 長く、絡み合い、1段階は**ダンバンがリーダー**である必要がある。順番：
 >
-> `Cook-Off Comeback?` → `Cook-Off Final Blow?!` and `A Delectable Delicacy`
-> `Missing Lodger` → `Looking for Freedom`
-> `Cursed` **or** `Weak Berryjammy` → `Obstinate` (**Dunban leads**) → `Unstoppable` → **Miss Sweetness Showdown** → `The Most Transparent Thing`
+> `料理対決・逆転？` → `料理対決・再逆転？`と`珍味を求めて`
+> `行方不明の同居人` → `自由を求めて`
+> `Cursed` **または** `病弱なストロジャム` → `Obstinate`（**ダンバンがリーダー**） → `Unstoppable` → **コロニー6のお嬢様の対決** → `世界で一番透明なもの`
 
-36. 📜 **Cook-Off Final Blow?!** — Talonyth · needs **2★ Colony 6**
-   - **Do:** **Sky Frying Pan** near **Sky Stage**, Bionis' Leg → Talonyth → **Nature's Stove** near **Eks Watering Hole**, Makna → Talonyth.
-   - **Pays:** 6,000 G · 2,050 EXP · Heavy Boots.
+36. 📜 **料理対決・再逆転？** — タテドナス · **2★のコロニー6**が必要
+   - **手順：** **大空のフライパン**を**天空の舞台**の近く、巨神脚で → タテドナス → **大自然のコンロ**を**エクスの水飲み場**の近く、Makna で → タテドナス。
+   - **報酬：** 6,000 G · 2,050 EXP · 強化型ブーツ。
 
-37. 📜 **A Delectable Delicacy** — Pokapoka · needs **2★**
-   - **Do:** **3x Bunnia Ham** from **Ether Bunnia** in Satorl Marsh.
-   - **Pays:** 6,500 G · 1,900 EXP · Confuse Resist IV.
+37. 📜 **珍味を求めて** — ポカポカ · **2★**が必要
+   - **手順：** **バニアの薫製ハムを3個**、**エーテル・バニア**から燐光の地ザトールで。
+   - **報酬：** 6,500 G · 1,900 EXP · パニック抵抗 IV。
 
-38. 📜 **Looking for Freedom** — Nopo'rikh · needs `Missing Lodger` + **2★**
-   - **Take Route A** (do not tell Ma'crish): **Smelly Perfume** from **Poison Swamp**, Satorl → talk Ma'crish → Nopo'rikh → **Pure Perfume** from **Great Makna Falls** → Nopo'rikh → Ma'crish. Nopo'rikh gets his freedom.
-   - **Pays:** 7,200 G · 2,000 EXP · +200 Rep · Sky Cap, Shell Leggings.
-   - **Unlocks** Nic's Training.
+38. 📜 **自由を求めて** — ノポリック · `行方不明の同居人`と**2★**が必要
+   - **Route A を取る**（ミュキシリアには話さない）：**クサクサコロン**を**毒吐き沼**から、Satorl → ミュキシリアに話す → ノポリック → **ピュアコロン**を**マクナ大瀑布**から → ノポリック → ミュキシリア。ノポリックは自由を得る。
+   - **報酬：** 7,200 G · 2,000 EXP · 友好度 +200 · スカイキャップ、シェルレギンス。
+   - **解放** ヌーク・半人前計画。
 
-39. 📜 **Cursed** or **Weak Berryjammy** — Norara · **which one you get depends on your residents**
-   - **Cursed Berryjammy** appears if you invited **Berryjammy + Mefimefi**. **Weak Berryjammy** appears if you invited **Berryjammy + Perrine**. Since this guide told you to take Perrine, expect **Weak Berryjammy**.
-   - **Weak Berryjammy:** **4x Thick Nectar** from Skeeters on Bionis' Leg + **4x Juicy Grapes** in Makna. 5,500 G · 1,500 EXP · Bind Resist IV.
+39. 📜 **Cursed**か**病弱なストロジャム** — ノラ · **どちらになるかは住人次第**
+   - **呪われたストロジャム**は**ストロジャム + メフィメフィ**を招いていると出現する。**病弱なストロジャム**は**ストロジャム + パイラル**を招いていると出現する。この攻略ではパイラルを連れていくので、**病弱なストロジャム**になる。
+   - **病弱なストロジャム：****4x スキートの濃縮蜜**、巨神脚の Skeeters から + **4x Juicy Grapes**、Makna。5,500 G · 1,500 EXP · バインド抵抗 IV。
 
-40. 🔴 🔴 **Obstinate Berryjammy** — Norara · **⚠️ DUNBAN MUST LEAD**
-   - **Switch your party leader to Dunban.** Berryjammy can only be talked round by him — with anyone else leading the quest does not progress and the whole Miss Sweetness line stops dead here.
-   - **Do:** talk to Berryjammy as Dunban → return to Norara.
-   - **Pays:** 6,500 G · 2,000 EXP · Panther Gloves.
+40. 🔴 🔴 **意地っ張りストロジャム** — ノラ · **⚠️ ダンバン がリーダー必須**
+   - **パーティリーダーをダンバンに切り替える。**ストロジャムを説得できるのは彼だけだ。他の誰かがリーダーだとクエストは進まず、コロニー6のお嬢様の一連はここで完全に止まる。
+   - **手順：**ストロジャムにダンバンとして話す → ノラへ戻る。
+   - **報酬：** 6,500 G · 2,000 EXP · パンサーグローブ。
 
-41. 📜 **Unstoppable Berryjammy** — Berryjammy · needs `Chemist's Reopening` + **3★**
-   - **Route B is faster:** talk to **Olga** → talk to Berryjammy. No collecting at all. Route A wants 3x Caterpile Vinegar from Satorl Caterpiles for the same reward.
-   - **Pays:** 7,800 G · 2,300 EXP · +150 Rep · Shell Leggings.
+41. 📜 **止まらないストロジャム** — ストロジャム · 必要は`薬屋業再開` + **3★**
+   - **ルートBのほうが速い：****オルガ**に話す → ストロジャムに話す。収集は一切不要。ルートAは同じ報酬のために、Satorl Caterpiles から 3x キャピルの苦ジュースが要る。
+   - **報酬：** 7,800 G · 2,300 EXP · +150 名声 · シェルレギンス。
 
-42. 📜 **Cook-Off Showdown!** — Ma'crish, Colony 6 · **⚠️ REYN MUST LEAD** · **Reyn's Impatience tree**
-   - **Requires:** `Missing Lodger`, `Cook-Off Final Blow?!`, 2.5★ Colony 6 and Reyn leading.
-   - **Do:** speak to Hoko → collect **2x Soya Paste Shell** from Entma Kings near Mechonis Wound, Valak Mountain → return to Hoko with Reyn leading → report to Ma'crish.
-   - **Choose Route B, “Make food that you want to make,”** for the otherwise unavailable HP Steal gem.
-   - **Pays:** 7,500 G · 2,200 EXP · Brave Top · **Reyn Skill Tree — Impatience**. Unlocks `Miss Sweetness Showdown`.
+42. 📜 **料理対決・決着！** — ミュキシリア、コロニー6 · **⚠️ ライン がリーダー必須** · **ラインの Impatience ツリー**
+   - **条件：**`行方不明の同居人`、`料理対決・再逆転？`、2.5★ のコロニー6、ラインがリーダー。
+   - **手順：**ホコに話す → **2x キングの甲羅味噌**を集める。Entma Kings、場所は機神の爪痕、ヴァラク雪山の近く → ホコへ戻る。リーダーはライン → ミュキシリアに報告する。
+   - **ルートB、「作りたいものを作る」を選ぶ**。他では入手できないＨＰ吸収のジェムのため。
+   - **報酬：** 7,500 G · 2,200 EXP · ブレイブトップス · **ラインスキルツリー — Impatience**。`コロニー6のお嬢様 Showdown`を解禁する。
 
-43. 🔴 🔴 **Miss Sweetness Showdown** — take the **Ma'crish** version · needs **3.5★** + `Cook-Off Showdown!`
-   - **Near coin flip.** Ma'crish: 11,000 G · 5,000 EXP · **Amethyst Armour**. Berryjammy: 10,000 G · 5,300 EXP · Amethyst Leggings. Affinity outcome is identical either way.
-   - Take Ma'crish for the extra 1,000 G and the chest piece. Completing one expires the other.
-   - **Do:** complete `The Most Transparent Thing`, then report back.
+43. 🔴 🔴 **コロニー6のお嬢様 Showdown** — **ミュキシリア**版を取る · 必要は**3.5★** + `料理対決・決着！`
+   - **ほぼ五分。**ミュキシリア：11,000 G · 5,000 EXP · **アメシストアーマー**。ストロジャム：10,000 G · 5,300 EXP · アメシストレギンス。キズナの結果はどちらも同じ。
+   - 追加の 1,000 G と胴装備のためにミュキシリアを取る。片方を完了するともう片方は消滅する。
+   - **手順：**`世界で一番透明なもの`を完了し、報告に戻る。
 
-44. 📜 **The Most Transparent Thing** — 12,000 G · 6,800 EXP
-   - **Do:** talk to **Lalapa** in Frontier Village → talk to **Dakuku** on Valak Mountain → collect **1x Pure Ice Flower** near **Url Crevasse**, Valak Mountain.
-   - Url Crevasse is also where **North Star Gusion** spawns at night during a blizzard. Combine the trips if the weather cooperates.
+44. 📜 **世界で一番透明なもの** — 12,000 G · 6,800 EXP
+   - **手順：****ラパン**に話す、場所はサイハテ村 → **ダルク**に話す、場所はヴァラク雪山 → **1x ピュア・フローズン**を集める、近くは**ウルの裂け目**、ヴァラク雪山。
+   - ウルの裂け目は吹雪の夜に**七星のグシオン**が出現する場所でもある。天候が合えば、行程をまとめる。
 
-> **ℹ️ Note — Two Alcamoth quests that only open now — go back for them**
+> **ℹ️ メモ — 今になって開く皇都アカモートのクエストが2つある — 戻って受けておく**
 >
-> **Adventurers in Peril** (Miriall, Imperial Palace, needs 2.5★): find **Zain** and **Kurralth** injured near **Three Sage Summit** on Valak Mountain, then report. 11,000 G · 5,200 EXP · Black Sniper. **Take this over The Missing Partner** — that Ch17 alternative pays more but leaves the Affinity Chart unchanged.
+> **冒険者達の遭難**（ミリア、皇宮、必要は 2.5★）：**ゼイン**と**クラル**を見つける。負傷していて、近くは**三大賢者の頂**、場所はヴァラク雪山。その後報告する。11,000 G · 5,200 EXP · ブラックスナイプ。**帰ってこない相棒よりこちらを取る**。17章の代替は報酬が多いが、キズナグラムは変わらない。
 >
-> **Believing Again** (Vidian, Imperial Palace, needs `Building Bridges` + 1.5★): collect **Morning Dew Ice** at **Befalgar Pedestal**, Valak Mountain — **dawn or morning only** → Vidian → Lesunia → return. 8,500 G · 4,200 EXP · Amethyst Armour. Unlocks **Vidian Rescue Mission** in Ch17 (58,000 G / 97,500 EXP).
+> **もう一度、信じる心を**（ビビアン、皇宮、必要は`他種族嫌いを治して` + 1.5★）：**朝露の氷石**を**ベファルガの台座**、ヴァラク雪山で集める — **夜明けか朝だけ** → ビビアン → ルイーゼ → 戻る。8,500 G · 4,200 EXP · アメシストアーマー。17章の**ビビアン救出作戦**を解禁する（58,000 G / 97,500 EXP）。
 >
-> Both targets are on Valak Mountain. **Do them on this trip**, not as a separate journey.
+> 対象はどちらもヴァラク雪山にある。**今回の行程で済ませる**。別の旅にはしない。
 
-45. 🔴 🔴 **Adventurers in Peril** — Miriall, Alcamoth · needs **2.5★** · targets on Valak
+45. 🔴 🔴 **冒険者達の遭難** — ミリア、皇都アカモート · 必要は**2.5★** · 対象は Valak
 
-46. 🔴 🔴 Trade with **Kurralth on Valak Mountain** for **Mumkhar's Razor**
-   This permanently missable Easter-egg collectable is only in Kurralth's trade inventory while he is on Valak Mountain. Get it during `Adventurers in Peril` and before the Mechonis Core cutoff.
+46. 🔴 🔴 **クラル、場所はヴァラク雪山**と交換し、**ムムカの髭剃り**を得る
+   この恒久的に取り逃すイースターエッグの収集品は、クラルがヴァラク雪山にいるあいだの交換在庫にしか無い。`冒険者達の遭難`のあいだ、機神界中枢の締め切りより前に入手する。
 
-47. 🔴 🔴 **Believing Again** — Vidian, Alcamoth · needs **Building Bridges** · **dawn/morning only**
+47. 🔴 🔴 **もう一度、信じる心を** — ビビアン、皇都アカモート · 必要は**他種族嫌いを治して** · **夜明け／朝だけ**
 
 ---
 
-## Chapter 11 — Sword Valley and Galahad Fortress
+## Chapter 11 — 大剣の渓谷とガラハド要塞
 
-**Level 62-66** · 15 tracked items
+**レベル 62-66** · 追跡 15件
 
-> **11 Unique Monsters, 4 quests, 2 materials and 2 Collectopaedia pages all die at Jade Face in Chapter 13.** Take the quests before hunting — four UMs will not spawn otherwise. The four quests pay 145,000 G toward your 2,000,000 G Colony 6 bill.
+> **ユニークモンスター11体、クエスト4つ、素材2種、コレペディアのページ2つが、13章の緑のフェイスで全て消滅する。**討伐の前にクエストを受ける。受けないと UM 4体は出現しない。4つのクエストで 145,000 G が入り、2,000,000 G のコロニー6費用の足しになる。
 
-> **📊 Set your level — Set level to 65**
+> **📊 レベルを合わせる — Set level to 65**
 >
-> Sword Valley runs Lv49-57, Galahad Fortress Lv52-55. 65 handles the lot including Mischievous Naberius.
+> 大剣の渓谷は Lv49-57、ガラハド要塞は Lv52-55。65なら Mischievous Naberius を含む一帯を処理できる。
 >
 > This is a linear military corridor with a hard deadline attached, so err on the side of comfortable — you want to be clearing the checklist, not retrying fights.
 
-> **⚔️ Party & build — ⚔️ Bring Blaze Defence gems specifically**
+> **⚔️ パーティとビルド — ⚔️ 炎熱防御のジェムを特に持っていく**
 >
-> One monster here — **Mischievous Naberius** behind the 3rd Gate — punishes you badly without **Blaze Defence**. Craft or equip a couple before you come.
+> ここのモンスター1体 — **Mischievous Naberius**、第3ゲートの奥 — は**炎熱防御**が無いと大きく痛手を受ける。来る前にいくつか作るか装備する。
 >
-> Everything here is Mechon, so keep **Monado Enchant** up for physical attackers other than returned Fiora, who can damage Mechon normally.
+> ここは全て機神兵なので、物理アタッカーには**モナド エンチャント**を維持する。例外は復帰したフィオルンで、機神兵に通常どおりダメージを与えられる。
 
-> **ℹ️ Note — 🔴 Everything below dies at Jade Face in Chapter 13**
+> **ℹ️ メモ — 🔴 これより下は全て、13章の緑のフェイスで消滅する**
 >
-> You pass through Fallen Arm (Ch12) in between, which gives you exactly one return trip. Do not rely on it.
+> そのあいだに落ちた腕（12章）を通るので、帰還はちょうど1回だけできる。それに頼らない。
 >
-> **Total loss if you skip this chapter:** 11 Unique Monsters · 4 quests worth **145,000 G and 50,000 EXP** · 2 Colony 6 materials · 2 Collectopaedia pages.
+> **この章を飛ばした場合の損失合計：**ユニークモンスター11体 · **145,000 G と 50,000 EXP**のクエスト4つ · コロニー6の素材2種 · コレペディアのページ2つ。
 >
-> Note that **Galahad Fortress has no side quests at all** — its four quests are story-only and unavoidable. The quest value is entirely in Sword Valley.
+> **ガラハド要塞にはサブクエストが一切無い**。4つのクエストはストーリー専用で、回避できない。クエストの価値は全て大剣の渓谷にある。
 
-> **ℹ️ Note — The four Sword Valley quests have no quest giver**
+> **ℹ️ メモ — 大剣の渓谷の4つのクエストには依頼者がいない**
 >
-> All four are **Surprise Quests**: they trigger automatically when you approach the location and **cannot be declined**. There is nobody to talk to.
+> 4つとも**サプライズクエスト**だ。場所に近づくと自動で発生し、**辞退できない**。話しかける相手はいない。
 >
-> So do not sweep looking for NPCs — just walk the map and they will fire. Three of them spawn a Unique Monster as their objective.
+> NPC を探して歩き回らない。マップを歩けば発生する。うち3つは目標としてユニークモンスターを出現させる。
 >
-> They expire *after the party enters the Central Factory and Vanea points where to go*, which is Chapter 14 — slightly later than Jade Face, but the **area** closes at Jade Face, so treat Chapter 13 as the real deadline.
+> 期限は*パーティが中央工廠に入り、ヴァネアが行き先を指したあと*で、それは14章だ。緑のフェイスより少し遅いが、**エリア**は緑のフェイスで閉じる。本当の締め切りは13章として扱う。
 
-1. 🔴 🔴 **Secure Dolgan Outpost** → **Prudent Purson** (49) · 28,000 G
-   - **Triggers:** approaching the **Dolgan Outpost**.
-   - 182,400 HP, ~30% spawn, any time or weather. **70% Break and 60% Pierce resistance**, so lean on Topple and Daze instead. Its battle theme is *You Will Know Our Names*, which tells you the game considers it a real fight.
-   - **Pays:** 28,000 G · 5,000 EXP · Orion Cap · Affinity Coin.
+1. 🔴 🔴 **ドルガン監視砦を確保** → **思慮のプルソン**（49）· 28,000 G
+   - **発生：****ドルガン監視砦**に近づく。
+   - 182,400 HP、出現 ~30%、時間も天候も不問。**70% の崩し耐性と 60% の貫通耐性**なので、転倒と気絶に寄せる。戦闘曲は*You Will Know Our Names*で、ゲームが本気の戦闘と見なしていると分かる。
+   - **報酬：** 28,000 G · 5,000 EXP · オリオンキャップ · Affinity Coin。
 
-2. 🔴 🔴 **Secure Enalda Control Base** → **Tranquil Morax** (50) · 32,000 G
-   - **Triggers:** approaching the **Enalda Control Base**.
-   - 164,800 HP, ~30% spawn, any conditions.
-   - **Pays:** 32,000 G · 8,000 EXP · Orion Gloves · Affinity Coin.
+2. 🔴 🔴 **エナルダ管理基地を確保** → **平穏のモラクス**（50）· 32,000 G
+   - **発生：****エナルダ管理基地**に近づく。
+   - 164,800 HP、出現 ~30%、条件は問わない。
+   - **報酬：** 32,000 G · 8,000 EXP · オリオングローブ · Affinity Coin。
 
-3. 🔴 🔴 **Secure the Radio Tower** → **Lightning Ronove** (55) · 45,000 G
-   - **Triggers:** approaching the **Radio Tower**.
-   - 214,200 HP. **Quest-exclusive** — no quest, no monster, ever.
-   - **Pays:** 45,000 G · 22,000 EXP · Topple Resist IV · Daze Resist IV · Affinity Coin. Best single payout of the four.
+3. 🔴 🔴 **電波塔を確保** → **稲妻のロノウェ**（55）· 45,000 G
+   - **発生：****電波塔**に近づく。
+   - 214,200 HP。**クエスト限定**。クエストが無ければ、モンスターは永遠にいない。
+   - **報酬：** 45,000 G · 22,000 EXP · 転倒抵抗 IV · 気絶抵抗 IV · Affinity Coin。4つの中で単体の報酬が最高。
 
-4. 🔴 🔴 **3rd Gate Front Line** · 40,000 G
-   - **Triggers:** passing through the **3rd Gate** once it is opened.
-   - **Do:** kill **Reinforcement M104** (Lv53). 100% spawn. This one is **not** a Unique Monster despite the fanfare, so no Affinity Coin.
-   - **Pays:** 40,000 G · 15,000 EXP · Orion Shoes.
+4. 🔴 🔴 **第3ゲート Front Line** · 40,000 G
+   - **発生：**開いたあとに**第3ゲート**を通過する。
+   - **手順：****増援隊百四式**（Lv53）を倒す。出現 100%。演出のわりに、これはユニークモンスターでは**ない**。Affinity Coin は無い。
+   - **報酬：** 40,000 G · 15,000 EXP · オリオンシューズ。
 
-5. 🔴 🔴 Free-roaming Sword Valley UMs: **Defective Ipos** (50), **Fate Labolas** (51), **Benevolent Aim** (51), **Kamikaze Bune** (53)
-   West of the Ether Storage Area, Port Maintenance Bay, Monado Wound and north of the Control Tower respectively. No quests needed.
+5. 🔴 🔴 自由出現の大剣の渓谷 UM：**老朽のイポス**（50）、**運命のラボラス**（51）、**博愛のアイム**（51）、**神風のブネ**（53）
+   それぞれエーテル貯蔵区の西、機神港 整備場、モナドの爪痕、Control Tower の北。クエストは不要。
 
-6. 🔴 🔴 UM: **Mischievous Naberius** (57) — behind the 3rd Gate · **bring Blaze Defence**
+6. 🔴 🔴 UM：**Mischievous Naberius**（57）— 第3ゲートの奥 · **炎熱防御を持っていく**
    The most dangerous thing in the chapter for its level. Do not walk in without the gems.
 
-7. 🔴 🔴 Galahad Fortress UMs: **Glacier Acon** (52), **Precious Retrato** (53), **Glorious Jurom** (55)
-   1st Turbine Room, 3rd Fuel Supply Room and Ether Blast Furnace. You pass all three on the story route, so just do not run past them.
+7. 🔴 🔴 ガラハド要塞の UM：**氷河のエイコーン**（52）、**宝珠のレトラート**（53）、**爛漫のシュロム**（55）
+   第1タービン室、第3燃料補給室、エーテル溶鉱炉。3つともストーリーの経路上を通るので、走り抜けない。
 
-8. 🔴 🔴 ⛏️ **Red Frontier** ×2 — Housing 5. **Sword Valley collection points**
-   Backup exists — trade **Rizaka** at Hidden Machina Village in Ch12 — but grab it here so you have the choice.
+8. 🔴 🔴 ⛏️ **レッドフロンティア** ×2 — 住宅5。**大剣の渓谷の収集ポイント**
+   予備はある。**レアナ**と12章のマシーナの隠れ里で交換する。それでも選択肢のために、ここで取っておく。
 
-9. 🔴 🔴 ⛏️ **Art Core Coil** ×2 — Commerce 5. **Galahad Fortress collection points**
-   Backup: trade **Kazat** at Hidden Machina Village in Ch12.
+9. 🔴 🔴 ⛏️ **アートコアコイル** ×2 — 商業5。**ガラハド要塞の収集ポイント**
+   予備：**カイルス**と12章のマシーナの隠れ里で交換。
 
-10. 🔴 🔴 Buy every unique appearance from the **Sword Valley Supply Convoy**
-   Shop inventories disappear with their areas. Buy at least one of every shop-exclusive weapon and armour appearance before Jade Face, especially the **Anti-Mechon Driver**. Fashion unlocks are saved globally, so you may save, buy the stock, then reload to keep the appearances without spending the money.
+10. 🔴 🔴 **大剣の渓谷の補給部隊最前線**から、固有の外見を全て買う
+   店の品揃えはエリアと一緒に消える。緑のフェイスの前に、店限定の武器と防具の外見を、各種少なくとも1つ買う。特に**強化バンカー・機斬**。外見の解放は全体に保存される。セーブして在庫を買い、リロードすれば、お金を使わず外見だけ残せる。
 
-11. 🔴 🔴 Fill the **Sword Valley** and **Galahad Fortress** Collectopaedia pages
-   Sword Valley's completion chain includes **Cosmic Nibbler** and **Arkose Pike**. Neither area ever returns.
-   **Sub-checkpoints:**
+11. 🔴 🔴 **大剣の渓谷**と**ガラハド要塞**のコレペディアページを埋める
+   大剣の渓谷の達成に必要な連鎖には**隕石のバクバク**と**アルコズパイク**が含まれる。どちらのエリアも二度と戻らない。
+   **サブチェック:**
    - [ ] Complete Sword Valley Collectopaedia
    - [ ] Complete Galahad Fortress Collectopaedia
 
-12. ➡️ **MAIN STORY · Lift Battle** — Main Maintenance Bay
-   - **Before advancing:** Sword Valley and Galahad Fortress are temporary areas; clear every red card above.
-   - **Do:** defeat the Mechon guarding the lift, then inspect its **verification device**.
+12. ➡️ **本編 · Lift Battle** — 中央整備室
+   - **進行前:** 大剣の渓谷とガラハド要塞は一時エリア。上の赤いカードをすべて片付ける。
+   - **手順:** リフトを守る機神兵を倒し、その**認証装置**を調べる。
 
-13. ➡️ **MAIN STORY · Supply Station Battle** — stop the fortress machinery
-   - **Goal:** stop the turbines supplying power inside Galahad Fortress.
-   - **Piston room:** investigate the control panel in the **Piston Control Room** and stop the piston.
+13. ➡️ **本編 · Supply Station Battle** — 要塞の機械を止める
+   - **目標:** ガラハド要塞内部へ電力を送るタービンを止める。
+   - **ピストン室:** **ピストン制御室**の制御パネルを調べ、ピストンを止める。
 
-14. ➡️ **MAIN STORY · Turbine Battle** — shut down both turbine rooms
-   - **First:** use the control panel in the **1st Turbine Room**.
-   - **Second:** use the control panel in the **2nd Turbine Room**.
-   - **Then:** return to the Main Control Room and continue deeper into the fortress.
+14. ➡️ **本編 · Turbine Battle** — タービン室を両方停止する
+   - **最初:** **第1タービン室**の制御パネルを使う。
+   - **2番目:** **第2タービン室**の制御パネルを使う。
+   - **その後:** エーテル溶鉱炉管制室に戻り、要塞の奥へ進む。
 
-15. ➡️ **MAIN STORY · Fiora's Conviction** — Face Maintenance Bay
-   - **Do:** destroy the Mechon defending Fiora in the **Face Maintenance Bay**.
-   - **Party reality:** use the Chapter 11 roster/build above; Fiora is not yet available as a controllable party member.
+15. ➡️ **本編 · Fiora's Conviction** — Face Maintenance Bay
+   - **手順:** フィオルンを守る機神兵を、**Face Maintenance Bay**で破壊する。
+   - **パーティの実情:** 上の11章編成とビルドを使う。フィオルンはまだ操作できるパーティメンバーではない。
 
-> **ℹ️ Note — Galahad Fortress's four quests are story-only**
+> **ℹ️ メモ — ガラハド要塞の4つのクエストはストーリー専用だ**
 >
-> Nothing to hunt for and nothing missable: **Lift Battle** (find the Fortress Pass Key), **Turbine Battle** (stop both turbines), **Supply Station Battle** (stop the piston in the Piston Control Room), and **Fiora's Conviction** — which is the **Face Nemesis** boss fight. All auto-given, none declinable.
+> 探し回るものは無く、取り逃しも無い。**Lift Battle**（要塞認証キーを見つける）、**Turbine Battle**（タービンを両方止める）、**Supply Station Battle**（ピストン制御室のピストンを止める）、そして**フィオルンの Conviction**。これは**フェイス・ネメシス**のボス戦だ。全て自動で発生し、どれも辞退できない。
 
 ---
 
-## Chapter 12 — Fallen Arm
+## Chapter 12 — 落ちた腕
 
-**Level 66-70** · 22 tracked items
+**レベル 66-70** · 追跡 22件
 
-> **Fiora rejoins.** Third big material stop, seven Heart-to-Hearts, and a village full of traders whose stock you will need later. Several quests here reach into **Mechonis Field**, which dies in Chapter 14 — so the Fallen Arm quests that send you there die with it.
+> **フィオルンが復帰する。**素材の大きな立ち寄りは3回目で、Heart-to-Hearts は7つ、商人のいる村の在庫は後で必要になる。ここのクエストのいくつかは**機神界フィールド**へ足を伸ばし、そこは14章で消滅する。そこへ向かわせる落ちた腕のクエストも一緒に消滅する。
 
-> **📊 Set your level — Set level to 68**
+> **📊 レベルを合わせる — Set level to 68**
 >
-> Fallen Arm runs Lv54-58. 68 handles it and keeps **Powerful Eligos** (Lv80, Digit 1) as an optional stretch fight rather than an instant death.
+> 落ちた腕は Lv54-58。68で処理でき、**荒神のエリゴス**（Lv80、機神の親指）は即死ではなく、任意の伸ばしの戦闘として残せる。
 >
-> Leave **Wicked Sallos** (95) and **Ancient Daedala** (105 superboss, Wreckage Beach) alone. Daedala does not even spawn until after Mechonis Core.
+> **閻魔のサレオス**（95）と**太古のデイダラ**（105、スーパーボス、残骸の浜辺）は放置する。Daedala は機神界中枢のあとまで出現しない。
 
-> **⚔️ Party & build — ⚔️ Fiora is back — and she is not a straight upgrade**
+> **⚔️ パーティとビルド — ⚔️ フィオルンが戻った。単純な上位互換ではない**
 >
-> Mechon Fiora rejoins with high mobility and strong damage. **But keep Shulk / Dunban / Riki.**
+> 機神兵のフィオルンは機動力が高く火力も強い状態で復帰する。**ただしシュルク／ダンバン／リキは残す。**
 >
-> **Why:** Fiora's AI is mediocre and underperforms her ceiling badly. Riki's AI plays him near-optimally. Swapping Riki out for Fiora is a downgrade unless *you* control her, and you are controlling Shulk.
-> **What Fiora is for:** her affinity. Ten Heart-to-Hearts involve her and they have been frozen since Chapter 2. Run her in the party during ordinary fights to build affinity, then swap back for anything hard.
+> **理由：**フィオルンの AI は平凡で、性能の上限を大きく下回る。リキの AI はほぼ最適に動かす。リキをフィオルンに入れ替えるのは弱体化だ。例外は*自分*が彼女を操作する場合で、操作しているのはシュルクだ。
+> **フィオルンの使い道：**キズナだ。関わる Heart-to-Hearts は10個あり、2章から凍結したままだ。通常戦のパーティに入れてキズナを上げ、難しい戦いでは戻す。
 >
-> **Gear note:** Fiora uses Mechon armour, a separate equipment pool. Do not sell Machina gear you pick up here.
+> **装備メモ：**フィオルンは機神兵の鎧を使い、装備枠が別だ。ここで拾ったマシーナの装備は売らない。
 
-> **ℹ️ Note — 🔴 What dies and when — three different deadlines converge here**
+> **ℹ️ メモ — 🔴 What dies and when — three different deadlines converge here**
 >
-> **Chapter 13, Jade Face:** Sword Valley and Galahad Fortress. **This is your last safe trip** — if anything from Chapter 11 is unticked, go now.
-> **Chapter 14, Meyneth Shrine:** Mechonis Field. Several Fallen Arm quests send you there, so **they die too even though Fallen Arm survives**.
-> **Fallen Arm itself never closes.** You return in Chapter 17 and the superboss spawns here post-game.
+> **13章、緑のフェイス：**大剣の渓谷とガラハド要塞。**これが最後の安全な訪問だ**。11章で未チェックのものがあれば、今行く。
+> **14章、メイナス神殿：**機神界フィールド。落ちた腕のクエストのいくつかはそこへ向かうので、**落ちた腕は残っても、それらも消滅する**。
+> **落ちた腕自体は閉鎖されない。**17章で戻り、スーパーボスはクリア後にここで出現する。
 
-1. ➡️ **MAIN STORY · Reunion with Fiora** — search Wreckage Beach
-   - **Start:** automatic on first reaching the Fallen Arm.
-   - **Do:** investigate the beach, find water for Fiora, and follow the marked route inland.
+1. ➡️ **本編 · フィオルンとの再会** — 残骸の浜辺を探す
+   - **開始:** 落ちた腕に初回到着で自動。
+   - **手順:** 浜辺を調べ、フィオルンの水を見つけ、マークされた道を内陸へたどる。
 
-2. ➡️ **MAIN STORY · We Made It** — reunite the party
-   - **First:** find the nearby friends separated on the Fallen Arm.
-   - **Then:** continue to the Hidden Machina Village and reunite with the rest of the party.
+2. ➡️ **本編 · 仲間は生きている** — パーティを再合流させる
+   - **最初:** 落ちた腕で離れた、近くの仲間を見つける。
+   - **その後:** マシーナの隠れ里へ進み、残りのパーティと再合流する。
 
-3. ➡️ **MAIN STORY · Fiora's Treatment** — Digit 5 Beach
-   - **Start:** speak with Linada after meeting Miqol in the Hidden Machina Village.
-   - **Do:** search the Mechon wreckage on **Digit 5 Beach** for the **Piezoelectric Unit**.
-   - **Then:** return to Linada; Fiora becomes available for the chapter's build and affinity work.
+3. ➡️ **本編 · フィオルンの治療** — 小指の砂浜
+   - **開始:** リナーダに話しかける。ミゴールと会ったあと。場所はマシーナの隠れ里。
+   - **手順:** **小指の砂浜**の機神兵の残骸から**圧電素子**を探す。
+   - **その後:** リナーダに戻る。フィオルンが、この章のビルドと親和度作業に使えるようになる。
 
-4. 🔴 🔴 **Last safe trip to Sword Valley and Galahad Fortress** — check Chapter 11 is empty
+4. 🔴 🔴 **大剣の渓谷とガラハド要塞への最後の安全な訪問** — 11章が空か確認する
 
-5. 🔴 🔴 **For My Loved One...** — Zarkort, Digit 2 Plain · **thunderstorm only**
-   - **Do:** collect **1x Tear of the Sky** at the **Distant Fingertip** — **only during a thunderstorm**. Wait for weather; there is no other way.
-   - **Pays:** 10,000 G · 7,600 EXP · +300 Rep · Alcyone Bottoms.
+5. 🔴 🔴 **愛するヒトに** — カルボラ、人差し原野 · **雷雨のときだけ**
+   - **手順：****1x 天空の涙**を**天涯の爪先**で集める — **雷雨のあいだだけ**。天候を待つ。他に方法は無い。
+   - **報酬：** 10,000 G · 7,600 EXP · +300 名声 · アルシオンボトムズ。
 
-6. 🔴 🔴 **To My Loved One...** — Zarkort · turn in at **Mechonis Field**
-   - **Do:** Zarkort is afraid of heights and will not go himself. Deliver the **Tear of the Sky** to **Bozatrox** at the **Machina Refuge, Mechonis Field**.
-   - **Turn in:** Bozatrox, not Zarkort.
-   - **Pays:** 13,600 G · 10,000 EXP · Alcyone Top.
-   - **Unlocks** Best Boots, which also dies with Mechonis Field.
-   **Sub-checkpoints:**
-   - [ ] Accept To My Loved One... from Zarkort — Anytime · Fallen Arm, Digit 2 · appears after For My Loved One... is complete.
-   - [ ] Deliver the Tear of the Sky to Bozatrox — Chapter 13 · Machina Refuge in Mechonis Field · speaking to Bozatrox completes the quest.
+6. 🔴 🔴 **愛するヒトへ** — カルボラ · 報告先は**機神界フィールド**
+   - **手順：**カルボラは高所が怖く、自分では行かない。**天空の涙**を**ボゼローネ**へ届ける。場所は**マシーナの隠れ家、機神界フィールド**。
+   - **報告：**ボゼローネ。カルボラではない。
+   - **報酬：** 13,600 G · 10,000 EXP · アルシオントップス。
+   - **解禁**愛のブーツ。これも機神界フィールドと一緒に消滅する。
+   **サブチェック:**
+   - [ ] Accept To My Loved One... from Zarkort — いつでも · 落ちた腕、機神の人差し指 · 愛するヒトにの完了後に出現する。
+   - [ ] Deliver the Tear of the Sky to Bozatrox — 13章 · マシーナの隠れ家（機神界フィールドの中） · ボゼローネに話しかけるとクエストが完了する。
 
-7. 📜 **Fixing a Broken Door** → **The Wilted Flower** — Rizaka, Junks · **6:00-18:00 only**
-   - **The Wilted Flower** needs **1.5★ Hidden Machina Village**: collect **1x Pure Water** at **Zakt Spring** → Rizaka → **5x Electric Upa Tears** from **Prado Upas** on Fallen Arm → Rizaka.
-   - **Pays:** 12,300 G · 9,000 EXP · Lightning Attack IV · **Mechonis Key**.
-   - **Unlocks** Scheduled Inspection and The Oath Sword. Rizaka only talks during daylight hours.
+7. 📜 **壊れたドアの修理** → **花が枯れちゃう** — レアナ、ジャンクス · **6:00-18:00 だけ**
+   - **花が枯れちゃう**の必要は**1.5★ のマシーナの隠れ里**：**1x 純水**を**ザクトの泉**で集める → レアナ → **5x ウーパーの電気涙**を**Prado Upas**から集める、場所は落ちた腕 → レアナ。
+   - **報酬：** 12,300 G · 9,000 EXP · 雷追撃 IV · **機神界の鍵**。
+   - **解禁**十年に一度の定期検査と約束の剣。レアナが話すのは日中だけ。
 
-8. 👾 **Scheduled Inspection** — Xekit, **Ether Light**, **18:00-6:00 only** → **Evil Bathin** (54)
-   - **Two gates:** needs `The Wilted Flower` and **2.5★ Hidden Machina Village**, and **Xekit only exists at night**.
-   - **Do:** kill **Evil Bathin** at the **Ether Exhaust System**. 215,700 HP, Mechon, weak to Topple and Daze. Drops Silence (rifle) and Frozen Gauntlets.
-   - **Pays:** 16,000 G · 12,000 EXP · **+500 Rep** · Break IV · Affinity Coin.
+8. 👾 **十年に一度の定期検査** — ジェキ、**エーテル Light**、**18:00-6:00 だけ** → **悪魔のバティン**（54）
+   - **条件は2つ：**必要は`花が枯れちゃう`と**2.5★ のマシーナの隠れ里**、そして**ジェキは夜にしか存在しない**。
+   - **手順：****悪魔のバティン**を**エーテル排出装置**で倒す。215,700 HP、機神兵、弱点は転倒と気絶。ドロップはサイレント（ライフル）と氷帝ガード。
+   - **報酬：** 16,000 G · 12,000 EXP · **+500 名声** · 崩し IV · Affinity Coin。
 
-> **⛏️ Grind stop — ⛏️ Hidden Machina Village is a shop run, not just a quest hub**
+> **⛏️ 周回 — ⛏️ マシーナの隠れ里は買い物の周回でもある。クエスト拠点だけではない**
 >
-> Six traders live here, and between them they stock **two materials you can otherwise lose forever**. Do a full shopping trip before you leave.
+> 商人は6人いて、合わせて**ここで逃すと永久に失う素材が2つ**置いてある。出る前に買い物を一通り済ませる。
 >
-> **Rizaka** (6:00-18:00) — sells **Red Frontier**, your backup for the Sword Valley collectable.
-> **Kazat** (near the entrance, 6:00-18:00) — sells **Art Core Coil**, your backup for the Galahad Fortress collectable.
-> **Eleqa** (village entrance, 6:00-18:00) — Ponio Hoof Seal, Sour Turnip, and overtrades White Plum.
-> **Xekit** (Ether Light, **18:00-6:00**) — Royal Volff Hide, Stellar Gear, Bud of Eternity.
-> **Shilx** (6:00-18:00) — Silver Antol Fibre, Oil Oyster, Electric Upa Tears.
-> **Rakzet** (small island, ~1:00-21:00) — Silver Antol Fibre, Angel Engine Y.
+> **レアナ**（6:00-18:00）— **レッドフロンティア**を売る。大剣の渓谷の収集品の予備。
+> **カイルス**（入口付近、6:00-18:00）— **アートコアコイル**を売る。ガラハド要塞の収集品の予備。
+> **エレナ**（村の入口、6:00-18:00）— ポニオの蹄判子、シブコールラビ、そしてホワイトプラムを割増交換。
+> **ジェキ**（エーテル Light、**18:00-6:00**）— ヴォルフの王室毛皮、ステラギア、永遠の新芽。
+> **シータクロス** (6:00-18:00) — アントルの白銀糸, オイルオイスター, ウーパーの電気涙.
+> **レイ**（小島、~1:00-21:00）— アントルの白銀糸、エンゼルエンジンB。
 >
-> Note the **day/night split**: Xekit is nocturnal and everyone else is not, so you need two visits.
+> **昼夜の分かれ**に注意：ジェキは夜行性で、他はそうではない。訪問は2回必要だ。
 
-9. 🔴 🔴 ⛏️ Buy **Red Frontier** from **Rizaka** and **Art Core Coil** from **Kazat**
-   Your insurance against having missed the Sword Valley and Galahad Fortress collection points. If you already have them, skip.
+9. 🔴 🔴 ⛏️ **レッドフロンティア**を**レアナ**から買い、**アートコアコイル**を**カイルス**から買う
+   大剣の渓谷とガラハド要塞の収集ポイントを逃した場合の保険。すでに持っていれば飛ばす。
 
-10. 🔴 🔴 Register every unique **Hidden Machina Village** shop appearance
-   Buy one of each distinct weapon and armour appearance before the Meyneth Shrine cutoff, including **Sparrow Blades** and **Murder Knives**. Fashion unlocks are global, so save → buy → reload works if you want to preserve your money.
+10. 🔴 🔴 **マシーナの隠れ里**の店の固有外見を全て登録する
+   メイナス神殿の締め切り前に、武器と防具の異なる外見を1つずつ買う。**雀双剣**と**マーダーナイフ**を含む。外見の解放は全体共通なので、お金を残したいならセーブ → 購入 → リロードでよい。
 
-11. ⛏️ ⛏️ **Ponio Hoof Seal** ×5 — Housing 4. **Lampo Ponio at night**, or trade Eleqa
+11. ⛏️ ⛏️ **ポニオの蹄判子** ×5 — 住宅4。**ランポ・ポニオ、夜**、またはエレナと交換
 
-12. ⛏️ ⛏️ **Royal Volff Hide** ×3 — Housing 4. **Caelum Volff at night**, or trade Xekit
+12. ⛏️ ⛏️ **ヴォルフの王室毛皮** ×3 — 住宅4。**カエルム・ヴォルフ、夜**、またはジェキと交換
 
-13. ⛏️ ⛏️ **Piranhax Fishmeal** ×5 — Commerce 4. **Fair Piranhax. No trade exists anywhere in the game**
-   The only Colony 6 material with no purchase or trade option. You must kill for it. Do it now while you are here.
+13. ⛏️ ⛏️ **サモンの高級魚粉** ×5 — 商業4。**フェア・サモン。ゲーム内のどこにも交換は無い**
+   購入も交換もできない唯一のコロニー6素材だ。倒して取るしかない。ここにいる今やる。
 
-14. ⛏️ ⛏️ **Silver Antol Fibre** ×8 — Commerce 4. Kill antols, or trade Shilx / Rakzet
+14. ⛏️ ⛏️ **アントルの白銀糸** ×8 — 商業4。antols を倒すか、シータクロス／レイと交換
    Largest single quantity on the entire bill of materials. Buying some is reasonable.
 
-15. ⛏️ ⛏️ Fallen Arm collection: **Warning Lamp** ×3, **Sour Turnip** ×3, **Oil Oyster** ×3, **White Plum** ×3, **Rainbow Slug** ×2
-   **Sub-checkpoints:**
+15. ⛏️ ⛏️ 落ちた腕の収集：**イラプランプ** ×3、**シブコールラビ** ×3、**オイルオイスター** ×3、**ホワイトプラム** ×3、**ナナイロナマコ** ×2
+   **サブチェック:**
    - [ ] Bank 3× Warning Lamp
    - [ ] Bank 3× Sour Turnip
    - [ ] Bank 3× Oil Oyster
    - [ ] Bank 3× White Plum
    - [ ] Bank 2× Rainbow Slug
 
-> **🌦️ Weather / time — One night circuit, one thunderstorm — plan both**
+> **🌦️ 天候 / 時間 — One night circuit, one thunderstorm — plan both**
 >
-> **Night trip:** **Lampo Ponio** (Ponio Hoof Seal ×5) · **Caelum Volff** (Royal Volff Hide ×3) · **Aged Leraje** (Lv56 UM, Radiocarpea Coast) · **Xekit's shop** at Ether Light · **Fiora & Sharla** Heart-to-Heart near Junks. Five objectives, one night.
+> **夜の行程：****ランポ・ポニオ**（ポニオの蹄判子 ×5）· **カエルム・ヴォルフ**（ヴォルフの王室毛皮 ×3）· **早老のレラジェ**（Lv56 UM、手首の海岸）· **ジェキの店**、エーテル Light · **フィオルン & カルナ**のキズナトーク、ジャンクスの近く。目的は5つ、夜は1回。
 >
-> **Thunderstorm:** **Tear of the Sky** at the Distant Fingertip (For My Loved One...). Nothing else needs the storm, so just wait for one.
+> **雷雨：****天空の涙**、場所は天涯の爪先（愛するヒトに）。嵐が必要なのはこれだけなので、来るまで待つ。
 >
-> **6:00 PM exactly:** **Prosperous Zepar** (Lv56) at Jifum Beach, northeast of the mining station. One of only two hour-specific spawns in the game.
+> **ちょうど 6:00 PM：****盛栄のゼパル**（Lv56）、ジフムの浜辺、採掘場の北東。ゲーム内で時刻指定の出現は2つだけで、そのうちの1つ。
 
-16. 👾 UM: **Aged Leraje** (56) — Radiocarpea Coast · **night**
+16. 👾 UM：**早老のレラジェ**（56）— 手首の海岸 · **夜**
 
-17. 👾 UM: **Prosperous Zepar** (56) — Jifum Beach, NE of the mining station · **6:00 PM**
+17. 👾 UM：**盛栄のゼパル**（56）— ジフムの浜辺、採掘場の北東 · **6:00 PM**
 
-18. 👾 UM: **Affluent Beleth** (57) — in the water at the 5th Pulse Zone
+18. 👾 UM：**宝幸のベレト**（57）— 第5動脈管区の水中
 
-19. 👾 UM: **Splendid Botis** (58) — Digit 5 Beach
+19. 👾 UM：**名桜のボティス**（58）— 小指の砂浜
 
-20. 👾 UM: **Powerful Eligos** (80) — Digit 1. Stretch fight, or come back later
+20. 👾 UM：**荒神のエリゴス**（80）— 機神の親指。伸ばしの戦闘。後でもよい
 
-21. 💜 💜 **Fiora & Sharla** — near Junks, **night**, Green
+21. 💜 💜 **フィオルン & カルナ** — ジャンクスの近く、**夜**、緑
 
-22. 💜 💜 **Riki & Melia** — Inlet Beach, day, Purple
+22. 💜 💜 **リキ & メリア** — 入り江の砂浜、昼、紫
 
-> **ℹ️ Note — Five more Fallen Arm Heart-to-Hearts are waiting on Fiora's affinity**
+> **ℹ️ メモ — 落ちた腕の Heart-to-Hearts があと5つ、フィオルンのキズナ待ちだ**
 >
-> **Shulk & Fiora** (Wreckage Beach, Purple), **Shulk & Riki** (Distant Fingertip, Pink), **Fiora & Dunban** (Junks 2F, Pink), **Fiora & Melia** (Digit 1, Pink), **Dunban & Melia** (Black Wreckage, Pink).
+> **シュルク & フィオルン**（残骸の浜辺、紫）、**シュルク & リキ**（天涯の爪先、桃）、**フィオルン & ダンバン**（ジャンクス 2F、桃）、**フィオルン & メリア**（機神の親指、桃）、**ダンバン & メリア**（黒の残骸、桃）。
 >
-> Fiora has been away for ten chapters, so hers are all low. **Run her in the party through ordinary fights this chapter** and the Purple ones become reachable in Chapter 13's Fiora sweep. The Pink ones are post-game regardless.
+> フィオルンは10章のあいだ離れていたので、キズナは全て低い。**この章の通常戦でパーティに入れる**と、紫は13章のフィオルン周回で届く。桃はいずれにせよクリア後だ。
 >
-> Fallen Arm is the densest Heart-to-Heart region in the game at seven, so it is worth a dedicated return trip later rather than forcing them now.
+> 落ちた腕はゲーム内でキズナトークが最も密集していて、7つある。今無理にやるより、後で専用の再訪をする価値がある。
 
 ---
 
-## Chapter 13 — Mechonis Field + the Fiora sweep
+## Chapter 13 — 機神界フィールド + フィオルン周回
 
-**Level 70-72** · 21 tracked items
+**レベル 70-72** · 追跡 21件
 
-> **Jade Face destroys Sword Valley and Galahad Fortress.** Items 7-16 are the Fiora sweep — run it as one circuit before Chapter 15.
+> **緑のフェイスが大剣の渓谷とガラハド要塞を破壊する。**項目7-16はフィオルン周回だ。15章の前に1周で回す。
 
-> **📊 Set your level — Set level to 71**
+> **📊 レベルを合わせる — Set level to 71**
 >
-> Short chapter, Lv57-61 enemies, Jade Face at 60. 71 is plenty.
+> 短い章で、敵は Lv57-61、緑のフェイスは 60。71で十分だ。
 >
-> Most of your time here is the **Fiora sweep** back through old areas, not fighting. Do not over-level for it.
+> ここで使う時間の大半は古いエリアを戻る**フィオルン周回**で、戦闘ではない。そのためにレベルを上げすぎない。
 
-> **💀 Boss prep — 🔴 Jade Face is the point of no return for two entire areas**
+> **💀 ボス準備 — 🔴 緑のフェイスは、2つのエリア全体の引き返せない地点だ**
 >
-> Beating Jade Face permanently closes **Sword Valley** and **Galahad Fortress**.
+> 緑のフェイスを倒すと**大剣の渓谷**と**ガラハド要塞**が永久に閉じる。
 >
-> **Stop and check your Chapter 11 list before you engage.** Eleven Unique Monsters, four quests worth 145,000 G, two Colony 6 materials and two Collectopaedia pages are on the line. This is your last opportunity, and there is no warning in-game.
+> **挑む前に止まり、11章のリストを確認する。**ユニークモンスター11体、145,000 G のクエスト4つ、コロニー6の素材2種、コレペディアのページ2つがかかっている。これが最後の機会で、ゲーム内に警告は無い。
 >
-> **The fight itself:** Mechon, so keep **Monado Enchant** active for physical attackers other than returned Fiora. Otherwise a standard boss.
+> **戦闘そのもの：**機神兵なので、**モナド エンチャント**を有効にしておく。対象は復帰したフィオルン以外の物理アタッカー。それ以外は通常のボスだ。
 
-1. 🔴 🔴 **Before Jade Face — go back and confirm every Chapter 11 item is ticked**
-   Filter this guide to Deadlines and scan Chapter 11. If anything is open, Fallen Arm connects back — go now.
+1. 🔴 🔴 **緑のフェイスの前 — 戻って11章の項目が全てチェック済みか確認する**
+   この攻略を期限で絞り、11章を確認する。未完了があれば、落ちた腕から戻れる。今行く。
 
-2. 📜 **The Oath Sword** — Karlos, Hidden Machina Village entrance · **18:00-6:00** · **⚠️ FIORA MUST LEAD** · **Fiora's Rashness tree**
-   - **Do this as soon as Mechonis Field opens.** Requires `The Wilted Flower` and 2★ Hidden Machina Village.
-   - **Do:** from Ulna Passage activate the Pressure Control Device west of the 5th Pulse Zone tunnel → climb to the upper level → head south and drop to the Power Pipe Ruins → collect the Oath Sword → return to Karlos.
-   - **Pays:** 15,200 G · 11,000 EXP · Jack Daggers · **Fiora Skill Tree — Rashness**.
+2. 📜 **約束の剣** — カラル、マシーナの隠れ里の入口 · **18:00-6:00** · **⚠️ フィオルン がリーダー必須** · **フィオルンの Rashness ツリー**
+   - **機神界フィールドが開いたらすぐやる。**必要は`花が枯れちゃう`と 2★ のマシーナの隠れ里。
+   - **手順：**機神尺骨通路から第5動脈管区のトンネル西の Pressure Control Device を起動する → 上層へ登る → 南へ進み動力パイプ跡へ降りる → 約束の剣を集める → カラルへ戻る。
+   - **報酬：** 15,200 G · 11,000 EXP · シャークダガー · **フィオルンスキルツリー — Rashness**。
 
-> **ℹ️ Note — Mechonis Field's own content is listed in Chapter 14**
+> **ℹ️ メモ — 機神界フィールド固有の内容は14章に書いてある**
 >
-> You pass through Mechonis Field here, but its quests and Unique Monsters do not expire until the **Meyneth Shrine events in Chapter 14**. To avoid listing them twice, they all live in Chapter 14's list — the Garrisoned Troop challenge quests, Bozatrox's `Best Boots`, the five Unique Monsters and the two Colony 6 materials.
+> ここでは機神界フィールドを通過するが、クエストとユニークモンスターの期限は**メイナス神殿の出来事、14章**までだ。二重に載せないため、全て14章のリストにある。マシーナ駐留隊のチャレンジクエスト、ボゼローネの`愛のブーツ`、ユニークモンスター5体、コロニー6の素材2種。
 >
-> If you would rather clear it now while you are standing in it, jump to Chapter 14 and work its Mechonis Field block early. Nothing stops you.
+> 今いるあいだに片付けたいなら、14章へ飛んで機神界フィールドの塊を先に進めてよい。止めるものはない。
 
-3. ➡️ **MAIN STORY · Aiming for the Top** — start the 2nd Lift
-   - **Do:** use the **GF Master Power Panel** to start the 2nd Lift.
-   - **Collect on the way:** watch for the Mossy Panels and Azure Hollyhocks called out in the next route cards.
+3. ➡️ **本編 · 上層を目指せ** — 第2リフトを起動
+   - **手順:** **GF Master Power Panel**で第2リフトを起動する。
+   - **途中の採取:** 次のルートカードにある Mossy Panels と Azure Hollyhocks を見逃さない。
 
-4. 🔴 🔴 **The History of Mechonis** — Zilex, Junks bridge (next to Miqol), any hour
-   - **Pick up now:** after first entering **Mechonis Field**, Skip Travel back to **Zilex on the Junks bridge**; this quest does not exist during Chapter 12.
-   - **Do:** return to Mechonis Field and collect **4x Memory 925 Piece**.
-   - **Turn in:** return to Zilex before Mechonis Field closes.
-   - **Pays:** 15,000 G · 11,000 EXP · **+500 Rep** · Paralysis IV.
+4. 🔴 🔴 **機神界の歴史** — リレット、ジャンクスの橋（ミゴールの隣）、時間は不問
+   - **今受ける：**初めて**機神界フィールド**へ入ったあと、Skip Travel で**リレット、ジャンクスの橋**へ戻る。このクエストは12章のあいだは存在しない。
+   - **手順：**機神界フィールドへ戻り、**4x メモリー925の欠片**を集める。
+   - **報告：**リレットへ戻る。機神界フィールドが閉じる前に。
+   - **報酬：** 15,000 G · 11,000 EXP · **+500 名声** · パラライズ IV。
 
-5. 🔴 **Mossy Panel** x2 (Commerce 4) — Mechonis Field collection. Backup: trade Nopo'rikh in Colony 6.
+5. 🔴 **モスプレート** x2（商業4）— 機神界フィールドの収集。予備：ノポリックをコロニー6で交換。
 
-6. ➡️ **MAIN STORY · Get the 3rd Lift Moving** — restore three power links
-   - **1F:** use the Master Power Panel, then the Cylinder Activation Panel.
-   - **Engine room:** use the **3rd Lift Activation Panel** to connect the power plug.
+6. ➡️ **本編 · 第3リフトを起動しろ** — 電力接続を3つ復旧
+   - **1F:** Master Power Panel を使い、次に Cylinder Activation Panel を使う。
+   - **機関室:** **3rd Lift Activation Panel**で電源プラグを接続する。
 
-7. 🔴 **Azure Hollyhock** x2 (Special 4) — Mechonis Field collection. Backup: trade Scarlen in Satorl Marsh, post-Mechonis Core.
+7. 🔴 **シーブルーストン** x2（特殊4）— 機神界フィールドの収集。予備：セガールを燐光の地ザトールで交換、機神界中枢後。
 
-8. ➡️ **MAIN STORY · Opening the Bulkhead** — 3rd Lift, 3F
-   - **Power:** use the **3F Master Power Panel**.
-   - **Open:** use the Bulkhead Control Panel to release the bulkhead.
+8. ➡️ **本編 · 大隔壁を開放せよ** — 第3リフト、3F
+   - **電源:** **3F Master Power Panel**を使う。
+   - **開放:** Bulkhead Control Panel で隔壁を開く。
 
-9. 🔴 Fill the Mechonis Field Collectopaedia page (**Taurus Greaves**, **Taurus Helm**).
+9. 🔴 機神界フィールドのコレペディアページを埋める（**タウロスグリーヴ**、**タウロスヘルム**）。
 
-10. ➡️ **MAIN STORY · The High-Velocity Lift** — Upper Bulkhead Bridge
-   - **Start:** inspect the High-Velocity Lift Panel after opening the bulkhead.
-   - **Dependency:** complete **Need Power!** on the next card, then return here and connect the power plug.
+10. ➡️ **本編 · 高速リフトを起動せよ** — 機神大隔壁上部連絡橋
+   - **開始:** 隔壁を開けたあと、左大腿骨高速リフト Panel を調べる。
+   - **依存:** 次のカードの**電源を供給せよ**を完了し、ここに戻って電源プラグを接続する。
 
-11. ➡️ **MAIN STORY · Need Power!** — Power Supply Areas 1 and 2
-   - **Area 1:** use the 1st Power Supply Panel.
-   - **Area 2:** use the 2nd Power Supply Panel.
-   - **Return:** go back to the High-Velocity Lift Panel and activate it.
+11. ➡️ **本編 · 電源を供給せよ** — 電源供給エリア 1 と 2
+   - **エリア1:** 1st Power Supply Panel を使う。
+   - **エリア2:** 2nd Power Supply Panel を使う。
+   - **戻る:** 左大腿骨高速リフト Panel に戻り、起動する。
 
-12. 💜 **Shulk & Fiora** — Wreckage Beach, Fallen Arm, day, Purple.
+12. 💜 **シュルク & フィオルン** — 残骸の浜辺、落ちた腕、昼、紫。
 
-13. 💜 **Fiora & Dunban** — Hope Farm south, Colony 6, day, Purple.
+13. 💜 **フィオルン & ダンバン** — 希望の農場の南、コロニー6、昼、紫。
 
-14. 💜 **Fiora & Riki** — Armu Farm north, Colony 6, day, Purple.
+14. 💜 **フィオルン & リキ** — アルマ農場の北、コロニー6、昼、紫。
 
-15. 💜 **Fiora & Sharla** — west of Prophecy Hut, Frontier Village, day, Purple.
+15. 💜 **フィオルン & カルナ** — お告げの間の西、サイハテ村、昼、紫。
 
-16. 💜 **Fiora & Melia** — Nopon Tower, Frontier Village, day, Purple.
+16. 💜 **フィオルン & メリア** — ノポンタワー、サイハテ村、昼、紫。
 
-17. 💜 **Reyn & Fiora** — La Luz Church secret passage, Valak, **night**, Purple.
+17. 💜 **ライン & フィオルン** — ラ・ルース教会の秘密通路、Valak、**夜**、紫。
 
-18. 💜 **Fiora & Dunban** — east of Fountain of Hope, Alcamoth, day, Green.
+18. 💜 **フィオルン & ダンバン** — 希望の噴水の東、皇都アカモート、昼、緑。
 
-19. 💜 **Fiora & Riki** — Great Hall, Alcamoth, day, Green.
+19. 💜 **フィオルン & リキ** — 大広間、皇都アカモート、昼、緑。
 
-20. 💜 **Fiora & Melia** — Whitewing Villa, Alcamoth, day, Green.
+20. 💜 **フィオルン & メリア** — Whitewing Villa、皇都アカモート、昼、緑。
 
-21. 💜 **Reyn & Fiora** — Dunban's house, Colony 9, day, Green. Only if you missed it in Ch2.
+21. 💜 **ライン & フィオルン** — ダンバンの家、コロニー9、昼、緑。2章で逃した場合だけ。
 
 ---
 
-## Chapter 14 — Central Factory and Agniratha
+## Chapter 14 — 中央工廠と帝都アグニラータ
 
-**Level 72-76** · 35 tracked items
+**レベル 72-76** · 追跡 35件
 
-> **The Meyneth Shrine events kill Mechonis Field and Agniratha.** Second-worst loss point, stacked directly on top of the worst one.
+> **メイナス神殿の出来事が機神界フィールドと帝都アグニラータを消滅させる。**損失地点として2番目に悪く、最悪の地点のすぐ上に重なっている。
 
-> **📊 Set your level — Set level to 75**
+> **📊 レベルを合わせる — Set level to 75**
 >
-> Agniratha runs Lv63-68, Central Factory Lv58-70. 75 clears everything including Magestic Mordred.
+> 帝都アグニラータは Lv63-68、中央工廠は Lv58-70。75で王城のモルドレッドを含め全て処理できる。
 >
-> **Do not overshoot.** The next chapter is the largest loss point in the game and you want to be doing quests, not steamrolling. Bank the surplus.
+> **上げすぎない。**次の章はゲーム最大の損失地点だ。クエストをやるのであって、蹂躙するのではない。余剰はバンクに貯める。
 
-> **⚔️ Party & build — ⚔️ Everything here is Mechon — keep Monado Enchant up**
+> **⚔️ パーティとビルド — ⚔️ ここは全て機神兵 — モナド エンチャントを維持する**
 >
-> Both areas are wall-to-wall Mechon. Keep **Monado Enchant** active for most physical party members; returned Fiora is the exception and can damage Mechon normally without it.
+> どちらのエリアも一面が機神兵だ。大半の物理パーティメンバーには**モナド エンチャント**を有効にしておく。復帰したフィオルンは例外で、それが無くても機神兵に通常どおりダメージを与えられる。
 >
-> Refresh it the moment it lapses. If you find yourself doing no damage, that is why.
+> 切れた瞬間に掛け直す。ダメージが通らないときは、これが原因だ。
 >
-> **Fiora note:** as a Mechon herself, she is strong here. Good chapter to run her for affinity ahead of Chapter 13's sweep.
+> **フィオルンメモ：**彼女自身が機神兵なので、ここでは強い。13章の周回に備えてキズナを稼ぐのに良い章だ。
 
-> **ℹ️ Note — 🔴 Two separate deadlines, and Agniratha's is the tighter one**
+> **ℹ️ メモ — 🔴 期限は2つ別で、帝都アグニラータのほうが厳しい**
 >
-> **The Meyneth Shrine events kill Mechonis Field AND Agniratha.** Everything below in those areas is gone permanently.
-> **Central Factory survives to Chapter 16**, so its monsters and Collectopaedia page get a second window. Its **surprise quests do not** — those die at Mechonis Core.
+> **メイナス神殿の出来事が機神界フィールドと帝都アグニラータを消滅させる。**それらのエリアでこれより下は永久に消える。
+> **中央工廠は16章まで残る**ので、モンスターとコレペディアのページには2回目の機会がある。**サプライズクエストは残らない**。それらは機神界中枢で消滅する。
 >
-> Priority if you are short on time: **Agniratha first**, Central Factory second.
+> 時間が足りないときの優先：**帝都アグニラータが先**、中央工廠が次。
 
-> **ℹ️ Note — Agniratha's quests all come from TERMINALS, not people**
+> **ℹ️ メモ — 帝都アグニラータのクエストは全て端末から出る。人からではない**
 >
-> This catches people out — there are no NPCs handing out quests in Agniratha. Everything is a **terminal in the Central Tower**. Four terminals, fourteen quests:
+> ここで引っかかる。帝都アグニラータでクエストを出す NPC はいない。全ては**帝都中枢タワーにある端末**だ。端末4つ、クエスト14個。
 >
-> **Military Status Terminal** — 4 quests, each spawns a Unique Monster
-> **Civil Protection Terminal** — **6** quests (1-1 to 2-3), ordinary Mechon kills
-> **City Planning Terminal** — 2 Beautification collect quests
-> **Strategic Intel Terminal** — 2 Telethia Investigation quests, the only Agniratha quests that pay EXP
+> **ターミナル：兵力均衡** — クエスト4つ、それぞれユニークモンスターを出現させる
+> **ターミナル：治安維持** — **6**個のクエスト（1-1 から 2-3）、通常の機神兵討伐
+> **ターミナル：都市計画** — 美化の収集クエスト2つ
+> **ターミナル：情報戦略** — テレシアの調査クエスト2つ。EXP を払う唯一の帝都アグニラータクエスト
 >
-> **Take all fourteen before you start hunting.** They pay roughly **640,000 G** between them.
+> **討伐を始める前に14個全て受ける。**合わせておよそ**640,000 G**になる。
 
-1. ➡️ **MAIN STORY · To the Central Tower** — Central Gate to Maintenance Entrance 1
-   - **Route:** enter Central Factory and make for **Maintenance Entrance 1**.
-   - **Pickups:** grab Central Factory collectables and any surprise quests encountered on this crossing.
+1. ➡️ **本編 · 中央塔を目指せ** — 機神港中央ゲートから整備棟第1搬入口
+   - **ルート:** 中央工廠に入り、**整備棟第1搬入口**を目指す。
+   - **採取:** この横断で中央工廠の収集品と、出会ったサプライズクエストを取る。
 
-2. ➡️ **MAIN STORY · Maintenance Wing Escape** — release the barrier
-   - **Do:** use the **Barrier Control Panel** to release the electrical barrier in the Maintenance Wing.
+2. ➡️ **本編 · 整備棟を抜けろ** — バリアを解除
+   - **手順:** **バリアー Control Panel**で、機神兵整備棟の電気バリアを解除する。
 
-3. ➡️ **MAIN STORY · Find a Path to the Top** — build a way into the factory
-   - **Start:** find the blocked factory route from the Central Warehouse Lift.
-   - **Dependency:** collect the three bomb parts on the next card.
-   - **Finish:** create the bomb at the Maintenance Wing Weapon Creation Panel and blast open the vent.
+3. ➡️ **本編 · 上層への道を探せ** — 工場への道を作る
+   - **開始:** 中央倉庫リフトから、塞がれた工場ルートを見つける。
+   - **依存:** 次のカードで爆弾の部品を3つ集める。
+   - **完了:** 機神兵整備棟の Weapon Creation Panel で爆弾を作り、通気口を爆破して開ける。
 
-4. ➡️ **MAIN STORY · Materials for a Bomb** — collect all three components
-   - **Electrical Fuse:** defeat the **M88 Watchtower** at the Main Factory Gate.
-   - **Ether Explosive:** defeat the **M97 Commander** in the Large Mechon Store.
-   - **Timer:** defeat the marked flying Mechon in the central container storeroom.
+4. ➡️ **本編 · 爆弾の材料を集めろ** — 部品を3つすべて集める
+   - **電気信管:** **八八式監視塔機**を倒す。場所は生産工場正面ゲート。
+   - **黒色エーテル爆薬:** **九七式部隊長機**を倒す。場所は大型機神兵管理倉庫。
+   - **時限装置:** 中央コンテナ倉庫の、マークされた飛行機神兵を倒す。
 
-5. ➡️ **MAIN STORY · The Central Tower Barrier** — Tower Boarding Gate
-   - **Do:** turn off the electrical barrier at the Tower Boarding Gate.
-   - **Then:** reach the top of the tower and continue into Agniratha.
+5. ➡️ **本編 · 中央塔の障壁** — 中央塔搭乗口
+   - **手順:** 中央塔搭乗口の電気バリアを切る。
+   - **その後:** 塔の頂上へ着き、帝都アグニラータへ進む。
 
-6. 🔴 🔴 **The History of the Capital** — Zilex, Junks
-   - **Pick up now:** after first entering **Agniratha**, Skip Travel back to **Zilex on the Junks bridge**. It only appears after The History of Mechonis is complete.
-   - **Next:** return to Agniratha and collect **1x Memory 903** from the **Judicial District**. The separate finish card later in this chapter keeps the turn-in ahead of the Meyneth Shrine lockout.
+6. 🔴 🔴 **帝都の歴史** — リレット, ジャンクス
+   - **今受ける：**初めて**帝都アグニラータ**へ入ったあと、Skip Travel で**リレット、ジャンクスの橋**へ戻る。機神界の歴史の完了後にしか現れない。
+   - **次：**帝都アグニラータへ戻り、**1x メモリー903**を**司法区**から集める。この章の後半にある別の完了カードが、報告をメイナス神殿の閉鎖より前に済ませる。
 
-7. 🔴 🔴 **Military Status 1-1** → **Vagabond Allocer** (63) — **Helas Pillar** · 79,000 G
-   186,500 HP, Aerial Mechon, weak to Topple, Daze and Paralysis.
+7. 🔴 🔴 **Military Status 1-1** → **流浪のアロケル**（63）— **ヘラスの柱** · 79,000 G
+   186,500 HP、飛行型機神兵。弱点は転倒、気絶、パラライズ。
 
-8. 🔴 🔴 **Military Status 1-2** → **Wise Gremory** (68) — **Meyneth Statue** · 68,500 G
-   329,700 HP, ~30% spawn, weak to Topple. The quest text says Zedonia Plaza; the monster is actually west of the **Meyneth Statue**. Trust the statue.
+8. 🔴 🔴 **Military Status 1-2** → **聡明のグレモリ**（68）— **首なしメイナス像** · 68,500 G
+   329,700 HP、出現 ~30%、弱点は転倒。クエスト文はセドニア広場と書く。実際のモンスターは**首なしメイナス像**の西にいる。像を信じる。
 
-9. 🔴 🔴 **Military Status 2-1** → **Meditative Varla** (65) — **Telethia Bridge** · 75,000 G
-   270,300 HP, weak to Topple and Daze. Same quest-text discrepancy — it is at the bridge, not Zedonia Plaza.
+9. 🔴 🔴 **Military Status 2-1** → **瞑想のウァプラ**（65）— **テレシア橋** · 75,000 G
+   270,300 HP、弱点は転倒と気絶。クエスト文の食い違いは同じだ。いるのは橋で、セドニア広場ではない。
 
-10. 🔴 🔴 **Military Status 2-2** → **Wrathful Orobas** (67) — **Dios Pillar** · 83,500 G
-   386,700 HP, ~30% spawn, weak to Pierce, Topple and Daze. The beefiest of the four.
+10. 🔴 🔴 **Military Status 2-2** → **逆鱗のオロバス**（67）— **ティオスの柱** · 83,500 G
+   386,700 HP、出現 ~30%、弱点は貫通、転倒、気絶。4体の中で一番硬い。
 
-11. 🔴 🔴 **Civil Protection 1-1 to 2-3** — six quests, ordinary Mechon · **239,000 G**
-   - **1-1:** 5x M67/HASTE in Residential District 2 — 43,500 G
-   - **1-2:** 6x M36/SACRE, scattered — 38,500 G
-   - **1-3:** 3x Offensive/BRAVE, mainly Zedonia Plaza — 40,000 G
-   - **2-1:** 6x M55/DREAD, scattered — 36,000 G
-   - **2-2:** 4x M67/RADAR, mainly Zedonia Plaza — 41,500 G
-   - **2-3:** 4x M87/GRAND at the Dios, Cleas and Helas Pillars — 39,500 G
-   **Sub-checkpoints:**
-   - [ ] Civil Protection 1-1 — 5× M67/HASTE — Pickup anytime · Civil Protection Terminal, Central Tower. Defeat M67/HASTE in Residential Districts 1 and 2.
-   - [ ] Civil Protection 1-2 — 6× M36/SACRE — Pickup anytime · Civil Protection Terminal, Central Tower. Defeat M36/SACRE around Helas Pillar.
-   - [ ] Civil Protection 1-3 — 3× Offensive/BRAVE — Pickup anytime · Civil Protection Terminal, Central Tower. Defeat Offensive/BRAVE around Zedonia Plaza, Cleas or Calcos Pillar.
-   - [ ] Civil Protection 2-1 — 6× M55/DREAD — Pickup anytime · Civil Protection Terminal, Central Tower. Defeat M55/DREAD around Helas or Dios Pillar.
-   - [ ] Civil Protection 2-2 — 4× M67/RADAR — Pickup anytime · Civil Protection Terminal, Central Tower. Defeat M67/RADAR around Zedonia Plaza, Dios Pillar or the upper districts.
-   - [ ] Civil Protection 2-3 — 4× M87/GRAND — Pickup anytime · Civil Protection Terminal, Central Tower. Defeat M87/GRAND in Agniratha.
+11. 🔴 🔴 **Civil Protection 1-1 to 2-3** — クエスト6つ、通常の機神兵 · **239,000 G**
+   - **1-1：** 5x 六七式・ＨＡＳＴＥ、場所は第2居住区 — 43,500 G
+   - **1-2：** 6x 三六式・ＳＡＣＲＥ、散在 — 38,500 G
+   - **1-3：** 3x 強襲式・ＢＲＡＶＥ、主にセドニア広場 — 40,000 G
+   - **2-1：** 6x 五五式・ＤＲＥＡＤ、散在 — 36,000 G
+   - **2-2：** 4x 六七式・ＲＡＤＡＲ、主にセドニア広場 — 41,500 G
+   - **2-3：** 4x 八七式・ＧＲＡＮＤ、Dios、Cleas、Helas Pillars — 39,500 G
+   **サブチェック:**
+   - [ ] Civil Protection 1-1 — 5× 六七式・ＨＡＳＴＥ — Pickup いつでも · ターミナル：治安維持、帝都中枢タワー。Residential Districts 1 と 2 で六七式・ＨＡＳＴＥを倒す。
+   - [ ] Civil Protection 1-2 — 6× 三六式・ＳＡＣＲＥ — Pickup いつでも · ターミナル：治安維持、帝都中枢タワー。三六式・ＳＡＣＲＥをヘラスの柱の周辺で倒す。
+   - [ ] Civil Protection 1-3 — 3× 強襲式・ＢＲＡＶＥ — Pickup いつでも · ターミナル：治安維持、帝都中枢タワー。強襲式・ＢＲＡＶＥをセドニア広場、Cleas、またはカルコスの柱の周辺で倒す。
+   - [ ] Civil Protection 2-1 — 6× 五五式・ＤＲＥＡＤ — Pickup いつでも · ターミナル：治安維持、帝都中枢タワー。五五式・ＤＲＥＡＤを Helas かティオスの柱の周辺で倒す。
+   - [ ] Civil Protection 2-2 — 4× 六七式・ＲＡＤＡＲ — Pickup いつでも · ターミナル：治安維持、帝都中枢タワー。六七式・ＲＡＤＡＲをセドニア広場、ティオスの柱、または上層地区の周辺で倒す。
+   - [ ] Civil Protection 2-3 — 4× 八七式・ＧＲＡＮＤ — Pickup いつでも · ターミナル：治安維持、帝都中枢タワー。八七式・ＧＲＡＮＤを帝都アグニラータで倒す。
 
-12. 🔴 🔴 **Agniratha Beautification 1 & 2** — City Planning Terminal · 104,500 G
-   - **1:** 4x New Part S (small Mechon) + 5x Fairy Tale Diode (collectables) — 51,000 G
-   - **2:** 3x New Part L (large Mechon) + 6x Grape Spring (collectables) — 53,500 G
-   - Collect these while sweeping for Lewisia Silver and Blue Light Amp — same collection points.
-   **Sub-checkpoints:**
+12. 🔴 🔴 **アグニラータ美化その1 & 2** — ターミナル：都市計画 · 104,500 G
+   - **1：** 4x 最新鋭の機界部品・小（小型機神兵）+ 5x メルヘンダイオード（収集品）— 51,000 G
+   - **2：** 3x 最新鋭の機界部品・大（大型機神兵）+ 6x ブドウゼンマイ（収集品）— 53,500 G
+   - レウィシアシルバーとブルーライトアンプを掃討するついでに集める — 収集ポイントは同じ。
+   **サブチェック:**
    - [ ] Complete Agniratha Beautification 1
    - [ ] Bank 4× New Part S
    - [ ] Bank 5× Fairy Tale Diode
@@ -2408,11 +2407,11 @@ A pair cannot reach high affinity before they have been in the party together a 
    - [ ] Bank 3× New Part L
    - [ ] Bank 6× Grape Spring
 
-13. 🔴 🔴 **Telethia Investigation 1 & 2** — Strategic Intel Terminal · the only EXP here
-   - **1:** examine four **Phoenix Telethia** corpses — **Helas Pillar**, **Dios Pillar**, **Effigy of Meyneth**, **Calcos Pillar**. 27,000 G · 25,000 EXP.
-   - **2:** examine four three-headed **Gigas Telethia** corpses — **Residential District 1**, **Helas Pillar**, **Telethia Bridge**, **Judicial District**. 22,500 G · 30,000 EXP.
-   - No combat in either. Pure walking, 55,000 EXP.
-   **Sub-checkpoints:**
+13. 🔴 🔴 **テレシア調査その1 & 2** — ターミナル：情報戦略 · ここで唯一の EXP
+   - **1：****ポエニクス・テレシア**の死体を4つ調べる — **ヘラスの柱**、**ティオスの柱**、**Effigy of メイナス**、**カルコスの柱**。27,000 G · 25,000 EXP。
+   - **2：**三つ首の**ギガース・テレシア**の死体を4つ調べる — **第1居住区**、**ヘラスの柱**、**テレシア橋**、**司法区**。22,500 G · 30,000 EXP。
+   - どちらも戦闘は無い。歩くだけ、55,000 EXP。
+   **サブチェック:**
    - [ ] Examine Phoenix corpse — Helas Pillar
    - [ ] Examine Phoenix corpse — Dios Pillar
    - [ ] Examine Phoenix corpse — Effigy of Meyneth
@@ -2424,94 +2423,94 @@ A pair cannot reach high affinity before they have been in the party together a 
    - [ ] Examine Gigas corpse — Judicial District
    - [ ] Complete Telethia Investigation 2
 
-14. 🔴 🔴 After all 14 terminal quests, claim the **Cloister Key** and find the secret area
-   Interact with the final Central Tower terminal after completing all fourteen optional Agniratha quests. Use the key on the locked 3F door to discover the **Seventh Sage Cloister** before the Meyneth Shrine cutoff.
+14. 🔴 🔴 端末クエスト14個のあと、**センターサブキー**を受け取り、隠しエリアを見つける
+   最後の帝都中枢タワー端末を、任意の帝都アグニラータクエスト14個を全て終えたあとに操作する。施錠された 3F の扉に鍵を使い、**Seventh Sage Cloister**をメイナス神殿の締め切り前に発見する。
 
-15. 🔴 🔴 Free-roaming Agniratha UMs: **Experienced Tristan** (64), **Destructive Bors** (64), **Soothed Aglovale** (65), **Sentimental Flamral** (66)
-   **Sub-checkpoints:**
+15. 🔴 🔴 自由出現の帝都アグニラータ UM：**老巧のトリスタン**（64）、**修羅のボールス**（64）、**安堵のアグロヴァル**（65）、**情念のフラムラル**（66）
+   **サブチェック:**
    - [ ] Defeat Experienced Tristan
    - [ ] Defeat Destructive Bors
    - [ ] Defeat Soothed Aglovale
    - [ ] Defeat Sentimental Flamral
 
-16. 🔴 🔴 ⛏️ **Lewisia Silver** ×2 — Nature 5. Agniratha collection · backup: trade Berryjammy in Colony 6
+16. 🔴 🔴 ⛏️ **レウィシアシルバー** ×2 — 自然5。帝都アグニラータの収集 · 予備：ストロジャムをコロニー6で交換
 
-17. 🔴 🔴 ⛏️ **Blue Light Amp** ×3 — Special 5. Agniratha collection · backup: trade Oleksiy in Colony 6
+17. 🔴 🔴 ⛏️ **ブルーライトアンプ** ×3 — 特殊5。帝都アグニラータの収集 · 予備：オルクホングをコロニー6で交換
 
-18. ⛏️ ⛏️ **Fortune Feather** ×1 — Commerce 5. Agniratha collection, **also in Colony 6**. Safe, grab it anyway
+18. ⛏️ ⛏️ **幸福の羽** ×1 — 商業5。帝都アグニラータの収集、**コロニー6にもある**。安全だが、それでも取っておく
 
-19. 🔴 🔴 Register every unique **Agniratha / Central Tower** shop appearance
-   Buy one of every distinct appearance before the Meyneth Shrine lockout, especially **Machina Cannon** and **Machina Biter II**. Also register **Machina Rod, Machina Nibbler, Machina Sniper, Palva Drones** and **Grizzly Drones** from Mechonis Field drops. Fashion unlocks are global, so save → buy/farm → reload is valid.
+19. 🔴 🔴 **帝都アグニラータ／帝都中枢タワー**の店の固有外見を全て登録する
+   メイナス神殿の閉鎖前に、異なる外見を1つずつ買う。特に**マキナ・キャノン**と**マキナ・カムカム II**。加えて**マキナ・ロッド、マキナ・バクバク、マキナ・スナイプ、パルヴァフラップ**と**グリズリフラップ**を、機神界フィールドのドロップから登録する。外見の解放は全体共通なので、セーブ → 購入／周回 → リロードでよい。
 
-20. 🔴 🔴 **The History of the Capital** — finish it here
-   Collect **1x Memory 903** from the **Judicial District**, then return to **Zilex** on Fallen Arm. 16,800 G · 14,500 EXP · +500 Rep. You took this in Chapter 12; this is the only window to complete it.
+20. 🔴 🔴 **帝都の歴史** — ここで終わらせる
+   **1x メモリー903**を**司法区**から集め、**リレット**へ戻る。場所は落ちた腕。16,800 G · 14,500 EXP · +500 名声。これは12章で受けた。完了できるのはこの期間だけだ。
 
-21. 🔴 🔴 **Best Boots** — Bozatrox, **Machina Refuge, Mechonis Field** · dies with the area
-   - **Needs** `To My Loved One...` from Ch12.
-   - **Do:** **2x Reinforced Jet** + **2x Reinforced Plunger**.
-   - **Pays:** 20,500 G · 18,000 EXP · **+700 Rep** · **M100 Greaves** with **Quick Step V**.
-   - Good news: Bozatrox **survives** — she relocates to the Rotating Bulkhead on Fallen Arm afterwards with different stock.
+21. 🔴 🔴 **愛のブーツ** — ボゼローネ、**マシーナの隠れ家、機神界フィールド** · エリアと一緒に消滅する
+   - **条件**12章の`愛するヒトへ`。
+   - **手順：****2x 強化ジェット部品** + **2x 強化プランジャ部品**。
+   - **報酬：** 20,500 G · 18,000 EXP · **+700 名声** · **百式グリーヴ**、**移動速度アップ V**付き。
+   - 朗報：ボゼローネは**残る**。その後回転式防壁へ移り、場所は落ちた腕、在庫は変わる。
 
-22. 🔴 🔴 **Mechonis Field Challenge Quest 1** — Garrisoned Troop → **Revolutionary Bifrons** (60) · 65,000 G
-   164,400 HP, ~30% spawn, at the **4F Main Power Switch**. Has a **520-damage spike counter** — bring Spike Defence or stop attacking into it. Weak to Topple, Daze, Bind, Confuse.
+22. 🔴 🔴 **機神界フィールド 強敵を求めてその1** — マシーナ駐留隊 → **革命のビフロンス** (60) · 65,000 G
+   164,400 HP、出現 ~30%、場所は**5Ｆ主電源区画**。**520ダメージのスパイクカウンター**がある。スパイク防御を持つか、それに攻撃を当て続けない。弱点は転倒、気絶、バインド、パニック。
 
-23. 🔴 🔴 **Mechonis Field Challenge Quest 2** — Garrisoned Troop → **Infernal Crocell** (58) · 62,000 G
-   209,900 HP, ~30% spawn, also around the **4F Main Power Switch**. Aerial Mechon, weak to Topple.
+23. 🔴 🔴 **機神界フィールド 強敵を求めてその2** — マシーナ駐留隊 → **地獄のクロケル** (58) · 62,000 G
+   209,900 HP、出現 ~30%、同じく**5Ｆ主電源区画**の周辺。飛行型機神兵、弱点は転倒。
 
-24. 🔴 🔴 **Mechonis Field Monster Quest** — kill **3x M66/TRICK** · 35,000 G
+24. 🔴 🔴 **機神界フィールドの討伐クエスト** — **3x 六六式・ＰＯＫＥＲ**を倒す · 35,000 G
 
-25. 🔴 🔴 Free-roaming Mechonis Field UMs: **Amorous Arca** (57), **Destroyer Salvacion** (59), **Commander Oracion** (61)
-   Oracion is in the **Spent Fuel Tank** and requires a jump to reach.
-   **Sub-checkpoints:**
+25. 🔴 🔴 自由出現の機神界フィールド UM：**艶笑のアールカ**（57）、**隠滅のサルバシオン**（59）、**将星のオラシオン**（61）
+   Oracion は**廃棄燃料タンク**にいて、届くにはジャンプが必要だ。
+   **サブチェック:**
    - [ ] Defeat Amorous Arca
    - [ ] Defeat Destroyer Salvacion
    - [ ] Defeat Commander Oracion
 
-26. 🔴 🔴 ⛏️ **Mossy Panel** ×2 (Commerce 4) and **Azure Hollyhock** ×2 (Special 4) — Mechonis Field collection
-   Backups exist — Nopo'rikh in Colony 6 for the Panel, Scarlen in Satorl Marsh post-Mechonis Core for the Hollyhock — but grab them here.
-   **Sub-checkpoints:**
+26. 🔴 🔴 ⛏️ **モスプレート** ×2（商業4）と**シーブルーストン** ×2（特殊4）— 機神界フィールドの収集
+   予備はある。Panel 用はノポリック、場所はコロニー6。Hollyhock 用はセガール、場所は燐光の地ザトール、機神界中枢後。それでもここで取っておく。
+   **サブチェック:**
    - [ ] Bank 2× Mossy Panel
    - [ ] Bank 2× Azure Hollyhock
 
-27. 🔴 🔴 Fill the **Mechonis Field** and **Agniratha** Collectopaedia pages
-   Mechonis Field's chain includes **Taurus Greaves** and **Taurus Helm**. Neither area returns.
-   **Sub-checkpoints:**
+27. 🔴 🔴 **機神界フィールド**と**帝都アグニラータ**のコレペディアページを埋める
+   機神界フィールドの連鎖には**タウロスグリーヴ**と**タウロスヘルム**が含まれる。どちらのエリアも戻らない。
+   **サブチェック:**
    - [ ] Complete Mechonis Field Collectopaedia
    - [ ] Complete Agniratha Collectopaedia
 
-28. ➡️ **MAIN STORY · Shrine Transport** — unlock the Meyneth Shrine route
-   - **Safe-to-advance gate:** clear all fourteen Agniratha terminal quests and the red city checklist above.
-   - **Do:** begin the four-pillar verification sequence tracked on the next card.
-   - **Finish:** activate the Data Centre transport, then use the transporter to Meyneth Shrine.
+28. ➡️ **本編 · 神殿への転送装置** — メイナス神殿ルートを解禁
+   - **進行可の関門:** 帝都アグニラータの締めクエスト14件と、上の街の赤いチェックリストをすべて片付ける。
+   - **手順:** 次のカードが追う、四柱の認証手順を始める。
+   - **完了:** 情報記録センターの転送装置を起動し、転送でメイナス神殿へ行く。
 
-29. ➡️ **MAIN STORY · Pillar Verification Devices** — verify all four pillars
-   - **Calcos Pillar:** use its Verification Device.
-   - **Helas Pillar:** use its Verification Device.
-   - **Dios Pillar:** use its Verification Device.
-   - **Cleas Pillar:** use its Verification Device, then return to the Central Tower.
+29. ➡️ **本編 · 四柱の認証装置** — 四柱をすべて認証
+   - **カルコスの柱:** その認証装置を使う。
+   - **ヘラスの柱:** その認証装置を使う。
+   - **ティオスの柱:** その認証装置を使う。
+   - **クリアスの柱:** その認証装置を使い、帝都中枢タワーに戻る。
 
-> **ℹ️ Note — Central Factory — surprise quests trigger by walking, not by talking**
+> **ℹ️ メモ — 中央工廠 — サプライズクエストは会話ではなく、歩くと発生する**
 >
-> All four appear automatically when you approach the right spot and **cannot be declined**. There is no giver to find, so **sweep the map** rather than looking for NPCs.
+> 4つとも正しい場所に近づくと自動で現れ、**辞退できない**。探す依頼人はいない。NPC を探すのではなく、**マップを歩く**。
 >
-> These three die at Mechonis Core even though the area itself returns in Chapter 16.
+> この3つは機神界中枢で消滅する。エリア自体は16章で戻る。
 
-30. 🔴 🔴 **Eliminate the Backup!** — **Storage Depot** → **Beautiful Vagul** (60)
-   - 196,300 HP. Uses **Thunder Flash** which inflicts Paralysis. Weak to Topple.
-   - **Pays:** 24,500 G · 23,500 EXP · Blaze Attack IV, Paralysis Resist IV.
+30. 🔴 🔴 **待機部隊を叩け！** — **資材置き場** → **梅花のヴァグール** (60)
+   - 196,300 HP。**サンダーボルト**を使い、パラライズを付与する。弱点は転倒。
+   - **報酬：** 24,500 G · 23,500 EXP · 炎熱追撃 IV、パラライズ抵抗 IV。
 
-31. 🔴 🔴 **Roof Battle** — **2F Training Ground Roof** → **Venerable Focalor** (64)
-   - **Getting there:** jump from the north end of the Central Lift **while it is moving**. Fiddly, and the only way up.
-   - 356,500 HP, Extra-Large Mechon. Flame Throw inflicts Blaze; its physical attacks cause Bleed. Weak to Break and Topple, immune to Instant Death.
-   - **Pays:** 30,000 G · 38,500 EXP · Chill Attack IV, Arts Seal Resist IV.
+31. 🔴 🔴 **屋上の決戦！** — **2F 演習場屋上** → **千秋のフォカロル**（64）
+   - **行き方：**工場中央区リフトの北端から、**動いているあいだに**跳ぶ。繊細で、上る唯一の方法だ。
+   - 356,500 HP、Extra-大型機神兵。フレイムスロウは炎熱を付与する。物理攻撃は出血を起こす。弱点は崩しと転倒、即死は無効。
+   - **報酬：** 30,000 G · 38,500 EXP · 冷気追撃 IV、アーツ封印抵抗 IV。
 
-32. 🔴 🔴 **Daring Assault** — **Mechon Factory**
-   - **Do:** kill **M96 Crisis Unit** (boss-class) plus **2x Crisis Response Unit**.
-   - **Pays:** 27,000 G · 20,000 EXP · Retrieved Armour, Retrieved Leggings.
+32. 🔴 🔴 **強行突破！** — **機神兵生産工場**
+   - **手順：****緊急防衛型九六式**（ボスクラス）を倒し、さらに**2x 緊急防衛型強襲式**。
+   - **報酬：** 27,000 G · 20,000 EXP · 回収七号アーマー、回収七号レギンス。
 
-33. 👾 Central Factory UMs: **Mild Florence** (58), **Faithful Lancelot** (59), **Synchronised Gaheris** (61), **Balanced Palamedes** (62), **Sinful Lamorak** (63), **Temporal Gawain** (65), **Magestic Mordred** (70)
+33. 👾 中央工廠の UM：**暖冬のフロレンス**（58）、**信仰のランスロット**（59）、**連奏のガヘリス**（61）、**天秤のパロミデス**（62）、**原罪のラモラック**（63）、**星霜のガウェイン**（65）、**王城のモルドレッド**（70）
    Gawain only appears after you open the hangar door. All of these get a second window in Chapter 16.
-   **Sub-checkpoints:**
+   **サブチェック:**
    - [ ] Defeat Mild Florence
    - [ ] Defeat Faithful Lancelot
    - [ ] Defeat Synchronised Gaheris
@@ -2520,41 +2519,41 @@ A pair cannot reach high affinity before they have been in the party together a 
    - [ ] Defeat Temporal Gawain
    - [ ] Defeat Magestic Mordred
 
-34. ⛏️ ⛏️ **Angel Engine X** ×2 (Special 5) and **Black Styrene** ×2 (Housing 5) — Central Factory collection
-   Black Styrene is also in Colony 6, so it is safe. Angel Engine X backup is a trade with Shilx in Colony 6.
-   **Sub-checkpoints:**
+34. ⛏️ ⛏️ **エンゼルエンジンA** ×2（特殊5）と**クロスチロール** ×2（住宅5）— 中央工廠の収集
+   クロスチロールはコロニー6にもあるので安全だ。エンゼルエンジンAの予備はシータクロスとの交換で、場所はコロニー6だ。
+   **サブチェック:**
    - [ ] Bank 2× Angel Engine X
    - [ ] Bank 2× Black Styrene
 
-35. ⚪ Fill the **Central Factory** Collectopaedia page (**Machina Driver III**)
+35. ⚪ **中央工廠**のコレペディアページを埋める（**マキナ・バンカー III**）
    Second window in Chapter 16 if you run out of time here.
 
 ---
 
-## Chapter 15 — Mechonis Core
+## Chapter 15 — 機神界中枢
 
-**Level 76-80** · 10 tracked items
+**レベル 76-80** · 追跡 10件
 
-> **The largest loss point in the game.** Roughly 90 quests vanish the moment you finish here. Do not take one step into Mechonis Core until this list is empty.
+> **ゲーム最大の損失地点だ。**ここを終えた瞬間、およそ90個のクエストが消える。このリストが空になるまで、機神界中枢へ一歩も入らない。
 
-> **📊 Set your level — Set level to 78**
+> **📊 レベルを合わせる — Set level to 78**
 >
-> Mechonis Core is a linear boss run. 78 clears it. Everything that matters this chapter happens **before** you walk in.
+> 機神界中枢は直線のボス連戦だ。78で処理できる。この章で重要なことは、中へ歩いて入る**前**に起きる。
 
-> **💀 Boss prep — 🔴 STOP. Run this checklist before entering Mechonis Core.**
+> **💀 ボス準備 — 🔴 止まれ。機神界中枢に入る前に、このチェックリストを実行する。**
 >
-> The precise trigger phrase in the game files is *after the party disperses in Colony 6 having escaped Mechonis Core*. When that happens, everything below is gone.
+> ゲームファイル内の正確な発生句は*パーティがコロニー6で散ったあと（機神界中枢を脱出済み）*だ。それが起きると、これより下は全て消える。
 >
-> **1. Every Alcamoth NPC quest.** All of them, named and generic. The city's people leave or die.
-> **2. Every Agniratha terminal quest** — though those already died at the Meyneth Shrine in Ch14.
-> **3. The three Central Factory surprise quests** and the two Unique Monsters they spawn.
-> **4. `New Weapon for Fiora`**, sitting in the Ventilation Conduit right on your path.
-> **5. `A Gift?`** — the Satorl Marsh Zazadan chain finale, from all the way back in Chapter 6.
+> **1. 皇都アカモートの NPC クエストを全て。**名前付きも汎用も全て。街の人々は去るか、死ぬ。
+> **2. 帝都アグニラータの端末クエストを全て**。ただしそれらは14章のメイナス神殿ですでに消滅している。
+> **3. 中央工廠のサプライズクエスト3つ**と、それらが出現させるユニークモンスター2体。
+> **4. `フィオルンの新武器`**。送風機内ジャンクス前にあり、経路のすぐ上だ。
+> **5. `オクリモノ？`** — 燐光の地ザトールのザザダン連鎖の最終で、6章まで遡る。
 >
-> **What survives:** the Alcamoth **area** (on foot from the Eryth Sea Centre Gate), its six Heart-to-Hearts, and Fallen Arm entirely.
+> **残るもの：**皇都アカモートの**エリア**（エルト海のセンターゲートから徒歩）、Heart-to-Hearts 6つ、そして落ちた腕全体。
 
-1. 🔴 **Every Alcamoth quest.** Dangerous Ambition, Find the Kingpin, Adviser Hunt, Evidence Collection, Destroying the City Trade, The Deciphering Machine, A Necessary Upgrade, Talia's Research, Bring Back My Son!, Teaching Materials, Brave Actions, Protect the Capital!, How Do They Feel?, How Do I Feel?, Together Forever, A Friend in Need, Preparing for Adventure 1-3, Adventurers in Peril, Building Bridges, Believing Again, Starlight Seeker, Starlight Gazer, Back Pain, Looking for Gold Bugs, Losing the Taste for Alcohol, Looking for a Lost Son, Looking for a Lost Daughter, Going Out to Play, Getting a Member's Card.
-   **Sub-checkpoints:**
+1. 🔴 **皇都アカモートのクエストを全て。**危険な野望、黒幕を探せ、参謀を追い詰めろ、証拠集め、皇都での取引を潰せ、文献解読装置、文献解読装置改良、タリアの研究、息子を連れ戻して！、教材の材料を集めて！、勇気ある行動、皇都の安全を守れ！、気持ちを知りたい、自分の本心を知りたい、いつまでも君と一緒に、親友のために、大冒険の準備 1-3、冒険者達の遭難、他種族嫌いを治して、もう一度、信じる心を、輝きをその小さな手に、更なる輝きをその手に、腰痛持ちは大変だ！、金色の虫を求めて、お酒に強くなりたい、迷子の息子を捜して、迷子の娘を捜して、息子が外で遊べる様に、会員証を手に入れろ。
+   **サブチェック:**
    - [ ] Dangerous Ambition
    - [ ] Find the Kingpin
    - [ ] Adviser Hunt
@@ -2587,267 +2586,267 @@ A pair cannot reach high affinity before they have been in the party together a 
    - [ ] Going Out to Play
    - [ ] Getting a Member's Card
 
-2. 🔴 The **28 Alcamoth generic quests**: 12 Monster parts, 4 Challenges, 4 Material, 4 Collection and 4 Search quests.
-   **Sub-checkpoints:**
-   - [ ] Alcamoth Monster Quest 1 — Part 1 — 5× Cruz Paguls — Pickup 06:00–18:00 · Imperial Palace. Defeat Cruz Paguls at Latael Shore or Hovering Reef 5.
-   - [ ] Alcamoth Monster Quest 1 — Part 2 — 3× Eryth Ansels — Pickup 06:00–18:00 · Imperial Palace. Defeat Eryth Ansels by day around Hovering Reefs 4, 5, 7 or 9.
-   - [ ] Alcamoth Monster Quest 1 — Part 3 — 2× Ciconia Ekidnos — Pickup 06:00–18:00 · Imperial Palace. Defeat Ciconia Ekidnos around Hovering Reefs 7 or 10.
-   - [ ] Alcamoth Monster Quest 2 — Part 1 — 3× Chloro Laias — Pickup 18:00–06:00 · Imperial Palace. Defeat Chloro Laias at night around Hovering Reefs 2, 4, 5 or 9.
-   - [ ] Alcamoth Monster Quest 2 — Part 2 — 5× Stella Eks — Pickup 18:00–06:00 · Imperial Palace. Defeat Stella Eks around Anu Shore, Khatorl Seal Island or the outer reefs.
-   - [ ] Alcamoth Monster Quest 2 — Part 3 — 1× Racti Lexos — Pickup 18:00–06:00 · Imperial Palace. Defeat Racti Lexos around Soltnar Seal Island or Hovering Reefs 5 and 9.
-   - [ ] Alcamoth Monster Quest 3 — Part 1 — 5× Unine Hodes — Pickup 06:00–18:00 · Melfica Road. Defeat Unine Hodes around Showdown Cliff or Hovering Reefs 2 and 3.
-   - [ ] Alcamoth Monster Quest 3 — Part 2 — 2× Tocos Orluga — Pickup 06:00–18:00 · Melfica Road. Defeat Tocos Orluga around Hode Refuge or Khatorl Seal Island.
-   - [ ] Alcamoth Monster Quest 3 — Part 3 — 1× Pelargos Ekidno — Pickup 06:00–18:00 · Melfica Road. Defeat Pelargos Ekidno around Hode Refuge or Khatorl Seal Island.
-   - [ ] Alcamoth Monster Quest 4 — Part 1 — 3× Somati Kromars — Pickup 18:00–06:00 · Ascension Hall. Defeat Somati Kromars at Soltnar Seal Island.
-   - [ ] Alcamoth Monster Quest 4 — Part 2 — 4× Tussock Kromars — Pickup 18:00–06:00 · Ascension Hall. Defeat Tussock Kromars at Soltnar Seal Island.
-   - [ ] Alcamoth Monster Quest 4 — Part 3 — 5× Otol Kromars — Pickup 18:00–06:00 · Ascension Hall. Defeat Otol Kromars at Soltnar Seal Island.
-   - [ ] Alcamoth Challenge 1 — Proper Bandaz (shooting stars) — Pickup 18:00–06:00 · Fountain of Hope. Proper Bandaz appears near Secluded Island during shooting stars.
-   - [ ] Alcamoth Challenge 2 — Tempestuous Edegia (night) — Pickup 18:00–06:00 · Fountain of Eternity. Tempestuous Edegia appears on Hovering Reef 10 at night.
-   - [ ] Alcamoth Challenge 3 — Peeling Kircheis — Pickup 06:00–18:00 · Ascension Hall. Peeling Kircheis is on Hovering Reef 7.
-   - [ ] Alcamoth Challenge 4 — Lightspeed Sonid — Pickup 06:00–18:00 · Fountain of Eternity. Lightspeed Sonid is around Anu Shore.
-   - [ ] Alcamoth Material Quest 1 — 2× Glossy Grady Fans — Pickup 06:00–18:00 · Main Entrance. Collect Glossy Grady Fans from Lunar Gradys at Eryth Sea.
-   - [ ] Alcamoth Material Quest 2 — 5× Orluga Grass Skirts — Pickup 06:00–18:00 · Imperial Palace. Collect Orluga Grass Skirts from Orlugas in Makna Forest.
-   - [ ] Alcamoth Material Quest 3 — 3× Orluga Slacks — Pickup 06:00–18:00 · Main Entrance. Collect Orluga Slacks from Orlugas at Eryth Sea.
-   - [ ] Alcamoth Material Quest 4 — 2× Lexos Beards — Pickup 06:00–18:00 · Imperial Palace. Collect Lexos Beards from Racti Lexos at Eryth Sea.
-   - [ ] Alcamoth Collection Quest 1 — 3× Gold Burdock — Pickup 06:00–18:00 · Melfica Road. Collect Gold Burdock from Eryth Sea collection points.
-   - [ ] Alcamoth Collection Quest 2 — 2× White Tails — Pickup 06:00–18:00 · Main Entrance. Collect White Tails from Eryth Sea collection points.
-   - [ ] Alcamoth Collection Quest 3 — 5× Stardrops — Pickup 06:00–18:00 · Fountain of Hope. Collect Stardrops from Alcamoth collection points.
-   - [ ] Alcamoth Collection Quest 4 — 2× Spiral Lamps — Pickup 18:00–06:00 · Melfica Road. Collect Spiral Lamps from High Entia Tomb collection points.
-   - [ ] Alcamoth Search Quest 1 — Mother's Necklace — Pickup 18:00–06:00 · Fountain of Hope. Find the Mother's Necklace on Alcamoth's second level.
-   - [ ] Alcamoth Search Quest 2 — Silver Ring — Pickup 18:00–06:00 · Fountain of Hope. Find the Silver Ring in Alcamoth.
-   - [ ] Alcamoth Search Quest 3 — Merchant's Gift — Pickup 06:00–18:00 · Fountain of Eternity. Find the Merchant's Gift on Alcamoth's lower level.
-   - [ ] Alcamoth Search Quest 4 — Health Amulet — Pickup 18:00–06:00 · Fountain of Hope. Find the Health Amulet on Alcamoth's lower level.
+2. 🔴 **28 個の皇都アカモート汎用クエスト**：モンスター素材12、チャレンジ4、素材4、収集4、探索4。
+   **サブチェック:**
+   - [ ] Alcamoth Monster Quest 1 — Part 1 — 5× Cruz Paguls — Pickup 06:00–18:00 · 皇宮。ラタエル海岸か第5浮遊岩礁で Cruz Paguls を倒す。
+   - [ ] Alcamoth Monster Quest 1 — Part 2 — 3× Eryth Ansels — Pickup 06:00–18:00 · 皇宮。昼に Hovering Reefs 4、5、7、9 のいずれかの周辺で Eryth Ansels を倒す。
+   - [ ] Alcamoth Monster Quest 1 — Part 3 — 2× Ciconia Ekidnos — Pickup 06:00–18:00 · 皇宮。Hovering Reefs 7 か 10 の周辺で Ciconia Ekidnos を倒す。
+   - [ ] Alcamoth Monster Quest 2 — Part 1 — 3× Chloro Laias — Pickup 18:00–06:00 · 皇宮。夜に Hovering Reefs 2、4、5、9 のいずれかの周辺で Chloro Laias を倒す。
+   - [ ] Alcamoth Monster Quest 2 — Part 2 — 5× ステルラ・エクス — Pickup 18:00–06:00 · 皇宮。ステルラ・エクスをアヌ海岸、カトール封印島、または外側の礁の周辺で倒す。
+   - [ ] Alcamoth Monster Quest 2 — Part 3 — 1× ラクティー・レクソス — Pickup 18:00–06:00 · 皇宮。ラクティー・レクソスをソルタナ封印島、または Hovering Reefs 5 と 9 の周辺で倒す。
+   - [ ] Alcamoth Monster Quest 3 — Part 1 — 5× Unine Hodes — Pickup 06:00–18:00 · メルフィカ通り。敵対者の岸壁、または Hovering Reefs 2 と 3 の周辺で Unine Hodes を倒す。
+   - [ ] Alcamoth Monster Quest 3 — Part 2 — 2× トコス・オルガ — Pickup 06:00–18:00 · メルフィカ通り。トコス・オルガをフーディの隠れ家かカトール封印島の周辺で倒す。
+   - [ ] Alcamoth Monster Quest 3 — Part 3 — 1× ペラルゴス・エキドナ — Pickup 06:00–18:00 · メルフィカ通り。ペラルゴス・エキドナをフーディの隠れ家かカトール封印島の周辺で倒す。
+   - [ ] Alcamoth Monster Quest 4 — Part 1 — 3× Somati Kromars — Pickup 18:00–06:00 · 聖天翔の間。ソルタナ封印島で Somati Kromars を倒す。
+   - [ ] Alcamoth Monster Quest 4 — Part 2 — 4× Tussock Kromars — Pickup 18:00–06:00 · 聖天翔の間。ソルタナ封印島で Tussock Kromars を倒す。
+   - [ ] Alcamoth Monster Quest 4 — Part 3 — 5× Otol Kromars — Pickup 18:00–06:00 · 聖天翔の間。ソルタナ封印島で Otol Kromars を倒す。
+   - [ ] Alcamoth Challenge 1 — 常道のベンダズ（流星） — Pickup 18:00–06:00 · 希望の噴水。流星のとき常道のベンダズが鎮まりの離島の近くに出現する。
+   - [ ] Alcamoth Challenge 2 — 大嵐のエイデジア（夜） — Pickup 18:00–06:00 · 永遠の噴水。夜に大嵐のエイデジアが第10浮遊岩礁に出現する。
+   - [ ] Alcamoth Challenge 3 — 剥落のキルヒアイス — Pickup 06:00–18:00 · 聖天翔の間。剥落のキルヒアイスは第7浮遊岩礁にいる。
+   - [ ] Alcamoth Challenge 4 — 光速のソニード — Pickup 06:00–18:00 · 永遠の噴水。光速のソニードはアヌ海岸の周辺にいる。
+   - [ ] Alcamoth Material Quest 1 — 2× 光沢のあるグラディの扇 — Pickup 06:00–18:00 · Main Entrance。光沢のあるグラディの扇をエルト海の Lunar Gradys から集める。
+   - [ ] Alcamoth Material Quest 2 — 5× オルガの草スカート — Pickup 06:00–18:00 · 皇宮。オルガの草スカートをマクナ原生林の Orlugas から集める。
+   - [ ] Alcamoth Material Quest 3 — 3× オルガ族の悪魔パンツ — Pickup 06:00–18:00 · Main Entrance。オルガ族の悪魔パンツをエルト海の Orlugas から集める。
+   - [ ] Alcamoth Material Quest 4 — 2× レクソスの髭 — Pickup 06:00–18:00 · 皇宮。レクソスの髭をラクティー・レクソスから集める。場所はエルト海。
+   - [ ] Alcamoth Collection Quest 1 — 3× ゴールドゴボウ — Pickup 06:00–18:00 · メルフィカ通り。ゴールドゴボウをエルト海の採取ポイントから集める。
+   - [ ] Alcamoth Collection Quest 2 — 2× 白いの尾 — Pickup 06:00–18:00 · Main Entrance。白いの尾をエルト海の採取ポイントから集める。
+   - [ ] Alcamoth Collection Quest 3 — 5× Stardrops — Pickup 06:00–18:00 · 希望の噴水。皇都アカモートの採取ポイントから Stardrops を集める。
+   - [ ] Alcamoth Collection Quest 4 — 2× Spiral Lamps — Pickup 18:00–06:00 · メルフィカ通り。ハイエンター墓所の採取ポイントから Spiral Lamps を集める。
+   - [ ] Alcamoth Search Quest 1 — 母の形見のネックレス — Pickup 18:00–06:00 · 希望の噴水。母の形見のネックレスを皇都アカモートの2階で見つける。
+   - [ ] Alcamoth Search Quest 2 — シルバーリング — Pickup 18:00–06:00 · 希望の噴水。シルバーリングを皇都アカモートで見つける。
+   - [ ] Alcamoth Search Quest 3 — 行商人との記念品 — Pickup 06:00–18:00 · 永遠の噴水。行商人との記念品を皇都アカモートの下層で見つける。
+   - [ ] Alcamoth Search Quest 4 — 健康祈願のお守り — Pickup 18:00–06:00 · 希望の噴水。健康祈願のお守りを皇都アカモートの下層で見つける。
 
-3. 🔴 **Preparing for Adventure 3** spawns **Lakebed Orthlus** (40) back at Agora Shore, Colony 9. Quest-exclusive UM, dies with the quest.
+3. 🔴 **続々・大冒険の準備**が**湖底のオフレス**（40）をアゴラの岸、コロニー9に出現させる。クエスト限定の UM で、クエストと一緒に消滅する。
 
-4. 🔴 **Zel Argentis vs En Argentis.** Speak to **both** and invite **Don** first, then take one. Both +4 Pop, functionally identical.
-   **Sub-checkpoints:**
-   - [ ] Speak to Zel Argentis — 18:00–06:00 · Alcamoth lower level · fountain by the south escalator
-   - [ ] Speak to En Argentis — 18:00–06:00 · Alcamoth lower level · south of Fountain of Hope
-   - [ ] Invite Don first — 18:00–06:00 · Alcamoth · northeast of Fountain of Eternity
+4. 🔴 **ゼル・シルバー対エン・シルバー。****両方**に話し、先に**Don**を招いてから片方を取る。どちらも +4 人口で、実質同じ。
+   **サブチェック:**
+   - [ ] Speak to Zel Argentis — 18:00–06:00 · 皇都アカモートの下層 · 南のエスカレーター脇の噴水
+   - [ ] Speak to En Argentis — 18:00–06:00 · 皇都アカモートの下層 · 希望の噴水の南
+   - [ ] Invite Don first — 18:00–06:00 · 皇都アカモート · 永遠の噴水の北東
    - [ ] Invite either Zel or En Argentis — Return to the chosen sister at her same night location
 
-5. 🔴 Confirm the **Alcamoth Grand Prix courses** are cleared with all seven characters.
+5. 🔴 **皇都アカモートの Grand Prix コース**を、7人全員でクリア済みか確認する。
 
-6. 🔴 Confirm **Lewisia Silver** and **Blue Light Amp** are banked.
+6. 🔴 **レウィシアシルバー**と**ブルーライトアンプ**を確保済みか確認する。
 
-7. 🔴 **New Weapon for Fiora** — Junks Staff, at the **Ventilation Conduit**. Timed, dies here. 29,500 G, 32,000 EXP and the **War Blades**, a Fiora weapon. Easy to walk past on the way into the Core.
+7. 🔴 **フィオルンの新武器** — ジャンクス・スタッフ、場所は**送風機内ジャンクス前**。時限で、ここで消滅する。29,500 G、32,000 EXP、そして**ウォーブレード**。フィオルンの武器だ。Core へ向かう途中で通り過ぎやすい。
 
-8. ⚪ The six Alcamoth Heart-to-Hearts are **safe**. You can walk in from the **Centre Gate at Eryth Sea** afterwards — only Skip Travel dies.
+8. ⚪ 皇都アカモートの Heart-to-Hearts 6つは**安全**だ。その後は**センターゲート（エルト海）**から歩いて入れる。死ぬのは Skip Travel だけだ。
 
-9. ➡️ **MAIN STORY · Save Bionis** — Mechonis Core
-   - **Point of no return:** do not enter until every Chapter 15 deadline card above is complete.
-   - **Do:** defeat the **three Energy Devices** surrounding Yaldabaoth.
-   - **Then:** finish the Mechonis Core sequence; the world state changes immediately afterward.
+9. ➡️ **本編 · 巨神界の崩壊を止める** — 機神界中枢
+   - **引き返し不能:** 上の15章期限カードをすべて完了するまで入らない。
+   - **手順:** **3体の Energy Devices**を倒す。ヤルダバオトを囲んでいる。
+   - **その後:** 機神界中枢の一連を終える。直後に世界の状態が変わる。
 
-10. 🔴 **Melia's Lament.** Immediately after escaping Mechonis Core and landing in Colony 6, **control Melia and talk to Shulk**. One-time window.
+10. 🔴 **メリアの Lament。**機神界中枢を脱出してコロニー6に着地した直後、**メリアを操作してシュルクに話す**。一度きりの機会だ。
 
 ---
 
-## Chapter 16 — Central Factory revisited
+## Chapter 16 — 中央工廠の再訪
 
-**Level 80-84** · 7 tracked items
+**レベル 80-84** · 追跡 7件
 
-> **📊 Set your level — Set level to 82**
+> **📊 レベルを合わせる — Set level to 82**
 >
 > A short recovery chapter. 82 is fine. The real levelling decision is the post-game push to 99.
 
-> **ℹ️ Note — This chapter is a second chance, not new content**
+> **ℹ️ メモ — This chapter is a second chance, not new content**
 >
-> You re-enter Central Factory via Junks through a cooling duct on the Mechonis' back, landing near the **Apocrypha Generator**.
+> 中央工廠へジャンクス経由で再入場し、機神の背の冷却ダクトを通って**Apocrypha Generator**の近くに着地する。
 >
-> **What you get back:** the nine Central Factory Unique Monsters, its Collectopaedia page, and the **Angel Engine X** and **Black Styrene** collection points.
-> **What you do NOT get back:** the three surprise quests (Eliminate the Backup!, Daring Assault, Roof Battle) — those died at Mechonis Core along with the two Unique Monsters they spawned. If you missed them in Chapter 14, they are gone.
+> **戻るもの：**中央工廠のユニークモンスター9体、そのコレペディアのページ、そして**エンゼルエンジンA**と**クロスチロール**の収集ポイント。
+> **戻ってこないもの：**サプライズクエスト3つ（待機部隊を叩け！、強行突破！、屋上の決戦！）。それらは出現したユニークモンスター2体と一緒に機神界中枢で消滅した。14章で逃したなら、もう無い。
 >
-> After this chapter the area is permanently inaccessible, and its collectables are only obtainable through Colony 6 reconstruction or NPC trading.
+> この章のあと、エリアは永久に入れなくなる。収集品はコロニー6の復興か、NPC の交換でしか入手できない。
 
-1. ⚪ Second window: the **9 Central Factory Unique Monsters**
-   Mild Florence (58), Faithful Lancelot (59), Synchronised Gaheris (61), Balanced Palamedes (62), Sinful Lamorak (63), Temporal Gawain (65), Magestic Mordred (70). Beautiful Vagul and Venerable Focalor are **not** here — they were quest-exclusive and are gone.
+1. ⚪ 2回目の機会：**9 体の中央工廠ユニークモンスター**
+   暖冬のフロレンス（58）、信仰のランスロット（59）、連奏のガヘリス（61）、天秤のパロミデス（62）、原罪のラモラック（63）、星霜のガウェイン（65）、王城のモルドレッド（70）。梅花のヴァグールと千秋のフォカロルはここには**いない**。クエスト限定で、もう無い。
 
-2. ⚪ Second window: the **Central Factory Collectopaedia page** (**Machina Driver III**)
+2. ⚪ 2回目の機会：**中央工廠のコレペディアページ**（**マキナ・バンカー III**）
 
-3. ⛏️ ⛏️ Second window: **Angel Engine X** ×2 (Special 5) and **Black Styrene** ×2 (Housing 5)
-   Backups if you still miss them: trade **Shilx** in Colony 6 for Angel Engine X; Black Styrene is also a Colony 6 collectable.
-   **Sub-checkpoints:**
+3. ⛏️ ⛏️ 2回目の機会：**エンゼルエンジンA** ×2（特殊5）と**クロスチロール** ×2（住宅5）
+   それでも逃した場合の予備：**シータクロス**をコロニー6で交換してエンゼルエンジンAを得る。クロスチロールもコロニー6の収集品だ。
+   **サブチェック:**
    - [ ] Bank 2× Angel Engine X
    - [ ] Bank 2× Black Styrene
 
-4. 🏁 🏁 **Colony 9 Grand Prix pair** — Rural Road and Colony 9 Wild Ride · **feet** slot
-   - Unlocks after the reunion at Hidden Machina Village. **The last of the five track pairs.**
-   - With this you have access to all 10 courses. Full completion is **70 clears** (5 tracks × 7 characters × 2 modes) for the permanent Ether Jet acceleration and boost bonus — chip away at it rather than saving it all for the end.
+4. 🏁 🏁 **コロニー9 Grand Prix の組** — Rural Road とコロニー9 Wild Ride · **徒歩**枠
+   - マシーナの隠れ里での再会のあと解禁。**5組のコースペアの最後。**
+   - これで10コース全てに入れる。完全達成は**70 クリア**（5コース × 7人 × 2モード）で、恒久のエーテル Jet の加速とブーストのボーナスになる。終わりまで溜めず、少しずつ削る。
 
-5. ⛏️ ⛏️ **Ocean Elixir of Life** — recovery window opens now
-   If you missed the Atael trade in Alcamoth, kill **Kyel Lexos at Freight Road, Colony 6**. **Requires rain** and only works post-Mechonis Core, which is now.
+5. ⛏️ ⛏️ **海王の長寿蒲焼** — 回収の機会が今開く
+   アテルの交換を皇都アカモートで逃したなら、**ヒュエル・レクソスを倒す。場所は貨物運搬路、コロニー6**。**雨が必要**で、機能するのは機神界中枢後だけだ。今がそれだ。
 
-6. ⛏️ ⛏️ **Azure Hollyhock** ×2 — recovery window opens now
-   If you missed the Mechonis Field collection points, **Scarlen in Satorl Marsh** now trades it.
+6. ⛏️ ⛏️ **シーブルーストン** ×2 — 回収の機会が今開く
+   機神界フィールドの収集ポイントを逃したなら、**セガール（燐光の地ザトール）**が今はそれを交換する。
 
-7. 💜 💜 **Shulk & Reyn** — Freight Elevator, Colony 6, day, **Pink**
-   The first Pink-tier Heart-to-Heart that is realistically live. They have been together since Chapter 1, so if any pair has hit Pink by now it is these two. If it will not fire, it joins the post-game batch.
+7. 💜 💜 **シュルク & ライン** — Freight Elevator、コロニー6、昼、**桃**
+   現実的に発生しうる、最初の桃枠のキズナトークだ。1章から一緒にいる。今までに桃へ届いている組があるとすれば、この2人だ。発生しないなら、クリア後のまとまりに入る。
 
 ---
 
 ## Chapter 17 — The world reopens — biggest side-content chapter in the game
 
-**Level 84-90** · 33 tracked items
+**レベル 84-90** · 追跡 33件
 
-> Do not rush to the ending. **The entire world reopens with new quests**, including **seven hidden skill trees**, the five Replica Monados, and quests paying 90,000+ EXP each. Bionis' Interior and Prison Island themselves have **no side quests at all** — the content is everywhere else.
+> エンディングを急がない。**世界全体が新しいクエストとともに再開する**。含まれるのは**隠しスキルツリー7つ**、Replica Monados 5つ、それぞれ 90,000+ EXP のクエスト。巨神胎内と監獄島自体には**サブクエストが一切無い**。中身は他の全てにある。
 
-> **📊 Set your level — Set level to 88**
+> **📊 レベルを合わせる — Set level to 88**
 >
-> Bionis' Interior runs Lv72-77, Prison Island Lv75-78. 88 is comfortable.
+> 巨神胎内は Lv72-77、監獄島は Lv75-78。88で楽だ。
 >
-> **Do not spend the bank yet.** Several quests here pay enormous EXP (Battling Brutes alone is 158,000) which flows straight into the bank. Save the spending for the post-game superboss run.
+> **まだバンクは使わない。**ここのクエストのいくつかは膨大な EXP を払う（ぶつかり合うふたつだけで 158,000）。そのままバンクに入る。使うのはクリア後のスーパーボス周回まで取っておく。
 
-> **⚔️ Party & build — ⚔️ Seven hidden skill trees are available this chapter — plan every leader swap**
+> **⚔️ パーティとビルド — ⚔️ Seven hidden skill trees are available this chapter — plan every leader swap**
 >
-> Every Chapter 17 hidden-tree finale is leader-gated. Clear them as a deliberate circuit:
+> 17章の隠しツリー最終は全てリーダー制限がある。意図した周回として片付ける。
 >
-> **Fiora leads** → Battling Brutes (Innocence)
-> **Melia leads** → Ancient High Entia Mystery (Passion)
-> **Dunban accepts, then Shulk turns in** → Stunted Growth (Enthusiasm)
-> **Riki leads** → Final Challenge of the Sage (Heroism)
-> **Shulk leads** → A Young Captain's Revival / Trust (Bravery), plus A Token of Friendship
-> **Reyn leads** → Friendship Tokens (Camaraderie)
-> **Sharla leads** → Stopping the Elopement (Affection)
+> **フィオルンがリーダー** → ぶつかり合うふたつ（Innocence）
+> **メリアがリーダー** → 古代ハイエンターの謎（Passion）
+> **ダンバンが受け、シュルクが報告する** → 成長するために！（Enthusiasm）
+> **リキがリーダー** → センニンの最終試練（Heroism）
+> **シュルクがリーダー** → 小娘隊長の復活／Trust（Bravery）、加えて友人思い
+> **ラインがリーダー** → 友情の三種の神器（Camaraderie）
+> **カルナがリーダー** → 逃避行の阻止（Affection）
 >
 > The pink badge on each card repeats the required leader at the exact moment you need it.
 
-> **ℹ️ Note — The Refugee Camp is repopulated — easy to overlook, but not timed**
+> **ℹ️ メモ — 脱出艇キャンプに人が戻る。見落としやすいが、時限ではない**
 >
-> Most guides call the Refugee Camp dead after Chapter 6. It is not. Dulland and Elior are back with four quests worth **182,500 G and 351,000 EXP** between them.
+> 多くの攻略は6章以降の脱出艇キャンプを消滅扱いする。実際は残っている。デュランドとエインが戻り、4つのクエストで合わせて**182,500 G と 351,000 EXP**になる。
 >
-> **But you have to unlock them.** The gateway is `Securing Provisions`, given by **Dulland near Junks at the Colony 6 Reconstruction HQ** — not at the camp. It opens both the Dulland and Elior branches; Dulland's branch then continues from `A Flower for a Rose` into `Battling Brutes`.
+> **ただし解禁が必要だ。**入口は`食糧確保`。出すのは**デュランド、ジャンクスの近く、コロニー6のコロニー6 復興本部**。キャンプではない。デュランドとエインの両方の分岐を開く。デュランドの分岐はその後`高嶺の花への花`から`ぶつかり合うふたつ`へ続く。
 
-1. 📜 **Securing Provisions** — Dulland, **Colony 6 Reconstruction HQ near Junks** · the gateway
-   - **Do:** collect **1x Trader's Spare Key** at the **Trader's Stopover**, Tephra Cave → **1x Emergency Rations** at the **Trader's Emergency Warehouse**, Tephra Cave → return to Dulland **at the Refugee Camp, Bionis' Leg**.
-   - **Pays:** 36,000 G · 42,500 EXP · +150 Rep.
-   - **Unlocks** A Flower for a Rose and Supplies for Satorl.
+1. 📜 **食糧確保** — デュランド、**コロニー6のコロニー6 復興本部、ジャンクスの近く** · 入口
+   - **手順：****1x 隊商非常用倉庫のカギ**を**隊商中継地**、テフラ洞窟で集める → **1x 非常用食糧**を**Trader's 隊商非常用倉庫**、テフラ洞窟で集める → デュランドへ戻る。**場所は脱出艇キャンプ、巨神脚**。
+   - **報酬：** 36,000 G · 42,500 EXP · +150 名声。
+   - **解禁**高嶺の花への花とザトールへの物資。
 
-2. 📜 **A Flower for a Rose** — Dulland, Refugee Camp
-   - **Do:** collect **1x Ancient Lily** near **Bafalgar Tomb**, Tephra Cave.
-   - **Pays:** 38,000 G · **92,500 EXP** · +200 Rep · Cosmo Drones · Initial Tension VI.
-   - **Unlocks Battling Brutes.** This is the required middle step.
+2. 📜 **高嶺の花への花** — デュランド, 脱出艇キャンプ
+   - **手順：****1x 古代スズラン**を**バルファルガ墓地**の近く、テフラ洞窟で集める。
+   - **報酬：** 38,000 G · **92,500 EXP** · +200 名声 · コスモフラップ · 抜刀テンション VI。
+   - **ぶつかり合うふたつを解禁。**これが必須の中間手順だ。
 
-3. 📜 **Battling Brutes** — Dulland · **⚠️ FIORA MUST LEAD** · **one of the richest optional bundles**
-   - **Leader gate:** Dulland only offers it with Fiora leading.
-   - **Do:** kill **Reckless Zanden** (Lv98, 280,500 HP) and **Firework Geldesia** (Lv98, 414,500 HP), both in the **Arachno Queen's Nest, Tephra Cave**. Both are **quest-exclusive** — they exist only while this quest is active.
-   - **Pays:** 63,500 G · **158,000 EXP** · +200 Rep · **Eternity Knives** · Speed V Frame · Speed V Booster · **Fiora Skill Tree — Innocence**.
-   - Geldesia alone grants 106,931 EXP and 1,089 AP on the kill. Both are weak to Topple.
-   **Sub-checkpoints:**
+3. 📜 **ぶつかり合うふたつ** — デュランド · **⚠️ フィオルン がリーダー必須** · **任意報酬のなかでも特に豊富なひとつ**
+   - **リーダー制限：**デュランドはフィオルンがリーダーのときだけ出す。
+   - **手順：****虚空のザンデン**（Lv98、280,500 HP）と**火花のゲルデシア**（Lv98、414,500 HP）を倒す。どちらも**女王蜘蛛の巣窟、テフラ洞窟**にいる。どちらも**クエスト限定**で、このクエストが進行中のあいだだけ存在する。
+   - **報酬：** 63,500 G · **158,000 EXP** · +200 名声 · **エタニティナイフ** · スピード V Frame · スピード V Booster · **フィオルンスキルツリー — Innocence**。
+   - Geldesia 単体の討伐で 106,931 EXP と 1,089 AP が入る。どちらも弱点は転倒。
+   **サブチェック:**
    - [ ] Defeat Reckless Zanden
    - [ ] Defeat Firework Geldesia
 
-4. 📜 **Supplies for Satorl** — Elior, Refugee Camp · **18:00-6:00**
-   - **Do:** give the emergency rations to **Scarlen in Satorl Marsh**: Oath Sanctuary before Imperial Ceremony Offerings, or Sororal Statues from 18:00-3:00 afterwards.
-   - **Pays:** 45,000 G · 58,000 EXP · Speed V Goggles · Speed V Arms · **+250 Upper Bionis affinity**.
+4. 📜 **ザトールへの物資** — エイン, 脱出艇キャンプ · **18:00-6:00**
+   - **手順：**非常食を**セガール、場所は燐光の地ザトール**に渡す：宣誓の聖所は皇族の儀の準備より前、またはその後は 18:00-3:00 の岩窟の姉妹像。
+   - **報酬：** 45,000 G · 58,000 EXP · スピード V Goggles · スピード V Arms · **+250 巨神界上部の親密度**。
 
-5. 📜 **Ancient High Entia Mystery** — Talia, Ether Plant · **18:00-6:00** · **⚠️ MELIA MUST LEAD** · **Melia's Passion tree**
-   - **Requires:** 2.5★ Upper Bionis, `Talia's Research` *or* `Investigating Satorl`, and the **High Entia Emblem** from `The Imperial Ceremony`.
-   - **Do:** lead with Melia → accept from Talia → use the Emblem to enter **La Luz Church**, Valak Mountain → inspect the War God statue → return to Talia.
-   - **Pays:** 59,500 G · 93,000 EXP · Meteor Staff · Talent Boost V · **Melia Skill Tree — Passion**.
-   - **Not missable:** if Talia's Ch8 research expired, `Investigating Satorl` is the replacement prerequisite.
+5. 📜 **古代ハイエンターの謎** — タリア、エーテルプラント · **18:00-6:00** · **⚠️ メリア がリーダー必須** · **メリアの Passion ツリー**
+   - **条件：**2.5★ の巨神界上部、`タリアの研究`*または*`ザトールの調査`、および**ハイエンターの紋章**（`皇族の儀`から）。
+   - **手順：**メリアをリーダーにする → タリアから受ける → Emblem を使い**ラ・ルース教会**、ヴァラク雪山へ入る → War God の像を調べる → タリアへ戻る。
+   - **報酬：** 59,500 G · 93,000 EXP · ミーティアスタッフ · タレントブースト V · **メリアスキルツリー — Passion**。
+   - **取り逃しではない：**タリアの8章の研究が期限切れなら、`ザトールの調査`が代替の前提になる。
 
-> **ℹ️ Note — The five remaining hidden-tree chains**
+> **ℹ️ メモ — The five remaining hidden-tree chains**
 >
-> **Dunban — Enthusiasm:** the Orkatix chain at **Fallen Arm / Junks**. Three collect quests then `Stunted Growth`. Needs **3.5★ Hidden Machina Village**.
-> **Riki — Heroism:** `Final Challenge of the Sage` from the **Nopon Sage at the Divine Sanctuary**, Makna. Requires the whole Sage chain from Ch7-8.
-> **Shulk — Bravery:** Miller at Colony 9. **Revival and Trust are mutually exclusive** — both grant Bravery, so take either.
-> **Reyn — Camaraderie:** Friendship Tokens, Moritz. Needs `Pride and Courage` from Chapter 1.
-> **Sharla — Affection:** `Stopping the Elopement` after the Argentis chain at Colony 6.
+> **ダンバン — Enthusiasm：**オルフェスの連鎖、場所は**落ちた腕／ジャンクス**。収集クエスト3つのあと`成長するために！`。必要は**3.5★ のマシーナの隠れ里**。
+> **リキ — Heroism：**`センニンの最終試練`。出すのは**ノポン・センニン、場所は神呼びの聖域**、Makna。7-8章の Sage 連鎖が全て必要。
+> **シュルク — Bravery：**ミラー、場所はコロニー9。**Revival と Trust は両立しない**。どちらも Bravery を与えるので、好きな方を取る。
+> **ライン — Camaraderie：**友情の三種の神器、フリッツ。1章の`勇気とプライド`が必要。
+> **カルナ — Affection:** `逃避行の阻止`。Argentis 連鎖のあと。場所はコロニー6。
 
-6. 📜 **Orkatix chain** → **Stunted Growth** · **⚠️ DUNBAN ACCEPTS → SHULK TURNS IN** · **Dunban's Enthusiasm tree** · needs **3.5★ Hidden Machina Village**
-   - **Transmission Bypass:** from an **Offensive Strike Unit** at **Black Wreckage**.
-   - **The Exhaust Pump:** from an **Offensive Hover Unit** at **Digit 4**.
-   - **The Mini Reactor:** from an **Experimental M86** near **Digit 2 Plain**.
-   - **Leader handoff:** Dunban must lead to accept `Stunted Growth`; switch to Shulk before returning the completed device to Orkatix.
-   - **Then Stunted Growth** → 44,000 G · 51,500 EXP · +700 Rep · **Dunban Skill Tree — Enthusiasm** · Haste IV · Agility Up V.
-   **Sub-checkpoints:**
+6. 📜 **オルフェス連鎖** → **成長するために！** · **⚠️ ダンバン が受注 → シュルク が報告** · **ダンバンの Enthusiasm ツリー** · 必要 **3.5★ マシーナの隠れ里**
+   - **Transmission Bypass:** **強化ユニット強襲式**から。場所は**黒の残骸**。
+   - **空気排出ポンプ入手:** **浮遊ユニット強襲式**から。場所は**機神の薬指**。
+   - **高性能小型動力炉入手:** **新型動力の八六式**から。近くは**人差し原野**。
+   - **リーダー引き継ぎ:** ダンバンがリーダーで`成長するために！`を受注し、シュルクに切り替えてから、完成した装置をオルフェスへ返す。
+   - **その後 成長するために！** → 44,000 G · 51,500 EXP · +700 Rep · **ダンバンのスキルツリー — Enthusiasm** · ヘイスト IV · 素早さアップ V。
+   **サブチェック:**
    - [ ] Collect Transmission Bypass
    - [ ] Collect Exhaust Pump
    - [ ] Collect Mini Reactor
    - [ ] Accept Stunted Growth with Dunban leading
    - [ ] Turn in Stunted Growth with Shulk leading
 
-7. 📜 **Final Challenge of the Sage** — Nopon Sage, Divine Sanctuary · **12:00-15:00** · **⚠️ RIKI MUST LEAD** · **Riki's Heroism tree**
-   - **Requires** the Sage chain: `Honouring the Nopon Sage` → `Legend of the Sage` → `Challenge of the Sage`, all begun back in Ch7-8 via `Strange Noises from Below`, plus 3.5★ Central Bionis.
-   - **Pays:** 38,000 G · 73,500 EXP · **Meteor Nibbler** · **Riki Skill Tree — Heroism**.
-   - Also spawns **Unreliable Rezno** (Lv96) on the island in Great Makna Falls.
+7. 📜 **センニンの最終試練** — ノポン・センニン、神呼びの聖域 · **12:00-15:00** · **⚠️ リキ がリーダー必須** · **リキの Heroism ツリー**
+   - **必要条件** センニン連鎖: `センニンのお供え` → `センニンの伝説` → `センニンの試練`。すべて 7-8章で`地下からの不気味な声`から開始済み。加えて巨神界中央 3.5★。
+   - **報酬:** 38,000 G · 73,500 EXP · **流星群のバクバク** · **リキのスキルツリー — Heroism**。
+   - あわせて**連星のレゾーナ**（Lv96）がマクナ大瀑布の島に出現する。
 
-8. 📜 **A Young Captain's Revival** *or* **Trust** — Miller, Colony 9 · **⚠️ SHULK MUST LEAD** · **Shulk's Bravery tree**
-   - **Mutually exclusive — both give Bravery.** Take whichever you prefer.
-   - **Revival:** collect **4x Poisonous Gourd** in Satorl Marsh. Reward includes **Daze Plus V**.
-   - **Trust:** talk to **Emmy Leater as Shulk** and deliver Miller's letter. Reward includes **Topple Plus V**. Changes Miller/Emmy and Raoul/Emmy affinity.
-   - **Both pay** 25,000 G · 75,000 EXP · **Shulk Skill Tree — Bravery**. **Take Trust** — Topple Plus V is directly useful against Blizzard Belgazas, and it moves two chart links.
-   - Requires the whole chain: A Young Captain's Request (Ch1) → Suffering (Ch3) → Rise (Ch3) → **Challenge**.
+8. 📜 **小娘隊長の復活** *または* **Trust** — ミラー、コロニー9 · **⚠️ シュルク がリーダー必須** · **シュルクの Bravery ツリー**
+   - **二者択一 — どちらも Bravery を得る。** 好みで選ぶ。
+   - **Revival:** **4x ポイズンツルレイシ**を燐光の地ザトールで集める。報酬に**気絶時間プラス V**を含む。
+   - **Trust:** **エミ・リータにシュルクとして**話しかけ、ミラーの手紙を届ける。報酬に**転倒時間プラス V**を含む。ミラー/Emmy とルヒオル/Emmy の親和度が変わる。
+   - **両方の報酬** 25,000 G · 75,000 EXP · **シュルクのスキルツリー — Bravery**。**Trust を選ぶ** — 転倒時間プラス V は豪雪のベルガザスに直接役立ち、相関図のリンクが2本動く。
+   - 連鎖全体が必要: 小娘隊長の依頼（1章）→ Suffering（3章）→ Rise（3章）→ **強敵を求めて**。
 
-9. 📜 **A Young Captain's Challenge** — Emmy Leater · the missing middle step
-   - **Route A:** collect **1x Carbo Shield** at the **Colony 6 Storage Area**. **Route B:** **4x Bunnia Scent Wood** from Ogre Bunnias in Satorl Marsh, then trade the **Nopon Merchant in Satorl Marsh** for a Nopon Claymore.
-   - **Pays:** 3,300 G · 600 EXP · Purity Striker · Swep Gauntlets.
+9. 📜 **小娘隊長の挑戦** — エミ・リータ · 抜けている中間手順
+   - **ルートA:** **1x カーボシールド**を**コロニー6 Storage Area**で集める。**ルートB:** **4x バニアの魅惑香木**を燐光の地ザトールの Ogre Bunnias から集め、**ノポン商会（燐光の地ザトール）**と交換してノポンクレイモアを得る。
+   - **報酬:** 3,300 G · 600 EXP · 純正の太刀 · スウェップガード。
 
-10. 📜 **Friendship Tokens** — Moritz, Colony 9 **Residential District** · **⚠️ REYN MUST LEAD** · **Reyn's Camaraderie tree**
-   - **Requires** `Pride and Courage` from Chapter 1. If you skipped Lonely Niranira all the way back then, this tree does not exist.
-   - **Do:** **4x Arachno Sickle** (Arachno), **4x Lizard Moon Jewel** (Lizards), **4x Bunniv Club** (Bunnivs) — all in **Tephra Cave**.
-   - **Pays:** 330 G · **65,000 EXP** · AP Up V · **Reyn Skill Tree — Camaraderie**. Creates **Eternal Bond** links Moritz↔Lukas and Moritz↔Niranira.
+10. 📜 **友情の三種の神器** — フリッツ、コロニー9 **居住区** · **⚠️ ライン がリーダー必須** · **ラインの Camaraderie ツリー**
+   - **必要条件** 1章の`勇気とプライド`。あの時点で孤独なニルニーを飛ばしていると、このツリーは存在しない。
+   - **手順:** **4x スパイドの三日月鎌**（スパイド）、**4x リザドの月光宝玉**（Lizards）、**4x バニーヴの棍棒正宗**（Bunnivs）— すべて**テフラ洞窟**。
+   - **報酬:** 330 G · **65,000 EXP** · ＡＰアップ V · **ラインのスキルツリー — Camaraderie**。**Eternal Bond**のリンクをフリッツ↔グレフとフリッツ↔ニルニーに作る。
 
-11. 📜 **Replica Monado 1-5** — **Vanea, Colony 6 Reconstruction HQ** · 12,000 EXP each
-   - **Correction:** Vanea is at the **Colony 6 Reconstruction HQ**, not the Junks Ship as many guides state. Available after Junks reaches the Interior Landing Site.
-   - **1 → Monado Rudra:** Lucky Fang (Feris, Satorl) · Caterpile Silk · Ardun Elder Beard
-   - **2 → Monado Agni:** Ocean Elixir of Life (Lexos, Colony 6) · Immortal Moss (Torta) · Quadwing Treasure
-   - **3 → Monado Abyss:** Glacier Element (Nebula, Satorl) · Wisp Sun Bead · Hox Daylight Spur
-   - **4 → Monado Dogma:** Demonic Everflame (Dragon) · Mammut Horn · Tirkin Elder Medal
-   - **5 → Monado Saga:** Yellow Slobos Rock (Valak) · Tokilos King Egg · Diamond Brog Eye
-   - **Watch out:** several of these overlap the Colony 6 bill of materials. Farm doubles so you are not choosing between a Monado and reconstruction.
-   **Sub-checkpoints:**
+11. 📜 **モナドレプリカ1-5** — **ヴァネア、コロニー6 コロニー6 復興本部** · 各 12,000 EXP
+   - **訂正:** ヴァネアの場所は**コロニー6 コロニー6 復興本部**。多くの攻略が書くジャンクス Ship ではない。ジャンクスが胎内停泊所に着いてから出現する。
+   - **1 → モナド・Ｒ・ルドラ:** 狼王の幸運牙（フェリス、Satorl）· キャピルの神糸 · アルドンの元老髭
+   - **2 → モナド・Ｒ・アグニ:** 海王の長寿蒲焼 (レクソス, コロニー6) · トーターの不死苔 (トーター) · クロードの秘宝
+   - **3 → モナド・Ｒ・アビス:** 氷河王の元素（Nebula、Satorl）· ランプスの太陽粒 · ホッグスの晴天針
+   - **4 → モナド・Ｒ・ドグマ:** 悪魔王の悠久業火 (ドラゴン) · マムートの地帝大角 · ターキン族の大老勲章
+   - **5 → モナド・Ｒ・サーガ:** ソロボス族の黄光石（Valak）· トキロスの鳥王卵 · グロッグのダイア眼球
+   - **注意:** これらのいくつかはコロニー6の必要素材表と重なる。モナドと復興を二者択一にしないよう、倍の数を集める。
+   **サブチェック:**
    - [ ] Complete Replica Monado 1 — Monado Rudra
    - [ ] Complete Replica Monado 2 — Monado Agni
    - [ ] Complete Replica Monado 3 — Monado Abyss
    - [ ] Complete Replica Monado 4 — Monado Dogma
    - [ ] Complete Replica Monado 5 — Monado Saga
 
-12. 📜 **Melancholy Tyrea** — surprise quest in **Colony 6** → **Empress Staff**
-   - **Correction:** this triggers in **Colony 6**, not Watchpoint Junction.
-   - **Do:** the four-stage Telethia chase. Boss is the **Mysterious Telethia**, revealed as **Yumea, First Consort**.
-   - **Pays:** 58,500 EXP · **Empress Staff** · Auto-Atk Stealth VI. A Melia weapon, and partial consolation if you missed the Imperial Staff in Ch10.
+12. 📜 **憂愁のタルコ** — **コロニー6**のサプライズクエスト → **女帝の錫杖**
+   - **訂正:** 発生は**コロニー6**。物見の三叉路ではない。
+   - **手順:** 4段階のテレシア追跡。ボスは**謎のテレシア**。正体は**ユミア、First Consort**。
+   - **報酬:** 58,500 EXP · **女帝の錫杖** · ヘイト低下 VI。メリアの武器。10章で皇家の錫杖を逃したときの一部の慰め。
 
-13. 📜 **Vidian Rescue Mission** — surprise quest, **Alcamoth Main Entrance**
-   - **Requires** `Broken Ether Furnace`, and upstream `Believing Again` (Ch10) which needed `Building Bridges` (Ch8, Melia leading). A long dependency chain that starts with a leader swap nine chapters ago.
-   - **Do:** repair the broken transporters in **Whitewing Palace**, then speak to **Vidian**.
-   - **Pays:** 58,000 G · **97,500 EXP** · +700 Rep · Gracielle Helm, Arms and Greaves.
-   - Reach Alcamoth on foot via the **Centre Gate from Eryth Sea** — no Skip Travel, and it is overrun by Telethia.
+13. 📜 **ビビアン救出作戦** — サプライズクエスト、**皇都アカモート Main Entrance**
+   - **必要条件** `壊れたエーテル炉`、および上流の`もう一度、信じる心を`（10章）。これは`他種族嫌いを治して`（8章、メリアがリーダー）が必要だった。9章前のリーダー交代から始まる長い依存連鎖。
+   - **手順:** **白翼宮**の壊れた転送装置を修理し、**ビビアン**に話しかける。
+   - **報酬:** 58,000 G · **97,500 EXP** · +700 Rep · グラシエルヘルム、腕と脚。
+   - 皇都アカモートへは徒歩。**センターゲート経由でエルト海から入り** — スキップトラベルは使えない。テレシアで溢れている。
 
-14. 📜 **The Final Giants' Ruins** — Zain, Harict Chapel, Valak Mountain
-   - **Sub-quest `The Giants' Treasures`** comes with it: collect **Truth of the Giants**, **Daring of the Giants** and **Heart of the Giants**. The **Heart** comes from `Mystery of Makna Ruins 4` in Ch10 — another reason that chain mattered.
-   - **Then:** unseal the door at **Three Sage Summit**.
-   - **Pays:** 88,000 G · **175,000 EXP** · +700 Rep · Damage Heal VI · Arts Stealth VI. Largest EXP payout in the game.
-   **Sub-checkpoints:**
+14. 📜 **巨人族最後の遺跡** — ゼイン, ハリクト礼拝堂, ヴァラク雪山
+   - **サブクエスト`巨人族三種の神器`**が付属する。集めるのは**巨人の知恵**、**巨人の勇気**、**巨人の心**。**心**は10章の`マクナ遺跡の謎4`から。あの連鎖が必要だったもう一つの理由。
+   - **その後:** **三大賢者の頂**の扉の封印を解く。
+   - **報酬:** 88,000 G · **175,000 EXP** · +700 Rep · ダメージヒール VI · 技ヘイト低下 VI。ゲーム中最大の EXP。
+   **サブチェック:**
    - [ ] Collect Truth of the Giants
    - [ ] Collect Daring of the Giants
    - [ ] Collect Heart of the Giants
    - [ ] Unseal the door at Three Sage Summit
 
-15. 📜 **The Giants' Treasure** (Satorl Marsh, Kacha) → spawns **Eternal Palsadia** (91)
-   The Ch6 Bokoko/Kacha chain quest. Completing it makes Eternal Palsadia appear at the top of **Exile Fortress**. If you did it back in Chapter 6, it is waiting for you now.
+15. 📜 **ついに巨人族のタカラ**（燐光の地ザトール、カチャ）→ **永劫のパレスアテナ**（91）が出現
+   6章のゴド/カチャ連鎖クエスト。完了すると永劫のパレスアテナが**流刑の砦**の頂上に出る。6章で済ませていれば、今そこにある。
 
-16. 📜 **Stopping the Elopement** — Don Argentis, Colony 6 · **⚠️ SHARLA MUST LEAD** · **Sharla's Affection tree**
-   - **Requires:** 4.5★ Colony 6 and the matching Argentis chain: `Family Secrets` → `Betrothal Test`.
-   - **Leader gate:** Sharla must lead when speaking to the couple, persuading the partner and reporting to Don.
-   - **Pays:** 28,000 G · 30,000 EXP · Satellite Shot · **Sharla Skill Tree — Affection**.
+16. 📜 **逃避行の阻止** — ドン・シルバー、コロニー6 · **⚠️ カルナ がリーダー必須** · **カルナの Affection ツリー**
+   - **必要条件:** 4.5★ コロニー6と、対応する Argentis 連鎖: `父に隠れて` → `婚約の試練`。
+   - **リーダー条件:** カルナがリーダー。カップルに話し、相手を説得し、Don に報告するとき。
+   - **報酬:** 28,000 G · 30,000 EXP · サテライトショット · **カルナのスキルツリー — Affection**。
 
-17. 📜 **Birthday Shoes** — Kantz, Colony 9 Military District
-   - **Requires** `Education-Crazy Suzanna` from Chapter 1.
-   - **Do:** **2x Azure Flamii Wing** from **Opulent Flamii** in Colony 9.
-   - **Pays:** 42,500 G · 50,000 EXP · **Rex Helm**. Raises Kantz↔Moritz to Doting Parent.
+17. 📜 **親バカの靴** — カンタン, コロニー9 軍事区
+   - **必要条件** 1章の`教育過剰なスザンナ`。
+   - **手順:** **2x フラミーの蒼天羽根**を、**ケルブ・フラミー**から。場所はコロニー9。
+   - **報酬:** 42,500 G · 50,000 EXP · **レックスヘルム**。カンタン↔フリッツが Doting Parent になる。
 
-18. 📜 **A Token of Friendship** — Colony 9 Central Plaza · **⚠️ SHULK MUST LEAD**
-   - **Leader gate:** inspect the Central Plaza prompt with Shulk leading, then use the prompt at his lab.
-   - **Do:** **3x Gogol Horn**, **3x Thick Rhana Hide**, **3x Aged Chilkin Hair**, all from Bionis enemies.
-   - **Pays:** 72,000 EXP · **Vangarre Driver** (3 empty gem slots).
+18. 📜 **友人思い** — コロニー9 Central Plaza · **⚠️ シュルク がリーダー必須**
+   - **リーダー条件:** Central Plaza の調べるはシュルクがリーダー。その後、本人の研究室の調べるを使う。
+   - **手順:** **3x ゴゴールの獣王角**、**3x ラーナの十二層皮**、**3x チルキン族の百年髷**。すべて巨神の敵から。
+   - **報酬:** 72,000 EXP · **ヴァンダムバンカー**（空きジェムズロット 3）。
 
-19. 📜 Remaining Colony 9 and Colony 6 late quests
-   - **Colony 9:** The Elite Captain's Anguish (22,000 G / 35,000 EXP) · Getting to Know Minnie · Getting to Know Dorothy.
-   - **Colony 6:** Lifespan of a Machine (Neonik, 38,000 G) · A Poet's Concerns (Yura, 38,500 G) · Delivering the Undeliverable and Finding the Unfindable (Shilx) · A Dauntless Trader (Werner) · **Nopon Determination** (Mefimefi, only if you took her over Perrine) · Defend Colony 6 - Ancient and Demon.
-   **Sub-checkpoints:**
+19. 📜 残るコロニー9とコロニー6の終盤クエスト
+   - **コロニー9:** エリート小隊長の苦悩 (22,000 G / 35,000 EXP) · メイニーを知る · ドロテアを知る.
+   - **コロニー6:** Lifespan of a Machine（ナオナミ、38,000 G）· 詩人の悩み（ユーリィ、38,500 G）· 困った何でも屋と困り果てた何でも屋（シータクロス）· 商売人ド根性（ヴェルナー）· **ノポンの意地**（メフィメフィ、パイラルより彼女を選んだ場合のみ）· コロニー6を守れ・鳥と Demon。
+   **サブチェック:**
    - [ ] The Elite Captain's Anguish
    - [ ] Getting to Know Minnie
    - [ ] Getting to Know Dorothy
@@ -2860,10 +2859,10 @@ A pair cannot reach high affinity before they have been in the party together a 
    - [ ] Defend Colony 6 — Ancient
    - [ ] Defend Colony 6 — Demon
 
-20. 📜 **Satorl Marsh's late quest block** — eight quests that only exist now
-   Challenge · For a Friend · A Merciful End · A Release from Duty · **The Imperial Ceremony** · Imperial Ceremony Offerings · The Ancient Ceremony · Ancient Ceremony Offerings.
-   The Imperial Ceremony gives the **High Entia Emblem**, which unlocks the sealed section of the High Entia Tomb and the Unique Monster **Furious Jozan** (96).
-   **Sub-checkpoints:**
+20. 📜 **燐光の地ザトールの終盤クエスト群** — 今だけ存在する8件
+   強敵を求めて · 友人のために · 友人を楽にしてあげて · かつての仲間達を · **皇族の儀** · 皇族の儀の準備 · 古代の儀式 · 儀式の準備。
+   皇族の儀で**ハイエンターの紋章**を得る。これでハイエンター墓所の封印区画とユニークモンスター**憤怒のジョーザン**（96）が開く。
+   **サブチェック:**
    - [ ] Challenge
    - [ ] For a Friend
    - [ ] A Merciful End
@@ -2873,21 +2872,21 @@ A pair cannot reach high affinity before they have been in the party together a 
    - [ ] The Ancient Ceremony
    - [ ] Ancient Ceremony Offerings
 
-21. ⛏️ ⛏️ **Black Liver Bean** ×2 — Nature 5. Bionis' Interior collection, rare, **no trade backup**
+21. ⛏️ ⛏️ **クロマメレバー** ×2 — 自然 5。巨神胎内の採集、レア、**交換の代替なし**
 
-22. ⛏️ ⛏️ **Flexible Selua Cell** ×3 and **Steel Selua Cell** ×3 — Special 4. Largo Selua and Wool Selua, Bionis' Interior
-   **Sub-checkpoints:**
+22. ⛏️ ⛏️ **セルラの伸縮細胞** ×3 と **セルラの鋼細胞** ×3 — 特殊 4。ラールゴ・セルラとウール・セルラ、巨神胎内
+   **サブチェック:**
    - [ ] Bank 3× Flexible Selua Cell
    - [ ] Bank 3× Steel Selua Cell
 
-23. ⛏️ ⛏️ **Inferno Element** ×2 and **Bolt Element** ×2 — Special 5. Cratere and Solare Nebula, **Prison Island**
-   **Sub-checkpoints:**
+23. ⛏️ ⛏️ **極火の元素** ×2 と **剛雷の元素** ×2 — 特殊 5。Cratere とソラーレ・ネブラ、**監獄島**
+   **サブチェック:**
    - [ ] Bank 2× Inferno Element
    - [ ] Bank 2× Bolt Element
 
-24. 👾 Bionis' Interior UMs (8) — second visit only
-   Active Impulso (72), Mystical Klesida (72), Victorious Gross (73), Clandestine Apety (74), Vivid Anstan (75), Officer Robusto (75), Ghostly Mahatos (76), Dark King Barbarus (77, flying outside the Second Lung).
-   **Sub-checkpoints:**
+24. 👾 巨神胎内の UM（8）— 2回目の訪問のみ
+   能動のインプルソ（72）、宝仙のクレーシタ（72）、五光のグロース（73）、秘奥のアペティ（74）、鮮烈のアンスタン（75）、将校のロブスト（75）、鬼道のマハトス（76）、冥王のバルバルス（77、第2肺内部の外を飛行）。
+   **サブチェック:**
    - [ ] Defeat Active Impulso
    - [ ] Defeat Mystical Klesida
    - [ ] Defeat Victorious Gross
@@ -2897,14 +2896,14 @@ A pair cannot reach high affinity before they have been in the party together a 
    - [ ] Defeat Ghostly Mahatos
    - [ ] Defeat Dark King Barbarus
 
-25. ➡️ **MAIN STORY · Chase Dickson** — Prison Island, second visit
-   - **Behemoth Nest:** descend through the Kitchen and open the right-hand gate to reach the lower Control Device.
-   - **Bone Pillar:** use the Control Device to restore it.
-   - **Arena:** return and defeat the story enemy; sweep the second-visit Prison Island content before climbing farther.
+25. ➡️ **本編 · Chase Dickson** — 監獄島、2回目の訪問
+   - **ベヒモスの巣:** 厨房を下り、右手の門を開け、下の Control Device へ着く。
+   - **Bone Pillar:** Control Device でそれを復旧する。
+   - **闘技場:** 戻って本編の敵を倒す。さらに登る前に、2回目の訪問の監獄島内容を掃討する。
 
-26. 👾 Prison Island UMs (7) — second visit only
-   Ageless Moabit (75), Serene Imlaly (76), Inferno Heinrich (76, back room of the Kitchen), Cold Ageshu (77), Abnormal Clone Barg (77, First Sanctum), Majestic Clone Barg (77, Second Sanctum), Masterful Gigapur (77, Travalga Bridge).
-   **Sub-checkpoints:**
+26. 👾 監獄島の UM（7）— 2回目の訪問のみ
+   不老のモアビート（75）、明鏡のイムラリ（76）、炎帝のハインリヒ（76、厨房の奥の部屋）、白眼のアーケシュ（77）、悪食のクロンボーク（77、第1聖具室）、威風のクロンボーク（77、第2聖具室）、紫電のギガスパル（77、トラヴァルガ橋）。
+   **サブチェック:**
    - [ ] Defeat Ageless Moabit
    - [ ] Defeat Serene Imlaly
    - [ ] Defeat Inferno Heinrich
@@ -2913,92 +2912,92 @@ A pair cannot reach high affinity before they have been in the party together a 
    - [ ] Defeat Majestic Clone Barg
    - [ ] Defeat Masterful Gigapur
 
-27. 👾 UM: **Fiendish Auburn** (78) — Gravina Bridge · **kill 3 Babel Deinos and 3 Babeli Bargs first**
+27. 👾 UM: **鬼王のオーバーン**（78）— グラビナ橋 · **先にベルベール・ディノスを3体、Babeli Bargs を3体倒す**
 
-28. 💜 💜 **Fiora & Sharla** — Spinal Nerve Tower south, Pink
+28. 💜 💜 **フィオルン & カルナ** — 脊髄神経タワー南、ピンク
 
-29. 💜 💜 **Riki & Melia** — Terminal Nerve Tower NW, Pink
+29. 💜 💜 **リキ & メリア** — 終末神経タワー北西、ピンク
 
-30. 💜 💜 **Shulk & Fiora** — Corridor of Silence, Pink
+30. 💜 💜 **シュルク & フィオルン** — 静寂の回廊、ピンク
 
-31. 💜 💜 **Reyn & Riki** — Empty Throne, Pink
+31. 💜 💜 **ライン & リキ** — 空位の玉座、ピンク
 
-32. 💜 💜 **Sharla & Melia** — Gravina Bridge, Pink
+32. 💜 💜 **カルナ & メリア** — グラビナ橋、ピンク
    All five need Pink. If your party affinity is not there yet, come back after the superboss run — Love Sources from Veritas Glyphs will close the gap fast.
 
-33. ➡️ **MAIN STORY · Path to the Top** — Corridor of Silence
-   - **Before advancing:** finish the Prison Island Unique Monsters and Heart-to-Hearts above.
-   - **Summon:** use the Dragon Summon at the altar and defeat the dragon.
-   - **Open:** fit the **Dragon's Eye** into the altar and continue to the final ascent.
+33. ➡️ **本編 · Path to the Top** — 静寂の回廊
+   - **進行前:** 上の監獄島のユニークモンスターとキズナトークを終える。
+   - **召喚:** 祭壇でドラゴン召喚を使い、ドラゴンを倒す。
+   - **開放:** **竜の眼**を祭壇にはめ、最後の登りへ進む。
 
 ---
 
 ## Post-game — The completion phase
 
-**Level 90+** · 13 tracked items
+**レベル 90+** · 追跡 13件
 
-> Now spend the bank. **Superbosses come before the affinity grind** — they drop Veritas Glyphs, which trade for Love Sources, which is what makes the remaining Pink Heart-to-Hearts reachable.
+> ここでバンクを使う。**スーパーボスは親和度周回より前** — Veritas Glyphs を落とす。Love Sources と交換でき、残りのピンクのキズナトークに届く。
 
-> **📊 Set your level — Now spend the bank — and here is what it was for**
+> **📊 レベルを合わせる — Now spend the bank — and here is what it was for**
 >
-> You finish the story around **Lv90**. The five superbosses are **Lv100 to Lv120**. Seventeen chapters of capping your level exists to close that gap in one sitting.
+> ストーリー終了時はおよそ**Lv90**。スーパーボス5体は**Lv100〜Lv120**。レベルを抑えてきた17章分は、この差を一度に埋めるためにある。
 >
-> **Spend up to 99** before the superboss run. That is the cap.
+> **99まで使う**。スーパーボス周回の前に。それが上限。
 >
-> **Level is not the whole answer.** Avalanche Abaasy at Lv120 will still delete an unprepared Lv99 party in seconds. Gems and Monado Armour matter more than the last few levels — do the build panel below before you go anywhere near Valak.
+> **レベルだけでは足りない。** Lv120 の雪檻のアバーシは、準備不足の Lv99 パーティを数秒で消す。最後の数レベルより、ジェムとモナドアーマーの方が重要 — Valak に近づく前に、下のビルド欄を済ませる。
 >
-> **You will also drop your level deliberately** during the high-level Unique Monster sweep, so those fights stay worth doing rather than becoming a chore.
+> **レベルは意図して下げる**。高レベルユニークモンスター掃討のあいだ。戦闘が作業にならないように。
 
-> **⚔️ Party & build — ⚔️ The superboss loadout — build this before the first fight**
+> **⚔️ パーティとビルド — ⚔️ The superboss loadout — build this before the first fight**
 >
-> **Party:** Shulk / Dunban / Riki, or swap yourself to **Melia** for faster Ether/DoT kills. Melia is fragile, and her AI is not reliable for the guide's planned elemental-storage-and-burst rotation; control her when using that preset.
+> **パーティ:** シュルク / ダンバン / リキ。自分を**メリア**に替えると、エーテル／継続ダメージで速く倒せる。メリアは脆く、この攻略が想定するエレメンタル蓄積からバーストの回転を AI は安定して回せない。そのプリセットでは自分で操作する。
 >
-> **Mandatory gems:**
-> · **Spike Defence** for encounters whose dossier documents a damaging, counter or Topple Spike. Do not spend those slots blindly on a spike-free fight. Dunban's **Steel Protection** reduces Spike damage by 20%; it is useful support, not immunity by itself.
-> · **Night Vision** — accuracy against higher-level enemies. Without it you simply miss. **Maxed rank required for Abaasy.**
-> · **Agility Up** stacked on Dunban.
-> · **Topple Plus** — Rank VI needed to topple-lock Abaasy.
-> · **Debuff Resist** or **Divine Protect** — specifically for Abaasy's instant-death counter spike.
+> **必須ジェム:**
+> · **スパイク防御**は、資料にダメージ、カウンター、または転倒スパイクとある戦闘用。スパイクのない戦闘に、そのスロットを闇雲に使わない。ダンバンの**鉄壁の守護**はスパイクダメージを 20% 軽減する。補助としては有用だが、それ単体では無効化ではない。
+> · **夜間命中アップ** — 自分より高レベルの敵への命中。無いと外す。**Abaasy にはランク最大が必要。**
+> · **素早さアップ**をダンバンに積む。
+> · **転倒時間プラス** — Abaasy の転倒ロックには Rank VI が必要。
+> · **全デバフ抵抗**または**即死抵抗** — Abaasy の即死カウンタースパイク専用。
 >
-> **Arts:** **Monado Armour maxed** — at maximum Art level it reduces physical and ether Art damage by 75%, but it does not stop enemy Talent Arts.
-> **Skills:** Dunban's **Steel Protection** is a strong 20% Spike-damage reduction when the selected boss actually uses a damaging Spike.
+> **アーツ:** **モナドアーマーを最大** — アーツレベル最大で、物理とエーテルのアーツダメージを 75% 軽減する。敵の Talent Art は止めない。
+> **スキル:** ダンバンの**鉄壁の守護**は、選んだボスが実際にダメージスパイクを使うとき、スパイクダメージを 20% 強く軽減する。
 
-> **💀 Boss prep — 💀 Kill order matters — do not go straight for the big one**
+> **💀 ボス準備 — 💀 Kill order matters — do not go straight for the big one**
 >
-> The order below is not difficulty ranking, it is a **dependency chain**. Marcus is beatable without Night Vision; Daedala *drops* Night Vision; the last two are unreasonable without it.
+> 下の順番は難度順ではない。**依存連鎖**である。Marcus は夜間命中アップなしで倒せる。Daedala が*落とす*夜間命中アップ。最後の2体はそれなしでは無理。
 >
-> **1. Final Marcus** → **2. Ancient Daedala (farm it)** → **3. Despotic Arsene** → **4. Blizzard Belgazas** → **5. Avalanche Abaasy**
+> **1. 終世のマークス** → **2. 太古のデイダラ（周回）** → **3. 暴帝のアルセーヌ** → **4. 豪雪のベルガザス** → **5. 雪檻のアバーシ**
 >
-> All five drop **Rank V crystals** with Daze Up and Night Vision attributes, craftable into the Rank VI gems endgame armour wants. They also drop **Veritas Glyphs**, which trade for **Love Sources** — large party affinity boosts. That is why superbosses come *before* the affinity grind rather than after.
+> 5体とも**Rank V のクリスタル**を落とす。属性は気絶威力アップと夜間命中アップで、終盤の防具が欲する Rank VI ジェムに加工できる。あわせて**Veritas Glyphs**も落とす。交換先は**Love Sources** — パーティ親和度が大きく上がる。だからスーパーボスは親和度周回の*前*であり、後ではない。
 
-1. 👾 💀 **1. Final Marcus** (Lv100) — Valak Mountain, Three Sage Summit · **night**
-   - **Why first:** the weakest of the five, the **only one that can be dazed**, and the most consistently hittable without Night Vision gems. Start here to test your build.
-   - **Watch for:** an aura damage spike. Bring Spike Defence.
-   - **Strategy:** exploit the daze vulnerability — daze locking largely removes its offence.
+1. 👾 💀 **1. 終世のマークス**（Lv100）— ヴァラク雪山、三大賢者の頂 · **夜**
+   - **最初の理由:** 5体で最弱、**気絶させられる唯一の相手**、夜間命中アップジェムなしでも最も安定して当たる。ビルドの試験はここから。
+   - **注意点:** オーラのダメージスパイク。スパイク防御を持っていく。
+   - **戦術:** 気絶の弱点を突く — 気絶ロックで攻撃の大半が消える。
 
-2. 👾 💀 **2. Ancient Daedala** (Lv105) — Fallen Arm, Wreckage Beach · **farm this one**
-   - **Why second:** it drops **Rank V Night Vision cylinders**, and Night Vision is what makes Belgazas and Abaasy hittable at all. Kill it, then **keep killing it** until you have enough cylinders to gem the whole party.
-   - **What it is:** the strongest Mechon-type enemy in the game. Aura damage spike — Spike Defence mandatory.
-   - Fallen Arm is revisitable after Mechonis Core, which is why this is reachable at all.
+2. 👾 💀 **2. 太古のデイダラ**（Lv105）— 落ちた腕、残骸の浜辺 · **これは周回**
+   - **2番目の理由:** **Rank V の夜間命中アップシリンダー**を落とす。Belgazas と Abaasy に当たるようになるのが夜間命中アップ。倒したあと**倒し続ける**。パーティ全員にジェムを付けられる数のシリンダーが揃うまで。
+   - **正体:** ゲーム中最強の機神兵タイプ。オーラのダメージスパイク — スパイク防御は必須。
+   - 落ちた腕は機神界中枢のあと再訪できる。だからこそ届く。
 
-3. 👾 💀 **3. Despotic Arsene** (Lv108) — Satorl Marsh, north of the Glowing Obelisk
-   - **Profile:** purely physical moveset, **no spike abilities at all**, but very high damage and fast attacks. Topple duration against it is halved.
-   - **Strategy:** because there are no spikes, drop Spike Defence and stack **agility and defence** instead. This is the one fight where evasion alone can carry you — a maxed-agility Dunban simply does not get hit.
+3. 👾 💀 **3. 暴帝のアルセーヌ**（Lv108）— 燐光の地ザトール、光球のオベリスクの北
+   - **特性:** 物理技のみ。**スパイク技は一切なし**。ただしダメージが非常に高く、攻撃が速い。これに対する転倒の持続は半分。
+   - **戦術:** スパイクがないのでスパイク防御を外し、代わりに**素早さと防御**を積む。回避だけで押し切れる唯一の戦闘 — 素早さ最大のダンバンは当たらない。
 
-4. 👾 💀 **4. Blizzard Belgazas** (Lv114) — Valak Mountain, near the Great Glacier
-   - **Profile:** second-highest level in the game. Uses topple-down abilities and its attacks shift with the weather.
-   - **The exploit and risk:** it has **no topple resistance**, but it also has a 2,540-damage, 35 m **Topple Spike**. A Topple-lock plan must retain Spike Defence instead of treating the boss as harmless while down.
-   - **Gems:** Spike Defence, **Good Footing**, accuracy and Topple Plus for the chosen control plan.
+4. 👾 💀 **4. 豪雪のベルガザス**（Lv114）— ヴァラク雪山、大氷河地帯の近く
+   - **特性:** ゲーム中2番目に高いレベル。転倒からダウンさせる技を使い、攻撃は天候で変わる。
+   - **抜け道と危険:** **転倒耐性なし**。ただし 2,540 ダメージ、35 m の**転倒スパイク**もある。転倒ロックでは、ダウン中は無害だと思わずスパイク防御を残す。
+   - **ジェム:** スパイク防御、**吹き飛び抵抗**、命中、そして選んだ制御計画用の転倒時間プラス。
 
-5. 👾 💀 **5. Avalanche Abaasy** (Lv120) — Valak, Three Sage Summit · **night + blizzard**
-   - **The hardest fight in the game.** Highest level, and it needs two simultaneous conditions to even appear: **night** and an active **blizzard** on Valak Mountain.
-   - **Instant-death counter spike.** Attacking into it can simply kill a party member. **Debuff Resist or Divine Protect is mandatory**, not optional.
-   - **Accuracy:** requires **maxed Night Vision** or you will miss most of your attacks at a 21-level deficit.
-   - **Topple:** half duration, and topple-locking is near impossible without **Rank VI Topple Plus**.
-   - **Arts:** maxed Monado Shield and Monado Armour. Optimise for agility.
+5. 👾 💀 **5. 雪檻のアバーシ**（Lv120）— Valak、三大賢者の頂 · **夜 + 吹雪**
+   - **ゲーム中最難の戦闘。** 最高レベル。出現には同時に2条件。**夜**と、有効な**吹雪**。対象はヴァラク雪山。
+   - **即死カウンタースパイク。** そこに攻撃すると、味方がそのまま死ぬことがある。**全デバフ抵抗か即死抵抗が必須**で、任意ではない。
+   - **命中:** **最大の夜間命中アップ**が必要。無いと 21 レベル差で攻撃のほとんどが外れる。
+   - **転倒:** 持続は半分。**Rank VI の転倒時間プラス**がないと転倒ロックはほぼ不可能。
+   - **アーツ:** モナドシールドとモナドアーマーを最大。素早さに最適化する。
 
-6. 💜 The remaining 15 Pink Heart-to-Hearts, now reachable with Love Sources. Reyn & Dunban (Tranquil Square, night), Reyn & Fiora (Kneecap Hill), Dunban & Sharla (Rho Oasis), Shulk & Dunban (Colony 6 Main Entrance east), Shulk & Sharla (Colony 6 building top NW), Reyn & Sharla (Central Terminal), Sharla & Riki (Crown Tree), Dunban & Riki (Riki's House), Fiora & Riki (Syrath Lighthouse top), Reyn & Melia (Sky Terrace), Shulk & Melia (Hall of Trials), Shulk & Riki (Distant Fingertip), Fiora & Dunban (Junks 2F), Fiora & Melia (Digit 1), Dunban & Melia (Black Wreckage).
-   **Sub-checkpoints:**
+6. 💜 残るピンクのキズナトークは15件。Love Sources で届くようになった。ライン & ダンバン（居住区 憩いの広場、夜）、ライン & フィオルン（膝頭の丘）、ダンバン & カルナ（ローのオアシス）、シュルク & ダンバン（コロニー6 Main Entrance 東）、シュルク & カルナ（コロニー6の建物上部 北西）、ライン & カルナ（中央ターミナル）、カルナ & リキ（王冠樹）、ダンバン & リキ（リキの家）、フィオルン & リキ（シウェラート灯台頂上）、ライン & メリア（天空のテラス）、シュルク & メリア（試練の間）、シュルク & リキ（天涯の爪先）、フィオルン & ダンバン（ジャンクス 2F）、フィオルン & メリア（機神の親指）、ダンバン & メリア（黒の残骸）。
+   **サブチェック:**
    - [ ] Reyn & Dunban — Tranquil Square at night
    - [ ] Reyn & Fiora — Kneecap Hill
    - [ ] Dunban & Sharla — Rho Oasis
@@ -3015,55 +3014,55 @@ A pair cannot reach high affinity before they have been in the party together a 
    - [ ] Fiora & Melia — Digit 1
    - [ ] Dunban & Melia — Black Wreckage
 
-7. 👾 High-level UM sweep: Tephra Lv92-98 block (10, four quest-exclusive), Colony 9 Lv37-73, Bionis' Leg Lv75-90, Satorl Lv83-91, Makna Lv96-99, Eryth Sea Lv87-93, Valak Lv97-98.
+7. 👾 高レベル UM 掃討: Tephra Lv92-98 ブロック（10体、うちクエスト限定4体）、コロニー9 Lv37-73、巨神脚 Lv75-90、Satorl Lv83-91、Makna Lv96-99、エルト海 Lv87-93、Valak Lv97-98。
 
-8. 👾 UM: **Furious Jozan** (96) — High Entia Tomb, Telethia Laboratory. **Requires the High Entia Emblem.**
+8. 👾 UM: **憤怒のジョーザン**（96）— ハイエンター墓所、テレシア研究室。**必要はハイエンターの紋章。**
 
-> **⛏️ Grind stop — ⛏️ Finishing Colony 6 — money is the wall, not materials**
+> **⛏️ 周回 — ⛏️ コロニー6を仕上げる — 壁は資金。素材ではない**
 >
-> If you followed the route you already hold every material. What is left is **~2,000,000 G**, the largest single sink in the game.
+> ルートどおりなら素材はすべて所持済み。残りは**~2,000,000 G**。ゲーム中最大の単発消費。
 >
-> **Where the gold actually comes from:**
-> · **Alcamoth's generic quest block** paid ~614,000 G back in Chapter 8 — if you skipped it, that hole is why you are short now, and it cannot be recovered.
-> · **Selling superboss and high-level UM drops.** The post-game monsters drop equipment worth thousands a piece.
-> · **Sell all weapons and armour freely.** Never sell a collectable without checking the bill of materials first.
+> **ゴールドの実際の出どころ:**
+> · **皇都アカモートの汎用クエスト群**は8章で ~614,000 G を払った — 飛ばしたなら、今足りない穴はそれであり、取り戻せない。
+> · **スーパーボスと高レベル UM のドロップを売る。** クリア後のモンスターは、一つあたり数千の装備を落とす。
+> · **武器と防具は自由に売ってよい。** 収集品は必要素材表を確認するまで売らない。
 >
-> **Order:** finish **Housing** to 5 first — it gates the most residents. Then Commerce 5 (for Shilx), Nature 5 (for Neonik), Special 5 last since it is the most expensive tier at 400,000 G on its own.
+> **順番:** まず**住宅**を5まで — 住民の解禁が最も多い。次に商業 5（シータクロス用）、自然 5（ナオナミ用）。特殊 5 は最後。単体で 400,000 G と最も高い段階。
 >
-> **Residents you still need:** Neonik (Housing 5 + Nature 5), Shilx (Pop 120 + Housing 5 + Commerce 5), Nic (Housing 5 + Nopo'rikh), and one of Minana/Gowago (both need Berryjammy invited).
+> **まだ必要な住民:** ナオナミ（住宅 5 + 自然 5）、シータクロス（人口 120 + 住宅 5 + 商業 5）、ヌーク（住宅 5 + ノポリック）、およびミンカ/ゴワゴワーのどちらか（どちらもストロジャムの招待が必要）。
 
-9. ⚪ ⛏️ **Colony 6 to 100%** — all four categories at Level 5
-   Rewards **Titan Plate** for all four, plus a per-category item at each Level 5 (Oriental Glass for Housing, Titan Arms for Commerce).
-   **Sub-checkpoints:**
+9. ⚪ ⛏️ **コロニー6を 100%** — 4部門すべてレベル5
+   4部門すべてで**ティターンプレート**。加えて各レベル5の部門報酬（住宅は Oriental Glass、商業はティターンアーム）。
+   **サブチェック:**
    - [ ] Housing Level 5
    - [ ] Commerce Level 5
    - [ ] Nature Level 5
    - [ ] Special Level 5
 
-> **ℹ️ Note — The last three goals have a strict dependency order**
+> **ℹ️ メモ — The last three goals have a strict dependency order**
 >
-> Do not attempt these in parallel — one gates the next:
+> これらを並行して進めない — 一つが次の条件になる:
 >
-> **1. Superbosses** → drop Veritas Glyphs → trade for **Love Sources** → large party affinity boosts.
-> **2. Affinity** — Love Sources make the remaining Pink Heart-to-Hearts reachable, and area quests push every region to **5★**.
-> **3. Collectopaedia** — the **Other** page is 7 items obtainable *only* by trading with NPCs, and those trades are gated behind **3★ and 5★ Area Affinity**. It is literally impossible before step 2.
+> **1. スーパーボス** → Veritas Glyphs を落とす → **Love Sources**と交換 → パーティ親和度が大きく上がる。
+> **2. 親和度** — Love Sources で残りのピンクのキズナトークに届く。エリアクエストで全地域を**5★**へ上げる。
+> **3. コレペディア** — **その他**ページは7品。入手は*のみ*で、手段は NPC との交換。その交換の条件は**3★ と 5★ のエリア親和度**。手順2より前は文字どおり不可能。
 >
 > Doing these out of order is the single most common way people stall at 95% completion.
 
-10. ⚪ **Affinity Chart to 5★ in every area**
+10. ⚪ **キズナグラムを全エリアで 5★**
    Use Love Sources from superboss Veritas Glyphs to accelerate party affinity. For NPC affinity, keep talking to named NPCs twice at different times of day — that never stops being the engine.
-   **Sub-checkpoints:**
+   **サブチェック:**
    - [ ] Colony 9 Area Affinity — 5★
    - [ ] Colony 6 Area Affinity — 5★
    - [ ] Central Bionis Area Affinity — 5★
    - [ ] Upper Bionis Area Affinity — 5★
    - [ ] Hidden Machina Village Area Affinity — 5★
 
-11. ⚪ **Collectopaedia to 100%** — 19 area pages plus the **Other** page
-   - The 19 area pages are ordinary collection-point work — use the Skip Travel refill loop.
-   - The **Other** page is 7 items available **only through NPC trading**, gated behind 3★ and 5★ Area Affinity. This is why it comes last.
-   - Each completed area page gives a unique piece of gear — Carbon Driver for Colony 9, White Cluster for Bionis' Leg, and so on.
-   **Sub-checkpoints:**
+11. ⚪ **コレペディアを 100%** — エリアページ19と**その他**ページ
+   - エリアページ19は通常の採集ポイント作業 — スキップトラベルの再補充ループを使う。
+   - **その他**ページは7品。入手は**NPC 交換のみ**。条件はエリア親和度 3★ と 5★。だから最後になる。
+   - エリアページを完成させるたびに専用装備 — カーボンバンカーはコロニー9用、ホワイトクラスターは巨神脚用、以下同様。
+   **サブチェック:**
    - [ ] Colony 9 page
    - [ ] Tephra Cave page
    - [ ] Bionis' Leg page
@@ -3085,49 +3084,49 @@ A pair cannot reach high affinity before they have been in the party together a 
    - [ ] Bionis' Interior page
    - [ ] Other page
 
-12. ⚪ **Skill Links complete** — Affinity Coins from all 157 Unique Monsters
-   Coins also come from levelling, and they are **refundable** — unlink a skill and you get them back. So there is no wrong allocation, only a current one.
+12. ⚪ **スキルリンク完了** — キズナコイン。ユニークモンスター全157体から
+   コインはレベルアップでも手に入る。そして**返却できる** — スキルのリンクを外すと戻る。だから誤った配分は無く、今の配分があるだけ。
 
-13. 🏁 🏁 **Nopon Grand Prix: all 70 clears**
-   - 5 tracks × 7 characters × 2 modes (Score Attack and Battle Race).
-   - **Reward for all 70:** a permanent Ether Jet acceleration and boost bonus that applies regardless of equipped gear.
-   - If you ran each track as it unlocked you should be most of the way there already. The Colony 9 pair (Rural Road, Colony 9 Wild Ride) was the last to open, in Ch16.
+13. 🏁 🏁 **ノポン Grand Prix: 70件すべてクリア**
+   - コース5 × キャラクター7 × モード2（Score Attack と Battle Race）。
+   - **70件すべての報酬:** 装備に関係なく付く、恒久のエーテルジェット加速・ブーストボーナス。
+   - 解禁のたびに各コースを走っていれば、すでに大半は終わっている。コロニー9の組（Rural Road、コロニー9 Wild Ride）が最後に開き、時期は16章。
 
-> **ℹ️ Note — One thing you cannot get on this file**
+> **ℹ️ メモ — One thing you cannot get on this file**
 >
-> **Monado III** is **New Game Plus exclusive.** It cannot be obtained on a first playthrough by any means. If your definition of 100% includes it, that is a second file — everything else on this list is achievable here.
+> **モナド III**は**New Game Plus 限定。** 初回プレイでは手段がなく入手できない。100% の定義にこれを含めるなら、2つ目のセーブデータ — この一覧の他はすべてここで達成できる。
 
 ---
 
 ## Future Connected — The epilogue
 
-**Level —** · 6 tracked items
+**レベル —** · 追跡 6件
 
-> Separate save context. The Ether Jet carries over. UMs here grant **Art Coins**, not Affinity Coins, and **re-drop on repeat kills**.
+> セーブは別枠。エーテルジェットは引き継がれる。ここの UM は**Art Coins**を出し、キズナコインではない。そして**繰り返し撃破で再ドロップする**。
 
-> **ℹ️ Note — Different rules — read before you start**
+> **ℹ️ メモ — Different rules — read before you start**
 >
-> Future Connected is a self-contained epilogue on **Bionis' Shoulder** with a separate party and its own systems. Four differences that matter:
+> Future Connected は**巨神肩**を舞台にした独立エピローグで、パーティもシステムも別。重要な違いは4つ。
 >
-> **1. No Affinity Chart, no trading.** The whole NPC-affinity apparatus you spent 200 hours on is simply absent. That is why its missables are harmless.
-> **2. Unique Monsters give Art Coins, not Affinity Coins** — and they **re-drop on repeat kills**, unlike the main game where the first kill is the only one that pays.
-> **3. Ponspectors replace Chain Attacks with Union Strikes.** They support the active party; they do not replace playable members.
-> **4. Your Ether Jet carries over** from the main game, provided you did `World-Changing Whatchamajig` back in Chapter 4.
+> **1. キズナグラムなし、交換なし。** 200時間かけた NPC 親和の仕組みが、まるごと無い。だから取り逃しても実害がない。
+> **2. ユニークモンスターは Art Coins を出す。キズナコインではない** — そして**繰り返し撃破で再ドロップする**。本編は初回撃破だけが報酬。
+> **3. Ponspectors はチェインアタックを Union Strikes に置き換える。** 操作中のパーティを支援する。操作メンバーの代わりにはならない。
+> **4. エーテルジェットは引き継がれる**。本編から。4章で`World-Changing Whatchamajig`を済ませていれば。
 
-> **⚔️ Party & build — ⚔️ Choose three of four — and choose your leader**
+> **⚔️ パーティとビルド — ⚔️ Choose three of four — and choose your leader**
 >
-> Shulk, Melia, Kino and Nene are the four playable characters; you field **three** and may control any active member. Kino is the dedicated healer and Nene the tank, so most safe parties use one or both.
+> シュルク、メリア、Kino、Nene の4人が操作キャラ。編成は**三人**で、操作中の誰でも操作できる。Kino は専任ヒーラー、Nene はタンクなので、安全編成の多くは片方か両方を入れる。
 >
-> Control **Shulk** when you want Monado safety, or **Melia** when you want to manage elementals and maximise ether damage yourself. Do not leave Melia to the AI if her damage is central to the setup.
-> **Ponspectors** build the Union Strike gauge and add combat support outside the three playable slots. Recruiting more of them directly increases your combat power, so treat recruitment as a build task, not a collectathon.
+> **シュルク**を操作するのはモナドの安全が要るとき。**メリア**を操作するのは、エレメンタルを管理しエーテルダメージを自分で最大化するとき。ダメージの軸がメリアなら AI に任せない。
+> **Ponspectors**は Union Strike ゲージを溜め、三つの操作枠の外で戦闘支援を足す。人数が増えるほど戦力が直接上がる。収集ではなくビルド作業として仲間を増やす。
 
-1. 📜 Recruit **every Ponspector** — this is a power curve, not a side quest
+1. 📜 **すべての Ponspector**を仲間にする — これは戦力曲線であり、サイドクエストではない
    Each one recruited strengthens your Ponspector squad, which is a meaningful chunk of your damage and utility. Doing them early makes the rest of the epilogue easier, so front-load recruitment before the Fog King.
 
-2. 👾 👾 **20 Unique Monsters** on Bionis' Shoulder (Lv63-80)
-   - Phlegmatic Jamir (63) · Highborn Alexandra (64) · Grotesque Deimis (65) · Booming Frederick (66, **rain only**) · Buoyant Rostein (68) · Quondam Grimbellum (69) · Confluent Uzva (69) · Air Marshal Reisenbach (69) · Cyclonic Yughana (70) · Deputy Seagal (72) · Dismal Umya (73) · Caustic Naquatra (73) · Terpsichorean Cenoth (73) · Marquis Odesh (74) · Perceptive Quinops (74) · Citadel Tostiga (74) · Ravager Apelpisia (77)
-   - **Because Art Coins re-drop**, the strongest of these are worth farming repeatedly rather than killing once and moving on.
-   **Sub-checkpoints:**
+2. 👾 👾 **20体のユニークモンスター**。巨神肩（Lv63-80）
+   - Phlegmatic Jamir (63) · Highborn Alexandra (64) · Grotesque Deimis (65) · Booming Frederick (66, **雨のみ**) · Buoyant Rostein (68) · Quondam Grimbellum (69) · Confluent Uzva (69) · Air Marshal Reisenbach (69) · Cyclonic Yughana (70) · Deputy Seagal (72) · Dismal Umya (73) · Caustic Naquatra (73) · Terpsichorean Cenoth (73) · Marquis Odesh (74) · Perceptive Quinops (74) · Citadel Tostiga (74) · Ravager Apelpisia (77)
+   - **Art Coins は再ドロップする**ので、強い個体は1回で終わらせず繰り返し周回する価値がある。
+   **サブチェック:**
    - [ ] Defeat Phlegmatic Jamir
    - [ ] Defeat Highborn Alexandra
    - [ ] Defeat Grotesque Deimis
@@ -3146,61 +3145,61 @@ A pair cannot reach high affinity before they have been in the party together a 
    - [ ] Defeat Citadel Tostiga
    - [ ] Defeat Ravager Apelpisia
 
-3. 👾 👾 The two **Fogbeast** Unique Monsters — gated behind a story fight
-   - **Prerequisite:** the **Ponio Fogbeasts fight at Soltnar Seal Island**. Neither exists before it.
-   - **Custodian Barreldart Fogbeast** (71) — Gamaro Hollow.
-   - **Contemptuous Greymane Fogbeast** (78) — Agni's Skygarden Ruins.
-   **Sub-checkpoints:**
+3. 👾 👾 2体の**Fogbeast**ユニークモンスター — 本編戦闘が関門
+   - **前提:** **ポニオの Fogbeasts 戦。場所はソルタナ封印島**。これより前にはどちらもいない。
+   - **Custodian Barreldart Fogbeast**（71）— Gamaro Hollow。
+   - **Contemptuous Greymane Fogbeast**（78）— Agni's Skygarden Ruins。
+   **サブチェック:**
    - [ ] Defeat Custodian Barreldart Fogbeast
    - [ ] Defeat Contemptuous Greymane Fogbeast
 
-4. 👾 👾 **Prosecutor Davrum** (80) — Nerthis Necropolis · **quest-exclusive**
+4. 👾 👾 **Prosecutor Davrum**（80）— Nerthis Necropolis · **クエスト限定**
    The highest-level Unique Monster in the epilogue and the only one locked behind a quest. Take the quest first or it will not be there.
 
-5. 📜 Clear **every Future Connected side quest**
+5. 📜 **Future Connected のサイドクエストをすべて**クリア
 
-6. 👾 💀 Defeat the **Fog King**
+6. 👾 💀 **Fog King**を倒す
    The epilogue's final boss. Do your Ponspector recruitment and Unique Monster sweep first — both directly increase your power going in.
 
-> **ℹ️ Note — Two missables here, both genuinely harmless**
+> **ℹ️ メモ — Two missables here, both genuinely harmless**
 >
-> Unusually for this game, you can relax:
+> このゲームにしては珍しく、気を抜いてよい:
 >
-> **Gael'gar** disappears after the fog Armus attack Gran Dell. Because Future Connected has **no Affinity Chart and no trading**, losing an NPC costs you nothing.
-> **The Companions' Cape Shop** closes after the relocation — but the **Gran Dell Shop stocks every item it sold**. Zero impact.
+> **Gael'gar**は、霧の Armus が Gran Dell を襲ったあと消える。Future Connected には**キズナグラムも交換も無い**ので、NPC を失っても損失はない。
+> **The Companions' Cape Shop**は移転後に閉まる — ただし**Gran Dell Shop はそこで売っていた品をすべて置く**。影響はゼロ。
 >
 > These are listed in missables guides and they alarm completionists unnecessarily. Neither affects 100%.
 
-> **ℹ️ Note — Finishing this unlocks one last thing back in the main game**
+> **ℹ️ メモ — Finishing this unlocks one last thing back in the main game**
 >
-> Clearing Future Connected adds **Master Arts Manuals** to the Nopon Archsage's Noponstone stock in the Land of Challenge.
+> Future Connected をクリアすると**Master Arts Manuals**がノポン Archsage の Noponstone 在庫に加わる。場所は強敵を求めての地。
 >
-> So if you are chasing a fully maxed main-game build, the correct order is: finish the main game → do the superbosses → **clear Future Connected** → go back and buy Master Arts Manuals with the Noponstone you have been banking since Chapter 2.
+> 本編ビルドを完全に伸ばすなら、正しい順はこれ。本編を終える → スーパーボスを倒す → **Future Connected をクリア** → 戻り、2章から貯めてきた Noponstone で Master Arts Manuals を買う。
 
 
 ---
 
-## Verification status
+## 確認状況
 
-### Resolved
+### 解決済み
 
-- ✅ **All 10 mutually exclusive quest pairs** have recommendations with reasons and reward numbers. See `research/05-branch-decisions.md`.
-- ✅ **All 7 characters' hidden skill trees** mapped to their unlock quests. See `COMBAT-AND-BUILDS.md`.
-- ✅ **Heart-to-Hearts are never missable.** All 63 pinned to chapters anyway.
-- ✅ **Colony 6 cannot be soft-locked.** Every at-risk material has a recovery path.
-- ✅ **The Refugee Camp is repopulated in Chapter 17**, so it is not permanently dead after Chapter 5.
-- ✅ **Fallen Arm and Alcamoth both survive** their apparent lockouts. Quests and NPCs die; the areas do not.
+- ✅ **相互排他の10組**には、理由と報酬数つきの推奨がある。
+- ✅ **7人の隠しスキルツリー**は、解放クエストに対応づけてある。`COMBAT-AND-BUILDS.md` を見る。
+- ✅ **キズナトークは取り逃さない。** 63件はそれでも章に固定してある。
+- ✅ **コロニー6はソフトロックしない。** 危険な素材には回収経路がある。
+- ✅ **脱出艇キャンプは17章で人が戻る。** 5章のあと永久に閉じた場所ではない。
+- ✅ **落ちた腕と皇都アカモートは、見た目のロックを越えて残る。** クエストとNPCは消える。エリアは消えない。
 
-### Still open, both routed defensively at zero cost
+### まだ開いているが、コストゼロで先に処理してある
 
-1. **Does `World-Changing Whatchamajig` expire with the Refugee Camp?** No source states either way. The route does it first thing in Chapter 4, so the answer does not matter.
-2. **Do the Alcamoth Grand Prix courses survive Mechonis Core?** Menu access suggests yes, but unconfirmed. The route clears them before Chapter 15 anyway.
+1. **`World-Changing Whatchamajig` は脱出艇キャンプと一緒に消えるか。** 資料はどちらとも書いていない。ルートは4章の最初にやるので、答えは影響しない。
+2. **皇都アカモートの Grand Prix コースは機神界中枢のあとも残るか。** メニューからは残るように見えるが未確認。ルートは15章の前に片付ける。
 
-### Known coverage limits
+### 既知の範囲
 
-- **Step-by-step density.** Chapters 0-2 carry full per-quest detail (pick up / do / turn in / pays / unlocks). The remaining chapters are still at summary density and are being expanded in play order.
-- **Quest enumeration** is complete for every area carrying a deadline, plus Colony 9, Bionis' Leg, Eryth Sea, Frontier Village and Valak Mountain. Eight permanent-access areas are covered at block level. Nothing in them can be lost.
-- **Source conflicts** are flagged inline where they exist rather than silently resolved.
+- **手順の密度。** 0-2章はクエストごとの受注、進行、報告、報酬、解放まで書いてある。残りの章は要約密度で、プレイ順に厚くしている。
+- **クエストの列挙**は、期限のあるエリアに加え、コロニー9、巨神脚、エルト海、サイハテ村、ヴァラク雪山まで完了している。恒久アクセスの8エリアは塊で扱ってある。その中で失うものはない。
+- **資料の食い違い**は、黙って解消せず、その場に印を付けてある。
 
 
-**Totals:** 20 chapters · 447 tracked items · 120 inline guidance panels.
+**合計:** 20章 · 追跡 447件 · 案内パネル 120件。

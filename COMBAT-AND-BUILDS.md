@@ -1,276 +1,276 @@
-# Combat, Party, Skills, Gems and Gear
+# 戦闘、パーティ、スキル、ジェム、装備
 
-Companion to `ROUTE.md`. This answers: who you control, who the AI gets, what to level first, what to link, what gems to chase, and what gear to wear.
+`ROUTE.md`の補足。誰を操作し、誰をAIに任せ、何からレベルを上げ、何をリンクし、どのジェムを追い、何を装備するかを書く。
 
-The interactive `index.html` **Build Lab is the canonical loadout matrix**: every character has player-controlled and AI-controlled variants for both reliable and aggressive play, plus party presets. This document explains the reasoning behind those choices.
-
----
-
-## 1. Who you control
-
-**Guide default: Shulk, from Chapter 1 to the post-game.** He is the safest leader for this first-clear completion route, not a required leader.
-
-Visions can occur without Shulk in the active party. Controlling him makes the guide's manual responses reliable: **Monado Shield** can nullify an enemy Talent Art when its Art level meets the displayed Roman numeral; **Monado Armour** reduces physical/ether Art damage by up to 75% at maximum Art level but does not stop enemy Talent Arts; **Monado Speed** helps one target evade physical attacks; or warn the targeted ally with **B**. The AI cannot choose among those encounter-specific reactions reliably.
-
-**Aggressive alternative from Chapter 8 onward: player-controlled Melia.** She has a very high Ether burst/DoT ceiling, but she is fragile and her AI is not reliable for a deliberately banked elemental rotation. Player-controlled Melia retains the desired buffs, uses Summon Copy, and discharges during burst windows. Use her for Ether-weak enemies, Unique Monster farming and faster superboss kills after you understand the encounter.
-
-**Do not make AI Melia or AI Fiora your only damage plan.** Both lose important sequencing under AI control. Their Build Lab presets remain useful as support or secondary damage, but manual control is how either reaches her ceiling.
+画面上の`index.html`。**Build Lab が正式な装備表**だ。全員に、プレイヤー操作とAI操作、安定と攻撃的の両方があり、パーティプリセットもある。この文書は、その選び方の理由を説明する。
 
 ---
 
-## 2. Party composition by phase
+## 1. 誰を操作するか
 
-Three slots. You are one of them.
+**この攻略の初期値はシュルク。1章からクリア後まで。** 初回クリアの達成ルートで最も安全なリーダーであり、必須のリーダーではない。
 
-| Phase | Party | Notes |
+未来視は、操作中のパーティにシュルクがいなくても起きる。彼を操作すると、この攻略の手動対応が安定する。**モナドシールド**は、アーツレベルが表示されたローマ数字以上なら敵の Talent Art を無効にできる。**モナド アーマー**は最大アーツレベルで物理／エーテルのアーツダメージを最大75%下げるが、敵の Talent Art は止めない。**モナド スピード**は対象1人の物理攻撃回避を助ける。または **B** で狙われた仲間に警告する。AIは、その戦闘ごとの対応を安定して選べない。
+
+**8章以降の攻撃的な別案は、プレイヤーが操作するメリア。** エーテルバーストと継続ダメージの上限は非常に高いが、耐久は低く、意図して溜めた属性の回し方をAIは安定してできない。プレイヤー操作のメリアは欲しい強化を維持し、サモニングコピーを使い、バーストの隙に放出する。エーテルに弱い敵、Unique Monster の周回、強敵の時短に使う。その戦闘を理解してから。
+
+**AIのメリアやAIのフィオルンだけをダメージ計画にしない。** どちらもAIだと重要な手順を落とす。Build Lab のプリセットは支援や副ダメージとして有用だが、上限に届くのは手動操作のときだ。
+
+---
+
+## 2. 進行ごとのパーティ
+
+枠は三つ。そのうちの一人が自分。
+
+| 進行 | パーティ | メモ |
 |---|---|---|
-| Ch 1-2 | Shulk / Reyn / Fiora | Forced. Learn Break → Topple on Reyn. |
-| Ch 3 | **Shulk / Reyn** | Forced two-person party. |
-| Ch 4 | **Shulk / Reyn / Sharla** | Sharla joins; Reyn tanks with raw Defence while she heals. |
-| Ch 5-6 | **Shulk / Dunban / Sharla** | Transition to Dunban's agility tanking while retaining dedicated healing. |
-| Ch 7-11 | **Shulk / Dunban / Riki** | Reliable general-purpose core once Riki joins. |
-| Ch 12+ | Shulk / Dunban / Riki, or swap Riki → Fiora for more damage | Fiora rejoins. Riki is still better as AI. |
-| Superbosses | Melia (you) / Dunban / Riki, or Shulk / Dunban / Riki | Melia for speed, Shulk for safety. |
+| 1-2章 | シュルク / ライン / フィオルン | 固定。崩し → 転倒をラインで覚える。 |
+| 3章 | **シュルク / ライン** | 二人だけの強制パーティ。 |
+| 4章 | **シュルク / ライン / カルナ** | カルナが加入。彼女が回復するあいだ、ラインは素の防御でタンクする。 |
+| 5-6章 | **シュルク / ダンバン / カルナ** | 専任の回復を残したまま、ダンバンの回避タンクへ移る。 |
+| 7-11章 | **シュルク / ダンバン / リキ** | リキ加入後の、汎用で安定する中核。 |
+| 12章以降 | シュルク / ダンバン / リキ。ダメージを足すならリキをフィオルンに替える | フィオルンが復帰。AIとしてはまだリキの方が上手い。 |
+| 強敵 | メリア（自分） / ダンバン / リキ、またはシュルク / ダンバン / リキ | 速さはメリア、安全はシュルク。 |
 
-### Why Shulk / Dunban / Riki is the answer
+### シュルク / ダンバン / リキが答えである理由
 
-- **Dunban is an evasion tank.** His Agility is high enough that with Agility gems and Monado Speed he simply does not get hit by physical attacks. Sources describe a maxed-agility Dunban as near-invincible to physical damage. He holds aggro and takes almost nothing.
-- **Riki is an excellent all-rounder.** `You Can Do It` heals allies in a line in front of him, so positioning matters; Lurgy, Burninate and Freezinate supply strong damage over time, and his HP pool is enormous. His AI plays him well.
-- **This comp does not need a dedicated healer.** An evasion tank means almost no incoming damage, so Sharla's healing becomes redundant and her low damage becomes the limiting factor. Battles get dramatically faster.
-- Do **not** run Reyn and Dunban together. Two tanks is redundant unless you are deliberately topple-locking.
+- **ダンバンは回避タンクだ。** Agility は十分高く、Agility ジェムとモナド スピードがあれば物理攻撃は当たらない。資料は、Agility を極めたダンバンを物理ダメージに対してほぼ無敵と書く。ヘイトを持ち、ほとんどダメージを受けない。
+- **リキは優秀な万能役だ。** `ガンバルも`は前方の直線にいる仲間を回復するので、位置が大事だ。ドクドクだも、モエモエだも、ヒエヒエだもは強い継続ダメージを出し、HPは非常に多い。AIは彼を上手く動かす。
+- **この編成に専任ヒーラーは要らない。** 回避タンクなら受けるダメージがほとんど無く、カルナの回復は余剰になり、彼女の低いダメージが足を引っ張る。戦闘ははっきり速くなる。
+- ラインとダンバンを一緒に出さない。意図して転倒を維持するのでなければ、タンク二人は余剰だ。
 
-### AI quality, character by character
+### AIの質、キャラクターごと
 
-| Character | AI quality | Use as AI? |
+| キャラクター | AIの質 | AIに任せるか |
 |---|---|---|
-| Dunban | Excellent | Yes, best AI tank |
-| Riki | Excellent | Yes, best AI support |
-| Reyn | Good | Yes, early game |
-| Sharla | Adequate | Early only, falls off hard |
-| Fiora | Mediocre | Acceptable, but underperforms her ceiling |
-| Melia | Poor for burst sequencing | Support/filler only; control her when her damage matters |
-| Shulk | Limited by vision timing | Use beside player Melia/Fiora only when you accept weaker reactive safety |
+| ダンバン | 優秀 | 任せる。最良のAIタンク |
+| リキ | 優秀 | 任せる。最良のAI支援 |
+| ライン | 良い | 任せる。序盤 |
+| カルナ | 及第 | 序盤だけ。あとで大きく落ちる |
+| フィオルン | 平凡 | 使えるが、上限には届かない |
+| メリア | バーストの手順が苦手 | 支援か穴埋めだけ。ダメージが要るときは自分で操作する |
+| シュルク | 未来視のタイミングに制限される | プレイヤーがメリア／フィオルンを操作し、反応の安全が落ちることを受け入れるときだけ隣に置く |
 
 ---
 
-## 3. The combat loop you are actually playing
+## 3. 実際に回している戦闘の流れ
 
-1. **Auto-attack does the work.** Arts are the spice. Positioning matters: many arts do more from the side or behind.
-2. **Break → Topple → Daze.** Break makes Topple possible, Topple makes Daze possible. A toppled enemy cannot act. Reyn (`Bone Upper`) and Dunban set this up; this chain is how you beat things well above your level.
-3. **Burst Affinity.** When a party member calls out mid-fight, press the button on cue. Raises party affinity and fills the Party Gauge. Do this every time, it is free affinity and you need a lot of affinity.
-4. **Chain Attacks** when the Party Gauge is full. Chaining arts of the **same colour** extends the chain. This is your burst window and your topple window.
-5. **Visions.** The whole reason you control Shulk. Respond, do not spectate.
+1. **通常攻撃が本体で、アーツは味付けだ。** 位置が大事で、多くのアーツは側面か背後でダメージが増える。
+2. **崩し → 転倒 → 気絶。** 崩しが転倒を可能にし、転倒が気絶を可能にする。転倒中の敵は行動できない。ライン（`ボーンアッパー`）とダンバンがこれを作り、レベルがかなり上の相手を倒す手順になる。
+3. **Burst Affinity。** 戦闘中に仲間が呼びかけてきたら、合図でボタンを押す。パーティのキズナが上がり、パーティゲージが溜まる。毎回やる。タダのキズナで、キズナは大量に要る。
+4. **チェインアタック**はパーティゲージが満タンのとき。**同じ色**のアーツをつなぐとチェインが伸びる。バーストの隙であり、転倒の隙でもある。
+5. **未来視。** シュルクを操作する理由そのもの。見ていないで対応する。
 
-### Monado Arts priority
+### モナドのアーツ優先度
 
-| Art | When | Priority |
+| アーツ | いつ | 優先度 |
 |---|---|---|
-| **Monado Enchant** | Lets most physical party members damage Mechon normally; returned Fiora is the important exception | Highest, mid-game |
-| **Monado Shield** | Nullifies an enemy Talent Art when its Art level meets or exceeds the Vision's Roman numeral | Raise as required |
-| **Monado Armour** | Up to 75% reduction to physical/ether Art damage at maximum Art level; does not stop enemy Talent Arts | Highest, late |
-| **Monado Speed** | Agility/evasion to one target. **Put it on Dunban** and he stops being hit | Very high |
-| **Monado Buster** | Heavy damage, anti-Mechon | High |
-| **Monado Purge** | Blocks enemy buffs and ether attacks | Situational |
-| **Monado Eater** | Strips buffs, applies bleed | Situational |
+| **モナド エンチャント** | 物理寄りの仲間のほとんどが機神兵に通常ダメージを通せるようにする。復帰したフィオルンは重要な例外 | 最高。中盤 |
+| **モナドシールド** | アーツレベルが未来視のローマ数字以上なら、敵の Talent Art を無効にする | 必要に応じて上げる |
+| **モナド アーマー** | 最大アーツレベルで、物理／エーテルのアーツダメージを最大75%減らす。敵の Talent Art は止めない | 最高。終盤 |
+| **モナド スピード** | 対象1人に Agility／回避。**ダンバンにかける**と当たらなくなる | 非常に高い |
+| **モナドバスター** | 重いダメージ。対機神兵 | 高い |
+| **モナド ブレイカー** | 敵の強化とエーテル攻撃を防ぐ | 状況による |
+| **モナドイーター** | 強化を剥がし、出血を付与する | 状況による |
 
-**Monado Speed on Dunban is the single strongest interaction in the game.** An evasion tank with an evasion buff is unhittable by physical attacks.
-
----
-
-## 4. Skill trees: what to level first
-
-Each character has three default branches plus two hidden branches unlocked by quests and affinity. **Skill Trees use SP; Arts use AP.** The active branch changes that branch's stat bonus, while every skill already learned remains active. Skill Links use refundable Affinity Coins.
-
-**Order of investment:**
-
-1. **Shulk: Intuition**, then Humanity; switch to Bravery after unlocking it. Intuition's Agility is the best early accuracy/evasion return.
-2. **Reyn: Spirit**, then Diligence; Camaraderie is the late tank/chain target once `Friendship Tokens` unlocks it.
-3. **Sharla: Perseverance**, then Devotion; Perseverance contains Ether Expansion and the shorter Cool Off skill.
-4. **Dunban: Wisdom**, then Prudence; Enthusiasm becomes the offensive hidden-tree target. Wisdom is the core agility/evasion branch.
-5. **Melia: Honesty**, then Reliability; Passion becomes the Ether-stat target when unlocked. Honesty contains High Speed and Enlightenment.
-6. **Riki: Vivacity**, then Innocence; move to Cowardice after his HP reaches the cap and the branch unlocks.
-7. **Fiora: Courage**, then Daring; Rashness becomes the multi-hit critical target once `The Oath Sword` unlocks it.
-
-Before superbosses, finish Dunban's `Steel Protection`, then prioritize accuracy, Spike Defence and the specific links named in the Build Lab. Do not confuse the branch stat bonus with its individual skills: you retain learned skills after changing branches.
-
-### Hidden skill trees — the unlock map
-
-Each character has hidden trees beyond their default three, containing some of the best passives. They are **quest rewards**, several sit behind long or timed prerequisite chains, and every finale has a required leader. The route repeats that requirement on the exact card.
-
-**There are 14 hidden branches across the seven base-game characters: two each.**
-
-| Character | Tree | How to unlock | Ch |
-|---|---|---|---|
-| **Riki** | **Heroism** | **Riki leads:** `Meeting the Nopon Sage` → `Legend of the Sage` → `Challenge of the Sage` → **`Final Challenge of the Sage`** (Nopon Sage, Divine Sanctuary). Pays 38,000 G / 73,500 EXP / Meteor Nibbler | 17 |
-| **Sharla** | **Reliance** | **Sharla leads:** `Disinsectization` + `Secret Innovation` → **`Avenge a Mamapon's Death`** | 8 |
-| **Dunban** | **Enthusiasm** | **Dunban accepts; Shulk turns in:** Orkatix chain, Fallen Arm/Junks: `Transmission Bypass` + `The Exhaust Pump` + `The Mini Reactor` → **`Stunted Growth`**. Needs **3.5★ Hidden Machina Village** | 17 |
-| **Shulk** | Pessimism | **Shulk leads:** `The Broken Watch` (Ch1, Désirée, Ether Light) → **`Désirée's Future`** | 1 → 6 |
-| **Shulk** | Bravery | **Shulk leads:** `A Young Captain's Revival` **or** `A Young Captain's Trust` — mutually exclusive; either unlocks the tree | 17 |
-| **Reyn** | Camaraderie | **Reyn leads:** `Friendship Tokens` — Moritz, Tranquil Square, Colony 9 | 17 |
-| **Reyn** | Impatience | **Reyn leads:** **`Cook-Off Showdown!`** — Ma'crish, Colony 6 HQ | 10 |
-| **Sharla** | Affection | **Sharla leads for every objective:** `Stopping the Elopement` — Don Argentis, Colony 6. Needs 4.5★ Colony 6 and `Family Secrets` → `Betrothal Test` | 17 |
-| **Fiora** | Innocence | **Fiora leads:** **`Battling Brutes`** — Dulland, Refugee Camp | 17 |
-| **Fiora** | Rashness | **Fiora leads:** **`The Oath Sword`** — Karlos, Hidden Machina Village; requires `The Wilted Flower`, 2★ and Mechonis Field access | 13 |
-| **Dunban** | **Obstinance** | **Dunban leads:** six-quest Valak chain ending in **`The Balance of Power`** (Dakuku). Pays 21,000 G, Snaer Striker, Stellar Gear and Gauntlets | 10 |
-| **Riki** | Cowardice | **Riki leads:** `Mislabelling Problem` → **`Getting Bigger!`** (Dabidabi, Chief's Residence). Needs **3.5★ Central Bionis** | 10 |
-| **Melia** | Reticence | **Melia leads:** Ether Plant chain ending in **`Trouble at the Lighthouse`** at Syrath Lighthouse. Also gives the **Nightglow Staff** | 8 |
-| **Melia** | Passion | **Melia leads:** **`Ancient High Entia Mystery`**, Ch17. Needs **2.5★ Upper Bionis**, the High Entia Emblem, and either `Talia's Research` **or** `Investigating Satorl` | 17 |
-
-**Five traps here.**
-
-1. **`Désirée's Future` chains from `The Broken Watch` in Chapter 1.** Skip the Chapter 1 quest and Shulk's Pessimism tree never becomes available.
-2. **`Battling Brutes` appears at the Refugee Camp in Chapter 17**, which most guides treat as permanently closed after Chapter 5. It is not — Dulland and Elior repopulate it. The quest is **not timed**, but it is easy to overlook; as one of the richest optional bundles, it unlocks Fiora's tree, pays 63,500 G and 158,000 EXP, and spawns two Unique Monsters (Firework Geldesia and Reckless Zanden, Lv98, Arachno Queen's Nest in Tephra Cave).
-3. **Frontier Village needs a deliberate return trip in Chapter 10.** `Medical Advancements`, `Let's Make Fillings!`, `Mislabelling Problem` and `Getting Bigger!` are all **Chapter 10** quests from the Sacred Altar and Chief's Residence, not Chapter 7. Build Central Bionis affinity to **3.5★** during your Chapter 7 pass so Riki's gate is already open when you come back.
-4. **Two of these chains are bundled with Unique Monsters.** `The Balance of Power` spawns **Barbaric Sitri** (47) and **Banquet Vassago** (48) in Antol Den. `Punish the Hodes`, inside Melia's Reticence chain, spawns **Funeral Gozra** (42) at Hode Refuge.
-5. **Melia's Passion tree is not missable with `Talia's Research`.** `Ancient High Entia Mystery` opens in Chapter 17 after either `Talia's Research` **or** its post-Core replacement, `Investigating Satorl`; it also needs 2.5★ Upper Bionis, the High Entia Emblem, and Melia leading. Doing Talia's earlier quest helps affinity, but skipping it does not lose the tree.
+**モナド スピードをダンバンにかけるのは、このゲームで最も強い組み合わせだ。** 回避バフの乗った回避タンクには、物理攻撃が当たらない。
 
 ---
 
-## 5. Skill Links
+## 4. スキルツリー。何から上げるか
 
-**How it works:** spend **Affinity Coins** to let one character borrow a passive skill another character has unlocked. Affinity between the two characters limits how much you can link.
+各キャラクターには初期の三系統と、クエストとキズナで開く隠し二系統がある。**スキルツリーはSP、アーツはAP。** 選択中の系統はその系統の能力補正を変え、覚えたスキルはすべて有効なまま残る。スキルリンクには、返金できるキズナコインを使う。
 
-**Two things worth knowing:**
-- Affinity Coins come from **levelling up** *and* from **first kills on Unique Monsters**. Missing a UM costs coins but is not the only source.
-- **Coins are refundable.** Unlink a skill and you get the coins back. Experiment freely, there is no wrong permanent choice here.
+**投資の順:**
 
-### Recommended links
+1. **シュルク: Intuition**、次に Humanity。解放後は Bravery に切り替える。Intuition の Agility は、序盤の命中と回避として最も得だ。
+2. **ライン: Spirit**、次に Diligence。`友情の三種の神器`で開いたあとの終盤タンク／チェイン目標は Camaraderie。
+3. **カルナ: Perseverance**、次に Devotion。Perseverance には Ether Expansion と、短いクールダウンのスキルがある。
+4. **ダンバン: Wisdom**、次に Prudence。攻撃寄りの隠し系統の目標は Enthusiasm。Wisdom が回避の中核だ。
+5. **メリア: Honesty**、次に Reliability。解放後、エーテル能力の目標は Passion。Honesty にはハイスピードと無心の悟りがある。
+6. **リキ: Vivacity**、次に Innocence。HPが上限に達し系統が開いたら Cowardice へ移る。
+7. **フィオルン: Courage**、次に Daring。`約束の剣`で開いたあとの多段クリティカル目標は Rashness。
 
-**Shulk**
-| Skill | From | Cost | Effect |
+強敵の前にダンバンの`鉄壁の守護`を仕上げ、そのあと命中、スパイク防御、Build Lab に名前があるリンクを優先する。系統の能力補正と個々のスキルを混同しない。系統を変えても、覚えたスキルは残る。
+
+### 隠しスキルツリー — 解放の対応表
+
+各キャラクターには初期三つを超える隠し系統があり、最良のパッシブの一部が入っている。**クエスト報酬**で、いくつかは長い、または時間制限のある前提の連鎖の奥にあり、どの結末も必要なリーダーがいる。ルートは、その条件を該当カードに繰り返して書いてある。
+
+**本編の7人で、隠し系統は14。一人につき二つ。**
+
+| キャラクター | 系統 | 解放方法 | 章 |
 |---|---|---|---|
-| Battle Character | Reyn | 17 | +10% weapon attack |
-| Ultimate Strike | Fiora | 13 | +20% critical damage |
-| Deadly Determination | Dunban | 48 | More tension from Arts |
-| High Speed | Melia | 20 | +15 Agility |
+| **リキ** | **Heroism** | **リキがリーダー:** `センニンに出会う` → `センニンの伝説` → `センニンの試練` → **`センニンの最終試練`**（ノポン・センニン、神呼びの聖域）。38,000 G／73,500 EXP／流星群のバクバク | 17 |
+| **カルナ** | **Reliance** | **カルナがリーダー:** `害虫駆除` + `ヒミツの技術革新` → **`母の死を越えて`** | 8 |
+| **ダンバン** | **Enthusiasm** | **受注はダンバン、報告はシュルク:** オルフェスの連鎖、落ちた腕／ジャンクス。`Transmission Bypass` + `空気排出ポンプ入手` + `高性能小型動力炉入手` → **`成長するために！`**。**3.5★のマシーナの隠れ里**が必要 | 17 |
+| **シュルク** | Pessimism | **シュルクがリーダー:** `機械オンチの腕時計`（1章、デジレーン、エーテル Light）→ **`デジレーンの将来`** | 1 → 6 |
+| **シュルク** | Bravery | **シュルクがリーダー:** `小娘隊長の復活` **または** `小娘隊長の信頼`。相互排他で、どちらでも系統は開く | 17 |
+| **ライン** | Camaraderie | **ラインがリーダー:** `友情の三種の神器` — フリッツ、居住区 憩いの広場、コロニー9 | 17 |
+| **ライン** | Impatience | **ラインがリーダー:** **`料理対決・決着！`** — ミュキシリア、コロニー6本部 | 10 |
+| **カルナ** | Affection | **すべての目標でカルナがリーダー:** `逃避行の阻止` — ドン・シルバー、コロニー6。4.5★のコロニー6と、`父に隠れて` → `婚約の試練`が必要 | 17 |
+| **フィオルン** | Innocence | **フィオルンがリーダー:** **`ぶつかり合うふたつ`** — デュランド、脱出艇キャンプ | 17 |
+| **フィオルン** | Rashness | **フィオルンがリーダー:** **`約束の剣`** — カラル、マシーナの隠れ里。`花が枯れちゃう`、2★、機神界フィールドへの到達が必要 | 13 |
+| **ダンバン** | **Obstinance** | **ダンバンがリーダー:** Valak の6クエスト連鎖。最後は **`パワーバランス`**（ダルク）。21,000 G、雪隠れの太刀、ステラギア、Gauntlets | 10 |
+| **リキ** | Cowardice | **リキがリーダー:** `不正表示問題` → **`おっきくな〜れ`**（ダビダビ、村長の家）。**3.5★ Central Bionis** が必要 | 10 |
+| **メリア** | Reticence | **メリアがリーダー:** エーテルプラントの連鎖。最後は **`焦心苦慮の灯台`**、場所はシウェラート灯台。**夜光の杖**も手に入る | 8 |
+| **メリア** | Passion | **メリアがリーダー:** **`古代ハイエンターの謎`**、17章。**2.5★ Upper Bionis**、ハイエンターの紋章、そして`タリアの研究` **または** `ザトールの調査`が必要 | 17 |
 
-**Dunban** — the priority character
-| Skill | From | Cost | Effect |
-|---|---|---|---|
-| High Speed | Melia | 20 | +15 Agility. **Take this first** |
-| Rampage | Reyn | 20 | +10% double attack chance |
-| Ultimate Teamwork | Shulk | 18 | +25% chain attack damage |
-| Ultimate Strike | Fiora | 13 | +20% critical damage |
+**ここには五つの罠がある。**
 
-Rampage plus Haste plus Double Attack gems compounds: faster attacks trigger more double attacks, which trigger more criticals.
-
-**Riki**
-| Skill | From | Cost | Effect |
-|---|---|---|---|
-| Healing Wisdom | Shulk | 8 | +15% healing from Arts |
-| Chain of Friendship | Shulk | 45 | +15% Chain Link chance |
-| Glorious Future | Shulk | 28 | Maxes talent gauge after Visions |
-| High Speed | Melia | 20 | +15 Agility |
-
-**Reyn**
-| Skill | From | Cost | Effect |
-|---|---|---|---|
-| Resilient Warrior | Shulk | 11 | Physical and ether defence |
-| Body of Steel | Dunban | 49 | -15% physical damage taken |
-| Immunization | Shulk | 45 | Blocks stat-reduction debuffs |
-| Cuddly Hero! | Riki | 43 | Debuff resistance |
-
-**Sharla**
-| Skill | From | Cost | Effect |
-|---|---|---|---|
-| Healing Wisdom | Shulk | 8 | +15% healing |
-| Bodybuilder | Reyn | 6 | +5% max HP |
-| Heavy Equipment | Dunban | 15 | Equip heavy armour early |
-| Body of Steel | Dunban | 49 | -15% physical damage taken |
-
-**Melia**
-| Skill | From | Cost | Effect |
-|---|---|---|---|
-| Ether Assault | Sharla | 20 | +20% ether Art damage |
-| Chain of Friendship | Shulk | 45 | +15% Chain Link chance |
-| Love Sun! | Riki | 18 | Reduced cooldown in daytime |
-| Explosion of Energy | Fiora | 80 | Tension from Talent Arts |
-
-**Fiora** (listed as "Seven" in some guides — that is her Mechon designation)
-| Skill | From | Cost | Effect |
-|---|---|---|---|
-| Critical Drain | Dunban | 50 | Restores HP on criticals |
-| Epic Evasion | Shulk | 45 | +5% Burst Affinity chance after evading |
-| Equipment Expert | Dunban | 10 | Reduces equipment weight |
-| High Speed | Melia | 20 | +15 Agility |
+1. **`デジレーンの将来`の連鎖は1章の`機械オンチの腕時計`から始まる。** 1章のクエストを飛ばすと、シュルクの Pessimism は二度と開けない。
+2. **`ぶつかり合うふたつ`は17章の脱出艇キャンプに現れる。** 多くの攻略は、そこを5章のあと永久に閉じたものとして扱う。閉じていない。デュランドとエインが戻る。クエストに**時間制限は無い**が、見落としやすい。いちばん実りの多い任意の束の一つで、フィオルンの系統を開き、63,500 G と 158,000 EXP を払い、Unique Monster を二体出す（火花のゲルデシアと虚空のザンデン、Lv98、女王蜘蛛の巣窟、場所はテフラ洞窟）。
+3. **サイハテ村は10章で、意図して戻る必要がある。** `治療装置を開発！`、`入れ歯を作る！`、`不正表示問題`、`おっきくな〜れ`はすべて御神体の祭壇と村長の家の**10章**クエストであり、7章ではない。7章を通るあいだに Central Bionis のキズナを **3.5★** まで上げ、戻ったときにリキの門がすでに開いているようにする。
+4. **この連鎖のうち二つは Unique Monster と組になっている。** `パワーバランス`は **蛮行のシトリー**（47）と **宴楽のウァサゴ**（48）をアントルの寝床に出す。`フーディを成敗せよ`はメリアの Reticence 連鎖の中にあり、**葬送のゴズラ**（42）をフーディの隠れ家に出す。
+5. **メリアの Passion は、`タリアの研究`があれば取り逃さない。** `古代ハイエンターの謎`は17章で、`タリアの研究` **または** その中枢後の置き換えである`ザトールの調査`のあとに開く。2.5★ Upper Bionis、ハイエンターの紋章、メリアがリーダーであることも必要だ。タリアの前のクエストはキズナの助けになるが、飛ばしても系統は失わない。
 
 ---
 
-## 6. Gems
+## 5. スキルリンク
 
-Gems slot into equipment and are the largest single source of power in the game.
+**仕組み:** **キズナコイン**を使い、あるキャラクターが、別のキャラクターの解放済みパッシブを借りる。二人のキズナが、リンクできる量を制限する。
 
-### The one rule
+**知っておくことが二つ:**
+- キズナコインは**レベルアップ**と、**Unique Monster の初回撃破**から手に入る。UMを逃すとコインは減るが、それだけが入手元ではない。
+- **コインは返ってくる。** スキルのリンクを外すとコインが戻る。自由に試してよい。ここで永久に間違える選択は無い。
 
-**Agility is the strongest stat in the game.** Agility Up gems are the most valuable gems. They power the evasion-tank plan, they raise your hit rate against higher-level enemies, and hit rate is what gates the superbosses.
+### 推奨リンク
 
-### Gem crafting
+**シュルク**
+| スキル | 入手元 | コスト | 効果 |
+|---|---|---|---|
+| 攻めの素質 | ライン | 17 | 武器攻撃+10% |
+| 強撃の極意 | フィオルン | 13 | クリティカルダメージ+20% |
+| 必殺魂 | ダンバン | 48 | アーツで得られるテンションが増える |
+| ハイスピード | メリア | 20 | Agility +15 |
 
-Refine cylinders plus crystallised ether at an Ether Furnace. **The pair of characters working the furnace determines the number of cycles, based on their affinity.** Higher affinity between the two crafters means more cycles, which means better gems. Another reason the affinity grind pays for itself.
+**ダンバン** — 優先するキャラクター
+| スキル | 入手元 | コスト | 効果 |
+|---|---|---|---|
+| ハイスピード | メリア | 20 | Agility +15。**最初に取る** |
+| 大暴れ | ライン | 20 | ダブルアタック率+10% |
+| 連携の極み | シュルク | 18 | チェインアタックのダメージ+25% |
+| 強撃の極意 | フィオルン | 13 | クリティカルダメージ+20% |
 
-### Priority list
+大暴れとヘイストとダブルアタックのジェムは重なる。攻撃が速くなるとダブルアタックが増え、クリティカルも増える。
 
-| Gem | Why |
+**リキ**
+| スキル | 入手元 | コスト | 効果 |
+|---|---|---|---|
+| 治癒の知識 | シュルク | 8 | アーツの回復量+15% |
+| 友情の連鎖 | シュルク | 45 | チェインリンク率+15% |
+| 栄光の未来 | シュルク | 28 | 未来視のあと、タレントゲージが最大になる |
+| ハイスピード | メリア | 20 | Agility +15 |
+
+**ライン**
+| スキル | 入手元 | コスト | 効果 |
+|---|---|---|---|
+| 堅実な戦い | シュルク | 11 | 物理とエーテルの防御 |
+| 鋼鉄の肉体 | ダンバン | 49 | 受ける物理ダメージ-15% |
+| Immunization | シュルク | 45 | 能力低下のデバフを防ぐ |
+| 勇者のモコモコ | リキ | 43 | デバフ耐性 |
+
+**カルナ**
+| スキル | 入手元 | コスト | 効果 |
+|---|---|---|---|
+| 治癒の知識 | シュルク | 8 | 回復量+15% |
+| Bodybuilder | ライン | 6 | 最大HP+5% |
+| 重装の心得 | ダンバン | 15 | 序盤から重い鎧を装備できる |
+| 鋼鉄の肉体 | ダンバン | 49 | 受ける物理ダメージ-15% |
+
+**メリア**
+| スキル | 入手元 | コスト | 効果 |
+|---|---|---|---|
+| 攻性エーテル | カルナ | 20 | エーテルアーツのダメージ+20% |
+| 友情の連鎖 | シュルク | 45 | チェインリンク率+15% |
+| お日様大好き | リキ | 18 | 昼のクールダウンが短くなる |
+| 元気大爆発 | フィオルン | 80 | Talent Art でテンションを得る |
+
+**フィオルン**（資料によっては "Seven"。機神兵としての呼称だ）
+| スキル | 入手元 | コスト | 効果 |
+|---|---|---|---|
+| 兜の緒締め | ダンバン | 50 | クリティカルでHPが回復する |
+| 神業の回避 | シュルク | 45 | 回避後の Burst Affinity 率+5% |
+| 武装の極意 | ダンバン | 10 | 装備重量が減る |
+| ハイスピード | メリア | 20 | Agility +15 |
+
+---
+
+## 6. ジェム
+
+ジェムは装備にはめ、このゲームでいちばん大きい力の出所だ。
+
+### 一つの規則
+
+**Agility はこのゲームで最も強い能力値だ。** 素早さアップのジェムが最も価値が高い。回避タンクの計画を支え、自分よりレベルの高い敵への命中を上げ、命中率こそが強敵への門になる。
+
+### ジェム合成
+
+エーテルシリンダーと結晶化したエーテルを、エーテル炉で精製する。**炉を担当する二人のキズナが、サイクル数を決める。** 二人のキズナが高いほどサイクルが増え、ジェムが良くなる。キズナを積む理由がもう一つある。
+
+### 優先リスト
+
+| ジェム | 理由 |
 |---|---|
-| **Agility Up** | Best stat. Everything else is downstream of this |
-| **Spike Defence** | Equip for a documented damaging/counter/Topple Spike; Dunban's Steel Protection reduces Spike damage by 20%, not to immunity by itself |
-| **Night Vision** | Accuracy against higher-level enemies. Maxed rank required for Avalanche Abaasy |
-| **Topple Plus** | Extends topple. Rank VI needed to topple-lock Abaasy |
-| **Debuff Resist** / **Divine Protect** | Abaasy's instant-death counter spike |
-| **Haste** | Faster Art cooldowns |
-| **Double Attack** | Compounds with Rampage on Dunban |
-| **Strength Up** / **Ether Up** | Flat damage, fine but lower priority than Agility |
+| **素早さアップ** | 最良の能力値。ほかはすべてこの下流にある |
+| **スパイク防御** | 資料が示すダメージ、カウンター、転倒のスパイクに装備する。ダンバンの鉄壁の守護はスパイクのダメージを20%減らすだけで、それ単体では無効にしない |
+| **夜間命中アップ** | 自分よりレベルの高い敵への命中。雪檻のアバーシには最大ランクが必要 |
+| **転倒時間プラス** | 転倒を伸ばす。Abaasy を転倒で止め続けるにはランクVI |
+| **全デバフ抵抗** / **即死抵抗** | Abaasy の即死カウンタースパイク |
+| **ヘイスト** | アーツのクールダウンが速くなる |
+| **ダブルアタック** | 大暴れと重なる。対象はダンバン |
+| **筋力アップ** / **Ether Up** | 固定ダメージ。有用だが Agility より優先度は低い |
 
-### The superboss loadout
+### 強敵の装備
 
-Build toward this from roughly Chapter 14:
-- Spike Defence where the boss dossier documents a relevant damaging, counter or Topple Spike
-- Night Vision maxed, especially before Abaasy
-- Agility Up stacked on Dunban
-- Topple Plus for Belgazas
-- Debuff Resist or Divine Protect for Abaasy
-- Monado Armour maxed on Shulk
+だいたい14章から、これを目標に組む:
+- スパイク防御を、資料が関係するダメージ、カウンター、転倒のスパイクを書いている箇所へ
+- 夜間命中アップを最大に。特に Abaasy の前
+- 素早さアップをダンバンに積む
+- Belgazas には転倒時間プラス
+- Abaasy には全デバフ抵抗か即死抵抗
+- モナド アーマーをシュルクで最大に
 
-**The farm that unlocks the rest:** **Ancient Daedala** (Lv105, Fallen Arm, Wreckage Beach, post-Mechonis Core) drops **Rank V Night Vision cylinders**. Kill it second in the superboss order, then farm it before attempting Belgazas and Abaasy. Superboss drops in general are Rank V crystals with Daze Up and Night Vision attributes, craftable into the Rank VI gems the endgame armour wants.
-
----
-
-## 7. Gear
-
-Two honest points:
-
-1. **Gear matters less than gems.** A mediocre piece with three good gem slots beats a better piece with one. Prioritise slot count.
-2. **Do not grind gear during the story.** Story-pace equipment from quest rewards and shops is sufficient the whole way through, because your level is capped at the story target and your enemies are level-appropriate. The gear chase belongs in the post-game, where it is fed by superboss drops and Colony 6 rewards.
-
-**Named gear worth routing for:**
-- **Imperial Staff** (Melia) — 🔴 missable, Chapter 10, control Melia and talk to Kallian before he leaves.
-- **Titan Plate** — all four Colony 6 categories at Level 5.
-- Per-category Colony 6 Level 5 rewards: Oriental Glass (Housing), Titan Arms (Commerce), and equivalents.
-- Collectopaedia area completion rewards: Carbon Driver (Colony 9), White Cluster (Bionis' Leg), Cosmic Nibbler and Arkose Pike (Sword Valley 🔴), Taurus Greaves and Taurus Helm (Mechonis Field 🔴), Machina Driver III (Central Factory 🔴).
-- **Monado III** is **New Game Plus only.** It cannot be obtained on a first playthrough. If your definition of 100% includes it, budget a second file.
+**残りを開く周回:** **太古のデイダラ**（Lv105、落ちた腕、残骸の浜辺、機神界中枢のあと）は **ランクVの夜間命中アップシリンダー**を落とす。強敵の順番では二番目に倒し、Belgazas と Abaasy の前に周回する。強敵のドロップは全体として、気絶威力アップと夜間命中アップの属性を持つランクVの結晶で、終盤の鎧が求めるランクVIのジェムに合成できる。
 
 ---
 
-## 8. Expert Mode level management
+## 7. 装備
 
-You chose cap-at-story-level and bank the surplus. Practical rules:
+正直な点が二つ:
 
-1. Set your level to the chapter target listed in `ROUTE.md` at the start of each chapter, and leave it there.
-2. Banked EXP is never lost and there is no penalty for holding a large bank.
-3. **Do not spend the bank during the story.** Its purpose is the post-game, where the level gap between you (~90) and the superbosses (100-120) is otherwise brutal.
-4. **Do drop your level deliberately** for quests with level conditions, and for Unique Monsters you want to fight at a meaningful difficulty.
-5. Against superbosses, level is only part of it. Abaasy at Lv120 will still shred an underprepared Lv99 party. Gems and Monado Armour matter more than the last few levels.
+1. **装備はジェムほど大事ではない。** ジェム枠が三つの凡庸な品は、枠が一つの良い品に勝つ。枠の数を優先する。
+2. **本編中に装備を周回しない。** クエスト報酬と店の、進行に合った装備で最後まで足りる。レベルは本編の目標で頭打ちになり、敵もそのレベルに合っている。装備を追うのはクリア後で、強敵のドロップとコロニー6の報酬がそれを満たす。
+
+**ルートに載せる価値のある名前付き装備:**
+- **皇家の錫杖**（メリア）— 🔴取り逃す。10章。メリアを操作し、カリアンが去る前に話す。
+- **ティターンプレート** — コロニー6の四部門すべてがレベル5。
+- 部門ごとのコロニー6レベル5報酬: Oriental Glass（Housing）、ティターンアーム（Commerce）、および同格。
+- コレペディアのエリア達成報酬: カーボンバンカー（コロニー9）、ホワイトクラスター（巨神脚）、隕石のバクバクとアルコズパイク（大剣の渓谷 🔴）、タウロスグリーヴとタウロスヘルム（機神界フィールド 🔴）、マキナ・バンカー III（中央工廠 🔴）。
+- **モナド III** は **New Game Plus だけ。** 初回プレイでは手に入らない。100%にこれを含めるなら、二つ目のデータを見込む。
 
 ---
 
-## 9. Affinity, the currency behind everything
+## 8. Expert Mode のレベル管理
 
-Three separate affinity systems, all of which the route grinds simultaneously:
+本編の目標レベルで頭打ちにし、余りは貯める。実際の規則:
 
-| Type | What it gates | How to raise |
+1. 各章の開始時に、レベルを`ROUTE.md`に書いてあるその章の目標へ合わせ、そのままにする。
+2. 貯めたEXPは失われず、大量に持っていても罰は無い。
+3. **本編中に貯金を使わない。** 使い道はクリア後だ。自分（およそ90）と強敵（100-120）のレベル差は、そうしなければ厳しい。
+4. **レベル条件のあるクエストと、意味のある難度で戦いたい Unique Monster では、意図してレベルを下げる。**
+5. 強敵に対して、レベルは一部でしかない。Lv120の Abaasy は、準備不足のLv99パーティをそれでも引き裂く。最後の数レベルより、ジェムとモナド アーマーの方が大事だ。
+
+---
+
+## 9. キズナ。すべての背後にある通貨
+
+キズナは三系統あり、ルートはそれらを同時に積む。
+
+| 種類 | 何を開くか | 上げ方 |
 |---|---|---|
-| **Party affinity** (character to character) | Heart-to-Hearts, Skill Link capacity, gem crafting cycles | Burst Affinity prompts, Heart-to-Hearts, questing with them in the party, gifts |
-| **Area affinity** (per region, up to 5★) | Collectopaedia "Other" page, NPC trades, quest availability | Completing side quests for that area's residents |
-| **NPC affinity** (individual, the Affinity Chart) | Quests, trades, Colony 6 residents | Talking to NPCs repeatedly at different times, completing their quests |
+| **パーティのキズナ**（キャラクター同士） | キズナトーク、スキルリンクの容量、ジェム合成のサイクル | Burst Affinity の合図、キズナトーク、パーティに入れてクエスト、贈り物 |
+| **エリアのキズナ**（地域ごと、最大5★） | コレペディアの "Other" ページ、NPCの交換、クエストの出現 | その地域の住人とサイドクエストを達成する |
+| **NPCのキズナ**（個人、キズナグラム） | クエスト、交換、コロニー6の住人 | 違う時間にNPCへ繰り返し話しかけ、そのクエストを達成する |
 
-**The shortcut:** superbosses drop **Veritas Glyphs**, tradeable for **Love Sources**, which give large party affinity boosts. This is why `ROUTE.md` puts superbosses *before* the affinity grind in the post-game rather than after.
+**近道:** 強敵は **Veritas Glyphs** を落とし、**Love Sources** と交換できる。パーティのキズナが大きく上がる。だから`ROUTE.md`は、クリア後のキズナ周回の前に強敵を置く。

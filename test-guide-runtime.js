@@ -57,27 +57,27 @@ async function makeDom({ legacy = null, previous = null, current = null, url = "
   assert([...dom.window.document.querySelectorAll("#route .world-it")].every(row => row.closest(".area-arrival")), "a world discovery escaped its compact area-arrival tracker");
   assert(!dom.window.document.querySelector("#route .world-it .rec-level"), "minor discovery cues still repeat thick recommended-level metadata");
   await waitFor(() => dom.window.document.querySelectorAll("#quest-results .result-card").length === 80, "quest lookup render");
-  await waitFor(() => dom.window.document.querySelector("#route [data-id='c1-01'] .quest-schedule")?.textContent.includes("Dionysis"), "route quest-giver schedules");
+  await waitFor(() => dom.window.document.querySelector("#route [data-id='c1-01'] .quest-schedule")?.textContent.includes("ディオニージス"), "route quest-giver schedules");
   assert(dom.window.document.querySelector("#route [data-id='c1-01'] .quest-schedule").textContent.includes("06:00–13:00"), "Dionysis route schedule has the wrong time");
   const prideSchedule = dom.window.document.querySelector("#route [data-id='c1-17'] .quest-schedule");
-  assert(prideSchedule?.textContent.includes("Lukas") && prideSchedule.textContent.includes("09:00–15:00"), "Pride and Courage did not render Lukas's correct active time");
+  assert(prideSchedule?.textContent.includes("グレフ") && prideSchedule.textContent.includes("09:00–15:00"), "Pride and Courage did not render Lukas's correct active time");
   const colonyChallengeSchedule = dom.window.document.querySelector("#route [data-id='c1-06'] .quest-schedule");
   assert(colonyChallengeSchedule?.querySelectorAll(".quest-schedule-row").length === 1, "Evil Rhangrot did not render exactly one regional Challenge 1 schedule");
-  assert(colonyChallengeSchedule.textContent.includes("Defence Force Soldier") && colonyChallengeSchedule.textContent.includes("06:00–18:00") && colonyChallengeSchedule.textContent.includes("Military District"), "Evil Rhangrot rendered the wrong regional Challenge 1 giver");
+  assert(colonyChallengeSchedule.textContent.includes("防衛隊員") && colonyChallengeSchedule.textContent.includes("06:00–18:00") && colonyChallengeSchedule.textContent.includes("軍事区"), "Evil Rhangrot rendered the wrong regional Challenge 1 giver");
   for (const id of ["c1-07", "c1-08", "c7-23", "c7-24", "c7-25", "c7-26", "c8-21", "c8-22", "c8-23", "c8-24", "c8-33"]) {
     assert(dom.window.document.querySelectorAll(`#route [data-id='${id}'] .quest-schedule-row`).length === 1, `${id} did not render exactly one area-correct Challenge giver`);
   }
   const adventurersSchedule = dom.window.document.querySelector("#route [data-id='c10-44'] .quest-schedule");
-  assert(adventurersSchedule?.textContent.includes("Miriall") && adventurersSchedule.textContent.includes("06:00–18:00") && adventurersSchedule.textContent.includes("Imperial Palace"), "Adventurers in Peril did not render Miriall's schedule after source-name normalization");
+  assert(adventurersSchedule?.textContent.includes("ミリア") && adventurersSchedule.textContent.includes("06:00–18:00") && adventurersSchedule.textContent.includes("皇宮"), "Adventurers in Peril did not render Miriall's schedule after source-name normalization");
   const alcamothQuestSteps = [...dom.window.document.querySelectorAll("#route [data-id='c15-01'] .route-subcheck")];
   assert(alcamothQuestSteps.length === 31 && alcamothQuestSteps.every(step => step.querySelector("small")?.textContent), "The Alcamoth named-quest checklist does not show availability on every quest");
-  assert(alcamothQuestSteps.find(step => step.textContent.includes("Adventurers in Peril"))?.textContent.includes("Miriall"), "Adventurers in Peril lacks its compact grouped-quest schedule");
+  assert(alcamothQuestSteps.find(step => step.textContent.includes("Adventurers in Peril"))?.textContent.includes("ミリア"), "Adventurers in Peril lacks its compact grouped-quest schedule");
   for (const [id, count] of [["c17-18", 11], ["c17-19", 8]]) {
     const namedQuestSteps = [...dom.window.document.querySelectorAll(`#route [data-id='${id}'] .route-subcheck`)];
     assert(namedQuestSteps.length === count && namedQuestSteps.every(step => step.querySelector("small")?.textContent), `${id} does not show giver availability on every named quest`);
   }
   const erythQuestSteps = [...dom.window.document.querySelectorAll("#route [data-id='c8-34'] .route-subcheck")];
-  assert(erythQuestSteps.length === 4 && erythQuestSteps.every(step => step.querySelector("small")?.textContent.includes("Anytime")), "The Eryth Sea Monster/Collect quest group lacks four independently scheduled checkpoints");
+  assert(erythQuestSteps.length === 4 && erythQuestSteps.every(step => step.querySelector("small")?.textContent.includes("いつでも")), "The Eryth Sea Monster/Collect quest group lacks four independently scheduled checkpoints");
   assert([...dom.window.document.querySelectorAll("#route .it")].every(row => row.querySelectorAll(".quest-schedule-row").length <= 3), "A route card accumulated an ambiguous wall of quest-giver schedules");
   assert(dom.window.document.querySelectorAll("#quest-results .result-card .quest-schedule").length === 80, "Quest Lookup did not render a schedule for every visible quest");
   await waitFor(() => dom.window.document.querySelectorAll("#party-presets .preset").length === 17, "party presets render");
@@ -97,17 +97,17 @@ async function makeDom({ legacy = null, previous = null, current = null, url = "
   themeSelect.dispatchEvent(new Event("change", { bubbles: true }));
   assert(document.documentElement.dataset.theme === "xenoblade" && localStorage.getItem("xc1de-guide-theme") === "xenoblade", "Xenoblade theme did not apply or persist");
   const globalSearch = document.getElementById("guide-search");
-  globalSearch.value = "Avalanche Abaasy";
+  globalSearch.value = "雪檻のアバーシ";
   globalSearch.dispatchEvent(new Event("input", { bubbles: true }));
-  assert(document.querySelector("body > #guide-search-results")?.textContent.includes("Avalanche Abaasy"), "global search results are not portalled above the clipped header region");
+  assert(document.querySelector("body > #guide-search-results")?.textContent.includes("雪檻のアバーシ"), "global search results are not portalled above the clipped header region");
   globalSearch.dispatchEvent(new KeyboardEvent("keydown", { key: "Escape", bubbles: true }));
   assert(!document.getElementById("guide-search-results"), "Escape did not dismiss global search results");
-  globalSearch.value = "Territorial Rotbart";
+  globalSearch.value = "縄張りバルバロッサ";
   globalSearch.dispatchEvent(new Event("input", { bubbles: true }));
-  await waitFor(() => document.getElementById("guide-search-results")?.textContent.includes("Monsterpedia: Territorial Rotbart"), "global search lazy Monsterpedia index");
+  await waitFor(() => document.getElementById("guide-search-results")?.textContent.includes("Monsterpedia: 縄張りバルバロッサ"), "global search lazy Monsterpedia index");
   globalSearch.value = "no-such-xenoblade-record-zzzz";
   globalSearch.dispatchEvent(new Event("input", { bubbles: true }));
-  assert(!document.getElementById("guide-search-results") && document.getElementById("guide-search-count").textContent === "No matches", "empty global search results leave a click-blocking overlay");
+  assert(!document.getElementById("guide-search-results") && document.getElementById("guide-search-count").textContent === "該当なし", "empty global search results leave a click-blocking overlay");
   globalSearch.value = "";
   globalSearch.dispatchEvent(new Event("input", { bubbles: true }));
 
@@ -119,17 +119,17 @@ async function makeDom({ legacy = null, previous = null, current = null, url = "
 
   document.querySelector('[data-p="companion"]').dispatchEvent(new MouseEvent("click", { bubbles: true }));
   await waitFor(() => document.querySelector("#inventory-list input[data-inventory-id]"), "Play Mode inventory planner render");
-  assert(document.getElementById("p-companion").classList.contains("on") && document.getElementById("play-current").textContent.includes("Confirm Shulk"), "Play Mode did not open on the next incomplete route card");
-  const verdant = dom.window.MONSTERPEDIA_DATA.entries.find(entry => entry.name === "Verdant Bluchal");
+  assert(document.getElementById("p-companion").classList.contains("on") && document.getElementById("play-current").textContent.includes("パーティリーダーがシュルク"), "Play Mode did not open on the next incomplete route card");
+  const verdant = dom.window.MONSTERPEDIA_DATA.entries.find(entry => entry.name === "新緑のブルックル");
   await waitFor(() => document.querySelector(`#encounter-select option[value="${verdant.id}"]`), "Play Mode encounter dossiers");
   document.getElementById("encounter-select").value = verdant.id;
   document.getElementById("encounter-select").dispatchEvent(new Event("change", { bubbles: true }));
-  assert(document.getElementById("encounter-detail").textContent.includes("Shulk / Reyn / Fiora · control Shulk"), "Play Mode recommends a party that is unavailable for Verdant Bluchal");
-  assert(!document.getElementById("encounter-detail").textContent.includes("Shulk / Dunban / Riki"), "Play Mode leaked the late-game Unique Monster party into Chapter 1");
+  assert(document.getElementById("encounter-detail").textContent.includes("シュルク / ライン / フィオルン · シュルクを操作"), "Play Mode recommends a party that is unavailable for 新緑のブルックル");
+  assert(!document.getElementById("encounter-detail").textContent.includes("シュルク / ダンバン / リキ"), "Play Mode leaked the late-game Unique Monster party into Chapter 1");
   document.getElementById("session-length").value = "30";
   document.getElementById("session-focus").value = "completion";
   document.getElementById("session-build").dispatchEvent(new MouseEvent("click", { bubbles: true }));
-  assert(document.querySelectorAll("#session-dashboard .session-check").length > 0 && document.getElementById("session-dashboard").textContent.includes("route order preserved"), "Adventure Companion did not build a route-ordered session");
+  assert(document.querySelectorAll("#session-dashboard .session-check").length > 0 && document.getElementById("session-dashboard").textContent.includes("ルート順は守る"), "Adventure Companion did not build a route-ordered session");
   assert(!document.getElementById("session-dashboard").textContent.includes("Party data is loading"), "Adventure Companion shows a false loading state when the current chapter has no scheduled party swap");
   assert(JSON.parse(localStorage.getItem("xc1de-guide-state-v4")).preferences.sessionIds.length > 0, "Adventure Companion session did not persist");
   document.querySelector("#play-current [data-complete-play]").dispatchEvent(new MouseEvent("click", { bubbles: true }));
@@ -150,7 +150,7 @@ async function makeDom({ legacy = null, previous = null, current = null, url = "
   assert(document.querySelectorAll("#route .it:not(.world-it) .rec-level").length === 447, "not every major route card has a recommended level");
   assert(document.querySelectorAll("#route .world-it .rec-level").length === 0, "minor discovery cues still repeat recommended-level badges");
   assert(document.querySelectorAll("#route .leader-badge").length === 24, "the 23 later party-leader steps plus the Chapter 0 setup are not all badged");
-  assert([...document.querySelectorAll("#route .leader-badge")].some(badge => badge.textContent.includes("DUNBAN → SHULK")), "Stunted Growth does not show its two-leader handoff");
+  assert([...document.querySelectorAll("#route .leader-badge")].some(badge => badge.textContent.includes("ダンバン → シュルク")), "Stunted Growth does not show its two-leader handoff");
   assert(document.querySelectorAll("#route .deadline-badge").length > 100, "missable/lockout badges are not visible throughout the route");
   assert(document.querySelectorAll("#route .route-build").length === 9, "route build updates did not render at all nine progression milestones");
   assert(document.querySelectorAll("#route details.pan").length >= 100, "long route guidance is not collapsed into readable details");
@@ -160,14 +160,14 @@ async function makeDom({ legacy = null, previous = null, current = null, url = "
   assert(document.querySelector("#route .route-build-grid"), "route build updates are not split into readable sections");
   assert(!document.querySelector("#route .route-build").textContent.includes("Slot nowShulk"), "route build text still collapses Slot now and Shulk together");
   assert([...document.querySelectorAll("#route .it label")].every(label => !/^\p{Extended_Pictographic}/u.test(label.textContent.trim())), "route titles still use leading emoji instead of the shared icon/tag system");
-  assert(document.getElementById("route-count").textContent.includes("908 checkpoints"), "route search result count is missing or incorrect");
+  assert(document.getElementById("route-count").textContent.includes("908件"), "route search result count is missing or incorrect");
   const storyFilter = document.querySelector('#p-route .chip[data-f="story"]');
   storyFilter.dispatchEvent(new MouseEvent("click", { bubbles: true }));
   assert(document.querySelectorAll('#route .it[data-f="story"]:not(.hide)').length === 31 && document.querySelectorAll('#route .it:not([data-f="story"]):not(.hide)').length === 0, "Main Story filter does not isolate the full story spine");
   document.querySelector('#p-route .chip[data-f="all"]').dispatchEvent(new MouseEvent("click", { bubbles: true }));
-  document.getElementById("q").value = "Materials for a Bomb";
+  document.getElementById("q").value = "部品を3つすべて集める";
   document.getElementById("q").dispatchEvent(new Event("input", { bubbles: true }));
-  assert(document.querySelectorAll('#route .it[data-f="story"]:not(.hide)').length === 1 && document.querySelector('#route .it[data-f="story"]:not(.hide)').textContent.includes("Materials for a Bomb"), "route search cannot find a formal story objective");
+  assert(document.querySelectorAll('#route .it[data-f="story"]:not(.hide)').length === 1 && document.querySelector('#route .it[data-f="story"]:not(.hide)').textContent.includes("爆弾の材料を集めろ"), "route search cannot find a formal story objective");
   document.getElementById("q").value = "";
   document.getElementById("q").dispatchEvent(new Event("input", { bubbles: true }));
   const chapterJump = document.getElementById("chapter-jump");
@@ -227,9 +227,9 @@ async function makeDom({ legacy = null, previous = null, current = null, url = "
   assert(normalizedButtons.every(button => dom.window.getComputedStyle(button).width === "72px" && dom.window.getComputedStyle(button).height === "46px"), "Pickup / Target buttons do not share one fixed size");
   assert([...document.querySelectorAll('[data-subcheck-group="c1-13"] .route-subcheck-copy small')].every(hint => /Pickup \d{2}:\d{2}–\d{2}:\d{2}/.test(hint.textContent)), "Colony 9 Search Quest sub-checkpoints lack concise pickup schedules and item directions");
 
-  const ridgeTarget = document.querySelector('[data-subcheck-group="c1-10"] [data-open-atlas-query="Ridge Antol"]');
+  const ridgeTarget = document.querySelector('[data-subcheck-group="c1-10"] [data-open-atlas-query="リッジ・アントル"]');
   ridgeTarget.dispatchEvent(new MouseEvent("click", { bubbles: true }));
-  await waitFor(() => document.getElementById("atlas-q")?.value === "Ridge Antol" && document.querySelectorAll("#frontier-pins .EnemySpawnPoint").length > 0, "quest Target Atlas search");
+  await waitFor(() => document.getElementById("atlas-q")?.value === "リッジ・アントル" && document.querySelectorAll("#frontier-pins .EnemySpawnPoint").length > 0, "quest Target Atlas search");
   assert(document.getElementById("atlas-area").value === "colony-9-map" && document.querySelector('[data-atlas-type="EnemySpawnPoint"]').checked, "quest Target action did not open the correct map and pin type");
   document.querySelector('[data-p="route"]').dispatchEvent(new MouseEvent("click", { bubbles: true }));
 
@@ -240,16 +240,16 @@ async function makeDom({ legacy = null, previous = null, current = null, url = "
   assert(saved.world[worldCheck.dataset.worldId], "world discovery tick was not saved");
 
   const dunbanAtlasButton = document.querySelector('.world-arrival-item [data-open-world-id="world-colony-9-dunban-s-house-eee084ec"]');
-  assert(dunbanAtlasButton, "Dunban's House arrival checkpoint lacks an Atlas deep link");
+  assert(dunbanAtlasButton, "ダンバン邸 arrival checkpoint lacks an Atlas deep link");
   dunbanAtlasButton.dispatchEvent(new MouseEvent("click", { bubbles: true }));
-  await waitFor(() => document.querySelector("#reference-atlas .frontier-pin.is-focused"), "Dunban's House exact Atlas focus");
-  assert(document.getElementById("atlas-area").value === "colony-9-map" && document.getElementById("atlas-q").value === "Dunban's House" && document.getElementById("frontier-detail").textContent.includes("Dunban's House"), "area-arrival Atlas link opened the map without focusing its exact pin");
+  await waitFor(() => document.querySelector("#reference-atlas .frontier-pin.is-focused"), "ダンバン邸 exact Atlas focus");
+  assert(document.getElementById("atlas-area").value === "colony-9-map" && document.getElementById("atlas-q").value === "ダンバン邸" && document.getElementById("frontier-detail").textContent.includes("ダンバン邸"), "area-arrival Atlas link opened the map without focusing its exact pin");
   document.querySelector('[data-p="route"]').dispatchEvent(new MouseEvent("click", { bubbles: true }));
 
   const routeSearch = document.getElementById("q");
-  routeSearch.value = "Bafalgar Tomb";
+  routeSearch.value = "バルファルガ墓地";
   routeSearch.dispatchEvent(new Event("input", { bubbles: true }));
-  const bafalgar = [...document.querySelectorAll("#route .world-it")].find(row => row.textContent.includes("Bafalgar Tomb"));
+  const bafalgar = [...document.querySelectorAll("#route .world-it")].find(row => row.textContent.includes("バルファルガ墓地"));
   assert(bafalgar && !bafalgar.classList.contains("hide") && bafalgar.closest("section").style.display !== "none", "route search did not find a world discovery");
   const hiddenArrivalTrackers = [...document.querySelectorAll("#route .area-arrival.hide")];
   assert(hiddenArrivalTrackers.length > 0 && hiddenArrivalTrackers.every(bundle => dom.window.getComputedStyle(bundle).display === "none"), "route search leaves nonmatching area-arrival trackers visibly stacked below its results");
@@ -291,12 +291,12 @@ async function makeDom({ legacy = null, previous = null, current = null, url = "
   assert(document.getElementById("p-monsters").classList.contains("on"), "arrow-key tab navigation did not activate Monsterpedia");
   await waitFor(() => document.querySelectorAll("#monster-results .result-card").length === 80, "Monsterpedia lazy render");
   const monsterSearch = document.getElementById("monster-q");
-  monsterSearch.value = "Brog Leg Meat";
+  monsterSearch.value = "グロッグのモモ肉";
   monsterSearch.dispatchEvent(new Event("input", { bubbles: true }));
   assert(document.querySelectorAll("#monster-results .result-card").length > 0, "Monsterpedia drop search returned nothing");
-  assert(document.getElementById("monster-count").textContent.includes("of 866"), "Monsterpedia count is incorrect");
+  assert(document.getElementById("monster-count").textContent.includes("866 体"), "Monsterpedia count is incorrect");
   assert(document.getElementById("monster-ledger").textContent.includes("0 / 12,582 drops logged"), "Monsterpedia ledger total is missing or incorrect");
-  monsterSearch.value = "Territorial Rotbart";
+  monsterSearch.value = "縄張りバルバロッサ";
   monsterSearch.dispatchEvent(new Event("input", { bubbles: true }));
   assert(document.getElementById("monster-more").hidden, "Monsterpedia pagination control is not hidden when all filtered results fit");
   assert(document.querySelector("#monster-results [data-chain-phase]")?.dataset.chainPhase === "ch12", "high-level Monsterpedia encounters fall back to the opening-party Chain Planner phase");
@@ -343,7 +343,7 @@ async function makeDom({ legacy = null, previous = null, current = null, url = "
   document.getElementById("monster-condition").value = "unique";
   document.getElementById("monster-condition").dispatchEvent(new Event("change", { bubbles: true }));
   assert(document.querySelectorAll("#monster-results .result-card").length > 0 && [...document.querySelectorAll("#monster-results .result-card")].every(card => /Unique Monster/i.test(card.textContent)), "Monsterpedia unique filter leaked normal enemies");
-  assert([...document.querySelectorAll("#monster-results .monster-card")].every(card => card.querySelector(".combat-dossier")?.textContent.includes("source-backed mechanics")), "A Unique Monster card lacks its source-backed combat dossier");
+  assert([...document.querySelectorAll("#monster-results .monster-card")].every(card => card.querySelector(".combat-dossier")?.textContent.includes("出典の数値")), "A Unique Monster card lacks its source-backed combat dossier");
   const routeLinkedEncounters = dom.window.MONSTERPEDIA_DATA.entries.filter(entry => entry.unique && dom.window.COMBAT_DOSSIER_DATA.records[entry.id]).map(entry => ({ entry, reference:dom.window.routeItemReference(entry.name, item => item.f === "u") })).filter(record => record.reference);
   assert(routeLinkedEncounters.length >= 80, "too few route-linked Unique Monster dossiers were available for the party-legality audit");
   for (const { entry, reference } of routeLinkedEncounters) {
@@ -354,22 +354,22 @@ async function makeDom({ legacy = null, previous = null, current = null, url = "
     const members = advice.party.split("·")[0].split("/").map(name => name.trim());
     assert(members.every(name => phase.members.includes(name)), `${entry.name} recommends an unavailable party member in ${reference.chapterId}`);
   }
-  monsterSearch.value = "Verdant Bluchal";
+  monsterSearch.value = "新緑のブルックル";
   monsterSearch.dispatchEvent(new Event("input", { bubbles: true }));
   const verdantCard = document.querySelector("#monster-results .monster-card");
-  assert(verdantCard?.textContent.includes("Shulk / Reyn / Fiora · control Shulk"), "Monsterpedia does not show the legal Chapter 1 party for Verdant Bluchal");
+  assert(verdantCard?.textContent.includes("シュルク / ライン / フィオルン · シュルクを操作"), "Monsterpedia does not show the legal Chapter 1 party for 新緑のブルックル");
   assert(verdantCard?.querySelector('.combat-dossier[open]') && verdantCard.querySelector('details[open]'), "Monsterpedia disclosures do not start expanded");
   const dossierChainLink = verdantCard.querySelector('[data-open-tool="chain"][data-chain-target]');
   assert(dossierChainLink?.dataset.chainTarget === verdant.id && dossierChainLink.dataset.chainPhase === "ch1", "Unique Monster dossier does not carry target and story phase into Chain Planner");
   dossierChainLink.dispatchEvent(new MouseEvent("click", { bubbles: true }));
   assert(document.getElementById("p-chain").classList.contains("on") && document.getElementById("chain-target").value === verdant.id && document.getElementById("chain-phase").value === "ch1", "Unique Monster-to-Chain-Planner context was not applied");
   document.querySelector('[data-hub="reference"]').dispatchEvent(new MouseEvent("click", { bubbles: true }));
-  monsterSearch.value = "Verdant Bluchal";
+  monsterSearch.value = "新緑のブルックル";
   monsterSearch.dispatchEvent(new Event("input", { bubbles: true }));
   const monsterGemLink = document.querySelector('#monster-results [data-open-tool="gems"][data-gem-target]');
-  assert(monsterGemLink?.dataset.gemTarget === "Agility Up", "Monsterpedia dossier does not expose its relevant gem preparation");
+  assert(monsterGemLink?.dataset.gemTarget === "素早さアップ", "Monsterpedia dossier does not expose its relevant gem preparation");
   monsterGemLink.dispatchEvent(new MouseEvent("click", { bubbles: true }));
-  assert(document.getElementById("p-gems").classList.contains("on") && document.getElementById("gem-target").value === "Agility Up", "Monsterpedia-to-Gem-Assistant context was not applied");
+  assert(document.getElementById("p-gems").classList.contains("on") && document.getElementById("gem-target").value === "素早さアップ", "Monsterpedia-to-Gem-Assistant context was not applied");
   monsterSearch.value = "";
   monsterSearch.dispatchEvent(new Event("input", { bubbles: true }));
 
@@ -390,7 +390,7 @@ async function makeDom({ legacy = null, previous = null, current = null, url = "
   document.querySelector('[data-p="route"]').dispatchEvent(new MouseEvent("click", { bubbles: true }));
   const questRouteLink = document.querySelector("#route button[data-open-quest]");
   assert(questRouteLink, "Quest route cards do not link to the dependency lookup");
-  const routeQuestName = questRouteLink.textContent.replace(/^Open\s+/, "").replace(/\s+in Quest Lookup$/, "").trim();
+  const routeQuestName = questRouteLink.textContent.replace(/\s*をクエスト検索で開く$/, "").replace(/^Open\s+/, "").replace(/\s+in Quest Lookup$/, "").trim();
   questRouteLink.dispatchEvent(new MouseEvent("click", { bubbles: true }));
   assert(document.getElementById("p-quests").classList.contains("on") && document.getElementById("quest-q").value === routeQuestName, "Route-to-Quest link did not open the exact dependency card");
   assert(document.querySelector("#quest-results .result-card")?.textContent.includes(routeQuestName), "Route-to-Quest search did not isolate the linked quest");
@@ -403,9 +403,9 @@ async function makeDom({ legacy = null, previous = null, current = null, url = "
   document.querySelector('[data-p="monsters"]').dispatchEvent(new MouseEvent("click", { bubbles: true }));
   document.querySelector('[data-hub-destination="quests"]').dispatchEvent(new MouseEvent("click", { bubbles: true }));
   const questSearch = document.getElementById("quest-q");
-  questSearch.value = "Talia's Research";
+  questSearch.value = "タリアの研究";
   questSearch.dispatchEvent(new Event("input", { bubbles: true }));
-  assert(document.querySelector("#quest-results .result-card")?.textContent.includes("Investigating Satorl"), "quest dependency lookup did not show the mutually exclusive branch");
+  assert(document.querySelector("#quest-results .result-card")?.textContent.includes("ザトールの調査"), "quest dependency lookup did not show the mutually exclusive branch");
   document.getElementById("quest-status").value = "branch";
   document.getElementById("quest-status").dispatchEvent(new Event("change", { bubbles: true }));
   assert(document.querySelectorAll("#quest-results .result-card").length > 0, "quest branch filter returned nothing");
@@ -414,48 +414,49 @@ async function makeDom({ legacy = null, previous = null, current = null, url = "
   assert(document.querySelectorAll("#build-character-tabs .build-character-tab").length === 11, "Build Lab roster did not render 11 character tabs");
   assert([...document.querySelectorAll("#build-character-tabs [role=tab]")].every(tab => tab.id && tab.getAttribute("aria-controls") && tab.getAttribute("tabindex")), "Build character tabs lack complete keyboard/ARIA relationships");
   assert([...document.querySelectorAll("#build-character-tabs [role=tab]")].every(tab => document.getElementById(tab.getAttribute("aria-controls"))), "A Build Lab character tab controls a missing panel");
-  assert(document.querySelector("label[for=import-file]")?.textContent.includes("progress JSON"), "Import file control lacks a visible-to-assistive label");
+  assert(document.querySelector("label[for=import-file]")?.textContent.includes("進行JSON"), "Import file control lacks a visible-to-assistive label");
   assert(document.querySelectorAll("#party-presets .preset-avatar[src^='assets/party-portraits/']").length > 0, "Party presets are missing their sourced character portraits");
-  assert(document.getElementById("build-goal-note").textContent.includes("Same 8 normal Arts"), "Shulk's fortress comparison does not explain why its Arts match Reliable meta");
+  assert(document.getElementById("build-goal-note").textContent.includes("通常アーツは同じ 8 個"), "Shulk's fortress comparison does not explain why its Arts match Reliable meta");
   document.querySelector('[data-build-character="reyn"]').dispatchEvent(new MouseEvent("click", { bubbles: true }));
-  assert(document.getElementById("build-goal-note").textContent.includes("Fortress adds Last Stand, Aura Burst"), "Reyn's fortress comparison does not expose its actual Art changes");
+  assert(document.getElementById("build-goal-note").textContent.includes("要塞型が足すのは ラストスタンド, オーラバースト"), "Reyn's fortress comparison does not expose its actual Art changes");
   document.querySelector('[data-build-character="melia"]').dispatchEvent(new MouseEvent("click", { bubbles: true }));
   document.getElementById("build-control").value = "ai";
   document.getElementById("build-goal").value = "aggressive";
   document.getElementById("build-goal").dispatchEvent(new Event("change", { bubbles: true }));
-  assert(/Melia · AI · Fastest-kill meta/.test(document.getElementById("build-result").textContent), "Build Lab selectors did not update the recommendation");
+  assert(/メリア · AI · 最速討伐/.test(document.getElementById("build-result").textContent), "Build Lab selectors did not update the recommendation");
   document.getElementById("build-goal").value = "fortress";
   document.getElementById("build-goal").dispatchEvent(new Event("change", { bubbles: true }));
-  assert(document.getElementById("build-goal-note").textContent.includes("Survival-first"), "Fortress mode does not explain how it differs from Reliable meta");
+  assert(document.getElementById("build-goal-note").textContent.includes("生存優先"), "Fortress mode does not explain how it differs from Reliable meta");
   document.getElementById("build-show-all").dispatchEvent(new MouseEvent("click", { bubbles: true }));
   assert(document.querySelectorAll("#build-result .build-character-block").length === 11, "Build Lab Show all did not render every character sequentially");
   document.getElementById("build-show-all").dispatchEvent(new MouseEvent("click", { bubbles: true }));
   assert(document.querySelectorAll("#build-result .build-character-block").length === 1, "Build Lab did not return to single-character mode");
   document.querySelector("#party-presets .preset").dispatchEvent(new MouseEvent("click", { bubbles: true }));
-  assert(document.getElementById("preset-detail").textContent.includes("Party:"), "party preset did not open");
+  assert(document.getElementById("preset-detail").textContent.includes("パーティ:"), "party preset did not open");
   assert(document.querySelectorAll("#tabs > button").length === 5 && !document.getElementById("mobile-section"), "global navigation did not consolidate to five hubs");
-  assert([...document.querySelectorAll("#tabs > button")].map(button => button.textContent.trim()).join("|") === "The Route|Companion|Completion|Reference|Workshop", "global navigation labels or order do not match the five-hub design");
+  assert([...document.querySelectorAll("#tabs > button")].map(button => button.textContent.trim()).join("|") === "ルート|同行|達成|資料|工房", "global navigation labels or order do not match the five-hub design");
   const expectedHubSections = {
-    companion:["Adventure session","Next objective","Area briefing","Inventory","Encounter mode"],
-    completion:["Completion ledger","Colony 6","Decisions","Endgame"],
-    reference:["Monsterpedia","Quests","Atlas & planners","Time & weather"],
-    workshop:["Builds & presets","Chain Planner","Gem Crafting","Gift Optimizer","Party Chemistry"]
+    companion:["冒険セッション","次の目標","エリア説明","持ち物","戦闘モード"],
+    completion:["達成台帳","コロニー6","決断","終盤"],
+    reference:["Monsterpedia","クエスト","地図と計画","時間と天候"],
+    workshop:["ビルドとプリセット","チェイン計画","ジェム合成","贈り物","パーティ相性"]
   };
+  const hubLabels = {companion:"同行", completion:"達成", reference:"資料", workshop:"工房"};
   for (const [hub, labels] of Object.entries(expectedHubSections)) {
     document.querySelector(`[data-hub="${hub}"]`).dispatchEvent(new MouseEvent("click", { bubbles: true }));
     assert([...document.querySelectorAll("#hub-rail [data-hub-destination]")].map(button => button.textContent.trim()).join("|") === labels.join("|"), `${hub} hub rail is incomplete or out of order`);
-    assert(document.getElementById("hub-section-label").textContent === `${hub === "companion" ? "Companion" : hub[0].toUpperCase()+hub.slice(1)}:`, `${hub} mobile section picker is not context-labelled`);
+    assert(document.getElementById("hub-section-label").textContent === `${hubLabels[hub]}:`, `${hub} mobile section picker is not context-labelled`);
   }
   document.querySelector('[data-hub="route"]').dispatchEvent(new MouseEvent("click", { bubbles: true }));
   assert(["hub-breadcrumb","hub-rail","hub-section-picker"].every(id => document.getElementById(id).hidden), "Workshop hub chrome remains active after returning to the Route");
   document.querySelector('[data-hub="workshop"]').dispatchEvent(new MouseEvent("click", { bubbles: true }));
   document.querySelector('#p-combat [data-open-tool="chain"]').dispatchEvent(new MouseEvent("click", { bubbles: true }));
   assert(document.getElementById("p-chain").classList.contains("on") && document.querySelectorAll("#chain-result .chain-art").length >= 2, "Chain Planner did not render a phase-legal sequence");
-  assert(!document.getElementById("chain-result").textContent.includes("Dunban") && !document.getElementById("chain-result").textContent.includes("Riki"), "Chain Planner leaked later party members into the opening phase");
+  assert(!document.getElementById("chain-result").textContent.includes("ダンバン") && !document.getElementById("chain-result").textContent.includes("リキ"), "Chain Planner leaked later party members into the opening phase");
   document.querySelector('[data-hub-destination="gems"]').dispatchEvent(new MouseEvent("click", { bubbles: true }));
-  assert(document.getElementById("gem-result").textContent.includes("100% makes a gem") && document.getElementById("gem-result").textContent.includes("300% Mega Heat"), "Gem Crafting Assistant is missing its threshold plan");
+  assert(document.getElementById("gem-result").textContent.includes("100%でジェムができる") && document.getElementById("gem-result").textContent.includes("300% Mega Heat"), "Gem Crafting Assistant is missing its threshold plan");
   document.querySelector('[data-hub-destination="gifts"]').dispatchEvent(new MouseEvent("click", { bubbles: true }));
-  assert(document.getElementById("gift-source").textContent.includes("300-item matrix") && document.querySelectorAll("#gift-result .gift-row").length === 20, "Gift Optimizer did not load the complete gift matrix or ranked results");
+  assert(document.getElementById("gift-source").textContent.includes("300種の表") && document.querySelectorAll("#gift-result .gift-row").length === 20, "Gift Optimizer did not load the complete gift matrix or ranked results");
   const giftArea = document.getElementById("gift-area");
   document.getElementById("gift-protect").checked = false;
   for (const option of [...giftArea.options].filter(option => option.value)) {
@@ -463,19 +464,19 @@ async function makeDom({ legacy = null, previous = null, current = null, url = "
     giftArea.dispatchEvent(new Event("change", { bubbles: true }));
     assert(document.querySelectorAll("#gift-result .gift-row").length > 0, `Gift Optimizer area filter returned nothing for ${option.value}`);
   }
-  giftArea.value = "Colony 9";
-  document.getElementById("gift-q").value = "Sweet Wasabi";
+  giftArea.value = "コロニー9";
+  document.getElementById("gift-q").value = "あまあまワサビ";
   document.getElementById("gift-q").dispatchEvent(new Event("input", { bubbles: true }));
-  assert(document.getElementById("gift-result").textContent.includes("Sweet Wasabi") && !document.getElementById("gift-result").textContent.includes("Sweet Wasabi Colony 9"), "Gift Optimizer did not separate gift names from their areas");
+  assert(document.getElementById("gift-result").textContent.includes("あまあまワサビ") && !document.getElementById("gift-result").textContent.includes("あまあまワサビコロニー9"), "Gift Optimizer did not separate gift names from their areas");
   document.getElementById("gift-q").value = "";
   giftArea.value = "";
   giftArea.dispatchEvent(new Event("change", { bubbles: true }));
   document.querySelector('[data-hub-destination="party"]').dispatchEvent(new MouseEvent("click", { bubbles: true }));
-  assert(document.getElementById("party-leader").options.length === 3 && !document.getElementById("party-result").textContent.includes("Dunban"), "Party Chemistry Lab did not enforce Chapter 1 roster availability");
+  assert(document.getElementById("party-leader").options.length === 3 && !document.getElementById("party-result").textContent.includes("ダンバン"), "Party Chemistry Lab did not enforce Chapter 1 roster availability");
   document.getElementById("party-phase").value = "ch3";
   document.getElementById("party-phase").dispatchEvent(new Event("change", { bubbles: true }));
   assert(document.getElementById("party-three").disabled && document.getElementById("party-three").closest("label").hidden, "Party Lab did not represent the Chapter 3 forced pair");
-  assert(document.getElementById("party-result").textContent.includes("Forced two-person phase") && !document.getElementById("party-result").textContent.includes("Invalid party"), "Party Lab incorrectly scores the Chapter 3 forced pair as illegal");
+  assert(document.getElementById("party-result").textContent.includes("二人だけの強制進行") && !document.getElementById("party-result").textContent.includes("Invalid party"), "Party Lab incorrectly scores the Chapter 3 forced pair as illegal");
 
   document.querySelector('[data-p="route"]').dispatchEvent(new MouseEvent("click", { bubbles: true }));
   const ch5PartyLink = document.querySelector('#s-ch5 .route-build [data-open-tool="party"]');
@@ -483,20 +484,20 @@ async function makeDom({ legacy = null, previous = null, current = null, url = "
   ch5PartyLink.dispatchEvent(new MouseEvent("click", { bubbles: true }));
   assert(document.getElementById("party-phase").value === "ch5" && document.getElementById("party-leader").value === "shulk" && document.getElementById("party-two").value === "dunban" && document.getElementById("party-three").value === "sharla", "route-to-Party-Lab context was not applied");
   document.querySelector('#party-result [data-open-tool="chain"]').dispatchEvent(new MouseEvent("click", { bubbles: true }));
-  assert(document.getElementById("chain-phase").value === "ch5" && document.getElementById("chain-preset").value === "__context" && /Shulk \/ Dunban \/ Sharla/.test(document.getElementById("chain-result").textContent), "Party Lab did not carry the selected party into Chain Planner");
+  assert(document.getElementById("chain-phase").value === "ch5" && document.getElementById("chain-preset").value === "__context" && /シュルク \/ ダンバン \/ カルナ/.test(document.getElementById("chain-result").textContent), "Party Lab did not carry the selected party into Chain Planner");
 
   document.querySelector('[data-p="route"]').dispatchEvent(new MouseEvent("click", { bubbles: true }));
   const ch5GemLink = document.querySelector('#s-ch5 .route-build [data-open-tool="gems"]');
-  assert(ch5GemLink?.dataset.gemTarget === "Agility Up", "route build update did not identify its primary gem need");
+  assert(ch5GemLink?.dataset.gemTarget === "素早さアップ", "route build update did not identify its primary gem need");
   ch5GemLink.dispatchEvent(new MouseEvent("click", { bubbles: true }));
-  assert(document.getElementById("gem-phase").value === "ch5" && document.getElementById("gem-target").value === "Agility Up", "route-to-Gem-Assistant context was not applied");
+  assert(document.getElementById("gem-phase").value === "ch5" && document.getElementById("gem-target").value === "素早さアップ", "route-to-Gem-Assistant context was not applied");
   document.querySelector('#gem-result [data-search-monster-drop]').dispatchEvent(new MouseEvent("click", { bubbles: true }));
-  assert(document.getElementById("p-monsters").classList.contains("on") && document.getElementById("monster-q").value === "Agility Up" && document.querySelectorAll("#monster-results .monster-card").length > 0, "Gem Assistant did not open relevant Monsterpedia encounter/drop context");
+  assert(document.getElementById("p-monsters").classList.contains("on") && document.getElementById("monster-q").value === "素早さアップ" && document.querySelectorAll("#monster-results .monster-card").length > 0, "Gem Assistant did not open relevant Monsterpedia encounter/drop context");
 
   const ch5Record = dom.window.playableRouteCards().find(record => record.chapter.id === "ch5");
   dom.window.renderAreaBriefing(ch5Record);
-  const companionAgilityLink = document.querySelector('#area-briefing [data-open-tool="gems"][data-gem-target="Agility Up"]');
-  assert(companionAgilityLink && companionAgilityLink.textContent.includes("Craft Agility Up"), "Companion does not turn the Chapter 5 Dunban agility need into a contextual gem action");
+  const companionAgilityLink = document.querySelector('#area-briefing [data-open-tool="gems"][data-gem-target="素早さアップ"]');
+  assert(companionAgilityLink && companionAgilityLink.textContent.includes("素早さアップ を合成"), "Companion does not turn the Chapter 5 Dunban agility need into a contextual gem action");
 
   document.querySelector('[data-p="route"]').dispatchEvent(new MouseEvent("click", { bubbles: true }));
   const heartGiftLink = document.querySelector('#route [data-open-tool="gifts"][data-gift-route]');
@@ -509,22 +510,22 @@ async function makeDom({ legacy = null, previous = null, current = null, url = "
   document.querySelector('#p-bosses [data-open-tool="party"]').dispatchEvent(new MouseEvent("click", { bubbles: true }));
   assert(document.getElementById("party-phase").value === "post" && ["party-leader","party-two","party-three"].map(id => document.getElementById(id).value).join(",") === "shulk,dunban,riki", "Endgame guide did not load its superboss party in Workshop");
 
-  for (const query of ["Adventure Companion","Completion Hub","Quest Lookup","Atlas planners","Chain Planner","Gem Crafting Assistant","Gift Optimizer","Party Chemistry Lab"]) {
+  for (const query of ["冒険セッション","達成台帳","クエスト","地図と計画","チェイン計画","ジェム合成","贈り物","パーティ相性"]) {
     globalSearch.value = query;
     globalSearch.dispatchEvent(new Event("input", { bubbles: true }));
     assert(document.getElementById("guide-search-results")?.textContent.toLowerCase().includes(query.split(" ")[0].toLowerCase()), `global search did not index the ${query} subsection`);
   }
   globalSearch.dispatchEvent(new KeyboardEvent("keydown", { key: "Escape", bubbles: true }));
   document.querySelector('[data-hub="companion"]').dispatchEvent(new MouseEvent("click", { bubbles: true }));
-  assert(document.querySelectorAll("#recent-tools button").length > 0 && document.getElementById("recent-tools").textContent.includes("Party Chemistry"), "Companion does not retain recently used Workshop shortcuts");
+  assert(document.querySelectorAll("#recent-tools button").length > 0 && document.getElementById("recent-tools").textContent.includes("パーティ相性"), "Companion does not retain recently used Workshop shortcuts");
 
   document.querySelector('[data-p="monsters"]').dispatchEvent(new MouseEvent("click", { bubbles: true }));
   document.querySelector('[data-hub-destination="reference"]').dispatchEvent(new MouseEvent("click", { bubbles: true }));
   await waitFor(() => document.querySelector("#reference-atlas img"), "offline map atlas render");
   assert(document.querySelectorAll("#reference-atlas .frontier-tiles img").length === 4, "interactive atlas did not render its four local map tiles");
   assert(document.querySelectorAll("#reference-atlas .frontier-pin").length > 0, "interactive atlas did not render exact source pins");
-  assert([...document.querySelectorAll("#reference-atlas .frontier-pin")].every(pin => /Collection pin|Enemy spawn|Landmark/.test(pin.getAttribute("aria-label") || "")), "interactive atlas pins lack unique accessible labels");
-  document.getElementById("atlas-q").value = "Strong Dandelion";
+  assert([...document.querySelectorAll("#reference-atlas .frontier-pin")].every(pin => /収集ピン|敵の出現|ランドマーク/.test(pin.getAttribute("aria-label") || "")), "interactive atlas pins lack unique accessible labels");
+  document.getElementById("atlas-q").value = "ポポンタンポポ";
   document.getElementById("atlas-q").dispatchEvent(new Event("input", { bubbles: true }));
   assert(document.querySelectorAll("#reference-atlas .frontier-pin.CollectionPoint").length > 0 && document.querySelector("#reference-atlas .frontier-route polyline"), "collectible map search did not render pins and a suggested route");
   document.querySelector('[data-reference-view="collect"]').dispatchEvent(new MouseEvent("click", { bubbles: true }));
@@ -535,10 +536,10 @@ async function makeDom({ legacy = null, previous = null, current = null, url = "
   assert(saved.collectopaedia[collectInput.dataset.collectId], "Collectopaedia item was not persisted");
   document.querySelector('[data-reference-view="affinity"]').dispatchEvent(new MouseEvent("click", { bubbles: true }));
   await waitFor(() => document.querySelector("#affinity-residents .collect-page"), "Affinity resident planner render");
-  assert(document.querySelector("#reference-affinity .lookup-count").textContent.includes("177 resident"), "Affinity planner coverage summary is missing");
-  document.getElementById("affinity-q").value = "Dionysis";
+  assert(document.querySelector("#reference-affinity .lookup-count").textContent.includes("177 住人"), "Affinity planner coverage summary is missing");
+  document.getElementById("affinity-q").value = "ディオニージス";
   document.getElementById("affinity-q").dispatchEvent(new Event("input", { bubbles: true }));
-  assert(document.querySelector("#affinity-residents .collect-page")?.textContent.includes("Dionysis"), "Affinity resident search failed");
+  assert(document.querySelector("#affinity-residents .collect-page")?.textContent.includes("ディオニージス"), "Affinity resident search failed");
 
   document.querySelector('[data-p="completion"]').dispatchEvent(new MouseEvent("click", { bubbles: true }));
   const mobileSection = document.getElementById("hub-section-select");

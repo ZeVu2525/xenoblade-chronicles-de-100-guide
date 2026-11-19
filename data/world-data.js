@@ -12,7 +12,7 @@ const WORLD_DATA = {
       "url": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/290827"
     },
     "secretAreas": {
-      "label": "Xenoblade Wiki XC Secret Areas category",
+      "label": "Xenoblade Wiki XC シークレット Areas category",
       "url": "https://xenoblade.fandom.com/wiki/Category:XC_Secret_Areas"
     },
     "futureConnected": {
@@ -23,7 +23,7 @@ const WORLD_DATA = {
   "areas": [
     {
       "id": "colony-9",
-      "name": "Colony 9",
+      "name": "コロニー9",
       "game": "base",
       "recommendedChapter": 1,
       "routeChapterId": "ch1",
@@ -33,7 +33,7 @@ const WORLD_DATA = {
       "entries": [
         {
           "id": "world-colony-9-gem-man-s-stall-b49511e2",
-          "name": "Gem Man's Stall",
+          "name": "ジェム爺の露天商",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 1,
@@ -43,7 +43,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-colony-9-mechon-wreckage-site-49f86893",
-          "name": "Mechon Wreckage Site",
+          "name": "機神兵残骸跡地",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 1,
@@ -83,7 +83,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-colony-9-fortress-entrance-5f82b8d6",
-          "name": "Fortress Entrance",
+          "name": "軍事区 正門",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 1,
@@ -93,7 +93,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-colony-9-tranquil-square-04fe781b",
-          "name": "Tranquil Square",
+          "name": "居住区 憩いの広場",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 1,
@@ -103,7 +103,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-colony-9-outlook-park-1cb422e9",
-          "name": "Outlook Park",
+          "name": "見晴らしの丘公園",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 1,
@@ -113,7 +113,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-colony-9-tephra-cave-entrance-00ab1798",
-          "name": "Tephra Cave Entrance",
+          "name": "テフラ洞窟 入口",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 1,
@@ -123,7 +123,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-colony-9-cylinder-hangar-a16588a8",
-          "name": "Cylinder Hangar",
+          "name": "シリンダー格納庫",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 1,
@@ -133,7 +133,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-colony-9-commercial-district-8dfb1b19",
-          "name": "Commercial District",
+          "name": "商業区",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 1,
@@ -143,7 +143,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-colony-9-military-district-d4fdac63",
-          "name": "Military District",
+          "name": "軍事区",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 1,
@@ -163,7 +163,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-colony-9-residential-district-5e96fa4c",
-          "name": "Residential District",
+          "name": "居住区",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 1,
@@ -173,7 +173,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-colony-9-anti-air-battery-1-c50e455b",
-          "name": "Anti-Air Battery 1",
+          "name": "対空砲1号基",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 1,
@@ -183,7 +183,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-colony-9-anti-air-battery-2-f4df9ed5",
-          "name": "Anti-Air Battery 2",
+          "name": "対空砲2号基",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 1,
@@ -193,7 +193,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-colony-9-anti-air-battery-3-53f1cc5f",
-          "name": "Anti-Air Battery 3",
+          "name": "対空砲3号基",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 1,
@@ -203,7 +203,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-colony-9-tephra-hill-c478ba9d",
-          "name": "Tephra Hill",
+          "name": "テフラ坂",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 1,
@@ -213,7 +213,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-colony-9-cliff-lake-c3e7918d",
-          "name": "Cliff Lake",
+          "name": "断崖の池",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 1,
@@ -223,7 +223,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-colony-9-agora-shore-5119720d",
-          "name": "Agora Shore",
+          "name": "アゴラの岸",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 1,
@@ -233,7 +233,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-colony-9-hazzai-cape-4d996349",
-          "name": "Hazzai Cape",
+          "name": "ハッザイ岬",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 1,
@@ -243,7 +243,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-colony-9-dunban-s-house-eee084ec",
-          "name": "Dunban's House",
+          "name": "ダンバン邸",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 1,
@@ -255,7 +255,7 @@ const WORLD_DATA = {
     },
     {
       "id": "tephra-cave",
-      "name": "Tephra Cave",
+      "name": "テフラ洞窟",
       "game": "base",
       "recommendedChapter": 1,
       "routeChapterId": "ch1",
@@ -265,7 +265,7 @@ const WORLD_DATA = {
       "entries": [
         {
           "id": "world-tephra-cave-tephra-path-20fb10be",
-          "name": "Tephra Path",
+          "name": "テフラ通り",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 1,
@@ -275,7 +275,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-tephra-cave-mag-mell-ruins-f1668b90",
-          "name": "Mag Mell Ruins",
+          "name": "マグ・メルドの遺跡",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 1,
@@ -285,7 +285,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-tephra-cave-rear-entrance-74db5943",
-          "name": "Rear Entrance",
+          "name": "テフラ洞窟裏口",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 1,
@@ -295,7 +295,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-tephra-cave-spring-of-grief-416f9aeb",
-          "name": "Spring of Grief",
+          "name": "嘆きの泉",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 1,
@@ -305,7 +305,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-tephra-cave-vilia-lake-9c2d4956",
-          "name": "Vilia Lake",
+          "name": "ヴィリア湖",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 1,
@@ -315,7 +315,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-tephra-cave-heavenly-window-e7ba267b",
-          "name": "Heavenly Window",
+          "name": "慈悲の天窓",
           "type": "secret-area",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 17,
@@ -325,7 +325,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-tephra-cave-bafalgar-tomb-803c31c3",
-          "name": "Bafalgar Tomb",
+          "name": "バルファルガ墓地",
           "type": "secret-area",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 17,
@@ -335,7 +335,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-tephra-cave-leg-pass-bf973598",
-          "name": "Leg Pass",
+          "name": "脚の峠道",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 1,
@@ -345,7 +345,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-tephra-cave-caterpile-nest-f565ef8d",
-          "name": "Caterpile Nest",
+          "name": "キャピルの巣",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 1,
@@ -355,7 +355,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-tephra-cave-warehouse-2-51d047bd",
-          "name": "Warehouse 2",
+          "name": "第2左舷倉庫",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 1,
@@ -365,7 +365,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-tephra-cave-escape-pod-bay-dce37404",
-          "name": "Escape Pod Bay",
+          "name": "脱出ポッド室",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 1,
@@ -375,7 +375,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-tephra-cave-tephra-cavern-d3debdfe",
-          "name": "Tephra Cavern",
+          "name": "テフラ大空洞",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 1,
@@ -385,7 +385,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-tephra-cave-hidden-warehouse-20b9b125",
-          "name": "Hidden Warehouse",
+          "name": "隠し倉庫",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 1,
@@ -395,7 +395,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-tephra-cave-forgotten-cave-fd4aa701",
-          "name": "Forgotten Cave",
+          "name": "忘れ去られた洞穴",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 1,
@@ -405,7 +405,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-tephra-cave-emergency-warehouse-0d9d9612",
-          "name": "Emergency Warehouse",
+          "name": "隊商非常用倉庫",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 1,
@@ -415,7 +415,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-tephra-cave-soothsayer-s-crypt-1024db9a",
-          "name": "Soothsayer's Crypt",
+          "name": "宗主納骨堂",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 1,
@@ -425,7 +425,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-tephra-cave-prayer-room-b2f40f24",
-          "name": "Prayer Room",
+          "name": "祈りの間",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 1,
@@ -435,7 +435,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-tephra-cave-bone-corridor-1db1564c",
-          "name": "Bone Corridor",
+          "name": "骨の回廊",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 1,
@@ -445,7 +445,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-tephra-cave-arachno-queen-s-nest-26a2b45a",
-          "name": "Arachno Queen's Nest",
+          "name": "女王蜘蛛の巣窟",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 1,
@@ -455,7 +455,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-tephra-cave-kneecap-hill-82a4137e",
-          "name": "Kneecap Hill",
+          "name": "膝頭の丘",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 1,
@@ -465,7 +465,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-tephra-cave-trader-s-stopover-302b4246",
-          "name": "Trader's Stopover",
+          "name": "隊商中継地",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 17,
@@ -475,7 +475,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-tephra-cave-arachno-feeding-lair-680448b0",
-          "name": "Arachno Feeding Lair",
+          "name": "スパイドの狩場",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 17,
@@ -485,7 +485,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-tephra-cave-path-of-absolution-9af87acf",
-          "name": "Path of Absolution",
+          "name": "清めの道",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 17,
@@ -497,7 +497,7 @@ const WORLD_DATA = {
     },
     {
       "id": "bionis-leg",
-      "name": "Bionis' Leg",
+      "name": "巨神脚",
       "game": "base",
       "recommendedChapter": 4,
       "routeChapterId": "ch4",
@@ -527,7 +527,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-bionis-leg-kamos-guidepost-29214c95",
-          "name": "Kamos Guidepost",
+          "name": "ガムトの道標",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 4,
@@ -537,7 +537,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-bionis-leg-refugee-camp-2abe34da",
-          "name": "Refugee Camp",
+          "name": "脱出艇キャンプ",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 4,
@@ -547,7 +547,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-bionis-leg-raguel-bridge-south-af6f5861",
-          "name": "Raguel Bridge - South",
+          "name": "ラグエル大橋 第1塔",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 4,
@@ -557,7 +557,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-bionis-leg-raguel-bridge-north-4df0de50",
-          "name": "Raguel Bridge - North",
+          "name": "ラグエル大橋 第2塔",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 4,
@@ -567,7 +567,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-bionis-leg-spiral-valley-cd00462f",
-          "name": "Spiral Valley",
+          "name": "ラセン谷",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 4,
@@ -577,7 +577,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-bionis-leg-zax-guidepost-ac78ce8f",
-          "name": "Zax Guidepost",
+          "name": "ザクスの道標",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 4,
@@ -587,7 +587,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-bionis-leg-bask-cave-passage-b3f11a36",
-          "name": "Bask Cave Passage",
+          "name": "バクス岩窟通り",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 4,
@@ -597,7 +597,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-bionis-leg-observation-platform-7c646935",
-          "name": "Observation Platform",
+          "name": "開拓者の展望台",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 4,
@@ -607,7 +607,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-bionis-leg-believer-s-paradise-683cbbe1",
-          "name": "Believer's Paradise",
+          "name": "崇拝者の楽園",
           "type": "secret-area",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 4,
@@ -617,7 +617,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-bionis-leg-gaur-plain-de480ca1",
-          "name": "Gaur Plain",
+          "name": "ガウル平原",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 4,
@@ -627,7 +627,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-bionis-leg-volff-lair-9f974b05",
-          "name": "Volff Lair",
+          "name": "ヴォルフのねぐら",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 4,
@@ -637,7 +637,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-bionis-leg-rho-oasis-c6363bfe",
-          "name": "Rho Oasis",
+          "name": "ローのオアシス",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 4,
@@ -647,7 +647,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-bionis-leg-tirkin-headquarters-c22d7b1c",
-          "name": "Tirkin Headquarters",
+          "name": "ターキンの本営",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 4,
@@ -667,7 +667,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-bionis-leg-sky-stage-7cb4b296",
-          "name": "Sky Stage",
+          "name": "天空の舞台",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 4,
@@ -677,7 +677,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-bionis-leg-kisk-cave-87d2035d",
-          "name": "Kisk Cave",
+          "name": "キスク洞窟",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 4,
@@ -687,7 +687,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-bionis-leg-daksha-shrine-88cbca43",
-          "name": "Daksha Shrine",
+          "name": "ダクシャ神殿",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 4,
@@ -697,7 +697,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-bionis-leg-raguel-lake-f3385b58",
-          "name": "Raguel Lake",
+          "name": "ラグエル湖",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 4,
@@ -707,7 +707,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-bionis-leg-tranquil-grotto-9310b241",
-          "name": "Tranquil Grotto",
+          "name": "静寂の岩屋",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 4,
@@ -717,7 +717,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-bionis-leg-maguel-road-912de56b",
-          "name": "Maguel Road",
+          "name": "マークウェル街道",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 4,
@@ -727,7 +727,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-bionis-leg-windy-cave-7577e379",
-          "name": "Windy Cave",
+          "name": "風鳴りの空洞",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 4,
@@ -737,7 +737,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-bionis-leg-crevasse-waterfall-3d4efc0e",
-          "name": "Crevasse Waterfall",
+          "name": "裂け目の滝",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 4,
@@ -747,7 +747,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-bionis-leg-traveller-s-rest-8c07c9a2",
-          "name": "Traveller's Rest",
+          "name": "旅人の休息跡地",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 4,
@@ -757,7 +757,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-bionis-leg-kasharpa-falls-4a808151",
-          "name": "Kasharpa Falls",
+          "name": "カシュハパの滝",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 4,
@@ -769,7 +769,7 @@ const WORLD_DATA = {
     },
     {
       "id": "colony-6",
-      "name": "Colony 6",
+      "name": "コロニー6",
       "game": "base",
       "recommendedChapter": 5,
       "routeChapterId": "ch5",
@@ -779,7 +779,7 @@ const WORLD_DATA = {
       "entries": [
         {
           "id": "world-colony-6-reconstruction-hq-cb74fcd5",
-          "name": "Reconstruction HQ",
+          "name": "コロニー6 復興本部",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 5,
@@ -789,7 +789,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-colony-6-supply-road-3d0094bf",
-          "name": "Supply Road",
+          "name": "コロニー6 補給路",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 5,
@@ -799,7 +799,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-colony-6-watchpoint-junction-4f539aea",
-          "name": "Watchpoint Junction",
+          "name": "物見の三叉路",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 5,
@@ -809,7 +809,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-colony-6-drainage-outlet-5c7f6dbe",
-          "name": "Drainage Outlet",
+          "name": "コロニー6 排水口",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 5,
@@ -819,7 +819,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-colony-6-freight-road-b1c5a747",
-          "name": "Freight Road",
+          "name": "貨物運搬路",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 5,
@@ -829,7 +829,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-colony-6-misty-path-5e9a261e",
-          "name": "Misty Path",
+          "name": "霧の街道",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 5,
@@ -849,7 +849,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-colony-6-splintered-path-0ef69600",
-          "name": "Splintered Path",
+          "name": "巨神の刺道",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 5,
@@ -869,7 +869,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-colony-6-pod-depot-d6568bf7",
-          "name": "Pod Depot",
+          "name": "ポッド発着場",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 5,
@@ -879,7 +879,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-colony-6-hope-farm-2a7e3c4d",
-          "name": "Hope Farm",
+          "name": "希望の農場",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 5,
@@ -891,7 +891,7 @@ const WORLD_DATA = {
     },
     {
       "id": "ether-mine",
-      "name": "Ether Mine",
+      "name": "中央採掘場",
       "game": "base",
       "recommendedChapter": 5,
       "routeChapterId": "ch5",
@@ -901,7 +901,7 @@ const WORLD_DATA = {
       "entries": [
         {
           "id": "world-ether-mine-drainage-tunnel-9920ec0b",
-          "name": "Drainage Tunnel",
+          "name": "地下坑道 排水口",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 5,
@@ -911,7 +911,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-ether-mine-drainage-control-room-83b3c0ee",
-          "name": "Drainage Control Room",
+          "name": "排水制御室",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 5,
@@ -921,7 +921,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-ether-mine-mining-base-e5dfdd7c",
-          "name": "Mining Base",
+          "name": "採掘基地",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 5,
@@ -931,7 +931,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-ether-mine-central-pit-entrance-c1a083c9",
-          "name": "Central Pit - Entrance",
+          "name": "中央採掘場 入口",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 5,
@@ -941,7 +941,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-ether-mine-personnel-lift-2-c2d6731b",
-          "name": "Personnel Lift 2",
+          "name": "第2作業用リフト",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 5,
@@ -961,7 +961,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-ether-mine-glowmoss-lake-ae0b6eac",
-          "name": "Glowmoss Lake",
+          "name": "光ゴケの地底湖",
           "type": "secret-area",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 5,
@@ -971,7 +971,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-ether-mine-regulation-piston-2ec2f622",
-          "name": "Regulation Piston",
+          "name": "掘削調整ピストン前",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 5,
@@ -981,7 +981,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-ether-mine-personnel-lift-3-afdc0485",
-          "name": "Personnel Lift 3",
+          "name": "第3作業用リフト",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 5,
@@ -991,7 +991,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-ether-mine-central-pit-base-level-084add4d",
-          "name": "Central Pit - Base Level",
+          "name": "中央採掘場 最下層",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 5,
@@ -1001,7 +1001,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-ether-mine-test-pit-1-cd8fd849",
-          "name": "Test Pit 1",
+          "name": "地下坑道 第1試掘場",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 5,
@@ -1011,7 +1011,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-ether-mine-test-pit-2-3d1afd6c",
-          "name": "Test Pit 2",
+          "name": "地下坑道 第2試掘場",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 5,
@@ -1021,7 +1021,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-ether-mine-test-pit-3-3fe3690a",
-          "name": "Test Pit 3",
+          "name": "地下坑道 第3試掘場",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 5,
@@ -1031,7 +1031,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-ether-mine-storage-depot-88ef11d5",
-          "name": "Storage Depot",
+          "name": "資材置き場",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 5,
@@ -1041,7 +1041,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-ether-mine-central-terminal-93b3d2d0",
-          "name": "Central Terminal",
+          "name": "中央ターミナル",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 5,
@@ -1051,7 +1051,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-ether-mine-test-pit-4-65c26d70",
-          "name": "Test Pit 4",
+          "name": "地下坑道 第4試掘場",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 5,
@@ -1061,7 +1061,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-ether-mine-observation-point-1db300ea",
-          "name": "Observation Point",
+          "name": "採掘監視所",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 5,
@@ -1071,7 +1071,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-ether-mine-central-pit-level-1-d7f5fc91",
-          "name": "Central Pit - Level 1",
+          "name": "中央採掘場 第1層",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 5,
@@ -1081,7 +1081,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-ether-mine-central-pit-level-2-9e04a19d",
-          "name": "Central Pit - Level 2",
+          "name": "中央採掘場 第2層",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 5,
@@ -1091,7 +1091,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-ether-mine-central-pit-level-3-84df972c",
-          "name": "Central Pit - Level 3",
+          "name": "中央採掘場 第3層",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 5,
@@ -1103,7 +1103,7 @@ const WORLD_DATA = {
     },
     {
       "id": "satorl-marsh",
-      "name": "Satorl Marsh",
+      "name": "燐光の地ザトール",
       "game": "base",
       "recommendedChapter": 6,
       "routeChapterId": "ch6",
@@ -1123,7 +1123,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-satorl-marsh-nopon-merchant-camp-735cb7f7",
-          "name": "Nopon Merchant Camp",
+          "name": "ノポン商会キャンプ",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 6,
@@ -1133,7 +1133,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-satorl-marsh-crown-tree-39675c7d",
-          "name": "Crown Tree",
+          "name": "王冠樹",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 6,
@@ -1143,7 +1143,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-satorl-marsh-silent-obelisk-a893298d",
-          "name": "Silent Obelisk",
+          "name": "沈黙のオベリスク",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 6,
@@ -1153,7 +1153,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-satorl-marsh-glowing-obelisk-7e25b311",
-          "name": "Glowing Obelisk",
+          "name": "光球のオベリスク",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 6,
@@ -1163,7 +1163,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-satorl-marsh-sororal-statues-9f221c58",
-          "name": "Sororal Statues",
+          "name": "岩窟の姉妹像",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 6,
@@ -1173,7 +1173,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-satorl-marsh-statue-summit-a0541338",
-          "name": "Statue Summit",
+          "name": "姉妹像最上部",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 6,
@@ -1183,7 +1183,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-satorl-marsh-shining-pond-ebfd1c19",
-          "name": "Shining Pond",
+          "name": "輝く沼",
           "type": "secret-area",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 6,
@@ -1193,7 +1193,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-satorl-marsh-lacus-swamp-a587ee85",
-          "name": "Lacus Swamp",
+          "name": "ラクス沼",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 6,
@@ -1203,7 +1203,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-satorl-marsh-zaldania-waterfall-b86ba711",
-          "name": "Zaldania Waterfall",
+          "name": "ザタナルギアの滝",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 6,
@@ -1213,7 +1213,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-satorl-marsh-poison-swamp-2091f8e6",
-          "name": "Poison Swamp",
+          "name": "毒吐き沼",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 6,
@@ -1223,7 +1223,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-satorl-marsh-altar-of-fate-836337dd",
-          "name": "Altar of Fate",
+          "name": "運命の祭壇",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 6,
@@ -1233,7 +1233,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-satorl-marsh-barren-moor-cf063e55",
-          "name": "Barren Moor",
+          "name": "虚無の湿原",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 6,
@@ -1243,7 +1243,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-satorl-marsh-dark-swamp-49d5dddd",
-          "name": "Dark Swamp",
+          "name": "深き闇の沼",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 6,
@@ -1253,7 +1253,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-satorl-marsh-igna-territory-adaf29e0",
-          "name": "Igna Territory",
+          "name": "イグーナの領地",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 6,
@@ -1263,7 +1263,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-satorl-marsh-exile-fortress-b52c740e",
-          "name": "Exile Fortress",
+          "name": "流刑の砦",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 6,
@@ -1273,7 +1273,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-satorl-marsh-nopon-refuge-c2637ad2",
-          "name": "Nopon Refuge",
+          "name": "ノポンの隠れ家",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 6,
@@ -1283,7 +1283,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-satorl-marsh-soter-ruins-3092953e",
-          "name": "Soter Ruins",
+          "name": "ソーテール遺跡",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 6,
@@ -1303,7 +1303,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-satorl-marsh-oath-sanctuary-0df54ab1",
-          "name": "Oath Sanctuary",
+          "name": "宣誓の聖所",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 6,
@@ -1313,7 +1313,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-satorl-marsh-mauk-floodgate-56783a05",
-          "name": "Mauk Floodgate",
+          "name": "モーク水門",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 6,
@@ -1323,7 +1323,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-satorl-marsh-basin-cave-500e7d5c",
-          "name": "Basin Cave",
+          "name": "水盤の洞窟",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 6,
@@ -1335,7 +1335,7 @@ const WORLD_DATA = {
     },
     {
       "id": "makna-forest",
-      "name": "Makna Forest",
+      "name": "マクナ原生林",
       "game": "base",
       "recommendedChapter": 7,
       "routeChapterId": "ch7",
@@ -1355,7 +1355,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-makna-forest-bridge-two-03f8e80e",
-          "name": "Bridge Two",
+          "name": "ニのつり橋",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 7,
@@ -1365,7 +1365,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-makna-forest-bridge-three-f33e02a7",
-          "name": "Bridge Three",
+          "name": "サンのつり橋",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 7,
@@ -1375,7 +1375,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-makna-forest-repaired-bridge-four-df03717d",
-          "name": "Repaired Bridge Four",
+          "name": "復活したヨンのつり橋",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 7,
@@ -1385,7 +1385,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-makna-forest-great-makna-falls-a5a5fb66",
-          "name": "Great Makna Falls",
+          "name": "マクナ大瀑布",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 7,
@@ -1395,7 +1395,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-makna-forest-sap-cave-d72e7346",
-          "name": "Sap Cave",
+          "name": "樹液のほら穴",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 7,
@@ -1405,7 +1405,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-makna-forest-contaminated-area-35d1a60d",
-          "name": "Contaminated Area",
+          "name": "汚された地",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 7,
@@ -1415,7 +1415,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-makna-forest-eks-watering-hole-7fe5dec0",
-          "name": "Eks Watering Hole",
+          "name": "エクスの水飲み場",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 7,
@@ -1425,7 +1425,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-makna-forest-clear-waterfall-b9cba53c",
-          "name": "Clear Waterfall",
+          "name": "清流の滝",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 7,
@@ -1435,7 +1435,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-makna-forest-yellow-flower-grove-6c316a7c",
-          "name": "Yellow Flower Grove",
+          "name": "キイロの花畑",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 7,
@@ -1445,7 +1445,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-makna-forest-decayed-forest-82569427",
-          "name": "Decayed Forest",
+          "name": "腐敗した森",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 7,
@@ -1455,7 +1455,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-makna-forest-abyss-basin-c9323629",
-          "name": "Abyss Basin",
+          "name": "奈落の滝つぼ",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 7,
@@ -1465,7 +1465,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-makna-forest-precipice-bridge-d7ebebed",
-          "name": "Precipice Bridge",
+          "name": "断崖の橋",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 7,
@@ -1475,7 +1475,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-makna-forest-hode-lair-6294c751",
-          "name": "Hode Lair",
+          "name": "フーディの住処",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 7,
@@ -1485,7 +1485,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-makna-forest-colony-9-29a6fc32",
-          "name": "Colony 9",
+          "name": "コロニー9",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 7,
@@ -1495,7 +1495,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-makna-forest-tephra-cave-0057beba",
-          "name": "Tephra Cave",
+          "name": "テフラ洞窟",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 7,
@@ -1515,7 +1515,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-makna-forest-colony-6-18a6d77f",
-          "name": "Colony 6",
+          "name": "コロニー6",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 7,
@@ -1525,7 +1525,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-makna-forest-ether-mine-83e804ef",
-          "name": "Ether Mine",
+          "name": "中央採掘場",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 7,
@@ -1535,7 +1535,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-makna-forest-satorl-marsh-a29ba49a",
-          "name": "Satorl Marsh",
+          "name": "燐光の地ザトール",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 7,
@@ -1555,7 +1555,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-makna-forest-makna-forest-d43b8f8b",
-          "name": "Makna Forest",
+          "name": "マクナ原生林",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 7,
@@ -1565,7 +1565,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-makna-forest-frontier-village-bc2b73f0",
-          "name": "Frontier Village",
+          "name": "サイハテ村",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 7,
@@ -1575,7 +1575,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-makna-forest-eryth-sea-4e041899",
-          "name": "Eryth Sea",
+          "name": "エルト海",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 7,
@@ -1585,7 +1585,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-makna-forest-alcamoth-df840aa2",
-          "name": "Alcamoth",
+          "name": "皇都アカモート",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 7,
@@ -1595,7 +1595,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-makna-forest-high-entia-tomb-ba57bd96",
-          "name": "High Entia Tomb",
+          "name": "ハイエンター墓所",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 7,
@@ -1605,7 +1605,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-makna-forest-prison-island-5ae33377",
-          "name": "Prison Island",
+          "name": "監獄島",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 7,
@@ -1615,7 +1615,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-makna-forest-valak-mountain-8483bcc1",
-          "name": "Valak Mountain",
+          "name": "ヴァラク雪山",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 7,
@@ -1625,7 +1625,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-makna-forest-sword-valley-2d600428",
-          "name": "Sword Valley",
+          "name": "大剣の渓谷",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 7,
@@ -1645,7 +1645,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-makna-forest-fallen-arm-1ebaefbb",
-          "name": "Fallen Arm",
+          "name": "落ちた腕",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 7,
@@ -1655,7 +1655,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-makna-forest-mechonis-field-98911dce",
-          "name": "Mechonis Field",
+          "name": "機神界フィールド",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 7,
@@ -1665,7 +1665,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-makna-forest-central-factory-cd147190",
-          "name": "Central Factory",
+          "name": "中央工廠",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 7,
@@ -1675,7 +1675,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-makna-forest-agniratha-613c0487",
-          "name": "Agniratha",
+          "name": "帝都アグニラータ",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 7,
@@ -1685,7 +1685,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-makna-forest-divine-sanctuary-ad0132d1",
-          "name": "Divine Sanctuary",
+          "name": "神呼びの聖域",
           "type": "secret-area",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 7,
@@ -1695,7 +1695,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-makna-forest-king-agni-s-tomb-4fe924eb",
-          "name": "King Agni's Tomb",
+          "name": "征服王アギニの墳墓",
           "type": "secret-area",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 7,
@@ -1705,7 +1705,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-makna-forest-seahorse-islet-42f92a8f",
-          "name": "Seahorse Islet",
+          "name": "竜の落とし子",
           "type": "secret-area",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 7,
@@ -1715,7 +1715,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-makna-forest-sparkling-pool-93430f58",
-          "name": "Sparkling Pool",
+          "name": "キラキラ池",
           "type": "secret-area",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 7,
@@ -1727,7 +1727,7 @@ const WORLD_DATA = {
     },
     {
       "id": "frontier-village",
-      "name": "Frontier Village",
+      "name": "サイハテ村",
       "game": "base",
       "recommendedChapter": 7,
       "routeChapterId": "ch7",
@@ -1737,7 +1737,7 @@ const WORLD_DATA = {
       "entries": [
         {
           "id": "world-frontier-village-entry-bridge-d5f3565c",
-          "name": "Entry Bridge",
+          "name": "デイリの橋",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 7,
@@ -1747,7 +1747,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-frontier-village-sacred-altar-4e00fc8b",
-          "name": "Sacred Altar",
+          "name": "御神体の祭壇",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 7,
@@ -1757,7 +1757,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-frontier-village-nopon-tower-523525b6",
-          "name": "Nopon Tower",
+          "name": "ノポンタワー",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 7,
@@ -1767,7 +1767,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-frontier-village-pollen-works-60223d51",
-          "name": "Pollen Works",
+          "name": "花粉工場",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 7,
@@ -1777,7 +1777,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-frontier-village-riki-s-house-d4d134a0",
-          "name": "Riki's House",
+          "name": "リキの家",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 7,
@@ -1787,7 +1787,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-frontier-village-chief-s-residence-82b4b428",
-          "name": "Chief's Residence",
+          "name": "村長の家",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 7,
@@ -1797,7 +1797,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-frontier-village-prophecy-hut-6813c1d5",
-          "name": "Prophecy Hut",
+          "name": "お告げの間",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 7,
@@ -1807,7 +1807,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-frontier-village-contemplation-terrace-a15425bd",
-          "name": "Contemplation Terrace",
+          "name": "祈りのテラス",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 7,
@@ -1817,7 +1817,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-frontier-village-reservoir-7b7969d8",
-          "name": "Reservoir",
+          "name": "貯水池",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 7,
@@ -1827,7 +1827,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-frontier-village-underground-store-6369c1bf",
-          "name": "Underground Store",
+          "name": "B1F 地下貯蔵庫",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 7,
@@ -1837,7 +1837,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-frontier-village-nopon-kitchen-f42436f1",
-          "name": "Nopon Kitchen",
+          "name": "ノポンの台所",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 7,
@@ -1857,7 +1857,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-frontier-village-kyn-shopping-street-dafa8807",
-          "name": "Kyn Shopping Street",
+          "name": "2Ｆ カイナ商店通り",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 7,
@@ -1867,7 +1867,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-frontier-village-orb-storage-level-b9631fce",
-          "name": "Orb Storage Level",
+          "name": "3Ｆ 花粉玉倉庫板",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 7,
@@ -1877,7 +1877,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-frontier-village-pollen-orb-storehouse-0291b23b",
-          "name": "Pollen Orb Storehouse",
+          "name": "花粉玉倉庫",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 7,
@@ -1897,7 +1897,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-frontier-village-pollen-works-level-5e500e06",
-          "name": "Pollen Works Level",
+          "name": "5Ｆ 花粉工場板",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 7,
@@ -1907,7 +1907,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-frontier-village-archaeology-level-965ac3b6",
-          "name": "Archaeology Level",
+          "name": "6Ｆ 遺跡研究板",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 7,
@@ -1917,7 +1917,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-frontier-village-archaeology-centre-6e747dba",
-          "name": "Archaeology Centre",
+          "name": "遺跡研究本部",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 7,
@@ -1927,7 +1927,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-frontier-village-top-housing-level-d04e39b8",
-          "name": "Top Housing Level",
+          "name": "7Ｆ 高層住宅板",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 7,
@@ -1937,7 +1937,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-frontier-village-mysterious-sanctuary-77f95cc9",
-          "name": "Mysterious Sanctuary",
+          "name": "8Ｆ 神秘の聖域",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 7,
@@ -1947,7 +1947,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-frontier-village-apex-lake-2e20b8af",
-          "name": "Apex Lake",
+          "name": "9Ｆ てっぺんの湖",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 7,
@@ -1959,7 +1959,7 @@ const WORLD_DATA = {
     },
     {
       "id": "eryth-sea",
-      "name": "Eryth Sea",
+      "name": "エルト海",
       "game": "base",
       "recommendedChapter": 8,
       "routeChapterId": "ch8",
@@ -1969,7 +1969,7 @@ const WORLD_DATA = {
       "entries": [
         {
           "id": "world-eryth-sea-latael-shore-f07602e3",
-          "name": "Latael Shore",
+          "name": "ラタエル海岸",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 8,
@@ -1979,7 +1979,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-eryth-sea-centre-gate-c2803f08",
-          "name": "Centre Gate",
+          "name": "センターゲート",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 8,
@@ -1989,7 +1989,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-eryth-sea-high-entia-tomb-191c3ed0",
-          "name": "High Entia Tomb",
+          "name": "ハイエンター墓所",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 8,
@@ -1999,7 +1999,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-eryth-sea-syrath-lighthouse-8b9d8370",
-          "name": "Syrath Lighthouse",
+          "name": "シウェラート灯台",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 8,
@@ -2009,7 +2009,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-eryth-sea-central-seal-island-b87bc726",
-          "name": "Central Seal Island",
+          "name": "中央封印島",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 8,
@@ -2019,7 +2019,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-eryth-sea-soltnar-seal-island-6eaf5699",
-          "name": "Soltnar Seal Island",
+          "name": "ソルタナ封印島",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 8,
@@ -2029,7 +2029,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-eryth-sea-khatorl-seal-island-ef1b25d9",
-          "name": "Khatorl Seal Island",
+          "name": "カトール封印島",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 8,
@@ -2039,7 +2039,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-eryth-sea-ether-plant-728041ae",
-          "name": "Ether Plant",
+          "name": "エーテルプラント",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 8,
@@ -2049,7 +2049,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-eryth-sea-faras-cave-831b05eb",
-          "name": "Faras Cave",
+          "name": "ファラスの境界泉",
           "type": "secret-area",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 8,
@@ -2059,7 +2059,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-eryth-sea-hovering-reef-1-1d7cf69c",
-          "name": "Hovering Reef 1",
+          "name": "第1浮遊岩礁",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 8,
@@ -2069,7 +2069,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-eryth-sea-showdown-cliff-aa974019",
-          "name": "Showdown Cliff",
+          "name": "敵対者の岸壁",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 8,
@@ -2079,7 +2079,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-eryth-sea-hovering-reef-2-250037e0",
-          "name": "Hovering Reef 2",
+          "name": "第2浮遊岩礁",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 8,
@@ -2089,7 +2089,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-eryth-sea-hovering-reef-3-3f3e26ab",
-          "name": "Hovering Reef 3",
+          "name": "第3浮遊岩礁",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 8,
@@ -2099,7 +2099,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-eryth-sea-hovering-reef-4-ffa908a9",
-          "name": "Hovering Reef 4",
+          "name": "第4浮遊岩礁",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 8,
@@ -2109,7 +2109,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-eryth-sea-hovering-reef-5-7e7f7019",
-          "name": "Hovering Reef 5",
+          "name": "第5浮遊岩礁",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 8,
@@ -2119,7 +2119,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-eryth-sea-hovering-reef-6-42321510",
-          "name": "Hovering Reef 6",
+          "name": "第6浮遊岩礁",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 8,
@@ -2129,7 +2129,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-eryth-sea-ether-crystal-deposit-874e9381",
-          "name": "Ether Crystal Deposit",
+          "name": "エーテル結晶採掘場",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 8,
@@ -2139,7 +2139,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-eryth-sea-hovering-reef-7-67353fad",
-          "name": "Hovering Reef 7",
+          "name": "第7浮遊岩礁",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 8,
@@ -2149,7 +2149,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-eryth-sea-hovering-reef-8-a164693a",
-          "name": "Hovering Reef 8",
+          "name": "第8浮遊岩礁",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 8,
@@ -2159,7 +2159,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-eryth-sea-hovering-reef-9-fac2f490",
-          "name": "Hovering Reef 9",
+          "name": "第9浮遊岩礁",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 8,
@@ -2169,7 +2169,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-eryth-sea-hovering-reef-10-551d0c6f",
-          "name": "Hovering Reef 10",
+          "name": "第10浮遊岩礁",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 8,
@@ -2179,7 +2179,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-eryth-sea-hode-refuge-92a5bb2e",
-          "name": "Hode Refuge",
+          "name": "フーディの隠れ家",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 8,
@@ -2189,7 +2189,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-eryth-sea-bionis-occipital-808c4a7b",
-          "name": "Bionis' Occipital",
+          "name": "巨神後頭部",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 8,
@@ -2199,7 +2199,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-eryth-sea-sleeping-dragon-isle-1cb59d82",
-          "name": "Sleeping Dragon Isle",
+          "name": "眠れる竜の島",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 8,
@@ -2209,7 +2209,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-eryth-sea-kromar-coast-4c944e7e",
-          "name": "Kromar Coast",
+          "name": "スピカルの離岸",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 8,
@@ -2219,7 +2219,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-eryth-sea-secluded-island-778e6d16",
-          "name": "Secluded Island",
+          "name": "鎮まりの離島",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 8,
@@ -2229,7 +2229,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-eryth-sea-anu-shore-31c23345",
-          "name": "Anu Shore",
+          "name": "アヌ海岸",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 8,
@@ -2241,7 +2241,7 @@ const WORLD_DATA = {
     },
     {
       "id": "alcamoth",
-      "name": "Alcamoth",
+      "name": "皇都アカモート",
       "game": "base",
       "recommendedChapter": 8,
       "routeChapterId": "ch8",
@@ -2261,7 +2261,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-alcamoth-fountain-of-hope-e74790ff",
-          "name": "Fountain of Hope",
+          "name": "希望の噴水",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 8,
@@ -2271,7 +2271,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-alcamoth-fountain-of-eternity-b8588346",
-          "name": "Fountain of Eternity",
+          "name": "永遠の噴水",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 8,
@@ -2281,7 +2281,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-alcamoth-imperial-palace-451163a5",
-          "name": "Imperial Palace",
+          "name": "皇宮",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 8,
@@ -2291,7 +2291,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-alcamoth-ascension-hall-f87fb085",
-          "name": "Ascension Hall",
+          "name": "聖天翔の間",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 8,
@@ -2301,7 +2301,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-alcamoth-whitewing-palace-c024b249",
-          "name": "Whitewing Palace",
+          "name": "白翼宮",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 8,
@@ -2311,7 +2311,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-alcamoth-imperial-villa-9811c88d",
-          "name": "Imperial Villa",
+          "name": "離宮",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 8,
@@ -2321,7 +2321,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-alcamoth-melfica-road-3a25be9e",
-          "name": "Melfica Road",
+          "name": "メルフィカ通り",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 8,
@@ -2331,7 +2331,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-alcamoth-great-hall-b28aa943",
-          "name": "Great Hall",
+          "name": "大広間",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 8,
@@ -2341,7 +2341,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-alcamoth-revelation-hall-53d46505",
-          "name": "Revelation Hall",
+          "name": "啓示の間",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 8,
@@ -2351,7 +2351,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-alcamoth-sky-terrace-3604db35",
-          "name": "Sky Terrace",
+          "name": "天空のテラス",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 8,
@@ -2361,7 +2361,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-alcamoth-audience-chamber-add42386",
-          "name": "Audience Chamber",
+          "name": "謁見の間",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 8,
@@ -2373,7 +2373,7 @@ const WORLD_DATA = {
     },
     {
       "id": "high-entia-tomb",
-      "name": "High Entia Tomb",
+      "name": "ハイエンター墓所",
       "game": "base",
       "recommendedChapter": 8,
       "routeChapterId": "ch8",
@@ -2383,7 +2383,7 @@ const WORLD_DATA = {
       "entries": [
         {
           "id": "world-high-entia-tomb-tomb-approach-a0a028cb",
-          "name": "Tomb Approach",
+          "name": "墓所の参道",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 8,
@@ -2393,7 +2393,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-high-entia-tomb-sealed-chamber-34393407",
-          "name": "Sealed Chamber",
+          "name": "封印の間",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 8,
@@ -2403,7 +2403,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-high-entia-tomb-ceremony-hall-50aa6b08",
-          "name": "Ceremony Hall",
+          "name": "儀式の間",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 8,
@@ -2413,7 +2413,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-high-entia-tomb-tomb-robber-pool-990e481c",
-          "name": "Tomb Robber Pool",
+          "name": "墓荒しの池",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 8,
@@ -2423,7 +2423,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-high-entia-tomb-valley-of-emperors-87a54ee7",
-          "name": "Valley of Emperors",
+          "name": "王家の谷",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 8,
@@ -2433,7 +2433,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-high-entia-tomb-tower-of-trials-bridge-2a106bb6",
-          "name": "Tower of Trials - Bridge",
+          "name": "試練の塔 連絡橋",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 8,
@@ -2443,7 +2443,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-high-entia-tomb-hall-of-spirits-c3c76fef",
-          "name": "Hall of Spirits",
+          "name": "英霊たちの間",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 8,
@@ -2453,7 +2453,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-high-entia-tomb-hall-of-trials-085ab6a4",
-          "name": "Hall of Trials",
+          "name": "試練の間",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 8,
@@ -2463,7 +2463,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-high-entia-tomb-telethia-laboratory-7658f307",
-          "name": "Telethia Laboratory",
+          "name": "テレシア研究室",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 8,
@@ -2473,7 +2473,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-high-entia-tomb-imperial-treasury-8901ddaa",
-          "name": "Imperial Treasury",
+          "name": "王家の宝物庫",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 8,
@@ -2483,7 +2483,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-high-entia-tomb-second-treasury-7d6c1ecd",
-          "name": "Second Treasury",
+          "name": "第2宝物庫",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 8,
@@ -2495,69 +2495,69 @@ const WORLD_DATA = {
     },
     {
       "id": "prison-island",
-      "name": "Prison Island",
+      "name": "監獄島",
       "game": "base",
       "recommendedChapter": 9,
       "routeChapterId": "ch9",
-      "accessNotes": "Complete before before the Mechonis Core story transition (Chapter 15).",
-      "lockoutDeadline": "before the Mechonis Core story transition (Chapter 15)",
+      "accessNotes": "機神界中枢の物語の切り替わりの前に終える（15章）。",
+      "lockoutDeadline": "機神界中枢の物語の切り替わりの前（15章）",
       "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291433",
       "entries": [
         {
           "id": "world-prison-island-high-entia-transporter-db3a2c19",
-          "name": "High Entia Transporter",
+          "name": "ハイエンター転移装置",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 9,
           "routeChapterId": "ch9",
-          "lockoutDeadline": "before the Mechonis Core story transition (Chapter 15)",
+          "lockoutDeadline": "機神界中枢の物語の切り替わりの前（15章）",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291433"
         },
         {
           "id": "world-prison-island-prison-gate-94354ed9",
-          "name": "Prison Gate",
+          "name": "監獄島城門",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 9,
           "routeChapterId": "ch9",
-          "lockoutDeadline": "before the Mechonis Core story transition (Chapter 15)",
+          "lockoutDeadline": "機神界中枢の物語の切り替わりの前（15章）",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291433"
         },
         {
           "id": "world-prison-island-prison-terrace-fb6180b9",
-          "name": "Prison Terrace",
+          "name": "監獄の間",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 9,
           "routeChapterId": "ch9",
-          "lockoutDeadline": "before the Mechonis Core story transition (Chapter 15)",
+          "lockoutDeadline": "機神界中枢の物語の切り替わりの前（15章）",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291433"
         },
         {
           "id": "world-prison-island-central-hall-0fb173e7",
-          "name": "Central Hall",
+          "name": "中央広間",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 9,
           "routeChapterId": "ch9",
-          "lockoutDeadline": "before the Mechonis Core story transition (Chapter 15)",
+          "lockoutDeadline": "機神界中枢の物語の切り替わりの前（15章）",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291433"
         },
         {
           "id": "world-prison-island-great-canyon-5406d4ce",
-          "name": "Great Canyon",
+          "name": "大渓谷",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 9,
           "routeChapterId": "ch9",
-          "lockoutDeadline": "before the Mechonis Core story transition (Chapter 15)",
+          "lockoutDeadline": "機神界中枢の物語の切り替わりの前（15章）",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291433"
         }
       ]
     },
     {
       "id": "valak-mountain",
-      "name": "Valak Mountain",
+      "name": "ヴァラク雪山",
       "game": "base",
       "recommendedChapter": 10,
       "routeChapterId": "ch10",
@@ -2567,7 +2567,7 @@ const WORLD_DATA = {
       "entries": [
         {
           "id": "world-valak-mountain-zokhed-pass-a7398881",
-          "name": "Zokhed Pass",
+          "name": "ゾックヘッド峠",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 10,
@@ -2577,7 +2577,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-valak-mountain-mechonis-wound-eeb4def2",
-          "name": "Mechonis Wound",
+          "name": "機神の爪痕",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 10,
@@ -2587,7 +2587,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-valak-mountain-hollow-bone-5e2926a3",
-          "name": "Hollow Bone",
+          "name": "巨神の環状骨",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 10,
@@ -2597,7 +2597,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-valak-mountain-befalgar-pedestal-052f7507",
-          "name": "Befalgar Pedestal",
+          "name": "ベファルガの台座",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 10,
@@ -2607,7 +2607,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-valak-mountain-three-sage-summit-9b35426e",
-          "name": "Three Sage Summit",
+          "name": "三大賢者の頂",
           "type": "secret-area",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 10,
@@ -2617,7 +2617,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-valak-mountain-nopon-camp-953530c7",
-          "name": "Nopon Camp",
+          "name": "ノポンキャンプ",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 10,
@@ -2627,7 +2627,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-valak-mountain-harict-chapel-f9473900",
-          "name": "Harict Chapel",
+          "name": "ハリクト礼拝堂",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 10,
@@ -2637,7 +2637,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-valak-mountain-lava-cave-2fd2f315",
-          "name": "Lava Cave",
+          "name": "溶岩洞穴",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 10,
@@ -2647,7 +2647,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-valak-mountain-la-luz-church-f3b160ed",
-          "name": "La Luz Church",
+          "name": "ラ・ルース教会",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 10,
@@ -2657,7 +2657,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-valak-mountain-nofol-tower-4cc45401",
-          "name": "Nofol Tower",
+          "name": "ノフルの塔",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 10,
@@ -2667,7 +2667,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-valak-mountain-bionis-wrist-8d606f5b",
-          "name": "Bionis' Wrist",
+          "name": "巨神の手首",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 10,
@@ -2677,7 +2677,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-valak-mountain-nagul-waterfall-df73a191",
-          "name": "Nagul Waterfall",
+          "name": "ナグル滝",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 10,
@@ -2687,7 +2687,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-valak-mountain-serik-waterfall-aed19b9d",
-          "name": "Serik Waterfall",
+          "name": "セリック滝",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 10,
@@ -2697,7 +2697,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-valak-mountain-apis-lair-c3ee8e21",
-          "name": "Apis Lair",
+          "name": "アピスの住処",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 10,
@@ -2707,7 +2707,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-valak-mountain-kana-peak-37a0f1a5",
-          "name": "Kana Peak",
+          "name": "カーナ峰",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 10,
@@ -2717,7 +2717,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-valak-mountain-agul-mountain-range-ac518b0b",
-          "name": "Agul Mountain Range",
+          "name": "アグル山脈",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 10,
@@ -2727,7 +2727,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-valak-mountain-bagnar-snowfield-93ace117",
-          "name": "Bagnar Snowfield",
+          "name": "バジーナ雪原",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 10,
@@ -2737,7 +2737,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-valak-mountain-chilkin-lair-c60af4ca",
-          "name": "Chilkin Lair",
+          "name": "チルキンのねぐら",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 10,
@@ -2747,7 +2747,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-valak-mountain-url-crevasse-cd901b38",
-          "name": "Url Crevasse",
+          "name": "ウルの裂け目",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 10,
@@ -2757,7 +2757,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-valak-mountain-bionis-right-elbow-70ae2ca7",
-          "name": "Bionis' Right Elbow",
+          "name": "巨神の右肘",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 10,
@@ -2767,7 +2767,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-valak-mountain-valak-peak-7590ad83",
-          "name": "Valak Peak",
+          "name": "ヴァラク山",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 10,
@@ -2777,7 +2777,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-valak-mountain-antol-den-bc401d2f",
-          "name": "Antol Den",
+          "name": "アントルの寝床",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 10,
@@ -2787,7 +2787,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-valak-mountain-jakt-geyser-a1f66838",
-          "name": "Jakt Geyser",
+          "name": "ジャクト間欠泉",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 10,
@@ -2797,7 +2797,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-valak-mountain-sealed-tower-565a5ccf",
-          "name": "Sealed Tower",
+          "name": "封印の塔",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 10,
@@ -2807,7 +2807,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-valak-mountain-ignia-hill-b5ad17c5",
-          "name": "Ignia Hill",
+          "name": "イギニア坂",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 10,
@@ -2817,7 +2817,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-valak-mountain-great-glacier-3bb05a9b",
-          "name": "Great Glacier",
+          "name": "大氷河地帯",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 10,
@@ -2829,72 +2829,72 @@ const WORLD_DATA = {
     },
     {
       "id": "sword-valley",
-      "name": "Sword Valley",
+      "name": "大剣の渓谷",
       "game": "base",
       "recommendedChapter": 11,
       "routeChapterId": "ch11",
-      "accessNotes": "Complete before before defeating Jade Face in Mechonis Field (Chapter 13).",
-      "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)",
+      "accessNotes": "緑のフェイスを機神界フィールドで倒す前に終える（13章）。",
+      "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）",
       "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291436",
       "entries": [
         {
           "id": "world-sword-valley-bionis-thumb-794a15af",
-          "name": "Bionis' Thumb",
+          "name": "巨神の親指",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 11,
           "routeChapterId": "ch11",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)",
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291436"
         },
         {
           "id": "world-sword-valley-supply-convoy-725bd911",
-          "name": "Supply Convoy",
+          "name": "補給部隊最前線",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 11,
           "routeChapterId": "ch11",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)",
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291436"
         },
         {
           "id": "world-sword-valley-ged-fortress-925cb524",
-          "name": "Ged Fortress",
+          "name": "ゲト砦",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 11,
           "routeChapterId": "ch11",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)",
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291436"
         },
         {
           "id": "world-sword-valley-dolgan-outpost-ea6f3eba",
-          "name": "Dolgan Outpost",
+          "name": "ドルガン監視砦",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 11,
           "routeChapterId": "ch11",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)",
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291436"
         },
         {
           "id": "world-sword-valley-enalda-control-base-b8899d9d",
-          "name": "Enalda Control Base",
+          "name": "エナルダ管理基地",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 11,
           "routeChapterId": "ch11",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)",
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291436"
         },
         {
           "id": "world-sword-valley-heavy-machine-depot-3a747c9e",
-          "name": "Heavy Machine Depot",
+          "name": "大型機発着場",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 11,
           "routeChapterId": "ch11",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)",
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291436"
         },
         {
@@ -2904,259 +2904,259 @@ const WORLD_DATA = {
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 11,
           "routeChapterId": "ch11",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)",
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291436"
         },
         {
           "id": "world-sword-valley-radio-tower-7d42e8f6",
-          "name": "Radio Tower",
+          "name": "電波塔",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 11,
           "routeChapterId": "ch11",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)",
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291436"
         },
         {
           "id": "world-sword-valley-fortress-rear-entrance-4e5e88c1",
-          "name": "Fortress Rear Entrance",
+          "name": "ガラハド要塞 裏口",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 11,
           "routeChapterId": "ch11",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)",
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291436"
         },
         {
           "id": "world-sword-valley-monado-wound-87b3aa3d",
-          "name": "Monado Wound",
+          "name": "モナドの爪痕",
           "type": "secret-area",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 11,
           "routeChapterId": "ch11",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)",
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）",
           "source": "https://xenoblade.fandom.com/wiki/Category:XC_Secret_Areas"
         },
         {
           "id": "world-sword-valley-6th-gate-67c71c5f",
-          "name": "6th Gate",
+          "name": "第6ゲート",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 11,
           "routeChapterId": "ch11",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)",
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291436"
         },
         {
           "id": "world-sword-valley-5th-gate-7bd1793d",
-          "name": "5th Gate",
+          "name": "第5ゲート",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 11,
           "routeChapterId": "ch11",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)",
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291436"
         },
         {
           "id": "world-sword-valley-4th-gate-970d421b",
-          "name": "4th Gate",
+          "name": "第4ゲート",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 11,
           "routeChapterId": "ch11",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)",
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291436"
         },
         {
           "id": "world-sword-valley-3rd-gate-b06926a4",
-          "name": "3rd Gate",
+          "name": "第3ゲート",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 11,
           "routeChapterId": "ch11",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)",
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291436"
         },
         {
           "id": "world-sword-valley-ether-storage-area-7c1c8563",
-          "name": "Ether Storage Area",
+          "name": "エーテル貯蔵区",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 11,
           "routeChapterId": "ch11",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)",
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291436"
         },
         {
           "id": "world-sword-valley-port-access-pathway-f7db50fc",
-          "name": "Port Access Pathway",
+          "name": "機神港 連絡通路",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 11,
           "routeChapterId": "ch11",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)",
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291436"
         },
         {
           "id": "world-sword-valley-port-maintenance-bay-5080299e",
-          "name": "Port Maintenance Bay",
+          "name": "機神港 整備場",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 11,
           "routeChapterId": "ch11",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)",
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291436"
         }
       ]
     },
     {
       "id": "galahad-fortress",
-      "name": "Galahad Fortress",
+      "name": "ガラハド要塞",
       "game": "base",
       "recommendedChapter": 11,
       "routeChapterId": "ch11",
-      "accessNotes": "Complete before before defeating Jade Face in Mechonis Field (Chapter 13).",
-      "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)",
+      "accessNotes": "緑のフェイスを機神界フィールドで倒す前に終える（13章）。",
+      "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）",
       "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291437",
       "entries": [
         {
           "id": "world-galahad-fortress-ether-influx-conduit-00d1798d",
-          "name": "Ether Influx Conduit",
+          "name": "エーテル流入管理通路",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 11,
           "routeChapterId": "ch11",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)",
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291437"
         },
         {
           "id": "world-galahad-fortress-main-control-room-0fdc0c1e",
-          "name": "Main Control Room",
+          "name": "エーテル溶鉱炉管制室",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 11,
           "routeChapterId": "ch11",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)",
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291437"
         },
         {
           "id": "world-galahad-fortress-ether-blast-furnace-570b9512",
-          "name": "Ether Blast Furnace",
+          "name": "エーテル溶鉱炉",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 11,
           "routeChapterId": "ch11",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)",
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291437"
         },
         {
           "id": "world-galahad-fortress-preparation-bay-0da1d1ec",
-          "name": "Preparation Bay",
+          "name": "整備準備室",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 11,
           "routeChapterId": "ch11",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)",
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291437"
         },
         {
           "id": "world-galahad-fortress-fortress-depths-b2683069",
-          "name": "Fortress Depths",
+          "name": "ガラハド要塞 最深部",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 11,
           "routeChapterId": "ch11",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)",
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291437"
         },
         {
           "id": "world-galahad-fortress-main-maintenance-bay-428178c4",
-          "name": "Main Maintenance Bay",
+          "name": "中央整備室",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 11,
           "routeChapterId": "ch11",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)",
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291437"
         },
         {
           "id": "world-galahad-fortress-1st-fuel-supply-room-2f724dea",
-          "name": "1st Fuel Supply Room",
+          "name": "第1燃料補給室",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 11,
           "routeChapterId": "ch11",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)",
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291437"
         },
         {
           "id": "world-galahad-fortress-2nd-fuel-supply-room-32731376",
-          "name": "2nd Fuel Supply Room",
+          "name": "第2燃料補給室",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 11,
           "routeChapterId": "ch11",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)",
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291437"
         },
         {
           "id": "world-galahad-fortress-3rd-fuel-supply-room-635cf494",
-          "name": "3rd Fuel Supply Room",
+          "name": "第3燃料補給室",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 11,
           "routeChapterId": "ch11",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)",
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291437"
         },
         {
           "id": "world-galahad-fortress-1st-turbine-room-07d881e0",
-          "name": "1st Turbine Room",
+          "name": "第1タービン室",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 11,
           "routeChapterId": "ch11",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)",
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291437"
         },
         {
           "id": "world-galahad-fortress-2nd-turbine-room-b7aee6c9",
-          "name": "2nd Turbine Room",
+          "name": "第2タービン室",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 11,
           "routeChapterId": "ch11",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)",
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291437"
         },
         {
           "id": "world-galahad-fortress-blast-furnace-conduit-4098ca3a",
-          "name": "Blast Furnace Conduit",
+          "name": "溶鉱炉管理通路",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 11,
           "routeChapterId": "ch11",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)",
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291437"
         },
         {
           "id": "world-galahad-fortress-piston-control-room-3832c53c",
-          "name": "Piston Control Room",
+          "name": "ピストン制御室",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 11,
           "routeChapterId": "ch11",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)",
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291437"
         },
         {
           "id": "world-galahad-fortress-ether-input-stream-4076fbd9",
-          "name": "Ether Input Stream",
+          "name": "エーテル注入路",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 11,
           "routeChapterId": "ch11",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)",
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291437"
         },
         {
@@ -3166,14 +3166,14 @@ const WORLD_DATA = {
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 11,
           "routeChapterId": "ch11",
-          "lockoutDeadline": "before defeating Jade Face in Mechonis Field (Chapter 13)",
+          "lockoutDeadline": "緑のフェイスを機神界フィールドで倒す前（13章）",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291437"
         }
       ]
     },
     {
       "id": "fallen-arm",
-      "name": "Fallen Arm",
+      "name": "落ちた腕",
       "game": "base",
       "recommendedChapter": 12,
       "routeChapterId": "ch12",
@@ -3183,7 +3183,7 @@ const WORLD_DATA = {
       "entries": [
         {
           "id": "world-fallen-arm-wreckage-beach-b9381a4b",
-          "name": "Wreckage Beach",
+          "name": "残骸の浜辺",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 12,
@@ -3193,7 +3193,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-fallen-arm-ulna-passage-59bba4e0",
-          "name": "Ulna Passage",
+          "name": "機神尺骨通路",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 12,
@@ -3203,7 +3203,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-fallen-arm-inlet-beach-e30726bb",
-          "name": "Inlet Beach",
+          "name": "入り江の砂浜",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 12,
@@ -3213,7 +3213,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-fallen-arm-junks-af59ff68",
-          "name": "Junks",
+          "name": "ジャンクス",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 12,
@@ -3223,7 +3223,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-fallen-arm-giant-mechon-debris-f0c666c5",
-          "name": "Giant Mechon Debris",
+          "name": "巨大な機神兵の残骸",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 12,
@@ -3233,7 +3233,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-fallen-arm-black-wreckage-10793d88",
-          "name": "Black Wreckage",
+          "name": "黒の残骸",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 12,
@@ -3243,7 +3243,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-fallen-arm-connecting-bridge-03e12d8b",
-          "name": "Connecting Bridge",
+          "name": "連絡橋",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 12,
@@ -3253,7 +3253,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-fallen-arm-digit-2-plain-9ebb1b3a",
-          "name": "Digit 2 Plain",
+          "name": "人差し原野",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 12,
@@ -3263,7 +3263,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-fallen-arm-radiocarpea-f2557580",
-          "name": "Radiocarpea",
+          "name": "手首関節部",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 12,
@@ -3273,7 +3273,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-fallen-arm-rotating-bulkhead-2862e991",
-          "name": "Rotating Bulkhead",
+          "name": "回転式防壁",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 12,
@@ -3283,7 +3283,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-fallen-arm-distant-fingertip-22180303",
-          "name": "Distant Fingertip",
+          "name": "天涯の爪先",
           "type": "secret-area",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 12,
@@ -3293,7 +3293,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-fallen-arm-silver-wreckage-8f7b9858",
-          "name": "Silver Wreckage",
+          "name": "白銀の残骸",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 12,
@@ -3303,7 +3303,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-fallen-arm-zakt-spring-aef6896b",
-          "name": "Zakt Spring",
+          "name": "ザクトの泉",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 12,
@@ -3313,7 +3313,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-fallen-arm-jifum-beach-a6492d30",
-          "name": "Jifum Beach",
+          "name": "ジフムの浜辺",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 12,
@@ -3323,7 +3323,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-fallen-arm-transformer-area-f5ebece9",
-          "name": "Transformer Area",
+          "name": "小指変圧区",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 12,
@@ -3333,7 +3333,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-fallen-arm-5th-pulse-zone-526364a5",
-          "name": "5th Pulse Zone",
+          "name": "第5動脈管区",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 12,
@@ -3343,7 +3343,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-fallen-arm-power-pipe-ruins-2e1880b6",
-          "name": "Power Pipe Ruins",
+          "name": "動力パイプ跡",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 12,
@@ -3353,7 +3353,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-fallen-arm-radiocarpea-coast-20ba5886",
-          "name": "Radiocarpea Coast",
+          "name": "手首の海岸",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 12,
@@ -3363,7 +3363,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-fallen-arm-hidden-machina-village-9c4838d5",
-          "name": "Hidden Machina Village",
+          "name": "マシーナの隠れ里",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 12,
@@ -3383,7 +3383,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-fallen-arm-digit-1-7808422b",
-          "name": "Digit 1",
+          "name": "機神の親指",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 12,
@@ -3393,7 +3393,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-fallen-arm-digit-1-crevasse-010be742",
-          "name": "Digit 1 Crevasse",
+          "name": "親指の裂け目",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 12,
@@ -3403,7 +3403,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-fallen-arm-ether-exhaust-system-be2caba8",
-          "name": "Ether Exhaust System",
+          "name": "エーテル排出装置",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 12,
@@ -3413,7 +3413,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-fallen-arm-digit-5-beach-59f0d82c",
-          "name": "Digit 5 Beach",
+          "name": "小指の砂浜",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 12,
@@ -3423,7 +3423,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-fallen-arm-digit-5-45e4e988",
-          "name": "Digit 5",
+          "name": "機神の小指",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 12,
@@ -3433,7 +3433,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-fallen-arm-digit-4-3b9ab704",
-          "name": "Digit 4",
+          "name": "機神の薬指",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 12,
@@ -3443,7 +3443,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-fallen-arm-digit-3-26470bab",
-          "name": "Digit 3",
+          "name": "機神の中指",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 12,
@@ -3453,7 +3453,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-fallen-arm-digit-2-974f1493",
-          "name": "Digit 2",
+          "name": "機神の人差し指",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 12,
@@ -3465,279 +3465,279 @@ const WORLD_DATA = {
     },
     {
       "id": "mechonis-field",
-      "name": "Mechonis Field",
+      "name": "機神界フィールド",
       "game": "base",
       "recommendedChapter": 13,
       "routeChapterId": "ch13",
-      "accessNotes": "Complete before before the Meyneth Shrine events in Chapter 14.",
-      "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+      "accessNotes": "14章のメイナス神殿の出来事の前に終える。",
+      "lockoutDeadline": "14章のメイナス神殿の出来事の前",
       "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291440",
       "entries": [
         {
           "id": "world-mechonis-field-left-leg-cooling-outlet-351d0861",
-          "name": "Left Leg Cooling Outlet",
+          "name": "機神左脚 冷却口",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 13,
           "routeChapterId": "ch13",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291440"
         },
         {
           "id": "world-mechonis-field-gf-main-power-switch-0a69a874",
-          "name": "GF Main Power Switch",
+          "name": "1Ｆ主電源区画",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 13,
           "routeChapterId": "ch13",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291440"
         },
         {
           "id": "world-mechonis-field-1f-main-power-switch-5718bc8c",
-          "name": "1F Main Power Switch",
+          "name": "2Ｆ主電源区画",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 13,
           "routeChapterId": "ch13",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291440"
         },
         {
           "id": "world-mechonis-field-3f-main-power-switch-c4cca46e",
-          "name": "3F Main Power Switch",
+          "name": "4Ｆ主電源区画",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 13,
           "routeChapterId": "ch13",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291440"
         },
         {
           "id": "world-mechonis-field-lower-bulkhead-bridge-c51fd8bc",
-          "name": "Lower Bulkhead Bridge",
+          "name": "機神大隔壁下部連絡橋",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 13,
           "routeChapterId": "ch13",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291440"
         },
         {
           "id": "world-mechonis-field-upper-bulkhead-bridge-42414196",
-          "name": "Upper Bulkhead Bridge",
+          "name": "機神大隔壁上部連絡橋",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 13,
           "routeChapterId": "ch13",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291440"
         },
         {
           "id": "world-mechonis-field-4f-main-power-switch-c7d02587",
-          "name": "4F Main Power Switch",
+          "name": "5Ｆ主電源区画",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 13,
           "routeChapterId": "ch13",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291440"
         },
         {
           "id": "world-mechonis-field-great-battle-scar-1133ce52",
-          "name": "Great Battle Scar",
+          "name": "古代二神戦争の傷跡",
           "type": "secret-area",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 13,
           "routeChapterId": "ch13",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://xenoblade.fandom.com/wiki/Category:XC_Secret_Areas"
         },
         {
           "id": "world-mechonis-field-machina-refuge-7cc82781",
-          "name": "Machina Refuge",
+          "name": "マシーナの隠れ家",
           "type": "secret-area",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 13,
           "routeChapterId": "ch13",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://xenoblade.fandom.com/wiki/Category:XC_Secret_Areas"
         },
         {
           "id": "world-mechonis-field-1st-zebrai-bulkhead-0c741645",
-          "name": "1st Zebrai Bulkhead",
+          "name": "第1セブライ隔壁",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 13,
           "routeChapterId": "ch13",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291440"
         },
         {
           "id": "world-mechonis-field-2nd-gamalt-bulkhead-e8a144be",
-          "name": "2nd Gamalt Bulkhead",
+          "name": "第2ゲマルト隔壁",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 13,
           "routeChapterId": "ch13",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291440"
         },
         {
           "id": "world-mechonis-field-1st-lift-gf-51a1de18",
-          "name": "1st Lift - GF",
+          "name": "第1リフト 1Ｆ",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 13,
           "routeChapterId": "ch13",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291440"
         },
         {
           "id": "world-mechonis-field-2nd-lift-gf-3631361a",
-          "name": "2nd Lift - GF",
+          "name": "第2リフト 1Ｆ",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 13,
           "routeChapterId": "ch13",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291440"
         },
         {
           "id": "world-mechonis-field-1st-lift-b1f-79ab192f",
-          "name": "1st Lift - B1F",
+          "name": "第1リフト Ｂ1Ｆ",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 13,
           "routeChapterId": "ch13",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291440"
         },
         {
           "id": "world-mechonis-field-spent-fuel-tank-c2471382",
-          "name": "Spent Fuel Tank",
+          "name": "廃棄燃料タンク",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 13,
           "routeChapterId": "ch13",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291440"
         },
         {
           "id": "world-mechonis-field-2nd-lift-1f-3c2ee98c",
-          "name": "2nd Lift - 1F",
+          "name": "第2リフト 2Ｆ",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 13,
           "routeChapterId": "ch13",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291440"
         },
         {
           "id": "world-mechonis-field-3rd-lift-engine-room-787f946a",
-          "name": "3rd Lift Engine Room",
+          "name": "第3リフト動力室",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 13,
           "routeChapterId": "ch13",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291440"
         },
         {
           "id": "world-mechonis-field-2f-observation-post-c0f02390",
-          "name": "2F Observation Post",
+          "name": "3Ｆ監視所",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 13,
           "routeChapterId": "ch13",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291440"
         },
         {
           "id": "world-mechonis-field-3rd-lift-2f-fa1414d2",
-          "name": "3rd Lift - 2F",
+          "name": "第3リフト 3Ｆ",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 13,
           "routeChapterId": "ch13",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291440"
         },
         {
           "id": "world-mechonis-field-bulkhead-controls-65f08681",
-          "name": "Bulkhead Controls",
+          "name": "機神大隔壁制御室",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 13,
           "routeChapterId": "ch13",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291440"
         },
         {
           "id": "world-mechonis-field-3rd-lift-3f-d230b80d",
-          "name": "3rd Lift - 3F",
+          "name": "第3リフト 4Ｆ",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 13,
           "routeChapterId": "ch13",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291440"
         },
         {
           "id": "world-mechonis-field-ether-gear-store-eff8473b",
-          "name": "Ether Gear Store",
+          "name": "エーテルギア保存庫",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 13,
           "routeChapterId": "ch13",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291440"
         },
         {
           "id": "world-mechonis-field-patella-exhaust-d0ecb5b0",
-          "name": "Patella Exhaust",
+          "name": "機神膝部排気口",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 13,
           "routeChapterId": "ch13",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291440"
         },
         {
           "id": "world-mechonis-field-power-supply-area-1-5053b7c6",
-          "name": "Power Supply Area 1",
+          "name": "第1電源区画",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 13,
           "routeChapterId": "ch13",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291440"
         },
         {
           "id": "world-mechonis-field-power-supply-area-2-abfb2dce",
-          "name": "Power Supply Area 2",
+          "name": "第2電源区画",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 13,
           "routeChapterId": "ch13",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291440"
         },
         {
           "id": "world-mechonis-field-high-velocity-lift-e55d7ac3",
-          "name": "High-Velocity Lift",
+          "name": "左大腿骨高速リフト",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 13,
           "routeChapterId": "ch13",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291440"
         }
       ]
     },
     {
       "id": "central-factory",
-      "name": "Central Factory",
+      "name": "中央工廠",
       "game": "base",
       "recommendedChapter": 14,
       "routeChapterId": "ch14",
@@ -3747,7 +3747,7 @@ const WORLD_DATA = {
       "entries": [
         {
           "id": "world-central-factory-port-terminal-e61fbb3f",
-          "name": "Port Terminal",
+          "name": "機神港ターミナル",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 14,
@@ -3767,7 +3767,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-central-factory-central-warehouse-lift-7757e748",
-          "name": "Central Warehouse Lift",
+          "name": "中央倉庫リフト",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 14,
@@ -3777,7 +3777,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-central-factory-factory-vent-8464ec57",
-          "name": "Factory Vent",
+          "name": "生産工場通風孔",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 14,
@@ -3787,7 +3787,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-central-factory-tower-boarding-gate-63d70cdd",
-          "name": "Tower Boarding Gate",
+          "name": "中央塔搭乗口",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 14,
@@ -3797,7 +3797,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-central-factory-regeneration-control-407bc9bb",
-          "name": "Regeneration Control",
+          "name": "フェイス再生槽制御室",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 14,
@@ -3807,7 +3807,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-central-factory-agniratha-transporter-783f54af",
-          "name": "Agniratha Transporter",
+          "name": "帝都行き転移装置",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 14,
@@ -3817,7 +3817,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-central-factory-ventilation-conduit-cb36fd71",
-          "name": "Ventilation Conduit",
+          "name": "送風機内ジャンクス前",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 14,
@@ -3827,7 +3827,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-central-factory-bridge-to-apocrypha-611b04a1",
-          "name": "Bridge to Apocrypha",
+          "name": "アポクリファ連絡橋",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 14,
@@ -3837,7 +3837,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-central-factory-central-gate-fdc7074f",
-          "name": "Central Gate",
+          "name": "機神港中央ゲート",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 14,
@@ -3847,7 +3847,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-central-factory-landing-strip-1-ee25be9b",
-          "name": "Landing Strip 1",
+          "name": "機神港第1発着場",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 14,
@@ -3857,7 +3857,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-central-factory-landing-strip-2-db262e6e",
-          "name": "Landing Strip 2",
+          "name": "機神港第2発着場",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 14,
@@ -3867,7 +3867,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-central-factory-maintenance-entrance-1-f9bb7cdd",
-          "name": "Maintenance Entrance 1",
+          "name": "整備棟第1搬入口",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 14,
@@ -3877,7 +3877,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-central-factory-maintenance-wing-2226c3b3",
-          "name": "Maintenance Wing",
+          "name": "機神兵整備棟",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 14,
@@ -3887,7 +3887,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-central-factory-storage-depot-8db8107f",
-          "name": "Storage Depot",
+          "name": "資材置き場",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 14,
@@ -3897,7 +3897,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-central-factory-central-lift-66ae5140",
-          "name": "Central Lift",
+          "name": "工場中央区リフト",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 14,
@@ -3907,7 +3907,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-central-factory-training-ground-roof-2fcd20a3",
-          "name": "Training Ground Roof",
+          "name": "演習場屋上",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 14,
@@ -3917,7 +3917,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-central-factory-central-tower-lift-ef3ff87e",
-          "name": "Central Tower Lift",
+          "name": "中央塔連絡リフト",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 14,
@@ -3927,7 +3927,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-central-factory-large-mechon-store-8b5701f0",
-          "name": "Large Mechon Store",
+          "name": "大型機神兵管理倉庫",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 14,
@@ -3937,7 +3937,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-central-factory-main-factory-gate-c65a4508",
-          "name": "Main Factory Gate",
+          "name": "生産工場正面ゲート",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 14,
@@ -3947,7 +3947,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-central-factory-mechon-factory-a28a009d",
-          "name": "Mechon Factory",
+          "name": "機神兵生産工場",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 14,
@@ -3957,7 +3957,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-central-factory-central-tower-roof-46539fb1",
-          "name": "Central Tower Roof",
+          "name": "中央塔甲板",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 14,
@@ -3987,7 +3987,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-central-factory-observation-platform-c4fd5f0b",
-          "name": "Observation Platform",
+          "name": "開拓者の展望台",
           "type": "secret-area",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 14,
@@ -3999,152 +3999,152 @@ const WORLD_DATA = {
     },
     {
       "id": "agniratha",
-      "name": "Agniratha",
+      "name": "帝都アグニラータ",
       "game": "base",
       "recommendedChapter": 14,
       "routeChapterId": "ch14",
-      "accessNotes": "Complete before before the Meyneth Shrine events in Chapter 14.",
-      "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+      "accessNotes": "14章のメイナス神殿の出来事の前に終える。",
+      "lockoutDeadline": "14章のメイナス神殿の出来事の前",
       "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291444",
       "entries": [
         {
           "id": "world-agniratha-factory-transporter-f4e99710",
-          "name": "Factory Transporter",
+          "name": "中央工廠行き転移装置",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 14,
           "routeChapterId": "ch14",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291444"
         },
         {
           "id": "world-agniratha-central-tower-bca30f8d",
-          "name": "Central Tower",
+          "name": "帝都中枢タワー",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 14,
           "routeChapterId": "ch14",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291444"
         },
         {
           "id": "world-agniratha-1st-control-platform-887a0390",
-          "name": "1st Control Platform",
+          "name": "第1制御室",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 14,
           "routeChapterId": "ch14",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291444"
         },
         {
           "id": "world-agniratha-4th-control-platform-c258ca7e",
-          "name": "4th Control Platform",
+          "name": "第4制御室",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 14,
           "routeChapterId": "ch14",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291444"
         },
         {
           "id": "world-agniratha-meyneth-statue-0367a568",
-          "name": "Meyneth Statue",
+          "name": "首なしメイナス像",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 14,
           "routeChapterId": "ch14",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291444"
         },
         {
           "id": "world-agniratha-2nd-control-platform-3f2bf492",
-          "name": "2nd Control Platform",
+          "name": "第2制御室",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 14,
           "routeChapterId": "ch14",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291444"
         },
         {
           "id": "world-agniratha-3rd-control-platform-f7d244da",
-          "name": "3rd Control Platform",
+          "name": "第3制御室",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 14,
           "routeChapterId": "ch14",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291444"
         },
         {
           "id": "world-agniratha-shrine-transporter-e2d36b01",
-          "name": "Shrine Transporter",
+          "name": "神殿転送装置",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 14,
           "routeChapterId": "ch14",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291444"
         },
         {
           "id": "world-agniratha-meyneth-shrine-a47e8cbd",
-          "name": "Meyneth Shrine",
+          "name": "メイナス神殿",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 14,
           "routeChapterId": "ch14",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291444"
         },
         {
           "id": "world-agniratha-seven-sage-cloister-a72adfab",
-          "name": "Seven Sage Cloister",
+          "name": "7賢者の密議所",
           "type": "secret-area",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 14,
           "routeChapterId": "ch14",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://xenoblade.fandom.com/wiki/Category:XC_Secret_Areas"
         },
         {
           "id": "world-agniratha-gaur-plain-3f34198a",
-          "name": "Gaur Plain",
+          "name": "ガウル平原",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 14,
           "routeChapterId": "ch14",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291444"
         },
         {
           "id": "world-agniratha-volff-lair-4478a604",
-          "name": "Volff Lair",
+          "name": "ヴォルフのねぐら",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 14,
           "routeChapterId": "ch14",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291444"
         },
         {
           "id": "world-agniratha-rho-oasis-05730b20",
-          "name": "Rho Oasis",
+          "name": "ローのオアシス",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 14,
           "routeChapterId": "ch14",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291444"
         },
         {
           "id": "world-agniratha-tirkin-headquarters-85011793",
-          "name": "Tirkin Headquarters",
+          "name": "ターキンの本営",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 14,
           "routeChapterId": "ch14",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291444"
         },
         {
@@ -4154,114 +4154,114 @@ const WORLD_DATA = {
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 14,
           "routeChapterId": "ch14",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291444"
         },
         {
           "id": "world-agniratha-sky-stage-05a12789",
-          "name": "Sky Stage",
+          "name": "天空の舞台",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 14,
           "routeChapterId": "ch14",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291444"
         },
         {
           "id": "world-agniratha-kisk-cave-57e609a7",
-          "name": "Kisk Cave",
+          "name": "キスク洞窟",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 14,
           "routeChapterId": "ch14",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291444"
         },
         {
           "id": "world-agniratha-daksha-shrine-9cac1197",
-          "name": "Daksha Shrine",
+          "name": "ダクシャ神殿",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 14,
           "routeChapterId": "ch14",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291444"
         },
         {
           "id": "world-agniratha-raguel-lake-7a1edad5",
-          "name": "Raguel Lake",
+          "name": "ラグエル湖",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 14,
           "routeChapterId": "ch14",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291444"
         },
         {
           "id": "world-agniratha-tranquil-grotto-b4f9f456",
-          "name": "Tranquil Grotto",
+          "name": "静寂の岩屋",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 14,
           "routeChapterId": "ch14",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291444"
         },
         {
           "id": "world-agniratha-maguel-road-6ed78b39",
-          "name": "Maguel Road",
+          "name": "マークウェル街道",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 14,
           "routeChapterId": "ch14",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291444"
         },
         {
           "id": "world-agniratha-windy-cave-c0cbeba9",
-          "name": "Windy Cave",
+          "name": "風鳴りの空洞",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 14,
           "routeChapterId": "ch14",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291444"
         },
         {
           "id": "world-agniratha-crevasse-waterfall-d414d740",
-          "name": "Crevasse Waterfall",
+          "name": "裂け目の滝",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 14,
           "routeChapterId": "ch14",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291444"
         },
         {
           "id": "world-agniratha-traveller-s-rest-d21a3d9f",
-          "name": "Traveller's Rest",
+          "name": "旅人の休息跡地",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 14,
           "routeChapterId": "ch14",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291444"
         },
         {
           "id": "world-agniratha-kasharpa-falls-1b9b5a08",
-          "name": "Kasharpa Falls",
+          "name": "カシュハパの滝",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 14,
           "routeChapterId": "ch14",
-          "lockoutDeadline": "before the Meyneth Shrine events in Chapter 14",
+          "lockoutDeadline": "14章のメイナス神殿の出来事の前",
           "source": "https://game8.co/games/Xenoblade-Chronicles-Definitive-Edition/archives/291444"
         }
       ]
     },
     {
       "id": "bionis-interior",
-      "name": "Bionis' Interior",
+      "name": "巨神胎内",
       "game": "base",
       "recommendedChapter": 17,
       "routeChapterId": "ch17",
@@ -4271,7 +4271,7 @@ const WORLD_DATA = {
       "entries": [
         {
           "id": "world-bionis-interior-terminal-trachea-f21541dd",
-          "name": "Terminal Trachea",
+          "name": "胎内終末気管路",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 17,
@@ -4281,7 +4281,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-bionis-interior-interior-landing-site-4ee120df",
-          "name": "Interior Landing Site",
+          "name": "胎内停泊所",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 17,
@@ -4291,7 +4291,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-bionis-interior-spinal-nerve-tower-e056c7cb",
-          "name": "Spinal Nerve Tower",
+          "name": "脊髄神経タワー",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 17,
@@ -4301,7 +4301,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-bionis-interior-pars-sympathica-tower-35552603",
-          "name": "Pars Sympathica Tower",
+          "name": "交感神経タワー",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 17,
@@ -4311,7 +4311,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-bionis-interior-terminal-nerve-tower-13cd51cc",
-          "name": "Terminal Nerve Tower",
+          "name": "終末神経タワー",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 17,
@@ -4321,7 +4321,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-bionis-interior-upper-trachea-a067b05a",
-          "name": "Upper Trachea",
+          "name": "胎内上部気管路",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 17,
@@ -4331,7 +4331,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-bionis-interior-heart-entrance-e2288892",
-          "name": "Heart Entrance",
+          "name": "巨神の心臓入口",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": 17,
@@ -4341,7 +4341,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-bionis-interior-third-lung-c648f412",
-          "name": "Third Lung",
+          "name": "第3肺内部",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 17,
@@ -4351,7 +4351,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-bionis-interior-first-lung-ba4b52d5",
-          "name": "First Lung",
+          "name": "第1肺内部",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 17,
@@ -4361,7 +4361,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-bionis-interior-vein-crossroad-601baa8c",
-          "name": "Vein Crossroad",
+          "name": "静脈の交差路",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 17,
@@ -4371,7 +4371,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-bionis-interior-terminal-vein-a95fcc57",
-          "name": "Terminal Vein",
+          "name": "末端静脈",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 17,
@@ -4381,7 +4381,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-bionis-interior-venous-plexus-ad1e53bc",
-          "name": "Venous Plexus",
+          "name": "網静脈地帯",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 17,
@@ -4391,7 +4391,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-bionis-interior-third-lung-bronchus-86183749",
-          "name": "Third Lung Bronchus",
+          "name": "第3肺気管支",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 17,
@@ -4401,7 +4401,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-bionis-interior-second-lung-2cb5933c",
-          "name": "Second Lung",
+          "name": "第2肺内部",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 17,
@@ -4411,7 +4411,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-bionis-interior-aortic-pathway-4abef305",
-          "name": "Aortic Pathway",
+          "name": "大動脈の回廊",
           "type": "location",
           "accessNotes": "Map discovery entry.",
           "recommendedChapter": 17,
@@ -4433,7 +4433,7 @@ const WORLD_DATA = {
       "entries": [
         {
           "id": "world-bionis-shoulder-junks-fac9f8cd",
-          "name": "Junks",
+          "name": "ジャンクス",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": "Future Connected",
@@ -4503,7 +4503,7 @@ const WORLD_DATA = {
         },
         {
           "id": "world-bionis-shoulder-soltnar-seal-island-97c9c4d5",
-          "name": "Soltnar Seal Island",
+          "name": "ソルタナ封印島",
           "type": "landmark",
           "accessNotes": "Skip Travel point once discovered.",
           "recommendedChapter": "Future Connected",
@@ -4887,9 +4887,9 @@ const WORLD_DATA = {
   "quests": [
     {
       "id": "quest-colony-9-mementos-of-a-lost-son-9e0dd266",
-      "name": "Mementos of a Lost Son",
-      "area": "Colony 9",
-      "requirements": "Access to Tephra Cave",
+      "name": "息子の形見",
+      "area": "コロニー9",
+      "requirements": "テフラ洞窟へ入れる",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -4898,8 +4898,8 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-the-key-to-a-long-life-c651adfb",
-      "name": "The Key to a Long Life",
-      "area": "Colony 9",
+      "name": "元気の秘訣",
+      "area": "コロニー9",
       "requirements": "None",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
@@ -4909,9 +4909,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-a-curry-conundrum-8e3c9bc6",
-      "name": "A Curry Conundrum",
-      "area": "Colony 9",
-      "requirements": "Colony 9 area ☆1½",
+      "name": "人気カレー屋のピンチ",
+      "area": "コロニー9",
+      "requirements": "コロニー9エリア ☆1½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -4920,8 +4920,8 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-biscuits-for-a-grandson-152ef976",
-      "name": "Biscuits for a Grandson",
-      "area": "Colony 9",
+      "name": "孫へのクッキー",
+      "area": "コロニー9",
       "requirements": "None",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
@@ -4931,9 +4931,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-birthday-shoes-af6b8430",
-      "name": "Birthday Shoes",
-      "area": "Colony 9",
-      "requirements": "Mechonis Core cleared\r\nquests Education-Crazy Suzanna as well as A Young Captain's Trust or A Young Captain's Revival\r\nColony 9 area ☆4¼",
+      "name": "親バカの靴",
+      "area": "コロニー9",
+      "requirements": "機神界中枢をクリア\nクエスト教育過剰なスザンナ、および小娘隊長の信頼か小娘隊長の復活\nコロニー9エリア ☆4¼",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -4942,9 +4942,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-education-minded-suzanna-e284a74b",
-      "name": "Education-Minded Suzanna",
-      "area": "Colony 9",
-      "requirements": "Moritz registered on the Colony 9 area Affinity Chart",
+      "name": "教育熱心なスザンナ",
+      "area": "コロニー9",
+      "requirements": "フリッツがコロニー9エリアのキズナグラムに登録済み",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -4953,9 +4953,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-education-crazy-suzanna-6464b6d4",
-      "name": "Education-Crazy Suzanna",
-      "area": "Colony 9",
-      "requirements": "Education-Minded Suzanna\r\nColony 9 area ☆2½",
+      "name": "教育過剰なスザンナ",
+      "area": "コロニー9",
+      "requirements": "教育熱心なスザンナ\nコロニー9エリア ☆2½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -4966,9 +4966,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-flattened-flowers-c57c1577",
-      "name": "Flattened Flowers",
-      "area": "Colony 9",
-      "requirements": "Access to Tephra Cave",
+      "name": "舞い散った花",
+      "area": "コロニー9",
+      "requirements": "テフラ洞窟へ入れる",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -4977,8 +4977,8 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-lonely-niranira-4a391273",
-      "name": "Lonely Niranira",
-      "area": "Colony 9",
+      "name": "孤独なニルニー",
+      "area": "コロニー9",
       "requirements": "None",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
@@ -4988,9 +4988,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-the-broken-watch-ad2a0f8a",
-      "name": "The Broken Watch",
-      "area": "Colony 9",
-      "requirements": "Shulk as party leader",
+      "name": "機械オンチの腕時計",
+      "area": "コロニー9",
+      "requirements": "パーティリーダーはシュルク",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -5001,9 +5001,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-the-old-soldier-s-test-b8753421",
-      "name": "The Old Soldier's Test",
-      "area": "Colony 9",
-      "requirements": "Melia met in Makna Forest\r\nDionysis and Cheryl registered\r\nJan – Minnie affinity link (☆3)\r\n\"He's too old\" told to Dionysis",
+      "name": "老兵ヤーンの試練",
+      "area": "コロニー9",
+      "requirements": "メリア met in マクナ原生林\nディオニージスとツィリルが登録済み\nヤーン – メイニーのキズナリンク（☆3）\n「He's too old」とディオニージスに伝えた",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -5012,9 +5012,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-romantic-notions-of-a-girl-66b7b8cf",
-      "name": "Romantic Notions of a Girl",
-      "area": "Colony 9",
-      "requirements": "Access to Tephra Cave\r\nErik registered in the Affinity Chart\r\nColony 9 area ☆2",
+      "name": "恋愛成就・女性編",
+      "area": "コロニー9",
+      "requirements": "テフラ洞窟へ入れる\nエリックがキズナグラムに登録済み\nコロニー9エリア ☆2",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -5025,9 +5025,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-romantic-notions-of-a-boy-a4c3d34c",
-      "name": "Romantic Notions of a Boy",
-      "area": "Colony 9",
-      "requirements": "Access to Tephra Cave\r\nRomantic Notions of a Girl accepted\r\nColony 9 area ☆2",
+      "name": "恋愛成就・男性編",
+      "area": "コロニー9",
+      "requirements": "テフラ洞窟へ入れる\n恋愛成就・女性編を受注済み\nコロニー9エリア ☆2",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -5040,9 +5040,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-an-impoverished-critic-8c1a542b",
-      "name": "An Impoverished Critic",
-      "area": "Colony 9",
-      "requirements": "Sylviane registered in the Colony 9 area Affinity Chart\r\nafter the Mechon raid",
+      "name": "貧乏評論家の悩み",
+      "area": "コロニー9",
+      "requirements": "スルワがコロニー9エリアのキズナグラムに登録済み\n機神兵の襲撃のあと",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -5051,9 +5051,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-financial-planning-1b77dae6",
-      "name": "Financial Planning",
-      "area": "Colony 9",
-      "requirements": "Access to Tephra Cave\r\nAn Impoverished Critic accepted",
+      "name": "高利貸しの企み",
+      "area": "コロニー9",
+      "requirements": "テフラ洞窟へ入れる\n貧乏評論家の悩みを受注済み",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -5064,9 +5064,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-overworked-and-underpaid-771d15a5",
-      "name": "Overworked and Underpaid",
-      "area": "Colony 9",
-      "requirements": "Access to Tephra Cave\r\nA Curry Conundrum\r\nColony 9 area ☆2",
+      "name": "働きすぎコパム",
+      "area": "コロニー9",
+      "requirements": "テフラ洞窟へ入れる\n人気カレー屋のピンチ\nコロニー9エリア ☆2",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -5077,9 +5077,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-pestering-paola-5e0aabdb",
-      "name": "Pestering Paola",
-      "area": "Colony 9",
-      "requirements": "After escorting Juju to the Refugee Camp\r\nSharla joined the party\r\nOverworked and Underpaid route A completed\r\nColony 9 area ☆3",
+      "name": "グッド・パオラ",
+      "area": "コロニー9",
+      "requirements": "ジュジュを脱出艇キャンプまで護衛したあと\nカルナがパーティに加入\n働きすぎコパムのAルートを達成済み\nコロニー9エリア ☆3",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -5088,9 +5088,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-out-of-luck-giorgio-1a923a16",
-      "name": "Out-of-Luck Giorgio",
-      "area": "Colony 9",
-      "requirements": "After escorting Juju to the Refugee Camp\r\nSharla joined the party\r\nOverworked and Underpaid route B completed\r\nColony 9 area ☆3",
+      "name": "スランプ・コパム",
+      "area": "コロニー9",
+      "requirements": "ジュジュを脱出艇キャンプまで護衛したあと\nカルナがパーティに加入\n働きすぎコパムのBルートを達成済み\nコロニー9エリア ☆3",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -5099,9 +5099,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-paola-and-narine-18d94380",
-      "name": "Paola and Narine",
-      "area": "Colony 9",
-      "requirements": "Access to Tephra Cave\r\nPaola registered in the Colony 9 area Affinity Chart\r\nShulk in the lead",
+      "name": "パオラとネリネ",
+      "area": "コロニー9",
+      "requirements": "テフラ洞窟へ入れる\nパオラがコロニー9エリアのキズナグラムに登録済み\nパーティリーダーはシュルク",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -5110,9 +5110,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-the-plan-preparation-7b66a63b",
-      "name": "The Plan - Preparation",
-      "area": "Colony 9",
-      "requirements": "Access to Tephra Cave",
+      "name": "野望・準備編",
+      "area": "コロニー9",
+      "requirements": "テフラ洞窟へ入れる",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -5121,9 +5121,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-the-plan-the-night-before-48265829",
-      "name": "The Plan - The Night Before",
-      "area": "Colony 9",
-      "requirements": "Access to Tephra Cave\r\nThe Plan - Preparation\r\nColony 9 area ☆2",
+      "name": "野望・前夜編",
+      "area": "コロニー9",
+      "requirements": "テフラ洞窟へ入れる\n野望・準備編\nコロニー9エリア ☆2",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -5134,9 +5134,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-the-plan-execution-1e25ac5f",
-      "name": "The Plan - Execution",
-      "area": "Colony 9",
-      "requirements": "Access to Tephra Cave\r\nThe Plan - The Night Before\r\nColony 9 area ☆3",
+      "name": "野望・実行編",
+      "area": "コロニー9",
+      "requirements": "テフラ洞窟へ入れる\n野望・前夜編\nコロニー9エリア ☆3",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -5147,9 +5147,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-a-young-captain-s-request-d47cc184",
-      "name": "A Young Captain's Request",
-      "area": "Colony 9",
-      "requirements": "Colony 9 area ☆1¼",
+      "name": "小娘隊長の依頼",
+      "area": "コロニー9",
+      "requirements": "コロニー9エリア ☆1¼",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -5158,9 +5158,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-a-young-captain-s-suffering-7b367e25",
-      "name": "A Young Captain's Suffering",
-      "area": "Colony 9",
-      "requirements": "Raoul registered on the Affinity Chart\r\nA Young Captain's Request\r\naccess to Tephra Cave\r\nColony 9 area ☆1½",
+      "name": "小娘隊長の苦難",
+      "area": "コロニー9",
+      "requirements": "ルヒオルがキズナグラムに登録済み\n小娘隊長の依頼\nテフラ洞窟へ入れる\nコロニー9エリア ☆1½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -5171,9 +5171,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-a-young-captain-s-rise-084c78f8",
-      "name": "A Young Captain's Rise",
-      "area": "Colony 9",
-      "requirements": "Access to Tephra Cave\r\nA Young Captain's Suffering\r\nColony 9 area ☆2.",
+      "name": "小娘隊長の栄進",
+      "area": "コロニー9",
+      "requirements": "テフラ洞窟へ入れる\n小娘隊長の苦難\nコロニー9エリア ☆2",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -5184,9 +5184,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-a-young-captain-s-challenge-3b6e8a3c",
-      "name": "A Young Captain's Challenge",
-      "area": "Colony 9",
-      "requirements": "Makna Forest reached\r\nKantz registered on the Affinity Chart\r\nA Young Captain's Rise\r\nColony 9 area ☆3",
+      "name": "小娘隊長の挑戦",
+      "area": "コロニー9",
+      "requirements": "マクナ原生林に到達\nカンタンがキズナグラムに登録済み\n小娘隊長の栄進\nコロニー9エリア ☆3",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -5197,9 +5197,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-a-young-captain-s-trust-a927076c",
-      "name": "A Young Captain's Trust",
-      "area": "Colony 9",
-      "requirements": "Mechonis Core cleared\r\nA Young Captain's Challenge (B route) completed\r\nColony 9 area ☆4\r\nShulk in the lead",
+      "name": "小娘隊長の信頼",
+      "area": "コロニー9",
+      "requirements": "機神界中枢をクリア\n小娘隊長の挑戦（Bルート）を達成済み\nコロニー9エリア ☆4\nパーティリーダーはシュルク",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -5210,9 +5210,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-a-young-captain-s-revival-6417f76a",
-      "name": "A Young Captain's Revival",
-      "area": "Colony 9",
-      "requirements": "Mechonis Core cleared\r\nA Young Captain's Challenge (A route) completed\r\nColony 9 area ☆4\r\nShulk in the lead",
+      "name": "小娘隊長の復活",
+      "area": "コロニー9",
+      "requirements": "機神界中枢をクリア\n小娘隊長の挑戦（Aルート）を達成済み\nコロニー9エリア ☆4\nパーティリーダーはシュルク",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -5223,9 +5223,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-pride-and-courage-87817643",
-      "name": "Pride and Courage",
-      "area": "Colony 9",
-      "requirements": "Moritz registered on the Affinity Chart\r\nLonely Niranira\r\nColony 9 area ☆2",
+      "name": "勇気とプライド",
+      "area": "コロニー9",
+      "requirements": "フリッツがキズナグラムに登録済み\n孤独なニルニー\nコロニー9エリア ☆2",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -5236,9 +5236,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-friendship-tokens-f32a6115",
-      "name": "Friendship Tokens",
-      "area": "Colony 9",
-      "requirements": "Mechonis Core cleared\r\nPride and Courage\r\nColony 9 area ☆4¼\r\nReyn in the lead",
+      "name": "友情の三種の神器",
+      "area": "コロニー9",
+      "requirements": "機神界中枢をクリア\n勇気とプライド\nコロニー9エリア ☆4¼\nパーティリーダーはライン",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -5249,9 +5249,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-a-big-brother-s-fight-ccc402f4",
-      "name": "A Big Brother's Fight",
-      "area": "Colony 9",
-      "requirements": "Riki joined the party\nAn Errand for the Heropon\nBiscuits for a Grandson\nColony 9 area ☆2½",
+      "name": "兄弟ゲンカ・アニキ編",
+      "area": "コロニー9",
+      "requirements": "リキがパーティに加入\n勇者のお使い\n孫へのクッキー\nコロニー9エリア ☆2½",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -5265,9 +5265,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-a-little-brother-s-fight-c5e7ea1a",
-      "name": "A Little Brother's Fight",
-      "area": "Colony 9",
-      "requirements": "Riki joined the party\nAn Errand for the Heropon\nA Big Brother's Fight accepted\nColony 9 area ☆2½",
+      "name": "兄弟ゲンカ・オトウト編",
+      "area": "コロニー9",
+      "requirements": "リキがパーティに加入\n勇者のお使い\n兄弟ゲンカ・アニキ編を受注済み\nコロニー9エリア ☆2½",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -5281,9 +5281,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-a-place-to-come-home-to-7c040452",
-      "name": "A Place to Come Home to",
-      "area": "Colony 9",
-      "requirements": "A Big Brother's Fight\r\nColony 9 area ☆3½",
+      "name": "帰るべき場所",
+      "area": "コロニー9",
+      "requirements": "兄弟ゲンカ・アニキ編\nコロニー9エリア ☆3½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -5295,8 +5295,8 @@ const WORLD_DATA = {
     {
       "id": "quest-colony-9-thawing-relationships-ae729363",
       "name": "Thawing Relationships",
-      "area": "Colony 9",
-      "requirements": "In the course to the Makna Forest's final event\r\nA Little Brother's Fight\r\nColony 9 area ☆3½",
+      "area": "コロニー9",
+      "requirements": "マクナ原生林の最後の出来事へ向かう途中\n兄弟ゲンカ・オトウト編\nコロニー9エリア ☆3½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -5307,9 +5307,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-rocco-s-heartful-request-123cd707",
-      "name": "Rocco's Heartful Request",
-      "area": "Colony 9",
-      "requirements": "Sonia registered on the Affinity Chart\r\nColony 9 area ☆1½",
+      "name": "ロコの切実な願い",
+      "area": "コロニー9",
+      "requirements": "ソニアがキズナグラムに登録済み\nコロニー9エリア ☆1½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -5318,9 +5318,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-dean-s-shady-request-d2e3cc6a",
-      "name": "Dean's Shady Request",
-      "area": "Colony 9",
-      "requirements": "Liliana registered on the Affinity Chart\r\nRocco's Heartful Request\r\nColony 9 area ☆2",
+      "name": "ディーンの邪な願い",
+      "area": "コロニー9",
+      "requirements": "リルカがキズナグラムに登録済み\nロコの切実な願い\nコロニー9エリア ☆2",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -5331,9 +5331,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-liliana-s-sincere-request-a992ff79",
-      "name": "Liliana's Sincere Request",
-      "area": "Colony 9",
-      "requirements": "Dean's Shady Request\r\nColony 9 area ☆2½",
+      "name": "リルカの真剣な願い",
+      "area": "コロニー9",
+      "requirements": "ディーンの邪な願い\nコロニー9エリア ☆2½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -5344,9 +5344,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-jackson-s-awakening-e3cd8a4d",
-      "name": "Jackson's Awakening",
-      "area": "Colony 9",
-      "requirements": "Dorothy registered on the Affinity Chart\r\nSharla joined the party\r\nColony 9 area ☆3",
+      "name": "ジャクソンの覚醒",
+      "area": "コロニー9",
+      "requirements": "ドロテアがキズナグラムに登録済み\nカルナがパーティに加入\nコロニー9エリア ☆3",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -5356,8 +5356,8 @@ const WORLD_DATA = {
     {
       "id": "quest-colony-9-jackson-the-cook-f3ac6d5d",
       "name": "Jackson The Cook",
-      "area": "Colony 9",
-      "requirements": "Jackson's Awakening (B route) completed\r\nColony 9 area ☆3½\r\nSharla joined the party",
+      "area": "コロニー9",
+      "requirements": "ジャクソンの覚醒（Bルート）を達成済み\nコロニー9エリア ☆3½\nカルナがパーティに加入",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -5369,8 +5369,8 @@ const WORLD_DATA = {
     {
       "id": "quest-colony-9-jackson-the-poet-d40f10a7",
       "name": "Jackson The Poet",
-      "area": "Colony 9",
-      "requirements": "Jackson's Awakening (A route) completed\r\nColony 9 area ☆3½\r\nSharla joined the party",
+      "area": "コロニー9",
+      "requirements": "ジャクソンの覚醒（Aルート）を達成済み\nコロニー9エリア ☆3½\nカルナがパーティに加入",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -5381,9 +5381,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-desiree-s-future-f8d99dfa",
-      "name": "Désirée's Future",
-      "area": "Colony 9",
-      "requirements": "Satorl Marsh reached\r\nJackson's Awakening\r\nColony 9 area ☆4½\r\nShulk in the lead",
+      "name": "デジレーンの将来",
+      "area": "コロニー9",
+      "requirements": "燐光の地ザトールに到達\nジャクソンの覚醒\nコロニー9エリア ☆4½\nパーティリーダーはシュルク",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -5395,9 +5395,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-betty-s-gift-2ae61ede",
-      "name": "Betty's Gift",
-      "area": "Colony 9",
-      "requirements": "Satorl Marsh reached\r\nDésirée's Future (A route) completed\r\nBetty mentioned Désirée's new career\r\nColony 9 area ☆5",
+      "name": "ベッティの贈り物",
+      "area": "コロニー9",
+      "requirements": "燐光の地ザトールに到達\nデジレーンの将来（Aルート）を達成済み\nベッティ mentioned デジレーン's new career\nコロニー9エリア ☆5",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -5408,9 +5408,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-desiree-s-apology-c68a7721",
-      "name": "Désirée's Apology",
-      "area": "Colony 9",
-      "requirements": "Satorl Marsh reached\r\nDésirée's Future (B route) completed\r\nColony 9 area ☆5",
+      "name": "デジレーンの謝罪",
+      "area": "コロニー9",
+      "requirements": "燐光の地ザトールに到達\nデジレーンの将来（Bルート）を達成済み\nコロニー9エリア ☆5",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -5421,9 +5421,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-the-elite-captain-s-anguish-aa6b3314",
-      "name": "The Elite Captain's Anguish",
-      "area": "Colony 9",
-      "requirements": "Mechonis Core cleared\r\nA Young Captain's Trust\r\nor A Young Captain's Revival\r\nColony 9 area ☆4",
+      "name": "エリート小隊長の苦悩",
+      "area": "コロニー9",
+      "requirements": "機神界中枢をクリア\n小娘隊長の信頼\nor 小娘隊長の復活\nコロニー9エリア ☆4",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -5434,9 +5434,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-getting-to-know-minnie-cbdfe5a0",
-      "name": "Getting to Know Minnie",
-      "area": "Colony 9",
-      "requirements": "Mechonis Core cleared\r\nThe Elite Captain's Anguish accepted",
+      "name": "メイニーを知る",
+      "area": "コロニー9",
+      "requirements": "機神界中枢をクリア\nエリート小隊長の苦悩を受注済み",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -5447,9 +5447,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-getting-to-know-dorothy-32854a9f",
-      "name": "Getting to Know Dorothy",
-      "area": "Colony 9",
-      "requirements": "Mechonis Core cleared\r\nThe Elite Captain's Anguish accepted",
+      "name": "ドロテアを知る",
+      "area": "コロニー9",
+      "requirements": "機神界中枢をクリア\nエリート小隊長の苦悩を受注済み",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -5460,9 +5460,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-a-mysterious-light-a13112c1",
-      "name": "A Mysterious Light",
-      "area": "Colony 9",
-      "requirements": "Colony 6 area reached\r\nColony 9 area ☆3",
+      "name": "謎の光の真相",
+      "area": "コロニー9",
+      "requirements": "コロニー6に到達\nコロニー9エリア ☆3",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -5471,8 +5471,8 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-out-like-a-light-40f7eb9a",
-      "name": "Out Like a Light?",
-      "area": "Colony 9",
+      "name": "謎の光の行方",
+      "area": "コロニー9",
       "requirements": "",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
@@ -5482,9 +5482,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-the-lost-pendant-169815c1",
-      "name": "The Lost Pendant",
-      "area": "Colony 9",
-      "requirements": "Access to Tephra Cave\r\nMissing in Action",
+      "name": "なくしたペンダント",
+      "area": "コロニー9",
+      "requirements": "テフラ洞窟へ入れる\n単独行動の兵士",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -5495,8 +5495,8 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-monster-quest-1-part-1-f38055d1",
-      "name": "Monster Quest 1 - Part 1",
-      "area": "Colony 9",
+      "name": "討伐クエスト1その1",
+      "area": "コロニー9",
       "requirements": "None",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
@@ -5506,8 +5506,8 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-monster-quest-1-part-2-2034c1d5",
-      "name": "Monster Quest 1 - Part 2",
-      "area": "Colony 9",
+      "name": "討伐クエスト1その2",
+      "area": "コロニー9",
       "requirements": "None",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
@@ -5517,8 +5517,8 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-monster-quest-1-part-3-79f5dabb",
-      "name": "Monster Quest 1 - Part 3",
-      "area": "Colony 9",
+      "name": "討伐クエスト1その3",
+      "area": "コロニー9",
       "requirements": "None",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
@@ -5528,8 +5528,8 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-monster-quest-2-part-1-c127e9f5",
-      "name": "Monster Quest 2 - Part 1",
-      "area": "Colony 9",
+      "name": "討伐クエスト2その1",
+      "area": "コロニー9",
       "requirements": "None",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
@@ -5539,8 +5539,8 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-monster-quest-2-part-2-582d4f43",
-      "name": "Monster Quest 2 - Part 2",
-      "area": "Colony 9",
+      "name": "討伐クエスト2その2",
+      "area": "コロニー9",
       "requirements": "None",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
@@ -5550,8 +5550,8 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-monster-quest-2-part-3-9acaa1fc",
-      "name": "Monster Quest 2 - Part 3",
-      "area": "Colony 9",
+      "name": "討伐クエスト2その3",
+      "area": "コロニー9",
       "requirements": "None",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
@@ -5561,8 +5561,8 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-monster-quest-3-part-1-b44280ef",
-      "name": "Monster Quest 3 - Part 1",
-      "area": "Colony 9",
+      "name": "討伐クエスト3その1",
+      "area": "コロニー9",
       "requirements": "None",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
@@ -5572,8 +5572,8 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-monster-quest-3-part-2-745dc67c",
-      "name": "Monster Quest 3 - Part 2",
-      "area": "Colony 9",
+      "name": "討伐クエスト3その2",
+      "area": "コロニー9",
       "requirements": "None",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
@@ -5583,8 +5583,8 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-monster-quest-3-part-3-f024097e",
-      "name": "Monster Quest 3 - Part 3",
-      "area": "Colony 9",
+      "name": "討伐クエスト3その3",
+      "area": "コロニー9",
       "requirements": "None",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
@@ -5594,8 +5594,8 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-monster-quest-3-part-4-c40931db",
-      "name": "Monster Quest 3 - Part 4",
-      "area": "Colony 9",
+      "name": "討伐クエスト3その4",
+      "area": "コロニー9",
       "requirements": "None",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
@@ -5605,8 +5605,8 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-monster-quest-4-part-1-7e04c2e5",
-      "name": "Monster Quest 4 - Part 1",
-      "area": "Colony 9",
+      "name": "討伐クエスト4その1",
+      "area": "コロニー9",
       "requirements": "None",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
@@ -5616,8 +5616,8 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-monster-quest-4-part-2-bfc86df5",
-      "name": "Monster Quest 4 - Part 2",
-      "area": "Colony 9",
+      "name": "討伐クエスト4その2",
+      "area": "コロニー9",
       "requirements": "None",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
@@ -5627,8 +5627,8 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-monster-quest-4-part-3-fc3fd237",
-      "name": "Monster Quest 4 - Part 3",
-      "area": "Colony 9",
+      "name": "討伐クエスト4その3",
+      "area": "コロニー9",
       "requirements": "None",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
@@ -5638,8 +5638,8 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-challenge-1-c25ea720",
-      "name": "Challenge 1",
-      "area": "Colony 9",
+      "name": "強敵を求めて1",
+      "area": "コロニー9",
       "requirements": "None",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
@@ -5649,8 +5649,8 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-challenge-2-68e6e077",
-      "name": "Challenge 2",
-      "area": "Colony 9",
+      "name": "強敵を求めて2",
+      "area": "コロニー9",
       "requirements": "None",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
@@ -5660,8 +5660,8 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-challenge-3-3414296e",
-      "name": "Challenge 3",
-      "area": "Colony 9",
+      "name": "強敵を求めて3",
+      "area": "コロニー9",
       "requirements": "None",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
@@ -5671,9 +5671,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-challenge-4-970afab1",
-      "name": "Challenge 4",
-      "area": "Colony 9",
-      "requirements": "Reyn met at the Weapon Dev. Lab",
+      "name": "強敵を求めて4",
+      "area": "コロニー9",
+      "requirements": "ライン met at the 兵器開発局 研究棟",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -5683,7 +5683,7 @@ const WORLD_DATA = {
     {
       "id": "quest-colony-9-material-quest-1-05fb0f7f",
       "name": "Material Quest 1",
-      "area": "Colony 9",
+      "area": "コロニー9",
       "requirements": "None",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
@@ -5694,7 +5694,7 @@ const WORLD_DATA = {
     {
       "id": "quest-colony-9-material-quest-2-2039aacb",
       "name": "Material Quest 2",
-      "area": "Colony 9",
+      "area": "コロニー9",
       "requirements": "None",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
@@ -5704,8 +5704,8 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-material-quest-3-7d90f769",
-      "name": "Material Quest 3",
-      "area": "Colony 9",
+      "name": "素材クエスト3",
+      "area": "コロニー9",
       "requirements": "None",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
@@ -5715,8 +5715,8 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-material-quest-4-0fbb5951",
-      "name": "Material Quest 4",
-      "area": "Colony 9",
+      "name": "素材クエスト4",
+      "area": "コロニー9",
       "requirements": "None",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
@@ -5727,7 +5727,7 @@ const WORLD_DATA = {
     {
       "id": "quest-colony-9-collection-quest-1-ca37f51c",
       "name": "Collection Quest 1",
-      "area": "Colony 9",
+      "area": "コロニー9",
       "requirements": "None",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
@@ -5738,7 +5738,7 @@ const WORLD_DATA = {
     {
       "id": "quest-colony-9-collection-quest-2-594fbfbc",
       "name": "Collection Quest 2",
-      "area": "Colony 9",
+      "area": "コロニー9",
       "requirements": "None",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
@@ -5748,8 +5748,8 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-collection-quest-3-9f754ffc",
-      "name": "Collection Quest 3",
-      "area": "Colony 9",
+      "name": "収集クエスト3",
+      "area": "コロニー9",
       "requirements": "None",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
@@ -5759,8 +5759,8 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-collection-quest-4-e429e3c0",
-      "name": "Collection Quest 4",
-      "area": "Colony 9",
+      "name": "収集クエスト4",
+      "area": "コロニー9",
       "requirements": "None",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
@@ -5770,8 +5770,8 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-search-quest-1-9f9562a0",
-      "name": "Search Quest 1",
-      "area": "Colony 9",
+      "name": "おさがしクエスト1",
+      "area": "コロニー9",
       "requirements": "None",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
@@ -5781,8 +5781,8 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-search-quest-2-c385b730",
-      "name": "Search Quest 2",
-      "area": "Colony 9",
+      "name": "おさがしクエスト2",
+      "area": "コロニー9",
       "requirements": "None",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
@@ -5792,8 +5792,8 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-search-quest-3-d78f7bfe",
-      "name": "Search Quest 3",
-      "area": "Colony 9",
+      "name": "おさがしクエスト3",
+      "area": "コロニー9",
       "requirements": "None",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
@@ -5803,8 +5803,8 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-search-quest-4-49ffabf9",
-      "name": "Search Quest 4",
-      "area": "Colony 9",
+      "name": "おさがしクエスト4",
+      "area": "コロニー9",
       "requirements": "None",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
@@ -5814,9 +5814,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-a-token-of-friendship-51042185",
-      "name": "A Token of Friendship",
-      "area": "Colony 9",
-      "requirements": "Mechonis Core cleared\r\nShulk in the lead inspecting the area when a prompt appears",
+      "name": "友人思い",
+      "area": "コロニー9",
+      "requirements": "機神界中枢をクリア\nパーティリーダーはシュルク。表示が出たらその場を調べる",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -5825,9 +5825,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-the-gem-man-s-invention-1f9126a2",
-      "name": "The Gem Man's Invention",
-      "area": "Colony 9",
-      "requirements": "Access to Colony 6 Reconstruction",
+      "name": "ジェム爺の発明",
+      "area": "コロニー9",
+      "requirements": "Access to コロニー6 Reconstruction",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -5836,8 +5836,8 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-9-delivering-food-ff6d1a95",
-      "name": "Delivering Food",
-      "area": "Colony 9",
+      "name": "お弁当を届ける",
+      "area": "コロニー9",
       "requirements": "None",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
@@ -5847,9 +5847,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-tephra-cave-missing-in-action-780cfec2",
-      "name": "Missing in Action",
-      "area": "Tephra Cave",
-      "requirements": "After the Mechon attack in Colony 9",
+      "name": "単独行動の兵士",
+      "area": "テフラ洞窟",
+      "requirements": "コロニー9の機神兵襲撃のあと",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -5858,9 +5858,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-tephra-cave-arachno-silk-fundraising-8f3f671d",
-      "name": "Arachno Silk Fundraising",
-      "area": "Tephra Cave",
-      "requirements": "After the Mechon attack in Colony 9\r\nArachno Silk Fundraising",
+      "name": "蜘蛛の繭は金になる？",
+      "area": "テフラ洞窟",
+      "requirements": "コロニー9の機神兵襲撃のあと\n蜘蛛の繭は金になる？",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -5869,9 +5869,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-tephra-cave-a-thank-you-93db0f47",
-      "name": "A Thank You",
-      "area": "Tephra Cave",
-      "requirements": "After the Mechon attack in Colony 9\r\nArachno Silk Fundraising",
+      "name": "これまでのお礼",
+      "area": "テフラ洞窟",
+      "requirements": "コロニー9の機神兵襲撃のあと\n蜘蛛の繭は金になる？",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -5882,9 +5882,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-tephra-cave-clearing-obstructions-68256ada",
-      "name": "Clearing Obstructions",
-      "area": "Tephra Cave",
-      "requirements": "Vilia Lake reached",
+      "name": "進路妨害",
+      "area": "テフラ洞窟",
+      "requirements": "ヴィリア湖に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -5893,9 +5893,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-tephra-cave-the-book-of-bafalgar-7d37bca5",
-      "name": "The Book of Bafalgar",
-      "area": "Tephra Cave",
-      "requirements": "Mechonis Core cleared",
+      "name": "バルファルガの書",
+      "area": "テフラ洞窟",
+      "requirements": "機神界中枢をクリア",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -5904,9 +5904,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-tephra-cave-the-blood-of-bafalgar-5cb0e4ee",
-      "name": "The Blood of Bafalgar",
-      "area": "Tephra Cave",
-      "requirements": "Mechonis Core cleared\nThe Book of Bafalgar",
+      "name": "バルファルガの血",
+      "area": "テフラ洞窟",
+      "requirements": "機神界中枢をクリア\nバルファルガの書",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -5917,9 +5917,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-tephra-cave-the-path-of-bafalgar-2a536900",
-      "name": "The Path of Bafalgar",
-      "area": "Tephra Cave",
-      "requirements": "Mechonis Core cleared\nThe Blood of Bafalgar",
+      "name": "バルファルガの道",
+      "area": "テフラ洞窟",
+      "requirements": "機神界中枢をクリア\nバルファルガの血",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -5930,9 +5930,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-tephra-cave-the-coffin-of-bafalgar-f9784e3f",
-      "name": "The Coffin of Bafalgar",
-      "area": "Tephra Cave",
-      "requirements": "Mechonis Core cleared\nThe Path of Bafalgar",
+      "name": "バルファルガの棺",
+      "area": "テフラ洞窟",
+      "requirements": "機神界中枢をクリア\nバルファルガの道",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -5943,9 +5943,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-tephra-cave-the-gratitude-of-bafalgar-2eb5451e",
-      "name": "The Gratitude of Bafalgar",
-      "area": "Tephra Cave",
-      "requirements": "Mechonis Core cleared\nThe Coffin of Bafalgar",
+      "name": "バルファルガの礼",
+      "area": "テフラ洞窟",
+      "requirements": "機神界中枢をクリア\nバルファルガの棺",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -5957,8 +5957,8 @@ const WORLD_DATA = {
     {
       "id": "quest-tephra-cave-collection-quest-1-632d5906",
       "name": "Collection Quest 1",
-      "area": "Tephra Cave",
-      "requirements": "After the Mechon attack in Colony 9",
+      "area": "テフラ洞窟",
+      "requirements": "コロニー9の機神兵襲撃のあと",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -5968,8 +5968,8 @@ const WORLD_DATA = {
     {
       "id": "quest-tephra-cave-collection-quest-2-0b312bff",
       "name": "Collection Quest 2",
-      "area": "Tephra Cave",
-      "requirements": "After the Mechon attack in Colony 9",
+      "area": "テフラ洞窟",
+      "requirements": "コロニー9の機神兵襲撃のあと",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -5979,8 +5979,8 @@ const WORLD_DATA = {
     {
       "id": "quest-tephra-cave-material-quest-1-01afcb45",
       "name": "Material Quest 1",
-      "area": "Tephra Cave",
-      "requirements": "After the Mechon attack in Colony 9",
+      "area": "テフラ洞窟",
+      "requirements": "コロニー9の機神兵襲撃のあと",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -5990,8 +5990,8 @@ const WORLD_DATA = {
     {
       "id": "quest-tephra-cave-material-quest-2-d6b30bb6",
       "name": "Material Quest 2",
-      "area": "Tephra Cave",
-      "requirements": "After the Mechon attack in Colony 9",
+      "area": "テフラ洞窟",
+      "requirements": "コロニー9の機神兵襲撃のあと",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -6000,9 +6000,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-bionis-leg-emergency-treatment-c86776e7",
-      "name": "Emergency Treatment",
-      "area": "Bionis' Leg",
-      "requirements": "Bionis' Leg area reached\nGorman registered on the Colony 6 area Affinity Chart",
+      "name": "薬の時間",
+      "area": "巨神脚",
+      "requirements": "巨神脚に到達\nゲールマンがコロニー6エリアのキズナグラムに登録済み",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -6011,9 +6011,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-bionis-leg-being-a-good-grandfather-9ef961fb",
-      "name": "Being a Good Grandfather",
-      "area": "Bionis' Leg",
-      "requirements": "Bionis' Leg area reached\r\nNikita registered on the Colony 6 area Affinity Chart",
+      "name": "祖父の心孫知らず",
+      "area": "巨神脚",
+      "requirements": "巨神脚に到達\nニキータがコロニー6エリアのキズナグラムに登録済み",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -6022,9 +6022,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-bionis-leg-a-thoughtful-idea-047b88f8",
-      "name": "A Thoughtful Idea",
-      "area": "Bionis' Leg",
-      "requirements": "Bionis' Leg area reached",
+      "name": "君に贈る物語",
+      "area": "巨神脚",
+      "requirements": "巨神脚に到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -6033,9 +6033,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-bionis-leg-a-dash-of-colour-4f52f280",
-      "name": "A Dash of Colour",
-      "area": "Bionis' Leg",
-      "requirements": "Bionis' Leg area reached\r\nA Thoughtful Idea",
+      "name": "君へ贈る物語",
+      "area": "巨神脚",
+      "requirements": "巨神脚に到達\n君に贈る物語",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -6046,9 +6046,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-bionis-leg-imaginations-tempered-f8dcc7a5",
-      "name": "Imaginations Tempered",
-      "area": "Bionis' Leg",
-      "requirements": "Bionis' Leg area reached\r\nA Dash of Colour",
+      "name": "君が贈る物語",
+      "area": "巨神脚",
+      "requirements": "巨神脚に到達\n君へ贈る物語",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -6061,9 +6061,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-bionis-leg-spirits-raised-166ef63c",
-      "name": "Spirits Raised",
-      "area": "Bionis' Leg",
-      "requirements": "Bionis' Leg area reached\r\nImaginations Tempered accepted",
+      "name": "君の贈る物語",
+      "area": "巨神脚",
+      "requirements": "巨神脚に到達\n君が贈る物語を受注済み",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -6076,9 +6076,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-bionis-leg-thieving-monsters-479bb2e8",
-      "name": "Thieving Monsters",
-      "area": "Bionis' Leg",
-      "requirements": "Bionis' Leg area reached",
+      "name": "泥棒モンスター",
+      "area": "巨神脚",
+      "requirements": "巨神脚に到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -6087,9 +6087,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-bionis-leg-the-greedy-monster-7511fe50",
-      "name": "The Greedy Monster",
-      "area": "Bionis' Leg",
-      "requirements": "Bionis' Leg area reached\r\nBeing a Good Grandfather\r\nColony 6 area ☆1¼",
+      "name": "大食いモンスター",
+      "area": "巨神脚",
+      "requirements": "巨神脚に到達\n祖父の心孫知らず\nコロニー6エリア ☆1¼",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -6100,9 +6100,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-bionis-leg-save-the-girl-10b6a5e4",
-      "name": "Save the Girl!",
-      "area": "Bionis' Leg",
-      "requirements": "Sharla joined the party",
+      "name": "女性を助けろ！",
+      "area": "巨神脚",
+      "requirements": "カルナがパーティに加入",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -6111,9 +6111,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-bionis-leg-earnest-s-fibs-98917f25",
-      "name": "Earnest's Fibs",
-      "area": "Bionis' Leg",
-      "requirements": "Bionis' Leg area reached",
+      "name": "ウソつきオーネスト",
+      "area": "巨神脚",
+      "requirements": "巨神脚に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -6122,9 +6122,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-bionis-leg-earnest-s-mischief-195b7daf",
-      "name": "Earnest's Mischief",
-      "area": "Bionis' Leg",
-      "requirements": "Bionis' Leg area reached\r\nEarnest's Fibs\r\nColony 6 area ☆1¼",
+      "name": "ひとでなしオーネスト",
+      "area": "巨神脚",
+      "requirements": "巨神脚に到達\nウソつきオーネスト\nコロニー6エリア ☆1¼",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -6135,9 +6135,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-bionis-leg-earnest-s-solitude-44cfd7fc",
-      "name": "Earnest's Solitude",
-      "area": "Bionis' Leg",
-      "requirements": "Bionis' Leg area reached\r\nEarnest's Mischief\r\nColony 6 area ☆1½",
+      "name": "こどくのオーネスト",
+      "area": "巨神脚",
+      "requirements": "巨神脚に到達\nひとでなしオーネスト\nコロニー6エリア ☆1½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -6148,9 +6148,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-bionis-leg-the-lost-nopon-8c4e3176",
-      "name": "The Lost Nopon",
-      "area": "Bionis' Leg",
-      "requirements": "Bionis' Leg area reached",
+      "name": "方向音痴迷惑ノポン",
+      "area": "巨神脚",
+      "requirements": "巨神脚に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -6159,9 +6159,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-bionis-leg-with-much-gratitude-07093bc2",
-      "name": "With Much Gratitude",
-      "area": "Bionis' Leg",
-      "requirements": "Bionis' Leg area reached\r\nThe Lost Nopon\r\nColony 6 area ☆1¼",
+      "name": "最上級の感謝",
+      "area": "巨神脚",
+      "requirements": "巨神脚に到達\n方向音痴迷惑ノポン\nコロニー6エリア ☆1¼",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -6173,8 +6173,8 @@ const WORLD_DATA = {
     {
       "id": "quest-bionis-leg-with-even-more-gratitude-895d1dd0",
       "name": "WIth Even More Gratitude",
-      "area": "Bionis' Leg",
-      "requirements": "Bionis' Leg area reached\r\nWith Much Gratitude\r\nColony 6 area ☆1½",
+      "area": "巨神脚",
+      "requirements": "巨神脚に到達\n最上級の感謝\nコロニー6エリア ☆1½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -6185,9 +6185,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-bionis-leg-legend-of-mythical-empress-516757f5",
-      "name": "Legend of Mythical Empress",
-      "area": "Bionis' Leg",
-      "requirements": "Makna Forest reached\nWith Even More Gratitude\nIt Definitely Exist!\nPachipa and Pipiki affinity link green\nColony 6 area ☆3½",
+      "name": "真・伝説のエンプレス",
+      "area": "巨神脚",
+      "requirements": "マクナ原生林に到達\n再・最上級の感謝\nゼッタイいる！\nパチカ and ピケ affinity link green\nコロニー6エリア ☆3½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -6199,9 +6199,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-bionis-leg-a-flower-for-a-rose-41910338",
-      "name": "A Flower for a Rose",
-      "area": "Bionis' Leg",
-      "requirements": "Mechonis Core cleared\r\nSecuring Provisions",
+      "name": "高嶺の花への花",
+      "area": "巨神脚",
+      "requirements": "機神界中枢をクリア\n食糧確保",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -6212,9 +6212,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-bionis-leg-battling-brutes-adab749b",
-      "name": "Battling Brutes",
-      "area": "Bionis' Leg",
-      "requirements": "Mechonis Core cleared\r\nA Flower for a Rose\r\nFiora in the lead",
+      "name": "ぶつかり合うふたつ",
+      "area": "巨神脚",
+      "requirements": "機神界中枢をクリア\n高嶺の花への花\nパーティリーダーはフィオルン",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -6225,9 +6225,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-bionis-leg-supplies-for-satorl-d827c5dd",
-      "name": "Supplies for Satorl",
-      "area": "Bionis' Leg",
-      "requirements": "Mechonis Core cleared\r\nSecuring Provisions",
+      "name": "ザトールへの物資",
+      "area": "巨神脚",
+      "requirements": "機神界中枢をクリア\n食糧確保",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -6238,9 +6238,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-bionis-leg-monster-quest-1-part-1-efd76bed",
-      "name": "Monster Quest 1 - Part 1",
-      "area": "Bionis' Leg",
-      "requirements": "Bionis' Leg area reached",
+      "name": "討伐クエスト1その1",
+      "area": "巨神脚",
+      "requirements": "巨神脚に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -6249,9 +6249,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-bionis-leg-monster-quest-1-part-2-3298bba8",
-      "name": "Monster Quest 1 - Part 2",
-      "area": "Bionis' Leg",
-      "requirements": "Bionis' Leg area reached",
+      "name": "討伐クエスト1その2",
+      "area": "巨神脚",
+      "requirements": "巨神脚に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -6260,9 +6260,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-bionis-leg-monster-quest-1-part-3-0fc37c7f",
-      "name": "Monster Quest 1 - Part 3",
-      "area": "Bionis' Leg",
-      "requirements": "Bionis' Leg area reached",
+      "name": "討伐クエスト1その3",
+      "area": "巨神脚",
+      "requirements": "巨神脚に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -6271,9 +6271,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-bionis-leg-monster-quest-1-part-4-f12cb694",
-      "name": "Monster Quest 1 - Part 4",
-      "area": "Bionis' Leg",
-      "requirements": "Bionis' Leg area reached",
+      "name": "討伐クエスト1その4",
+      "area": "巨神脚",
+      "requirements": "巨神脚に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -6282,9 +6282,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-bionis-leg-monster-quest-2-5f029d15",
-      "name": "Monster Quest 2",
-      "area": "Bionis' Leg",
-      "requirements": "Bionis' Leg area reached",
+      "name": "討伐クエスト 2",
+      "area": "巨神脚",
+      "requirements": "巨神脚に到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -6293,9 +6293,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-bionis-leg-monster-quest-3-part-1-720142e6",
-      "name": "Monster Quest 3 - Part 1",
-      "area": "Bionis' Leg",
-      "requirements": "Bionis' Leg area reached",
+      "name": "討伐クエスト3その1",
+      "area": "巨神脚",
+      "requirements": "巨神脚に到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -6304,9 +6304,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-bionis-leg-monster-quest-3-part-2-35e3059c",
-      "name": "Monster Quest 3 - Part 2",
-      "area": "Bionis' Leg",
-      "requirements": "Bionis' Leg area reached",
+      "name": "討伐クエスト3その2",
+      "area": "巨神脚",
+      "requirements": "巨神脚に到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -6315,9 +6315,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-bionis-leg-challenge-1-part-1-cc0488db",
-      "name": "Challenge 1 - Part 1",
-      "area": "Bionis' Leg",
-      "requirements": "Bionis' Leg area reached",
+      "name": "強敵を求めて1その1",
+      "area": "巨神脚",
+      "requirements": "巨神脚に到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -6326,9 +6326,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-bionis-leg-challenge-1-part-2-46f42b16",
-      "name": "Challenge 1 - Part 2",
-      "area": "Bionis' Leg",
-      "requirements": "Bionis' Leg area reached",
+      "name": "強敵を求めて1その2",
+      "area": "巨神脚",
+      "requirements": "巨神脚に到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -6337,9 +6337,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-bionis-leg-challenge-2-part-1-4c3375a6",
-      "name": "Challenge 2 - Part 1",
-      "area": "Bionis' Leg",
-      "requirements": "Bionis' Leg area reached",
+      "name": "強敵を求めて2その1",
+      "area": "巨神脚",
+      "requirements": "巨神脚に到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -6348,9 +6348,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-bionis-leg-challenge-2-part-2-63a30fec",
-      "name": "Challenge 2 - Part 2",
-      "area": "Bionis' Leg",
-      "requirements": "Bionis' Leg area reached",
+      "name": "強敵を求めて2その2",
+      "area": "巨神脚",
+      "requirements": "巨神脚に到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -6360,8 +6360,8 @@ const WORLD_DATA = {
     {
       "id": "quest-bionis-leg-material-quest-1-e12496c0",
       "name": "Material Quest 1",
-      "area": "Bionis' Leg",
-      "requirements": "Bionis' Leg area reached",
+      "area": "巨神脚",
+      "requirements": "巨神脚に到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -6371,8 +6371,8 @@ const WORLD_DATA = {
     {
       "id": "quest-bionis-leg-material-quest-2-f6f0759b",
       "name": "Material Quest 2",
-      "area": "Bionis' Leg",
-      "requirements": "Bionis' Leg area reached",
+      "area": "巨神脚",
+      "requirements": "巨神脚に到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -6381,9 +6381,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-bionis-leg-material-quest-3-883c8e81",
-      "name": "Material Quest 3",
-      "area": "Bionis' Leg",
-      "requirements": "Bionis' Leg area reached",
+      "name": "素材クエスト3",
+      "area": "巨神脚",
+      "requirements": "巨神脚に到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -6392,9 +6392,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-bionis-leg-material-quest-4-c2eeb333",
-      "name": "Material Quest 4",
-      "area": "Bionis' Leg",
-      "requirements": "Bionis' Leg area reached",
+      "name": "素材クエスト4",
+      "area": "巨神脚",
+      "requirements": "巨神脚に到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -6404,8 +6404,8 @@ const WORLD_DATA = {
     {
       "id": "quest-bionis-leg-collection-quest-1-b069e9eb",
       "name": "Collection Quest 1",
-      "area": "Bionis' Leg",
-      "requirements": "Bionis' Leg area reached",
+      "area": "巨神脚",
+      "requirements": "巨神脚に到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -6415,8 +6415,8 @@ const WORLD_DATA = {
     {
       "id": "quest-bionis-leg-collection-quest-2-b9c21a0f",
       "name": "Collection Quest 2",
-      "area": "Bionis' Leg",
-      "requirements": "Bionis' Leg area reached",
+      "area": "巨神脚",
+      "requirements": "巨神脚に到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -6425,9 +6425,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-bionis-leg-search-quest-1-a3fd7be5",
-      "name": "Search Quest 1",
-      "area": "Bionis' Leg",
-      "requirements": "Bionis' Leg area reached",
+      "name": "おさがしクエスト1",
+      "area": "巨神脚",
+      "requirements": "巨神脚に到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -6436,9 +6436,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-bionis-leg-search-quest-2-16812a0a",
-      "name": "Search Quest 2",
-      "area": "Bionis' Leg",
-      "requirements": "Bionis' Leg area reached",
+      "name": "おさがしクエスト2",
+      "area": "巨神脚",
+      "requirements": "巨神脚に到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -6447,9 +6447,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-the-road-home-43a85355",
-      "name": "The Road Home",
-      "area": "Colony 6",
-      "requirements": "Sororal Statues in Satorl Marsh reached",
+      "name": "懐かしの我が街へ",
+      "area": "コロニー6",
+      "requirements": "岩窟の姉妹像 in 燐光の地ザトール reached",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -6460,9 +6460,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-to-colony-6-d46af1a9",
-      "name": "To Colony 6!",
-      "area": "Colony 6",
-      "requirements": "After Otharon has left for Alcamoth\r\nThe Road Home not completed",
+      "name": "いざ、コロニー6へ",
+      "area": "コロニー6",
+      "requirements": "After オダマ has left for 皇都アカモート\n懐かしの我が街へは未達成",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -6473,9 +6473,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-cook-off-counter-attack-d7f535df",
-      "name": "Cook-Off Counter Attack!",
-      "area": "Colony 6",
-      "requirements": "Hoko and Talonyth invited to Colony 6",
+      "name": "料理対決・反撃！",
+      "area": "コロニー6",
+      "requirements": "ホコとタテドナスがコロニー6に招待された",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -6486,9 +6486,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-cook-off-comeback-ebbd64de",
-      "name": "Cook-Off Comeback?",
-      "area": "Colony 6",
-      "requirements": "Eryth Sea reached\r\nCook-Off Counter Attack!\r\nPokapoka and Ma'crish invited to Colony 6\r\nColony 6 area ☆1½",
+      "name": "料理対決・逆転？",
+      "area": "コロニー6",
+      "requirements": "エルト海に到達\n料理対決・反撃！\nポカポカとミュキシリアがコロニー6に招待された\nコロニー6エリア ☆1½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -6501,9 +6501,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-cook-off-final-blow-2fed8c3a",
-      "name": "Cook-Off Final Blow?!",
-      "area": "Colony 6",
-      "requirements": "Eryth Sea reached\r\nCook-Off Comeback?\r\nColony 6 area ☆2",
+      "name": "料理対決・再逆転？",
+      "area": "コロニー6",
+      "requirements": "エルト海に到達\n料理対決・逆転？\nコロニー6エリア ☆2",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -6516,9 +6516,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-cook-off-showdown-2644f7b8",
-      "name": "Cook-Off Showdown!",
-      "area": "Colony 6",
-      "requirements": "Access to Valak Mountain\r\nMissing Lodger\r\nCook-Off Final Blow?!\r\nColony 6 area ☆2½\r\nReyn in the lead",
+      "name": "料理対決・決着！",
+      "area": "コロニー6",
+      "requirements": "ヴァラク雪山へ入れる\n行方不明の同居人\n料理対決・再逆転？\nコロニー6エリア ☆2½\nパーティリーダーはライン",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -6530,9 +6530,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-a-delectable-delicacy-10788c5b",
-      "name": "A Delectable Delicacy",
-      "area": "Colony 6",
-      "requirements": "Eryth Sea reached\r\nPokapoka invited to Colony 6\r\nCook-Off Comeback?\r\nColony 6 area ☆2",
+      "name": "珍味を求めて",
+      "area": "コロニー6",
+      "requirements": "エルト海に到達\nポカポカがコロニー6に招待された\n料理対決・逆転？\nコロニー6エリア ☆2",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -6543,9 +6543,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-a-tantalising-treat-d8f30b24",
-      "name": "A Tantalising Treat",
-      "area": "Colony 6",
-      "requirements": "Cook-Off Final Blow?!\r\nA Delectable Delicacy\r\naccess to Valak Mountain\r\nColony 6 area ☆2½",
+      "name": "続・珍味を求めて",
+      "area": "コロニー6",
+      "requirements": "料理対決・再逆転？\n珍味を求めて\nヴァラク雪山へ入れる\nコロニー6エリア ☆2½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -6557,9 +6557,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-missing-lodger-1cc378a0",
-      "name": "Missing Lodger",
-      "area": "Colony 6",
-      "requirements": "Eryth Sea reached\r\nMa'crish invited to Colony 6\r\nHousing and Special at level 2",
+      "name": "行方不明の同居人",
+      "area": "コロニー6",
+      "requirements": "エルト海に到達\nミュキシリアがコロニー6に招待された\nHousing and Special at level 2",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -6568,9 +6568,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-looking-for-freedom-59d82962",
-      "name": "Looking for Freedom",
-      "area": "Colony 6",
-      "requirements": "Eryth Sea reached\r\nMissing Lodger\r\nColony 6 area ☆2",
+      "name": "自由を求めて",
+      "area": "コロニー6",
+      "requirements": "エルト海に到達\n行方不明の同居人\nコロニー6エリア ☆2",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -6581,9 +6581,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-cursed-berryjammy-f9c86edc",
-      "name": "Cursed Berryjammy",
-      "area": "Colony 6",
-      "requirements": "Access to Valak Mountain\r\nMefimefi and Berryjammy have been invited to Colony 6",
+      "name": "呪われたストロジャム",
+      "area": "コロニー6",
+      "requirements": "ヴァラク雪山へ入れる\nメフィメフィ and ストロジャム have been invited to コロニー6",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -6594,9 +6594,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-weak-berryjammy-bf34044f",
-      "name": "Weak Berryjammy",
-      "area": "Colony 6",
-      "requirements": "Access to Valak Mountain\r\nPerrine invited to Colony 6\r\nBerryjammy invited to Colony 6",
+      "name": "病弱なストロジャム",
+      "area": "コロニー6",
+      "requirements": "ヴァラク雪山へ入れる\nパイラルがコロニー6に招待された\nストロジャムがコロニー6に招待された",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -6609,9 +6609,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-obstinate-berryjammy-cecc54f5",
-      "name": "Obstinate Berryjammy",
-      "area": "Colony 6",
-      "requirements": "Access to Valak Mountain\r\nWeak Berryjammy or Cursed Berryjammy\r\nColony 6 area ☆2",
+      "name": "意地っ張りストロジャム",
+      "area": "コロニー6",
+      "requirements": "ヴァラク雪山へ入れる\n病弱なストロジャム or 呪われたストロジャム\nコロニー6エリア ☆2",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -6624,9 +6624,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-unstoppable-berryjammy-790ce0cc",
-      "name": "Unstoppable Berryjammy",
-      "area": "Colony 6",
-      "requirements": "Access to Valak Mountain\r\nObstinate Berryjammy\r\nChemist's Reopening\r\nColony 6 area ☆3",
+      "name": "止まらないストロジャム",
+      "area": "コロニー6",
+      "requirements": "ヴァラク雪山へ入れる\n意地っ張りストロジャム\n薬屋業再開\nコロニー6エリア ☆3",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -6639,8 +6639,8 @@ const WORLD_DATA = {
     {
       "id": "quest-colony-6-miss-sweetness-showdown-berryjammy-058f80d0",
       "name": "Miss Sweetness Showdown (Berryjammy)",
-      "area": "Colony 6",
-      "requirements": "Access to Valak Mountain\r\nAffinity between Ma'crish and Berryjammy says \"Competing\" (red)\r\nUnstoppable Berryjammy completed\r\nCook-Off Showdown!\r\nColony 6 area ☆3½",
+      "area": "コロニー6",
+      "requirements": "ヴァラク雪山へ入れる\nミュキシリアとストロジャムのキズナは「Competing」（赤）\n止まらないストロジャムを達成済み\n料理対決・決着！\nコロニー6エリア ☆3½",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -6655,8 +6655,8 @@ const WORLD_DATA = {
     {
       "id": "quest-colony-6-miss-sweetness-showdown-ma-crish-91417867",
       "name": "Miss Sweetness Showdown (Ma'crish)",
-      "area": "Colony 6",
-      "requirements": "Access to Valak Mountain\r\nAffinity between Ma'crish and Berryjammy says \"Competing\" (red)\r\nUnstoppable Berryjammy completed\r\nCook-Off Showdown!\r\nColony 6 area ☆3½",
+      "area": "コロニー6",
+      "requirements": "ヴァラク雪山へ入れる\nミュキシリアとストロジャムのキズナは「Competing」（赤）\n止まらないストロジャムを達成済み\n料理対決・決着！\nコロニー6エリア ☆3½",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -6670,9 +6670,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-the-most-transparent-thing-8d36938d",
-      "name": "The Most Transparent Thing",
-      "area": "Colony 6",
-      "requirements": "Access to Valak Mountain\r\nMiss Sweetness Showdown with Berryjammy or Miss Sweetness Showdown with Ma'crish quest accepted",
+      "name": "世界で一番透明なもの",
+      "area": "コロニー6",
+      "requirements": "ヴァラク雪山へ入れる\nコロニー6のお嬢様 Showdown with ストロジャム or コロニー6のお嬢様 Showdown with ミュキシリア quest accepted",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -6681,9 +6681,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-miss-sweetness-gratitude-berryjammy-150bef51",
-      "name": "Miss Sweetness' Gratitude (Berryjammy)",
-      "area": "Colony 6",
-      "requirements": "Access to Valak Mountain\r\nMiss Sweetness Showdown\r\nColony 6 area ☆4",
+      "name": "お嬢様の恩返し (ストロジャム)",
+      "area": "コロニー6",
+      "requirements": "ヴァラク雪山へ入れる\nコロニー6のお嬢様 Showdown\nコロニー6エリア ☆4",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -6694,9 +6694,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-miss-sweetness-gratitude-ma-crish-a716ddce",
-      "name": "Miss Sweetness' Gratitude (Ma'crish)",
-      "area": "Colony 6",
-      "requirements": "Access to Valak Mountain\r\nMiss Sweetness Showdown\r\nColony 6 area ☆4",
+      "name": "お嬢様の恩返し (ミュキシリア)",
+      "area": "コロニー6",
+      "requirements": "ヴァラク雪山へ入れる\nコロニー6のお嬢様 Showdown\nコロニー6エリア ☆4",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -6707,9 +6707,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-a-final-sweet-favour-048942ec",
-      "name": "A Final Sweet Favour",
-      "area": "Colony 6",
-      "requirements": "Access to Valak Mountain\r\nMiss Sweetness' Gratitude with Berryjammy or Miss Sweetness' Gratitude with Ma'crish quest accepted",
+      "name": "お嬢様のワガママ",
+      "area": "コロニー6",
+      "requirements": "ヴァラク雪山へ入れる\nお嬢様の恩返し with ストロジャム or お嬢様の恩返し with ミュキシリア quest accepted",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -6718,9 +6718,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-in-pursuit-of-love-3558d618",
-      "name": "In Pursuit of Love",
-      "area": "Colony 6",
-      "requirements": "Miqol met in the Hidden Machina Village\r\nRosemary invited to Colony 6\r\nColony 6 area ☆1½",
+      "name": "恋人探し",
+      "area": "コロニー6",
+      "requirements": "ミゴールとマシーナの隠れ里で出会った\nローズウェストがコロニー6に招待された\nコロニー6エリア ☆1½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -6732,9 +6732,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-the-melody-of-happiness-2c8efc23",
-      "name": "The Melody of Happiness",
-      "area": "Colony 6",
-      "requirements": "Central Factory reached\r\nIn Pursuit of Love\r\nColony 6 area ☆2½",
+      "name": "興奮の中年",
+      "area": "コロニー6",
+      "requirements": "中央工廠に到達\n恋人探し\nコロニー6エリア ☆2½",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -6747,9 +6747,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-dream-of-a-poet-18b0ab33",
-      "name": "Dream of a Poet",
-      "area": "Colony 6",
-      "requirements": "Central Factory reached\r\nIn Pursuit of Love\r\nColony 6 area ☆2½",
+      "name": "夢中の詩人",
+      "area": "コロニー6",
+      "requirements": "中央工廠に到達\n恋人探し\nコロニー6エリア ☆2½",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -6762,9 +6762,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-family-secrets-zel-argentis-7b51e99a",
-      "name": "Family Secrets (Zel Argentis)",
-      "area": "Colony 6",
-      "requirements": "Mechonis Core cleared\r\nOleksiy invited to Colony 6\r\nColony 6 area ☆3½",
+      "name": "父に隠れて (ゼル・シルバー)",
+      "area": "コロニー6",
+      "requirements": "機神界中枢をクリア\nオルクホングがコロニー6に招待された\nコロニー6エリア ☆3½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -6773,9 +6773,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-family-secrets-en-argentis-4268080f",
-      "name": "Family Secrets (En Argentis)",
-      "area": "Colony 6",
-      "requirements": "Peppino invited to Colony 6\r\nColony 6 area ☆3½",
+      "name": "父に隠れて (エン・シルバー)",
+      "area": "コロニー6",
+      "requirements": "パピィがコロニー6に招待された\nコロニー6エリア ☆3½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -6784,9 +6784,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-betrothal-test-zel-argentis-3fbc2130",
-      "name": "Betrothal Test (Zel Argentis)",
-      "area": "Colony 6",
-      "requirements": "Mechonis Core cleared\r\nFamily Secrets involving Zel Argentis completed\r\nColony 6 area ☆4",
+      "name": "婚約の試練 (ゼル・シルバー)",
+      "area": "コロニー6",
+      "requirements": "機神界中枢をクリア\n父に隠れて（ゼル・シルバーが関わる）を達成済み\nコロニー6エリア ☆4",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -6795,9 +6795,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-betrothal-test-en-argentis-184f7886",
-      "name": "Betrothal Test (En Argentis)",
-      "area": "Colony 6",
-      "requirements": "Family Secrets involving En Argentis completed\r\nColony 6 area ☆4",
+      "name": "婚約の試練 (エン・シルバー)",
+      "area": "コロニー6",
+      "requirements": "父に隠れて（エン・シルバーが関わる）を達成済み\nコロニー6エリア ☆4",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -6806,9 +6806,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-stopping-the-elopement-zel-argentis-ed304437",
-      "name": "Stopping the Elopement (Zel Argentis)",
-      "area": "Colony 6",
-      "requirements": "Mechonis Core cleared\r\nBetrothal Test involving Zel Argentis completed\r\nColony 6 area ☆4½",
+      "name": "逃避行の阻止 (ゼル・シルバー)",
+      "area": "コロニー6",
+      "requirements": "機神界中枢をクリア\n婚約の試練（ゼル・シルバーが関わる）を達成済み\nコロニー6エリア ☆4½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -6817,9 +6817,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-stopping-the-elopement-en-argentis-79415ed3",
-      "name": "Stopping the Elopement (En Argentis)",
-      "area": "Colony 6",
-      "requirements": "Betrothal Test involving En Argentis completed\r\nColony 6 area ☆4½",
+      "name": "逃避行の阻止 (エン・シルバー)",
+      "area": "コロニー6",
+      "requirements": "婚約の試練（エン・シルバーが関わる）を達成済み\nコロニー6エリア ☆4½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -6828,9 +6828,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-a-butler-s-concerns-cb513ea0",
-      "name": "A Butler's Concerns",
-      "area": "Colony 6",
-      "requirements": "Central Factory reached\r\nGowago and Yura invited to Colony 6",
+      "name": "執事の悩み",
+      "area": "コロニー6",
+      "requirements": "中央工廠に到達\nゴワゴワーとユーリィがコロニー6に招待された",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -6839,9 +6839,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-a-maid-s-concerns-b6bb3445",
-      "name": "A Maid's Concerns",
-      "area": "Colony 6",
-      "requirements": "Central Factory reached\r\nMinana and Yura invited to Colony 6",
+      "name": "使用人の悩み",
+      "area": "コロニー6",
+      "requirements": "中央工廠に到達\nミンカとユーリィがコロニー6に招待された",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -6850,9 +6850,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-lifespan-of-a-machina-09aa34f4",
-      "name": "Lifespan of a Machina",
-      "area": "Colony 6",
-      "requirements": "Mechonis Core cleared\r\nNeonik invited to Colony 6\r\nColony 6 area ☆2½",
+      "name": "老人マシーナの寿命",
+      "area": "コロニー6",
+      "requirements": "機神界中枢をクリア\nナオナミがコロニー6に招待された\nコロニー6エリア ☆2½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -6861,9 +6861,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-a-poet-s-concerns-921160ad",
-      "name": "A Poet's Concerns",
-      "area": "Colony 6",
-      "requirements": "Mechonis Core cleared\r\nLifespan of a Machina\r\nColony 6 area ☆3½",
+      "name": "詩人の悩み",
+      "area": "コロニー6",
+      "requirements": "機神界中枢をクリア\n老人マシーナの寿命\nコロニー6エリア ☆3½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -6874,9 +6874,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-delivering-the-undeliverable-2f715acd",
-      "name": "Delivering the Undeliverable",
-      "area": "Colony 6",
-      "requirements": "Mechonis Core cleared\r\nBerryjammy invited to Colony 6\r\nColony 6 area ☆2",
+      "name": "困った何でも屋",
+      "area": "コロニー6",
+      "requirements": "機神界中枢をクリア\nストロジャムがコロニー6に招待された\nコロニー6エリア ☆2",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -6885,9 +6885,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-finding-the-unfindable-06180801",
-      "name": "Finding the Unfindable",
-      "area": "Colony 6",
-      "requirements": "Mechonis Core cleared\r\nDelivering the Undeliverable\r\nColony 6 area ☆2½",
+      "name": "困り果てた何でも屋",
+      "area": "コロニー6",
+      "requirements": "機神界中枢をクリア\n困った何でも屋\nコロニー6エリア ☆2½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -6898,9 +6898,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-odd-smoke-investigation-6258b1ec",
-      "name": "Odd Smoke - Investigation",
-      "area": "Colony 6",
-      "requirements": "Miqol met in the Hidden Machina Village\r\nJer'ell invited to Colony 6",
+      "name": "怪しい煙・調査編",
+      "area": "コロニー6",
+      "requirements": "ミゴールとマシーナの隠れ里で出会った\nジェリコンがコロニー6に招待された",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -6909,9 +6909,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-odd-smoke-resolution-7936d29a",
-      "name": "Odd Smoke - Resolution",
-      "area": "Colony 6",
-      "requirements": "Miqol met in the Hidden Machina Village\r\nOdd Smoke - Investigation\r\nPerrine or Mefimefi invited to Colony 6\r\nColony 6 area ☆2",
+      "name": "怪しい煙・解決編",
+      "area": "コロニー6",
+      "requirements": "ミゴールとマシーナの隠れ里で出会った\n怪しい煙・調査編\nパイラル or メフィメフィ invited to コロニー6\nコロニー6エリア ☆2",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -6922,9 +6922,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-homs-determination-ed9307cf",
-      "name": "Homs Determination",
-      "area": "Colony 6",
-      "requirements": "Mechonis Core cleared\r\nOdd Smoke - Resolution\r\nColony 6 area ☆3",
+      "name": "ホムスの意地",
+      "area": "コロニー6",
+      "requirements": "機神界中枢をクリア\n怪しい煙・解決編\nコロニー6エリア ☆3",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -6935,9 +6935,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-nopon-determination-7b2342da",
-      "name": "Nopon Determination",
-      "area": "Colony 6",
-      "requirements": "Miqol met in the Hidden Machina Village\r\nOdd Smoke - Resolution\r\nColony 6 area ☆3",
+      "name": "ノポンの意地",
+      "area": "コロニー6",
+      "requirements": "ミゴールとマシーナの隠れ里で出会った\n怪しい煙・解決編\nコロニー6エリア ☆3",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -6948,9 +6948,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-a-gutsy-trader-105be93d",
-      "name": "A Gutsy Trader",
-      "area": "Colony 6",
-      "requirements": "Makna Forest reached\r\nWerner invited to Colony 6\r\nCommerce Lv2\r\nNature Lv2.",
+      "name": "商売人根性",
+      "area": "コロニー6",
+      "requirements": "マクナ原生林に到達\nヴェルナーがコロニー6に招待された\nCommerce Lv2\nNature Lv2.",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -6959,9 +6959,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-a-dauntless-trader-6792b74a",
-      "name": "A Dauntless Trader",
-      "area": "Colony 6",
-      "requirements": "Mechonis Core cleared\r\nA Gutsy Trader\r\nNopo'rikh registered\r\nColony 6 area ☆3½",
+      "name": "商売人ド根性",
+      "area": "コロニー6",
+      "requirements": "機神界中枢をクリア\n商売人根性\nノポリックが登録済み\nコロニー6エリア ☆3½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -6972,9 +6972,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-nic-s-training-30b7f956",
-      "name": "Nic's Training",
-      "area": "Colony 6",
-      "requirements": "Central Factory reached\r\nNic invited to Colony 6\r\nLooking for Freedom.",
+      "name": "ヌーク・半人前計画",
+      "area": "コロニー6",
+      "requirements": "中央工廠に到達\nヌークがコロニー6に招待された\n自由を求めて.",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -6983,9 +6983,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-nic-s-final-test-36762c6f",
-      "name": "Nic's Final Test",
-      "area": "Colony 6",
-      "requirements": "Central Factory reached\r\nNic's Training\r\nColony 6 area ☆4",
+      "name": "ヌーク・一人前計画",
+      "area": "コロニー6",
+      "requirements": "中央工廠に到達\nヌーク・半人前計画\nコロニー6エリア ☆4",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -6996,9 +6996,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-what-is-love-7158159e",
-      "name": "What is Love?!",
-      "area": "Colony 6",
-      "requirements": "Colony 6 Reconstruction started\r\nImaginations Tempered not completed\r\nMatryona registered in the Colony 6 area Affinity Chart",
+      "name": "恋愛を教えてやる！",
+      "area": "コロニー6",
+      "requirements": "コロニー6の再建が始まっている\n君が贈る物語は未達成\nマトリョーナがコロニー6エリアのキズナグラムに登録済み",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -7009,9 +7009,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-what-is-courage-625cad86",
-      "name": "What is Courage?!",
-      "area": "Colony 6",
-      "requirements": "Colony 6 Reconstruction started\r\nWhat is Love?!\r\nColony 6 area ☆1¼",
+      "name": "勇気を教えてやる！",
+      "area": "コロニー6",
+      "requirements": "コロニー6の再建が始まっている\n恋愛を教えてやる！\nコロニー6エリア ☆1¼",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -7022,9 +7022,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-matryona-s-answer-4b22e1a0",
-      "name": "Matryona's Answer",
-      "area": "Colony 6",
-      "requirements": "Colony 6 Reconstruction started\r\nWhat is Courage?!\r\nColony 6 area ☆2",
+      "name": "マトリョーナの返答",
+      "area": "コロニー6",
+      "requirements": "コロニー6の再建が始まっている\n勇気を教えてやる！\nコロニー6エリア ☆2",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -7035,9 +7035,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-a-selfish-girl-s-mistake-dce1b813",
-      "name": "A Selfish Girl's Mistake",
-      "area": "Colony 6",
-      "requirements": "Colony 6 Reconstruction started\r\nColony 6 area ☆1½",
+      "name": "わがまま娘ゆえの過ち",
+      "area": "コロニー6",
+      "requirements": "コロニー6の再建が始まっている\nコロニー6エリア ☆1½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -7046,9 +7046,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-chemist-s-reopening-dab0f646",
-      "name": "Chemist's Reopening",
-      "area": "Colony 6",
-      "requirements": "Colony 6 (Reconstruction HQ)\r\n18:00 - 03:00",
+      "name": "薬屋業再開",
+      "area": "コロニー6",
+      "requirements": "コロニー6 (コロニー6 復興本部)\r\n18:00 - 03:00",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -7057,9 +7057,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-satata-s-younger-brother-3ae727eb",
-      "name": "Satata's Younger Brother",
-      "area": "Colony 6",
-      "requirements": "Colony 6 Reconstruction started",
+      "name": "タツの弟",
+      "area": "コロニー6",
+      "requirements": "コロニー6の再建が始まっている",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -7068,9 +7068,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-rest-in-peace-91907f78",
-      "name": "Rest in Peace",
-      "area": "Colony 6",
-      "requirements": "Colony 6 Reconstruction started\r\nSatata's Younger Brother\r\nColony 6 area ☆1½",
+      "name": "安らかに眠れ",
+      "area": "コロニー6",
+      "requirements": "コロニー6の再建が始まっている\nタツの弟\nコロニー6エリア ☆1½",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -7081,9 +7081,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-for-the-restoration-d8293354",
-      "name": "For the Restoration",
-      "area": "Colony 6",
-      "requirements": "Colony 6 Reconstruction started",
+      "name": "安全な復興のために",
+      "area": "コロニー6",
+      "requirements": "コロニー6の再建が始まっている",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -7092,9 +7092,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-making-a-new-path-046fa2a2",
-      "name": "Making a New Path",
-      "area": "Colony 6",
-      "requirements": "Colony 6 Reconstruction started\r\nFor the Restoration accepted",
+      "name": "迂回ルートを作れ",
+      "area": "コロニー6",
+      "requirements": "コロニー6の再建が始まっている\n安全な復興のためにを受注済み",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -7105,9 +7105,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-securing-provisions-fd07b5ad",
-      "name": "Securing Provisions",
-      "area": "Colony 6",
-      "requirements": "Mechonis Core cleared",
+      "name": "食糧確保",
+      "area": "コロニー6",
+      "requirements": "機神界中枢をクリア",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -7116,9 +7116,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-proof-of-status-3cfe2284",
-      "name": "Proof of Status",
-      "area": "Colony 6",
-      "requirements": "Colony 6 area reached",
+      "name": "ノポン商会の証",
+      "area": "コロニー6",
+      "requirements": "コロニー6に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -7127,9 +7127,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-safety-first-338ec3cf",
-      "name": "Safety First",
-      "area": "Colony 6",
-      "requirements": "Colony 6 area reached\r\nProof of Status",
+      "name": "安全の確保",
+      "area": "コロニー6",
+      "requirements": "コロニー6に到達\nノポン商会の証",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -7140,9 +7140,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-secret-mission-55008d00",
-      "name": "Secret Mission",
-      "area": "Colony 6",
-      "requirements": "Colony 6 area reached\r\nSafety First",
+      "name": "極秘の任務",
+      "area": "コロニー6",
+      "requirements": "コロニー6に到達\n安全の確保",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -7153,9 +7153,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-replica-monado-1-e5e0c114",
-      "name": "Replica Monado 1",
-      "area": "Colony 6",
-      "requirements": "Arrived at the Interior Landing Site (Bionis' Interior)\nReplica Monado 1 accepted",
+      "name": "モナドレプリカ1",
+      "area": "コロニー6",
+      "requirements": "胎内停泊所（巨神胎内）に到着\nモナドレプリカ1を受注済み",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -7164,9 +7164,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-replica-monado-2-3e9a357b",
-      "name": "Replica Monado 2",
-      "area": "Colony 6",
-      "requirements": "Arrived at the Interior Landing Site (Bionis' Interior)\nReplica Monado 1 accepted",
+      "name": "モナドレプリカ2",
+      "area": "コロニー6",
+      "requirements": "胎内停泊所（巨神胎内）に到着\nモナドレプリカ1を受注済み",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -7177,9 +7177,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-replica-monado-3-f7b5ae68",
-      "name": "Replica Monado 3",
-      "area": "Colony 6",
-      "requirements": "Arrived at the Interior Landing Site (Bionis' Interior)\nReplica Monado 1 accepted",
+      "name": "モナドレプリカ3",
+      "area": "コロニー6",
+      "requirements": "胎内停泊所（巨神胎内）に到着\nモナドレプリカ1を受注済み",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -7190,9 +7190,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-replica-monado-4-4e108091",
-      "name": "Replica Monado 4",
-      "area": "Colony 6",
-      "requirements": "Arrived at the Interior Landing Site (Bionis' Interior)\nReplica Monado 1 accepted",
+      "name": "モナドレプリカ4",
+      "area": "コロニー6",
+      "requirements": "胎内停泊所（巨神胎内）に到着\nモナドレプリカ1を受注済み",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -7203,9 +7203,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-replica-monado-5-b5d22848",
-      "name": "Replica Monado 5",
-      "area": "Colony 6",
-      "requirements": "Arrived at the Interior Landing Site (Bionis' Interior)\nReplica Monado 1 accepted",
+      "name": "モナドレプリカ5",
+      "area": "コロニー6",
+      "requirements": "胎内停泊所（巨神胎内）に到着\nモナドレプリカ1を受注済み",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -7216,9 +7216,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-melancholy-tyrea-6bf5fc18",
-      "name": "Melancholy Tyrea",
-      "area": "Colony 6",
-      "requirements": "Mechonis Core cleared",
+      "name": "憂愁のタルコ",
+      "area": "コロニー6",
+      "requirements": "機神界中枢をクリア",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -7227,9 +7227,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-defend-colony-6-mechon-d6a1151e",
-      "name": "Defend Colony 6 - Mechon",
-      "area": "Colony 6",
-      "requirements": "Makna Forest reached\r\nColony 6 Reconstruction 15%",
+      "name": "コロニー6を守れ・機",
+      "area": "コロニー6",
+      "requirements": "マクナ原生林に到達\nコロニー6 Reconstruction 15%",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -7238,9 +7238,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-defend-colony-6-reptile-8bf5033f",
-      "name": "Defend Colony 6 - Reptile",
-      "area": "Colony 6",
-      "requirements": "Eryth Sea reached\r\nDefend Colony 6 - Mechon\r\nreconstruction at 35%",
+      "name": "コロニー6を守れ・火",
+      "area": "コロニー6",
+      "requirements": "エルト海に到達\nコロニー6を守れ・機\n再建 35%",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -7251,9 +7251,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-defend-colony-6-elite-08a1af13",
-      "name": "Defend Colony 6 - Elite",
-      "area": "Colony 6",
-      "requirements": "Miqol met in the Hidden Machina Village\r\nDefend Colony 6 - Reptile\r\nreconstruction at 55%",
+      "name": "コロニー6を守れ・超",
+      "area": "コロニー6",
+      "requirements": "ミゴールとマシーナの隠れ里で出会った\nコロニー6を守れ・火\n再建 55%",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -7264,9 +7264,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-defend-colony-6-ancient-badfebc6",
-      "name": "Defend Colony 6 - Ancient",
-      "area": "Colony 6",
-      "requirements": "Mechonis Core cleared\r\nDefend Colony 6 - Elite\r\nreconstruction at 65%",
+      "name": "コロニー6を守れ・鳥",
+      "area": "コロニー6",
+      "requirements": "機神界中枢をクリア\nコロニー6を守れ・超\n再建 65%",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -7277,9 +7277,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-colony-6-defend-colony-6-demon-efce2fdd",
-      "name": "Defend Colony 6 - Demon",
-      "area": "Colony 6",
-      "requirements": "Mechonis Core cleared\r\nDefend Colony 6 - Ancient\r\nreconstruction at 95%",
+      "name": "コロニー6を守れ・魔",
+      "area": "コロニー6",
+      "requirements": "機神界中枢をクリア\nコロニー6を守れ・鳥\n再建 95%",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -7290,9 +7290,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-satorl-marsh-preventing-starvation-0354bc6e",
-      "name": "Preventing Starvation",
-      "area": "Satorl Marsh",
-      "requirements": "Satorl Marsh area reached",
+      "name": "ガシをソシ",
+      "area": "燐光の地ザトール",
+      "requirements": "燐光の地ザトールに到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -7301,9 +7301,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-satorl-marsh-zazadan-in-danger-b897de90",
-      "name": "Zazadan in Danger",
-      "area": "Satorl Marsh",
-      "requirements": "Satorl Marsh area reached\r\nPreventing Starvation",
+      "name": "まだまだブッソウ",
+      "area": "燐光の地ザトール",
+      "requirements": "燐光の地ザトールに到達\nガシをソシ",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -7314,9 +7314,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-satorl-marsh-zazadan-still-in-danger-14950435",
-      "name": "Zazadan Still in Danger",
-      "area": "Satorl Marsh",
-      "requirements": "Satorl Marsh area reached\r\nZazadan in Danger",
+      "name": "まだブッソウ",
+      "area": "燐光の地ザトール",
+      "requirements": "燐光の地ザトールに到達\nまだまだブッソウ",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -7327,9 +7327,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-satorl-marsh-it-s-all-in-the-mind-ad0a4211",
-      "name": "It's All in the Mind",
-      "area": "Satorl Marsh",
-      "requirements": "Satorl Marsh area reached\r\nZazadan Still in Danger",
+      "name": "ヤマイはキから",
+      "area": "燐光の地ザトール",
+      "requirements": "燐光の地ザトールに到達\nまだブッソウ",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -7340,9 +7340,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-satorl-marsh-a-mysterious-delicacy-dc8f2b4d",
-      "name": "A Mysterious Delicacy",
-      "area": "Satorl Marsh",
-      "requirements": "Satorl Marsh area reached\r\nIt's All in the Mind",
+      "name": "ナゾのチンミ",
+      "area": "燐光の地ザトール",
+      "requirements": "燐光の地ザトールに到達\nヤマイはキから",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -7353,9 +7353,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-satorl-marsh-a-gift-39824024",
-      "name": "A Gift?",
-      "area": "Satorl Marsh",
-      "requirements": "Satorl Marsh area reached\r\nA Mysterious Delicacy",
+      "name": "オクリモノ？",
+      "area": "燐光の地ザトール",
+      "requirements": "燐光の地ザトールに到達\nナゾのチンミ",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -7366,9 +7366,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-satorl-marsh-gather-information-6d08db06",
-      "name": "Gather Information",
-      "area": "Satorl Marsh",
-      "requirements": "Eryth Sea reached\r\nAdviser Hunt accepted",
+      "name": "情報を得ろ",
+      "area": "燐光の地ザトール",
+      "requirements": "エルト海に到達\n参謀を追い詰めろを受注済み",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -7379,9 +7379,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-satorl-marsh-kacha-s-kidnapping-52ffe137",
-      "name": "Kacha's Kidnapping",
-      "area": "Satorl Marsh",
-      "requirements": "Satorl Marsh area reached",
+      "name": "さらわれたカチャ",
+      "area": "燐光の地ザトール",
+      "requirements": "燐光の地ザトールに到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -7390,9 +7390,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-satorl-marsh-the-giants-key-73f6238d",
-      "name": "The Giants' Key",
-      "area": "Satorl Marsh",
-      "requirements": "Satorl Marsh area reached\r\nKacha's Kidnapping",
+      "name": "巨人族のタカラ",
+      "area": "燐光の地ザトール",
+      "requirements": "燐光の地ザトールに到達\nさらわれたカチャ",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -7403,9 +7403,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-satorl-marsh-the-giants-treasure-4456a56e",
-      "name": "The Giants' Treasure",
-      "area": "Satorl Marsh",
-      "requirements": "Satorl Marsh area reached\r\nThe Giants' Key",
+      "name": "ついに巨人族のタカラ",
+      "area": "燐光の地ザトール",
+      "requirements": "燐光の地ザトールに到達\n巨人族のタカラ",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -7416,9 +7416,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-satorl-marsh-making-camp-371241f9",
-      "name": "Making Camp",
-      "area": "Satorl Marsh",
-      "requirements": "Satorl Marsh area reached\r\nKacha's Kidnapping",
+      "name": "野営の準備",
+      "area": "燐光の地ザトール",
+      "requirements": "燐光の地ザトールに到達\nさらわれたカチャ",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -7429,9 +7429,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-satorl-marsh-monster-quest-1-d2d45dde",
-      "name": "Monster Quest 1",
-      "area": "Satorl Marsh",
-      "requirements": "Satorl Marsh area reached",
+      "name": "討伐クエストその1",
+      "area": "燐光の地ザトール",
+      "requirements": "燐光の地ザトールに到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -7440,9 +7440,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-satorl-marsh-monster-quest-2-a146d173",
-      "name": "Monster Quest 2",
-      "area": "Satorl Marsh",
-      "requirements": "Satorl Marsh area reached",
+      "name": "討伐クエスト 2",
+      "area": "燐光の地ザトール",
+      "requirements": "燐光の地ザトールに到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -7451,9 +7451,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-satorl-marsh-monster-quest-3-57249d50",
-      "name": "Monster Quest 3",
-      "area": "Satorl Marsh",
-      "requirements": "Satorl Marsh area reached",
+      "name": "討伐クエストその3",
+      "area": "燐光の地ザトール",
+      "requirements": "燐光の地ザトールに到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -7462,9 +7462,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-satorl-marsh-monster-quest-4-ccb0a9ec",
-      "name": "Monster Quest 4",
-      "area": "Satorl Marsh",
-      "requirements": "Satorl Marsh area reached",
+      "name": "討伐クエストその4",
+      "area": "燐光の地ザトール",
+      "requirements": "燐光の地ザトールに到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -7473,9 +7473,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-satorl-marsh-challenge-123635e9",
-      "name": "Challenge",
-      "area": "Satorl Marsh",
-      "requirements": "Mechonis Core cleared",
+      "name": "強敵を求めて",
+      "area": "燐光の地ザトール",
+      "requirements": "機神界中枢をクリア",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -7484,9 +7484,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-satorl-marsh-for-a-friend-65689534",
-      "name": "For a Friend",
-      "area": "Satorl Marsh",
-      "requirements": "Mechonis Core cleared",
+      "name": "友人のために",
+      "area": "燐光の地ザトール",
+      "requirements": "機神界中枢をクリア",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -7495,9 +7495,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-satorl-marsh-a-merciful-end-0ddf39e6",
-      "name": "A Merciful End",
-      "area": "Satorl Marsh",
-      "requirements": "Mechonis Core cleared\r\nFor a Friend",
+      "name": "友人を楽にしてあげて",
+      "area": "燐光の地ザトール",
+      "requirements": "機神界中枢をクリア\n友人のために",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -7508,9 +7508,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-satorl-marsh-a-release-from-duty-b8f09fc5",
-      "name": "A Release from Duty",
-      "area": "Satorl Marsh",
-      "requirements": "Mechonis Core cleared\r\nA Merciful End.",
+      "name": "かつての仲間達を",
+      "area": "燐光の地ザトール",
+      "requirements": "機神界中枢をクリア\n友人を楽にしてあげて.",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -7519,9 +7519,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-satorl-marsh-the-imperial-ceremony-ca0ffe39",
-      "name": "The Imperial Ceremony",
-      "area": "Satorl Marsh",
-      "requirements": "Mechonis Core cleared",
+      "name": "皇族の儀",
+      "area": "燐光の地ザトール",
+      "requirements": "機神界中枢をクリア",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -7530,9 +7530,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-satorl-marsh-imperial-ceremony-offerings-bf7ddd7f",
-      "name": "Imperial Ceremony Offerings",
-      "area": "Satorl Marsh",
-      "requirements": "Mechonis Core cleared\r\nThe Imperial Ceremony accepted",
+      "name": "皇族の儀の準備",
+      "area": "燐光の地ザトール",
+      "requirements": "機神界中枢をクリア\n皇族の儀を受注済み",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -7543,9 +7543,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-satorl-marsh-the-ancient-ceremony-0559117c",
-      "name": "The Ancient Ceremony",
-      "area": "Satorl Marsh",
-      "requirements": "Sororal Statues reached",
+      "name": "古代の儀式",
+      "area": "燐光の地ザトール",
+      "requirements": "岩窟の姉妹像に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -7554,9 +7554,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-satorl-marsh-ancient-ceremony-offerings-6ccb2479",
-      "name": "Ancient Ceremony Offerings",
-      "area": "Satorl Marsh",
-      "requirements": "Sororal Statues reached\r\nThe Ancient Ceremony accepted",
+      "name": "儀式の準備",
+      "area": "燐光の地ザトール",
+      "requirements": "岩窟の姉妹像に到達\n古代の儀式を受注済み",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -7567,9 +7567,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-makna-forest-legend-of-the-sage-c39bf375",
-      "name": "Legend of the Sage",
-      "area": "Makna Forest",
-      "requirements": "Eryth Sea reached\r\nMeeting the Nopon Sage",
+      "name": "センニンの伝説",
+      "area": "マクナ原生林",
+      "requirements": "エルト海に到達\nセンニンに出会う",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -7580,9 +7580,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-makna-forest-challenge-of-the-sage-3223b9dc",
-      "name": "Challenge of the Sage",
-      "area": "Makna Forest",
-      "requirements": "Eryth Sea reached\nLegend of the Sage",
+      "name": "センニンの試練",
+      "area": "マクナ原生林",
+      "requirements": "エルト海に到達\nセンニンの伝説",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -7593,9 +7593,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-makna-forest-final-challenge-of-the-sage-3d8ee72d",
-      "name": "Final Challenge of the Sage",
-      "area": "Makna Forest",
-      "requirements": "Mechonis Core cleared\r\nChallenge of the Sage\r\nCentral Bionis ☆3½\r\nRiki in the lead",
+      "name": "センニンの最終試練",
+      "area": "マクナ原生林",
+      "requirements": "機神界中枢をクリア\nセンニンの試練\nCentral Bionis ☆3½\nパーティリーダーはリキ",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -7606,9 +7606,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-makna-forest-bridge-repair-dd1b988b",
-      "name": "Bridge Repair",
-      "area": "Makna Forest",
-      "requirements": "Access to Pod Landing Site in order to reach Valak Mountain",
+      "name": "橋の修復",
+      "area": "マクナ原生林",
+      "requirements": "Access to ポッド発着場 in order to reach ヴァラク雪山",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -7617,9 +7617,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-makna-forest-monster-quest-1-9082c265",
-      "name": "Monster Quest 1",
-      "area": "Makna Forest",
-      "requirements": "Makna Forest area reached",
+      "name": "討伐クエストその1",
+      "area": "マクナ原生林",
+      "requirements": "マクナ原生林に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -7628,9 +7628,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-makna-forest-monster-quest-2-fa0c16cc",
-      "name": "Monster Quest 2",
-      "area": "Makna Forest",
-      "requirements": "Makna Forest area reached",
+      "name": "討伐クエスト 2",
+      "area": "マクナ原生林",
+      "requirements": "マクナ原生林に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -7639,9 +7639,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-makna-forest-monster-quest-3-7b73cb3f",
-      "name": "Monster Quest 3",
-      "area": "Makna Forest",
-      "requirements": "Makna Forest area reached",
+      "name": "討伐クエストその3",
+      "area": "マクナ原生林",
+      "requirements": "マクナ原生林に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -7650,9 +7650,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-makna-forest-monster-quest-4-5f56b842",
-      "name": "Monster Quest 4",
-      "area": "Makna Forest",
-      "requirements": "Makna Forest area reached",
+      "name": "討伐クエストその4",
+      "area": "マクナ原生林",
+      "requirements": "マクナ原生林に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -7661,9 +7661,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-makna-forest-challenge-7ec939fe",
-      "name": "Challenge",
-      "area": "Makna Forest",
-      "requirements": "Frontier Village reached",
+      "name": "強敵を求めて",
+      "area": "マクナ原生林",
+      "requirements": "サイハテ村に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -7672,9 +7672,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-makna-forest-mystery-girl-rescue-96776777",
-      "name": "Mystery Girl Rescue",
-      "area": "Makna Forest",
-      "requirements": "Makna Forest area reached",
+      "name": "謎の少女を救え",
+      "area": "マクナ原生林",
+      "requirements": "マクナ原生林に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -7683,9 +7683,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-leku-s-food-crisis-55789eb3",
-      "name": "Leku's Food Crisis",
-      "area": "Frontier Village",
-      "requirements": "Frontier Village area reached\r\nKilaki registered on the Central Bionis Affinity Chart",
+      "name": "レク一家の食料危機",
+      "area": "サイハテ村",
+      "requirements": "サイハテ村に到達\nキカが Central Bionis のキズナグラムに登録済み",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -7694,9 +7694,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-hunt-for-a-patron-3cc74323",
-      "name": "Hunt for a Patron",
-      "area": "Frontier Village",
-      "requirements": "Frontier Village area reached\r\nLeku's Food Crisis\r\nCentral Bionis ☆1½",
+      "name": "パトロンを探せ",
+      "area": "サイハテ村",
+      "requirements": "サイハテ村に到達\nレク一家の食料危機\nCentral Bionis ☆1½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -7707,9 +7707,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-heropon-s-spirit-2e5ef224",
-      "name": "Heropon's Spirit",
-      "area": "Frontier Village",
-      "requirements": "Frontier Village area reached\r\nHunt for a Patron\r\nCentral Bionis ☆1½",
+      "name": "勇者の心意気",
+      "area": "サイハテ村",
+      "requirements": "サイハテ村に到達\nパトロンを探せ\nCentral Bionis ☆1½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -7720,9 +7720,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-beat-kilaki-to-it-0fb18436",
-      "name": "Beat Kilaki to it!",
-      "area": "Frontier Village",
-      "requirements": "Frontier Village area reached\r\nHeropon's Spirit\r\nCentral Bionis ☆2",
+      "name": "キカより先回り！",
+      "area": "サイハテ村",
+      "requirements": "サイハテ村に到達\n勇者の心意気\nCentral Bionis ☆2",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -7733,9 +7733,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-lousy-lizards-6e01eb1c",
-      "name": "Lousy Lizards",
-      "area": "Frontier Village",
-      "requirements": "Riki joined the party\r\nBeat Kilaki to it!\r\nCentral Bionis ☆2½",
+      "name": "苦手なトカゲ",
+      "area": "サイハテ村",
+      "requirements": "リキがパーティに加入\nキカより先回り！\nCentral Bionis ☆2½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -7746,9 +7746,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-popularity-premonition-4a21e195",
-      "name": "Popularity Premonition",
-      "area": "Frontier Village",
-      "requirements": "Frontier Village area reached\r\nBeat Kilaki to it!\r\nCentral Bionis ☆2½",
+      "name": "モテ期到来の予感",
+      "area": "サイハテ村",
+      "requirements": "サイハテ村に到達\nキカより先回り！\nCentral Bionis ☆2½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -7759,9 +7759,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-making-a-mixer-38489cac",
-      "name": "Making a Mixer",
-      "area": "Frontier Village",
-      "requirements": "Frontier Village area reached\r\nPepa registered on the Central Bionis Affinity Chart\r\nShulk in the lead.",
+      "name": "ミキサー製作",
+      "area": "サイハテ村",
+      "requirements": "サイハテ村に到達\nピップが Central Bionis のキズナグラムに登録済み\nパーティリーダーはシュルク。",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -7770,9 +7770,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-materials-for-a-mixer-2f8bc8e5",
-      "name": "Materials for a Mixer",
-      "area": "Frontier Village",
-      "requirements": "Frontier Village area reached\r\nMaking a Mixer accepted",
+      "name": "ミキサーの材料集め",
+      "area": "サイハテ村",
+      "requirements": "サイハテ村に到達\nミキサー製作を受注済み",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -7783,9 +7783,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-decoration-makeover-98a2b266",
-      "name": "Decoration Makeover",
-      "area": "Frontier Village",
-      "requirements": "Riki joined the party",
+      "name": "かわいいお部屋に大変身",
+      "area": "サイハテ村",
+      "requirements": "リキがパーティに加入",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -7794,9 +7794,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-hunt-for-bug-loving-friend-7022223e",
-      "name": "Hunt for Bug-Loving Friend",
-      "area": "Frontier Village",
-      "requirements": "Frontier Village area reached\r\nDeki registered on the Central Bionis Affinity Chart",
+      "name": "虫好き仲間を求めて",
+      "area": "サイハテ村",
+      "requirements": "サイハテ村に到達\nデクが Central Bionis のキズナグラムに登録済み",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -7805,9 +7805,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-a-worried-bug-lover-35141cf1",
-      "name": "A Worried Bug-Lover",
-      "area": "Frontier Village",
-      "requirements": "Frontier Village area reached\r\nHunt for Bug-Loving Friend\r\nCentral Bionis ☆1½",
+      "name": "虫好きじいさんの悩み",
+      "area": "サイハテ村",
+      "requirements": "サイハテ村に到達\n虫好き仲間を求めて\nCentral Bionis ☆1½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -7818,9 +7818,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-a-tormented-bug-lover-4472415b",
-      "name": "A Tormented Bug-Lover",
-      "area": "Frontier Village",
-      "requirements": "Eryth Sea reached\nA Worried Bug-Lover\nCentral Bionis ☆2",
+      "name": "虫好きじいさんの苦悩",
+      "area": "サイハテ村",
+      "requirements": "エルト海に到達\n虫好きじいさんの悩み\nCentral Bionis ☆2",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -7831,9 +7831,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-mushy-mushrooms-4b40ec39",
-      "name": "Mushy Mushrooms",
-      "area": "Frontier Village",
-      "requirements": "Frontier Village area reached",
+      "name": "やわらかキノコ",
+      "area": "サイハテ村",
+      "requirements": "サイハテ村に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -7842,9 +7842,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-medical-advancements-d38e6c42",
-      "name": "Medical Advancements",
-      "area": "Frontier Village",
-      "requirements": "Access to Valak Mountain\r\nYusa registered on the Affinity Chart\r\nMushy Mushrooms\r\nLet's Make Fillings! not completed\r\nCentral Bionis ☆2",
+      "name": "治療装置を開発！",
+      "area": "サイハテ村",
+      "requirements": "ヴァラク雪山へ入れる\nユシがキズナグラムに登録済み\nやわらかキノコ\n入れ歯を作る！は未達成\nCentral Bionis ☆2",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -7857,9 +7857,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-let-s-make-fillings-e0331e56",
-      "name": "Let's Make Fillings!",
-      "area": "Frontier Village",
-      "requirements": "Access to Valak Mountain\r\nMedi registered on the Affinity Chart\r\nMushy Mushrooms\r\nMedical Advancements not completed\r\nCentral Bionis ☆2",
+      "name": "入れ歯を作る！",
+      "area": "サイハテ村",
+      "requirements": "ヴァラク雪山へ入れる\nメディがキズナグラムに登録済み\nやわらかキノコ\n治療装置を開発！は未達成\nCentral Bionis ☆2",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -7872,9 +7872,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-world-s-strongest-flavour-bbfbbf9c",
-      "name": "World's Strongest Flavour",
-      "area": "Frontier Village",
-      "requirements": "Access to Valak Mountain\nMedical Advancements\nCentral Bionis ☆4",
+      "name": "世界一濃い口の料理",
+      "area": "サイハテ村",
+      "requirements": "ヴァラク雪山へ入れる\n治療装置を開発！\nCentral Bionis ☆4",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -7885,9 +7885,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-reversed-tastes-491b62ae",
-      "name": "Reversed Tastes",
-      "area": "Frontier Village",
-      "requirements": "Access to Valak Mountain\r\nLet's Make Fillings!\r\nCentral Bionis ☆4",
+      "name": "あべこべグルメ",
+      "area": "サイハテ村",
+      "requirements": "ヴァラク雪山へ入れる\n入れ歯を作る！\nCentral Bionis ☆4",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -7898,9 +7898,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-sweet-seduction-39ca6157",
-      "name": "Sweet Seduction",
-      "area": "Frontier Village",
-      "requirements": "Riki joined the party\r\nKofuko registered on the Affinity Chart\r\nFixing Time Mushrooms\r\nCentral Bionis ☆2",
+      "name": "あま〜い誘惑",
+      "area": "サイハテ村",
+      "requirements": "リキがパーティに加入\nフゴフゴがキズナグラムに登録済み\nキノコ時計の修理\nCentral Bionis ☆2",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -7912,8 +7912,8 @@ const WORLD_DATA = {
     {
       "id": "quest-frontier-village-ingredients-for-a-brew-99e4433b",
       "name": "Ingredients For A Brew",
-      "area": "Frontier Village",
-      "requirements": "Riki joined the party\r\nSweet Seduction accepted\r\nFixing Time Mushrooms\r\nCentral Bionis ☆2",
+      "area": "サイハテ村",
+      "requirements": "リキがパーティに加入\nあま〜い誘惑を受注済み\nキノコ時計の修理\nCentral Bionis ☆2",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -7925,9 +7925,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-healing-the-healer-87cebe81",
-      "name": "Healing the Healer",
-      "area": "Frontier Village",
-      "requirements": "Access to Valak Mountain\r\nMedical Advancements\r\nor Let's Make Fillings!\r\nCentral Bionis ☆3",
+      "name": "医者の不養生",
+      "area": "サイハテ村",
+      "requirements": "ヴァラク雪山へ入れる\n治療装置を開発！\nor 入れ歯を作る！\nCentral Bionis ☆3",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -7938,9 +7938,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-legendary-nopon-charm-e6f64f8f",
-      "name": "Legendary Nopon Charm",
-      "area": "Frontier Village",
-      "requirements": "Access to Valak Mountain\r\nMedical Advancements\r\nor Let's Make Fillings!\r\nHealing the Healer accepted\r\nCentral Bionis ☆3",
+      "name": "ノポン伝統のおまじない",
+      "area": "サイハテ村",
+      "requirements": "ヴァラク雪山へ入れる\n治療装置を開発！\nor 入れ歯を作る！\n医者の不養生を受注済み\nCentral Bionis ☆3",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -7952,9 +7952,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-mislabelling-problem-8c276339",
-      "name": "Mislabelling Problem",
-      "area": "Frontier Village",
-      "requirements": "Access to Valak Mountain\r\nHealing the Healer\r\nCentral Bionis ☆3",
+      "name": "不正表示問題",
+      "area": "サイハテ村",
+      "requirements": "ヴァラク雪山へ入れる\n医者の不養生\nCentral Bionis ☆3",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -7965,9 +7965,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-getting-bigger-f8926db1",
-      "name": "Getting Bigger!",
-      "area": "Frontier Village",
-      "requirements": "Access to Valak Mountain\r\nMislabelling Problem\r\nAdidi registered on the Affinity Chart\r\nCentral Bionis ☆3½\r\nRiki in the lead",
+      "name": "おっきくな〜れ",
+      "area": "サイハテ村",
+      "requirements": "ヴァラク雪山へ入れる\n不正表示問題\nアリンダがキズナグラムに登録済み\nCentral Bionis ☆3½\nパーティリーダーはリキ",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -7978,9 +7978,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-who-is-bigger-bd626a51",
-      "name": "Who is Bigger?",
-      "area": "Frontier Village",
-      "requirements": "Access to Valak Mountain\r\nGetting Bigger! accepted\r\nCentral Bionis ☆3½",
+      "name": "どっちを大きく？",
+      "area": "サイハテ村",
+      "requirements": "ヴァラク雪山へ入れる\nおっきくな〜れを受注済み\nCentral Bionis ☆3½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -7991,9 +7991,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-strange-noises-from-below-8b1a3855",
-      "name": "Strange Noises from Below",
-      "area": "Frontier Village",
-      "requirements": "Riki joined the party\r\nAn Errand for the Heropon",
+      "name": "地下からの不気味な声",
+      "area": "サイハテ村",
+      "requirements": "リキがパーティに加入\n勇者のお使い",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -8004,9 +8004,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-musical-genius-2f8caef8",
-      "name": "Musical Genius",
-      "area": "Frontier Village",
-      "requirements": "Riki joined the party\r\nStrange Noises from Below\r\nCentral Bionis ☆1½",
+      "name": "音楽は偉大",
+      "area": "サイハテ村",
+      "requirements": "リキがパーティに加入\n地下からの不気味な声\nCentral Bionis ☆1½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -8017,9 +8017,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-things-that-hum-f767b940",
-      "name": "Things that Hum",
-      "area": "Frontier Village",
-      "requirements": "Riki joined the party\r\nStrange Noises from Below\r\nMusical Genius accepted\r\nCentral Bionis ☆1½",
+      "name": "ハミング・コレクション",
+      "area": "サイハテ村",
+      "requirements": "リキがパーティに加入\n地下からの不気味な声\n音楽は偉大を受注済み\nCentral Bionis ☆1½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -8031,9 +8031,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-things-that-rumble-9eb8cc36",
-      "name": "Things that Rumble",
-      "area": "Frontier Village",
-      "requirements": "Riki joined the party\r\nStrange Noises from Below\r\nMusical Genius accepted\r\nCentral Bionis ☆1½",
+      "name": "ボップン・コレクション",
+      "area": "サイハテ村",
+      "requirements": "リキがパーティに加入\n地下からの不気味な声\n音楽は偉大を受注済み\nCentral Bionis ☆1½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -8045,9 +8045,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-disinsectization-9f1dd2f2",
-      "name": "Disinsectization",
-      "area": "Frontier Village",
-      "requirements": "Frontier Village area reached\r\nCherri registered on the Affinity Chart\r\nCentral Bionis ☆1½",
+      "name": "害虫駆除",
+      "area": "サイハテ村",
+      "requirements": "サイハテ村に到達\nチリがキズナグラムに登録済み\nCentral Bionis ☆1½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -8056,9 +8056,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-avenge-a-mamapon-s-death-afae25ff",
-      "name": "Avenge a Mamapon's Death",
-      "area": "Frontier Village",
-      "requirements": "Eryth Sea reached\r\nDisinsectization\r\nSecret Innovation\r\nCentral Bionis ☆4\r\nSharla in the lead",
+      "name": "母の死を越えて",
+      "area": "サイハテ村",
+      "requirements": "エルト海に到達\n害虫駆除\nヒミツの技術革新\nCentral Bionis ☆4\nパーティリーダーはカルナ",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -8071,8 +8071,8 @@ const WORLD_DATA = {
     {
       "id": "quest-frontier-village-dadapon-in-trouble-d0011fed",
       "name": "Dadapon in Trouble",
-      "area": "Frontier Village",
-      "requirements": "Frontier Village area reached\r\nPachipa and Gerugu affinity link: Orange\r\nCentral Bionis ☆2",
+      "area": "サイハテ村",
+      "requirements": "サイハテ村に到達\nパチカ and グレリー affinity link: Orange\nCentral Bionis ☆2",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -8081,9 +8081,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-it-definitely-exist-86e39ec6",
-      "name": "It Definitely Exist!",
-      "area": "Frontier Village",
-      "requirements": "Frontier Village area reached\r\nPipiki and Pachipa affinity link:Yellow\r\nKuriku registered on the Affinity Chart\r\nDadapon in Trouble\r\nCentral Bionis ☆2½",
+      "name": "ゼッタイいる！",
+      "area": "サイハテ村",
+      "requirements": "サイハテ村に到達\nピケ and パチカ affinity link:Yellow\nキュリがキズナグラムに登録済み\nDadapon in Trouble\nCentral Bionis ☆2½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -8095,8 +8095,8 @@ const WORLD_DATA = {
     {
       "id": "quest-frontier-village-even-in-the-chief-s-absence-17151b06",
       "name": "Even in the Chief's Absence",
-      "area": "Frontier Village",
-      "requirements": "Met Miqol in the Hidden Machina Village\nLalapa and Miko affinity link: yellow",
+      "area": "サイハテ村",
+      "requirements": "Met ミゴール in the マシーナの隠れ里\nラパン and ミコ affinity link: yellow",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -8105,9 +8105,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-bored-pelupelu-4ba04657",
-      "name": "Bored Pelupelu",
-      "area": "Frontier Village",
-      "requirements": "Met Miqol in Hidden Machina Village\r\nEven In the Chief's Absence\r\nCentral Bionis ☆2",
+      "name": "おしゃべりペルペル",
+      "area": "サイハテ村",
+      "requirements": "Met ミゴール in マシーナの隠れ里\n村長がいなくても\nCentral Bionis ☆2",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -8119,8 +8119,8 @@ const WORLD_DATA = {
     {
       "id": "quest-frontier-village-a-gift-for-miko-b85d65c9",
       "name": "A Gift for Miko",
-      "area": "Frontier Village",
-      "requirements": "Met Miqol in Hidden Machina Village\r\nBored Pelupelu\r\nCentral Bionis ☆3",
+      "area": "サイハテ村",
+      "requirements": "Met ミゴール in マシーナの隠れ里\nおしゃべりペルペル\nCentral Bionis ☆3",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -8131,9 +8131,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-giant-attack-3e870524",
-      "name": "Giant Attack!",
-      "area": "Frontier Village",
-      "requirements": "Access to Valak Mountain\r\nBridge Repair",
+      "name": "巨人の襲撃！",
+      "area": "サイハテ村",
+      "requirements": "ヴァラク雪山へ入れる\n橋の修復",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -8144,9 +8144,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-kind-lupa-s-grampypon-a5eab65a",
-      "name": "Kind Lupa's Grampypon",
-      "area": "Frontier Village",
-      "requirements": "Frontier Village area reached\r\nCentral Bionis ☆2",
+      "name": "たまには孫らしく",
+      "area": "サイハテ村",
+      "requirements": "サイハテ村に到達\nCentral Bionis ☆2",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -8156,8 +8156,8 @@ const WORLD_DATA = {
     {
       "id": "quest-frontier-village-secret-elixer-ingredients-9b5e9e4c",
       "name": "Secret Elixer Ingredients",
-      "area": "Frontier Village",
-      "requirements": "Frontier Village area reached\r\nKind Lupa's Grampypon accepted\r\nCentral Bionis ☆2",
+      "area": "サイハテ村",
+      "requirements": "サイハテ村に到達\nたまには孫らしくを受注済み\nCentral Bionis ☆2",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -8168,9 +8168,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-mystery-of-makna-ruins-1-6696c5a5",
-      "name": "Mystery of Makna Ruins 1",
-      "area": "Frontier Village",
-      "requirements": "Access to Pod Landing Site\r\nKind Lupa's Grampypon\r\nCentral Bionis ☆2",
+      "name": "マクナ遺跡の謎1",
+      "area": "サイハテ村",
+      "requirements": "ポッド発着場へ入れる\nたまには孫らしく\nCentral Bionis ☆2",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -8181,9 +8181,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-mystery-of-makna-ruins-2-e51dd72d",
-      "name": "Mystery of Makna Ruins 2",
-      "area": "Frontier Village",
-      "requirements": "Access to Pod Landing Site\r\nMystery of Makna Ruins 1\r\nCentral Bionis ☆2",
+      "name": "マクナ遺跡の謎2",
+      "area": "サイハテ村",
+      "requirements": "ポッド発着場へ入れる\nマクナ遺跡の謎1\nCentral Bionis ☆2",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -8194,9 +8194,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-mystery-of-makna-ruins-3-087e7238",
-      "name": "Mystery of Makna Ruins 3",
-      "area": "Frontier Village",
-      "requirements": "Access to Pod Landing Site\r\nMystery of Makna Ruins 2\r\nCentral Bionis ☆3",
+      "name": "マクナ遺跡の謎3",
+      "area": "サイハテ村",
+      "requirements": "ポッド発着場へ入れる\nマクナ遺跡の謎2\nCentral Bionis ☆3",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -8207,9 +8207,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-mystery-of-makna-ruins-4-b8c1296f",
-      "name": "Mystery of Makna Ruins 4",
-      "area": "Frontier Village",
-      "requirements": "Access to Pod Landing Site\r\nMystery of Makna Ruins 3\r\nCentral Bionis ☆3",
+      "name": "マクナ遺跡の謎4",
+      "area": "サイハテ村",
+      "requirements": "ポッド発着場へ入れる\nマクナ遺跡の謎3\nCentral Bionis ☆3",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -8220,9 +8220,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-honouring-the-nopon-sage-3b8a2f5a",
-      "name": "Honouring the Nopon Sage",
-      "area": "Frontier Village",
-      "requirements": "Eryth Sea reached\r\nStrange Noises from Below",
+      "name": "センニンのお供え",
+      "area": "サイハテ村",
+      "requirements": "エルト海に到達\n地下からの不気味な声",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -8233,9 +8233,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-meeting-the-nopon-sage-b62920c3",
-      "name": "Meeting the Nopon Sage",
-      "area": "Frontier Village",
-      "requirements": "Eryth Sea reached\r\nHonouring the Nopon Sage",
+      "name": "センニンに出会う",
+      "area": "サイハテ村",
+      "requirements": "エルト海に到達\nセンニンのお供え",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -8246,9 +8246,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-fixing-time-mushrooms-8654c073",
-      "name": "Fixing Time Mushrooms",
-      "area": "Frontier Village",
-      "requirements": "An Errand for the Heropon story quest accepted",
+      "name": "キノコ時計の修理",
+      "area": "サイハテ村",
+      "requirements": "勇者のお使い story quest accepted",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -8257,9 +8257,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-restoring-the-capital-0d26078f",
-      "name": "Restoring the Capital",
-      "area": "Frontier Village",
-      "requirements": "Mechonis Core cleared",
+      "name": "皇都を復興するために",
+      "area": "サイハテ村",
+      "requirements": "機神界中枢をクリア",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -8268,9 +8268,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-restoring-the-capital-2-bccc53cb",
-      "name": "Restoring the Capital 2",
-      "area": "Frontier Village",
-      "requirements": "Mechonis Core cleared\r\nRestoring the Capital",
+      "name": "皇都を復興するために2",
+      "area": "サイハテ村",
+      "requirements": "機神界中枢をクリア\n皇都を復興するために",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -8281,9 +8281,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-broken-ether-furnace-7f3e3db3",
-      "name": "Broken Ether Furnace",
-      "area": "Frontier Village",
-      "requirements": "Mechonis Core cleared\r\nRestoring the Capital and Vidian Rescue Mission in Alcamoth triggered",
+      "name": "壊れたエーテル炉",
+      "area": "サイハテ村",
+      "requirements": "機神界中枢をクリア\n皇都を復興するために and ビビアン救出作戦 in 皇都アカモート triggered",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -8292,9 +8292,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-broken-ether-furnace-2-3f6c744d",
-      "name": "Broken Ether Furnace 2",
-      "area": "Frontier Village",
-      "requirements": "Mechonis Core cleared\r\nBroken Ether Furnace",
+      "name": "壊れたエーテル炉2",
+      "area": "サイハテ村",
+      "requirements": "機神界中枢をクリア\n壊れたエーテル炉",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -8305,9 +8305,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-a-memento-of-daddy-10b93298",
-      "name": "A Memento of Daddy",
-      "area": "Frontier Village",
-      "requirements": "Mechonis Core cleared\r\nCian registered on the Central Bionis Affinity Chart",
+      "name": "お父さんの形見を",
+      "area": "サイハテ村",
+      "requirements": "機神界中枢をクリア\nキィーノが Central Bionis のキズナグラムに登録済み",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -8316,9 +8316,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-pollen-orb-ingredients-833496ce",
-      "name": "Pollen Orb Ingredients",
-      "area": "Frontier Village",
-      "requirements": "Frontier Village area reached\r\nCentral Bionis ☆1½",
+      "name": "花粉玉の材料調達",
+      "area": "サイハテ村",
+      "requirements": "サイハテ村に到達\nCentral Bionis ☆1½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -8327,9 +8327,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-secret-ingredient-hunt-658b9ff1",
-      "name": "Secret Ingredient Hunt",
-      "area": "Frontier Village",
-      "requirements": "Frontier Village area reached\r\nPollen Orb Ingredients\r\nGadada registered on the Affinity Chart then spoken to\r\nCentral Bionis ☆1½",
+      "name": "ヒミツの材料集め",
+      "area": "サイハテ村",
+      "requirements": "サイハテ村に到達\n花粉玉の材料調達\nガルダがキズナグラムに登録済みで、話しかけ済み\nCentral Bionis ☆1½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -8340,9 +8340,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-secret-innovation-5cf8ce52",
-      "name": "Secret Innovation",
-      "area": "Frontier Village",
-      "requirements": "Frontier Village area reached\r\nPollen Orb Ingredients\r\nCherri registered on the Affinity Chart then spoken to\r\nCentral Bionis ☆1½",
+      "name": "ヒミツの技術革新",
+      "area": "サイハテ村",
+      "requirements": "サイハテ村に到達\n花粉玉の材料調達\nチリがキズナグラムに登録済みで、話しかけ済み\nCentral Bionis ☆1½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -8353,9 +8353,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-the-master-s-successor-64e36cf7",
-      "name": "The Master's Successor",
-      "area": "Frontier Village",
-      "requirements": "Frontier Village area reached\r\nSecret Ingredient Hunt\r\nSecret Innovation\r\nCentral Bionis ☆2",
+      "name": "跡継ぎ問題",
+      "area": "サイハテ村",
+      "requirements": "サイハテ村に到達\nヒミツの材料集め\nヒミツの技術革新\nCentral Bionis ☆2",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -8367,9 +8367,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-dangerous-ambition-0c01efad",
-      "name": "Dangerous Ambition",
-      "area": "Frontier Village",
-      "requirements": "Alcamoth reached\r\nThe Master's Successor\r\nCentral Bionis ☆2½",
+      "name": "危険な野望",
+      "area": "サイハテ村",
+      "requirements": "皇都アカモートに到達\n跡継ぎ問題\nCentral Bionis ☆2½",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -8380,9 +8380,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-find-the-kingpin-03df88e7",
-      "name": "Find the Kingpin",
-      "area": "Frontier Village",
-      "requirements": "Alcamoth reached\r\nDangerous Ambition\r\nCentral Bionis ☆2½",
+      "name": "黒幕を探せ",
+      "area": "サイハテ村",
+      "requirements": "皇都アカモートに到達\n危険な野望\nCentral Bionis ☆2½",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -8393,9 +8393,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-adviser-hunt-05dfd2de",
-      "name": "Adviser Hunt",
-      "area": "Frontier Village",
-      "requirements": "Alcamoth reached\r\nFind the Kingpin\r\nA Gift?\r\nCentral Bionis ☆2½",
+      "name": "参謀を追い詰めろ",
+      "area": "サイハテ村",
+      "requirements": "皇都アカモートに到達\n黒幕を探せ\nオクリモノ？\nCentral Bionis ☆2½",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -8407,9 +8407,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-evidence-collection-3691c3f0",
-      "name": "Evidence Collection",
-      "area": "Frontier Village",
-      "requirements": "Alcamoth reached\r\nAdviser Hunt\r\nCentral Bionis ☆2½",
+      "name": "証拠集め",
+      "area": "サイハテ村",
+      "requirements": "皇都アカモートに到達\n参謀を追い詰めろ\nCentral Bionis ☆2½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -8420,9 +8420,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-destroying-the-city-trade-fc96181c",
-      "name": "Destroying the City Trade",
-      "area": "Frontier Village",
-      "requirements": "Alcamoth reached\r\nEvidence Collection\r\nCentral Bionis ☆2½",
+      "name": "皇都での取引を潰せ",
+      "area": "サイハテ村",
+      "requirements": "皇都アカモートに到達\n証拠集め\nCentral Bionis ☆2½",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -8433,9 +8433,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-bana-the-betrayer-a6210543",
-      "name": "Bana the Betrayer",
-      "area": "Frontier Village",
-      "requirements": "Mechonis Core cleared\r\nDestroying the City Trade\r\nCentral Bionis ☆2½",
+      "name": "裏切りのバーン",
+      "area": "サイハテ村",
+      "requirements": "機神界中枢をクリア\n皇都での取引を潰せ\nCentral Bionis ☆2½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -8446,9 +8446,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-presents-for-priceless-pupils-1bdeca37",
-      "name": "Presents for Priceless Pupils",
-      "area": "Frontier Village",
-      "requirements": "Mechonis Core cleared\r\nSafer Energy or Distilling Active Ingredients\r\nCentral Bionis ☆4½",
+      "name": "大事な弟子",
+      "area": "サイハテ村",
+      "requirements": "機神界中枢をクリア\n安全なエネルギーに or 有効成分を抽出する\nCentral Bionis ☆4½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -8457,9 +8457,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-safer-energy-47efa787",
-      "name": "Safer Energy",
-      "area": "Frontier Village",
-      "requirements": "Mechonis Core cleared\r\nThe Master's Successor completed with A route\r\nBana the Betrayer\r\nCentral Bionis ☆2½",
+      "name": "安全なエネルギーに",
+      "area": "サイハテ村",
+      "requirements": "機神界中枢をクリア\n跡継ぎ問題 completed with A route\n裏切りのバーン\nCentral Bionis ☆2½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -8470,9 +8470,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-distilling-active-ingredients-2d475228",
-      "name": "Distilling Active Ingredients",
-      "area": "Frontier Village",
-      "requirements": "Mechonis Core cleared\r\nThe Master's Successor completed with B route\r\nBana the Betrayer\r\nCentral Bionis ☆2½",
+      "name": "有効成分を抽出する",
+      "area": "サイハテ村",
+      "requirements": "機神界中枢をクリア\n跡継ぎ問題 completed with B route\n裏切りのバーン\nCentral Bionis ☆2½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -8483,9 +8483,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-monster-quest-1-part-1-9f37ca9e",
-      "name": "Monster Quest 1 - Part 1",
-      "area": "Frontier Village",
-      "requirements": "Frontier Village area reached",
+      "name": "討伐クエスト1その1",
+      "area": "サイハテ村",
+      "requirements": "サイハテ村に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -8494,9 +8494,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-monster-quest-1-part-2-e1b85e60",
-      "name": "Monster Quest 1 - Part 2",
-      "area": "Frontier Village",
-      "requirements": "Frontier Village area reached",
+      "name": "討伐クエスト1その2",
+      "area": "サイハテ村",
+      "requirements": "サイハテ村に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -8505,9 +8505,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-monster-quest-1-part-3-95e4df97",
-      "name": "Monster Quest 1 - Part 3",
-      "area": "Frontier Village",
-      "requirements": "Frontier Village area reached",
+      "name": "討伐クエスト1その3",
+      "area": "サイハテ村",
+      "requirements": "サイハテ村に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -8516,9 +8516,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-monster-quest-2-part-1-3ba4cd30",
-      "name": "Monster Quest 2 - Part 1",
-      "area": "Frontier Village",
-      "requirements": "Frontier Village area reached",
+      "name": "討伐クエスト2その1",
+      "area": "サイハテ村",
+      "requirements": "サイハテ村に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -8527,9 +8527,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-monster-quest-2-part-2-012bf20d",
-      "name": "Monster Quest 2 - Part 2",
-      "area": "Frontier Village",
-      "requirements": "Frontier Village area reached",
+      "name": "討伐クエスト2その2",
+      "area": "サイハテ村",
+      "requirements": "サイハテ村に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -8538,9 +8538,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-monster-quest-2-part-3-304a192f",
-      "name": "Monster Quest 2 - Part 3",
-      "area": "Frontier Village",
-      "requirements": "Frontier Village area reached",
+      "name": "討伐クエスト2その3",
+      "area": "サイハテ村",
+      "requirements": "サイハテ村に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -8549,9 +8549,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-challenge-1-904ff9bc",
-      "name": "Challenge 1",
-      "area": "Frontier Village",
-      "requirements": "Frontier Village area reached",
+      "name": "強敵を求めて1",
+      "area": "サイハテ村",
+      "requirements": "サイハテ村に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -8560,9 +8560,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-challenge-2-e229b41e",
-      "name": "Challenge 2",
-      "area": "Frontier Village",
-      "requirements": "Frontier Village area reached",
+      "name": "強敵を求めて2",
+      "area": "サイハテ村",
+      "requirements": "サイハテ村に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -8571,9 +8571,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-challenge-3-47955942",
-      "name": "Challenge 3",
-      "area": "Frontier Village",
-      "requirements": "Frontier Village area reached",
+      "name": "強敵を求めて3",
+      "area": "サイハテ村",
+      "requirements": "サイハテ村に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -8583,8 +8583,8 @@ const WORLD_DATA = {
     {
       "id": "quest-frontier-village-material-quest-1-169c688b",
       "name": "Material Quest 1",
-      "area": "Frontier Village",
-      "requirements": "Frontier Village area reached",
+      "area": "サイハテ村",
+      "requirements": "サイハテ村に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -8594,8 +8594,8 @@ const WORLD_DATA = {
     {
       "id": "quest-frontier-village-material-quest-2-09be6d68",
       "name": "Material Quest 2",
-      "area": "Frontier Village",
-      "requirements": "Frontier Village area reached",
+      "area": "サイハテ村",
+      "requirements": "サイハテ村に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -8604,9 +8604,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-material-quest-3-d97541fa",
-      "name": "Material Quest 3",
-      "area": "Frontier Village",
-      "requirements": "Access to Valak Mountain",
+      "name": "素材クエスト3",
+      "area": "サイハテ村",
+      "requirements": "ヴァラク雪山へ入れる",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -8615,9 +8615,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-material-quest-4-db4b8d85",
-      "name": "Material Quest 4",
-      "area": "Frontier Village",
-      "requirements": "Frontier Village area reached",
+      "name": "素材クエスト4",
+      "area": "サイハテ村",
+      "requirements": "サイハテ村に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -8627,8 +8627,8 @@ const WORLD_DATA = {
     {
       "id": "quest-frontier-village-collection-quest-1-4990e4ce",
       "name": "Collection Quest 1",
-      "area": "Frontier Village",
-      "requirements": "Frontier Village area reached",
+      "area": "サイハテ村",
+      "requirements": "サイハテ村に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -8638,8 +8638,8 @@ const WORLD_DATA = {
     {
       "id": "quest-frontier-village-collection-quest-2-3792d5e9",
       "name": "Collection Quest 2",
-      "area": "Frontier Village",
-      "requirements": "Frontier Village area reached",
+      "area": "サイハテ村",
+      "requirements": "サイハテ村に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -8648,9 +8648,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-collection-quest-3-5e220c4c",
-      "name": "Collection Quest 3",
-      "area": "Frontier Village",
-      "requirements": "Frontier Village area reached",
+      "name": "収集クエスト3",
+      "area": "サイハテ村",
+      "requirements": "サイハテ村に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -8659,9 +8659,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-collection-quest-4-31c4a887",
-      "name": "Collection Quest 4",
-      "area": "Frontier Village",
-      "requirements": "Frontier Village area reached",
+      "name": "収集クエスト4",
+      "area": "サイハテ村",
+      "requirements": "サイハテ村に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -8670,9 +8670,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-search-quest-1-a29b0ccd",
-      "name": "Search Quest 1",
-      "area": "Frontier Village",
-      "requirements": "Frontier Village area reached",
+      "name": "おさがしクエスト1",
+      "area": "サイハテ村",
+      "requirements": "サイハテ村に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -8681,9 +8681,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-search-quest-2-3d2c17e1",
-      "name": "Search Quest 2",
-      "area": "Frontier Village",
-      "requirements": "Frontier Village area reached",
+      "name": "おさがしクエスト2",
+      "area": "サイハテ村",
+      "requirements": "サイハテ村に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -8692,9 +8692,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-search-quest-3-ba91015f",
-      "name": "Search Quest 3",
-      "area": "Frontier Village",
-      "requirements": "Frontier Village area reached",
+      "name": "おさがしクエスト3",
+      "area": "サイハテ村",
+      "requirements": "サイハテ村に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -8703,9 +8703,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-frontier-village-an-errand-for-the-heropon-0207461b",
-      "name": "An Errand for the Heropon",
-      "area": "Frontier Village",
-      "requirements": "Frontier Village area reached",
+      "name": "勇者のお使い",
+      "area": "サイハテ村",
+      "requirements": "サイハテ村に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -8714,9 +8714,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-eryth-sea-trouble-at-the-plant-09ca325d",
-      "name": "Trouble at the Plant",
-      "area": "Eryth Sea",
-      "requirements": "Eryth Sea area reached",
+      "name": "孤立無援のプラント",
+      "area": "エルト海",
+      "requirements": "エルト海に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -8725,9 +8725,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-eryth-sea-punish-the-hodes-5ab7916f",
-      "name": "Punish the Hodes",
-      "area": "Eryth Sea",
-      "requirements": "Eryth Sea area reached\r\nTrouble at the Plant accepted",
+      "name": "フーディを成敗せよ",
+      "area": "エルト海",
+      "requirements": "エルト海に到達\n孤立無援のプラントを受注済み",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -8738,9 +8738,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-eryth-sea-mend-the-plant-d48b53ff",
-      "name": "Mend the Plant",
-      "area": "Eryth Sea",
-      "requirements": "Eryth Sea area reached\r\nTrouble at the Plant accepted",
+      "name": "プラントを修理せよ",
+      "area": "エルト海",
+      "requirements": "エルト海に到達\n孤立無援のプラントを受注済み",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -8751,9 +8751,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-eryth-sea-hode-attack-59c50864",
-      "name": "Hode Attack",
-      "area": "Eryth Sea",
-      "requirements": "Eryth Sea area reached\r\nTrouble at the Plant.",
+      "name": "フーディを撃退せよ",
+      "area": "エルト海",
+      "requirements": "エルト海に到達\n孤立無援のプラント.",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -8762,9 +8762,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-eryth-sea-trouble-at-the-lighthouse-de94d51f",
-      "name": "Trouble at the Lighthouse",
-      "area": "Eryth Sea",
-      "requirements": "Eryth Sea area reached\r\nHode Attack\r\nMelia in the lead",
+      "name": "焦心苦慮の灯台",
+      "area": "エルト海",
+      "requirements": "エルト海に到達\nフーディを撃退せよ\nパーティリーダーはメリア",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -8775,9 +8775,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-eryth-sea-investigating-satorl-968ac172",
-      "name": "Investigating Satorl",
-      "area": "Eryth Sea",
-      "requirements": "Mechonis Core cleared\r\nTalia's Research not completed\r\nThe Missing Boy accepted",
+      "name": "ザトールの調査",
+      "area": "エルト海",
+      "requirements": "機神界中枢をクリア\nタリアの研究は未達成\n離れた手をもう一度を受注済み",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -8790,9 +8790,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-eryth-sea-ancient-high-entia-mystery-03d27957",
-      "name": "Ancient High Entia Mystery",
-      "area": "Eryth Sea",
-      "requirements": "Mechonis Core cleared\r\nTalia's Research or Investigating Satorl\r\nUpper Bionis ☆2½\r\nMelia in the lead",
+      "name": "古代ハイエンターの謎",
+      "area": "エルト海",
+      "requirements": "機神界中枢をクリア\nタリアの研究 or ザトールの調査\nUpper Bionis ☆2½\nパーティリーダーはメリア",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -8801,9 +8801,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-eryth-sea-the-missing-boy-35f1e4eb",
-      "name": "The Missing Boy",
-      "area": "Eryth Sea",
-      "requirements": "Mechonis Core cleared",
+      "name": "離れた手をもう一度",
+      "area": "エルト海",
+      "requirements": "機神界中枢をクリア",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -8812,9 +8812,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-eryth-sea-the-only-thing-i-can-do-b6c15ab2",
-      "name": "The Only Thing I Can Do",
-      "area": "Eryth Sea",
-      "requirements": "Mechonis Core cleared\r\nVidian Rescue Mission\r\nBelieving Again not completed\r\nUpper Bionis ☆1½",
+      "name": "私に出来る唯一のこと",
+      "area": "エルト海",
+      "requirements": "機神界中枢をクリア\nビビアン救出作戦\nもう一度、信じる心をは未達成\nUpper Bionis ☆1½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -8827,9 +8827,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-eryth-sea-i-will-never-forget-you-697f1d2e",
-      "name": "I Will Never Forget You",
-      "area": "Eryth Sea",
-      "requirements": "Mechonis Core cleared\r\nVidian Rescue Mission\r\nBelieving Again\r\nUpper Bionis ☆1½",
+      "name": "あなたを忘れない",
+      "area": "エルト海",
+      "requirements": "機神界中枢をクリア\nビビアン救出作戦\nもう一度、信じる心を\nUpper Bionis ☆1½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -8841,9 +8841,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-eryth-sea-secret-research-24cff589",
-      "name": "Secret Research",
-      "area": "Eryth Sea",
-      "requirements": "Mechonis Core cleared\r\nThe Missing Boy",
+      "name": "秘密の研究所",
+      "area": "エルト海",
+      "requirements": "機神界中枢をクリア\n離れた手をもう一度",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -8854,9 +8854,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-eryth-sea-monster-quest-1-94fd67d5",
-      "name": "Monster Quest 1",
-      "area": "Eryth Sea",
-      "requirements": "Eryth Sea area reached",
+      "name": "討伐クエストその1",
+      "area": "エルト海",
+      "requirements": "エルト海に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -8865,9 +8865,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-eryth-sea-monster-quest-2-028f026d",
-      "name": "Monster Quest 2",
-      "area": "Eryth Sea",
-      "requirements": "Eryth Sea area reached",
+      "name": "討伐クエスト 2",
+      "area": "エルト海",
+      "requirements": "エルト海に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -8876,9 +8876,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-eryth-sea-challenge-bb182f57",
-      "name": "Challenge",
-      "area": "Eryth Sea",
-      "requirements": "Eryth Sea area reached",
+      "name": "強敵を求めて",
+      "area": "エルト海",
+      "requirements": "エルト海に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -8887,9 +8887,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-eryth-sea-collect-quest-1-44e9abc0",
-      "name": "Collect Quest 1",
-      "area": "Eryth Sea",
-      "requirements": "Eryth Sea area reached",
+      "name": "収集クエストその1",
+      "area": "エルト海",
+      "requirements": "エルト海に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -8898,9 +8898,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-eryth-sea-collect-quest-2-48357cd4",
-      "name": "Collect Quest 2",
-      "area": "Eryth Sea",
-      "requirements": "Eryth Sea area reached",
+      "name": "収集クエストその2",
+      "area": "エルト海",
+      "requirements": "エルト海に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -8909,9 +8909,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-eryth-sea-save-the-worker-f2ef1b0c",
-      "name": "Save the Worker",
-      "area": "Eryth Sea",
-      "requirements": "Alcamoth reached.",
+      "name": "作業員を救助せよ",
+      "area": "エルト海",
+      "requirements": "皇都アカモート reached.",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -8920,9 +8920,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-eryth-sea-path-to-prison-island-48dacbcc",
-      "name": "Path to Prison Island",
-      "area": "Eryth Sea",
-      "requirements": "In the course to Prison Island",
+      "name": "監獄島への道",
+      "area": "エルト海",
+      "requirements": "In the course to 監獄島",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -8931,9 +8931,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-eryth-sea-sister-seals-c9046416",
-      "name": "Sister Seals",
-      "area": "Eryth Sea",
-      "requirements": "In the course to Prison Island\r\nPath to Prison Island accepted",
+      "name": "封印の姉妹門",
+      "area": "エルト海",
+      "requirements": "In the course to 監獄島\n監獄島への道を受注済み",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -8944,9 +8944,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-the-deciphering-machine-e8f9b65c",
-      "name": "The Deciphering Machine",
-      "area": "Alcamoth",
-      "requirements": "Alcamoth area reached",
+      "name": "文献解読装置",
+      "area": "皇都アカモート",
+      "requirements": "皇都アカモートに到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -8955,9 +8955,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-a-necessary-upgrade-c20d8fb2",
-      "name": "A Necessary Upgrade",
-      "area": "Alcamoth",
-      "requirements": "In the course to the High Entia Tomb\r\nThe Deciphering Machine\r\nUpper Bionis ☆1¼",
+      "name": "文献解読装置改良",
+      "area": "皇都アカモート",
+      "requirements": "ハイエンター墓所へ向かう途中\n文献解読装置\nUpper Bionis ☆1¼",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -8968,9 +8968,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-talia-s-research-d77fade7",
-      "name": "Talia's Research",
-      "area": "Alcamoth",
-      "requirements": "In the course to the High Entia Tomb\r\nA Necessary Upgrade\r\nUpper Bionis ☆2",
+      "name": "タリアの研究",
+      "area": "皇都アカモート",
+      "requirements": "ハイエンター墓所へ向かう途中\n文献解読装置改良\nUpper Bionis ☆2",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -8983,9 +8983,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-bring-back-my-son-70c7c6b8",
-      "name": "Bring Back My Son!",
-      "area": "Alcamoth",
-      "requirements": "Alcamoth area reached\r\nMir'leiz registered",
+      "name": "息子を連れ戻して！",
+      "area": "皇都アカモート",
+      "requirements": "皇都アカモートに到達\nミラリースが登録済み",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -8994,9 +8994,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-teaching-materials-d0bb83b2",
-      "name": "Teaching Materials",
-      "area": "Alcamoth",
-      "requirements": "Alcamoth area reached\r\nBring Back My Son!",
+      "name": "教材の材料を集めて！",
+      "area": "皇都アカモート",
+      "requirements": "皇都アカモートに到達\n息子を連れ戻して！",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -9007,9 +9007,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-brave-actions-af207184",
-      "name": "Brave Actions",
-      "area": "Alcamoth",
-      "requirements": "Alcamoth area reached\r\nA Friend in Need\r\nTeaching Materials\r\nUpper Bionis ☆1½",
+      "name": "勇気ある行動",
+      "area": "皇都アカモート",
+      "requirements": "皇都アカモートに到達\n親友のために\n教材の材料を集めて！\nUpper Bionis ☆1½",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -9021,9 +9021,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-protect-the-capital-2ca874b2",
-      "name": "Protect the Capital!",
-      "area": "Alcamoth",
-      "requirements": "Alcamoth area reached\r\nBrave Actions accepted",
+      "name": "皇都の安全を守れ！",
+      "area": "皇都アカモート",
+      "requirements": "皇都アカモートに到達\n勇気ある行動を受注済み",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -9034,9 +9034,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-how-do-they-feel-6057e1e2",
-      "name": "How Do They Feel?",
-      "area": "Alcamoth",
-      "requirements": "Alcamoth area reached",
+      "name": "気持ちを知りたい",
+      "area": "皇都アカモート",
+      "requirements": "皇都アカモートに到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9045,9 +9045,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-how-do-i-feel-c40184df",
-      "name": "How Do I Feel?",
-      "area": "Alcamoth",
-      "requirements": "Alcamoth area reached\r\nHow Do They Feel?",
+      "name": "自分の本心を知りたい",
+      "area": "皇都アカモート",
+      "requirements": "皇都アカモートに到達\n気持ちを知りたい",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -9058,9 +9058,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-i-love-you-no-matter-what-e78badae",
-      "name": "I Love You No Matter What",
-      "area": "Alcamoth",
-      "requirements": "Alcamoth area reached\r\nHow Do I Feel? A route completed",
+      "name": "何があっても君を愛す",
+      "area": "皇都アカモート",
+      "requirements": "皇都アカモートに到達\n自分の本心を知りたいのAルートを達成済み",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9071,9 +9071,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-together-forever-b4a3ce0a",
-      "name": "Together Forever",
-      "area": "Alcamoth",
-      "requirements": "Alcamoth area reached\r\nHow Do I Feel? B route completed",
+      "name": "いつまでも君と一緒に",
+      "area": "皇都アカモート",
+      "requirements": "皇都アカモートに到達\n自分の本心を知りたい B route completed",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9084,9 +9084,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-a-friend-in-need-c9b3b741",
-      "name": "A Friend in Need",
-      "area": "Alcamoth",
-      "requirements": "Alcamoth area reached\r\nGalvin registered on the Affinity Chart and spoken to",
+      "name": "親友のために",
+      "area": "皇都アカモート",
+      "requirements": "皇都アカモートに到達\nガングがキズナグラムに登録済みで、話しかけ済み",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9095,9 +9095,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-preparing-for-adventure-b544ce81",
-      "name": "Preparing for Adventure",
-      "area": "Alcamoth",
-      "requirements": "Alcamoth area reached\r\nKurralth registered on the Affinity Chart and spoken to",
+      "name": "大冒険の準備",
+      "area": "皇都アカモート",
+      "requirements": "皇都アカモートに到達\nクラルがキズナグラムに登録済みで、話しかけ済み",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9106,9 +9106,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-preparing-for-adventure-2-6bb08adb",
-      "name": "Preparing for Adventure 2",
-      "area": "Alcamoth",
-      "requirements": "Alcamoth area reached\r\nPreparing for Adventure\r\nUpper Bionis ☆1¼",
+      "name": "続・大冒険の準備",
+      "area": "皇都アカモート",
+      "requirements": "皇都アカモートに到達\n大冒険の準備\nUpper Bionis ☆1¼",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -9119,9 +9119,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-preparing-for-adventure-3-c3600c9e",
-      "name": "Preparing for Adventure 3",
-      "area": "Alcamoth",
-      "requirements": "Alcamoth area reached\r\nPreparing for Adventure 2\r\nUpper Bionis ☆1½",
+      "name": "続々・大冒険の準備",
+      "area": "皇都アカモート",
+      "requirements": "皇都アカモートに到達\n続・大冒険の準備\nUpper Bionis ☆1½",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -9133,8 +9133,8 @@ const WORLD_DATA = {
     {
       "id": "quest-alcamoth-adventureres-in-peril-4a2d710a",
       "name": "Adventureres in Peril",
-      "area": "Alcamoth",
-      "requirements": "Valak Mountain reached\r\nPreparing for Adventure 3\r\nUpper Bionis ☆2½",
+      "area": "皇都アカモート",
+      "requirements": "ヴァラク雪山に到達\n続々・大冒険の準備\nUpper Bionis ☆2½",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -9145,9 +9145,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-building-bridges-7492aa71",
-      "name": "Building Bridges",
-      "area": "Alcamoth",
-      "requirements": "Alcamoth area reached\r\nVidian registered on the Affinity Chart",
+      "name": "他種族嫌いを治して",
+      "area": "皇都アカモート",
+      "requirements": "皇都アカモートに到達\nビビアンがキズナグラムに登録済み",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9156,9 +9156,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-believing-again-66f7b260",
-      "name": "Believing Again",
-      "area": "Alcamoth",
-      "requirements": "Valak Mountain reached\r\nBuilding Bridges\r\nUpper Bionis ☆1½",
+      "name": "もう一度、信じる心を",
+      "area": "皇都アカモート",
+      "requirements": "ヴァラク雪山に到達\n他種族嫌いを治して\nUpper Bionis ☆1½",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -9169,9 +9169,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-starlight-seeker-cae55fa5",
-      "name": "Starlight Seeker",
-      "area": "Alcamoth",
-      "requirements": "Alcamoth area reached\r\nPreparing for Adventure 3\r\nMiriall registered on the Affinity Chart\r\nUpper Bionis ☆1½",
+      "name": "輝きをその小さな手に",
+      "area": "皇都アカモート",
+      "requirements": "皇都アカモートに到達\n続々・大冒険の準備\nミリアがキズナグラムに登録済み\nUpper Bionis ☆1½",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -9182,9 +9182,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-starlight-gazer-8dad45d5",
-      "name": "Starlight Gazer",
-      "area": "Alcamoth",
-      "requirements": "In the course to the High Entia Tomb\r\nStarlight Seeker\r\nUpper Bionis ☆2½",
+      "name": "更なる輝きをその手に",
+      "area": "皇都アカモート",
+      "requirements": "ハイエンター墓所へ向かう途中\n輝きをその小さな手に\nUpper Bionis ☆2½",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -9195,9 +9195,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-back-pain-1e322f2c",
-      "name": "Back Pain",
-      "area": "Alcamoth",
-      "requirements": "Whitewing Palace reached\r\nLar'shen registered on the Affinity Chart and spoken to",
+      "name": "腰痛持ちは大変だ！",
+      "area": "皇都アカモート",
+      "requirements": "白翼宮に到達\nチャールズがキズナグラムに登録済みで、話しかけ済み",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9206,9 +9206,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-looking-for-gold-bugs-42de6fc4",
-      "name": "Looking for Gold Bugs",
-      "area": "Alcamoth",
-      "requirements": "Alcamoth area reached",
+      "name": "金色の虫を求めて",
+      "area": "皇都アカモート",
+      "requirements": "皇都アカモートに到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9217,9 +9217,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-losing-the-taste-for-alcohol-a3b54ab3",
-      "name": "Losing the Taste for Alcohol",
-      "area": "Alcamoth",
-      "requirements": "Alcamoth area reached",
+      "name": "お酒に強くなりたい",
+      "area": "皇都アカモート",
+      "requirements": "皇都アカモートに到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9228,9 +9228,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-looking-for-a-lost-son-28159068",
-      "name": "Looking for a Lost Son",
-      "area": "Alcamoth",
-      "requirements": "Alcamoth area reached",
+      "name": "迷子の息子を捜して",
+      "area": "皇都アカモート",
+      "requirements": "皇都アカモートに到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9239,9 +9239,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-looking-for-a-lost-daughter-73bb1d26",
-      "name": "Looking for a Lost Daughter",
-      "area": "Alcamoth",
-      "requirements": "Alcamoth area reached\r\nLooking for a Lost Son",
+      "name": "迷子の娘を捜して",
+      "area": "皇都アカモート",
+      "requirements": "皇都アカモートに到達\n迷子の息子を捜して",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -9252,9 +9252,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-going-out-to-play-844b5d0e",
-      "name": "Going Out to Play",
-      "area": "Alcamoth",
-      "requirements": "Alcamoth area reached",
+      "name": "息子が外で遊べる様に",
+      "area": "皇都アカモート",
+      "requirements": "皇都アカモートに到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9263,9 +9263,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-getting-a-member-s-card-a4a6253e",
-      "name": "Getting a Member's Card",
-      "area": "Alcamoth",
-      "requirements": "Alcamoth area reached\r\nDestroying the City Trade accepted",
+      "name": "会員証を手に入れろ",
+      "area": "皇都アカモート",
+      "requirements": "皇都アカモートに到達\n皇都での取引を潰せを受注済み",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -9276,9 +9276,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-vidian-rescue-mission-70909031",
-      "name": "Vidian Rescue Mission",
-      "area": "Alcamoth",
-      "requirements": "Mechonis Core cleared\r\nRestoring the Capital objective completed",
+      "name": "ビビアン救出作戦",
+      "area": "皇都アカモート",
+      "requirements": "機神界中枢をクリア\n皇都を復興するために objective completed",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9287,9 +9287,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-monster-quest-1-part-1-42171b4c",
-      "name": "Monster Quest 1 - Part 1",
-      "area": "Alcamoth",
-      "requirements": "Alcamoth area reached",
+      "name": "討伐クエスト1その1",
+      "area": "皇都アカモート",
+      "requirements": "皇都アカモートに到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9298,9 +9298,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-monster-quest-1-part-2-f95eda7f",
-      "name": "Monster Quest 1 - Part 2",
-      "area": "Alcamoth",
-      "requirements": "Alcamoth area reached",
+      "name": "討伐クエスト1その2",
+      "area": "皇都アカモート",
+      "requirements": "皇都アカモートに到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9309,9 +9309,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-monster-quest-1-part-3-abdb2831",
-      "name": "Monster Quest 1 - Part 3",
-      "area": "Alcamoth",
-      "requirements": "Alcamoth area reached",
+      "name": "討伐クエスト1その3",
+      "area": "皇都アカモート",
+      "requirements": "皇都アカモートに到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9320,9 +9320,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-monster-quest-2-part-1-e38b167a",
-      "name": "Monster Quest 2 - Part 1",
-      "area": "Alcamoth",
-      "requirements": "Alcamoth area reached",
+      "name": "討伐クエスト2その1",
+      "area": "皇都アカモート",
+      "requirements": "皇都アカモートに到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9331,9 +9331,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-monster-quest-2-part-2-ee3c08bd",
-      "name": "Monster Quest 2 - Part 2",
-      "area": "Alcamoth",
-      "requirements": "Alcamoth area reached",
+      "name": "討伐クエスト2その2",
+      "area": "皇都アカモート",
+      "requirements": "皇都アカモートに到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9342,9 +9342,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-monster-quest-2-part-3-dd9dd723",
-      "name": "Monster Quest 2 - Part 3",
-      "area": "Alcamoth",
-      "requirements": "Alcamoth area reached",
+      "name": "討伐クエスト2その3",
+      "area": "皇都アカモート",
+      "requirements": "皇都アカモートに到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9353,9 +9353,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-monster-quest-3-part-1-4f7a4e60",
-      "name": "Monster Quest 3 - Part 1",
-      "area": "Alcamoth",
-      "requirements": "Alcamoth area reached",
+      "name": "討伐クエスト3その1",
+      "area": "皇都アカモート",
+      "requirements": "皇都アカモートに到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9364,9 +9364,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-monster-quest-3-part-2-5acdd6dd",
-      "name": "Monster Quest 3 - Part 2",
-      "area": "Alcamoth",
-      "requirements": "Alcamoth area reached",
+      "name": "討伐クエスト3その2",
+      "area": "皇都アカモート",
+      "requirements": "皇都アカモートに到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9375,9 +9375,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-monster-quest-3-part-3-1fad9148",
-      "name": "Monster Quest 3 - Part 3",
-      "area": "Alcamoth",
-      "requirements": "Alcamoth area reached",
+      "name": "討伐クエスト3その3",
+      "area": "皇都アカモート",
+      "requirements": "皇都アカモートに到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9386,9 +9386,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-monster-quest-4-part-1-08dad316",
-      "name": "Monster Quest 4 - Part 1",
-      "area": "Alcamoth",
-      "requirements": "Alcamoth area reached",
+      "name": "討伐クエスト4その1",
+      "area": "皇都アカモート",
+      "requirements": "皇都アカモートに到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9397,9 +9397,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-monster-quest-4-part-2-24615c68",
-      "name": "Monster Quest 4 - Part 2",
-      "area": "Alcamoth",
-      "requirements": "Alcamoth area reached",
+      "name": "討伐クエスト4その2",
+      "area": "皇都アカモート",
+      "requirements": "皇都アカモートに到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9408,9 +9408,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-monster-quest-4-part-3-2c4d90c6",
-      "name": "Monster Quest 4 - Part 3",
-      "area": "Alcamoth",
-      "requirements": "Alcamoth area reached",
+      "name": "討伐クエスト4その3",
+      "area": "皇都アカモート",
+      "requirements": "皇都アカモートに到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9419,9 +9419,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-challenge-1-4a226e64",
-      "name": "Challenge 1",
-      "area": "Alcamoth",
-      "requirements": "Alcamoth area reached",
+      "name": "強敵を求めて1",
+      "area": "皇都アカモート",
+      "requirements": "皇都アカモートに到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9430,9 +9430,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-challenge-2-b349a7b0",
-      "name": "Challenge 2",
-      "area": "Alcamoth",
-      "requirements": "Alcamoth area reached",
+      "name": "強敵を求めて2",
+      "area": "皇都アカモート",
+      "requirements": "皇都アカモートに到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9441,9 +9441,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-challenge-3-4f62e955",
-      "name": "Challenge 3",
-      "area": "Alcamoth",
-      "requirements": "Alcamoth area reached",
+      "name": "強敵を求めて3",
+      "area": "皇都アカモート",
+      "requirements": "皇都アカモートに到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9452,9 +9452,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-challenge-4-25825bda",
-      "name": "Challenge 4",
-      "area": "Alcamoth",
-      "requirements": "Alcamoth area reached",
+      "name": "強敵を求めて4",
+      "area": "皇都アカモート",
+      "requirements": "皇都アカモートに到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9464,8 +9464,8 @@ const WORLD_DATA = {
     {
       "id": "quest-alcamoth-material-quest-1-86612ce4",
       "name": "Material Quest 1",
-      "area": "Alcamoth",
-      "requirements": "Alcamoth area reached",
+      "area": "皇都アカモート",
+      "requirements": "皇都アカモートに到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9475,8 +9475,8 @@ const WORLD_DATA = {
     {
       "id": "quest-alcamoth-material-quest-2-b2c2468f",
       "name": "Material Quest 2",
-      "area": "Alcamoth",
-      "requirements": "Alcamoth area reached",
+      "area": "皇都アカモート",
+      "requirements": "皇都アカモートに到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9485,9 +9485,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-material-quest-3-98019c8a",
-      "name": "Material Quest 3",
-      "area": "Alcamoth",
-      "requirements": "Alcamoth area reached",
+      "name": "素材クエスト3",
+      "area": "皇都アカモート",
+      "requirements": "皇都アカモートに到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9496,9 +9496,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-material-quest-4-2ca3d813",
-      "name": "Material Quest 4",
-      "area": "Alcamoth",
-      "requirements": "Alcamoth area reached",
+      "name": "素材クエスト4",
+      "area": "皇都アカモート",
+      "requirements": "皇都アカモートに到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9508,8 +9508,8 @@ const WORLD_DATA = {
     {
       "id": "quest-alcamoth-collection-quest-1-ff40dabd",
       "name": "Collection Quest 1",
-      "area": "Alcamoth",
-      "requirements": "Alcamoth area reached",
+      "area": "皇都アカモート",
+      "requirements": "皇都アカモートに到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9519,8 +9519,8 @@ const WORLD_DATA = {
     {
       "id": "quest-alcamoth-collection-quest-2-b67f2781",
       "name": "Collection Quest 2",
-      "area": "Alcamoth",
-      "requirements": "Alcamoth area reached",
+      "area": "皇都アカモート",
+      "requirements": "皇都アカモートに到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9529,9 +9529,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-collection-quest-3-51469a9f",
-      "name": "Collection Quest 3",
-      "area": "Alcamoth",
-      "requirements": "Alcamoth area reached",
+      "name": "収集クエスト3",
+      "area": "皇都アカモート",
+      "requirements": "皇都アカモートに到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9540,9 +9540,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-collection-quest-4-6e8970dc",
-      "name": "Collection Quest 4",
-      "area": "Alcamoth",
-      "requirements": "Alcamoth area reached",
+      "name": "収集クエスト4",
+      "area": "皇都アカモート",
+      "requirements": "皇都アカモートに到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9551,9 +9551,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-search-quest-1-226d3221",
-      "name": "Search Quest 1",
-      "area": "Alcamoth",
-      "requirements": "Alcamoth area reached",
+      "name": "おさがしクエスト1",
+      "area": "皇都アカモート",
+      "requirements": "皇都アカモートに到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9562,9 +9562,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-search-quest-2-8a73ee94",
-      "name": "Search Quest 2",
-      "area": "Alcamoth",
-      "requirements": "Alcamoth area reached",
+      "name": "おさがしクエスト2",
+      "area": "皇都アカモート",
+      "requirements": "皇都アカモートに到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9573,9 +9573,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-search-quest-3-b05095e9",
-      "name": "Search Quest 3",
-      "area": "Alcamoth",
-      "requirements": "Alcamoth area reached",
+      "name": "おさがしクエスト3",
+      "area": "皇都アカモート",
+      "requirements": "皇都アカモートに到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9584,9 +9584,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-alcamoth-search-quest-4-23055241",
-      "name": "Search Quest 4",
-      "area": "Alcamoth",
-      "requirements": "Alcamoth area reached",
+      "name": "おさがしクエスト4",
+      "area": "皇都アカモート",
+      "requirements": "皇都アカモートに到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9595,9 +9595,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-valak-mountain-chilkins-and-antols-1b62b6c9",
-      "name": "Chilkins and Antols",
-      "area": "Valak Mountain",
-      "requirements": "Valak Mountain area reached",
+      "name": "チルキンかアントルか",
+      "area": "ヴァラク雪山",
+      "requirements": "ヴァラク雪山に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9606,9 +9606,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-valak-mountain-valak-mountain-research-5103e920",
-      "name": "Valak Mountain Research",
-      "area": "Valak Mountain",
-      "requirements": "Valak Mountain area reached\r\nChilkins and Antols",
+      "name": "ヴァラク雪山展望調査",
+      "area": "ヴァラク雪山",
+      "requirements": "ヴァラク雪山に到達\nチルキンかアントルか",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -9619,9 +9619,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-valak-mountain-the-freezing-nopon-5be11969",
-      "name": "The Freezing Nopon",
-      "area": "Valak Mountain",
-      "requirements": "Valak Mountain area reached",
+      "name": "ブルブルノポン",
+      "area": "ヴァラク雪山",
+      "requirements": "ヴァラク雪山に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9630,9 +9630,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-valak-mountain-bad-timing-b1b67242",
-      "name": "Bad Timing",
-      "area": "Valak Mountain",
-      "requirements": "Valak Mountain area reached\r\nThe Magma Rock",
+      "name": "バッドタイミング",
+      "area": "ヴァラク雪山",
+      "requirements": "ヴァラク雪山に到達\nヴァラクの熱い石",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -9643,9 +9643,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-valak-mountain-chilkin-changes-bee3a218",
-      "name": "Chilkin Changes",
-      "area": "Valak Mountain",
-      "requirements": "Valak Mountain area reached\r\nBad Timing",
+      "name": "チルキン族の変化",
+      "area": "ヴァラク雪山",
+      "requirements": "ヴァラク雪山に到達\nバッドタイミング",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -9656,9 +9656,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-valak-mountain-the-balance-of-power-29a46cce",
-      "name": "The Balance of Power",
-      "area": "Valak Mountain",
-      "requirements": "Valak Mountain area reached\r\nChilkin Changes\r\nDunban in the lead",
+      "name": "パワーバランス",
+      "area": "ヴァラク雪山",
+      "requirements": "ヴァラク雪山に到達\nチルキン族の変化\nパーティリーダーはダンバン",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -9669,9 +9669,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-valak-mountain-the-missing-partner-1c795354",
-      "name": "The Missing Partner",
-      "area": "Valak Mountain",
-      "requirements": "Mechonis Core cleared\r\nAdventurers in Peril not completed",
+      "name": "帰ってこない相棒",
+      "area": "ヴァラク雪山",
+      "requirements": "機神界中枢をクリア\n冒険者達の遭難は未達成",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9680,9 +9680,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-valak-mountain-the-final-giants-ruins-1534830f",
-      "name": "The Final Giants' Ruins",
-      "area": "Valak Mountain",
-      "requirements": "Mechonis Core cleared\r\nThe Missing Partner or Adventurers in Peril",
+      "name": "巨人族最後の遺跡",
+      "area": "ヴァラク雪山",
+      "requirements": "機神界中枢をクリア\n帰ってこない相棒 or 冒険者達の遭難",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9691,9 +9691,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-valak-mountain-the-giants-treasures-9a24d5b0",
-      "name": "The Giants' Treasures",
-      "area": "Valak Mountain",
-      "requirements": "Mechonis Core cleared\r\nThe Final Giants' Ruins accepted",
+      "name": "巨人族三種の神器",
+      "area": "ヴァラク雪山",
+      "requirements": "機神界中枢をクリア\n巨人族最後の遺跡を受注済み",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -9704,9 +9704,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-valak-mountain-monster-quest-1-c8c37227",
-      "name": "Monster Quest 1",
-      "area": "Valak Mountain",
-      "requirements": "Valak Mountain area reached",
+      "name": "討伐クエストその1",
+      "area": "ヴァラク雪山",
+      "requirements": "ヴァラク雪山に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9715,9 +9715,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-valak-mountain-monster-quest-2-4447734f",
-      "name": "Monster Quest 2",
-      "area": "Valak Mountain",
-      "requirements": "Valak Mountain area reached",
+      "name": "討伐クエスト 2",
+      "area": "ヴァラク雪山",
+      "requirements": "ヴァラク雪山に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9726,9 +9726,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-valak-mountain-monster-quest-3-6c2b7de9",
-      "name": "Monster Quest 3",
-      "area": "Valak Mountain",
-      "requirements": "Valak Mountain area reached",
+      "name": "討伐クエストその3",
+      "area": "ヴァラク雪山",
+      "requirements": "ヴァラク雪山に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9737,9 +9737,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-valak-mountain-monster-quest-4-4dc843a9",
-      "name": "Monster Quest 4",
-      "area": "Valak Mountain",
-      "requirements": "Valak Mountain area reached",
+      "name": "討伐クエストその4",
+      "area": "ヴァラク雪山",
+      "requirements": "ヴァラク雪山に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9748,8 +9748,8 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-valak-mountain-the-magma-rock-be7e2048",
-      "name": "The Magma Rock",
-      "area": "Valak Mountain",
+      "name": "ヴァラクの熱い石",
+      "area": "ヴァラク雪山",
       "requirements": "Automatic",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
@@ -9760,7 +9760,7 @@ const WORLD_DATA = {
     {
       "id": "quest-sword-valley-secure-dolgan-outpost-b6ba581d",
       "name": "Secure Dolgan Outpost",
-      "area": "Sword Valley +",
+      "area": "大剣の渓谷 +",
       "requirements": "",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
@@ -9771,7 +9771,7 @@ const WORLD_DATA = {
     {
       "id": "quest-sword-valley-secure-enalda-control-base-f74387a5",
       "name": "Secure Enalda Control Base",
-      "area": "Sword Valley +",
+      "area": "大剣の渓谷 +",
       "requirements": "",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
@@ -9782,7 +9782,7 @@ const WORLD_DATA = {
     {
       "id": "quest-sword-valley-3rd-gate-front-line-29a8066d",
       "name": "3rd Gate Front Line",
-      "area": "Sword Valley +",
+      "area": "大剣の渓谷 +",
       "requirements": "",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
@@ -9793,7 +9793,7 @@ const WORLD_DATA = {
     {
       "id": "quest-sword-valley-secure-the-radio-tower-78dba9cf",
       "name": "Secure the Radio Tower",
-      "area": "Sword Valley +",
+      "area": "大剣の渓谷 +",
       "requirements": "",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
@@ -9804,7 +9804,7 @@ const WORLD_DATA = {
     {
       "id": "quest-sword-valley-lift-battle-b601ae54",
       "name": "Lift Battle",
-      "area": "Sword Valley +",
+      "area": "大剣の渓谷 +",
       "requirements": "",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
@@ -9815,7 +9815,7 @@ const WORLD_DATA = {
     {
       "id": "quest-sword-valley-supply-station-battle-d408cebf",
       "name": "Supply Station Battle",
-      "area": "Sword Valley +",
+      "area": "大剣の渓谷 +",
       "requirements": "",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
@@ -9826,7 +9826,7 @@ const WORLD_DATA = {
     {
       "id": "quest-sword-valley-turbine-battle-b3f2fea9",
       "name": "Turbine Battle",
-      "area": "Sword Valley +",
+      "area": "大剣の渓谷 +",
       "requirements": "Supply Station Battle accepted",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
@@ -9839,7 +9839,7 @@ const WORLD_DATA = {
     {
       "id": "quest-sword-valley-fiora-s-conviction-242777dd",
       "name": "Fiora's Conviction",
-      "area": "Sword Valley +",
+      "area": "大剣の渓谷 +",
       "requirements": "",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
@@ -9850,8 +9850,8 @@ const WORLD_DATA = {
     {
       "id": "quest-sword-valley-chase-dickson-331c7524",
       "name": "Chase Dickson",
-      "area": "Sword Valley +",
-      "requirements": "Prison Island area reached for the second time",
+      "area": "大剣の渓谷 +",
+      "requirements": "監獄島 area reached for the second time",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9861,8 +9861,8 @@ const WORLD_DATA = {
     {
       "id": "quest-sword-valley-path-to-the-top-94cea14c",
       "name": "Path to the Top",
-      "area": "Sword Valley +",
-      "requirements": "Prison Island area reached for the second time\nChase Dickson.",
+      "area": "大剣の渓谷 +",
+      "requirements": "監獄島 area reached for the second time\nChase ディクソン.",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9871,9 +9871,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-fallen-arm-save-the-machina-6988cd50",
-      "name": "Save the Machina!",
-      "area": "Fallen Arm",
-      "requirements": "Hidden Machina Village reached",
+      "name": "同胞を救え！",
+      "area": "落ちた腕",
+      "requirements": "マシーナの隠れ里に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9882,9 +9882,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-fallen-arm-eliminate-the-threat-67ffcc4b",
-      "name": "Eliminate the Threat",
-      "area": "Fallen Arm",
-      "requirements": "Save the Machina!\r\nHidden Village ☆1½",
+      "name": "同胞のために出来ること",
+      "area": "落ちた腕",
+      "requirements": "同胞を救え！\nHidden Village ☆1½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -9895,9 +9895,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-fallen-arm-mysterious-noises-309a4964",
-      "name": "Mysterious Noises",
-      "area": "Fallen Arm",
-      "requirements": "Hidden Machina Village reached",
+      "name": "水汲みの不安",
+      "area": "落ちた腕",
+      "requirements": "マシーナの隠れ里に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9906,9 +9906,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-fallen-arm-protect-the-village-5ab3ee62",
-      "name": "Protect the Village",
-      "area": "Fallen Arm",
-      "requirements": "Hidden Machina Village reached\r\nHidden Village ☆1¼",
+      "name": "里の無事を確保して",
+      "area": "落ちた腕",
+      "requirements": "マシーナの隠れ里に到達\nHidden Village ☆1¼",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9917,9 +9917,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-fallen-arm-stop-the-mechon-rampage-f7d7d644",
-      "name": "Stop the Mechon Rampage!",
-      "area": "Fallen Arm",
-      "requirements": "Hidden Machina Village reached\r\nProtect the Village\r\nHidden Village ☆1½",
+      "name": "機神兵大量討伐！",
+      "area": "落ちた腕",
+      "requirements": "マシーナの隠れ里に到達\n里の無事を確保して\nHidden Village ☆1½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -9930,9 +9930,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-fallen-arm-stunted-growth-2d12d5d5",
-      "name": "Stunted Growth",
-      "area": "Fallen Arm",
-      "requirements": "After the attack on Colony 6\nVronik registered to the Affinity Chart\nHidden Village ☆3½\nDunban in the lead",
+      "name": "成長するために！",
+      "area": "落ちた腕",
+      "requirements": "コロニー6への襲撃のあと\nベロニカがキズナグラムに登録済み\nHidden Village ☆3½\nパーティリーダーはダンバン",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9942,8 +9942,8 @@ const WORLD_DATA = {
     {
       "id": "quest-fallen-arm-transmission-bypass-d501f868",
       "name": "Transmission Bypass",
-      "area": "Fallen Arm",
-      "requirements": "After the attack on Colony 6\nVronik registered to the Affinity Chart\nHidden Village ☆4\nStunted Growth accepted",
+      "area": "落ちた腕",
+      "requirements": "コロニー6への襲撃のあと\nベロニカがキズナグラムに登録済み\nHidden Village ☆4\n成長するために！を受注済み",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -9954,9 +9954,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-fallen-arm-the-exhaust-pump-5a59d384",
-      "name": "The Exhaust Pump",
-      "area": "Fallen Arm",
-      "requirements": "After the attack on Colony 6\nVronik registered to the Affinity Chart\nHidden Village ☆4\nStunted Growth accepted",
+      "name": "空気排出ポンプ入手",
+      "area": "落ちた腕",
+      "requirements": "コロニー6への襲撃のあと\nベロニカがキズナグラムに登録済み\nHidden Village ☆4\n成長するために！を受注済み",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -9967,9 +9967,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-fallen-arm-the-mini-reactor-98a23b5e",
-      "name": "The Mini Reactor",
-      "area": "Fallen Arm",
-      "requirements": "After the attack on Colony 6\nVronik registered to the Affinity Chart\nHidden Village ☆4\nStunted Growth accepted",
+      "name": "高性能小型動力炉入手",
+      "area": "落ちた腕",
+      "requirements": "コロニー6への襲撃のあと\nベロニカがキズナグラムに登録済み\nHidden Village ☆4\n成長するために！を受注済み",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -9980,9 +9980,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-fallen-arm-the-history-of-mechonis-a92d0c19",
-      "name": "The History of Mechonis",
-      "area": "Fallen Arm",
-      "requirements": "Access to Mechonis Field",
+      "name": "機神界の歴史",
+      "area": "落ちた腕",
+      "requirements": "機神界フィールドへ入れる",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -9991,9 +9991,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-fallen-arm-the-history-of-the-capital-b1ab126c",
-      "name": "The History of the Capital",
-      "area": "Fallen Arm",
-      "requirements": "Agniratha reached\r\nThe History of Mechonis",
+      "name": "帝都の歴史",
+      "area": "落ちた腕",
+      "requirements": "帝都アグニラータに到達\n機神界の歴史",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -10004,9 +10004,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-fallen-arm-i-want-to-be-a-homs-adb96842",
-      "name": "I Want to be a Homs!",
-      "area": "Fallen Arm",
-      "requirements": "Hidden Machina Village reached\r\nNatalia registered on the Affinity Chart",
+      "name": "ホムスになりたい！",
+      "area": "落ちた腕",
+      "requirements": "マシーナの隠れ里に到達\nナターリャがキズナグラムに登録済み",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -10015,9 +10015,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-fallen-arm-powerless-277f33af",
-      "name": "Powerless",
-      "area": "Fallen Arm",
-      "requirements": "I Want to be a Homs!\r\nHidden Village ☆1½",
+      "name": "無力",
+      "area": "落ちた腕",
+      "requirements": "ホムスになりたい！\nHidden Village ☆1½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -10029,8 +10029,8 @@ const WORLD_DATA = {
     {
       "id": "quest-fallen-arm-power-up-d74de4a5",
       "name": "Power up!",
-      "area": "Fallen Arm",
-      "requirements": "Powerless\r\nHidden Village ☆2",
+      "area": "落ちた腕",
+      "requirements": "無力\nHidden Village ☆2",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -10041,9 +10041,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-fallen-arm-fixing-a-broken-door-df5fc0a3",
-      "name": "Fixing a Broken Door",
-      "area": "Fallen Arm",
-      "requirements": "Hidden Machina Village reached\r\nEleqa registered on the Affinity Chart",
+      "name": "壊れたドアの修理",
+      "area": "落ちた腕",
+      "requirements": "マシーナの隠れ里に到達\nエレナがキズナグラムに登録済み",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -10052,9 +10052,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-fallen-arm-the-wilted-flower-3b17d5f3",
-      "name": "The Wilted Flower",
-      "area": "Fallen Arm",
-      "requirements": "Hidden Machina Village reached\r\nVronik registered on the Affinity Chart\r\nFixing a Broken Door\r\nHidden Village ☆1½",
+      "name": "花が枯れちゃう",
+      "area": "落ちた腕",
+      "requirements": "マシーナの隠れ里に到達\nベロニカがキズナグラムに登録済み\n壊れたドアの修理\nHidden Village ☆1½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -10065,9 +10065,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-fallen-arm-the-oath-sword-ed4e9dff",
-      "name": "The Oath Sword",
-      "area": "Fallen Arm",
-      "requirements": "Mechonis Field reached\r\nThe Wilted Flower\r\nHidden Village ☆2\r\nFiora in the lead",
+      "name": "約束の剣",
+      "area": "落ちた腕",
+      "requirements": "機神界フィールドに到達\n花が枯れちゃう\nHidden Village ☆2\nパーティリーダーはフィオルン",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -10078,9 +10078,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-fallen-arm-scheduled-inspection-c2eb28c6",
-      "name": "Scheduled Inspection",
-      "area": "Fallen Arm",
-      "requirements": "The Wilted Flower\r\nHidden Village ☆2½",
+      "name": "十年に一度の定期検査",
+      "area": "落ちた腕",
+      "requirements": "花が枯れちゃう\nHidden Village ☆2½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -10091,9 +10091,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-fallen-arm-a-tough-battle-0a4cdb5f",
-      "name": "A Tough Battle",
-      "area": "Fallen Arm",
-      "requirements": "Hidden Machina Village reached\r\nHidden Village ☆2",
+      "name": "厳しい戦い",
+      "area": "落ちた腕",
+      "requirements": "マシーナの隠れ里に到達\nHidden Village ☆2",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -10102,9 +10102,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-fallen-arm-a-weapon-just-for-me-b6c6d086",
-      "name": "A Weapon Just For Me",
-      "area": "Fallen Arm",
-      "requirements": "Access to Mechonis Field\r\nMending Memories\r\nA Tough Battle\r\nHidden Village ☆3",
+      "name": "手に馴染む武器を",
+      "area": "落ちた腕",
+      "requirements": "機神界フィールドへ入れる\n壊れた思い出の修復\n厳しい戦い\nHidden Village ☆3",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -10116,9 +10116,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-fallen-arm-therapy-a4f80c53",
-      "name": "Therapy",
-      "area": "Fallen Arm",
-      "requirements": "Stop the Mechon Rampage!\r\nHidden Village ☆2\r\nEleqa and Eiz affinity link yellow.",
+      "name": "セラピー",
+      "area": "落ちた腕",
+      "requirements": "機神兵大量討伐！\nHidden Village ☆2\nエレナとアインのキズナリンクは黄色。",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -10129,9 +10129,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-fallen-arm-mending-memories-b698e5dc",
-      "name": "Mending Memories",
-      "area": "Fallen Arm",
-      "requirements": "Access to Mechonis Field\r\nHidden Village ☆1½",
+      "name": "壊れた思い出の修復",
+      "area": "落ちた腕",
+      "requirements": "機神界フィールドへ入れる\nHidden Village ☆1½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -10140,9 +10140,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-fallen-arm-resolution-father-dfeb23c7",
-      "name": "Resolution - Father",
-      "area": "Fallen Arm",
-      "requirements": "Access to Mechonis Field\r\nMending Memories accepted\r\nHidden Village ☆1½",
+      "name": "問題解決・パパ編",
+      "area": "落ちた腕",
+      "requirements": "機神界フィールドへ入れる\n壊れた思い出の修復を受注済み\nHidden Village ☆1½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -10153,9 +10153,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-fallen-arm-resolution-mother-42b28709",
-      "name": "Resolution - Mother",
-      "area": "Fallen Arm",
-      "requirements": "Access to Mechonis Field\r\nMending Memories accepted\r\nHidden Village ☆1½",
+      "name": "問題解決・ママ編",
+      "area": "落ちた腕",
+      "requirements": "機神界フィールドへ入れる\n壊れた思い出の修復を受注済み\nHidden Village ☆1½",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -10166,9 +10166,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-fallen-arm-food-delivery-3a437fca",
-      "name": "Food Delivery",
-      "area": "Fallen Arm",
-      "requirements": "Hidden Machina Village reached",
+      "name": "食料配達",
+      "area": "落ちた腕",
+      "requirements": "マシーナの隠れ里に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -10178,8 +10178,8 @@ const WORLD_DATA = {
     {
       "id": "quest-fallen-arm-for-my-loved-one-5e79610a",
       "name": "For my Loved One...",
-      "area": "Fallen Arm",
-      "requirements": "Hidden Machina Village reached\r\nFood Delivery accepted and Theo spoken to",
+      "area": "落ちた腕",
+      "requirements": "マシーナの隠れ里に到達\n食料配達 accepted and テーオ spoken to",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -10188,9 +10188,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-fallen-arm-to-my-loved-one-3c9d0b86",
-      "name": "To My Loved One...",
-      "area": "Fallen Arm",
-      "requirements": "Hidden Machina Village reached\r\nFor My Loved One...",
+      "name": "愛するヒトへ",
+      "area": "落ちた腕",
+      "requirements": "マシーナの隠れ里に到達\n愛するヒトに",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -10201,9 +10201,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-fallen-arm-reunion-with-fiora-b00e4e65",
-      "name": "Reunion with Fiora",
-      "area": "Fallen Arm",
-      "requirements": "Fallen Arm area reached",
+      "name": "フィオルンとの再会",
+      "area": "落ちた腕",
+      "requirements": "落ちた腕に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -10212,9 +10212,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-fallen-arm-we-made-it-4429533c",
-      "name": "We Made It",
-      "area": "Fallen Arm",
-      "requirements": "Fallen Arm area reached\r\nReunion with Fiora",
+      "name": "仲間は生きている",
+      "area": "落ちた腕",
+      "requirements": "落ちた腕に到達\nフィオルンとの再会",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -10225,9 +10225,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-fallen-arm-fiora-s-treatment-203a0705",
-      "name": "Fiora's Treatment",
-      "area": "Fallen Arm",
-      "requirements": "Miqol met in the Hidden Machina Village",
+      "name": "フィオルンの治療",
+      "area": "落ちた腕",
+      "requirements": "ミゴールとマシーナの隠れ里で出会った",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -10236,9 +10236,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-mechonis-field-best-boots-349f0765",
-      "name": "Best Boots",
-      "area": "Mechonis Field",
-      "requirements": "Mechonis Field area reached\r\nFor My Loved One...\r\nTo My Loved One...",
+      "name": "愛のブーツ",
+      "area": "機神界フィールド",
+      "requirements": "機神界フィールドに到達\n愛するヒトに\n愛するヒトへ",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -10250,9 +10250,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-mechonis-field-monster-quest-mechonis-field-eac3d06b",
-      "name": "Monster Quest (Mechonis Field)",
-      "area": "Mechonis Field",
-      "requirements": "Mechonis Field area reached",
+      "name": "討伐クエスト (機神界フィールド)",
+      "area": "機神界フィールド",
+      "requirements": "機神界フィールドに到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -10261,9 +10261,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-mechonis-field-challenge-quest-1-mechonis-field-4cf669b1",
-      "name": "Challenge Quest 1 (Mechonis Field)",
-      "area": "Mechonis Field",
-      "requirements": "Mechonis Field area reached",
+      "name": "強敵を求めてその1 (機神界フィールド)",
+      "area": "機神界フィールド",
+      "requirements": "機神界フィールドに到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -10272,9 +10272,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-mechonis-field-challenge-quest-2-mechonis-field-85c5b30a",
-      "name": "Challenge Quest 2 (Mechonis Field)",
-      "area": "Mechonis Field",
-      "requirements": "Mechonis Field area reached",
+      "name": "強敵を求めてその2 (機神界フィールド)",
+      "area": "機神界フィールド",
+      "requirements": "機神界フィールドに到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -10283,9 +10283,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-mechonis-field-aiming-for-the-top-dc2d2e44",
-      "name": "Aiming for the Top",
-      "area": "Mechonis Field",
-      "requirements": "Mechonis Field area reached",
+      "name": "上層を目指せ",
+      "area": "機神界フィールド",
+      "requirements": "機神界フィールドに到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -10294,9 +10294,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-mechonis-field-get-the-3rd-lift-moving-73bf4423",
-      "name": "Get the 3rd Lift Moving",
-      "area": "Mechonis Field",
-      "requirements": "Mechonis Field area reached\r\nAiming for the Top",
+      "name": "第3リフトを起動しろ",
+      "area": "機神界フィールド",
+      "requirements": "機神界フィールドに到達\n上層を目指せ",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -10307,9 +10307,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-mechonis-field-opening-the-bulkhead-2e419184",
-      "name": "Opening the Bulkhead",
-      "area": "Mechonis Field",
-      "requirements": "Mechonis Field area reached\r\nGet the 3rd Lift Moving",
+      "name": "大隔壁を開放せよ",
+      "area": "機神界フィールド",
+      "requirements": "機神界フィールドに到達\n第3リフトを起動しろ",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -10320,9 +10320,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-mechonis-field-the-high-velocity-lift-7e8ecd3d",
-      "name": "The High-Velocity Lift",
-      "area": "Mechonis Field",
-      "requirements": "Mechonis Field area reached\r\nOpening the Bulkhead",
+      "name": "高速リフトを起動せよ",
+      "area": "機神界フィールド",
+      "requirements": "機神界フィールドに到達\n大隔壁を開放せよ",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -10333,9 +10333,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-mechonis-field-need-power-514fff96",
-      "name": "Need Power!",
-      "area": "Mechonis Field",
-      "requirements": "Mechonis Field area reached\r\nOpening the Bulkhead\r\nThe High-Velocity Lift accepted",
+      "name": "電源を供給せよ",
+      "area": "機神界フィールド",
+      "requirements": "機神界フィールドに到達\n大隔壁を開放せよ\n高速リフトを起動せよを受注済み",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -10347,9 +10347,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-central-factory-eliminate-the-backup-69778f1d",
-      "name": "Eliminate the Backup!",
-      "area": "Central Factory",
-      "requirements": "Central Factory area reached",
+      "name": "待機部隊を叩け！",
+      "area": "中央工廠",
+      "requirements": "中央工廠に到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -10358,9 +10358,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-central-factory-daring-assault-4f1db107",
-      "name": "Daring Assault",
-      "area": "Central Factory",
-      "requirements": "Central Factory area reached",
+      "name": "強行突破！",
+      "area": "中央工廠",
+      "requirements": "中央工廠に到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -10369,9 +10369,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-central-factory-roof-battle-146cab6c",
-      "name": "Roof Battle",
-      "area": "Central Factory",
-      "requirements": "Central Factory area reached",
+      "name": "屋上の決戦！",
+      "area": "中央工廠",
+      "requirements": "中央工廠に到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -10380,9 +10380,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-central-factory-new-weapon-for-fiora-8c533ae1",
-      "name": "New Weapon for Fiora",
-      "area": "Central Factory",
-      "requirements": "Ventilation Conduit reached",
+      "name": "フィオルンの新武器",
+      "area": "中央工廠",
+      "requirements": "送風機内ジャンクス前に到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -10391,9 +10391,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-central-factory-to-the-central-tower-8f337a65",
-      "name": "To the Central Tower",
-      "area": "Central Factory",
-      "requirements": "Central Factory area reached",
+      "name": "中央塔を目指せ",
+      "area": "中央工廠",
+      "requirements": "中央工廠に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -10402,9 +10402,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-central-factory-maintenance-wing-escape-4eed6fe9",
-      "name": "Maintenance Wing Escape",
-      "area": "Central Factory",
-      "requirements": "Central Factory area reached\r\nTo the Central Tower",
+      "name": "整備棟を抜けろ",
+      "area": "中央工廠",
+      "requirements": "中央工廠に到達\n中央塔を目指せ",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -10415,9 +10415,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-central-factory-find-a-path-to-the-top-ee4f7c11",
-      "name": "Find a Path to the Top",
-      "area": "Central Factory",
-      "requirements": "Central Factory area reached\r\nMaintenance Wing Escape",
+      "name": "上層への道を探せ",
+      "area": "中央工廠",
+      "requirements": "中央工廠に到達\n整備棟を抜けろ",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -10428,9 +10428,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-central-factory-materials-for-a-bomb-b65dfdde",
-      "name": "Materials for a Bomb",
-      "area": "Central Factory",
-      "requirements": "Central Factory area reached\r\nMaintenance Wing Escape\r\nFind a Path to the Top accepted",
+      "name": "爆弾の材料を集めろ",
+      "area": "中央工廠",
+      "requirements": "中央工廠に到達\n整備棟を抜けろ\n上層への道を探せを受注済み",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -10442,9 +10442,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-central-factory-the-central-tower-barrier-500279fe",
-      "name": "The Central Tower Barrier",
-      "area": "Central Factory",
-      "requirements": "Central Factory area reached\r\nFind a Path to the Top\r\nMaterials for a Bomb",
+      "name": "中央塔の障壁",
+      "area": "中央工廠",
+      "requirements": "中央工廠に到達\n上層への道を探せ\n爆弾の材料を集めろ",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -10456,9 +10456,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-agniratha-civil-protection-1-1-ebee732b",
-      "name": "Civil Protection 1 - 1",
-      "area": "Agniratha",
-      "requirements": "Agniratha area reached",
+      "name": "治安維持1その1",
+      "area": "帝都アグニラータ",
+      "requirements": "帝都アグニラータに到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -10467,9 +10467,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-agniratha-civil-protection-1-2-f572883d",
-      "name": "Civil Protection 1 - 2",
-      "area": "Agniratha",
-      "requirements": "Agniratha area reached",
+      "name": "治安維持1その2",
+      "area": "帝都アグニラータ",
+      "requirements": "帝都アグニラータに到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -10478,9 +10478,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-agniratha-civil-protection-1-3-21fd2dda",
-      "name": "Civil Protection 1 - 3",
-      "area": "Agniratha",
-      "requirements": "Agniratha area reached",
+      "name": "治安維持1その3",
+      "area": "帝都アグニラータ",
+      "requirements": "帝都アグニラータに到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -10489,9 +10489,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-agniratha-civil-protection-2-1-d971bfe2",
-      "name": "Civil Protection 2 - 1",
-      "area": "Agniratha",
-      "requirements": "Agniratha area reached",
+      "name": "治安維持2その1",
+      "area": "帝都アグニラータ",
+      "requirements": "帝都アグニラータに到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -10500,9 +10500,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-agniratha-civil-protection-2-2-3e6ae032",
-      "name": "Civil Protection 2 - 2",
-      "area": "Agniratha",
-      "requirements": "Agniratha area reached",
+      "name": "治安維持2その2",
+      "area": "帝都アグニラータ",
+      "requirements": "帝都アグニラータに到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -10511,9 +10511,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-agniratha-civil-protection-2-3-8ba84a67",
-      "name": "Civil Protection 2 - 3",
-      "area": "Agniratha",
-      "requirements": "Agniratha area reached",
+      "name": "治安維持2その3",
+      "area": "帝都アグニラータ",
+      "requirements": "帝都アグニラータに到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -10522,9 +10522,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-agniratha-military-status-1-1-b90b5037",
-      "name": "Military Status 1 - 1",
-      "area": "Agniratha",
-      "requirements": "Agniratha area reached",
+      "name": "兵力均衡1その1",
+      "area": "帝都アグニラータ",
+      "requirements": "帝都アグニラータに到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -10533,9 +10533,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-agniratha-military-status-1-2-2bf37cdf",
-      "name": "Military Status 1 - 2",
-      "area": "Agniratha",
-      "requirements": "Agniratha area reached",
+      "name": "兵力均衡1その2",
+      "area": "帝都アグニラータ",
+      "requirements": "帝都アグニラータに到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -10544,9 +10544,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-agniratha-military-status-2-1-7939a579",
-      "name": "Military Status 2 - 1",
-      "area": "Agniratha",
-      "requirements": "Agniratha area reached",
+      "name": "兵力均衡2その1",
+      "area": "帝都アグニラータ",
+      "requirements": "帝都アグニラータに到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -10555,9 +10555,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-agniratha-military-status-2-2-e9fdc7b6",
-      "name": "Military Status 2 - 2",
-      "area": "Agniratha",
-      "requirements": "Agniratha area reached",
+      "name": "兵力均衡2その2",
+      "area": "帝都アグニラータ",
+      "requirements": "帝都アグニラータに到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -10566,9 +10566,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-agniratha-agniratha-beautification-1-6713e319",
-      "name": "Agniratha Beautification 1",
-      "area": "Agniratha",
-      "requirements": "Agniratha area reached",
+      "name": "アグニラータ美化その1",
+      "area": "帝都アグニラータ",
+      "requirements": "帝都アグニラータに到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -10577,9 +10577,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-agniratha-agniratha-beautification-2-0897fb93",
-      "name": "Agniratha Beautification 2",
-      "area": "Agniratha",
-      "requirements": "Agniratha area reached",
+      "name": "アグニラータ美化その2",
+      "area": "帝都アグニラータ",
+      "requirements": "帝都アグニラータに到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -10588,9 +10588,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-agniratha-telethia-investigation-1-68bb3d59",
-      "name": "Telethia Investigation 1",
-      "area": "Agniratha",
-      "requirements": "Agniratha area reached",
+      "name": "テレシア調査その1",
+      "area": "帝都アグニラータ",
+      "requirements": "帝都アグニラータに到達",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],
@@ -10599,9 +10599,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-agniratha-telethia-investigation-2-1d09e743",
-      "name": "Telethia Investigation 2",
-      "area": "Agniratha",
-      "requirements": "Agniratha area reached\r\nTelethia Investigation 1",
+      "name": "テレシア調査その2",
+      "area": "帝都アグニラータ",
+      "requirements": "帝都アグニラータに到達\nテレシア調査その1",
       "timed": true,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [
@@ -10612,8 +10612,8 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-agniratha-shrine-transport-793d97cb",
-      "name": "Shrine Transport",
-      "area": "Agniratha",
+      "name": "神殿への転送装置",
+      "area": "帝都アグニラータ",
       "requirements": "",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
@@ -10623,8 +10623,8 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-agniratha-pillar-verification-devices-19c243b2",
-      "name": "Pillar Verification Devices",
-      "area": "Agniratha",
+      "name": "四柱の認証装置",
+      "area": "帝都アグニラータ",
       "requirements": "",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
@@ -10634,9 +10634,9 @@ const WORLD_DATA = {
     },
     {
       "id": "quest-agniratha-save-bionis-45732bab",
-      "name": "Save Bionis",
-      "area": "Agniratha",
-      "requirements": "Mechonis Core reached",
+      "name": "巨神界の崩壊を止める",
+      "area": "帝都アグニラータ",
+      "requirements": "機神界中枢に到達",
       "timed": false,
       "source": "https://docs.google.com/spreadsheets/d/1glad9ZiT9Ze42KWdVH-OvNh5KAGJIBv4zlJydWdi6dc/edit?usp=sharing",
       "prerequisites": [],

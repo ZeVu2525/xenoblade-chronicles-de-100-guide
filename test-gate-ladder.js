@@ -70,14 +70,14 @@ const waitFor = async (test, message, timeout = 10000) => {
   });
   check("orders star tiers numerically, fractions included", ordered);
 
-  const colony9 = areas.find(a => a.querySelector("summary b").textContent === "Colony 9");
-  check("Colony 9 ladder starts at its lowest gate",
+  const colony9 = areas.find(a => a.querySelector("summary b").textContent === "コロニー9");
+  check("コロニー9 ladder starts at its lowest gate",
     colony9?.querySelector(".gate-tier-head b").textContent === "☆1¼",
     colony9?.querySelector(".gate-tier-head b").textContent);
 
   // Every chip is one of the three declared states, and states are labelled in text.
   check("every quest carries a state", chips.every(c => /is-(done|open|swept)/.test(c.className)));
-  check("state is announced, not just coloured", chips.every(c => /ticked|still open|area sweep/.test(c.title)));
+  check("state is announced, not just coloured", chips.every(c => /済|未了|周回/.test(c.title)));
 
   const swept = chips.filter(c => c.classList.contains("is-swept"));
   check("area-sweep quests fall back to Quest Lookup", swept.every(c => c.hasAttribute("data-open-affinity-quest")));
@@ -91,7 +91,7 @@ const waitFor = async (test, message, timeout = 10000) => {
   // No claim of an affinity total anywhere in the card.
   const cardText = doc.querySelector(".gate-card").textContent;
   check("makes no claim about current affinity",
-    /reports what each gate opens/.test(cardText) && !/you (are|have) (at|reached) ☆/.test(cardText));
+    /各門が何を開くか/.test(cardText) && !/you (are|have) (at|reached) ☆/.test(cardText));
 
   // Ticking a gated quest's route item must move it from open to done.
   const target = routed.find(c => c.classList.contains("is-open"));
@@ -113,11 +113,11 @@ const waitFor = async (test, message, timeout = 10000) => {
 
   // Area filter narrows the ladder.
   const select = doc.getElementById("affinity-area");
-  select.value = "Colony 9";
+  select.value = "コロニー9";
   select.dispatchEvent(new window.Event("change", { bubbles: true }));
   await new Promise(r => setTimeout(r, 80));
   const filtered = [...gates.querySelectorAll(".gate-area")];
-  check("Area filter narrows the ladder", filtered.length === 1 && filtered[0].querySelector("summary b").textContent === "Colony 9",
+  check("Area filter narrows the ladder", filtered.length === 1 && filtered[0].querySelector("summary b").textContent === "コロニー9",
     filtered.map(a => a.querySelector("summary b").textContent).join(","));
 
   select.value = "";

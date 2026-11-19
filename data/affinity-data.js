@@ -22,25 +22,25 @@ const AFFINITY_DATA={
   "residents": [
     {
       "id": "resident-a-defence-force-soldier-cd0c67",
-      "name": "A Defence Force Soldier",
+      "name": "防衛隊員",
       "areas": [
-        "Colony 9"
+        "コロニー9"
       ],
       "locations": [
         {
-          "location": "Colony 9 (Cylinder Hangar) · Anytime",
+          "location": "コロニー9（シリンダー格納庫） · いつでも",
           "time": ""
         },
         {
-          "location": "Colony 9 (Military District)",
+          "location": "コロニー9 (軍事区)",
           "time": "18:00–06:00"
         },
         {
-          "location": "Colony 9 (Military District)",
+          "location": "コロニー9 (軍事区)",
           "time": "06:00–18:00"
         },
         {
-          "location": "Colony 9 (Tephra Cave) · Anytime",
+          "location": "コロニー9（テフラ洞窟） · いつでも",
           "time": ""
         }
       ],
@@ -69,11 +69,11 @@ const AFFINITY_DATA={
       "id": "resident-a-garrisoned-troop-machina-3bde52",
       "name": "A Garrisoned Troop Machina",
       "areas": [
-        "Mechonis Field"
+        "機神界フィールド"
       ],
       "locations": [
         {
-          "location": "Mechonis Field (Machina Refuge)",
+          "location": "機神界フィールド (マシーナの隠れ家)",
           "time": ""
         }
       ],
@@ -91,21 +91,21 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-a-homs-camp-resident-0c0d41",
-      "name": "A Homs Camp Resident",
+      "name": "ホムスのキャンプの住人",
       "areas": [
-        "Bionis' Leg"
+        "巨神脚"
       ],
       "locations": [
         {
-          "location": "Bionis' Leg (Refugee Camp)",
+          "location": "巨神脚 (脱出艇キャンプ)",
           "time": "06:00–18:00"
         },
         {
-          "location": "Bionis' Leg (Refugee Camp)",
+          "location": "巨神脚 (脱出艇キャンプ)",
           "time": "18:00–06:00"
         },
         {
-          "location": "Bionis' Leg (Refugee Camp) · Anytime",
+          "location": "巨神脚（脱出艇キャンプ） · いつでも",
           "time": ""
         }
       ],
@@ -133,29 +133,29 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-a-homs-resident-dee5a6",
-      "name": "A Homs Resident",
+      "name": "ホムスの住人",
       "areas": [
-        "Colony 9"
+        "コロニー9"
       ],
       "locations": [
         {
-          "location": "Colony 9 (Commercial District)",
+          "location": "コロニー9 (商業区)",
           "time": "06:00–18:00"
         },
         {
-          "location": "Colony 9 (Commercial District)",
+          "location": "コロニー9 (商業区)",
           "time": "18:00–06:00"
         },
         {
-          "location": "Colony 9 (Residential District)",
+          "location": "コロニー9 (居住区)",
           "time": "18:00–06:00"
         },
         {
-          "location": "Colony 9 (Residential District)",
+          "location": "コロニー9 (居住区)",
           "time": "06:00–18:00"
         },
         {
-          "location": "Colony 9 (Central Plaza)",
+          "location": "コロニー9 (Central Plaza)",
           "time": "18:00–06:00"
         }
       ],
@@ -185,13 +185,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-a-homs-traveller-33b55b",
-      "name": "A Homs Traveller",
+      "name": "ホムス旅人",
       "areas": [
-        "Bionis' Leg"
+        "巨神脚"
       ],
       "locations": [
         {
-          "location": "Bionis' Leg (Ragrinar Canyon Path) · Anytime",
+          "location": "巨神脚（ラグリナ渓谷道） · いつでも",
           "time": ""
         }
       ],
@@ -210,13 +210,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-a-nopon-camp-resident-37e646",
-      "name": "A Nopon Camp Resident",
+      "name": "ノポンキャンプの住人",
       "areas": [
-        "Bionis' Leg"
+        "巨神脚"
       ],
       "locations": [
         {
-          "location": "Bionis' Leg (Refugee Camp)",
+          "location": "巨神脚 (脱出艇キャンプ)",
           "time": "06:00–18:00"
         }
       ],
@@ -233,18 +233,18 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-a-nopon-merchant-57182c",
-      "name": "A Nopon Merchant",
+      "name": "ノポン商会",
       "areas": [
-        "Makna Forest",
-        "Satorl Marsh"
+        "マクナ原生林",
+        "燐光の地ザトール"
       ],
       "locations": [
         {
-          "location": "Satorl Marsh (Nopon Merchant Camp) · Anytime",
+          "location": "燐光の地ザトール（ノポン商会キャンプ） · いつでも",
           "time": ""
         },
         {
-          "location": "Makna Forest (Agni Tablet)",
+          "location": "マクナ原生林 (アギニの碑)",
           "time": ""
         }
       ],
@@ -268,25 +268,25 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-a-nopon-researcher-04e99e",
-      "name": "A Nopon Researcher",
+      "name": "ノポン調査隊",
       "areas": [
-        "Valak Mountain"
+        "ヴァラク雪山"
       ],
       "locations": [
         {
-          "location": "Valak Mountain (Nopon Camp) · Anytime",
+          "location": "ヴァラク雪山（ノポンキャンプ） · いつでも",
           "time": ""
         },
         {
-          "location": "Valak Mountain (Hollow Bone) · Anytime",
+          "location": "ヴァラク雪山（巨神の環状骨） · いつでも",
           "time": ""
         },
         {
-          "location": "Valak Mountain (Great Glacier) · Anytime",
+          "location": "ヴァラク雪山（大氷河地帯） · いつでも",
           "time": ""
         },
         {
-          "location": "Valak Mountain (Zokhed Pass)",
+          "location": "ヴァラク雪山 (ゾックヘッド峠)",
           "time": ""
         }
       ],
@@ -309,21 +309,21 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-a-nopon-resident-725d35",
-      "name": "A Nopon Resident",
+      "name": "ノポンの住人",
       "areas": [
-        "Colony 9"
+        "コロニー9"
       ],
       "locations": [
         {
-          "location": "Colony 9 (Commercial District)",
+          "location": "コロニー9 (商業区)",
           "time": "06:00–18:00"
         },
         {
-          "location": "Colony 9 (Military District)",
+          "location": "コロニー9 (軍事区)",
           "time": "06:00–18:00"
         },
         {
-          "location": "Colony 9 (Residential District)",
+          "location": "コロニー9 (居住区)",
           "time": "06:00–18:00"
         }
       ],
@@ -341,9 +341,9 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-adidi-7bed18",
-      "name": "Adidi",
+      "name": "アリンダ",
       "areas": [
-        "Frontier Village"
+        "サイハテ村"
       ],
       "locations": [],
       "questIds": [],
@@ -358,46 +358,46 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-alcamoth-citizen-c9bd73",
-      "name": "Alcamoth Citizen",
+      "name": "アカモート住人",
       "areas": [
-        "Alcamoth",
-        "Eryth Sea"
+        "皇都アカモート",
+        "エルト海"
       ],
       "locations": [
         {
-          "location": "Eryth Sea (Syrath Lighthouse) · Anytime.",
+          "location": "エルト海（シウェラート灯台） · いつでも",
           "time": ""
         },
         {
-          "location": "Alcamoth (Imperial Palace)",
+          "location": "皇都アカモート (皇宮)",
           "time": "06:00–18:00"
         },
         {
-          "location": "Alcamoth (Melfica Road)",
+          "location": "皇都アカモート (メルフィカ通り)",
           "time": "06:00–18:00"
         },
         {
-          "location": "Alcamoth (Fountain of Hope)",
+          "location": "皇都アカモート (希望の噴水)",
           "time": "18:00–06:00"
         },
         {
-          "location": "Alcamoth (Fountain of Eternity)",
+          "location": "皇都アカモート (永遠の噴水)",
           "time": "18:00–06:00"
         },
         {
-          "location": "Alcamoth (Fountain of Eternity)",
+          "location": "皇都アカモート (永遠の噴水)",
           "time": "06:00–18:00"
         },
         {
-          "location": "Alcamoth (Main Entrance)",
+          "location": "皇都アカモート (Main Entrance)",
           "time": "06:00–18:00"
         },
         {
-          "location": "Alcamoth (Fountain of Hope)",
+          "location": "皇都アカモート (希望の噴水)",
           "time": "06:00–18:00"
         },
         {
-          "location": "Alcamoth (Melfica Road)",
+          "location": "皇都アカモート (メルフィカ通り)",
           "time": "18:00–06:00"
         }
       ],
@@ -434,25 +434,25 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-alcamoth-imperial-guard-c0b246",
-      "name": "Alcamoth Imperial Guard",
+      "name": "アカモート衛士",
       "areas": [
-        "Alcamoth"
+        "皇都アカモート"
       ],
       "locations": [
         {
-          "location": "Alcamoth (Imperial Palace)",
+          "location": "皇都アカモート (皇宮)",
           "time": "18:00–06:00"
         },
         {
-          "location": "Alcamoth (Ascension Hall)",
+          "location": "皇都アカモート (聖天翔の間)",
           "time": "18:00–06:00"
         },
         {
-          "location": "Alcamoth (Ascension Hall)",
+          "location": "皇都アカモート (聖天翔の間)",
           "time": "06:00–18:00"
         },
         {
-          "location": "Alcamoth (Main Entrance)",
+          "location": "皇都アカモート (Main Entrance)",
           "time": "06:00–18:00"
         }
       ],
@@ -475,13 +475,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-andreas-60d795",
-      "name": "Andreas",
+      "name": "アードルフ",
       "areas": [
-        "Colony 9"
+        "コロニー9"
       ],
       "locations": [
         {
-          "location": "Colony 9 (Military District)",
+          "location": "コロニー9 (軍事区)",
           "time": "18:00–06:00"
         }
       ],
@@ -497,13 +497,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-anna-0dc3c1",
-      "name": "Anna",
+      "name": "アンナ",
       "areas": [
-        "Colony 6"
+        "コロニー6"
       ],
       "locations": [
         {
-          "location": "Colony 6 (Reconstruction HQ)",
+          "location": "コロニー6 (コロニー6 復興本部)",
           "time": "09:00–18:00"
         }
       ],
@@ -519,18 +519,18 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-arda-21f914",
-      "name": "Arda",
+      "name": "アーダ",
       "areas": [
-        "Bionis' Leg",
-        "Colony 6"
+        "巨神脚",
+        "コロニー6"
       ],
       "locations": [
         {
-          "location": "Bionis' Leg (Refugee Camp) · Anytime",
+          "location": "巨神脚（脱出艇キャンプ） · いつでも",
           "time": ""
         },
         {
-          "location": "Colony 6 (Reconstruction HQ)",
+          "location": "コロニー6 (コロニー6 復興本部)",
           "time": "06:00–15:00"
         }
       ],
@@ -547,13 +547,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-arielle-5ecda2",
-      "name": "Arielle",
+      "name": "アリエッタ",
       "areas": [
-        "Alcamoth"
+        "皇都アカモート"
       ],
       "locations": [
         {
-          "location": "Alcamoth (Fountain of Eternity)",
+          "location": "皇都アカモート (永遠の噴水)",
           "time": "18:00–06:00"
         }
       ],
@@ -569,13 +569,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-atael-42360a",
-      "name": "Atael",
+      "name": "アテル",
       "areas": [
-        "Frontier Village"
+        "サイハテ村"
       ],
       "locations": [
         {
-          "location": "Frontier Village (Reservoir)",
+          "location": "サイハテ村 (貯水池)",
           "time": "06:00–18:00"
         }
       ],
@@ -591,13 +591,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-bana-fea6ca",
-      "name": "Bana",
+      "name": "バーン",
       "areas": [
-        "Frontier Village"
+        "サイハテ村"
       ],
       "locations": [
         {
-          "location": "Frontier Village (Central Plaza)",
+          "location": "サイハテ村 (Central Plaza)",
           "time": "18:00–06:00"
         }
       ],
@@ -613,13 +613,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-batubatu-817546",
-      "name": "Batubatu",
+      "name": "バルド",
       "areas": [
-        "Bionis' Leg"
+        "巨神脚"
       ],
       "locations": [
         {
-          "location": "Bionis' Leg (Traveller's Rest) · Anytime",
+          "location": "巨神脚（旅人の休息跡地） · いつでも",
           "time": ""
         }
       ],
@@ -635,13 +635,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-berryjammy-ca4c7f",
-      "name": "Berryjammy",
+      "name": "ストロジャム",
       "areas": [
-        "Colony 6"
+        "コロニー6"
       ],
       "locations": [
         {
-          "location": "Colony 6 (Reconstruction HQ)",
+          "location": "コロニー6 (コロニー6 復興本部)",
           "time": "18:00–03:00"
         }
       ],
@@ -659,13 +659,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-betty-b908f3",
-      "name": "Betty",
+      "name": "ベッティ",
       "areas": [
-        "Colony 9"
+        "コロニー9"
       ],
       "locations": [
         {
-          "location": "Colony 9 (Residential District)",
+          "location": "コロニー9 (居住区)",
           "time": "06:00–15:00"
         }
       ],
@@ -681,13 +681,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-bokoko-f62e98",
-      "name": "Bokoko",
+      "name": "ゴド",
       "areas": [
-        "Satorl Marsh"
+        "燐光の地ザトール"
       ],
       "locations": [
         {
-          "location": "Satorl Marsh (Nopon Merchant Camp) · Anytime",
+          "location": "燐光の地ザトール（ノポン商会キャンプ） · いつでも",
           "time": ""
         }
       ],
@@ -704,13 +704,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-bozatrox-5269a6",
-      "name": "Bozatrox",
+      "name": "ボゼローネ",
       "areas": [
-        "Mechonis Field"
+        "機神界フィールド"
       ],
       "locations": [
         {
-          "location": "Mechonis Field (Machina Refuge)",
+          "location": "機神界フィールド (マシーナの隠れ家)",
           "time": ""
         }
       ],
@@ -726,17 +726,17 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-cherri-f6c8ca",
-      "name": "Cherri",
+      "name": "チリ",
       "areas": [
-        "Frontier Village"
+        "サイハテ村"
       ],
       "locations": [
         {
-          "location": "Frontier Village (Pollen Orb Storehouse)",
+          "location": "サイハテ村 (花粉玉倉庫)",
           "time": "06:00–18:00"
         },
         {
-          "location": "Frontier VIllage (Pollen Orb Storehouse)",
+          "location": "Frontier VIllage (花粉玉倉庫)",
           "time": "06:00–18:00"
         }
       ],
@@ -756,13 +756,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-cheryl-187037",
-      "name": "Cheryl",
+      "name": "ツィリル",
       "areas": [
-        "Colony 9"
+        "コロニー9"
       ],
       "locations": [
         {
-          "location": "Commercial District (Northeast)",
+          "location": "商業区（北東）",
           "time": "06:00–15:00"
         }
       ],
@@ -778,9 +778,9 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-cian-abd30a",
-      "name": "Cian",
+      "name": "キィーノ",
       "areas": [
-        "Frontier Village"
+        "サイハテ村"
       ],
       "locations": [],
       "questIds": [],
@@ -795,13 +795,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-city-planning-terminal-8c6c05",
-      "name": "City Planning Terminal",
+      "name": "ターミナル：都市計画",
       "areas": [
-        "Agniratha"
+        "帝都アグニラータ"
       ],
       "locations": [
         {
-          "location": "Anytime · Agniratha (Central Tower)",
+          "location": "いつでも · 帝都アグニラータ（帝都中枢タワー）",
           "time": ""
         }
       ],
@@ -818,13 +818,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-civil-protection-terminal-b8bac8",
-      "name": "Civil Protection Terminal",
+      "name": "ターミナル：治安維持",
       "areas": [
-        "Agniratha"
+        "帝都アグニラータ"
       ],
       "locations": [
         {
-          "location": "Anytime · Agniratha (Central Tower)",
+          "location": "いつでも · 帝都アグニラータ（帝都中枢タワー）",
           "time": ""
         }
       ],
@@ -845,13 +845,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-colony-6-residents-9fc617",
-      "name": "Colony 6 Residents",
+      "name": "コロニー6住民一同",
       "areas": [
-        "Colony 6"
+        "コロニー6"
       ],
       "locations": [
         {
-          "location": "Colony 6  · Automatic",
+          "location": "コロニー6 · 自動",
           "time": ""
         }
       ],
@@ -871,17 +871,17 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-dabidabi-66e65a",
-      "name": "Dabidabi",
+      "name": "ダビダビ",
       "areas": [
-        "Frontier Village"
+        "サイハテ村"
       ],
       "locations": [
         {
-          "location": "Frontier Village (Chief's Residence)",
+          "location": "サイハテ村 (村長の家)",
           "time": "18:00–03:00"
         },
         {
-          "location": "Frontier Village (Mysterious Sanctuary)",
+          "location": "サイハテ村 (8Ｆ 神秘の聖域)",
           "time": "18:00–03:00"
         }
       ],
@@ -898,13 +898,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-dakuku-eeac86",
-      "name": "Dakuku",
+      "name": "ダルク",
       "areas": [
-        "Valak Mountain"
+        "ヴァラク雪山"
       ],
       "locations": [
         {
-          "location": "Valak Mountain (Nopon Camp) · Anytime",
+          "location": "ヴァラク雪山（ノポンキャンプ） · いつでも",
           "time": ""
         }
       ],
@@ -921,13 +921,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-daza-79057d",
-      "name": "Daza",
+      "name": "ガザ",
       "areas": [
-        "Colony 6"
+        "コロニー6"
       ],
       "locations": [
         {
-          "location": "Colony 6 (Watchpoint Junction or Hope Farm Shop) · Anytime",
+          "location": "コロニー6 (物見の三叉路 or 希望の農場 Shop) · Anytime",
           "time": ""
         }
       ],
@@ -945,13 +945,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-dean-0e21b2",
-      "name": "Dean",
+      "name": "ディーン",
       "areas": [
-        "Colony 9"
+        "コロニー9"
       ],
       "locations": [
         {
-          "location": "Colony 9 (Military District)",
+          "location": "コロニー9 (軍事区)",
           "time": "06:00–15:00"
         }
       ],
@@ -967,17 +967,17 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-defence-force-soldier-c23f1e",
-      "name": "Defence Force Soldier",
+      "name": "防衛隊員",
       "areas": [
-        "Tephra Cave"
+        "テフラ洞窟"
       ],
       "locations": [
         {
-          "location": "Tephra Cave (Warehouse 2)",
+          "location": "テフラ洞窟 (第2左舷倉庫)",
           "time": ""
         },
         {
-          "location": "Tephra Cave (Escape Pod Bay)",
+          "location": "テフラ洞窟 (脱出ポッド室)",
           "time": ""
         }
       ],
@@ -1000,13 +1000,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-deki-e62aa5",
-      "name": "Deki",
+      "name": "デク",
       "areas": [
-        "Frontier Village"
+        "サイハテ村"
       ],
       "locations": [
         {
-          "location": "Frontier Village (Nopon Tower)",
+          "location": "サイハテ村 (ノポンタワー)",
           "time": "09:00–18:00"
         }
       ],
@@ -1025,17 +1025,17 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-desiree-83bb32",
-      "name": "Désirée",
+      "name": "デジレーン",
       "areas": [
-        "Colony 9"
+        "コロニー9"
       ],
       "locations": [
         {
-          "location": "Colony 9 (Commercial District)",
+          "location": "コロニー9 (商業区)",
           "time": "18:00–03:00"
         },
         {
-          "location": "Colony 9 (Commercial District)",
+          "location": "コロニー9 (商業区)",
           "time": "21:00–03:00"
         }
       ],
@@ -1053,13 +1053,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-dionysis-3a2b10",
-      "name": "Dionysis",
+      "name": "ディオニージス",
       "areas": [
-        "Colony 9"
+        "コロニー9"
       ],
       "locations": [
         {
-          "location": "Colony 9 (Residential District)",
+          "location": "コロニー9 (居住区)",
           "time": "06:00–13:00"
         }
       ],
@@ -1075,17 +1075,17 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-dobadoba-97e19d",
-      "name": "Dobadoba",
+      "name": "ドバガス",
       "areas": [
-        "Frontier Village"
+        "サイハテ村"
       ],
       "locations": [
         {
-          "location": "Frontier Village (Pollen Orb Storehouse)",
+          "location": "サイハテ村 (花粉玉倉庫)",
           "time": "03:00–21:00"
         },
         {
-          "location": "Frontier VIllage (Pollen Orb Storehouse)",
+          "location": "Frontier VIllage (花粉玉倉庫)",
           "time": "06:00–18:00"
         }
       ],
@@ -1103,13 +1103,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-don-argentis-c0bfbc",
-      "name": "Don Argentis",
+      "name": "ドン・シルバー",
       "areas": [
-        "Colony 6"
+        "コロニー6"
       ],
       "locations": [
         {
-          "location": "Colony 6 (Reconstruction HQ)",
+          "location": "コロニー6 (コロニー6 復興本部)",
           "time": "06:00–18:00"
         }
       ],
@@ -1126,13 +1126,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-dorothy-d7a9d0",
-      "name": "Dorothy",
+      "name": "ドロテア",
       "areas": [
-        "Colony 9"
+        "コロニー9"
       ],
       "locations": [
         {
-          "location": "Colony 9 (Commercial District)",
+          "location": "コロニー9 (商業区)",
           "time": "06:00–18:00"
         }
       ],
@@ -1150,22 +1150,22 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-dulland-ce9c3d",
-      "name": "Dulland",
+      "name": "デュランド",
       "areas": [
-        "Bionis' Leg",
-        "Colony 6"
+        "巨神脚",
+        "コロニー6"
       ],
       "locations": [
         {
-          "location": "Bionis' Leg (Refugee Camp) · Anytime",
+          "location": "巨神脚（脱出艇キャンプ） · いつでも",
           "time": ""
         },
         {
-          "location": "Colony 6 (Main Entrance) · Anytime",
+          "location": "コロニー6（Main Entrance） · いつでも",
           "time": ""
         },
         {
-          "location": "Colony 6 (Reconstruction HQ) · Anytime",
+          "location": "コロニー6（コロニー6 復興本部） · いつでも",
           "time": ""
         }
       ],
@@ -1184,13 +1184,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-earnest-fbd959",
-      "name": "Earnest",
+      "name": "オーネスト",
       "areas": [
-        "Bionis' Leg"
+        "巨神脚"
       ],
       "locations": [
         {
-          "location": "Bionis' Leg (Refugee Camp) · Anytime",
+          "location": "巨神脚（脱出艇キャンプ） · いつでも",
           "time": ""
         }
       ],
@@ -1208,13 +1208,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-eleqa-a8d5f8",
-      "name": "Eleqa",
+      "name": "エレナ",
       "areas": [
-        "Fallen Arm"
+        "落ちた腕"
       ],
       "locations": [
         {
-          "location": "Fallen Arm (Hidden Machina Village)",
+          "location": "落ちた腕 (マシーナの隠れ里)",
           "time": "06:00–18:00"
         }
       ],
@@ -1234,18 +1234,18 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-elior-428bf5",
-      "name": "Elior",
+      "name": "エイン",
       "areas": [
-        "Alcamoth",
-        "Bionis' Leg"
+        "皇都アカモート",
+        "巨神脚"
       ],
       "locations": [
         {
-          "location": "Bionis' Leg (Refugee Camp)",
+          "location": "巨神脚 (脱出艇キャンプ)",
           "time": "18:00–06:00"
         },
         {
-          "location": "Alcamoth (Fountain of Eternity)",
+          "location": "皇都アカモート (永遠の噴水)",
           "time": "06:00–18:00"
         }
       ],
@@ -1263,13 +1263,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-emmy-leater-db5ddf",
-      "name": "Emmy Leater",
+      "name": "エミ・リータ",
       "areas": [
-        "Colony 9"
+        "コロニー9"
       ],
       "locations": [
         {
-          "location": "Colony 9 (Military District)",
+          "location": "コロニー9 (軍事区)",
           "time": "06:00–18:00"
         }
       ],
@@ -1288,13 +1288,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-en-argentis-55885b",
-      "name": "En Argentis",
+      "name": "エン・シルバー",
       "areas": [
-        "Colony 6"
+        "コロニー6"
       ],
       "locations": [
         {
-          "location": "Colony 6 (Reconstruction HQ)",
+          "location": "コロニー6 (コロニー6 復興本部)",
           "time": "15:00–03:00"
         }
       ],
@@ -1310,9 +1310,9 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-erik-5e4a59",
-      "name": "Erik",
+      "name": "エリック",
       "areas": [
-        "Colony 9"
+        "コロニー9"
       ],
       "locations": [],
       "questIds": [],
@@ -1327,18 +1327,18 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-ewan-8956b4",
-      "name": "Ewan",
+      "name": "イワン",
       "areas": [
-        "Bionis' Leg",
-        "Colony 6"
+        "巨神脚",
+        "コロニー6"
       ],
       "locations": [
         {
-          "location": "Bionis' Leg (Refugee Camp)",
+          "location": "巨神脚 (脱出艇キャンプ)",
           "time": "06:00–18:00"
         },
         {
-          "location": "Colony 6 (Reconstruction HQ)",
+          "location": "コロニー6 (コロニー6 復興本部)",
           "time": "18:00–06:00"
         }
       ],
@@ -1356,13 +1356,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-francoise-4582b2",
-      "name": "Françoise",
+      "name": "フランソワ",
       "areas": [
-        "Colony 9"
+        "コロニー9"
       ],
       "locations": [
         {
-          "location": "Colony 9 (Residential District)",
+          "location": "コロニー9 (居住区)",
           "time": "06:00–15:00"
         }
       ],
@@ -1378,13 +1378,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-gadada-d1a124",
-      "name": "Gadada",
+      "name": "ガルダ",
       "areas": [
-        "Frontier Village"
+        "サイハテ村"
       ],
       "locations": [
         {
-          "location": "Frontier Village (Pollen Works)",
+          "location": "サイハテ村 (花粉工場)",
           "time": "06:00–18:00"
         }
       ],
@@ -1407,13 +1407,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-galdo-b92141",
-      "name": "Galdo",
+      "name": "ガーダ",
       "areas": [
-        "Alcamoth"
+        "皇都アカモート"
       ],
       "locations": [
         {
-          "location": "Alcamoth (Great Hall)",
+          "location": "皇都アカモート (大広間)",
           "time": "18:00–06:00"
         }
       ],
@@ -1429,9 +1429,9 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-galvin-b49d27",
-      "name": "Galvin",
+      "name": "ガング",
       "areas": [
-        "Alcamoth"
+        "皇都アカモート"
       ],
       "locations": [],
       "questIds": [],
@@ -1446,13 +1446,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-gem-man-3d1ece",
-      "name": "Gem Man",
+      "name": "ジェム爺",
       "areas": [
-        "Colony 9"
+        "コロニー9"
       ],
       "locations": [
         {
-          "location": "Colony 9 (Gem Man's Stall) · Anytime",
+          "location": "コロニー9（ジェム爺の露天商） · いつでも",
           "time": ""
         }
       ],
@@ -1468,13 +1468,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-gerugu-13c91b",
-      "name": "Gerugu",
+      "name": "グレリー",
       "areas": [
-        "Bionis' Leg"
+        "巨神脚"
       ],
       "locations": [
         {
-          "location": "Bionis' Leg (Traveller's Rest) · Anytime",
+          "location": "巨神脚（旅人の休息跡地） · いつでも",
           "time": ""
         }
       ],
@@ -1492,13 +1492,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-giorgio-2411ba",
-      "name": "Giorgio",
+      "name": "コパム",
       "areas": [
-        "Colony 9"
+        "コロニー9"
       ],
       "locations": [
         {
-          "location": "Colony 9 (Commercial District)",
+          "location": "コロニー9 (商業区)",
           "time": "06:00–18:00"
         }
       ],
@@ -1517,18 +1517,18 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-gorman-e87fc2",
-      "name": "Gorman",
+      "name": "ゲールマン",
       "areas": [
-        "Bionis' Leg",
-        "Colony 6"
+        "巨神脚",
+        "コロニー6"
       ],
       "locations": [
         {
-          "location": "Bionis' Leg (Refugee Camp)",
+          "location": "巨神脚 (脱出艇キャンプ)",
           "time": "21:00–06:00"
         },
         {
-          "location": "Colony 6 (Reconstruction HQ)",
+          "location": "コロニー6 (コロニー6 復興本部)",
           "time": "18:00–06:00"
         }
       ],
@@ -1548,13 +1548,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-gowago-db4bf3",
-      "name": "Gowago",
+      "name": "ゴワゴワー",
       "areas": [
-        "Colony 6"
+        "コロニー6"
       ],
       "locations": [
         {
-          "location": "Colony 6 (Reconstruction HQ)",
+          "location": "コロニー6 (コロニー6 復興本部)",
           "time": "06:00–18:00"
         }
       ],
@@ -1570,13 +1570,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-high-entia-refugee-5b3f24",
-      "name": "High Entia Refugee",
+      "name": "ハイエンター避難民",
       "areas": [
-        "Satorl Marsh"
+        "燐光の地ザトール"
       ],
       "locations": [
         {
-          "location": "Satorl Marsh (Sororal Statues)",
+          "location": "燐光の地ザトール (岩窟の姉妹像)",
           "time": "06:00–18:00"
         }
       ],
@@ -1592,13 +1592,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-hoko-f72001",
-      "name": "Hoko",
+      "name": "ホコ",
       "areas": [
-        "Colony 6"
+        "コロニー6"
       ],
       "locations": [
         {
-          "location": "Colony 6 (Reconstruction HQ)",
+          "location": "コロニー6 (コロニー6 復興本部)",
           "time": "09:00–18:00"
         }
       ],
@@ -1615,13 +1615,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-jackson-f1ed15",
-      "name": "Jackson",
+      "name": "ジャクソン",
       "areas": [
-        "Colony 9"
+        "コロニー9"
       ],
       "locations": [
         {
-          "location": "Colony 9 (Residential District)",
+          "location": "コロニー9 (居住区)",
           "time": "06:00–18:00"
         }
       ],
@@ -1639,13 +1639,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-jan-efed36",
-      "name": "Jan",
+      "name": "ヤーン",
       "areas": [
-        "Colony 9"
+        "コロニー9"
       ],
       "locations": [
         {
-          "location": "Colony 9 (Military District)",
+          "location": "コロニー9 (軍事区)",
           "time": "06:00–18:00"
         }
       ],
@@ -1661,13 +1661,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-jarack-bb03b3",
-      "name": "Jarack",
+      "name": "ジャック",
       "areas": [
-        "Eryth Sea"
+        "エルト海"
       ],
       "locations": [
         {
-          "location": "Eryth Sea (Ether Plant) · Anytime",
+          "location": "エルト海（エーテルプラント） · いつでも",
           "time": ""
         }
       ],
@@ -1686,13 +1686,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-jer-ell-09f559",
-      "name": "Jer'ell",
+      "name": "ジェリコン",
       "areas": [
-        "Colony 6"
+        "コロニー6"
       ],
       "locations": [
         {
-          "location": "Colony 6 (Reconstruction HQ)",
+          "location": "コロニー6 (コロニー6 復興本部)",
           "time": "18:00–06:00"
         }
       ],
@@ -1708,13 +1708,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-jiroque-99e86c",
-      "name": "Jiroque",
+      "name": "ジローク",
       "areas": [
-        "Colony 9"
+        "コロニー9"
       ],
       "locations": [
         {
-          "location": "Colony 9 (Residential District)",
+          "location": "コロニー9 (居住区)",
           "time": "18:00–03:00"
         }
       ],
@@ -1731,13 +1731,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-junks-staff-92a612",
-      "name": "Junks Staff",
+      "name": "ジャンクス・スタッフ",
       "areas": [
-        "Central Factory"
+        "中央工廠"
       ],
       "locations": [
         {
-          "location": "Central Factory (Ventilation Conduit)",
+          "location": "中央工廠 (送風機内ジャンクス前)",
           "time": ""
         }
       ],
@@ -1753,13 +1753,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-kacha-7c4c13",
-      "name": "Kacha",
+      "name": "カチャ",
       "areas": [
-        "Satorl Marsh"
+        "燐光の地ザトール"
       ],
       "locations": [
         {
-          "location": "Satorl Marsh (Nopon Merchant Camp) · Anytime",
+          "location": "燐光の地ザトール（ノポン商会キャンプ） · いつでも",
           "time": ""
         }
       ],
@@ -1776,13 +1776,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-kaleka-023300",
-      "name": "Kaleka",
+      "name": "ガルバ",
       "areas": [
-        "Frontier Village"
+        "サイハテ村"
       ],
       "locations": [
         {
-          "location": "Frontier Village (Nopon Tower)",
+          "location": "サイハテ村 (ノポンタワー)",
           "time": "18:00–06:00"
         }
       ],
@@ -1799,13 +1799,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-kantz-4bfa25",
-      "name": "Kantz",
+      "name": "カンタン",
       "areas": [
-        "Colony 9"
+        "コロニー9"
       ],
       "locations": [
         {
-          "location": "Colony 9 (Military District)",
+          "location": "コロニー9 (軍事区)",
           "time": "06:00–15:00"
         }
       ],
@@ -1823,13 +1823,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-karlos-e247c8",
-      "name": "Karlos",
+      "name": "カラル",
       "areas": [
-        "Fallen Arm"
+        "落ちた腕"
       ],
       "locations": [
         {
-          "location": "Fallen Arm (Hidden Machina Village)",
+          "location": "落ちた腕 (マシーナの隠れ里)",
           "time": "18:00–06:00"
         }
       ],
@@ -1845,13 +1845,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-kazat-747d84",
-      "name": "Kazat",
+      "name": "カイルス",
       "areas": [
-        "Fallen Arm"
+        "落ちた腕"
       ],
       "locations": [
         {
-          "location": "Fallen Arm (Hidden Machina Village)",
+          "location": "落ちた腕 (マシーナの隠れ里)",
           "time": "06:00–18:00"
         }
       ],
@@ -1869,13 +1869,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-kenny-rohan-8f1379",
-      "name": "Kenny Rohan",
+      "name": "ケニ・ルヒン",
       "areas": [
-        "Colony 9"
+        "コロニー9"
       ],
       "locations": [
         {
-          "location": "Colony 9",
+          "location": "コロニー9",
           "time": "21:00–15:00"
         }
       ],
@@ -1892,13 +1892,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-kilaki-a69bfa",
-      "name": "Kilaki",
+      "name": "キカ",
       "areas": [
-        "Frontier Village"
+        "サイハテ村"
       ],
       "locations": [
         {
-          "location": "Frontier Village (Archaeology Level)",
+          "location": "サイハテ村 (6Ｆ 遺跡研究板)",
           "time": "06:00–15:00"
         }
       ],
@@ -1916,13 +1916,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-king-squeeze-ba8a39",
-      "name": "King Squeeze",
+      "name": "キング・スクイズ",
       "areas": [
-        "Colony 9"
+        "コロニー9"
       ],
       "locations": [
         {
-          "location": "Colony 9 (Commercial District)",
+          "location": "コロニー9 (商業区)",
           "time": "21:00–03:00"
         }
       ],
@@ -1938,13 +1938,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-kofuko-3cdd17",
-      "name": "Kofuko",
+      "name": "フゴフゴ",
       "areas": [
-        "Frontier Village"
+        "サイハテ村"
       ],
       "locations": [
         {
-          "location": "Frontier Village (Central Plaza)",
+          "location": "サイハテ村 (Central Plaza)",
           "time": "21:00–06:00"
         }
       ],
@@ -1965,13 +1965,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-kokora-9067e8",
-      "name": "Kokora",
+      "name": "キララ",
       "areas": [
-        "Frontier Village"
+        "サイハテ村"
       ],
       "locations": [
         {
-          "location": "Frontier Village (Nopon Tower)",
+          "location": "サイハテ村 (ノポンタワー)",
           "time": "06:00–18:00"
         }
       ],
@@ -1987,9 +1987,9 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-kuriku-3e57d9",
-      "name": "Kuriku",
+      "name": "キュリ",
       "areas": [
-        "Frontier Village"
+        "サイハテ村"
       ],
       "locations": [],
       "questIds": [],
@@ -2004,14 +2004,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-kurralth-b347ae",
-      "name": "Kurralth",
+      "name": "クラル",
       "areas": [
-        "Alcamoth",
-        "Valak Mountain"
+        "皇都アカモート",
+        "ヴァラク雪山"
       ],
       "locations": [
         {
-          "location": "Valak Mountain (Harict Chapel) · Anytime",
+          "location": "ヴァラク雪山（ハリクト礼拝堂） · いつでも",
           "time": ""
         }
       ],
@@ -2029,13 +2029,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-lalapa-366b9e",
-      "name": "Lalapa",
+      "name": "ラパン",
       "areas": [
-        "Frontier Village"
+        "サイハテ村"
       ],
       "locations": [
         {
-          "location": "Frontier Village (Chief's Residence)",
+          "location": "サイハテ村 (村長の家)",
           "time": "06:00–18:00"
         }
       ],
@@ -2051,9 +2051,9 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-lar-shen-33ff57",
-      "name": "Lar'shen",
+      "name": "チャールズ",
       "areas": [
-        "Alcamoth"
+        "皇都アカモート"
       ],
       "locations": [],
       "questIds": [],
@@ -2068,13 +2068,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-lecrough-853b3b",
-      "name": "Lecrough",
+      "name": "ロクロ",
       "areas": [
-        "Alcamoth"
+        "皇都アカモート"
       ],
       "locations": [
         {
-          "location": "Alcamoth (Great Hall)",
+          "location": "皇都アカモート (大広間)",
           "time": "06:00–18:00"
         }
       ],
@@ -2091,13 +2091,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-leku-636b3f",
-      "name": "Leku",
+      "name": "レク",
       "areas": [
-        "Frontier Village"
+        "サイハテ村"
       ],
       "locations": [
         {
-          "location": "Frontier Village (Archaeology Level)",
+          "location": "サイハテ村 (6Ｆ 遺跡研究板)",
           "time": "06:00–18:00"
         }
       ],
@@ -2116,13 +2116,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-leopold-5c579e",
-      "name": "Leopold",
+      "name": "レモーレオン",
       "areas": [
-        "Colony 9"
+        "コロニー9"
       ],
       "locations": [
         {
-          "location": "Colony 9 (Commercial District)",
+          "location": "コロニー9 (商業区)",
           "time": "18:00–06:00"
         }
       ],
@@ -2138,13 +2138,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-lighthouse-keeper-0706ee",
-      "name": "Lighthouse Keeper",
+      "name": "ハイエンター灯台守",
       "areas": [
-        "Eryth Sea"
+        "エルト海"
       ],
       "locations": [
         {
-          "location": "Eryth Sea (Syrath Lighthouse) · Anytime.",
+          "location": "エルト海（シウェラート灯台） · いつでも",
           "time": ""
         }
       ],
@@ -2162,13 +2162,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-liliana-20150a",
-      "name": "Liliana",
+      "name": "リルカ",
       "areas": [
-        "Colony 9"
+        "コロニー9"
       ],
       "locations": [
         {
-          "location": "Colony 9 (Commercial District)",
+          "location": "コロニー9 (商業区)",
           "time": "09:00–18:00"
         }
       ],
@@ -2186,9 +2186,9 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-linada-story-quest-f1225d",
-      "name": "Linada (Story Quest)",
+      "name": "リナーダ (ストーリークエスト)",
       "areas": [
-        "Fallen Arm"
+        "落ちた腕"
       ],
       "locations": [
         {
@@ -2208,13 +2208,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-lukas-c46c12",
-      "name": "Lukas",
+      "name": "グレフ",
       "areas": [
-        "Colony 9"
+        "コロニー9"
       ],
       "locations": [
         {
-          "location": "Colony 9 (Residential District)",
+          "location": "コロニー9 (居住区)",
           "time": "09:00–15:00"
         }
       ],
@@ -2230,13 +2230,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-lupa-714d56",
-      "name": "Lupa",
+      "name": "ルパ",
       "areas": [
-        "Frontier Village"
+        "サイハテ村"
       ],
       "locations": [
         {
-          "location": "Frontier Village (Archaeology Centre)",
+          "location": "サイハテ村 (遺跡研究本部)",
           "time": "18:00–03:00"
         }
       ],
@@ -2257,13 +2257,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-ma-crish-4f8f45",
-      "name": "Ma'crish",
+      "name": "ミュキシリア",
       "areas": [
-        "Colony 6"
+        "コロニー6"
       ],
       "locations": [
         {
-          "location": "Colony 6 (Reconstruction HQ)",
+          "location": "コロニー6 (コロニー6 復興本部)",
           "time": "06:00–18:00"
         }
       ],
@@ -2282,13 +2282,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-marcia-f35d99",
-      "name": "Marcia",
+      "name": "マーシャ",
       "areas": [
-        "Colony 9"
+        "コロニー9"
       ],
       "locations": [
         {
-          "location": "Colony 9 (Commercial District)",
+          "location": "コロニー9 (商業区)",
           "time": "09:00–18:00"
         }
       ],
@@ -2304,18 +2304,18 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-matryona-63a25c",
-      "name": "Matryona",
+      "name": "マトリョーナ",
       "areas": [
-        "Bionis' Leg",
-        "Colony 6"
+        "巨神脚",
+        "コロニー6"
       ],
       "locations": [
         {
-          "location": "Bionis' Leg (Refugee Camp)",
+          "location": "巨神脚 (脱出艇キャンプ)",
           "time": "09:00–18:00"
         },
         {
-          "location": "Colony 6 (Reconstruction HQ)",
+          "location": "コロニー6 (コロニー6 復興本部)",
           "time": "21:00–06:00"
         }
       ],
@@ -2335,13 +2335,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-medi-ab35a8",
-      "name": "Medi",
+      "name": "メディ",
       "areas": [
-        "Frontier Village"
+        "サイハテ村"
       ],
       "locations": [
         {
-          "location": "Frontier Village (Kyn Shopping Street)",
+          "location": "サイハテ村 (2Ｆ カイナ商店通り)",
           "time": "21:00–03:00"
         }
       ],
@@ -2360,13 +2360,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-mefimefi-b91f0c",
-      "name": "Mefimefi",
+      "name": "メフィメフィ",
       "areas": [
-        "Colony 6"
+        "コロニー6"
       ],
       "locations": [
         {
-          "location": "Colony 6 (Reconstruction HQ)",
+          "location": "コロニー6 (コロニー6 復興本部)",
           "time": "18:00–06:00"
         }
       ],
@@ -2382,13 +2382,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-merisa-0e0fac",
-      "name": "Merisa",
+      "name": "メリッサ",
       "areas": [
-        "Alcamoth"
+        "皇都アカモート"
       ],
       "locations": [
         {
-          "location": "Alcamoth (Imperial Palace)",
+          "location": "皇都アカモート (皇宮)",
           "time": "06:00–18:00"
         }
       ],
@@ -2404,13 +2404,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-migaga-39d2fe",
-      "name": "Migaga",
+      "name": "ミガミガ",
       "areas": [
-        "Frontier Village"
+        "サイハテ村"
       ],
       "locations": [
         {
-          "location": "Frontier Village (Sacred Altar)",
+          "location": "サイハテ村 (御神体の祭壇)",
           "time": "06:00–18:00"
         }
       ],
@@ -2427,13 +2427,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-miko-1791c4",
-      "name": "Miko",
+      "name": "ミコ",
       "areas": [
-        "Frontier Village"
+        "サイハテ村"
       ],
       "locations": [
         {
-          "location": "Frontier Village (Prophecy Hut)",
+          "location": "サイハテ村 (お告げの間)",
           "time": "06:00–03:00"
         }
       ],
@@ -2449,13 +2449,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-military-status-terminal-505ed1",
-      "name": "Military Status Terminal",
+      "name": "ターミナル：兵力均衡",
       "areas": [
-        "Agniratha"
+        "帝都アグニラータ"
       ],
       "locations": [
         {
-          "location": "Anytime · Agniratha (Central Tower)",
+          "location": "いつでも · 帝都アグニラータ（帝都中枢タワー）",
           "time": ""
         }
       ],
@@ -2474,13 +2474,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-miller-744943",
-      "name": "Miller",
+      "name": "ミラー",
       "areas": [
-        "Colony 9"
+        "コロニー9"
       ],
       "locations": [
         {
-          "location": "Colony 9 (Military District)",
+          "location": "コロニー9 (軍事区)",
           "time": "06:00–18:00"
         }
       ],
@@ -2497,13 +2497,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-minana-9f1f07",
-      "name": "Minana",
+      "name": "ミンカ",
       "areas": [
-        "Colony 6"
+        "コロニー6"
       ],
       "locations": [
         {
-          "location": "Colony 6 (Reconstruction HQ)",
+          "location": "コロニー6 (コロニー6 復興本部)",
           "time": "06:00–18:00"
         }
       ],
@@ -2519,13 +2519,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-minnie-22d669",
-      "name": "Minnie",
+      "name": "メイニー",
       "areas": [
-        "Colony 9"
+        "コロニー9"
       ],
       "locations": [
         {
-          "location": "Colony 9 (Residential District)",
+          "location": "コロニー9 (居住区)",
           "time": "18:00–06:00"
         }
       ],
@@ -2541,13 +2541,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-mir-leiz-dec45b",
-      "name": "Mir'leiz",
+      "name": "ミラリース",
       "areas": [
-        "Alcamoth"
+        "皇都アカモート"
       ],
       "locations": [
         {
-          "location": "\"Alcamoth (Imperial Palace) · \"",
+          "location": "\"皇都アカモート (皇宮) · \"",
           "time": "06:00–18:00"
         }
       ],
@@ -2566,18 +2566,18 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-miriall-ffb0f7",
-      "name": "Miriall",
+      "name": "ミリア",
       "areas": [
-        "Alcamoth",
-        "Eryth Sea"
+        "皇都アカモート",
+        "エルト海"
       ],
       "locations": [
         {
-          "location": "Eryth Sea (Ether Plant)",
+          "location": "エルト海 (エーテルプラント)",
           "time": "18:00–06:00"
         },
         {
-          "location": "Alcamoth (Imperial Palace)",
+          "location": "皇都アカモート (皇宮)",
           "time": "06:00–18:00"
         }
       ],
@@ -2597,13 +2597,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-miss-sweetness-26d3d6",
-      "name": "Miss Sweetness",
+      "name": "コロニー6のお嬢様",
       "areas": [
-        "Colony 6"
+        "コロニー6"
       ],
       "locations": [
         {
-          "location": "Colony 6 (Reconstruction HQ) · Automatic",
+          "location": "コロニー6（コロニー6 復興本部） · 自動",
           "time": ""
         }
       ],
@@ -2620,13 +2620,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-mixik-9ccc53",
-      "name": "Mixik",
+      "name": "ミニス",
       "areas": [
-        "Fallen Arm"
+        "落ちた腕"
       ],
       "locations": [
         {
-          "location": "Fallen Arm (Junks)",
+          "location": "落ちた腕 (ジャンクス)",
           "time": "21:00–03:00"
         }
       ],
@@ -2642,13 +2642,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-modamo-c28f44",
-      "name": "Modamo",
+      "name": "モダニィ",
       "areas": [
-        "Frontier Village"
+        "サイハテ村"
       ],
       "locations": [
         {
-          "location": "Frontier Village (Archaeology Level)",
+          "location": "サイハテ村 (6Ｆ 遺跡研究板)",
           "time": "18:00–06:00"
         }
       ],
@@ -2664,13 +2664,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-monica-c67a6b",
-      "name": "Monica",
+      "name": "モニカ",
       "areas": [
-        "Colony 9"
+        "コロニー9"
       ],
       "locations": [
         {
-          "location": "Colony 9 (Military District)",
+          "location": "コロニー9 (軍事区)",
           "time": "18:00–06:00"
         }
       ],
@@ -2686,13 +2686,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-moritz-54fd92",
-      "name": "Moritz",
+      "name": "フリッツ",
       "areas": [
-        "Colony 9"
+        "コロニー9"
       ],
       "locations": [
         {
-          "location": "Colony 9 (Residential District)",
+          "location": "コロニー9 (居住区)",
           "time": "09:00–15:00"
         }
       ],
@@ -2711,13 +2711,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-narine-ce29eb",
-      "name": "Narine",
+      "name": "ネリネ",
       "areas": [
-        "Colony 9"
+        "コロニー9"
       ],
       "locations": [
         {
-          "location": "Colony 9 (Tranquil Square)",
+          "location": "コロニー9 (居住区 憩いの広場)",
           "time": "09:00–15:00"
         }
       ],
@@ -2733,13 +2733,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-naroth-3c5d4d",
-      "name": "Naroth",
+      "name": "ナトリ",
       "areas": [
-        "Alcamoth"
+        "皇都アカモート"
       ],
       "locations": [
         {
-          "location": "Alcamoth (Imperial Palace)",
+          "location": "皇都アカモート (皇宮)",
           "time": "06:00–18:00"
         }
       ],
@@ -2755,13 +2755,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-natalia-938710",
-      "name": "Natalia",
+      "name": "ナターリャ",
       "areas": [
-        "Fallen Arm"
+        "落ちた腕"
       ],
       "locations": [
         {
-          "location": "Fallen Arm (Junks)",
+          "location": "落ちた腕 (ジャンクス)",
           "time": "18:00–06:00"
         }
       ],
@@ -2779,18 +2779,18 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-nelo-ec4ee3",
-      "name": "Nelo",
+      "name": "ネロ",
       "areas": [
-        "Alcamoth",
-        "Frontier Village"
+        "皇都アカモート",
+        "サイハテ村"
       ],
       "locations": [
         {
-          "location": "Frontier Village (Nopon Tower)",
+          "location": "サイハテ村 (ノポンタワー)",
           "time": "18:00–06:00"
         },
         {
-          "location": "Alcamoth (Fountain of Hope)",
+          "location": "皇都アカモート (希望の噴水)",
           "time": "18:00–06:00"
         }
       ],
@@ -2808,13 +2808,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-neonik-0e7abe",
-      "name": "Neonik",
+      "name": "ナオナミ",
       "areas": [
-        "Colony 6"
+        "コロニー6"
       ],
       "locations": [
         {
-          "location": "Colony 6 (Reconstruction HQ)",
+          "location": "コロニー6 (コロニー6 復興本部)",
           "time": "06:00–18:00"
         }
       ],
@@ -2830,13 +2830,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-nic-854c34",
-      "name": "Nic",
+      "name": "ヌーク",
       "areas": [
-        "Colony 6"
+        "コロニー6"
       ],
       "locations": [
         {
-          "location": "Colony 6 (Reconstruction HQ)",
+          "location": "コロニー6 (コロニー6 復興本部)",
           "time": "18:00–06:00"
         }
       ],
@@ -2852,9 +2852,9 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-nikita-5dc757",
-      "name": "Nikita",
+      "name": "ニキータ",
       "areas": [
-        "Bionis' Leg"
+        "巨神脚"
       ],
       "locations": [],
       "questIds": [],
@@ -2869,13 +2869,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-niranira-d97335",
-      "name": "Niranira",
+      "name": "ニルニー",
       "areas": [
-        "Colony 9"
+        "コロニー9"
       ],
       "locations": [
         {
-          "location": "Colony 9 (Residential District)",
+          "location": "コロニー9 (居住区)",
           "time": "06:00–15:00"
         }
       ],
@@ -2891,17 +2891,17 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-nopo-rikh-cd95d5",
-      "name": "Nopo'rikh",
+      "name": "ノポリック",
       "areas": [
-        "Colony 6"
+        "コロニー6"
       ],
       "locations": [
         {
-          "location": "Colony 6 (Reconstruction HQ) · Anytime",
+          "location": "コロニー6（コロニー6 復興本部） · いつでも",
           "time": ""
         },
         {
-          "location": "Colony 6 (Reconstruction HQ) ·  (lodger) · Anytime (free)",
+          "location": "コロニー6（コロニー6 復興本部） · （居候） · いつでも（自由）",
           "time": "03:00–15:00"
         }
       ],
@@ -2919,13 +2919,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-nopon-merchant-ab5c95",
-      "name": "Nopon Merchant",
+      "name": "ノポン商会",
       "areas": [
-        "Satorl Marsh"
+        "燐光の地ザトール"
       ],
       "locations": [
         {
-          "location": "(Story Quest) · Satorl Marsh (Sororal Statues) · Anytime",
+          "location": "(ストーリークエスト) · 燐光の地ザトール (岩窟の姉妹像) · Anytime",
           "time": ""
         }
       ],
@@ -2942,13 +2942,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-nopon-researcher-90a170",
-      "name": "Nopon Researcher",
+      "name": "ノポン調査隊",
       "areas": [
-        "Makna Forest"
+        "マクナ原生林"
       ],
       "locations": [
         {
-          "location": "Makna Forest (Pod Landing Site)",
+          "location": "マクナ原生林 (ポッド発着場)",
           "time": ""
         }
       ],
@@ -2964,13 +2964,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-nopon-sage-7d583c",
-      "name": "Nopon Sage",
+      "name": "ノポン・センニン",
       "areas": [
-        "Makna Forest"
+        "マクナ原生林"
       ],
       "locations": [
         {
-          "location": "Makna Forest (Divine Sanctuary) · Time",
+          "location": "マクナ原生林（神呼びの聖域） · 時間",
           "time": "12:00–15:00"
         }
       ],
@@ -2988,69 +2988,69 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-nopon-villager-2ff994",
-      "name": "Nopon Villager",
+      "name": "サイハテ村住人",
       "areas": [
-        "Frontier Village"
+        "サイハテ村"
       ],
       "locations": [
         {
-          "location": "Frontier Village (Nopon Tower)",
+          "location": "サイハテ村 (ノポンタワー)",
           "time": "18:00–06:00"
         },
         {
-          "location": "Frontier Village (Central Plaza)",
+          "location": "サイハテ村 (Central Plaza)",
           "time": "06:00–18:00"
         },
         {
-          "location": "Frontier Village (Reservoir)",
+          "location": "サイハテ村 (貯水池)",
           "time": "06:00–18:00"
         },
         {
-          "location": "Frontier Village (Kyn Shopping Street)",
+          "location": "サイハテ村 (2Ｆ カイナ商店通り)",
           "time": "06:00–18:00"
         },
         {
-          "location": "Frontier Village (Archaeology Centre)",
+          "location": "サイハテ村 (遺跡研究本部)",
           "time": "18:00–06:00"
         },
         {
-          "location": "Frontier Village (Nopon Tower)",
+          "location": "サイハテ村 (ノポンタワー)",
           "time": "06:00–18:00"
         },
         {
-          "location": "Frontier Village (Sacred Altar)",
+          "location": "サイハテ村 (御神体の祭壇)",
           "time": "18:00–06:00"
         },
         {
-          "location": "Frontier Village (Archaeology Centre)",
+          "location": "サイハテ村 (遺跡研究本部)",
           "time": "06:00–18:00"
         },
         {
-          "location": "Frontier Village (Prophecy Hut)",
+          "location": "サイハテ村 (お告げの間)",
           "time": "18:00–06:00"
         },
         {
-          "location": "Frontier Village (Kyn Shopping Street)",
+          "location": "サイハテ村 (2Ｆ カイナ商店通り)",
           "time": "18:00–06:00"
         },
         {
-          "location": "Frontier Village (Chief's Residence)",
+          "location": "サイハテ村 (村長の家)",
           "time": "18:00–06:00"
         },
         {
-          "location": "Frontier Village (Apex Lake)",
+          "location": "サイハテ村 (9Ｆ てっぺんの湖)",
           "time": "06:00–18:00"
         },
         {
-          "location": "Frontier Village · (Middle Housing Level)",
+          "location": "サイハテ村 · (4Ｆ 中層住宅板)",
           "time": "06:00–18:00"
         },
         {
-          "location": "Frontier Village (Archaeology Level)",
+          "location": "サイハテ村 (6Ｆ 遺跡研究板)",
           "time": "18:00–06:00"
         },
         {
-          "location": "Frontier Village (Underground Store)",
+          "location": "サイハテ村 (B1F 地下貯蔵庫)",
           "time": "18:00–06:00"
         }
       ],
@@ -3085,13 +3085,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-norara-c193c9",
-      "name": "Norara",
+      "name": "ノラ",
       "areas": [
-        "Colony 6"
+        "コロニー6"
       ],
       "locations": [
         {
-          "location": "Colony 6 (Reconstruction HQ)",
+          "location": "コロニー6 (コロニー6 復興本部)",
           "time": "06:00–18:00"
         }
       ],
@@ -3109,17 +3109,17 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-npa-de9318",
-      "name": "Npa",
+      "name": "ンパ",
       "areas": [
-        "Frontier Village"
+        "サイハテ村"
       ],
       "locations": [
         {
-          "location": "Frontier Village · (Underground Store)",
+          "location": "サイハテ村 · (B1F 地下貯蔵庫)",
           "time": "06:00–18:00"
         },
         {
-          "location": "Frontier Village · (Sacred Altar) · Automatic",
+          "location": "サイハテ村 · (御神体の祭壇) · Automatic",
           "time": ""
         }
       ],
@@ -3136,13 +3136,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-oleksiy-833393",
-      "name": "Oleksiy",
+      "name": "オルクホング",
       "areas": [
-        "Colony 6"
+        "コロニー6"
       ],
       "locations": [
         {
-          "location": "Colony 6 (Reconstruction HQ)",
+          "location": "コロニー6 (コロニー6 復興本部)",
           "time": "15:00–03:00"
         }
       ],
@@ -3158,18 +3158,18 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-olga-dd2ed1",
-      "name": "Olga",
+      "name": "オルガ",
       "areas": [
-        "Bionis' Leg",
-        "Colony 6"
+        "巨神脚",
+        "コロニー6"
       ],
       "locations": [
         {
-          "location": "Bionis' Leg (Refugee Camp)",
+          "location": "巨神脚 (脱出艇キャンプ)",
           "time": "06:00–15:00"
         },
         {
-          "location": "Colony 6 Reconstruction triggered",
+          "location": "コロニー6の再建が始まる",
           "time": ""
         }
       ],
@@ -3186,13 +3186,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-orkatix-ac0908",
-      "name": "Orkatix",
+      "name": "オルフェス",
       "areas": [
-        "Fallen Arm"
+        "落ちた腕"
       ],
       "locations": [
         {
-          "location": "Fallen Arm (Junks) · Anytime",
+          "location": "落ちた腕（ジャンクス） · いつでも",
           "time": ""
         }
       ],
@@ -3211,13 +3211,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-otharon-c94eaa",
-      "name": "Otharon",
+      "name": "オダマ",
       "areas": [
-        "Colony 6"
+        "コロニー6"
       ],
       "locations": [
         {
-          "location": "Colony 6 (Main Entrance) · Anytime",
+          "location": "コロニー6（Main Entrance） · いつでも",
           "time": ""
         }
       ],
@@ -3233,13 +3233,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-pachipa-f4c914",
-      "name": "Pachipa",
+      "name": "パチカ",
       "areas": [
-        "Frontier Village"
+        "サイハテ村"
       ],
       "locations": [
         {
-          "location": "Frontier Village (Archaeology Centre)",
+          "location": "サイハテ村 (遺跡研究本部)",
           "time": "09:00–15:00"
         }
       ],
@@ -3256,9 +3256,9 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-paola-2e99d6",
-      "name": "Paola",
+      "name": "パオラ",
       "areas": [
-        "Colony 9"
+        "コロニー9"
       ],
       "locations": [],
       "questIds": [],
@@ -3273,13 +3273,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-pelupelu-0398e6",
-      "name": "Pelupelu",
+      "name": "ペルペル",
       "areas": [
-        "Frontier Village"
+        "サイハテ村"
       ],
       "locations": [
         {
-          "location": "Frontier Village (Prophecy Hut)",
+          "location": "サイハテ村 (お告げの間)",
           "time": "06:00–03:00"
         }
       ],
@@ -3296,13 +3296,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-pepa-77925c",
-      "name": "Pepa",
+      "name": "ピップ",
       "areas": [
-        "Frontier Village"
+        "サイハテ村"
       ],
       "locations": [
         {
-          "location": "Frontier Village (Chief's Residence)",
+          "location": "サイハテ村 (村長の家)",
           "time": "06:00–15:00"
         }
       ],
@@ -3320,13 +3320,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-peppino-e26a91",
-      "name": "Peppino",
+      "name": "パピィ",
       "areas": [
-        "Colony 6"
+        "コロニー6"
       ],
       "locations": [
         {
-          "location": "Colony 6 (Reconstruction HQ)",
+          "location": "コロニー6 (コロニー6 復興本部)",
           "time": "15:00–03:00"
         }
       ],
@@ -3342,13 +3342,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-perrine-6efc87",
-      "name": "Perrine",
+      "name": "パイラル",
       "areas": [
-        "Colony 6"
+        "コロニー6"
       ],
       "locations": [
         {
-          "location": "Colony 6 (Reconstruction HQ)",
+          "location": "コロニー6 (コロニー6 復興本部)",
           "time": "18:00–06:00"
         }
       ],
@@ -3364,13 +3364,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-pipiki-6d8974",
-      "name": "Pipiki",
+      "name": "ピケ",
       "areas": [
-        "Frontier Village"
+        "サイハテ村"
       ],
       "locations": [
         {
-          "location": "Frontier Village (Central Plaza)",
+          "location": "サイハテ村 (Central Plaza)",
           "time": "06:00–18:00"
         }
       ],
@@ -3388,13 +3388,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-pokapoka-b97edc",
-      "name": "Pokapoka",
+      "name": "ポカポカ",
       "areas": [
-        "Colony 6"
+        "コロニー6"
       ],
       "locations": [
         {
-          "location": "Colony 6 (Reconstruction HQ)",
+          "location": "コロニー6 (コロニー6 復興本部)",
           "time": "06:00–15:00"
         }
       ],
@@ -3411,13 +3411,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-popipo-63612a",
-      "name": "Popipo",
+      "name": "ポピエ",
       "areas": [
-        "Alcamoth"
+        "皇都アカモート"
       ],
       "locations": [
         {
-          "location": "Alcamoth (Main Entrance)",
+          "location": "皇都アカモート (Main Entrance)",
           "time": "06:00–18:00"
         }
       ],
@@ -3433,13 +3433,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-prox-6ae2d8",
-      "name": "Prox",
+      "name": "プリモ",
       "areas": [
-        "Fallen Arm"
+        "落ちた腕"
       ],
       "locations": [
         {
-          "location": "Fallen Arm (Ether Light)",
+          "location": "落ちた腕（エーテル Light）",
           "time": "18:00–06:00"
         }
       ],
@@ -3455,13 +3455,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-qofaria-ef72e5",
-      "name": "Qofaria",
+      "name": "ユーフォリア",
       "areas": [
-        "Fallen Arm"
+        "落ちた腕"
       ],
       "locations": [
         {
-          "location": "Fallen Arm (Hidden Machina Village)",
+          "location": "落ちた腕 (マシーナの隠れ里)",
           "time": "06:00–18:00"
         }
       ],
@@ -3477,13 +3477,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-rakzet-b08906",
-      "name": "Rakzet",
+      "name": "レイ",
       "areas": [
-        "Fallen Arm"
+        "落ちた腕"
       ],
       "locations": [
         {
-          "location": "Fallen Arm (Junks)",
+          "location": "落ちた腕 (ジャンクス)",
           "time": "00:00–21:00"
         }
       ],
@@ -3501,13 +3501,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-raoul-fce85c",
-      "name": "Raoul",
+      "name": "ルヒオル",
       "areas": [
-        "Colony 9"
+        "コロニー9"
       ],
       "locations": [
         {
-          "location": "Colony 9 (Military District)",
+          "location": "コロニー9 (軍事区)",
           "time": "06:00–18:00"
         }
       ],
@@ -3525,17 +3525,17 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-rasha-ad194b",
-      "name": "Rasha",
+      "name": "ラシャ",
       "areas": [
-        "Frontier Village"
+        "サイハテ村"
       ],
       "locations": [
         {
-          "location": "Frontier Village (Sacred Altar)",
+          "location": "サイハテ村 (御神体の祭壇)",
           "time": "06:00–18:00"
         },
         {
-          "location": "Frontier Village (Central Plaza)",
+          "location": "サイハテ村 (Central Plaza)",
           "time": "06:00–18:00"
         }
       ],
@@ -3553,13 +3553,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-rizaka-cec598",
-      "name": "Rizaka",
+      "name": "レアナ",
       "areas": [
-        "Fallen Arm"
+        "落ちた腕"
       ],
       "locations": [
         {
-          "location": "Fallen Arm (Hidden Machina Village)",
+          "location": "落ちた腕 (マシーナの隠れ里)",
           "time": "06:00–15:00"
         }
       ],
@@ -3576,13 +3576,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-rocco-916320",
-      "name": "Rocco",
+      "name": "ロコ",
       "areas": [
-        "Colony 9"
+        "コロニー9"
       ],
       "locations": [
         {
-          "location": "Colony 9 (Commercial District)",
+          "location": "コロニー9 (商業区)",
           "time": "09:00–18:00"
         }
       ],
@@ -3598,13 +3598,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-rono-a6a463",
-      "name": "Rono",
+      "name": "ロン",
       "areas": [
-        "Frontier Village"
+        "サイハテ村"
       ],
       "locations": [
         {
-          "location": "Frontier Village (Pollen Works)",
+          "location": "サイハテ村 (花粉工場)",
           "time": "18:00–06:00"
         }
       ],
@@ -3621,13 +3621,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-rosemary-f92b42",
-      "name": "Rosemary",
+      "name": "ローズウェスト",
       "areas": [
-        "Colony 6"
+        "コロニー6"
       ],
       "locations": [
         {
-          "location": "Colony 6 (Main Entrance)",
+          "location": "コロニー6 (Main Entrance)",
           "time": "18:00–06:00"
         }
       ],
@@ -3643,13 +3643,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-rozeal-dcaaf6",
-      "name": "Rozeal",
+      "name": "ローザ",
       "areas": [
-        "Satorl Marsh"
+        "燐光の地ザトール"
       ],
       "locations": [
         {
-          "location": "Satorl Marsh (Sororal Statues)",
+          "location": "燐光の地ザトール (岩窟の姉妹像)",
           "time": "06:00–18:00"
         }
       ],
@@ -3667,13 +3667,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-ruthan-a6555a",
-      "name": "Ruthan",
+      "name": "ルス",
       "areas": [
-        "Alcamoth"
+        "皇都アカモート"
       ],
       "locations": [
         {
-          "location": "Alcamoth (Imperial Palance)",
+          "location": "皇都アカモート (Imperial Palance)",
           "time": "18:00–06:00"
         }
       ],
@@ -3689,18 +3689,18 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-satata-f496e5",
-      "name": "Satata",
+      "name": "タツ",
       "areas": [
-        "Bionis' Leg",
-        "Colony 6"
+        "巨神脚",
+        "コロニー6"
       ],
       "locations": [
         {
-          "location": "Bionis' Leg (Refugee Camp)",
+          "location": "巨神脚 (脱出艇キャンプ)",
           "time": "06:00–15:00"
         },
         {
-          "location": "Colony 6 (Reconstruction HQ)",
+          "location": "コロニー6 (コロニー6 復興本部)",
           "time": "06:00–15:00"
         }
       ],
@@ -3719,18 +3719,18 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-scarlen-2208cc",
-      "name": "Scarlen",
+      "name": "セガール",
       "areas": [
-        "Alcamoth",
-        "Satorl Marsh"
+        "皇都アカモート",
+        "燐光の地ザトール"
       ],
       "locations": [
         {
-          "location": "Satorl Marsh (Oath Sanctuary) · Anything",
+          "location": "燐光の地ザトール（宣誓の聖所） · 何でも",
           "time": ""
         },
         {
-          "location": "Alcamoth (Main Entrance)",
+          "location": "皇都アカモート (Main Entrance)",
           "time": "18:00–06:00"
         }
       ],
@@ -3751,13 +3751,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-sesame-4a371f",
-      "name": "Sesame",
+      "name": "ソルトセサミ",
       "areas": [
-        "Colony 9"
+        "コロニー9"
       ],
       "locations": [
         {
-          "location": "Colony 9 (Commercial District)",
+          "location": "コロニー9 (商業区)",
           "time": "18:00–03:00"
         }
       ],
@@ -3775,13 +3775,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-shalen-82aae4",
-      "name": "Shalen",
+      "name": "シェレン",
       "areas": [
-        "Eryth Sea"
+        "エルト海"
       ],
       "locations": [
         {
-          "location": "Eryth Sea (Syrath Lighthouse) · Anytime.",
+          "location": "エルト海（シウェラート灯台） · いつでも",
           "time": ""
         }
       ],
@@ -3797,13 +3797,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-shilx-0f5055",
-      "name": "Shilx",
+      "name": "シータクロス",
       "areas": [
-        "Colony 6"
+        "コロニー6"
       ],
       "locations": [
         {
-          "location": "Colony 6 (Main Entrance)",
+          "location": "コロニー6 (Main Entrance)",
           "time": "03:00–21:00"
         }
       ],
@@ -3820,13 +3820,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-shulk-56aa3b",
-      "name": "Shulk",
+      "name": "シュルク",
       "areas": [
-        "Colony 9"
+        "コロニー9"
       ],
       "locations": [
         {
-          "location": "Colony 9 (Weapon Development Lab) · Anytime",
+          "location": "コロニー9 (Weapon Development Lab) · Anytime",
           "time": ""
         }
       ],
@@ -3842,13 +3842,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-shura-6ea5c8",
-      "name": "Shura",
+      "name": "シューラ",
       "areas": [
-        "Tephra Cave"
+        "テフラ洞窟"
       ],
       "locations": [
         {
-          "location": "Tephra Cave (Bafalgar Tomb)",
+          "location": "テフラ洞窟 (バルファルガ墓地)",
           "time": ""
         }
       ],
@@ -3868,9 +3868,9 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-sonia-d8db49",
-      "name": "Sonia",
+      "name": "ソニア",
       "areas": [
-        "Colony 9"
+        "コロニー9"
       ],
       "locations": [],
       "questIds": [],
@@ -3885,62 +3885,62 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-story-quest-09cfce",
-      "name": "Story Quest",
+      "name": "ストーリークエスト",
       "areas": [
-        "Agniratha",
-        "Central Factory",
-        "Colony 9",
-        "Eryth Sea",
-        "Fallen Arm",
-        "Frontier Village",
-        "Makna Forest",
-        "Mechonis Field",
-        "Sword Valley, Galahad Fortress & Mechonis Core",
-        "Valak Mountain"
+        "帝都アグニラータ",
+        "中央工廠",
+        "コロニー9",
+        "エルト海",
+        "落ちた腕",
+        "サイハテ村",
+        "マクナ原生林",
+        "機神界フィールド",
+        "大剣の渓谷, ガラハド要塞 & 機神界中枢",
+        "ヴァラク雪山"
       ],
       "locations": [
         {
-          "location": "Colony 9 (Dunban's House) · Automatic",
+          "location": "コロニー9（ダンバン邸） · 自動",
           "time": ""
         },
         {
-          "location": "Makna Forest (Contaminated Area) Automatic",
+          "location": "マクナ原生林 (汚された地) Automatic",
           "time": ""
         },
         {
-          "location": "Frontier Village · Automatic",
+          "location": "サイハテ村 · 自動",
           "time": ""
         },
         {
-          "location": "Alcamoth (Whitewing Palace) · Automatic",
+          "location": "皇都アカモート（白翼宮） · 自動",
           "time": ""
         },
         {
-          "location": "Eryth Sea · Automatic",
+          "location": "エルト海 · 自動",
           "time": ""
         },
         {
-          "location": "Valak Mountain (Sealed Tower)",
+          "location": "ヴァラク雪山 (封印の塔)",
           "time": ""
         },
         {
-          "location": "Galahad Fortress (Main Maintenance Bay) · Automatic",
+          "location": "ガラハド要塞（中央整備室） · 自動",
           "time": ""
         },
         {
-          "location": "Galahad Fortress (Main Control Room) · Automatic",
+          "location": "ガラハド要塞（エーテル溶鉱炉管制室） · 自動",
           "time": ""
         },
         {
-          "location": "Galahad Fortress (Face Maintenance Bay) · Automatic",
+          "location": "ガラハド要塞 (Face Maintenance Bay) · Automatic",
           "time": ""
         },
         {
-          "location": "Prison Island (Behemoth Nest) · Automatic",
+          "location": "監獄島（ベヒモスの巣） · 自動",
           "time": ""
         },
         {
-          "location": "Prison Island (Corridor of Silence) · Automatic",
+          "location": "監獄島（静寂の回廊） · 自動",
           "time": ""
         },
         {
@@ -3948,39 +3948,39 @@ const AFFINITY_DATA={
           "time": ""
         },
         {
-          "location": "Mechonis Field (2nd Lift - GF) · Automatic",
+          "location": "機神界フィールド（第2リフト 1Ｆ） · 自動",
           "time": ""
         },
         {
-          "location": "Mechonis Field (2nd Lift - 1F) · Automatic",
+          "location": "機神界フィールド（第2リフト 2Ｆ） · 自動",
           "time": ""
         },
         {
-          "location": "Mechonis Field (3rd Lift - 3F) · Automatic",
+          "location": "機神界フィールド（第3リフト 4Ｆ） · 自動",
           "time": ""
         },
         {
-          "location": "Mechonis Field (Upper Bulkhead Bridge) · Automatic",
+          "location": "機神界フィールド（機神大隔壁上部連絡橋） · 自動",
           "time": ""
         },
         {
-          "location": "Central Factory (Central Gate)",
+          "location": "中央工廠 (機神港中央ゲート)",
           "time": ""
         },
         {
-          "location": "Central Factory (Maintenance Wing)",
+          "location": "中央工廠 (機神兵整備棟)",
           "time": ""
         },
         {
-          "location": "Central Factory (Central Warehouse Lift)",
+          "location": "中央工廠 (中央倉庫リフト)",
           "time": ""
         },
         {
-          "location": "Central Factory (Factory Vent)",
+          "location": "中央工廠 (生産工場通風孔)",
           "time": ""
         },
         {
-          "location": "Central Factory (Tower Boarding Gate)",
+          "location": "中央工廠 (中央塔搭乗口)",
           "time": ""
         }
       ],
@@ -4023,13 +4023,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-strategic-intel-terminal-ce7777",
-      "name": "Strategic Intel Terminal",
+      "name": "ターミナル：情報戦略",
       "areas": [
-        "Agniratha"
+        "帝都アグニラータ"
       ],
       "locations": [
         {
-          "location": "Anytime · Agniratha (Central Tower)",
+          "location": "いつでも · 帝都アグニラータ（帝都中枢タワー）",
           "time": ""
         }
       ],
@@ -4046,26 +4046,26 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-surprise-quest-86bd80",
-      "name": "Surprise Quest",
+      "name": "サブライズクエスト",
       "areas": [
-        "Alcamoth",
-        "Bionis' Leg",
-        "Central Factory",
-        "Colony 6",
-        "Satorl Marsh",
-        "Sword Valley, Galahad Fortress & Mechonis Core"
+        "皇都アカモート",
+        "巨神脚",
+        "中央工廠",
+        "コロニー6",
+        "燐光の地ザトール",
+        "大剣の渓谷, ガラハド要塞 & 機神界中枢"
       ],
       "locations": [
         {
-          "location": "Bionis' Leg (near waterfall in southeast Gaur Plain) · Automatic",
+          "location": "巨神脚 (near waterfall in southeast ガウル平原) · Automatic",
           "time": ""
         },
         {
-          "location": "Colony 6 (Watchpoint Junction) · Automatic",
+          "location": "コロニー6（物見の三叉路） · 自動",
           "time": ""
         },
         {
-          "location": "Satorl Marsh (Nopon Refuge) · Automatic",
+          "location": "燐光の地ザトール（ノポンの隠れ家） · 自動",
           "time": ""
         },
         {
@@ -4073,31 +4073,31 @@ const AFFINITY_DATA={
           "time": ""
         },
         {
-          "location": "Sword Valley (Dolgan Outpost) · Automatic",
+          "location": "大剣の渓谷（ドルガン監視砦） · 自動",
           "time": ""
         },
         {
-          "location": "Sword Valley (Enalda Control Base)",
+          "location": "大剣の渓谷 (エナルダ管理基地)",
           "time": ""
         },
         {
-          "location": "Sword Valley (3rd Gate)",
+          "location": "大剣の渓谷 (第3ゲート)",
           "time": ""
         },
         {
-          "location": "Sword Valley (Radio Tower)",
+          "location": "大剣の渓谷 (電波塔)",
           "time": ""
         },
         {
-          "location": "Central Factory (Storage Depot)",
+          "location": "中央工廠 (資材置き場)",
           "time": ""
         },
         {
-          "location": "Central Factory (Mechon Factory)",
+          "location": "中央工廠 (機神兵生産工場)",
           "time": ""
         },
         {
-          "location": "Central Factory (Training Ground Roof)",
+          "location": "中央工廠 (演習場屋上)",
           "time": ""
         }
       ],
@@ -4124,13 +4124,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-suzanna-f629f1",
-      "name": "Suzanna",
+      "name": "スザンナ",
       "areas": [
-        "Colony 9"
+        "コロニー9"
       ],
       "locations": [
         {
-          "location": "Colony 9 (Residential District)",
+          "location": "コロニー9 (居住区)",
           "time": "06:00–15:00"
         }
       ],
@@ -4147,9 +4147,9 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-sylviane-cbc058",
-      "name": "Sylviane",
+      "name": "スルワ",
       "areas": [
-        "Colony 9"
+        "コロニー9"
       ],
       "locations": [],
       "questIds": [],
@@ -4164,18 +4164,18 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-talia-169cdf",
-      "name": "Talia",
+      "name": "タリア",
       "areas": [
-        "Alcamoth",
-        "Eryth Sea"
+        "皇都アカモート",
+        "エルト海"
       ],
       "locations": [
         {
-          "location": "Eryth Sea (Ether Plant)",
+          "location": "エルト海 (エーテルプラント)",
           "time": "18:00–06:00"
         },
         {
-          "location": "Alcamoth (Imperial Palace)",
+          "location": "皇都アカモート (皇宮)",
           "time": "18:00–06:00"
         }
       ],
@@ -4192,13 +4192,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-talonyth-311864",
-      "name": "Talonyth",
+      "name": "タテドナス",
       "areas": [
-        "Colony 6"
+        "コロニー6"
       ],
       "locations": [
         {
-          "location": "Colony 6 (Reconstruction HQ)",
+          "location": "コロニー6 (コロニー6 復興本部)",
           "time": "06:00–18:00"
         }
       ],
@@ -4214,13 +4214,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-tati-0c2a24",
-      "name": "Tati",
+      "name": "タティ",
       "areas": [
-        "Frontier Village"
+        "サイハテ村"
       ],
       "locations": [
         {
-          "location": "Frontier Village (Nopon Kitchen)",
+          "location": "サイハテ村 (ノポンの台所)",
           "time": "18:00–06:00"
         }
       ],
@@ -4238,18 +4238,18 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-teelan-577556",
-      "name": "Teelan",
+      "name": "テト",
       "areas": [
-        "Alcamoth",
-        "Eryth Sea"
+        "皇都アカモート",
+        "エルト海"
       ],
       "locations": [
         {
-          "location": "Eryth Sea (Ether Plant)",
+          "location": "エルト海 (エーテルプラント)",
           "time": "06:00–18:00"
         },
         {
-          "location": "Alcamoth (Imperial Palace)",
+          "location": "皇都アカモート (皇宮)",
           "time": "06:00–15:00"
         }
       ],
@@ -4266,13 +4266,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-vanea-bb4a84",
-      "name": "Vanea",
+      "name": "ヴァネア",
       "areas": [
-        "Colony 6"
+        "コロニー6"
       ],
       "locations": [
         {
-          "location": "Colony 6 (Junks) · Anytime",
+          "location": "コロニー6（ジャンクス） · いつでも",
           "time": ""
         }
       ],
@@ -4292,18 +4292,18 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-vidian-0d06e6",
-      "name": "Vidian",
+      "name": "ビビアン",
       "areas": [
-        "Alcamoth",
-        "Eryth Sea"
+        "皇都アカモート",
+        "エルト海"
       ],
       "locations": [
         {
-          "location": "Eryth Sea (Ether Plant)",
+          "location": "エルト海 (エーテルプラント)",
           "time": "06:00–18:00"
         },
         {
-          "location": "Alcamoth (Imperial Palace)",
+          "location": "皇都アカモート (皇宮)",
           "time": "06:00–18:00"
         }
       ],
@@ -4323,13 +4323,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-vol-aren-42c37a",
-      "name": "Vol'aren",
+      "name": "ボラリオ",
       "areas": [
-        "Alcamoth"
+        "皇都アカモート"
       ],
       "locations": [
         {
-          "location": "Alcamoth (Fountain of Hope)",
+          "location": "皇都アカモート (希望の噴水)",
           "time": "06:00–18:00"
         }
       ],
@@ -4346,13 +4346,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-voltak-f7f032",
-      "name": "Voltak",
+      "name": "ヴォルテック",
       "areas": [
-        "Fallen Arm"
+        "落ちた腕"
       ],
       "locations": [
         {
-          "location": "Fallen Arm (Junks) · Anytime",
+          "location": "落ちた腕（ジャンクス） · いつでも",
           "time": ""
         }
       ],
@@ -4369,9 +4369,9 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-vronik-9a1f4d",
-      "name": "Vronik",
+      "name": "ベロニカ",
       "areas": [
-        "Fallen Arm"
+        "落ちた腕"
       ],
       "locations": [],
       "questIds": [],
@@ -4390,13 +4390,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-werner-1662e6",
-      "name": "Werner",
+      "name": "ヴェルナー",
       "areas": [
-        "Colony 6"
+        "コロニー6"
       ],
       "locations": [
         {
-          "location": "Colony 6 (Reconstruction HQ)",
+          "location": "コロニー6 (コロニー6 復興本部)",
           "time": "03:00–15:00"
         }
       ],
@@ -4413,13 +4413,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-xekit-da4796",
-      "name": "Xekit",
+      "name": "ジェキ",
       "areas": [
-        "Fallen Arm"
+        "落ちた腕"
       ],
       "locations": [
         {
-          "location": "Fallen Arm (Ether Light)",
+          "location": "落ちた腕（エーテル Light）",
           "time": "18:00–06:00"
         }
       ],
@@ -4435,13 +4435,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-yura-6ade8b",
-      "name": "Yura",
+      "name": "ユーリィ",
       "areas": [
-        "Colony 6"
+        "コロニー6"
       ],
       "locations": [
         {
-          "location": "Colony 6 (Reconstruction HQ)",
+          "location": "コロニー6 (コロニー6 復興本部)",
           "time": "06:00–18:00"
         }
       ],
@@ -4458,13 +4458,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-yusa-d38815",
-      "name": "Yusa",
+      "name": "ユシ",
       "areas": [
-        "Frontier Village"
+        "サイハテ村"
       ],
       "locations": [
         {
-          "location": "Frontier Village (Underground Store)",
+          "location": "サイハテ村 (B1F 地下貯蔵庫)",
           "time": "06:00–15:00"
         }
       ],
@@ -4482,18 +4482,18 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-zain-f6a8bc",
-      "name": "Zain",
+      "name": "ゼイン",
       "areas": [
-        "Alcamoth",
-        "Valak Mountain"
+        "皇都アカモート",
+        "ヴァラク雪山"
       ],
       "locations": [
         {
-          "location": "Alcamoth (Fountain of Eternity)",
+          "location": "皇都アカモート (永遠の噴水)",
           "time": "06:00–18:00"
         },
         {
-          "location": "Valak Mountain (Harict Chapel) · Anytime",
+          "location": "ヴァラク雪山（ハリクト礼拝堂） · いつでも",
           "time": ""
         }
       ],
@@ -4513,13 +4513,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-zarkort-84a6ab",
-      "name": "Zarkort",
+      "name": "カルボラ",
       "areas": [
-        "Fallen Arm"
+        "落ちた腕"
       ],
       "locations": [
         {
-          "location": "Fallen Arm (Digit 2) · Anytime",
+          "location": "落ちた腕（機神の人差し指） · いつでも",
           "time": ""
         }
       ],
@@ -4536,13 +4536,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-zazadan-59490e",
-      "name": "Zazadan",
+      "name": "ザザダン",
       "areas": [
-        "Satorl Marsh"
+        "燐光の地ザトール"
       ],
       "locations": [
         {
-          "location": "Satorl Marsh (Nopon Refuge) · Anytime",
+          "location": "燐光の地ザトール（ノポンの隠れ家） · いつでも",
           "time": ""
         }
       ],
@@ -4563,13 +4563,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-zel-argentis-9bfb49",
-      "name": "Zel Argentis",
+      "name": "ゼル・シルバー",
       "areas": [
-        "Colony 6"
+        "コロニー6"
       ],
       "locations": [
         {
-          "location": "Colony 6 (Reconstruction HQ)",
+          "location": "コロニー6 (コロニー6 復興本部)",
           "time": "15:00–03:00"
         }
       ],
@@ -4585,13 +4585,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-zilex-72782e",
-      "name": "Zilex",
+      "name": "リレット",
       "areas": [
-        "Fallen Arm"
+        "落ちた腕"
       ],
       "locations": [
         {
-          "location": "Fallen Arm (Junks) · Anytime",
+          "location": "落ちた腕（ジャンクス） · いつでも",
           "time": ""
         }
       ],
@@ -4608,13 +4608,13 @@ const AFFINITY_DATA={
     },
     {
       "id": "resident-zukazu-19b50b",
-      "name": "Zukazu",
+      "name": "カズロー",
       "areas": [
-        "Colony 9"
+        "コロニー9"
       ],
       "locations": [
         {
-          "location": "Colony 9 (Residential District)",
+          "location": "コロニー9 (居住区)",
           "time": "21:00–06:00"
         }
       ],
@@ -4633,14 +4633,14 @@ const AFFINITY_DATA={
   "quests": [
     {
       "id": "quest-colony-9-mementos-of-a-lost-son-9e0dd266",
-      "name": "Mementos of a Lost Son",
-      "area": "Colony 9",
+      "name": "息子の形見",
+      "area": "コロニー9",
       "giverId": "resident-cheryl-187037",
-      "location": "Commercial District (Northeast)",
+      "location": "商業区（北東）",
       "time": "06:00–15:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Access to Tephra Cave",
+      "requirementsRaw": "テフラ洞窟へ入れる",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -4648,10 +4648,10 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-the-key-to-a-long-life-c651adfb",
-      "name": "The Key to a Long Life",
-      "area": "Colony 9",
+      "name": "元気の秘訣",
+      "area": "コロニー9",
       "giverId": "resident-dionysis-3a2b10",
-      "location": "Colony 9 (Residential District)",
+      "location": "コロニー9 (居住区)",
       "time": "06:00–13:00",
       "star": "",
       "leader": "",
@@ -4663,14 +4663,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-a-curry-conundrum-8e3c9bc6",
-      "name": "A Curry Conundrum",
-      "area": "Colony 9",
+      "name": "人気カレー屋のピンチ",
+      "area": "コロニー9",
       "giverId": "resident-giorgio-2411ba",
-      "location": "Colony 9 (Commercial District)",
+      "location": "コロニー9 (商業区)",
       "time": "06:00–18:00",
       "star": "1½",
       "leader": "",
-      "requirementsRaw": "Colony 9 area ☆1½",
+      "requirementsRaw": "コロニー9エリア ☆1½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -4678,10 +4678,10 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-biscuits-for-a-grandson-152ef976",
-      "name": "Biscuits for a Grandson",
-      "area": "Colony 9",
+      "name": "孫へのクッキー",
+      "area": "コロニー9",
       "giverId": "resident-marcia-f35d99",
-      "location": "Colony 9 (Commercial District)",
+      "location": "コロニー9 (商業区)",
       "time": "09:00–18:00",
       "star": "",
       "leader": "",
@@ -4693,14 +4693,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-birthday-shoes-af6b8430",
-      "name": "Birthday Shoes",
-      "area": "Colony 9",
+      "name": "親バカの靴",
+      "area": "コロニー9",
       "giverId": "resident-kantz-4bfa25",
-      "location": "Colony 9 (Military District)",
+      "location": "コロニー9 (軍事区)",
       "time": "06:00–15:00",
       "star": "4¼",
       "leader": "",
-      "requirementsRaw": "Mechonis Core cleared\r\nquests Education-Crazy Suzanna as well as A Young Captain's Trust or A Young Captain's Revival\r\nColony 9 area ☆4¼",
+      "requirementsRaw": "機神界中枢をクリア\nクエスト教育過剰なスザンナ、および小娘隊長の信頼か小娘隊長の復活\nコロニー9エリア ☆4¼",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -4708,14 +4708,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-education-minded-suzanna-e284a74b",
-      "name": "Education-Minded Suzanna",
-      "area": "Colony 9",
+      "name": "教育熱心なスザンナ",
+      "area": "コロニー9",
       "giverId": "resident-suzanna-f629f1",
-      "location": "Colony 9 (Residential District)",
+      "location": "コロニー9 (居住区)",
       "time": "06:00–15:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Moritz registered on the Colony 9 area Affinity Chart",
+      "requirementsRaw": "フリッツがコロニー9エリアのキズナグラムに登録済み",
       "requiredResidentIds": [
         "resident-moritz-54fd92"
       ],
@@ -4725,14 +4725,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-education-crazy-suzanna-6464b6d4",
-      "name": "Education-Crazy Suzanna",
-      "area": "Colony 9",
+      "name": "教育過剰なスザンナ",
+      "area": "コロニー9",
       "giverId": "resident-suzanna-f629f1",
-      "location": "Colony 9 (Residential District)",
+      "location": "コロニー9 (居住区)",
       "time": "06:00–15:00",
       "star": "2½",
       "leader": "",
-      "requirementsRaw": "Education-Minded Suzanna\r\nColony 9 area ☆2½",
+      "requirementsRaw": "教育熱心なスザンナ\nコロニー9エリア ☆2½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -4740,14 +4740,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-flattened-flowers-c57c1577",
-      "name": "Flattened Flowers",
-      "area": "Colony 9",
+      "name": "舞い散った花",
+      "area": "コロニー9",
       "giverId": "resident-francoise-4582b2",
-      "location": "Colony 9 (Residential District)",
+      "location": "コロニー9 (居住区)",
       "time": "06:00–15:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Access to Tephra Cave",
+      "requirementsRaw": "テフラ洞窟へ入れる",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -4755,10 +4755,10 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-lonely-niranira-4a391273",
-      "name": "Lonely Niranira",
-      "area": "Colony 9",
+      "name": "孤独なニルニー",
+      "area": "コロニー9",
       "giverId": "resident-niranira-d97335",
-      "location": "Colony 9 (Residential District)",
+      "location": "コロニー9 (居住区)",
       "time": "06:00–15:00",
       "star": "",
       "leader": "",
@@ -4770,14 +4770,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-the-broken-watch-ad2a0f8a",
-      "name": "The Broken Watch",
-      "area": "Colony 9",
+      "name": "機械オンチの腕時計",
+      "area": "コロニー9",
       "giverId": "resident-desiree-83bb32",
-      "location": "Colony 9 (Commercial District)",
+      "location": "コロニー9 (商業区)",
       "time": "18:00–03:00",
       "star": "",
-      "leader": "Shulk",
-      "requirementsRaw": "Shulk as party leader",
+      "leader": "シュルク",
+      "requirementsRaw": "パーティリーダーはシュルク",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -4785,14 +4785,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-the-old-soldier-s-test-b8753421",
-      "name": "The Old Soldier's Test",
-      "area": "Colony 9",
+      "name": "老兵ヤーンの試練",
+      "area": "コロニー9",
       "giverId": "resident-jan-efed36",
-      "location": "Colony 9 (Military District)",
+      "location": "コロニー9 (軍事区)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Melia met in Makna Forest\r\nDionysis and Cheryl registered\r\nJan",
+      "requirementsRaw": "メリア met in マクナ原生林\nディオニージスとツィリルが登録済み\nヤーン",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -4800,14 +4800,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-romantic-notions-of-a-girl-66b7b8cf",
-      "name": "Romantic Notions of a Girl",
-      "area": "Colony 9",
+      "name": "恋愛成就・女性編",
+      "area": "コロニー9",
       "giverId": "resident-monica-c67a6b",
-      "location": "Colony 9 (Military District)",
+      "location": "コロニー9 (軍事区)",
       "time": "18:00–06:00",
       "star": "2",
       "leader": "",
-      "requirementsRaw": "Access to Tephra Cave\r\nErik registered in the Affinity Chart\r\nColony 9 area ☆2",
+      "requirementsRaw": "テフラ洞窟へ入れる\nエリックがキズナグラムに登録済み\nコロニー9エリア ☆2",
       "requiredResidentIds": [
         "resident-erik-5e4a59"
       ],
@@ -4819,14 +4819,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-romantic-notions-of-a-boy-a4c3d34c",
-      "name": "Romantic Notions of a Boy",
-      "area": "Colony 9",
+      "name": "恋愛成就・男性編",
+      "area": "コロニー9",
       "giverId": "resident-andreas-60d795",
-      "location": "Colony 9 (Military District)",
+      "location": "コロニー9 (軍事区)",
       "time": "18:00–06:00",
       "star": "2",
       "leader": "",
-      "requirementsRaw": "Access to Tephra Cave\r\nRomantic Notions of a Girl accepted\r\nColony 9 area ☆2",
+      "requirementsRaw": "テフラ洞窟へ入れる\n恋愛成就・女性編を受注済み\nコロニー9エリア ☆2",
       "requiredResidentIds": [],
       "mutuallyExclusive": [
         "quest-colony-9-romantic-notions-of-a-girl-66b7b8cf"
@@ -4836,14 +4836,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-an-impoverished-critic-8c1a542b",
-      "name": "An Impoverished Critic",
-      "area": "Colony 9",
+      "name": "貧乏評論家の悩み",
+      "area": "コロニー9",
       "giverId": "resident-leopold-5c579e",
-      "location": "Colony 9 (Commercial District)",
+      "location": "コロニー9 (商業区)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Sylviane registered in the Colony 9 area Affinity Chart\r\nafter the Mechon raid",
+      "requirementsRaw": "スルワがコロニー9エリアのキズナグラムに登録済み\n機神兵の襲撃のあと",
       "requiredResidentIds": [
         "resident-sylviane-cbc058"
       ],
@@ -4853,14 +4853,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-financial-planning-1b77dae6",
-      "name": "Financial Planning",
-      "area": "Colony 9",
+      "name": "高利貸しの企み",
+      "area": "コロニー9",
       "giverId": "resident-king-squeeze-ba8a39",
-      "location": "Colony 9 (Commercial District)",
+      "location": "コロニー9 (商業区)",
       "time": "21:00–03:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Access to Tephra Cave\r\nAn Impoverished Critic accepted",
+      "requirementsRaw": "テフラ洞窟へ入れる\n貧乏評論家の悩みを受注済み",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -4868,14 +4868,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-overworked-and-underpaid-771d15a5",
-      "name": "Overworked and Underpaid",
-      "area": "Colony 9",
+      "name": "働きすぎコパム",
+      "area": "コロニー9",
       "giverId": "resident-giorgio-2411ba",
-      "location": "Colony 9 (Commercial District)",
+      "location": "コロニー9 (商業区)",
       "time": "06:00–18:00",
       "star": "2",
       "leader": "",
-      "requirementsRaw": "Access to Tephra Cave\r\nA Curry Conundrum\r\nColony 9 area ☆2",
+      "requirementsRaw": "テフラ洞窟へ入れる\n人気カレー屋のピンチ\nコロニー9エリア ☆2",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -4883,14 +4883,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-pestering-paola-5e0aabdb",
-      "name": "Pestering Paola",
-      "area": "Colony 9",
+      "name": "グッド・パオラ",
+      "area": "コロニー9",
       "giverId": "resident-giorgio-2411ba",
-      "location": "Colony 9 (Commercial District)",
+      "location": "コロニー9 (商業区)",
       "time": "06:00–18:00",
       "star": "3",
       "leader": "",
-      "requirementsRaw": "After escorting Juju to the Refugee Camp\r\nSharla joined the party\r\nOverworked and Underpaid route A completed\r\nColony 9 area ☆3",
+      "requirementsRaw": "ジュジュを脱出艇キャンプまで護衛したあと\nカルナがパーティに加入\n働きすぎコパムのAルートを達成済み\nコロニー9エリア ☆3",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -4898,14 +4898,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-out-of-luck-giorgio-1a923a16",
-      "name": "Out-of-Luck Giorgio",
-      "area": "Colony 9",
+      "name": "スランプ・コパム",
+      "area": "コロニー9",
       "giverId": "resident-giorgio-2411ba",
-      "location": "Colony 9 (Commercial District)",
+      "location": "コロニー9 (商業区)",
       "time": "06:00–18:00",
       "star": "3",
       "leader": "",
-      "requirementsRaw": "After escorting Juju to the Refugee Camp\r\nSharla joined the party\r\nOverworked and Underpaid route B completed\r\nColony 9 area ☆3",
+      "requirementsRaw": "ジュジュを脱出艇キャンプまで護衛したあと\nカルナがパーティに加入\n働きすぎコパムのBルートを達成済み\nコロニー9エリア ☆3",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -4913,14 +4913,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-paola-and-narine-18d94380",
-      "name": "Paola and Narine",
-      "area": "Colony 9",
+      "name": "パオラとネリネ",
+      "area": "コロニー9",
       "giverId": "resident-narine-ce29eb",
-      "location": "Colony 9 (Tranquil Square)",
+      "location": "コロニー9 (居住区 憩いの広場)",
       "time": "09:00–15:00",
       "star": "",
-      "leader": "Shulk",
-      "requirementsRaw": "Access to Tephra Cave\r\nPaola registered in the Colony 9 area Affinity Chart\r\nShulk in the lead",
+      "leader": "シュルク",
+      "requirementsRaw": "テフラ洞窟へ入れる\nパオラがコロニー9エリアのキズナグラムに登録済み\nパーティリーダーはシュルク",
       "requiredResidentIds": [
         "resident-paola-2e99d6"
       ],
@@ -4930,14 +4930,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-the-plan-preparation-7b66a63b",
-      "name": "The Plan - Preparation",
-      "area": "Colony 9",
+      "name": "野望・準備編",
+      "area": "コロニー9",
       "giverId": "resident-sesame-4a371f",
-      "location": "Colony 9 (Commercial District)",
+      "location": "コロニー9 (商業区)",
       "time": "18:00–03:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Access to Tephra Cave",
+      "requirementsRaw": "テフラ洞窟へ入れる",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -4945,14 +4945,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-the-plan-the-night-before-48265829",
-      "name": "The Plan - The Night Before",
-      "area": "Colony 9",
+      "name": "野望・前夜編",
+      "area": "コロニー9",
       "giverId": "resident-sesame-4a371f",
-      "location": "Colony 9 (Commercial District)",
+      "location": "コロニー9 (商業区)",
       "time": "18:00–03:00",
       "star": "2",
       "leader": "",
-      "requirementsRaw": "Access to Tephra Cave\r\nThe Plan - Preparation\r\nColony 9 area ☆2",
+      "requirementsRaw": "テフラ洞窟へ入れる\n野望・準備編\nコロニー9エリア ☆2",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -4960,14 +4960,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-the-plan-execution-1e25ac5f",
-      "name": "The Plan - Execution",
-      "area": "Colony 9",
+      "name": "野望・実行編",
+      "area": "コロニー9",
       "giverId": "resident-sesame-4a371f",
-      "location": "Colony 9 (Commercial District)",
+      "location": "コロニー9 (商業区)",
       "time": "18:00–03:00",
       "star": "3",
       "leader": "",
-      "requirementsRaw": "Access to Tephra Cave\r\nThe Plan - The Night Before\r\nColony 9 area ☆3",
+      "requirementsRaw": "テフラ洞窟へ入れる\n野望・前夜編\nコロニー9エリア ☆3",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -4975,14 +4975,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-a-young-captain-s-request-d47cc184",
-      "name": "A Young Captain's Request",
-      "area": "Colony 9",
+      "name": "小娘隊長の依頼",
+      "area": "コロニー9",
       "giverId": "resident-emmy-leater-db5ddf",
-      "location": "Colony 9 (Military District)",
+      "location": "コロニー9 (軍事区)",
       "time": "06:00–18:00",
       "star": "1¼",
       "leader": "",
-      "requirementsRaw": "Colony 9 area ☆1¼",
+      "requirementsRaw": "コロニー9エリア ☆1¼",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -4990,14 +4990,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-a-young-captain-s-suffering-7b367e25",
-      "name": "A Young Captain's Suffering",
-      "area": "Colony 9",
+      "name": "小娘隊長の苦難",
+      "area": "コロニー9",
       "giverId": "resident-emmy-leater-db5ddf",
-      "location": "Colony 9 (Military District)",
+      "location": "コロニー9 (軍事区)",
       "time": "06:00–18:00",
       "star": "1½",
       "leader": "",
-      "requirementsRaw": "Raoul registered on the Affinity Chart\r\nA Young Captain's Request\r\naccess to Tephra Cave\r\nColony 9 area ☆1½",
+      "requirementsRaw": "ルヒオルがキズナグラムに登録済み\n小娘隊長の依頼\nテフラ洞窟へ入れる\nコロニー9エリア ☆1½",
       "requiredResidentIds": [
         "resident-raoul-fce85c"
       ],
@@ -5007,14 +5007,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-a-young-captain-s-rise-084c78f8",
-      "name": "A Young Captain's Rise",
-      "area": "Colony 9",
+      "name": "小娘隊長の栄進",
+      "area": "コロニー9",
       "giverId": "resident-emmy-leater-db5ddf",
-      "location": "Colony 9 (Military District)",
+      "location": "コロニー9 (軍事区)",
       "time": "06:00–18:00",
       "star": "2",
       "leader": "",
-      "requirementsRaw": "Access to Tephra Cave\r\nA Young Captain's Suffering\r\nColony 9 area ☆2.",
+      "requirementsRaw": "テフラ洞窟へ入れる\n小娘隊長の苦難\nコロニー9エリア ☆2",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -5022,14 +5022,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-a-young-captain-s-challenge-3b6e8a3c",
-      "name": "A Young Captain's Challenge",
-      "area": "Colony 9",
+      "name": "小娘隊長の挑戦",
+      "area": "コロニー9",
       "giverId": "resident-emmy-leater-db5ddf",
-      "location": "Colony 9 (Military District)",
+      "location": "コロニー9 (軍事区)",
       "time": "06:00–18:00",
       "star": "3",
       "leader": "",
-      "requirementsRaw": "Makna Forest reached\r\nKantz registered on the Affinity Chart\r\nA Young Captain's Rise\r\nColony 9 area ☆3",
+      "requirementsRaw": "マクナ原生林に到達\nカンタンがキズナグラムに登録済み\n小娘隊長の栄進\nコロニー9エリア ☆3",
       "requiredResidentIds": [
         "resident-kantz-4bfa25"
       ],
@@ -5039,14 +5039,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-a-young-captain-s-trust-a927076c",
-      "name": "A Young Captain's Trust",
-      "area": "Colony 9",
+      "name": "小娘隊長の信頼",
+      "area": "コロニー9",
       "giverId": "resident-miller-744943",
-      "location": "Colony 9 (Military District)",
+      "location": "コロニー9 (軍事区)",
       "time": "06:00–18:00",
       "star": "4",
-      "leader": "Shulk",
-      "requirementsRaw": "Mechonis Core cleared\r\nA Young Captain's Challenge (B route) completed\r\nColony 9 area ☆4\r\nShulk in the lead",
+      "leader": "シュルク",
+      "requirementsRaw": "機神界中枢をクリア\n小娘隊長の挑戦（Bルート）を達成済み\nコロニー9エリア ☆4\nパーティリーダーはシュルク",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -5054,14 +5054,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-a-young-captain-s-revival-6417f76a",
-      "name": "A Young Captain's Revival",
-      "area": "Colony 9",
+      "name": "小娘隊長の復活",
+      "area": "コロニー9",
       "giverId": "resident-miller-744943",
-      "location": "Colony 9 (Military District)",
+      "location": "コロニー9 (軍事区)",
       "time": "06:00–18:00",
       "star": "4",
-      "leader": "Shulk",
-      "requirementsRaw": "Mechonis Core cleared\r\nA Young Captain's Challenge (A route) completed\r\nColony 9 area ☆4\r\nShulk in the lead",
+      "leader": "シュルク",
+      "requirementsRaw": "機神界中枢をクリア\n小娘隊長の挑戦（Aルート）を達成済み\nコロニー9エリア ☆4\nパーティリーダーはシュルク",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -5069,14 +5069,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-pride-and-courage-87817643",
-      "name": "Pride and Courage",
-      "area": "Colony 9",
+      "name": "勇気とプライド",
+      "area": "コロニー9",
       "giverId": "resident-lukas-c46c12",
-      "location": "Colony 9 (Residential District)",
+      "location": "コロニー9 (居住区)",
       "time": "09:00–15:00",
       "star": "2",
       "leader": "",
-      "requirementsRaw": "Moritz registered on the Affinity Chart\r\nLonely Niranira\r\nColony 9 area ☆2",
+      "requirementsRaw": "フリッツがキズナグラムに登録済み\n孤独なニルニー\nコロニー9エリア ☆2",
       "requiredResidentIds": [
         "resident-moritz-54fd92"
       ],
@@ -5086,14 +5086,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-friendship-tokens-f32a6115",
-      "name": "Friendship Tokens",
-      "area": "Colony 9",
+      "name": "友情の三種の神器",
+      "area": "コロニー9",
       "giverId": "resident-moritz-54fd92",
-      "location": "Colony 9 (Residential District)",
+      "location": "コロニー9 (居住区)",
       "time": "09:00–15:00",
       "star": "4¼",
-      "leader": "Reyn",
-      "requirementsRaw": "Mechonis Core cleared\r\nPride and Courage\r\nColony 9 area ☆4¼\r\nReyn in the lead",
+      "leader": "ライン",
+      "requirementsRaw": "機神界中枢をクリア\n勇気とプライド\nコロニー9エリア ☆4¼\nパーティリーダーはライン",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -5101,14 +5101,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-a-big-brother-s-fight-ccc402f4",
-      "name": "A Big Brother's Fight",
-      "area": "Colony 9",
+      "name": "兄弟ゲンカ・アニキ編",
+      "area": "コロニー9",
       "giverId": "resident-zukazu-19b50b",
-      "location": "Colony 9 (Residential District)",
+      "location": "コロニー9 (居住区)",
       "time": "21:00–06:00",
       "star": "2½",
       "leader": "",
-      "requirementsRaw": "Riki joined the party\nAn Errand for the Heropon\nBiscuits for a Grandson\nColony 9 area ☆2½",
+      "requirementsRaw": "リキがパーティに加入\n勇者のお使い\n孫へのクッキー\nコロニー9エリア ☆2½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [
         "quest-colony-9-a-little-brother-s-fight-c5e7ea1a"
@@ -5118,14 +5118,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-a-little-brother-s-fight-c5e7ea1a",
-      "name": "A Little Brother's Fight",
-      "area": "Colony 9",
+      "name": "兄弟ゲンカ・オトウト編",
+      "area": "コロニー9",
       "giverId": "resident-jiroque-99e86c",
-      "location": "Colony 9 (Residential District)",
+      "location": "コロニー9 (居住区)",
       "time": "18:00–03:00",
       "star": "2½",
       "leader": "",
-      "requirementsRaw": "Riki joined the party\nAn Errand for the Heropon\nA Big Brother's Fight accepted\nColony 9 area ☆2½",
+      "requirementsRaw": "リキがパーティに加入\n勇者のお使い\n兄弟ゲンカ・アニキ編を受注済み\nコロニー9エリア ☆2½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [
         "quest-colony-9-a-big-brother-s-fight-ccc402f4"
@@ -5135,14 +5135,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-a-place-to-come-home-to-7c040452",
-      "name": "A Place to Come Home to",
-      "area": "Colony 9",
+      "name": "帰るべき場所",
+      "area": "コロニー9",
       "giverId": "resident-jiroque-99e86c",
-      "location": "Colony 9 (Residential District)",
+      "location": "コロニー9 (居住区)",
       "time": "18:00–03:00",
       "star": "3½",
       "leader": "",
-      "requirementsRaw": "A Big Brother's Fight\r\nColony 9 area ☆3½",
+      "requirementsRaw": "兄弟ゲンカ・アニキ編\nコロニー9エリア ☆3½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -5151,13 +5151,13 @@ const AFFINITY_DATA={
     {
       "id": "quest-colony-9-thawing-relationships-ae729363",
       "name": "Thawing Relationships",
-      "area": "Colony 9",
+      "area": "コロニー9",
       "giverId": "resident-zukazu-19b50b",
-      "location": "Colony 9 (Residential District)",
+      "location": "コロニー9 (居住区)",
       "time": "21:00–06:00",
       "star": "3½",
       "leader": "",
-      "requirementsRaw": "In the course to the Makna Forest's final event\r\nA Little Brother's Fight\r\nColony 9 area ☆3½",
+      "requirementsRaw": "マクナ原生林の最後の出来事へ向かう途中\n兄弟ゲンカ・オトウト編\nコロニー9エリア ☆3½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -5165,14 +5165,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-rocco-s-heartful-request-123cd707",
-      "name": "Rocco's Heartful Request",
-      "area": "Colony 9",
+      "name": "ロコの切実な願い",
+      "area": "コロニー9",
       "giverId": "resident-rocco-916320",
-      "location": "Colony 9 (Commercial District)",
+      "location": "コロニー9 (商業区)",
       "time": "09:00–18:00",
       "star": "1½",
       "leader": "",
-      "requirementsRaw": "Sonia registered on the Affinity Chart\r\nColony 9 area ☆1½",
+      "requirementsRaw": "ソニアがキズナグラムに登録済み\nコロニー9エリア ☆1½",
       "requiredResidentIds": [
         "resident-sonia-d8db49"
       ],
@@ -5182,14 +5182,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-dean-s-shady-request-d2e3cc6a",
-      "name": "Dean's Shady Request",
-      "area": "Colony 9",
+      "name": "ディーンの邪な願い",
+      "area": "コロニー9",
       "giverId": "resident-dean-0e21b2",
-      "location": "Colony 9 (Military District)",
+      "location": "コロニー9 (軍事区)",
       "time": "06:00–15:00",
       "star": "2",
       "leader": "",
-      "requirementsRaw": "Liliana registered on the Affinity Chart\r\nRocco's Heartful Request\r\nColony 9 area ☆2",
+      "requirementsRaw": "リルカがキズナグラムに登録済み\nロコの切実な願い\nコロニー9エリア ☆2",
       "requiredResidentIds": [
         "resident-liliana-20150a"
       ],
@@ -5199,14 +5199,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-liliana-s-sincere-request-a992ff79",
-      "name": "Liliana's Sincere Request",
-      "area": "Colony 9",
+      "name": "リルカの真剣な願い",
+      "area": "コロニー9",
       "giverId": "resident-liliana-20150a",
-      "location": "Colony 9 (Commercial District)",
+      "location": "コロニー9 (商業区)",
       "time": "09:00–18:00",
       "star": "2½",
       "leader": "",
-      "requirementsRaw": "Dean's Shady Request\r\nColony 9 area ☆2½",
+      "requirementsRaw": "ディーンの邪な願い\nコロニー9エリア ☆2½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -5214,14 +5214,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-jackson-s-awakening-e3cd8a4d",
-      "name": "Jackson's Awakening",
-      "area": "Colony 9",
+      "name": "ジャクソンの覚醒",
+      "area": "コロニー9",
       "giverId": "resident-jackson-f1ed15",
-      "location": "Colony 9 (Residential District)",
+      "location": "コロニー9 (居住区)",
       "time": "06:00–18:00",
       "star": "3",
       "leader": "",
-      "requirementsRaw": "Dorothy registered on the Affinity Chart\r\nSharla joined the party\r\nColony 9 area ☆3",
+      "requirementsRaw": "ドロテアがキズナグラムに登録済み\nカルナがパーティに加入\nコロニー9エリア ☆3",
       "requiredResidentIds": [
         "resident-dorothy-d7a9d0"
       ],
@@ -5232,13 +5232,13 @@ const AFFINITY_DATA={
     {
       "id": "quest-colony-9-jackson-the-cook-f3ac6d5d",
       "name": "Jackson The Cook",
-      "area": "Colony 9",
+      "area": "コロニー9",
       "giverId": "resident-jackson-f1ed15",
-      "location": "Colony 9 (Residential District)",
+      "location": "コロニー9 (居住区)",
       "time": "06:00–18:00",
       "star": "3½",
       "leader": "",
-      "requirementsRaw": "Jackson's Awakening (B route) completed\r\nColony 9 area ☆3½\r\nSharla joined the party",
+      "requirementsRaw": "ジャクソンの覚醒（Bルート）を達成済み\nコロニー9エリア ☆3½\nカルナがパーティに加入",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -5247,13 +5247,13 @@ const AFFINITY_DATA={
     {
       "id": "quest-colony-9-jackson-the-poet-d40f10a7",
       "name": "Jackson The Poet",
-      "area": "Colony 9",
+      "area": "コロニー9",
       "giverId": "resident-jackson-f1ed15",
-      "location": "Colony 9 (Residential District)",
+      "location": "コロニー9 (居住区)",
       "time": "06:00–18:00",
       "star": "3½",
       "leader": "",
-      "requirementsRaw": "Jackson's Awakening (A route) completed\r\nColony 9 area ☆3½\r\nSharla joined the party",
+      "requirementsRaw": "ジャクソンの覚醒（Aルート）を達成済み\nコロニー9エリア ☆3½\nカルナがパーティに加入",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -5261,14 +5261,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-desiree-s-future-f8d99dfa",
-      "name": "Désirée's Future",
-      "area": "Colony 9",
+      "name": "デジレーンの将来",
+      "area": "コロニー9",
       "giverId": "resident-desiree-83bb32",
-      "location": "Colony 9 (Commercial District)",
+      "location": "コロニー9 (商業区)",
       "time": "18:00–03:00",
       "star": "4½",
-      "leader": "Shulk",
-      "requirementsRaw": "Satorl Marsh reached\r\nJackson's Awakening\r\nColony 9 area ☆4½\r\nShulk in the lead",
+      "leader": "シュルク",
+      "requirementsRaw": "燐光の地ザトールに到達\nジャクソンの覚醒\nコロニー9エリア ☆4½\nパーティリーダーはシュルク",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -5276,14 +5276,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-betty-s-gift-2ae61ede",
-      "name": "Betty's Gift",
-      "area": "Colony 9",
+      "name": "ベッティの贈り物",
+      "area": "コロニー9",
       "giverId": "resident-betty-b908f3",
-      "location": "Colony 9 (Residential District)",
+      "location": "コロニー9 (居住区)",
       "time": "06:00–15:00",
       "star": "5",
       "leader": "",
-      "requirementsRaw": "Satorl Marsh reached\r\nDésirée's Future (A route) completed\r\nBetty mentioned Désirée's new career\r\nColony 9 area ☆5",
+      "requirementsRaw": "燐光の地ザトールに到達\nデジレーンの将来（Aルート）を達成済み\nベッティ mentioned デジレーン's new career\nコロニー9エリア ☆5",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -5291,14 +5291,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-desiree-s-apology-c68a7721",
-      "name": "Désirée's Apology",
-      "area": "Colony 9",
+      "name": "デジレーンの謝罪",
+      "area": "コロニー9",
       "giverId": "resident-desiree-83bb32",
-      "location": "Colony 9 (Commercial District)",
+      "location": "コロニー9 (商業区)",
       "time": "21:00–03:00",
       "star": "5",
       "leader": "",
-      "requirementsRaw": "Satorl Marsh reached\r\nDésirée's Future (B route) completed\r\nColony 9 area ☆5",
+      "requirementsRaw": "燐光の地ザトールに到達\nデジレーンの将来（Bルート）を達成済み\nコロニー9エリア ☆5",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -5306,14 +5306,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-the-elite-captain-s-anguish-aa6b3314",
-      "name": "The Elite Captain's Anguish",
-      "area": "Colony 9",
+      "name": "エリート小隊長の苦悩",
+      "area": "コロニー9",
       "giverId": "resident-raoul-fce85c",
-      "location": "Colony 9 (Military District)",
+      "location": "コロニー9 (軍事区)",
       "time": "06:00–18:00",
       "star": "4",
       "leader": "",
-      "requirementsRaw": "Mechonis Core cleared\r\nA Young Captain's Trust\r\nor A Young Captain's Revival\r\nColony 9 area ☆4",
+      "requirementsRaw": "機神界中枢をクリア\n小娘隊長の信頼\nor 小娘隊長の復活\nコロニー9エリア ☆4",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -5321,14 +5321,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-getting-to-know-minnie-cbdfe5a0",
-      "name": "Getting to Know Minnie",
-      "area": "Colony 9",
+      "name": "メイニーを知る",
+      "area": "コロニー9",
       "giverId": "resident-minnie-22d669",
-      "location": "Colony 9 (Residential District)",
+      "location": "コロニー9 (居住区)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Mechonis Core cleared\r\nThe Elite Captain's Anguish accepted",
+      "requirementsRaw": "機神界中枢をクリア\nエリート小隊長の苦悩を受注済み",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -5336,14 +5336,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-getting-to-know-dorothy-32854a9f",
-      "name": "Getting to Know Dorothy",
-      "area": "Colony 9",
+      "name": "ドロテアを知る",
+      "area": "コロニー9",
       "giverId": "resident-dorothy-d7a9d0",
-      "location": "Colony 9 (Commercial District)",
+      "location": "コロニー9 (商業区)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Mechonis Core cleared\r\nThe Elite Captain's Anguish accepted",
+      "requirementsRaw": "機神界中枢をクリア\nエリート小隊長の苦悩を受注済み",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -5351,14 +5351,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-a-mysterious-light-a13112c1",
-      "name": "A Mysterious Light",
-      "area": "Colony 9",
+      "name": "謎の光の真相",
+      "area": "コロニー9",
       "giverId": "resident-kenny-rohan-8f1379",
-      "location": "Colony 9",
+      "location": "コロニー9",
       "time": "21:00–15:00",
       "star": "3",
       "leader": "",
-      "requirementsRaw": "Colony 6 area reached\r\nColony 9 area ☆3",
+      "requirementsRaw": "コロニー6に到達\nコロニー9エリア ☆3",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -5366,10 +5366,10 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-out-like-a-light-40f7eb9a",
-      "name": "Out Like a Light?",
-      "area": "Colony 9",
+      "name": "謎の光の行方",
+      "area": "コロニー9",
       "giverId": "resident-kenny-rohan-8f1379",
-      "location": "Colony 9",
+      "location": "コロニー9",
       "time": "21:00–15:00",
       "star": "",
       "leader": "",
@@ -5381,14 +5381,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-the-lost-pendant-169815c1",
-      "name": "The Lost Pendant",
-      "area": "Colony 9",
+      "name": "なくしたペンダント",
+      "area": "コロニー9",
       "giverId": "resident-a-defence-force-soldier-cd0c67",
-      "location": "Colony 9 (Cylinder Hangar) · Anytime",
+      "location": "コロニー9（シリンダー格納庫） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Access to Tephra Cave\r\nMissing in Action",
+      "requirementsRaw": "テフラ洞窟へ入れる\n単独行動の兵士",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -5396,10 +5396,10 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-monster-quest-1-part-1-f38055d1",
-      "name": "Monster Quest 1 - Part 1",
-      "area": "Colony 9",
+      "name": "討伐クエスト1その1",
+      "area": "コロニー9",
       "giverId": "resident-a-defence-force-soldier-cd0c67",
-      "location": "Colony 9 (Military District)",
+      "location": "コロニー9 (軍事区)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
@@ -5411,10 +5411,10 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-monster-quest-1-part-2-2034c1d5",
-      "name": "Monster Quest 1 - Part 2",
-      "area": "Colony 9",
+      "name": "討伐クエスト1その2",
+      "area": "コロニー9",
       "giverId": "resident-a-defence-force-soldier-cd0c67",
-      "location": "Colony 9 (Military District)",
+      "location": "コロニー9 (軍事区)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
@@ -5426,10 +5426,10 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-monster-quest-1-part-3-79f5dabb",
-      "name": "Monster Quest 1 - Part 3",
-      "area": "Colony 9",
+      "name": "討伐クエスト1その3",
+      "area": "コロニー9",
       "giverId": "resident-a-defence-force-soldier-cd0c67",
-      "location": "Colony 9 (Military District)",
+      "location": "コロニー9 (軍事区)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
@@ -5441,10 +5441,10 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-monster-quest-2-part-1-c127e9f5",
-      "name": "Monster Quest 2 - Part 1",
-      "area": "Colony 9",
+      "name": "討伐クエスト2その1",
+      "area": "コロニー9",
       "giverId": "resident-a-defence-force-soldier-cd0c67",
-      "location": "Colony 9 (Military District)",
+      "location": "コロニー9 (軍事区)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
@@ -5456,10 +5456,10 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-monster-quest-2-part-2-582d4f43",
-      "name": "Monster Quest 2 - Part 2",
-      "area": "Colony 9",
+      "name": "討伐クエスト2その2",
+      "area": "コロニー9",
       "giverId": "resident-a-defence-force-soldier-cd0c67",
-      "location": "Colony 9 (Military District)",
+      "location": "コロニー9 (軍事区)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
@@ -5471,10 +5471,10 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-monster-quest-2-part-3-9acaa1fc",
-      "name": "Monster Quest 2 - Part 3",
-      "area": "Colony 9",
+      "name": "討伐クエスト2その3",
+      "area": "コロニー9",
       "giverId": "resident-a-defence-force-soldier-cd0c67",
-      "location": "Colony 9 (Military District)",
+      "location": "コロニー9 (軍事区)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
@@ -5486,10 +5486,10 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-monster-quest-3-part-1-b44280ef",
-      "name": "Monster Quest 3 - Part 1",
-      "area": "Colony 9",
+      "name": "討伐クエスト3その1",
+      "area": "コロニー9",
       "giverId": "resident-a-homs-resident-dee5a6",
-      "location": "Colony 9 (Commercial District)",
+      "location": "コロニー9 (商業区)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
@@ -5501,10 +5501,10 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-monster-quest-3-part-2-745dc67c",
-      "name": "Monster Quest 3 - Part 2",
-      "area": "Colony 9",
+      "name": "討伐クエスト3その2",
+      "area": "コロニー9",
       "giverId": "resident-a-homs-resident-dee5a6",
-      "location": "Colony 9 (Commercial District)",
+      "location": "コロニー9 (商業区)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
@@ -5516,10 +5516,10 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-monster-quest-3-part-3-f024097e",
-      "name": "Monster Quest 3 - Part 3",
-      "area": "Colony 9",
+      "name": "討伐クエスト3その3",
+      "area": "コロニー9",
       "giverId": "resident-a-homs-resident-dee5a6",
-      "location": "Colony 9 (Commercial District)",
+      "location": "コロニー9 (商業区)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
@@ -5531,10 +5531,10 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-monster-quest-3-part-4-c40931db",
-      "name": "Monster Quest 3 - Part 4",
-      "area": "Colony 9",
+      "name": "討伐クエスト3その4",
+      "area": "コロニー9",
       "giverId": "resident-a-homs-resident-dee5a6",
-      "location": "Colony 9 (Commercial District)",
+      "location": "コロニー9 (商業区)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
@@ -5546,10 +5546,10 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-monster-quest-4-part-1-7e04c2e5",
-      "name": "Monster Quest 4 - Part 1",
-      "area": "Colony 9",
+      "name": "討伐クエスト4その1",
+      "area": "コロニー9",
       "giverId": "resident-a-defence-force-soldier-cd0c67",
-      "location": "Colony 9 (Tephra Cave) · Anytime",
+      "location": "コロニー9（テフラ洞窟） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
@@ -5561,10 +5561,10 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-monster-quest-4-part-2-bfc86df5",
-      "name": "Monster Quest 4 - Part 2",
-      "area": "Colony 9",
+      "name": "討伐クエスト4その2",
+      "area": "コロニー9",
       "giverId": "resident-a-defence-force-soldier-cd0c67",
-      "location": "Colony 9 (Tephra Cave) · Anytime",
+      "location": "コロニー9（テフラ洞窟） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
@@ -5576,10 +5576,10 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-monster-quest-4-part-3-fc3fd237",
-      "name": "Monster Quest 4 - Part 3",
-      "area": "Colony 9",
+      "name": "討伐クエスト4その3",
+      "area": "コロニー9",
       "giverId": "resident-a-defence-force-soldier-cd0c67",
-      "location": "Colony 9 (Tephra Cave) · Anytime",
+      "location": "コロニー9（テフラ洞窟） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
@@ -5591,10 +5591,10 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-challenge-1-c25ea720",
-      "name": "Challenge 1",
-      "area": "Colony 9",
+      "name": "強敵を求めて1",
+      "area": "コロニー9",
       "giverId": "resident-a-defence-force-soldier-cd0c67",
-      "location": "Colony 9 (Military District)",
+      "location": "コロニー9 (軍事区)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
@@ -5606,10 +5606,10 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-challenge-2-68e6e077",
-      "name": "Challenge 2",
-      "area": "Colony 9",
+      "name": "強敵を求めて2",
+      "area": "コロニー9",
       "giverId": "resident-a-homs-resident-dee5a6",
-      "location": "Colony 9 (Commercial District)",
+      "location": "コロニー9 (商業区)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
@@ -5621,10 +5621,10 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-challenge-3-3414296e",
-      "name": "Challenge 3",
-      "area": "Colony 9",
+      "name": "強敵を求めて3",
+      "area": "コロニー9",
       "giverId": "resident-a-defence-force-soldier-cd0c67",
-      "location": "Colony 9 (Military District)",
+      "location": "コロニー9 (軍事区)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
@@ -5636,14 +5636,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-challenge-4-970afab1",
-      "name": "Challenge 4",
-      "area": "Colony 9",
+      "name": "強敵を求めて4",
+      "area": "コロニー9",
       "giverId": "resident-a-nopon-resident-725d35",
-      "location": "Colony 9 (Commercial District)",
+      "location": "コロニー9 (商業区)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Reyn met at the Weapon Dev. Lab",
+      "requirementsRaw": "ライン met at the 兵器開発局 研究棟",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -5652,9 +5652,9 @@ const AFFINITY_DATA={
     {
       "id": "quest-colony-9-material-quest-1-05fb0f7f",
       "name": "Material Quest 1",
-      "area": "Colony 9",
+      "area": "コロニー9",
       "giverId": "resident-a-nopon-resident-725d35",
-      "location": "Colony 9 (Military District)",
+      "location": "コロニー9 (軍事区)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
@@ -5667,9 +5667,9 @@ const AFFINITY_DATA={
     {
       "id": "quest-colony-9-material-quest-2-2039aacb",
       "name": "Material Quest 2",
-      "area": "Colony 9",
+      "area": "コロニー9",
       "giverId": "resident-a-homs-resident-dee5a6",
-      "location": "Colony 9 (Commercial District)",
+      "location": "コロニー9 (商業区)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
@@ -5681,10 +5681,10 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-material-quest-3-7d90f769",
-      "name": "Material Quest 3",
-      "area": "Colony 9",
+      "name": "素材クエスト3",
+      "area": "コロニー9",
       "giverId": "resident-a-homs-resident-dee5a6",
-      "location": "Colony 9 (Commercial District)",
+      "location": "コロニー9 (商業区)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
@@ -5696,10 +5696,10 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-material-quest-4-0fbb5951",
-      "name": "Material Quest 4",
-      "area": "Colony 9",
+      "name": "素材クエスト4",
+      "area": "コロニー9",
       "giverId": "resident-a-homs-resident-dee5a6",
-      "location": "Colony 9 (Residential District)",
+      "location": "コロニー9 (居住区)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
@@ -5712,9 +5712,9 @@ const AFFINITY_DATA={
     {
       "id": "quest-colony-9-collection-quest-1-ca37f51c",
       "name": "Collection Quest 1",
-      "area": "Colony 9",
+      "area": "コロニー9",
       "giverId": "resident-a-homs-resident-dee5a6",
-      "location": "Colony 9 (Commercial District)",
+      "location": "コロニー9 (商業区)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
@@ -5727,9 +5727,9 @@ const AFFINITY_DATA={
     {
       "id": "quest-colony-9-collection-quest-2-594fbfbc",
       "name": "Collection Quest 2",
-      "area": "Colony 9",
+      "area": "コロニー9",
       "giverId": "resident-a-homs-resident-dee5a6",
-      "location": "Colony 9 (Commercial District)",
+      "location": "コロニー9 (商業区)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
@@ -5741,10 +5741,10 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-collection-quest-3-9f754ffc",
-      "name": "Collection Quest 3",
-      "area": "Colony 9",
+      "name": "収集クエスト3",
+      "area": "コロニー9",
       "giverId": "resident-a-homs-resident-dee5a6",
-      "location": "Colony 9 (Residential District)",
+      "location": "コロニー9 (居住区)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
@@ -5756,10 +5756,10 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-collection-quest-4-e429e3c0",
-      "name": "Collection Quest 4",
-      "area": "Colony 9",
+      "name": "収集クエスト4",
+      "area": "コロニー9",
       "giverId": "resident-a-homs-resident-dee5a6",
-      "location": "Colony 9 (Residential District)",
+      "location": "コロニー9 (居住区)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
@@ -5771,10 +5771,10 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-search-quest-1-9f9562a0",
-      "name": "Search Quest 1",
-      "area": "Colony 9",
+      "name": "おさがしクエスト1",
+      "area": "コロニー9",
       "giverId": "resident-a-homs-resident-dee5a6",
-      "location": "Colony 9 (Central Plaza)",
+      "location": "コロニー9 (Central Plaza)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
@@ -5786,10 +5786,10 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-search-quest-2-c385b730",
-      "name": "Search Quest 2",
-      "area": "Colony 9",
+      "name": "おさがしクエスト2",
+      "area": "コロニー9",
       "giverId": "resident-a-nopon-resident-725d35",
-      "location": "Colony 9 (Residential District)",
+      "location": "コロニー9 (居住区)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
@@ -5801,10 +5801,10 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-search-quest-3-d78f7bfe",
-      "name": "Search Quest 3",
-      "area": "Colony 9",
+      "name": "おさがしクエスト3",
+      "area": "コロニー9",
       "giverId": "resident-a-homs-resident-dee5a6",
-      "location": "Colony 9 (Commercial District)",
+      "location": "コロニー9 (商業区)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
@@ -5816,10 +5816,10 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-search-quest-4-49ffabf9",
-      "name": "Search Quest 4",
-      "area": "Colony 9",
+      "name": "おさがしクエスト4",
+      "area": "コロニー9",
       "giverId": "resident-a-homs-resident-dee5a6",
-      "location": "Colony 9 (Residential District)",
+      "location": "コロニー9 (居住区)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
@@ -5831,14 +5831,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-a-token-of-friendship-51042185",
-      "name": "A Token of Friendship",
-      "area": "Colony 9",
+      "name": "友人思い",
+      "area": "コロニー9",
       "giverId": "resident-shulk-56aa3b",
-      "location": "Colony 9 (Weapon Development Lab) · Anytime",
+      "location": "コロニー9 (Weapon Development Lab) · Anytime",
       "time": "",
       "star": "",
-      "leader": "Shulk",
-      "requirementsRaw": "Mechonis Core cleared\r\nShulk in the lead inspecting the area when a prompt appears",
+      "leader": "シュルク",
+      "requirementsRaw": "機神界中枢をクリア\nシュルク in the lead inspecting the area when a prompt appears",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -5846,14 +5846,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-the-gem-man-s-invention-1f9126a2",
-      "name": "The Gem Man's Invention",
-      "area": "Colony 9",
+      "name": "ジェム爺の発明",
+      "area": "コロニー9",
       "giverId": "resident-gem-man-3d1ece",
-      "location": "Colony 9 (Gem Man's Stall) · Anytime",
+      "location": "コロニー9（ジェム爺の露天商） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Access to Colony 6 Reconstruction",
+      "requirementsRaw": "Access to コロニー6 Reconstruction",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -5861,10 +5861,10 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-9-delivering-food-ff6d1a95",
-      "name": "Delivering Food",
-      "area": "Colony 9",
+      "name": "お弁当を届ける",
+      "area": "コロニー9",
       "giverId": "resident-story-quest-09cfce",
-      "location": "Colony 9 (Dunban's House) · Automatic",
+      "location": "コロニー9（ダンバン邸） · 自動",
       "time": "",
       "star": "",
       "leader": "",
@@ -5876,14 +5876,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-tephra-cave-missing-in-action-780cfec2",
-      "name": "Missing in Action",
-      "area": "Tephra Cave",
+      "name": "単独行動の兵士",
+      "area": "テフラ洞窟",
       "giverId": "resident-defence-force-soldier-c23f1e",
-      "location": "Tephra Cave (Warehouse 2)",
+      "location": "テフラ洞窟 (第2左舷倉庫)",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "After the Mechon attack in Colony 9",
+      "requirementsRaw": "コロニー9の機神兵襲撃のあと",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -5891,14 +5891,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-tephra-cave-arachno-silk-fundraising-8f3f671d",
-      "name": "Arachno Silk Fundraising",
-      "area": "Tephra Cave",
+      "name": "蜘蛛の繭は金になる？",
+      "area": "テフラ洞窟",
       "giverId": "resident-defence-force-soldier-c23f1e",
-      "location": "Tephra Cave (Warehouse 2)",
+      "location": "テフラ洞窟 (第2左舷倉庫)",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "After the Mechon attack in Colony 9\r\nArachno Silk Fundraising",
+      "requirementsRaw": "コロニー9の機神兵襲撃のあと\n蜘蛛の繭は金になる？",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -5906,14 +5906,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-tephra-cave-a-thank-you-93db0f47",
-      "name": "A Thank You",
-      "area": "Tephra Cave",
+      "name": "これまでのお礼",
+      "area": "テフラ洞窟",
       "giverId": "resident-defence-force-soldier-c23f1e",
-      "location": "Tephra Cave (Warehouse 2)",
+      "location": "テフラ洞窟 (第2左舷倉庫)",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "After the Mechon attack in Colony 9\r\nArachno Silk Fundraising",
+      "requirementsRaw": "コロニー9の機神兵襲撃のあと\n蜘蛛の繭は金になる？",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -5921,14 +5921,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-tephra-cave-clearing-obstructions-68256ada",
-      "name": "Clearing Obstructions",
-      "area": "Tephra Cave",
+      "name": "進路妨害",
+      "area": "テフラ洞窟",
       "giverId": "resident-defence-force-soldier-c23f1e",
-      "location": "Tephra Cave (Warehouse 2)",
+      "location": "テフラ洞窟 (第2左舷倉庫)",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Vilia Lake reached",
+      "requirementsRaw": "ヴィリア湖に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -5936,14 +5936,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-tephra-cave-the-book-of-bafalgar-7d37bca5",
-      "name": "The Book of Bafalgar",
-      "area": "Tephra Cave",
+      "name": "バルファルガの書",
+      "area": "テフラ洞窟",
       "giverId": "resident-shura-6ea5c8",
-      "location": "Tephra Cave (Bafalgar Tomb)",
+      "location": "テフラ洞窟 (バルファルガ墓地)",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Mechonis Core cleared",
+      "requirementsRaw": "機神界中枢をクリア",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -5951,14 +5951,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-tephra-cave-the-blood-of-bafalgar-5cb0e4ee",
-      "name": "The Blood of Bafalgar",
-      "area": "Tephra Cave",
+      "name": "バルファルガの血",
+      "area": "テフラ洞窟",
       "giverId": "resident-shura-6ea5c8",
-      "location": "Tephra Cave (Bafalgar Tomb)",
+      "location": "テフラ洞窟 (バルファルガ墓地)",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Mechonis Core cleared\nThe Book of Bafalgar",
+      "requirementsRaw": "機神界中枢をクリア\nバルファルガの書",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -5966,14 +5966,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-tephra-cave-the-path-of-bafalgar-2a536900",
-      "name": "The Path of Bafalgar",
-      "area": "Tephra Cave",
+      "name": "バルファルガの道",
+      "area": "テフラ洞窟",
       "giverId": "resident-shura-6ea5c8",
-      "location": "Tephra Cave (Bafalgar Tomb)",
+      "location": "テフラ洞窟 (バルファルガ墓地)",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Mechonis Core cleared\nThe Blood of Bafalgar",
+      "requirementsRaw": "機神界中枢をクリア\nバルファルガの血",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -5981,14 +5981,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-tephra-cave-the-coffin-of-bafalgar-f9784e3f",
-      "name": "The Coffin of Bafalgar",
-      "area": "Tephra Cave",
+      "name": "バルファルガの棺",
+      "area": "テフラ洞窟",
       "giverId": "resident-shura-6ea5c8",
-      "location": "Tephra Cave (Bafalgar Tomb)",
+      "location": "テフラ洞窟 (バルファルガ墓地)",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Mechonis Core cleared\nThe Path of Bafalgar",
+      "requirementsRaw": "機神界中枢をクリア\nバルファルガの道",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -5996,14 +5996,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-tephra-cave-the-gratitude-of-bafalgar-2eb5451e",
-      "name": "The Gratitude of Bafalgar",
-      "area": "Tephra Cave",
+      "name": "バルファルガの礼",
+      "area": "テフラ洞窟",
       "giverId": "resident-shura-6ea5c8",
-      "location": "Tephra Cave (Bafalgar Tomb)",
+      "location": "テフラ洞窟 (バルファルガ墓地)",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Mechonis Core cleared\nThe Coffin of Bafalgar",
+      "requirementsRaw": "機神界中枢をクリア\nバルファルガの棺",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -6012,13 +6012,13 @@ const AFFINITY_DATA={
     {
       "id": "quest-tephra-cave-collection-quest-1-632d5906",
       "name": "Collection Quest 1",
-      "area": "Tephra Cave",
+      "area": "テフラ洞窟",
       "giverId": "resident-defence-force-soldier-c23f1e",
-      "location": "Tephra Cave (Escape Pod Bay)",
+      "location": "テフラ洞窟 (脱出ポッド室)",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "After the Mechon attack in Colony 9",
+      "requirementsRaw": "コロニー9の機神兵襲撃のあと",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -6027,13 +6027,13 @@ const AFFINITY_DATA={
     {
       "id": "quest-tephra-cave-collection-quest-2-0b312bff",
       "name": "Collection Quest 2",
-      "area": "Tephra Cave",
+      "area": "テフラ洞窟",
       "giverId": "resident-defence-force-soldier-c23f1e",
-      "location": "Tephra Cave (Escape Pod Bay)",
+      "location": "テフラ洞窟 (脱出ポッド室)",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "After the Mechon attack in Colony 9",
+      "requirementsRaw": "コロニー9の機神兵襲撃のあと",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -6042,13 +6042,13 @@ const AFFINITY_DATA={
     {
       "id": "quest-tephra-cave-material-quest-1-01afcb45",
       "name": "Material Quest 1",
-      "area": "Tephra Cave",
+      "area": "テフラ洞窟",
       "giverId": "resident-defence-force-soldier-c23f1e",
-      "location": "Tephra Cave (Escape Pod Bay)",
+      "location": "テフラ洞窟 (脱出ポッド室)",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "After the Mechon attack in Colony 9",
+      "requirementsRaw": "コロニー9の機神兵襲撃のあと",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -6057,13 +6057,13 @@ const AFFINITY_DATA={
     {
       "id": "quest-tephra-cave-material-quest-2-d6b30bb6",
       "name": "Material Quest 2",
-      "area": "Tephra Cave",
+      "area": "テフラ洞窟",
       "giverId": "resident-defence-force-soldier-c23f1e",
-      "location": "Tephra Cave (Escape Pod Bay)",
+      "location": "テフラ洞窟 (脱出ポッド室)",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "After the Mechon attack in Colony 9",
+      "requirementsRaw": "コロニー9の機神兵襲撃のあと",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -6071,14 +6071,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-bionis-leg-emergency-treatment-c86776e7",
-      "name": "Emergency Treatment",
-      "area": "Bionis' Leg",
+      "name": "薬の時間",
+      "area": "巨神脚",
       "giverId": "resident-olga-dd2ed1",
-      "location": "Bionis' Leg (Refugee Camp)",
+      "location": "巨神脚 (脱出艇キャンプ)",
       "time": "06:00–15:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Bionis' Leg area reached\nGorman registered on the Colony 6 area Affinity Chart",
+      "requirementsRaw": "巨神脚に到達\nゲールマンがコロニー6エリアのキズナグラムに登録済み",
       "requiredResidentIds": [
         "resident-gorman-e87fc2"
       ],
@@ -6088,14 +6088,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-bionis-leg-being-a-good-grandfather-9ef961fb",
-      "name": "Being a Good Grandfather",
-      "area": "Bionis' Leg",
+      "name": "祖父の心孫知らず",
+      "area": "巨神脚",
       "giverId": "resident-satata-f496e5",
-      "location": "Bionis' Leg (Refugee Camp)",
+      "location": "巨神脚 (脱出艇キャンプ)",
       "time": "06:00–15:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Bionis' Leg area reached\r\nNikita registered on the Colony 6 area Affinity Chart",
+      "requirementsRaw": "巨神脚に到達\nニキータがコロニー6エリアのキズナグラムに登録済み",
       "requiredResidentIds": [
         "resident-nikita-5dc757"
       ],
@@ -6105,14 +6105,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-bionis-leg-a-thoughtful-idea-047b88f8",
-      "name": "A Thoughtful Idea",
-      "area": "Bionis' Leg",
+      "name": "君に贈る物語",
+      "area": "巨神脚",
       "giverId": "resident-matryona-63a25c",
-      "location": "Bionis' Leg (Refugee Camp)",
+      "location": "巨神脚 (脱出艇キャンプ)",
       "time": "09:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Bionis' Leg area reached",
+      "requirementsRaw": "巨神脚に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -6120,14 +6120,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-bionis-leg-a-dash-of-colour-4f52f280",
-      "name": "A Dash of Colour",
-      "area": "Bionis' Leg",
+      "name": "君へ贈る物語",
+      "area": "巨神脚",
       "giverId": "resident-ewan-8956b4",
-      "location": "Bionis' Leg (Refugee Camp)",
+      "location": "巨神脚 (脱出艇キャンプ)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Bionis' Leg area reached\r\nA Thoughtful Idea",
+      "requirementsRaw": "巨神脚に到達\n君に贈る物語",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -6135,14 +6135,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-bionis-leg-imaginations-tempered-f8dcc7a5",
-      "name": "Imaginations Tempered",
-      "area": "Bionis' Leg",
+      "name": "君が贈る物語",
+      "area": "巨神脚",
       "giverId": "resident-matryona-63a25c",
-      "location": "Bionis' Leg (Refugee Camp)",
+      "location": "巨神脚 (脱出艇キャンプ)",
       "time": "09:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Bionis' Leg area reached\r\nA Dash of Colour",
+      "requirementsRaw": "巨神脚に到達\n君へ贈る物語",
       "requiredResidentIds": [],
       "mutuallyExclusive": [
         "quest-bionis-leg-spirits-raised-166ef63c"
@@ -6152,14 +6152,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-bionis-leg-spirits-raised-166ef63c",
-      "name": "Spirits Raised",
-      "area": "Bionis' Leg",
+      "name": "君の贈る物語",
+      "area": "巨神脚",
       "giverId": "resident-arda-21f914",
-      "location": "Bionis' Leg (Refugee Camp) · Anytime",
+      "location": "巨神脚（脱出艇キャンプ） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Bionis' Leg area reached\r\nImaginations Tempered accepted",
+      "requirementsRaw": "巨神脚に到達\n君が贈る物語を受注済み",
       "requiredResidentIds": [],
       "mutuallyExclusive": [
         "quest-bionis-leg-imaginations-tempered-f8dcc7a5"
@@ -6169,14 +6169,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-bionis-leg-thieving-monsters-479bb2e8",
-      "name": "Thieving Monsters",
-      "area": "Bionis' Leg",
+      "name": "泥棒モンスター",
+      "area": "巨神脚",
       "giverId": "resident-gorman-e87fc2",
-      "location": "Bionis' Leg (Refugee Camp)",
+      "location": "巨神脚 (脱出艇キャンプ)",
       "time": "21:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Bionis' Leg area reached",
+      "requirementsRaw": "巨神脚に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -6184,14 +6184,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-bionis-leg-the-greedy-monster-7511fe50",
-      "name": "The Greedy Monster",
-      "area": "Bionis' Leg",
+      "name": "大食いモンスター",
+      "area": "巨神脚",
       "giverId": "resident-satata-f496e5",
-      "location": "Bionis' Leg (Refugee Camp)",
+      "location": "巨神脚 (脱出艇キャンプ)",
       "time": "06:00–15:00",
       "star": "1¼",
       "leader": "",
-      "requirementsRaw": "Bionis' Leg area reached\r\nBeing a Good Grandfather\r\nColony 6 area ☆1¼",
+      "requirementsRaw": "巨神脚に到達\n祖父の心孫知らず\nコロニー6エリア ☆1¼",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -6199,14 +6199,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-bionis-leg-save-the-girl-10b6a5e4",
-      "name": "Save the Girl!",
-      "area": "Bionis' Leg",
+      "name": "女性を助けろ！",
+      "area": "巨神脚",
       "giverId": "resident-surprise-quest-86bd80",
-      "location": "Bionis' Leg (near waterfall in southeast Gaur Plain) · Automatic",
+      "location": "巨神脚 (near waterfall in southeast ガウル平原) · Automatic",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Sharla joined the party",
+      "requirementsRaw": "カルナがパーティに加入",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -6214,14 +6214,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-bionis-leg-earnest-s-fibs-98917f25",
-      "name": "Earnest's Fibs",
-      "area": "Bionis' Leg",
+      "name": "ウソつきオーネスト",
+      "area": "巨神脚",
       "giverId": "resident-earnest-fbd959",
-      "location": "Bionis' Leg (Refugee Camp) · Anytime",
+      "location": "巨神脚（脱出艇キャンプ） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Bionis' Leg area reached",
+      "requirementsRaw": "巨神脚に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -6229,14 +6229,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-bionis-leg-earnest-s-mischief-195b7daf",
-      "name": "Earnest's Mischief",
-      "area": "Bionis' Leg",
+      "name": "ひとでなしオーネスト",
+      "area": "巨神脚",
       "giverId": "resident-earnest-fbd959",
-      "location": "Bionis' Leg (Refugee Camp) · Anytime",
+      "location": "巨神脚（脱出艇キャンプ） · いつでも",
       "time": "",
       "star": "1¼",
       "leader": "",
-      "requirementsRaw": "Bionis' Leg area reached\r\nEarnest's Fibs\r\nColony 6 area ☆1¼",
+      "requirementsRaw": "巨神脚に到達\nウソつきオーネスト\nコロニー6エリア ☆1¼",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -6244,14 +6244,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-bionis-leg-earnest-s-solitude-44cfd7fc",
-      "name": "Earnest's Solitude",
-      "area": "Bionis' Leg",
+      "name": "こどくのオーネスト",
+      "area": "巨神脚",
       "giverId": "resident-earnest-fbd959",
-      "location": "Bionis' Leg (Refugee Camp) · Anytime",
+      "location": "巨神脚（脱出艇キャンプ） · いつでも",
       "time": "",
       "star": "1½",
       "leader": "",
-      "requirementsRaw": "Bionis' Leg area reached\r\nEarnest's Mischief\r\nColony 6 area ☆1½",
+      "requirementsRaw": "巨神脚に到達\nひとでなしオーネスト\nコロニー6エリア ☆1½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -6259,14 +6259,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-bionis-leg-the-lost-nopon-8c4e3176",
-      "name": "The Lost Nopon",
-      "area": "Bionis' Leg",
+      "name": "方向音痴迷惑ノポン",
+      "area": "巨神脚",
       "giverId": "resident-gerugu-13c91b",
-      "location": "Bionis' Leg (Traveller's Rest) · Anytime",
+      "location": "巨神脚（旅人の休息跡地） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Bionis' Leg area reached",
+      "requirementsRaw": "巨神脚に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -6274,14 +6274,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-bionis-leg-with-much-gratitude-07093bc2",
-      "name": "With Much Gratitude",
-      "area": "Bionis' Leg",
+      "name": "最上級の感謝",
+      "area": "巨神脚",
       "giverId": "resident-batubatu-817546",
-      "location": "Bionis' Leg (Traveller's Rest) · Anytime",
+      "location": "巨神脚（旅人の休息跡地） · いつでも",
       "time": "",
       "star": "1¼",
       "leader": "",
-      "requirementsRaw": "Bionis' Leg area reached\r\nThe Lost Nopon\r\nColony 6 area ☆1¼",
+      "requirementsRaw": "巨神脚に到達\n方向音痴迷惑ノポン\nコロニー6エリア ☆1¼",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -6290,13 +6290,13 @@ const AFFINITY_DATA={
     {
       "id": "quest-bionis-leg-with-even-more-gratitude-895d1dd0",
       "name": "WIth Even More Gratitude",
-      "area": "Bionis' Leg",
+      "area": "巨神脚",
       "giverId": "resident-gerugu-13c91b",
-      "location": "Bionis' Leg (Traveller's Rest) · Anytime",
+      "location": "巨神脚（旅人の休息跡地） · いつでも",
       "time": "",
       "star": "1½",
       "leader": "",
-      "requirementsRaw": "Bionis' Leg area reached\r\nWith Much Gratitude\r\nColony 6 area ☆1½",
+      "requirementsRaw": "巨神脚に到達\n最上級の感謝\nコロニー6エリア ☆1½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -6304,14 +6304,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-bionis-leg-legend-of-mythical-empress-516757f5",
-      "name": "Legend of Mythical Empress",
-      "area": "Bionis' Leg",
+      "name": "真・伝説のエンプレス",
+      "area": "巨神脚",
       "giverId": "resident-gerugu-13c91b",
-      "location": "Bionis' Leg (Traveller's Rest) · Anytime",
+      "location": "巨神脚（旅人の休息跡地） · いつでも",
       "time": "",
       "star": "3½",
       "leader": "",
-      "requirementsRaw": "Makna Forest reached\nWith Even More Gratitude\nIt Definitely Exist!\nPachipa and Pipiki affinity link green\nColony 6 area ☆3½",
+      "requirementsRaw": "マクナ原生林に到達\n再・最上級の感謝\nゼッタイいる！\nパチカ and ピケ affinity link green\nコロニー6エリア ☆3½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -6319,14 +6319,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-bionis-leg-a-flower-for-a-rose-41910338",
-      "name": "A Flower for a Rose",
-      "area": "Bionis' Leg",
+      "name": "高嶺の花への花",
+      "area": "巨神脚",
       "giverId": "resident-dulland-ce9c3d",
-      "location": "Bionis' Leg (Refugee Camp) · Anytime",
+      "location": "巨神脚（脱出艇キャンプ） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Mechonis Core cleared\r\nSecuring Provisions",
+      "requirementsRaw": "機神界中枢をクリア\n食糧確保",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -6334,14 +6334,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-bionis-leg-battling-brutes-adab749b",
-      "name": "Battling Brutes",
-      "area": "Bionis' Leg",
+      "name": "ぶつかり合うふたつ",
+      "area": "巨神脚",
       "giverId": "resident-dulland-ce9c3d",
-      "location": "Bionis' Leg (Refugee Camp) · Anytime",
+      "location": "巨神脚（脱出艇キャンプ） · いつでも",
       "time": "",
       "star": "",
-      "leader": "Fiora",
-      "requirementsRaw": "Mechonis Core cleared\r\nA Flower for a Rose\r\nFiora in the lead",
+      "leader": "フィオルン",
+      "requirementsRaw": "機神界中枢をクリア\n高嶺の花への花\nパーティリーダーはフィオルン",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -6349,14 +6349,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-bionis-leg-supplies-for-satorl-d827c5dd",
-      "name": "Supplies for Satorl",
-      "area": "Bionis' Leg",
+      "name": "ザトールへの物資",
+      "area": "巨神脚",
       "giverId": "resident-elior-428bf5",
-      "location": "Bionis' Leg (Refugee Camp)",
+      "location": "巨神脚 (脱出艇キャンプ)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Mechonis Core cleared\r\nSecuring Provisions",
+      "requirementsRaw": "機神界中枢をクリア\n食糧確保",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -6364,14 +6364,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-bionis-leg-monster-quest-1-part-1-efd76bed",
-      "name": "Monster Quest 1 - Part 1",
-      "area": "Bionis' Leg",
+      "name": "討伐クエスト1その1",
+      "area": "巨神脚",
       "giverId": "resident-a-homs-traveller-33b55b",
-      "location": "Bionis' Leg (Ragrinar Canyon Path) · Anytime",
+      "location": "巨神脚（ラグリナ渓谷道） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Bionis' Leg area reached",
+      "requirementsRaw": "巨神脚に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -6379,14 +6379,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-bionis-leg-monster-quest-1-part-2-3298bba8",
-      "name": "Monster Quest 1 - Part 2",
-      "area": "Bionis' Leg",
+      "name": "討伐クエスト1その2",
+      "area": "巨神脚",
       "giverId": "resident-a-homs-traveller-33b55b",
-      "location": "Bionis' Leg (Ragrinar Canyon Path) · Anytime",
+      "location": "巨神脚（ラグリナ渓谷道） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Bionis' Leg area reached",
+      "requirementsRaw": "巨神脚に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -6394,14 +6394,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-bionis-leg-monster-quest-1-part-3-0fc37c7f",
-      "name": "Monster Quest 1 - Part 3",
-      "area": "Bionis' Leg",
+      "name": "討伐クエスト1その3",
+      "area": "巨神脚",
       "giverId": "resident-a-homs-traveller-33b55b",
-      "location": "Bionis' Leg (Ragrinar Canyon Path) · Anytime",
+      "location": "巨神脚（ラグリナ渓谷道） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Bionis' Leg area reached",
+      "requirementsRaw": "巨神脚に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -6409,14 +6409,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-bionis-leg-monster-quest-1-part-4-f12cb694",
-      "name": "Monster Quest 1 - Part 4",
-      "area": "Bionis' Leg",
+      "name": "討伐クエスト1その4",
+      "area": "巨神脚",
       "giverId": "resident-a-homs-traveller-33b55b",
-      "location": "Bionis' Leg (Ragrinar Canyon Path) · Anytime",
+      "location": "巨神脚（ラグリナ渓谷道） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Bionis' Leg area reached",
+      "requirementsRaw": "巨神脚に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -6424,14 +6424,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-bionis-leg-monster-quest-2-5f029d15",
-      "name": "Monster Quest 2",
-      "area": "Bionis' Leg",
+      "name": "討伐クエスト 2",
+      "area": "巨神脚",
       "giverId": "resident-a-homs-camp-resident-0c0d41",
-      "location": "Bionis' Leg (Refugee Camp)",
+      "location": "巨神脚 (脱出艇キャンプ)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Bionis' Leg area reached",
+      "requirementsRaw": "巨神脚に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -6439,14 +6439,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-bionis-leg-monster-quest-3-part-1-720142e6",
-      "name": "Monster Quest 3 - Part 1",
-      "area": "Bionis' Leg",
+      "name": "討伐クエスト3その1",
+      "area": "巨神脚",
       "giverId": "resident-a-homs-camp-resident-0c0d41",
-      "location": "Bionis' Leg (Refugee Camp)",
+      "location": "巨神脚 (脱出艇キャンプ)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Bionis' Leg area reached",
+      "requirementsRaw": "巨神脚に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -6454,14 +6454,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-bionis-leg-monster-quest-3-part-2-35e3059c",
-      "name": "Monster Quest 3 - Part 2",
-      "area": "Bionis' Leg",
+      "name": "討伐クエスト3その2",
+      "area": "巨神脚",
       "giverId": "resident-a-homs-camp-resident-0c0d41",
-      "location": "Bionis' Leg (Refugee Camp)",
+      "location": "巨神脚 (脱出艇キャンプ)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Bionis' Leg area reached",
+      "requirementsRaw": "巨神脚に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -6469,14 +6469,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-bionis-leg-challenge-1-part-1-cc0488db",
-      "name": "Challenge 1 - Part 1",
-      "area": "Bionis' Leg",
+      "name": "強敵を求めて1その1",
+      "area": "巨神脚",
       "giverId": "resident-a-homs-camp-resident-0c0d41",
-      "location": "Bionis' Leg (Refugee Camp) · Anytime",
+      "location": "巨神脚（脱出艇キャンプ） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Bionis' Leg area reached",
+      "requirementsRaw": "巨神脚に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -6484,14 +6484,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-bionis-leg-challenge-1-part-2-46f42b16",
-      "name": "Challenge 1 - Part 2",
-      "area": "Bionis' Leg",
+      "name": "強敵を求めて1その2",
+      "area": "巨神脚",
       "giverId": "resident-a-homs-camp-resident-0c0d41",
-      "location": "Bionis' Leg (Refugee Camp) · Anytime",
+      "location": "巨神脚（脱出艇キャンプ） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Bionis' Leg area reached",
+      "requirementsRaw": "巨神脚に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -6499,14 +6499,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-bionis-leg-challenge-2-part-1-4c3375a6",
-      "name": "Challenge 2 - Part 1",
-      "area": "Bionis' Leg",
+      "name": "強敵を求めて2その1",
+      "area": "巨神脚",
       "giverId": "resident-a-nopon-camp-resident-37e646",
-      "location": "Bionis' Leg (Refugee Camp)",
+      "location": "巨神脚 (脱出艇キャンプ)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Bionis' Leg area reached",
+      "requirementsRaw": "巨神脚に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -6514,14 +6514,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-bionis-leg-challenge-2-part-2-63a30fec",
-      "name": "Challenge 2 - Part 2",
-      "area": "Bionis' Leg",
+      "name": "強敵を求めて2その2",
+      "area": "巨神脚",
       "giverId": "resident-a-nopon-camp-resident-37e646",
-      "location": "Bionis' Leg (Refugee Camp)",
+      "location": "巨神脚 (脱出艇キャンプ)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Bionis' Leg area reached",
+      "requirementsRaw": "巨神脚に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -6530,13 +6530,13 @@ const AFFINITY_DATA={
     {
       "id": "quest-bionis-leg-material-quest-1-e12496c0",
       "name": "Material Quest 1",
-      "area": "Bionis' Leg",
+      "area": "巨神脚",
       "giverId": "resident-a-homs-camp-resident-0c0d41",
-      "location": "Bionis' Leg (Refugee Camp)",
+      "location": "巨神脚 (脱出艇キャンプ)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Bionis' Leg area reached",
+      "requirementsRaw": "巨神脚に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -6545,13 +6545,13 @@ const AFFINITY_DATA={
     {
       "id": "quest-bionis-leg-material-quest-2-f6f0759b",
       "name": "Material Quest 2",
-      "area": "Bionis' Leg",
+      "area": "巨神脚",
       "giverId": "resident-a-homs-camp-resident-0c0d41",
-      "location": "Bionis' Leg (Refugee Camp)",
+      "location": "巨神脚 (脱出艇キャンプ)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Bionis' Leg area reached",
+      "requirementsRaw": "巨神脚に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -6559,14 +6559,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-bionis-leg-material-quest-3-883c8e81",
-      "name": "Material Quest 3",
-      "area": "Bionis' Leg",
+      "name": "素材クエスト3",
+      "area": "巨神脚",
       "giverId": "resident-a-homs-camp-resident-0c0d41",
-      "location": "Bionis' Leg (Refugee Camp)",
+      "location": "巨神脚 (脱出艇キャンプ)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Bionis' Leg area reached",
+      "requirementsRaw": "巨神脚に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -6574,14 +6574,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-bionis-leg-material-quest-4-c2eeb333",
-      "name": "Material Quest 4",
-      "area": "Bionis' Leg",
+      "name": "素材クエスト4",
+      "area": "巨神脚",
       "giverId": "resident-a-homs-camp-resident-0c0d41",
-      "location": "Bionis' Leg (Refugee Camp)",
+      "location": "巨神脚 (脱出艇キャンプ)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Bionis' Leg area reached",
+      "requirementsRaw": "巨神脚に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -6590,13 +6590,13 @@ const AFFINITY_DATA={
     {
       "id": "quest-bionis-leg-collection-quest-1-b069e9eb",
       "name": "Collection Quest 1",
-      "area": "Bionis' Leg",
+      "area": "巨神脚",
       "giverId": "resident-a-homs-camp-resident-0c0d41",
-      "location": "Bionis' Leg (Refugee Camp)",
+      "location": "巨神脚 (脱出艇キャンプ)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Bionis' Leg area reached",
+      "requirementsRaw": "巨神脚に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -6605,13 +6605,13 @@ const AFFINITY_DATA={
     {
       "id": "quest-bionis-leg-collection-quest-2-b9c21a0f",
       "name": "Collection Quest 2",
-      "area": "Bionis' Leg",
+      "area": "巨神脚",
       "giverId": "resident-a-homs-camp-resident-0c0d41",
-      "location": "Bionis' Leg (Refugee Camp)",
+      "location": "巨神脚 (脱出艇キャンプ)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Bionis' Leg area reached",
+      "requirementsRaw": "巨神脚に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -6619,14 +6619,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-bionis-leg-search-quest-1-a3fd7be5",
-      "name": "Search Quest 1",
-      "area": "Bionis' Leg",
+      "name": "おさがしクエスト1",
+      "area": "巨神脚",
       "giverId": "resident-a-homs-camp-resident-0c0d41",
-      "location": "Bionis' Leg (Refugee Camp)",
+      "location": "巨神脚 (脱出艇キャンプ)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Bionis' Leg area reached",
+      "requirementsRaw": "巨神脚に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -6634,14 +6634,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-bionis-leg-search-quest-2-16812a0a",
-      "name": "Search Quest 2",
-      "area": "Bionis' Leg",
+      "name": "おさがしクエスト2",
+      "area": "巨神脚",
       "giverId": "resident-a-homs-camp-resident-0c0d41",
-      "location": "Bionis' Leg (Refugee Camp)",
+      "location": "巨神脚 (脱出艇キャンプ)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Bionis' Leg area reached",
+      "requirementsRaw": "巨神脚に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -6649,14 +6649,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-the-road-home-43a85355",
-      "name": "The Road Home",
-      "area": "Colony 6",
+      "name": "懐かしの我が街へ",
+      "area": "コロニー6",
       "giverId": "resident-otharon-c94eaa",
-      "location": "Colony 6 (Main Entrance) · Anytime",
+      "location": "コロニー6（Main Entrance） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Sororal Statues in Satorl Marsh reached",
+      "requirementsRaw": "岩窟の姉妹像 in 燐光の地ザトール reached",
       "requiredResidentIds": [],
       "mutuallyExclusive": [
         "quest-colony-6-to-colony-6-d46af1a9"
@@ -6666,14 +6666,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-to-colony-6-d46af1a9",
-      "name": "To Colony 6!",
-      "area": "Colony 6",
+      "name": "いざ、コロニー6へ",
+      "area": "コロニー6",
       "giverId": "resident-dulland-ce9c3d",
-      "location": "Colony 6 (Main Entrance) · Anytime",
+      "location": "コロニー6（Main Entrance） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "After Otharon has left for Alcamoth\r\nThe Road Home not completed",
+      "requirementsRaw": "After オダマ has left for 皇都アカモート\n懐かしの我が街へは未達成",
       "requiredResidentIds": [],
       "mutuallyExclusive": [
         "quest-colony-6-the-road-home-43a85355"
@@ -6683,14 +6683,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-cook-off-counter-attack-d7f535df",
-      "name": "Cook-Off Counter Attack!",
-      "area": "Colony 6",
+      "name": "料理対決・反撃！",
+      "area": "コロニー6",
       "giverId": "resident-hoko-f72001",
-      "location": "Colony 6 (Reconstruction HQ)",
+      "location": "コロニー6 (コロニー6 復興本部)",
       "time": "09:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Hoko and Talonyth invited to Colony 6",
+      "requirementsRaw": "ホコとタテドナスがコロニー6に招待された",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -6698,14 +6698,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-cook-off-comeback-ebbd64de",
-      "name": "Cook-Off Comeback?",
-      "area": "Colony 6",
+      "name": "料理対決・逆転？",
+      "area": "コロニー6",
       "giverId": "resident-hoko-f72001",
-      "location": "Colony 6 (Reconstruction HQ)",
+      "location": "コロニー6 (コロニー6 復興本部)",
       "time": "09:00–18:00",
       "star": "1½",
       "leader": "",
-      "requirementsRaw": "Eryth Sea reached\r\nCook-Off Counter Attack!\r\nPokapoka and Ma'crish invited to Colony 6\r\nColony 6 area ☆1½",
+      "requirementsRaw": "エルト海に到達\n料理対決・反撃！\nポカポカとミュキシリアがコロニー6に招待された\nコロニー6エリア ☆1½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -6713,14 +6713,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-cook-off-final-blow-2fed8c3a",
-      "name": "Cook-Off Final Blow?!",
-      "area": "Colony 6",
+      "name": "料理対決・再逆転？",
+      "area": "コロニー6",
       "giverId": "resident-talonyth-311864",
-      "location": "Colony 6 (Reconstruction HQ)",
+      "location": "コロニー6 (コロニー6 復興本部)",
       "time": "06:00–18:00",
       "star": "2",
       "leader": "",
-      "requirementsRaw": "Eryth Sea reached\r\nCook-Off Comeback?\r\nColony 6 area ☆2",
+      "requirementsRaw": "エルト海に到達\n料理対決・逆転？\nコロニー6エリア ☆2",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -6728,14 +6728,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-cook-off-showdown-2644f7b8",
-      "name": "Cook-Off Showdown!",
-      "area": "Colony 6",
+      "name": "料理対決・決着！",
+      "area": "コロニー6",
       "giverId": "resident-ma-crish-4f8f45",
-      "location": "Colony 6 (Reconstruction HQ)",
+      "location": "コロニー6 (コロニー6 復興本部)",
       "time": "06:00–18:00",
       "star": "2½",
-      "leader": "Reyn",
-      "requirementsRaw": "Access to Valak Mountain\r\nMissing Lodger\r\nCook-Off Final Blow?!\r\nColony 6 area ☆2½\r\nReyn in the lead",
+      "leader": "ライン",
+      "requirementsRaw": "ヴァラク雪山へ入れる\n行方不明の同居人\n料理対決・再逆転？\nコロニー6エリア ☆2½\nパーティリーダーはライン",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -6743,14 +6743,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-a-delectable-delicacy-10788c5b",
-      "name": "A Delectable Delicacy",
-      "area": "Colony 6",
+      "name": "珍味を求めて",
+      "area": "コロニー6",
       "giverId": "resident-pokapoka-b97edc",
-      "location": "Colony 6 (Reconstruction HQ)",
+      "location": "コロニー6 (コロニー6 復興本部)",
       "time": "06:00–15:00",
       "star": "2",
       "leader": "",
-      "requirementsRaw": "Eryth Sea reached\r\nPokapoka invited to Colony 6\r\nCook-Off Comeback?\r\nColony 6 area ☆2",
+      "requirementsRaw": "エルト海に到達\nポカポカがコロニー6に招待された\n料理対決・逆転？\nコロニー6エリア ☆2",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -6758,14 +6758,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-a-tantalising-treat-d8f30b24",
-      "name": "A Tantalising Treat",
-      "area": "Colony 6",
+      "name": "続・珍味を求めて",
+      "area": "コロニー6",
       "giverId": "resident-pokapoka-b97edc",
-      "location": "Colony 6 (Reconstruction HQ)",
+      "location": "コロニー6 (コロニー6 復興本部)",
       "time": "06:00–15:00",
       "star": "2½",
       "leader": "",
-      "requirementsRaw": "Cook-Off Final Blow?!\r\nA Delectable Delicacy\r\naccess to Valak Mountain\r\nColony 6 area ☆2½",
+      "requirementsRaw": "料理対決・再逆転？\n珍味を求めて\nヴァラク雪山へ入れる\nコロニー6エリア ☆2½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -6773,14 +6773,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-missing-lodger-1cc378a0",
-      "name": "Missing Lodger",
-      "area": "Colony 6",
+      "name": "行方不明の同居人",
+      "area": "コロニー6",
       "giverId": "resident-ma-crish-4f8f45",
-      "location": "Colony 6 (Reconstruction HQ)",
+      "location": "コロニー6 (コロニー6 復興本部)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Eryth Sea reached\r\nMa'crish invited to Colony 6\r\nHousing and Special at level 2",
+      "requirementsRaw": "エルト海に到達\nミュキシリアがコロニー6に招待された\nHousing and Special at level 2",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -6788,14 +6788,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-looking-for-freedom-59d82962",
-      "name": "Looking for Freedom",
-      "area": "Colony 6",
+      "name": "自由を求めて",
+      "area": "コロニー6",
       "giverId": "resident-nopo-rikh-cd95d5",
-      "location": "Colony 6 (Reconstruction HQ) · Anytime",
+      "location": "コロニー6（コロニー6 復興本部） · いつでも",
       "time": "",
       "star": "2",
       "leader": "",
-      "requirementsRaw": "Eryth Sea reached\r\nMissing Lodger\r\nColony 6 area ☆2",
+      "requirementsRaw": "エルト海に到達\n行方不明の同居人\nコロニー6エリア ☆2",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -6803,14 +6803,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-cursed-berryjammy-f9c86edc",
-      "name": "Cursed Berryjammy",
-      "area": "Colony 6",
+      "name": "呪われたストロジャム",
+      "area": "コロニー6",
       "giverId": "resident-norara-c193c9",
-      "location": "Colony 6 (Reconstruction HQ)",
+      "location": "コロニー6 (コロニー6 復興本部)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Access to Valak Mountain\r\nMefimefi and Berryjammy have been invited to Colony 6",
+      "requirementsRaw": "ヴァラク雪山へ入れる\nメフィメフィ and ストロジャム have been invited to コロニー6",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -6818,14 +6818,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-weak-berryjammy-bf34044f",
-      "name": "Weak Berryjammy",
-      "area": "Colony 6",
+      "name": "病弱なストロジャム",
+      "area": "コロニー6",
       "giverId": "resident-norara-c193c9",
-      "location": "Colony 6 (Reconstruction HQ)",
+      "location": "コロニー6 (コロニー6 復興本部)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Access to Valak Mountain\r\nPerrine invited to Colony 6\r\nBerryjammy invited to Colony 6",
+      "requirementsRaw": "ヴァラク雪山へ入れる\nパイラルがコロニー6に招待された\nストロジャムがコロニー6に招待された",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -6833,14 +6833,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-obstinate-berryjammy-cecc54f5",
-      "name": "Obstinate Berryjammy",
-      "area": "Colony 6",
+      "name": "意地っ張りストロジャム",
+      "area": "コロニー6",
       "giverId": "resident-norara-c193c9",
-      "location": "Colony 6 (Reconstruction HQ)",
+      "location": "コロニー6 (コロニー6 復興本部)",
       "time": "06:00–18:00",
       "star": "2",
       "leader": "",
-      "requirementsRaw": "Access to Valak Mountain\r\nWeak Berryjammy or Cursed Berryjammy\r\nColony 6 area ☆2",
+      "requirementsRaw": "ヴァラク雪山へ入れる\n病弱なストロジャム or 呪われたストロジャム\nコロニー6エリア ☆2",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -6848,14 +6848,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-unstoppable-berryjammy-790ce0cc",
-      "name": "Unstoppable Berryjammy",
-      "area": "Colony 6",
+      "name": "止まらないストロジャム",
+      "area": "コロニー6",
       "giverId": "resident-berryjammy-ca4c7f",
-      "location": "Colony 6 (Reconstruction HQ)",
+      "location": "コロニー6 (コロニー6 復興本部)",
       "time": "18:00–03:00",
       "star": "3",
       "leader": "",
-      "requirementsRaw": "Access to Valak Mountain\r\nObstinate Berryjammy\r\nChemist's Reopening\r\nColony 6 area ☆3",
+      "requirementsRaw": "ヴァラク雪山へ入れる\n意地っ張りストロジャム\n薬屋業再開\nコロニー6エリア ☆3",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -6864,13 +6864,13 @@ const AFFINITY_DATA={
     {
       "id": "quest-colony-6-miss-sweetness-showdown-berryjammy-058f80d0",
       "name": "Miss Sweetness Showdown (Berryjammy)",
-      "area": "Colony 6",
+      "area": "コロニー6",
       "giverId": "resident-berryjammy-ca4c7f",
-      "location": "Colony 6 (Reconstruction HQ)",
+      "location": "コロニー6 (コロニー6 復興本部)",
       "time": "18:00–03:00",
       "star": "3½",
       "leader": "",
-      "requirementsRaw": "Access to Valak Mountain\r\nAffinity between Ma'crish and Berryjammy says \"Competing\" (red)\r\nUnstoppable Berryjammy completed\r\nCook-Off Showdown!\r\nColony 6 area ☆3½",
+      "requirementsRaw": "ヴァラク雪山へ入れる\nミュキシリアとストロジャムのキズナは「Competing」（赤）\n止まらないストロジャムを達成済み\n料理対決・決着！\nコロニー6エリア ☆3½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [
         "quest-colony-6-miss-sweetness-showdown-ma-crish-91417867"
@@ -6881,13 +6881,13 @@ const AFFINITY_DATA={
     {
       "id": "quest-colony-6-miss-sweetness-showdown-ma-crish-91417867",
       "name": "Miss Sweetness Showdown (Ma'crish)",
-      "area": "Colony 6",
+      "area": "コロニー6",
       "giverId": "resident-ma-crish-4f8f45",
-      "location": "Colony 6 (Reconstruction HQ)",
+      "location": "コロニー6 (コロニー6 復興本部)",
       "time": "06:00–18:00",
       "star": "3½",
       "leader": "",
-      "requirementsRaw": "Access to Valak Mountain\r\nAffinity between Ma'crish and Berryjammy says \"Competing\" (red)\r\nUnstoppable Berryjammy completed\r\nCook-Off Showdown!\r\nColony 6 area ☆3½",
+      "requirementsRaw": "ヴァラク雪山へ入れる\nミュキシリアとストロジャムのキズナは「Competing」（赤）\n止まらないストロジャムを達成済み\n料理対決・決着！\nコロニー6エリア ☆3½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [
         "quest-colony-6-miss-sweetness-showdown-berryjammy-058f80d0"
@@ -6897,14 +6897,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-the-most-transparent-thing-8d36938d",
-      "name": "The Most Transparent Thing",
-      "area": "Colony 6",
+      "name": "世界で一番透明なもの",
+      "area": "コロニー6",
       "giverId": "resident-miss-sweetness-26d3d6",
-      "location": "Colony 6 (Reconstruction HQ) · Automatic",
+      "location": "コロニー6（コロニー6 復興本部） · 自動",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Access to Valak Mountain\r\nMiss Sweetness Showdown with Berryjammy or Miss Sweetness Showdown with Ma'crish quest accepted",
+      "requirementsRaw": "ヴァラク雪山へ入れる\nコロニー6のお嬢様 Showdown with ストロジャム or コロニー6のお嬢様 Showdown with ミュキシリア quest accepted",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -6912,14 +6912,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-miss-sweetness-gratitude-berryjammy-150bef51",
-      "name": "Miss Sweetness' Gratitude (Berryjammy)",
-      "area": "Colony 6",
+      "name": "お嬢様の恩返し (ストロジャム)",
+      "area": "コロニー6",
       "giverId": "resident-berryjammy-ca4c7f",
-      "location": "Colony 6 (Reconstruction HQ)",
+      "location": "コロニー6 (コロニー6 復興本部)",
       "time": "18:00–03:00",
       "star": "4",
       "leader": "",
-      "requirementsRaw": "Access to Valak Mountain\r\nMiss Sweetness Showdown\r\nColony 6 area ☆4",
+      "requirementsRaw": "ヴァラク雪山へ入れる\nコロニー6のお嬢様 Showdown\nコロニー6エリア ☆4",
       "requiredResidentIds": [],
       "mutuallyExclusive": [
         "quest-colony-6-miss-sweetness-gratitude-ma-crish-a716ddce"
@@ -6929,14 +6929,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-miss-sweetness-gratitude-ma-crish-a716ddce",
-      "name": "Miss Sweetness' Gratitude (Ma'crish)",
-      "area": "Colony 6",
+      "name": "お嬢様の恩返し (ミュキシリア)",
+      "area": "コロニー6",
       "giverId": "resident-ma-crish-4f8f45",
-      "location": "Colony 6 (Reconstruction HQ)",
+      "location": "コロニー6 (コロニー6 復興本部)",
       "time": "06:00–18:00",
       "star": "4",
       "leader": "",
-      "requirementsRaw": "Access to Valak Mountain\r\nMiss Sweetness Showdown\r\nColony 6 area ☆4",
+      "requirementsRaw": "ヴァラク雪山へ入れる\nコロニー6のお嬢様 Showdown\nコロニー6エリア ☆4",
       "requiredResidentIds": [],
       "mutuallyExclusive": [
         "quest-colony-6-miss-sweetness-gratitude-berryjammy-150bef51"
@@ -6946,14 +6946,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-a-final-sweet-favour-048942ec",
-      "name": "A Final Sweet Favour",
-      "area": "Colony 6",
+      "name": "お嬢様のワガママ",
+      "area": "コロニー6",
       "giverId": "resident-miss-sweetness-26d3d6",
-      "location": "Colony 6 (Reconstruction HQ) · Automatic",
+      "location": "コロニー6（コロニー6 復興本部） · 自動",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Access to Valak Mountain\r\nMiss Sweetness' Gratitude with Berryjammy or Miss Sweetness' Gratitude with Ma'crish quest accepted",
+      "requirementsRaw": "ヴァラク雪山へ入れる\nお嬢様の恩返し with ストロジャム or お嬢様の恩返し with ミュキシリア quest accepted",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -6961,14 +6961,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-in-pursuit-of-love-3558d618",
-      "name": "In Pursuit of Love",
-      "area": "Colony 6",
+      "name": "恋人探し",
+      "area": "コロニー6",
       "giverId": "resident-rosemary-f92b42",
-      "location": "Colony 6 (Main Entrance)",
+      "location": "コロニー6 (Main Entrance)",
       "time": "18:00–06:00",
       "star": "1½",
       "leader": "",
-      "requirementsRaw": "Miqol met in the Hidden Machina Village\r\nRosemary invited to Colony 6\r\nColony 6 area ☆1½",
+      "requirementsRaw": "ミゴールとマシーナの隠れ里で出会った\nローズウェストがコロニー6に招待された\nコロニー6エリア ☆1½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -6976,14 +6976,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-the-melody-of-happiness-2c8efc23",
-      "name": "The Melody of Happiness",
-      "area": "Colony 6",
+      "name": "興奮の中年",
+      "area": "コロニー6",
       "giverId": "resident-nic-854c34",
-      "location": "Colony 6 (Reconstruction HQ)",
+      "location": "コロニー6 (コロニー6 復興本部)",
       "time": "18:00–06:00",
       "star": "2½",
       "leader": "",
-      "requirementsRaw": "Central Factory reached\r\nIn Pursuit of Love\r\nColony 6 area ☆2½",
+      "requirementsRaw": "中央工廠に到達\n恋人探し\nコロニー6エリア ☆2½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [
         "quest-colony-6-dream-of-a-poet-18b0ab33"
@@ -6993,14 +6993,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-dream-of-a-poet-18b0ab33",
-      "name": "Dream of a Poet",
-      "area": "Colony 6",
+      "name": "夢中の詩人",
+      "area": "コロニー6",
       "giverId": "resident-yura-6ade8b",
-      "location": "Colony 6 (Reconstruction HQ)",
+      "location": "コロニー6 (コロニー6 復興本部)",
       "time": "06:00–18:00",
       "star": "2½",
       "leader": "",
-      "requirementsRaw": "Central Factory reached\r\nIn Pursuit of Love\r\nColony 6 area ☆2½",
+      "requirementsRaw": "中央工廠に到達\n恋人探し\nコロニー6エリア ☆2½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [
         "quest-colony-6-the-melody-of-happiness-2c8efc23"
@@ -7010,14 +7010,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-family-secrets-zel-argentis-7b51e99a",
-      "name": "Family Secrets (Zel Argentis)",
-      "area": "Colony 6",
+      "name": "父に隠れて (ゼル・シルバー)",
+      "area": "コロニー6",
       "giverId": "resident-zel-argentis-9bfb49",
-      "location": "Colony 6 (Reconstruction HQ)",
+      "location": "コロニー6 (コロニー6 復興本部)",
       "time": "15:00–03:00",
       "star": "3½",
       "leader": "",
-      "requirementsRaw": "Mechonis Core cleared\r\nOleksiy invited to Colony 6\r\nColony 6 area ☆3½",
+      "requirementsRaw": "機神界中枢をクリア\nオルクホングがコロニー6に招待された\nコロニー6エリア ☆3½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7025,14 +7025,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-family-secrets-en-argentis-4268080f",
-      "name": "Family Secrets (En Argentis)",
-      "area": "Colony 6",
+      "name": "父に隠れて (エン・シルバー)",
+      "area": "コロニー6",
       "giverId": "resident-en-argentis-55885b",
-      "location": "Colony 6 (Reconstruction HQ)",
+      "location": "コロニー6 (コロニー6 復興本部)",
       "time": "15:00–03:00",
       "star": "3½",
       "leader": "",
-      "requirementsRaw": "Peppino invited to Colony 6\r\nColony 6 area ☆3½",
+      "requirementsRaw": "パピィがコロニー6に招待された\nコロニー6エリア ☆3½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7040,14 +7040,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-betrothal-test-zel-argentis-3fbc2130",
-      "name": "Betrothal Test (Zel Argentis)",
-      "area": "Colony 6",
+      "name": "婚約の試練 (ゼル・シルバー)",
+      "area": "コロニー6",
       "giverId": "resident-oleksiy-833393",
-      "location": "Colony 6 (Reconstruction HQ)",
+      "location": "コロニー6 (コロニー6 復興本部)",
       "time": "15:00–03:00",
       "star": "4",
       "leader": "",
-      "requirementsRaw": "Mechonis Core cleared\r\nFamily Secrets involving Zel Argentis completed\r\nColony 6 area ☆4",
+      "requirementsRaw": "機神界中枢をクリア\n父に隠れて（ゼル・シルバーが関わる）を達成済み\nコロニー6エリア ☆4",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7055,14 +7055,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-betrothal-test-en-argentis-184f7886",
-      "name": "Betrothal Test (En Argentis)",
-      "area": "Colony 6",
+      "name": "婚約の試練 (エン・シルバー)",
+      "area": "コロニー6",
       "giverId": "resident-peppino-e26a91",
-      "location": "Colony 6 (Reconstruction HQ)",
+      "location": "コロニー6 (コロニー6 復興本部)",
       "time": "15:00–03:00",
       "star": "4",
       "leader": "",
-      "requirementsRaw": "Family Secrets involving En Argentis completed\r\nColony 6 area ☆4",
+      "requirementsRaw": "父に隠れて（エン・シルバーが関わる）を達成済み\nコロニー6エリア ☆4",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7070,14 +7070,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-stopping-the-elopement-zel-argentis-ed304437",
-      "name": "Stopping the Elopement (Zel Argentis)",
-      "area": "Colony 6",
+      "name": "逃避行の阻止 (ゼル・シルバー)",
+      "area": "コロニー6",
       "giverId": "resident-don-argentis-c0bfbc",
-      "location": "Colony 6 (Reconstruction HQ)",
+      "location": "コロニー6 (コロニー6 復興本部)",
       "time": "06:00–18:00",
       "star": "4½",
       "leader": "",
-      "requirementsRaw": "Mechonis Core cleared\r\nBetrothal Test involving Zel Argentis completed\r\nColony 6 area ☆4½",
+      "requirementsRaw": "機神界中枢をクリア\n婚約の試練（ゼル・シルバーが関わる）を達成済み\nコロニー6エリア ☆4½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7085,14 +7085,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-stopping-the-elopement-en-argentis-79415ed3",
-      "name": "Stopping the Elopement (En Argentis)",
-      "area": "Colony 6",
+      "name": "逃避行の阻止 (エン・シルバー)",
+      "area": "コロニー6",
       "giverId": "resident-don-argentis-c0bfbc",
-      "location": "Colony 6 (Reconstruction HQ)",
+      "location": "コロニー6 (コロニー6 復興本部)",
       "time": "06:00–18:00",
       "star": "4½",
       "leader": "",
-      "requirementsRaw": "Betrothal Test involving En Argentis completed\r\nColony 6 area ☆4½",
+      "requirementsRaw": "婚約の試練（エン・シルバーが関わる）を達成済み\nコロニー6エリア ☆4½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7100,14 +7100,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-a-butler-s-concerns-cb513ea0",
-      "name": "A Butler's Concerns",
-      "area": "Colony 6",
+      "name": "執事の悩み",
+      "area": "コロニー6",
       "giverId": "resident-gowago-db4bf3",
-      "location": "Colony 6 (Reconstruction HQ)",
+      "location": "コロニー6 (コロニー6 復興本部)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Central Factory reached\r\nGowago and Yura invited to Colony 6",
+      "requirementsRaw": "中央工廠に到達\nゴワゴワーとユーリィがコロニー6に招待された",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7115,14 +7115,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-a-maid-s-concerns-b6bb3445",
-      "name": "A Maid's Concerns",
-      "area": "Colony 6",
+      "name": "使用人の悩み",
+      "area": "コロニー6",
       "giverId": "resident-minana-9f1f07",
-      "location": "Colony 6 (Reconstruction HQ)",
+      "location": "コロニー6 (コロニー6 復興本部)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Central Factory reached\r\nMinana and Yura invited to Colony 6",
+      "requirementsRaw": "中央工廠に到達\nミンカとユーリィがコロニー6に招待された",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7130,14 +7130,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-lifespan-of-a-machina-09aa34f4",
-      "name": "Lifespan of a Machina",
-      "area": "Colony 6",
+      "name": "老人マシーナの寿命",
+      "area": "コロニー6",
       "giverId": "resident-neonik-0e7abe",
-      "location": "Colony 6 (Reconstruction HQ)",
+      "location": "コロニー6 (コロニー6 復興本部)",
       "time": "06:00–18:00",
       "star": "2½",
       "leader": "",
-      "requirementsRaw": "Mechonis Core cleared\r\nNeonik invited to Colony 6\r\nColony 6 area ☆2½",
+      "requirementsRaw": "機神界中枢をクリア\nナオナミがコロニー6に招待された\nコロニー6エリア ☆2½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7145,14 +7145,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-a-poet-s-concerns-921160ad",
-      "name": "A Poet's Concerns",
-      "area": "Colony 6",
+      "name": "詩人の悩み",
+      "area": "コロニー6",
       "giverId": "resident-yura-6ade8b",
-      "location": "Colony 6 (Reconstruction HQ)",
+      "location": "コロニー6 (コロニー6 復興本部)",
       "time": "06:00–18:00",
       "star": "3½",
       "leader": "",
-      "requirementsRaw": "Mechonis Core cleared\r\nLifespan of a Machina\r\nColony 6 area ☆3½",
+      "requirementsRaw": "機神界中枢をクリア\n老人マシーナの寿命\nコロニー6エリア ☆3½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7160,14 +7160,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-delivering-the-undeliverable-2f715acd",
-      "name": "Delivering the Undeliverable",
-      "area": "Colony 6",
+      "name": "困った何でも屋",
+      "area": "コロニー6",
       "giverId": "resident-shilx-0f5055",
-      "location": "Colony 6 (Main Entrance)",
+      "location": "コロニー6 (Main Entrance)",
       "time": "03:00–21:00",
       "star": "2",
       "leader": "",
-      "requirementsRaw": "Mechonis Core cleared\r\nBerryjammy invited to Colony 6\r\nColony 6 area ☆2",
+      "requirementsRaw": "機神界中枢をクリア\nストロジャムがコロニー6に招待された\nコロニー6エリア ☆2",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7175,14 +7175,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-finding-the-unfindable-06180801",
-      "name": "Finding the Unfindable",
-      "area": "Colony 6",
+      "name": "困り果てた何でも屋",
+      "area": "コロニー6",
       "giverId": "resident-shilx-0f5055",
-      "location": "Colony 6 (Main Entrance)",
+      "location": "コロニー6 (Main Entrance)",
       "time": "03:00–21:00",
       "star": "2½",
       "leader": "",
-      "requirementsRaw": "Mechonis Core cleared\r\nDelivering the Undeliverable\r\nColony 6 area ☆2½",
+      "requirementsRaw": "機神界中枢をクリア\n困った何でも屋\nコロニー6エリア ☆2½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7190,14 +7190,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-odd-smoke-investigation-6258b1ec",
-      "name": "Odd Smoke - Investigation",
-      "area": "Colony 6",
+      "name": "怪しい煙・調査編",
+      "area": "コロニー6",
       "giverId": "resident-arda-21f914",
-      "location": "Colony 6 (Reconstruction HQ)",
+      "location": "コロニー6 (コロニー6 復興本部)",
       "time": "06:00–15:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Miqol met in the Hidden Machina Village\r\nJer'ell invited to Colony 6",
+      "requirementsRaw": "ミゴールとマシーナの隠れ里で出会った\nジェリコンがコロニー6に招待された",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7205,14 +7205,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-odd-smoke-resolution-7936d29a",
-      "name": "Odd Smoke - Resolution",
-      "area": "Colony 6",
+      "name": "怪しい煙・解決編",
+      "area": "コロニー6",
       "giverId": "resident-jer-ell-09f559",
-      "location": "Colony 6 (Reconstruction HQ)",
+      "location": "コロニー6 (コロニー6 復興本部)",
       "time": "18:00–06:00",
       "star": "2",
       "leader": "",
-      "requirementsRaw": "Miqol met in the Hidden Machina Village\r\nOdd Smoke - Investigation\r\nPerrine or Mefimefi invited to Colony 6\r\nColony 6 area ☆2",
+      "requirementsRaw": "ミゴールとマシーナの隠れ里で出会った\n怪しい煙・調査編\nパイラル or メフィメフィ invited to コロニー6\nコロニー6エリア ☆2",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7220,14 +7220,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-homs-determination-ed9307cf",
-      "name": "Homs Determination",
-      "area": "Colony 6",
+      "name": "ホムスの意地",
+      "area": "コロニー6",
       "giverId": "resident-perrine-6efc87",
-      "location": "Colony 6 (Reconstruction HQ)",
+      "location": "コロニー6 (コロニー6 復興本部)",
       "time": "18:00–06:00",
       "star": "3",
       "leader": "",
-      "requirementsRaw": "Mechonis Core cleared\r\nOdd Smoke - Resolution\r\nColony 6 area ☆3",
+      "requirementsRaw": "機神界中枢をクリア\n怪しい煙・解決編\nコロニー6エリア ☆3",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7235,14 +7235,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-nopon-determination-7b2342da",
-      "name": "Nopon Determination",
-      "area": "Colony 6",
+      "name": "ノポンの意地",
+      "area": "コロニー6",
       "giverId": "resident-mefimefi-b91f0c",
-      "location": "Colony 6 (Reconstruction HQ)",
+      "location": "コロニー6 (コロニー6 復興本部)",
       "time": "18:00–06:00",
       "star": "3",
       "leader": "",
-      "requirementsRaw": "Miqol met in the Hidden Machina Village\r\nOdd Smoke - Resolution\r\nColony 6 area ☆3",
+      "requirementsRaw": "ミゴールとマシーナの隠れ里で出会った\n怪しい煙・解決編\nコロニー6エリア ☆3",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7250,14 +7250,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-a-gutsy-trader-105be93d",
-      "name": "A Gutsy Trader",
-      "area": "Colony 6",
+      "name": "商売人根性",
+      "area": "コロニー6",
       "giverId": "resident-werner-1662e6",
-      "location": "Colony 6 (Reconstruction HQ)",
+      "location": "コロニー6 (コロニー6 復興本部)",
       "time": "03:00–15:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Makna Forest reached\r\nWerner invited to Colony 6\r\nCommerce Lv2\r\nNature Lv2.",
+      "requirementsRaw": "マクナ原生林に到達\nヴェルナーがコロニー6に招待された\nCommerce Lv2\nNature Lv2.",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7265,14 +7265,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-a-dauntless-trader-6792b74a",
-      "name": "A Dauntless Trader",
-      "area": "Colony 6",
+      "name": "商売人ド根性",
+      "area": "コロニー6",
       "giverId": "resident-werner-1662e6",
-      "location": "Colony 6 (Reconstruction HQ)",
+      "location": "コロニー6 (コロニー6 復興本部)",
       "time": "03:00–15:00",
       "star": "3½",
       "leader": "",
-      "requirementsRaw": "Mechonis Core cleared\r\nA Gutsy Trader\r\nNopo'rikh registered\r\nColony 6 area ☆3½",
+      "requirementsRaw": "機神界中枢をクリア\n商売人根性\nノポリックが登録済み\nコロニー6エリア ☆3½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7280,14 +7280,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-nic-s-training-30b7f956",
-      "name": "Nic's Training",
-      "area": "Colony 6",
+      "name": "ヌーク・半人前計画",
+      "area": "コロニー6",
       "giverId": "resident-nopo-rikh-cd95d5",
-      "location": "Colony 6 (Reconstruction HQ) ·  (lodger) · Anytime (free)",
+      "location": "コロニー6（コロニー6 復興本部） · （居候） · いつでも（自由）",
       "time": "03:00–15:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Central Factory reached\r\nNic invited to Colony 6\r\nLooking for Freedom.",
+      "requirementsRaw": "中央工廠に到達\nヌークがコロニー6に招待された\n自由を求めて.",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7295,14 +7295,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-nic-s-final-test-36762c6f",
-      "name": "Nic's Final Test",
-      "area": "Colony 6",
+      "name": "ヌーク・一人前計画",
+      "area": "コロニー6",
       "giverId": "resident-nopo-rikh-cd95d5",
-      "location": "Colony 6 (Reconstruction HQ) ·  (lodger) · Anytime (free)",
+      "location": "コロニー6（コロニー6 復興本部） · （居候） · いつでも（自由）",
       "time": "03:00–15:00",
       "star": "4",
       "leader": "",
-      "requirementsRaw": "Central Factory reached\r\nNic's Training\r\nColony 6 area ☆4",
+      "requirementsRaw": "中央工廠に到達\nヌーク・半人前計画\nコロニー6エリア ☆4",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7310,14 +7310,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-what-is-love-7158159e",
-      "name": "What is Love?!",
-      "area": "Colony 6",
+      "name": "恋愛を教えてやる！",
+      "area": "コロニー6",
       "giverId": "resident-ewan-8956b4",
-      "location": "Colony 6 (Reconstruction HQ)",
+      "location": "コロニー6 (コロニー6 復興本部)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Colony 6 Reconstruction started\r\nImaginations Tempered not completed\r\nMatryona registered in the Colony 6 area Affinity Chart",
+      "requirementsRaw": "コロニー6の再建が始まっている\n君が贈る物語は未達成\nマトリョーナがコロニー6エリアのキズナグラムに登録済み",
       "requiredResidentIds": [
         "resident-matryona-63a25c"
       ],
@@ -7329,14 +7329,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-what-is-courage-625cad86",
-      "name": "What is Courage?!",
-      "area": "Colony 6",
+      "name": "勇気を教えてやる！",
+      "area": "コロニー6",
       "giverId": "resident-ewan-8956b4",
-      "location": "Colony 6 (Reconstruction HQ)",
+      "location": "コロニー6 (コロニー6 復興本部)",
       "time": "18:00–06:00",
       "star": "1¼",
       "leader": "",
-      "requirementsRaw": "Colony 6 Reconstruction started\r\nWhat is Love?!\r\nColony 6 area ☆1¼",
+      "requirementsRaw": "コロニー6の再建が始まっている\n恋愛を教えてやる！\nコロニー6エリア ☆1¼",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7344,14 +7344,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-matryona-s-answer-4b22e1a0",
-      "name": "Matryona's Answer",
-      "area": "Colony 6",
+      "name": "マトリョーナの返答",
+      "area": "コロニー6",
       "giverId": "resident-matryona-63a25c",
-      "location": "Colony 6 (Reconstruction HQ)",
+      "location": "コロニー6 (コロニー6 復興本部)",
       "time": "21:00–06:00",
       "star": "2",
       "leader": "",
-      "requirementsRaw": "Colony 6 Reconstruction started\r\nWhat is Courage?!\r\nColony 6 area ☆2",
+      "requirementsRaw": "コロニー6の再建が始まっている\n勇気を教えてやる！\nコロニー6エリア ☆2",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7359,14 +7359,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-a-selfish-girl-s-mistake-dce1b813",
-      "name": "A Selfish Girl's Mistake",
-      "area": "Colony 6",
+      "name": "わがまま娘ゆえの過ち",
+      "area": "コロニー6",
       "giverId": "resident-anna-0dc3c1",
-      "location": "Colony 6 (Reconstruction HQ)",
+      "location": "コロニー6 (コロニー6 復興本部)",
       "time": "09:00–18:00",
       "star": "1½",
       "leader": "",
-      "requirementsRaw": "Colony 6 Reconstruction started\r\nColony 6 area ☆1½",
+      "requirementsRaw": "コロニー6の再建が始まっている\nコロニー6エリア ☆1½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7374,14 +7374,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-chemist-s-reopening-dab0f646",
-      "name": "Chemist's Reopening",
-      "area": "Colony 6",
+      "name": "薬屋業再開",
+      "area": "コロニー6",
       "giverId": "resident-olga-dd2ed1",
-      "location": "Colony 6 Reconstruction triggered",
+      "location": "コロニー6の再建が始まる",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Colony 6 (Reconstruction HQ)\r\n18:00 - 03:00",
+      "requirementsRaw": "コロニー6 (コロニー6 復興本部)\r\n18:00 - 03:00",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7389,14 +7389,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-satata-s-younger-brother-3ae727eb",
-      "name": "Satata's Younger Brother",
-      "area": "Colony 6",
+      "name": "タツの弟",
+      "area": "コロニー6",
       "giverId": "resident-satata-f496e5",
-      "location": "Colony 6 (Reconstruction HQ)",
+      "location": "コロニー6 (コロニー6 復興本部)",
       "time": "06:00–15:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Colony 6 Reconstruction started",
+      "requirementsRaw": "コロニー6の再建が始まっている",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7404,14 +7404,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-rest-in-peace-91907f78",
-      "name": "Rest in Peace",
-      "area": "Colony 6",
+      "name": "安らかに眠れ",
+      "area": "コロニー6",
       "giverId": "resident-satata-f496e5",
-      "location": "Colony 6 (Reconstruction HQ)",
+      "location": "コロニー6 (コロニー6 復興本部)",
       "time": "06:00–15:00",
       "star": "1½",
       "leader": "",
-      "requirementsRaw": "Colony 6 Reconstruction started\r\nSatata's Younger Brother\r\nColony 6 area ☆1½",
+      "requirementsRaw": "コロニー6の再建が始まっている\nタツの弟\nコロニー6エリア ☆1½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -7419,14 +7419,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-for-the-restoration-d8293354",
-      "name": "For the Restoration",
-      "area": "Colony 6",
+      "name": "安全な復興のために",
+      "area": "コロニー6",
       "giverId": "resident-gorman-e87fc2",
-      "location": "Colony 6 (Reconstruction HQ)",
+      "location": "コロニー6 (コロニー6 復興本部)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Colony 6 Reconstruction started",
+      "requirementsRaw": "コロニー6の再建が始まっている",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -7434,14 +7434,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-making-a-new-path-046fa2a2",
-      "name": "Making a New Path",
-      "area": "Colony 6",
+      "name": "迂回ルートを作れ",
+      "area": "コロニー6",
       "giverId": "resident-gorman-e87fc2",
-      "location": "Colony 6 (Reconstruction HQ)",
+      "location": "コロニー6 (コロニー6 復興本部)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Colony 6 Reconstruction started\r\nFor the Restoration accepted",
+      "requirementsRaw": "コロニー6の再建が始まっている\n安全な復興のためにを受注済み",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7449,14 +7449,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-securing-provisions-fd07b5ad",
-      "name": "Securing Provisions",
-      "area": "Colony 6",
+      "name": "食糧確保",
+      "area": "コロニー6",
       "giverId": "resident-dulland-ce9c3d",
-      "location": "Colony 6 (Reconstruction HQ) · Anytime",
+      "location": "コロニー6（コロニー6 復興本部） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Mechonis Core cleared",
+      "requirementsRaw": "機神界中枢をクリア",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7464,14 +7464,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-proof-of-status-3cfe2284",
-      "name": "Proof of Status",
-      "area": "Colony 6",
+      "name": "ノポン商会の証",
+      "area": "コロニー6",
       "giverId": "resident-daza-79057d",
-      "location": "Colony 6 (Watchpoint Junction or Hope Farm Shop) · Anytime",
+      "location": "コロニー6 (物見の三叉路 or 希望の農場 Shop) · Anytime",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Colony 6 area reached",
+      "requirementsRaw": "コロニー6に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7479,14 +7479,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-safety-first-338ec3cf",
-      "name": "Safety First",
-      "area": "Colony 6",
+      "name": "安全の確保",
+      "area": "コロニー6",
       "giverId": "resident-daza-79057d",
-      "location": "Colony 6 (Watchpoint Junction or Hope Farm Shop) · Anytime",
+      "location": "コロニー6 (物見の三叉路 or 希望の農場 Shop) · Anytime",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Colony 6 area reached\r\nProof of Status",
+      "requirementsRaw": "コロニー6に到達\nノポン商会の証",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7494,14 +7494,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-secret-mission-55008d00",
-      "name": "Secret Mission",
-      "area": "Colony 6",
+      "name": "極秘の任務",
+      "area": "コロニー6",
       "giverId": "resident-daza-79057d",
-      "location": "Colony 6 (Watchpoint Junction or Hope Farm Shop) · Anytime",
+      "location": "コロニー6 (物見の三叉路 or 希望の農場 Shop) · Anytime",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Colony 6 area reached\r\nSafety First",
+      "requirementsRaw": "コロニー6に到達\n安全の確保",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7509,14 +7509,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-replica-monado-1-e5e0c114",
-      "name": "Replica Monado 1",
-      "area": "Colony 6",
+      "name": "モナドレプリカ1",
+      "area": "コロニー6",
       "giverId": "resident-vanea-bb4a84",
-      "location": "Colony 6 (Junks) · Anytime",
+      "location": "コロニー6（ジャンクス） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Arrived at the Interior Landing Site (Bionis' Interior)\nReplica Monado 1 accepted",
+      "requirementsRaw": "胎内停泊所（巨神胎内）に到着\nモナドレプリカ1を受注済み",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7524,14 +7524,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-replica-monado-2-3e9a357b",
-      "name": "Replica Monado 2",
-      "area": "Colony 6",
+      "name": "モナドレプリカ2",
+      "area": "コロニー6",
       "giverId": "resident-vanea-bb4a84",
-      "location": "Colony 6 (Junks) · Anytime",
+      "location": "コロニー6（ジャンクス） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Arrived at the Interior Landing Site (Bionis' Interior)\nReplica Monado 1 accepted",
+      "requirementsRaw": "胎内停泊所（巨神胎内）に到着\nモナドレプリカ1を受注済み",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7539,14 +7539,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-replica-monado-3-f7b5ae68",
-      "name": "Replica Monado 3",
-      "area": "Colony 6",
+      "name": "モナドレプリカ3",
+      "area": "コロニー6",
       "giverId": "resident-vanea-bb4a84",
-      "location": "Colony 6 (Junks) · Anytime",
+      "location": "コロニー6（ジャンクス） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Arrived at the Interior Landing Site (Bionis' Interior)\nReplica Monado 1 accepted",
+      "requirementsRaw": "胎内停泊所（巨神胎内）に到着\nモナドレプリカ1を受注済み",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7554,14 +7554,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-replica-monado-4-4e108091",
-      "name": "Replica Monado 4",
-      "area": "Colony 6",
+      "name": "モナドレプリカ4",
+      "area": "コロニー6",
       "giverId": "resident-vanea-bb4a84",
-      "location": "Colony 6 (Junks) · Anytime",
+      "location": "コロニー6（ジャンクス） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Arrived at the Interior Landing Site (Bionis' Interior)\nReplica Monado 1 accepted",
+      "requirementsRaw": "胎内停泊所（巨神胎内）に到着\nモナドレプリカ1を受注済み",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7569,14 +7569,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-replica-monado-5-b5d22848",
-      "name": "Replica Monado 5",
-      "area": "Colony 6",
+      "name": "モナドレプリカ5",
+      "area": "コロニー6",
       "giverId": "resident-vanea-bb4a84",
-      "location": "Colony 6 (Junks) · Anytime",
+      "location": "コロニー6（ジャンクス） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Arrived at the Interior Landing Site (Bionis' Interior)\nReplica Monado 1 accepted",
+      "requirementsRaw": "胎内停泊所（巨神胎内）に到着\nモナドレプリカ1を受注済み",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7584,14 +7584,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-melancholy-tyrea-6bf5fc18",
-      "name": "Melancholy Tyrea",
-      "area": "Colony 6",
+      "name": "憂愁のタルコ",
+      "area": "コロニー6",
       "giverId": "resident-surprise-quest-86bd80",
-      "location": "Colony 6 (Watchpoint Junction) · Automatic",
+      "location": "コロニー6（物見の三叉路） · 自動",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Mechonis Core cleared",
+      "requirementsRaw": "機神界中枢をクリア",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7599,14 +7599,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-defend-colony-6-mechon-d6a1151e",
-      "name": "Defend Colony 6 - Mechon",
-      "area": "Colony 6",
+      "name": "コロニー6を守れ・機",
+      "area": "コロニー6",
       "giverId": "resident-colony-6-residents-9fc617",
-      "location": "Colony 6  · Automatic",
+      "location": "コロニー6 · 自動",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Makna Forest reached\r\nColony 6 Reconstruction 15%",
+      "requirementsRaw": "マクナ原生林に到達\nコロニー6 Reconstruction 15%",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7614,14 +7614,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-defend-colony-6-reptile-8bf5033f",
-      "name": "Defend Colony 6 - Reptile",
-      "area": "Colony 6",
+      "name": "コロニー6を守れ・火",
+      "area": "コロニー6",
       "giverId": "resident-colony-6-residents-9fc617",
-      "location": "Colony 6  · Automatic",
+      "location": "コロニー6 · 自動",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Eryth Sea reached\r\nDefend Colony 6 - Mechon\r\nreconstruction at 35%",
+      "requirementsRaw": "エルト海に到達\nコロニー6を守れ・機\n再建 35%",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7629,14 +7629,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-defend-colony-6-elite-08a1af13",
-      "name": "Defend Colony 6 - Elite",
-      "area": "Colony 6",
+      "name": "コロニー6を守れ・超",
+      "area": "コロニー6",
       "giverId": "resident-colony-6-residents-9fc617",
-      "location": "Colony 6  · Automatic",
+      "location": "コロニー6 · 自動",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Miqol met in the Hidden Machina Village\r\nDefend Colony 6 - Reptile\r\nreconstruction at 55%",
+      "requirementsRaw": "ミゴールとマシーナの隠れ里で出会った\nコロニー6を守れ・火\n再建 55%",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7644,14 +7644,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-defend-colony-6-ancient-badfebc6",
-      "name": "Defend Colony 6 - Ancient",
-      "area": "Colony 6",
+      "name": "コロニー6を守れ・鳥",
+      "area": "コロニー6",
       "giverId": "resident-colony-6-residents-9fc617",
-      "location": "Colony 6  · Automatic",
+      "location": "コロニー6 · 自動",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Mechonis Core cleared\r\nDefend Colony 6 - Elite\r\nreconstruction at 65%",
+      "requirementsRaw": "機神界中枢をクリア\nコロニー6を守れ・超\n再建 65%",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7659,14 +7659,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-colony-6-defend-colony-6-demon-efce2fdd",
-      "name": "Defend Colony 6 - Demon",
-      "area": "Colony 6",
+      "name": "コロニー6を守れ・魔",
+      "area": "コロニー6",
       "giverId": "resident-colony-6-residents-9fc617",
-      "location": "Colony 6  · Automatic",
+      "location": "コロニー6 · 自動",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Mechonis Core cleared\r\nDefend Colony 6 - Ancient\r\nreconstruction at 95%",
+      "requirementsRaw": "機神界中枢をクリア\nコロニー6を守れ・鳥\n再建 95%",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7674,14 +7674,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-satorl-marsh-preventing-starvation-0354bc6e",
-      "name": "Preventing Starvation",
-      "area": "Satorl Marsh",
+      "name": "ガシをソシ",
+      "area": "燐光の地ザトール",
       "giverId": "resident-zazadan-59490e",
-      "location": "Satorl Marsh (Nopon Refuge) · Anytime",
+      "location": "燐光の地ザトール（ノポンの隠れ家） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Satorl Marsh area reached",
+      "requirementsRaw": "燐光の地ザトールに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7689,14 +7689,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-satorl-marsh-zazadan-in-danger-b897de90",
-      "name": "Zazadan in Danger",
-      "area": "Satorl Marsh",
+      "name": "まだまだブッソウ",
+      "area": "燐光の地ザトール",
       "giverId": "resident-zazadan-59490e",
-      "location": "Satorl Marsh (Nopon Refuge) · Anytime",
+      "location": "燐光の地ザトール（ノポンの隠れ家） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Satorl Marsh area reached\r\nPreventing Starvation",
+      "requirementsRaw": "燐光の地ザトールに到達\nガシをソシ",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7704,14 +7704,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-satorl-marsh-zazadan-still-in-danger-14950435",
-      "name": "Zazadan Still in Danger",
-      "area": "Satorl Marsh",
+      "name": "まだブッソウ",
+      "area": "燐光の地ザトール",
       "giverId": "resident-zazadan-59490e",
-      "location": "Satorl Marsh (Nopon Refuge) · Anytime",
+      "location": "燐光の地ザトール（ノポンの隠れ家） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Satorl Marsh area reached\r\nZazadan in Danger",
+      "requirementsRaw": "燐光の地ザトールに到達\nまだまだブッソウ",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7719,14 +7719,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-satorl-marsh-it-s-all-in-the-mind-ad0a4211",
-      "name": "It's All in the Mind",
-      "area": "Satorl Marsh",
+      "name": "ヤマイはキから",
+      "area": "燐光の地ザトール",
       "giverId": "resident-zazadan-59490e",
-      "location": "Satorl Marsh (Nopon Refuge) · Anytime",
+      "location": "燐光の地ザトール（ノポンの隠れ家） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Satorl Marsh area reached\r\nZazadan Still in Danger",
+      "requirementsRaw": "燐光の地ザトールに到達\nまだブッソウ",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7734,14 +7734,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-satorl-marsh-a-mysterious-delicacy-dc8f2b4d",
-      "name": "A Mysterious Delicacy",
-      "area": "Satorl Marsh",
+      "name": "ナゾのチンミ",
+      "area": "燐光の地ザトール",
       "giverId": "resident-zazadan-59490e",
-      "location": "Satorl Marsh (Nopon Refuge) · Anytime",
+      "location": "燐光の地ザトール（ノポンの隠れ家） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Satorl Marsh area reached\r\nIt's All in the Mind",
+      "requirementsRaw": "燐光の地ザトールに到達\nヤマイはキから",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7749,14 +7749,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-satorl-marsh-a-gift-39824024",
-      "name": "A Gift?",
-      "area": "Satorl Marsh",
+      "name": "オクリモノ？",
+      "area": "燐光の地ザトール",
       "giverId": "resident-zazadan-59490e",
-      "location": "Satorl Marsh (Nopon Refuge) · Anytime",
+      "location": "燐光の地ザトール（ノポンの隠れ家） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Satorl Marsh area reached\r\nA Mysterious Delicacy",
+      "requirementsRaw": "燐光の地ザトールに到達\nナゾのチンミ",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -7764,14 +7764,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-satorl-marsh-gather-information-6d08db06",
-      "name": "Gather Information",
-      "area": "Satorl Marsh",
+      "name": "情報を得ろ",
+      "area": "燐光の地ザトール",
       "giverId": "resident-surprise-quest-86bd80",
-      "location": "Satorl Marsh (Nopon Refuge) · Automatic",
+      "location": "燐光の地ザトール（ノポンの隠れ家） · 自動",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Eryth Sea reached\r\nAdviser Hunt accepted",
+      "requirementsRaw": "エルト海に到達\n参謀を追い詰めろを受注済み",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7779,14 +7779,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-satorl-marsh-kacha-s-kidnapping-52ffe137",
-      "name": "Kacha's Kidnapping",
-      "area": "Satorl Marsh",
+      "name": "さらわれたカチャ",
+      "area": "燐光の地ザトール",
       "giverId": "resident-bokoko-f62e98",
-      "location": "Satorl Marsh (Nopon Merchant Camp) · Anytime",
+      "location": "燐光の地ザトール（ノポン商会キャンプ） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Satorl Marsh area reached",
+      "requirementsRaw": "燐光の地ザトールに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7794,14 +7794,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-satorl-marsh-the-giants-key-73f6238d",
-      "name": "The Giants' Key",
-      "area": "Satorl Marsh",
+      "name": "巨人族のタカラ",
+      "area": "燐光の地ザトール",
       "giverId": "resident-kacha-7c4c13",
-      "location": "Satorl Marsh (Nopon Merchant Camp) · Anytime",
+      "location": "燐光の地ザトール（ノポン商会キャンプ） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Satorl Marsh area reached\r\nKacha's Kidnapping",
+      "requirementsRaw": "燐光の地ザトールに到達\nさらわれたカチャ",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7809,14 +7809,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-satorl-marsh-the-giants-treasure-4456a56e",
-      "name": "The Giants' Treasure",
-      "area": "Satorl Marsh",
+      "name": "ついに巨人族のタカラ",
+      "area": "燐光の地ザトール",
       "giverId": "resident-kacha-7c4c13",
-      "location": "Satorl Marsh (Nopon Merchant Camp) · Anytime",
+      "location": "燐光の地ザトール（ノポン商会キャンプ） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Satorl Marsh area reached\r\nThe Giants' Key",
+      "requirementsRaw": "燐光の地ザトールに到達\n巨人族のタカラ",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7824,14 +7824,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-satorl-marsh-making-camp-371241f9",
-      "name": "Making Camp",
-      "area": "Satorl Marsh",
+      "name": "野営の準備",
+      "area": "燐光の地ザトール",
       "giverId": "resident-bokoko-f62e98",
-      "location": "Satorl Marsh (Nopon Merchant Camp) · Anytime",
+      "location": "燐光の地ザトール（ノポン商会キャンプ） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Satorl Marsh area reached\r\nKacha's Kidnapping",
+      "requirementsRaw": "燐光の地ザトールに到達\nさらわれたカチャ",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7839,14 +7839,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-satorl-marsh-monster-quest-1-d2d45dde",
-      "name": "Monster Quest 1",
-      "area": "Satorl Marsh",
+      "name": "討伐クエストその1",
+      "area": "燐光の地ザトール",
       "giverId": "resident-a-nopon-merchant-57182c",
-      "location": "Satorl Marsh (Nopon Merchant Camp) · Anytime",
+      "location": "燐光の地ザトール（ノポン商会キャンプ） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Satorl Marsh area reached",
+      "requirementsRaw": "燐光の地ザトールに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7854,14 +7854,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-satorl-marsh-monster-quest-2-a146d173",
-      "name": "Monster Quest 2",
-      "area": "Satorl Marsh",
+      "name": "討伐クエスト 2",
+      "area": "燐光の地ザトール",
       "giverId": "resident-a-nopon-merchant-57182c",
-      "location": "Satorl Marsh (Nopon Merchant Camp) · Anytime",
+      "location": "燐光の地ザトール（ノポン商会キャンプ） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Satorl Marsh area reached",
+      "requirementsRaw": "燐光の地ザトールに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7869,14 +7869,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-satorl-marsh-monster-quest-3-57249d50",
-      "name": "Monster Quest 3",
-      "area": "Satorl Marsh",
+      "name": "討伐クエストその3",
+      "area": "燐光の地ザトール",
       "giverId": "resident-a-nopon-merchant-57182c",
-      "location": "Satorl Marsh (Nopon Merchant Camp) · Anytime",
+      "location": "燐光の地ザトール（ノポン商会キャンプ） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Satorl Marsh area reached",
+      "requirementsRaw": "燐光の地ザトールに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7884,14 +7884,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-satorl-marsh-monster-quest-4-ccb0a9ec",
-      "name": "Monster Quest 4",
-      "area": "Satorl Marsh",
+      "name": "討伐クエストその4",
+      "area": "燐光の地ザトール",
       "giverId": "resident-a-nopon-merchant-57182c",
-      "location": "Satorl Marsh (Nopon Merchant Camp) · Anytime",
+      "location": "燐光の地ザトール（ノポン商会キャンプ） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Satorl Marsh area reached",
+      "requirementsRaw": "燐光の地ザトールに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7899,14 +7899,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-satorl-marsh-challenge-123635e9",
-      "name": "Challenge",
-      "area": "Satorl Marsh",
+      "name": "強敵を求めて",
+      "area": "燐光の地ザトール",
       "giverId": "resident-high-entia-refugee-5b3f24",
-      "location": "Satorl Marsh (Sororal Statues)",
+      "location": "燐光の地ザトール (岩窟の姉妹像)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Mechonis Core cleared",
+      "requirementsRaw": "機神界中枢をクリア",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7914,14 +7914,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-satorl-marsh-for-a-friend-65689534",
-      "name": "For a Friend",
-      "area": "Satorl Marsh",
+      "name": "友人のために",
+      "area": "燐光の地ザトール",
       "giverId": "resident-rozeal-dcaaf6",
-      "location": "Satorl Marsh (Sororal Statues)",
+      "location": "燐光の地ザトール (岩窟の姉妹像)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Mechonis Core cleared",
+      "requirementsRaw": "機神界中枢をクリア",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7929,14 +7929,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-satorl-marsh-a-merciful-end-0ddf39e6",
-      "name": "A Merciful End",
-      "area": "Satorl Marsh",
+      "name": "友人を楽にしてあげて",
+      "area": "燐光の地ザトール",
       "giverId": "resident-rozeal-dcaaf6",
-      "location": "Satorl Marsh (Sororal Statues)",
+      "location": "燐光の地ザトール (岩窟の姉妹像)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Mechonis Core cleared\r\nFor a Friend",
+      "requirementsRaw": "機神界中枢をクリア\n友人のために",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7944,14 +7944,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-satorl-marsh-a-release-from-duty-b8f09fc5",
-      "name": "A Release from Duty",
-      "area": "Satorl Marsh",
+      "name": "かつての仲間達を",
+      "area": "燐光の地ザトール",
       "giverId": "resident-rozeal-dcaaf6",
-      "location": "Satorl Marsh (Sororal Statues)",
+      "location": "燐光の地ザトール (岩窟の姉妹像)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Mechonis Core cleared\r\nA Merciful End.",
+      "requirementsRaw": "機神界中枢をクリア\n友人を楽にしてあげて.",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7959,14 +7959,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-satorl-marsh-the-imperial-ceremony-ca0ffe39",
-      "name": "The Imperial Ceremony",
-      "area": "Satorl Marsh",
+      "name": "皇族の儀",
+      "area": "燐光の地ザトール",
       "giverId": "resident-scarlen-2208cc",
-      "location": "Satorl Marsh (Oath Sanctuary) · Anything",
+      "location": "燐光の地ザトール（宣誓の聖所） · 何でも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Mechonis Core cleared",
+      "requirementsRaw": "機神界中枢をクリア",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7974,14 +7974,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-satorl-marsh-imperial-ceremony-offerings-bf7ddd7f",
-      "name": "Imperial Ceremony Offerings",
-      "area": "Satorl Marsh",
+      "name": "皇族の儀の準備",
+      "area": "燐光の地ザトール",
       "giverId": "resident-scarlen-2208cc",
-      "location": "Satorl Marsh (Oath Sanctuary) · Anything",
+      "location": "燐光の地ザトール（宣誓の聖所） · 何でも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Mechonis Core cleared\r\nThe Imperial Ceremony accepted",
+      "requirementsRaw": "機神界中枢をクリア\n皇族の儀を受注済み",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -7989,14 +7989,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-satorl-marsh-the-ancient-ceremony-0559117c",
-      "name": "The Ancient Ceremony",
-      "area": "Satorl Marsh",
+      "name": "古代の儀式",
+      "area": "燐光の地ザトール",
       "giverId": "resident-nopon-merchant-ab5c95",
-      "location": "(Story Quest) · Satorl Marsh (Sororal Statues) · Anytime",
+      "location": "(ストーリークエスト) · 燐光の地ザトール (岩窟の姉妹像) · Anytime",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Sororal Statues reached",
+      "requirementsRaw": "岩窟の姉妹像に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8004,14 +8004,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-satorl-marsh-ancient-ceremony-offerings-6ccb2479",
-      "name": "Ancient Ceremony Offerings",
-      "area": "Satorl Marsh",
+      "name": "儀式の準備",
+      "area": "燐光の地ザトール",
       "giverId": "resident-nopon-merchant-ab5c95",
-      "location": "(Story Quest) · Satorl Marsh (Sororal Statues) · Anytime",
+      "location": "(ストーリークエスト) · 燐光の地ザトール (岩窟の姉妹像) · Anytime",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Sororal Statues reached\r\nThe Ancient Ceremony accepted",
+      "requirementsRaw": "岩窟の姉妹像に到達\n古代の儀式を受注済み",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8019,14 +8019,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-makna-forest-legend-of-the-sage-c39bf375",
-      "name": "Legend of the Sage",
-      "area": "Makna Forest",
+      "name": "センニンの伝説",
+      "area": "マクナ原生林",
       "giverId": "resident-nopon-sage-7d583c",
-      "location": "Makna Forest (Divine Sanctuary) · Time",
+      "location": "マクナ原生林（神呼びの聖域） · 時間",
       "time": "12:00–15:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Eryth Sea reached\r\nMeeting the Nopon Sage",
+      "requirementsRaw": "エルト海に到達\nセンニンに出会う",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8034,14 +8034,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-makna-forest-challenge-of-the-sage-3223b9dc",
-      "name": "Challenge of the Sage",
-      "area": "Makna Forest",
+      "name": "センニンの試練",
+      "area": "マクナ原生林",
       "giverId": "resident-nopon-sage-7d583c",
-      "location": "Makna Forest (Divine Sanctuary) · Time",
+      "location": "マクナ原生林（神呼びの聖域） · 時間",
       "time": "12:00–15:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Eryth Sea reached\nLegend of the Sage",
+      "requirementsRaw": "エルト海に到達\nセンニンの伝説",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8049,14 +8049,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-makna-forest-final-challenge-of-the-sage-3d8ee72d",
-      "name": "Final Challenge of the Sage",
-      "area": "Makna Forest",
+      "name": "センニンの最終試練",
+      "area": "マクナ原生林",
       "giverId": "resident-nopon-sage-7d583c",
-      "location": "Makna Forest (Divine Sanctuary) · Time",
+      "location": "マクナ原生林（神呼びの聖域） · 時間",
       "time": "12:00–15:00",
       "star": "3½",
-      "leader": "Riki",
-      "requirementsRaw": "Mechonis Core cleared\r\nChallenge of the Sage\r\nCentral Bionis ☆3½\r\nRiki in the lead",
+      "leader": "リキ",
+      "requirementsRaw": "機神界中枢をクリア\nセンニンの試練\nCentral Bionis ☆3½\nパーティリーダーはリキ",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8064,14 +8064,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-makna-forest-bridge-repair-dd1b988b",
-      "name": "Bridge Repair",
-      "area": "Makna Forest",
+      "name": "橋の修復",
+      "area": "マクナ原生林",
       "giverId": "resident-nopon-researcher-90a170",
-      "location": "Makna Forest (Pod Landing Site)",
+      "location": "マクナ原生林 (ポッド発着場)",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Access to Pod Landing Site in order to reach Valak Mountain",
+      "requirementsRaw": "Access to ポッド発着場 in order to reach ヴァラク雪山",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8079,14 +8079,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-makna-forest-monster-quest-1-9082c265",
-      "name": "Monster Quest 1",
-      "area": "Makna Forest",
+      "name": "討伐クエストその1",
+      "area": "マクナ原生林",
       "giverId": "resident-a-nopon-merchant-57182c",
-      "location": "Makna Forest (Agni Tablet)",
+      "location": "マクナ原生林 (アギニの碑)",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Makna Forest area reached",
+      "requirementsRaw": "マクナ原生林に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8094,14 +8094,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-makna-forest-monster-quest-2-fa0c16cc",
-      "name": "Monster Quest 2",
-      "area": "Makna Forest",
+      "name": "討伐クエスト 2",
+      "area": "マクナ原生林",
       "giverId": "resident-a-nopon-merchant-57182c",
-      "location": "Makna Forest (Agni Tablet)",
+      "location": "マクナ原生林 (アギニの碑)",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Makna Forest area reached",
+      "requirementsRaw": "マクナ原生林に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8109,14 +8109,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-makna-forest-monster-quest-3-7b73cb3f",
-      "name": "Monster Quest 3",
-      "area": "Makna Forest",
+      "name": "討伐クエストその3",
+      "area": "マクナ原生林",
       "giverId": "resident-a-nopon-merchant-57182c",
-      "location": "Makna Forest (Agni Tablet)",
+      "location": "マクナ原生林 (アギニの碑)",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Makna Forest area reached",
+      "requirementsRaw": "マクナ原生林に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8124,14 +8124,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-makna-forest-monster-quest-4-5f56b842",
-      "name": "Monster Quest 4",
-      "area": "Makna Forest",
+      "name": "討伐クエストその4",
+      "area": "マクナ原生林",
       "giverId": "resident-a-nopon-merchant-57182c",
-      "location": "Makna Forest (Agni Tablet)",
+      "location": "マクナ原生林 (アギニの碑)",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Makna Forest area reached",
+      "requirementsRaw": "マクナ原生林に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8139,14 +8139,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-makna-forest-challenge-7ec939fe",
-      "name": "Challenge",
-      "area": "Makna Forest",
+      "name": "強敵を求めて",
+      "area": "マクナ原生林",
       "giverId": "resident-a-nopon-merchant-57182c",
-      "location": "Makna Forest (Agni Tablet)",
+      "location": "マクナ原生林 (アギニの碑)",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Frontier Village reached",
+      "requirementsRaw": "サイハテ村に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8154,14 +8154,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-makna-forest-mystery-girl-rescue-96776777",
-      "name": "Mystery Girl Rescue",
-      "area": "Makna Forest",
+      "name": "謎の少女を救え",
+      "area": "マクナ原生林",
       "giverId": "resident-story-quest-09cfce",
-      "location": "Makna Forest (Contaminated Area) Automatic",
+      "location": "マクナ原生林 (汚された地) Automatic",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Makna Forest area reached",
+      "requirementsRaw": "マクナ原生林に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8169,14 +8169,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-leku-s-food-crisis-55789eb3",
-      "name": "Leku's Food Crisis",
-      "area": "Frontier Village",
+      "name": "レク一家の食料危機",
+      "area": "サイハテ村",
       "giverId": "resident-leku-636b3f",
-      "location": "Frontier Village (Archaeology Level)",
+      "location": "サイハテ村 (6Ｆ 遺跡研究板)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Frontier Village area reached\r\nKilaki registered on the Central Bionis Affinity Chart",
+      "requirementsRaw": "サイハテ村に到達\nキカが Central Bionis のキズナグラムに登録済み",
       "requiredResidentIds": [
         "resident-kilaki-a69bfa"
       ],
@@ -8186,14 +8186,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-hunt-for-a-patron-3cc74323",
-      "name": "Hunt for a Patron",
-      "area": "Frontier Village",
+      "name": "パトロンを探せ",
+      "area": "サイハテ村",
       "giverId": "resident-leku-636b3f",
-      "location": "Frontier Village (Archaeology Level)",
+      "location": "サイハテ村 (6Ｆ 遺跡研究板)",
       "time": "06:00–18:00",
       "star": "1½",
       "leader": "",
-      "requirementsRaw": "Frontier Village area reached\r\nLeku's Food Crisis\r\nCentral Bionis ☆1½",
+      "requirementsRaw": "サイハテ村に到達\nレク一家の食料危機\nCentral Bionis ☆1½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8201,14 +8201,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-heropon-s-spirit-2e5ef224",
-      "name": "Heropon's Spirit",
-      "area": "Frontier Village",
+      "name": "勇者の心意気",
+      "area": "サイハテ村",
       "giverId": "resident-kilaki-a69bfa",
-      "location": "Frontier Village (Archaeology Level)",
+      "location": "サイハテ村 (6Ｆ 遺跡研究板)",
       "time": "06:00–15:00",
       "star": "1½",
       "leader": "",
-      "requirementsRaw": "Frontier Village area reached\r\nHunt for a Patron\r\nCentral Bionis ☆1½",
+      "requirementsRaw": "サイハテ村に到達\nパトロンを探せ\nCentral Bionis ☆1½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8216,14 +8216,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-beat-kilaki-to-it-0fb18436",
-      "name": "Beat Kilaki to it!",
-      "area": "Frontier Village",
+      "name": "キカより先回り！",
+      "area": "サイハテ村",
       "giverId": "resident-leku-636b3f",
-      "location": "Frontier Village (Archaeology Level)",
+      "location": "サイハテ村 (6Ｆ 遺跡研究板)",
       "time": "06:00–18:00",
       "star": "2",
       "leader": "",
-      "requirementsRaw": "Frontier Village area reached\r\nHeropon's Spirit\r\nCentral Bionis ☆2",
+      "requirementsRaw": "サイハテ村に到達\n勇者の心意気\nCentral Bionis ☆2",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8231,14 +8231,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-lousy-lizards-6e01eb1c",
-      "name": "Lousy Lizards",
-      "area": "Frontier Village",
+      "name": "苦手なトカゲ",
+      "area": "サイハテ村",
       "giverId": "resident-modamo-c28f44",
-      "location": "Frontier Village (Archaeology Level)",
+      "location": "サイハテ村 (6Ｆ 遺跡研究板)",
       "time": "18:00–06:00",
       "star": "2½",
       "leader": "",
-      "requirementsRaw": "Riki joined the party\r\nBeat Kilaki to it!\r\nCentral Bionis ☆2½",
+      "requirementsRaw": "リキがパーティに加入\nキカより先回り！\nCentral Bionis ☆2½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8246,14 +8246,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-popularity-premonition-4a21e195",
-      "name": "Popularity Premonition",
-      "area": "Frontier Village",
+      "name": "モテ期到来の予感",
+      "area": "サイハテ村",
       "giverId": "resident-leku-636b3f",
-      "location": "Frontier Village (Archaeology Level)",
+      "location": "サイハテ村 (6Ｆ 遺跡研究板)",
       "time": "06:00–18:00",
       "star": "2½",
       "leader": "",
-      "requirementsRaw": "Frontier Village area reached\r\nBeat Kilaki to it!\r\nCentral Bionis ☆2½",
+      "requirementsRaw": "サイハテ村に到達\nキカより先回り！\nCentral Bionis ☆2½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8261,14 +8261,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-making-a-mixer-38489cac",
-      "name": "Making a Mixer",
-      "area": "Frontier Village",
+      "name": "ミキサー製作",
+      "area": "サイハテ村",
       "giverId": "resident-rono-a6a463",
-      "location": "Frontier Village (Pollen Works)",
+      "location": "サイハテ村 (花粉工場)",
       "time": "18:00–06:00",
       "star": "",
-      "leader": "Shulk",
-      "requirementsRaw": "Frontier Village area reached\r\nPepa registered on the Central Bionis Affinity Chart\r\nShulk in the lead.",
+      "leader": "シュルク",
+      "requirementsRaw": "サイハテ村に到達\nピップが Central Bionis のキズナグラムに登録済み\nシュルク in the lead.",
       "requiredResidentIds": [
         "resident-pepa-77925c"
       ],
@@ -8278,14 +8278,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-materials-for-a-mixer-2f8bc8e5",
-      "name": "Materials for a Mixer",
-      "area": "Frontier Village",
+      "name": "ミキサーの材料集め",
+      "area": "サイハテ村",
       "giverId": "resident-rono-a6a463",
-      "location": "Frontier Village (Pollen Works)",
+      "location": "サイハテ村 (花粉工場)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Frontier Village area reached\r\nMaking a Mixer accepted",
+      "requirementsRaw": "サイハテ村に到達\nミキサー製作を受注済み",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8293,14 +8293,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-decoration-makeover-98a2b266",
-      "name": "Decoration Makeover",
-      "area": "Frontier Village",
+      "name": "かわいいお部屋に大変身",
+      "area": "サイハテ村",
       "giverId": "resident-pepa-77925c",
-      "location": "Frontier Village (Chief's Residence)",
+      "location": "サイハテ村 (村長の家)",
       "time": "06:00–15:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Riki joined the party",
+      "requirementsRaw": "リキがパーティに加入",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8308,14 +8308,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-hunt-for-bug-loving-friend-7022223e",
-      "name": "Hunt for Bug-Loving Friend",
-      "area": "Frontier Village",
+      "name": "虫好き仲間を求めて",
+      "area": "サイハテ村",
       "giverId": "resident-kokora-9067e8",
-      "location": "Frontier Village (Nopon Tower)",
+      "location": "サイハテ村 (ノポンタワー)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Frontier Village area reached\r\nDeki registered on the Central Bionis Affinity Chart",
+      "requirementsRaw": "サイハテ村に到達\nデクが Central Bionis のキズナグラムに登録済み",
       "requiredResidentIds": [
         "resident-deki-e62aa5"
       ],
@@ -8325,14 +8325,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-a-worried-bug-lover-35141cf1",
-      "name": "A Worried Bug-Lover",
-      "area": "Frontier Village",
+      "name": "虫好きじいさんの悩み",
+      "area": "サイハテ村",
       "giverId": "resident-deki-e62aa5",
-      "location": "Frontier Village (Nopon Tower)",
+      "location": "サイハテ村 (ノポンタワー)",
       "time": "09:00–18:00",
       "star": "1½",
       "leader": "",
-      "requirementsRaw": "Frontier Village area reached\r\nHunt for Bug-Loving Friend\r\nCentral Bionis ☆1½",
+      "requirementsRaw": "サイハテ村に到達\n虫好き仲間を求めて\nCentral Bionis ☆1½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8340,14 +8340,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-a-tormented-bug-lover-4472415b",
-      "name": "A Tormented Bug-Lover",
-      "area": "Frontier Village",
+      "name": "虫好きじいさんの苦悩",
+      "area": "サイハテ村",
       "giverId": "resident-deki-e62aa5",
-      "location": "Frontier Village (Nopon Tower)",
+      "location": "サイハテ村 (ノポンタワー)",
       "time": "09:00–18:00",
       "star": "2",
       "leader": "",
-      "requirementsRaw": "Eryth Sea reached\nA Worried Bug-Lover\nCentral Bionis ☆2",
+      "requirementsRaw": "エルト海に到達\n虫好きじいさんの悩み\nCentral Bionis ☆2",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8355,14 +8355,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-mushy-mushrooms-4b40ec39",
-      "name": "Mushy Mushrooms",
-      "area": "Frontier Village",
+      "name": "やわらかキノコ",
+      "area": "サイハテ村",
       "giverId": "resident-kofuko-3cdd17",
-      "location": "Frontier Village (Central Plaza)",
+      "location": "サイハテ村 (Central Plaza)",
       "time": "21:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Frontier Village area reached",
+      "requirementsRaw": "サイハテ村に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8370,14 +8370,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-medical-advancements-d38e6c42",
-      "name": "Medical Advancements",
-      "area": "Frontier Village",
+      "name": "治療装置を開発！",
+      "area": "サイハテ村",
       "giverId": "resident-medi-ab35a8",
-      "location": "Frontier Village (Kyn Shopping Street)",
+      "location": "サイハテ村 (2Ｆ カイナ商店通り)",
       "time": "21:00–03:00",
       "star": "2",
       "leader": "",
-      "requirementsRaw": "Access to Valak Mountain\r\nYusa registered on the Affinity Chart\r\nMushy Mushrooms\r\nLet's Make Fillings! not completed\r\nCentral Bionis ☆2",
+      "requirementsRaw": "ヴァラク雪山へ入れる\nユシがキズナグラムに登録済み\nやわらかキノコ\n入れ歯を作る！は未達成\nCentral Bionis ☆2",
       "requiredResidentIds": [
         "resident-yusa-d38815"
       ],
@@ -8389,14 +8389,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-let-s-make-fillings-e0331e56",
-      "name": "Let's Make Fillings!",
-      "area": "Frontier Village",
+      "name": "入れ歯を作る！",
+      "area": "サイハテ村",
       "giverId": "resident-yusa-d38815",
-      "location": "Frontier Village (Underground Store)",
+      "location": "サイハテ村 (B1F 地下貯蔵庫)",
       "time": "06:00–15:00",
       "star": "2",
       "leader": "",
-      "requirementsRaw": "Access to Valak Mountain\r\nMedi registered on the Affinity Chart\r\nMushy Mushrooms\r\nMedical Advancements not completed\r\nCentral Bionis ☆2",
+      "requirementsRaw": "ヴァラク雪山へ入れる\nメディがキズナグラムに登録済み\nやわらかキノコ\n治療装置を開発！は未達成\nCentral Bionis ☆2",
       "requiredResidentIds": [
         "resident-medi-ab35a8"
       ],
@@ -8408,14 +8408,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-world-s-strongest-flavour-bbfbbf9c",
-      "name": "World's Strongest Flavour",
-      "area": "Frontier Village",
+      "name": "世界一濃い口の料理",
+      "area": "サイハテ村",
       "giverId": "resident-kofuko-3cdd17",
-      "location": "Frontier Village (Central Plaza)",
+      "location": "サイハテ村 (Central Plaza)",
       "time": "21:00–06:00",
       "star": "4",
       "leader": "",
-      "requirementsRaw": "Access to Valak Mountain\nMedical Advancements\nCentral Bionis ☆4",
+      "requirementsRaw": "ヴァラク雪山へ入れる\n治療装置を開発！\nCentral Bionis ☆4",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8423,14 +8423,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-reversed-tastes-491b62ae",
-      "name": "Reversed Tastes",
-      "area": "Frontier Village",
+      "name": "あべこべグルメ",
+      "area": "サイハテ村",
       "giverId": "resident-kofuko-3cdd17",
-      "location": "Frontier Village (Central Plaza)",
+      "location": "サイハテ村 (Central Plaza)",
       "time": "21:00–06:00",
       "star": "4",
       "leader": "",
-      "requirementsRaw": "Access to Valak Mountain\r\nLet's Make Fillings!\r\nCentral Bionis ☆4",
+      "requirementsRaw": "ヴァラク雪山へ入れる\n入れ歯を作る！\nCentral Bionis ☆4",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8438,14 +8438,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-sweet-seduction-39ca6157",
-      "name": "Sweet Seduction",
-      "area": "Frontier Village",
+      "name": "あま〜い誘惑",
+      "area": "サイハテ村",
       "giverId": "resident-migaga-39d2fe",
-      "location": "Frontier Village (Sacred Altar)",
+      "location": "サイハテ村 (御神体の祭壇)",
       "time": "06:00–18:00",
       "star": "2",
       "leader": "",
-      "requirementsRaw": "Riki joined the party\r\nKofuko registered on the Affinity Chart\r\nFixing Time Mushrooms\r\nCentral Bionis ☆2",
+      "requirementsRaw": "リキがパーティに加入\nフゴフゴがキズナグラムに登録済み\nキノコ時計の修理\nCentral Bionis ☆2",
       "requiredResidentIds": [
         "resident-kofuko-3cdd17"
       ],
@@ -8456,13 +8456,13 @@ const AFFINITY_DATA={
     {
       "id": "quest-frontier-village-ingredients-for-a-brew-99e4433b",
       "name": "Ingredients For A Brew",
-      "area": "Frontier Village",
+      "area": "サイハテ村",
       "giverId": "resident-kofuko-3cdd17",
-      "location": "Frontier Village (Central Plaza)",
+      "location": "サイハテ村 (Central Plaza)",
       "time": "21:00–06:00",
       "star": "2",
       "leader": "",
-      "requirementsRaw": "Riki joined the party\r\nSweet Seduction accepted\r\nFixing Time Mushrooms\r\nCentral Bionis ☆2",
+      "requirementsRaw": "リキがパーティに加入\nあま〜い誘惑を受注済み\nキノコ時計の修理\nCentral Bionis ☆2",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8470,14 +8470,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-healing-the-healer-87cebe81",
-      "name": "Healing the Healer",
-      "area": "Frontier Village",
+      "name": "医者の不養生",
+      "area": "サイハテ村",
       "giverId": "resident-npa-de9318",
-      "location": "Frontier Village · (Underground Store)",
+      "location": "サイハテ村 · (B1F 地下貯蔵庫)",
       "time": "06:00–18:00",
       "star": "3",
       "leader": "",
-      "requirementsRaw": "Access to Valak Mountain\r\nMedical Advancements\r\nor Let's Make Fillings!\r\nCentral Bionis ☆3",
+      "requirementsRaw": "ヴァラク雪山へ入れる\n治療装置を開発！\nor 入れ歯を作る！\nCentral Bionis ☆3",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8485,14 +8485,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-legendary-nopon-charm-e6f64f8f",
-      "name": "Legendary Nopon Charm",
-      "area": "Frontier Village",
+      "name": "ノポン伝統のおまじない",
+      "area": "サイハテ村",
       "giverId": "resident-npa-de9318",
-      "location": "Frontier Village · (Sacred Altar) · Automatic",
+      "location": "サイハテ村 · (御神体の祭壇) · Automatic",
       "time": "",
       "star": "3",
       "leader": "",
-      "requirementsRaw": "Access to Valak Mountain\r\nMedical Advancements\r\nor Let's Make Fillings!\r\nHealing the Healer accepted\r\nCentral Bionis ☆3",
+      "requirementsRaw": "ヴァラク雪山へ入れる\n治療装置を開発！\nor 入れ歯を作る！\n医者の不養生を受注済み\nCentral Bionis ☆3",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8500,14 +8500,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-mislabelling-problem-8c276339",
-      "name": "Mislabelling Problem",
-      "area": "Frontier Village",
+      "name": "不正表示問題",
+      "area": "サイハテ村",
       "giverId": "resident-medi-ab35a8",
-      "location": "Frontier Village (Kyn Shopping Street)",
+      "location": "サイハテ村 (2Ｆ カイナ商店通り)",
       "time": "21:00–03:00",
       "star": "3",
       "leader": "",
-      "requirementsRaw": "Access to Valak Mountain\r\nHealing the Healer\r\nCentral Bionis ☆3",
+      "requirementsRaw": "ヴァラク雪山へ入れる\n医者の不養生\nCentral Bionis ☆3",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8515,14 +8515,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-getting-bigger-f8926db1",
-      "name": "Getting Bigger!",
-      "area": "Frontier Village",
+      "name": "おっきくな〜れ",
+      "area": "サイハテ村",
       "giverId": "resident-dabidabi-66e65a",
-      "location": "Frontier Village (Chief's Residence)",
+      "location": "サイハテ村 (村長の家)",
       "time": "18:00–03:00",
       "star": "3½",
-      "leader": "Riki",
-      "requirementsRaw": "Access to Valak Mountain\r\nMislabelling Problem\r\nAdidi registered on the Affinity Chart\r\nCentral Bionis ☆3½\r\nRiki in the lead",
+      "leader": "リキ",
+      "requirementsRaw": "ヴァラク雪山へ入れる\n不正表示問題\nアリンダがキズナグラムに登録済み\nCentral Bionis ☆3½\nパーティリーダーはリキ",
       "requiredResidentIds": [
         "resident-adidi-7bed18"
       ],
@@ -8532,14 +8532,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-who-is-bigger-bd626a51",
-      "name": "Who is Bigger?",
-      "area": "Frontier Village",
+      "name": "どっちを大きく？",
+      "area": "サイハテ村",
       "giverId": "resident-dabidabi-66e65a",
-      "location": "Frontier Village (Mysterious Sanctuary)",
+      "location": "サイハテ村 (8Ｆ 神秘の聖域)",
       "time": "18:00–03:00",
       "star": "3½",
       "leader": "",
-      "requirementsRaw": "Access to Valak Mountain\r\nGetting Bigger! accepted\r\nCentral Bionis ☆3½",
+      "requirementsRaw": "ヴァラク雪山へ入れる\nおっきくな〜れを受注済み\nCentral Bionis ☆3½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8547,14 +8547,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-strange-noises-from-below-8b1a3855",
-      "name": "Strange Noises from Below",
-      "area": "Frontier Village",
+      "name": "地下からの不気味な声",
+      "area": "サイハテ村",
       "giverId": "resident-pipiki-6d8974",
-      "location": "Frontier Village (Central Plaza)",
+      "location": "サイハテ村 (Central Plaza)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Riki joined the party\r\nAn Errand for the Heropon",
+      "requirementsRaw": "リキがパーティに加入\n勇者のお使い",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8562,14 +8562,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-musical-genius-2f8caef8",
-      "name": "Musical Genius",
-      "area": "Frontier Village",
+      "name": "音楽は偉大",
+      "area": "サイハテ村",
       "giverId": "resident-tati-0c2a24",
-      "location": "Frontier Village (Nopon Kitchen)",
+      "location": "サイハテ村 (ノポンの台所)",
       "time": "18:00–06:00",
       "star": "1½",
       "leader": "",
-      "requirementsRaw": "Riki joined the party\r\nStrange Noises from Below\r\nCentral Bionis ☆1½",
+      "requirementsRaw": "リキがパーティに加入\n地下からの不気味な声\nCentral Bionis ☆1½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8577,14 +8577,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-things-that-hum-f767b940",
-      "name": "Things that Hum",
-      "area": "Frontier Village",
+      "name": "ハミング・コレクション",
+      "area": "サイハテ村",
       "giverId": "resident-tati-0c2a24",
-      "location": "Frontier Village (Nopon Kitchen)",
+      "location": "サイハテ村 (ノポンの台所)",
       "time": "18:00–06:00",
       "star": "1½",
       "leader": "",
-      "requirementsRaw": "Riki joined the party\r\nStrange Noises from Below\r\nMusical Genius accepted\r\nCentral Bionis ☆1½",
+      "requirementsRaw": "リキがパーティに加入\n地下からの不気味な声\n音楽は偉大を受注済み\nCentral Bionis ☆1½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8592,14 +8592,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-things-that-rumble-9eb8cc36",
-      "name": "Things that Rumble",
-      "area": "Frontier Village",
+      "name": "ボップン・コレクション",
+      "area": "サイハテ村",
       "giverId": "resident-tati-0c2a24",
-      "location": "Frontier Village (Nopon Kitchen)",
+      "location": "サイハテ村 (ノポンの台所)",
       "time": "18:00–06:00",
       "star": "1½",
       "leader": "",
-      "requirementsRaw": "Riki joined the party\r\nStrange Noises from Below\r\nMusical Genius accepted\r\nCentral Bionis ☆1½",
+      "requirementsRaw": "リキがパーティに加入\n地下からの不気味な声\n音楽は偉大を受注済み\nCentral Bionis ☆1½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8607,14 +8607,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-disinsectization-9f1dd2f2",
-      "name": "Disinsectization",
-      "area": "Frontier Village",
+      "name": "害虫駆除",
+      "area": "サイハテ村",
       "giverId": "resident-rasha-ad194b",
-      "location": "Frontier Village (Sacred Altar)",
+      "location": "サイハテ村 (御神体の祭壇)",
       "time": "06:00–18:00",
       "star": "1½",
       "leader": "",
-      "requirementsRaw": "Frontier Village area reached\r\nCherri registered on the Affinity Chart\r\nCentral Bionis ☆1½",
+      "requirementsRaw": "サイハテ村に到達\nチリがキズナグラムに登録済み\nCentral Bionis ☆1½",
       "requiredResidentIds": [
         "resident-cherri-f6c8ca"
       ],
@@ -8624,14 +8624,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-avenge-a-mamapon-s-death-afae25ff",
-      "name": "Avenge a Mamapon's Death",
-      "area": "Frontier Village",
+      "name": "母の死を越えて",
+      "area": "サイハテ村",
       "giverId": "resident-rasha-ad194b",
-      "location": "Frontier Village (Central Plaza)",
+      "location": "サイハテ村 (Central Plaza)",
       "time": "06:00–18:00",
       "star": "4",
-      "leader": "Sharla",
-      "requirementsRaw": "Eryth Sea reached\r\nDisinsectization\r\nSecret Innovation\r\nCentral Bionis ☆4\r\nSharla in the lead",
+      "leader": "カルナ",
+      "requirementsRaw": "エルト海に到達\n害虫駆除\nヒミツの技術革新\nCentral Bionis ☆4\nパーティリーダーはカルナ",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8640,13 +8640,13 @@ const AFFINITY_DATA={
     {
       "id": "quest-frontier-village-dadapon-in-trouble-d0011fed",
       "name": "Dadapon in Trouble",
-      "area": "Frontier Village",
+      "area": "サイハテ村",
       "giverId": "resident-pachipa-f4c914",
-      "location": "Frontier Village (Archaeology Centre)",
+      "location": "サイハテ村 (遺跡研究本部)",
       "time": "09:00–15:00",
       "star": "2",
       "leader": "",
-      "requirementsRaw": "Frontier Village area reached\r\nPachipa and Gerugu affinity link: Orange\r\nCentral Bionis ☆2",
+      "requirementsRaw": "サイハテ村に到達\nパチカ and グレリー affinity link: Orange\nCentral Bionis ☆2",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8654,14 +8654,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-it-definitely-exist-86e39ec6",
-      "name": "It Definitely Exist!",
-      "area": "Frontier Village",
+      "name": "ゼッタイいる！",
+      "area": "サイハテ村",
       "giverId": "resident-pachipa-f4c914",
-      "location": "Frontier Village (Archaeology Centre)",
+      "location": "サイハテ村 (遺跡研究本部)",
       "time": "09:00–15:00",
       "star": "2½",
       "leader": "",
-      "requirementsRaw": "Frontier Village area reached\r\nPipiki and Pachipa affinity link:Yellow\r\nKuriku registered on the Affinity Chart\r\nDadapon in Trouble\r\nCentral Bionis ☆2½",
+      "requirementsRaw": "サイハテ村に到達\nピケ and パチカ affinity link:Yellow\nキュリがキズナグラムに登録済み\nDadapon in Trouble\nCentral Bionis ☆2½",
       "requiredResidentIds": [
         "resident-kuriku-3e57d9"
       ],
@@ -8672,13 +8672,13 @@ const AFFINITY_DATA={
     {
       "id": "quest-frontier-village-even-in-the-chief-s-absence-17151b06",
       "name": "Even in the Chief's Absence",
-      "area": "Frontier Village",
+      "area": "サイハテ村",
       "giverId": "resident-miko-1791c4",
-      "location": "Frontier Village (Prophecy Hut)",
+      "location": "サイハテ村 (お告げの間)",
       "time": "06:00–03:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Met Miqol in the Hidden Machina Village\nLalapa and Miko affinity link: yellow",
+      "requirementsRaw": "Met ミゴール in the マシーナの隠れ里\nラパン and ミコ affinity link: yellow",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8686,14 +8686,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-bored-pelupelu-4ba04657",
-      "name": "Bored Pelupelu",
-      "area": "Frontier Village",
+      "name": "おしゃべりペルペル",
+      "area": "サイハテ村",
       "giverId": "resident-pelupelu-0398e6",
-      "location": "Frontier Village (Prophecy Hut)",
+      "location": "サイハテ村 (お告げの間)",
       "time": "06:00–03:00",
       "star": "2",
       "leader": "",
-      "requirementsRaw": "Met Miqol in Hidden Machina Village\r\nEven In the Chief's Absence\r\nCentral Bionis ☆2",
+      "requirementsRaw": "Met ミゴール in マシーナの隠れ里\n村長がいなくても\nCentral Bionis ☆2",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8702,13 +8702,13 @@ const AFFINITY_DATA={
     {
       "id": "quest-frontier-village-a-gift-for-miko-b85d65c9",
       "name": "A Gift for Miko",
-      "area": "Frontier Village",
+      "area": "サイハテ村",
       "giverId": "resident-pelupelu-0398e6",
-      "location": "Frontier Village (Prophecy Hut)",
+      "location": "サイハテ村 (お告げの間)",
       "time": "06:00–03:00",
       "star": "3",
       "leader": "",
-      "requirementsRaw": "Met Miqol in Hidden Machina Village\r\nBored Pelupelu\r\nCentral Bionis ☆3",
+      "requirementsRaw": "Met ミゴール in マシーナの隠れ里\nおしゃべりペルペル\nCentral Bionis ☆3",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8716,14 +8716,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-giant-attack-3e870524",
-      "name": "Giant Attack!",
-      "area": "Frontier Village",
+      "name": "巨人の襲撃！",
+      "area": "サイハテ村",
       "giverId": "resident-lalapa-366b9e",
-      "location": "Frontier Village (Chief's Residence)",
+      "location": "サイハテ村 (村長の家)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Access to Valak Mountain\r\nBridge Repair",
+      "requirementsRaw": "ヴァラク雪山へ入れる\n橋の修復",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8731,14 +8731,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-kind-lupa-s-grampypon-a5eab65a",
-      "name": "Kind Lupa's Grampypon",
-      "area": "Frontier Village",
+      "name": "たまには孫らしく",
+      "area": "サイハテ村",
       "giverId": "resident-lupa-714d56",
-      "location": "Frontier Village (Archaeology Centre)",
+      "location": "サイハテ村 (遺跡研究本部)",
       "time": "18:00–03:00",
       "star": "2",
       "leader": "",
-      "requirementsRaw": "Frontier Village area reached\r\nCentral Bionis ☆2",
+      "requirementsRaw": "サイハテ村に到達\nCentral Bionis ☆2",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8747,13 +8747,13 @@ const AFFINITY_DATA={
     {
       "id": "quest-frontier-village-secret-elixer-ingredients-9b5e9e4c",
       "name": "Secret Elixer Ingredients",
-      "area": "Frontier Village",
+      "area": "サイハテ村",
       "giverId": "resident-lupa-714d56",
-      "location": "Frontier Village (Archaeology Centre)",
+      "location": "サイハテ村 (遺跡研究本部)",
       "time": "18:00–03:00",
       "star": "2",
       "leader": "",
-      "requirementsRaw": "Frontier Village area reached\r\nKind Lupa's Grampypon accepted\r\nCentral Bionis ☆2",
+      "requirementsRaw": "サイハテ村に到達\nたまには孫らしくを受注済み\nCentral Bionis ☆2",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8761,14 +8761,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-mystery-of-makna-ruins-1-6696c5a5",
-      "name": "Mystery of Makna Ruins 1",
-      "area": "Frontier Village",
+      "name": "マクナ遺跡の謎1",
+      "area": "サイハテ村",
       "giverId": "resident-lupa-714d56",
-      "location": "Frontier Village (Archaeology Centre)",
+      "location": "サイハテ村 (遺跡研究本部)",
       "time": "18:00–03:00",
       "star": "2",
       "leader": "",
-      "requirementsRaw": "Access to Pod Landing Site\r\nKind Lupa's Grampypon\r\nCentral Bionis ☆2",
+      "requirementsRaw": "ポッド発着場へ入れる\nたまには孫らしく\nCentral Bionis ☆2",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8776,14 +8776,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-mystery-of-makna-ruins-2-e51dd72d",
-      "name": "Mystery of Makna Ruins 2",
-      "area": "Frontier Village",
+      "name": "マクナ遺跡の謎2",
+      "area": "サイハテ村",
       "giverId": "resident-lupa-714d56",
-      "location": "Frontier Village (Archaeology Centre)",
+      "location": "サイハテ村 (遺跡研究本部)",
       "time": "18:00–03:00",
       "star": "2",
       "leader": "",
-      "requirementsRaw": "Access to Pod Landing Site\r\nMystery of Makna Ruins 1\r\nCentral Bionis ☆2",
+      "requirementsRaw": "ポッド発着場へ入れる\nマクナ遺跡の謎1\nCentral Bionis ☆2",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8791,14 +8791,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-mystery-of-makna-ruins-3-087e7238",
-      "name": "Mystery of Makna Ruins 3",
-      "area": "Frontier Village",
+      "name": "マクナ遺跡の謎3",
+      "area": "サイハテ村",
       "giverId": "resident-lupa-714d56",
-      "location": "Frontier Village (Archaeology Centre)",
+      "location": "サイハテ村 (遺跡研究本部)",
       "time": "18:00–03:00",
       "star": "3",
       "leader": "",
-      "requirementsRaw": "Access to Pod Landing Site\r\nMystery of Makna Ruins 2\r\nCentral Bionis ☆3",
+      "requirementsRaw": "ポッド発着場へ入れる\nマクナ遺跡の謎2\nCentral Bionis ☆3",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8806,14 +8806,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-mystery-of-makna-ruins-4-b8c1296f",
-      "name": "Mystery of Makna Ruins 4",
-      "area": "Frontier Village",
+      "name": "マクナ遺跡の謎4",
+      "area": "サイハテ村",
       "giverId": "resident-lupa-714d56",
-      "location": "Frontier Village (Archaeology Centre)",
+      "location": "サイハテ村 (遺跡研究本部)",
       "time": "18:00–03:00",
       "star": "3",
       "leader": "",
-      "requirementsRaw": "Access to Pod Landing Site\r\nMystery of Makna Ruins 3\r\nCentral Bionis ☆3",
+      "requirementsRaw": "ポッド発着場へ入れる\nマクナ遺跡の謎3\nCentral Bionis ☆3",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8821,14 +8821,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-honouring-the-nopon-sage-3b8a2f5a",
-      "name": "Honouring the Nopon Sage",
-      "area": "Frontier Village",
+      "name": "センニンのお供え",
+      "area": "サイハテ村",
       "giverId": "resident-pipiki-6d8974",
-      "location": "Frontier Village (Central Plaza)",
+      "location": "サイハテ村 (Central Plaza)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Eryth Sea reached\r\nStrange Noises from Below",
+      "requirementsRaw": "エルト海に到達\n地下からの不気味な声",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8836,14 +8836,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-meeting-the-nopon-sage-b62920c3",
-      "name": "Meeting the Nopon Sage",
-      "area": "Frontier Village",
+      "name": "センニンに出会う",
+      "area": "サイハテ村",
       "giverId": "resident-pipiki-6d8974",
-      "location": "Frontier Village (Central Plaza)",
+      "location": "サイハテ村 (Central Plaza)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Eryth Sea reached\r\nHonouring the Nopon Sage",
+      "requirementsRaw": "エルト海に到達\nセンニンのお供え",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8851,14 +8851,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-fixing-time-mushrooms-8654c073",
-      "name": "Fixing Time Mushrooms",
-      "area": "Frontier Village",
+      "name": "キノコ時計の修理",
+      "area": "サイハテ村",
       "giverId": "resident-migaga-39d2fe",
-      "location": "Frontier Village (Sacred Altar)",
+      "location": "サイハテ村 (御神体の祭壇)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "An Errand for the Heropon story quest accepted",
+      "requirementsRaw": "勇者のお使い story quest accepted",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8866,14 +8866,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-restoring-the-capital-0d26078f",
-      "name": "Restoring the Capital",
-      "area": "Frontier Village",
+      "name": "皇都を復興するために",
+      "area": "サイハテ村",
       "giverId": "resident-nelo-ec4ee3",
-      "location": "Frontier Village (Nopon Tower)",
+      "location": "サイハテ村 (ノポンタワー)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Mechonis Core cleared",
+      "requirementsRaw": "機神界中枢をクリア",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8881,14 +8881,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-restoring-the-capital-2-bccc53cb",
-      "name": "Restoring the Capital 2",
-      "area": "Frontier Village",
+      "name": "皇都を復興するために2",
+      "area": "サイハテ村",
       "giverId": "resident-nelo-ec4ee3",
-      "location": "Frontier Village (Nopon Tower)",
+      "location": "サイハテ村 (ノポンタワー)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Mechonis Core cleared\r\nRestoring the Capital",
+      "requirementsRaw": "機神界中枢をクリア\n皇都を復興するために",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8896,14 +8896,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-broken-ether-furnace-7f3e3db3",
-      "name": "Broken Ether Furnace",
-      "area": "Frontier Village",
+      "name": "壊れたエーテル炉",
+      "area": "サイハテ村",
       "giverId": "resident-kaleka-023300",
-      "location": "Frontier Village (Nopon Tower)",
+      "location": "サイハテ村 (ノポンタワー)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Mechonis Core cleared\r\nRestoring the Capital and Vidian Rescue Mission in Alcamoth triggered",
+      "requirementsRaw": "機神界中枢をクリア\n皇都を復興するために and ビビアン救出作戦 in 皇都アカモート triggered",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8911,14 +8911,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-broken-ether-furnace-2-3f6c744d",
-      "name": "Broken Ether Furnace 2",
-      "area": "Frontier Village",
+      "name": "壊れたエーテル炉2",
+      "area": "サイハテ村",
       "giverId": "resident-kaleka-023300",
-      "location": "Frontier Village (Nopon Tower)",
+      "location": "サイハテ村 (ノポンタワー)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Mechonis Core cleared\r\nBroken Ether Furnace",
+      "requirementsRaw": "機神界中枢をクリア\n壊れたエーテル炉",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8926,14 +8926,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-a-memento-of-daddy-10b93298",
-      "name": "A Memento of Daddy",
-      "area": "Frontier Village",
+      "name": "お父さんの形見を",
+      "area": "サイハテ村",
       "giverId": "resident-atael-42360a",
-      "location": "Frontier Village (Reservoir)",
+      "location": "サイハテ村 (貯水池)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Mechonis Core cleared\r\nCian registered on the Central Bionis Affinity Chart",
+      "requirementsRaw": "機神界中枢をクリア\nキィーノが Central Bionis のキズナグラムに登録済み",
       "requiredResidentIds": [
         "resident-cian-abd30a"
       ],
@@ -8943,14 +8943,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-pollen-orb-ingredients-833496ce",
-      "name": "Pollen Orb Ingredients",
-      "area": "Frontier Village",
+      "name": "花粉玉の材料調達",
+      "area": "サイハテ村",
       "giverId": "resident-dobadoba-97e19d",
-      "location": "Frontier Village (Pollen Orb Storehouse)",
+      "location": "サイハテ村 (花粉玉倉庫)",
       "time": "03:00–21:00",
       "star": "1½",
       "leader": "",
-      "requirementsRaw": "Frontier Village area reached\r\nCentral Bionis ☆1½",
+      "requirementsRaw": "サイハテ村に到達\nCentral Bionis ☆1½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -8958,14 +8958,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-secret-ingredient-hunt-658b9ff1",
-      "name": "Secret Ingredient Hunt",
-      "area": "Frontier Village",
+      "name": "ヒミツの材料集め",
+      "area": "サイハテ村",
       "giverId": "resident-bana-fea6ca",
-      "location": "Frontier Village (Central Plaza)",
+      "location": "サイハテ村 (Central Plaza)",
       "time": "18:00–06:00",
       "star": "1½",
       "leader": "",
-      "requirementsRaw": "Frontier Village area reached\r\nPollen Orb Ingredients\r\nGadada registered on the Affinity Chart then spoken to\r\nCentral Bionis ☆1½",
+      "requirementsRaw": "サイハテ村に到達\n花粉玉の材料調達\nガルダがキズナグラムに登録済みで、話しかけ済み\nCentral Bionis ☆1½",
       "requiredResidentIds": [
         "resident-gadada-d1a124"
       ],
@@ -8975,14 +8975,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-secret-innovation-5cf8ce52",
-      "name": "Secret Innovation",
-      "area": "Frontier Village",
+      "name": "ヒミツの技術革新",
+      "area": "サイハテ村",
       "giverId": "resident-rasha-ad194b",
-      "location": "Frontier Village (Central Plaza)",
+      "location": "サイハテ村 (Central Plaza)",
       "time": "06:00–18:00",
       "star": "1½",
       "leader": "",
-      "requirementsRaw": "Frontier Village area reached\r\nPollen Orb Ingredients\r\nCherri registered on the Affinity Chart then spoken to\r\nCentral Bionis ☆1½",
+      "requirementsRaw": "サイハテ村に到達\n花粉玉の材料調達\nチリがキズナグラムに登録済みで、話しかけ済み\nCentral Bionis ☆1½",
       "requiredResidentIds": [
         "resident-cherri-f6c8ca"
       ],
@@ -8992,14 +8992,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-the-master-s-successor-64e36cf7",
-      "name": "The Master's Successor",
-      "area": "Frontier Village",
+      "name": "跡継ぎ問題",
+      "area": "サイハテ村",
       "giverId": "resident-dobadoba-97e19d",
-      "location": "Frontier Village (Pollen Orb Storehouse)",
+      "location": "サイハテ村 (花粉玉倉庫)",
       "time": "03:00–21:00",
       "star": "2",
       "leader": "",
-      "requirementsRaw": "Frontier Village area reached\r\nSecret Ingredient Hunt\r\nSecret Innovation\r\nCentral Bionis ☆2",
+      "requirementsRaw": "サイハテ村に到達\nヒミツの材料集め\nヒミツの技術革新\nCentral Bionis ☆2",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -9007,14 +9007,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-dangerous-ambition-0c01efad",
-      "name": "Dangerous Ambition",
-      "area": "Frontier Village",
+      "name": "危険な野望",
+      "area": "サイハテ村",
       "giverId": "resident-cherri-f6c8ca",
-      "location": "Frontier Village (Pollen Orb Storehouse)",
+      "location": "サイハテ村 (花粉玉倉庫)",
       "time": "06:00–18:00",
       "star": "2½",
       "leader": "",
-      "requirementsRaw": "Alcamoth reached\r\nThe Master's Successor\r\nCentral Bionis ☆2½",
+      "requirementsRaw": "皇都アカモートに到達\n跡継ぎ問題\nCentral Bionis ☆2½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -9022,14 +9022,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-find-the-kingpin-03df88e7",
-      "name": "Find the Kingpin",
-      "area": "Frontier Village",
+      "name": "黒幕を探せ",
+      "area": "サイハテ村",
       "giverId": "resident-gadada-d1a124",
-      "location": "Frontier Village (Pollen Works)",
+      "location": "サイハテ村 (花粉工場)",
       "time": "06:00–18:00",
       "star": "2½",
       "leader": "",
-      "requirementsRaw": "Alcamoth reached\r\nDangerous Ambition\r\nCentral Bionis ☆2½",
+      "requirementsRaw": "皇都アカモートに到達\n危険な野望\nCentral Bionis ☆2½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -9037,14 +9037,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-adviser-hunt-05dfd2de",
-      "name": "Adviser Hunt",
-      "area": "Frontier Village",
+      "name": "参謀を追い詰めろ",
+      "area": "サイハテ村",
       "giverId": "resident-gadada-d1a124",
-      "location": "Frontier Village (Pollen Works)",
+      "location": "サイハテ村 (花粉工場)",
       "time": "06:00–18:00",
       "star": "2½",
       "leader": "",
-      "requirementsRaw": "Alcamoth reached\r\nFind the Kingpin\r\nA Gift?\r\nCentral Bionis ☆2½",
+      "requirementsRaw": "皇都アカモートに到達\n黒幕を探せ\nオクリモノ？\nCentral Bionis ☆2½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -9052,14 +9052,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-evidence-collection-3691c3f0",
-      "name": "Evidence Collection",
-      "area": "Frontier Village",
+      "name": "証拠集め",
+      "area": "サイハテ村",
       "giverId": "resident-gadada-d1a124",
-      "location": "Frontier Village (Pollen Works)",
+      "location": "サイハテ村 (花粉工場)",
       "time": "06:00–18:00",
       "star": "2½",
       "leader": "",
-      "requirementsRaw": "Alcamoth reached\r\nAdviser Hunt\r\nCentral Bionis ☆2½",
+      "requirementsRaw": "皇都アカモートに到達\n参謀を追い詰めろ\nCentral Bionis ☆2½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -9067,14 +9067,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-destroying-the-city-trade-fc96181c",
-      "name": "Destroying the City Trade",
-      "area": "Frontier Village",
+      "name": "皇都での取引を潰せ",
+      "area": "サイハテ村",
       "giverId": "resident-gadada-d1a124",
-      "location": "Frontier Village (Pollen Works)",
+      "location": "サイハテ村 (花粉工場)",
       "time": "06:00–18:00",
       "star": "2½",
       "leader": "",
-      "requirementsRaw": "Alcamoth reached\r\nEvidence Collection\r\nCentral Bionis ☆2½",
+      "requirementsRaw": "皇都アカモートに到達\n証拠集め\nCentral Bionis ☆2½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -9082,14 +9082,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-bana-the-betrayer-a6210543",
-      "name": "Bana the Betrayer",
-      "area": "Frontier Village",
+      "name": "裏切りのバーン",
+      "area": "サイハテ村",
       "giverId": "resident-gadada-d1a124",
-      "location": "Frontier Village (Pollen Works)",
+      "location": "サイハテ村 (花粉工場)",
       "time": "06:00–18:00",
       "star": "2½",
       "leader": "",
-      "requirementsRaw": "Mechonis Core cleared\r\nDestroying the City Trade\r\nCentral Bionis ☆2½",
+      "requirementsRaw": "機神界中枢をクリア\n皇都での取引を潰せ\nCentral Bionis ☆2½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -9097,14 +9097,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-presents-for-priceless-pupils-1bdeca37",
-      "name": "Presents for Priceless Pupils",
-      "area": "Frontier Village",
+      "name": "大事な弟子",
+      "area": "サイハテ村",
       "giverId": "resident-dobadoba-97e19d",
-      "location": "Frontier VIllage (Pollen Orb Storehouse)",
+      "location": "Frontier VIllage (花粉玉倉庫)",
       "time": "06:00–18:00",
       "star": "4½",
       "leader": "",
-      "requirementsRaw": "Mechonis Core cleared\r\nSafer Energy or Distilling Active Ingredients\r\nCentral Bionis ☆4½",
+      "requirementsRaw": "機神界中枢をクリア\n安全なエネルギーに or 有効成分を抽出する\nCentral Bionis ☆4½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -9112,14 +9112,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-safer-energy-47efa787",
-      "name": "Safer Energy",
-      "area": "Frontier Village",
+      "name": "安全なエネルギーに",
+      "area": "サイハテ村",
       "giverId": "resident-gadada-d1a124",
-      "location": "Frontier Village (Pollen Works)",
+      "location": "サイハテ村 (花粉工場)",
       "time": "06:00–18:00",
       "star": "2½",
       "leader": "",
-      "requirementsRaw": "Mechonis Core cleared\r\nThe Master's Successor completed with A route\r\nBana the Betrayer\r\nCentral Bionis ☆2½",
+      "requirementsRaw": "機神界中枢をクリア\n跡継ぎ問題 completed with A route\n裏切りのバーン\nCentral Bionis ☆2½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -9127,14 +9127,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-distilling-active-ingredients-2d475228",
-      "name": "Distilling Active Ingredients",
-      "area": "Frontier Village",
+      "name": "有効成分を抽出する",
+      "area": "サイハテ村",
       "giverId": "resident-cherri-f6c8ca",
-      "location": "Frontier VIllage (Pollen Orb Storehouse)",
+      "location": "Frontier VIllage (花粉玉倉庫)",
       "time": "06:00–18:00",
       "star": "2½",
       "leader": "",
-      "requirementsRaw": "Mechonis Core cleared\r\nThe Master's Successor completed with B route\r\nBana the Betrayer\r\nCentral Bionis ☆2½",
+      "requirementsRaw": "機神界中枢をクリア\n跡継ぎ問題 completed with B route\n裏切りのバーン\nCentral Bionis ☆2½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -9142,14 +9142,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-monster-quest-1-part-1-9f37ca9e",
-      "name": "Monster Quest 1 - Part 1",
-      "area": "Frontier Village",
+      "name": "討伐クエスト1その1",
+      "area": "サイハテ村",
       "giverId": "resident-nopon-villager-2ff994",
-      "location": "Frontier Village (Nopon Tower)",
+      "location": "サイハテ村 (ノポンタワー)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Frontier Village area reached",
+      "requirementsRaw": "サイハテ村に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -9157,14 +9157,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-monster-quest-1-part-2-e1b85e60",
-      "name": "Monster Quest 1 - Part 2",
-      "area": "Frontier Village",
+      "name": "討伐クエスト1その2",
+      "area": "サイハテ村",
       "giverId": "resident-nopon-villager-2ff994",
-      "location": "Frontier Village (Nopon Tower)",
+      "location": "サイハテ村 (ノポンタワー)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Frontier Village area reached",
+      "requirementsRaw": "サイハテ村に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -9172,14 +9172,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-monster-quest-1-part-3-95e4df97",
-      "name": "Monster Quest 1 - Part 3",
-      "area": "Frontier Village",
+      "name": "討伐クエスト1その3",
+      "area": "サイハテ村",
       "giverId": "resident-nopon-villager-2ff994",
-      "location": "Frontier Village (Nopon Tower)",
+      "location": "サイハテ村 (ノポンタワー)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Frontier Village area reached",
+      "requirementsRaw": "サイハテ村に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -9187,14 +9187,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-monster-quest-2-part-1-3ba4cd30",
-      "name": "Monster Quest 2 - Part 1",
-      "area": "Frontier Village",
+      "name": "討伐クエスト2その1",
+      "area": "サイハテ村",
       "giverId": "resident-nopon-villager-2ff994",
-      "location": "Frontier Village (Central Plaza)",
+      "location": "サイハテ村 (Central Plaza)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Frontier Village area reached",
+      "requirementsRaw": "サイハテ村に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -9202,14 +9202,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-monster-quest-2-part-2-012bf20d",
-      "name": "Monster Quest 2 - Part 2",
-      "area": "Frontier Village",
+      "name": "討伐クエスト2その2",
+      "area": "サイハテ村",
       "giverId": "resident-nopon-villager-2ff994",
-      "location": "Frontier Village (Central Plaza)",
+      "location": "サイハテ村 (Central Plaza)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Frontier Village area reached",
+      "requirementsRaw": "サイハテ村に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -9217,14 +9217,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-monster-quest-2-part-3-304a192f",
-      "name": "Monster Quest 2 - Part 3",
-      "area": "Frontier Village",
+      "name": "討伐クエスト2その3",
+      "area": "サイハテ村",
       "giverId": "resident-nopon-villager-2ff994",
-      "location": "Frontier Village (Central Plaza)",
+      "location": "サイハテ村 (Central Plaza)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Frontier Village area reached",
+      "requirementsRaw": "サイハテ村に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -9232,14 +9232,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-challenge-1-904ff9bc",
-      "name": "Challenge 1",
-      "area": "Frontier Village",
+      "name": "強敵を求めて1",
+      "area": "サイハテ村",
       "giverId": "resident-nopon-villager-2ff994",
-      "location": "Frontier Village (Reservoir)",
+      "location": "サイハテ村 (貯水池)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Frontier Village area reached",
+      "requirementsRaw": "サイハテ村に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -9247,14 +9247,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-challenge-2-e229b41e",
-      "name": "Challenge 2",
-      "area": "Frontier Village",
+      "name": "強敵を求めて2",
+      "area": "サイハテ村",
       "giverId": "resident-nopon-villager-2ff994",
-      "location": "Frontier Village (Kyn Shopping Street)",
+      "location": "サイハテ村 (2Ｆ カイナ商店通り)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Frontier Village area reached",
+      "requirementsRaw": "サイハテ村に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -9262,14 +9262,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-challenge-3-47955942",
-      "name": "Challenge 3",
-      "area": "Frontier Village",
+      "name": "強敵を求めて3",
+      "area": "サイハテ村",
       "giverId": "resident-nopon-villager-2ff994",
-      "location": "Frontier Village (Archaeology Centre)",
+      "location": "サイハテ村 (遺跡研究本部)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Frontier Village area reached",
+      "requirementsRaw": "サイハテ村に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -9278,13 +9278,13 @@ const AFFINITY_DATA={
     {
       "id": "quest-frontier-village-material-quest-1-169c688b",
       "name": "Material Quest 1",
-      "area": "Frontier Village",
+      "area": "サイハテ村",
       "giverId": "resident-nopon-villager-2ff994",
-      "location": "Frontier Village (Nopon Tower)",
+      "location": "サイハテ村 (ノポンタワー)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Frontier Village area reached",
+      "requirementsRaw": "サイハテ村に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -9293,13 +9293,13 @@ const AFFINITY_DATA={
     {
       "id": "quest-frontier-village-material-quest-2-09be6d68",
       "name": "Material Quest 2",
-      "area": "Frontier Village",
+      "area": "サイハテ村",
       "giverId": "resident-nopon-villager-2ff994",
-      "location": "Frontier Village (Sacred Altar)",
+      "location": "サイハテ村 (御神体の祭壇)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Frontier Village area reached",
+      "requirementsRaw": "サイハテ村に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -9307,14 +9307,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-material-quest-3-d97541fa",
-      "name": "Material Quest 3",
-      "area": "Frontier Village",
+      "name": "素材クエスト3",
+      "area": "サイハテ村",
       "giverId": "resident-nopon-villager-2ff994",
-      "location": "Frontier Village (Archaeology Centre)",
+      "location": "サイハテ村 (遺跡研究本部)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Access to Valak Mountain",
+      "requirementsRaw": "ヴァラク雪山へ入れる",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -9322,14 +9322,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-material-quest-4-db4b8d85",
-      "name": "Material Quest 4",
-      "area": "Frontier Village",
+      "name": "素材クエスト4",
+      "area": "サイハテ村",
       "giverId": "resident-nopon-villager-2ff994",
-      "location": "Frontier Village (Prophecy Hut)",
+      "location": "サイハテ村 (お告げの間)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Frontier Village area reached",
+      "requirementsRaw": "サイハテ村に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -9338,13 +9338,13 @@ const AFFINITY_DATA={
     {
       "id": "quest-frontier-village-collection-quest-1-4990e4ce",
       "name": "Collection Quest 1",
-      "area": "Frontier Village",
+      "area": "サイハテ村",
       "giverId": "resident-nopon-villager-2ff994",
-      "location": "Frontier Village (Kyn Shopping Street)",
+      "location": "サイハテ村 (2Ｆ カイナ商店通り)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Frontier Village area reached",
+      "requirementsRaw": "サイハテ村に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -9353,13 +9353,13 @@ const AFFINITY_DATA={
     {
       "id": "quest-frontier-village-collection-quest-2-3792d5e9",
       "name": "Collection Quest 2",
-      "area": "Frontier Village",
+      "area": "サイハテ村",
       "giverId": "resident-nopon-villager-2ff994",
-      "location": "Frontier Village (Nopon Tower)",
+      "location": "サイハテ村 (ノポンタワー)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Frontier Village area reached",
+      "requirementsRaw": "サイハテ村に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -9367,14 +9367,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-collection-quest-3-5e220c4c",
-      "name": "Collection Quest 3",
-      "area": "Frontier Village",
+      "name": "収集クエスト3",
+      "area": "サイハテ村",
       "giverId": "resident-nopon-villager-2ff994",
-      "location": "Frontier Village (Chief's Residence)",
+      "location": "サイハテ村 (村長の家)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Frontier Village area reached",
+      "requirementsRaw": "サイハテ村に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -9382,14 +9382,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-collection-quest-4-31c4a887",
-      "name": "Collection Quest 4",
-      "area": "Frontier Village",
+      "name": "収集クエスト4",
+      "area": "サイハテ村",
       "giverId": "resident-nopon-villager-2ff994",
-      "location": "Frontier Village (Apex Lake)",
+      "location": "サイハテ村 (9Ｆ てっぺんの湖)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Frontier Village area reached",
+      "requirementsRaw": "サイハテ村に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -9397,14 +9397,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-search-quest-1-a29b0ccd",
-      "name": "Search Quest 1",
-      "area": "Frontier Village",
+      "name": "おさがしクエスト1",
+      "area": "サイハテ村",
       "giverId": "resident-nopon-villager-2ff994",
-      "location": "Frontier Village · (Middle Housing Level)",
+      "location": "サイハテ村 · (4Ｆ 中層住宅板)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Frontier Village area reached",
+      "requirementsRaw": "サイハテ村に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -9412,14 +9412,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-search-quest-2-3d2c17e1",
-      "name": "Search Quest 2",
-      "area": "Frontier Village",
+      "name": "おさがしクエスト2",
+      "area": "サイハテ村",
       "giverId": "resident-nopon-villager-2ff994",
-      "location": "Frontier Village (Archaeology Level)",
+      "location": "サイハテ村 (6Ｆ 遺跡研究板)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Frontier Village area reached",
+      "requirementsRaw": "サイハテ村に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -9427,14 +9427,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-search-quest-3-ba91015f",
-      "name": "Search Quest 3",
-      "area": "Frontier Village",
+      "name": "おさがしクエスト3",
+      "area": "サイハテ村",
       "giverId": "resident-nopon-villager-2ff994",
-      "location": "Frontier Village (Underground Store)",
+      "location": "サイハテ村 (B1F 地下貯蔵庫)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Frontier Village area reached",
+      "requirementsRaw": "サイハテ村に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -9442,14 +9442,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-frontier-village-an-errand-for-the-heropon-0207461b",
-      "name": "An Errand for the Heropon",
-      "area": "Frontier Village",
+      "name": "勇者のお使い",
+      "area": "サイハテ村",
       "giverId": "resident-story-quest-09cfce",
-      "location": "Frontier Village · Automatic",
+      "location": "サイハテ村 · 自動",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Frontier Village area reached",
+      "requirementsRaw": "サイハテ村に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -9457,14 +9457,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-eryth-sea-trouble-at-the-plant-09ca325d",
-      "name": "Trouble at the Plant",
-      "area": "Eryth Sea",
+      "name": "孤立無援のプラント",
+      "area": "エルト海",
       "giverId": "resident-jarack-bb03b3",
-      "location": "Eryth Sea (Ether Plant) · Anytime",
+      "location": "エルト海（エーテルプラント） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Eryth Sea area reached",
+      "requirementsRaw": "エルト海に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -9472,14 +9472,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-eryth-sea-punish-the-hodes-5ab7916f",
-      "name": "Punish the Hodes",
-      "area": "Eryth Sea",
+      "name": "フーディを成敗せよ",
+      "area": "エルト海",
       "giverId": "resident-jarack-bb03b3",
-      "location": "Eryth Sea (Ether Plant) · Anytime",
+      "location": "エルト海（エーテルプラント） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Eryth Sea area reached\r\nTrouble at the Plant accepted",
+      "requirementsRaw": "エルト海に到達\n孤立無援のプラントを受注済み",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -9487,14 +9487,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-eryth-sea-mend-the-plant-d48b53ff",
-      "name": "Mend the Plant",
-      "area": "Eryth Sea",
+      "name": "プラントを修理せよ",
+      "area": "エルト海",
       "giverId": "resident-jarack-bb03b3",
-      "location": "Eryth Sea (Ether Plant) · Anytime",
+      "location": "エルト海（エーテルプラント） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Eryth Sea area reached\r\nTrouble at the Plant accepted",
+      "requirementsRaw": "エルト海に到達\n孤立無援のプラントを受注済み",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -9502,14 +9502,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-eryth-sea-hode-attack-59c50864",
-      "name": "Hode Attack",
-      "area": "Eryth Sea",
+      "name": "フーディを撃退せよ",
+      "area": "エルト海",
       "giverId": "resident-jarack-bb03b3",
-      "location": "Eryth Sea (Ether Plant) · Anytime",
+      "location": "エルト海（エーテルプラント） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Eryth Sea area reached\r\nTrouble at the Plant.",
+      "requirementsRaw": "エルト海に到達\n孤立無援のプラント.",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -9517,14 +9517,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-eryth-sea-trouble-at-the-lighthouse-de94d51f",
-      "name": "Trouble at the Lighthouse",
-      "area": "Eryth Sea",
+      "name": "焦心苦慮の灯台",
+      "area": "エルト海",
       "giverId": "resident-shalen-82aae4",
-      "location": "Eryth Sea (Syrath Lighthouse) · Anytime.",
+      "location": "エルト海（シウェラート灯台） · いつでも",
       "time": "",
       "star": "",
-      "leader": "Melia",
-      "requirementsRaw": "Eryth Sea area reached\r\nHode Attack\r\nMelia in the lead",
+      "leader": "メリア",
+      "requirementsRaw": "エルト海に到達\nフーディを撃退せよ\nパーティリーダーはメリア",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -9532,14 +9532,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-eryth-sea-investigating-satorl-968ac172",
-      "name": "Investigating Satorl",
-      "area": "Eryth Sea",
+      "name": "ザトールの調査",
+      "area": "エルト海",
       "giverId": "resident-miriall-ffb0f7",
-      "location": "Eryth Sea (Ether Plant)",
+      "location": "エルト海 (エーテルプラント)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Mechonis Core cleared\r\nTalia's Research not completed\r\nThe Missing Boy accepted",
+      "requirementsRaw": "機神界中枢をクリア\nタリアの研究は未達成\n離れた手をもう一度を受注済み",
       "requiredResidentIds": [],
       "mutuallyExclusive": [
         "quest-alcamoth-talia-s-research-d77fade7"
@@ -9549,14 +9549,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-eryth-sea-ancient-high-entia-mystery-03d27957",
-      "name": "Ancient High Entia Mystery",
-      "area": "Eryth Sea",
+      "name": "古代ハイエンターの謎",
+      "area": "エルト海",
       "giverId": "resident-talia-169cdf",
-      "location": "Eryth Sea (Ether Plant)",
+      "location": "エルト海 (エーテルプラント)",
       "time": "18:00–06:00",
       "star": "2½",
-      "leader": "Melia",
-      "requirementsRaw": "Mechonis Core cleared\r\nTalia's Research or Investigating Satorl\r\nUpper Bionis ☆2½\r\nMelia in the lead",
+      "leader": "メリア",
+      "requirementsRaw": "機神界中枢をクリア\nタリアの研究 or ザトールの調査\nUpper Bionis ☆2½\nパーティリーダーはメリア",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -9564,14 +9564,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-eryth-sea-the-missing-boy-35f1e4eb",
-      "name": "The Missing Boy",
-      "area": "Eryth Sea",
+      "name": "離れた手をもう一度",
+      "area": "エルト海",
       "giverId": "resident-miriall-ffb0f7",
-      "location": "Eryth Sea (Ether Plant)",
+      "location": "エルト海 (エーテルプラント)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Mechonis Core cleared",
+      "requirementsRaw": "機神界中枢をクリア",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -9579,14 +9579,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-eryth-sea-the-only-thing-i-can-do-b6c15ab2",
-      "name": "The Only Thing I Can Do",
-      "area": "Eryth Sea",
+      "name": "私に出来る唯一のこと",
+      "area": "エルト海",
       "giverId": "resident-vidian-0d06e6",
-      "location": "Eryth Sea (Ether Plant)",
+      "location": "エルト海 (エーテルプラント)",
       "time": "06:00–18:00",
       "star": "1½",
       "leader": "",
-      "requirementsRaw": "Mechonis Core cleared\r\nVidian Rescue Mission\r\nBelieving Again not completed\r\nUpper Bionis ☆1½",
+      "requirementsRaw": "機神界中枢をクリア\nビビアン救出作戦\nもう一度、信じる心をは未達成\nUpper Bionis ☆1½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [
         "quest-alcamoth-believing-again-66f7b260"
@@ -9596,14 +9596,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-eryth-sea-i-will-never-forget-you-697f1d2e",
-      "name": "I Will Never Forget You",
-      "area": "Eryth Sea",
+      "name": "あなたを忘れない",
+      "area": "エルト海",
       "giverId": "resident-vidian-0d06e6",
-      "location": "Eryth Sea (Ether Plant)",
+      "location": "エルト海 (エーテルプラント)",
       "time": "06:00–18:00",
       "star": "1½",
       "leader": "",
-      "requirementsRaw": "Mechonis Core cleared\r\nVidian Rescue Mission\r\nBelieving Again\r\nUpper Bionis ☆1½",
+      "requirementsRaw": "機神界中枢をクリア\nビビアン救出作戦\nもう一度、信じる心を\nUpper Bionis ☆1½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -9611,14 +9611,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-eryth-sea-secret-research-24cff589",
-      "name": "Secret Research",
-      "area": "Eryth Sea",
+      "name": "秘密の研究所",
+      "area": "エルト海",
       "giverId": "resident-teelan-577556",
-      "location": "Eryth Sea (Ether Plant)",
+      "location": "エルト海 (エーテルプラント)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Mechonis Core cleared\r\nThe Missing Boy",
+      "requirementsRaw": "機神界中枢をクリア\n離れた手をもう一度",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -9626,14 +9626,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-eryth-sea-monster-quest-1-94fd67d5",
-      "name": "Monster Quest 1",
-      "area": "Eryth Sea",
+      "name": "討伐クエストその1",
+      "area": "エルト海",
       "giverId": "resident-lighthouse-keeper-0706ee",
-      "location": "Eryth Sea (Syrath Lighthouse) · Anytime.",
+      "location": "エルト海（シウェラート灯台） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Eryth Sea area reached",
+      "requirementsRaw": "エルト海に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -9641,14 +9641,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-eryth-sea-monster-quest-2-028f026d",
-      "name": "Monster Quest 2",
-      "area": "Eryth Sea",
+      "name": "討伐クエスト 2",
+      "area": "エルト海",
       "giverId": "resident-lighthouse-keeper-0706ee",
-      "location": "Eryth Sea (Syrath Lighthouse) · Anytime.",
+      "location": "エルト海（シウェラート灯台） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Eryth Sea area reached",
+      "requirementsRaw": "エルト海に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -9656,14 +9656,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-eryth-sea-challenge-bb182f57",
-      "name": "Challenge",
-      "area": "Eryth Sea",
+      "name": "強敵を求めて",
+      "area": "エルト海",
       "giverId": "resident-lighthouse-keeper-0706ee",
-      "location": "Eryth Sea (Syrath Lighthouse) · Anytime.",
+      "location": "エルト海（シウェラート灯台） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Eryth Sea area reached",
+      "requirementsRaw": "エルト海に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -9671,14 +9671,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-eryth-sea-collect-quest-1-44e9abc0",
-      "name": "Collect Quest 1",
-      "area": "Eryth Sea",
+      "name": "収集クエストその1",
+      "area": "エルト海",
       "giverId": "resident-alcamoth-citizen-c9bd73",
-      "location": "Eryth Sea (Syrath Lighthouse) · Anytime.",
+      "location": "エルト海（シウェラート灯台） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Eryth Sea area reached",
+      "requirementsRaw": "エルト海に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -9686,14 +9686,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-eryth-sea-collect-quest-2-48357cd4",
-      "name": "Collect Quest 2",
-      "area": "Eryth Sea",
+      "name": "収集クエストその2",
+      "area": "エルト海",
       "giverId": "resident-alcamoth-citizen-c9bd73",
-      "location": "Eryth Sea (Syrath Lighthouse) · Anytime.",
+      "location": "エルト海（シウェラート灯台） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Eryth Sea area reached",
+      "requirementsRaw": "エルト海に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -9701,14 +9701,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-eryth-sea-save-the-worker-f2ef1b0c",
-      "name": "Save the Worker",
-      "area": "Eryth Sea",
+      "name": "作業員を救助せよ",
+      "area": "エルト海",
       "giverId": "resident-story-quest-09cfce",
-      "location": "Alcamoth (Whitewing Palace) · Automatic",
+      "location": "皇都アカモート（白翼宮） · 自動",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Alcamoth reached.",
+      "requirementsRaw": "皇都アカモート reached.",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -9716,14 +9716,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-eryth-sea-path-to-prison-island-48dacbcc",
-      "name": "Path to Prison Island",
-      "area": "Eryth Sea",
+      "name": "監獄島への道",
+      "area": "エルト海",
       "giverId": "resident-story-quest-09cfce",
-      "location": "Eryth Sea · Automatic",
+      "location": "エルト海 · 自動",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "In the course to Prison Island",
+      "requirementsRaw": "In the course to 監獄島",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -9731,14 +9731,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-eryth-sea-sister-seals-c9046416",
-      "name": "Sister Seals",
-      "area": "Eryth Sea",
+      "name": "封印の姉妹門",
+      "area": "エルト海",
       "giverId": "resident-story-quest-09cfce",
-      "location": "Eryth Sea · Automatic",
+      "location": "エルト海 · 自動",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "In the course to Prison Island\r\nPath to Prison Island accepted",
+      "requirementsRaw": "In the course to 監獄島\n監獄島への道を受注済み",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -9746,14 +9746,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-the-deciphering-machine-e8f9b65c",
-      "name": "The Deciphering Machine",
-      "area": "Alcamoth",
+      "name": "文献解読装置",
+      "area": "皇都アカモート",
       "giverId": "resident-ruthan-a6555a",
-      "location": "Alcamoth (Imperial Palance)",
+      "location": "皇都アカモート (Imperial Palance)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Alcamoth area reached",
+      "requirementsRaw": "皇都アカモートに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -9761,14 +9761,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-a-necessary-upgrade-c20d8fb2",
-      "name": "A Necessary Upgrade",
-      "area": "Alcamoth",
+      "name": "文献解読装置改良",
+      "area": "皇都アカモート",
       "giverId": "resident-naroth-3c5d4d",
-      "location": "Alcamoth (Imperial Palace)",
+      "location": "皇都アカモート (皇宮)",
       "time": "06:00–18:00",
       "star": "1¼",
       "leader": "",
-      "requirementsRaw": "In the course to the High Entia Tomb\r\nThe Deciphering Machine\r\nUpper Bionis ☆1¼",
+      "requirementsRaw": "ハイエンター墓所へ向かう途中\n文献解読装置\nUpper Bionis ☆1¼",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -9776,14 +9776,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-talia-s-research-d77fade7",
-      "name": "Talia's Research",
-      "area": "Alcamoth",
+      "name": "タリアの研究",
+      "area": "皇都アカモート",
       "giverId": "resident-talia-169cdf",
-      "location": "Alcamoth (Imperial Palace)",
+      "location": "皇都アカモート (皇宮)",
       "time": "18:00–06:00",
       "star": "2",
       "leader": "",
-      "requirementsRaw": "In the course to the High Entia Tomb\r\nA Necessary Upgrade\r\nUpper Bionis ☆2",
+      "requirementsRaw": "ハイエンター墓所へ向かう途中\n文献解読装置改良\nUpper Bionis ☆2",
       "requiredResidentIds": [],
       "mutuallyExclusive": [
         "quest-eryth-sea-investigating-satorl-968ac172"
@@ -9793,14 +9793,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-bring-back-my-son-70c7c6b8",
-      "name": "Bring Back My Son!",
-      "area": "Alcamoth",
+      "name": "息子を連れ戻して！",
+      "area": "皇都アカモート",
       "giverId": "resident-merisa-0e0fac",
-      "location": "Alcamoth (Imperial Palace)",
+      "location": "皇都アカモート (皇宮)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Alcamoth area reached\r\nMir'leiz registered",
+      "requirementsRaw": "皇都アカモートに到達\nミラリースが登録済み",
       "requiredResidentIds": [
         "resident-mir-leiz-dec45b"
       ],
@@ -9810,14 +9810,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-teaching-materials-d0bb83b2",
-      "name": "Teaching Materials",
-      "area": "Alcamoth",
+      "name": "教材の材料を集めて！",
+      "area": "皇都アカモート",
       "giverId": "resident-mir-leiz-dec45b",
-      "location": "\"Alcamoth (Imperial Palace) · \"",
+      "location": "\"皇都アカモート (皇宮) · \"",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Alcamoth area reached\r\nBring Back My Son!",
+      "requirementsRaw": "皇都アカモートに到達\n息子を連れ戻して！",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -9825,14 +9825,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-brave-actions-af207184",
-      "name": "Brave Actions",
-      "area": "Alcamoth",
+      "name": "勇気ある行動",
+      "area": "皇都アカモート",
       "giverId": "resident-mir-leiz-dec45b",
-      "location": "\"Alcamoth (Imperial Palace) · \"",
+      "location": "\"皇都アカモート (皇宮) · \"",
       "time": "06:00–18:00",
       "star": "1½",
       "leader": "",
-      "requirementsRaw": "Alcamoth area reached\r\nA Friend in Need\r\nTeaching Materials\r\nUpper Bionis ☆1½",
+      "requirementsRaw": "皇都アカモートに到達\n親友のために\n教材の材料を集めて！\nUpper Bionis ☆1½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -9840,14 +9840,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-protect-the-capital-2ca874b2",
-      "name": "Protect the Capital!",
-      "area": "Alcamoth",
+      "name": "皇都の安全を守れ！",
+      "area": "皇都アカモート",
       "giverId": "resident-lecrough-853b3b",
-      "location": "Alcamoth (Great Hall)",
+      "location": "皇都アカモート (大広間)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Alcamoth area reached\r\nBrave Actions accepted",
+      "requirementsRaw": "皇都アカモートに到達\n勇気ある行動を受注済み",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -9855,14 +9855,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-how-do-they-feel-6057e1e2",
-      "name": "How Do They Feel?",
-      "area": "Alcamoth",
+      "name": "気持ちを知りたい",
+      "area": "皇都アカモート",
       "giverId": "resident-scarlen-2208cc",
-      "location": "Alcamoth (Main Entrance)",
+      "location": "皇都アカモート (Main Entrance)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Alcamoth area reached",
+      "requirementsRaw": "皇都アカモートに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -9870,14 +9870,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-how-do-i-feel-c40184df",
-      "name": "How Do I Feel?",
-      "area": "Alcamoth",
+      "name": "自分の本心を知りたい",
+      "area": "皇都アカモート",
       "giverId": "resident-scarlen-2208cc",
-      "location": "Alcamoth (Main Entrance)",
+      "location": "皇都アカモート (Main Entrance)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Alcamoth area reached\r\nHow Do They Feel?",
+      "requirementsRaw": "皇都アカモートに到達\n気持ちを知りたい",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -9885,14 +9885,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-i-love-you-no-matter-what-e78badae",
-      "name": "I Love You No Matter What",
-      "area": "Alcamoth",
+      "name": "何があっても君を愛す",
+      "area": "皇都アカモート",
       "giverId": "resident-scarlen-2208cc",
-      "location": "Alcamoth (Main Entrance)",
+      "location": "皇都アカモート (Main Entrance)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Alcamoth area reached\r\nHow Do I Feel? A route completed",
+      "requirementsRaw": "皇都アカモートに到達\n自分の本心を知りたいのAルートを達成済み",
       "requiredResidentIds": [],
       "mutuallyExclusive": [
         "quest-alcamoth-together-forever-b4a3ce0a"
@@ -9902,14 +9902,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-together-forever-b4a3ce0a",
-      "name": "Together Forever",
-      "area": "Alcamoth",
+      "name": "いつまでも君と一緒に",
+      "area": "皇都アカモート",
       "giverId": "resident-scarlen-2208cc",
-      "location": "Alcamoth (Main Entrance)",
+      "location": "皇都アカモート (Main Entrance)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Alcamoth area reached\r\nHow Do I Feel? B route completed",
+      "requirementsRaw": "皇都アカモートに到達\n自分の本心を知りたい B route completed",
       "requiredResidentIds": [],
       "mutuallyExclusive": [
         "quest-alcamoth-i-love-you-no-matter-what-e78badae"
@@ -9919,14 +9919,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-a-friend-in-need-c9b3b741",
-      "name": "A Friend in Need",
-      "area": "Alcamoth",
+      "name": "親友のために",
+      "area": "皇都アカモート",
       "giverId": "resident-lecrough-853b3b",
-      "location": "Alcamoth (Great Hall)",
+      "location": "皇都アカモート (大広間)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Alcamoth area reached\r\nGalvin registered on the Affinity Chart and spoken to",
+      "requirementsRaw": "皇都アカモートに到達\nガングがキズナグラムに登録済みで、話しかけ済み",
       "requiredResidentIds": [
         "resident-galvin-b49d27"
       ],
@@ -9936,14 +9936,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-preparing-for-adventure-b544ce81",
-      "name": "Preparing for Adventure",
-      "area": "Alcamoth",
+      "name": "大冒険の準備",
+      "area": "皇都アカモート",
       "giverId": "resident-zain-f6a8bc",
-      "location": "Alcamoth (Fountain of Eternity)",
+      "location": "皇都アカモート (永遠の噴水)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Alcamoth area reached\r\nKurralth registered on the Affinity Chart and spoken to",
+      "requirementsRaw": "皇都アカモートに到達\nクラルがキズナグラムに登録済みで、話しかけ済み",
       "requiredResidentIds": [
         "resident-kurralth-b347ae"
       ],
@@ -9953,14 +9953,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-preparing-for-adventure-2-6bb08adb",
-      "name": "Preparing for Adventure 2",
-      "area": "Alcamoth",
+      "name": "続・大冒険の準備",
+      "area": "皇都アカモート",
       "giverId": "resident-zain-f6a8bc",
-      "location": "Alcamoth (Fountain of Eternity)",
+      "location": "皇都アカモート (永遠の噴水)",
       "time": "06:00–18:00",
       "star": "1¼",
       "leader": "",
-      "requirementsRaw": "Alcamoth area reached\r\nPreparing for Adventure\r\nUpper Bionis ☆1¼",
+      "requirementsRaw": "皇都アカモートに到達\n大冒険の準備\nUpper Bionis ☆1¼",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -9968,14 +9968,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-preparing-for-adventure-3-c3600c9e",
-      "name": "Preparing for Adventure 3",
-      "area": "Alcamoth",
+      "name": "続々・大冒険の準備",
+      "area": "皇都アカモート",
       "giverId": "resident-zain-f6a8bc",
-      "location": "Alcamoth (Fountain of Eternity)",
+      "location": "皇都アカモート (永遠の噴水)",
       "time": "06:00–18:00",
       "star": "1½",
       "leader": "",
-      "requirementsRaw": "Alcamoth area reached\r\nPreparing for Adventure 2\r\nUpper Bionis ☆1½",
+      "requirementsRaw": "皇都アカモートに到達\n続・大冒険の準備\nUpper Bionis ☆1½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -9984,13 +9984,13 @@ const AFFINITY_DATA={
     {
       "id": "quest-alcamoth-adventureres-in-peril-4a2d710a",
       "name": "Adventureres in Peril",
-      "area": "Alcamoth",
+      "area": "皇都アカモート",
       "giverId": "resident-miriall-ffb0f7",
-      "location": "Alcamoth (Imperial Palace)",
+      "location": "皇都アカモート (皇宮)",
       "time": "06:00–18:00",
       "star": "2½",
       "leader": "",
-      "requirementsRaw": "Valak Mountain reached\r\nPreparing for Adventure 3\r\nUpper Bionis ☆2½",
+      "requirementsRaw": "ヴァラク雪山に到達\n続々・大冒険の準備\nUpper Bionis ☆2½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -9998,14 +9998,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-building-bridges-7492aa71",
-      "name": "Building Bridges",
-      "area": "Alcamoth",
+      "name": "他種族嫌いを治して",
+      "area": "皇都アカモート",
       "giverId": "resident-arielle-5ecda2",
-      "location": "Alcamoth (Fountain of Eternity)",
+      "location": "皇都アカモート (永遠の噴水)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Alcamoth area reached\r\nVidian registered on the Affinity Chart",
+      "requirementsRaw": "皇都アカモートに到達\nビビアンがキズナグラムに登録済み",
       "requiredResidentIds": [
         "resident-vidian-0d06e6"
       ],
@@ -10015,14 +10015,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-believing-again-66f7b260",
-      "name": "Believing Again",
-      "area": "Alcamoth",
+      "name": "もう一度、信じる心を",
+      "area": "皇都アカモート",
       "giverId": "resident-vidian-0d06e6",
-      "location": "Alcamoth (Imperial Palace)",
+      "location": "皇都アカモート (皇宮)",
       "time": "06:00–18:00",
       "star": "1½",
       "leader": "",
-      "requirementsRaw": "Valak Mountain reached\r\nBuilding Bridges\r\nUpper Bionis ☆1½",
+      "requirementsRaw": "ヴァラク雪山に到達\n他種族嫌いを治して\nUpper Bionis ☆1½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -10030,14 +10030,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-starlight-seeker-cae55fa5",
-      "name": "Starlight Seeker",
-      "area": "Alcamoth",
+      "name": "輝きをその小さな手に",
+      "area": "皇都アカモート",
       "giverId": "resident-elior-428bf5",
-      "location": "Alcamoth (Fountain of Eternity)",
+      "location": "皇都アカモート (永遠の噴水)",
       "time": "06:00–18:00",
       "star": "1½",
       "leader": "",
-      "requirementsRaw": "Alcamoth area reached\r\nPreparing for Adventure 3\r\nMiriall registered on the Affinity Chart\r\nUpper Bionis ☆1½",
+      "requirementsRaw": "皇都アカモートに到達\n続々・大冒険の準備\nミリアがキズナグラムに登録済み\nUpper Bionis ☆1½",
       "requiredResidentIds": [
         "resident-miriall-ffb0f7"
       ],
@@ -10047,14 +10047,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-starlight-gazer-8dad45d5",
-      "name": "Starlight Gazer",
-      "area": "Alcamoth",
+      "name": "更なる輝きをその手に",
+      "area": "皇都アカモート",
       "giverId": "resident-elior-428bf5",
-      "location": "Alcamoth (Fountain of Eternity)",
+      "location": "皇都アカモート (永遠の噴水)",
       "time": "06:00–18:00",
       "star": "2½",
       "leader": "",
-      "requirementsRaw": "In the course to the High Entia Tomb\r\nStarlight Seeker\r\nUpper Bionis ☆2½",
+      "requirementsRaw": "ハイエンター墓所へ向かう途中\n輝きをその小さな手に\nUpper Bionis ☆2½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -10062,14 +10062,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-back-pain-1e322f2c",
-      "name": "Back Pain",
-      "area": "Alcamoth",
+      "name": "腰痛持ちは大変だ！",
+      "area": "皇都アカモート",
       "giverId": "resident-galdo-b92141",
-      "location": "Alcamoth (Great Hall)",
+      "location": "皇都アカモート (大広間)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Whitewing Palace reached\r\nLar'shen registered on the Affinity Chart and spoken to",
+      "requirementsRaw": "白翼宮に到達\nチャールズがキズナグラムに登録済みで、話しかけ済み",
       "requiredResidentIds": [
         "resident-lar-shen-33ff57"
       ],
@@ -10079,14 +10079,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-looking-for-gold-bugs-42de6fc4",
-      "name": "Looking for Gold Bugs",
-      "area": "Alcamoth",
+      "name": "金色の虫を求めて",
+      "area": "皇都アカモート",
       "giverId": "resident-teelan-577556",
-      "location": "Alcamoth (Imperial Palace)",
+      "location": "皇都アカモート (皇宮)",
       "time": "06:00–15:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Alcamoth area reached",
+      "requirementsRaw": "皇都アカモートに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -10094,14 +10094,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-losing-the-taste-for-alcohol-a3b54ab3",
-      "name": "Losing the Taste for Alcohol",
-      "area": "Alcamoth",
+      "name": "お酒に強くなりたい",
+      "area": "皇都アカモート",
       "giverId": "resident-nelo-ec4ee3",
-      "location": "Alcamoth (Fountain of Hope)",
+      "location": "皇都アカモート (希望の噴水)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Alcamoth area reached",
+      "requirementsRaw": "皇都アカモートに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -10109,14 +10109,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-looking-for-a-lost-son-28159068",
-      "name": "Looking for a Lost Son",
-      "area": "Alcamoth",
+      "name": "迷子の息子を捜して",
+      "area": "皇都アカモート",
       "giverId": "resident-vol-aren-42c37a",
-      "location": "Alcamoth (Fountain of Hope)",
+      "location": "皇都アカモート (希望の噴水)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Alcamoth area reached",
+      "requirementsRaw": "皇都アカモートに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -10124,14 +10124,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-looking-for-a-lost-daughter-73bb1d26",
-      "name": "Looking for a Lost Daughter",
-      "area": "Alcamoth",
+      "name": "迷子の娘を捜して",
+      "area": "皇都アカモート",
       "giverId": "resident-vol-aren-42c37a",
-      "location": "Alcamoth (Fountain of Hope)",
+      "location": "皇都アカモート (希望の噴水)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Alcamoth area reached\r\nLooking for a Lost Son",
+      "requirementsRaw": "皇都アカモートに到達\n迷子の息子を捜して",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -10139,14 +10139,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-going-out-to-play-844b5d0e",
-      "name": "Going Out to Play",
-      "area": "Alcamoth",
+      "name": "息子が外で遊べる様に",
+      "area": "皇都アカモート",
       "giverId": "resident-popipo-63612a",
-      "location": "Alcamoth (Main Entrance)",
+      "location": "皇都アカモート (Main Entrance)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Alcamoth area reached",
+      "requirementsRaw": "皇都アカモートに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -10154,14 +10154,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-getting-a-member-s-card-a4a6253e",
-      "name": "Getting a Member's Card",
-      "area": "Alcamoth",
+      "name": "会員証を手に入れろ",
+      "area": "皇都アカモート",
       "giverId": "resident-surprise-quest-86bd80",
       "location": "Automatic",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Alcamoth area reached\r\nDestroying the City Trade accepted",
+      "requirementsRaw": "皇都アカモートに到達\n皇都での取引を潰せを受注済み",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -10169,14 +10169,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-vidian-rescue-mission-70909031",
-      "name": "Vidian Rescue Mission",
-      "area": "Alcamoth",
+      "name": "ビビアン救出作戦",
+      "area": "皇都アカモート",
       "giverId": "resident-surprise-quest-86bd80",
       "location": "Automatic",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Mechonis Core cleared\r\nRestoring the Capital objective completed",
+      "requirementsRaw": "機神界中枢をクリア\n皇都を復興するために objective completed",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -10184,14 +10184,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-monster-quest-1-part-1-42171b4c",
-      "name": "Monster Quest 1 - Part 1",
-      "area": "Alcamoth",
+      "name": "討伐クエスト1その1",
+      "area": "皇都アカモート",
       "giverId": "resident-alcamoth-citizen-c9bd73",
-      "location": "Alcamoth (Imperial Palace)",
+      "location": "皇都アカモート (皇宮)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Alcamoth area reached",
+      "requirementsRaw": "皇都アカモートに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -10199,14 +10199,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-monster-quest-1-part-2-f95eda7f",
-      "name": "Monster Quest 1 - Part 2",
-      "area": "Alcamoth",
+      "name": "討伐クエスト1その2",
+      "area": "皇都アカモート",
       "giverId": "resident-alcamoth-citizen-c9bd73",
-      "location": "Alcamoth (Imperial Palace)",
+      "location": "皇都アカモート (皇宮)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Alcamoth area reached",
+      "requirementsRaw": "皇都アカモートに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -10214,14 +10214,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-monster-quest-1-part-3-abdb2831",
-      "name": "Monster Quest 1 - Part 3",
-      "area": "Alcamoth",
+      "name": "討伐クエスト1その3",
+      "area": "皇都アカモート",
       "giverId": "resident-alcamoth-citizen-c9bd73",
-      "location": "Alcamoth (Imperial Palace)",
+      "location": "皇都アカモート (皇宮)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Alcamoth area reached",
+      "requirementsRaw": "皇都アカモートに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -10229,14 +10229,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-monster-quest-2-part-1-e38b167a",
-      "name": "Monster Quest 2 - Part 1",
-      "area": "Alcamoth",
+      "name": "討伐クエスト2その1",
+      "area": "皇都アカモート",
       "giverId": "resident-alcamoth-imperial-guard-c0b246",
-      "location": "Alcamoth (Imperial Palace)",
+      "location": "皇都アカモート (皇宮)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Alcamoth area reached",
+      "requirementsRaw": "皇都アカモートに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -10244,14 +10244,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-monster-quest-2-part-2-ee3c08bd",
-      "name": "Monster Quest 2 - Part 2",
-      "area": "Alcamoth",
+      "name": "討伐クエスト2その2",
+      "area": "皇都アカモート",
       "giverId": "resident-alcamoth-imperial-guard-c0b246",
-      "location": "Alcamoth (Imperial Palace)",
+      "location": "皇都アカモート (皇宮)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Alcamoth area reached",
+      "requirementsRaw": "皇都アカモートに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -10259,14 +10259,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-monster-quest-2-part-3-dd9dd723",
-      "name": "Monster Quest 2 - Part 3",
-      "area": "Alcamoth",
+      "name": "討伐クエスト2その3",
+      "area": "皇都アカモート",
       "giverId": "resident-alcamoth-imperial-guard-c0b246",
-      "location": "Alcamoth (Imperial Palace)",
+      "location": "皇都アカモート (皇宮)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Alcamoth area reached",
+      "requirementsRaw": "皇都アカモートに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -10274,14 +10274,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-monster-quest-3-part-1-4f7a4e60",
-      "name": "Monster Quest 3 - Part 1",
-      "area": "Alcamoth",
+      "name": "討伐クエスト3その1",
+      "area": "皇都アカモート",
       "giverId": "resident-alcamoth-citizen-c9bd73",
-      "location": "Alcamoth (Melfica Road)",
+      "location": "皇都アカモート (メルフィカ通り)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Alcamoth area reached",
+      "requirementsRaw": "皇都アカモートに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -10289,14 +10289,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-monster-quest-3-part-2-5acdd6dd",
-      "name": "Monster Quest 3 - Part 2",
-      "area": "Alcamoth",
+      "name": "討伐クエスト3その2",
+      "area": "皇都アカモート",
       "giverId": "resident-alcamoth-citizen-c9bd73",
-      "location": "Alcamoth (Melfica Road)",
+      "location": "皇都アカモート (メルフィカ通り)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Alcamoth area reached",
+      "requirementsRaw": "皇都アカモートに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -10304,14 +10304,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-monster-quest-3-part-3-1fad9148",
-      "name": "Monster Quest 3 - Part 3",
-      "area": "Alcamoth",
+      "name": "討伐クエスト3その3",
+      "area": "皇都アカモート",
       "giverId": "resident-alcamoth-citizen-c9bd73",
-      "location": "Alcamoth (Melfica Road)",
+      "location": "皇都アカモート (メルフィカ通り)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Alcamoth area reached",
+      "requirementsRaw": "皇都アカモートに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -10319,14 +10319,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-monster-quest-4-part-1-08dad316",
-      "name": "Monster Quest 4 - Part 1",
-      "area": "Alcamoth",
+      "name": "討伐クエスト4その1",
+      "area": "皇都アカモート",
       "giverId": "resident-alcamoth-imperial-guard-c0b246",
-      "location": "Alcamoth (Ascension Hall)",
+      "location": "皇都アカモート (聖天翔の間)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Alcamoth area reached",
+      "requirementsRaw": "皇都アカモートに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -10334,14 +10334,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-monster-quest-4-part-2-24615c68",
-      "name": "Monster Quest 4 - Part 2",
-      "area": "Alcamoth",
+      "name": "討伐クエスト4その2",
+      "area": "皇都アカモート",
       "giverId": "resident-alcamoth-imperial-guard-c0b246",
-      "location": "Alcamoth (Ascension Hall)",
+      "location": "皇都アカモート (聖天翔の間)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Alcamoth area reached",
+      "requirementsRaw": "皇都アカモートに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -10349,14 +10349,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-monster-quest-4-part-3-2c4d90c6",
-      "name": "Monster Quest 4 - Part 3",
-      "area": "Alcamoth",
+      "name": "討伐クエスト4その3",
+      "area": "皇都アカモート",
       "giverId": "resident-alcamoth-imperial-guard-c0b246",
-      "location": "Alcamoth (Ascension Hall)",
+      "location": "皇都アカモート (聖天翔の間)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Alcamoth area reached",
+      "requirementsRaw": "皇都アカモートに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -10364,14 +10364,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-challenge-1-4a226e64",
-      "name": "Challenge 1",
-      "area": "Alcamoth",
+      "name": "強敵を求めて1",
+      "area": "皇都アカモート",
       "giverId": "resident-alcamoth-citizen-c9bd73",
-      "location": "Alcamoth (Fountain of Hope)",
+      "location": "皇都アカモート (希望の噴水)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Alcamoth area reached",
+      "requirementsRaw": "皇都アカモートに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -10379,14 +10379,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-challenge-2-b349a7b0",
-      "name": "Challenge 2",
-      "area": "Alcamoth",
+      "name": "強敵を求めて2",
+      "area": "皇都アカモート",
       "giverId": "resident-alcamoth-citizen-c9bd73",
-      "location": "Alcamoth (Fountain of Eternity)",
+      "location": "皇都アカモート (永遠の噴水)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Alcamoth area reached",
+      "requirementsRaw": "皇都アカモートに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -10394,14 +10394,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-challenge-3-4f62e955",
-      "name": "Challenge 3",
-      "area": "Alcamoth",
+      "name": "強敵を求めて3",
+      "area": "皇都アカモート",
       "giverId": "resident-alcamoth-imperial-guard-c0b246",
-      "location": "Alcamoth (Ascension Hall)",
+      "location": "皇都アカモート (聖天翔の間)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Alcamoth area reached",
+      "requirementsRaw": "皇都アカモートに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -10409,14 +10409,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-challenge-4-25825bda",
-      "name": "Challenge 4",
-      "area": "Alcamoth",
+      "name": "強敵を求めて4",
+      "area": "皇都アカモート",
       "giverId": "resident-alcamoth-citizen-c9bd73",
-      "location": "Alcamoth (Fountain of Eternity)",
+      "location": "皇都アカモート (永遠の噴水)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Alcamoth area reached",
+      "requirementsRaw": "皇都アカモートに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -10425,13 +10425,13 @@ const AFFINITY_DATA={
     {
       "id": "quest-alcamoth-material-quest-1-86612ce4",
       "name": "Material Quest 1",
-      "area": "Alcamoth",
+      "area": "皇都アカモート",
       "giverId": "resident-alcamoth-citizen-c9bd73",
-      "location": "Alcamoth (Main Entrance)",
+      "location": "皇都アカモート (Main Entrance)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Alcamoth area reached",
+      "requirementsRaw": "皇都アカモートに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -10440,13 +10440,13 @@ const AFFINITY_DATA={
     {
       "id": "quest-alcamoth-material-quest-2-b2c2468f",
       "name": "Material Quest 2",
-      "area": "Alcamoth",
+      "area": "皇都アカモート",
       "giverId": "resident-alcamoth-citizen-c9bd73",
-      "location": "Alcamoth (Imperial Palace)",
+      "location": "皇都アカモート (皇宮)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Alcamoth area reached",
+      "requirementsRaw": "皇都アカモートに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -10454,14 +10454,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-material-quest-3-98019c8a",
-      "name": "Material Quest 3",
-      "area": "Alcamoth",
+      "name": "素材クエスト3",
+      "area": "皇都アカモート",
       "giverId": "resident-alcamoth-imperial-guard-c0b246",
-      "location": "Alcamoth (Main Entrance)",
+      "location": "皇都アカモート (Main Entrance)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Alcamoth area reached",
+      "requirementsRaw": "皇都アカモートに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -10469,14 +10469,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-material-quest-4-2ca3d813",
-      "name": "Material Quest 4",
-      "area": "Alcamoth",
+      "name": "素材クエスト4",
+      "area": "皇都アカモート",
       "giverId": "resident-alcamoth-citizen-c9bd73",
-      "location": "Alcamoth (Imperial Palace)",
+      "location": "皇都アカモート (皇宮)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Alcamoth area reached",
+      "requirementsRaw": "皇都アカモートに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -10485,13 +10485,13 @@ const AFFINITY_DATA={
     {
       "id": "quest-alcamoth-collection-quest-1-ff40dabd",
       "name": "Collection Quest 1",
-      "area": "Alcamoth",
+      "area": "皇都アカモート",
       "giverId": "resident-alcamoth-citizen-c9bd73",
-      "location": "Alcamoth (Melfica Road)",
+      "location": "皇都アカモート (メルフィカ通り)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Alcamoth area reached",
+      "requirementsRaw": "皇都アカモートに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -10500,13 +10500,13 @@ const AFFINITY_DATA={
     {
       "id": "quest-alcamoth-collection-quest-2-b67f2781",
       "name": "Collection Quest 2",
-      "area": "Alcamoth",
+      "area": "皇都アカモート",
       "giverId": "resident-alcamoth-citizen-c9bd73",
-      "location": "Alcamoth (Main Entrance)",
+      "location": "皇都アカモート (Main Entrance)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Alcamoth area reached",
+      "requirementsRaw": "皇都アカモートに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -10514,14 +10514,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-collection-quest-3-51469a9f",
-      "name": "Collection Quest 3",
-      "area": "Alcamoth",
+      "name": "収集クエスト3",
+      "area": "皇都アカモート",
       "giverId": "resident-alcamoth-citizen-c9bd73",
-      "location": "Alcamoth (Fountain of Hope)",
+      "location": "皇都アカモート (希望の噴水)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Alcamoth area reached",
+      "requirementsRaw": "皇都アカモートに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -10529,14 +10529,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-collection-quest-4-6e8970dc",
-      "name": "Collection Quest 4",
-      "area": "Alcamoth",
+      "name": "収集クエスト4",
+      "area": "皇都アカモート",
       "giverId": "resident-alcamoth-citizen-c9bd73",
-      "location": "Alcamoth (Melfica Road)",
+      "location": "皇都アカモート (メルフィカ通り)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Alcamoth area reached",
+      "requirementsRaw": "皇都アカモートに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -10544,14 +10544,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-search-quest-1-226d3221",
-      "name": "Search Quest 1",
-      "area": "Alcamoth",
+      "name": "おさがしクエスト1",
+      "area": "皇都アカモート",
       "giverId": "resident-alcamoth-citizen-c9bd73",
-      "location": "Alcamoth (Fountain of Hope)",
+      "location": "皇都アカモート (希望の噴水)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Alcamoth area reached",
+      "requirementsRaw": "皇都アカモートに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -10559,14 +10559,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-search-quest-2-8a73ee94",
-      "name": "Search Quest 2",
-      "area": "Alcamoth",
+      "name": "おさがしクエスト2",
+      "area": "皇都アカモート",
       "giverId": "resident-alcamoth-citizen-c9bd73",
-      "location": "Alcamoth (Fountain of Hope)",
+      "location": "皇都アカモート (希望の噴水)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Alcamoth area reached",
+      "requirementsRaw": "皇都アカモートに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -10574,14 +10574,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-search-quest-3-b05095e9",
-      "name": "Search Quest 3",
-      "area": "Alcamoth",
+      "name": "おさがしクエスト3",
+      "area": "皇都アカモート",
       "giverId": "resident-alcamoth-citizen-c9bd73",
-      "location": "Alcamoth (Fountain of Eternity)",
+      "location": "皇都アカモート (永遠の噴水)",
       "time": "06:00–18:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Alcamoth area reached",
+      "requirementsRaw": "皇都アカモートに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -10589,14 +10589,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-alcamoth-search-quest-4-23055241",
-      "name": "Search Quest 4",
-      "area": "Alcamoth",
+      "name": "おさがしクエスト4",
+      "area": "皇都アカモート",
       "giverId": "resident-alcamoth-citizen-c9bd73",
-      "location": "Alcamoth (Fountain of Hope)",
+      "location": "皇都アカモート (希望の噴水)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Alcamoth area reached",
+      "requirementsRaw": "皇都アカモートに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -10604,14 +10604,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-valak-mountain-chilkins-and-antols-1b62b6c9",
-      "name": "Chilkins and Antols",
-      "area": "Valak Mountain",
+      "name": "チルキンかアントルか",
+      "area": "ヴァラク雪山",
       "giverId": "resident-a-nopon-researcher-04e99e",
-      "location": "Valak Mountain (Nopon Camp) · Anytime",
+      "location": "ヴァラク雪山（ノポンキャンプ） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Valak Mountain area reached",
+      "requirementsRaw": "ヴァラク雪山に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -10619,14 +10619,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-valak-mountain-valak-mountain-research-5103e920",
-      "name": "Valak Mountain Research",
-      "area": "Valak Mountain",
+      "name": "ヴァラク雪山展望調査",
+      "area": "ヴァラク雪山",
       "giverId": "resident-a-nopon-researcher-04e99e",
-      "location": "Valak Mountain (Nopon Camp) · Anytime",
+      "location": "ヴァラク雪山（ノポンキャンプ） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Valak Mountain area reached\r\nChilkins and Antols",
+      "requirementsRaw": "ヴァラク雪山に到達\nチルキンかアントルか",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -10634,14 +10634,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-valak-mountain-the-freezing-nopon-5be11969",
-      "name": "The Freezing Nopon",
-      "area": "Valak Mountain",
+      "name": "ブルブルノポン",
+      "area": "ヴァラク雪山",
       "giverId": "resident-a-nopon-researcher-04e99e",
-      "location": "Valak Mountain (Hollow Bone) · Anytime",
+      "location": "ヴァラク雪山（巨神の環状骨） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Valak Mountain area reached",
+      "requirementsRaw": "ヴァラク雪山に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -10649,14 +10649,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-valak-mountain-bad-timing-b1b67242",
-      "name": "Bad Timing",
-      "area": "Valak Mountain",
+      "name": "バッドタイミング",
+      "area": "ヴァラク雪山",
       "giverId": "resident-a-nopon-researcher-04e99e",
-      "location": "Valak Mountain (Great Glacier) · Anytime",
+      "location": "ヴァラク雪山（大氷河地帯） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Valak Mountain area reached\r\nThe Magma Rock",
+      "requirementsRaw": "ヴァラク雪山に到達\nヴァラクの熱い石",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -10664,14 +10664,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-valak-mountain-chilkin-changes-bee3a218",
-      "name": "Chilkin Changes",
-      "area": "Valak Mountain",
+      "name": "チルキン族の変化",
+      "area": "ヴァラク雪山",
       "giverId": "resident-dakuku-eeac86",
-      "location": "Valak Mountain (Nopon Camp) · Anytime",
+      "location": "ヴァラク雪山（ノポンキャンプ） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Valak Mountain area reached\r\nBad Timing",
+      "requirementsRaw": "ヴァラク雪山に到達\nバッドタイミング",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -10679,14 +10679,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-valak-mountain-the-balance-of-power-29a46cce",
-      "name": "The Balance of Power",
-      "area": "Valak Mountain",
+      "name": "パワーバランス",
+      "area": "ヴァラク雪山",
       "giverId": "resident-dakuku-eeac86",
-      "location": "Valak Mountain (Nopon Camp) · Anytime",
+      "location": "ヴァラク雪山（ノポンキャンプ） · いつでも",
       "time": "",
       "star": "",
-      "leader": "Dunban",
-      "requirementsRaw": "Valak Mountain area reached\r\nChilkin Changes\r\nDunban in the lead",
+      "leader": "ダンバン",
+      "requirementsRaw": "ヴァラク雪山に到達\nチルキン族の変化\nパーティリーダーはダンバン",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -10694,14 +10694,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-valak-mountain-the-missing-partner-1c795354",
-      "name": "The Missing Partner",
-      "area": "Valak Mountain",
+      "name": "帰ってこない相棒",
+      "area": "ヴァラク雪山",
       "giverId": "resident-kurralth-b347ae",
-      "location": "Valak Mountain (Harict Chapel) · Anytime",
+      "location": "ヴァラク雪山（ハリクト礼拝堂） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Mechonis Core cleared\r\nAdventurers in Peril not completed",
+      "requirementsRaw": "機神界中枢をクリア\n冒険者達の遭難は未達成",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -10709,14 +10709,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-valak-mountain-the-final-giants-ruins-1534830f",
-      "name": "The Final Giants' Ruins",
-      "area": "Valak Mountain",
+      "name": "巨人族最後の遺跡",
+      "area": "ヴァラク雪山",
       "giverId": "resident-zain-f6a8bc",
-      "location": "Valak Mountain (Harict Chapel) · Anytime",
+      "location": "ヴァラク雪山（ハリクト礼拝堂） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Mechonis Core cleared\r\nThe Missing Partner or Adventurers in Peril",
+      "requirementsRaw": "機神界中枢をクリア\n帰ってこない相棒 or 冒険者達の遭難",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -10724,14 +10724,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-valak-mountain-the-giants-treasures-9a24d5b0",
-      "name": "The Giants' Treasures",
-      "area": "Valak Mountain",
+      "name": "巨人族三種の神器",
+      "area": "ヴァラク雪山",
       "giverId": "resident-zain-f6a8bc",
-      "location": "Valak Mountain (Harict Chapel) · Anytime",
+      "location": "ヴァラク雪山（ハリクト礼拝堂） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Mechonis Core cleared\r\nThe Final Giants' Ruins accepted",
+      "requirementsRaw": "機神界中枢をクリア\n巨人族最後の遺跡を受注済み",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -10739,14 +10739,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-valak-mountain-monster-quest-1-c8c37227",
-      "name": "Monster Quest 1",
-      "area": "Valak Mountain",
+      "name": "討伐クエストその1",
+      "area": "ヴァラク雪山",
       "giverId": "resident-a-nopon-researcher-04e99e",
-      "location": "Valak Mountain (Zokhed Pass)",
+      "location": "ヴァラク雪山 (ゾックヘッド峠)",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Valak Mountain area reached",
+      "requirementsRaw": "ヴァラク雪山に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -10754,14 +10754,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-valak-mountain-monster-quest-2-4447734f",
-      "name": "Monster Quest 2",
-      "area": "Valak Mountain",
+      "name": "討伐クエスト 2",
+      "area": "ヴァラク雪山",
       "giverId": "resident-a-nopon-researcher-04e99e",
-      "location": "Valak Mountain (Zokhed Pass)",
+      "location": "ヴァラク雪山 (ゾックヘッド峠)",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Valak Mountain area reached",
+      "requirementsRaw": "ヴァラク雪山に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -10769,14 +10769,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-valak-mountain-monster-quest-3-6c2b7de9",
-      "name": "Monster Quest 3",
-      "area": "Valak Mountain",
+      "name": "討伐クエストその3",
+      "area": "ヴァラク雪山",
       "giverId": "resident-a-nopon-researcher-04e99e",
-      "location": "Valak Mountain (Zokhed Pass)",
+      "location": "ヴァラク雪山 (ゾックヘッド峠)",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Valak Mountain area reached",
+      "requirementsRaw": "ヴァラク雪山に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -10784,14 +10784,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-valak-mountain-monster-quest-4-4dc843a9",
-      "name": "Monster Quest 4",
-      "area": "Valak Mountain",
+      "name": "討伐クエストその4",
+      "area": "ヴァラク雪山",
       "giverId": "resident-a-nopon-researcher-04e99e",
-      "location": "Valak Mountain (Zokhed Pass)",
+      "location": "ヴァラク雪山 (ゾックヘッド峠)",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Valak Mountain area reached",
+      "requirementsRaw": "ヴァラク雪山に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -10799,10 +10799,10 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-valak-mountain-the-magma-rock-be7e2048",
-      "name": "The Magma Rock",
-      "area": "Valak Mountain",
+      "name": "ヴァラクの熱い石",
+      "area": "ヴァラク雪山",
       "giverId": "resident-story-quest-09cfce",
-      "location": "Valak Mountain (Sealed Tower)",
+      "location": "ヴァラク雪山 (封印の塔)",
       "time": "",
       "star": "",
       "leader": "",
@@ -10815,9 +10815,9 @@ const AFFINITY_DATA={
     {
       "id": "quest-sword-valley-secure-dolgan-outpost-b6ba581d",
       "name": "Secure Dolgan Outpost",
-      "area": "Sword Valley, Galahad Fortress & Mechonis Core",
+      "area": "大剣の渓谷, ガラハド要塞 & 機神界中枢",
       "giverId": "resident-surprise-quest-86bd80",
-      "location": "Sword Valley (Dolgan Outpost) · Automatic",
+      "location": "大剣の渓谷（ドルガン監視砦） · 自動",
       "time": "",
       "star": "",
       "leader": "",
@@ -10830,9 +10830,9 @@ const AFFINITY_DATA={
     {
       "id": "quest-sword-valley-secure-enalda-control-base-f74387a5",
       "name": "Secure Enalda Control Base",
-      "area": "Sword Valley, Galahad Fortress & Mechonis Core",
+      "area": "大剣の渓谷, ガラハド要塞 & 機神界中枢",
       "giverId": "resident-surprise-quest-86bd80",
-      "location": "Sword Valley (Enalda Control Base)",
+      "location": "大剣の渓谷 (エナルダ管理基地)",
       "time": "",
       "star": "",
       "leader": "",
@@ -10845,9 +10845,9 @@ const AFFINITY_DATA={
     {
       "id": "quest-sword-valley-3rd-gate-front-line-29a8066d",
       "name": "3rd Gate Front Line",
-      "area": "Sword Valley, Galahad Fortress & Mechonis Core",
+      "area": "大剣の渓谷, ガラハド要塞 & 機神界中枢",
       "giverId": "resident-surprise-quest-86bd80",
-      "location": "Sword Valley (3rd Gate)",
+      "location": "大剣の渓谷 (第3ゲート)",
       "time": "",
       "star": "",
       "leader": "",
@@ -10860,9 +10860,9 @@ const AFFINITY_DATA={
     {
       "id": "quest-sword-valley-secure-the-radio-tower-78dba9cf",
       "name": "Secure the Radio Tower",
-      "area": "Sword Valley, Galahad Fortress & Mechonis Core",
+      "area": "大剣の渓谷, ガラハド要塞 & 機神界中枢",
       "giverId": "resident-surprise-quest-86bd80",
-      "location": "Sword Valley (Radio Tower)",
+      "location": "大剣の渓谷 (電波塔)",
       "time": "",
       "star": "",
       "leader": "",
@@ -10875,9 +10875,9 @@ const AFFINITY_DATA={
     {
       "id": "quest-sword-valley-lift-battle-b601ae54",
       "name": "Lift Battle",
-      "area": "Sword Valley, Galahad Fortress & Mechonis Core",
+      "area": "大剣の渓谷, ガラハド要塞 & 機神界中枢",
       "giverId": "resident-story-quest-09cfce",
-      "location": "Galahad Fortress (Main Maintenance Bay) · Automatic",
+      "location": "ガラハド要塞（中央整備室） · 自動",
       "time": "",
       "star": "",
       "leader": "",
@@ -10890,9 +10890,9 @@ const AFFINITY_DATA={
     {
       "id": "quest-sword-valley-supply-station-battle-d408cebf",
       "name": "Supply Station Battle",
-      "area": "Sword Valley, Galahad Fortress & Mechonis Core",
+      "area": "大剣の渓谷, ガラハド要塞 & 機神界中枢",
       "giverId": "resident-story-quest-09cfce",
-      "location": "Galahad Fortress (Main Control Room) · Automatic",
+      "location": "ガラハド要塞（エーテル溶鉱炉管制室） · 自動",
       "time": "",
       "star": "",
       "leader": "",
@@ -10905,9 +10905,9 @@ const AFFINITY_DATA={
     {
       "id": "quest-sword-valley-turbine-battle-b3f2fea9",
       "name": "Turbine Battle",
-      "area": "Sword Valley, Galahad Fortress & Mechonis Core",
+      "area": "大剣の渓谷, ガラハド要塞 & 機神界中枢",
       "giverId": "resident-story-quest-09cfce",
-      "location": "Galahad Fortress (Main Control Room) · Automatic",
+      "location": "ガラハド要塞（エーテル溶鉱炉管制室） · 自動",
       "time": "",
       "star": "",
       "leader": "",
@@ -10920,9 +10920,9 @@ const AFFINITY_DATA={
     {
       "id": "quest-sword-valley-fiora-s-conviction-242777dd",
       "name": "Fiora's Conviction",
-      "area": "Sword Valley, Galahad Fortress & Mechonis Core",
+      "area": "大剣の渓谷, ガラハド要塞 & 機神界中枢",
       "giverId": "resident-story-quest-09cfce",
-      "location": "Galahad Fortress (Face Maintenance Bay) · Automatic",
+      "location": "ガラハド要塞 (Face Maintenance Bay) · Automatic",
       "time": "",
       "star": "",
       "leader": "",
@@ -10935,13 +10935,13 @@ const AFFINITY_DATA={
     {
       "id": "quest-sword-valley-chase-dickson-331c7524",
       "name": "Chase Dickson",
-      "area": "Sword Valley, Galahad Fortress & Mechonis Core",
+      "area": "大剣の渓谷, ガラハド要塞 & 機神界中枢",
       "giverId": "resident-story-quest-09cfce",
-      "location": "Prison Island (Behemoth Nest) · Automatic",
+      "location": "監獄島（ベヒモスの巣） · 自動",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Prison Island area reached for the second time",
+      "requirementsRaw": "監獄島 area reached for the second time",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -10950,13 +10950,13 @@ const AFFINITY_DATA={
     {
       "id": "quest-sword-valley-path-to-the-top-94cea14c",
       "name": "Path to the Top",
-      "area": "Sword Valley, Galahad Fortress & Mechonis Core",
+      "area": "大剣の渓谷, ガラハド要塞 & 機神界中枢",
       "giverId": "resident-story-quest-09cfce",
-      "location": "Prison Island (Corridor of Silence) · Automatic",
+      "location": "監獄島（静寂の回廊） · 自動",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Prison Island area reached for the second time\nChase Dickson.",
+      "requirementsRaw": "監獄島 area reached for the second time\nChase ディクソン.",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -10964,14 +10964,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-fallen-arm-save-the-machina-6988cd50",
-      "name": "Save the Machina!",
-      "area": "Fallen Arm",
+      "name": "同胞を救え！",
+      "area": "落ちた腕",
       "giverId": "resident-voltak-f7f032",
-      "location": "Fallen Arm (Junks) · Anytime",
+      "location": "落ちた腕（ジャンクス） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Hidden Machina Village reached",
+      "requirementsRaw": "マシーナの隠れ里に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -10979,14 +10979,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-fallen-arm-eliminate-the-threat-67ffcc4b",
-      "name": "Eliminate the Threat",
-      "area": "Fallen Arm",
+      "name": "同胞のために出来ること",
+      "area": "落ちた腕",
       "giverId": "resident-voltak-f7f032",
-      "location": "Fallen Arm (Junks) · Anytime",
+      "location": "落ちた腕（ジャンクス） · いつでも",
       "time": "",
       "star": "1½",
       "leader": "",
-      "requirementsRaw": "Save the Machina!\r\nHidden Village ☆1½",
+      "requirementsRaw": "同胞を救え！\nHidden Village ☆1½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -10994,14 +10994,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-fallen-arm-mysterious-noises-309a4964",
-      "name": "Mysterious Noises",
-      "area": "Fallen Arm",
+      "name": "水汲みの不安",
+      "area": "落ちた腕",
       "giverId": "resident-prox-6ae2d8",
-      "location": "Fallen Arm (Ether Light)",
+      "location": "落ちた腕（エーテル Light）",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Hidden Machina Village reached",
+      "requirementsRaw": "マシーナの隠れ里に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -11009,14 +11009,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-fallen-arm-protect-the-village-5ab3ee62",
-      "name": "Protect the Village",
-      "area": "Fallen Arm",
+      "name": "里の無事を確保して",
+      "area": "落ちた腕",
       "giverId": "resident-eleqa-a8d5f8",
-      "location": "Fallen Arm (Hidden Machina Village)",
+      "location": "落ちた腕 (マシーナの隠れ里)",
       "time": "06:00–18:00",
       "star": "1¼",
       "leader": "",
-      "requirementsRaw": "Hidden Machina Village reached\r\nHidden Village ☆1¼",
+      "requirementsRaw": "マシーナの隠れ里に到達\nHidden Village ☆1¼",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -11024,14 +11024,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-fallen-arm-stop-the-mechon-rampage-f7d7d644",
-      "name": "Stop the Mechon Rampage!",
-      "area": "Fallen Arm",
+      "name": "機神兵大量討伐！",
+      "area": "落ちた腕",
       "giverId": "resident-eleqa-a8d5f8",
-      "location": "Fallen Arm (Hidden Machina Village)",
+      "location": "落ちた腕 (マシーナの隠れ里)",
       "time": "06:00–18:00",
       "star": "1½",
       "leader": "",
-      "requirementsRaw": "Hidden Machina Village reached\r\nProtect the Village\r\nHidden Village ☆1½",
+      "requirementsRaw": "マシーナの隠れ里に到達\n里の無事を確保して\nHidden Village ☆1½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -11039,14 +11039,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-fallen-arm-stunted-growth-2d12d5d5",
-      "name": "Stunted Growth",
-      "area": "Fallen Arm",
+      "name": "成長するために！",
+      "area": "落ちた腕",
       "giverId": "resident-orkatix-ac0908",
-      "location": "Fallen Arm (Junks) · Anytime",
+      "location": "落ちた腕（ジャンクス） · いつでも",
       "time": "",
       "star": "3½",
-      "leader": "Dunban",
-      "requirementsRaw": "After the attack on Colony 6\nVronik registered to the Affinity Chart\nHidden Village ☆3½\nDunban in the lead",
+      "leader": "ダンバン",
+      "requirementsRaw": "コロニー6への襲撃のあと\nベロニカがキズナグラムに登録済み\nHidden Village ☆3½\nパーティリーダーはダンバン",
       "requiredResidentIds": [
         "resident-vronik-9a1f4d"
       ],
@@ -11057,13 +11057,13 @@ const AFFINITY_DATA={
     {
       "id": "quest-fallen-arm-transmission-bypass-d501f868",
       "name": "Transmission Bypass",
-      "area": "Fallen Arm",
+      "area": "落ちた腕",
       "giverId": "resident-orkatix-ac0908",
-      "location": "Fallen Arm (Junks) · Anytime",
+      "location": "落ちた腕（ジャンクス） · いつでも",
       "time": "",
       "star": "4",
       "leader": "",
-      "requirementsRaw": "After the attack on Colony 6\nVronik registered to the Affinity Chart\nHidden Village ☆4\nStunted Growth accepted",
+      "requirementsRaw": "コロニー6への襲撃のあと\nベロニカがキズナグラムに登録済み\nHidden Village ☆4\n成長するために！を受注済み",
       "requiredResidentIds": [
         "resident-vronik-9a1f4d"
       ],
@@ -11073,14 +11073,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-fallen-arm-the-exhaust-pump-5a59d384",
-      "name": "The Exhaust Pump",
-      "area": "Fallen Arm",
+      "name": "空気排出ポンプ入手",
+      "area": "落ちた腕",
       "giverId": "resident-orkatix-ac0908",
-      "location": "Fallen Arm (Junks) · Anytime",
+      "location": "落ちた腕（ジャンクス） · いつでも",
       "time": "",
       "star": "4",
       "leader": "",
-      "requirementsRaw": "After the attack on Colony 6\nVronik registered to the Affinity Chart\nHidden Village ☆4\nStunted Growth accepted",
+      "requirementsRaw": "コロニー6への襲撃のあと\nベロニカがキズナグラムに登録済み\nHidden Village ☆4\n成長するために！を受注済み",
       "requiredResidentIds": [
         "resident-vronik-9a1f4d"
       ],
@@ -11090,14 +11090,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-fallen-arm-the-mini-reactor-98a23b5e",
-      "name": "The Mini Reactor",
-      "area": "Fallen Arm",
+      "name": "高性能小型動力炉入手",
+      "area": "落ちた腕",
       "giverId": "resident-orkatix-ac0908",
-      "location": "Fallen Arm (Junks) · Anytime",
+      "location": "落ちた腕（ジャンクス） · いつでも",
       "time": "",
       "star": "4",
       "leader": "",
-      "requirementsRaw": "After the attack on Colony 6\nVronik registered to the Affinity Chart\nHidden Village ☆4\nStunted Growth accepted",
+      "requirementsRaw": "コロニー6への襲撃のあと\nベロニカがキズナグラムに登録済み\nHidden Village ☆4\n成長するために！を受注済み",
       "requiredResidentIds": [
         "resident-vronik-9a1f4d"
       ],
@@ -11107,14 +11107,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-fallen-arm-the-history-of-mechonis-a92d0c19",
-      "name": "The History of Mechonis",
-      "area": "Fallen Arm",
+      "name": "機神界の歴史",
+      "area": "落ちた腕",
       "giverId": "resident-zilex-72782e",
-      "location": "Fallen Arm (Junks) · Anytime",
+      "location": "落ちた腕（ジャンクス） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Access to Mechonis Field",
+      "requirementsRaw": "機神界フィールドへ入れる",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -11122,14 +11122,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-fallen-arm-the-history-of-the-capital-b1ab126c",
-      "name": "The History of the Capital",
-      "area": "Fallen Arm",
+      "name": "帝都の歴史",
+      "area": "落ちた腕",
       "giverId": "resident-zilex-72782e",
-      "location": "Fallen Arm (Junks) · Anytime",
+      "location": "落ちた腕（ジャンクス） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Agniratha reached\r\nThe History of Mechonis",
+      "requirementsRaw": "帝都アグニラータに到達\n機神界の歴史",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -11137,14 +11137,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-fallen-arm-i-want-to-be-a-homs-adb96842",
-      "name": "I Want to be a Homs!",
-      "area": "Fallen Arm",
+      "name": "ホムスになりたい！",
+      "area": "落ちた腕",
       "giverId": "resident-rakzet-b08906",
-      "location": "Fallen Arm (Junks)",
+      "location": "落ちた腕 (ジャンクス)",
       "time": "00:00–21:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Hidden Machina Village reached\r\nNatalia registered on the Affinity Chart",
+      "requirementsRaw": "マシーナの隠れ里に到達\nナターリャがキズナグラムに登録済み",
       "requiredResidentIds": [
         "resident-natalia-938710"
       ],
@@ -11154,14 +11154,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-fallen-arm-powerless-277f33af",
-      "name": "Powerless",
-      "area": "Fallen Arm",
+      "name": "無力",
+      "area": "落ちた腕",
       "giverId": "resident-rakzet-b08906",
-      "location": "Fallen Arm (Junks)",
+      "location": "落ちた腕 (ジャンクス)",
       "time": "00:00–21:00",
       "star": "1½",
       "leader": "",
-      "requirementsRaw": "I Want to be a Homs!\r\nHidden Village ☆1½",
+      "requirementsRaw": "ホムスになりたい！\nHidden Village ☆1½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -11170,13 +11170,13 @@ const AFFINITY_DATA={
     {
       "id": "quest-fallen-arm-power-up-d74de4a5",
       "name": "Power up!",
-      "area": "Fallen Arm",
+      "area": "落ちた腕",
       "giverId": "resident-rakzet-b08906",
-      "location": "Fallen Arm (Junks)",
+      "location": "落ちた腕 (ジャンクス)",
       "time": "00:00–21:00",
       "star": "2",
       "leader": "",
-      "requirementsRaw": "Powerless\r\nHidden Village ☆2",
+      "requirementsRaw": "無力\nHidden Village ☆2",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -11184,14 +11184,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-fallen-arm-fixing-a-broken-door-df5fc0a3",
-      "name": "Fixing a Broken Door",
-      "area": "Fallen Arm",
+      "name": "壊れたドアの修理",
+      "area": "落ちた腕",
       "giverId": "resident-rizaka-cec598",
-      "location": "Fallen Arm (Hidden Machina Village)",
+      "location": "落ちた腕 (マシーナの隠れ里)",
       "time": "06:00–15:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Hidden Machina Village reached\r\nEleqa registered on the Affinity Chart",
+      "requirementsRaw": "マシーナの隠れ里に到達\nエレナがキズナグラムに登録済み",
       "requiredResidentIds": [
         "resident-eleqa-a8d5f8"
       ],
@@ -11201,14 +11201,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-fallen-arm-the-wilted-flower-3b17d5f3",
-      "name": "The Wilted Flower",
-      "area": "Fallen Arm",
+      "name": "花が枯れちゃう",
+      "area": "落ちた腕",
       "giverId": "resident-rizaka-cec598",
-      "location": "Fallen Arm (Hidden Machina Village)",
+      "location": "落ちた腕 (マシーナの隠れ里)",
       "time": "06:00–15:00",
       "star": "1½",
       "leader": "",
-      "requirementsRaw": "Hidden Machina Village reached\r\nVronik registered on the Affinity Chart\r\nFixing a Broken Door\r\nHidden Village ☆1½",
+      "requirementsRaw": "マシーナの隠れ里に到達\nベロニカがキズナグラムに登録済み\n壊れたドアの修理\nHidden Village ☆1½",
       "requiredResidentIds": [
         "resident-vronik-9a1f4d"
       ],
@@ -11218,14 +11218,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-fallen-arm-the-oath-sword-ed4e9dff",
-      "name": "The Oath Sword",
-      "area": "Fallen Arm",
+      "name": "約束の剣",
+      "area": "落ちた腕",
       "giverId": "resident-karlos-e247c8",
-      "location": "Fallen Arm (Hidden Machina Village)",
+      "location": "落ちた腕 (マシーナの隠れ里)",
       "time": "18:00–06:00",
       "star": "2",
-      "leader": "Fiora",
-      "requirementsRaw": "Mechonis Field reached\r\nThe Wilted Flower\r\nHidden Village ☆2\r\nFiora in the lead",
+      "leader": "フィオルン",
+      "requirementsRaw": "機神界フィールドに到達\n花が枯れちゃう\nHidden Village ☆2\nパーティリーダーはフィオルン",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -11233,14 +11233,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-fallen-arm-scheduled-inspection-c2eb28c6",
-      "name": "Scheduled Inspection",
-      "area": "Fallen Arm",
+      "name": "十年に一度の定期検査",
+      "area": "落ちた腕",
       "giverId": "resident-xekit-da4796",
-      "location": "Fallen Arm (Ether Light)",
+      "location": "落ちた腕（エーテル Light）",
       "time": "18:00–06:00",
       "star": "2½",
       "leader": "",
-      "requirementsRaw": "The Wilted Flower\r\nHidden Village ☆2½",
+      "requirementsRaw": "花が枯れちゃう\nHidden Village ☆2½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -11248,14 +11248,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-fallen-arm-a-tough-battle-0a4cdb5f",
-      "name": "A Tough Battle",
-      "area": "Fallen Arm",
+      "name": "厳しい戦い",
+      "area": "落ちた腕",
       "giverId": "resident-kazat-747d84",
-      "location": "Fallen Arm (Hidden Machina Village)",
+      "location": "落ちた腕 (マシーナの隠れ里)",
       "time": "06:00–18:00",
       "star": "2",
       "leader": "",
-      "requirementsRaw": "Hidden Machina Village reached\r\nHidden Village ☆2",
+      "requirementsRaw": "マシーナの隠れ里に到達\nHidden Village ☆2",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -11263,14 +11263,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-fallen-arm-a-weapon-just-for-me-b6c6d086",
-      "name": "A Weapon Just For Me",
-      "area": "Fallen Arm",
+      "name": "手に馴染む武器を",
+      "area": "落ちた腕",
       "giverId": "resident-kazat-747d84",
-      "location": "Fallen Arm (Hidden Machina Village)",
+      "location": "落ちた腕 (マシーナの隠れ里)",
       "time": "06:00–18:00",
       "star": "3",
       "leader": "",
-      "requirementsRaw": "Access to Mechonis Field\r\nMending Memories\r\nA Tough Battle\r\nHidden Village ☆3",
+      "requirementsRaw": "機神界フィールドへ入れる\n壊れた思い出の修復\n厳しい戦い\nHidden Village ☆3",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -11278,14 +11278,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-fallen-arm-therapy-a4f80c53",
-      "name": "Therapy",
-      "area": "Fallen Arm",
+      "name": "セラピー",
+      "area": "落ちた腕",
       "giverId": "resident-eleqa-a8d5f8",
-      "location": "Fallen Arm (Hidden Machina Village)",
+      "location": "落ちた腕 (マシーナの隠れ里)",
       "time": "06:00–18:00",
       "star": "2",
       "leader": "",
-      "requirementsRaw": "Stop the Mechon Rampage!\r\nHidden Village ☆2\r\nEleqa and Eiz affinity link yellow.",
+      "requirementsRaw": "機神兵大量討伐！\nHidden Village ☆2\nエレナとアインのキズナリンクは黄色。",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -11293,14 +11293,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-fallen-arm-mending-memories-b698e5dc",
-      "name": "Mending Memories",
-      "area": "Fallen Arm",
+      "name": "壊れた思い出の修復",
+      "area": "落ちた腕",
       "giverId": "resident-mixik-9ccc53",
-      "location": "Fallen Arm (Junks)",
+      "location": "落ちた腕 (ジャンクス)",
       "time": "21:00–03:00",
       "star": "1½",
       "leader": "",
-      "requirementsRaw": "Access to Mechonis Field\r\nHidden Village ☆1½",
+      "requirementsRaw": "機神界フィールドへ入れる\nHidden Village ☆1½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -11308,14 +11308,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-fallen-arm-resolution-father-dfeb23c7",
-      "name": "Resolution - Father",
-      "area": "Fallen Arm",
+      "name": "問題解決・パパ編",
+      "area": "落ちた腕",
       "giverId": "resident-kazat-747d84",
-      "location": "Fallen Arm (Hidden Machina Village)",
+      "location": "落ちた腕 (マシーナの隠れ里)",
       "time": "06:00–18:00",
       "star": "1½",
       "leader": "",
-      "requirementsRaw": "Access to Mechonis Field\r\nMending Memories accepted\r\nHidden Village ☆1½",
+      "requirementsRaw": "機神界フィールドへ入れる\n壊れた思い出の修復を受注済み\nHidden Village ☆1½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -11323,14 +11323,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-fallen-arm-resolution-mother-42b28709",
-      "name": "Resolution - Mother",
-      "area": "Fallen Arm",
+      "name": "問題解決・ママ編",
+      "area": "落ちた腕",
       "giverId": "resident-qofaria-ef72e5",
-      "location": "Fallen Arm (Hidden Machina Village)",
+      "location": "落ちた腕 (マシーナの隠れ里)",
       "time": "06:00–18:00",
       "star": "1½",
       "leader": "",
-      "requirementsRaw": "Access to Mechonis Field\r\nMending Memories accepted\r\nHidden Village ☆1½",
+      "requirementsRaw": "機神界フィールドへ入れる\n壊れた思い出の修復を受注済み\nHidden Village ☆1½",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -11338,14 +11338,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-fallen-arm-food-delivery-3a437fca",
-      "name": "Food Delivery",
-      "area": "Fallen Arm",
+      "name": "食料配達",
+      "area": "落ちた腕",
       "giverId": "resident-natalia-938710",
-      "location": "Fallen Arm (Junks)",
+      "location": "落ちた腕 (ジャンクス)",
       "time": "18:00–06:00",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Hidden Machina Village reached",
+      "requirementsRaw": "マシーナの隠れ里に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -11354,13 +11354,13 @@ const AFFINITY_DATA={
     {
       "id": "quest-fallen-arm-for-my-loved-one-5e79610a",
       "name": "For my Loved One...",
-      "area": "Fallen Arm",
+      "area": "落ちた腕",
       "giverId": "resident-zarkort-84a6ab",
-      "location": "Fallen Arm (Digit 2) · Anytime",
+      "location": "落ちた腕（機神の人差し指） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Hidden Machina Village reached\r\nFood Delivery accepted and Theo spoken to",
+      "requirementsRaw": "マシーナの隠れ里に到達\n食料配達 accepted and テーオ spoken to",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -11368,14 +11368,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-fallen-arm-to-my-loved-one-3c9d0b86",
-      "name": "To My Loved One...",
-      "area": "Fallen Arm",
+      "name": "愛するヒトへ",
+      "area": "落ちた腕",
       "giverId": "resident-zarkort-84a6ab",
-      "location": "Fallen Arm (Digit 2) · Anytime",
+      "location": "落ちた腕（機神の人差し指） · いつでも",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Hidden Machina Village reached\r\nFor My Loved One...",
+      "requirementsRaw": "マシーナの隠れ里に到達\n愛するヒトに",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -11383,14 +11383,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-fallen-arm-reunion-with-fiora-b00e4e65",
-      "name": "Reunion with Fiora",
-      "area": "Fallen Arm",
+      "name": "フィオルンとの再会",
+      "area": "落ちた腕",
       "giverId": "resident-story-quest-09cfce",
       "location": "Automatic",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Fallen Arm area reached",
+      "requirementsRaw": "落ちた腕に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -11398,14 +11398,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-fallen-arm-we-made-it-4429533c",
-      "name": "We Made It",
-      "area": "Fallen Arm",
+      "name": "仲間は生きている",
+      "area": "落ちた腕",
       "giverId": "resident-story-quest-09cfce",
       "location": "Automatic",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Fallen Arm area reached\r\nReunion with Fiora",
+      "requirementsRaw": "落ちた腕に到達\nフィオルンとの再会",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -11413,14 +11413,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-fallen-arm-fiora-s-treatment-203a0705",
-      "name": "Fiora's Treatment",
-      "area": "Fallen Arm",
+      "name": "フィオルンの治療",
+      "area": "落ちた腕",
       "giverId": "resident-linada-story-quest-f1225d",
       "location": "Automatic",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Miqol met in the Hidden Machina Village",
+      "requirementsRaw": "ミゴールとマシーナの隠れ里で出会った",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -11428,14 +11428,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-mechonis-field-best-boots-349f0765",
-      "name": "Best Boots",
-      "area": "Mechonis Field",
+      "name": "愛のブーツ",
+      "area": "機神界フィールド",
       "giverId": "resident-bozatrox-5269a6",
-      "location": "Mechonis Field (Machina Refuge)",
+      "location": "機神界フィールド (マシーナの隠れ家)",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Mechonis Field area reached\r\nFor My Loved One...\r\nTo My Loved One...",
+      "requirementsRaw": "機神界フィールドに到達\n愛するヒトに\n愛するヒトへ",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -11443,14 +11443,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-mechonis-field-monster-quest-mechonis-field-eac3d06b",
-      "name": "Monster Quest (Mechonis Field)",
-      "area": "Mechonis Field",
+      "name": "討伐クエスト (機神界フィールド)",
+      "area": "機神界フィールド",
       "giverId": "resident-a-garrisoned-troop-machina-3bde52",
-      "location": "Mechonis Field (Machina Refuge)",
+      "location": "機神界フィールド (マシーナの隠れ家)",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Mechonis Field area reached",
+      "requirementsRaw": "機神界フィールドに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -11458,14 +11458,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-mechonis-field-challenge-quest-1-mechonis-field-4cf669b1",
-      "name": "Challenge Quest 1 (Mechonis Field)",
-      "area": "Mechonis Field",
+      "name": "強敵を求めてその1 (機神界フィールド)",
+      "area": "機神界フィールド",
       "giverId": "resident-a-garrisoned-troop-machina-3bde52",
-      "location": "Mechonis Field (Machina Refuge)",
+      "location": "機神界フィールド (マシーナの隠れ家)",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Mechonis Field area reached",
+      "requirementsRaw": "機神界フィールドに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -11473,14 +11473,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-mechonis-field-challenge-quest-2-mechonis-field-85c5b30a",
-      "name": "Challenge Quest 2 (Mechonis Field)",
-      "area": "Mechonis Field",
+      "name": "強敵を求めてその2 (機神界フィールド)",
+      "area": "機神界フィールド",
       "giverId": "resident-a-garrisoned-troop-machina-3bde52",
-      "location": "Mechonis Field (Machina Refuge)",
+      "location": "機神界フィールド (マシーナの隠れ家)",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Mechonis Field area reached",
+      "requirementsRaw": "機神界フィールドに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -11488,14 +11488,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-mechonis-field-aiming-for-the-top-dc2d2e44",
-      "name": "Aiming for the Top",
-      "area": "Mechonis Field",
+      "name": "上層を目指せ",
+      "area": "機神界フィールド",
       "giverId": "resident-story-quest-09cfce",
-      "location": "Mechonis Field (2nd Lift - GF) · Automatic",
+      "location": "機神界フィールド（第2リフト 1Ｆ） · 自動",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Mechonis Field area reached",
+      "requirementsRaw": "機神界フィールドに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -11503,14 +11503,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-mechonis-field-get-the-3rd-lift-moving-73bf4423",
-      "name": "Get the 3rd Lift Moving",
-      "area": "Mechonis Field",
+      "name": "第3リフトを起動しろ",
+      "area": "機神界フィールド",
       "giverId": "resident-story-quest-09cfce",
-      "location": "Mechonis Field (2nd Lift - 1F) · Automatic",
+      "location": "機神界フィールド（第2リフト 2Ｆ） · 自動",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Mechonis Field area reached\r\nAiming for the Top",
+      "requirementsRaw": "機神界フィールドに到達\n上層を目指せ",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -11518,14 +11518,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-mechonis-field-opening-the-bulkhead-2e419184",
-      "name": "Opening the Bulkhead",
-      "area": "Mechonis Field",
+      "name": "大隔壁を開放せよ",
+      "area": "機神界フィールド",
       "giverId": "resident-story-quest-09cfce",
-      "location": "Mechonis Field (3rd Lift - 3F) · Automatic",
+      "location": "機神界フィールド（第3リフト 4Ｆ） · 自動",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Mechonis Field area reached\r\nGet the 3rd Lift Moving",
+      "requirementsRaw": "機神界フィールドに到達\n第3リフトを起動しろ",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -11533,14 +11533,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-mechonis-field-the-high-velocity-lift-7e8ecd3d",
-      "name": "The High-Velocity Lift",
-      "area": "Mechonis Field",
+      "name": "高速リフトを起動せよ",
+      "area": "機神界フィールド",
       "giverId": "resident-story-quest-09cfce",
-      "location": "Mechonis Field (Upper Bulkhead Bridge) · Automatic",
+      "location": "機神界フィールド（機神大隔壁上部連絡橋） · 自動",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Mechonis Field area reached\r\nOpening the Bulkhead",
+      "requirementsRaw": "機神界フィールドに到達\n大隔壁を開放せよ",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -11548,14 +11548,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-mechonis-field-need-power-514fff96",
-      "name": "Need Power!",
-      "area": "Mechonis Field",
+      "name": "電源を供給せよ",
+      "area": "機神界フィールド",
       "giverId": "resident-story-quest-09cfce",
-      "location": "Mechonis Field (Upper Bulkhead Bridge) · Automatic",
+      "location": "機神界フィールド（機神大隔壁上部連絡橋） · 自動",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Mechonis Field area reached\r\nOpening the Bulkhead\r\nThe High-Velocity Lift accepted",
+      "requirementsRaw": "機神界フィールドに到達\n大隔壁を開放せよ\n高速リフトを起動せよを受注済み",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -11563,14 +11563,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-central-factory-eliminate-the-backup-69778f1d",
-      "name": "Eliminate the Backup!",
-      "area": "Central Factory",
+      "name": "待機部隊を叩け！",
+      "area": "中央工廠",
       "giverId": "resident-surprise-quest-86bd80",
-      "location": "Central Factory (Storage Depot)",
+      "location": "中央工廠 (資材置き場)",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Central Factory area reached",
+      "requirementsRaw": "中央工廠に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -11578,14 +11578,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-central-factory-daring-assault-4f1db107",
-      "name": "Daring Assault",
-      "area": "Central Factory",
+      "name": "強行突破！",
+      "area": "中央工廠",
       "giverId": "resident-surprise-quest-86bd80",
-      "location": "Central Factory (Mechon Factory)",
+      "location": "中央工廠 (機神兵生産工場)",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Central Factory area reached",
+      "requirementsRaw": "中央工廠に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -11593,14 +11593,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-central-factory-roof-battle-146cab6c",
-      "name": "Roof Battle",
-      "area": "Central Factory",
+      "name": "屋上の決戦！",
+      "area": "中央工廠",
       "giverId": "resident-surprise-quest-86bd80",
-      "location": "Central Factory (Training Ground Roof)",
+      "location": "中央工廠 (演習場屋上)",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Central Factory area reached",
+      "requirementsRaw": "中央工廠に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -11608,14 +11608,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-central-factory-new-weapon-for-fiora-8c533ae1",
-      "name": "New Weapon for Fiora",
-      "area": "Central Factory",
+      "name": "フィオルンの新武器",
+      "area": "中央工廠",
       "giverId": "resident-junks-staff-92a612",
-      "location": "Central Factory (Ventilation Conduit)",
+      "location": "中央工廠 (送風機内ジャンクス前)",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Ventilation Conduit reached",
+      "requirementsRaw": "送風機内ジャンクス前に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -11623,14 +11623,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-central-factory-to-the-central-tower-8f337a65",
-      "name": "To the Central Tower",
-      "area": "Central Factory",
+      "name": "中央塔を目指せ",
+      "area": "中央工廠",
       "giverId": "resident-story-quest-09cfce",
-      "location": "Central Factory (Central Gate)",
+      "location": "中央工廠 (機神港中央ゲート)",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Central Factory area reached",
+      "requirementsRaw": "中央工廠に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -11638,14 +11638,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-central-factory-maintenance-wing-escape-4eed6fe9",
-      "name": "Maintenance Wing Escape",
-      "area": "Central Factory",
+      "name": "整備棟を抜けろ",
+      "area": "中央工廠",
       "giverId": "resident-story-quest-09cfce",
-      "location": "Central Factory (Maintenance Wing)",
+      "location": "中央工廠 (機神兵整備棟)",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Central Factory area reached\r\nTo the Central Tower",
+      "requirementsRaw": "中央工廠に到達\n中央塔を目指せ",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -11653,14 +11653,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-central-factory-find-a-path-to-the-top-ee4f7c11",
-      "name": "Find a Path to the Top",
-      "area": "Central Factory",
+      "name": "上層への道を探せ",
+      "area": "中央工廠",
       "giverId": "resident-story-quest-09cfce",
-      "location": "Central Factory (Central Warehouse Lift)",
+      "location": "中央工廠 (中央倉庫リフト)",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Central Factory area reached\r\nMaintenance Wing Escape",
+      "requirementsRaw": "中央工廠に到達\n整備棟を抜けろ",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -11668,14 +11668,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-central-factory-materials-for-a-bomb-b65dfdde",
-      "name": "Materials for a Bomb",
-      "area": "Central Factory",
+      "name": "爆弾の材料を集めろ",
+      "area": "中央工廠",
       "giverId": "resident-story-quest-09cfce",
-      "location": "Central Factory (Factory Vent)",
+      "location": "中央工廠 (生産工場通風孔)",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Central Factory area reached\r\nMaintenance Wing Escape\r\nFind a Path to the Top accepted",
+      "requirementsRaw": "中央工廠に到達\n整備棟を抜けろ\n上層への道を探せを受注済み",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -11683,14 +11683,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-central-factory-the-central-tower-barrier-500279fe",
-      "name": "The Central Tower Barrier",
-      "area": "Central Factory",
+      "name": "中央塔の障壁",
+      "area": "中央工廠",
       "giverId": "resident-story-quest-09cfce",
-      "location": "Central Factory (Tower Boarding Gate)",
+      "location": "中央工廠 (中央塔搭乗口)",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Central Factory area reached\r\nFind a Path to the Top\r\nMaterials for a Bomb",
+      "requirementsRaw": "中央工廠に到達\n上層への道を探せ\n爆弾の材料を集めろ",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -11698,14 +11698,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-agniratha-civil-protection-1-1-ebee732b",
-      "name": "Civil Protection 1 - 1",
-      "area": "Agniratha",
+      "name": "治安維持1その1",
+      "area": "帝都アグニラータ",
       "giverId": "resident-civil-protection-terminal-b8bac8",
-      "location": "Anytime · Agniratha (Central Tower)",
+      "location": "いつでも · 帝都アグニラータ（帝都中枢タワー）",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Agniratha area reached",
+      "requirementsRaw": "帝都アグニラータに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -11713,14 +11713,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-agniratha-civil-protection-1-2-f572883d",
-      "name": "Civil Protection 1 - 2",
-      "area": "Agniratha",
+      "name": "治安維持1その2",
+      "area": "帝都アグニラータ",
       "giverId": "resident-civil-protection-terminal-b8bac8",
-      "location": "Anytime · Agniratha (Central Tower)",
+      "location": "いつでも · 帝都アグニラータ（帝都中枢タワー）",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Agniratha area reached",
+      "requirementsRaw": "帝都アグニラータに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -11728,14 +11728,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-agniratha-civil-protection-1-3-21fd2dda",
-      "name": "Civil Protection 1 - 3",
-      "area": "Agniratha",
+      "name": "治安維持1その3",
+      "area": "帝都アグニラータ",
       "giverId": "resident-civil-protection-terminal-b8bac8",
-      "location": "Anytime · Agniratha (Central Tower)",
+      "location": "いつでも · 帝都アグニラータ（帝都中枢タワー）",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Agniratha area reached",
+      "requirementsRaw": "帝都アグニラータに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -11743,14 +11743,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-agniratha-civil-protection-2-1-d971bfe2",
-      "name": "Civil Protection 2 - 1",
-      "area": "Agniratha",
+      "name": "治安維持2その1",
+      "area": "帝都アグニラータ",
       "giverId": "resident-civil-protection-terminal-b8bac8",
-      "location": "Anytime · Agniratha (Central Tower)",
+      "location": "いつでも · 帝都アグニラータ（帝都中枢タワー）",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Agniratha area reached",
+      "requirementsRaw": "帝都アグニラータに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -11758,14 +11758,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-agniratha-civil-protection-2-2-3e6ae032",
-      "name": "Civil Protection 2 - 2",
-      "area": "Agniratha",
+      "name": "治安維持2その2",
+      "area": "帝都アグニラータ",
       "giverId": "resident-civil-protection-terminal-b8bac8",
-      "location": "Anytime · Agniratha (Central Tower)",
+      "location": "いつでも · 帝都アグニラータ（帝都中枢タワー）",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Agniratha area reached",
+      "requirementsRaw": "帝都アグニラータに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -11773,14 +11773,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-agniratha-civil-protection-2-3-8ba84a67",
-      "name": "Civil Protection 2 - 3",
-      "area": "Agniratha",
+      "name": "治安維持2その3",
+      "area": "帝都アグニラータ",
       "giverId": "resident-civil-protection-terminal-b8bac8",
-      "location": "Anytime · Agniratha (Central Tower)",
+      "location": "いつでも · 帝都アグニラータ（帝都中枢タワー）",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Agniratha area reached",
+      "requirementsRaw": "帝都アグニラータに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -11788,14 +11788,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-agniratha-military-status-1-1-b90b5037",
-      "name": "Military Status 1 - 1",
-      "area": "Agniratha",
+      "name": "兵力均衡1その1",
+      "area": "帝都アグニラータ",
       "giverId": "resident-military-status-terminal-505ed1",
-      "location": "Anytime · Agniratha (Central Tower)",
+      "location": "いつでも · 帝都アグニラータ（帝都中枢タワー）",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Agniratha area reached",
+      "requirementsRaw": "帝都アグニラータに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -11803,14 +11803,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-agniratha-military-status-1-2-2bf37cdf",
-      "name": "Military Status 1 - 2",
-      "area": "Agniratha",
+      "name": "兵力均衡1その2",
+      "area": "帝都アグニラータ",
       "giverId": "resident-military-status-terminal-505ed1",
-      "location": "Anytime · Agniratha (Central Tower)",
+      "location": "いつでも · 帝都アグニラータ（帝都中枢タワー）",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Agniratha area reached",
+      "requirementsRaw": "帝都アグニラータに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -11818,14 +11818,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-agniratha-military-status-2-1-7939a579",
-      "name": "Military Status 2 - 1",
-      "area": "Agniratha",
+      "name": "兵力均衡2その1",
+      "area": "帝都アグニラータ",
       "giverId": "resident-military-status-terminal-505ed1",
-      "location": "Anytime · Agniratha (Central Tower)",
+      "location": "いつでも · 帝都アグニラータ（帝都中枢タワー）",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Agniratha area reached",
+      "requirementsRaw": "帝都アグニラータに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -11833,14 +11833,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-agniratha-military-status-2-2-e9fdc7b6",
-      "name": "Military Status 2 - 2",
-      "area": "Agniratha",
+      "name": "兵力均衡2その2",
+      "area": "帝都アグニラータ",
       "giverId": "resident-military-status-terminal-505ed1",
-      "location": "Anytime · Agniratha (Central Tower)",
+      "location": "いつでも · 帝都アグニラータ（帝都中枢タワー）",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Agniratha area reached",
+      "requirementsRaw": "帝都アグニラータに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -11848,14 +11848,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-agniratha-agniratha-beautification-1-6713e319",
-      "name": "Agniratha Beautification 1",
-      "area": "Agniratha",
+      "name": "アグニラータ美化その1",
+      "area": "帝都アグニラータ",
       "giverId": "resident-city-planning-terminal-8c6c05",
-      "location": "Anytime · Agniratha (Central Tower)",
+      "location": "いつでも · 帝都アグニラータ（帝都中枢タワー）",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Agniratha area reached",
+      "requirementsRaw": "帝都アグニラータに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -11863,14 +11863,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-agniratha-agniratha-beautification-2-0897fb93",
-      "name": "Agniratha Beautification 2",
-      "area": "Agniratha",
+      "name": "アグニラータ美化その2",
+      "area": "帝都アグニラータ",
       "giverId": "resident-city-planning-terminal-8c6c05",
-      "location": "Anytime · Agniratha (Central Tower)",
+      "location": "いつでも · 帝都アグニラータ（帝都中枢タワー）",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Agniratha area reached",
+      "requirementsRaw": "帝都アグニラータに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -11878,14 +11878,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-agniratha-telethia-investigation-1-68bb3d59",
-      "name": "Telethia Investigation 1",
-      "area": "Agniratha",
+      "name": "テレシア調査その1",
+      "area": "帝都アグニラータ",
       "giverId": "resident-strategic-intel-terminal-ce7777",
-      "location": "Anytime · Agniratha (Central Tower)",
+      "location": "いつでも · 帝都アグニラータ（帝都中枢タワー）",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Agniratha area reached",
+      "requirementsRaw": "帝都アグニラータに到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -11893,14 +11893,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-agniratha-telethia-investigation-2-1d09e743",
-      "name": "Telethia Investigation 2",
-      "area": "Agniratha",
+      "name": "テレシア調査その2",
+      "area": "帝都アグニラータ",
       "giverId": "resident-strategic-intel-terminal-ce7777",
-      "location": "Anytime · Agniratha (Central Tower)",
+      "location": "いつでも · 帝都アグニラータ（帝都中枢タワー）",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Agniratha area reached\r\nTelethia Investigation 1",
+      "requirementsRaw": "帝都アグニラータに到達\nテレシア調査その1",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": true,
@@ -11908,8 +11908,8 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-agniratha-shrine-transport-793d97cb",
-      "name": "Shrine Transport",
-      "area": "Agniratha",
+      "name": "神殿への転送装置",
+      "area": "帝都アグニラータ",
       "giverId": "resident-story-quest-09cfce",
       "location": "Automatic",
       "time": "",
@@ -11923,8 +11923,8 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-agniratha-pillar-verification-devices-19c243b2",
-      "name": "Pillar Verification Devices",
-      "area": "Agniratha",
+      "name": "四柱の認証装置",
+      "area": "帝都アグニラータ",
       "giverId": "resident-story-quest-09cfce",
       "location": "Automatic",
       "time": "",
@@ -11938,14 +11938,14 @@ const AFFINITY_DATA={
     },
     {
       "id": "quest-agniratha-save-bionis-45732bab",
-      "name": "Save Bionis",
-      "area": "Agniratha",
+      "name": "巨神界の崩壊を止める",
+      "area": "帝都アグニラータ",
       "giverId": "resident-story-quest-09cfce",
       "location": "Automatic",
       "time": "",
       "star": "",
       "leader": "",
-      "requirementsRaw": "Mechonis Core reached",
+      "requirementsRaw": "機神界中枢に到達",
       "requiredResidentIds": [],
       "mutuallyExclusive": [],
       "timed": false,
@@ -11955,7 +11955,7 @@ const AFFINITY_DATA={
   "choices": [
     {
       "questId": "quest-colony-9-romantic-notions-of-a-girl-66b7b8cf",
-      "quest": "Romantic Notions of a Girl",
+      "quest": "恋愛成就・女性編",
       "alternatives": [
         "quest-colony-9-romantic-notions-of-a-boy-a4c3d34c"
       ],
@@ -11963,7 +11963,7 @@ const AFFINITY_DATA={
     },
     {
       "questId": "quest-colony-9-romantic-notions-of-a-boy-a4c3d34c",
-      "quest": "Romantic Notions of a Boy",
+      "quest": "恋愛成就・男性編",
       "alternatives": [
         "quest-colony-9-romantic-notions-of-a-girl-66b7b8cf"
       ],
@@ -11971,7 +11971,7 @@ const AFFINITY_DATA={
     },
     {
       "questId": "quest-colony-9-a-big-brother-s-fight-ccc402f4",
-      "quest": "A Big Brother's Fight",
+      "quest": "兄弟ゲンカ・アニキ編",
       "alternatives": [
         "quest-colony-9-a-little-brother-s-fight-c5e7ea1a"
       ],
@@ -11979,7 +11979,7 @@ const AFFINITY_DATA={
     },
     {
       "questId": "quest-colony-9-a-little-brother-s-fight-c5e7ea1a",
-      "quest": "A Little Brother's Fight",
+      "quest": "兄弟ゲンカ・オトウト編",
       "alternatives": [
         "quest-colony-9-a-big-brother-s-fight-ccc402f4"
       ],
@@ -11987,7 +11987,7 @@ const AFFINITY_DATA={
     },
     {
       "questId": "quest-bionis-leg-imaginations-tempered-f8dcc7a5",
-      "quest": "Imaginations Tempered",
+      "quest": "君が贈る物語",
       "alternatives": [
         "quest-bionis-leg-spirits-raised-166ef63c"
       ],
@@ -11995,7 +11995,7 @@ const AFFINITY_DATA={
     },
     {
       "questId": "quest-bionis-leg-spirits-raised-166ef63c",
-      "quest": "Spirits Raised",
+      "quest": "君の贈る物語",
       "alternatives": [
         "quest-bionis-leg-imaginations-tempered-f8dcc7a5"
       ],
@@ -12003,7 +12003,7 @@ const AFFINITY_DATA={
     },
     {
       "questId": "quest-colony-6-the-road-home-43a85355",
-      "quest": "The Road Home",
+      "quest": "懐かしの我が街へ",
       "alternatives": [
         "quest-colony-6-to-colony-6-d46af1a9"
       ],
@@ -12011,7 +12011,7 @@ const AFFINITY_DATA={
     },
     {
       "questId": "quest-colony-6-to-colony-6-d46af1a9",
-      "quest": "To Colony 6!",
+      "quest": "いざ、コロニー6へ",
       "alternatives": [
         "quest-colony-6-the-road-home-43a85355"
       ],
@@ -12019,7 +12019,7 @@ const AFFINITY_DATA={
     },
     {
       "questId": "quest-colony-6-miss-sweetness-showdown-berryjammy-058f80d0",
-      "quest": "Miss Sweetness Showdown (Berryjammy)",
+      "quest": "コロニー6のお嬢様 Showdown（ストロジャム）",
       "alternatives": [
         "quest-colony-6-miss-sweetness-showdown-ma-crish-91417867"
       ],
@@ -12027,7 +12027,7 @@ const AFFINITY_DATA={
     },
     {
       "questId": "quest-colony-6-miss-sweetness-showdown-ma-crish-91417867",
-      "quest": "Miss Sweetness Showdown (Ma'crish)",
+      "quest": "コロニー6のお嬢様 Showdown（ミュキシリア）",
       "alternatives": [
         "quest-colony-6-miss-sweetness-showdown-berryjammy-058f80d0"
       ],
@@ -12035,7 +12035,7 @@ const AFFINITY_DATA={
     },
     {
       "questId": "quest-colony-6-miss-sweetness-gratitude-berryjammy-150bef51",
-      "quest": "Miss Sweetness' Gratitude (Berryjammy)",
+      "quest": "お嬢様の恩返し (ストロジャム)",
       "alternatives": [
         "quest-colony-6-miss-sweetness-gratitude-ma-crish-a716ddce"
       ],
@@ -12043,7 +12043,7 @@ const AFFINITY_DATA={
     },
     {
       "questId": "quest-colony-6-miss-sweetness-gratitude-ma-crish-a716ddce",
-      "quest": "Miss Sweetness' Gratitude (Ma'crish)",
+      "quest": "お嬢様の恩返し (ミュキシリア)",
       "alternatives": [
         "quest-colony-6-miss-sweetness-gratitude-berryjammy-150bef51"
       ],
@@ -12051,7 +12051,7 @@ const AFFINITY_DATA={
     },
     {
       "questId": "quest-colony-6-the-melody-of-happiness-2c8efc23",
-      "quest": "The Melody of Happiness",
+      "quest": "興奮の中年",
       "alternatives": [
         "quest-colony-6-dream-of-a-poet-18b0ab33"
       ],
@@ -12059,7 +12059,7 @@ const AFFINITY_DATA={
     },
     {
       "questId": "quest-colony-6-dream-of-a-poet-18b0ab33",
-      "quest": "Dream of a Poet",
+      "quest": "夢中の詩人",
       "alternatives": [
         "quest-colony-6-the-melody-of-happiness-2c8efc23"
       ],
@@ -12067,7 +12067,7 @@ const AFFINITY_DATA={
     },
     {
       "questId": "quest-colony-6-what-is-love-7158159e",
-      "quest": "What is Love?!",
+      "quest": "恋愛を教えてやる！",
       "alternatives": [
         "quest-bionis-leg-imaginations-tempered-f8dcc7a5"
       ],
@@ -12075,7 +12075,7 @@ const AFFINITY_DATA={
     },
     {
       "questId": "quest-frontier-village-medical-advancements-d38e6c42",
-      "quest": "Medical Advancements",
+      "quest": "治療装置を開発！",
       "alternatives": [
         "quest-frontier-village-let-s-make-fillings-e0331e56"
       ],
@@ -12083,7 +12083,7 @@ const AFFINITY_DATA={
     },
     {
       "questId": "quest-frontier-village-let-s-make-fillings-e0331e56",
-      "quest": "Let's Make Fillings!",
+      "quest": "入れ歯を作る！",
       "alternatives": [
         "quest-frontier-village-medical-advancements-d38e6c42"
       ],
@@ -12091,7 +12091,7 @@ const AFFINITY_DATA={
     },
     {
       "questId": "quest-eryth-sea-investigating-satorl-968ac172",
-      "quest": "Investigating Satorl",
+      "quest": "ザトールの調査",
       "alternatives": [
         "quest-alcamoth-talia-s-research-d77fade7"
       ],
@@ -12099,7 +12099,7 @@ const AFFINITY_DATA={
     },
     {
       "questId": "quest-eryth-sea-the-only-thing-i-can-do-b6c15ab2",
-      "quest": "The Only Thing I Can Do",
+      "quest": "私に出来る唯一のこと",
       "alternatives": [
         "quest-alcamoth-believing-again-66f7b260"
       ],
@@ -12107,7 +12107,7 @@ const AFFINITY_DATA={
     },
     {
       "questId": "quest-alcamoth-talia-s-research-d77fade7",
-      "quest": "Talia's Research",
+      "quest": "タリアの研究",
       "alternatives": [
         "quest-eryth-sea-investigating-satorl-968ac172"
       ],
@@ -12115,7 +12115,7 @@ const AFFINITY_DATA={
     },
     {
       "questId": "quest-alcamoth-i-love-you-no-matter-what-e78badae",
-      "quest": "I Love You No Matter What",
+      "quest": "何があっても君を愛す",
       "alternatives": [
         "quest-alcamoth-together-forever-b4a3ce0a"
       ],
@@ -12123,7 +12123,7 @@ const AFFINITY_DATA={
     },
     {
       "questId": "quest-alcamoth-together-forever-b4a3ce0a",
-      "quest": "Together Forever",
+      "quest": "いつまでも君と一緒に",
       "alternatives": [
         "quest-alcamoth-i-love-you-no-matter-what-e78badae"
       ],
