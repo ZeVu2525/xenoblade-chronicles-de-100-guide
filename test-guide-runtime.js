@@ -77,7 +77,7 @@ async function makeDom({ legacy = null, previous = null, current = null, url = "
     assert(namedQuestSteps.length === count && namedQuestSteps.every(step => step.querySelector("small")?.textContent), `${id} does not show giver availability on every named quest`);
   }
   const erythQuestSteps = [...dom.window.document.querySelectorAll("#route [data-id='c8-34'] .route-subcheck")];
-  assert(erythQuestSteps.length === 4 && erythQuestSteps.every(step => step.querySelector("small")?.textContent.includes("Anytime")), "The Eryth Sea Monster/Collect quest group lacks four independently scheduled checkpoints");
+  assert(erythQuestSteps.length === 4 && erythQuestSteps.every(step => step.querySelector("small")?.textContent.includes("いつでも")), "The Eryth Sea Monster/Collect quest group lacks four independently scheduled checkpoints");
   assert([...dom.window.document.querySelectorAll("#route .it")].every(row => row.querySelectorAll(".quest-schedule-row").length <= 3), "A route card accumulated an ambiguous wall of quest-giver schedules");
   assert(dom.window.document.querySelectorAll("#quest-results .result-card .quest-schedule").length === 80, "Quest Lookup did not render a schedule for every visible quest");
   await waitFor(() => dom.window.document.querySelectorAll("#party-presets .preset").length === 17, "party presets render");
@@ -102,9 +102,9 @@ async function makeDom({ legacy = null, previous = null, current = null, url = "
   assert(document.querySelector("body > #guide-search-results")?.textContent.includes("Avalanche Abaasy"), "global search results are not portalled above the clipped header region");
   globalSearch.dispatchEvent(new KeyboardEvent("keydown", { key: "Escape", bubbles: true }));
   assert(!document.getElementById("guide-search-results"), "Escape did not dismiss global search results");
-  globalSearch.value = "Territorial Rotbart";
+  globalSearch.value = "縄張りバルバロッサ";
   globalSearch.dispatchEvent(new Event("input", { bubbles: true }));
-  await waitFor(() => document.getElementById("guide-search-results")?.textContent.includes("Monsterpedia: Territorial Rotbart"), "global search lazy Monsterpedia index");
+  await waitFor(() => document.getElementById("guide-search-results")?.textContent.includes("Monsterpedia: 縄張りバルバロッサ"), "global search lazy Monsterpedia index");
   globalSearch.value = "no-such-xenoblade-record-zzzz";
   globalSearch.dispatchEvent(new Event("input", { bubbles: true }));
   assert(!document.getElementById("guide-search-results") && document.getElementById("guide-search-count").textContent === "No matches", "empty global search results leave a click-blocking overlay");
@@ -165,7 +165,7 @@ async function makeDom({ legacy = null, previous = null, current = null, url = "
   storyFilter.dispatchEvent(new MouseEvent("click", { bubbles: true }));
   assert(document.querySelectorAll('#route .it[data-f="story"]:not(.hide)').length === 31 && document.querySelectorAll('#route .it:not([data-f="story"]):not(.hide)').length === 0, "Main Story filter does not isolate the full story spine");
   document.querySelector('#p-route .chip[data-f="all"]').dispatchEvent(new MouseEvent("click", { bubbles: true }));
-  document.getElementById("q").value = "爆弾の材料を集めろ";
+  document.getElementById("q").value = "部品を3つすべて集める";
   document.getElementById("q").dispatchEvent(new Event("input", { bubbles: true }));
   assert(document.querySelectorAll('#route .it[data-f="story"]:not(.hide)').length === 1 && document.querySelector('#route .it[data-f="story"]:not(.hide)').textContent.includes("爆弾の材料を集めろ"), "route search cannot find a formal story objective");
   document.getElementById("q").value = "";
@@ -291,12 +291,12 @@ async function makeDom({ legacy = null, previous = null, current = null, url = "
   assert(document.getElementById("p-monsters").classList.contains("on"), "arrow-key tab navigation did not activate Monsterpedia");
   await waitFor(() => document.querySelectorAll("#monster-results .result-card").length === 80, "Monsterpedia lazy render");
   const monsterSearch = document.getElementById("monster-q");
-  monsterSearch.value = "Brog Leg Meat";
+  monsterSearch.value = "グロッグのモモ肉";
   monsterSearch.dispatchEvent(new Event("input", { bubbles: true }));
   assert(document.querySelectorAll("#monster-results .result-card").length > 0, "Monsterpedia drop search returned nothing");
   assert(document.getElementById("monster-count").textContent.includes("of 866"), "Monsterpedia count is incorrect");
   assert(document.getElementById("monster-ledger").textContent.includes("0 / 12,582 drops logged"), "Monsterpedia ledger total is missing or incorrect");
-  monsterSearch.value = "Territorial Rotbart";
+  monsterSearch.value = "縄張りバルバロッサ";
   monsterSearch.dispatchEvent(new Event("input", { bubbles: true }));
   assert(document.getElementById("monster-more").hidden, "Monsterpedia pagination control is not hidden when all filtered results fit");
   assert(document.querySelector("#monster-results [data-chain-phase]")?.dataset.chainPhase === "ch12", "high-level Monsterpedia encounters fall back to the opening-party Chain Planner phase");
@@ -536,9 +536,9 @@ async function makeDom({ legacy = null, previous = null, current = null, url = "
   document.querySelector('[data-reference-view="affinity"]').dispatchEvent(new MouseEvent("click", { bubbles: true }));
   await waitFor(() => document.querySelector("#affinity-residents .collect-page"), "Affinity resident planner render");
   assert(document.querySelector("#reference-affinity .lookup-count").textContent.includes("177 resident"), "Affinity planner coverage summary is missing");
-  document.getElementById("affinity-q").value = "Dionysis";
+  document.getElementById("affinity-q").value = "ディオニージス";
   document.getElementById("affinity-q").dispatchEvent(new Event("input", { bubbles: true }));
-  assert(document.querySelector("#affinity-residents .collect-page")?.textContent.includes("Dionysis"), "Affinity resident search failed");
+  assert(document.querySelector("#affinity-residents .collect-page")?.textContent.includes("ディオニージス"), "Affinity resident search failed");
 
   document.querySelector('[data-p="completion"]').dispatchEvent(new MouseEvent("click", { bubbles: true }));
   const mobileSection = document.getElementById("hub-section-select");
